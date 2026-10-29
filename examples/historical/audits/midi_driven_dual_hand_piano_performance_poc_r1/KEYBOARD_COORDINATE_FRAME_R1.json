@@ -1,0 +1,109 @@
+{
+  "origin_native_Three": [
+    -0.092075,
+    1.16,
+    0.2929
+  ],
+  "origin_definition": "C4 horizontal center, white front edge, white top at rest",
+  "canonical_origin_m": [
+    0,
+    0,
+    0
+  ],
+  "LOW_TO_HIGH_AXIS_native": [
+    1,
+    0,
+    0
+  ],
+  "FRONT_TO_BACK_AXIS_native": [
+    0,
+    0,
+    -1
+  ],
+  "KEY_PRESS_AXIS_native": [
+    0,
+    -1,
+    0
+  ],
+  "canonical_basis_native": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "handedness": "RIGHT_HANDED x=low-to-high y=front-to-back z=up; requested ordered (low-high,front-back,press) triad is LEFT_HANDED",
+  "units": "metres, inherited equivalent-scale interpretation",
+  "metres_per_native_unit": 0.53255794,
+  "KEY_TOP_REFERENCE": "white top at rest = canonical z0; black top per key table",
+  "keyboard_front_edge": {
+    "y": 0,
+    "native_z": 0.2929
+  },
+  "rear_direction_canonical": [
+    0,
+    1,
+    0
+  ],
+  "derivation": "low-high from ordered MIDI key centers; rear from actual pivot.edge=REAR and front endpoints; up from top mesh faces. Sign of press verified by applying approved positive X rotation to front top. No world-axis guess.",
+  "sample_mapping_checks": [
+    {
+      "key_index": 0,
+      "midi_note": 21,
+      "note_name": "A0",
+      "color": "WHITE",
+      "semantic_identity": "GP_V11D_KEY_021",
+      "key_center": [
+        -0.5505850262690001,
+        0.057143466962000004,
+        -0.014645343350000043
+      ]
+    },
+    {
+      "key_index": 39,
+      "midi_note": 60,
+      "note_name": "C4",
+      "color": "WHITE",
+      "semantic_identity": "GP_V11D_KEY_060",
+      "key_center": [
+        0.0,
+        0.057143466962000004,
+        -0.014645343350000043
+      ]
+    },
+    {
+      "key_index": 48,
+      "midi_note": 69,
+      "note_name": "A4",
+      "color": "WHITE",
+      "semantic_identity": "GP_V11D_KEY_069",
+      "key_center": [
+        0.11969239701500001,
+        0.057143466962000004,
+        -0.014645343350000043
+      ]
+    },
+    {
+      "key_index": 87,
+      "midi_note": 108,
+      "note_name": "C8",
+      "color": "WHITE",
+      "semantic_identity": "GP_V11D_KEY_108",
+      "key_center": [
+        0.670277423284,
+        0.057143466962000004,
+        -0.014645343350000043
+      ]
+    }
+  ]
+}

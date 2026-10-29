@@ -1,0 +1,1445 @@
+{
+  "model": "A",
+  "summary": {
+    "R": {
+      "note_on_measured": 39,
+      "note_on_contacts_within_policy": 7,
+      "prior_note_on_pass": 9,
+      "onset_improvement_percentage_points": -5.128205128205129,
+      "max_vertical_gap_mm": 17.49985111173957,
+      "median_vertical_gap_mm": 4.996355438081961,
+      "penetrating_note_ons": 14,
+      "floating_note_ons": 9,
+      "groups": {
+        "SINGLE_NOTE": {
+          "observations": 189,
+          "labeled_all_pass": 70,
+          "unlabeled_strict_feasible": 71,
+          "unlabeled_coarse_feasible": 169,
+          "horizontal_depth_feasible": 187,
+          "attribution_counts": {
+            "NO_FAILURE": 70,
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 98,
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 18,
+            "ROOT_POSE_GEOMETRIC_FAILURE": 2,
+            "LIKELY_FINGERING_LABEL_CONFLICT": 1
+          }
+        },
+        "2_NOTE_CLUSTER": {
+          "observations": 37,
+          "labeled_all_pass": 1,
+          "unlabeled_strict_feasible": 1,
+          "unlabeled_coarse_feasible": 27,
+          "horizontal_depth_feasible": 36,
+          "attribution_counts": {
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 26,
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 9,
+            "ROOT_POSE_GEOMETRIC_FAILURE": 1,
+            "NO_FAILURE": 1
+          }
+        },
+        "3_PLUS_NOTE_CLUSTER": {
+          "observations": 1,
+          "labeled_all_pass": 0,
+          "unlabeled_strict_feasible": 0,
+          "unlabeled_coarse_feasible": 0,
+          "horizontal_depth_feasible": 1,
+          "attribution_counts": {
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 1
+          }
+        }
+      },
+      "multinote_observations": 38,
+      "multinote_coarse_feasible_fraction": 0.7105263157894737,
+      "multinote_horizontal_feasible_fraction": 0.9736842105263158,
+      "multinote_failed_observations": 37,
+      "failure_counts": {
+        "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 26,
+        "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 10,
+        "ROOT_POSE_GEOMETRIC_FAILURE": 1
+      },
+      "likely_fingering_conflict_failure_fraction": 0.0,
+      "depth_approach_failure_fraction": 0.2702702702702703,
+      "root_geometric_failure_fraction": 0.02702702702702703,
+      "palm_collision_observations": 107,
+      "wrist_collision_observations": 0,
+      "mesh_collision_observations": 288,
+      "max_translation_step_mm": 6.071715143034587,
+      "max_orientation_step_deg": 1.679361180865355,
+      "continuity_locked_limits_pass": true,
+      "numeric_finite": true
+    },
+    "L": {
+      "note_on_measured": 26,
+      "note_on_contacts_within_policy": 3,
+      "prior_note_on_pass": 4,
+      "onset_improvement_percentage_points": -3.8461538461538463,
+      "max_vertical_gap_mm": 14.362871855900051,
+      "median_vertical_gap_mm": 5.32847474268143,
+      "penetrating_note_ons": 6,
+      "floating_note_ons": 0,
+      "groups": {
+        "SINGLE_NOTE": {
+          "observations": 235,
+          "labeled_all_pass": 173,
+          "unlabeled_strict_feasible": 174,
+          "unlabeled_coarse_feasible": 229,
+          "horizontal_depth_feasible": 235,
+          "attribution_counts": {
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 55,
+            "NO_FAILURE": 173,
+            "LIKELY_FINGERING_LABEL_CONFLICT": 1,
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 6
+          }
+        },
+        "2_NOTE_CLUSTER": {
+          "observations": 80,
+          "labeled_all_pass": 3,
+          "unlabeled_strict_feasible": 3,
+          "unlabeled_coarse_feasible": 63,
+          "horizontal_depth_feasible": 73,
+          "attribution_counts": {
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 60,
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 10,
+            "NO_FAILURE": 3,
+            "ROOT_POSE_GEOMETRIC_FAILURE": 7
+          }
+        },
+        "3_PLUS_NOTE_CLUSTER": {
+          "observations": 2,
+          "labeled_all_pass": 0,
+          "unlabeled_strict_feasible": 0,
+          "unlabeled_coarse_feasible": 1,
+          "horizontal_depth_feasible": 1,
+          "attribution_counts": {
+            "ROOT_POSE_GEOMETRIC_FAILURE": 1,
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 1
+          }
+        }
+      },
+      "multinote_observations": 82,
+      "multinote_coarse_feasible_fraction": 0.7804878048780488,
+      "multinote_horizontal_feasible_fraction": 0.9024390243902439,
+      "multinote_failed_observations": 79,
+      "failure_counts": {
+        "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 61,
+        "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 10,
+        "ROOT_POSE_GEOMETRIC_FAILURE": 8
+      },
+      "likely_fingering_conflict_failure_fraction": 0.0,
+      "depth_approach_failure_fraction": 0.12658227848101267,
+      "root_geometric_failure_fraction": 0.10126582278481013,
+      "palm_collision_observations": 212,
+      "wrist_collision_observations": 0,
+      "mesh_collision_observations": 416,
+      "max_translation_step_mm": 4.383208841783769,
+      "max_orientation_step_deg": 1.3565920909200315,
+      "continuity_locked_limits_pass": true,
+      "numeric_finite": true
+    }
+  },
+  "note_on_measurements": [
+    {
+      "note_id": "n0102",
+      "hand": "R",
+      "time_sec": 0.1447916666666611,
+      "midi_note": 67,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.09134420263973256,
+        0.033324007609091925,
+        0.0007969383242788712
+      ],
+      "vertical_gap_mm": 2.829502977890968,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0103",
+      "hand": "R",
+      "time_sec": 0.2510416666666604,
+      "midi_note": 65,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.06692657263097418,
+        0.02771160209612192,
+        -0.013625858255228105
+      ],
+      "vertical_gap_mm": -13.427899712206703,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0104",
+      "hand": "R",
+      "time_sec": 0.38645833333332824,
+      "midi_note": 64,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.03684305867520337,
+        0.013482060801063168,
+        -0.0039498440355419575
+      ],
+      "vertical_gap_mm": -3.258560343982905,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0105",
+      "hand": "R",
+      "time_sec": 0.5739583333333282,
+      "midi_note": 65,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.08955491624280743,
+        0.047450813817658574,
+        -0.00014066845407422626
+      ],
+      "vertical_gap_mm": 0.9342323337560705,
+      "horizontal_in_key_error_mm": 6.194953482771839,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0106",
+      "hand": "R",
+      "time_sec": 0.6572916666666604,
+      "midi_note": 67,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.0847593450123457,
+        0.040907372027303004,
+        -0.011006779486183945
+      ],
+      "vertical_gap_mm": -9.833830625612318,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0107",
+      "hand": "R",
+      "time_sec": 0.7354166666666604,
+      "midi_note": 69,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.09694832892451324,
+        -0.010157339710396588,
+        -0.004427631657335244
+      ],
+      "vertical_gap_mm": -3.858576627012035,
+      "horizontal_in_key_error_mm": 15.087338445972259,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0108",
+      "hand": "R",
+      "time_sec": 0.8322916666666611,
+      "midi_note": 71,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.15049008879533693,
+        0.04402088228734527,
+        -0.00011182345659366865
+      ],
+      "vertical_gap_mm": 2.2909612306935734,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0113",
+      "hand": "R",
+      "time_sec": 1.1145833333333286,
+      "midi_note": 76,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.2265302216239867,
+        0.005749341073167171,
+        -0.013599151522930883
+      ],
+      "vertical_gap_mm": -10.130340737670071,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0114",
+      "hand": "R",
+      "time_sec": 1.2010416666666615,
+      "midi_note": 74,
+      "finger": 4,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.18006495891347052,
+        0.03884653091732998,
+        -0.012895329877604321
+      ],
+      "vertical_gap_mm": -12.31913349315969,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0115",
+      "hand": "R",
+      "time_sec": 1.295833333333329,
+      "midi_note": 72,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.15420234626371088,
+        0.0413414210790316,
+        -0.0002475373726582716
+      ],
+      "vertical_gap_mm": 1.7601304125714632,
+      "horizontal_in_key_error_mm": 1.822485006253538,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0116",
+      "hand": "R",
+      "time_sec": 1.4145833333333293,
+      "midi_note": 71,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.13474487178784755,
+        0.019577412300895738,
+        -0.007554669750114527
+      ],
+      "vertical_gap_mm": -4.528754449167109,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0126",
+      "hand": "R",
+      "time_sec": 2.315624999999997,
+      "midi_note": 67,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.09926102738289196,
+        0.012366187675435429,
+        -0.000811942357246059
+      ],
+      "vertical_gap_mm": 2.6771753108943668,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0127",
+      "hand": "R",
+      "time_sec": 2.415624999999997,
+      "midi_note": 69,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.13332187040651097,
+        0.04577708020491792,
+        0.005734474612327368
+      ],
+      "vertical_gap_mm": 8.0769897016247,
+      "horizontal_in_key_error_mm": 2.084948840475387,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0128",
+      "hand": "R",
+      "time_sec": 2.48020833333333,
+      "midi_note": 71,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.1577945118448274,
+        0.04159705556355865,
+        0.0012454397479729588
+      ],
+      "vertical_gap_mm": 3.400729633651645,
+      "horizontal_in_key_error_mm": 2.6191108757918355,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0129",
+      "hand": "R",
+      "time_sec": 2.6020833333333293,
+      "midi_note": 73,
+      "finger": 4,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.17387151541883364,
+        0.03528128347612375,
+        0.006175307406324258
+      ],
+      "vertical_gap_mm": -8.907581536942429,
+      "horizontal_in_key_error_mm": 14.146374072177052,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0131",
+      "hand": "R",
+      "time_sec": 2.7656249999999964,
+      "midi_note": 69,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.10084135346294805,
+        0.016827361001974104,
+        0.0020795245545645663
+      ],
+      "vertical_gap_mm": 5.417987064396772,
+      "horizontal_in_key_error_mm": 7.306519001016379,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0132",
+      "hand": "R",
+      "time_sec": 2.865624999999996,
+      "midi_note": 71,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.1474281367449683,
+        0.06024345013234194,
+        0.0006481753494103493
+      ],
+      "vertical_gap_mm": 2.4965998598603467,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0133",
+      "hand": "R",
+      "time_sec": 2.9531249999999964,
+      "midi_note": 73,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.17636883845646836,
+        0.056031220427669955,
+        -0.0005248978007769307
+      ],
+      "vertical_gap_mm": -15.56956362661541,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0136",
+      "hand": "R",
+      "time_sec": 3.147916666666662,
+      "midi_note": 76,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.19915060930074013,
+        0.030246651123572655,
+        0.0011298606602785596
+      ],
+      "vertical_gap_mm": 3.8140538498911107,
+      "horizontal_in_key_error_mm": 4.751180775224295,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0139",
+      "hand": "R",
+      "time_sec": 3.329166666666662,
+      "midi_note": 79,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.2520685149183566,
+        -0.0006996329400827855,
+        -0.009783270958426986
+      ],
+      "vertical_gap_mm": -6.632325714597804,
+      "horizontal_in_key_error_mm": 0.5229171272875163,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0140",
+      "hand": "R",
+      "time_sec": 3.422916666666662,
+      "midi_note": 81,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.29844284403996,
+        0.04992555874225485,
+        -0.0031187537898131295
+      ],
+      "vertical_gap_mm": -2.2369164759718343,
+      "horizontal_in_key_error_mm": 0.6684032607529797,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0141",
+      "hand": "R",
+      "time_sec": 3.516666666666662,
+      "midi_note": 83,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.3247777685156779,
+        0.03939193932831076,
+        -0.00899788776964517
+      ],
+      "vertical_gap_mm": -6.265935348707731,
+      "horizontal_in_key_error_mm": 2.0330117256422975,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0142",
+      "hand": "R",
+      "time_sec": 3.603124999999995,
+      "midi_note": 84,
+      "finger": 4,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.3389693001052943,
+        0.013535365415913124,
+        0.0003030860997551193
+      ],
+      "vertical_gap_mm": 0.9940040651355668,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0143",
+      "hand": "R",
+      "time_sec": 3.7145833333333282,
+      "midi_note": 83,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.3052524713989784,
+        0.03688719435700753,
+        -0.004443233231172925
+      ],
+      "vertical_gap_mm": -1.6994023923177253,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0144",
+      "hand": "R",
+      "time_sec": 3.8020833333333286,
+      "midi_note": 81,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.275785523244947,
+        0.01925234806267911,
+        -0.017940947436289257
+      ],
+      "vertical_gap_mm": -17.49985111173957,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0145",
+      "hand": "R",
+      "time_sec": 3.8833333333333275,
+      "midi_note": 79,
+      "finger": 4,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.2887469383557334,
+        0.025941082404415425,
+        0.004560287706836144
+      ],
+      "vertical_gap_mm": 7.78465028113819,
+      "horizontal_in_key_error_mm": 13.87914037169785,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0147",
+      "hand": "R",
+      "time_sec": 3.985416666666662,
+      "midi_note": 77,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.24088492198237837,
+        0.030119533203351603,
+        0.008069641094421211
+      ],
+      "vertical_gap_mm": 8.45446969389894,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0149",
+      "hand": "R",
+      "time_sec": 4.0781249999999964,
+      "midi_note": 76,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.2055011599223479,
+        0.018143792352540017,
+        -0.010525866139205408
+      ],
+      "vertical_gap_mm": -8.111334862981538,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0151",
+      "hand": "R",
+      "time_sec": 4.291666666666664,
+      "midi_note": 79,
+      "finger": 4,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.2643041500796584,
+        0.002291133728327559,
+        0.0011857998058842664
+      ],
+      "vertical_gap_mm": 3.232638051633632,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0152",
+      "hand": "R",
+      "time_sec": 4.382291666666665,
+      "midi_note": 81,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.29357374360393323,
+        0.012137446318654651,
+        -0.014008748776208889
+      ],
+      "vertical_gap_mm": -10.5117811103662,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0153",
+      "hand": "R",
+      "time_sec": 4.487499999999999,
+      "midi_note": 79,
+      "finger": 4,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.2510516694943643,
+        0.038206256237435066,
+        -0.002053607043087692
+      ],
+      "vertical_gap_mm": -1.141395230739349,
+      "horizontal_in_key_error_mm": 0.727079387600138,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0154",
+      "hand": "R",
+      "time_sec": 4.566666666666663,
+      "midi_note": 77,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.23045804329273042,
+        0.0401988798357083,
+        0.0011645188241331344
+      ],
+      "vertical_gap_mm": 3.87619028216117,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0158",
+      "hand": "R",
+      "time_sec": 4.743749999999995,
+      "midi_note": 74,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.20629827678051804,
+        0.03493395778318341,
+        0.0031850796579816877
+      ],
+      "vertical_gap_mm": 4.996355438081961,
+      "horizontal_in_key_error_mm": 3.245917005482435,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0161",
+      "hand": "R",
+      "time_sec": 4.956249999999997,
+      "midi_note": 71,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.1429188238494663,
+        0.007543959299723169,
+        -0.0021511131431679537
+      ],
+      "vertical_gap_mm": -0.6876830294991171,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0162",
+      "hand": "R",
+      "time_sec": 5.155208333333331,
+      "midi_note": 79,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.28883783662852436,
+        0.01836155633104617,
+        -0.007743843143093499
+      ],
+      "vertical_gap_mm": -6.6478536704133715,
+      "horizontal_in_key_error_mm": 13.970038644488813,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0168",
+      "hand": "R",
+      "time_sec": 5.521874999999998,
+      "midi_note": 72,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.1603832654434722,
+        0.028026280126548953,
+        -0.010371668402388966
+      ],
+      "vertical_gap_mm": -9.386199101234233,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0175",
+      "hand": "R",
+      "time_sec": 5.869791666666664,
+      "midi_note": 79,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.2632941221055609,
+        0.0236741896647205,
+        -0.010300995234385005
+      ],
+      "vertical_gap_mm": -9.679640353913287,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0181",
+      "hand": "R",
+      "time_sec": 6.242708333333329,
+      "midi_note": 72,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.16146555958466735,
+        0.026285463170204394,
+        -0.007397469722251674
+      ],
+      "vertical_gap_mm": -5.588994855683361,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0186",
+      "hand": "R",
+      "time_sec": 6.430208333333326,
+      "midi_note": 74,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.19211055820904965,
+        0.04265650963841239,
+        -0.006738415507699988
+      ],
+      "vertical_gap_mm": -4.614633317852,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0112",
+      "hand": "L",
+      "time_sec": 0.38437499999999325,
+      "midi_note": 48,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.17822597021036904,
+        0.025354664104537926,
+        0.002561105510188519
+      ],
+      "vertical_gap_mm": 2.7644543426171837,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0109",
+      "hand": "L",
+      "time_sec": 0.38541666666666075,
+      "midi_note": 60,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        0.013220931078161666,
+        0.02232679483226454,
+        -0.012290388413773473
+      ],
+      "vertical_gap_mm": -11.869915826251143,
+      "horizontal_in_key_error_mm": 1.676406527126091,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0118",
+      "hand": "L",
+      "time_sec": 1.5239583333333293,
+      "midi_note": 48,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.18671964992103907,
+        0.004873333088981448,
+        -0.00266999701771961
+      ],
+      "vertical_gap_mm": -0.9201339208685234,
+      "horizontal_in_key_error_mm": 7.605769549003494,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0119",
+      "hand": "L",
+      "time_sec": 1.5281249999999957,
+      "midi_note": 52,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.10043698980209868,
+        0.04605170809620569,
+        -0.015626793957330676
+      ],
+      "vertical_gap_mm": -13.914485419096858,
+      "horizontal_in_key_error_mm": 7.710882661865745,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0138",
+      "hand": "L",
+      "time_sec": 1.9135416666666636,
+      "midi_note": 57,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.04858689327142895,
+        0.017351292846978457,
+        -0.005702796228080288
+      ],
+      "vertical_gap_mm": -2.826448077609322,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0146",
+      "hand": "L",
+      "time_sec": 3.420833333333329,
+      "midi_note": 53,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.11705323579584855,
+        0.04635058948349255,
+        -0.00034935974447804176
+      ],
+      "vertical_gap_mm": 0.2715222467956742,
+      "horizontal_in_key_error_mm": 9.754793632812994,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0148",
+      "hand": "L",
+      "time_sec": 3.9947916666666625,
+      "midi_note": 55,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.061492298322323856,
+        0.02236138593840517,
+        -0.007132030992931784
+      ],
+      "vertical_gap_mm": -4.823623375056356,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0155",
+      "hand": "L",
+      "time_sec": 4.1999999999999975,
+      "midi_note": 57,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.04869571325056311,
+        0.0001837508056364546,
+        -0.012165906793423942
+      ],
+      "vertical_gap_mm": -7.9986175584196015,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0157",
+      "hand": "L",
+      "time_sec": 4.7322916666666615,
+      "midi_note": 54,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.0707997227554152,
+        0.07984103293312154,
+        0.007639002231875445
+      ],
+      "vertical_gap_mm": -6.627601543811628,
+      "horizontal_in_key_error_mm": 7.347829462873171,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0160",
+      "hand": "L",
+      "time_sec": 4.963541666666664,
+      "midi_note": 43,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.23045090649196076,
+        0.019008341235459202,
+        -0.01305205525655951
+      ],
+      "vertical_gap_mm": -10.22498699262524,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0163",
+      "hand": "L",
+      "time_sec": 5.059374999999999,
+      "midi_note": 47,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.16914651622876198,
+        0.051181505834562546,
+        -0.00990223141382618
+      ],
+      "vertical_gap_mm": -8.606260636010097,
+      "horizontal_in_key_error_mm": 10.816794418808119,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0164",
+      "hand": "L",
+      "time_sec": 5.163541666666664,
+      "midi_note": 50,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.142413283991825,
+        0.039135493865533236,
+        -0.0013441957008338231
+      ],
+      "vertical_gap_mm": 0.8842999415540693,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": false,
+      "contact_within_fixed_tolerances": true
+    },
+    {
+      "note_id": "n0165",
+      "hand": "L",
+      "time_sec": 5.238541666666663,
+      "midi_note": 55,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.07985917022783258,
+        -0.018312672697692666,
+        -0.015870806284249854
+      ],
+      "vertical_gap_mm": -14.35543161561536,
+      "horizontal_in_key_error_mm": 18.3180166817169,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0167",
+      "hand": "L",
+      "time_sec": 5.317708333333329,
+      "midi_note": 43,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.2550497536731294,
+        -0.005107260649646993,
+        0.0012575835283573063
+      ],
+      "vertical_gap_mm": 1.5354718925637978,
+      "horizontal_in_key_error_mm": 6.5331507375287075,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0169",
+      "hand": "L",
+      "time_sec": 5.4510416666666615,
+      "midi_note": 48,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.1553451660867523,
+        0.05739527594763521,
+        -0.013302725738222387
+      ],
+      "vertical_gap_mm": -13.172653407440869,
+      "horizontal_in_key_error_mm": 5.892075995567792,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0170",
+      "hand": "L",
+      "time_sec": 5.507291666666664,
+      "midi_note": 52,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.10608266661724847,
+        0.042297122143946944,
+        -0.005127417286744057
+      ],
+      "vertical_gap_mm": -3.9767186831729036,
+      "horizontal_in_key_error_mm": 2.065205846715962,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0171",
+      "hand": "L",
+      "time_sec": 5.594791666666662,
+      "midi_note": 55,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.06774771156855888,
+        -0.01368038796320865,
+        -0.013612902211023424
+      ],
+      "vertical_gap_mm": -10.397606619726092,
+      "horizontal_in_key_error_mm": 13.613927131462871,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0172",
+      "hand": "L",
+      "time_sec": 5.699999999999996,
+      "midi_note": 43,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.24731690096958747,
+        -0.005672203165999674,
+        -0.00286284110617006
+      ],
+      "vertical_gap_mm": 1.5217316419009757,
+      "horizontal_in_key_error_mm": 5.160463177621967,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0174",
+      "hand": "L",
+      "time_sec": 5.784374999999997,
+      "midi_note": 47,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.18004182801920293,
+        0.062299626065278925,
+        -0.010239067041804316
+      ],
+      "vertical_gap_mm": -10.120210901937758,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0176",
+      "hand": "L",
+      "time_sec": 5.872916666666665,
+      "midi_note": 50,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.1335093319212694,
+        0.051556709422313204,
+        -0.002934382568898875
+      ],
+      "vertical_gap_mm": -2.0749291552269162,
+      "horizontal_in_key_error_mm": 2.30193022303176,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0177",
+      "hand": "L",
+      "time_sec": 5.949999999999992,
+      "midi_note": 55,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.07622440025798677,
+        -0.013244175428569543,
+        -0.014179660840488724
+      ],
+      "vertical_gap_mm": -9.517737341277279,
+      "horizontal_in_key_error_mm": 13.14164601634588,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0179",
+      "hand": "L",
+      "time_sec": 6.018749999999994,
+      "midi_note": 43,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.26072516513045413,
+        -0.009055657114240378,
+        0.0005296276230984365
+      ],
+      "vertical_gap_mm": 1.1082027564613561,
+      "horizontal_in_key_error_mm": 13.291149624609163,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0180",
+      "hand": "L",
+      "time_sec": 6.170833333333327,
+      "midi_note": 48,
+      "finger": 3,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.15628466853902817,
+        0.052023344888759045,
+        -0.0149318583910138
+      ],
+      "vertical_gap_mm": -14.362871855900051,
+      "horizontal_in_key_error_mm": 2.6019526243143547,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0182",
+      "hand": "L",
+      "time_sec": 6.2166666666666615,
+      "midi_note": 52,
+      "finger": 2,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.09858339061284262,
+        0.019267897003186304,
+        -0.007811781927561321
+      ],
+      "vertical_gap_mm": -4.3431267951388115,
+      "horizontal_in_key_error_mm": 9.564481851121812,
+      "inside_correct_playable_region": false,
+      "penetration": false,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0185",
+      "hand": "L",
+      "time_sec": 6.4333333333333265,
+      "midi_note": 43,
+      "finger": 5,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.24206230164180237,
+        0.01409873479604069,
+        -0.00949121438747114
+      ],
+      "vertical_gap_mm": -5.833326110306504,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    },
+    {
+      "note_id": "n0189",
+      "hand": "L",
+      "time_sec": 6.849999999999994,
+      "midi_note": 55,
+      "finger": 1,
+      "finger_source": "AUTO_PREDICTED",
+      "finger_confidence": null,
+      "contact_kind": "PREDICTED_FINGER_CONTACT",
+      "pad_world_m": [
+        -0.07116834711159348,
+        0.016094707838677634,
+        -0.0076736282086914565
+      ],
+      "vertical_gap_mm": -4.088808688230938,
+      "horizontal_in_key_error_mm": 0.0,
+      "inside_correct_playable_region": true,
+      "penetration": true,
+      "contact_within_fixed_tolerances": false
+    }
+  ],
+  "contact_kind": "PREDICTED_FINGER_CONTACT",
+  "not_ground_truth": true
+}

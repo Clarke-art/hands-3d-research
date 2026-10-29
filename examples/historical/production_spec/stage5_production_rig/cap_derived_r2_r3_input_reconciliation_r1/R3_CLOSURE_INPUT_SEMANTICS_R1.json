@@ -1,0 +1,11 @@
+{
+  "status": "RESOLVED",
+  "input": "Only newly solved labels on new approved graph, new source anchors, new fields",
+  "rule": "NO HISTORICAL LABEL INJECTION",
+  "outside_graph": "Independent baseline or explicit unresolved status; do not R3=list(R2 historical)",
+  "preserve_math": "Components with no own-digit strong source are eligible for deterministic reassignment; pins immutable; ambiguity checked against new fields",
+  "implementation_repair_required": "Historical changed=False resets inside per-target loop (r3_ownership.py392), so stop test can miss earlier THUMB changes. Future convergence flag must accumulate across the full sweep; detect cycles/exhaustion and FAIL_CLOSED. This round runs no closure.",
+  "no_old_labels_reproduction_target": true,
+  "provenance_index": "SOURCE_CODE_PROVENANCE_R1.json",
+  "authority_source_index": "AUTHORITY_INPUT_VERIFICATION.json"
+}

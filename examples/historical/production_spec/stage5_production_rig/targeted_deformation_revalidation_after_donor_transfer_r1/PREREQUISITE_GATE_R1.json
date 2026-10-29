@@ -1,0 +1,67 @@
+{
+  "checks": {
+    "current_derivative": true,
+    "old_R2": true,
+    "corrected_rig": true,
+    "cap_frozen": true,
+    "R3_frozen": true,
+    "static_skin_compatibility_revalidation_after_donor_transfer_r1": true,
+    "static_skin_compatibility_revalidation_after_donor_transfer_r1_weights": true,
+    "joint_surface_rest_zero_bind_revalidation_after_donor_transfer_r1": true,
+    "joint_surface_rest_zero_bind_revalidation_after_donor_transfer_r1_weights": true,
+    "true_cap_bound_revalidation_after_donor_transfer_r1": true,
+    "true_cap_bound_revalidation_after_donor_transfer_r1_weights": true,
+    "targeted_human_closure": true,
+    "human_source_historical_targeted_report": true,
+    "human_source_historical_targeted_status": true,
+    "human_source_historical_causal_report": true,
+    "human_source_historical_causal_status": true,
+    "human_source_prior_human_adjudication_md": true,
+    "human_source_prior_human_closure_md": true,
+    "human_source_prior_human_closure_json": true,
+    "human_source_prior_no_drift_verification": true,
+    "human_source_existing_review": true,
+    "human_source_R2_candidate": true,
+    "closure_basis_CAP37_existing_human_adjudication": true,
+    "closure_basis_remaining_four_actual_human_review": true,
+    "frozen_component_CAP_SKIN_DRIVER_AUTHORITY_R1.json": true,
+    "frozen_component_CAP37_SKIN_DRIVER_AUTHORITY_R1.json": true,
+    "frozen_component_OLD_CAP9_SKIN_CORRECTION_AUTHORITY_R1.json": true,
+    "frozen_component_FIRST_WEB_SKIN_WEIGHT_WRAPPER_R2.json": true,
+    "frozen_component_SKIN_WEIGHT_CONTINUITY_CONTRACT_R1.json": true,
+    "frozen_component_CORRECTED_RIG_SKIN_FIELD_IMPACT_AUDIT_R1.json": true,
+    "frozen_component_R1B_SAFE_WEIGHT_REUSE_SET_R1.json": true,
+    "frozen_component_SKIN_REBUILD_ENVELOPE_R1.json": true,
+    "frozen_component_EDGE5879_REBUILD_SCOPE_R1.json": true,
+    "frozen_component_CMC_GEOMETRY_PROTECTION_CONTEXT_R1.json": true,
+    "frozen_component_INPUT_AUTHORITY_VERIFICATION_R1.json": true,
+    "frozen_component_R1B_FROZEN_SIDE_GUARD_AUDIT_R1.json": true,
+    "cap_membership": true,
+    "FIRST_WEB_membership": true,
+    "old9_membership": true
+  },
+  "status": "PASS",
+  "sources": {
+    "current": {
+      "path": "production_spec/stage5_production_rig/geometry_propagation_after_donor_transfer_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend",
+      "sha256": "d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d"
+    },
+    "old_R2": {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+      "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+    },
+    "rig": {
+      "path": "production_spec/stage5_production_rig/human_thumb_kinematic_authority_correction_r1/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+      "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+    },
+    "cap": {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_human_cap_authority_freeze_r1/THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+      "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256"
+    },
+    "R3": {
+      "path": "audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1.json",
+      "sha256": "470cc182b643e92f0f48f4bea119f0e0c3a45d1c182d3610345ac787f19c98e9"
+    }
+  },
+  "live_weight_check": "REQUIRED_BEFORE_POSES"
+}

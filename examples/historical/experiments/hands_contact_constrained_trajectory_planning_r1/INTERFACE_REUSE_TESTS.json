@@ -1,0 +1,214 @@
+{
+  "status": "RULE_LEVEL_PASS",
+  "cases": [
+    {
+      "time": 2.492855,
+      "hand": "R",
+      "left_notes": [
+        "R06"
+      ],
+      "right_notes": [
+        "R07"
+      ],
+      "geometric_contacts": [
+        {
+          "hand": "R",
+          "finger": 1,
+          "midi": 67,
+          "note_ids": [
+            "R06",
+            "R07"
+          ],
+          "sides": [
+            "left",
+            "right"
+          ]
+        }
+      ],
+      "force_constraints": "NOT_INFERRED",
+      "same_finger_same_key_deduplicated": true,
+      "geometric_joint_feasibility": "UNTESTED",
+      "velocity_compatibility": "UNTESTED",
+      "test": "same_finger_repeat",
+      "pass": true
+    },
+    {
+      "time": 0.35,
+      "hand": "L",
+      "left_notes": [],
+      "right_notes": [
+        "L00",
+        "L01",
+        "L02"
+      ],
+      "geometric_contacts": [
+        {
+          "hand": "L",
+          "finger": 5,
+          "midi": 55,
+          "note_ids": [
+            "L00"
+          ],
+          "sides": [
+            "right"
+          ]
+        },
+        {
+          "hand": "L",
+          "finger": 3,
+          "midi": 59,
+          "note_ids": [
+            "L01"
+          ],
+          "sides": [
+            "right"
+          ]
+        },
+        {
+          "hand": "L",
+          "finger": 1,
+          "midi": 62,
+          "note_ids": [
+            "L02"
+          ],
+          "sides": [
+            "right"
+          ]
+        }
+      ],
+      "force_constraints": "NOT_INFERRED",
+      "same_finger_same_key_deduplicated": true,
+      "geometric_joint_feasibility": "UNTESTED",
+      "velocity_compatibility": "UNTESTED",
+      "test": "left_chord_onset",
+      "pass": true
+    },
+    {
+      "time": 0.7,
+      "hand": "L",
+      "left_notes": [
+        "L00",
+        "L01",
+        "L02"
+      ],
+      "right_notes": [
+        "L00",
+        "L01",
+        "L02"
+      ],
+      "geometric_contacts": [
+        {
+          "hand": "L",
+          "finger": 5,
+          "midi": 55,
+          "note_ids": [
+            "L00",
+            "L00"
+          ],
+          "sides": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "hand": "L",
+          "finger": 3,
+          "midi": 59,
+          "note_ids": [
+            "L01",
+            "L01"
+          ],
+          "sides": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "hand": "L",
+          "finger": 1,
+          "midi": 62,
+          "note_ids": [
+            "L02",
+            "L02"
+          ],
+          "sides": [
+            "left",
+            "right"
+          ]
+        }
+      ],
+      "force_constraints": "NOT_INFERRED",
+      "same_finger_same_key_deduplicated": true,
+      "geometric_joint_feasibility": "UNTESTED",
+      "velocity_compatibility": "UNTESTED",
+      "test": "left_chord_hold",
+      "pass": true
+    },
+    {
+      "time": 3.9928535000000003,
+      "hand": "R",
+      "left_notes": [
+        "R11"
+      ],
+      "right_notes": [
+        "R12"
+      ],
+      "geometric_contacts": [
+        {
+          "hand": "R",
+          "finger": 3,
+          "midi": 76,
+          "note_ids": [
+            "R11"
+          ],
+          "sides": [
+            "left"
+          ]
+        },
+        {
+          "hand": "R",
+          "finger": 4,
+          "midi": 78,
+          "note_ids": [
+            "R12"
+          ],
+          "sides": [
+            "right"
+          ]
+        }
+      ],
+      "force_constraints": "NOT_INFERRED",
+      "same_finger_same_key_deduplicated": true,
+      "geometric_joint_feasibility": "UNTESTED",
+      "velocity_compatibility": "UNTESTED",
+      "test": "source_black_key_transition",
+      "pass": true,
+      "key_surface": [
+        {
+          "xmin": 0.2457169080392884,
+          "xmax": 0.25699115942371165,
+          "ymin": 0.04942137736845546,
+          "ymax": 0.11428693338754455,
+          "z": 0.015444180037799607
+        }
+      ]
+    }
+  ],
+  "schema": [
+    "ContactMode",
+    "ActiveDigits",
+    "KeyGeometry(t)",
+    "JointDomain",
+    "EventTime",
+    "Start/Goal"
+  ],
+  "actual_numeric_adapter_hand": "RIGHT_HAND_ONLY_THIS_VERSION",
+  "left_hand_numeric": "NOT_ADAPTED",
+  "black_key_numeric": "NOT_SOLVED",
+  "multicontact": "two actual contacts represented in local joint NLP, not accepted trajectory",
+  "failure_feedback": {
+    "category": "contact residual with wall budget exhaustion",
+    "upstream": "retain event, hand, digit, key, time, required mode and real violation; no fingering change"
+  },
+  "not_general_MIDI_motion_pass": true
+}

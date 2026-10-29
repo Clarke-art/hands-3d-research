@@ -1,0 +1,92 @@
+{
+  "script_sha256": {
+    "corridor_planner.py": "3ea71f1ebe24757093a8d0058b32f074532885fb2e579ecda7ce3d504654bc68",
+    "bridge_model.py": "ead7105fc4a3ba3b9a3c1fc82723d10d5f1d9667ea3096ad9dc4b8d791805883",
+    "solve_bridge_candidate.py": "d3391d99d332e6cde9e069b168283ce8230ddb6b2e5cdae80b26825074001e59",
+    "guarded_node.py": "8fa08c8ce6f332c90e01831e9821efdab64ab5fae05e300acd913d97b4c7cfa6",
+    "domain_derivative_guard.py": "6f255ac80d455c1ebe1dcee9f473e2dacdfde6848f22d4fe2134a8eae75a4b21",
+    "preflight_r2.py": "5f65340bdd6db2c328d2ddcd0f18abbde3c1dbd03ecd1957a6bb2162f12a0fcf",
+    "sample_r2_curve.py": "70de368120d768418716ec4fd36133010656c4556ee98d319d2d7450069924be",
+    "batch_verify.py": "19cd6efcb8367eecabe513fd30eb7872342ed503c5a445f6ec507d68e0a1cafb"
+  },
+  "numerical_stages": [
+    {
+      "name": "high_level_schedule",
+      "script": "corridor_planner.py",
+      "wall_seconds": 2.0789999999979045,
+      "cap_seconds": 40.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "high_level_schedule_compiled",
+      "script": "corridor_planner.py",
+      "wall_seconds": 9.359000000004016,
+      "cap_seconds": 40.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "candidate_front_bridge",
+      "script": "solve_candidate_front.py",
+      "wall_seconds": 1.8279999999940628,
+      "cap_seconds": 210.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "candidate_front_bridge_execution",
+      "script": "solve_candidate_front.py",
+      "wall_seconds": 58.84399999999732,
+      "cap_seconds": 210.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "intent_and_shared_derivative_audit",
+      "script": "audit_intent_and_shared_derivative.py",
+      "wall_seconds": 10.078000000001339,
+      "cap_seconds": 70.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "legitimate_domain_derivative_check",
+      "script": "domain_derivative_guard.py",
+      "wall_seconds": 7.312999999994645,
+      "cap_seconds": 30.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "c1_curve_sampling_audit",
+      "script": "sample_r2_curve.py",
+      "wall_seconds": 1.8280000000013388,
+      "cap_seconds": 30.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "c1_curve_sampling_diagnostic",
+      "script": "sample_r2_curve.py",
+      "wall_seconds": 1.764999999999418,
+      "cap_seconds": 30.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "c1_curve_sampling_final_diagnostic",
+      "script": "sample_r2_curve.py",
+      "wall_seconds": 2.3910000000032596,
+      "cap_seconds": 30.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    }
+  ],
+  "first_input": "candidate_front_PLAN_EXECUTED.json",
+  "first_result": "candidate_front_RESULT.json",
+  "second_input": "candidate_right_PLAN_COMPILED.json",
+  "second_result": "candidate_right_RESULT.json",
+  "strict_no_third_candidate": true,
+  "new_frames_only_diagnostic_not_Action": true
+}

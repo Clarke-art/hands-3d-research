@@ -1,0 +1,247 @@
+{
+  "status": "COMPLETE_READ_ONLY",
+  "sources": [
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+      "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+      "start_line": 239,
+      "end_line": 271,
+      "excerpt": "    % (len(S), sum(1 for i in range(NV) if R2[i] in (\"THUMB\", \"INDEX\"))))\n\nADJ = {}\nfor a, b in EDGES:\n    if a in Sidx and b in Sidx:\n        ADJ.setdefault(Sidx[a], []).append((Sidx[b], (V0[a] - V0[b]).length))\n        ADJ.setdefault(Sidx[b], []).append((Sidx[a], (V0[a] - V0[b]).length))\nIDX2V = S\n\n\ndef dijkstra(sources):\n    dist = [1e18] * len(S)\n    pq = []\n    for v in sources:\n        if v in Sidx:\n            dist[Sidx[v]] = 0.0\n            heapq.heappush(pq, (0.0, Sidx[v]))\n    while pq:\n        d, u = heapq.heappop(pq)\n        if d > dist[u] + 1e-15:\n            continue\n        for w, el in ADJ.get(u, ()):\n            nd = d + el\n            if nd < dist[w] - 1e-15:\n                dist[w] = nd\n                heapq.heappush(pq, (nd, w))\n    return dist\n\n\ndT = dijkstra(THUMB_STRONG)\ndI = dijkstra(INDEX_STRONG)\nunreach_T = sum(1 for x in dT if x > 1e17)\nunreach_I = sum(1 for x in dI if x > 1e17)",
+      "evidence_role": "Actual edge lengths and Dijkstra: metre coordinates, no mm conversion in returned field"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+      "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+      "start_line": 277,
+      "end_line": 280,
+      "excerpt": "SCALE = 1000.0                     # mm -> integer\nP_FLIP = int(round(TAU / 3.0 * SCALE))     # pairwise penalty per THUMB|INDEX boundary edge\nCAP_MAX = int(400.0 * SCALE)\nINF = 10 ** 15",
+      "evidence_role": "Actual integer scale, pairwise, cap, INF"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+      "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+      "start_line": 350,
+      "end_line": 367,
+      "excerpt": "D = Dinic(NS + 2)\nfor i in range(NS):\n    cap_to_index = min(CAP_MAX, int(round(dI[i] * SCALE)))      # cost of calling i INDEX\n    cap_to_thumb = min(CAP_MAX, int(round(dT[i] * SCALE)))      # cost of calling i THUMB\n    lab = None\n    if IDX2V[i] in THUMB_STRONG:\n        cap_to_thumb = 0\n        cap_to_index = INF\n    elif IDX2V[i] in INDEX_STRONG:\n        cap_to_thumb = INF\n        cap_to_index = 0\n    D.add(SRC, i, cap_to_index)\n    D.add(i, SNK, cap_to_thumb)\nfor u in ADJ:\n    for w, _el in ADJ[u]:\n        if u < w:\n            D.add(u, w, P_FLIP)\n            D.add(w, u, P_FLIP)",
+      "evidence_role": "Actual terminal capacities and undirected pairwise encoding"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+      "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+      "start_line": 377,
+      "end_line": 379,
+      "excerpt": "AMB_MARGIN_MM = TAU\nAMBIG_BEFORE = [IDX2V[i] for i in range(NS) if abs(dT[i] - dI[i]) * MM < AMB_MARGIN_MM]\nlog(\"AMBIGUOUS_VERTEX_COUNT_BEFORE = %d (|dT-dI| < %.4f mm)\" % (len(AMBIG_BEFORE), AMB_MARGIN_MM))",
+      "evidence_role": "Executable dimensional intent: ambiguity explicitly converts field metres to mm"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+      "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+      "start_line": 730,
+      "end_line": 752,
+      "excerpt": "def recompute(lab_seed):\n    G = Dinic(NS + 2)\n    for i in range(NS):\n        c_i = min(CAP_MAX, int(round(dI[i] * SCALE)))\n        c_t = min(CAP_MAX, int(round(dT[i] * SCALE)))\n        if IDX2V[i] in THUMB_STRONG:\n            c_t, c_i = 0, INF\n        elif IDX2V[i] in INDEX_STRONG:\n            c_t, c_i = INF, 0\n        G.add(SRC, i, c_i)\n        G.add(i, SNK, c_t)\n    for u in ADJ:\n        for w, _e in ADJ[u]:\n            if u < w:\n                G.add(u, w, P_FLIP)\n                G.add(w, u, P_FLIP)\n    _f, _s = G.maxflow(SRC, SNK)\n    return [\"THUMB\" if _s[i] else \"INDEX\" for i in range(NS)]\n\n\nRUN2 = recompute(None)\nREPRO = (RUN2 == CUT_LABEL)\nlog(\"deterministic reproducibility (independent re-run identical) = %s\" % REPRO)",
+      "evidence_role": "Reproducibility test repeats same capacity expressions; not independent dimension test"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+      "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+      "start_line": 917,
+      "end_line": 925,
+      "excerpt": " \"deterministic_reproducibility\": REPRO,\n \"method\": (\"exact s-t minimum cut (Dinic) on the real mesh adjacency graph; unary = geodesic \"\n            \"distance to the strong-anchor sets; pairwise = TAU/3 per THUMB|INDEX flip; strong \"\n            \"anchors pinned; no randomness, no per-vertex override\"),\n \"parameters\": {\"SCALE\": SCALE, \"P_FLIP_mm\": rr(P_FLIP / SCALE, 6), \"TAU_mm\": rr(TAU, 6),\n                \"CAP_MAX_mm\": CAP_MAX / SCALE},\n \"runs\": 2, \"identical\": REPRO,\n \"vertex_set_size\": len(S),\n \"recompute_vertex_label_mismatches\": sum(1 for i in range(NS) if RUN2[i] != CUT_LABEL[i]),",
+      "evidence_role": "Generated parameter contract declares P_FLIP_mm, TAU_mm, CAP_MAX_mm"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\THUMB_TIP_OWNERSHIP_BOUNDARY_R3_REPORT.md",
+      "sha256": "40293ff5c3eeaa6fec4ca91d4b4595bfb8a4dc2f71649207c444de423e807811",
+      "start_line": 20,
+      "end_line": 30,
+      "excerpt": "1. STRONG anchors are pinned from LIVE R2A anatomy only.\n2. Two geodesic fields over the real mesh edge graph: distance to THUMB_STRONG and to INDEX_STRONG.\n3. Exact s-t minimum cut (Dinic), source = THUMB, sink = INDEX, restricted to the 1008\n   vertices that R2 labelled THUMB or INDEX. Unary = the two geodesic distances; pairwise =\n   `TAU/3 = 1.296 mm` per THUMB|INDEX flip; anchors pinned.\n   **No per-vertex parameter, no randomness.**\n4. The 16 ambiguous vertices (|dT-dI| < TAU) are decided by topological\n   coherence, not locally; 6 of them were\n   assigned against their own unary preference.\n5. Deterministic connectivity closure removes any label component with no anchor of its own digit.\n",
+      "evidence_role": "Published energy design: unary physical geodesic distances, pairwise TAU/3 mm, no stated extra distance weight"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\scripts\\r1a_common.py",
+      "sha256": "67857339f01898c37dfa9f2d8a60c527d3205b5d9a3419e6692b2d23df574a80",
+      "start_line": 150,
+      "end_line": 166,
+      "excerpt": "    ob = bpy.data.objects[\"Hand  - Realistic\"]\n    rig = bpy.data.objects[\"RIGHT_HAND_PRODUCTION_RIG\"]\n    me = ob.data\n    MW = ob.matrix_world.copy()\n    NV = len(me.vertices)\n    V0 = [(MW @ v.co).copy() for v in me.vertices]\n    L0 = [v.co.copy() for v in me.vertices]\n    TOPO0 = [tuple(p.vertices) for p in me.polygons]\n    MAT0 = [p.material_index for p in me.polygons]\n    UV0 = ([tuple(round(u, 9) for u in d.uv) for d in me.uv_layers.active.data]\n           if me.uv_layers.active else [])\n    EDGES = [(e.vertices[0], e.vertices[1]) for e in me.edges]\n    FC = [sum((V0[v] for v in p.vertices), Vector()) / len(p.vertices)\n          for p in me.polygons]\n    ntri = sum(len(p.vertices) - 2 for p in me.polygons)\n    elen = sorted((V0[a] - V0[b]).length * MM for a, b in EDGES)\n    med_edge = elen[len(elen) // 2]",
+      "evidence_role": "TAU provenance from world-space edge length x MM"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\scripts\\r1a_common.py",
+      "sha256": "67857339f01898c37dfa9f2d8a60c527d3205b5d9a3419e6692b2d23df574a80",
+      "start_line": 12,
+      "end_line": 15,
+      "excerpt": "from mathutils import Vector\n\nMM = 1000.0\n",
+      "evidence_role": "MM=1000"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\_r3_geo.py",
+      "sha256": "1e20347a9bbefa9b1dacae4e3fe68a8be3e4d58a9997acda18b1ef7826629cbb",
+      "start_line": 39,
+      "end_line": 55,
+      "excerpt": "    c=sum((V0[v] for v in POLY[fi]),Vector())/len(POLY[fi])\n    b=min(CH,key=lambda D:arc_of(CH[D],c)[1]); NAIL.setdefault(b,set()).update(POLY[fi])\nNI=NAIL.get(\"INDEX\",set())\nIDX_DISTAL=set(i for i in range(NV) if DL[\"INDEX\"][i]<=8.058 and SL[\"INDEX\"][i]>=XIJ[\"INDEX\"][2])\nprint(\"anchors: CAP=%d NAIL_THUMB=%d NAIL_INDEX=%d INDEX_DISTAL_PHALANX=%d\"%(len(CAP),len(NAILT),len(NI),len(IDX_DISTAL)))\nADJ={}\nfor a,b in EDGES:\n    ADJ.setdefault(a,[]).append((b,(V0[a]-V0[b]).length)); ADJ.setdefault(b,[]).append((a,(V0[a]-V0[b]).length))\ndef dij(srcs):\n    d=[1e18]*NV; pq=[]\n    for s in srcs: d[s]=0.0; heapq.heappush(pq,(0.0,s))\n    while pq:\n        dd,u=heapq.heappop(pq)\n        if dd>d[u]+1e-15: continue\n        for w,el in ADJ.get(u,()):\n            nd=dd+el\n            if nd<d[w]-1e-15: d[w]=nd; heapq.heappush(pq,(nd,w))",
+      "evidence_role": "Precursor executable distance helper explicitly returns mm"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\R3_REPRODUCIBILITY_AUDIT.json",
+      "sha256": "448694fdde18df649a9cd92c2c9fa4a2a4187e9227c6c29cabe3489b5b2eec01",
+      "start_line": 1,
+      "end_line": 18,
+      "excerpt": "{\n \"stage\": \"R3_REPRODUCIBILITY_AUDIT\",\n \"generated_at\": \"2026-10-01T16:15:36.949268+08:00\",\n \"deterministic_reproducibility\": true,\n \"method\": \"exact s-t minimum cut (Dinic) on the real mesh adjacency graph; unary = geodesic distance to the strong-anchor sets; pairwise = TAU/3 per THUMB|INDEX flip; strong anchors pinned; no randomness, no per-vertex override\",\n \"parameters\": {\n  \"SCALE\": 1000.0,\n  \"P_FLIP_mm\": 1.296,\n  \"TAU_mm\": 3.888205,\n  \"CAP_MAX_mm\": 400.0\n },\n \"runs\": 2,\n \"identical\": true,\n \"vertex_set_size\": 1008,\n \"recompute_vertex_label_mismatches\": 0\n}",
+      "evidence_role": "Historical expected parameters and two identical executions"
+    }
+  ],
+  "raw_dimension_trace": [
+    {
+      "variable": "world coordinates / edge length",
+      "raw_example": 0.01,
+      "physical_unit": "m",
+      "conversion": "edge_mm = 1000 * edge_m",
+      "converted_example_mm": 10,
+      "capacity": null
+    },
+    {
+      "variable": "dT/dI",
+      "raw_example": 0.01,
+      "physical_unit": "m (sum of metre edges)",
+      "legacy_conversion": "round(raw * 1000)",
+      "legacy_capacity": 10,
+      "canonical_conversion": "raw * 1000 mm/m; then round(mm * 1000 capacity/mm)",
+      "canonical_capacity": 10000
+    },
+    {
+      "variable": "TAU",
+      "raw_numeric": 3.8882049466976314,
+      "physical_unit": "mm",
+      "derivation": "upper median of ALL original RSSF mesh edge lengths in mm, not only coupled graph edges",
+      "canonical_capacity_equivalent": 3888
+    },
+    {
+      "variable": "pairwise flip penalty",
+      "raw_numeric": 1.2960683155658772,
+      "physical_unit": "mm cost per undirected unlike-label edge",
+      "conversion": "round(TAU_mm/3 * 1000 capacity/mm)",
+      "legacy_and_canonical_capacity": 1296,
+      "quantized_mm": 1.296,
+      "absolute_quantization_error_mm": 6.831556587716392e-05
+    },
+    {
+      "variable": "capacity integer scale",
+      "raw_numeric": 1000,
+      "canonical_unit": "capacity/mm",
+      "legacy_actual_units": "unary applies 1000 capacity/m; pairwise applies 1000 capacity/mm. These are distinct numerical scales, not a common conversion."
+    },
+    {
+      "variable": "finite terminal cap",
+      "raw_numeric": 400,
+      "documented_unit": "mm",
+      "capacity": 400000,
+      "legacy_actual_saturation_distance_m": 400,
+      "canonical_saturation_distance_mm": 400
+    },
+    {
+      "variable": "INF",
+      "raw_numeric": 1000000000000000,
+      "physical_unit": "integer capacity (no inherent physical length)",
+      "legacy_role": "hard terminal capacity; arbitrary constant, no code proof",
+      "canonical_role": "B+1, where B bounds every finite cut; see R3_INF_BOUND_AUDIT.json"
+    }
+  ],
+  "TAU_recalculated_from_frozen_RSSF_mm": 3.8882049466976314,
+  "historical_TAU_reported_mm": 3.888205,
+  "historical_expected_execution": {
+    "P_FLIP_capacity": 1296,
+    "flow": 33529,
+    "graph_vertex_count": 1008,
+    "two_runs_identical": true,
+    "role": "historical execution evidence only; never corrected targets"
+  },
+  "test_contract_audit": {
+    "existing_reproducibility_test": "recompute(None) repeats same expressions and therefore cannot detect common-mode unit bugs",
+    "independent_unit_conversion_test_found": false,
+    "historical_negative_controls_found": [],
+    "unit_specific_negative_control_found": false,
+    "topology_gate_results": "Check connectivity/islands/label outcomes; cannot identify designer cost coefficient from contaminated historical labels",
+    "new_scalar_negative_controls": "UNIT_SCALAR_CHECKS.json; no graph field or solve"
+  },
+  "local_history_audit": {
+    "git_directory_present": false,
+    "code_versions_read": [
+      "r3_ownership.py",
+      "_r3_probe.py",
+      "_r3_geo.py",
+      "r3_docs.py",
+      "r1a_common.py"
+    ],
+    "memory_records": "2026-10-01 and MEMORY repeat TAU/3=1.296 mm; corroborating records, not independent Human approval",
+    "text_files_searched": 993,
+    "matching_files": [
+      {
+        "path": ".workbuddy\\memory\\2026-10-01.md",
+        "sha256": "6b10b365e5a4e88f7faba91328b252f8bc3ae0062f1074dab38c785595f9e37f"
+      },
+      {
+        "path": ".workbuddy\\memory\\MEMORY.md",
+        "sha256": "b894a1cd8babd6e7854d1a05b55e9f3c2b3df549f8386441269719c0594435d3"
+      },
+      {
+        "path": "production_spec\\stage5_production_rig\\cap_derived_r2_r3_input_reconciliation_r1\\CAP_DERIVED_R2_R3_INPUT_RECONCILIATION_R1_REPORT.md",
+        "sha256": "c4f882060772a32d2a736d12c213b75c2028334ab75f624ecd497445f5197532"
+      },
+      {
+        "path": "production_spec\\stage5_production_rig\\cap_derived_r2_r3_input_reconciliation_r1\\CAP_DERIVED_R2_R3_INPUT_RECONCILIATION_R1_STATUS.json",
+        "sha256": "f8504b18f50963ed14e9e1530a5ba5f5862ebb528dd4b50c2da16e2ae41227d4"
+      },
+      {
+        "path": "production_spec\\stage5_production_rig\\cap_derived_r2_r3_input_reconciliation_r1\\R3_VALIDATOR_REUSE_RECONCILIATION.json",
+        "sha256": "e006971d82d8daddd3ade2e562800b1de3c22a86c121ad20c7d9ef7765d52b4c"
+      },
+      {
+        "path": "production_spec\\stage5_production_rig\\cap_derived_r2_r3_input_reconciliation_r1\\SOURCE_CODE_PROVENANCE_R1.json",
+        "sha256": "4ea2d563dba077091812693e4e990d3e9c41c2484e6f3609465b248efecb25e0"
+      },
+      {
+        "path": "production_spec\\stage5_production_rig\\cap_derived_r2_r3_input_reconciliation_r1\\UNRESOLVED_INPUT_AUTHORITY_REVIEW_R1.json",
+        "sha256": "3f023e9e878a9f368e446c9669d6b860fc0aae2e6cdbafa450c471956dd511bc"
+      },
+      {
+        "path": "production_spec\\stage5_production_rig\\cap_derived_thumb_kinematic_authority_revalidation_r1\\SOURCE_EVIDENCE_INDEX.json",
+        "sha256": "e5214ab5e24fe84675a752230de3c1d5d8d192510f9b94b4a5604fc3513aaf78"
+      },
+      {
+        "path": "production_spec\\stage5_production_rig\\cap_derived_r2_r3_input_reconciliation_r1\\scripts\\complete_records.py",
+        "sha256": "7cbd6a1f040540c441f1b0668d712b620d4d34474ae06fb08c966fbdcf9ce760"
+      },
+      {
+        "path": "production_spec\\stage5_production_rig\\cap_derived_r2_r3_input_reconciliation_r1\\scripts\\static_reconcile.py",
+        "sha256": "9a0287ae64feb4091b26a2ee7f211b00d0ae7db7640c27020bbce12d2ac69989"
+      },
+      {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\R3_REPRODUCIBILITY_AUDIT.json",
+        "sha256": "448694fdde18df649a9cd92c2c9fa4a2a4187e9227c6c29cabe3489b5b2eec01"
+      },
+      {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\THUMB_TIP_OWNERSHIP_BOUNDARY_R3_REPORT.md",
+        "sha256": "40293ff5c3eeaa6fec4ca91d4b4595bfb8a4dc2f71649207c444de423e807811"
+      },
+      {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\THUMB_TIP_OWNERSHIP_BOUNDARY_R3_STATUS.json",
+        "sha256": "4fd78102b941478a75341d985cd7c10af28a03eadcde1c50a2a4fb7f1c361fbb"
+      },
+      {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_docs.py",
+        "sha256": "4b291e9b57f2d012715d3092f4c0ffff8d6131755a58fff6cfb64370921bdbc5"
+      },
+      {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+        "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d"
+      }
+    ],
+    "scope": [
+      "docs",
+      ".workbuddy",
+      "production_spec"
+    ],
+    "limitation": "No full chat/commit history imported; conclusions refer to the on-disk documented mathematical contract, not unrecorded subjective intent."
+  },
+  "old_labels_used_to_choose_units": false
+}

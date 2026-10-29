@@ -1,0 +1,48 @@
+MANDATORY DENSE-KEY EDIT NOTE (final handoff instructions)
+
+C1 is already baked at about 120Hz. Do NOT rotate frame 296 and insert only one
+new key while leaving its immediate old half-frame neighbors: that creates a spike.
+In the COPIED right-rig Action, filter to RING_MCP_R and its FOUR quaternion curves.
+Preserve exact original boundary keys at 277 and 331 and all keys outside them.
+For a conventional sparse manual pose edit, remove ONLY the interior keys of these
+four curves between 277 and 331, then author a small set of visual ring poses at
+292, 296 and 316. Keep the PIP/DIP curves unchanged initially. This is a proposed
+Human editing workflow, not a tested motion. If using Bezier interpolation, clamp
+and inspect handles to avoid overshoot, ease the boundary slopes, and check at 1x.
+Do not modify unrelated channels, root, wrist, fingers, MIDI, keyboard or cameras.
+The complete geometry, contact, domain and velocity validation MUST be rerun in a
+separately authorized follow-up after Human editing. No manual result is approved.
+
+The following eight-step overview remains context; this dense-key note qualifies
+steps 5-7. FINAL_PRODUCTION_FEASIBILITY.md contains the full Chinese instructions.
+
+HUMAN EDIT REQUIRED — ONE RING / C#5 PROBLEM ONLY
+
+This file starts from ORIGINAL C1, not the rejected automatic edit.
+The single automatic MCP (-7.5 deg flexion, -2 deg spread) candidate failed real QC.
+Do not apply that offset again, do not overwrite C1 or the rejected candidate.
+
+Display window 4.4-5.6 sec = frames 265-336 at 60 fps, frame=1+60*t.
+Main original witness: 4.916666667 sec, frame 296, RIGHT RING / C#5 (MIDI73).
+Editable object: RIGHT_HAND_PRODUCTION_RIG.002, bone RING_MCP_R.
+Potential manual refinement, only if necessary: RING_PIP_R and RING_DIP_R.
+Keep shared root/wrist, every other finger, left hand, MIDI and all key Actions fixed.
+Protect R13 little/G5 until 4.63571 sec; R14/R15 thumb/G4; L06 middle/B3.
+
+1. Save As a NEW file HUMAN_RING_EDIT_<version>.blend INSIDE this experiment directory.
+2. Animation workspace: set active scene shown here, preview frames 265-336; Auto Key OFF.
+3. Action Editor: make a single-user COPY of the right-rig Action before editing.
+4. Pose Mode, RING_MCP_R selected; inspect frame 296 in teaching and side/overhead views.
+5. Mark unchanged boundary rotations at frames 277 (4.6s) and 331 (5.5s).
+6. Make a smaller visual MCP/curvature adjustment at frame 296. The frozen engineering
+   flexion axis is not necessarily local Euler X: use the rotation gizmo and actual skin.
+   Preserve the finger arc; do not translate the bone, raise the wrist or change the rig.
+   If MCP alone causes crossings, consider small PIP/DIP distribution MANUALLY; this is
+   not prevalidated. Insert Rotation keys only for intentionally edited ring bones.
+7. Inspect entry/exit and core frames 292-316, interpolate smoothly, play at 60fps/1x.
+   Check the neighboring middle/little boundaries and black-key sides, not just the tip.
+8. Save the NEW edit and return its exact path. Stop: a separate real geometry/contact
+   validation is REQUIRED after the Human edit. No Human edit or PASS exists yet.
+
+Machine numbers and regressions are in FINAL_PRODUCTION_FEASIBILITY.md and
+MACHINE_VALIDATION.json. This copy is an editing handoff, not an approved production asset.

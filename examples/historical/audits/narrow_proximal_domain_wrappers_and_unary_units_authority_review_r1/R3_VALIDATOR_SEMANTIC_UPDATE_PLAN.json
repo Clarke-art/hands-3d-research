@@ -1,0 +1,206 @@
+{
+  "status": "PARTIAL_WITH_DEFINED_UPDATES",
+  "math_reusable": [
+    "Graph connected components/reachability",
+    "Face adjacency components",
+    "Sheet topology after cutting proposed boundary edges",
+    "Own-anchor-rooted island tests",
+    "Ambiguity reporting framework",
+    "Frozen mesh/file equality"
+  ],
+  "required_updates": [
+    {
+      "topic": "source IDs",
+      "update": "Replace cap9 with frozen cap37; use unique approved cap/nail/tube sources; preserve provenance tags without duplicated pins; validate disjointness before union. Native tip identifiers independently establish sheet identity.",
+      "blocked_by": "PROXIMAL_EXCLUSIVE_SHARED_EXTENT_AUTHORITY"
+    },
+    {
+      "topic": "graph domain",
+      "update": "Consume an independently approved role map and induced original mesh edges; validate both source families reachable from every component before computing any source fields; no historical R2 initialization.",
+      "blocked_by": "PROXIMAL_EXCLUSIVE_SHARED_EXTENT_AUTHORITY"
+    },
+    {
+      "topic": "shared neutral",
+      "update": "Input role SHARED_NEUTRAL has no dT/dI source and no pin. Binary solved labels, if later produced, do not retrospectively establish anatomical exclusivity or authorize skin weights. Preserve region IDs independently."
+    },
+    {
+      "topic": "CLASS_A",
+      "update": "Preserve edge ID/endpoints and frozen geometry. Report new role context and any new boundary crossing, but do not require old THUMB|THUMB labels. Do not delete or reclassify these valid surface edges to satisfy ownership.",
+      "edge_ids": [
+        1417,
+        1441,
+        1699,
+        2346,
+        4963,
+        5753
+      ]
+    },
+    {
+      "topic": "sheet identity",
+      "update": "Use landmark containment, never component ordering, size, or old labels. Identify exactly one INDEX sheet containing native INDEX terminal and all approved INDEX nail vertices; require exclusion of cap37/thumb tip/thumb nail. Identify THUMB/body counterpart by thumb landmarks; body naming additionally requires independent wrist landmark containment. Multiple/zero matches or split landmark families fail closed."
+    },
+    {
+      "topic": "ambiguity units",
+      "update": "Use abs(dT_mm-dI_mm)<TAU_mm; preserve numerical reporting but substitute new source IDs/graph. Old count16 is not a target."
+    },
+    {
+      "topic": "cage protection",
+      "update": "Frozen cage integrity independent of labels; global mesh geometry/topology equality suffices this round. Do not derive local deformation mask from solved ownership or approximate coordinate matches."
+    },
+    {
+      "topic": "closure",
+      "update": "Keep already resolved no-historical-label-injection semantics; implement full-sweep changed accumulation and cycle/exhaustion detection before future reuse. Do not run closure now."
+    }
+  ],
+  "sheet_landmarks": {
+    "INDEX": {
+      "native_terminal_vertex_id": 233,
+      "approved_nail_face_ids": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794,
+        805,
+        808,
+        809,
+        810,
+        811,
+        825
+      ],
+      "approved_nail_vertex_ids": [
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        228,
+        230,
+        231,
+        235,
+        867,
+        868,
+        869,
+        870,
+        871,
+        872,
+        873,
+        874,
+        875,
+        876,
+        877,
+        878,
+        1218,
+        1221,
+        1222,
+        1223,
+        1224,
+        1225,
+        1230,
+        1232,
+        1240,
+        2492,
+        2493,
+        2494,
+        2495,
+        2677,
+        2678,
+        2681,
+        2682,
+        2686
+      ]
+    },
+    "THUMB": {
+      "native_terminal_vertex_id": 284,
+      "cap37_source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1e_human_cap_authority_freeze_r1\\THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+        "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256"
+      },
+      "approved_nail_face_ids": [
+        64,
+        65,
+        68,
+        71,
+        1036,
+        1037,
+        1038,
+        1039,
+        1040,
+        1216,
+        1218,
+        1219
+      ],
+      "approved_nail_vertex_ids": [
+        37,
+        38,
+        40,
+        281,
+        282,
+        304,
+        879,
+        881,
+        882,
+        883,
+        884,
+        1335,
+        1336,
+        1337,
+        1383,
+        1400,
+        1455,
+        2496,
+        2497,
+        2739,
+        2740,
+        2784
+      ]
+    },
+    "BODY_WRIST": {
+      "native_terminal_vertex_id": 2260,
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1\\_tmp\\native_independent_partition.json",
+        "sha256": "3f0389de71a88fdd9904e7cd67841996df40dc1fcb1fb6f8f2d62e104fd75f21"
+      },
+      "role": "Independent wrist endpoint locator only, not biological Voronoi ownership"
+    }
+  },
+  "CLASS_A_geometry_source": {
+    "path": "production_spec\\stage6_deformation\\stage6b_r1a_seam_provenance\\STAGE6B_R1A_CLASS_A_VALID_WEB_EDGES.json",
+    "sha256": "8ab48a9c3ced0461ef2041d302cb8711dbd6c96fd67fbbc2d476798f7b2774a6"
+  },
+  "future_negative_controls": [
+    "Permute component order/size: sheet identity must stay unchanged",
+    "Delete/misplace index tip or split nail anchors: fail closed",
+    "Overlapping source IDs: fail before priority/subtraction",
+    "Shared vertex offered as hard source: reject",
+    "Unreachable component: reject before cap/INF",
+    "Metre/mm representation: identical capacities after explicit conversion",
+    "One undirected flip encoded by two directed arcs: cost P, not 2P",
+    "Change old R2/R3 labels: canonical new inputs must be unaffected"
+  ],
+  "applied_to_production": false,
+  "new_sheet_split_executed": false,
+  "historical_labels_are_truth": false
+}

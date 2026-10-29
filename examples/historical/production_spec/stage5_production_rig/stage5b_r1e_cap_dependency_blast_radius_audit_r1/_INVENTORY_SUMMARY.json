@@ -1,0 +1,38 @@
+{
+  "classes": {
+    "NO_CAP_DEPENDENCY": 665,
+    "TRANSITIVE_DEPENDENCY": 503,
+    "UNRESOLVED": 2,
+    "DIRECT_DEPENDENCY": 144,
+    "DERIVED_DEPENDENCY": 195,
+    "VALIDATION_ONLY_DEPENDENCY": 23
+  },
+  "tiers": {
+    "TIER_0": 1003,
+    "TIER_1": 152,
+    "TIER_2": 203,
+    "TIER_3": 30,
+    "TIER_4": 144
+  },
+  "artifact_count": 1532,
+  "direct_reference_count": 144,
+  "strict_reference_artifacts": 28,
+  "excluded_count": 17,
+  "parse_errors": [
+    {
+      "path": "production_spec/stage5_production_rig/stage5a_freeze/STAGE5A_HUMAN_APPROVAL_FREEZE_R1.json",
+      "error": "Expecting value: line 58 column 16 (char 2395)",
+      "historical_file_untouched": true
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5a_r2a/STAGE5A_R2A_STATUS.json",
+      "error": "Expecting value: line 8 column 19 (char 255)",
+      "historical_file_untouched": true
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5a_r2b/STAGE5A_R2B_STATUS.json",
+      "error": "Expecting value: line 8 column 19 (char 265)",
+      "historical_file_untouched": true
+    }
+  ]
+}

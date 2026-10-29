@@ -1,0 +1,48 @@
+harness = <HANDS_ROOT>\production_spec\stage6_deformation\stage6b_r1b\RIGHT_HAND_STAGE6B_OPPOSITION_HARNESS_R1B.blend
+harness sha256 = 295a73944dad1d345e370dd2b12393d4edebcd42a86582e6f307c21a2aaaa612
+R1C master = <HANDS_ROOT>\production_spec\stage5_production_rig\stage5b_r1c\RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1C.blend
+R1C master sha256 = 396e82207d6afba88d634d7c2c796648fba49b9fbc6b15a7c35f989bc868aef7
+bind baseline intersecting face pairs = 59 ; characteristic edge = 3.8882 mm
+CMC_OPP_30   pairs=350 real=330 faces=230 comps=4 largest=184 total_seg=411.76 mm
+   OVERALL MAX  INTRA_THUMB       proxy=3.4173 poke=3.4383 edge=4.5646 ratio=0.7532 -> CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT
+   FOCUS        THUMB_INDEX       proxy=0.4248 poke=2.2109 edge=3.9344 ratio=0.5619 -> CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT
+     INTRA_THUMB        pairs=130 real=116 faces=109 maxproxy=3.4173 maxpoke=20.9806 maxseg=3.7459 ratio=4.5308
+     OTHER              pairs=  2 real=  2 faces=  3 maxproxy=0.1760 maxpoke=0.4065 maxseg=1.0193 ratio=0.0658
+     THUMB_INDEX        pairs=  6 real=  6 faces=  7 maxproxy=0.4248 maxpoke=2.9076 maxseg=1.7994 ratio=0.7401
+     THUMB_OTHER_DIGIT  pairs=120 real=117 faces= 90 maxproxy=2.2373 maxpoke=29.7406 maxseg=4.2853 ratio=5.5538
+     THUMB_PALM         pairs= 92 real= 89 faces= 74 maxproxy=2.3614 maxpoke=3.8366 maxseg=3.6130 ratio=0.8746
+CMC_MCP_L3   pairs=258 real=240 faces=186 comps=6 largest=98 total_seg=304.97 mm
+   OVERALL MAX  THUMB_OTHER_DIGIT proxy=4.3112 poke=1.7188 edge=5.5003 ratio=0.3125 -> CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT
+   FOCUS        THUMB_INDEX       proxy=1.1306 poke=0.6205 edge=3.9286 ratio=0.1580 -> CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT
+     INTRA_THUMB        pairs=140 real=134 faces=108 maxproxy=2.4386 maxpoke=4.6314 maxseg=10.2751 ratio=1.0519
+     OTHER              pairs=  4 real=  4 faces=  5 maxproxy=1.0201 maxpoke=0.5302 maxseg=2.6452 ratio=0.0899
+     THUMB_INDEX        pairs=  8 real=  8 faces=  9 maxproxy=1.1306 maxpoke=2.2864 maxseg=2.3825 ratio=0.5660
+     THUMB_OTHER_DIGIT  pairs= 34 real= 32 faces= 29 maxproxy=4.3112 maxpoke=2.3848 maxseg=3.7251 ratio=0.5475
+     THUMB_PALM         pairs= 72 real= 62 faces= 62 maxproxy=2.6378 maxpoke=5.4931 maxseg=4.0121 ratio=1.1458
+FULL_OPP_L3  pairs=262 real=242 faces=185 comps=7 largest=137 total_seg=320.61 mm
+   OVERALL MAX  THUMB_OTHER_DIGIT proxy=4.6857 poke=1.3646 edge=5.4008 ratio=0.2527 -> CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT
+   FOCUS        THUMB_INDEX       proxy=0.6513 poke=2.1389 edge=4.4462 ratio=0.4811 -> CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT
+     INTRA_THUMB        pairs=151 real=140 faces=112 maxproxy=3.2488 maxpoke=6.9177 maxseg=11.4679 ratio=1.9274
+     OTHER              pairs=  4 real=  4 faces=  5 maxproxy=1.0202 maxpoke=0.5310 maxseg=2.6468 ratio=0.0901
+     THUMB_INDEX        pairs=  7 real=  7 faces=  8 maxproxy=0.6513 maxpoke=2.6827 maxseg=1.9610 ratio=0.6641
+     THUMB_OTHER_DIGIT  pairs= 25 real= 23 faces= 22 maxproxy=4.6857 maxpoke=2.5614 maxseg=3.7518 ratio=0.6359
+     THUMB_PALM         pairs= 75 real= 68 faces= 67 maxproxy=2.5824 maxpoke=5.6563 maxseg=4.0897 ratio=1.1817
+rendered A SOLID_SURFACE CMC_OPP30
+rendered B CONTACT_CLOSEUP CMC_OPP30
+rendered C FACE_HIGHLIGHT CMC_OPP30
+rendered D TRANSPARENT_OVERLAY CMC_OPP30
+rendered E CROSS_SECTION CMC_OPP30 (3 crossing marks)
+rendered F DEPTH_VECTOR CMC_OPP30
+rendered A SOLID_SURFACE CMC_MCP_L3
+rendered B CONTACT_CLOSEUP CMC_MCP_L3
+rendered C FACE_HIGHLIGHT CMC_MCP_L3
+rendered D TRANSPARENT_OVERLAY CMC_MCP_L3
+rendered E CROSS_SECTION CMC_MCP_L3 (2 crossing marks)
+rendered F DEPTH_VECTOR CMC_MCP_L3
+rendered A SOLID_SURFACE FULL_OPP_L3
+rendered B CONTACT_CLOSEUP FULL_OPP_L3
+rendered C FACE_HIGHLIGHT FULL_OPP_L3
+rendered D TRANSPARENT_OVERLAY FULL_OPP_L3
+rendered E CROSS_SECTION FULL_OPP_L3 (4 crossing marks)
+rendered F DEPTH_VECTOR FULL_OPP_L3
+wrote <HANDS_ROOT>\production_spec\stage6_deformation\stage6b_r1c\STAGE6B_R1C_PENETRATION_ADJUDICATION.json

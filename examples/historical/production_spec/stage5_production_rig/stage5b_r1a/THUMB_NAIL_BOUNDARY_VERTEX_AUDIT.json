@@ -1,0 +1,307 @@
+{
+ "stage": "THUMB_NAIL_BOUNDARY_VERTEX_AUDIT",
+ "generated_at": "2026-09-30T06:40:58.086070+08:00",
+ "read_only": true,
+ "purpose": "independent re-verification of the two vertices that NAIL_WEIGHT_AUDIT treats as thumb nail vertices but which are NOT dominated by THUMB_IP_R",
+ "nail_definition_used_by_R1_audit": "vertex belongs to a polygon with material_index==1 whose FACE centroid is owned by THUMB (nearest chain)",
+ "thumb_nail_vertex_set": [
+  37,
+  38,
+  40,
+  281,
+  282,
+  304,
+  879,
+  881,
+  882,
+  883,
+  884,
+  1335,
+  1336,
+  1337,
+  1383,
+  1400,
+  1455,
+  2496,
+  2497,
+  2739,
+  2740,
+  2784
+ ],
+ "thumb_nail_vertex_count": 22,
+ "thumb_distal_cap_patch_vertex_ids": [
+  151,
+  158,
+  1061,
+  1074,
+  1076,
+  2189,
+  2192,
+  2569,
+  2577
+ ],
+ "cap_representative_vertex": 1076,
+ "cap_representative_world": [
+  1.45281744,
+  0.019802358,
+  0.493028343
+ ],
+ "cases": {
+  "1383": {
+   "vertex": 1383,
+   "world_coordinate": [
+    1.448878527,
+    0.016107034,
+    0.472928256
+   ],
+   "local_coordinate": [
+    0.040173888,
+    -0.006288005,
+    0.137080759
+   ],
+   "incident_face_count": 4,
+   "incident_face_ids": [
+    1217,
+    1218,
+    1222,
+    1223
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "incident_face_centroid_owner": [
+    "INDEX",
+    "THUMB",
+    "INDEX",
+    "INDEX"
+   ],
+   "nail_bed_face_ids": [
+    1218
+   ],
+   "non_nail_face_ids": [
+    1217,
+    1222,
+    1223
+   ],
+   "incident_to_nail_bed_face": true,
+   "nail_faces": 1,
+   "non_nail_faces": 3,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX (nail/skin border of the thumb nail: incident to both NAIL_BED and non-NAIL faces)",
+   "vertex_ownership_region": "INDEX",
+   "two_nearest_chains": [
+    {
+     "chain": "INDEX",
+     "dist_mm": 7.6788
+    },
+    {
+     "chain": "THUMB",
+     "dist_mm": 8.2918
+    }
+   ],
+   "dist_to_THUMB_chain_mm": 8.2918,
+   "dist_to_INDEX_chain_mm": 7.6788,
+   "dist_to_wrist_chain_mm": 43.5654,
+   "arc_along_thumb_chain_mm": 82.5805,
+   "arc_along_index_chain_mm": 0.0,
+   "thumb_joint_arcs_mm": {
+    "MCP": 42.6796,
+    "IP": 71.8815,
+    "TIP": 93.9454
+   },
+   "thumb_segment_of_projection": "distal phalanx",
+   "geodesic_from_thumb_distal_most_vertex_mm": 163.1687,
+   "dist_to_THUMB_IP_bone_mm": 5.8935,
+   "dist_to_THUMB_MCP_bone_mm": 13.5359,
+   "dist_to_THUMB_CMC_bone_mm": 39.2318,
+   "dist_to_INDEX_MCP_bone_mm": 12.5627,
+   "in_thumb_distal_cap_patch": false,
+   "dist_to_cap_representative_mm": 20.8131,
+   "in_first_web_mask_r1": false,
+   "in_first_web_mask_r1a": false,
+   "in_thumb_nail_vertex_set": true,
+   "current_full_weights_16": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.496226192,
+    "INDEX_PIP_R": 1e-09,
+    "WRIST_R": 0.503773808
+   },
+   "current_weights_present_groups": [
+    "INDEX_DIP_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "WRIST_R"
+   ],
+   "current_weights_all_16_including_zeros": {
+    "WRIST_R": 0.503773808,
+    "THUMB_CMC_R": 0.0,
+    "THUMB_MCP_R": 0.0,
+    "THUMB_IP_R": 0.0,
+    "INDEX_MCP_R": 0.496226192,
+    "INDEX_PIP_R": 1e-09,
+    "INDEX_DIP_R": 0.0,
+    "MIDDLE_MCP_R": 0.0,
+    "MIDDLE_PIP_R": 0.0,
+    "MIDDLE_DIP_R": 0.0,
+    "RING_MCP_R": 0.0,
+    "RING_PIP_R": 0.0,
+    "RING_DIP_R": 0.0,
+    "LITTLE_MCP_R": 0.0,
+    "LITTLE_PIP_R": 0.0,
+    "LITTLE_DIP_R": 0.0
+   },
+   "current_dominant_bone": "WRIST_R",
+   "region_classification_source": "NAIL_WEIGHT_AUDIT / R1 build: material_index==1 face whose FACE centroid ownership == THUMB -> vertex pulled into NAIL_BY_DIGIT['THUMB']; the VERTEX level owner (nearest chain by 2-D polyline distance) is however INDEX, which is what drove the R1 weight allocation",
+   "why_r1_gave_it_no_thumb_bone": "OWN_V(v)=INDEX and d_poly(v,THUMB)=8.29 mm: outside the R1 first-web band (threshold 7.78 mm), so the web cross-blend never ran and THUMB_* was not in the allowed set"
+  },
+  "2740": {
+   "vertex": 2740,
+   "world_coordinate": [
+    1.450370312,
+    0.015177237,
+    0.476352811
+   ],
+   "local_coordinate": [
+    0.041665673,
+    -0.007217802,
+    0.140505314
+   ],
+   "incident_face_count": 4,
+   "incident_face_ids": [
+    1040,
+    1041,
+    1042,
+    1043
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "incident_face_centroid_owner": [
+    "THUMB",
+    "THUMB",
+    "INDEX",
+    "INDEX"
+   ],
+   "nail_bed_face_ids": [
+    1040
+   ],
+   "non_nail_face_ids": [
+    1041,
+    1042,
+    1043
+   ],
+   "incident_to_nail_bed_face": true,
+   "nail_faces": 1,
+   "non_nail_faces": 3,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX (nail/skin border of the thumb nail: incident to both NAIL_BED and non-NAIL faces)",
+   "vertex_ownership_region": "INDEX",
+   "two_nearest_chains": [
+    {
+     "chain": "INDEX",
+     "dist_mm": 5.7151
+    },
+    {
+     "chain": "THUMB",
+     "dist_mm": 6.445
+    }
+   ],
+   "dist_to_THUMB_chain_mm": 6.445,
+   "dist_to_INDEX_chain_mm": 5.7151,
+   "dist_to_wrist_chain_mm": 45.0486,
+   "arc_along_thumb_chain_mm": 85.7801,
+   "arc_along_index_chain_mm": 0.0,
+   "thumb_joint_arcs_mm": {
+    "MCP": 42.6796,
+    "IP": 71.8815,
+    "TIP": 93.9454
+   },
+   "thumb_segment_of_projection": "distal phalanx",
+   "geodesic_from_thumb_distal_most_vertex_mm": 169.3577,
+   "dist_to_THUMB_IP_bone_mm": 3.2428,
+   "dist_to_THUMB_MCP_bone_mm": 15.3202,
+   "dist_to_THUMB_CMC_bone_mm": 41.9326,
+   "dist_to_INDEX_MCP_bone_mm": 11.0111,
+   "in_thumb_distal_cap_patch": false,
+   "dist_to_cap_representative_mm": 17.4772,
+   "in_first_web_mask_r1": true,
+   "in_first_web_mask_r1a": false,
+   "in_thumb_nail_vertex_set": true,
+   "current_full_weights_16": {
+    "INDEX_MCP_R": 0.535386384,
+    "THUMB_CMC_R": 1.7992e-05,
+    "THUMB_MCP_R": 0.04793673,
+    "WRIST_R": 0.416658878
+   },
+   "current_weights_present_groups": [
+    "INDEX_MCP_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "WRIST_R"
+   ],
+   "current_weights_all_16_including_zeros": {
+    "WRIST_R": 0.416658878,
+    "THUMB_CMC_R": 1.7992e-05,
+    "THUMB_MCP_R": 0.04793673,
+    "THUMB_IP_R": 0.0,
+    "INDEX_MCP_R": 0.535386384,
+    "INDEX_PIP_R": 0.0,
+    "INDEX_DIP_R": 0.0,
+    "MIDDLE_MCP_R": 0.0,
+    "MIDDLE_PIP_R": 0.0,
+    "MIDDLE_DIP_R": 0.0,
+    "RING_MCP_R": 0.0,
+    "RING_PIP_R": 0.0,
+    "RING_DIP_R": 0.0,
+    "LITTLE_MCP_R": 0.0,
+    "LITTLE_PIP_R": 0.0,
+    "LITTLE_DIP_R": 0.0
+   },
+   "current_dominant_bone": "INDEX_MCP_R",
+   "region_classification_source": "NAIL_WEIGHT_AUDIT / R1 build: material_index==1 face whose FACE centroid ownership == THUMB -> vertex pulled into NAIL_BY_DIGIT['THUMB']; the VERTEX level owner (nearest chain by 2-D polyline distance) is however INDEX, which is what drove the R1 weight allocation",
+   "why_r1_gave_it_no_thumb_bone": "OWN_V(v)=INDEX and d_poly(v,THUMB)=6.44 mm: inside the R1 first-web band, so only the ROOT-level web blend ran: THUMB_CMC_R / THUMB_MCP_R were added but THUMB_IP_R was never eligible because the vertex is INDEX owned"
+  }
+ },
+ "verdicts": {
+  "1383": {
+   "incident_to_nail_bed_face": true,
+   "nail_faces": 1,
+   "non_nail_faces": 3,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX (nail/skin border of the thumb nail: incident to both NAIL_BED and non-NAIL faces)",
+   "vertex_ownership_region": "INDEX",
+   "thumb_segment_of_projection": "distal phalanx",
+   "arc_along_thumb_chain_mm": 82.5805,
+   "dist_to_THUMB_chain_mm": 8.2918,
+   "dist_to_INDEX_chain_mm": 7.6788,
+   "dist_to_thumb_distal_cap_rep_mm": 20.8131,
+   "in_thumb_distal_cap_patch": false,
+   "in_first_web_mask_r1": false,
+   "in_first_web_mask_r1a": false,
+   "current_dominant": "WRIST_R",
+   "why_r1_gave_it_no_thumb_bone": "OWN_V(v)=INDEX and d_poly(v,THUMB)=8.29 mm: outside the R1 first-web band (threshold 7.78 mm), so the web cross-blend never ran and THUMB_* was not in the allowed set",
+   "branch_rule_result": "C -> SHARED_SEMANTIC_BOUNDARY_VERTEX (nail/skin border) located on the THUMB DISTAL PHALANX -> R1A assigns THUMB_IP_R as dominant (branch A applies to the distal authority; recorded here as a shared boundary exception with incident-face evidence)"
+  },
+  "2740": {
+   "incident_to_nail_bed_face": true,
+   "nail_faces": 1,
+   "non_nail_faces": 3,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX (nail/skin border of the thumb nail: incident to both NAIL_BED and non-NAIL faces)",
+   "vertex_ownership_region": "INDEX",
+   "thumb_segment_of_projection": "distal phalanx",
+   "arc_along_thumb_chain_mm": 85.7801,
+   "dist_to_THUMB_chain_mm": 6.445,
+   "dist_to_INDEX_chain_mm": 5.7151,
+   "dist_to_thumb_distal_cap_rep_mm": 17.4772,
+   "in_thumb_distal_cap_patch": false,
+   "in_first_web_mask_r1": true,
+   "in_first_web_mask_r1a": false,
+   "current_dominant": "INDEX_MCP_R",
+   "why_r1_gave_it_no_thumb_bone": "OWN_V(v)=INDEX and d_poly(v,THUMB)=6.44 mm: inside the R1 first-web band, so only the ROOT-level web blend ran: THUMB_CMC_R / THUMB_MCP_R were added but THUMB_IP_R was never eligible because the vertex is INDEX owned",
+   "branch_rule_result": "C -> SHARED_SEMANTIC_BOUNDARY_VERTEX (nail/skin border) located on the THUMB DISTAL PHALANX -> R1A assigns THUMB_IP_R as dominant (branch A applies to the distal authority; recorded here as a shared boundary exception with incident-face evidence)"
+  }
+ }
+}

@@ -1,0 +1,245 @@
+{
+  "status": "PASS",
+  "checks": {
+    "groups": true,
+    "weights_exact_including_zero": true,
+    "mesh_object_modifiers": true,
+    "mesh_object_settings": true,
+    "mesh_object_matrices": true,
+    "full_rig_object_rest_and_bind_space": true
+  },
+  "modifier_stack_settings": [
+    {
+      "name": "PRODUCTION_ARMATURE",
+      "type": "ARMATURE",
+      "show_viewport": true,
+      "show_render": true,
+      "show_in_editmode": false,
+      "show_on_cage": false,
+      "show_expanded": true,
+      "is_active": true,
+      "use_pin_to_last": false,
+      "use_apply_on_spline": false,
+      "object": {
+        "type": "Object",
+        "name": "RIGHT_HAND_PRODUCTION_RIG",
+        "library": null
+      },
+      "use_bone_envelopes": false,
+      "use_vertex_groups": true,
+      "use_deform_preserve_volume": false,
+      "use_multi_modifier": false,
+      "vertex_group": "",
+      "invert_vertex_group": false
+    }
+  ],
+  "mesh_object_matrices": {
+    "matrix_world": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.4087046384811401
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.022395038977265358
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.33584749698638916
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "matrix_local": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.4087046384811401
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.022395038977265358
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.33584749698638916
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "matrix_basis": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        1.4087046384811401
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.022395038977265358
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.33584749698638916
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "matrix_parent_inverse": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ]
+  },
+  "group_order": [
+    [
+      0,
+      "WRIST_R",
+      false
+    ],
+    [
+      1,
+      "THUMB_CMC_R",
+      false
+    ],
+    [
+      2,
+      "THUMB_MCP_R",
+      false
+    ],
+    [
+      3,
+      "THUMB_IP_R",
+      false
+    ],
+    [
+      4,
+      "INDEX_MCP_R",
+      false
+    ],
+    [
+      5,
+      "INDEX_PIP_R",
+      false
+    ],
+    [
+      6,
+      "INDEX_DIP_R",
+      false
+    ],
+    [
+      7,
+      "MIDDLE_MCP_R",
+      false
+    ],
+    [
+      8,
+      "MIDDLE_PIP_R",
+      false
+    ],
+    [
+      9,
+      "MIDDLE_DIP_R",
+      false
+    ],
+    [
+      10,
+      "RING_MCP_R",
+      false
+    ],
+    [
+      11,
+      "RING_PIP_R",
+      false
+    ],
+    [
+      12,
+      "RING_DIP_R",
+      false
+    ],
+    [
+      13,
+      "LITTLE_MCP_R",
+      false
+    ],
+    [
+      14,
+      "LITTLE_PIP_R",
+      false
+    ],
+    [
+      15,
+      "LITTLE_DIP_R",
+      false
+    ]
+  ],
+  "bone_group_mapping": [
+    "WRIST_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "THUMB_IP_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "INDEX_DIP_R",
+    "MIDDLE_MCP_R",
+    "MIDDLE_PIP_R",
+    "MIDDLE_DIP_R",
+    "RING_MCP_R",
+    "RING_PIP_R",
+    "RING_DIP_R",
+    "LITTLE_MCP_R",
+    "LITTLE_PIP_R",
+    "LITTLE_DIP_R"
+  ],
+  "actual_asset_independent_bind_matrix": "None stored by Blender Armature modifier; object-to-armature spaces and each bone rest inverse are evaluated by Blender. Actual matrix_parent_inverse is recorded separately as object data. No invented inverse bind property.",
+  "modifier_ON_zero_only": true,
+  "reparent_rebind_transform_apply_inverse_bind_recalculation": false
+}

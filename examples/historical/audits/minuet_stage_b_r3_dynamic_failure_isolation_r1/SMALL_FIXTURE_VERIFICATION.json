@@ -1,0 +1,57 @@
+{
+  "origin": "ARTIFICIAL_ARRAY_FIXTURES_ONLY",
+  "bounded_test_cases": 7,
+  "checks": [
+    "legal arrays unchanged",
+    "lower/upper, time, hand/finger/joint/DOF/units correctly recorded",
+    "nonfinite separate from finite limit excess",
+    "legal knot sums can violate domain after separately interpolated addition; NOT original failed trajectory",
+    "checkpoint exists before rejection; returned nfev not replaced by callback counter",
+    "existing evidence cannot be overwritten"
+  ],
+  "synthetic_reference_thumb_CMC_deg": [
+    22.0,
+    24.7,
+    25.0
+  ],
+  "synthetic_latent_thumb_CMC_deg": [
+    3.0,
+    0.3,
+    -0.3
+  ],
+  "synthetic_knot_sums_deg": [
+    25.0,
+    25.0,
+    24.7
+  ],
+  "synthetic_joint_allowed_deg": [
+    0.0,
+    25.0
+  ],
+  "knot_guard_pass": true,
+  "separate_interpolation_guard_pass": false,
+  "total_q_interpolation_guard_pass": true,
+  "separate_interpolation_max_excess_deg": 0.0780333627272718,
+  "worst_synthetic_sample": {
+    "stage": "SYNTHETIC_SEPARATE_INTERPOLATION_SUM",
+    "sample_index": 61,
+    "time_sec": 0.61,
+    "flat_index": 0,
+    "hand": "L",
+    "finger": 1,
+    "digit": "THUMB",
+    "joint": "CMC",
+    "dof": "FLEXION_INCREMENT",
+    "unit": "degrees relative to existing curved RSSF rest",
+    "actual_deg": 25.078033362727272,
+    "allowed_lower_deg": 0.0,
+    "allowed_upper_deg": 25.0,
+    "excess_deg": 0.0780333627272718,
+    "finite": true
+  },
+  "R3_original_failure_localized": false,
+  "production_solver_invocations": 0,
+  "new_dynamic_candidates": 0,
+  "no_motion_npz_or_Action_created": true,
+  "not_a_candidate_or_reconstructed_failure": true
+}

@@ -1,0 +1,40 @@
+{
+  "Q1_Q13": {
+    "Q1": "YES",
+    "Q2": "YES",
+    "Q3": "YES",
+    "Q4": "NO",
+    "Q5": "YES",
+    "Q6": "YES",
+    "Q7": "YES",
+    "Q8": "YES",
+    "Q9": "YES",
+    "Q10": "NO",
+    "Q11": "YES",
+    "Q12": "NO",
+    "Q13": "STATIC_TO_DYNAMIC_TRANSITION_FAIL_CLOSED"
+  },
+  "states": {
+    "LEFT_TRANSITION": "GENERATED / FAIL_DYNAMIC_CONTACT",
+    "LEFT_IDLE_FINGERS": "PASS_CANDIDATE",
+    "LEFT_DYNAMIC_CONTACT": "FAIL_CONTACT_SCREEN",
+    "LEFT_WRIST_MOTION": "CONSTANT_APPROVED_ROOT / PASS_PRECHECK",
+    "RIGHT_TRANSITION": "GENERATED / CONTACT_PASS / LIMIT_DWELL_FAIL",
+    "RIGHT_FSHARP_CONTACT": "PASS_CONTACT_SCREEN",
+    "RIGHT_NEIGHBOR_CLEARANCE": "PASS_FINITE_SCREEN",
+    "JOINT_CONTINUITY": "PASS_NUMERIC / LIMIT_DWELL_FAIL",
+    "ROOT_CONTINUITY": "PASS / CONSTANT_SHARED_ROOT",
+    "HUMAN_VISIBLE_NATURALNESS": "NOT_READY / HUMAN_PENDING",
+    "FINAL_STATUS": "STATIC_TO_DYNAMIC_TRANSITION_FAIL_CLOSED",
+    "HAND_BASELINES_UNCHANGED": "YES",
+    "PIANO_BASELINE_UNCHANGED": "YES"
+  },
+  "human_approval": false,
+  "STOP": "HUMAN REVIEW",
+  "asset_protection": true,
+  "candidate_machine_pass": {
+    "L": false,
+    "R": false
+  },
+  "source_static_human_approved": true
+}

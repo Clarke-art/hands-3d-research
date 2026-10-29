@@ -1,0 +1,532 @@
+{
+ "stage": "STAGE4B_AUTO_RSSF_INITIAL_POSE_R2",
+ "VALIDATION_SEMANTICS": "FINAL_ABSOLUTE_ANGLE",
+ "validation_authority": "FINAL_ABSOLUTE_POSE_VALUES",
+ "diagnostic_only": [
+  "APPLIED_ROTATION_VALUES",
+  "measured_on_posed_geometry.change_deg",
+  "measured_on_posed_geometry.*.rest_deg"
+ ],
+ "AUTO_RSSF_INITIAL_VALUES": {
+  "flexion_applied_deg": {
+   "index": {
+    "MCP": 24.0,
+    "PIP": 27.0,
+    "DIP": 16.0
+   },
+   "middle": {
+    "MCP": 28.0,
+    "PIP": 23.0,
+    "DIP": 16.0
+   },
+   "ring": {
+    "MCP": 27.0,
+    "PIP": 22.0,
+    "DIP": 14.0
+   },
+   "little": {
+    "MCP": 25.0,
+    "PIP": 28.0,
+    "DIP": 13.0
+   }
+  },
+  "spread_applied_deg": {
+   "index": 4.758,
+   "middle": 0.0,
+   "ring": 0.974,
+   "little": 0.444
+  },
+  "thumb_applied_deg": {
+   "CMC_FLEX": 24.0,
+   "MCP": -13.182,
+   "IP": 0.0,
+   "CMC_ABDUCT": 9.435,
+   "WEB_TARGET": 40.0
+  },
+  "spread_absolute_targets_deg": {
+   "index_middle": 12.0,
+   "middle_ring": 13.0,
+   "ring_little": 12.0
+  },
+  "thumb_mcp_absolute_target_deg": 22.0,
+  "note": "produced entirely by the automatic solver; the four-finger flexion values are carried over unchanged from R1 (already verified in range)."
+ },
+ "HUMAN_REVIEW_TUNING_VALUES": {},
+ "TUNING_DIFF": {
+  "count": 0,
+  "items": [],
+  "rule": "records ONLY what changed AFTER the automatic solve AUTO_R2_VALUE -> FINAL_R2_VALUE, so the machine record and the human-readable report cannot disagree"
+ },
+ "HUMAN_TUNING_SCOPE": "NONE (the automatic solution met every frozen FINAL ABSOLUTE range unchanged)",
+ "FINAL_RSSF_VALUES": {
+  "flexion_applied_deg": {
+   "index": {
+    "MCP": 24.0,
+    "PIP": 27.0,
+    "DIP": 16.0
+   },
+   "middle": {
+    "MCP": 28.0,
+    "PIP": 23.0,
+    "DIP": 16.0
+   },
+   "ring": {
+    "MCP": 27.0,
+    "PIP": 22.0,
+    "DIP": 14.0
+   },
+   "little": {
+    "MCP": 25.0,
+    "PIP": 28.0,
+    "DIP": 13.0
+   }
+  },
+  "spread_applied_deg": {
+   "index": 4.758,
+   "middle": 0.0,
+   "ring": 0.974,
+   "little": 0.444
+  },
+  "thumb_applied_deg": {
+   "CMC_FLEX": 24.0,
+   "MCP": -13.182,
+   "IP": 0.0,
+   "CMC_ABDUCT": 9.435,
+   "WEB_TARGET": 40.0
+  },
+  "spread_absolute_targets_deg": {
+   "index_middle": 12.0,
+   "middle_ring": 13.0,
+   "ring_little": 12.0
+  },
+  "thumb_mcp_absolute_target_deg": 22.0,
+  "note": "produced entirely by the automatic solver; the four-finger flexion values are carried over unchanged from R1 (already verified in range)."
+ },
+ "APPLIED_ROTATION_VALUES": {
+  "method": "total rotation magnitude of each bone's LOCAL rotation matrix, acos((trace-1)/2) -- DIAGNOSTIC ONLY, never the validation authority",
+  "finger_bones_deg": {
+   "little": {
+    "MCP": 25.0,
+    "PIP": 28.0,
+    "DIP": 13.0
+   },
+   "ring": {
+    "MCP": 27.02,
+    "PIP": 22.0,
+    "DIP": 14.0
+   },
+   "middle": {
+    "MCP": 28.0,
+    "PIP": 23.0,
+    "DIP": 16.0
+   },
+   "index": {
+    "MCP": 24.46,
+    "PIP": 27.0,
+    "DIP": 16.0
+   }
+  },
+  "thumb_bones_deg": {
+   "CMC": 28.93,
+   "MCP": 13.18,
+   "IP": 0.0
+  },
+  "finger_spread_applied_deg": {
+   "little": 0.444,
+   "ring": 0.974,
+   "middle": 0.0,
+   "index": 4.758
+  },
+  "thumb_applied_deg": {
+   "CMC_FLEX": 24.0,
+   "MCP": -13.182,
+   "IP": 0.0,
+   "CMC_ABDUCT": 9.435
+  }
+ },
+ "FINAL_ABSOLUTE_POSE_VALUES": {
+  "LITTLE_MCP": {
+   "deg": 24.94,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "LITTLE_PIP": {
+   "deg": 30.03,
+   "range": [
+    25.0,
+    35.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "LITTLE_DIP": {
+   "deg": 13.53,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "RING_MCP": {
+   "deg": 26.71,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "RING_PIP": {
+   "deg": 33.06,
+   "range": [
+    25.0,
+    35.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "RING_DIP": {
+   "deg": 19.7,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "MIDDLE_MCP": {
+   "deg": 27.95,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "MIDDLE_PIP": {
+   "deg": 33.14,
+   "range": [
+    25.0,
+    35.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "MIDDLE_DIP": {
+   "deg": 17.84,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "INDEX_MCP": {
+   "deg": 24.09,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "INDEX_PIP": {
+   "deg": 30.77,
+   "range": [
+    25.0,
+    35.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "INDEX_DIP": {
+   "deg": 10.95,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "ADJACENT_SPREAD_INDEX_MIDDLE": {
+   "deg": 12.0,
+   "range": [
+    10.0,
+    15.0
+   ],
+   "status": "IN_TECHNICAL_RANGE",
+   "rest_deg": 6.96,
+   "change_deg": 5.04
+  },
+  "ADJACENT_SPREAD_MIDDLE_RING": {
+   "deg": 13.0,
+   "range": [
+    10.0,
+    15.0
+   ],
+   "status": "IN_TECHNICAL_RANGE",
+   "rest_deg": 11.62,
+   "change_deg": 1.38
+  },
+  "ADJACENT_SPREAD_RING_LITTLE": {
+   "deg": 12.0,
+   "range": [
+    10.0,
+    15.0
+   ],
+   "status": "IN_TECHNICAL_RANGE",
+   "rest_deg": 12.46,
+   "change_deg": -0.46
+  },
+  "THUMB_CMC": {
+   "deg": 27.7,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "THUMB_MCP": {
+   "deg": 22.0,
+   "range": [
+    15.0,
+    25.0
+   ],
+   "rest_deg": 35.34,
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "THUMB_IP": {
+   "deg": 17.84,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "rest_deg": 17.08,
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "FIRST_WEB": {
+   "deg": 40.0,
+   "range": [
+    35.0,
+    45.0
+   ],
+   "rest_deg": 19.33,
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "WRIST_flex_ext": {
+   "deg": 0.0,
+   "range": "neutral (0)",
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "WRIST_radial_ulnar": {
+   "deg": 0.0,
+   "range": "neutral (0)",
+   "status": "IN_TECHNICAL_RANGE"
+  }
+ },
+ "measured_on_posed_geometry": {
+  "little": {
+   "MCP_flexion": 24.94,
+   "MCP_abduction": -0.24,
+   "PIP_articulation": {
+    "change_deg": 28.03,
+    "rest_deg": 2.0,
+    "posed_deg": 30.03
+   },
+   "DIP_articulation": {
+    "change_deg": 12.97,
+    "rest_deg": 0.56,
+    "posed_deg": 13.53
+   },
+   "applied_rotation_deg": {
+    "MCP": 25.0,
+    "PIP": 28.0,
+    "DIP": 13.0
+   },
+   "finger_curl_deg": {
+    "rest": 3.09,
+    "posed": 43.53,
+    "delta": 40.44
+   }
+  },
+  "ring": {
+   "MCP_flexion": 26.71,
+   "MCP_abduction": -0.66,
+   "PIP_articulation": {
+    "change_deg": 22.06,
+    "rest_deg": 10.99,
+    "posed_deg": 33.06
+   },
+   "DIP_articulation": {
+    "change_deg": 14.04,
+    "rest_deg": 5.65,
+    "posed_deg": 19.7
+   },
+   "applied_rotation_deg": {
+    "MCP": 27.02,
+    "PIP": 22.0,
+    "DIP": 14.0
+   },
+   "finger_curl_deg": {
+    "rest": 19.25,
+    "posed": 53.4,
+    "delta": 34.15
+   }
+  },
+  "middle": {
+   "MCP_flexion": 27.95,
+   "MCP_abduction": 0.62,
+   "PIP_articulation": {
+    "change_deg": 23.0,
+    "rest_deg": 10.14,
+    "posed_deg": 33.14
+   },
+   "DIP_articulation": {
+    "change_deg": 16.0,
+    "rest_deg": 1.84,
+    "posed_deg": 17.84
+   },
+   "applied_rotation_deg": {
+    "MCP": 28.0,
+    "PIP": 23.0,
+    "DIP": 16.0
+   },
+   "finger_curl_deg": {
+    "rest": 12.89,
+    "posed": 51.18,
+    "delta": 38.29
+   }
+  },
+  "index": {
+   "MCP_flexion": 24.09,
+   "MCP_abduction": 5.16,
+   "PIP_articulation": {
+    "change_deg": 26.87,
+    "rest_deg": 3.9,
+    "posed_deg": 30.77
+   },
+   "DIP_articulation": {
+    "change_deg": 6.07,
+    "rest_deg": 4.87,
+    "posed_deg": 10.95
+   },
+   "applied_rotation_deg": {
+    "MCP": 24.46,
+    "PIP": 27.0,
+    "DIP": 16.0
+   },
+   "finger_curl_deg": {
+    "rest": 5.37,
+    "posed": 42.31,
+    "delta": 36.94
+   }
+  },
+  "thumb": {
+   "CMC_flexion": 27.7,
+   "CMC_abduction": 18.54,
+   "MCP_articulation": {
+    "change_deg": 13.35,
+    "rest_deg": 35.34,
+    "posed_deg": 22.0
+   },
+   "IP_articulation": {
+    "change_deg": 0.76,
+    "rest_deg": 17.08,
+    "posed_deg": 17.84
+   },
+   "thumb_index_web_deg": 40.0,
+   "thumb_index_web_rest_deg": 19.33,
+   "applied_rotation_deg": {
+    "CMC": 28.93,
+    "MCP": 13.18,
+    "IP": 0.0
+   }
+  },
+  "adjacent_spread": {
+   "index_middle": {
+    "rest_deg": 6.96,
+    "posed_deg": 12.0,
+    "change_deg": 5.04
+   },
+   "middle_ring": {
+    "rest_deg": 11.62,
+    "posed_deg": 13.0,
+    "change_deg": 1.38
+   },
+   "ring_little": {
+    "rest_deg": 12.46,
+    "posed_deg": 12.0,
+    "change_deg": -0.46
+   }
+  },
+  "wrist": {
+   "flex_ext_deg": 0.0,
+   "radial_ulnar_deviation_deg": 0.0,
+   "note": "wrist deliberately left neutral in RSSF"
+  }
+ },
+ "R1_TO_R2_CORRECTION": {
+  "reason": "R1 validated the thumb against the APPLIED rotation and the adjacent spread against the CHANGE from rest.  The frozen bands constrain the FINAL ABSOLUTE pose angle, so both must be measured as absolute angles.",
+  "adjacent_spread_absolute_deg": {
+   "R1_index_middle": 19.24,
+   "R1_middle_ring": 25.97,
+   "R1_ring_little": 23.47,
+   "R2_index_middle": 12.0,
+   "R2_middle_ring": 13.0,
+   "R2_ring_little": 12.0
+  },
+  "thumb_MCP_absolute_deg": {
+   "R1": 54.31,
+   "R2": 22.0,
+   "R1_applied_deg": 19.0,
+   "R2_applied_deg": -13.182
+  },
+  "thumb_IP_absolute_deg": {
+   "R1": 31.09,
+   "R2": 17.84,
+   "R1_applied_deg": 14.0,
+   "R2_applied_deg": 0.0
+  },
+  "unchanged_as_instructed": [
+   "four-finger MCP/PIP/DIP applied flexion",
+   "THUMB CMC flexion",
+   "thumb-index first web",
+   "wrist neutral",
+   "temp rig definition",
+   "topology",
+   "weights method"
+  ]
+ },
+ "all_items_in_range": true,
+ "out_of_range_items": [],
+ "technical_ranges": {
+  "finger_spread_deg": [
+   10,
+   15
+  ],
+  "MCP_deg": [
+   20,
+   30
+  ],
+  "PIP_deg": [
+   25,
+   35
+  ],
+  "DIP_deg": [
+   10,
+   20
+  ],
+  "thumb_index_web_deg": [
+   35,
+   45
+  ],
+  "CMC_flexion_deg": [
+   20,
+   30
+  ],
+  "thumb_MCP_deg": [
+   15,
+   25
+  ],
+  "thumb_IP_deg": [
+   10,
+   20
+  ],
+  "wrist_flex_ext_deg": "neutral (0)",
+  "wrist_deviation_deg": "neutral (0)"
+ },
+ "note": "technical range, NOT a teaching parameter.  Every range is applied to the FINAL ABSOLUTE pose angle; deltas from the source and applied rotations are never used for validation."
+}

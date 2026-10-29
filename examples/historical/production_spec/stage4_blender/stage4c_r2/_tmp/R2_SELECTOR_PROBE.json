@@ -1,0 +1,338 @@
+{
+ "stage": "STAGE4C_R2_NAIL_SELECTOR_PROBE",
+ "mode": "READ-ONLY",
+ "parameters": {
+  "AX_LO": 0.18,
+  "AX_HI": 0.8,
+  "CONE_MIN": 0.66,
+  "OWN_MARGIN": 0.85,
+  "RADIAL_FRAC_MIN": 0.35,
+  "COMP_MIN_M": 0.004,
+  "SPECK_FRAC": 0.15
+ },
+ "envelopes_mm": {
+  "thumb": 11.14,
+  "index": 7.64,
+  "middle": 7.8,
+  "ring": 7.15,
+  "little": 6.75
+ },
+ "per_digit_faces": {
+  "thumb": 10,
+  "index": 21,
+  "middle": 30,
+  "ring": 22,
+  "little": 19
+ },
+ "total_instances": 102,
+ "union": 102,
+ "disjoint": true,
+ "NAIL_FACE_OVERLAP_COUNT_TOTAL": 0,
+ "pairwise_intersections": [
+  {
+   "pair": "thumb x index",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "thumb x middle",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "thumb x ring",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "thumb x little",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "index x middle",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "index x ring",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "index x little",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "middle x ring",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "middle x little",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "ring x little",
+   "intersection_count": 0,
+   "faces": []
+  }
+ ],
+ "NAIL_PALMAR_LEAKAGE": 0,
+ "NAIL_WEBSPACE_LEAKAGE": 0,
+ "faces_further_than_12mm_from_any_distal_bone": 0,
+ "NAIL_FACE_OWNER_DISTANCE_TEST_violations": 0,
+ "NAIL_CONNECTED_COMPONENTS_PER_DIGIT": {
+  "thumb": [
+   10
+  ],
+  "index": [
+   21
+  ],
+  "middle": [
+   30
+  ],
+  "ring": [
+   22
+  ],
+  "little": [
+   19
+  ]
+ },
+ "speck": {
+  "thumb": {
+   "islands_before": 1,
+   "island_sizes_before": [
+    10
+   ],
+   "dropped_as_specks": []
+  },
+  "index": {
+   "islands_before": 1,
+   "island_sizes_before": [
+    21
+   ],
+   "dropped_as_specks": []
+  },
+  "middle": {
+   "islands_before": 1,
+   "island_sizes_before": [
+    30
+   ],
+   "dropped_as_specks": []
+  },
+  "ring": {
+   "islands_before": 1,
+   "island_sizes_before": [
+    22
+   ],
+   "dropped_as_specks": []
+  },
+  "little": {
+   "islands_before": 1,
+   "island_sizes_before": [
+    19
+   ],
+   "dropped_as_specks": []
+  }
+ },
+ "per_digit_stats": {
+  "thumb": {
+   "faces": 10,
+   "centroid_world": [
+    1.451132,
+    0.014121,
+    0.47134
+   ],
+   "bbox_world": [
+    [
+     1.447451,
+     0.012155,
+     0.466713
+    ],
+    [
+     1.453051,
+     0.015736,
+     0.478762
+    ]
+   ],
+   "distal_bone": "THUMB_IP_R",
+   "axial_frac_min_max": [
+    0.199,
+    0.728
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 4.81,
+    "max": 9.45,
+    "mean": 6.55
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 48.84,
+    "mean": 54.34
+   },
+   "bbox_extent_mm": [
+    5.6,
+    3.58,
+    12.05
+   ]
+  },
+  "index": {
+   "faces": 21,
+   "centroid_world": [
+    1.461383,
+    -0.027839,
+    0.515501
+   ],
+   "bbox_world": [
+    [
+     1.455832,
+     -0.033267,
+     0.513338
+    ],
+    [
+     1.465999,
+     -0.024034,
+     0.516446
+    ]
+   ],
+   "distal_bone": "INDEX_DIP_R",
+   "axial_frac_min_max": [
+    0.182,
+    0.789
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 3.09,
+    "max": 6.84,
+    "mean": 4.81
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 32.21,
+    "mean": 37.43
+   },
+   "bbox_extent_mm": [
+    10.17,
+    9.23,
+    3.11
+   ]
+  },
+  "middle": {
+   "faces": 30,
+   "centroid_world": [
+    1.42577,
+    -0.037732,
+    0.525195
+   ],
+   "bbox_world": [
+    [
+     1.41966,
+     -0.042719,
+     0.523101
+    ],
+    [
+     1.432235,
+     -0.032712,
+     0.526477
+    ]
+   ],
+   "distal_bone": "MIDDLE_DIP_R",
+   "axial_frac_min_max": [
+    0.2,
+    0.763
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 5.73,
+    "max": 8.32,
+    "mean": 6.42
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 26.67,
+    "mean": 31.36
+   },
+   "bbox_extent_mm": [
+    12.58,
+    10.01,
+    3.38
+   ]
+  },
+  "ring": {
+   "faces": 22,
+   "centroid_world": [
+    1.394994,
+    -0.039084,
+    0.517202
+   ],
+   "bbox_world": [
+    [
+     1.388765,
+     -0.044365,
+     0.515388
+    ],
+    [
+     1.400911,
+     -0.03576,
+     0.518647
+    ]
+   ],
+   "distal_bone": "RING_DIP_R",
+   "axial_frac_min_max": [
+    0.288,
+    0.798
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 5.65,
+    "max": 6.96,
+    "mean": 6.18
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 24.13,
+    "mean": 29.82
+   },
+   "bbox_extent_mm": [
+    12.15,
+    8.6,
+    3.26
+   ]
+  },
+  "little": {
+   "faces": 19,
+   "centroid_world": [
+    1.360283,
+    -0.031512,
+    0.500522
+   ],
+   "bbox_world": [
+    [
+     1.356092,
+     -0.035438,
+     0.497863
+    ],
+    [
+     1.364003,
+     -0.028628,
+     0.50158
+    ]
+   ],
+   "distal_bone": "LITTLE_DIP_R",
+   "axial_frac_min_max": [
+    0.205,
+    0.794
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 3.32,
+    "max": 6.18,
+    "mean": 4.57
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 32.55,
+    "mean": 36.31
+   },
+   "bbox_extent_mm": [
+    7.91,
+    6.81,
+    3.72
+   ]
+  }
+ }
+}

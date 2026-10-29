@@ -1,0 +1,48 @@
+{
+  "keys": [
+    {
+      "name": "Basis",
+      "mute": false,
+      "vertex_group": "",
+      "max_delta_m": 0.0
+    },
+    {
+      "name": "FIRST_WEB_OPPOSITION_CREASE_R1",
+      "mute": false,
+      "vertex_group": "",
+      "max_delta_m": 0.0005707186514811081
+    }
+  ],
+  "drivers": [
+    {
+      "path": "key_blocks[\"FIRST_WEB_OPPOSITION_CREASE_R1\"].value",
+      "expression": "max(min(1,max(0,(-opp-0.37)/0.06)),min(1,max(0,(-opp-0.15)/0.15))*min(1,max(0,(-mcp-0.175)/0.175)))",
+      "variables": [
+        {
+          "name": "opp",
+          "type": "TRANSFORMS",
+          "targets": [
+            {
+              "bone": "THUMB_CMC_R",
+              "transform_type": "ROT_X",
+              "transform_space": "LOCAL_SPACE",
+              "data_path": ""
+            }
+          ]
+        },
+        {
+          "name": "mcp",
+          "type": "TRANSFORMS",
+          "targets": [
+            {
+              "bone": "THUMB_MCP_R",
+              "transform_type": "ROT_X",
+              "transform_space": "LOCAL_SPACE",
+              "data_path": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

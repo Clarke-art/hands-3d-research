@@ -1,0 +1,131 @@
+{
+  "result": "PARTIAL",
+  "human_review_required": true,
+  "approved_for_production": false,
+  "reason": "Both windows improve but retain real skin-black-key intersections; some inherited G#4 penetration worsens; baked transition has small new boundary deviations. No third configuration or repair candidate.",
+  "windows": [
+    {
+      "range": [
+        0.35,
+        0.8
+      ],
+      "samples": 211,
+      "maximum_step_sec": 0.004166666667000052,
+      "baseline_peak": {
+        "time": 0.4125,
+        "key": "G#4",
+        "depth_mm": 4.377412558934431,
+        "bvh_pairs": 44
+      },
+      "candidate_peak": {
+        "time": 0.8,
+        "key": "G#4",
+        "depth_mm": 2.839852356419417,
+        "bvh_pairs": 33
+      },
+      "baseline_black_peak": {
+        "time": 0.4125,
+        "key": "G#4",
+        "depth_mm": 4.377412558934431,
+        "bvh_pairs": 44
+      },
+      "candidate_black_peak": {
+        "time": 0.8,
+        "key": "G#4",
+        "depth_mm": 2.839852356419417,
+        "bvh_pairs": 33
+      },
+      "new_or_worse_key_samples": 18,
+      "new_self_pair_samples": 0
+    },
+    {
+      "range": [
+        2.45,
+        2.9
+      ],
+      "samples": 202,
+      "maximum_step_sec": 0.004166666667000385,
+      "baseline_peak": {
+        "time": 2.45,
+        "key": "A#4",
+        "depth_mm": 5.6371241847937625,
+        "bvh_pairs": 62
+      },
+      "candidate_peak": {
+        "time": 2.45,
+        "key": "A#4",
+        "depth_mm": 2.7432096905450147,
+        "bvh_pairs": 44
+      },
+      "baseline_black_peak": {
+        "time": 2.45,
+        "key": "A#4",
+        "depth_mm": 5.6371241847937625,
+        "bvh_pairs": 62
+      },
+      "candidate_black_peak": {
+        "time": 2.45,
+        "key": "A#4",
+        "depth_mm": 2.7432096905450147,
+        "bvh_pairs": 44
+      },
+      "new_or_worse_key_samples": 0,
+      "new_self_pair_samples": 0
+    }
+  ],
+  "new_collision_count": 0,
+  "worse_existing_samples": 73,
+  "worst_worsening": {
+    "time": 0.083333333333,
+    "key": "G#4",
+    "baseline_mm": 2.737519716528227,
+    "candidate_mm": 3.25513778052172,
+    "increase_mm": 0.5176180639934933
+  },
+  "new_self_collision_samples": 0,
+  "new_cross_hand_collision_samples": 0,
+  "contacts_pass": 48,
+  "contacts_total": 48,
+  "max_active_pad_shift_mm": 5.9720946631883826e-05,
+  "other_digit_skin_max_mm": {
+    "THUMB": 0.5873624693854533,
+    "INDEX": 14.277538355717619,
+    "MIDDLE": 0.0,
+    "RING": 0.0,
+    "LITTLE": 0.0
+  },
+  "limits": {
+    "frozen_bounds_deg": [
+      [
+        0,
+        0,
+        0,
+        -25
+      ],
+      [
+        32,
+        32,
+        20,
+        25
+      ]
+    ],
+    "index_min_deg": [
+      -4.281151006802272e-07,
+      11.905641857388618,
+      0.825918759359285,
+      -14.929701783718397
+    ],
+    "index_max_deg": [
+      28.232539188104816,
+      27.74004913136436,
+      16.628159458560702,
+      1.6052604649200537
+    ],
+    "raw_domain_roundoff_deg": 4.281151006802272e-07
+  },
+  "protected_files": 27,
+  "source_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+  "candidate_sha256": "577c0303e34b048f20a4adece1e22afb2d493e5a390756d6587dd8063d7111a1",
+  "max_added_joint_speed_deg_s": 181.4198383538098,
+  "stop": "STOP — HUMAN REVIEW"
+}

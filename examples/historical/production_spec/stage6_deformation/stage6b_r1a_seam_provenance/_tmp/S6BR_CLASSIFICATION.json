@@ -1,0 +1,28 @@
+{
+ "stage": "STAGE6B_R1A_CLASSIFICATION",
+ "counts": {
+  "CLASS_B": 61,
+  "CLASS_A": 6
+ },
+ "all_same_digit": true,
+ "log": [
+  "geodesic thumb_tip->index_tip = 201.7027 mm",
+  "pose TH_MCP_45    max seam stretch 31.9401x ; torn(>3x) 64/67",
+  "pose TH_IP_45     max seam stretch 12.9165x ; torn(>3x) 43/67",
+  "pose CMC_OPP_10   max seam stretch 12.5977x ; torn(>3x) 48/67",
+  "pose CMC_OPP_30   max seam stretch 38.2469x ; torn(>3x) 67/67",
+  "pose FULL_OPP_L3  max seam stretch 61.3116x ; torn(>3x) 67/67",
+  "harness restore-to-RSSF checked (read-only session)",
+  "classification counts: {'CLASS_B': 61, 'CLASS_A': 6} (total 67)",
+  "all 67 edges mesh-true SAME-digit: True",
+  "wrote STAGE6B_R1A_SEAM_EDGE_TOPOLOGY_AUDIT.json",
+  "wrote STAGE6B_R1A_CLASS_A_VALID_WEB_EDGES.json",
+  "wrote STAGE6B_R1A_CLASS_B_OWNERSHIP_MISCLASSIFICATION.json",
+  "wrote STAGE6B_R1A_CLASS_C_INVALID_EDGE_TABLE.json",
+  "wrote STAGE6B_R1A_CLASS_D_AMBIGUOUS_EDGES.json",
+  "wrote STAGE6B_R1A_DISTAL_SEAM_FORENSIC_AUDIT.json",
+  "wrote STAGE6B_R1A_SEAM_ANCESTRY_AUDIT.json",
+  "wrote CMC_SURGERY_SEAM_PROVENANCE.json",
+  "wrote STAGE6B_R1A_SEAM_PROVENANCE_STATUS.json"
+ ]
+}

@@ -1,0 +1,84 @@
+{
+  "Q1_Q13": {
+    "Q1": {
+      "question": "唯一 R2 静态候选建立",
+      "answer": "YES",
+      "reason": "一个新blend，四静态场景；一次政策/初始化，R1未重跑。"
+    },
+    "Q2": {
+      "question": "L1 小指 D2 接触保持",
+      "answer": "YES",
+      "reason": "固定0.523mm / 皮肤0.541mm，正确可奏区域。"
+    },
+    "Q3": {
+      "question": "L2 拇指 D3 接触保持",
+      "answer": "YES",
+      "reason": "固定/皮肤约0.579mm，正确可奏区域。"
+    },
+    "Q4": {
+      "question": "左手三闲置指比 R1 明显自然",
+      "answer": "YES",
+      "reason": "相同视角下收拢且曲度更明显；Agent相对预审，不代替Human批准。"
+    },
+    "Q5": {
+      "question": "左手掌腕比 R1 更放松合理",
+      "answer": "YES",
+      "reason": "root z70→45.6mm、掌位更低；正常视角无压键。生理张力未测。"
+    },
+    "Q6": {
+      "question": "L1/L2 共享合理八度手型",
+      "answer": "YES",
+      "reason": "候选级：同一root、相同三闲置指形态，端点接触/准备成立；动态未证。"
+    },
+    "Q7": {
+      "question": "右手五指准备自然",
+      "answer": "YES",
+      "reason": "候选级正常图未见新钩爪/异常伸指；五指协调调整，非孤立抬指。"
+    },
+    "Q8": {
+      "question": "R2 中指 F#5 接触保持",
+      "answer": "YES",
+      "reason": "固定0.498mm / 皮肤0.507mm，正确黑键可奏面。"
+    },
+    "Q9": {
+      "question": "原 D#5/G#5 干扰解决",
+      "answer": "YES",
+      "reason": "两右姿态原1/2顶点深度筛查→0；正常对照无明显邻键吞入。"
+    },
+    "Q10": {
+      "question": "出现新明显钩爪/穿键/悬空/反关节/掌部异常",
+      "answer": "NO",
+      "reason": "12正常视角预审未见；全部键体>3mm筛查0。"
+    },
+    "Q11": {
+      "question": "仍有明显 Human-visible blocker",
+      "answer": "NO",
+      "reason": "Agent匹配视角预审未见；部分端点边界饱和仍供Human审查。"
+    },
+    "Q12": {
+      "question": "必须修改正式 hand mesh/rig 的证据",
+      "answer": "NO",
+      "reason": "旋转/root修正已得到候选；无硬几何不可达证明。"
+    },
+    "Q13": {
+      "question": "最终状态",
+      "answer": "STATIC_POSTURE_CLEARANCE_READY_FOR_HUMAN_REVIEW",
+      "reason": "这是候选资格，未自动Human-approved。"
+    }
+  },
+  "LEFT_L1_STATUS": "PASS_CANDIDATE",
+  "LEFT_L2_STATUS": "PASS_CANDIDATE",
+  "LEFT_IDLE_FINGER_NATURALNESS": "IMPROVED_CANDIDATE / HUMAN_PENDING",
+  "LEFT_OCTAVE_SHARED_POSTURE": "PASS_CANDIDATE / HUMAN_PENDING",
+  "RIGHT_R1_STATUS": "PASS_CANDIDATE",
+  "RIGHT_R2_STATUS": "PASS_CANDIDATE",
+  "RIGHT_DSHARP_CLEARANCE": "PASS_SCREEN_AND_NORMAL_VIEW_PRECHECK",
+  "RIGHT_GSHARP_CLEARANCE": "PASS_SCREEN_AND_NORMAL_VIEW_PRECHECK",
+  "PALM_WRIST_CLEARANCE": "PASS_SCREEN_AND_NORMAL_VIEW_PRECHECK",
+  "NEW_HUMAN_VISIBLE_DEFECT": "NO_OBVIOUS_DEFECT_IN_AGENT_PRECHECK",
+  "FINAL_STATUS": "STATIC_POSTURE_CLEARANCE_READY_FOR_HUMAN_REVIEW",
+  "HAND_BASELINES_UNCHANGED": "YES",
+  "PIANO_BASELINE_UNCHANGED": "YES",
+  "Human_approval": false,
+  "STOP": "HUMAN REVIEW"
+}

@@ -1,0 +1,115 @@
+{
+  "execution": "STATIC_SOURCE_DEPENDENCY_ONLY",
+  "components": [
+    {
+      "component": "segment_distance",
+      "effect": "IP tail changed -> BH/BT segment distance changes; non-thumb segments preserved",
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+        "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87",
+        "lines": [
+          206,
+          217
+        ],
+        "role": "Live saved bone heads/tails -> seg_dist"
+      }
+    },
+    {
+      "component": "radius_L0B",
+      "effect": "Median segment-distance scale depends on new IP segment, even if historical semantic set is held fixed; value not recomputed",
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+        "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87",
+        "lines": [
+          273,
+          284
+        ],
+        "role": "per-bone median scale"
+      }
+    },
+    {
+      "component": "raw_mu_and_weights",
+      "effect": "exp(-(distance/L0B)^2) and raw=lam*mu change; normalization/pruning may change vectors, none computed",
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+        "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87",
+        "lines": [
+          330,
+          357
+        ],
+        "role": "raw mu and thumb distal guard"
+      }
+    },
+    {
+      "component": "R1_longitudinal_coordinate",
+      "effect": "Historical POLY/XIJ reads stale jf; changing blend alone does NOT update this field. Explicit future authority reconciliation needed",
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+        "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87",
+        "lines": [
+          225,
+          261
+        ],
+        "role": "Historical jf -> POLY -> arc_of"
+      }
+    },
+    {
+      "component": "R1A_frames_masks_radii",
+      "effect": "Mixed stale jf and live BH/BT inputs must be reconciled by component; cannot assume all become corrected automatically",
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\scripts\\r1a_common.py",
+        "sha256": "67857339f01898c37dfa9f2d8a60c527d3205b5d9a3419e6692b2d23df574a80",
+        "lines": [
+          250,
+          289
+        ],
+        "role": "thumb_frame"
+      }
+    },
+    {
+      "component": "R1D_live_arc",
+      "effect": "Corrected distal endpoint changes live thumb longitudinal projection/field; proximal knots fixed",
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1d\\scripts\\s5b_r1d_build.py",
+        "sha256": "daeb1a10ca2ce17e8ee19d276cb240817811129e14bf5b19e999d5fd5881879b",
+        "lines": [
+          105,
+          173
+        ],
+        "role": "Live chain construction and arc projection"
+      }
+    },
+    {
+      "component": "R1E_arc_constructor",
+      "effect": "arc_of on corrected live chain changes distance/longitudinal inputs; R3 label/collar inputs separately need later reconciliation",
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1e\\scripts\\s5b_r1e_common.py",
+        "sha256": "54313d7e54c12f8817134a2d11019dc4d84f7cf46ee7214a0f8d00c0a886a057",
+        "lines": [
+          228,
+          242
+        ],
+        "role": "arc_of"
+      }
+    },
+    {
+      "component": "validators",
+      "effect": "s5b_r1_audit.py arc_of_ref and distal/nail interpretation; R1A/B protected-drift/region validators; R1D continuity audit; s5b_r1e_verify.py weight/geometry/authority and prequal consumers require targeted fresh validation later. Existing frozen results are historical, not fresh candidate proof.",
+      "source": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_audit.py",
+        "sha256": "c12a97d59379424747bd095bc9783b633f5eb3615305a402816edc5224187066",
+        "lines": [
+          282,
+          322
+        ],
+        "role": "arc_of_ref and semantic guard validation"
+      }
+    }
+  ],
+  "roll_only_static_distance_effect": "NONE; coordinates unchanged under pure roll; local-axis downstream pose behavior separate",
+  "TIP_helper_tail_deformation_field_effect": "NONE_DIRECT, non-deform and excluded from DEFORM",
+  "Stage5B_field_change_expected": "YES",
+  "skin_rebuild_runs": 0,
+  "weights_computed_or_written": false,
+  "first_web_CMC_cage_nail_driver_authority_reopened": false
+}

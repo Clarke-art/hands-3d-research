@@ -1,0 +1,59 @@
+{
+  "fragment": [
+    4.4,
+    5.6
+  ],
+  "target": "RIGHT RING / C#5",
+  "witness_time": 4.916666666666667,
+  "method": "One fixed smoothstep MCP flexion/spread offset; no search, IK, optimizer or retries",
+  "delta_deg": [
+    -7.5,
+    0,
+    0,
+    -2.0
+  ],
+  "fade_in": [
+    4.6,
+    4.85
+  ],
+  "hold": [
+    4.85,
+    5.25
+  ],
+  "fade_out": [
+    5.25,
+    5.5
+  ],
+  "candidate_limit": 1,
+  "modified_bones": [
+    "RING_MCP_R"
+  ],
+  "modified_channels": 4,
+  "sample_hz": 240,
+  "contact_horizontal_mm": 0.03,
+  "contact_gap_abs_mm": 3,
+  "contact_pad_drift_mm": 0.01,
+  "nonregression_mm": 0.02,
+  "geometry_float_mm": 0.0001,
+  "target_core_vertex_depth_mm": 0.5,
+  "target_core_surface_depth_mm": 0.5,
+  "added_joint_velocity_deg_s": 180,
+  "engineering_domain_deg": [
+    [
+      0,
+      0,
+      0,
+      -25
+    ],
+    [
+      32,
+      32,
+      20,
+      25
+    ]
+  ],
+  "geometric_gate": "All 88 keys/139 components, all right skin, shared/mixed regions, ten digit pairs, nonincident self and cross-hand surfaces; new face-pair regressions forbidden",
+  "continuity": "Source exact outside edit support, smoothstep correction zero value/velocity/acceleration at its endpoints; baked quaternion piecewise-linear evaluation is sampled and separately bounded by segment angular rates",
+  "human_naturalness": "PENDING, never inferred from geometric PASS",
+  "source_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7"
+}

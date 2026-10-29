@@ -1,0 +1,39 @@
+{
+  "task": "HANDS_WORKSPACE_DEEP_CLEANUP_EXECUTION_R1",
+  "status": "DEEP_CLEANUP_PASS",
+  "manifest_sha256": "d1e33316b66c254a9ba08acfb85bb9af79754766e1c99ab8abe1dd059f2503b7",
+  "deleted_files": 18409,
+  "deleted_logical_bytes": 13548637683,
+  "remaining_files": 0,
+  "remaining_unexecuted_paths": [],
+  "issues": [],
+  "directories_deleted": 0,
+  "disk_free_before_bytes": 76514861056,
+  "stopped_utc": "2026-10-11T13:07:49Z",
+  "rollback_available": false,
+  "next_step": "Read-only acceptance; no further cleanup",
+  "post_file_count": 19779,
+  "post_directory_count": 1239,
+  "post_logical_bytes": 11160373530,
+  "actual_deleted_files": 18409,
+  "actual_logical_reduction_bytes": 13548637683,
+  "disk_free_after_bytes": 90071011328,
+  "disk_free_increase_bytes": 13556150272,
+  "protected_assets_pass": 6,
+  "protected_sources_pass": 2186,
+  "retained_asset_hashes_pass": 600,
+  "teaching_frames_hashes_pass": 2142,
+  "teaching_pages": "PASS",
+  "exceptions_exactly_match_missing": true,
+  "finished_utc": "2026-10-11T13:14:51Z",
+  "final_instruction": "STOP — HUMAN REVIEW",
+  "automatic_next_task": false,
+  "nonblocking_incidents": [
+    {
+      "action": "Broad localhost audit server launch",
+      "result": "Automatic approval rejected before launch",
+      "reason": "Would expose whole workspace",
+      "resolution": "Narrow exact2174-resource allowlist; other paths denied; successfully tested"
+    }
+  ]
+}

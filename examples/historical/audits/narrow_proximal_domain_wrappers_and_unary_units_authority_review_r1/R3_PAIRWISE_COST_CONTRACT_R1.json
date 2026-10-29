@@ -1,0 +1,27 @@
+{
+  "status": "RESOLVED_PROPOSAL_PENDING_HUMAN",
+  "canonical_units": "mm",
+  "TAU": {
+    "definition": "Upper median over all frozen RSSF original mesh edge lengths in world mm",
+    "value_mm": 3.8882049466976314,
+    "edge_source": "production_spec\\stage5_production_rig\\cap_derived_r2_r3_input_reconciliation_r1/READ_ONLY_LIVE_EXTRACTION.json / RSSF.edges",
+    "geometry_source_sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+  },
+  "TAU_div_3_mm": 1.2960683155658772,
+  "pairwise": "One constant TAU/3 mm per original undirected edge with unlike labels; not multiplied by edge length",
+  "edge_penalty_capacity": 1296,
+  "integerization": {
+    "round": "Python round: nearest, ties to even; cast to integer",
+    "capacity_per_mm": 1000,
+    "unary": "min(400000, round(d_mm * 1000))",
+    "pairwise": "round((TAU_mm / 3) * 1000)",
+    "hard_pin": "finite bound B+1, after disjoint source validation",
+    "zero_cost_allowed": true,
+    "maximum_per_cost_rounding_error_mm": 0.0005,
+    "graph_encoding": "Two directed arcs of capacity P for each undirected edge. A cut pays P once, not 2P.",
+    "overflow": "Use arbitrary precision integers or verify B+1 and accumulation fit exact chosen integer type."
+  },
+  "dimension_audit": "distance_m * 1000 mm/m -> d_mm; d_mm and TAU_mm/3 both length costs; both multiply identical capacity/mm. No m+mm addition.",
+  "graph_instance": "UNRESOLVED; standalone cost semantics cannot authorize solve",
+  "historical_reproduction_requirement": false
+}

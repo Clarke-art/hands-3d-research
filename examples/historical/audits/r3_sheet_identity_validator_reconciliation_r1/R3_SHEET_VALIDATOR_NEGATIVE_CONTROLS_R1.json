@@ -1,0 +1,108 @@
+{
+  "mixed_quad_dual_bridge_counterexample": {
+    "faces": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        3,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        6,
+        7,
+        0
+      ]
+    ],
+    "labels": {
+      "0": "I",
+      "1": "I",
+      "2": "T",
+      "3": "T",
+      "4": "T",
+      "5": "T",
+      "6": "I",
+      "7": "I"
+    },
+    "retained_dual_path": [
+      2,
+      0,
+      1
+    ],
+    "shared_same_label_edges": [
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "unlike_edges_removed": [
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ]
+    ],
+    "vertex_regions_still_separate": true,
+    "full_dual_still_connected": true
+  },
+  "component_order_permutation_identity_invariant": true,
+  "missing_or_split_anchor_rejected": true,
+  "vertex_only_touch_does_not_connect_face_dual": true,
+  "unassigned_faces_never_acquire_binary_labels": true,
+  "no_production_labels_modified": true,
+  "mixed_quad_executed_result": {
+    "vertex_components": [
+      [
+        0,
+        1,
+        6,
+        7
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "full_dual_components": [
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "pure_face_components": [
+      [
+        1
+      ],
+      [
+        2
+      ]
+    ],
+    "actual_unlike_edges": [
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "assertions_pass": true
+  }
+}

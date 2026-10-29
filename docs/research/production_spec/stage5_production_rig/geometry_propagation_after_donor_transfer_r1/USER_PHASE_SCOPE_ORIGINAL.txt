@@ -1,0 +1,913 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+当前正式基线
+==================================================
+
+已完成：
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPLICATION_R1
+=
+PASS_APPLIED_TO_NEW_STAGE4C_DERIVED_REVISION
+
+新的 Stage4C 派生 geometry：
+
+production_spec/stage4_blender/stage4c_donor_transfer_r1/
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_R1.blend
+
+SHA256：
+
+5f48ffa5ac6ff6d10b5d3bde1348571437b3a4fdf5c3ecfb97922e7dc0acd4d1
+
+该资产已经：
+
+54 / 54 approved vertices 精确应用
+outside54 position drift = 0
+topology drift = 0
+UV drift = 0
+material drift = 0
+structural gate = PASS
+save/reopen = PASS
+
+dent：
+
+PASS_ABSENT_EXACT_HUMAN_APPROVED_CONTOUR_APPLIED
+
+PRODUCTION_PROMOTION = NO
+
+==================================================
+现有 Stage5 authority
+==================================================
+
+当前 corrected rig authority：
+
+SHA256：
+
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+必须先在 workspace 中恢复并唯一定位
+该 hash 对应的正式 corrected rig artifact。
+
+不得用旧：
+
+Stage5A R1
+Stage5A R2
+Stage5A R2A
+或其它 historical candidate
+
+替代当前 corrected rig authority。
+
+当前正式 R2 skin candidate：
+
+production_spec/stage5_production_rig/
+targeted_rig_and_skin_data_rebuild_r2/
+RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend
+
+SHA256：
+
+adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9
+
+weight vector SHA256：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_DONOR_TRANSFER_R1
+
+本轮只做：
+
+GEOMETRY PAYLOAD PROPAGATION
++
+STAGE5 PAYLOAD PRESERVATION
+
+不是：
+
+joint requalification
+joint relocation
+rest/bind qualification
+skin requalification
+weight rebuild
+true-cap recomputation
+targeted deformation
+Full Stage6A
+Stage6B
+production promotion
+
+==================================================
+一、核心问题
+==================================================
+
+回答：
+
+能否把新的 Human-approved Stage4C geometry
+准确传播到当前 Stage5 corrected rig 和 R2 skin lineage，
+
+同时完整保留：
+
+21 bones
+bone hierarchy
+bone rest transforms
+corrected thumb kinematics
+joint coordinates
+object transforms
+vertex groups
+group order
+all skin weights
+R2 weight-vector authority
+
+而只改变：
+
+mesh vertex positions
+
+并且 mesh geometry 必须与新的 Stage4C
+逐顶点一致？
+
+==================================================
+二、执行前 lineage recovery
+==================================================
+
+首先只读恢复当前正式 Stage5 lineage。
+
+至少确认：
+
+A.
+new Stage4C donor-transfer geometry
+
+SHA256 =
+5f48ffa5ac6ff6d10b5d3bde1348571437b3a4fdf5c3ecfb97922e7dc0acd4d1
+
+B.
+current corrected rig authority
+
+SHA256 =
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+C.
+current R2 skin candidate
+
+SHA256 =
+adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9
+
+D.
+R2 weight-vector hash
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+如果 corrected rig artifact
+不能由 hash 唯一恢复：
+
+FAIL_CLOSED_STAGE5_LINEAGE_UNRESOLVED
+
+STOP。
+
+不得猜路径或退回旧 rig。
+
+==================================================
+三、禁止重新构建 Stage5
+==================================================
+
+本轮禁止：
+
+重新生成 armature
+
+重新定位 bones
+
+重新运行 joint locator
+
+重新计算 roll
+
+重新计算 corrected thumb IP/TIP slots
+
+重新 skin
+
+重新 normalize weights
+
+重新 smooth weights
+
+重新运行317 solver
+
+重新运行 R3
+
+重新产生 vertex groups。
+
+本轮不是 Stage5 rebuild。
+
+唯一操作：
+
+把新的 Stage4C native mesh coordinates
+传播到已有 Stage5 payload。
+
+==================================================
+四、必须建立两个独立 derived artifacts
+==================================================
+
+为了保持 lineage 清楚，
+至少生成两个新的独立派生资产。
+
+--------------------------------
+A. Corrected rig geometry-propagated derivative
+--------------------------------
+
+从当前 corrected rig authority 创建：
+
+新的 Stage5A-derived artifact。
+
+它必须：
+
+mesh geometry =
+new Stage4C donor-transfer geometry
+
+rig payload =
+current corrected rig byte/semantic equivalent
+
+禁止覆盖原 corrected rig。
+
+建议目录：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_donor_transfer_r1/
+
+可使用清晰名称，例如：
+
+RIGHT_HAND_STAGE5A_CORRECTED_RIG_DONOR_TRANSFER_R1.blend
+
+--------------------------------
+B. R2 skin geometry-propagated derivative
+--------------------------------
+
+从当前：
+
+RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend
+
+创建：
+
+新的 R2-derived geometry-propagated candidate。
+
+例如：
+
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend
+
+必须：
+
+mesh geometry =
+new Stage4C donor-transfer geometry
+
+所有 weights / groups / rig =
+旧 R2 candidate 精确继承
+
+禁止覆盖旧 R2 candidate。
+
+==================================================
+五、Geometry propagation 方式
+==================================================
+
+不要只写54点到 Stage5。
+
+正式 propagation 的 authority 应为：
+
+整个 new Stage4C geometry payload。
+
+原因：
+
+Stage5 新派生资产必须证明：
+
+ALL 3416 native vertex coordinates
+
+与：
+
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_R1
+
+完全一致。
+
+预期：
+
+相对于旧 Stage5 candidate
+实际只有54点坐标发生变化；
+
+但验证语义是：
+
+FULL MESH GEOMETRY EQUIVALENCE。
+
+不得依赖：
+
+“只有54点所以只比较54点”。
+
+==================================================
+六、Stage4C → Stage5 geometry equivalence
+==================================================
+
+对两个新 Stage5 derived artifacts
+分别验证：
+
+vertex count = 3416
+edge count = 6828
+face count = 3414
+
+vertex IDs unchanged
+edge IDs unchanged
+face IDs unchanged
+face cycles unchanged
+
+并：
+
+3416 / 3416 vertex coordinates
+逐值匹配 new Stage4C geometry。
+
+至少输出：
+
+STAGE4C_TO_STAGE5A_VERTEX_MAX_DELTA_MM
+
+STAGE4C_TO_STAGE5B_R2_VERTEX_MAX_DELTA_MM
+
+要求：
+
+严格为0
+或仅存在明确解释的 native serialization semantics。
+
+目标应为实际 stored-coordinate exact match。
+
+==================================================
+七、相对旧 Stage5 的预期几何 delta
+==================================================
+
+相对于旧 corrected rig / old R2 candidate：
+
+EXPECTED_CHANGED_VERTEX_COUNT = 54
+
+EXPECTED_OUTSIDE54_GEOMETRY_DRIFT = 0
+
+必须验证：
+
+old corrected rig
+→ new corrected-rig derivative
+
+和：
+
+old R2
+→ new R2 derivative
+
+两条路径都只有 approved54 geometry delta。
+
+如果出现第55个位置变化：
+
+FAIL CLOSED。
+
+==================================================
+八、Rig payload 必须精确冻结
+==================================================
+
+对 corrected-rig derivative
+与原 corrected rig：
+
+完整比较21 bones：
+
+name
+parent
+head
+tail
+roll
+matrix
+rest transform
+local frame
+use_deform
+inheritance flags
+hierarchy
+object/armature transforms
+
+必须：
+
+BONE_PAYLOAD_DELTA = 0
+JOINT_PAYLOAD_DELTA = 0
+
+特别包括：
+
+THUMB_IP_R.head
+THUMB_IP_R.tail
+THUMB_IP_R.roll
+
+THUMB_TIP_R.head
+THUMB_TIP_R.tail
+THUMB_TIP_R.roll
+
+全部必须与 Human-approved corrected rig
+逐值一致。
+
+不得因为 surface geometry 改变
+而自动“贴骨”。
+
+==================================================
+九、R2 weight payload 必须精确冻结
+==================================================
+
+对 new R2 geometry-propagated derivative
+与旧 R2 candidate：
+
+要求：
+
+vertex group set identical
+
+group order identical
+
+3416 weight vectors identical
+
+weight vector SHA256
+必须仍为：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+包括：
+
+cap37 weights
+
+old cap9 INDEX-compatible weights
+
+FIRST_WEB shared wrapper
+
+edge5879 rebuilt values
+
+16 inherited static debts
+
+317 historical approved write semantics
+
+全部只继承。
+
+本轮不得改变任何一个 weight scalar。
+
+==================================================
+十、其它 payload 保护
+==================================================
+
+必须保持：
+
+UV coordinates / connectivity
+materials
+material assignments
+smooth/sharp flags
+custom normals state
+object names
+mesh object transforms
+armature object transforms
+modifier stack
+armature modifier settings
+vertex-group binding
+nail material semantics
+
+除新增 provenance metadata 外，
+不得出现非 geometry payload drift。
+
+==================================================
+十一、不要现在重判 joint-to-surface
+==================================================
+
+这是重要阶段边界。
+
+本轮可以测量：
+
+old vs new surface
+相对现有 joints 的距离变化
+
+作为：
+
+DIAGNOSTIC_ONLY
+
+但不得据此：
+
+移动 joint
+修改 bone
+判正式 joint qualification PASS/FAIL
+重新生成 rig。
+
+正式：
+
+JOINT_TO_SURFACE
+REST
+ZERO
+BIND
+
+资格验证属于 NEXT phase。
+
+本轮只记录：
+
+JOINT_SURFACE_DELTA_DIAGNOSTIC。
+
+==================================================
+十二、允许的最小 zero-pose sanity check
+==================================================
+
+允许 clean reopen 后：
+
+pose bones = zero
+
+depsgraph evaluate
+
+只用于确认：
+
+文件可正常 evaluation
+无 NaN
+无 modifier failure
+无 missing group / missing bone。
+
+但不要把它升级为：
+
+REST_ZERO_BIND_REQUALIFICATION。
+
+输出：
+
+ZERO_EVAL_SMOKE =
+PASS / FAIL
+
+即可。
+
+==================================================
+十三、不要运行 deformation
+==================================================
+
+本轮禁止：
+
+IDX15
+IDX30
+IDX45
+TH_IP
+TH_MCP
+CMC
+opposition
+
+任何 Stage6 pose。
+
+上一轮 application/design 里的 temporary smoke
+只作为历史证据。
+
+这轮 Stage5 propagation
+不重复 pose qualification。
+
+==================================================
+十四、Authority membership 只做 ID consistency
+==================================================
+
+因为 topology / IDs 不变，
+
+验证以下 ID set
+仍可映射到新 mesh：
+
+cap37
+old cap9
+FIRST_WEB21
+fresh R3 962-domain
+317 historical write universe
+
+要求：
+
+ID membership count / IDs unchanged。
+
+但不要重新：
+
+R3 solve
+ownership research
+cap anatomy
+FIRST_WEB research。
+
+==================================================
+十五、保存 / 重开
+==================================================
+
+两个新的 Stage5 derived artifacts
+均必须：
+
+save
+
+factory-startup clean reopen
+
+重新读取：
+
+mesh
+UV/material
+rig
+groups
+weights
+modifiers
+transforms
+
+并验证：
+
+serialization drift = 0。
+
+特别是 R2 derivative：
+
+save/reopen 后重新计算完整3416 weight-vector hash。
+
+必须仍为：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+==================================================
+十六、旧资产必须保持不变
+==================================================
+
+禁止修改：
+
+new Stage4C donor-transfer source
+old Stage4C_R2
+current corrected rig
+old R2 skin candidate
+all Human receipts
+true-cap authority
+targeted deformation artifacts
+Full Stage6A artifacts。
+
+全 workspace 做：
+
+before / after SHA256 protection audit。
+
+==================================================
+十七、Stage6A 9 blockers保持原样
+==================================================
+
+继续：
+
+FULL_STAGE6A_REQUALIFICATION_R1
+=
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT =
+9
+
+不得：
+
+重跑
+修复
+裁决
+重新分类
+Human accept
+
+这9对 crossing。
+
+==================================================
+十八、Pass criteria
+==================================================
+
+PASS 必须满足：
+
+NEW_STAGE4C_SOURCE_HASH_VERIFIED = PASS
+
+CORRECTED_RIG_INPUT_HASH_VERIFIED = PASS
+
+R2_INPUT_HASH_VERIFIED = PASS
+
+STAGE5A_GEOMETRY_EQUALS_NEW_STAGE4C = PASS
+
+STAGE5B_R2_GEOMETRY_EQUALS_NEW_STAGE4C = PASS
+
+EXPECTED_CHANGED_VERTICES = 54
+
+OUTSIDE54_GEOMETRY_DRIFT = 0
+
+BONE_PAYLOAD_DELTA = 0
+
+JOINT_PAYLOAD_DELTA = 0
+
+R2_WEIGHT_VECTOR_HASH_UNCHANGED = PASS
+
+GROUP_SET_ORDER_UNCHANGED = PASS
+
+UV_MATERIAL_PAYLOAD_UNCHANGED = PASS
+
+MODIFIER_BINDING_UNCHANGED = PASS
+
+AUTHORITY_ID_MEMBERSHIP_UNCHANGED = PASS
+
+SAVE_REOPEN = PASS
+
+ZERO_EVAL_SMOKE = PASS
+
+PROTECTED_HISTORY_DRIFT = 0
+
+==================================================
+十九、成功 verdict
+==================================================
+
+如果全部满足：
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_GEOMETRY_PROPAGATED_WITH_RIG_AND_WEIGHTS_FROZEN
+
+注意：
+
+这不表示：
+
+joint-to-surface PASS
+rest PASS
+bind PASS
+static skin requalified
+true-cap requalified
+deformation requalified
+Stage6A PASS
+production ready。
+
+==================================================
+二十、失败条件
+==================================================
+
+以下任一：
+
+Stage4C geometry mismatch
+
+outside54 geometry drift
+
+bone/joint drift
+
+weight scalar drift
+
+weight hash mismatch
+
+group order drift
+
+modifier binding drift
+
+topology/UV/material drift
+
+save/reopen drift
+
+都必须：
+
+FAIL_CLOSED_STAGE5_GEOMETRY_PROPAGATION
+
+STOP。
+
+不得自动：
+
+修 bones
+修 weights
+normalize
+重新 bind
+扩大 scope。
+
+==================================================
+二十一、输出
+==================================================
+
+至少生成：
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_DONOR_TRANSFER_R1_REPORT.md
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_DONOR_TRANSFER_R1_STATUS.json
+
+STAGE5_CURRENT_LINEAGE_INPUT_RECOVERY_R1.json
+
+STAGE5A_GEOMETRY_PROPAGATION_AUDIT_R1.json
+
+STAGE5B_R2_GEOMETRY_PROPAGATION_AUDIT_R1.json
+
+STAGE5_RIG_PAYLOAD_EQUIVALENCE_R1.json
+
+STAGE5_WEIGHT_PAYLOAD_EQUIVALENCE_R1.json
+
+STAGE5_AUTHORITY_ID_MEMBERSHIP_AUDIT_R1.json
+
+STAGE5_ZERO_EVAL_SMOKE_R1.json
+
+STAGE5_SAVE_REOPEN_AUDIT_R1.json
+
+PRODUCTION_READONLY_NO_DRIFT_VERIFICATION.json
+
+以及：
+
+new corrected-rig derived .blend
+
+new R2 geometry-propagated derived .blend
+
+==================================================
+二十二、最终字段
+==================================================
+
+必须明确：
+
+NEW_STAGE4C_SOURCE =
+?
+
+NEW_STAGE4C_SOURCE_SHA256 =
+5f48ffa5ac6ff6d10b5d3bde1348571437b3a4fdf5c3ecfb97922e7dc0acd4d1
+
+CORRECTED_RIG_SOURCE_PATH =
+?
+
+CORRECTED_RIG_SOURCE_SHA256 =
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+R2_SOURCE_SHA256 =
+adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9
+
+R2_SOURCE_WEIGHT_HASH =
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+NEW_STAGE5A_DERIVED_PATH =
+?
+
+NEW_STAGE5A_DERIVED_SHA256 =
+?
+
+NEW_STAGE5B_R2_DERIVED_PATH =
+?
+
+NEW_STAGE5B_R2_DERIVED_SHA256 =
+?
+
+STAGE4C_TO_STAGE5A_VERTEX_MAX_DELTA_MM =
+?
+
+STAGE4C_TO_STAGE5B_R2_VERTEX_MAX_DELTA_MM =
+?
+
+OLD_TO_NEW_STAGE5A_CHANGED_VERTEX_COUNT =
+?
+
+OLD_TO_NEW_R2_CHANGED_VERTEX_COUNT =
+?
+
+OUTSIDE54_STAGE5A_GEOMETRY_DRIFT =
+?
+
+OUTSIDE54_R2_GEOMETRY_DRIFT =
+?
+
+BONE_PAYLOAD_DELTA =
+?
+
+JOINT_PAYLOAD_DELTA =
+?
+
+R2_WEIGHT_VECTOR_HASH_AFTER_PROPAGATION =
+?
+
+R2_WEIGHT_VECTOR_HASH_MATCH =
+?
+
+GROUP_SET_ORDER_UNCHANGED =
+?
+
+TOPOLOGY_DRIFT =
+?
+
+UV_DRIFT =
+?
+
+MATERIAL_DRIFT =
+?
+
+MODIFIER_BINDING_UNCHANGED =
+?
+
+AUTHORITY_ID_MEMBERSHIP_UNCHANGED =
+?
+
+ZERO_EVAL_SMOKE =
+?
+
+SAVE_REOPEN =
+?
+
+PROTECTED_HISTORY_DRIFT =
+?
+
+FULL_STAGE6A_STATUS_RETAINED =
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT_RETAINED =
+9
+
+STAGE5_GEOMETRY_PROPAGATION_VERDICT =
+?
+
+==================================================
+二十三、NEXT
+==================================================
+
+如果 PASS：
+
+NEXT =
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+只记录，不执行。
+
+不要在本轮继续：
+
+static skin compatibility
+
+true-cap recomputation
+
+targeted deformation
+
+Full42 Stage6A
+
+Stage6B。
+
+STOP。

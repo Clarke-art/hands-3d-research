@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "shape_keys": [
+    {
+      "name": "Basis",
+      "coordinate_error_m": 0.0,
+      "delta_error_m": 0.0
+    },
+    {
+      "name": "FIRST_WEB_OPPOSITION_CREASE_R1",
+      "coordinate_error_m": 0.0,
+      "delta_error_m": 9.366885933559388e-09
+    }
+  ],
+  "driver_expression_exact": true,
+  "driver_targets_all_left": true,
+  "driver_ROT_X_sign": "UNCHANGED under H-conjugated proper bone frames",
+  "source_driver": [
+    {
+      "path": "key_blocks[\"FIRST_WEB_OPPOSITION_CREASE_R1\"].value",
+      "expression": "max(min(1,max(0,(-opp-0.37)/0.06)),min(1,max(0,(-opp-0.15)/0.15))*min(1,max(0,(-mcp-0.175)/0.175)))",
+      "variables": [
+        {
+          "name": "opp",
+          "type": "TRANSFORMS",
+          "targets": [
+            {
+              "id": "RIGHT_HAND_PRODUCTION_RIG",
+              "bone_target": "THUMB_CMC_R",
+              "transform_type": "ROT_X",
+              "transform_space": "LOCAL_SPACE",
+              "rotation_mode": "XYZ",
+              "data_path": ""
+            }
+          ]
+        },
+        {
+          "name": "mcp",
+          "type": "TRANSFORMS",
+          "targets": [
+            {
+              "id": "RIGHT_HAND_PRODUCTION_RIG",
+              "bone_target": "THUMB_MCP_R",
+              "transform_type": "ROT_X",
+              "transform_space": "LOCAL_SPACE",
+              "rotation_mode": "XYZ",
+              "data_path": ""
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "left_targets": [
+    "THUMB_CMC_L",
+    "THUMB_MCP_L"
+  ],
+  "no_new_corrective": true,
+  "name_note": "Corrective suffix R1 is revision 1, not right-side bone semantics; retained intentionally.",
+  "Web_note": "Standard skin+morph. Translate this existing expression to morph weights in future Web integration; Blender drivers themselves are not glTF runtime functionality. No new Blender-only deformation dependency."
+}

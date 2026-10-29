@@ -1,0 +1,3764 @@
+{
+ "stage": "R1E_THUMB_TRANSITION_GEOMETRIC_FEASIBILITY_STRICT_GEOMETRIC_BOUND_AUDIT",
+ "generated_at": "2026-10-01T17:17:42.729932+08:00",
+ "read_only": true,
+ "correct_derivation": "For a fixed mesh path P = e1..en with bind lengths bi and posed lengths pi: sum(pi) >= ||B_pose - A_pose|| = d_t, therefore max_i(pi/bi) >= d_t / sum(bi) = STRICT_LOWER_BOUND.  This is the ONLY lower bound used in this round.",
+ "rejected_derivation": "OLD_CLAIM = (|uA| + L_bind) / L_bind is NOT a valid lower bound: it silently assumes the whole endpoint displacement appears along the path and that the other endpoint does not move.  It is reported only for comparison.",
+ "per_pose": {
+  "TH_IP_30": {
+   "pose": "TH_IP_30",
+   "motion_components_deg": {
+    "IP": 30.0,
+    "MCP": 0.0,
+    "CMC": 0.0
+   },
+   "approved_distal_cap_mean_displacement_mm": 16.5382,
+   "paths": [
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.002983212,
+      -0.00890477,
+      0.009079099
+     ],
+     "d0_bind_separation_mm": 13.0623,
+     "A_pose_xyz_m": [
+      1.447150469,
+      0.003730776,
+      0.496764034
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.013839006,
+      0.003720607,
+      0.006930381
+     ],
+     "dt_posed_separation_mm": 15.9183,
+     "uA_displacement_mm": 16.7888,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 16.7888,
+     "delta_u_xyz_mm": [
+      10.8558,
+      12.6254,
+      -2.1487
+     ],
+     "dot_normalize_r0_delta_u": -0.453938,
+     "angle_r0_to_delta_u_deg": 116.997,
+     "L_bind_path_mm": 13.1646,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.2092,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.2753,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.8168,
+     "SLACK_5X_mm": 49.9048,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.00348258,
+      -0.009663129,
+      0.008787364
+     ],
+     "d0_bind_separation_mm": 13.5175,
+     "A_pose_xyz_m": [
+      1.442720771,
+      0.003887774,
+      0.498334467
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.015117884,
+      0.004309994,
+      0.007622659
+     ],
+     "dt_posed_separation_mm": 17.4709,
+     "uA_displacement_mm": 18.2205,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 18.2205,
+     "delta_u_xyz_mm": [
+      11.6353,
+      13.9731,
+      -1.1647
+     ],
+     "dot_normalize_r0_delta_u": -0.425255,
+     "angle_r0_to_delta_u_deg": 115.167,
+     "L_bind_path_mm": 13.726,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.2728,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.3274,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.8894,
+     "SLACK_5X_mm": 51.159,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      0.004032612,
+      -0.009931298,
+      0.008746475
+     ],
+     "d0_bind_separation_mm": 13.8345,
+     "A_pose_xyz_m": [
+      1.438396454,
+      0.003265562,
+      0.498374313
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.015893936,
+      0.004886922,
+      0.009039432
+     ],
+     "dt_posed_separation_mm": 18.9265,
+     "uA_displacement_mm": 18.9831,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 18.9831,
+     "delta_u_xyz_mm": [
+      11.8613,
+      14.8182,
+      0.293
+     ],
+     "dot_normalize_r0_delta_u": -0.368476,
+     "angle_r0_to_delta_u_deg": 111.622,
+     "L_bind_path_mm": 14.0878,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.3435,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.3475,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.923,
+     "SLACK_5X_mm": 51.5126,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.463113904,
+      0.005849376,
+      0.500844538
+     ],
+     "r0_bind_vector_m": [
+      0.005107641,
+      -0.010506779,
+      0.006229222
+     ],
+     "d0_bind_separation_mm": 13.2395,
+     "A_pose_xyz_m": [
+      1.447150469,
+      0.003730776,
+      0.496764034
+     ],
+     "B_pose_xyz_m": [
+      1.463113904,
+      0.005849374,
+      0.500844538
+     ],
+     "rt_pose_vector_m": [
+      0.015963435,
+      0.002118599,
+      0.004080504
+     ],
+     "dt_posed_separation_mm": 16.6124,
+     "uA_displacement_mm": 16.7888,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 16.7888,
+     "delta_u_xyz_mm": [
+      10.8558,
+      12.6254,
+      -2.1487
+     ],
+     "dot_normalize_r0_delta_u": -0.407555,
+     "angle_r0_to_delta_u_deg": 114.051,
+     "L_bind_path_mm": 16.9097,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 0.9824,
+     "OLD_CLAIM_uA_plus_L_over_L": 1.9929,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.7373,
+     "SLACK_5X_mm": 67.9363,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      -0.000167608,
+      -0.008158384,
+      0.01134181
+     ],
+     "d0_bind_separation_mm": 13.9723,
+     "A_pose_xyz_m": [
+      1.447150469,
+      0.003730776,
+      0.496764034
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.010688186,
+      0.004466993,
+      0.009193093
+     ],
+     "dt_posed_separation_mm": 14.7887,
+     "uA_displacement_mm": 16.7888,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 16.7888,
+     "delta_u_xyz_mm": [
+      10.8558,
+      12.6254,
+      -2.1487
+     ],
+     "dot_normalize_r0_delta_u": -0.550744,
+     "angle_r0_to_delta_u_deg": 123.418,
+     "L_bind_path_mm": 17.1149,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 0.8641,
+     "OLD_CLAIM_uA_plus_L_over_L": 1.981,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.8168,
+     "SLACK_5X_mm": 70.7858,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      -6.5684e-05,
+      -0.009708414,
+      0.010243982
+     ],
+     "d0_bind_separation_mm": 14.1137,
+     "A_pose_xyz_m": [
+      1.442720771,
+      0.003887774,
+      0.498334467
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.011569619,
+      0.00426471,
+      0.009079278
+     ],
+     "dt_posed_separation_mm": 15.3126,
+     "uA_displacement_mm": 18.2205,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 18.2205,
+     "delta_u_xyz_mm": [
+      11.6353,
+      13.9731,
+      -1.1647
+     ],
+     "dot_normalize_r0_delta_u": -0.576891,
+     "angle_r0_to_delta_u_deg": 125.232,
+     "L_bind_path_mm": 17.5619,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 0.8719,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.0375,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.8894,
+     "SLACK_5X_mm": 72.4966,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.006633401,
+      -0.010409515,
+      0.006524652
+     ],
+     "d0_bind_separation_mm": 13.9618,
+     "A_pose_xyz_m": [
+      1.442720771,
+      0.003887774,
+      0.498334467
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.018268704,
+      0.003563608,
+      0.005359948
+     ],
+     "dt_posed_separation_mm": 19.3694,
+     "uA_displacement_mm": 18.2205,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 18.2205,
+     "delta_u_xyz_mm": [
+      11.6353,
+      13.9731,
+      -1.1647
+     ],
+     "dot_normalize_r0_delta_u": -0.298247,
+     "angle_r0_to_delta_u_deg": 107.352,
+     "L_bind_path_mm": 17.6762,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.0958,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.0308,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.8894,
+     "SLACK_5X_mm": 69.0118,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.456273556,
+      0.018351218,
+      0.490895152
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.004715919,
+      -0.010899832,
+      0.012799263
+     ],
+     "d0_bind_separation_mm": 17.4605,
+     "A_pose_xyz_m": [
+      1.446203589,
+      0.006938914,
+      0.493660271
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.014785886,
+      0.000512469,
+      0.010034144
+     ],
+     "dt_posed_separation_mm": 17.8765,
+     "uA_displacement_mm": 15.469,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 15.469,
+     "delta_u_xyz_mm": [
+      10.07,
+      11.4123,
+      -2.7651
+     ],
+     "dot_normalize_r0_delta_u": -0.415758,
+     "angle_r0_to_delta_u_deg": 114.567,
+     "L_bind_path_mm": 17.7277,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.0084,
+     "OLD_CLAIM_uA_plus_L_over_L": 1.8726,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.8168,
+     "SLACK_5X_mm": 70.7623,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.450642824,
+      0.007216467,
+      0.507783175
+     ],
+     "r0_bind_vector_m": [
+      0.000385046,
+      -0.010867318,
+      0.009115905
+     ],
+     "d0_bind_separation_mm": 14.1897,
+     "A_pose_xyz_m": [
+      1.438396454,
+      0.003265562,
+      0.498374313
+     ],
+     "B_pose_xyz_m": [
+      1.450642824,
+      0.007216464,
+      0.507783175
+     ],
+     "rt_pose_vector_m": [
+      0.01224637,
+      0.003950902,
+      0.009408861
+     ],
+     "dt_posed_separation_mm": 15.9408,
+     "uA_displacement_mm": 18.9831,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 18.9831,
+     "delta_u_xyz_mm": [
+      11.8613,
+      14.8182,
+      0.293
+     ],
+     "dot_normalize_r0_delta_u": -0.570964,
+     "angle_r0_to_delta_u_deg": 124.817,
+     "L_bind_path_mm": 17.8716,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 0.892,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.0622,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.923,
+     "SLACK_5X_mm": 73.4173,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_30",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.007580876,
+      -0.009886013,
+      0.007289857
+     ],
+     "d0_bind_separation_mm": 14.4342,
+     "A_pose_xyz_m": [
+      1.438396454,
+      0.003265562,
+      0.498374313
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.019442201,
+      0.004932207,
+      0.007582814
+     ],
+     "dt_posed_separation_mm": 21.4435,
+     "uA_displacement_mm": 18.9831,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 18.9831,
+     "delta_u_xyz_mm": [
+      11.8613,
+      14.8182,
+      0.293
+     ],
+     "dot_normalize_r0_delta_u": -0.198677,
+     "angle_r0_to_delta_u_deg": 101.46,
+     "L_bind_path_mm": 17.9237,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.1964,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.0591,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 1.923,
+     "SLACK_5X_mm": 68.1749,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    }
+   ],
+   "max_STRICT_LOWER_BOUND": 1.3435,
+   "max_OLD_CLAIM": 2.3475,
+   "any_path_STRICT_GT_5": false,
+   "paths_with_STRICT_GT_5": [],
+   "global_observed_max_stretch": 2.1949
+  },
+  "TH_IP_45": {
+   "pose": "TH_IP_45",
+   "motion_components_deg": {
+    "IP": 45.0,
+    "MCP": 0.0,
+    "CMC": 0.0
+   },
+   "approved_distal_cap_mean_displacement_mm": 24.453,
+   "paths": [
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.002983212,
+      -0.00890477,
+      0.009079099
+     ],
+     "d0_bind_separation_mm": 13.0623,
+     "A_pose_xyz_m": [
+      1.442415595,
+      -0.002960658,
+      0.494644344
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.01857388,
+      0.01041204,
+      0.009050071
+     ],
+     "dt_posed_separation_mm": 23.1366,
+     "uA_displacement_mm": 24.8236,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 24.8236,
+     "delta_u_xyz_mm": [
+      15.5907,
+      19.3168,
+      -0.029
+     ],
+     "dot_normalize_r0_delta_u": -0.38786,
+     "angle_r0_to_delta_u_deg": 112.821,
+     "L_bind_path_mm": 13.1646,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.7575,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.8856,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.7868,
+     "SLACK_5X_mm": 42.6865,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.00348258,
+      -0.009663129,
+      0.008787364
+     ],
+     "d0_bind_separation_mm": 13.5175,
+     "A_pose_xyz_m": [
+      1.437799931,
+      -0.003323546,
+      0.495467842
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.020038724,
+      0.011521314,
+      0.010489285
+     ],
+     "dt_posed_separation_mm": 25.3834,
+     "uA_displacement_mm": 26.9404,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 26.9404,
+     "delta_u_xyz_mm": [
+      16.5561,
+      21.1844,
+      1.7019
+     ],
+     "dot_normalize_r0_delta_u": -0.362732,
+     "angle_r0_to_delta_u_deg": 111.268,
+     "L_bind_path_mm": 13.726,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.8493,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.9627,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.8747,
+     "SLACK_5X_mm": 43.2465,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      0.004032612,
+      -0.009931298,
+      0.008746475
+     ],
+     "d0_bind_separation_mm": 13.8345,
+     "A_pose_xyz_m": [
+      1.433580518,
+      -0.004137067,
+      0.494678557
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.020709872,
+      0.012289551,
+      0.012735188
+     ],
+     "dt_posed_separation_mm": 27.2418,
+     "uA_displacement_mm": 28.0679,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 28.0679,
+     "delta_u_xyz_mm": [
+      16.6773,
+      22.2208,
+      3.9887
+     ],
+     "dot_normalize_r0_delta_u": -0.30528,
+     "angle_r0_to_delta_u_deg": 107.775,
+     "L_bind_path_mm": 14.0878,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.9337,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.9924,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.8953,
+     "SLACK_5X_mm": 43.1972,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.463113904,
+      0.005849376,
+      0.500844538
+     ],
+     "r0_bind_vector_m": [
+      0.005107641,
+      -0.010506779,
+      0.006229222
+     ],
+     "d0_bind_separation_mm": 13.2395,
+     "A_pose_xyz_m": [
+      1.442415595,
+      -0.002960658,
+      0.494644344
+     ],
+     "B_pose_xyz_m": [
+      1.463113904,
+      0.005849374,
+      0.500844538
+     ],
+     "rt_pose_vector_m": [
+      0.020698309,
+      0.008810032,
+      0.006200194
+     ],
+     "dt_posed_separation_mm": 23.3341,
+     "uA_displacement_mm": 24.8236,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 24.8236,
+     "delta_u_xyz_mm": [
+      15.5907,
+      19.3168,
+      -0.029
+     ],
+     "dot_normalize_r0_delta_u": -0.375799,
+     "angle_r0_to_delta_u_deg": 112.074,
+     "L_bind_path_mm": 16.9097,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.3799,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.468,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.6106,
+     "SLACK_5X_mm": 61.2146,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      -0.000167608,
+      -0.008158384,
+      0.01134181
+     ],
+     "d0_bind_separation_mm": 13.9723,
+     "A_pose_xyz_m": [
+      1.442415595,
+      -0.002960658,
+      0.494644344
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.015423059,
+      0.011158426,
+      0.011312783
+     ],
+     "dt_posed_separation_mm": 22.1441,
+     "uA_displacement_mm": 24.8236,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 24.8236,
+     "delta_u_xyz_mm": [
+      15.5907,
+      19.3168,
+      -0.029
+     ],
+     "dot_normalize_r0_delta_u": -0.462853,
+     "angle_r0_to_delta_u_deg": 117.571,
+     "L_bind_path_mm": 17.1149,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.2938,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.4504,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.7868,
+     "SLACK_5X_mm": 63.4304,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      -6.5684e-05,
+      -0.009708414,
+      0.010243982
+     ],
+     "d0_bind_separation_mm": 14.1137,
+     "A_pose_xyz_m": [
+      1.437799931,
+      -0.003323546,
+      0.495467842
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.016490459,
+      0.01147603,
+      0.011945903
+     ],
+     "dt_posed_separation_mm": 23.3739,
+     "uA_displacement_mm": 26.9404,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 26.9404,
+     "delta_u_xyz_mm": [
+      16.5561,
+      21.1844,
+      1.7019
+     ],
+     "dot_normalize_r0_delta_u": -0.497912,
+     "angle_r0_to_delta_u_deg": 119.862,
+     "L_bind_path_mm": 17.5619,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.3309,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.534,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.8747,
+     "SLACK_5X_mm": 64.4354,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.006633401,
+      -0.010409515,
+      0.006524652
+     ],
+     "d0_bind_separation_mm": 13.9618,
+     "A_pose_xyz_m": [
+      1.437799931,
+      -0.003323546,
+      0.495467842
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.023189545,
+      0.010774928,
+      0.008226573
+     ],
+     "dt_posed_separation_mm": 26.8613,
+     "uA_displacement_mm": 26.9404,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 26.9404,
+     "delta_u_xyz_mm": [
+      16.5561,
+      21.1844,
+      1.7019
+     ],
+     "dot_normalize_r0_delta_u": -0.264777,
+     "angle_r0_to_delta_u_deg": 105.354,
+     "L_bind_path_mm": 17.6762,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.5196,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.5241,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.8747,
+     "SLACK_5X_mm": 61.5199,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.456273556,
+      0.018351218,
+      0.490895152
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.004715919,
+      -0.010899832,
+      0.012799263
+     ],
+     "d0_bind_separation_mm": 17.4605,
+     "A_pose_xyz_m": [
+      1.441706896,
+      0.000758575,
+      0.492097318
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.019282579,
+      0.006692807,
+      0.011597097
+     ],
+     "dt_posed_separation_mm": 23.4756,
+     "uA_displacement_mm": 22.8721,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 22.8721,
+     "delta_u_xyz_mm": [
+      14.5667,
+      17.5926,
+      -1.2022
+     ],
+     "dot_normalize_r0_delta_u": -0.346678,
+     "angle_r0_to_delta_u_deg": 110.284,
+     "L_bind_path_mm": 17.7277,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.3242,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.2902,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.7868,
+     "SLACK_5X_mm": 65.1631,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.450642824,
+      0.007216467,
+      0.507783175
+     ],
+     "r0_bind_vector_m": [
+      0.000385046,
+      -0.010867318,
+      0.009115905
+     ],
+     "d0_bind_separation_mm": 14.1897,
+     "A_pose_xyz_m": [
+      1.433580518,
+      -0.004137067,
+      0.494678557
+     ],
+     "B_pose_xyz_m": [
+      1.450642824,
+      0.007216464,
+      0.507783175
+     ],
+     "rt_pose_vector_m": [
+      0.017062306,
+      0.011353531,
+      0.013104618
+     ],
+     "dt_posed_separation_mm": 24.326,
+     "uA_displacement_mm": 28.0679,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 28.0679,
+     "delta_u_xyz_mm": [
+      16.6773,
+      22.2208,
+      3.9887
+     ],
+     "dot_normalize_r0_delta_u": -0.4989,
+     "angle_r0_to_delta_u_deg": 119.927,
+     "L_bind_path_mm": 17.8716,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.3612,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.5705,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.8953,
+     "SLACK_5X_mm": 65.0321,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_IP_45",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.007580876,
+      -0.009886013,
+      0.007289857
+     ],
+     "d0_bind_separation_mm": 14.4342,
+     "A_pose_xyz_m": [
+      1.433580518,
+      -0.004137067,
+      0.494678557
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.024258137,
+      0.012334836,
+      0.01127857
+     ],
+     "dt_posed_separation_mm": 29.4586,
+     "uA_displacement_mm": 28.0679,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 28.0679,
+     "delta_u_xyz_mm": [
+      16.6773,
+      22.2208,
+      3.9887
+     ],
+     "dot_normalize_r0_delta_u": -0.158392,
+     "angle_r0_to_delta_u_deg": 99.114,
+     "L_bind_path_mm": 17.9237,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 1.6436,
+     "OLD_CLAIM_uA_plus_L_over_L": 2.566,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 2.8953,
+     "SLACK_5X_mm": 60.1598,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    }
+   ],
+   "max_STRICT_LOWER_BOUND": 1.9337,
+   "max_OLD_CLAIM": 2.9924,
+   "any_path_STRICT_GT_5": false,
+   "paths_with_STRICT_GT_5": [],
+   "global_observed_max_stretch": 3.1838
+  },
+  "TH_MCP_45": {
+   "pose": "TH_MCP_45",
+   "motion_components_deg": {
+    "IP": 0.0,
+    "MCP": 45.0,
+    "CMC": 0.0
+   },
+   "approved_distal_cap_mean_displacement_mm": 45.0412,
+   "paths": [
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.002983212,
+      -0.00890477,
+      0.009079099
+     ],
+     "d0_bind_separation_mm": 13.0623,
+     "A_pose_xyz_m": [
+      1.430780292,
+      -0.019514685,
+      0.487708211
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.030209184,
+      0.026966069,
+      0.015986204
+     ],
+     "dt_posed_separation_mm": 43.5353,
+     "uA_displacement_mm": 45.5596,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 45.5596,
+     "delta_u_xyz_mm": [
+      27.226,
+      35.8708,
+      6.9071
+     ],
+     "dot_normalize_r0_delta_u": -0.294885,
+     "angle_r0_to_delta_u_deg": 107.151,
+     "L_bind_path_mm": 13.1646,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.307,
+     "OLD_CLAIM_uA_plus_L_over_L": 4.4608,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.1942,
+     "SLACK_5X_mm": 22.2878,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.00348258,
+      -0.009663129,
+      0.008787364
+     ],
+     "d0_bind_separation_mm": 13.5175,
+     "A_pose_xyz_m": [
+      1.426160097,
+      -0.01974961,
+      0.488551944
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.031678557,
+      0.027947377,
+      0.017405182
+     ],
+     "dt_posed_separation_mm": 45.6895,
+     "uA_displacement_mm": 47.7894,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 47.7894,
+     "delta_u_xyz_mm": [
+      28.196,
+      37.6105,
+      8.6178
+     ],
+     "dot_normalize_r0_delta_u": -0.293366,
+     "angle_r0_to_delta_u_deg": 107.06,
+     "L_bind_path_mm": 13.726,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.3287,
+     "OLD_CLAIM_uA_plus_L_over_L": 4.4817,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.1268,
+     "SLACK_5X_mm": 22.9404,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      0.004032612,
+      -0.009931298,
+      0.008746475
+     ],
+     "d0_bind_separation_mm": 13.8345,
+     "A_pose_xyz_m": [
+      1.42191422,
+      -0.020426167,
+      0.487775207
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.03237617,
+      0.02857865,
+      0.019638538
+     ],
+     "dt_posed_separation_mm": 47.4408,
+     "uA_displacement_mm": 49.0409,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 49.0409,
+     "delta_u_xyz_mm": [
+      28.3436,
+      38.5099,
+      10.8921
+     ],
+     "dot_normalize_r0_delta_u": -0.254826,
+     "angle_r0_to_delta_u_deg": 104.763,
+     "L_bind_path_mm": 14.0878,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.3675,
+     "OLD_CLAIM_uA_plus_L_over_L": 4.4811,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.0134,
+     "SLACK_5X_mm": 22.9982,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.463113904,
+      0.005849376,
+      0.500844538
+     ],
+     "r0_bind_vector_m": [
+      0.005107641,
+      -0.010506779,
+      0.006229222
+     ],
+     "d0_bind_separation_mm": 13.2395,
+     "A_pose_xyz_m": [
+      1.430780292,
+      -0.019514685,
+      0.487708211
+     ],
+     "B_pose_xyz_m": [
+      1.463113904,
+      0.005849374,
+      0.500844538
+     ],
+     "rt_pose_vector_m": [
+      0.032333612,
+      0.02536406,
+      0.013136327
+     ],
+     "dt_posed_separation_mm": 43.1435,
+     "uA_displacement_mm": 45.5596,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 45.5596,
+     "delta_u_xyz_mm": [
+      27.226,
+      35.8708,
+      6.9071
+     ],
+     "dot_normalize_r0_delta_u": -0.322953,
+     "angle_r0_to_delta_u_deg": 108.842,
+     "L_bind_path_mm": 16.9097,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.5514,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.6943,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.0525,
+     "SLACK_5X_mm": 41.4052,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      -0.000167608,
+      -0.008158384,
+      0.01134181
+     ],
+     "d0_bind_separation_mm": 13.9723,
+     "A_pose_xyz_m": [
+      1.430780292,
+      -0.019514685,
+      0.487708211
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.027058363,
+      0.027712453,
+      0.018248916
+     ],
+     "dt_posed_separation_mm": 42.8154,
+     "uA_displacement_mm": 45.5596,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 45.5596,
+     "delta_u_xyz_mm": [
+      27.226,
+      35.8708,
+      6.9071
+     ],
+     "dot_normalize_r0_delta_u": -0.34383,
+     "angle_r0_to_delta_u_deg": 110.11,
+     "L_bind_path_mm": 17.1149,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.5016,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.662,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.1942,
+     "SLACK_5X_mm": 42.759,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      -6.5684e-05,
+      -0.009708414,
+      0.010243982
+     ],
+     "d0_bind_separation_mm": 14.1137,
+     "A_pose_xyz_m": [
+      1.426160097,
+      -0.01974961,
+      0.488551944
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.028130293,
+      0.027902093,
+      0.0188618
+     ],
+     "dt_posed_separation_mm": 43.8817,
+     "uA_displacement_mm": 47.7894,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 47.7894,
+     "delta_u_xyz_mm": [
+      28.196,
+      37.6105,
+      8.6178
+     ],
+     "dot_normalize_r0_delta_u": -0.413218,
+     "angle_r0_to_delta_u_deg": 114.407,
+     "L_bind_path_mm": 17.5619,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.4987,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.7212,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.1268,
+     "SLACK_5X_mm": 43.9275,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.006633401,
+      -0.010409515,
+      0.006524652
+     ],
+     "d0_bind_separation_mm": 13.9618,
+     "A_pose_xyz_m": [
+      1.426160097,
+      -0.01974961,
+      0.488551944
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.034829378,
+      0.027200993,
+      0.015142471
+     ],
+     "dt_posed_separation_mm": 46.7148,
+     "uA_displacement_mm": 47.7894,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 47.7894,
+     "delta_u_xyz_mm": [
+      28.196,
+      37.6105,
+      8.6178
+     ],
+     "dot_normalize_r0_delta_u": -0.222179,
+     "angle_r0_to_delta_u_deg": 102.837,
+     "L_bind_path_mm": 17.6762,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.6428,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.7036,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.1268,
+     "SLACK_5X_mm": 41.6664,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.456273556,
+      0.018351218,
+      0.490895152
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.004715919,
+      -0.010899832,
+      0.012799263
+     ],
+     "d0_bind_separation_mm": 17.4605,
+     "A_pose_xyz_m": [
+      1.430170894,
+      -0.01574363,
+      0.485212207
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.030818582,
+      0.023195013,
+      0.018482208
+     ],
+     "dt_posed_separation_mm": 42.7713,
+     "uA_displacement_mm": 43.314,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 43.314,
+     "delta_u_xyz_mm": [
+      26.1027,
+      34.0948,
+      5.6829
+     ],
+     "dot_normalize_r0_delta_u": -0.232443,
+     "angle_r0_to_delta_u_deg": 103.441,
+     "L_bind_path_mm": 17.7277,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.4127,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.4433,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.1942,
+     "SLACK_5X_mm": 45.8674,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.450642824,
+      0.007216467,
+      0.507783175
+     ],
+     "r0_bind_vector_m": [
+      0.000385046,
+      -0.010867318,
+      0.009115905
+     ],
+     "d0_bind_separation_mm": 14.1897,
+     "A_pose_xyz_m": [
+      1.42191422,
+      -0.020426167,
+      0.487775207
+     ],
+     "B_pose_xyz_m": [
+      1.450642824,
+      0.007216464,
+      0.507783175
+     ],
+     "rt_pose_vector_m": [
+      0.028728604,
+      0.02764263,
+      0.020007968
+     ],
+     "dt_posed_separation_mm": 44.6068,
+     "uA_displacement_mm": 49.0409,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 49.0409,
+     "delta_u_xyz_mm": [
+      28.3436,
+      38.5099,
+      10.8921
+     ],
+     "dot_normalize_r0_delta_u": -0.443033,
+     "angle_r0_to_delta_u_deg": 116.298,
+     "L_bind_path_mm": 17.8716,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.496,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.7441,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.0134,
+     "SLACK_5X_mm": 44.7513,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    },
+    {
+     "pose": "TH_MCP_45",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.007580876,
+      -0.009886013,
+      0.007289857
+     ],
+     "d0_bind_separation_mm": 14.4342,
+     "A_pose_xyz_m": [
+      1.42191422,
+      -0.020426167,
+      0.487775207
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.035924435,
+      0.028623935,
+      0.01818192
+     ],
+     "dt_posed_separation_mm": 49.4012,
+     "uA_displacement_mm": 49.0409,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 49.0409,
+     "delta_u_xyz_mm": [
+      28.3436,
+      38.5099,
+      10.8921
+     ],
+     "dot_normalize_r0_delta_u": -0.122113,
+     "angle_r0_to_delta_u_deg": 97.014,
+     "L_bind_path_mm": 17.9237,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.7562,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.7361,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.0134,
+     "SLACK_5X_mm": 40.2172,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    }
+   ],
+   "max_STRICT_LOWER_BOUND": 3.3675,
+   "max_OLD_CLAIM": 4.4817,
+   "any_path_STRICT_GT_5": false,
+   "paths_with_STRICT_GT_5": [],
+   "global_observed_max_stretch": 6.156
+  },
+  "CMC_OPP_30": {
+   "pose": "CMC_OPP_30",
+   "motion_components_deg": {
+    "IP": 0.0,
+    "MCP": 0.0,
+    "CMC": 30.000000023
+   },
+   "approved_distal_cap_mean_displacement_mm": 47.5304,
+   "paths": [
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.002983212,
+      -0.00890477,
+      0.009079099
+     ],
+     "d0_bind_separation_mm": 13.0623,
+     "A_pose_xyz_m": [
+      1.411429048,
+      -0.000609487,
+      0.492900193
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.049560428,
+      0.00806087,
+      0.010794222
+     ],
+     "dt_posed_separation_mm": 51.3588,
+     "uA_displacement_mm": 49.6005,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 49.6005,
+     "delta_u_xyz_mm": [
+      46.5772,
+      16.9656,
+      1.7151
+     ],
+     "dot_normalize_r0_delta_u": 0.005319,
+     "angle_r0_to_delta_u_deg": 89.695,
+     "L_bind_path_mm": 13.1646,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.9013,
+     "OLD_CLAIM_uA_plus_L_over_L": 4.7677,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.9617,
+     "SLACK_5X_mm": 14.4643,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.00348258,
+      -0.009663129,
+      0.008787364
+     ],
+     "d0_bind_separation_mm": 13.5175,
+     "A_pose_xyz_m": [
+      1.407261729,
+      0.001312774,
+      0.493925422
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.050576925,
+      0.006884995,
+      0.012031704
+     ],
+     "dt_posed_separation_mm": 52.4423,
+     "uA_displacement_mm": 50.0224,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 50.0224,
+     "delta_u_xyz_mm": [
+      47.0943,
+      16.5481,
+      3.2443
+     ],
+     "dot_normalize_r0_delta_u": 0.048231,
+     "angle_r0_to_delta_u_deg": 87.236,
+     "L_bind_path_mm": 13.726,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.8207,
+     "OLD_CLAIM_uA_plus_L_over_L": 4.6444,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.7279,
+     "SLACK_5X_mm": 16.1876,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      0.004032612,
+      -0.009931298,
+      0.008746475
+     ],
+     "d0_bind_separation_mm": 13.8345,
+     "A_pose_xyz_m": [
+      1.403003573,
+      0.002221238,
+      0.493563175
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.051286817,
+      0.005931246,
+      0.01385057
+     ],
+     "dt_posed_separation_mm": 53.4542,
+     "uA_displacement_mm": 50.1062,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 50.1062,
+     "delta_u_xyz_mm": [
+      47.2542,
+      15.8625,
+      5.1041
+     ],
+     "dot_normalize_r0_delta_u": 0.112039,
+     "angle_r0_to_delta_u_deg": 83.567,
+     "L_bind_path_mm": 14.0878,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.7944,
+     "OLD_CLAIM_uA_plus_L_over_L": 4.5567,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.4933,
+     "SLACK_5X_mm": 16.9848,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.463113904,
+      0.005849376,
+      0.500844538
+     ],
+     "r0_bind_vector_m": [
+      0.005107641,
+      -0.010506779,
+      0.006229222
+     ],
+     "d0_bind_separation_mm": 13.2395,
+     "A_pose_xyz_m": [
+      1.411429048,
+      -0.000609487,
+      0.492900193
+     ],
+     "B_pose_xyz_m": [
+      1.463113904,
+      0.005849374,
+      0.500844538
+     ],
+     "rt_pose_vector_m": [
+      0.051684856,
+      0.006458862,
+      0.007944345
+     ],
+     "dt_posed_separation_mm": 52.6892,
+     "uA_displacement_mm": 49.6005,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 49.6005,
+     "delta_u_xyz_mm": [
+      46.5772,
+      16.9656,
+      1.7151
+     ],
+     "dot_normalize_r0_delta_u": 0.107098,
+     "angle_r0_to_delta_u_deg": 83.852,
+     "L_bind_path_mm": 16.9097,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.1159,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.9333,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 6.0112,
+     "SLACK_5X_mm": 31.8595,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      -0.000167608,
+      -0.008158384,
+      0.01134181
+     ],
+     "d0_bind_separation_mm": 13.9723,
+     "A_pose_xyz_m": [
+      1.411429048,
+      -0.000609487,
+      0.492900193
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.046409607,
+      0.008807256,
+      0.013056934
+     ],
+     "dt_posed_separation_mm": 49.0092,
+     "uA_displacement_mm": 49.6005,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 49.6005,
+     "delta_u_xyz_mm": [
+      46.5772,
+      16.9656,
+      1.7151
+     ],
+     "dot_normalize_r0_delta_u": -0.182916,
+     "angle_r0_to_delta_u_deg": 100.54,
+     "L_bind_path_mm": 17.1149,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.8635,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.8981,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.9617,
+     "SLACK_5X_mm": 36.5652,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      -6.5684e-05,
+      -0.009708414,
+      0.010243982
+     ],
+     "d0_bind_separation_mm": 14.1137,
+     "A_pose_xyz_m": [
+      1.407261729,
+      0.001312774,
+      0.493925422
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.047028661,
+      0.00683971,
+      0.013488322
+     ],
+     "dt_posed_separation_mm": 49.4005,
+     "uA_displacement_mm": 50.0224,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 50.0224,
+     "delta_u_xyz_mm": [
+      47.0943,
+      16.5481,
+      3.2443
+     ],
+     "dot_normalize_r0_delta_u": -0.184864,
+     "angle_r0_to_delta_u_deg": 100.653,
+     "L_bind_path_mm": 17.5619,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.8129,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.8484,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.7279,
+     "SLACK_5X_mm": 38.4087,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.006633401,
+      -0.010409515,
+      0.006524652
+     ],
+     "d0_bind_separation_mm": 13.9618,
+     "A_pose_xyz_m": [
+      1.407261729,
+      0.001312774,
+      0.493925422
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.053727746,
+      0.006138609,
+      0.009768993
+     ],
+     "dt_posed_separation_mm": 54.9526,
+     "uA_displacement_mm": 50.0224,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 50.0224,
+     "delta_u_xyz_mm": [
+      47.0943,
+      16.5481,
+      3.2443
+     ],
+     "dot_normalize_r0_delta_u": 0.230964,
+     "angle_r0_to_delta_u_deg": 76.646,
+     "L_bind_path_mm": 17.6762,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.1088,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.8299,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.7279,
+     "SLACK_5X_mm": 33.4286,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.456273556,
+      0.018351218,
+      0.490895152
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.004715919,
+      -0.010899832,
+      0.012799263
+     ],
+     "d0_bind_separation_mm": 17.4605,
+     "A_pose_xyz_m": [
+      1.411862254,
+      0.002158888,
+      0.489298701
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.049127221,
+      0.005292495,
+      0.014395714
+     ],
+     "dt_posed_separation_mm": 51.4658,
+     "uA_displacement_mm": 47.298,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 47.298,
+     "delta_u_xyz_mm": [
+      44.4113,
+      16.1923,
+      1.5965
+     ],
+     "dot_normalize_r0_delta_u": 0.064637,
+     "angle_r0_to_delta_u_deg": 86.294,
+     "L_bind_path_mm": 17.7277,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.9031,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.668,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.9617,
+     "SLACK_5X_mm": 37.1729,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.450642824,
+      0.007216467,
+      0.507783175
+     ],
+     "r0_bind_vector_m": [
+      0.000385046,
+      -0.010867318,
+      0.009115905
+     ],
+     "d0_bind_separation_mm": 14.1897,
+     "A_pose_xyz_m": [
+      1.403003573,
+      0.002221238,
+      0.493563175
+     ],
+     "B_pose_xyz_m": [
+      1.450642824,
+      0.007216464,
+      0.507783175
+     ],
+     "rt_pose_vector_m": [
+      0.047639251,
+      0.004995226,
+      0.014219999
+     ],
+     "dt_posed_separation_mm": 49.9666,
+     "uA_displacement_mm": 50.1062,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 50.1062,
+     "delta_u_xyz_mm": [
+      47.2542,
+      15.8625,
+      5.1041
+     ],
+     "dot_normalize_r0_delta_u": -0.151422,
+     "angle_r0_to_delta_u_deg": 98.709,
+     "L_bind_path_mm": 17.8716,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 2.7959,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.8037,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.4933,
+     "SLACK_5X_mm": 39.3916,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_OPP_30",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.007580876,
+      -0.009886013,
+      0.007289857
+     ],
+     "d0_bind_separation_mm": 14.4342,
+     "A_pose_xyz_m": [
+      1.403003573,
+      0.002221238,
+      0.493563175
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.054835081,
+      0.005976531,
+      0.012393951
+     ],
+     "dt_posed_separation_mm": 56.5351,
+     "uA_displacement_mm": 50.1062,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 50.1062,
+     "delta_u_xyz_mm": [
+      47.2542,
+      15.8625,
+      5.1041
+     ],
+     "dot_normalize_r0_delta_u": 0.32993,
+     "angle_r0_to_delta_u_deg": 70.735,
+     "L_bind_path_mm": 17.9237,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 3.1542,
+     "OLD_CLAIM_uA_plus_L_over_L": 3.7955,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 5.4933,
+     "SLACK_5X_mm": 33.0833,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "OBLIQUE"
+    }
+   ],
+   "max_STRICT_LOWER_BOUND": 3.9013,
+   "max_OLD_CLAIM": 4.7677,
+   "any_path_STRICT_GT_5": false,
+   "paths_with_STRICT_GT_5": [],
+   "global_observed_max_stretch": 7.3462
+  },
+  "CMC_MCP_L3": {
+   "pose": "CMC_MCP_L3",
+   "motion_components_deg": {
+    "IP": 0.0,
+    "MCP": 30.0,
+    "CMC": 30.000000023
+   },
+   "approved_distal_cap_mean_displacement_mm": 74.8706,
+   "paths": [
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.002983212,
+      -0.00890477,
+      0.009079099
+     ],
+     "d0_bind_separation_mm": 13.0623,
+     "A_pose_xyz_m": [
+      1.391520977,
+      -0.019686988,
+      0.479146302
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.069468498,
+      0.027138371,
+      0.024548113
+     ],
+     "dt_posed_separation_mm": 78.5173,
+     "uA_displacement_mm": 77.1926,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 77.1926,
+     "delta_u_xyz_mm": [
+      66.4853,
+      36.0431,
+      15.469
+     ],
+     "dot_normalize_r0_delta_u": 0.017682,
+     "angle_r0_to_delta_u_deg": 88.987,
+     "L_bind_path_mm": 13.1646,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.9643,
+     "OLD_CLAIM_uA_plus_L_over_L": 6.8636,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.1959,
+     "SLACK_5X_mm": -12.6943,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.00348258,
+      -0.009663129,
+      0.008787364
+     ],
+     "d0_bind_separation_mm": 13.5175,
+     "A_pose_xyz_m": [
+      1.386942506,
+      -0.018702453,
+      0.478720695
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.070896149,
+      0.026900221,
+      0.027236432
+     ],
+     "dt_posed_separation_mm": 80.5711,
+     "uA_displacement_mm": 78.8786,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 78.8786,
+     "delta_u_xyz_mm": [
+      67.4136,
+      36.5633,
+      18.4491
+     ],
+     "dot_normalize_r0_delta_u": 0.040868,
+     "angle_r0_to_delta_u_deg": 87.658,
+     "L_bind_path_mm": 13.726,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.87,
+     "OLD_CLAIM_uA_plus_L_over_L": 6.7467,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 8.8866,
+     "SLACK_5X_mm": -11.9413,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      0.004032612,
+      -0.009931298,
+      0.008746475
+     ],
+     "d0_bind_separation_mm": 13.8345,
+     "A_pose_xyz_m": [
+      1.383031845,
+      -0.018291449,
+      0.476816505
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.071258545,
+      0.026443932,
+      0.03059724
+     ],
+     "dt_posed_separation_mm": 81.9344,
+     "uA_displacement_mm": 79.498,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 79.498,
+     "delta_u_xyz_mm": [
+      67.2259,
+      36.3752,
+      21.8508
+     ],
+     "dot_normalize_r0_delta_u": 0.091797,
+     "angle_r0_to_delta_u_deg": 84.733,
+     "L_bind_path_mm": 14.0878,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.816,
+     "OLD_CLAIM_uA_plus_L_over_L": 6.643,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 8.5261,
+     "SLACK_5X_mm": -11.4954,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.463113904,
+      0.005849376,
+      0.500844538
+     ],
+     "r0_bind_vector_m": [
+      0.005107641,
+      -0.010506779,
+      0.006229222
+     ],
+     "d0_bind_separation_mm": 13.2395,
+     "A_pose_xyz_m": [
+      1.391520977,
+      -0.019686988,
+      0.479146302
+     ],
+     "B_pose_xyz_m": [
+      1.463113904,
+      0.005849374,
+      0.500844538
+     ],
+     "rt_pose_vector_m": [
+      0.071592927,
+      0.025536362,
+      0.021698236
+     ],
+     "dt_posed_separation_mm": 79.0472,
+     "uA_displacement_mm": 77.1926,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 77.1926,
+     "delta_u_xyz_mm": [
+      66.4853,
+      36.0431,
+      15.469
+     ],
+     "dot_normalize_r0_delta_u": 0.056014,
+     "angle_r0_to_delta_u_deg": 86.789,
+     "L_bind_path_mm": 16.9097,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.6747,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.565,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.1022,
+     "SLACK_5X_mm": 5.5014,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      -0.000167608,
+      -0.008158384,
+      0.01134181
+     ],
+     "d0_bind_separation_mm": 13.9723,
+     "A_pose_xyz_m": [
+      1.391520977,
+      -0.019686988,
+      0.479146302
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.066317677,
+      0.027884755,
+      0.026810825
+     ],
+     "dt_posed_separation_mm": 76.7751,
+     "uA_displacement_mm": 77.1926,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 77.1926,
+     "delta_u_xyz_mm": [
+      66.4853,
+      36.0431,
+      15.469
+     ],
+     "dot_normalize_r0_delta_u": -0.120301,
+     "angle_r0_to_delta_u_deg": 96.909,
+     "L_bind_path_mm": 17.1149,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.4859,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.5103,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.1959,
+     "SLACK_5X_mm": 8.7993,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      -6.5684e-05,
+      -0.009708414,
+      0.010243982
+     ],
+     "d0_bind_separation_mm": 14.1137,
+     "A_pose_xyz_m": [
+      1.386942506,
+      -0.018702453,
+      0.478720695
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.067347884,
+      0.026854936,
+      0.02869305
+     ],
+     "dt_posed_separation_mm": 77.9757,
+     "uA_displacement_mm": 78.8786,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 78.8786,
+     "delta_u_xyz_mm": [
+      67.4136,
+      36.5633,
+      18.4491
+     ],
+     "dot_normalize_r0_delta_u": -0.15307,
+     "angle_r0_to_delta_u_deg": 98.805,
+     "L_bind_path_mm": 17.5619,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.4401,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.4915,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 8.8866,
+     "SLACK_5X_mm": 9.8335,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.006633401,
+      -0.010409515,
+      0.006524652
+     ],
+     "d0_bind_separation_mm": 13.9618,
+     "A_pose_xyz_m": [
+      1.386942506,
+      -0.018702453,
+      0.478720695
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.074046969,
+      0.026153836,
+      0.02497372
+     ],
+     "dt_posed_separation_mm": 82.4055,
+     "uA_displacement_mm": 78.8786,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 78.8786,
+     "delta_u_xyz_mm": [
+      67.4136,
+      36.5633,
+      18.4491
+     ],
+     "dot_normalize_r0_delta_u": 0.169755,
+     "angle_r0_to_delta_u_deg": 80.226,
+     "L_bind_path_mm": 17.6762,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.6619,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.4624,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 8.8866,
+     "SLACK_5X_mm": 5.9757,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.456273556,
+      0.018351218,
+      0.490895152
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.004715919,
+      -0.010899832,
+      0.012799263
+     ],
+     "d0_bind_separation_mm": 17.4605,
+     "A_pose_xyz_m": [
+      1.392584324,
+      -0.015966056,
+      0.476728469
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.068405151,
+      0.023417439,
+      0.026965946
+     ],
+     "dt_posed_separation_mm": 77.1674,
+     "uA_displacement_mm": 73.7203,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 73.7203,
+     "delta_u_xyz_mm": [
+      63.6892,
+      34.3173,
+      14.1667
+     ],
+     "dot_normalize_r0_delta_u": 0.083611,
+     "angle_r0_to_delta_u_deg": 85.204,
+     "L_bind_path_mm": 17.7277,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.3529,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.1585,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.1959,
+     "SLACK_5X_mm": 11.4714,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.450642824,
+      0.007216467,
+      0.507783175
+     ],
+     "r0_bind_vector_m": [
+      0.000385046,
+      -0.010867318,
+      0.009115905
+     ],
+     "d0_bind_separation_mm": 14.1897,
+     "A_pose_xyz_m": [
+      1.383031845,
+      -0.018291449,
+      0.476816505
+     ],
+     "B_pose_xyz_m": [
+      1.450642824,
+      0.007216464,
+      0.507783175
+     ],
+     "rt_pose_vector_m": [
+      0.067610979,
+      0.025507912,
+      0.030966669
+     ],
+     "dt_posed_separation_mm": 78.6183,
+     "uA_displacement_mm": 79.498,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 79.498,
+     "delta_u_xyz_mm": [
+      67.2259,
+      36.3752,
+      21.8508
+     ],
+     "dot_normalize_r0_delta_u": -0.150903,
+     "angle_r0_to_delta_u_deg": 98.679,
+     "L_bind_path_mm": 17.8716,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.3991,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.4483,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 8.5261,
+     "SLACK_5X_mm": 10.7399,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.007580876,
+      -0.009886013,
+      0.007289857
+     ],
+     "d0_bind_separation_mm": 14.4342,
+     "A_pose_xyz_m": [
+      1.383031845,
+      -0.018291449,
+      0.476816505
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.074806809,
+      0.026489217,
+      0.029140621
+     ],
+     "dt_posed_separation_mm": 84.5394,
+     "uA_displacement_mm": 79.498,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 79.498,
+     "delta_u_xyz_mm": [
+      67.2259,
+      36.3752,
+      21.8508
+     ],
+     "dot_normalize_r0_delta_u": 0.269558,
+     "angle_r0_to_delta_u_deg": 74.362,
+     "L_bind_path_mm": 17.9237,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.7166,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.4354,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 8.5261,
+     "SLACK_5X_mm": 5.079,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    }
+   ],
+   "max_STRICT_LOWER_BOUND": 5.9643,
+   "max_OLD_CLAIM": 6.8636,
+   "any_path_STRICT_GT_5": true,
+   "paths_with_STRICT_GT_5": [
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.002983212,
+      -0.00890477,
+      0.009079099
+     ],
+     "d0_bind_separation_mm": 13.0623,
+     "A_pose_xyz_m": [
+      1.391520977,
+      -0.019686988,
+      0.479146302
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.069468498,
+      0.027138371,
+      0.024548113
+     ],
+     "dt_posed_separation_mm": 78.5173,
+     "uA_displacement_mm": 77.1926,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 77.1926,
+     "delta_u_xyz_mm": [
+      66.4853,
+      36.0431,
+      15.469
+     ],
+     "dot_normalize_r0_delta_u": 0.017682,
+     "angle_r0_to_delta_u_deg": 88.987,
+     "L_bind_path_mm": 13.1646,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.9643,
+     "OLD_CLAIM_uA_plus_L_over_L": 6.8636,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.1959,
+     "SLACK_5X_mm": -12.6943,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.00348258,
+      -0.009663129,
+      0.008787364
+     ],
+     "d0_bind_separation_mm": 13.5175,
+     "A_pose_xyz_m": [
+      1.386942506,
+      -0.018702453,
+      0.478720695
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.070896149,
+      0.026900221,
+      0.027236432
+     ],
+     "dt_posed_separation_mm": 80.5711,
+     "uA_displacement_mm": 78.8786,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 78.8786,
+     "delta_u_xyz_mm": [
+      67.4136,
+      36.5633,
+      18.4491
+     ],
+     "dot_normalize_r0_delta_u": 0.040868,
+     "angle_r0_to_delta_u_deg": 87.658,
+     "L_bind_path_mm": 13.726,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.87,
+     "OLD_CLAIM_uA_plus_L_over_L": 6.7467,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 8.8866,
+     "SLACK_5X_mm": -11.9413,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "CMC_MCP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      0.004032612,
+      -0.009931298,
+      0.008746475
+     ],
+     "d0_bind_separation_mm": 13.8345,
+     "A_pose_xyz_m": [
+      1.383031845,
+      -0.018291449,
+      0.476816505
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.071258545,
+      0.026443932,
+      0.03059724
+     ],
+     "dt_posed_separation_mm": 81.9344,
+     "uA_displacement_mm": 79.498,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 79.498,
+     "delta_u_xyz_mm": [
+      67.2259,
+      36.3752,
+      21.8508
+     ],
+     "dot_normalize_r0_delta_u": 0.091797,
+     "angle_r0_to_delta_u_deg": 84.733,
+     "L_bind_path_mm": 14.0878,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.816,
+     "OLD_CLAIM_uA_plus_L_over_L": 6.643,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 8.5261,
+     "SLACK_5X_mm": -11.4954,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    }
+   ],
+   "global_observed_max_stretch": 11.0413
+  },
+  "FULL_OPP_L3": {
+   "pose": "FULL_OPP_L3",
+   "motion_components_deg": {
+    "IP": 15.0,
+    "MCP": 30.0,
+    "CMC": 30.000000023
+   },
+   "approved_distal_cap_mean_displacement_mm": 81.9374,
+   "paths": [
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.002983212,
+      -0.00890477,
+      0.009079099
+     ],
+     "d0_bind_separation_mm": 13.0623,
+     "A_pose_xyz_m": [
+      1.38730514,
+      -0.024740098,
+      0.473818958
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.073684335,
+      0.032191481,
+      0.029875457
+     ],
+     "dt_posed_separation_mm": 85.78,
+     "uA_displacement_mm": 84.3803,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 84.3803,
+     "delta_u_xyz_mm": [
+      70.7011,
+      41.0963,
+      20.7964
+     ],
+     "dot_normalize_r0_delta_u": 0.030644,
+     "angle_r0_to_delta_u_deg": 88.244,
+     "L_bind_path_mm": 13.1646,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 6.516,
+     "OLD_CLAIM_uA_plus_L_over_L": 7.4096,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 10.0555,
+     "SLACK_5X_mm": -19.957,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.00348258,
+      -0.009663129,
+      0.008787364
+     ],
+     "d0_bind_separation_mm": 13.5175,
+     "A_pose_xyz_m": [
+      1.382822871,
+      -0.024114197,
+      0.472541928
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.075015783,
+      0.032311965,
+      0.033415198
+     ],
+     "dt_posed_separation_mm": 88.2497,
+     "uA_displacement_mm": 86.5184,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 86.5184,
+     "delta_u_xyz_mm": [
+      71.5332,
+      41.9751,
+      24.6278
+     ],
+     "dot_normalize_r0_delta_u": 0.051238,
+     "angle_r0_to_delta_u_deg": 87.063,
+     "L_bind_path_mm": 13.726,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 6.4294,
+     "OLD_CLAIM_uA_plus_L_over_L": 7.3033,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.7454,
+     "SLACK_5X_mm": -19.6198,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      0.004032612,
+      -0.009931298,
+      0.008746475
+     ],
+     "d0_bind_separation_mm": 13.8345,
+     "A_pose_xyz_m": [
+      1.37935102,
+      -0.023802822,
+      0.469907969
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.07493937,
+      0.031955305,
+      0.037505776
+     ],
+     "dt_posed_separation_mm": 89.6869,
+     "uA_displacement_mm": 87.2316,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 87.2316,
+     "delta_u_xyz_mm": [
+      70.9068,
+      41.8866,
+      28.7593
+     ],
+     "dot_normalize_r0_delta_u": 0.100674,
+     "angle_r0_to_delta_u_deg": 84.222,
+     "L_bind_path_mm": 14.0878,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 6.3663,
+     "OLD_CLAIM_uA_plus_L_over_L": 7.192,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.351,
+     "SLACK_5X_mm": -19.2479,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.463113904,
+      0.005849376,
+      0.500844538
+     ],
+     "r0_bind_vector_m": [
+      0.005107641,
+      -0.010506779,
+      0.006229222
+     ],
+     "d0_bind_separation_mm": 13.2395,
+     "A_pose_xyz_m": [
+      1.38730514,
+      -0.024740098,
+      0.473818958
+     ],
+     "B_pose_xyz_m": [
+      1.463113904,
+      0.005849374,
+      0.500844538
+     ],
+     "rt_pose_vector_m": [
+      0.075808764,
+      0.030589473,
+      0.02702558
+     ],
+     "dt_posed_separation_mm": 86.0992,
+     "uA_displacement_mm": 84.3803,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 84.3803,
+     "delta_u_xyz_mm": [
+      70.7011,
+      41.0963,
+      20.7964
+     ],
+     "dot_normalize_r0_delta_u": 0.052698,
+     "angle_r0_to_delta_u_deg": 86.979,
+     "L_bind_path_mm": 16.9097,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.0917,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.99,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.8858,
+     "SLACK_5X_mm": -1.5505,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      -0.000167608,
+      -0.008158384,
+      0.01134181
+     ],
+     "d0_bind_separation_mm": 13.9723,
+     "A_pose_xyz_m": [
+      1.38730514,
+      -0.024740098,
+      0.473818958
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.070533514,
+      0.032937866,
+      0.032138169
+     ],
+     "dt_posed_separation_mm": 84.2184,
+     "uA_displacement_mm": 84.3803,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 84.3803,
+     "delta_u_xyz_mm": [
+      70.7011,
+      41.0963,
+      20.7964
+     ],
+     "dot_normalize_r0_delta_u": -0.09437,
+     "angle_r0_to_delta_u_deg": 95.415,
+     "L_bind_path_mm": 17.1149,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.9208,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.9302,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 10.0555,
+     "SLACK_5X_mm": 1.356,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      -6.5684e-05,
+      -0.009708414,
+      0.010243982
+     ],
+     "d0_bind_separation_mm": 14.1137,
+     "A_pose_xyz_m": [
+      1.382822871,
+      -0.024114197,
+      0.472541928
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.071467519,
+      0.03226668,
+      0.034871817
+     ],
+     "dt_posed_separation_mm": 85.8183,
+     "uA_displacement_mm": 86.5184,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 86.5184,
+     "delta_u_xyz_mm": [
+      71.5332,
+      41.9751,
+      24.6278
+     ],
+     "dot_normalize_r0_delta_u": -0.130967,
+     "angle_r0_to_delta_u_deg": 97.525,
+     "L_bind_path_mm": 17.5619,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.8866,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.9265,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.7454,
+     "SLACK_5X_mm": 1.9909,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.006633401,
+      -0.010409515,
+      0.006524652
+     ],
+     "d0_bind_separation_mm": 13.9618,
+     "A_pose_xyz_m": [
+      1.382822871,
+      -0.024114197,
+      0.472541928
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.078166604,
+      0.031565581,
+      0.031152487
+     ],
+     "dt_posed_separation_mm": 89.8715,
+     "uA_displacement_mm": 86.5184,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 86.5184,
+     "delta_u_xyz_mm": [
+      71.5332,
+      41.9751,
+      24.6278
+     ],
+     "dot_normalize_r0_delta_u": 0.164126,
+     "angle_r0_to_delta_u_deg": 80.554,
+     "L_bind_path_mm": 17.6762,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.0843,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.8946,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.7454,
+     "SLACK_5X_mm": -1.4903,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.456273556,
+      0.018351218,
+      0.490895152
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.004715919,
+      -0.010899832,
+      0.012799263
+     ],
+     "d0_bind_separation_mm": 17.4605,
+     "A_pose_xyz_m": [
+      1.388403177,
+      -0.020656234,
+      0.472104698
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.072586298,
+      0.028107617,
+      0.031589717
+     ],
+     "dt_posed_separation_mm": 84.0043,
+     "uA_displacement_mm": 80.505,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 80.505,
+     "delta_u_xyz_mm": [
+      67.8704,
+      39.0074,
+      18.7905
+     ],
+     "dot_normalize_r0_delta_u": 0.096326,
+     "angle_r0_to_delta_u_deg": 84.472,
+     "L_bind_path_mm": 17.7277,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.7386,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.5412,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 10.0555,
+     "SLACK_5X_mm": 4.6345,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.450642824,
+      0.007216467,
+      0.507783175
+     ],
+     "r0_bind_vector_m": [
+      0.000385046,
+      -0.010867318,
+      0.009115905
+     ],
+     "d0_bind_separation_mm": 14.1897,
+     "A_pose_xyz_m": [
+      1.37935102,
+      -0.023802822,
+      0.469907969
+     ],
+     "B_pose_xyz_m": [
+      1.450642824,
+      0.007216464,
+      0.507783175
+     ],
+     "rt_pose_vector_m": [
+      0.071291804,
+      0.031019285,
+      0.037875205
+     ],
+     "dt_posed_separation_mm": 86.4827,
+     "uA_displacement_mm": 87.2316,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 87.2316,
+     "delta_u_xyz_mm": [
+      70.9068,
+      41.8866,
+      28.7593
+     ],
+     "dot_normalize_r0_delta_u": -0.133889,
+     "angle_r0_to_delta_u_deg": 97.694,
+     "L_bind_path_mm": 17.8716,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 4.8391,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.881,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.351,
+     "SLACK_5X_mm": 2.8755,
+     "STRICT_BOUND_GT_5": false,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.007580876,
+      -0.009886013,
+      0.007289857
+     ],
+     "d0_bind_separation_mm": 14.4342,
+     "A_pose_xyz_m": [
+      1.37935102,
+      -0.023802822,
+      0.469907969
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.078487635,
+      0.03200059,
+      0.036049157
+     ],
+     "dt_posed_separation_mm": 92.108,
+     "uA_displacement_mm": 87.2316,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 87.2316,
+     "delta_u_xyz_mm": [
+      70.9068,
+      41.8866,
+      28.7593
+     ],
+     "dot_normalize_r0_delta_u": 0.264547,
+     "angle_r0_to_delta_u_deg": 74.66,
+     "L_bind_path_mm": 17.9237,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.1389,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.8668,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.351,
+     "SLACK_5X_mm": -2.4896,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    }
+   ],
+   "max_STRICT_LOWER_BOUND": 6.516,
+   "max_OLD_CLAIM": 7.4096,
+   "any_path_STRICT_GT_5": true,
+   "paths_with_STRICT_GT_5": [
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.002983212,
+      -0.00890477,
+      0.009079099
+     ],
+     "d0_bind_separation_mm": 13.0623,
+     "A_pose_xyz_m": [
+      1.38730514,
+      -0.024740098,
+      0.473818958
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.073684335,
+      0.032191481,
+      0.029875457
+     ],
+     "dt_posed_separation_mm": 85.78,
+     "uA_displacement_mm": 84.3803,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 84.3803,
+     "delta_u_xyz_mm": [
+      70.7011,
+      41.0963,
+      20.7964
+     ],
+     "dot_normalize_r0_delta_u": 0.030644,
+     "angle_r0_to_delta_u_deg": 88.244,
+     "L_bind_path_mm": 13.1646,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 6.516,
+     "OLD_CLAIM_uA_plus_L_over_L": 7.4096,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 10.0555,
+     "SLACK_5X_mm": -19.957,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.00348258,
+      -0.009663129,
+      0.008787364
+     ],
+     "d0_bind_separation_mm": 13.5175,
+     "A_pose_xyz_m": [
+      1.382822871,
+      -0.024114197,
+      0.472541928
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.075015783,
+      0.032311965,
+      0.033415198
+     ],
+     "dt_posed_separation_mm": 88.2497,
+     "uA_displacement_mm": 86.5184,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 86.5184,
+     "delta_u_xyz_mm": [
+      71.5332,
+      41.9751,
+      24.6278
+     ],
+     "dot_normalize_r0_delta_u": 0.051238,
+     "angle_r0_to_delta_u_deg": 87.063,
+     "L_bind_path_mm": 13.726,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 6.4294,
+     "OLD_CLAIM_uA_plus_L_over_L": 7.3033,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.7454,
+     "SLACK_5X_mm": -19.6198,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.45429039,
+      0.008152487,
+      0.507413745
+     ],
+     "r0_bind_vector_m": [
+      0.004032612,
+      -0.009931298,
+      0.008746475
+     ],
+     "d0_bind_separation_mm": 13.8345,
+     "A_pose_xyz_m": [
+      1.37935102,
+      -0.023802822,
+      0.469907969
+     ],
+     "B_pose_xyz_m": [
+      1.45429039,
+      0.008152484,
+      0.507413745
+     ],
+     "rt_pose_vector_m": [
+      0.07493937,
+      0.031955305,
+      0.037505776
+     ],
+     "dt_posed_separation_mm": 89.6869,
+     "uA_displacement_mm": 87.2316,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 87.2316,
+     "delta_u_xyz_mm": [
+      70.9068,
+      41.8866,
+      28.7593
+     ],
+     "dot_normalize_r0_delta_u": 0.100674,
+     "angle_r0_to_delta_u_deg": 84.222,
+     "L_bind_path_mm": 14.0878,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 6.3663,
+     "OLD_CLAIM_uA_plus_L_over_L": 7.192,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.351,
+     "SLACK_5X_mm": -19.2479,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.458006263,
+      0.016356155,
+      0.494615316
+     ],
+     "B_bind_xyz_m": [
+      1.463113904,
+      0.005849376,
+      0.500844538
+     ],
+     "r0_bind_vector_m": [
+      0.005107641,
+      -0.010506779,
+      0.006229222
+     ],
+     "d0_bind_separation_mm": 13.2395,
+     "A_pose_xyz_m": [
+      1.38730514,
+      -0.024740098,
+      0.473818958
+     ],
+     "B_pose_xyz_m": [
+      1.463113904,
+      0.005849374,
+      0.500844538
+     ],
+     "rt_pose_vector_m": [
+      0.075808764,
+      0.030589473,
+      0.02702558
+     ],
+     "dt_posed_separation_mm": 86.0992,
+     "uA_displacement_mm": 84.3803,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 84.3803,
+     "delta_u_xyz_mm": [
+      70.7011,
+      41.0963,
+      20.7964
+     ],
+     "dot_normalize_r0_delta_u": 0.052698,
+     "angle_r0_to_delta_u_deg": 86.979,
+     "L_bind_path_mm": 16.9097,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.0917,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.99,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.8858,
+     "SLACK_5X_mm": -1.5505,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.454356074,
+      0.017860901,
+      0.497169763
+     ],
+     "B_bind_xyz_m": [
+      1.460989475,
+      0.007451385,
+      0.503694415
+     ],
+     "r0_bind_vector_m": [
+      0.006633401,
+      -0.010409515,
+      0.006524652
+     ],
+     "d0_bind_separation_mm": 13.9618,
+     "A_pose_xyz_m": [
+      1.382822871,
+      -0.024114197,
+      0.472541928
+     ],
+     "B_pose_xyz_m": [
+      1.460989475,
+      0.007451382,
+      0.503694415
+     ],
+     "rt_pose_vector_m": [
+      0.078166604,
+      0.031565581,
+      0.031152487
+     ],
+     "dt_posed_separation_mm": 89.8715,
+     "uA_displacement_mm": 86.5184,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 86.5184,
+     "delta_u_xyz_mm": [
+      71.5332,
+      41.9751,
+      24.6278
+     ],
+     "dot_normalize_r0_delta_u": 0.164126,
+     "angle_r0_to_delta_u_deg": 80.554,
+     "L_bind_path_mm": 17.6762,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.0843,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.8946,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.7454,
+     "SLACK_5X_mm": -1.4903,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    },
+    {
+     "pose": "FULL_OPP_L3",
+     "A_bind_xyz_m": [
+      1.450257778,
+      0.018083785,
+      0.49866727
+     ],
+     "B_bind_xyz_m": [
+      1.457838655,
+      0.008197771,
+      0.505957127
+     ],
+     "r0_bind_vector_m": [
+      0.007580876,
+      -0.009886013,
+      0.007289857
+     ],
+     "d0_bind_separation_mm": 14.4342,
+     "A_pose_xyz_m": [
+      1.37935102,
+      -0.023802822,
+      0.469907969
+     ],
+     "B_pose_xyz_m": [
+      1.457838655,
+      0.008197769,
+      0.505957127
+     ],
+     "rt_pose_vector_m": [
+      0.078487635,
+      0.03200059,
+      0.036049157
+     ],
+     "dt_posed_separation_mm": 92.108,
+     "uA_displacement_mm": 87.2316,
+     "uB_displacement_mm": 0.0,
+     "delta_u_mm": 87.2316,
+     "delta_u_xyz_mm": [
+      70.9068,
+      41.8866,
+      28.7593
+     ],
+     "dot_normalize_r0_delta_u": 0.264547,
+     "angle_r0_to_delta_u_deg": 74.66,
+     "L_bind_path_mm": 17.9237,
+     "STRICT_LOWER_BOUND_dt_over_L_bind": 5.1389,
+     "OLD_CLAIM_uA_plus_L_over_L": 5.8668,
+     "OBSERVED_MAX_STRETCH_ON_PATH": 9.351,
+     "SLACK_5X_mm": -2.4896,
+     "STRICT_BOUND_GT_5": true,
+     "MOVEMENT_CHARACTER": "PERPENDICULAR"
+    }
+   ],
+   "global_observed_max_stretch": 11.0413
+  }
+ },
+ "old_claim_verdict": "OLD_GEOMETRIC_IMPOSSIBILITY_CLAIM = INVALID / UNSUPPORTED",
+ "per_pose_summary": {
+  "TH_IP_30": {
+   "motion": {
+    "IP": 30.0,
+    "MCP": 0.0,
+    "CMC": 0.0
+   },
+   "cap_mean_disp_mm": 16.5382,
+   "max_STRICT_BOUND": 1.3435,
+   "max_OLD_CLAIM": 2.3475,
+   "STRICT_GT_5": false
+  },
+  "TH_IP_45": {
+   "motion": {
+    "IP": 45.0,
+    "MCP": 0.0,
+    "CMC": 0.0
+   },
+   "cap_mean_disp_mm": 24.453,
+   "max_STRICT_BOUND": 1.9337,
+   "max_OLD_CLAIM": 2.9924,
+   "STRICT_GT_5": false
+  },
+  "TH_MCP_45": {
+   "motion": {
+    "IP": 0.0,
+    "MCP": 45.0,
+    "CMC": 0.0
+   },
+   "cap_mean_disp_mm": 45.0412,
+   "max_STRICT_BOUND": 3.3675,
+   "max_OLD_CLAIM": 4.4817,
+   "STRICT_GT_5": false
+  },
+  "CMC_OPP_30": {
+   "motion": {
+    "IP": 0.0,
+    "MCP": 0.0,
+    "CMC": 30.000000023
+   },
+   "cap_mean_disp_mm": 47.5304,
+   "max_STRICT_BOUND": 3.9013,
+   "max_OLD_CLAIM": 4.7677,
+   "STRICT_GT_5": false
+  },
+  "CMC_MCP_L3": {
+   "motion": {
+    "IP": 0.0,
+    "MCP": 30.0,
+    "CMC": 30.000000023
+   },
+   "cap_mean_disp_mm": 74.8706,
+   "max_STRICT_BOUND": 5.9643,
+   "max_OLD_CLAIM": 6.8636,
+   "STRICT_GT_5": true
+  },
+  "FULL_OPP_L3": {
+   "motion": {
+    "IP": 15.0,
+    "MCP": 30.0,
+    "CMC": 30.000000023
+   },
+   "cap_mean_disp_mm": 81.9374,
+   "max_STRICT_BOUND": 6.516,
+   "max_OLD_CLAIM": 7.4096,
+   "STRICT_GT_5": true
+  }
+ }
+}

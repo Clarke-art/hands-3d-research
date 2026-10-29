@@ -1,0 +1,986 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+当前正式状态
+==================================================
+
+已完成：
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPLICATION_R1
+=
+PASS_APPLIED_TO_NEW_STAGE4C_DERIVED_REVISION
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_GEOMETRY_PROPAGATED_WITH_RIG_AND_WEIGHTS_FROZEN
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_JOINT_REST_ZERO_BIND_REQUALIFIED
+
+STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_STATIC_SKIN_COMPATIBILITY_REQUALIFIED
+
+当前正式 R2 donor-transfer derivative：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_donor_transfer_r1/
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend
+
+SHA256：
+
+d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d
+
+当前 weight vector authority：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+当前 corrected rig authority：
+
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+==================================================
+历史 corrected true-cap authority
+==================================================
+
+此前：
+
+TRUE_CAP_BOUND_RECOMPUTE_AFTER_DEPENDENCY_RECONCILIATION_R1
+=
+PASS_CORRECTED_BOUND_AUTHORITY_ESTABLISHED
+
+历史 corrected source：
+
+cap37 = 37 vertices
+
+历史 primary target：
+
+fresh-R3 exact boundary INDEX side
+= 19 unique endpoints
+
+primary pair count：
+
+37 × 19 = 703
+
+full exact-boundary context：
+
+37 × 38 = 1406 pairs
+
+历史 static path statistics：
+
+min =
+81.76973560299072 mm
+
+p05 =
+88.4509022620621 mm
+
+median =
+103.08216070852043 mm
+
+p95 =
+121.42116411229027 mm
+
+max =
+131.54036962594424 mm
+
+mean =
+103.90916390476099 mm
+
+历史关键 posed bounds：
+
+CMC_MCP_L3 =
+0.6806198919342639
+
+FULL_OPP_L3 =
+0.6916621180243677
+
+历史还有：
+
+TH_IP_30
+TH_IP_45
+TH_MCP_45
+CMC_OPP_30
+
+以及：
+
+120 historical virtual endpoint LBS recipes
+
+全部已经建立 corrected authority。
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+本轮性质：
+
+FRESH GEOMETRY-DEPENDENT NUMERIC RECOMPUTATION
++
+OLD-VS-NEW AUTHORITY COMPARISON
+
+不是：
+
+R3 rerun
+
+ownership research
+
+cap anatomy research
+
+skin rebuild
+
+weight modification
+
+joint modification
+
+deformation qualification
+
+Stage6A
+
+Stage6B
+
+production promotion。
+
+==================================================
+一、为什么必须 fresh recompute
+==================================================
+
+虽然 donor-transfer approved54 与：
+
+cap37
+old cap9
+FIRST_WEB21
+fresh-R3 protected domain
+historical317
+
+全部 ID 零交集，
+
+而且历史 703 条 primary shortest paths
+此前记录没有经过 approved54，
+
+仍然不能直接继承旧 path/bound 数值。
+
+原因：
+
+donor transfer 改变了 mesh edge geometry / metric。
+
+新 geometry 上可能出现：
+
+new shorter alternative path
+
+path tie change
+
+path rank change
+
+graph metric hash change。
+
+因此：
+
+必须在 current donor-transfer geometry 上
+重新求所有 path / bounds。
+
+不得：
+
+只重算经过54点的旧路径
+
+只检查旧 shortest path
+
+假设 old path remains shortest。
+
+==================================================
+二、输入 prerequisite
+==================================================
+
+必须验证：
+
+A.
+current donor-transfer R2 derivative
+
+SHA256 =
+d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d
+
+B.
+weight hash
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+C.
+corrected rig
+
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+D.
+cap37 authority
+
+HUMAN_APPROVED_FROZEN
+
+combined authority hash：
+
+c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8
+
+E.
+fresh R3
+
+membership hash：
+
+f57483723e90cc34e0551bf70fac00c7c8cb789dbad5d0e248018fdaddd3741d
+
+combined authority hash：
+
+361f4f25201f5810830dc1bfc4bd2cf19db908aef8945801a63bfd2829197ff0
+
+F.
+static skin donor-transfer requalification
+
+=
+PASS_STATIC_SKIN_COMPATIBILITY_REQUALIFIED
+
+G.
+joint/rest/zero/bind donor-transfer requalification
+
+=
+PASS_JOINT_REST_ZERO_BIND_REQUALIFIED
+
+任一不成立：
+
+FAIL CLOSED
+STOP。
+
+==================================================
+三、authority membership 不得重建
+==================================================
+
+继续直接消费 frozen：
+
+cap37 37 vertices
+
+fresh-R3 exact boundary
+
+19 INDEX-side primary endpoints
+
+38 full exact-boundary context endpoints。
+
+禁止重新：
+
+R3 Dijkstra
+R3 min-cut
+R3 closure
+sheet validator
+R3 ownership
+cap selector
+anatomy research。
+
+本轮 Dijkstra 仅用于：
+
+TRUE-CAP BIND PATH
+
+不得混淆为 R3 graph solve。
+
+==================================================
+四、source / target coordinates
+==================================================
+
+虽然 source/target membership 不变，
+
+必须重新读取 current donor-transfer geometry
+中的实际 native coordinates。
+
+逐项确认：
+
+cap37 37 source coordinates
+vs old corrected geometry
+
+fresh-R3 exact boundary endpoint coordinates
+vs old corrected geometry。
+
+由于 approved54 与这些集合无交集，
+
+理论预期：
+
+SOURCE_COORDINATE_CHANGED_COUNT = 0
+
+TARGET_COORDINATE_CHANGED_COUNT = 0
+
+但必须实际验证。
+
+如果非零：
+
+如实记录并继续按 current geometry 计算；
+不得假定历史坐标。
+
+==================================================
+五、完整 graph metric fresh build
+==================================================
+
+在 current donor-transfer mesh 上
+重新构建 true-cap bind-path graph metric。
+
+必须保持历史正式方法：
+
+same native mesh-edge graph
+
+same edge-length metric semantics
+
+same deterministic ordering
+
+same tie-break rules。
+
+禁止换成：
+
+Euclidean chord
+new cost function
+geometry prior
+R3 ownership cost
+新的人为 penalty。
+
+计算并输出新的：
+
+GRAPH_METRIC_HASH_CURRENT
+
+并与历史：
+
+2cccf0b698177850d9d32e80854c533c3b82ac5a897d3d478532939c5b21428a
+
+比较。
+
+预期 graph metric hash
+很可能变化。
+
+这不是失败。
+
+==================================================
+六、approved54 metric impact audit
+==================================================
+
+单独记录：
+
+approved54 incident edges
+
+old length
+new length
+delta
+ratio。
+
+并报告：
+
+CHANGED_GRAPH_EDGE_COUNT
+
+CHANGED_GRAPH_EDGE_IDS
+
+MAX_EDGE_LENGTH_DELTA_MM
+
+MAX_EDGE_LENGTH_RATIO
+
+这只是解释 graph metric 变化，
+
+不是新 geometry gate。
+
+==================================================
+七、Fresh 703 primary path recomputation
+==================================================
+
+对：
+
+37 cap37 sources
+×
+19 INDEX targets
+
+重新计算完整703 pair shortest paths。
+
+对每 pair 保存：
+
+source
+target
+path vertex sequence
+path edge sequence
+total length
+tie status。
+
+不得只计算 old shortest pair。
+
+输出：
+
+NEW_PRIMARY_PATH_PAIR_COUNT = 703
+
+==================================================
+八、703 old-vs-new path identity
+==================================================
+
+逐 pair 对比历史 corrected authority。
+
+分类：
+
+PATH_IDENTICAL_LENGTH_IDENTICAL
+
+PATH_IDENTICAL_LENGTH_CHANGED
+
+PATH_CHANGED_SHORTER
+
+PATH_CHANGED_LONGER
+
+PATH_TIE_CHANGED
+
+OTHER_EXPLICIT。
+
+报告：
+
+PATH_IDENTITY_MATCH_COUNT
+
+PATH_CHANGED_COUNT
+
+PATH_LENGTH_CHANGED_COUNT
+
+NEW_PATH_TOUCHES_APPROVED54_COUNT
+
+OLD_PATH_TOUCHES_APPROVED54_COUNT
+
+注意：
+
+历史 old path 不经过 approved54
+不能证明 new path 也不经过。
+
+==================================================
+九、Fresh static path statistics
+==================================================
+
+重新计算 current geometry 的：
+
+min
+p05
+median
+p95
+max
+mean
+
+并报告 old→new delta。
+
+至少：
+
+TRUE_CAP_STATIC_PATH_MIN_MM_CURRENT
+
+P05
+MEDIAN
+P95
+MAX
+MEAN
+
+以及：
+
+MIN_DELTA_MM
+P05_DELTA_MM
+MEDIAN_DELTA_MM
+P95_DELTA_MM
+MAX_DELTA_MM
+MEAN_DELTA_MM。
+
+==================================================
+十、global shortest path
+==================================================
+
+重新确定：
+
+current global shortest source-target pair。
+
+记录：
+
+source ID
+target ID
+edge count
+total length
+full vertex sequence
+full edge sequence。
+
+比较历史：
+
+v1380 → v2035
+24 edges。
+
+不要预设仍相同。
+
+==================================================
+十一、1406 full exact-boundary context
+==================================================
+
+重新计算：
+
+37 × 38 = 1406
+
+full exact-boundary context pair family。
+
+原因：
+
+历史 sensitivity / virtual recipe
+依赖两侧 exact boundary context。
+
+不得只重算703 primary。
+
+==================================================
+十二、posed endpoint bounds
+==================================================
+
+使用 current donor-transfer R2 derivative：
+
+current geometry
+current unchanged weights
+current corrected rig
+
+重新计算所有历史正式 true-cap posed cases：
+
+TH_IP_30
+TH_IP_45
+TH_MCP_45
+CMC_OPP_30
+CMC_MCP_L3
+FULL_OPP_L3
+
+要求：
+
+使用历史已经恢复的
+exact same pose primitive / transform semantics。
+
+不得重新定义 pose。
+
+这属于：
+
+BOUND_RECOMPUTATION_PROBE
+
+不是：
+
+deformation qualification。
+
+==================================================
+十三、posed endpoint coordinates
+==================================================
+
+因为：
+
+cap37 / target endpoint IDs 未移动
+weights 未改变
+rig 未改变，
+
+理论上 source/target posed endpoint coordinates
+可能保持 exact 或 numerical-equivalent。
+
+但必须实际测量。
+
+输出：
+
+POSED_ENDPOINT_COORDINATE_CHANGE_COUNT
+
+MAX_POSED_ENDPOINT_COORDINATE_DELTA_MM。
+
+如果非零：
+
+记录原因，
+
+不得静默归零。
+
+==================================================
+十四、Fresh bound formula
+==================================================
+
+继续使用历史正式 bound 定义。
+
+不得改变：
+
+numerator semantics
+denominator semantics
+endpoint selection
+pair ensemble
+max aggregation。
+
+对每 pose 重新计算：
+
+all703 maximum bound
+
+current-shortest10 maximum bound
+
+以及历史正式要求的其它 aggregate。
+
+重点输出：
+
+CMC_MCP_L3_CURRENT_TRUE_CAP_BOUND
+
+FULL_OPP_L3_CURRENT_TRUE_CAP_BOUND
+
+但六个正式 pose
+必须全部有 current result。
+
+==================================================
+十五、120 historical virtual endpoint LBS recipes
+==================================================
+
+完整重新执行：
+
+120 recipes
+
+×
+703 primary pairs
+
+以及其需要的：
+
+1406 context pairs。
+
+不得只验证 hash 或引用旧结果。
+
+记录：
+
+VIRTUAL_RECIPE_COUNT = 120
+
+每个 recipe old/new max bound
+
+recipe ranking changes
+
+max absolute delta
+
+max relative delta。
+
+==================================================
+十六、不要因数值变化自动恢复旧 recommendation
+==================================================
+
+无论新 bound：
+
+升高
+降低
+完全相同，
+
+都不得自动恢复历史：
+
+mesh-limit conclusion
+retopo recommendation
+no-legal-weight conclusion
+skin failure
+anatomy failure。
+
+本轮只建立：
+
+CURRENT GEOMETRY NUMERIC AUTHORITY。
+
+==================================================
+十七、determinism
+==================================================
+
+完整计算必须独立运行至少两次：
+
+clean reopen
+
+fresh graph build
+
+fresh paths
+
+fresh posed bounds
+
+fresh 120 recipes。
+
+要求：
+
+source/target membership hash identical
+
+graph metric hash identical between current reruns
+
+path-family payload hash identical
+
+bound payload hash identical
+
+all numeric values exact match
+或历史已定义 serialization-equivalent。
+
+不得通过 rounding 掩盖不同 path。
+
+==================================================
+十八、旧 corrected authority 保留
+==================================================
+
+历史：
+
+TRUE_CAP_BOUND_RECOMPUTE_AFTER_DEPENDENCY_RECONCILIATION_R1
+
+保持原样作为：
+
+PRE_DONOR_TRANSFER_CORRECTED_AUTHORITY_HISTORY。
+
+不要覆盖。
+
+本轮创建新的：
+
+POST_DONOR_TRANSFER TRUE-CAP AUTHORITY。
+
+==================================================
+十九、判定逻辑
+==================================================
+
+情况 A：
+
+fresh recomputation 成功，
+method / authority / determinism 全通过，
+
+无论 path/bound 是否改变：
+
+TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_CURRENT_GEOMETRY_BOUND_AUTHORITY_ESTABLISHED
+
+只要没有：
+
+semantic mismatch
+authority mismatch
+determinism failure
+unsupported method change。
+
+数值变化本身不是 FAIL。
+
+--------------------------------
+
+情况 B：
+
+如果 current geometry
+导致 historical bound method
+无法合法应用：
+
+FAIL_CLOSED_TRUE_CAP_METHOD_INCOMPATIBILITY
+
+--------------------------------
+
+情况 C：
+
+如果 authority/membership 无法唯一恢复：
+
+FAIL_CLOSED_TRUE_CAP_AUTHORITY_MISMATCH
+
+--------------------------------
+
+情况 D：
+
+determinism 不成立：
+
+FAIL_CLOSED_TRUE_CAP_DETERMINISM
+
+STOP。
+
+==================================================
+二十、visual forensic evidence
+==================================================
+
+生成最小 evidence：
+
+1.
+current cap37 sources
+
+2.
+current fresh-R3 target endpoints
+
+3.
+old global shortest path
+
+4.
+new global shortest path
+
+5.
+若 path changed：
+matched old/new path overlay
+
+6.
+任何新 shortest path
+若进入 donor-transfer ROI，
+明确标注。
+
+不需要 Human anatomy approval。
+
+==================================================
+二十一、不要运行 deformation qualification
+==================================================
+
+本轮可以应用 historical pose transforms
+做 endpoint-bound probe，
+
+但：
+
+TARGETED_DEFORMATION_RUNS = 0
+
+FULL_STAGE6A_RUNS = 0
+
+STAGE6B_RUNS = 0。
+
+不要：
+
+surface deformation QA
+crossing classification
+severe stretch qualification。
+
+==================================================
+二十二、旧9 Stage6A blockers
+==================================================
+
+继续保持：
+
+FULL_STAGE6A_REQUALIFICATION_R1
+=
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT =
+9
+
+不修复
+不裁决
+不重新分类。
+
+==================================================
+二十三、输出
+==================================================
+
+至少生成：
+
+TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_REPORT.md
+
+TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json
+
+POST_DONOR_SOURCE_TARGET_VERIFICATION_R1.json
+
+POST_DONOR_GRAPH_METRIC_AUDIT_R1.json
+
+APPROVED54_GRAPH_METRIC_IMPACT_R1.json
+
+POST_DONOR_PRIMARY_703_PATHS_R1.json
+
+OLD_VS_NEW_703_PATH_COMPARISON_R1.json
+
+POST_DONOR_1406_CONTEXT_PATHS_R1.json
+
+POST_DONOR_POSED_BOUND_RECOMPUTATION_R1.json
+
+POST_DONOR_VIRTUAL_120_RECIPE_RECOMPUTATION_R1.json
+
+POST_DONOR_TRUE_CAP_DETERMINISM_R1.json
+
+POST_DONOR_TRUE_CAP_AUTHORITY_MANIFEST_R1.json
+
+PRODUCTION_READONLY_NO_DRIFT_VERIFICATION.json
+
+必要 forensic renders。
+
+==================================================
+二十四、最终必须明确
+==================================================
+
+CAP37_SOURCE_COUNT = ?
+
+PRIMARY_TARGET_COUNT = ?
+
+PRIMARY_PAIR_COUNT = ?
+
+FULL_CONTEXT_PAIR_COUNT = ?
+
+SOURCE_COORDINATE_CHANGED_COUNT = ?
+
+TARGET_COORDINATE_CHANGED_COUNT = ?
+
+OLD_GRAPH_METRIC_HASH = ?
+
+NEW_GRAPH_METRIC_HASH = ?
+
+GRAPH_METRIC_CHANGED = ?
+
+CHANGED_GRAPH_EDGE_COUNT = ?
+
+MAX_EDGE_LENGTH_DELTA_MM = ?
+
+PATH_IDENTITY_MATCH_COUNT = ?
+
+PATH_CHANGED_COUNT = ?
+
+PATH_LENGTH_CHANGED_COUNT = ?
+
+NEW_PATH_TOUCHES_APPROVED54_COUNT = ?
+
+GLOBAL_SHORTEST_SOURCE = ?
+
+GLOBAL_SHORTEST_TARGET = ?
+
+GLOBAL_SHORTEST_EDGE_COUNT = ?
+
+TRUE_CAP_STATIC_PATH_MIN_MM_CURRENT = ?
+
+TRUE_CAP_STATIC_PATH_P05_MM_CURRENT = ?
+
+TRUE_CAP_STATIC_PATH_MEDIAN_MM_CURRENT = ?
+
+TRUE_CAP_STATIC_PATH_P95_MM_CURRENT = ?
+
+TRUE_CAP_STATIC_PATH_MAX_MM_CURRENT = ?
+
+TRUE_CAP_STATIC_PATH_MEAN_MM_CURRENT = ?
+
+TH_IP_30_CURRENT_BOUND = ?
+
+TH_IP_45_CURRENT_BOUND = ?
+
+TH_MCP_45_CURRENT_BOUND = ?
+
+CMC_OPP_30_CURRENT_BOUND = ?
+
+CMC_MCP_L3_CURRENT_BOUND = ?
+
+FULL_OPP_L3_CURRENT_BOUND = ?
+
+CMC_MCP_L3_DELTA_VS_PRE_DONOR = ?
+
+FULL_OPP_L3_DELTA_VS_PRE_DONOR = ?
+
+POSED_ENDPOINT_COORDINATE_CHANGE_COUNT = ?
+
+VIRTUAL_RECIPE_COUNT = ?
+
+MAX_VIRTUAL_RECIPE_BOUND_DELTA = ?
+
+DETERMINISTIC_RERUN = ?
+
+NEW_PATH_FAMILY_PAYLOAD_HASH = ?
+
+NEW_BOUND_PAYLOAD_HASH = ?
+
+TARGETED_DEFORMATION_RUNS = 0
+
+FULL_STAGE6A_RUNS = 0
+
+STAGE6B_RUNS = 0
+
+PROTECTED_HISTORY_DRIFT = ?
+
+FULL_STAGE6A_STATUS_RETAINED =
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT_RETAINED =
+9
+
+VERDICT = ?
+
+==================================================
+二十五、NEXT
+==================================================
+
+如果 PASS：
+
+NEXT =
+TARGETED_DEFORMATION_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+只记录，不执行。
+
+之后：
+
+targeted deformation
+→
+Full42 Stage6A
+→
+Human Review
+→
+之后才可能 Stage6B。
+
+STOP。

@@ -1,0 +1,33 @@
+{
+  "phase": "MINUET_TARGET_KEY_HAND_POSITION_PLANNING_R1",
+  "stage": "A",
+  "status": "FAIL_STAGE_A_MOTION_QUALITY_NOT_QUALIFIED",
+  "human_review": "PENDING",
+  "implementation": "GENERIC_TARGET_KEY_AND_ROOT_INTERFACE_IMPLEMENTED",
+  "given_provisional_fingering": true,
+  "automatic_fingering": false,
+  "candidate_count": 1,
+  "motion_generation_attempts": 1,
+  "planner_restarts": 0,
+  "performance_blend_count": 1,
+  "right_root_and_joint_actions": 2,
+  "key_actions": 8,
+  "right_note_count": 16,
+  "left_motion_generated": false,
+  "normal_speed_views": 3,
+  "source_duration_sec": 5.142852,
+  "video_duration_sec": 5.7,
+  "input_events_preserved": true,
+  "frozen_assets_unchanged": true,
+  "alternate_pitch_set": "PLANNING_ONLY_PASS_NO_SECOND_ANIMATION",
+  "blockers": [
+    "Visible fingertip hover on depressed white keys",
+    "G5 hold contact lost during premature root return before G4",
+    "Bounded independent finger adaptation cannot fulfill the prescribed common-root path",
+    "Inherited key-pressure max-of-release/attack prevents full rebound in two G4 repeats"
+  ],
+  "no_frozen_rig_infeasibility_claim": true,
+  "no_Musette_reapproval": true,
+  "next_local_architecture": "Contact-feasible root/digit planning over adjacent events; separate repeated-key mechanical arbitration. No infinite DIP/root tuning.",
+  "stop": "ONE_CANDIDATE_LIMIT_REACHED_NO_SECOND_GENERATION"
+}

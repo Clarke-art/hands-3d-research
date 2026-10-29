@@ -1,0 +1,2518 @@
+{
+  "status": "PASS",
+  "baseline_counts": {
+    "broadphase_pairs": 603,
+    "exact_narrowphase_pairs": 523,
+    "true_contact_native_pair_count": 10,
+    "component_count": 10
+  },
+  "application_counts": {
+    "broadphase_pairs": 493,
+    "exact_narrowphase_pairs": 413,
+    "true_contact_native_pair_count": 0,
+    "component_count": 0
+  },
+  "baseline_components": {
+    "(2189, 2784)": [
+      {
+        "component_id": "2189/2784:4378-5569",
+        "native_face_pair": [
+          2189,
+          2784
+        ],
+        "fan_pair_membership": [
+          [
+            4378,
+            5569
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  123,
+                  1023
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  3176,
+                  3351,
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  123,
+                  1023,
+                  1860
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3176,
+                  3361
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.2484690334715614,
+        "sum_fan_intersection_lengths_mm": 0.2484690334715614,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.7135353314989,
+                13.12265005405839,
+                481.98202402808295
+              ],
+              [
+                1425.7063621616842,
+                13.124643424327834,
+                481.9840708310888
+              ]
+            ],
+            "a_weights": [
+              0.06502165310163277,
+              0.0,
+              0.9349783468983672
+            ],
+            "b_weights": [
+              0.0,
+              0.08494676429050041,
+              0.9150532357094996
+            ],
+            "a_vertex_ids": [
+              1860,
+              123,
+              1023
+            ],
+            "b_vertex_ids": [
+              3351,
+              3176,
+              3361
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1425.7799549044394,
+                13.257770440856863,
+                482.21846673574646
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "crossing_segment_mm": 0.24846903347160987
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.2484690334715614,
+            "points_world_mm": [
+              [
+                1425.7799549044394,
+                13.257770440856861,
+                482.21846673574646
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.7799549044394,
+                13.257770440856861,
+                482.21846673574646
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4378,
+              5569
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    123,
+                    1023
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    3176,
+                    3351,
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    123,
+                    1023,
+                    1860
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3176,
+                    3361
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2189, 2787)": [
+      {
+        "component_id": "2189/2787:4378-5574",
+        "native_face_pair": [
+          2189,
+          2787
+        ],
+        "fan_pair_membership": [
+          [
+            4378,
+            5574
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  123,
+                  1023
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3176,
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  123,
+                  1023,
+                  1860
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3176,
+                  3361
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.10957165627462695,
+        "sum_fan_intersection_lengths_mm": 0.10957165627462695,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.7135353314989,
+                13.12265005405839,
+                481.98202402808295
+              ],
+              [
+                1425.7063621616842,
+                13.124643424327834,
+                481.9840708310888
+              ]
+            ],
+            "a_weights": [
+              0.06502165310163259,
+              0.0,
+              0.9349783468983675
+            ],
+            "b_weights": [
+              0.9150532357094994,
+              0.0849467642905006,
+              0.0
+            ],
+            "a_vertex_ids": [
+              1860,
+              123,
+              1023
+            ],
+            "b_vertex_ids": [
+              3361,
+              3176,
+              2077
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "crossing_segment_mm": 0.10957165627462048
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.10957165627462695,
+            "points_world_mm": [
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4378,
+              5574
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    123,
+                    1023
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3176,
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    123,
+                    1023,
+                    1860
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3176,
+                    3361
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2190, 2787)": [
+      {
+        "component_id": "2190/2787:4380-5575,4381-5575",
+        "native_face_pair": [
+          2190,
+          2787
+        ],
+        "fan_pair_membership": [
+          [
+            4380,
+            5575
+          ],
+          [
+            4381,
+            5575
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1023
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3352,
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  3027
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3352,
+                  3361
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  3027
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3352,
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1862,
+                  3027
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  2077,
+                  3352
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 2.2753057938055448,
+        "sum_fan_intersection_lengths_mm": 2.3081791252004784,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.5009456819587,
+                12.624854790742976,
+                482.0324434726154
+              ],
+              [
+                1425.4824723189568,
+                12.636129760459957,
+                482.0438652238817
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.9122225258351497,
+              0.0877774741648503
+            ],
+            "b_weights": [
+              0.8598800731189542,
+              0.14011992688104574,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3027,
+              1023,
+              124
+            ],
+            "b_vertex_ids": [
+              3361,
+              2077,
+              3352
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ],
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ]
+            ],
+            "crossing_segment_mm": 1.5849045119374863
+          },
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.8589902583296,
+                10.663942600224134,
+                480.96261652413324
+              ],
+              [
+                1423.9089729923005,
+                10.722225631774599,
+                480.9961564494991
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.7933811590634202,
+              0.20661884093657976
+            ],
+            "b_weights": [
+              0.0,
+              0.2033895304766642,
+              0.7966104695233358
+            ],
+            "a_vertex_ids": [
+              3027,
+              124,
+              1862
+            ],
+            "b_vertex_ids": [
+              3361,
+              2077,
+              3352
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "crossing_segment_mm": 0.7232746132630201
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 1.5849045119374654,
+            "points_world_mm": [
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ],
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ],
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4380,
+              5575
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1023
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3352,
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    3027
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3352,
+                    3361
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          },
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.7232746132630128,
+            "points_world_mm": [
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4381,
+              5575
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    3027
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3352,
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1862,
+                    3027
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    2077,
+                    3352
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2190, 2780)": [
+      {
+        "component_id": "2190/2780:4381-5560",
+        "native_face_pair": [
+          2190,
+          2780
+        ],
+        "fan_pair_membership": [
+          [
+            4381,
+            5560
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1862
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3175,
+                  3352
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1862,
+                  3027
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  2077,
+                  3352
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.1780623742414675,
+        "sum_fan_intersection_lengths_mm": 0.1780623742414675,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.8589902583296,
+                10.663942600224136,
+                480.96261652413324
+              ],
+              [
+                1423.9089729923005,
+                10.722225631774604,
+                480.9961564494991
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.7933811590634177,
+              0.2066188409365824
+            ],
+            "b_weights": [
+              0.7966104695233371,
+              0.20338953047666283,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3027,
+              124,
+              1862
+            ],
+            "b_vertex_ids": [
+              3352,
+              2077,
+              3175
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "crossing_segment_mm": 0.1780623742414664
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.1780623742414675,
+            "points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4381,
+              5560
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1862
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3175,
+                    3352
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1862,
+                    3027
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    2077,
+                    3352
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2420, 2780)": [
+      {
+        "component_id": "2420/2780:4840-5561,4841-5560,4841-5561",
+        "native_face_pair": [
+          2420,
+          2780
+        ],
+        "fan_pair_membership": [
+          [
+            4840,
+            5561
+          ],
+          [
+            4841,
+            5560
+          ],
+          [
+            4841,
+            5561
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  3175,
+                  3352,
+                  3360
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1024,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3175,
+                  3360
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1862
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3175,
+                  3352
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1862,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3175,
+                  3352
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  3175,
+                  3352,
+                  3360
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1862,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3175,
+                  3352
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 3.3866630548597922,
+        "sum_fan_intersection_lengths_mm": 3.5077865595018687,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1421.1050400069707,
+                8.610218692205347,
+                480.9183651551904
+              ],
+              [
+                1421.1071357648914,
+                8.607694449751225,
+                480.91637423706936
+              ]
+            ],
+            "a_weights": [
+              0.057499165569539934,
+              0.9425008344304601,
+              0.0
+            ],
+            "b_weights": [
+              0.0,
+              0.36098443417923387,
+              0.6390155658207661
+            ],
+            "a_vertex_ids": [
+              124,
+              1024,
+              3085
+            ],
+            "b_vertex_ids": [
+              3352,
+              3175,
+              3360
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334313,
+                480.8865408869524
+              ]
+            ],
+            "crossing_segment_mm": 2.63489257889911
+          },
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.3124296294072,
+                10.353692239488238,
+                480.9283434985784
+              ],
+              [
+                1423.3296205763024,
+                10.334604342066854,
+                480.91493585494226
+              ]
+            ],
+            "a_weights": [
+              0.8359056861911475,
+              0.16409431380885253,
+              0.0
+            ],
+            "b_weights": [
+              0.7982347911197365,
+              0.0,
+              0.2017652088802635
+            ],
+            "a_vertex_ids": [
+              124,
+              3085,
+              1862
+            ],
+            "b_vertex_ids": [
+              3352,
+              2077,
+              3175
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644548,
+                480.8417076550239
+              ]
+            ],
+            "crossing_segment_mm": 0.5567306823374668
+          },
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.3124296294072,
+                10.353692239488238,
+                480.9283434985784
+              ],
+              [
+                1423.3296205763024,
+                10.334604342066854,
+                480.91493585494226
+              ]
+            ],
+            "a_weights": [
+              0.8359056861911475,
+              0.16409431380885253,
+              0.0
+            ],
+            "b_weights": [
+              0.7982347911197365,
+              0.20176520888026345,
+              0.0
+            ],
+            "a_vertex_ids": [
+              124,
+              3085,
+              1862
+            ],
+            "b_vertex_ids": [
+              3352,
+              3175,
+              3360
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "crossing_segment_mm": 0.31616329826529616
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.6348925788990596,
+            "points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4840,
+              5561
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    3175,
+                    3352,
+                    3360
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1024,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3175,
+                    3360
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          },
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.5567306823375238,
+            "points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4841,
+              5560
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1862
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3175,
+                    3352
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1862,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3175,
+                    3352
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          },
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.3161632982652855,
+            "points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4841,
+              5561
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    3175,
+                    3352,
+                    3360
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1862,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3175,
+                    3352
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2420, 2783)": [
+      {
+        "component_id": "2420/2783:4840-5566",
+        "native_face_pair": [
+          2420,
+          2783
+        ],
+        "fan_pair_membership": [
+          [
+            4840,
+            5566
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1024
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2078,
+                  3175,
+                  3360
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1024,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3175,
+                  3360
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.038529153299419576,
+        "sum_fan_intersection_lengths_mm": 0.038529153299419576,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1421.1050400069707,
+                8.610218692205347,
+                480.9183651551904
+              ],
+              [
+                1421.1071357648914,
+                8.607694449751225,
+                480.91637423706936
+              ]
+            ],
+            "a_weights": [
+              0.057499165569540156,
+              0.9425008344304598,
+              0.0
+            ],
+            "b_weights": [
+              0.6390155658207661,
+              0.36098443417923387,
+              0.0
+            ],
+            "a_vertex_ids": [
+              124,
+              1024,
+              3085
+            ],
+            "b_vertex_ids": [
+              3360,
+              3175,
+              2078
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "crossing_segment_mm": 0.03852915329937734
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.038529153299419576,
+            "points_world_mm": [
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4840,
+              5566
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1024
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2078,
+                    3175,
+                    3360
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1024,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3175,
+                    3360
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2783, 3353)": [
+      {
+        "component_id": "2783/3353:5566-6707",
+        "native_face_pair": [
+          2783,
+          3353
+        ],
+        "fan_pair_membership": [
+          [
+            5566,
+            6707
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3360
+                ]
+              },
+              "b": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3360
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2078,
+                  3175,
+                  3360
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1024
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 2.0158773471582756,
+        "sum_fan_intersection_lengths_mm": 2.0158773471582756,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ]
+            ],
+            "a_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "b_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3360,
+              3175,
+              2078
+            ],
+            "b_vertex_ids": [
+              124,
+              3360,
+              1024
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ]
+            ],
+            "crossing_segment_mm": 2.015877347158265
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 1,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.0158773471582756,
+            "points_world_mm": [
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              5566,
+              6707
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3360
+                  ]
+                },
+                "b": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3360
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2078,
+                    3175,
+                    3360
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1024
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [
+              3360
+            ],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2784, 3351)": [
+      {
+        "component_id": "2784/3351:5569-6703",
+        "native_face_pair": [
+          2784,
+          3351
+        ],
+        "fan_pair_membership": [
+          [
+            5569,
+            6703
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  3176,
+                  3351,
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  123,
+                  1023
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.5396911341458305,
+        "sum_fan_intersection_lengths_mm": 0.5396911341458305,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3351,
+              3176,
+              3361
+            ],
+            "b_vertex_ids": [
+              123,
+              3361,
+              1023
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695517,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695528,
+                481.6915988922119
+              ],
+              [
+                1425.7799549044394,
+                13.257770440856865,
+                482.21846673574646
+              ]
+            ],
+            "crossing_segment_mm": 0.5396911341458565
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 1,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.5396911341458305,
+            "points_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.7799549044394,
+                13.257770440856861,
+                482.21846673574646
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.7799549044394,
+                13.257770440856861,
+                482.21846673574646
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              5569,
+              6703
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    3176,
+                    3351,
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    123,
+                    1023
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [
+              3351,
+              3361
+            ],
+            "shared_edges": [
+              [
+                3351,
+                3361
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "(2787, 3351)": [
+      {
+        "component_id": "2787/3351:5574-6703",
+        "native_face_pair": [
+          2787,
+          3351
+        ],
+        "fan_pair_membership": [
+          [
+            5574,
+            6703
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3176,
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  123,
+                  1023
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.5415641267633943,
+        "sum_fan_intersection_lengths_mm": 0.5415641267633943,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ]
+            ],
+            "a_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "b_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3361,
+              3176,
+              2077
+            ],
+            "b_vertex_ids": [
+              123,
+              3361,
+              1023
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.30535858869553,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ]
+            ],
+            "crossing_segment_mm": 0.5415641267633844
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 1,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.5415641267633943,
+            "points_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              5574,
+              6703
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3176,
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    123,
+                    1023
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [
+              3361
+            ],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2787, 3350)": [
+      {
+        "component_id": "2787/3350:5575-6701",
+        "native_face_pair": [
+          2787,
+          3350
+        ],
+        "fan_pair_membership": [
+          [
+            5575,
+            6701
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3352
+                ]
+              },
+              "b": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3352
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3352,
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1023
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 2.498971505029362,
+        "sum_fan_intersection_lengths_mm": 2.498971505029362,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3361,
+              2077,
+              3352
+            ],
+            "b_vertex_ids": [
+              1023,
+              3352,
+              124
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [
+              [
+                1423.8059520721436,
+                11.282134801149367,
+                480.176717042923
+              ],
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ]
+            ],
+            "crossing_segment_mm": 2.4989715050293717
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 1,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.498971505029362,
+            "points_world_mm": [
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              5575,
+              6701
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3352
+                  ]
+                },
+                "b": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3352
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3352,
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1023
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [
+              3352,
+              3361
+            ],
+            "shared_edges": [
+              [
+                3361,
+                3352
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "application_components": {},
+  "contact_no_regression": {
+    "PASS": true,
+    "new_true_contact_components": [],
+    "worsening_components": [],
+    "feature_expansions": [],
+    "removed_components": [
+      "2189/2784:4378-5569",
+      "2189/2787:4378-5574",
+      "2190/2787:4380-5575,4381-5575",
+      "2190/2780:4381-5560",
+      "2420/2780:4840-5561,4841-5560,4841-5561",
+      "2420/2783:4840-5566",
+      "2783/3353:5566-6707",
+      "2784/3351:5569-6703",
+      "2787/3351:5574-6703",
+      "2787/3350:5575-6701"
+    ],
+    "before_after": [],
+    "COMPUTATIONAL_GEOMETRY_TOLERANCE": {
+      "contact_extent_mm": 1e-07,
+      "contact_area_mm2": 1e-07,
+      "anatomy_clearance": false
+    },
+    "existing_true_contacts_reclassified_legal": false
+  },
+  "new_true3D_contact_count": 0,
+  "baseline_contact_worsening_count": 0,
+  "feature_expansion_count": 0,
+  "scope": "Every16-write incident native fan vs entire current source mesh; exact rational illegal features minus legal shared-simplex; existing contact feature/extent no-regression. Outside incidence exact unchanged.",
+  "source_AST_provenance": [
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/geometry.py",
+        "sha256": "3b63bf6080b0afd2e7cbb490e3a906b0ac5a6c2f4baadcdc940a0c1f5ef959ac"
+      },
+      "function_AST_sha256": {
+        "normal": "b447ec17c518a5261db4f10184b43a1b6a5962b5d61fe714ae47cc3fc14593f7",
+        "normals": "60488423558881253656135703744de9aa4b42f038fda6c3f539046e6d723039",
+        "areas": "4b08ede8c4a5da3cd46b1e26525fff36d11ac9e521c0ed3591adb52528cde6d7",
+        "angles": "686e6137d979adf0a952d95d71ca11d195efb39497a52f5f36dcb54b1bc0705d",
+        "face_domain": "c6065928b7b60df5862db82ea1e0f1a60c0133a0677c6b612b6f890453ef8196",
+        "boundary_domain": "eb389d98da0979ff67d996096b45f52a3b0901d2b3aee7b2c39d1f453ea71e98",
+        "boundary_audit": "69b84b2a95ba74cc2abc4203b25ca76672e9b6b94294f92eb7ff57e35948726c"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r1/independent_contact_audit.py",
+        "sha256": "4a057a1b9284269c189f1c665a2d6a282bedf8ecd681784782880f3e1249d65a"
+      },
+      "function_AST_sha256": {
+        "edge_tri": "1f5864bdc6c38cff74a4fbbbd96d35420823d27b069faa10a4b6c702484bdec9"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/contact_geometry.py",
+        "sha256": "d25153d9db7691e9f055038d43f125dde506dc86d758cab074b99bbcdac4edc5"
+      },
+      "function_AST_sha256": {
+        "point_triangle": "cdcd7e68e98bf04ec15796040cae02bc186ebc42f2374afe0e28307611e2ae23",
+        "segment_segment": "223453e996a3d5dd122aee63b612fb5a3a854888f93253adb2faaa197a224a76",
+        "tri_pair_metrics": "f85b33d12146fe02527bb0558c102f979b66dfbe8e2073db42381d9da9e329f1"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/collision_engine.py",
+        "sha256": "2181b0e86327da86ab55b85ab44388328893452b5424daa31b902a2b1a137a06"
+      },
+      "function_AST_sha256": {
+        "common": "443530abe570da64bdae9838cafe9a2a67dec8f51542fe51f5671ab2ea42fd94",
+        "broad": "b0a416c6f684f80fba17d0b67a8980aeb7d4ee285f31b98a80becb657f6cb17e"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/robust_geometry.py",
+        "sha256": "b70d9a700bc58a91fcd1ec1d9397bba0bd36f64a51cf143df6cef1df400336ce"
+      },
+      "function_AST_sha256": {
+        "fq": "73f9626701055939b217aa68ab46b746019f295b3965d7af68291b75aa66463e",
+        "sub": "5d084ba1b3c27e4060c6df5d868ec128fb01ed2689fea5a5ae75ef1182474cae",
+        "add": "52909d0e49982d9b1352508dfdfee4b3aeb7893562bea932bd9ca844df7c3cae",
+        "mul": "9d46e48d5ea4f39d271d1aba29a31b318bf81ffcd46d3834e2cb97125ebd5c30",
+        "dot": "5d5d5abe635c10e97fdeffaeab37120101e537520ffac7d6f6ef7111bf1c56d9",
+        "cross": "5addf0dd000635dcb6a13e68f0e06c6201546bdcd3c39fe0b691b6fa2d8148c4",
+        "segment_hit": "637717a707a0291baa1fa265d29c564da583877379993be610f778297a9b077d",
+        "on_seg": "ec2d50606a3740e45bfb2f9ad814c0bd0d488cb0de99d7e606fdeb9a0b9f23d9",
+        "coplanar_polygon": "83935b807d55f10df6f2c8500da5bfcc2db83663a6e91bd34e1e185cea7a77c5",
+        "intersection": "1ac2d15aa5a178c9ae37c67c16521f8db5f5b11c20593ed935d34a28070d71e8",
+        "legal_features": "c7f1413270db3fa6379fc9bac076498b962702be91d1fc261f8461cd705fe9a9",
+        "triangle_area_vectors": "8a8826cf5026b4f4e917e2aae198693fb64f6e775b12690f7f9beae4104b9dba",
+        "swept_min_area": "8b0fadbfc2d5383e99bf6797838e20e797d75f3bb9b524c5b6fe195e14055c70"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/contact_components.py",
+        "sha256": "b1f692661cb14cb8b4f4088ef9745e5a91c8f53389331428b6e35231fca27ee0"
+      },
+      "function_AST_sha256": {
+        "feature": "1d95e1e66a89013fbb276e467599f65bb135d64816f34d652e79d2ec1d1d7f5c",
+        "barycentric": "9af507d1fdbbc20c1a1a8a7b7e92a489d6bac99bc632cacd892548f82a2d5c23",
+        "registry": "71f78fd6871d370cd5319e0e77164def0947e32a6978f0a01e90f7cca0312738",
+        "compare": "ccb8e4855ba32536c827e93c770568b683c841f0a32005b4315c131288df5cfb"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/local_donor_shape_transfer_amendment_design_r1/geometric_gate.py",
+        "sha256": "58b3ecd50de0bb722b077ad46bad9fc395c2cca2e04dbdc89105e35016f45cb4"
+      },
+      "function_AST_sha256": {
+        "assess": "f0835f0d024d28b3e210bedd337b5b4f44bfdf69254a45dcd402d3fa592e0b1e"
+      }
+    }
+  ],
+  "fresh_actual_reopened_geometry": true
+}

@@ -1,0 +1,149 @@
+{
+  "slots": [
+    {
+      "slot": "THUMB_IP_R.head",
+      "classification": "REVALIDATED_UNCHANGED",
+      "current": [
+        1.450860857963562,
+        0.006127120926976204,
+        0.4640011489391327
+      ],
+      "candidate": [
+        1.450860857963562,
+        0.006127120926976204,
+        0.4640011489391327
+      ],
+      "position_delta_mm": 0.0,
+      "endpoint_displacement_world_mm": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "axis_angular_delta_deg": 13.933852284203642,
+      "roll_delta_deg": null,
+      "frame_orientation_delta_deg": 14.070841119518358,
+      "roll_parallel_transport_twist_delta_deg": null,
+      "confidence": "MEDIUM_HIGH_GEOMETRIC",
+      "evidence_basis": "Independent RSSF axial/IP section and true loops; current point is central within method resolution, 16/16 radial containment and 6.220 mm clearance. Exact centroid equality is NOT claimed."
+    },
+    {
+      "slot": "THUMB_IP_R.tail",
+      "classification": "CHANGE_REQUIRED",
+      "current": [
+        1.452817440032959,
+        0.019802358001470566,
+        0.49302834272384644
+      ],
+      "candidate": [
+        1.4514825344085693,
+        0.010474493727087975,
+        0.48555445671081543
+      ],
+      "position_delta_mm": 12.027052651872305,
+      "endpoint_displacement_world_mm": [
+        -1.3349056243896484,
+        -9.327864274382591,
+        -7.473886013031006
+      ],
+      "axis_angular_delta_deg": 13.933852284203642,
+      "roll_delta_deg": null,
+      "frame_orientation_delta_deg": 14.070841119518358,
+      "roll_parallel_transport_twist_delta_deg": null,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Mapped native terminal tip v284 in approved RSSF, compatible with explicit fingertip surface-landmark contract; cap37 corroborates membership only."
+    },
+    {
+      "slot": "THUMB_IP_R.roll",
+      "classification": "CHANGE_REQUIRED",
+      "current": 2.469186782836914,
+      "candidate": 2.4771578311920166,
+      "position_delta_mm": null,
+      "endpoint_displacement_world_mm": null,
+      "axis_angular_delta_deg": 13.933852284203642,
+      "roll_delta_deg": 0.4567074290420726,
+      "frame_orientation_delta_deg": 14.070841119518358,
+      "roll_parallel_transport_twist_delta_deg": 1.9640411341296764,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Projected approved thumb nail normal onto independently corrected distal axis; right-handed orthonormal XYZ. Recomputed roll, no flip."
+    },
+    {
+      "slot": "THUMB_TIP_R.head",
+      "classification": "CHANGE_REQUIRED",
+      "current": [
+        1.452817440032959,
+        0.019802358001470566,
+        0.49302834272384644
+      ],
+      "candidate": [
+        1.4514825344085693,
+        0.010474493727087975,
+        0.48555445671081543
+      ],
+      "position_delta_mm": 12.027052651872305,
+      "endpoint_displacement_world_mm": [
+        -1.3349056243896484,
+        -9.327864274382591,
+        -7.473886013031006
+      ],
+      "axis_angular_delta_deg": 13.933795081369343,
+      "roll_delta_deg": null,
+      "frame_orientation_delta_deg": 14.070841119518358,
+      "roll_parallel_transport_twist_delta_deg": null,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Mapped native terminal tip v284 in approved RSSF, compatible with explicit fingertip surface-landmark contract; cap37 corroborates membership only."
+    },
+    {
+      "slot": "THUMB_TIP_R.tail",
+      "classification": "CHANGE_REQUIRED",
+      "current": [
+        1.453404426574707,
+        0.02390492893755436,
+        0.5017365217208862
+      ],
+      "candidate": [
+        1.4516690373420715,
+        0.011778705567121506,
+        0.49202044904232023
+      ],
+      "position_delta_mm": 15.635183545981327,
+      "endpoint_displacement_world_mm": [
+        -1.735389232635498,
+        -12.126223370432854,
+        -9.716072678566
+      ],
+      "axis_angular_delta_deg": 13.933795081369343,
+      "roll_delta_deg": null,
+      "frame_orientation_delta_deg": 14.070841119518358,
+      "roll_parallel_transport_twist_delta_deg": null,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Existing helper tail convention: mapped terminal + 0.30*(mapped terminal - independently revalidated IP head)."
+    },
+    {
+      "slot": "THUMB_TIP_R.roll",
+      "classification": "CHANGE_REQUIRED",
+      "current": 2.4691882133483887,
+      "candidate": 2.4771578311920166,
+      "position_delta_mm": null,
+      "endpoint_displacement_world_mm": null,
+      "axis_angular_delta_deg": 13.933795081369343,
+      "roll_delta_deg": 0.4566254667720325,
+      "frame_orientation_delta_deg": 14.070841119518358,
+      "roll_parallel_transport_twist_delta_deg": 1.9640009665377516,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Projected approved thumb nail normal onto independently corrected distal axis; right-handed orthonormal XYZ. Recomputed roll, no flip."
+    }
+  ],
+  "parent_child_continuity": {
+    "current_IP_head_to_MCP_tail_mm": 0.0,
+    "candidate_IP_head_to_MCP_tail_mm": 0.0,
+    "current_IP_tail_to_TIP_head_mm": 0.0,
+    "candidate_IP_tail_to_TIP_head_mm": 0.0,
+    "candidate_IP_TIP_axis_angle_deg": 0.0,
+    "candidate_IP_parent_axis_angle_deg": 8.446823364864237
+  },
+  "static_gates": "STATIC_GEOMETRY_GATES_AND_FRAME_METRICS.json",
+  "current_chain_anatomically_plausible": "NO",
+  "scope": "local distal chain; no blanket skeleton rejection",
+  "candidate_chain_static_plausible": "YES",
+  "actual_bone_delta": 0
+}

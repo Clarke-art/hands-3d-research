@@ -1,0 +1,251 @@
+{
+ "stage": "R3_BOUNDARY_CONNECTEDNESS_AUDIT",
+ "generated_at": "2026-10-01T16:15:36.949268+08:00",
+ "boundary_face_component_counts": {
+  "R2": 1,
+  "R3": 1
+ },
+ "sheet_split": {
+  "R3_sheet_vertex_count": 217,
+  "R3_body_vertex_count": 3199,
+  "R3_sheet_contains_thumb_cap": 0,
+  "R3_sheet_contains_thumb_nail": 0,
+  "R3_sheet_contains_index_nail": 43,
+  "R3_sheet_contains_first_web": 0,
+  "R3_sheet_contains_index_tip_vertex": true,
+  "R3_sheet_contains_thumb_tip_vertex": false,
+  "R2_sheet_vertex_count": 183,
+  "R2_sheet_contains_index_tip_vertex": true,
+  "R2_sheet_contains_thumb_cap": 0,
+  "tip_landmark_vertices": {
+   "THUMB": 1076,
+   "INDEX": 1228,
+   "MIDDLE": 1737,
+   "RING": 1741,
+   "LITTLE": 225
+  },
+  "conclusion": "cutting the corrected R3 THUMB|INDEX boundary splits the closed mesh into exactly two sheets; the smaller sheet carries the LIVE index tip vertex and the whole index nail region and NONE of the approved thumb distal cap, thumb nail or first web, so that sheet is the INDEX surface and the disputed seam is its base collar"
+ },
+ "R2": {
+  "boundary_edge_count": 22,
+  "component_count": 10,
+  "boundary_face_component_count": 1,
+  "component_sizes": [
+   1,
+   3,
+   1,
+   5,
+   1,
+   5,
+   3,
+   1,
+   1,
+   1
+  ],
+  "open_endpoints": 21,
+  "branch_vertices": 1,
+  "degree_histogram": {
+   "1": 21,
+   "2": 10,
+   "3": 1
+  },
+  "short_edges_lt6mm": 22,
+  "distal_fragments": 0
+ },
+ "R3": {
+  "boundary_edge_count": 16,
+  "component_count": 16,
+  "boundary_face_component_count": 1,
+  "component_sizes": [
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1,
+   1
+  ],
+  "open_endpoints": 32,
+  "branch_vertices": 0,
+  "degree_histogram": {
+   "1": 32
+  },
+  "short_edges_lt6mm": 16,
+  "distal_fragments": 0
+ },
+ "note": "a short boundary edge is a DIAGNOSTIC of interleaving, not an error: a correct first-web boundary may legitimately contain short mesh edges (round section 24)",
+ "R3_boundary_edges": [
+  {
+   "edge": 2644,
+   "v0": 693,
+   "v1": 2153,
+   "bind_mm": 4.4424,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 2649,
+   "v0": 2155,
+   "v1": 702,
+   "bind_mm": 4.5292,
+   "labels": [
+    "THUMB",
+    "INDEX"
+   ]
+  },
+  {
+   "edge": 2652,
+   "v0": 689,
+   "v1": 2157,
+   "bind_mm": 3.5551,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 2657,
+   "v0": 2159,
+   "v1": 696,
+   "bind_mm": 3.9495,
+   "labels": [
+    "THUMB",
+    "INDEX"
+   ]
+  },
+  {
+   "edge": 2660,
+   "v0": 699,
+   "v1": 2161,
+   "bind_mm": 3.6172,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 2665,
+   "v0": 2163,
+   "v1": 698,
+   "bind_mm": 3.4162,
+   "labels": [
+    "THUMB",
+    "INDEX"
+   ]
+  },
+  {
+   "edge": 2671,
+   "v0": 2166,
+   "v1": 692,
+   "bind_mm": 4.0181,
+   "labels": [
+    "THUMB",
+    "INDEX"
+   ]
+  },
+  {
+   "edge": 2677,
+   "v0": 2169,
+   "v1": 704,
+   "bind_mm": 4.2366,
+   "labels": [
+    "THUMB",
+    "INDEX"
+   ]
+  },
+  {
+   "edge": 6164,
+   "v0": 2156,
+   "v1": 3196,
+   "bind_mm": 4.6457,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 6168,
+   "v0": 2160,
+   "v1": 3197,
+   "bind_mm": 3.7026,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 6172,
+   "v0": 2164,
+   "v1": 3198,
+   "bind_mm": 3.4442,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 6176,
+   "v0": 2167,
+   "v1": 3199,
+   "bind_mm": 4.2712,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 6180,
+   "v0": 2170,
+   "v1": 3200,
+   "bind_mm": 4.0682,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 6184,
+   "v0": 2172,
+   "v1": 3201,
+   "bind_mm": 3.4402,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 6188,
+   "v0": 2174,
+   "v1": 3202,
+   "bind_mm": 3.7439,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  },
+  {
+   "edge": 6192,
+   "v0": 2176,
+   "v1": 3203,
+   "bind_mm": 4.338,
+   "labels": [
+    "INDEX",
+    "THUMB"
+   ]
+  }
+ ],
+ "component_verdict": "SINGLE_COHERENT_SEAM (boundary faces form one connected strip)",
+ "distal_thumb_surface_definition": "a vertex whose NEAREST live chain is the thumb and which lies on the thumb distal phalanx / tip (s >= s_IP - tau); the loose 1.5*R_TT lateral band around the thumb AXIS is also reported as a diagnostic because the RSSF pose presses the index base collar into it",
+ "component_metric_note": "a ladder seam in a quad strip has boundary edges that share no vertex, so the vertex-based component count over-reports fragmentation; the boundary FACE component count is the geometrically meaningful coherence measure"
+}

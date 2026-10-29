@@ -1,0 +1,661 @@
+{
+  "graph_id": "CAP_DEPENDENCY_GRAPH_R1",
+  "authority_hash": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+  "graph_kind": "HISTORICAL_DEPENDENCY_PROVENANCE_DAG",
+  "nodes": [
+    {
+      "id": "UPSTREAM",
+      "label": "Stage4 geometry / RSSF / nail / CMC cage",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "remediation_tier": "TIER_0",
+      "contamination_dimension": "NONE",
+      "status": "FROZEN INDEPENDENT"
+    },
+    {
+      "id": "OLD_CAP9",
+      "label": "OLD_CAP9 / old R2A cap authority",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "remediation_tier": "TIER_0",
+      "contamination_dimension": "AUTHORITY_CONTAMINATION",
+      "status": "SUPERSEDED_CONTAMINATED"
+    },
+    {
+      "id": "NEW_CAP37",
+      "label": "NEW_CAP37 explicit frozen authority",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "remediation_tier": "TIER_0",
+      "contamination_dimension": "NONE",
+      "status": "HUMAN_APPROVED_FROZEN"
+    },
+    {
+      "id": "R2A_CAP_RIG",
+      "label": "R2A TIP/IP-tail/frame slots",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_2",
+      "contamination_dimension": "IMPLEMENTATION_CONTAMINATION",
+      "status": "TARGETED KINEMATIC REVALIDATION REQUIRED"
+    },
+    {
+      "id": "R1_SKIN",
+      "label": "Stage5B R1 skin / bind matrices",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_3",
+      "contamination_dimension": "IMPLEMENTATION_CONTAMINATION",
+      "status": "CAP-DERIVED RIG INPUT"
+    },
+    {
+      "id": "R1A_MASKS",
+      "label": "R1A ownership / regions / first-web wrapper",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_2",
+      "contamination_dimension": "AUTHORITY_CONTAMINATION",
+      "status": "RECOMPUTE/REVALIDATE"
+    },
+    {
+      "id": "R1A_SKIN",
+      "label": "R1A skin: first explicit cap membership write",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_3",
+      "contamination_dimension": "IMPLEMENTATION_CONTAMINATION",
+      "status": "HISTORICAL ONLY FOR CAP-DEPENDENT REUSE"
+    },
+    {
+      "id": "R1B_SKIN",
+      "label": "R1B skin: protected cap carry-over",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_3",
+      "contamination_dimension": "IMPLEMENTATION_CONTAMINATION",
+      "status": "FROZEN HISTORICAL MASTER"
+    },
+    {
+      "id": "R2_OWNERSHIP",
+      "label": "R2 cap-centroid seed / domain",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "remediation_tier": "TIER_2",
+      "contamination_dimension": "AUTHORITY_CONTAMINATION",
+      "status": "RECOMPUTE DERIVED INPUTS"
+    },
+    {
+      "id": "THUMB_STRONG_R3",
+      "label": "THUMB_STRONG_R3: cap + live tube",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "remediation_tier": "TIER_2",
+      "contamination_dimension": "AUTHORITY_CONTAMINATION",
+      "status": "OLD9 REDUNDANTLY PINNED"
+    },
+    {
+      "id": "R3_LABELS",
+      "label": "R3 fields / mincut / closure / labels",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_2",
+      "contamination_dimension": "AUTHORITY_CONTAMINATION",
+      "status": "R3_FULL_RECOMPUTE REQUIRED"
+    },
+    {
+      "id": "R3_BOUNDARY",
+      "label": "R3 boundary / sheet / ambiguous / CLASS_A gates",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_2",
+      "contamination_dimension": "VALIDATOR_CONTAMINATION",
+      "status": "COUNTERFACTUAL CHANGE UNRESOLVED"
+    },
+    {
+      "id": "R1C_SKIN",
+      "label": "R1C candidate skin",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_3",
+      "contamination_dimension": "IMPLEMENTATION_CONTAMINATION",
+      "status": "REBUILD REQUIRED FOR FUTURE REUSE; OLD VERDICT RETAINED"
+    },
+    {
+      "id": "R1D_SKIN",
+      "label": "R1D candidate skin",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_3",
+      "contamination_dimension": "IMPLEMENTATION_CONTAMINATION",
+      "status": "REBUILD REQUIRED FOR FUTURE REUSE; OLD VERDICT RETAINED"
+    },
+    {
+      "id": "R1E_SKIN",
+      "label": "R1E candidate skin",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_3",
+      "contamination_dimension": "IMPLEMENTATION_CONTAMINATION",
+      "status": "REBUILD REQUIRED FOR FUTURE REUSE; OLD VERDICT RETAINED"
+    },
+    {
+      "id": "STAGE6A",
+      "label": "Stage6A harness / results / qualification",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "remediation_tier": "TIER_4",
+      "contamination_dimension": "VALIDATOR_CONTAMINATION",
+      "status": "NUMBERS RETAINED; REQUALIFY FUTURE DATA"
+    },
+    {
+      "id": "STAGE6B",
+      "label": "Stage6B harness / results / qualification",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "remediation_tier": "TIER_4",
+      "contamination_dimension": "VALIDATOR_CONTAMINATION",
+      "status": "NUMBERS RETAINED; REQUALIFY FUTURE DATA"
+    },
+    {
+      "id": "CAP_VALIDATORS",
+      "label": "Cap / dominance / drift / nail-cap / SI classifiers",
+      "dependency_class": "VALIDATION_ONLY_DEPENDENCY",
+      "remediation_tier": "TIER_1",
+      "contamination_dimension": "VALIDATOR_CONTAMINATION",
+      "status": "RECONCILE FIXTURES / SEMANTICS"
+    },
+    {
+      "id": "STRICT_BOUNDS",
+      "label": "Strict-bound/cap-to-collar audits",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "remediation_tier": "TIER_2",
+      "contamination_dimension": "AUTHORITY_CONTAMINATION",
+      "status": "ANATOMICAL INTERPRETATION INVALIDATED"
+    },
+    {
+      "id": "ENDPOINT_REVIEWS",
+      "label": "Endpoint authority reviews / recommendations",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "remediation_tier": "TIER_1",
+      "contamination_dimension": "REPORTING_ONLY_CONTAMINATION",
+      "status": "CAP-ENDPOINT CONCLUSIONS SUPERSEDED"
+    },
+    {
+      "id": "EDGE5879",
+      "label": "edge5879 local weight partition defect",
+      "dependency_class": "DERIVED_DEPENDENCY",
+      "remediation_tier": "TIER_1",
+      "contamination_dimension": "IMPLEMENTATION_CONTAMINATION",
+      "status": "PARTLY_CAP_DERIVED; NUMERIC EVIDENCE RETAINED"
+    },
+    {
+      "id": "MANUAL_REVIEWS",
+      "label": "Manual anatomical / cap correction Human chain",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "remediation_tier": "TIER_0",
+      "contamination_dimension": "REPORTING_ONLY_CONTAMINATION",
+      "status": "CORRECTIVE PROVENANCE; APPROVALS RETAINED"
+    },
+    {
+      "id": "STATUS_REPORTS",
+      "label": "Freeze/status/report qualification propagation",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "remediation_tier": "TIER_1",
+      "contamination_dimension": "REPORTING_ONLY_CONTAMINATION",
+      "status": "HISTORICAL FACTS; CURRENT REUSE QUALIFICATION REQUIRES REVIEW"
+    }
+  ],
+  "edges": [
+    {
+      "from": "UPSTREAM",
+      "to": "OLD_CAP9",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "R2A selector uses posed geometry/nearest-chain domain; upstream geometry itself not contaminated",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "OLD_CAP9",
+      "to": "R2A_CAP_RIG",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "s5a_r2a_build.py L163–190,L245–260",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R2A_CAP_RIG",
+      "to": "R1_SKIN",
+      "edge_type": "WEIGHT_AUTHORITY",
+      "evidence": "s5b_r1_bind.py live BH/BT mu distances",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "OLD_CAP9",
+      "to": "R1A_MASKS",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "r1a_common.py L428–483",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1_SKIN",
+      "to": "R1A_SKIN",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "s5b_r1a_build.py reads R1 weights and frozen groups",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1A_MASKS",
+      "to": "R1A_SKIN",
+      "edge_type": "WEIGHT_AUTHORITY",
+      "evidence": "R1A authorised masks/free-budget vector writes",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1A_MASKS",
+      "to": "R1B_SKIN",
+      "edge_type": "WEIGHT_AUTHORITY",
+      "evidence": "r1b_common.py L127–149 cap/ownership/protected exclusion",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1A_SKIN",
+      "to": "R1B_SKIN",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "R1B reads R1A; old cap excluded from modification",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "OLD_CAP9",
+      "to": "R2_OWNERSHIP",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "s6br1b_common.py L177–181 cap-centroid seed",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R2A_CAP_RIG",
+      "to": "THUMB_STRONG_R3",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "R3 live bone polyline tube, all old9 also tube anchors",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "OLD_CAP9",
+      "to": "THUMB_STRONG_R3",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "r3_ownership.py L176–220 CAP union",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "THUMB_STRONG_R3",
+      "to": "R3_LABELS",
+      "edge_type": "DERIVED_LABEL",
+      "evidence": "R3 distance fields + INF hard pins + pairwise mincut + closure",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R2_OWNERSHIP",
+      "to": "R3_LABELS",
+      "edge_type": "DERIVED_LABEL",
+      "evidence": "R3 initial R2 domain/list and candidate graph",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R3_LABELS",
+      "to": "R3_BOUNDARY",
+      "edge_type": "DERIVED_LABEL",
+      "evidence": "Derived cut edges and sheet / ambiguous / CLASS_A validation",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R2_OWNERSHIP",
+      "to": "R1C_SKIN",
+      "edge_type": "WEIGHT_AUTHORITY",
+      "evidence": "R1C ownership repair/interpolation or distal continuity",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R2_OWNERSHIP",
+      "to": "R1D_SKIN",
+      "edge_type": "WEIGHT_AUTHORITY",
+      "evidence": "R1D ownership repair/interpolation or distal continuity",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1B_SKIN",
+      "to": "R1C_SKIN",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Each candidate rebased from frozen R1B, not serially from failed prior candidate",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1B_SKIN",
+      "to": "R1D_SKIN",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Each candidate rebased from frozen R1B, not serially from failed prior candidate",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1B_SKIN",
+      "to": "R1E_SKIN",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Each candidate rebased from frozen R1B, not serially from failed prior candidate",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R3_LABELS",
+      "to": "R1E_SKIN",
+      "edge_type": "WEIGHT_AUTHORITY",
+      "evidence": "R1E allowed family/region and live-axis profiles",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R3_BOUNDARY",
+      "to": "R1E_SKIN",
+      "edge_type": "WEIGHT_AUTHORITY",
+      "evidence": "R1E palm_share collar valley",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "OLD_CAP9",
+      "to": "R1E_SKIN",
+      "edge_type": "WEIGHT_AUTHORITY",
+      "evidence": "CAP clamp excludes old cap from palm share",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1A_SKIN",
+      "to": "STAGE6A",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Stage6A R1 source R1A",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1B_SKIN",
+      "to": "STAGE6A",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Stage6A R1A source R1B",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1C_SKIN",
+      "to": "STAGE6A",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Stage6A R1B source R1C (operative code override)",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1B_SKIN",
+      "to": "STAGE6B",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Stage6B R1 source R1B",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1C_SKIN",
+      "to": "STAGE6B",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Stage6B R1B source R1C (operative code override)",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "OLD_CAP9",
+      "to": "CAP_VALIDATORS",
+      "edge_type": "VALIDATION_ONLY",
+      "evidence": "Cap fixture / nail-cap metrics / semantic protection gates",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R3_LABELS",
+      "to": "CAP_VALIDATORS",
+      "edge_type": "VALIDATION_ONLY",
+      "evidence": "Ownership bucket / R3 collar metrics / no-touch guards",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "OLD_CAP9",
+      "to": "STRICT_BOUNDS",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "old nine endpoint A vertices and claimed true-cap path",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R3_BOUNDARY",
+      "to": "STRICT_BOUNDS",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "exact R3 collar endpoint B",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1E_SKIN",
+      "to": "STRICT_BOUNDS",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Historical posed endpoints/motion at fixed vertex IDs",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "STRICT_BOUNDS",
+      "to": "ENDPOINT_REVIEWS",
+      "edge_type": "REPORTING_REFERENCE",
+      "evidence": "13.1646/5.9643/6.5160 and legality/mesh-limit decisions",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R1E_SKIN",
+      "to": "EDGE5879",
+      "edge_type": "DIRECT_INPUT",
+      "evidence": "Saved edge1551–3125 weights and actual ratio11.0412867",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "OLD_CAP9",
+      "to": "MANUAL_REVIEWS",
+      "edge_type": "REPORTING_REFERENCE",
+      "evidence": "Old cap is audit target, never a truth/selector source for native corrective identity",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "MANUAL_REVIEWS",
+      "to": "NEW_CAP37",
+      "edge_type": "HUMAN_APPROVAL",
+      "evidence": "Native region → E → five-vertex approval → explicit membership freeze",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "STAGE6A",
+      "to": "STATUS_REPORTS",
+      "edge_type": "REPORTING_REFERENCE",
+      "evidence": "Inherited measurement/gate/verdict; scope-specific review needed",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "STAGE6B",
+      "to": "STATUS_REPORTS",
+      "edge_type": "REPORTING_REFERENCE",
+      "evidence": "Inherited measurement/gate/verdict; scope-specific review needed",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "CAP_VALIDATORS",
+      "to": "STATUS_REPORTS",
+      "edge_type": "REPORTING_REFERENCE",
+      "evidence": "Inherited measurement/gate/verdict; scope-specific review needed",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "STRICT_BOUNDS",
+      "to": "STATUS_REPORTS",
+      "edge_type": "REPORTING_REFERENCE",
+      "evidence": "Inherited measurement/gate/verdict; scope-specific review needed",
+      "is_counterfactual_result": false
+    },
+    {
+      "from": "R3_LABELS",
+      "to": "STATUS_REPORTS",
+      "edge_type": "REPORTING_REFERENCE",
+      "evidence": "Inherited measurement/gate/verdict; scope-specific review needed",
+      "is_counterfactual_result": false
+    }
+  ],
+  "acyclic": true,
+  "topological_order": [
+    "UPSTREAM",
+    "OLD_CAP9",
+    "R2A_CAP_RIG",
+    "R1A_MASKS",
+    "R2_OWNERSHIP",
+    "MANUAL_REVIEWS",
+    "R1_SKIN",
+    "THUMB_STRONG_R3",
+    "NEW_CAP37",
+    "R1A_SKIN",
+    "R3_LABELS",
+    "R1B_SKIN",
+    "R3_BOUNDARY",
+    "CAP_VALIDATORS",
+    "R1C_SKIN",
+    "R1D_SKIN",
+    "R1E_SKIN",
+    "STAGE6A",
+    "STAGE6B",
+    "STRICT_BOUNDS",
+    "EDGE5879",
+    "ENDPOINT_REVIEWS",
+    "STATUS_REPORTS"
+  ],
+  "dependency_edges_are_source_provenance_not_quantified_counterfactual_effects": true,
+  "artifact_inventory": "CAP_DIRECT_REFERENCE_AUDIT.json",
+  "artifact_counting_unit": "Unique existing file; component nodes counted separately, never mixed into artifact counts",
+  "source_evidence_index": [
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\R3_OWNERSHIP_LABELS.json",
+      "locator": "$.THUMB_STRONG,CAP,R3,boundary_edges_R3",
+      "role": "Historical labels and sets, read only",
+      "sha256": "dc4e2622032138130d9fb951216a7594a937c3569ee4ef9604dc4b8bfe46f754"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1e_endpoint_authority_review\\_tmp\\review_raw.json",
+      "locator": "$.R1B.v,edges,R2A_chains",
+      "role": "Previously extracted frozen live geometry used only for static anchor-predicate audit",
+      "sha256": "b02fe45823d7ea73c2bb76dda2fc28d0c2bacb8dfdc1ce0a392084354db4cb98"
+    },
+    {
+      "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+      "locator": "L176–220; L268–269; L350–450",
+      "role": "Anchor union, fields, hard pins, mincut, ambiguous band, closure",
+      "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+      "locator": "L55–59; live bone head/tail extraction and seg_dist raw mu",
+      "role": "Copies R2A cap-derived rig; R1 raw weights use live bone geometry",
+      "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\scripts\\r1a_common.py",
+      "locator": "L417–483",
+      "role": "cap override → distal/authorized/first-web masks",
+      "sha256": "67857339f01898c37dfa9f2d8a60c527d3205b5d9a3419e6692b2d23df574a80"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\scripts\\s5b_r1a_build.py",
+      "locator": "L87–94,L121–180",
+      "role": "R1A ownership/mask authorizes actual free vector writes",
+      "sha256": "ba5174ee6e81366313cfd7e59b025a6279f554341f1bdf08be7432010bccb014"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1b\\scripts\\r1b_common.py",
+      "locator": "L127–149",
+      "role": "Reuses cap-derived R1A masks",
+      "sha256": "11b07d06470447a68c5e429698b1bac7f6ca933dfb400a7005c3576117374408"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1b\\scripts\\s5b_r1b_build.py",
+      "locator": "L112–122,L205–217",
+      "role": "Old cap protected, wrong driver retained",
+      "sha256": "df8690c676c71a8346bd77d9decf5961e8ae7a3eb9e316d8b13bfe83490ad7b4"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\_tmp\\R1A_REGIONS.json",
+      "locator": "$.AUTH,CHANGED",
+      "role": "Stored masks; no re-selection",
+      "sha256": "90e5f4835d4b44f158b025a85e17e11553322e32f3d5a2a2ace7b7679eec723f"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1b\\_tmp\\R1B_REGIONS.json",
+      "locator": "$.AUTH,CHANGED",
+      "role": "Stored masks; no re-selection",
+      "sha256": "41393e9237ae05220f9071484159392a628c36eafb3bdf2d248b52c531a21e77"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1c\\STAGE5B_R1C_AUTHORISED_WEIGHT_REGION.json",
+      "locator": "$.authorised_vertices,changed_vertices",
+      "role": "Cap/R2/R3-derived repair regions",
+      "sha256": "ce179c10f8c84512a7a340dc5321533b627a651519064955b1f5d705744cae7d"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1d\\STAGE5B_R1D_AUTHORISED_DISTAL_WEIGHT_REGION.json",
+      "locator": "$.authorised_vertices,changed_vertices",
+      "role": "Cap/R2/R3-derived repair regions",
+      "sha256": "75e81ef0336abc9b1344909227f7222faff40a5a20ac02653ca31f1cb772e34a"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1e\\STAGE5B_R1E_AUTHORISED_WEIGHT_REGION.json",
+      "locator": "$.authorised_vertices,changed_vertices",
+      "role": "Cap/R2/R3-derived repair regions",
+      "sha256": "7527b445de566b8dec817f213cfb8feef1e06f2bff926cbb7e37d268b6fec4ae"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1b\\STAGE5B_R1B_PROTECTED_WEIGHT_DRIFT_AUDIT.json",
+      "locator": "$.frozen_four_finger_groups_drift=0",
+      "role": "Verbatim independent group inheritance; does not exempt native INDEX old-cap sites",
+      "sha256": "878314366d1f1766b9c1f07313ffb2eef0e274bb866f7b78d1680e736e735da6"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1e_endpoint_authority_review\\R1E_EDGE5879_AUTHORITY_CONTEXT_AUDIT.json",
+      "locator": "$.weights_R1B,weights_R1E,ratios",
+      "role": "Binding saved numerical evidence",
+      "sha256": "0ce6c0100cd8a779902a189855262f43a0ade9c2dfff74e4c1fa766fcef99bf3"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1e\\scripts\\s5b_r1e_build.py",
+      "locator": "L342–411,L425–465",
+      "role": "Cap/nail clamps, R3 collar share, live-axis lateral gate, relaxation",
+      "sha256": "5294a9fd013fdad984c2925c1235aef7b9fd4384862e339e1c6c8376d14fbef0"
+    },
+    {
+      "path": "production_spec/stage6_deformation/stage6a/scripts/s6a_common.py",
+      "locator": "L19–20",
+      "claim": "Executable assignments override stale header comments",
+      "sha256": "cceedf3db14c9327de2e44e6a22457db11a793354922c8353ec65081043d5cf9"
+    },
+    {
+      "path": "production_spec/stage6_deformation/stage6a_r1a/scripts/s6a_common.py",
+      "locator": "L20–21",
+      "claim": "Executable assignments override stale header comments",
+      "sha256": "6ecd132d2290167764733a513a9a72831de0342c0dd60d78d6c12b97285ce9a3"
+    },
+    {
+      "path": "production_spec/stage6_deformation/stage6a_r1b/scripts/s6a_r1b_build_harness.py",
+      "locator": "L34–36",
+      "claim": "Executable assignments override stale header comments",
+      "sha256": "df4e315f127f81d8194a10800396689630527cbb7c917141e88306732b70bb83"
+    },
+    {
+      "path": "production_spec/stage6_deformation/stage6b/scripts/s6b_common.py",
+      "locator": "L44–48",
+      "claim": "Executable assignments override stale header comments",
+      "sha256": "e71059ab3147c950536159cc661b2eb02a4427a1d6734283dc9b81bdf9e71dde"
+    },
+    {
+      "path": "production_spec/stage6_deformation/stage6b_r1b/scripts/s6b_r1b_build_harness.py",
+      "locator": "L29–30",
+      "claim": "Executable assignments override stale header comments",
+      "sha256": "e87677e05d3784880b2372588a58961ad2f41186031b664413c39507db37ae39"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5a_r2a/scripts/s5a_r2a_build.py",
+      "locator": "L163–190,L245–260",
+      "claim": "REP old cap → real bone endpoint/frame writes",
+      "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1/scripts/s5b_r1_bind.py",
+      "locator": "L206–210,L282,L344",
+      "claim": "Live actual bone positions influence weight generation",
+      "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1a/scripts/r1a_common.py",
+      "locator": "L428–483",
+      "claim": "Explicit cap ownership drives skin and first-web selector",
+      "sha256": "67857339f01898c37dfa9f2d8a60c527d3205b5d9a3419e6692b2d23df574a80"
+    }
+  ],
+  "canonical_membership_evidence": {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1e_human_cap_authority_freeze_r1\\THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+    "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256",
+    "combined_authority_hash": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+    "locator": "$.vertex_ids,face_ids,status; explicit frozen Human membership"
+  }
+}

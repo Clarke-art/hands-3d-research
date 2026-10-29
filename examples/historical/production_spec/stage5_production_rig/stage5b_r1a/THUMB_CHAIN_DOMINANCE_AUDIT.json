@@ -1,0 +1,924 @@
+{
+ "stage": "STAGE5B_R1A_THUMB_CHAIN_DOMINANCE_AUDIT",
+ "generated_at": "2026-09-30T06:58:56.163172+08:00",
+ "authority": "core region = region minus one transition band on each side",
+ "regions": {
+  "THUMB_DISTAL": {
+   "vertex_count": 161,
+   "core_vertex_count": 115,
+   "transition_band_vertex_count": 46,
+   "allowed_bones": [
+    "THUMB_IP_R",
+    "THUMB_MCP_R"
+   ],
+   "expected_dominant": "THUMB_IP_R",
+   "dominant_distribution_after": {
+    "THUMB_IP_R": 136,
+    "THUMB_MCP_R": 25
+   },
+   "dominant_distribution_after_core": {
+    "THUMB_IP_R": 115
+   },
+   "unexpected_dominant_count": 0,
+   "unexpected_dominant_samples": [],
+   "per_group_after": {
+    "WRIST_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "THUMB_CMC_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "THUMB_MCP_R": {
+     "n": 46,
+     "mean": 0.583335,
+     "median": 0.926803,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 26.833387
+    },
+    "THUMB_IP_R": {
+     "n": 139,
+     "mean": 0.965226,
+     "median": 1.0,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 134.166368
+    },
+    "INDEX_MCP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "INDEX_PIP_R": {
+     "n": 3,
+     "mean": 8.2e-05,
+     "median": 0.0,
+     "p90": 0.000245,
+     "max": 0.000245,
+     "sum": 0.000245
+    },
+    "INDEX_DIP_R": {
+     "n": 3,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    }
+   },
+   "per_group_before": {
+    "WRIST_R": {
+     "n": 161,
+     "mean": 0.15977,
+     "median": 0.138403,
+     "p90": 0.280579,
+     "max": 0.507426,
+     "sum": 25.722997
+    },
+    "THUMB_CMC_R": {
+     "n": 154,
+     "mean": 0.000356,
+     "median": 8.5e-05,
+     "p90": 0.001064,
+     "max": 0.003337,
+     "sum": 0.054781
+    },
+    "THUMB_MCP_R": {
+     "n": 158,
+     "mean": 0.102638,
+     "median": 0.087076,
+     "p90": 0.250711,
+     "max": 0.284276,
+     "sum": 16.216802
+    },
+    "THUMB_IP_R": {
+     "n": 141,
+     "mean": 0.731542,
+     "median": 0.697111,
+     "p90": 0.884519,
+     "max": 0.998151,
+     "sum": 103.147398
+    },
+    "INDEX_MCP_R": {
+     "n": 24,
+     "mean": 0.660741,
+     "median": 0.804762,
+     "p90": 0.913632,
+     "max": 0.999073,
+     "sum": 15.857778
+    },
+    "INDEX_PIP_R": {
+     "n": 3,
+     "mean": 8.2e-05,
+     "median": 0.0,
+     "p90": 0.000245,
+     "max": 0.000245,
+     "sum": 0.000245
+    },
+    "INDEX_DIP_R": {
+     "n": 3,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    }
+   },
+   "region_group_totals_after": {
+    "WRIST_R": 0.0,
+    "THUMB_CMC_R": 0.0,
+    "THUMB_MCP_R": 26.833387,
+    "THUMB_IP_R": 134.166368,
+    "INDEX_MCP_R": 0.0,
+    "INDEX_PIP_R": 0.000245,
+    "INDEX_DIP_R": 0.0
+   }
+  },
+  "THUMB_PROXIMAL": {
+   "vertex_count": 107,
+   "core_vertex_count": 79,
+   "transition_band_vertex_count": 28,
+   "allowed_bones": [
+    "THUMB_CMC_R",
+    "THUMB_IP_R",
+    "THUMB_MCP_R"
+   ],
+   "expected_dominant": "THUMB_MCP_R",
+   "dominant_distribution_after": {
+    "THUMB_MCP_R": 81,
+    "THUMB_CMC_R": 26
+   },
+   "dominant_distribution_after_core": {
+    "THUMB_MCP_R": 79
+   },
+   "unexpected_dominant_count": 0,
+   "unexpected_dominant_samples": [],
+   "per_group_after": {
+    "WRIST_R": {
+     "n": 15,
+     "mean": 0.054691,
+     "median": 0.053532,
+     "p90": 0.123205,
+     "max": 0.132494,
+     "sum": 0.820368
+    },
+    "THUMB_CMC_R": {
+     "n": 28,
+     "mean": 0.858425,
+     "median": 0.946468,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 24.035913
+    },
+    "THUMB_MCP_R": {
+     "n": 86,
+     "mean": 0.955148,
+     "median": 1.0,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 82.142699
+    },
+    "THUMB_IP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "INDEX_MCP_R": {
+     "n": 1,
+     "mean": 0.00102,
+     "median": 0.00102,
+     "p90": 0.00102,
+     "max": 0.00102,
+     "sum": 0.00102
+    }
+   },
+   "per_group_before": {
+    "WRIST_R": {
+     "n": 107,
+     "mean": 0.107161,
+     "median": 0.08761,
+     "p90": 0.257953,
+     "max": 0.286263,
+     "sum": 11.466223
+    },
+    "THUMB_CMC_R": {
+     "n": 107,
+     "mean": 0.040736,
+     "median": 0.017828,
+     "p90": 0.110692,
+     "max": 0.198706,
+     "sum": 4.358771
+    },
+    "THUMB_MCP_R": {
+     "n": 107,
+     "mean": 0.185436,
+     "median": 0.205514,
+     "p90": 0.282928,
+     "max": 0.29554,
+     "sum": 19.841673
+    },
+    "THUMB_IP_R": {
+     "n": 107,
+     "mean": 0.666667,
+     "median": 0.666667,
+     "p90": 0.666667,
+     "max": 0.666667,
+     "sum": 71.333335
+    },
+    "INDEX_MCP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    }
+   },
+   "region_group_totals_after": {
+    "WRIST_R": 0.820368,
+    "THUMB_CMC_R": 24.035913,
+    "THUMB_MCP_R": 82.142699,
+    "THUMB_IP_R": 0.0,
+    "INDEX_MCP_R": 0.00102
+   }
+  },
+  "THUMB_FIRST_METACARPAL": {
+   "vertex_count": 153,
+   "core_vertex_count": 153,
+   "transition_band_vertex_count": 0,
+   "allowed_bones": [
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "WRIST_R"
+   ],
+   "expected_dominant": "THUMB_CMC_R",
+   "dominant_distribution_after": {
+    "THUMB_CMC_R": 153
+   },
+   "dominant_distribution_after_core": {
+    "THUMB_CMC_R": 153
+   },
+   "unexpected_dominant_count": 0,
+   "unexpected_dominant_samples": [],
+   "per_group_after": {
+    "WRIST_R": {
+     "n": 27,
+     "mean": 0.050607,
+     "median": 0.039009,
+     "p90": 0.114572,
+     "max": 0.131366,
+     "sum": 1.366394
+    },
+    "THUMB_CMC_R": {
+     "n": 153,
+     "mean": 0.991069,
+     "median": 1.0,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 151.633606
+    },
+    "THUMB_MCP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "THUMB_IP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    }
+   },
+   "per_group_before": {
+    "WRIST_R": {
+     "n": 153,
+     "mean": 0.120141,
+     "median": 0.111128,
+     "p90": 0.188639,
+     "max": 0.250761,
+     "sum": 18.381642
+    },
+    "THUMB_CMC_R": {
+     "n": 153,
+     "mean": 0.203247,
+     "median": 0.209085,
+     "p90": 0.261217,
+     "max": 0.302091,
+     "sum": 31.096861
+    },
+    "THUMB_MCP_R": {
+     "n": 153,
+     "mean": 0.009944,
+     "median": 2e-06,
+     "p90": 0.030685,
+     "max": 0.07532,
+     "sum": 1.521497
+    },
+    "THUMB_IP_R": {
+     "n": 153,
+     "mean": 0.666667,
+     "median": 0.666667,
+     "p90": 0.666667,
+     "max": 0.666667,
+     "sum": 102.000003
+    }
+   },
+   "region_group_totals_after": {
+    "WRIST_R": 1.366394,
+    "THUMB_CMC_R": 151.633606,
+    "THUMB_MCP_R": 0.0,
+    "THUMB_IP_R": 0.0
+   }
+  },
+  "THUMB_BASE_FOLD": {
+   "vertex_count": 37,
+   "core_vertex_count": 37,
+   "transition_band_vertex_count": 0,
+   "allowed_bones": [
+    "INDEX_MCP_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "WRIST_R"
+   ],
+   "expected_dominant": "THUMB_MCP_R (proximal-phalanx level fold) + WRIST_R",
+   "dominant_distribution_after": {
+    "THUMB_MCP_R": 37
+   },
+   "dominant_distribution_after_core": {
+    "THUMB_MCP_R": 37
+   },
+   "unexpected_dominant_count": 0,
+   "unexpected_dominant_samples": [],
+   "per_group_after": {
+    "WRIST_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "THUMB_CMC_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "THUMB_MCP_R": {
+     "n": 37,
+     "mean": 0.991078,
+     "median": 1.0,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 36.669882
+    },
+    "THUMB_IP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "INDEX_MCP_R": {
+     "n": 2,
+     "mean": 0.165059,
+     "median": 0.262065,
+     "p90": 0.262065,
+     "max": 0.262065,
+     "sum": 0.330118
+    }
+   },
+   "per_group_before": {
+    "WRIST_R": {
+     "n": 37,
+     "mean": 0.149282,
+     "median": 0.204526,
+     "p90": 0.284543,
+     "max": 0.30687,
+     "sum": 5.523429
+    },
+    "THUMB_CMC_R": {
+     "n": 37,
+     "mean": 0.030592,
+     "median": 0.011721,
+     "p90": 0.094238,
+     "max": 0.102186,
+     "sum": 1.131899
+    },
+    "THUMB_MCP_R": {
+     "n": 37,
+     "mean": 0.15346,
+     "median": 0.122735,
+     "p90": 0.278014,
+     "max": 0.28684,
+     "sum": 5.678005
+    },
+    "THUMB_IP_R": {
+     "n": 37,
+     "mean": 0.666667,
+     "median": 0.666667,
+     "p90": 0.666667,
+     "max": 0.666667,
+     "sum": 24.666667
+    },
+    "INDEX_MCP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    }
+   },
+   "region_group_totals_after": {
+    "WRIST_R": 0.0,
+    "THUMB_CMC_R": 0.0,
+    "THUMB_MCP_R": 36.669882,
+    "THUMB_IP_R": 0.0,
+    "INDEX_MCP_R": 0.330118
+   }
+  },
+  "THENAR_BASE": {
+   "vertex_count": 287,
+   "core_vertex_count": 287,
+   "transition_band_vertex_count": 0,
+   "allowed_bones": [
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "WRIST_R"
+   ],
+   "expected_dominant": "WRIST_R+THUMB_CMC_R",
+   "dominant_distribution_after": {
+    "WRIST_R": 188,
+    "THUMB_CMC_R": 95,
+    "THUMB_MCP_R": 4
+   },
+   "dominant_distribution_after_core": {
+    "WRIST_R": 188,
+    "THUMB_CMC_R": 95,
+    "THUMB_MCP_R": 4
+   },
+   "unexpected_dominant_count": 0,
+   "unexpected_dominant_samples": [],
+   "per_group_after": {
+    "WRIST_R": {
+     "n": 287,
+     "mean": 0.641469,
+     "median": 0.756313,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 184.101554
+    },
+    "THUMB_CMC_R": {
+     "n": 213,
+     "mean": 0.465702,
+     "median": 0.43028,
+     "p90": 0.940189,
+     "max": 0.999336,
+     "sum": 99.194429
+    },
+    "THUMB_MCP_R": {
+     "n": 4,
+     "mean": 0.925873,
+     "median": 0.977958,
+     "p90": 0.999179,
+     "max": 0.999179,
+     "sum": 3.703493
+    },
+    "THUMB_IP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "INDEX_MCP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "MIDDLE_MCP_R": {
+     "n": 72,
+     "mean": 7e-06,
+     "median": 0.0,
+     "p90": 3e-06,
+     "max": 0.000207,
+     "sum": 0.000523
+    },
+    "RING_MCP_R": {
+     "n": 3,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "LITTLE_MCP_R": {
+     "n": 22,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    }
+   },
+   "per_group_before": {
+    "WRIST_R": {
+     "n": 287,
+     "mean": 0.352686,
+     "median": 0.223767,
+     "p90": 0.9447,
+     "max": 1.0,
+     "sum": 101.220772
+    },
+    "THUMB_CMC_R": {
+     "n": 280,
+     "mean": 0.159204,
+     "median": 0.155802,
+     "p90": 0.294934,
+     "max": 0.361768,
+     "sum": 44.577023
+    },
+    "THUMB_MCP_R": {
+     "n": 208,
+     "mean": 0.012187,
+     "median": 0.000816,
+     "p90": 0.031363,
+     "max": 0.189313,
+     "sum": 2.534966
+    },
+    "THUMB_IP_R": {
+     "n": 208,
+     "mean": 0.666667,
+     "median": 0.666667,
+     "p90": 0.666667,
+     "max": 0.666667,
+     "sum": 138.666671
+    },
+    "INDEX_MCP_R": {
+     "n": 47,
+     "mean": 1e-06,
+     "median": 0.0,
+     "p90": 2e-06,
+     "max": 1.9e-05,
+     "sum": 5e-05
+    },
+    "MIDDLE_MCP_R": {
+     "n": 72,
+     "mean": 7e-06,
+     "median": 0.0,
+     "p90": 3e-06,
+     "max": 0.000207,
+     "sum": 0.000523
+    },
+    "RING_MCP_R": {
+     "n": 3,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "LITTLE_MCP_R": {
+     "n": 22,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    }
+   },
+   "region_group_totals_after": {
+    "WRIST_R": 184.101554,
+    "THUMB_CMC_R": 99.194429,
+    "THUMB_MCP_R": 3.703493,
+    "THUMB_IP_R": 0.0,
+    "INDEX_MCP_R": 0.0,
+    "MIDDLE_MCP_R": 0.000523,
+    "RING_MCP_R": 0.0,
+    "LITTLE_MCP_R": 0.0
+   }
+  },
+  "FIRST_WEB": {
+   "vertex_count": 21,
+   "core_vertex_count": 21,
+   "transition_band_vertex_count": 0,
+   "allowed_bones": [
+    "INDEX_MCP_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "WRIST_R"
+   ],
+   "expected_dominant": "WRIST_R+THUMB_CMC_R+THUMB_MCP_R+INDEX_MCP_R",
+   "dominant_distribution_after": {
+    "THUMB_MCP_R": 18,
+    "WRIST_R": 3
+   },
+   "dominant_distribution_after_core": {
+    "THUMB_MCP_R": 18,
+    "WRIST_R": 3
+   },
+   "unexpected_dominant_count": 0,
+   "unexpected_dominant_samples": [],
+   "per_group_after": {
+    "WRIST_R": {
+     "n": 4,
+     "mean": 0.701332,
+     "median": 0.977024,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 2.805327
+    },
+    "THUMB_CMC_R": {
+     "n": 2,
+     "mean": 0.108357,
+     "median": 0.193739,
+     "p90": 0.193739,
+     "max": 0.193739,
+     "sum": 0.216715
+    },
+    "THUMB_MCP_R": {
+     "n": 18,
+     "mean": 0.980379,
+     "median": 1.0,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 17.646819
+    },
+    "THUMB_IP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    },
+    "INDEX_MCP_R": {
+     "n": 3,
+     "mean": 0.11038,
+     "median": 0.068053,
+     "p90": 0.262065,
+     "max": 0.262065,
+     "sum": 0.331139
+    }
+   },
+   "per_group_before": {
+    "WRIST_R": {
+     "n": 21,
+     "mean": 0.228848,
+     "median": 0.221218,
+     "p90": 0.315566,
+     "max": 0.323482,
+     "sum": 4.805814
+    },
+    "THUMB_CMC_R": {
+     "n": 21,
+     "mean": 0.003658,
+     "median": 0.00268,
+     "p90": 0.008383,
+     "max": 0.015172,
+     "sum": 0.076813
+    },
+    "THUMB_MCP_R": {
+     "n": 21,
+     "mean": 0.100827,
+     "median": 0.109391,
+     "p90": 0.182288,
+     "max": 0.203506,
+     "sum": 2.117372
+    },
+    "THUMB_IP_R": {
+     "n": 21,
+     "mean": 0.666667,
+     "median": 0.666667,
+     "p90": 0.666667,
+     "max": 0.666667,
+     "sum": 14.0
+    },
+    "INDEX_MCP_R": {
+     "n": 0,
+     "mean": 0.0,
+     "median": 0.0,
+     "p90": 0.0,
+     "max": 0.0,
+     "sum": 0.0
+    }
+   },
+   "region_group_totals_after": {
+    "WRIST_R": 2.805327,
+    "THUMB_CMC_R": 0.216715,
+    "THUMB_MCP_R": 17.646819,
+    "THUMB_IP_R": 0.0,
+    "INDEX_MCP_R": 0.331139
+   }
+  },
+  "CENTRAL_PALM": {
+   "vertex_count": 1199,
+   "core_vertex_count": 1199,
+   "transition_band_vertex_count": 0,
+   "allowed_bones": [
+    "WRIST_R"
+   ],
+   "expected_dominant": "WRIST_R",
+   "dominant_distribution_after": {
+    "WRIST_R": 1199
+   },
+   "dominant_distribution_after_core": {
+    "WRIST_R": 1199
+   },
+   "unexpected_dominant_count": 0,
+   "unexpected_dominant_samples": [],
+   "per_group_after": {
+    "WRIST_R": {
+     "n": 1199,
+     "mean": 0.974809,
+     "median": 0.999995,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 1168.796394
+    },
+    "THUMB_CMC_R": {
+     "n": 531,
+     "mean": 0.012472,
+     "median": 0.000634,
+     "p90": 0.035886,
+     "max": 0.222808,
+     "sum": 6.622561
+    },
+    "INDEX_MCP_R": {
+     "n": 88,
+     "mean": 0.00158,
+     "median": 0.000398,
+     "p90": 0.003666,
+     "max": 0.02409,
+     "sum": 0.139063
+    },
+    "MIDDLE_MCP_R": {
+     "n": 472,
+     "mean": 0.021991,
+     "median": 0.0,
+     "p90": 0.093554,
+     "max": 0.361281,
+     "sum": 10.379686
+    },
+    "RING_MCP_R": {
+     "n": 397,
+     "mean": 0.031042,
+     "median": 2e-06,
+     "p90": 0.140979,
+     "max": 0.373457,
+     "sum": 12.323788
+    },
+    "LITTLE_MCP_R": {
+     "n": 474,
+     "mean": 0.001558,
+     "median": 0.0,
+     "p90": 0.001192,
+     "max": 0.122307,
+     "sum": 0.738508
+    }
+   },
+   "per_group_before": {
+    "WRIST_R": {
+     "n": 1199,
+     "mean": 0.974809,
+     "median": 0.999995,
+     "p90": 1.0,
+     "max": 1.0,
+     "sum": 1168.796394
+    },
+    "THUMB_CMC_R": {
+     "n": 531,
+     "mean": 0.012472,
+     "median": 0.000634,
+     "p90": 0.035886,
+     "max": 0.222808,
+     "sum": 6.622561
+    },
+    "INDEX_MCP_R": {
+     "n": 88,
+     "mean": 0.00158,
+     "median": 0.000398,
+     "p90": 0.003666,
+     "max": 0.02409,
+     "sum": 0.139063
+    },
+    "MIDDLE_MCP_R": {
+     "n": 472,
+     "mean": 0.021991,
+     "median": 0.0,
+     "p90": 0.093554,
+     "max": 0.361281,
+     "sum": 10.379686
+    },
+    "RING_MCP_R": {
+     "n": 397,
+     "mean": 0.031042,
+     "median": 2e-06,
+     "p90": 0.140979,
+     "max": 0.373457,
+     "sum": 12.323788
+    },
+    "LITTLE_MCP_R": {
+     "n": 474,
+     "mean": 0.001558,
+     "median": 0.0,
+     "p90": 0.001192,
+     "max": 0.122307,
+     "sum": 0.738508
+    }
+   },
+   "region_group_totals_after": {
+    "WRIST_R": 1168.796394,
+    "THUMB_CMC_R": 6.622561,
+    "INDEX_MCP_R": 0.139063,
+    "MIDDLE_MCP_R": 10.379686,
+    "RING_MCP_R": 12.323788,
+    "LITTLE_MCP_R": 0.738508
+   }
+  }
+ },
+ "R1_before": {
+  "THUMB_DISTAL": {
+   "vertex_count": 161,
+   "dominant_distribution": {
+    "THUMB_IP_R": 141,
+    "INDEX_MCP_R": 17,
+    "WRIST_R": 3
+   },
+   "THUMB_IP_total": 103.147398
+  },
+  "THUMB_PROXIMAL": {
+   "vertex_count": 107,
+   "dominant_distribution": {
+    "THUMB_IP_R": 107
+   },
+   "THUMB_IP_total": 71.333335
+  },
+  "THUMB_FIRST_METACARPAL": {
+   "vertex_count": 153,
+   "dominant_distribution": {
+    "THUMB_IP_R": 153
+   },
+   "THUMB_IP_total": 102.000003
+  },
+  "THUMB_BASE_FOLD": {
+   "vertex_count": 37,
+   "dominant_distribution": {
+    "THUMB_IP_R": 37
+   },
+   "THUMB_IP_total": 24.666667
+  },
+  "THENAR_BASE": {
+   "vertex_count": 287,
+   "dominant_distribution": {
+    "THUMB_IP_R": 208,
+    "WRIST_R": 79
+   },
+   "THUMB_IP_total": 138.666671
+  },
+  "FIRST_WEB": {
+   "vertex_count": 21,
+   "dominant_distribution": {
+    "THUMB_IP_R": 21
+   },
+   "THUMB_IP_total": 14.0
+  },
+  "CENTRAL_PALM": {
+   "vertex_count": 1199,
+   "dominant_distribution": {
+    "WRIST_R": 1199
+   },
+   "THUMB_IP_total": 0.0
+  }
+ },
+ "THUMB_CHAIN_DOMINANCE_BY_REGION": "PASS"
+}

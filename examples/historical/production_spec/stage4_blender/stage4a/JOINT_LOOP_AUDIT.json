@@ -1,0 +1,519 @@
+{
+ "generated_at": "2026-09-28T09:23:03.102871+08:00",
+ "target_loops_per_joint": 3,
+ "counting_rule": "EFFECTIVE_LOOP_COUNT = loops detected on the official L1 base (circumferential transverse band on the digit tube, >=60% of a full collar and running around rather than along the digit) PLUS loops inserted by Stage 4A whose measured position falls inside the joint band. Every counted loop is individually traceable.",
+ "joints": {
+  "LITTLE_MCP": {
+   "digit": "little",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 85.604,
+   "band_half_width_mm": 8.56,
+   "pre_existing_loops_detected": 3,
+   "pre_existing_loops_geod_mm": [
+    86.373,
+    90.526,
+    93.856
+   ],
+   "pre_existing_loops_verts": [
+    17,
+    16,
+    12
+   ],
+   "pre_existing_spacings_mm": [
+    4.153,
+    3.33
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "LITTLE_PIP": {
+   "digit": "little",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 46.226,
+   "band_half_width_mm": 8.56,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    39.821,
+    44.313,
+    48.669,
+    52.811
+   ],
+   "pre_existing_loops_verts": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    4.492,
+    4.356,
+    4.142
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "LITTLE_DIP": {
+   "digit": "little",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 19.689,
+   "band_half_width_mm": 7.704,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    14.38,
+    18.503,
+    21.828,
+    25.914
+   ],
+   "pre_existing_loops_verts": [
+    20,
+    13,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    4.123,
+    3.325,
+    4.086
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "RING_MCP": {
+   "digit": "ring",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 84.626,
+   "band_half_width_mm": 8.463,
+   "pre_existing_loops_detected": 1,
+   "pre_existing_loops_geod_mm": [
+    85.783
+   ],
+   "pre_existing_loops_verts": [
+    17
+   ],
+   "pre_existing_spacings_mm": [],
+   "inserted_by_stage4a_in_band": 2,
+   "inserted_loops": [
+    {
+     "label": "CON1_RING_MCP@-4mm",
+     "ring_edges": 16,
+     "geod_from_tip_mm": 77.606,
+     "axial_span_mm": [
+      -4.0,
+      -4.0
+     ],
+     "wrap_max_gap_deg_after": 34.4,
+     "projected_verts": 16
+    },
+    {
+     "label": "CON1_RING_MCP@-7mm",
+     "ring_edges": 16,
+     "geod_from_tip_mm": 80.633,
+     "axial_span_mm": [
+      -7.0,
+      -7.0
+     ],
+     "wrap_max_gap_deg_after": 36.77,
+     "projected_verts": 16
+    }
+   ],
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "RING_PIP": {
+   "digit": "ring",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 45.698,
+   "band_half_width_mm": 8.463,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    40.487,
+    45.114,
+    49.305,
+    53.077
+   ],
+   "pre_existing_loops_verts": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    4.627,
+    4.191,
+    3.772
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "RING_DIP": {
+   "digit": "ring",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 19.464,
+   "band_half_width_mm": 7.616,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    13.819,
+    17.255,
+    22.155,
+    26.342
+   ],
+   "pre_existing_loops_verts": [
+    20,
+    20,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    3.436,
+    4.9,
+    4.187
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "MIDDLE_MCP": {
+   "digit": "middle",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 84.881,
+   "band_half_width_mm": 8.488,
+   "pre_existing_loops_detected": 2,
+   "pre_existing_loops_geod_mm": [
+    80.518,
+    85.164
+   ],
+   "pre_existing_loops_verts": [
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    4.646
+   ],
+   "inserted_by_stage4a_in_band": 1,
+   "inserted_loops": [
+    {
+     "label": "CON1_MIDDLE_MCP@-1mm",
+     "ring_edges": 16,
+     "geod_from_tip_mm": 85.004,
+     "axial_span_mm": [
+      -1.0,
+      -1.0
+     ],
+     "wrap_max_gap_deg_after": 33.71,
+     "projected_verts": 16
+    }
+   ],
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "MIDDLE_PIP": {
+   "digit": "middle",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 45.836,
+   "band_half_width_mm": 8.488,
+   "pre_existing_loops_detected": 3,
+   "pre_existing_loops_geod_mm": [
+    37.887,
+    44.178,
+    49.693
+   ],
+   "pre_existing_loops_verts": [
+    16,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    6.291,
+    5.515
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "MIDDLE_DIP": {
+   "digit": "middle",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 19.523,
+   "band_half_width_mm": 7.639,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    13.737,
+    17.171,
+    22.436,
+    26.503
+   ],
+   "pre_existing_loops_verts": [
+    20,
+    20,
+    13,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    3.434,
+    5.265,
+    4.067
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "INDEX_MCP": {
+   "digit": "index",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 93.642,
+   "band_half_width_mm": 9.364,
+   "pre_existing_loops_detected": 3,
+   "pre_existing_loops_geod_mm": [
+    86.885,
+    87.38,
+    90.362
+   ],
+   "pre_existing_loops_verts": [
+    14,
+    18,
+    15
+   ],
+   "pre_existing_spacings_mm": [
+    0.495,
+    2.982
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "INDEX_PIP": {
+   "digit": "index",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 50.567,
+   "band_half_width_mm": 9.364,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    43.832,
+    47.988,
+    52.054,
+    56.144
+   ],
+   "pre_existing_loops_verts": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    4.156,
+    4.066,
+    4.09
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "INDEX_DIP": {
+   "digit": "index",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 21.538,
+   "band_half_width_mm": 8.428,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    15.823,
+    20.031,
+    23.963,
+    28.641
+   ],
+   "pre_existing_loops_verts": [
+    20,
+    16,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    4.208,
+    3.932,
+    4.678
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "THUMB_CMC": {
+   "digit": "thumb",
+   "band_criterion": "AXIAL offset from the CMC anchor along the first metacarpal axis (the CMC sits inside the thenar mass, where surface geodesic from the thumb tip is dominated by the long palmar route)",
+   "joint_center_geod_mm": 94.961,
+   "band_half_width_mm": 12.0,
+   "pre_existing_loops_detected": 0,
+   "pre_existing_loops_geod_mm": [
+    96.126
+   ],
+   "pre_existing_loops_verts": [
+    13
+   ],
+   "pre_existing_spacings_mm": [],
+   "inserted_by_stage4a_in_band": 3,
+   "inserted_loops": [
+    {
+     "label": "CON2_CMC@-1mm",
+     "ring_edges": 60,
+     "geod_from_tip_mm": 127.915,
+     "axial_span_mm": [
+      -48.83,
+      17.8
+     ],
+     "wrap_max_gap_deg_after": 22.09,
+     "projected_verts": 25
+    },
+    {
+     "label": "CON2_CMC@+1mm",
+     "ring_edges": 60,
+     "geod_from_tip_mm": 129.336,
+     "axial_span_mm": [
+      -49.79,
+      17.26
+     ],
+     "wrap_max_gap_deg_after": 21.9,
+     "projected_verts": 28
+    },
+    {
+     "label": "CON2_CMC@+3mm",
+     "ring_edges": 60,
+     "geod_from_tip_mm": 126.772,
+     "axial_span_mm": [
+      -47.87,
+      18.4
+     ],
+     "wrap_max_gap_deg_after": 22.28,
+     "projected_verts": 29
+    }
+   ],
+   "effective_loop_count": 3,
+   "meets_min_3": true,
+   "locality_review": {
+    "status": "NEEDS_REVISION",
+    "reason": "the three collars are CLOSED topological loops and all-quad, but each spans ~66 mm ALONG the metacarpal axis. The thenar quad flow spirals around the metacarpal base, so the inherited topological edge ring is a helical support band, not a local CMC deformation collar. Angular coverage (338 deg) is therefore NOT sufficient evidence of a local collar.",
+    "ACTUAL_AXIAL_SPAN_mm": [
+     66.64,
+     67.06,
+     66.27
+    ],
+    "ACTUAL_AXIAL_RANGE_mm": [
+     [
+      -48.81,
+      17.83
+     ],
+     [
+      -49.77,
+      17.28
+     ],
+     [
+      -47.85,
+      18.42
+     ]
+    ],
+    "AXIAL_MEDIAN_mm": [
+     -1.01,
+     0.99,
+     2.99
+    ],
+    "AXIAL_STDDEV_mm": [
+     20.33,
+     20.49,
+     20.18
+    ],
+    "frac_within_pm12mm": [
+     0.4167,
+     0.4667,
+     0.4833
+    ],
+    "frac_within_pm18mm": [
+     0.55,
+     0.5333,
+     0.5167
+    ],
+    "largest_axial_outlier_mm": [
+     48.81,
+     49.77,
+     47.85
+    ],
+    "closed_topological_loops": true,
+    "all_quad": true,
+    "surface_deviation_vs_L1_max_mm": 5.286,
+    "surface_deviation_vs_L1_p95_mm": 3.789
+   },
+   "effective_loop_count_QUALIFIED": false
+  },
+  "THUMB_MCP": {
+   "digit": "thumb",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 53.178,
+   "band_half_width_mm": 9.496,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    48.069,
+    52.744,
+    56.799,
+    60.479
+   ],
+   "pre_existing_loops_verts": [
+    16,
+    16,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    4.675,
+    4.055,
+    3.68
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "THUMB_IP": {
+   "digit": "thumb",
+   "band_criterion": "geodesic distance from own fingertip",
+   "joint_center_geod_mm": 23.74,
+   "band_half_width_mm": 8.547,
+   "pre_existing_loops_detected": 4,
+   "pre_existing_loops_geod_mm": [
+    17.091,
+    20.881,
+    25.789,
+    29.798
+   ],
+   "pre_existing_loops_verts": [
+    20,
+    20,
+    16,
+    16
+   ],
+   "pre_existing_spacings_mm": [
+    3.79,
+    4.908,
+    4.009
+   ],
+   "inserted_by_stage4a_in_band": 0,
+   "inserted_loops": [],
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  }
+ },
+ "all_joints_meet_min_3": true,
+ "joints_below_min": [],
+ "CON_1_MCP_TOPOLOGY": "PASS",
+ "CON_2_THUMB_CMC_TOPOLOGY": "NEEDS_REVISION",
+ "CON_2_note": "count (3 closed all-quad collars) is met, but the LOCALITY requirement is not: axial span 66-67 mm per collar, so the count alone must not be read as a PASS"
+}

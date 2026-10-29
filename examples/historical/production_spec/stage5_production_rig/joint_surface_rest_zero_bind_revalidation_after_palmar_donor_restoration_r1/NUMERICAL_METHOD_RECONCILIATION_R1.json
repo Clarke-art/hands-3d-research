@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "raw_exact_vs_evaluated_zero": "Corrected THUMB_TIP native v284 exact equality applies to stored raw authority. Evaluated terminal displacement 0.000003725290298461914mm uses the recovered full3416 <=0.0001mm raw-to-bind gate. Supplement implementation initially applied raw exact equality to evaluated data and was corrected before qualification delivery; no geometry, rig or threshold change.",
+  "corrected_native_terminal_in_evaluated_zero": {
+    "status": "PASS",
+    "type": "CORRECTED_NATIVE_TERMINAL_SURFACE_LANDMARK",
+    "terminal_native_vertex": 284,
+    "terminal_landmark_delta_mm": 3.725290298461914e-06,
+    "own_digit_identity": "THUMB",
+    "surface_max_mm": 1.5,
+    "surface_margin_mm": 1.4999990686774254,
+    "apex_rule": "Corrected native terminal; superseded cap REP/apex hard thresholds not used",
+    "cap37_membership_only": true,
+    "raw_native_terminal_exact_status": "PASS",
+    "evaluated_terminal_noise_gate_mm": 0.0001
+  },
+  "surface_methods": "Formal frozen closest_point_on_mesh and historical diagnostic native fan BVH are separately paired; no old/new method mixing",
+  "fan_computation_reproduced_user_old_new_delta": {
+    "name": "MIDDLE_MCP_R",
+    "endpoint": "head",
+    "old_distance_mm": 6.136777810752392,
+    "new_distance_mm": 6.501595489680767,
+    "delta_mm": 0.36481767892837524,
+    "old_native_face": 2783,
+    "new_native_face": 2421,
+    "old_triangle_native_ids": [
+      3360,
+      2078,
+      3353
+    ],
+    "new_triangle_native_ids": [
+      1024,
+      125,
+      1938
+    ]
+  },
+  "formal_native_polygon_head": {
+    "old": {
+      "surface_distance_mm": 6.136752534888991,
+      "normal_signed_distance_mm": -6.136752723250538,
+      "inside_ray_parity": true,
+      "ray_parity_votes": 64,
+      "ray_parity_direction_count": 64,
+      "parity_signed_distance_mm": -6.136752534888991,
+      "nearest_native_feature": {
+        "native_polygon": 2783,
+        "native_vertices": [
+          3360,
+          3175,
+          2078,
+          3353
+        ],
+        "native_edges": [
+          6081,
+          6080,
+          2494,
+          6714
+        ],
+        "feature_kind": "closest point on native polygon surface",
+        "nearest_point_world_m": [
+          1.4182195663452148,
+          0.008887679316103458,
+          0.47948163747787476
+        ],
+        "normal_world": [
+          0.21425266563892365,
+          -0.8069586753845215,
+          -0.5503758192062378
+        ]
+      }
+    },
+    "new": {
+      "surface_distance_mm": 6.5015955109880155,
+      "normal_signed_distance_mm": -6.501595576992258,
+      "inside_ray_parity": true,
+      "ray_parity_votes": 64,
+      "ray_parity_direction_count": 64,
+      "parity_signed_distance_mm": -6.5015955109880155,
+      "nearest_native_feature": {
+        "native_polygon": 2421,
+        "native_vertices": [
+          1024,
+          125,
+          1938,
+          3085
+        ],
+        "native_edges": [
+          387,
+          2214,
+          5719,
+          5718
+        ],
+        "feature_kind": "closest point on native polygon surface",
+        "nearest_point_world_m": [
+          1.4185322523117065,
+          0.008145861327648163,
+          0.480175644159317
+        ],
+        "normal_world": [
+          0.25030943751335144,
+          -0.8757764101028442,
+          -0.41274797916412354
+        ]
+      }
+    },
+    "delta_mm": 0.36484297609902416
+  },
+  "new_thresholds": 0
+}

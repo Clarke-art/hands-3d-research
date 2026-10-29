@@ -1,0 +1,76 @@
+{
+  "status": "IDENTIFIABLE_MECHANICAL_LBS_COUNTERFACTUAL_ONLY",
+  "same_vertex_positions_topology_and_world_bind_mapping": true,
+  "same_group_order_and_bone_group_names": true,
+  "same_joint_head_parent_driver_meaning": true,
+  "kinematic_slot_differences": [
+    [
+      "THUMB_IP_R",
+      "tail_local_m"
+    ],
+    [
+      "THUMB_IP_R",
+      "matrix_local"
+    ],
+    [
+      "THUMB_TIP_R",
+      "head_local_m"
+    ],
+    [
+      "THUMB_TIP_R",
+      "tail_local_m"
+    ],
+    [
+      "THUMB_TIP_R",
+      "matrix_local"
+    ]
+  ],
+  "skin_is_saved_scalar_vertex_group_field_not_recomputed_arc_profile": true,
+  "modifier_model": "Single normalized linear armature skinning; preserve_volume false, envelopes false, no corrective/shapekey modifier",
+  "counterfactual_semantic_limit": "K_ONLY/W_ONLY are numerical interventions on the Blender skinning mechanism, not anatomically approved skins/rigs and not production candidates. W_ONLY asks what saved corrected vectors would do under historical compatible local-X frames, not whether that skin would have been authorized in that state.",
+  "actual_modifier_kernel_max_error_mm": {
+    "HISTORICAL_R1B_DONOR": {
+      "TH_IP_30": 0.00017382072744476945,
+      "IDX_MCP_45": 0.00014396190652711803
+    },
+    "CORRECTED_R1": {
+      "TH_IP_30": 0.0001497587537300217,
+      "IDX_MCP_45": 0.00013957190556610044
+    },
+    "R2": {
+      "TH_IP_30": 0.0001497587537300217,
+      "IDX_MCP_45": 0.00013610795540654948
+    }
+  },
+  "actual_vs_kernel_predicate_matches": {
+    "HISTORICAL_R1B_DONOR": {
+      "TH_IP_30": {
+        "PAIR_1225_2740": true
+      },
+      "IDX_MCP_45": {
+        "PAIR_1041_2735": true,
+        "PAIR_1226_2742": true
+      }
+    },
+    "CORRECTED_R1": {
+      "TH_IP_30": {
+        "PAIR_1225_2740": true
+      },
+      "IDX_MCP_45": {
+        "PAIR_1041_2735": true,
+        "PAIR_1226_2742": true
+      }
+    },
+    "R2": {
+      "TH_IP_30": {
+        "PAIR_1225_2740": true
+      },
+      "IDX_MCP_45": {
+        "PAIR_1041_2735": true,
+        "PAIR_1226_2742": true
+      }
+    }
+  },
+  "no_bone_or_weight_or_geometry_assignments": true,
+  "counterfactual_production_saves": 0
+}

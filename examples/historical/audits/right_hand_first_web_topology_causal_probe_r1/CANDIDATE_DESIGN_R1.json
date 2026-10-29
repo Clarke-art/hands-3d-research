@@ -1,0 +1,99 @@
+{
+  "phase": "RIGHT_HAND_FIRST_WEB_TOPOLOGY_CAUSAL_PROBE_R1",
+  "design_id": "FIRST_WEB_GRADED_STRUCTURED_BRIDGE_R1",
+  "roi": {
+    "patch_vertices": 149,
+    "rings_added": 2,
+    "roi_vertices": 234,
+    "roi_faces": 198,
+    "roi_boundary_loop": 70,
+    "roi_euler_characteristic": 1
+  },
+  "candidate_grid": {
+    "NU": 17,
+    "NV": 18,
+    "new_interior_nodes": 272,
+    "roi_nodes_after": 342,
+    "total_vertices": 3408,
+    "baseline_vertices": 3300,
+    "total_faces": 3406,
+    "baseline_faces": 3298,
+    "all_quads": true,
+    "interior_valence_all_4": true
+  },
+  "structural_changes": [
+    "ROI interior rebuilt as ONE NU x NV structured quad grid; the old inner patch boundary line is dissolved",
+    "the four grid corners are placed by the ROI boundary chord distribution, so strips do not follow the old layout",
+    "loop spacing graded by the measured six-frame radius-normalised differential strain (GRADE_BLEND=0.55)",
+    "interior nodes relaxed in the parameter domain with target spacings taken from the graded parameters"
+  ],
+  "edge_layout_change": {
+    "old_roi_edges": 431,
+    "new_roi_edges": 647,
+    "edges_shared_with_old_layout": 0
+  },
+  "rest_surface_identity": {
+    "max_kept_vertex_delta_mm": 0.0
+  },
+  "parameterisation": {
+    "weights": "mean-value (Floater) coordinates computed from the rest geometry only",
+    "boundary": "ROI loop pinned in order to a convex unit square, chord-length proportional",
+    "flipped_triangles": 0,
+    "min_grid_cell_area_in_domain": 0.00568564
+  },
+  "load_field": {
+    "max_radius_normalised_strain": 7.099,
+    "radius_mm": 5.0,
+    "frames_used": [
+      110,
+      127,
+      130,
+      160,
+      176,
+      205
+    ]
+  },
+  "grade_samples": {
+    "u": [
+      0.0,
+      0.11542,
+      0.1797,
+      0.22906,
+      0.27037,
+      0.31109,
+      0.34825,
+      0.38372,
+      0.41995,
+      0.46124,
+      0.50135,
+      0.54063,
+      0.58011,
+      0.61982,
+      0.66334,
+      0.71087,
+      0.77437,
+      1.0
+    ],
+    "v": [
+      0.0,
+      0.23704,
+      0.30316,
+      0.35681,
+      0.40537,
+      0.45241,
+      0.49086,
+      0.53911,
+      0.57688,
+      0.6132,
+      0.65767,
+      0.69362,
+      0.72661,
+      0.75961,
+      0.80517,
+      0.84833,
+      0.8926,
+      0.93987,
+      1.0
+    ]
+  }
+}

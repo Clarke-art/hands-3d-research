@@ -1,0 +1,664 @@
+{
+  "baseline_source": {
+    "path": "production_spec/stage4_blender/stage4c_r2/RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend",
+    "sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+  },
+  "flags": {
+    "2771": {
+      "classification": "PROJECTION_ONLY_DIAGNOSTIC",
+      "native_face_id": 2771,
+      "native_cycle": [
+        3348,
+        3357,
+        1019,
+        119
+      ],
+      "world_mm": [
+        [
+          1407.64319896698,
+          14.161975122988224,
+          483.63611102104187
+        ],
+        [
+          1407.4827432632446,
+          17.23533868789673,
+          485.588401556015
+        ],
+        [
+          1407.4102640151978,
+          16.492409631609917,
+          485.0451350212097
+        ],
+        [
+          1407.6530933380127,
+          12.888586148619652,
+          484.330415725708
+        ]
+      ],
+      "native_vector_sum_face_area_mm2": 1.6261214727308393,
+      "fan_triangle_area_mm2": [
+        0.23307491761483612,
+        1.7138598190602454
+      ],
+      "signed_fan_area_against_frozen_roi_outward_mm2": [
+        -0.09542020828701109,
+        1.4000909797005734
+      ],
+      "signed_orientation_reference": "ROI outward is a chart diagnostic; it is not a coordinate-free 3D inversion test. Native winding, nonzero fan area, and the continuous embedded fan complex are structural.",
+      "fan_unit_normals": [
+        [
+          -0.47032561805241513,
+          -0.4905520646366175,
+          0.7335887709639274
+        ],
+        [
+          0.9954919392292636,
+          0.0512495938120437,
+          0.07980775691410287
+        ]
+      ],
+      "fan_normal_dot": -0.43479988133248215,
+      "native_edge_ids": [
+        6720,
+        6701,
+        376,
+        393
+      ],
+      "native_2face_incidence": {
+        "6720": [
+          2771,
+          3358
+        ],
+        "6701": [
+          2770,
+          2771
+        ],
+        "376": [
+          2184,
+          2771
+        ],
+        "393": [
+          2771,
+          3356
+        ]
+      },
+      "manifold_edge_incidence_valid": true,
+      "intrinsic_fan_intersection": {
+        "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+        "illegal": false,
+        "exact_intersection_point_count": 2,
+        "illegal_point_count": 0,
+        "coplanar": false,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 2.733227455552431,
+        "points_world_mm": [
+          [
+            1407.64319896698,
+            14.161975122988224,
+            483.63611102104187
+          ],
+          [
+            1407.4102640151978,
+            16.492409631609917,
+            485.0451350212097
+          ]
+        ],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      "opposite_boundary_edge_tests": [
+        {
+          "opposite_edge_offsets": [
+            0,
+            2
+          ],
+          "minimum_3D_distance_mm": 0.10842536289023325,
+          "closest_parameters": [
+            0.7011622619017104,
+            0.05092746337084676
+          ]
+        },
+        {
+          "opposite_edge_offsets": [
+            1,
+            3
+          ],
+          "minimum_3D_distance_mm": 2.733227455552431,
+          "closest_parameters": [
+            1.0,
+            1.0
+          ]
+        }
+      ],
+      "projection_diagnostic": {
+        "flag": true,
+        "hits": [
+          {
+            "opposite_edge_offsets": [
+              0,
+              2
+            ],
+            "parameters": [
+              0.7068415010438651,
+              0.045158094591511086
+            ],
+            "intersection_chart_mm": [
+              -1.1956227876938146,
+              -0.04564347501394406
+            ],
+            "strict_parameter_margin": 0.045158094591511086
+          }
+        ],
+        "projection_chart": [
+          [
+            0.0506285625820123,
+            -0.013025552199984273
+          ],
+          [
+            -0.9387049116616202,
+            -0.3420130821274342
+          ],
+          [
+            -0.34098363226587547,
+            0.9396049098656194
+          ]
+        ],
+        "points_chart_mm": [
+          [
+            1.31988773841767,
+            -0.6007552636722101
+          ],
+          [
+            -2.238916494775448,
+            0.18458598728500697
+          ],
+          [
+            -1.3599498644421175,
+            -0.0708343776122036
+          ],
+          [
+            2.2789786207998954,
+            0.48700365399940676
+          ]
+        ]
+      },
+      "actual_intrinsic_3D_self_intersection": false,
+      "extrinsic_existing_contacts_touching_face": [],
+      "extrinsic_contacts_do_not_relabel_the_projection_predicate": true,
+      "whole_mesh_context_counts": {
+        "swept_or_static_broadphase_pairs": 169,
+        "rational_narrowphase_pairs": 19,
+        "legal_shared_triangle_pairs": 21
+      },
+      "can_remove_in_2D_by_changing_camera_is_not_structural_repair": true
+    },
+    "3332": {
+      "classification": "PROJECTION_ONLY_DIAGNOSTIC",
+      "native_face_id": 3332,
+      "native_cycle": [
+        80,
+        956,
+        3341,
+        3339
+      ],
+      "world_mm": [
+        [
+          1398.6549377441406,
+          17.839645966887474,
+          483.4451675415039
+        ],
+        [
+          1395.385503768921,
+          20.786147564649582,
+          484.37172174453735
+        ],
+        [
+          1395.3197002410889,
+          20.31298540532589,
+          485.982209444046
+        ],
+        [
+          1398.531198501587,
+          18.439648672938347,
+          483.5861325263977
+        ]
+      ],
+      "native_vector_sum_face_area_mm2": 3.3473750064102927,
+      "fan_triangle_area_mm2": [
+        3.774500456689763,
+        1.0338110945578636
+      ],
+      "signed_fan_area_against_frozen_roi_outward_mm2": [
+        3.7200767148897107,
+        -0.6684276037041291
+      ],
+      "signed_orientation_reference": "ROI outward is a chart diagnostic; it is not a coordinate-free 3D inversion test. Native winding, nonzero fan area, and the continuous embedded fan complex are structural.",
+      "fan_unit_normals": [
+        [
+          0.6866756312121863,
+          0.6894174111087757,
+          0.23060834928384258
+        ],
+        [
+          -0.5675977731767942,
+          0.07555541902660032,
+          -0.8198317794160332
+        ]
+      ],
+      "fan_normal_dot": -0.5267263911318157,
+      "native_edge_ids": [
+        250,
+        6669,
+        6678,
+        6667
+      ],
+      "native_2face_incidence": {
+        "250": [
+          2207,
+          3332
+        ],
+        "6669": [
+          3332,
+          3333
+        ],
+        "6678": [
+          3327,
+          3332
+        ],
+        "6667": [
+          3331,
+          3332
+        ]
+      },
+      "manifold_edge_incidence_valid": true,
+      "intrinsic_fan_intersection": {
+        "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+        "illegal": false,
+        "exact_intersection_point_count": 2,
+        "illegal_point_count": 0,
+        "coplanar": false,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 4.8659838465363086,
+        "points_world_mm": [
+          [
+            1398.6549377441406,
+            17.839645966887474,
+            483.4451675415039
+          ],
+          [
+            1395.3197002410889,
+            20.31298540532589,
+            485.982209444046
+          ]
+        ],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      "opposite_boundary_edge_tests": [
+        {
+          "opposite_edge_offsets": [
+            0,
+            2
+          ],
+          "minimum_3D_distance_mm": 0.3432731635407135,
+          "closest_parameters": [
+            0.17668931252477152,
+            0.9303018275964512
+          ]
+        },
+        {
+          "opposite_edge_offsets": [
+            1,
+            3
+          ],
+          "minimum_3D_distance_mm": 4.0023246769324,
+          "closest_parameters": [
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "projection_diagnostic": {
+        "flag": true,
+        "hits": [
+          {
+            "opposite_edge_offsets": [
+              0,
+              2
+            ],
+            "parameters": [
+              0.14117012752263552,
+              0.9668582831571124
+            ],
+            "intersection_chart_mm": [
+              -1.8011937327934766,
+              -0.01917698368067379
+            ],
+            "strict_parameter_margin": 0.03314171684288758
+          }
+        ],
+        "projection_chart": [
+          [
+            -0.7365724353881637,
+            0.13840185099085267
+          ],
+          [
+            0.5482757105780283,
+            -0.45098942927551056
+          ],
+          [
+            0.39604897754761015,
+            0.8817332149375201
+          ]
+        ],
+        "points_chart_mm": [
+          [
+            -2.4210196776674784,
+            0.1169622882240932
+          ],
+          [
+            1.9696113697870734,
+            -0.8474008833182584
+          ],
+          [
+            2.3964891221610247,
+            0.7769034157213285
+          ],
+          [
+            -1.9450808142806197,
+            -0.046464820627163325
+          ]
+        ]
+      },
+      "actual_intrinsic_3D_self_intersection": false,
+      "extrinsic_existing_contacts_touching_face": [],
+      "extrinsic_contacts_do_not_relabel_the_projection_predicate": true,
+      "whole_mesh_context_counts": {
+        "swept_or_static_broadphase_pairs": 178,
+        "rational_narrowphase_pairs": 20,
+        "legal_shared_triangle_pairs": 20
+      },
+      "can_remove_in_2D_by_changing_camera_is_not_structural_repair": true
+    },
+    "3351": {
+      "classification": "PROJECTION_ONLY_DIAGNOSTIC",
+      "native_face_id": 3351,
+      "native_cycle": [
+        123,
+        3351,
+        3361,
+        1023
+      ],
+      "world_mm": [
+        [
+          1426.4814853668213,
+          15.803899616003036,
+          483.0161929130554
+        ],
+        [
+          1426.4798164367676,
+          15.697378665208817,
+          483.5381805896759
+        ],
+        [
+          1425.6731271743774,
+          13.305358588695526,
+          481.6915988922119
+        ],
+        [
+          1425.6640672683716,
+          12.837168760597706,
+          482.0866882801056
+        ]
+      ],
+      "native_vector_sum_face_area_mm2": 0.1657343935815548,
+      "fan_triangle_area_mm2": [
+        0.7542436651078588,
+        0.8396224681040239
+      ],
+      "signed_fan_area_against_frozen_roi_outward_mm2": [
+        0.4222533587733873,
+        -0.46806383022968473
+      ],
+      "signed_orientation_reference": "ROI outward is a chart diagnostic; it is not a coordinate-free 3D inversion test. Native winding, nonzero fan area, and the continuous embedded fan complex are structural.",
+      "fan_unit_normals": [
+        [
+          0.958115200142324,
+          -0.2811847743266048,
+          -0.054317455234307574
+        ],
+        [
+          -0.9571614345038876,
+          0.19733538189165578,
+          0.21189793616770836
+        ]
+      ],
+      "fan_normal_dot": -0.9840683808740974,
+      "native_edge_ids": [
+        6695,
+        6713,
+        6705,
+        384
+      ],
+      "native_2face_incidence": {
+        "6695": [
+          3348,
+          3351
+        ],
+        "6713": [
+          2784,
+          3351
+        ],
+        "6705": [
+          3350,
+          3351
+        ],
+        "384": [
+          2189,
+          3351
+        ]
+      },
+      "manifold_edge_incidence_valid": true,
+      "intrinsic_fan_intersection": {
+        "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+        "illegal": false,
+        "exact_intersection_point_count": 2,
+        "illegal_point_count": 0,
+        "coplanar": false,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 2.941207159056349,
+        "points_world_mm": [
+          [
+            1426.4814853668213,
+            15.803899616003036,
+            483.0161929130554
+          ],
+          [
+            1425.6731271743774,
+            13.305358588695526,
+            481.6915988922119
+          ]
+        ],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      "opposite_boundary_edge_tests": [
+        {
+          "opposite_edge_offsets": [
+            0,
+            2
+          ],
+          "minimum_3D_distance_mm": 2.941207159056349,
+          "closest_parameters": [
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "opposite_edge_offsets": [
+            1,
+            3
+          ],
+          "minimum_3D_distance_mm": 0.04542410082195346,
+          "closest_parameters": [
+            0.5037347672127527,
+            0.5544926256236073
+          ]
+        }
+      ],
+      "projection_diagnostic": {
+        "flag": true,
+        "hits": [
+          {
+            "opposite_edge_offsets": [
+              1,
+              3
+            ],
+            "parameters": [
+              0.5035610958592299,
+              0.5546735244488724
+            ],
+            "intersection_chart_mm": [
+              -0.08119258586235945,
+              0.015458332574444344
+            ],
+            "strict_parameter_margin": 0.4453264755511276
+          }
+        ],
+        "projection_chart": [
+          [
+            -0.25900314528621154,
+            -0.01615408555480546
+          ],
+          [
+            -0.8590120318335884,
+            0.4609959026899766
+          ],
+          [
+            -0.44160581959138584,
+            -0.8872552187634297
+          ]
+        ],
+        "points_chart_mm": [
+          [
+            -1.493165200392684,
+            0.251364818393788
+          ],
+          [
+            -1.6317429596355133,
+            -0.2608502336458368
+          ],
+          [
+            1.4474273466556007,
+            0.2878588872381224
+          ],
+          [
+            1.6774808133725967,
+            -0.27837347198607376
+          ]
+        ]
+      },
+      "actual_intrinsic_3D_self_intersection": false,
+      "extrinsic_existing_contacts_touching_face": [
+        {
+          "face_ids": [
+            2784,
+            3351
+          ],
+          "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+          "illegal": true,
+          "exact_intersection_point_count": 2,
+          "illegal_point_count": 1,
+          "coplanar": false,
+          "coplanar_overlap_area_mm2": 0.0,
+          "intersection_segment_mm": 0.5396911341458305,
+          "points_world_mm": [
+            [
+              1425.6731271743774,
+              13.305358588695526,
+              481.6915988922119
+            ],
+            [
+              1425.7799549044394,
+              13.257770440856861,
+              482.21846673574646
+            ]
+          ],
+          "illegal_points_world_mm": [
+            [
+              1425.7799549044394,
+              13.257770440856861,
+              482.21846673574646
+            ]
+          ],
+          "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+          "triangle_indices": [
+            5569,
+            6703
+          ],
+          "shared_vertex_ids": [
+            3351,
+            3361
+          ],
+          "shared_native_edge_vertex_ids": [
+            [
+              3351,
+              3361
+            ]
+          ]
+        },
+        {
+          "face_ids": [
+            2787,
+            3351
+          ],
+          "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+          "illegal": true,
+          "exact_intersection_point_count": 2,
+          "illegal_point_count": 1,
+          "coplanar": false,
+          "coplanar_overlap_area_mm2": 0.0,
+          "intersection_segment_mm": 0.5415641267633943,
+          "points_world_mm": [
+            [
+              1425.6731271743774,
+              13.305358588695526,
+              481.6915988922119
+            ],
+            [
+              1425.7091489535187,
+              13.00078787619253,
+              482.13795168531385
+            ]
+          ],
+          "illegal_points_world_mm": [
+            [
+              1425.7091489535187,
+              13.00078787619253,
+              482.13795168531385
+            ]
+          ],
+          "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+          "triangle_indices": [
+            5574,
+            6703
+          ],
+          "shared_vertex_ids": [
+            3361
+          ],
+          "shared_native_edge_vertex_ids": []
+        }
+      ],
+      "extrinsic_contacts_do_not_relabel_the_projection_predicate": true,
+      "whole_mesh_context_counts": {
+        "swept_or_static_broadphase_pairs": 169,
+        "rational_narrowphase_pairs": 20,
+        "legal_shared_triangle_pairs": 20
+      },
+      "can_remove_in_2D_by_changing_camera_is_not_structural_repair": true
+    }
+  },
+  "semantics": "All three quads are nonplanar embedded two-triangle fans. Opposite projected edges cross, but actual boundary segments have positive separation and the fan interiors intersect only at the legal diagonal. Sharp 3D folding remains a shape diagnostic, not automatic true inversion.",
+  "absolute_projection_count_zero_is_required": false,
+  "proposed_rule": "NO_NEW_TRUE_3D_STRUCTURAL_DEFECT plus fixed-view projection-specific no-regression/human review, not absolute baseline projected flag eradication."
+}

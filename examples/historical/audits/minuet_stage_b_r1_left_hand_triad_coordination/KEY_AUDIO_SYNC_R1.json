@@ -1,0 +1,209 @@
+{
+  "source": "Existing frozen Grand VCSL Kawai sample manifest and Ogg files, CC0",
+  "offline_adapter": "Same velocity layer threshold, pitchRatio, amplitude law, 0.72 master and exponential NOTE_OFF release; deterministic PCM renderer replaces interactive browser clock. No oscillator.",
+  "shared_clock": "PERFORMANCE_TIMELINE_R1.json time at48kHz; key-down begins NOTE_ON; fingers target surface at NOTE_ON",
+  "sample_preroll_policy": "Remove leading audio before first sample exceeding max(0.0002,1% file peak), per asset once, so native recording silence does not create schedule delay. No MIDI times changed.",
+  "audio_clock_quantization_max_ms": 0.0,
+  "audible_onset_delay_max_ms": 0.0,
+  "video_sampling_quantization_max_ms": 8.333333333333334,
+  "key_down_start_vs_note_on_ms": 0,
+  "key_full_travel_after_note_on_ms": 35,
+  "polyphony_peak_held": 3,
+  "voices_scheduled": 3,
+  "note_on_count": 3,
+  "all_notes_have_voice": true,
+  "wave_peak": 0.3298910745993166,
+  "wave_rms": 0.028829657342937808,
+  "common_mix_gain": 1,
+  "clipping_samples": 0,
+  "pitch_checks": {
+    "55": {
+      "expected_hz": 195.99771799087463,
+      "measured_pitch_hz": 195.8829497644392,
+      "cents": -1.0140365850386077,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 195.8829497644392,
+          "fundamental_equivalent_hz": 195.8829497644392,
+          "amplitude": 110.37528375362076
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 391.58380506092055,
+          "fundamental_equivalent_hz": 195.79190253046028,
+          "amplitude": 90.25504765642096
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 586.7800467060437,
+          "fundamental_equivalent_hz": 195.59334890201455,
+          "amplitude": 13.075825574968952
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 782.8806874440411,
+          "fundamental_equivalent_hz": 195.72017186101027,
+          "amplitude": 15.21904951837137
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 979.9759835642216,
+          "fundamental_equivalent_hz": 195.99519671284432,
+          "amplitude": 20.60684628449433
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 1178.3020847272494,
+          "fundamental_equivalent_hz": 196.3836807878749,
+          "amplitude": 5.853865330699696
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    },
+    "59": {
+      "expected_hz": 246.94165062806206,
+      "measured_pitch_hz": 246.7827220967208,
+      "cents": -1.1145590921953545,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 246.7827220967208,
+          "fundamental_equivalent_hz": 246.7827220967208,
+          "amplitude": 96.86703407542974
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 493.0973961794614,
+          "fundamental_equivalent_hz": 246.5486980897307,
+          "amplitude": 74.84196182996956
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 738.8584214306303,
+          "fundamental_equivalent_hz": 246.28614047687677,
+          "amplitude": 11.141846812307431
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 986.2445656728988,
+          "fundamental_equivalent_hz": 246.5611414182247,
+          "amplitude": 14.56366498713904
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 1235.186277380389,
+          "fundamental_equivalent_hz": 247.03725547607777,
+          "amplitude": 22.646874277004567
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 1485.052993390076,
+          "fundamental_equivalent_hz": 247.50883223167932,
+          "amplitude": 5.6596073060217345
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    },
+    "62": {
+      "expected_hz": 293.6647679174076,
+      "measured_pitch_hz": 293.4642722561779,
+      "cents": -1.1823803803013113,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 293.4642722561779,
+          "fundamental_equivalent_hz": 293.4642722561779,
+          "amplitude": 85.43026437930467
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 586.0866573354455,
+          "fundamental_equivalent_hz": 293.04332866772273,
+          "amplitude": 62.345649424896045
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 878.7029230098358,
+          "fundamental_equivalent_hz": 292.9009743366119,
+          "amplitude": 10.846025924612324
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 1173.2666498270544,
+          "fundamental_equivalent_hz": 293.3166624567636,
+          "amplitude": 15.317508748265482
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 1469.5733577399108,
+          "fundamental_equivalent_hz": 293.91467154798215,
+          "amplitude": 24.72455274393442
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 1766.216791810433,
+          "fundamental_equivalent_hz": 294.36946530173884,
+          "amplitude": 5.190468190493504
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    }
+  },
+  "pitch_within25cents": true,
+  "voices": [
+    {
+      "note_id": "L00",
+      "midi_note": 55,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_60",
+      "source_sha256": "e01adfba9273d0de5b7916e4046d2ecfb59d0b049c80b38069f1f66e5036cc6e",
+      "root_midi": 60,
+      "pitch_ratio": 0.749153538,
+      "scheduled_on_sec": 0.35,
+      "timeline_on_sec": 0.35,
+      "note_off_sec": 1.207142,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 37,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 0.7708333333333334
+    },
+    {
+      "note_id": "L01",
+      "midi_note": 59,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_60",
+      "source_sha256": "e01adfba9273d0de5b7916e4046d2ecfb59d0b049c80b38069f1f66e5036cc6e",
+      "root_midi": 60,
+      "pitch_ratio": 0.943874313,
+      "scheduled_on_sec": 0.35,
+      "timeline_on_sec": 0.35,
+      "note_off_sec": 1.207142,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 37,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 0.7708333333333334
+    },
+    {
+      "note_id": "L02",
+      "midi_note": 62,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_60",
+      "source_sha256": "e01adfba9273d0de5b7916e4046d2ecfb59d0b049c80b38069f1f66e5036cc6e",
+      "root_midi": 60,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 0.35,
+      "timeline_on_sec": 0.35,
+      "note_off_sec": 1.207142,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 37,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 0.7708333333333334
+    }
+  ],
+  "hand_contact_sync": "NOT_VALIDATED; planned clock shared but actual geometric contact can fail",
+  "audio_status": "READY_PENDING_MUX_VALIDATION"
+}

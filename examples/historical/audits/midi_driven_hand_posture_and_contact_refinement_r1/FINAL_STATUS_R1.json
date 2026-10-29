@@ -1,0 +1,78 @@
+{
+  "Q1_Q12": [
+    {
+      "id": "Q1",
+      "question": "左手2/3/4指异常蜷曲的原因",
+      "answer": "闲置指也被独立 IK 强制拉到虚构 home 键位；自然/连续性权重极弱，固定掌位与伸距冲突。PIP约72/60/53°，中指DIP到65°边界，缺乏整手协调。"
+    },
+    {
+      "id": "Q2",
+      "question": "整手协调姿态规划",
+      "answer": "YES；共享掌坐标系、四类状态、闲置指被动随动与掌腕共同求解。"
+    },
+    {
+      "id": "Q3",
+      "question": "左手中间三指明显改善",
+      "answer": "YES；钩爪形态明显减轻。仅为本轮比较观察，不是教师批准。"
+    },
+    {
+      "id": "Q4",
+      "question": "避免强行伸直或锁死",
+      "answer": "YES；RSSF自然曲度保留，叠加小幅曲度；三指基关节全程各有约4–5°变化。"
+    },
+    {
+      "id": "Q5",
+      "question": "左手八度姿态自然",
+      "answer": "NO；可到达多数接触目标，但拇指/掌侧接触风险和持音遗漏仍在，整手自然度未通过。"
+    },
+    {
+      "id": "Q6",
+      "question": "右手原IK跳变消除",
+      "answer": "YES；原21.817°/8.33ms跳变消除，最大步进3°，原2.608s时刻也为3°；不等于所有动作已自然。"
+    },
+    {
+      "id": "Q7",
+      "question": "掌腕合理随动",
+      "answer": "NO（完整质量门槛）；已实现有界连续随动，但仍存在掌部命中和接触不稳定。"
+    },
+    {
+      "id": "Q8",
+      "question": "持音接触",
+      "answer": "RIGHT 48/240 → 160/240；LEFT 12/240 → 232/240。两手均未全程通过。"
+    },
+    {
+      "id": "Q9",
+      "question": "仍有悬浮/穿键/错键/掌腕问题",
+      "answer": "YES；持音悬空和掌部键体筛查命中仍在。演奏指未发现目标键区域错误或超过阈值的pad穿键；闲置pad另有邻键接近风险。"
+    },
+    {
+      "id": "Q10",
+      "question": "MIDI/琴键/音频同步保持",
+      "answer": "YES；时间轴、指法、键盘/marker/tolerance、WAV均字节一致，键角数组完全一致；最终AAC payload直接复制并比对一致。"
+    },
+    {
+      "id": "Q11",
+      "question": "左右肤色继续统一",
+      "answer": "YES；共用原皮肤材质和原灯光。半写实皮肤质感仍未通过，作为独立问题保留。"
+    },
+    {
+      "id": "Q12",
+      "question": "最终状态",
+      "answer": "MOTION_REFINEMENT_PARTIAL"
+    }
+  ],
+  "fields": {
+    "LEFT_IDLE_FINGERS": "IMPROVED / HUMAN_REVIEW_PENDING",
+    "HAND_WRIST_MOTION": "IMPLEMENTED / NATURALNESS_NOT_PASSED",
+    "RIGHT_IK_CONTINUITY": "ORIGINAL_JUMP_REMOVED / TEMPORAL_BOUNDS_PASS",
+    "RIGHT_HELD_CONTACT": "160/240 / FAIL",
+    "LEFT_HELD_CONTACT": "232/240 / FAIL",
+    "KEY_AUDIO_SYNC": "PASS / UNCHANGED",
+    "FINAL_STATUS": "MOTION_REFINEMENT_PARTIAL",
+    "RIGHT_R2_UNCHANGED": "YES",
+    "LEFT_R1_UNCHANGED": "YES",
+    "PIANO_BASELINE_UNCHANGED": "YES"
+  },
+  "STOP": "HUMAN REVIEW",
+  "HUMAN_PASS": false
+}

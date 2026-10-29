@@ -1,0 +1,844 @@
+{
+  "checks": {
+    "note_count": 23,
+    "right_count": 16,
+    "left_count": 7,
+    "note_message_count": 46,
+    "one_to_one_identity_binding": true,
+    "input_attributes_exactly_preserved": true,
+    "all_fingers_1_to_5": true,
+    "no_fixed_finger_hints": true,
+    "all_logits_finite": true,
+    "argmax_matches_direct_output": true,
+    "original_source_hashes_unchanged": true,
+    "raw_output_hash_unchanged": true,
+    "official_predict_calls": 1,
+    "onnx_runs": 23,
+    "profiles": [
+      {
+        "file": "onnxruntime_profile_1_2026-10-11_22-06-20.json",
+        "sha256": "b72b5e3c58e849359fa4207516ab33343a11e0b01d8044bd9e3ff726e878efe5",
+        "providers": [
+          "CPUExecutionProvider"
+        ]
+      },
+      {
+        "file": "onnxruntime_profile_2_2026-10-11_22-06-20.json",
+        "sha256": "9e456109b320dc5ac629a76fd2f9544b109e51519b7e30abc524713591e0be91",
+        "providers": [
+          "CPUExecutionProvider"
+        ]
+      }
+    ]
+  },
+  "rows": [
+    {
+      "note_id": "R00",
+      "hand": "R",
+      "note_name": "D5",
+      "midi": 74,
+      "old_finger": 5,
+      "ai_finger": 5,
+      "changed": false,
+      "on_tick": 0,
+      "off_tick": 384,
+      "source_on_sec": 0.0,
+      "source_off_sec": 0.428571,
+      "raw_output_index": 3,
+      "model_input_index": 0,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "L00",
+      "hand": "L",
+      "note_name": "G3",
+      "midi": 55,
+      "old_finger": 5,
+      "ai_finger": 5,
+      "changed": false,
+      "on_tick": 0,
+      "off_tick": 768,
+      "source_on_sec": 0.0,
+      "source_off_sec": 0.857142,
+      "raw_output_index": 0,
+      "model_input_index": 1,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "L01",
+      "hand": "L",
+      "note_name": "B3",
+      "midi": 59,
+      "old_finger": 3,
+      "ai_finger": 3,
+      "changed": false,
+      "on_tick": 0,
+      "off_tick": 768,
+      "source_on_sec": 0.0,
+      "source_off_sec": 0.857142,
+      "raw_output_index": 1,
+      "model_input_index": 2,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "L02",
+      "hand": "L",
+      "note_name": "D4",
+      "midi": 62,
+      "old_finger": 1,
+      "ai_finger": 1,
+      "changed": false,
+      "on_tick": 0,
+      "off_tick": 768,
+      "source_on_sec": 0.0,
+      "source_off_sec": 0.857142,
+      "raw_output_index": 2,
+      "model_input_index": 3,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R01",
+      "hand": "R",
+      "note_name": "G4",
+      "midi": 67,
+      "old_finger": 1,
+      "ai_finger": 1,
+      "changed": false,
+      "on_tick": 384,
+      "off_tick": 576,
+      "source_on_sec": 0.428571,
+      "source_off_sec": 0.6428564999999999,
+      "raw_output_index": 4,
+      "model_input_index": 4,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R02",
+      "hand": "R",
+      "note_name": "A4",
+      "midi": 69,
+      "old_finger": 2,
+      "ai_finger": 2,
+      "changed": false,
+      "on_tick": 576,
+      "off_tick": 768,
+      "source_on_sec": 0.6428564999999999,
+      "source_off_sec": 0.8571419999999998,
+      "raw_output_index": 5,
+      "model_input_index": 5,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R03",
+      "hand": "R",
+      "note_name": "B4",
+      "midi": 71,
+      "old_finger": 3,
+      "ai_finger": 3,
+      "changed": false,
+      "on_tick": 768,
+      "off_tick": 960,
+      "source_on_sec": 0.8571419999999998,
+      "source_off_sec": 1.0714275,
+      "raw_output_index": 6,
+      "model_input_index": 6,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "L03",
+      "hand": "L",
+      "note_name": "A3",
+      "midi": 57,
+      "old_finger": 4,
+      "ai_finger": 4,
+      "changed": false,
+      "on_tick": 768,
+      "off_tick": 1152,
+      "source_on_sec": 0.857142,
+      "source_off_sec": 1.2857129999999999,
+      "raw_output_index": 7,
+      "model_input_index": 7,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R04",
+      "hand": "R",
+      "note_name": "C5",
+      "midi": 72,
+      "old_finger": 4,
+      "ai_finger": 4,
+      "changed": false,
+      "on_tick": 960,
+      "off_tick": 1152,
+      "source_on_sec": 1.0714275,
+      "source_off_sec": 1.285713,
+      "raw_output_index": 8,
+      "model_input_index": 8,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R05",
+      "hand": "R",
+      "note_name": "D5",
+      "midi": 74,
+      "old_finger": 5,
+      "ai_finger": 5,
+      "changed": false,
+      "on_tick": 1152,
+      "off_tick": 1536,
+      "source_on_sec": 1.285713,
+      "source_off_sec": 1.714284,
+      "raw_output_index": 10,
+      "model_input_index": 9,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "L04",
+      "hand": "L",
+      "note_name": "B3",
+      "midi": 59,
+      "old_finger": 3,
+      "ai_finger": 3,
+      "changed": false,
+      "on_tick": 1152,
+      "off_tick": 2304,
+      "source_on_sec": 1.2857129999999999,
+      "source_off_sec": 2.571426,
+      "raw_output_index": 9,
+      "model_input_index": 10,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R06",
+      "hand": "R",
+      "note_name": "G4",
+      "midi": 67,
+      "old_finger": 1,
+      "ai_finger": 2,
+      "changed": true,
+      "on_tick": 1536,
+      "off_tick": 1920,
+      "source_on_sec": 1.714284,
+      "source_off_sec": 2.142855,
+      "raw_output_index": 11,
+      "model_input_index": 11,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R07",
+      "hand": "R",
+      "note_name": "G4",
+      "midi": 67,
+      "old_finger": 1,
+      "ai_finger": 1,
+      "changed": false,
+      "on_tick": 1920,
+      "off_tick": 2304,
+      "source_on_sec": 2.142855,
+      "source_off_sec": 2.571426,
+      "raw_output_index": 12,
+      "model_input_index": 12,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R08",
+      "hand": "R",
+      "note_name": "E5",
+      "midi": 76,
+      "old_finger": 5,
+      "ai_finger": 5,
+      "changed": false,
+      "on_tick": 2304,
+      "off_tick": 2688,
+      "source_on_sec": 2.571426,
+      "source_off_sec": 2.999997,
+      "raw_output_index": 14,
+      "model_input_index": 13,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "L05",
+      "hand": "L",
+      "note_name": "C4",
+      "midi": 60,
+      "old_finger": 2,
+      "ai_finger": 2,
+      "changed": false,
+      "on_tick": 2304,
+      "off_tick": 3456,
+      "source_on_sec": 2.571426,
+      "source_off_sec": 3.8571389999999997,
+      "raw_output_index": 13,
+      "model_input_index": 14,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R09",
+      "hand": "R",
+      "note_name": "C5",
+      "midi": 72,
+      "old_finger": 3,
+      "ai_finger": 2,
+      "changed": true,
+      "on_tick": 2688,
+      "off_tick": 2880,
+      "source_on_sec": 2.999997,
+      "source_off_sec": 3.2142825,
+      "raw_output_index": 15,
+      "model_input_index": 15,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R10",
+      "hand": "R",
+      "note_name": "D5",
+      "midi": 74,
+      "old_finger": 4,
+      "ai_finger": 3,
+      "changed": true,
+      "on_tick": 2880,
+      "off_tick": 3072,
+      "source_on_sec": 3.2142825,
+      "source_off_sec": 3.428568,
+      "raw_output_index": 16,
+      "model_input_index": 16,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R11",
+      "hand": "R",
+      "note_name": "E5",
+      "midi": 76,
+      "old_finger": 3,
+      "ai_finger": 4,
+      "changed": true,
+      "on_tick": 3072,
+      "off_tick": 3264,
+      "source_on_sec": 3.428568,
+      "source_off_sec": 3.6428535,
+      "raw_output_index": 17,
+      "model_input_index": 17,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R12",
+      "hand": "R",
+      "note_name": "F#5",
+      "midi": 78,
+      "old_finger": 4,
+      "ai_finger": 2,
+      "changed": true,
+      "on_tick": 3264,
+      "off_tick": 3456,
+      "source_on_sec": 3.6428535,
+      "source_off_sec": 3.857139,
+      "raw_output_index": 18,
+      "model_input_index": 18,
+      "key_color": "BLACK",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R13",
+      "hand": "R",
+      "note_name": "G5",
+      "midi": 79,
+      "old_finger": 5,
+      "ai_finger": 3,
+      "changed": true,
+      "on_tick": 3456,
+      "off_tick": 3840,
+      "source_on_sec": 3.857139,
+      "source_off_sec": 4.28571,
+      "raw_output_index": 20,
+      "model_input_index": 19,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "L06",
+      "hand": "L",
+      "note_name": "B3",
+      "midi": 59,
+      "old_finger": 3,
+      "ai_finger": 3,
+      "changed": false,
+      "on_tick": 3456,
+      "off_tick": 4608,
+      "source_on_sec": 3.8571389999999997,
+      "source_off_sec": 5.142852,
+      "raw_output_index": 19,
+      "model_input_index": 20,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R14",
+      "hand": "R",
+      "note_name": "G4",
+      "midi": 67,
+      "old_finger": 1,
+      "ai_finger": 1,
+      "changed": false,
+      "on_tick": 3840,
+      "off_tick": 4224,
+      "source_on_sec": 4.28571,
+      "source_off_sec": 4.714281,
+      "raw_output_index": 21,
+      "model_input_index": 21,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    },
+    {
+      "note_id": "R15",
+      "hand": "R",
+      "note_name": "G4",
+      "midi": 67,
+      "old_finger": 1,
+      "ai_finger": 2,
+      "changed": true,
+      "on_tick": 4224,
+      "off_tick": 4608,
+      "source_on_sec": 4.714281,
+      "source_off_sec": 5.142852,
+      "raw_output_index": 22,
+      "model_input_index": 22,
+      "key_color": "WHITE",
+      "authority": "DESIGN_PROVISIONAL"
+    }
+  ],
+  "changed_ids": [
+    "R06",
+    "R09",
+    "R10",
+    "R11",
+    "R12",
+    "R13",
+    "R15"
+  ],
+  "same_hand_overlaps": [
+    {
+      "ids": [
+        "L00",
+        "L01"
+      ],
+      "hand": "L",
+      "midi": [
+        55,
+        59
+      ],
+      "fingers": [
+        5,
+        3
+      ],
+      "overlap_ticks": 768
+    },
+    {
+      "ids": [
+        "L00",
+        "L02"
+      ],
+      "hand": "L",
+      "midi": [
+        55,
+        62
+      ],
+      "fingers": [
+        5,
+        1
+      ],
+      "overlap_ticks": 768
+    },
+    {
+      "ids": [
+        "L01",
+        "L02"
+      ],
+      "hand": "L",
+      "midi": [
+        59,
+        62
+      ],
+      "fingers": [
+        3,
+        1
+      ],
+      "overlap_ticks": 768
+    }
+  ],
+  "simultaneous_note_pairs": [
+    {
+      "ids": [
+        "L00",
+        "L01"
+      ],
+      "fingers": [
+        5,
+        3
+      ]
+    },
+    {
+      "ids": [
+        "L00",
+        "L02"
+      ],
+      "fingers": [
+        5,
+        1
+      ]
+    },
+    {
+      "ids": [
+        "L01",
+        "L02"
+      ],
+      "fingers": [
+        3,
+        1
+      ]
+    }
+  ],
+  "same_finger_different_key_overlap_conflicts": [],
+  "transitions": [
+    {
+      "ids": [
+        "L02",
+        "L03"
+      ],
+      "hand": "L",
+      "pitch_delta_semitones": -5,
+      "fingers": [
+        1,
+        4
+      ],
+      "onset_delta_ms": 857.1419999999999,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "L03",
+        "L04"
+      ],
+      "hand": "L",
+      "pitch_delta_semitones": 2,
+      "fingers": [
+        4,
+        3
+      ],
+      "onset_delta_ms": 428.5709999999999,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "L04",
+        "L05"
+      ],
+      "hand": "L",
+      "pitch_delta_semitones": 1,
+      "fingers": [
+        3,
+        2
+      ],
+      "onset_delta_ms": 1285.7130000000004,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "L05",
+        "L06"
+      ],
+      "hand": "L",
+      "pitch_delta_semitones": -1,
+      "fingers": [
+        2,
+        3
+      ],
+      "onset_delta_ms": 1285.7129999999995,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R00",
+        "R01"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": -7,
+      "fingers": [
+        5,
+        1
+      ],
+      "onset_delta_ms": 428.57099999999997,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": true,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R01",
+        "R02"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 2,
+      "fingers": [
+        1,
+        2
+      ],
+      "onset_delta_ms": 214.28549999999996,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R02",
+        "R03"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 2,
+      "fingers": [
+        2,
+        3
+      ],
+      "onset_delta_ms": 214.2854999999999,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R03",
+        "R04"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 1,
+      "fingers": [
+        3,
+        4
+      ],
+      "onset_delta_ms": 214.28550000000013,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R04",
+        "R05"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 2,
+      "fingers": [
+        4,
+        5
+      ],
+      "onset_delta_ms": 214.28550000000013,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R05",
+        "R06"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": -7,
+      "fingers": [
+        5,
+        2
+      ],
+      "onset_delta_ms": 428.5709999999998,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": true,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R06",
+        "R07"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 0,
+      "fingers": [
+        2,
+        1
+      ],
+      "onset_delta_ms": 428.571,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": true,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R07",
+        "R08"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 9,
+      "fingers": [
+        1,
+        5
+      ],
+      "onset_delta_ms": 428.57100000000025,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": true,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R08",
+        "R09"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": -4,
+      "fingers": [
+        5,
+        2
+      ],
+      "onset_delta_ms": 428.5709999999998,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R09",
+        "R10"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 2,
+      "fingers": [
+        2,
+        3
+      ],
+      "onset_delta_ms": 214.2854999999999,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R10",
+        "R11"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 2,
+      "fingers": [
+        3,
+        4
+      ],
+      "onset_delta_ms": 214.2854999999999,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R11",
+        "R12"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 2,
+      "fingers": [
+        4,
+        2
+      ],
+      "onset_delta_ms": 214.28550000000035,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": true
+    },
+    {
+      "ids": [
+        "R12",
+        "R13"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 1,
+      "fingers": [
+        2,
+        3
+      ],
+      "onset_delta_ms": 214.2854999999999,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R13",
+        "R14"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": -12,
+      "fingers": [
+        3,
+        1
+      ],
+      "onset_delta_ms": 428.5709999999998,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": false,
+      "large_melodic_leap": true,
+      "non_thumb_direction_reversal": false
+    },
+    {
+      "ids": [
+        "R14",
+        "R15"
+      ],
+      "hand": "R",
+      "pitch_delta_semitones": 0,
+      "fingers": [
+        1,
+        2
+      ],
+      "onset_delta_ms": 428.5709999999998,
+      "release_gap_ms": 0.0,
+      "repeated_pitch": true,
+      "large_melodic_leap": false,
+      "non_thumb_direction_reversal": false
+    }
+  ]
+}

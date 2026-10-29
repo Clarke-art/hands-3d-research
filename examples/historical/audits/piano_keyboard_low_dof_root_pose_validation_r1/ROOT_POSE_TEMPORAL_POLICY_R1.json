@@ -1,0 +1,13 @@
+{
+  "XYZ": "same previous global421-observation second-difference regularization; lambda=(.080*60)^4",
+  "lambda_xyz": 530.8416,
+  "orientation": "cubic cardinal B-spline control points every12 observations (0.200s); C2 continuous, bounds apply to every control point so convex combination stays bounded",
+  "orientation_second_difference_lambda": 530.8416,
+  "orientation_residual_metres_per_radian": 0.12344412967200158,
+  "orientation_prior": "weak zero external rotation penalty0.01 relative to temporal term; source heading corridor as DOF policy",
+  "coefficient_spacing_observations": 12,
+  "optimization": "single initialization0 orientation; one global variable-projection Gauss-Newton solve per hand/model; XYZ eliminated exactly for each orientation iterate. Max40 iterations, line search [1,.5,.25,.125,.0625], convergence1e-7rad. No restart, sweep or fit-dependent parameter changes.",
+  "root_translation_step_limit_mm_per_60Hz": 10,
+  "orientation_step_limit_deg_per_60Hz": 2.2071289335102677,
+  "same_for_all_segments_hands": true
+}

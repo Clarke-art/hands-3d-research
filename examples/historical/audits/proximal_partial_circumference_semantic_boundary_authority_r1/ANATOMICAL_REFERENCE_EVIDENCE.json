@@ -1,0 +1,60 @@
+{
+  "review_date": "2026-10-03",
+  "scope": "One targeted first-web/MCP/thenar reference-check session; no general anatomy search or mesh ownership mapping.",
+  "local_reference_check": {
+    "project_reference_directory": "references/hand_r_canonical_ai",
+    "rejected_as_anatomical_truth": "Generated AI canonical views and unregistered model thumbnails are not anatomical authority.",
+    "existing_reliable_pack": "production_spec\\stage5_production_rig\\stage5b_r1e_manual_anatomical_reference_review_r1",
+    "existing_landmark_registration_status": "PENDING_HUMAN_REGISTRATION",
+    "anatomical_context_sufficient_for_focused_human_review": true,
+    "exact_mesh_role_mapping_sufficient": false
+  },
+  "sources": [
+    {
+      "id": "LOCAL_DORSAL",
+      "source": "Sciencia58, Hand male both sides",
+      "url": "https://commons.wikimedia.org/wiki/File:Hand_male_both_sides.jpg",
+      "local_path": "production_spec\\stage5_production_rig\\stage5b_r1e_manual_anatomical_reference_review_r1\\references\\male_both_sides.jpg",
+      "sha256": "4484dc6b1eb3843ced7828d03e1419aafe7b23aa3db59020268ec1944fc67cd2",
+      "license": "CC BY-SA 4.0",
+      "what_it_supports": "Externally visible dorsal thumb/index/commissure organization; use only right-hand dorsal panel.",
+      "what_it_does_not_support": "Internal joint centres, exact thenar boundary or any mesh face ID; a different hand with pending registration."
+    },
+    {
+      "id": "LOCAL_PALMAR",
+      "source": "Sciencia58, Hand female 5",
+      "url": "https://commons.wikimedia.org/wiki/File:Hand_female_5.jpg",
+      "local_path": "production_spec\\stage5_production_rig\\stage5b_r1e_manual_anatomical_reference_review_r1\\references\\Hand female 5.jpg",
+      "sha256": "322800e4b0a1b9ee79b896462e1fb081991000466622a60aa7a23751bf3216c9",
+      "license": "CC BY-SA 4.0",
+      "what_it_supports": "Palmar first-web/thenar surface appearance, not a registered anatomical boundary.",
+      "what_it_does_not_support": "Model face ID, hidden CMC location or transfer of a crease into a stop authority."
+    },
+    {
+      "id": "KAPANDJI1986",
+      "source": "A. Kapandji, Functional anatomy of the first web space, Ann Chir Main 5(2):158–165",
+      "publication_date": "1986",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3767503/",
+      "doi": "10.1016/S0753-9053(86)80033-3",
+      "access_date": "2026-10-03",
+      "access_level": "Primary indexed English abstract retrieved via web search; direct page fetch encountered CAPTCHA; full text not inspected.",
+      "what_it_supports": "First-web function involves trapeziometacarpal structure, first dorsal interosseous/adductor pollicis/fascial relationships, web integument and thenar aponeurotic system.",
+      "what_it_does_not_support": "One universal skin-row boundary, this asset’s face IDs, or selection A/B/C."
+    },
+    {
+      "id": "CADAVER2024",
+      "source": "Measurement and observation of the first web space based on morphology and clinical applications",
+      "publication_date": "2024; indexed publication date not otherwise verified",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39084025/",
+      "access_date": "2026-10-03",
+      "access_level": "Primary PubMed indexed abstract excerpt from targeted search; direct page fetch encountered CAPTCHA; full text not inspected.",
+      "what_it_supports": "Cadaver skin morphology may be an asymmetric quadrilateral toward the index side; palmar-abduction pose matters in its measurement.",
+      "what_it_does_not_support": "A cylindrical sector test, exact P03/P04/P05 boundary, or anatomical registration of this mesh."
+    }
+  ],
+  "not_used_as_new_normal_anatomy_authority": [
+    "Clinical WashU postoperative image: scar/occlusion and no redistribution permission; link retained in old pack but not embedded or used to define the normal boundary.",
+    "Unverified commercial, AI, Pinterest or source-free anatomy images."
+  ],
+  "no_external_image_registered_to_mesh": true
+}

@@ -1,0 +1,64 @@
+{
+  "status": "PASS_FINITE_SCREEN",
+  "samples": 348,
+  "sampling_hz": 240,
+  "vertex_count": 3300,
+  "key_count": 88,
+  "deep_screen_mm": 3,
+  "target_keys": {
+    "40": {
+      "key": "E2",
+      "status": "NO_SAMPLED_VERTEX_PENETRATION",
+      "unique_vertex_count": 0,
+      "vertex_ids": [],
+      "max_vertical_depth_mm": 0,
+      "max_minimum_exit_distance_mm": 0,
+      "observed_intervals": [],
+      "deep_over_3mm_record_count": 0,
+      "dominant_bones": [],
+      "rows": [],
+      "human_visible_severity": "NO_NORMAL_VIEW_INTRUSION_IN_AGENT_PRECHECK / HUMAN_PENDING"
+    },
+    "42": {
+      "key": "F#2",
+      "status": "NO_SAMPLED_VERTEX_PENETRATION",
+      "unique_vertex_count": 0,
+      "vertex_ids": [],
+      "max_vertical_depth_mm": 0,
+      "max_minimum_exit_distance_mm": 0,
+      "observed_intervals": [],
+      "deep_over_3mm_record_count": 0,
+      "dominant_bones": [],
+      "rows": [],
+      "human_visible_severity": "NO_NORMAL_VIEW_INTRUSION_IN_AGENT_PRECHECK / HUMAN_PENDING"
+    }
+  },
+  "all_deep_hits": [],
+  "all_positive_penetration_summary": {
+    "38": {
+      "unique_vertices": [
+        1745
+      ],
+      "times": [
+        0.6958333333333333,
+        0.7,
+        1.0166666666666666,
+        1.02,
+        1.0208333333333333,
+        1.1958333333333333,
+        1.2,
+        1.5166666666666666,
+        1.52,
+        1.5208333333333333,
+        1.525
+      ],
+      "max_vertical_depth_mm": 0.014322875864615706,
+      "max_minimum_exit_mm": 0.014322875864615706
+    }
+  },
+  "other_key_deep_hits": {},
+  "wrong_pad_contacts": [],
+  "minimum_palm_projected_gap_mm": 1.0010959993763098,
+  "E2_FSHARP2_zero_positive_vertex_penetrations": true,
+  "limitations": "Finite vertices against verified frozen rectangular key pieces; not exhaustive triangle intersection certification. Vertical depth and minimum exit distance differ. Small invisible residuals are not automatically major product defects."
+}

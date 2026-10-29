@@ -1,0 +1,132 @@
+{
+  "status": "PASS",
+  "source": {
+    "path": "audits/official_l1_first_web_targeted_deformation_fix_r1/RIGHT_HAND_OFFICIAL_L1_FIRST_WEB_TUNED_DESIGN_ONLY_R1.blend",
+    "sha256": "783a1b8fe414298cb442aa94d72161a3b2f3d5a95c39a341a6885e943e6dea1b"
+  },
+  "baseline": {
+    "path": "production_spec/right_hand_product_baseline_r1/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend",
+    "sha256": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2"
+  },
+  "source_review_evidence_match": "PASS",
+  "verified_evidence_file_count": 60,
+  "file_clean_reopen": "PASS",
+  "saved_pose": "ZERO / RSSF",
+  "basis_mesh_weights_groups_rest_bones_hierarchy_joint_layout_UV_modifiers_transforms_exact": true,
+  "materials_exact": true,
+  "shape_keys_delta_drivers_exact": true,
+  "bone_count": 21,
+  "mesh_vertex_count": 3300,
+  "face_count": 3298,
+  "group_count": 16,
+  "deform_bones": 16,
+  "non_deform_tip_helpers": [
+    "THUMB_TIP_R",
+    "INDEX_TIP_R",
+    "MIDDLE_TIP_R",
+    "RING_TIP_R",
+    "LITTLE_TIP_R"
+  ],
+  "corrective_key_count": 1,
+  "driver_count": 1,
+  "corrective_values_at_saved_ZERO": [
+    0.0
+  ],
+  "NaN_Inf": 0,
+  "source_baseline_ZERO_max_error_mm": 0.0,
+  "zero_restore_test": "Already approved FULL_OPP_L3 once, then reset all pose transforms; no full Stage6 matrix",
+  "ZERO_RESTORE": "PASS",
+  "zero_restore_max_error_mm": 0.0,
+  "geometry_repairs": 0,
+  "weight_repairs": 0,
+  "correctives_added": 0,
+  "source_sha256_after": "783a1b8fe414298cb442aa94d72161a3b2f3d5a95c39a341a6885e943e6dea1b",
+  "approved_payload_sha256": "68e836f29c581b550f1b22b489ca42360b1f20ff7a418d6d0ab54e420e75f1d4",
+  "approved_shape_driver_sha256": "bd160aef46c8c34b4cd41caed9f53666a2cdedcf5020ea8f911fc027fff012a2",
+  "render_records": [
+    {
+      "asset": "BASELINE",
+      "pose": "ZERO",
+      "view": "PALMAR_FULL",
+      "path": "renders/BASELINE__ZERO__PALMAR_FULL.png",
+      "camera": {
+        "center": [
+          1.4109452962875366,
+          0.01410907506942749,
+          0.4163133502006531
+        ],
+        "direction": [
+          -0.6312891244888306,
+          -0.7753188014030457,
+          0.018838699907064438
+        ],
+        "ortho_scale_m": 0.325543663029305,
+        "resolution": [
+          1200,
+          1100
+        ]
+      },
+      "same_camera_current_candidate": true,
+      "all_native_faces_present": true,
+      "display_only_smooth_shading": true,
+      "neutral_material": true,
+      "cavity": false
+    },
+    {
+      "asset": "BASELINE",
+      "pose": "ZERO",
+      "view": "DORSAL_FULL",
+      "path": "renders/BASELINE__ZERO__DORSAL_FULL.png",
+      "camera": {
+        "center": [
+          1.4109452962875366,
+          0.01410907506942749,
+          0.4163133502006531
+        ],
+        "direction": [
+          0.6312891244888306,
+          0.7753188014030457,
+          -0.018838699907064438
+        ],
+        "ortho_scale_m": 0.325543663029305,
+        "resolution": [
+          1200,
+          1100
+        ]
+      },
+      "same_camera_current_candidate": true,
+      "all_native_faces_present": true,
+      "display_only_smooth_shading": true,
+      "neutral_material": true,
+      "cavity": false
+    },
+    {
+      "asset": "BASELINE",
+      "pose": "ZERO",
+      "view": "THENAR_CLOSE",
+      "path": "renders/BASELINE__ZERO__THENAR_CLOSE.png",
+      "camera": {
+        "center": [
+          1.4450702667236328,
+          0.017767906188964844,
+          0.408737450838089
+        ],
+        "direction": [
+          -0.3818395435810089,
+          -0.9240524768829346,
+          0.018044201657176018
+        ],
+        "ortho_scale_m": 0.135,
+        "resolution": [
+          1200,
+          1100
+        ]
+      },
+      "same_camera_current_candidate": true,
+      "all_native_faces_present": true,
+      "display_only_smooth_shading": true,
+      "neutral_material": true,
+      "cavity": false
+    }
+  ]
+}

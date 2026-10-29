@@ -1,0 +1,137 @@
+{
+  "old_motion_sha256": "489a767be2fc89af65308a965a4c9f203ce0e1867715ecd7b9be10b590fe8ab6",
+  "old_plan_sha256": "12e103a8fc33e05d885b40706bbd2fb49ef90305851b5ed61d1e4cacb5cfb1a5",
+  "peak_joint_speed": {
+    "time_before": 3.625,
+    "time_after": 3.6333333333333333,
+    "digit": "MIDDLE",
+    "joint_component": 1,
+    "speed_deg_sec": -1677.5992249729716,
+    "q_before_deg": [
+      6.5015590815204005,
+      18.885115466243974,
+      7.675600115804808,
+      -6.732024530525769
+    ],
+    "q_after_deg": [
+      3.7706856133333515,
+      4.905121924802595,
+      2.0161967649193175,
+      -6.758151708198077
+    ],
+    "nearby_events": [
+      {
+        "midi_note": 72,
+        "channel": 0,
+        "on_tick": 2688,
+        "off_tick": 2880,
+        "velocity": 90,
+        "note_id": "R09",
+        "hand": "R",
+        "finger": 3,
+        "key_index": 51,
+        "measure": 3,
+        "note_on": 3.299997,
+        "note_off": 3.5142824999999998,
+        "note_name": "C5",
+        "key_color": "WHITE"
+      },
+      {
+        "midi_note": 74,
+        "channel": 0,
+        "on_tick": 2880,
+        "off_tick": 3072,
+        "velocity": 90,
+        "note_id": "R10",
+        "hand": "R",
+        "finger": 4,
+        "key_index": 53,
+        "measure": 3,
+        "note_on": 3.5142824999999998,
+        "note_off": 3.7285679999999997,
+        "note_name": "D5",
+        "key_color": "WHITE"
+      },
+      {
+        "midi_note": 76,
+        "channel": 0,
+        "on_tick": 3072,
+        "off_tick": 3264,
+        "velocity": 90,
+        "note_id": "R11",
+        "hand": "R",
+        "finger": 3,
+        "key_index": 55,
+        "measure": 3,
+        "note_on": 3.7285679999999997,
+        "note_off": 3.9428535,
+        "note_name": "E5",
+        "key_color": "WHITE"
+      }
+    ]
+  },
+  "last_root_transition": {
+    "start": 4.3857099999999996,
+    "end": 4.66571,
+    "from_delta": [
+      -0.024671246614037145,
+      0.006,
+      -0.002
+    ],
+    "to_delta": [
+      -0.09603505488692256,
+      -0.005,
+      -0.002
+    ],
+    "boundary_note": "R14",
+    "distance_mm": 72.20660032995008
+  },
+  "G5_original_event": {
+    "midi_note": 79,
+    "channel": 0,
+    "on_tick": 3456,
+    "off_tick": 3840,
+    "velocity": 90,
+    "note_id": "R13",
+    "hand": "R",
+    "finger": 5,
+    "key_index": 58,
+    "measure": 4,
+    "note_on": 4.157139,
+    "note_off": 4.58571,
+    "note_name": "G5",
+    "key_color": "WHITE"
+  },
+  "confirmed_early_root_duration_sec": 0.20000000000000018,
+  "early_shift_fraction_of_G5_duration": 0.4666671333338006,
+  "repeated_key_limits": [
+    {
+      "previous": "R06",
+      "next": "R07",
+      "note": "G4",
+      "key_pressure_min_after_retrigger": 0.8099469716362102,
+      "issue": "Inherited max-of-release/attack key envelope does not rebound between abutting repeated notes; audio does retrigger. Preserved and explicitly FAIL, no timing rewrite."
+    },
+    {
+      "previous": "R14",
+      "next": "R15",
+      "note": "G4",
+      "key_pressure_min_after_retrigger": 0.871727729327989,
+      "issue": "Inherited max-of-release/attack key envelope does not rebound between abutting repeated notes; audio does retrigger. Preserved and explicitly FAIL, no timing rewrite."
+    }
+  ],
+  "coarse_static_lateral_envelopes": [
+    {
+      "finger": 1,
+      "x_min_m": -0.10779536589275937,
+      "x_max_m": -0.014045509313595347
+    },
+    {
+      "finger": 5,
+      "x_min_m": 0.05830854362720454,
+      "x_max_m": 0.09938447815134155
+    }
+  ],
+  "coarse_possible_thumb_little_span_mm": 207.17984404410092,
+  "actual_octave_key_center_span_mm": 167.56935582100002
+}

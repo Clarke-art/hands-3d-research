@@ -1,0 +1,22 @@
+{
+  "repairs": [
+    {
+      "error": "bpy_prop_array has no copy()",
+      "fix": "Capture pose-state property lists without altering exact source quaternion values."
+    },
+    {
+      "error": "Key pivot.location not evaluated before assigning child.matrix_world; child local matrix left identity, producing erroneous extra translation. Fix explicit inverse-pivot child basis; no motion/planner/parameter changes.",
+      "fix": "Explicit child.matrix_basis=T(-pivot)@original_world; per120Hz actual world-vertex parity added."
+    }
+  ],
+  "solver_rerun": false,
+  "policy_sha256_before_after": "00a39c16e9a42b89a1fa2f43c83c4d55225c87d5bd642087da94af66e9c1eeba",
+  "policy_unchanged": true,
+  "trajectory_sha256_before": "c76bd141c73e8bcc0b8fb2646a0d7890d1e3b14601a645ac705db524f06032e0",
+  "trajectory_sha256_after": "c76bd141c73e8bcc0b8fb2646a0d7890d1e3b14601a645ac705db524f06032e0",
+  "candidate_before_code_fix_sha256": "5c74a5f9b62c425285e58a066c14fa475453d76d5431176b27891d7c2d42f1be",
+  "candidate_after_code_fix_sha256": "664a0702637e7c3d7aef6b4ba260d8b464f87c9704aa2d4b56b8492d01492284",
+  "same_candidate_implementation_repair": true,
+  "old_erroneous_images_replaced": true,
+  "parameter_changes": false
+}

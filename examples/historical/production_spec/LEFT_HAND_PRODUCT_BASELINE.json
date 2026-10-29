@@ -1,0 +1,45 @@
+{
+  "authority": "Direct Human final left-hand production approval, 2026-10-07 Asia/Shanghai",
+  "PREVIOUS_PRODUCTION_BASELINE": "NONE",
+  "CURRENT_PRODUCTION_BASELINE": "R1",
+  "LEFT_HAND_PRODUCT_BASELINE_STATUS": "HUMAN_APPROVED_FROZEN",
+  "LEFT_HAND_PRODUCT_BASELINE_R1": "HUMAN_APPROVED_FROZEN",
+  "asset": {
+    "path": "production_spec/left_hand_product_baseline_r1/LEFT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend",
+    "sha256": "54307bb199a75a5e684c29d346de9ca6bf2f8e7696911d9d69c57559516ad1a7",
+    "status": "HUMAN_APPROVED_FROZEN"
+  },
+  "source": {
+    "path": "audits/left_hand_canonical_mirror_baseline_r1/LEFT_HAND_OFFICIAL_L1_MIRROR_CANDIDATE_R1.blend",
+    "sha256": "c31190de326c5af44baf876f4066a130c8a9fef42d6c71c0071de5f63f0f2750"
+  },
+  "source_identity": "Official L1",
+  "vertex_count": 3300,
+  "face_count": 3298,
+  "bone_count": 21,
+  "deform_bone_count": 16,
+  "non_deform_TIP": [
+    "THUMB_TIP_L",
+    "INDEX_TIP_L",
+    "MIDDLE_TIP_L",
+    "RING_TIP_L",
+    "LITTLE_TIP_L"
+  ],
+  "LEFT_WEIGHT_FIELD_IDENTITY": "EXACT_MATCH",
+  "weight_field_sha256": "88de68b7db5de12342ef1cd8ef72d9b7a206e41033d17f95342c33f1cf1de8de",
+  "WEIGHT_FIELD_MIRROR_PARITY": "EXACT_SEMANTIC_MIRROR_MATCH",
+  "CORRECTIVE_MIRROR_PARITY": "PASS",
+  "LEFT_HAND_CANONICAL_MIRROR": "CLOSED",
+  "LEFT_HAND_STATIC_DEFORMATION_BASELINE": "CLOSED",
+  "LEFT_HAND_READY_FOR_REAL_MOTION_STAGE": "YES",
+  "SOURCE_CANONICAL_MASTER": "RIGHT_HAND_PRODUCT_BASELINE_R2",
+  "MIRROR_SOURCE_SHA256": "c946fed318fa88c238d9aacc30cfb4e52f268848f0ad65a4dcbf594754d791f0",
+  "MIRROR_PLANE": "WRIST rest-local X=0",
+  "MIRROR_SPACE": "ARMATURE_DATA -> MESH_DATA conjugation",
+  "status": "production_spec/left_hand_product_baseline_r1/LEFT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1_STATUS.json",
+  "report": "audits/left_hand_product_baseline_r1_promotion_r1/LEFT_HAND_PRODUCT_BASELINE_R1_PROMOTION_R1_REPORT.md",
+  "promotion_record": "audits/left_hand_product_baseline_r1_promotion_r1/PROMOTION_IDENTITY_R1.json",
+  "human_approval_record": "audits/left_hand_product_baseline_r1_promotion_r1/HUMAN_APPROVAL_BIND_R1.json",
+  "real_motion_started": false,
+  "Web_export_started": false
+}

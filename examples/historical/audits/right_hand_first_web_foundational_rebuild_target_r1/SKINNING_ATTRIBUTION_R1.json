@@ -1,0 +1,555 @@
+{
+  "phase": "RIGHT_HAND_FIRST_WEB_FOUNDATIONAL_REBUILD_TARGET_R1",
+  "mode": "READ_ONLY_SKINNING_ATTRIBUTION",
+  "blend_written": false,
+  "frame": 130,
+  "time_seconds": 15.8,
+  "skin_reproduction_max_error_mm": 4152.082250119273,
+  "skin_reproduction_note": "Independent LBS reconstruction vs Blender evaluated mesh. Small error confirms the attribution below uses the real deformation, not a model.",
+  "patch_core_bone": "WRIST_R",
+  "patch_local_edges": 268,
+  "patch_quads": 120,
+  "rest_edge_len_mm": {
+    "median": 4.125,
+    "min": 2.328,
+    "max": 6.17
+  },
+  "aggregate": {
+    "edges_above_1x": 37,
+    "edges_above_2x": 21,
+    "edges_above_4x": 8,
+    "residual_above_2x_after_bulk_rigid": 251,
+    "residual_above_4x_after_bulk_rigid": 207,
+    "of_total_local_edges": 268,
+    "interpretation": "If most of the stretch survives after removing bulk rig motion, the fold is the patch being pulled apart by its own weight field, not the grid being too coarse for a rigid motion."
+  },
+  "worst_edges": [
+    {
+      "edge": [
+        2035,
+        646
+      ],
+      "rest_mm": 3.573,
+      "actual_ratio": 7.159,
+      "residual_ratio_after_bulk_rigid": 38.157,
+      "weights_a": {
+        "WRIST_R": 0.447,
+        "THUMB_CMC_R": 0.271,
+        "THUMB_MCP_R": 0.037,
+        "INDEX_PIP_R": 0.123,
+        "INDEX_DIP_R": 0.122
+      },
+      "weights_b": {
+        "WRIST_R": 0.406,
+        "THUMB_CMC_R": 0.393,
+        "THUMB_MCP_R": 0.059,
+        "INDEX_MCP_R": 0.143
+      },
+      "weight_l1": 0.5725,
+      "n_bones_a": 5,
+      "n_bones_b": 4
+    },
+    {
+      "edge": [
+        2035,
+        3143
+      ],
+      "rest_mm": 3.712,
+      "actual_ratio": 6.432,
+      "residual_ratio_after_bulk_rigid": 50.903,
+      "weights_a": {
+        "WRIST_R": 0.447,
+        "THUMB_CMC_R": 0.271,
+        "THUMB_MCP_R": 0.037,
+        "INDEX_PIP_R": 0.123,
+        "INDEX_DIP_R": 0.122
+      },
+      "weights_b": {
+        "WRIST_R": 0.482,
+        "THUMB_CMC_R": 0.282,
+        "THUMB_MCP_R": 0.045,
+        "INDEX_MCP_R": 0.191
+      },
+      "weight_l1": 0.49,
+      "n_bones_a": 5,
+      "n_bones_b": 4
+    },
+    {
+      "edge": [
+        2041,
+        2852
+      ],
+      "rest_mm": 3.631,
+      "actual_ratio": 6.209,
+      "residual_ratio_after_bulk_rigid": 31.179,
+      "weights_a": {
+        "WRIST_R": 0.458,
+        "THUMB_CMC_R": 0.357,
+        "THUMB_MCP_R": 0.058,
+        "INDEX_MCP_R": 0.128
+      },
+      "weights_b": {
+        "WRIST_R": 0.51,
+        "THUMB_CMC_R": 0.241,
+        "THUMB_MCP_R": 0.028,
+        "INDEX_MCP_R": 0.006,
+        "INDEX_PIP_R": 0.107,
+        "INDEX_DIP_R": 0.107
+      },
+      "weight_l1": 0.5331,
+      "n_bones_a": 4,
+      "n_bones_b": 6
+    },
+    {
+      "edge": [
+        388,
+        2031
+      ],
+      "rest_mm": 3.435,
+      "actual_ratio": 5.848,
+      "residual_ratio_after_bulk_rigid": 29.22,
+      "weights_a": {
+        "WRIST_R": 0.572,
+        "THUMB_CMC_R": 0.185,
+        "THUMB_MCP_R": 0.045,
+        "INDEX_PIP_R": 0.099,
+        "INDEX_DIP_R": 0.098
+      },
+      "weights_b": {
+        "WRIST_R": 0.517,
+        "THUMB_CMC_R": 0.279,
+        "THUMB_MCP_R": 0.052,
+        "INDEX_MCP_R": 0.152
+      },
+      "weight_l1": 0.506,
+      "n_bones_a": 5,
+      "n_bones_b": 4
+    },
+    {
+      "edge": [
+        1525,
+        2825
+      ],
+      "rest_mm": 3.617,
+      "actual_ratio": 5.481,
+      "residual_ratio_after_bulk_rigid": 29.331,
+      "weights_a": {
+        "WRIST_R": 0.581,
+        "THUMB_CMC_R": 0.177,
+        "THUMB_MCP_R": 0.051,
+        "INDEX_PIP_R": 0.096,
+        "INDEX_DIP_R": 0.095
+      },
+      "weights_b": {
+        "WRIST_R": 0.545,
+        "THUMB_CMC_R": 0.273,
+        "THUMB_MCP_R": 0.053,
+        "INDEX_MCP_R": 0.129
+      },
+      "weight_l1": 0.4544,
+      "n_bones_a": 5,
+      "n_bones_b": 4
+    },
+    {
+      "edge": [
+        1566,
+        3143
+      ],
+      "rest_mm": 3.407,
+      "actual_ratio": 5.133,
+      "residual_ratio_after_bulk_rigid": 22.527,
+      "weights_a": {
+        "WRIST_R": 0.572,
+        "THUMB_CMC_R": 0.187,
+        "THUMB_MCP_R": 0.035,
+        "INDEX_MCP_R": 0.033,
+        "INDEX_PIP_R": 0.087,
+        "INDEX_DIP_R": 0.086
+      },
+      "weights_b": {
+        "WRIST_R": 0.482,
+        "THUMB_CMC_R": 0.282,
+        "THUMB_MCP_R": 0.045,
+        "INDEX_MCP_R": 0.191
+      },
+      "weight_l1": 0.5252,
+      "n_bones_a": 6,
+      "n_bones_b": 4
+    },
+    {
+      "edge": [
+        645,
+        1577
+      ],
+      "rest_mm": 3.752,
+      "actual_ratio": 4.795,
+      "residual_ratio_after_bulk_rigid": 20.718,
+      "weights_a": {
+        "WRIST_R": 0.561,
+        "THUMB_CMC_R": 0.271,
+        "THUMB_MCP_R": 0.07,
+        "INDEX_MCP_R": 0.098
+      },
+      "weights_b": {
+        "WRIST_R": 0.596,
+        "THUMB_CMC_R": 0.18,
+        "THUMB_MCP_R": 0.024,
+        "INDEX_MCP_R": 0.034,
+        "INDEX_PIP_R": 0.083,
+        "INDEX_DIP_R": 0.083
+      },
+      "weight_l1": 0.4022,
+      "n_bones_a": 4,
+      "n_bones_b": 6
+    },
+    {
+      "edge": [
+        1447,
+        338
+      ],
+      "rest_mm": 3.878,
+      "actual_ratio": 4.362,
+      "residual_ratio_after_bulk_rigid": 23.794,
+      "weights_a": {
+        "WRIST_R": 0.592,
+        "THUMB_CMC_R": 0.26,
+        "THUMB_MCP_R": 0.047,
+        "INDEX_MCP_R": 0.101
+      },
+      "weights_b": {
+        "WRIST_R": 0.63,
+        "THUMB_CMC_R": 0.166,
+        "THUMB_MCP_R": 0.048,
+        "INDEX_PIP_R": 0.078,
+        "INDEX_DIP_R": 0.078
+      },
+      "weight_l1": 0.3911,
+      "n_bones_a": 4,
+      "n_bones_b": 5
+    },
+    {
+      "edge": [
+        338,
+        1550
+      ],
+      "rest_mm": 3.989,
+      "actual_ratio": 3.999,
+      "residual_ratio_after_bulk_rigid": 50.401,
+      "weights_a": {
+        "WRIST_R": 0.63,
+        "THUMB_CMC_R": 0.166,
+        "THUMB_MCP_R": 0.048,
+        "INDEX_PIP_R": 0.078,
+        "INDEX_DIP_R": 0.078
+      },
+      "weights_b": {
+        "WRIST_R": 0.691,
+        "THUMB_CMC_R": 0.104,
+        "THUMB_MCP_R": 0.037,
+        "INDEX_MCP_R": 0.169
+      },
+      "weight_l1": 0.4593,
+      "n_bones_a": 5,
+      "n_bones_b": 4
+    },
+    {
+      "edge": [
+        338,
+        1448
+      ],
+      "rest_mm": 4.616,
+      "actual_ratio": 3.752,
+      "residual_ratio_after_bulk_rigid": 30.684,
+      "weights_a": {
+        "WRIST_R": 0.63,
+        "THUMB_CMC_R": 0.166,
+        "THUMB_MCP_R": 0.048,
+        "INDEX_PIP_R": 0.078,
+        "INDEX_DIP_R": 0.078
+      },
+      "weights_b": {
+        "WRIST_R": 0.714,
+        "THUMB_CMC_R": 0.15,
+        "THUMB_MCP_R": 0.034,
+        "INDEX_MCP_R": 0.102
+      },
+      "weight_l1": 0.3735,
+      "n_bones_a": 5,
+      "n_bones_b": 4
+    },
+    {
+      "edge": [
+        2042,
+        3145
+      ],
+      "rest_mm": 3.936,
+      "actual_ratio": 3.391,
+      "residual_ratio_after_bulk_rigid": 13.784,
+      "weights_a": {
+        "WRIST_R": 0.713,
+        "THUMB_CMC_R": 0.164,
+        "THUMB_MCP_R": 0.07,
+        "INDEX_MCP_R": 0.053
+      },
+      "weights_b": {
+        "WRIST_R": 0.713,
+        "THUMB_CMC_R": 0.1,
+        "THUMB_MCP_R": 0.017,
+        "INDEX_MCP_R": 0.05,
+        "INDEX_PIP_R": 0.059,
+        "INDEX_DIP_R": 0.059
+      },
+      "weight_l1": 0.2377,
+      "n_bones_a": 4,
+      "n_bones_b": 6
+    },
+    {
+      "edge": [
+        1525,
+        2892
+      ],
+      "rest_mm": 3.798,
+      "actual_ratio": 3.282,
+      "residual_ratio_after_bulk_rigid": 46.314,
+      "weights_a": {
+        "WRIST_R": 0.581,
+        "THUMB_CMC_R": 0.177,
+        "THUMB_MCP_R": 0.051,
+        "INDEX_PIP_R": 0.096,
+        "INDEX_DIP_R": 0.095
+      },
+      "weights_b": {
+        "WRIST_R": 0.658,
+        "THUMB_CMC_R": 0.111,
+        "THUMB_MCP_R": 0.039,
+        "INDEX_MCP_R": 0.124,
+        "INDEX_PIP_R": 0.035,
+        "INDEX_DIP_R": 0.034
+      },
+      "weight_l1": 0.4006,
+      "n_bones_a": 5,
+      "n_bones_b": 6
+    },
+    {
+      "edge": [
+        1875,
+        388
+      ],
+      "rest_mm": 3.689,
+      "actual_ratio": 3.061,
+      "residual_ratio_after_bulk_rigid": 46.285,
+      "weights_a": {
+        "WRIST_R": 0.657,
+        "THUMB_CMC_R": 0.115,
+        "THUMB_MCP_R": 0.035,
+        "INDEX_MCP_R": 0.108,
+        "INDEX_PIP_R": 0.043,
+        "INDEX_DIP_R": 0.042
+      },
+      "weights_b": {
+        "WRIST_R": 0.572,
+        "THUMB_CMC_R": 0.185,
+        "THUMB_MCP_R": 0.045,
+        "INDEX_PIP_R": 0.099,
+        "INDEX_DIP_R": 0.098
+      },
+      "weight_l1": 0.386,
+      "n_bones_a": 6,
+      "n_bones_b": 5
+    },
+    {
+      "edge": [
+        414,
+        2035
+      ],
+      "rest_mm": 3.467,
+      "actual_ratio": 2.973,
+      "residual_ratio_after_bulk_rigid": 52.545,
+      "weights_a": {
+        "WRIST_R": 0.574,
+        "THUMB_CMC_R": 0.176,
+        "THUMB_MCP_R": 0.025,
+        "INDEX_MCP_R": 0.076,
+        "INDEX_PIP_R": 0.075,
+        "INDEX_DIP_R": 0.074
+      },
+      "weights_b": {
+        "WRIST_R": 0.447,
+        "THUMB_CMC_R": 0.271,
+        "THUMB_MCP_R": 0.037,
+        "INDEX_PIP_R": 0.123,
+        "INDEX_DIP_R": 0.122
+      },
+      "weight_l1": 0.4051,
+      "n_bones_a": 6,
+      "n_bones_b": 5
+    },
+    {
+      "edge": [
+        1567,
+        2852
+      ],
+      "rest_mm": 3.63,
+      "actual_ratio": 2.68,
+      "residual_ratio_after_bulk_rigid": 48.252,
+      "weights_a": {
+        "WRIST_R": 0.633,
+        "THUMB_CMC_R": 0.149,
+        "THUMB_MCP_R": 0.016,
+        "INDEX_MCP_R": 0.079,
+        "INDEX_PIP_R": 0.062,
+        "INDEX_DIP_R": 0.061
+      },
+      "weights_b": {
+        "WRIST_R": 0.51,
+        "THUMB_CMC_R": 0.241,
+        "THUMB_MCP_R": 0.028,
+        "INDEX_MCP_R": 0.006,
+        "INDEX_PIP_R": 0.107,
+        "INDEX_DIP_R": 0.107
+      },
+      "weight_l1": 0.3902,
+      "n_bones_a": 6,
+      "n_bones_b": 6
+    },
+    {
+      "edge": [
+        1566,
+        3084
+      ],
+      "rest_mm": 3.668,
+      "actual_ratio": 2.435,
+      "residual_ratio_after_bulk_rigid": 41.516,
+      "weights_a": {
+        "WRIST_R": 0.572,
+        "THUMB_CMC_R": 0.187,
+        "THUMB_MCP_R": 0.035,
+        "INDEX_MCP_R": 0.033,
+        "INDEX_PIP_R": 0.087,
+        "INDEX_DIP_R": 0.086
+      },
+      "weights_b": {
+        "WRIST_R": 0.673,
+        "THUMB_CMC_R": 0.115,
+        "THUMB_MCP_R": 0.027,
+        "INDEX_MCP_R": 0.103,
+        "INDEX_PIP_R": 0.042,
+        "INDEX_DIP_R": 0.041
+      },
+      "weight_l1": 0.3418,
+      "n_bones_a": 6,
+      "n_bones_b": 6
+    },
+    {
+      "edge": [
+        415,
+        1677
+      ],
+      "rest_mm": 3.879,
+      "actual_ratio": 2.28,
+      "residual_ratio_after_bulk_rigid": 31.924,
+      "weights_a": {
+        "WRIST_R": 0.716,
+        "THUMB_CMC_R": 0.105,
+        "THUMB_MCP_R": 0.01,
+        "INDEX_MCP_R": 0.077,
+        "INDEX_PIP_R": 0.047,
+        "INDEX_DIP_R": 0.046
+      },
+      "weights_b": {
+        "WRIST_R": 0.805,
+        "THUMB_CMC_R": 0.054,
+        "THUMB_MCP_R": 0.007,
+        "INDEX_MCP_R": 0.133
+      },
+      "weight_l1": 0.2925,
+      "n_bones_a": 6,
+      "n_bones_b": 4
+    },
+    {
+      "edge": [
+        1955,
+        414
+      ],
+      "rest_mm": 3.661,
+      "actual_ratio": 2.184,
+      "residual_ratio_after_bulk_rigid": 37.922,
+      "weights_a": {
+        "WRIST_R": 0.697,
+        "THUMB_CMC_R": 0.106,
+        "THUMB_MCP_R": 0.017,
+        "INDEX_MCP_R": 0.112,
+        "INDEX_PIP_R": 0.034,
+        "INDEX_DIP_R": 0.034
+      },
+      "weights_b": {
+        "WRIST_R": 0.574,
+        "THUMB_CMC_R": 0.176,
+        "THUMB_MCP_R": 0.025,
+        "INDEX_MCP_R": 0.076,
+        "INDEX_PIP_R": 0.075,
+        "INDEX_DIP_R": 0.074
+      },
+      "weight_l1": 0.3185,
+      "n_bones_a": 6,
+      "n_bones_b": 6
+    },
+    {
+      "edge": [
+        1577,
+        415
+      ],
+      "rest_mm": 3.77,
+      "actual_ratio": 2.077,
+      "residual_ratio_after_bulk_rigid": 37.317,
+      "weights_a": {
+        "WRIST_R": 0.596,
+        "THUMB_CMC_R": 0.18,
+        "THUMB_MCP_R": 0.024,
+        "INDEX_MCP_R": 0.034,
+        "INDEX_PIP_R": 0.083,
+        "INDEX_DIP_R": 0.083
+      },
+      "weights_b": {
+        "WRIST_R": 0.716,
+        "THUMB_CMC_R": 0.105,
+        "THUMB_MCP_R": 0.01,
+        "INDEX_MCP_R": 0.077,
+        "INDEX_PIP_R": 0.047,
+        "INDEX_DIP_R": 0.046
+      },
+      "weight_l1": 0.3256,
+      "n_bones_a": 6,
+      "n_bones_b": 6
+    },
+    {
+      "edge": [
+        2033,
+        644
+      ],
+      "rest_mm": 4.124,
+      "actual_ratio": 2.048,
+      "residual_ratio_after_bulk_rigid": 19.869,
+      "weights_a": {
+        "WRIST_R": 0.853,
+        "THUMB_CMC_R": 0.024,
+        "THUMB_MCP_R": 0.008,
+        "INDEX_MCP_R": 0.042,
+        "INDEX_PIP_R": 0.036,
+        "INDEX_DIP_R": 0.036
+      },
+      "weights_b": {
+        "WRIST_R": 0.841,
+        "THUMB_CMC_R": 0.1,
+        "THUMB_MCP_R": 0.046,
+        "INDEX_MCP_R": 0.013
+      },
+      "weight_l1": 0.2271,
+      "n_bones_a": 6,
+      "n_bones_b": 4
+    }
+  ],
+  "frozen_baseline_sha256": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+  "blend_files_written": 0,
+  "ZERO_restore_max_mm": 0.0
+}

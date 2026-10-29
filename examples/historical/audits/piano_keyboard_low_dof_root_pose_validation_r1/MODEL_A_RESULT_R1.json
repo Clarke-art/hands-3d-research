@@ -1,0 +1,165 @@
+{
+  "model": "A",
+  "executed": true,
+  "machine_gates": {
+    "multi_note_placement": true,
+    "predicted_contact_substantially_improved": false,
+    "collision_reduction": false,
+    "continuity": true,
+    "geometric_failures_not_many": true,
+    "Human_visible_precheck": false
+  },
+  "summary": {
+    "R": {
+      "note_on_measured": 39,
+      "note_on_contacts_within_policy": 7,
+      "prior_note_on_pass": 9,
+      "onset_improvement_percentage_points": -5.128205128205129,
+      "max_vertical_gap_mm": 17.49985111173957,
+      "median_vertical_gap_mm": 4.996355438081961,
+      "penetrating_note_ons": 14,
+      "floating_note_ons": 9,
+      "groups": {
+        "SINGLE_NOTE": {
+          "observations": 189,
+          "labeled_all_pass": 70,
+          "unlabeled_strict_feasible": 71,
+          "unlabeled_coarse_feasible": 169,
+          "horizontal_depth_feasible": 187,
+          "attribution_counts": {
+            "NO_FAILURE": 70,
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 98,
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 18,
+            "ROOT_POSE_GEOMETRIC_FAILURE": 2,
+            "LIKELY_FINGERING_LABEL_CONFLICT": 1
+          }
+        },
+        "2_NOTE_CLUSTER": {
+          "observations": 37,
+          "labeled_all_pass": 1,
+          "unlabeled_strict_feasible": 1,
+          "unlabeled_coarse_feasible": 27,
+          "horizontal_depth_feasible": 36,
+          "attribution_counts": {
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 26,
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 9,
+            "ROOT_POSE_GEOMETRIC_FAILURE": 1,
+            "NO_FAILURE": 1
+          }
+        },
+        "3_PLUS_NOTE_CLUSTER": {
+          "observations": 1,
+          "labeled_all_pass": 0,
+          "unlabeled_strict_feasible": 0,
+          "unlabeled_coarse_feasible": 0,
+          "horizontal_depth_feasible": 1,
+          "attribution_counts": {
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 1
+          }
+        }
+      },
+      "multinote_observations": 38,
+      "multinote_coarse_feasible_fraction": 0.7105263157894737,
+      "multinote_horizontal_feasible_fraction": 0.9736842105263158,
+      "multinote_failed_observations": 37,
+      "failure_counts": {
+        "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 26,
+        "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 10,
+        "ROOT_POSE_GEOMETRIC_FAILURE": 1
+      },
+      "likely_fingering_conflict_failure_fraction": 0.0,
+      "depth_approach_failure_fraction": 0.2702702702702703,
+      "root_geometric_failure_fraction": 0.02702702702702703,
+      "palm_collision_observations": 107,
+      "wrist_collision_observations": 0,
+      "mesh_collision_observations": 288,
+      "max_translation_step_mm": 6.071715143034587,
+      "max_orientation_step_deg": 1.679361180865355,
+      "continuity_locked_limits_pass": true,
+      "numeric_finite": true
+    },
+    "L": {
+      "note_on_measured": 26,
+      "note_on_contacts_within_policy": 3,
+      "prior_note_on_pass": 4,
+      "onset_improvement_percentage_points": -3.8461538461538463,
+      "max_vertical_gap_mm": 14.362871855900051,
+      "median_vertical_gap_mm": 5.32847474268143,
+      "penetrating_note_ons": 6,
+      "floating_note_ons": 0,
+      "groups": {
+        "SINGLE_NOTE": {
+          "observations": 235,
+          "labeled_all_pass": 173,
+          "unlabeled_strict_feasible": 174,
+          "unlabeled_coarse_feasible": 229,
+          "horizontal_depth_feasible": 235,
+          "attribution_counts": {
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 55,
+            "NO_FAILURE": 173,
+            "LIKELY_FINGERING_LABEL_CONFLICT": 1,
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 6
+          }
+        },
+        "2_NOTE_CLUSTER": {
+          "observations": 80,
+          "labeled_all_pass": 3,
+          "unlabeled_strict_feasible": 3,
+          "unlabeled_coarse_feasible": 63,
+          "horizontal_depth_feasible": 73,
+          "attribution_counts": {
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 60,
+            "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 10,
+            "NO_FAILURE": 3,
+            "ROOT_POSE_GEOMETRIC_FAILURE": 7
+          }
+        },
+        "3_PLUS_NOTE_CLUSTER": {
+          "observations": 2,
+          "labeled_all_pass": 0,
+          "unlabeled_strict_feasible": 0,
+          "unlabeled_coarse_feasible": 1,
+          "horizontal_depth_feasible": 1,
+          "attribution_counts": {
+            "ROOT_POSE_GEOMETRIC_FAILURE": 1,
+            "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 1
+          }
+        }
+      },
+      "multinote_observations": 82,
+      "multinote_coarse_feasible_fraction": 0.7804878048780488,
+      "multinote_horizontal_feasible_fraction": 0.9024390243902439,
+      "multinote_failed_observations": 79,
+      "failure_counts": {
+        "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 61,
+        "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 10,
+        "ROOT_POSE_GEOMETRIC_FAILURE": 8
+      },
+      "likely_fingering_conflict_failure_fraction": 0.0,
+      "depth_approach_failure_fraction": 0.12658227848101267,
+      "root_geometric_failure_fraction": 0.10126582278481013,
+      "palm_collision_observations": 212,
+      "wrist_collision_observations": 0,
+      "mesh_collision_observations": 416,
+      "max_translation_step_mm": 4.383208841783769,
+      "max_orientation_step_deg": 1.3565920909200315,
+      "continuity_locked_limits_pass": true,
+      "numeric_finite": true
+    }
+  },
+  "collision_reduction_fraction": 0.1470588235294118,
+  "status": "FAIL",
+  "independent_contact_validation": false,
+  "Action_and_source_labels_mutated": false,
+  "whole_hand_placement_secondary_summary": {
+    "R": {
+      "multi_note_observations": 38,
+      "coarse_coverage_and_no_palm_wrist_collision": 27
+    },
+    "L": {
+      "multi_note_observations": 82,
+      "coarse_coverage_and_no_palm_wrist_collision": 20
+    }
+  },
+  "visual_precheck": "FAIL; Human decision pending"
+}

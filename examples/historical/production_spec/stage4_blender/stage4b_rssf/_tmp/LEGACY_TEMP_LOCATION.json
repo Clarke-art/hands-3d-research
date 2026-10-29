@@ -1,0 +1,23 @@
+{
+ "marker": "LEGACY_TEMP_LOCATION",
+ "status": "KEEP_IN_PLACE_UNTIL_HUMAN_REVIEW",
+ "authorised_by": "Human Review, STAGE4B_POST_INCIDENT_INTEGRITY_AUDIT",
+ "directory": "production_spec/stage4_blender/stage4b_rssf/renders/",
+ "reason": "these single-side frames predate the TEMP_OUTPUT_ISOLATION patch and live in the FINAL render directory.  Per instruction they are MARKED ONLY -- not moved, not deleted.  Do not treat them as deliverables.  Do not delete them either.",
+ "superseded_by": "stage4b_rssf/_tmp/  (TEMP_RENDER_OUTPUT_DIR as of this audit)",
+ "rule_from_now_on": "single-side frames are written ONLY to _tmp/; renders/ receives ONLY RSSF_BEFORE_AFTER_*.png, RSSF_CMC_CLOSEUP.png, RSSF_SKELETON_OVERLAY.png",
+ "count": 10,
+ "files": [
+  "RSSF_AFT_CMC.png",
+  "RSSF_AFT_DORSAL.png",
+  "RSSF_AFT_OBLIQUE.png",
+  "RSSF_AFT_PALMAR.png",
+  "RSSF_AFT_RADIAL.png",
+  "RSSF_BEF_CMC.png",
+  "RSSF_BEF_DORSAL.png",
+  "RSSF_BEF_OBLIQUE.png",
+  "RSSF_BEF_PALMAR.png",
+  "RSSF_BEF_RADIAL.png"
+ ],
+ "decision_pending": "after Human Review: move to _tmp/ or keep in place"
+}

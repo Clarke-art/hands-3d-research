@@ -1,0 +1,305 @@
+{
+  "execution": "CAP_DERIVED_THUMB_KINEMATIC_AUTHORITY_REVALIDATION_R1",
+  "coordinate_space": "world_m and armature-local_m separately; roll is actual EditBone.roll, NOT Euler Y",
+  "slots": [
+    {
+      "slot": "THUMB_IP_R.head",
+      "current_numeric": [
+        1.450860857963562,
+        0.006127120926976204,
+        0.4640011489391327
+      ],
+      "current_world_m": [
+        1.450860857963562,
+        0.006127120926976204,
+        0.4640011489391327
+      ],
+      "current_armature_local_m": [
+        0.042156219482421875,
+        -0.016267918050289154,
+        0.12815365195274353
+      ],
+      "current_roll_deg": null,
+      "builder_source": [
+        {
+          "path": "production_spec\\stage4_blender\\scripts\\stage4b_rssf_r2.py",
+          "sha256": "b0b0650fc47853dec1237c168c33e8543a87c8359fff8490cfd7e9b97f7a612d",
+          "lines": [
+            161,
+            195
+          ],
+          "role": "Approved axial locator method; reexecuted on RSSF, no stale numeric result consumed"
+        },
+        {
+          "path": "production_spec\\stage4_blender\\scripts\\stage4b_rssf_r2.py",
+          "sha256": "b0b0650fc47853dec1237c168c33e8543a87c8359fff8490cfd7e9b97f7a612d",
+          "lines": [
+            221,
+            227
+          ],
+          "role": "Original independent thumb joint locator"
+        },
+        {
+          "path": "production_spec\\stage4_blender\\scripts\\stage4c_r2_frame.py",
+          "sha256": "fe67e456f1888b0c2c1f7e0f0953771823bd5a5fd958e00e37418711edfc426a",
+          "lines": [
+            18,
+            42
+          ],
+          "role": "Historical extraction provenance only; JSON numeric authority NOT reused"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_build.py",
+          "sha256": "63f01f7bba714c246ce283942a1ff5684c13748ddc6f65655a262a5bde2d506c",
+          "lines": [
+            89,
+            91
+          ],
+          "role": "H(n) historical value path"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_build.py",
+          "sha256": "63f01f7bba714c246ce283942a1ff5684c13748ddc6f65655a262a5bde2d506c",
+          "lines": [
+            110,
+            146
+          ],
+          "role": "IP head inherits H(n); parent hierarchy"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_build.py",
+          "sha256": "63f01f7bba714c246ce283942a1ff5684c13748ddc6f65655a262a5bde2d506c",
+          "lines": [
+            185,
+            190
+          ],
+          "role": "World to armature local coordinates"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            245,
+            260
+          ],
+          "role": "R2A three endpoint writes and align_roll; no IP-head assignment"
+        }
+      ],
+      "input_provenance": "Stage4B native axial joint locator -> posed frozen frame -> R1 -> R2 H(IP) -> R2A unchanged; historical origin only, independently tested here",
+      "direct_old_cap_REP_dependency": false,
+      "indirect_old_cap_REP_dependency": false,
+      "independent_of_old_REP": true,
+      "independent_component": "whole head lineage",
+      "verdict": "REVALIDATED_UNCHANGED",
+      "evidence_basis": "Independent RSSF axial/IP section and true loops; current point is central within method resolution, 16/16 radial containment and 6.220 mm clearance. Exact centroid equality is NOT claimed."
+    },
+    {
+      "slot": "THUMB_IP_R.tail",
+      "current_numeric": [
+        1.452817440032959,
+        0.019802358001470566,
+        0.49302834272384644
+      ],
+      "current_world_m": [
+        1.452817440032959,
+        0.019802358001470566,
+        0.49302834272384644
+      ],
+      "current_armature_local_m": [
+        0.04411280155181885,
+        -0.002592680975794792,
+        0.15718084573745728
+      ],
+      "current_roll_deg": null,
+      "builder_source": [
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            163,
+            190
+          ],
+          "role": "Contaminated REP generation, source inspected only; selector not executed"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            245,
+            260
+          ],
+          "role": "R2A three endpoint writes and align_roll; no IP-head assignment"
+        }
+      ],
+      "input_provenance": "REP (old posed cap selector) -> IP tail / TIP head; TIP tail = REP + 0.30*(REP-P)",
+      "direct_old_cap_REP_dependency": true,
+      "indirect_old_cap_REP_dependency": false,
+      "independent_of_old_REP": false,
+      "independent_component": null,
+      "verdict": "CHANGE_REQUIRED",
+      "evidence_basis": "Mapped native terminal tip v284 in approved RSSF, compatible with explicit fingertip surface-landmark contract; cap37 corroborates membership only."
+    },
+    {
+      "slot": "THUMB_IP_R.roll",
+      "current_numeric": 2.469186782836914,
+      "current_world_m": null,
+      "current_armature_local_m": null,
+      "current_roll_deg": 141.4739814860409,
+      "builder_source": [
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            163,
+            190
+          ],
+          "role": "Contaminated REP generation, source inspected only; selector not executed"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            245,
+            260
+          ],
+          "role": "R2A three endpoint writes and align_roll; no IP-head assignment"
+        }
+      ],
+      "input_provenance": "REP-dependent +Y and independent approved nail dorsal DORSAL[thumb] -> align_roll",
+      "direct_old_cap_REP_dependency": false,
+      "indirect_old_cap_REP_dependency": true,
+      "independent_of_old_REP": false,
+      "independent_component": "nail normal input only",
+      "verdict": "CHANGE_REQUIRED",
+      "evidence_basis": "Projected approved thumb nail normal onto independently corrected distal axis; right-handed orthonormal XYZ. Recomputed roll, no flip."
+    },
+    {
+      "slot": "THUMB_TIP_R.head",
+      "current_numeric": [
+        1.452817440032959,
+        0.019802358001470566,
+        0.49302834272384644
+      ],
+      "current_world_m": [
+        1.452817440032959,
+        0.019802358001470566,
+        0.49302834272384644
+      ],
+      "current_armature_local_m": [
+        0.04411280155181885,
+        -0.002592680975794792,
+        0.15718084573745728
+      ],
+      "current_roll_deg": null,
+      "builder_source": [
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            163,
+            190
+          ],
+          "role": "Contaminated REP generation, source inspected only; selector not executed"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            245,
+            260
+          ],
+          "role": "R2A three endpoint writes and align_roll; no IP-head assignment"
+        }
+      ],
+      "input_provenance": "REP (old posed cap selector) -> IP tail / TIP head; TIP tail = REP + 0.30*(REP-P)",
+      "direct_old_cap_REP_dependency": true,
+      "indirect_old_cap_REP_dependency": false,
+      "independent_of_old_REP": false,
+      "independent_component": null,
+      "verdict": "CHANGE_REQUIRED",
+      "evidence_basis": "Mapped native terminal tip v284 in approved RSSF, compatible with explicit fingertip surface-landmark contract; cap37 corroborates membership only."
+    },
+    {
+      "slot": "THUMB_TIP_R.tail",
+      "current_numeric": [
+        1.453404426574707,
+        0.02390492893755436,
+        0.5017365217208862
+      ],
+      "current_world_m": [
+        1.453404426574707,
+        0.02390492893755436,
+        0.5017365217208862
+      ],
+      "current_armature_local_m": [
+        0.044699788093566895,
+        0.0015098899602890015,
+        0.16588902473449707
+      ],
+      "current_roll_deg": null,
+      "builder_source": [
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            163,
+            190
+          ],
+          "role": "Contaminated REP generation, source inspected only; selector not executed"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            245,
+            260
+          ],
+          "role": "R2A three endpoint writes and align_roll; no IP-head assignment"
+        }
+      ],
+      "input_provenance": "REP (old posed cap selector) -> IP tail / TIP head; TIP tail = REP + 0.30*(REP-P)",
+      "direct_old_cap_REP_dependency": true,
+      "indirect_old_cap_REP_dependency": false,
+      "independent_of_old_REP": false,
+      "independent_component": null,
+      "verdict": "CHANGE_REQUIRED",
+      "evidence_basis": "Existing helper tail convention: mapped terminal + 0.30*(mapped terminal - independently revalidated IP head)."
+    },
+    {
+      "slot": "THUMB_TIP_R.roll",
+      "current_numeric": 2.4691882133483887,
+      "current_world_m": null,
+      "current_armature_local_m": null,
+      "current_roll_deg": 141.47406344831094,
+      "builder_source": [
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            163,
+            190
+          ],
+          "role": "Contaminated REP generation, source inspected only; selector not executed"
+        },
+        {
+          "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+          "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+          "lines": [
+            245,
+            260
+          ],
+          "role": "R2A three endpoint writes and align_roll; no IP-head assignment"
+        }
+      ],
+      "input_provenance": "REP-dependent +Y and independent approved nail dorsal DORSAL[thumb] -> align_roll",
+      "direct_old_cap_REP_dependency": false,
+      "indirect_old_cap_REP_dependency": true,
+      "independent_of_old_REP": false,
+      "independent_component": "nail normal input only",
+      "verdict": "CHANGE_REQUIRED",
+      "evidence_basis": "Projected approved thumb nail normal onto independently corrected distal axis; right-handed orthonormal XYZ. Recomputed roll, no flip."
+    }
+  ],
+  "old_REP_current_authority": "NO",
+  "forbidden_evidence_used_as_proof": []
+}

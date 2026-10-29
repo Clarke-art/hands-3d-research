@@ -1,0 +1,89 @@
+{
+  "phase": "PIANO_KEYBOARD_SPATIAL_ANCHOR_AND_CONTACT_VALIDATION_R1",
+  "Q1_Q17": {
+    "Q1": {
+      "answer": "YES",
+      "detail": "88键来自V1.1G Human accepted frozen Grand；C0批准复用文件字节一致。"
+    },
+    "Q2": {
+      "answer": "YES",
+      "detail": "21=A0，60=C4，69=A4，108=C8；88唯一键，52白/36黑，实际几何低→高方向递增。"
+    },
+    "Q3": {
+      "answer": "YES",
+      "detail": "PERFORMANCE_TIMELINE_R1已建立；92相交音符、179窗口事件、421运动观测，同一时基。"
+    },
+    "Q4": {
+      "answer": "AUTO_PREDICTED",
+      "detail": "RIGHT；本地Fingering目录，非Fingering_GT；不伪造置信度。"
+    },
+    "Q5": {
+      "answer": "AUTO_PREDICTED",
+      "detail": "LEFT；同上。手侧标签亦为自动预测。"
+    },
+    "Q6": {
+      "answer": "NO",
+      "detail": "RIGHT外部root候选已求出，但接触/碰撞失败，不能认定可信安装。"
+    },
+    "Q7": {
+      "answer": "NO",
+      "detail": "LEFT外部root候选已求出，但接触/碰撞失败，不能认定可信安装。"
+    },
+    "Q8": {
+      "answer": "NO",
+      "detail": "完整7秒候选包含明显离键、穿键及姿态问题；代理可见检查不替代Human批准。"
+    },
+    "Q9": {
+      "answer": "YES",
+      "detail": "每个MIDI音符查唯一权威physical key，包括指法未知音符。"
+    },
+    "Q10": {
+      "answer": "PARTIAL",
+      "detail": "可测起音：R9/39、L4/26符合预锁定容差；多数失败，不构成接触验证。"
+    },
+    "Q11": {
+      "answer": "PARTIAL",
+      "detail": "全部用同一整手root；同时持音观测R2/38、L4/82全部满足容差。固定朝向下R1、L8个观测连宽松横向可行域都为空。"
+    },
+    "Q12": {
+      "answer": "YES",
+      "detail": "存在wrong-key alignment、floating、penetration；掌部/右腕有键体穿入筛查命中。没有>10mm/60Hz的root jump。"
+    },
+    "Q13": {
+      "answer": "YES",
+      "detail": "统一时间轴驱动继承的pivot/travel/profile；60Hz预览有1个极短音无持键采样，明确保留限制。"
+    },
+    "Q14": {
+      "answer": "YES",
+      "detail": "精确NOTE_ON/OFF、音高、力度、时间、初始held状态及PEDAL接口齐全；该源MIDI未发现踏板事件。"
+    },
+    "Q15": {
+      "answer": "DEFERRED",
+      "detail": "LEFT快弯保留；已有接触失败，尚不能把根安装/标签/2.5D误差排除后单独归因于fast bend。"
+    },
+    "Q16": {
+      "answer": "DEFERRED",
+      "detail": "RIGHT同上；未修改Action、做IK或调单指。"
+    },
+    "Q17": {
+      "answer": "PIANO_KEYBOARD_SPATIAL_ANCHOR_BLOCKED",
+      "detail": "本轮固定朝向+平滑XYZ候选不能满足可信接触安装；不是所有可能静态朝向均不可能的证明。"
+    }
+  },
+  "KEYBOARD_AUTHORITY": "V1_1G_HUMAN_ACCEPTED_FROZEN_GRAND_88_KEY_PERFORMANCE_LAYER / V1_2C0_HUMAN_APPROVED_EQUIVALENT",
+  "KEYBOARD_SOURCE_SHA256": "712b1d697fab438b1ea575712e848640992a0313179448efb929d33c9891710a",
+  "KEY_COUNT": 88,
+  "PERFORMANCE_TIMELINE": "READY",
+  "RIGHT_ROOT_ANCHOR": "CANDIDATE_BUILT_NOT_VALIDATED",
+  "LEFT_ROOT_ANCHOR": "CANDIDATE_BUILT_NOT_VALIDATED",
+  "CONTACT_EVIDENCE": "CONTACT_EVIDENCE_PARTIAL / PREDICTED_ASSIGNMENTS / FIT_FAILED",
+  "KEY_EVENT_ANIMATION": "READY_WITH_DOCUMENTED_60HZ_PREVIEW_LIMIT",
+  "AUDIO_EVENT_INTERFACE_READY": "YES",
+  "LEFT_FINGERTIP_FAST_BEND": "PRESENT / DEFERRED",
+  "RIGHT_FINGERTIP_FAST_BEND": "PRESENT / DEFERRED",
+  "FINAL_STATUS": "PIANO_KEYBOARD_SPATIAL_ANCHOR_BLOCKED",
+  "HAND_BASELINES_UNCHANGED": "YES",
+  "PIANO_BASELINE_UNCHANGED": "YES",
+  "STOP": "HUMAN REVIEW",
+  "Human_approval": "PENDING"
+}

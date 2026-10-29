@@ -1,0 +1,50 @@
+{
+  "started": "2026-10-15T11:21:43+00:00",
+  "recorded_summary": "2026-10-15T11:38:31.719105+00:00",
+  "wall_seconds_to_summary": 1008.719105,
+  "baseline_probe_seconds": 3.900241200000437,
+  "actual_edit_seconds": 3.1190174000003026,
+  "local_render_seconds": 10.14687929999991,
+  "local_encoding_and_media_check_seconds": 4.042232199999944,
+  "real_complete_QC_seconds": 98.66537089999929,
+  "successful_complete_QC_process_seconds": 101.35374059999958,
+  "failed_incomplete_QC_process_seconds": 11.767887200000587,
+  "ordinary_media_bug_failed_process_seconds": 2.1510941,
+  "processes": [
+    {
+      "stage": "baseline_b01",
+      "seconds": 9.22890099999995,
+      "returncode": 0
+    },
+    {
+      "stage": "edit_b01_once",
+      "seconds": 4.231452300000001,
+      "returncode": 0
+    },
+    {
+      "stage": "render_local",
+      "seconds": 11.157567499999914,
+      "returncode": 0
+    },
+    {
+      "stage": "validate_b01_once",
+      "seconds": 11.767887200000587,
+      "returncode": 7
+    },
+    {
+      "stage": "validate_b01_once",
+      "seconds": 101.35374059999958,
+      "returncode": 0
+    }
+  ],
+  "bug_notes": [
+    "FFmpeg duration arguments required leading zero (0.9,0.85); no output produced at failure",
+    "Diagnostic assumed identical evaluated quad triangulation; one sample changed diagonals. Fixed to use each real pose triangulation and disabled cache across changed triangle vertices. Same motion SHA, one completed full QC."
+  ],
+  "curve_retries": 0,
+  "parameter_retries": 0,
+  "formal_candidates": 1,
+  "completed_geometry_passes": 1,
+  "optimizer_calls": 0,
+  "time_note": "Wall time includes reading, source verification, scripting, visual sequence inspection and bug handling; stage seconds are measured runtimes. No Human editing performed."
+}

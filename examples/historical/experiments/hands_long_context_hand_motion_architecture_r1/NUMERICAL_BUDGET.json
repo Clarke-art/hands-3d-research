@@ -1,0 +1,31 @@
+{
+  "limit_seconds": 600,
+  "stages": [
+    {
+      "name": "high_level_intent_and_fk",
+      "script": "analyze_failure_and_propose.py",
+      "wall_seconds": 3.360000000000582,
+      "cap_seconds": 70.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "high_level_adapter",
+      "script": "analyze_failure_and_propose.py",
+      "wall_seconds": 2.9060000000026776,
+      "cap_seconds": 70.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "serialized_intent_adapter_replay",
+      "script": "intent_rig_adapter.py",
+      "wall_seconds": 1.1569999999992433,
+      "cap_seconds": 70,
+      "exit_code": 0,
+      "status": "COMPLETED_SAME_TWO_CANDIDATES_NO_SEARCH"
+    }
+  ],
+  "total_seconds": 7.423000000002503,
+  "under_budget": true
+}

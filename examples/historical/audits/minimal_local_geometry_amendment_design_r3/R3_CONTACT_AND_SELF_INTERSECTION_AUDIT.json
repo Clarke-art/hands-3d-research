@@ -1,0 +1,2673 @@
+{
+  "scope": "All changed-incident native fan triangles against the entire3414-face source; shared topology excluded only at actual common vertex/edge. Zero unchanged/unchanged motion, so new contacts must touch this scope.",
+  "existing_source_contacts_are_disclosed": true,
+  "not_FullStage6A_requalification": true,
+  "solves": {
+    "R3_A_S3_V2": {
+      "new_exact_contact_count": 0,
+      "new_self_intersection_family_count": 0,
+      "float64_vectorized_point_segment_coplanar_audit": {
+        "pairs_tested": 1604,
+        "baseline_pairs_tested": 1606,
+        "introduced_pairs": [],
+        "baseline_existing_local_family_count": 8,
+        "baseline_existing_local_face_pairs": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "final_local_pairs": [
+          {
+            "face_ids": [
+              205,
+              207
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.13696985297017275,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              205,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.16293045098767084,
+            "away_from_shared_contact_mm": 0.16293045928379848,
+            "shared_vertex_ids": [
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              207,
+              3313
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.745489084953486,
+            "away_from_shared_contact_mm": 0.7454890849534823,
+            "shared_vertex_ids": [
+              3308
+            ]
+          },
+          {
+            "face_ids": [
+              2181,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8929361171058996,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2181,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7609296364302995,
+            "away_from_shared_contact_mm": 1.8931571459222842,
+            "shared_vertex_ids": [
+              955
+            ]
+          },
+          {
+            "face_ids": [
+              2182,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.000267862214786766,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              3329,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8622393998725326,
+            "away_from_shared_contact_mm": 1.8316652198973862,
+            "shared_vertex_ids": [
+              3332,
+              3340
+            ]
+          }
+        ]
+      },
+      "independent_scalar_segment_audit": {
+        "pairs_tested": 1604,
+        "baseline_pairs_tested": 1606,
+        "introduced_pairs": [],
+        "numerical_segment_tolerance_mm": 1e-05
+      },
+      "face204_207": {
+        "minimum_separation_mm": 0.02337822394315728,
+        "closest_features": {
+          "distance_mm": 0.02337822394315728,
+          "closest_world_mm": [
+            [
+              1400.2916751571056,
+              13.22763572206515,
+              487.30118999882734
+            ],
+            [
+              1400.2685615613009,
+              13.22420197112791,
+              487.3004741788684
+            ]
+          ],
+          "a_weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "b_weights": [
+            0.25122985663629144,
+            0.7208067241903996,
+            0.027963419173308985
+          ],
+          "a_vertex_ids": [
+            3316,
+            3324,
+            2531
+          ],
+          "b_vertex_ids": [
+            3300,
+            3308,
+            1107
+          ],
+          "feature_kind": "VERTEX_TRIANGLE",
+          "intersection_points_world_mm": [],
+          "crossing_segment_mm": 0.0,
+          "fan_indices": [
+            1,
+            1
+          ]
+        },
+        "normal_dot": 0.9977519934825753,
+        "normal_angle_deg": 3.842534759984561,
+        "face204_vertex_signed_side_to_face207_plane_mm": {
+          "3316": 0.211745246423342,
+          "3324": 0.006569443676133431,
+          "2531": -0.02945117617999415,
+          "2089": 0.2045363169221995
+        },
+        "all_fan_pairs": [
+          {
+            "distance_mm": 0.02337822394315728,
+            "closest_world_mm": [
+              [
+                1400.2916751571056,
+                13.22763572206515,
+                487.30118999882734
+              ],
+              [
+                1400.2685615613009,
+                13.22420197112791,
+                487.3004741788684
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.25122985663629144,
+              0.7208067241903996,
+              0.027963419173308985
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              1
+            ]
+          },
+          {
+            "distance_mm": 1.4275128576843947,
+            "closest_world_mm": [
+              [
+                1400.5036252417526,
+                12.796903296421972,
+                485.1761823816548
+              ],
+              [
+                1400.5959304989578,
+                11.402590470293578,
+                485.4680118545331
+              ]
+            ],
+            "a_weights": [
+              0.4007188846604015,
+              0.0,
+              0.5992811153395985
+            ],
+            "b_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "TRIANGLE_VERTEX",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              2
+            ]
+          },
+          {
+            "distance_mm": 0.02337822394315728,
+            "closest_world_mm": [
+              [
+                1400.2916751571056,
+                13.22763572206515,
+                487.30118999882734
+              ],
+              [
+                1400.2685615613009,
+                13.22420197112791,
+                487.3004741788684
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "b_weights": [
+              0.25122985663629144,
+              0.7208067241903996,
+              0.027963419173308985
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              1
+            ]
+          },
+          {
+            "distance_mm": 0.11565573264106051,
+            "closest_world_mm": [
+              [
+                1400.687131243203,
+                11.368842178008903,
+                486.4580417609803
+              ],
+              [
+                1400.5737280805297,
+                11.346451984628652,
+                486.45421417312355
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.3812288480439846,
+              0.6187711519560154
+            ],
+            "b_weights": [
+              0.8612081190910004,
+              0.1387918809089997,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              2
+            ]
+          }
+        ],
+        "exact_contact": false,
+        "crossing": false,
+        "max_crossing_segment_mm": 0.0
+      },
+      "UNCHANGED_HISTORICAL_STAGE6A_SEVERE_CROSSING_CLASSIFICATION": true,
+      "INCIDENTAL_ONLY_existing_pair_delta": {
+        "removed_pair_ids": [
+          [
+            204,
+            3312
+          ]
+        ],
+        "retained_pair_ids": [
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "note": "Local diagnostic families are not the9 historical severe crossing classifications; no old9 ranking or adjudication was run."
+      },
+      "count_semantics": "New native-face contact/intersection families relative to the frozen source in changed-incident vs whole-mesh scope. Existing source contacts remain disclosed, not treated as new or optimized."
+    },
+    "R3_A_S4_V2": {
+      "new_exact_contact_count": 0,
+      "new_self_intersection_family_count": 0,
+      "float64_vectorized_point_segment_coplanar_audit": {
+        "pairs_tested": 2165,
+        "baseline_pairs_tested": 2165,
+        "introduced_pairs": [],
+        "baseline_existing_local_family_count": 10,
+        "baseline_existing_local_face_pairs": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            2443,
+            3318
+          ],
+          [
+            3318,
+            3340
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "final_local_pairs": [
+          {
+            "face_ids": [
+              204,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 3.3585040059524616,
+            "away_from_shared_contact_mm": 0.0026551631546944043,
+            "shared_vertex_ids": [
+              2089,
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              205,
+              207
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.13670491908868618,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              205,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.15647281320538475,
+            "away_from_shared_contact_mm": 0.1585341080388332,
+            "shared_vertex_ids": [
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              207,
+              3313
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7555602968222183,
+            "away_from_shared_contact_mm": 0.7555602968222146,
+            "shared_vertex_ids": [
+              3308
+            ]
+          },
+          {
+            "face_ids": [
+              2181,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8417974894674707,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2181,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7546553655573851,
+            "away_from_shared_contact_mm": 1.8695008225014165,
+            "shared_vertex_ids": [
+              955
+            ]
+          },
+          {
+            "face_ids": [
+              2182,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.03384671308725671,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2443,
+              3318
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.0413021480353207,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              3318,
+              3340
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 2.1053580689451485,
+            "away_from_shared_contact_mm": 2.1053580689451414,
+            "shared_vertex_ids": [
+              3345
+            ]
+          },
+          {
+            "face_ids": [
+              3329,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8581745177434383,
+            "away_from_shared_contact_mm": 1.8255959972083708,
+            "shared_vertex_ids": [
+              3332,
+              3340
+            ]
+          }
+        ]
+      },
+      "independent_scalar_segment_audit": {
+        "pairs_tested": 2165,
+        "baseline_pairs_tested": 2165,
+        "introduced_pairs": [],
+        "numerical_segment_tolerance_mm": 1e-05
+      },
+      "face204_207": {
+        "minimum_separation_mm": 0.021028827154664545,
+        "closest_features": {
+          "distance_mm": 0.021028827154664545,
+          "closest_world_mm": [
+            [
+              1400.288559003869,
+              13.230295679898365,
+              487.29804832821634
+            ],
+            [
+              1400.2677621263842,
+              13.227243688855605,
+              487.297426388463
+            ]
+          ],
+          "a_weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "b_weights": [
+            0.25093665254977504,
+            0.7215721435667827,
+            0.027491203883442297
+          ],
+          "a_vertex_ids": [
+            3316,
+            3324,
+            2531
+          ],
+          "b_vertex_ids": [
+            3300,
+            3308,
+            1107
+          ],
+          "feature_kind": "VERTEX_TRIANGLE",
+          "intersection_points_world_mm": [],
+          "crossing_segment_mm": 0.0,
+          "fan_indices": [
+            1,
+            1
+          ]
+        },
+        "normal_dot": 0.9983410242744761,
+        "normal_angle_deg": 3.300788553152228,
+        "face204_vertex_signed_side_to_face207_plane_mm": {
+          "3316": 0.16932548803723235,
+          "3324": 0.013309009042803176,
+          "2531": -0.030042321386193272,
+          "2089": 0.19082008470298895
+        },
+        "all_fan_pairs": [
+          {
+            "distance_mm": 0.021028827154664545,
+            "closest_world_mm": [
+              [
+                1400.288559003869,
+                13.230295679898365,
+                487.29804832821634
+              ],
+              [
+                1400.2677621263842,
+                13.227243688855605,
+                487.297426388463
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.25093665254977504,
+              0.7215721435667827,
+              0.027491203883442297
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              1
+            ]
+          },
+          {
+            "distance_mm": 1.426632443121434,
+            "closest_world_mm": [
+              [
+                1400.48193630705,
+                12.79385286966872,
+                485.17085149170066
+              ],
+              [
+                1400.5903339153738,
+                11.402344247211998,
+                485.4662052455365
+              ]
+            ],
+            "a_weights": [
+              0.40113038545152946,
+              0.0,
+              0.5988696145484705
+            ],
+            "b_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "TRIANGLE_VERTEX",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              2
+            ]
+          },
+          {
+            "distance_mm": 0.021028827154664545,
+            "closest_world_mm": [
+              [
+                1400.288559003869,
+                13.230295679898365,
+                487.29804832821634
+              ],
+              [
+                1400.2677621263842,
+                13.227243688855605,
+                487.297426388463
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "b_weights": [
+              0.25093665254977504,
+              0.7215721435667827,
+              0.027491203883442297
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              1
+            ]
+          },
+          {
+            "distance_mm": 0.10711250257298172,
+            "closest_world_mm": [
+              [
+                1400.6742886786749,
+                11.366750496537415,
+                486.451640244506
+              ],
+              [
+                1400.5691555011988,
+                11.346540700570182,
+                486.44822449448725
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.3802070991247536,
+              0.6197929008752464
+            ],
+            "b_weights": [
+              0.8618274106480945,
+              0.13817258935190543,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              2
+            ]
+          }
+        ],
+        "exact_contact": false,
+        "crossing": false,
+        "max_crossing_segment_mm": 0.0
+      },
+      "UNCHANGED_HISTORICAL_STAGE6A_SEVERE_CROSSING_CLASSIFICATION": true,
+      "INCIDENTAL_ONLY_existing_pair_delta": {
+        "removed_pair_ids": [],
+        "retained_pair_ids": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            2443,
+            3318
+          ],
+          [
+            3318,
+            3340
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "note": "Local diagnostic families are not the9 historical severe crossing classifications; no old9 ranking or adjudication was run."
+      },
+      "count_semantics": "New native-face contact/intersection families relative to the frozen source in changed-incident vs whole-mesh scope. Existing source contacts remain disclosed, not treated as new or optimized."
+    },
+    "R3_A_S5_V2": {
+      "new_exact_contact_count": 0,
+      "new_self_intersection_family_count": 0,
+      "float64_vectorized_point_segment_coplanar_audit": {
+        "pairs_tested": 2813,
+        "baseline_pairs_tested": 2815,
+        "introduced_pairs": [],
+        "baseline_existing_local_family_count": 12,
+        "baseline_existing_local_face_pairs": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            2443,
+            3318
+          ],
+          [
+            2443,
+            3319
+          ],
+          [
+            3318,
+            3340
+          ],
+          [
+            3319,
+            3340
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "final_local_pairs": [
+          {
+            "face_ids": [
+              204,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 3.360197424964469,
+            "away_from_shared_contact_mm": 0.00015909292620954529,
+            "shared_vertex_ids": [
+              2089,
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              205,
+              207
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.13709763292198485,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              205,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.1612681497519747,
+            "away_from_shared_contact_mm": 0.16139435570970626,
+            "shared_vertex_ids": [
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              207,
+              3313
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7495646132787644,
+            "away_from_shared_contact_mm": 0.749564613278764,
+            "shared_vertex_ids": [
+              3308
+            ]
+          },
+          {
+            "face_ids": [
+              2181,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.883752578653372,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2181,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7589568880743085,
+            "away_from_shared_contact_mm": 1.8838846201095854,
+            "shared_vertex_ids": [
+              955
+            ]
+          },
+          {
+            "face_ids": [
+              2182,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.00016016311025279605,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2443,
+              3318
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.04089089329180257,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2443,
+              3319
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.2992129123250039,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              3318,
+              3340
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 2.105352788454178,
+            "away_from_shared_contact_mm": 2.105352788454157,
+            "shared_vertex_ids": [
+              3345
+            ]
+          },
+          {
+            "face_ids": [
+              3319,
+              3340
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 2.100891041420348,
+            "away_from_shared_contact_mm": 2.048045446637587,
+            "shared_vertex_ids": [
+              3336,
+              3345
+            ]
+          },
+          {
+            "face_ids": [
+              3329,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8575547868048343,
+            "away_from_shared_contact_mm": 1.8274129192713426,
+            "shared_vertex_ids": [
+              3332,
+              3340
+            ]
+          }
+        ]
+      },
+      "independent_scalar_segment_audit": {
+        "pairs_tested": 2813,
+        "baseline_pairs_tested": 2815,
+        "introduced_pairs": [],
+        "numerical_segment_tolerance_mm": 1e-05
+      },
+      "face204_207": {
+        "minimum_separation_mm": 0.022461690719733488,
+        "closest_features": {
+          "distance_mm": 0.022461690719733488,
+          "closest_world_mm": [
+            [
+              1400.2902777614063,
+              13.228348621666914,
+              487.3001631944498
+            ],
+            [
+              1400.268067307719,
+              13.22506747913761,
+              487.29948688039525
+            ]
+          ],
+          "a_weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "b_weights": [
+            0.2511365749461113,
+            0.7210429393910011,
+            0.027820485662887633
+          ],
+          "a_vertex_ids": [
+            3316,
+            3324,
+            2531
+          ],
+          "b_vertex_ids": [
+            3300,
+            3308,
+            1107
+          ],
+          "feature_kind": "VERTEX_TRIANGLE",
+          "intersection_points_world_mm": [],
+          "crossing_segment_mm": 0.0,
+          "fan_indices": [
+            1,
+            1
+          ]
+        },
+        "normal_dot": 0.9980452163942883,
+        "normal_angle_deg": 3.5830902368380535,
+        "face204_vertex_signed_side_to_face207_plane_mm": {
+          "3316": 0.1914988541114077,
+          "3324": 0.009668106254338947,
+          "2531": -0.029532356952612634,
+          "2089": 0.19805416045391408
+        },
+        "all_fan_pairs": [
+          {
+            "distance_mm": 0.022461690719733488,
+            "closest_world_mm": [
+              [
+                1400.2902777614063,
+                13.228348621666914,
+                487.3001631944498
+              ],
+              [
+                1400.268067307719,
+                13.22506747913761,
+                487.29948688039525
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.2511365749461113,
+              0.7210429393910011,
+              0.027820485662887633
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              1
+            ]
+          },
+          {
+            "distance_mm": 1.4267778751131088,
+            "closest_world_mm": [
+              [
+                1400.493271683256,
+                12.794938669708149,
+                485.17390968058083
+              ],
+              [
+                1400.5931434726688,
+                11.40223430881095,
+                485.4673296760305
+              ]
+            ],
+            "a_weights": [
+              0.4008987862849793,
+              0.0,
+              0.5991012137150207
+            ],
+            "b_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "TRIANGLE_VERTEX",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              2
+            ]
+          },
+          {
+            "distance_mm": 0.022461690719733488,
+            "closest_world_mm": [
+              [
+                1400.2902777614063,
+                13.228348621666914,
+                487.3001631944498
+              ],
+              [
+                1400.268067307719,
+                13.22506747913761,
+                487.29948688039525
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "b_weights": [
+              0.2511365749461113,
+              0.7210429393910011,
+              0.027820485662887633
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              1
+            ]
+          },
+          {
+            "distance_mm": 0.11166124392103048,
+            "closest_world_mm": [
+              [
+                1400.680966432181,
+                11.367598400788964,
+                486.4558024654028
+              ],
+              [
+                1400.571425887251,
+                11.346245896617164,
+                486.4521730059369
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.38089764865514486,
+              0.6191023513448551
+            ],
+            "b_weights": [
+              0.86141126498997,
+              0.13858873501003,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              2
+            ]
+          }
+        ],
+        "exact_contact": false,
+        "crossing": false,
+        "max_crossing_segment_mm": 0.0
+      },
+      "UNCHANGED_HISTORICAL_STAGE6A_SEVERE_CROSSING_CLASSIFICATION": true,
+      "INCIDENTAL_ONLY_existing_pair_delta": {
+        "removed_pair_ids": [],
+        "retained_pair_ids": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            2443,
+            3318
+          ],
+          [
+            2443,
+            3319
+          ],
+          [
+            3318,
+            3340
+          ],
+          [
+            3319,
+            3340
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "note": "Local diagnostic families are not the9 historical severe crossing classifications; no old9 ranking or adjudication was run."
+      },
+      "count_semantics": "New native-face contact/intersection families relative to the frozen source in changed-incident vs whole-mesh scope. Existing source contacts remain disclosed, not treated as new or optimized."
+    },
+    "R3_B_S3_V3": {
+      "new_exact_contact_count": 0,
+      "new_self_intersection_family_count": 0,
+      "float64_vectorized_point_segment_coplanar_audit": {
+        "pairs_tested": 1604,
+        "baseline_pairs_tested": 1606,
+        "introduced_pairs": [],
+        "baseline_existing_local_family_count": 8,
+        "baseline_existing_local_face_pairs": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "final_local_pairs": [
+          {
+            "face_ids": [
+              205,
+              207
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.13719035510134608,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              205,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.16377347350496277,
+            "away_from_shared_contact_mm": 0.16377348481811385,
+            "shared_vertex_ids": [
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              207,
+              3313
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7450704941061412,
+            "away_from_shared_contact_mm": 0.7450704941061412,
+            "shared_vertex_ids": [
+              3308
+            ]
+          },
+          {
+            "face_ids": [
+              2181,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.900182678995902,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2181,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.763248077178477,
+            "away_from_shared_contact_mm": 1.9008958770396605,
+            "shared_vertex_ids": [
+              955
+            ]
+          },
+          {
+            "face_ids": [
+              2182,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.000863675449220875,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              3329,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.867069974387145,
+            "away_from_shared_contact_mm": 1.8362042719312186,
+            "shared_vertex_ids": [
+              3332,
+              3340
+            ]
+          }
+        ]
+      },
+      "independent_scalar_segment_audit": {
+        "pairs_tested": 1604,
+        "baseline_pairs_tested": 1606,
+        "introduced_pairs": [],
+        "numerical_segment_tolerance_mm": 1e-05
+      },
+      "face204_207": {
+        "minimum_separation_mm": 0.023713448726098145,
+        "closest_features": {
+          "distance_mm": 0.023713448726098145,
+          "closest_world_mm": [
+            [
+              1400.2876069378779,
+              13.222329874930546,
+              487.2992536821662
+            ],
+            [
+              1400.2641677490133,
+              13.218808669690885,
+              487.29852348389466
+            ]
+          ],
+          "a_weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "b_weights": [
+            0.25185093057781555,
+            0.7200762966837234,
+            0.028072772738461024
+          ],
+          "a_vertex_ids": [
+            3316,
+            3324,
+            2531
+          ],
+          "b_vertex_ids": [
+            3300,
+            3308,
+            1107
+          ],
+          "feature_kind": "VERTEX_TRIANGLE",
+          "intersection_points_world_mm": [],
+          "crossing_segment_mm": 0.0,
+          "fan_indices": [
+            1,
+            1
+          ]
+        },
+        "normal_dot": 0.9975116378183986,
+        "normal_angle_deg": 4.042821105991443,
+        "face204_vertex_signed_side_to_face207_plane_mm": {
+          "3316": 0.22676479063764354,
+          "3324": 0.0027099554242166718,
+          "2531": -0.030355712301908234,
+          "2089": 0.20745801114345117
+        },
+        "all_fan_pairs": [
+          {
+            "distance_mm": 0.023713448726098145,
+            "closest_world_mm": [
+              [
+                1400.2876069378779,
+                13.222329874930546,
+                487.2992536821662
+              ],
+              [
+                1400.2641677490133,
+                13.218808669690885,
+                487.29852348389466
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.25185093057781555,
+              0.7200762966837234,
+              0.028072772738461024
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              1
+            ]
+          },
+          {
+            "distance_mm": 1.4265418212559058,
+            "closest_world_mm": [
+              [
+                1400.5061769134202,
+                12.794315641072668,
+                485.17728609201134
+              ],
+              [
+                1400.594382791303,
+                11.40040099471526,
+                485.46753296894434
+              ]
+            ],
+            "a_weights": [
+              0.40022247621019347,
+              0.0,
+              0.5997775237898065
+            ],
+            "b_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "TRIANGLE_VERTEX",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              2
+            ]
+          },
+          {
+            "distance_mm": 0.023713448726098145,
+            "closest_world_mm": [
+              [
+                1400.2876069378779,
+                13.222329874930546,
+                487.2992536821662
+              ],
+              [
+                1400.2641677490133,
+                13.218808669690885,
+                487.29852348389466
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "b_weights": [
+              0.25185093057781555,
+              0.7200762966837234,
+              0.028072772738461024
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              1
+            ]
+          },
+          {
+            "distance_mm": 0.11694705282388328,
+            "closest_world_mm": [
+              [
+                1400.686674514843,
+                11.367229038206352,
+                486.4584665783637
+              ],
+              [
+                1400.5720559998283,
+                11.344336809460648,
+                486.4545736304976
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.3820122135460806,
+              0.6179877864539194
+            ],
+            "b_weights": [
+              0.8610911500418945,
+              0.13890884995810543,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              2
+            ]
+          }
+        ],
+        "exact_contact": false,
+        "crossing": false,
+        "max_crossing_segment_mm": 0.0
+      },
+      "UNCHANGED_HISTORICAL_STAGE6A_SEVERE_CROSSING_CLASSIFICATION": true,
+      "INCIDENTAL_ONLY_existing_pair_delta": {
+        "removed_pair_ids": [
+          [
+            204,
+            3312
+          ]
+        ],
+        "retained_pair_ids": [
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "note": "Local diagnostic families are not the9 historical severe crossing classifications; no old9 ranking or adjudication was run."
+      },
+      "count_semantics": "New native-face contact/intersection families relative to the frozen source in changed-incident vs whole-mesh scope. Existing source contacts remain disclosed, not treated as new or optimized."
+    },
+    "R3_B_S4_V3": {
+      "new_exact_contact_count": 0,
+      "new_self_intersection_family_count": 0,
+      "float64_vectorized_point_segment_coplanar_audit": {
+        "pairs_tested": 2163,
+        "baseline_pairs_tested": 2165,
+        "introduced_pairs": [],
+        "baseline_existing_local_family_count": 10,
+        "baseline_existing_local_face_pairs": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            2443,
+            3318
+          ],
+          [
+            3318,
+            3340
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "final_local_pairs": [
+          {
+            "face_ids": [
+              204,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 3.3572482609830487,
+            "away_from_shared_contact_mm": 0.0007468506959441907,
+            "shared_vertex_ids": [
+              2089,
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              205,
+              207
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.13746305121507899,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              205,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.16100821973713972,
+            "away_from_shared_contact_mm": 0.16161691208507634,
+            "shared_vertex_ids": [
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              207,
+              3313
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7517871030183921,
+            "away_from_shared_contact_mm": 0.7517871030183917,
+            "shared_vertex_ids": [
+              3308
+            ]
+          },
+          {
+            "face_ids": [
+              2181,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8897897868967841,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2181,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7603687979311348,
+            "away_from_shared_contact_mm": 1.8902024444713745,
+            "shared_vertex_ids": [
+              955
+            ]
+          },
+          {
+            "face_ids": [
+              2182,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.0005001890677761567,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2443,
+              3318
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.04129940256400398,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              3318,
+              3340
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 2.1053577640890646,
+            "away_from_shared_contact_mm": 2.1053577640890575,
+            "shared_vertex_ids": [
+              3345
+            ]
+          },
+          {
+            "face_ids": [
+              3329,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8613104399592615,
+            "away_from_shared_contact_mm": 1.8309366463600123,
+            "shared_vertex_ids": [
+              3332,
+              3340
+            ]
+          }
+        ]
+      },
+      "independent_scalar_segment_audit": {
+        "pairs_tested": 2163,
+        "baseline_pairs_tested": 2165,
+        "introduced_pairs": [],
+        "numerical_segment_tolerance_mm": 1e-05
+      },
+      "face204_207": {
+        "minimum_separation_mm": 0.022375308768698744,
+        "closest_features": {
+          "distance_mm": 0.022375308768698744,
+          "closest_world_mm": [
+            [
+              1400.2819918923021,
+              13.219674162816291,
+              487.29581481094567
+            ],
+            [
+              1400.2598746643662,
+              13.216353157332884,
+              487.2951413174394
+            ]
+          ],
+          "a_weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "b_weights": [
+            0.2521462491548575,
+            0.7199687001088397,
+            0.027885050736302763
+          ],
+          "a_vertex_ids": [
+            3316,
+            3324,
+            2531
+          ],
+          "b_vertex_ids": [
+            3300,
+            3308,
+            1107
+          ],
+          "feature_kind": "VERTEX_TRIANGLE",
+          "intersection_points_world_mm": [],
+          "crossing_segment_mm": 0.0,
+          "fan_indices": [
+            1,
+            1
+          ]
+        },
+        "normal_dot": 0.9978284001675373,
+        "normal_angle_deg": 3.7766449174776517,
+        "face204_vertex_signed_side_to_face207_plane_mm": {
+          "3316": 0.20559468571331987,
+          "3324": 0.004695604557192566,
+          "2531": -0.0313066614760111,
+          "2089": 0.19912633111835293
+        },
+        "all_fan_pairs": [
+          {
+            "distance_mm": 0.022375308768698744,
+            "closest_world_mm": [
+              [
+                1400.2819918923021,
+                13.219674162816291,
+                487.29581481094567
+              ],
+              [
+                1400.2598746643662,
+                13.216353157332884,
+                487.2951413174394
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.2521462491548575,
+              0.7199687001088397,
+              0.027885050736302763
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              1
+            ]
+          },
+          {
+            "distance_mm": 1.424697747126093,
+            "closest_world_mm": [
+              [
+                1400.4912650985075,
+                12.78934081732747,
+                485.1741247445903
+              ],
+              [
+                1400.5885767838952,
+                11.39823485889643,
+                485.46587518412866
+              ]
+            ],
+            "a_weights": [
+              0.4001693367364033,
+              0.0,
+              0.5998306632635967
+            ],
+            "b_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "TRIANGLE_VERTEX",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              2
+            ]
+          },
+          {
+            "distance_mm": 0.022375308768698744,
+            "closest_world_mm": [
+              [
+                1400.2819918923021,
+                13.219674162816291,
+                487.29581481094567
+              ],
+              [
+                1400.2598746643662,
+                13.216353157332884,
+                487.2951413174394
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "b_weights": [
+              0.2521462491548575,
+              0.7199687001088397,
+              0.027885050736302763
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              1
+            ]
+          },
+          {
+            "distance_mm": 0.11140656817087631,
+            "closest_world_mm": [
+              [
+                1400.6761900480678,
+                11.364046306334084,
+                486.454611908918
+              ],
+              [
+                1400.5669506386787,
+                11.342480589056,
+                486.4509932480878
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.3819814978888296,
+              0.6180185021111704
+            ],
+            "b_weights": [
+              0.8613843454989194,
+              0.13861565450108054,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              2
+            ]
+          }
+        ],
+        "exact_contact": false,
+        "crossing": false,
+        "max_crossing_segment_mm": 0.0
+      },
+      "UNCHANGED_HISTORICAL_STAGE6A_SEVERE_CROSSING_CLASSIFICATION": true,
+      "INCIDENTAL_ONLY_existing_pair_delta": {
+        "removed_pair_ids": [],
+        "retained_pair_ids": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            2443,
+            3318
+          ],
+          [
+            3318,
+            3340
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "note": "Local diagnostic families are not the9 historical severe crossing classifications; no old9 ranking or adjudication was run."
+      },
+      "count_semantics": "New native-face contact/intersection families relative to the frozen source in changed-incident vs whole-mesh scope. Existing source contacts remain disclosed, not treated as new or optimized."
+    },
+    "R3_B_S5_V3": {
+      "new_exact_contact_count": 0,
+      "new_self_intersection_family_count": 0,
+      "float64_vectorized_point_segment_coplanar_audit": {
+        "pairs_tested": 2815,
+        "baseline_pairs_tested": 2815,
+        "introduced_pairs": [],
+        "baseline_existing_local_family_count": 12,
+        "baseline_existing_local_face_pairs": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            2443,
+            3318
+          ],
+          [
+            2443,
+            3319
+          ],
+          [
+            3318,
+            3340
+          ],
+          [
+            3319,
+            3340
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "final_local_pairs": [
+          {
+            "face_ids": [
+              204,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 3.3472468559594915,
+            "away_from_shared_contact_mm": 0.011935629149064394,
+            "shared_vertex_ids": [
+              2089,
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              205,
+              207
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.13873909462464096,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              205,
+              3312
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.1472646047228104,
+            "away_from_shared_contact_mm": 0.15693255422224836,
+            "shared_vertex_ids": [
+              2531
+            ]
+          },
+          {
+            "face_ids": [
+              207,
+              3313
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7685699109561162,
+            "away_from_shared_contact_mm": 0.7685699109561158,
+            "shared_vertex_ids": [
+              3308
+            ]
+          },
+          {
+            "face_ids": [
+              2181,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8479258041172573,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2181,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.7548032459752553,
+            "away_from_shared_contact_mm": 1.8718743949738788,
+            "shared_vertex_ids": [
+              955
+            ]
+          },
+          {
+            "face_ids": [
+              2182,
+              3329
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.029226767177247388,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2443,
+              3318
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.04082749172247683,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              2443,
+              3319
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 0.29880174216143857,
+            "away_from_shared_contact_mm": null,
+            "shared_vertex_ids": []
+          },
+          {
+            "face_ids": [
+              3318,
+              3340
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 2.1053526364213835,
+            "away_from_shared_contact_mm": 2.105352636421369,
+            "shared_vertex_ids": [
+              3345
+            ]
+          },
+          {
+            "face_ids": [
+              3319,
+              3340
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 2.1008693358702093,
+            "away_from_shared_contact_mm": 2.048115864407834,
+            "shared_vertex_ids": [
+              3336,
+              3345
+            ]
+          },
+          {
+            "face_ids": [
+              3329,
+              3330
+            ],
+            "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+            "segment_mm": 1.8580920543266628,
+            "away_from_shared_contact_mm": 1.8259259632657827,
+            "shared_vertex_ids": [
+              3332,
+              3340
+            ]
+          }
+        ]
+      },
+      "independent_scalar_segment_audit": {
+        "pairs_tested": 2815,
+        "baseline_pairs_tested": 2815,
+        "introduced_pairs": [],
+        "numerical_segment_tolerance_mm": 1e-05
+      },
+      "face204_207": {
+        "minimum_separation_mm": 0.01891732291917614,
+        "closest_features": {
+          "distance_mm": 0.01891732291917614,
+          "closest_world_mm": [
+            [
+              1400.270769054785,
+              13.214548793762146,
+              487.28875745770506
+            ],
+            [
+              1400.2520704278875,
+              13.21173392494636,
+              487.2882070286667
+            ]
+          ],
+          "a_weights": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "b_weights": [
+            0.25275260524179965,
+            0.7197550483914817,
+            0.027492346366718594
+          ],
+          "a_vertex_ids": [
+            3316,
+            3324,
+            2531
+          ],
+          "b_vertex_ids": [
+            3300,
+            3308,
+            1107
+          ],
+          "feature_kind": "VERTEX_TRIANGLE",
+          "intersection_points_world_mm": [],
+          "crossing_segment_mm": 0.0,
+          "fan_indices": [
+            1,
+            1
+          ]
+        },
+        "normal_dot": 0.9982040897283678,
+        "normal_angle_deg": 3.4343532603617715,
+        "face204_vertex_signed_side_to_face207_plane_mm": {
+          "3316": 0.17675227672328792,
+          "3324": 0.005926135725976494,
+          "2531": -0.034519593635395605,
+          "2089": 0.18648753048435557
+        },
+        "all_fan_pairs": [
+          {
+            "distance_mm": 0.01891732291917614,
+            "closest_world_mm": [
+              [
+                1400.270769054785,
+                13.214548793762146,
+                487.28875745770506
+              ],
+              [
+                1400.2520704278875,
+                13.21173392494636,
+                487.2882070286667
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.25275260524179965,
+              0.7197550483914817,
+              0.027492346366718594
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              1
+            ]
+          },
+          {
+            "distance_mm": 1.4219212399706433,
+            "closest_world_mm": [
+              [
+                1400.4680368378793,
+                12.781424995084599,
+                485.1689498105661
+              ],
+              [
+                1400.579353476215,
+                11.394629489464068,
+                485.4626619899186
+              ]
+            ],
+            "a_weights": [
+              0.399943054136512,
+              0.0,
+              0.600056945863488
+            ],
+            "b_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              3324,
+              2531
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "TRIANGLE_VERTEX",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              1,
+              2
+            ]
+          },
+          {
+            "distance_mm": 0.01891732291917614,
+            "closest_world_mm": [
+              [
+                1400.270769054785,
+                13.214548793762146,
+                487.28875745770506
+              ],
+              [
+                1400.2520704278875,
+                13.21173392494636,
+                487.2882070286667
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "b_weights": [
+              0.25275260524179965,
+              0.7197550483914817,
+              0.027492346366718594
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              3308,
+              1107
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              1
+            ]
+          },
+          {
+            "distance_mm": 0.10233641919392225,
+            "closest_world_mm": [
+              [
+                1400.6591843033275,
+                11.358962636117772,
+                486.4470000770935
+              ],
+              [
+                1400.5587859984423,
+                11.339401292765821,
+                486.44379431417576
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.38191580031157135,
+              0.6180841996884286
+            ],
+            "b_weights": [
+              0.8619872030247844,
+              0.13801279697521565,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3316,
+              2531,
+              2089
+            ],
+            "b_vertex_ids": [
+              3300,
+              1107,
+              181
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [],
+            "crossing_segment_mm": 0.0,
+            "fan_indices": [
+              2,
+              2
+            ]
+          }
+        ],
+        "exact_contact": false,
+        "crossing": false,
+        "max_crossing_segment_mm": 0.0
+      },
+      "UNCHANGED_HISTORICAL_STAGE6A_SEVERE_CROSSING_CLASSIFICATION": true,
+      "INCIDENTAL_ONLY_existing_pair_delta": {
+        "removed_pair_ids": [],
+        "retained_pair_ids": [
+          [
+            204,
+            3312
+          ],
+          [
+            205,
+            207
+          ],
+          [
+            205,
+            3312
+          ],
+          [
+            207,
+            3313
+          ],
+          [
+            2181,
+            3329
+          ],
+          [
+            2181,
+            3330
+          ],
+          [
+            2182,
+            3329
+          ],
+          [
+            2443,
+            3318
+          ],
+          [
+            2443,
+            3319
+          ],
+          [
+            3318,
+            3340
+          ],
+          [
+            3319,
+            3340
+          ],
+          [
+            3329,
+            3330
+          ]
+        ],
+        "note": "Local diagnostic families are not the9 historical severe crossing classifications; no old9 ranking or adjudication was run."
+      },
+      "count_semantics": "New native-face contact/intersection families relative to the frozen source in changed-incident vs whole-mesh scope. Existing source contacts remain disclosed, not treated as new or optimized."
+    }
+  }
+}

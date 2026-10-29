@@ -1,0 +1,4462 @@
+{
+ "stage": "NAIL_WEIGHT_AUDIT_R1A",
+ "generated_at": "2026-09-30T06:58:56.163172+08:00",
+ "nail_vertex_count": 189,
+ "per_digit": {
+  "thumb": {
+   "vertices": 22,
+   "expected_dominant": "THUMB_IP_R",
+   "dominant_correct": 22,
+   "dominant_correct_fraction": 1.0,
+   "shared_boundary_vertices": 18
+  },
+  "index": {
+   "vertices": 43,
+   "expected_dominant": "INDEX_DIP_R",
+   "dominant_correct": 43,
+   "dominant_correct_fraction": 1.0,
+   "shared_boundary_vertices": 26
+  },
+  "middle": {
+   "vertices": 50,
+   "expected_dominant": "MIDDLE_DIP_R",
+   "dominant_correct": 50,
+   "dominant_correct_fraction": 1.0,
+   "shared_boundary_vertices": 28
+  },
+  "ring": {
+   "vertices": 38,
+   "expected_dominant": "RING_DIP_R",
+   "dominant_correct": 38,
+   "dominant_correct_fraction": 1.0,
+   "shared_boundary_vertices": 25
+  },
+  "little": {
+   "vertices": 36,
+   "expected_dominant": "LITTLE_DIP_R",
+   "dominant_correct": 36,
+   "dominant_correct_fraction": 1.0,
+   "shared_boundary_vertices": 24
+  }
+ },
+ "violations": [],
+ "shared_boundary_exceptions": [
+  {
+   "vertex": 37,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    65
+   ],
+   "non_nail_face_ids": [
+    1043,
+    1045
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 88.8656,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666668,
+    "INDEX_MCP_R": 0.216203,
+    "WRIST_R": 0.110264,
+    "THUMB_MCP_R": 0.006865
+   }
+  },
+  {
+   "vertex": 40,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    71,
+    1038
+   ],
+   "non_nail_face_ids": [
+    1067
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 76.8065,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "THUMB_MCP_R": 0.178591,
+    "WRIST_R": 0.154426,
+    "THUMB_CMC_R": 0.000316
+   }
+  },
+  {
+   "vertex": 281,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1039,
+    1219
+   ],
+   "non_nail_face_ids": [
+    1066,
+    1069,
+    1172
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": 74.0978,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 0.604315,
+    "THUMB_MCP_R": 0.395685
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "THUMB_MCP_R": 0.202849,
+    "WRIST_R": 0.12989,
+    "THUMB_CMC_R": 0.000595
+   }
+  },
+  {
+   "vertex": 282,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1036,
+    1218
+   ],
+   "non_nail_face_ids": [
+    1041,
+    1222
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 81.7865,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.738305,
+    "WRIST_R": 0.201964,
+    "THUMB_MCP_R": 0.059689,
+    "THUMB_CMC_R": 4.2e-05
+   }
+  },
+  {
+   "vertex": 304,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1216
+   ],
+   "non_nail_face_ids": [
+    1175,
+    1177,
+    1212
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": 75.114,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 0.924277,
+    "THUMB_MCP_R": 0.075723
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "WRIST_R": 0.19832,
+    "THUMB_MCP_R": 0.134728,
+    "THUMB_CMC_R": 0.000285
+   }
+  },
+  {
+   "vertex": 879,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    65
+   ],
+   "non_nail_face_ids": [
+    66,
+    1044,
+    1045
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 90.1084,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "INDEX_MCP_R": 0.243175,
+    "WRIST_R": 0.085266,
+    "THUMB_MCP_R": 0.004891
+   }
+  },
+  {
+   "vertex": 881,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    64,
+    65,
+    1040
+   ],
+   "non_nail_face_ids": [
+    1043
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 86.0399,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666671,
+    "INDEX_MCP_R": 0.17964,
+    "WRIST_R": 0.137028,
+    "THUMB_MCP_R": 0.016661
+   }
+  },
+  {
+   "vertex": 882,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    64,
+    68
+   ],
+   "non_nail_face_ids": [
+    67,
+    69
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 82.6597,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.788839,
+    "WRIST_R": 0.155497,
+    "THUMB_MCP_R": 0.055628,
+    "THUMB_CMC_R": 3.6e-05
+   }
+  },
+  {
+   "vertex": 884,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    71
+   ],
+   "non_nail_face_ids": [
+    70,
+    1064,
+    1067
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 76.4611,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "THUMB_MCP_R": 0.194557,
+    "WRIST_R": 0.138403,
+    "THUMB_CMC_R": 0.000373
+   }
+  },
+  {
+   "vertex": 1335,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1038,
+    1039
+   ],
+   "non_nail_face_ids": [
+    1066,
+    1067
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 75.7603,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 0.999982,
+    "THUMB_MCP_R": 1.8e-05
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "THUMB_MCP_R": 0.189547,
+    "WRIST_R": 0.14338,
+    "THUMB_CMC_R": 0.000407
+   }
+  },
+  {
+   "vertex": 1337,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1036,
+    1037,
+    1040
+   ],
+   "non_nail_face_ids": [
+    1041
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 81.6584,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.745786,
+    "WRIST_R": 0.190447,
+    "THUMB_MCP_R": 0.06372,
+    "THUMB_CMC_R": 4.6e-05
+   }
+  },
+  {
+   "vertex": 1383,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "WRIST_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1218
+   ],
+   "non_nail_face_ids": [
+    1217,
+    1222,
+    1223
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 82.5805,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0,
+    "INDEX_PIP_R": 0.0,
+    "INDEX_DIP_R": 0.0
+   },
+   "weights_before_R1": {
+    "WRIST_R": 0.503774,
+    "INDEX_MCP_R": 0.496226,
+    "INDEX_PIP_R": 0.0,
+    "INDEX_DIP_R": 0.0
+   }
+  },
+  {
+   "vertex": 1400,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1216,
+    1219
+   ],
+   "non_nail_face_ids": [
+    1172,
+    1175
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": 74.6077,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 0.78543,
+    "THUMB_MCP_R": 0.21457
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "THUMB_MCP_R": 0.168034,
+    "WRIST_R": 0.164878,
+    "THUMB_CMC_R": 0.000422
+   }
+  },
+  {
+   "vertex": 1455,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1216
+   ],
+   "non_nail_face_ids": [
+    1212,
+    1215,
+    1217
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 79.2838,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "WRIST_R": 0.245201,
+    "THUMB_MCP_R": 0.088044,
+    "THUMB_CMC_R": 8.9e-05
+   }
+  },
+  {
+   "vertex": 2496,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    64,
+    65
+   ],
+   "non_nail_face_ids": [
+    66,
+    67
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 86.7957,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.66667,
+    "INDEX_MCP_R": 0.193954,
+    "WRIST_R": 0.124247,
+    "THUMB_MCP_R": 0.015129
+   }
+  },
+  {
+   "vertex": 2497,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    68,
+    71
+   ],
+   "non_nail_face_ids": [
+    69,
+    70
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": 79.0799,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.732745,
+    "WRIST_R": 0.146157,
+    "THUMB_MCP_R": 0.120955,
+    "THUMB_CMC_R": 0.000143
+   }
+  },
+  {
+   "vertex": 2740,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "INDEX_MCP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1040
+   ],
+   "non_nail_face_ids": [
+    1041,
+    1042,
+    1043
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": 85.7801,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "INDEX_MCP_R": 0.535386,
+    "WRIST_R": 0.416659,
+    "THUMB_MCP_R": 0.047937,
+    "THUMB_CMC_R": 1.8e-05
+   }
+  },
+  {
+   "vertex": 2784,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant_after": "THUMB_IP_R",
+   "dominant_R1": "THUMB_IP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1216,
+    1218,
+    1219
+   ],
+   "non_nail_face_ids": [
+    1217
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": 78.4355,
+   "thumb_segment_of_projection": "distal phalanx",
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_before_R1": {
+    "THUMB_IP_R": 0.666667,
+    "WRIST_R": 0.220473,
+    "THUMB_MCP_R": 0.112723,
+    "THUMB_CMC_R": 0.000137
+   }
+  },
+  {
+   "vertex": 27,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    50,
+    62
+   ],
+   "non_nail_face_ids": [
+    799,
+    801
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.991327,
+    "INDEX_PIP_R": 0.008643,
+    "INDEX_MCP_R": 3e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.991327,
+    "INDEX_PIP_R": 0.008643,
+    "INDEX_MCP_R": 3e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 28,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    49
+   ],
+   "non_nail_face_ids": [
+    802,
+    804
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.986554,
+    "INDEX_PIP_R": 0.013394,
+    "INDEX_MCP_R": 5.2e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.986554,
+    "INDEX_PIP_R": 0.013394,
+    "INDEX_MCP_R": 5.2e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 31,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    54,
+    57
+   ],
+   "non_nail_face_ids": [
+    782,
+    785
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.733111,
+    "INDEX_PIP_R": 0.26455,
+    "INDEX_MCP_R": 0.002339,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.733111,
+    "INDEX_PIP_R": 0.26455,
+    "INDEX_MCP_R": 0.002339,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 32,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    55,
+    810
+   ],
+   "non_nail_face_ids": [
+    781
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.761673,
+    "INDEX_PIP_R": 0.236293,
+    "INDEX_MCP_R": 0.002034,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.761673,
+    "INDEX_PIP_R": 0.236293,
+    "INDEX_MCP_R": 0.002034,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 33,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    56,
+    788
+   ],
+   "non_nail_face_ids": [
+    786
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.793614,
+    "INDEX_PIP_R": 0.204737,
+    "INDEX_MCP_R": 0.001649,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.793614,
+    "INDEX_PIP_R": 0.204737,
+    "INDEX_MCP_R": 0.001649,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 35,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    63,
+    794
+   ],
+   "non_nail_face_ids": [
+    798
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.987989,
+    "INDEX_PIP_R": 0.011967,
+    "INDEX_MCP_R": 4.4e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.987989,
+    "INDEX_PIP_R": 0.011967,
+    "INDEX_MCP_R": 4.4e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 228,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    811
+   ],
+   "non_nail_face_ids": [
+    780,
+    812,
+    839,
+    841
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.607721,
+    "INDEX_PIP_R": 0.386591,
+    "INDEX_MCP_R": 0.005688,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.607721,
+    "INDEX_PIP_R": 0.386591,
+    "INDEX_MCP_R": 0.005688,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 230,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    791
+   ],
+   "non_nail_face_ids": [
+    787,
+    819,
+    822,
+    824
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.635644,
+    "INDEX_PIP_R": 0.359353,
+    "INDEX_MCP_R": 0.005003,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.635644,
+    "INDEX_PIP_R": 0.359353,
+    "INDEX_MCP_R": 0.005003,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 231,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    790,
+    792,
+    825
+   ],
+   "non_nail_face_ids": [
+    869
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.940488,
+    "INDEX_PIP_R": 0.059185,
+    "INDEX_MCP_R": 0.000327,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.940488,
+    "INDEX_PIP_R": 0.059185,
+    "INDEX_MCP_R": 0.000327,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 235,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    808
+   ],
+   "non_nail_face_ids": [
+    806,
+    840,
+    891
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.926714,
+    "INDEX_PIP_R": 0.072859,
+    "INDEX_MCP_R": 0.000427,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.926714,
+    "INDEX_PIP_R": 0.072859,
+    "INDEX_MCP_R": 0.000427,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 867,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    49,
+    50
+   ],
+   "non_nail_face_ids": [
+    801,
+    802
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.989897,
+    "INDEX_PIP_R": 0.010066,
+    "INDEX_MCP_R": 3.6e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.989897,
+    "INDEX_PIP_R": 0.010066,
+    "INDEX_MCP_R": 3.6e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 869,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    48,
+    49,
+    805
+   ],
+   "non_nail_face_ids": [
+    804
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.973844,
+    "INDEX_PIP_R": 0.026048,
+    "INDEX_MCP_R": 0.000108,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.973844,
+    "INDEX_PIP_R": 0.026048,
+    "INDEX_MCP_R": 0.000108,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 873,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    54,
+    55
+   ],
+   "non_nail_face_ids": [
+    781,
+    782
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.737743,
+    "INDEX_PIP_R": 0.259951,
+    "INDEX_MCP_R": 0.002307,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.737743,
+    "INDEX_PIP_R": 0.259951,
+    "INDEX_MCP_R": 0.002307,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 875,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    56,
+    57
+   ],
+   "non_nail_face_ids": [
+    785,
+    786
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.758777,
+    "INDEX_PIP_R": 0.239194,
+    "INDEX_MCP_R": 0.002029,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.758777,
+    "INDEX_PIP_R": 0.239194,
+    "INDEX_MCP_R": 0.002029,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 878,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    62,
+    63
+   ],
+   "non_nail_face_ids": [
+    798,
+    799
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.990715,
+    "INDEX_PIP_R": 0.009253,
+    "INDEX_MCP_R": 3.2e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.990715,
+    "INDEX_PIP_R": 0.009253,
+    "INDEX_MCP_R": 3.2e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1218,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    810,
+    811
+   ],
+   "non_nail_face_ids": [
+    780,
+    781
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.709588,
+    "INDEX_PIP_R": 0.287477,
+    "INDEX_MCP_R": 0.002935,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.709588,
+    "INDEX_PIP_R": 0.287477,
+    "INDEX_MCP_R": 0.002935,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1221,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    788,
+    791
+   ],
+   "non_nail_face_ids": [
+    786,
+    787
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.747051,
+    "INDEX_PIP_R": 0.250569,
+    "INDEX_MCP_R": 0.00238,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.747051,
+    "INDEX_PIP_R": 0.250569,
+    "INDEX_MCP_R": 0.00238,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1222,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    792
+   ],
+   "non_nail_face_ids": [
+    795,
+    869,
+    870
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.977133,
+    "INDEX_PIP_R": 0.022766,
+    "INDEX_MCP_R": 0.000101,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.977133,
+    "INDEX_PIP_R": 0.022766,
+    "INDEX_MCP_R": 0.000101,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1223,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    790,
+    791,
+    825
+   ],
+   "non_nail_face_ids": [
+    824
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.849997,
+    "INDEX_PIP_R": 0.148832,
+    "INDEX_MCP_R": 0.001171,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.849997,
+    "INDEX_PIP_R": 0.148832,
+    "INDEX_MCP_R": 0.001171,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1225,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    794
+   ],
+   "non_nail_face_ids": [
+    795,
+    797,
+    798
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.98994,
+    "INDEX_PIP_R": 0.010023,
+    "INDEX_MCP_R": 3.7e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.98994,
+    "INDEX_PIP_R": 0.010023,
+    "INDEX_MCP_R": 3.7e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1230,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    808,
+    811
+   ],
+   "non_nail_face_ids": [
+    840,
+    841
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.814754,
+    "INDEX_PIP_R": 0.18368,
+    "INDEX_MCP_R": 0.001565,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.814754,
+    "INDEX_PIP_R": 0.18368,
+    "INDEX_MCP_R": 0.001565,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1232,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    805,
+    808,
+    809
+   ],
+   "non_nail_face_ids": [
+    806
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.928918,
+    "INDEX_PIP_R": 0.070697,
+    "INDEX_MCP_R": 0.000384,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.928918,
+    "INDEX_PIP_R": 0.070697,
+    "INDEX_MCP_R": 0.000384,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1240,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    825
+   ],
+   "non_nail_face_ids": [
+    826,
+    868,
+    869
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.939835,
+    "INDEX_PIP_R": 0.059801,
+    "INDEX_MCP_R": 0.000363,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.939835,
+    "INDEX_PIP_R": 0.059801,
+    "INDEX_MCP_R": 0.000363,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2678,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    792,
+    793,
+    794
+   ],
+   "non_nail_face_ids": [
+    795
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.977082,
+    "INDEX_PIP_R": 0.022822,
+    "INDEX_MCP_R": 9.6e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.977082,
+    "INDEX_PIP_R": 0.022822,
+    "INDEX_MCP_R": 9.6e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2681,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    805
+   ],
+   "non_nail_face_ids": [
+    804,
+    806,
+    807
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.972804,
+    "INDEX_PIP_R": 0.027077,
+    "INDEX_MCP_R": 0.000119,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.972804,
+    "INDEX_PIP_R": 0.027077,
+    "INDEX_MCP_R": 0.000119,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2686,
+   "digit": "INDEX",
+   "expected": "INDEX_DIP_R",
+   "dominant_after": "INDEX_DIP_R",
+   "dominant_R1": "INDEX_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    825
+   ],
+   "non_nail_face_ids": [
+    824,
+    826,
+    827
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "INDEX_DIP_R": 0.8463,
+    "INDEX_PIP_R": 0.152335,
+    "INDEX_MCP_R": 0.001365,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "INDEX_DIP_R": 0.8463,
+    "INDEX_PIP_R": 0.152335,
+    "INDEX_MCP_R": 0.001365,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 18,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    32,
+    41
+   ],
+   "non_nail_face_ids": [
+    636,
+    641
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.711657,
+    "MIDDLE_PIP_R": 0.287983,
+    "MIDDLE_MCP_R": 0.00036,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.711657,
+    "MIDDLE_PIP_R": 0.287983,
+    "MIDDLE_MCP_R": 0.00036,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 19,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    33,
+    644
+   ],
+   "non_nail_face_ids": [
+    640
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.775881,
+    "MIDDLE_PIP_R": 0.223893,
+    "MIDDLE_MCP_R": 0.000227,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.775881,
+    "MIDDLE_PIP_R": 0.223893,
+    "MIDDLE_MCP_R": 0.000227,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 22,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    36,
+    46
+   ],
+   "non_nail_face_ids": [
+    655,
+    657
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.986752,
+    "MIDDLE_PIP_R": 0.013246,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.986752,
+    "MIDDLE_PIP_R": 0.013246,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 23,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    39,
+    648
+   ],
+   "non_nail_face_ids": [
+    652
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.982254,
+    "MIDDLE_PIP_R": 0.017743,
+    "MIDDLE_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.982254,
+    "MIDDLE_PIP_R": 0.017743,
+    "MIDDLE_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 24,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    40,
+    664
+   ],
+   "non_nail_face_ids": [
+    637
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.772849,
+    "MIDDLE_PIP_R": 0.226928,
+    "MIDDLE_MCP_R": 0.000223,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.772849,
+    "MIDDLE_PIP_R": 0.226928,
+    "MIDDLE_MCP_R": 0.000223,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 26,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    47,
+    660
+   ],
+   "non_nail_face_ids": [
+    656
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.984101,
+    "MIDDLE_PIP_R": 0.015896,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.984101,
+    "MIDDLE_PIP_R": 0.015896,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 207,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    667,
+    916
+   ],
+   "non_nail_face_ids": [
+    638,
+    698,
+    915
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.641608,
+    "MIDDLE_PIP_R": 0.357682,
+    "MIDDLE_MCP_R": 0.000709,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.641608,
+    "MIDDLE_PIP_R": 0.357682,
+    "MIDDLE_MCP_R": 0.000709,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 209,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    645,
+    936
+   ],
+   "non_nail_face_ids": [
+    643,
+    692,
+    893
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.633227,
+    "MIDDLE_PIP_R": 0.365985,
+    "MIDDLE_MCP_R": 0.000788,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.633227,
+    "MIDDLE_PIP_R": 0.365985,
+    "MIDDLE_MCP_R": 0.000788,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 210,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    646,
+    650,
+    939
+   ],
+   "non_nail_face_ids": [
+    941
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.934504,
+    "MIDDLE_PIP_R": 0.06547,
+    "MIDDLE_MCP_R": 2.6e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.934504,
+    "MIDDLE_PIP_R": 0.06547,
+    "MIDDLE_MCP_R": 2.6e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 211,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    651
+   ],
+   "non_nail_face_ids": [
+    653,
+    940,
+    1871
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.988504,
+    "MIDDLE_PIP_R": 0.011494,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.988504,
+    "MIDDLE_PIP_R": 0.011494,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 214,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    662,
+    666,
+    917
+   ],
+   "non_nail_face_ids": [
+    963
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.947707,
+    "MIDDLE_PIP_R": 0.052276,
+    "MIDDLE_MCP_R": 1.7e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.947707,
+    "MIDDLE_PIP_R": 0.052276,
+    "MIDDLE_MCP_R": 1.7e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 855,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    32,
+    33
+   ],
+   "non_nail_face_ids": [
+    640,
+    641
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.735784,
+    "MIDDLE_PIP_R": 0.263909,
+    "MIDDLE_MCP_R": 0.000307,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.735784,
+    "MIDDLE_PIP_R": 0.263909,
+    "MIDDLE_MCP_R": 0.000307,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 861,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    36,
+    39
+   ],
+   "non_nail_face_ids": [
+    652,
+    655
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.984656,
+    "MIDDLE_PIP_R": 0.015342,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.984656,
+    "MIDDLE_PIP_R": 0.015342,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 863,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    40,
+    41
+   ],
+   "non_nail_face_ids": [
+    636,
+    637
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.731379,
+    "MIDDLE_PIP_R": 0.268311,
+    "MIDDLE_MCP_R": 0.00031,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.731379,
+    "MIDDLE_PIP_R": 0.268311,
+    "MIDDLE_MCP_R": 0.00031,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 866,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    46,
+    47
+   ],
+   "non_nail_face_ids": [
+    656,
+    657
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.98609,
+    "MIDDLE_PIP_R": 0.013908,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.98609,
+    "MIDDLE_PIP_R": 0.013908,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1158,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    664,
+    667
+   ],
+   "non_nail_face_ids": [
+    637,
+    638
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.731094,
+    "MIDDLE_PIP_R": 0.268573,
+    "MIDDLE_MCP_R": 0.000333,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.731094,
+    "MIDDLE_PIP_R": 0.268573,
+    "MIDDLE_MCP_R": 0.000333,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1161,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    644,
+    645
+   ],
+   "non_nail_face_ids": [
+    640,
+    643
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.731931,
+    "MIDDLE_PIP_R": 0.267723,
+    "MIDDLE_MCP_R": 0.000346,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.731931,
+    "MIDDLE_PIP_R": 0.267723,
+    "MIDDLE_MCP_R": 0.000346,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1162,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    650,
+    651
+   ],
+   "non_nail_face_ids": [
+    940,
+    941
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.972286,
+    "MIDDLE_PIP_R": 0.027707,
+    "MIDDLE_MCP_R": 6e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.972286,
+    "MIDDLE_PIP_R": 0.027707,
+    "MIDDLE_MCP_R": 6e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1165,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    648,
+    651
+   ],
+   "non_nail_face_ids": [
+    652,
+    653
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.985069,
+    "MIDDLE_PIP_R": 0.014929,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.985069,
+    "MIDDLE_PIP_R": 0.014929,
+    "MIDDLE_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1169,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    660
+   ],
+   "non_nail_face_ids": [
+    656,
+    659,
+    661
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.989903,
+    "MIDDLE_PIP_R": 0.010096,
+    "MIDDLE_MCP_R": 1e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.989903,
+    "MIDDLE_PIP_R": 0.010096,
+    "MIDDLE_MCP_R": 1e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1171,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    662
+   ],
+   "non_nail_face_ids": [
+    661,
+    960,
+    963
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.981528,
+    "MIDDLE_PIP_R": 0.018469,
+    "MIDDLE_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.981528,
+    "MIDDLE_PIP_R": 0.018469,
+    "MIDDLE_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1270,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    936
+   ],
+   "non_nail_face_ids": [
+    892,
+    893,
+    937
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.6592,
+    "MIDDLE_PIP_R": 0.340005,
+    "MIDDLE_MCP_R": 0.000795,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.6592,
+    "MIDDLE_PIP_R": 0.340005,
+    "MIDDLE_MCP_R": 0.000795,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1277,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    916
+   ],
+   "non_nail_face_ids": [
+    912,
+    915,
+    919
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.673743,
+    "MIDDLE_PIP_R": 0.325555,
+    "MIDDLE_MCP_R": 0.000702,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.673743,
+    "MIDDLE_PIP_R": 0.325555,
+    "MIDDLE_MCP_R": 0.000702,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1281,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    917
+   ],
+   "non_nail_face_ids": [
+    918,
+    962,
+    963
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.959407,
+    "MIDDLE_PIP_R": 0.04058,
+    "MIDDLE_MCP_R": 1.3e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.959407,
+    "MIDDLE_PIP_R": 0.04058,
+    "MIDDLE_MCP_R": 1.3e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 1288,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    939
+   ],
+   "non_nail_face_ids": [
+    938,
+    941,
+    942
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.935785,
+    "MIDDLE_PIP_R": 0.064187,
+    "MIDDLE_MCP_R": 2.8e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.935785,
+    "MIDDLE_PIP_R": 0.064187,
+    "MIDDLE_MCP_R": 2.8e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2645,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    660,
+    662,
+    663
+   ],
+   "non_nail_face_ids": [
+    661
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.974698,
+    "MIDDLE_PIP_R": 0.025298,
+    "MIDDLE_MCP_R": 5e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.974698,
+    "MIDDLE_PIP_R": 0.025298,
+    "MIDDLE_MCP_R": 5e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2709,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    916,
+    917
+   ],
+   "non_nail_face_ids": [
+    918,
+    919
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.870178,
+    "MIDDLE_PIP_R": 0.129723,
+    "MIDDLE_MCP_R": 9.9e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.870178,
+    "MIDDLE_PIP_R": 0.129723,
+    "MIDDLE_MCP_R": 9.9e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2714,
+   "digit": "MIDDLE",
+   "expected": "MIDDLE_DIP_R",
+   "dominant_after": "MIDDLE_DIP_R",
+   "dominant_R1": "MIDDLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    936,
+    939
+   ],
+   "non_nail_face_ids": [
+    937,
+    938
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "MIDDLE_DIP_R": 0.84433,
+    "MIDDLE_PIP_R": 0.155526,
+    "MIDDLE_MCP_R": 0.000144,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "MIDDLE_DIP_R": 0.84433,
+    "MIDDLE_PIP_R": 0.155526,
+    "MIDDLE_MCP_R": 0.000144,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 13,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    20,
+    30
+   ],
+   "non_nail_face_ids": [
+    95,
+    97
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.981793,
+    "RING_PIP_R": 0.018204,
+    "RING_MCP_R": 4e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.981793,
+    "RING_PIP_R": 0.018204,
+    "RING_MCP_R": 4e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 14,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    23,
+    98
+   ],
+   "non_nail_face_ids": [
+    100
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.978712,
+    "RING_PIP_R": 0.021283,
+    "RING_MCP_R": 5e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.978712,
+    "RING_PIP_R": 0.021283,
+    "RING_MCP_R": 5e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 47,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    86,
+    88
+   ],
+   "non_nail_face_ids": [
+    133,
+    689
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.912573,
+    "RING_PIP_R": 0.087362,
+    "RING_MCP_R": 6.5e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.912573,
+    "RING_PIP_R": 0.087362,
+    "RING_MCP_R": 6.5e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 48,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    91
+   ],
+   "non_nail_face_ids": [
+    93,
+    690,
+    1890
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.987686,
+    "RING_PIP_R": 0.012312,
+    "RING_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.987686,
+    "RING_PIP_R": 0.012312,
+    "RING_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 50,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    103
+   ],
+   "non_nail_face_ids": [
+    99,
+    668,
+    1887
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.987569,
+    "RING_PIP_R": 0.012428,
+    "RING_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.987569,
+    "RING_PIP_R": 0.012428,
+    "RING_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 51,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    102,
+    104
+   ],
+   "non_nail_face_ids": [
+    127,
+    669
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.899133,
+    "RING_PIP_R": 0.100788,
+    "RING_MCP_R": 7.9e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.899133,
+    "RING_PIP_R": 0.100788,
+    "RING_MCP_R": 7.9e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 844,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    19,
+    26
+   ],
+   "non_nail_face_ids": [
+    16,
+    25
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.748912,
+    "RING_PIP_R": 0.250751,
+    "RING_MCP_R": 0.000337,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.748912,
+    "RING_PIP_R": 0.250751,
+    "RING_MCP_R": 0.000337,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 845,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    18,
+    105
+   ],
+   "non_nail_face_ids": [
+    17,
+    106
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.76468,
+    "RING_PIP_R": 0.23499,
+    "RING_MCP_R": 0.00033,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.76468,
+    "RING_PIP_R": 0.23499,
+    "RING_MCP_R": 0.00033,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 847,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    22,
+    23,
+    101
+   ],
+   "non_nail_face_ids": [
+    100
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.953385,
+    "RING_PIP_R": 0.046598,
+    "RING_MCP_R": 1.8e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.953385,
+    "RING_PIP_R": 0.046598,
+    "RING_MCP_R": 1.8e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 849,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    20,
+    23,
+    98
+   ],
+   "non_nail_face_ids": [
+    97
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.980536,
+    "RING_PIP_R": 0.01946,
+    "RING_MCP_R": 4e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.980536,
+    "RING_PIP_R": 0.01946,
+    "RING_MCP_R": 4e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 852,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    27,
+    85
+   ],
+   "non_nail_face_ids": [
+    24,
+    84
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.793256,
+    "RING_PIP_R": 0.20648,
+    "RING_MCP_R": 0.000264,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.793256,
+    "RING_PIP_R": 0.20648,
+    "RING_MCP_R": 0.000264,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 854,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    30,
+    31,
+    94
+   ],
+   "non_nail_face_ids": [
+    95
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.980856,
+    "RING_PIP_R": 0.01914,
+    "RING_MCP_R": 4e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.980856,
+    "RING_PIP_R": 0.01914,
+    "RING_MCP_R": 4e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 894,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    88,
+    91
+   ],
+   "non_nail_face_ids": [
+    689,
+    690
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.967033,
+    "RING_PIP_R": 0.032955,
+    "RING_MCP_R": 1.2e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.967033,
+    "RING_PIP_R": 0.032955,
+    "RING_MCP_R": 1.2e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 895,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    86
+   ],
+   "non_nail_face_ids": [
+    87,
+    132,
+    133
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.772147,
+    "RING_PIP_R": 0.227456,
+    "RING_MCP_R": 0.000398,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.772147,
+    "RING_PIP_R": 0.227456,
+    "RING_MCP_R": 0.000398,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 897,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    90,
+    91,
+    94
+   ],
+   "non_nail_face_ids": [
+    93
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.982354,
+    "RING_PIP_R": 0.017642,
+    "RING_MCP_R": 4e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.982354,
+    "RING_PIP_R": 0.017642,
+    "RING_MCP_R": 4e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 901,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    98,
+    103
+   ],
+   "non_nail_face_ids": [
+    99,
+    100
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.985138,
+    "RING_PIP_R": 0.014859,
+    "RING_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.985138,
+    "RING_PIP_R": 0.014859,
+    "RING_MCP_R": 3e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 902,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    104
+   ],
+   "non_nail_face_ids": [
+    107,
+    124,
+    127
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.757008,
+    "RING_PIP_R": 0.24256,
+    "RING_MCP_R": 0.000433,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.757008,
+    "RING_PIP_R": 0.24256,
+    "RING_MCP_R": 0.000433,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 903,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    102,
+    103
+   ],
+   "non_nail_face_ids": [
+    668,
+    669
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.968288,
+    "RING_PIP_R": 0.0317,
+    "RING_MCP_R": 1.2e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.968288,
+    "RING_PIP_R": 0.0317,
+    "RING_MCP_R": 1.2e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2484,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    18,
+    19
+   ],
+   "non_nail_face_ids": [
+    16,
+    17
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.752518,
+    "RING_PIP_R": 0.247145,
+    "RING_MCP_R": 0.000337,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.752518,
+    "RING_PIP_R": 0.247145,
+    "RING_MCP_R": 0.000337,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2486,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    26,
+    27
+   ],
+   "non_nail_face_ids": [
+    24,
+    25
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.771543,
+    "RING_PIP_R": 0.228167,
+    "RING_MCP_R": 0.00029,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.771543,
+    "RING_PIP_R": 0.228167,
+    "RING_MCP_R": 0.00029,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2501,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    85,
+    86
+   ],
+   "non_nail_face_ids": [
+    84,
+    87
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.788317,
+    "RING_PIP_R": 0.211377,
+    "RING_MCP_R": 0.000305,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.788317,
+    "RING_PIP_R": 0.211377,
+    "RING_MCP_R": 0.000305,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2503,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    94
+   ],
+   "non_nail_face_ids": [
+    92,
+    93,
+    95
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.989253,
+    "RING_PIP_R": 0.010745,
+    "RING_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.989253,
+    "RING_PIP_R": 0.010745,
+    "RING_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2504,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    98
+   ],
+   "non_nail_face_ids": [
+    96,
+    97,
+    99
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.989183,
+    "RING_PIP_R": 0.010815,
+    "RING_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.989183,
+    "RING_PIP_R": 0.010815,
+    "RING_MCP_R": 2e-06,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2505,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    101,
+    102,
+    103
+   ],
+   "non_nail_face_ids": [
+    100
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.95702,
+    "RING_PIP_R": 0.042963,
+    "RING_MCP_R": 1.7e-05,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.95702,
+    "RING_PIP_R": 0.042963,
+    "RING_MCP_R": 1.7e-05,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 2506,
+   "digit": "RING",
+   "expected": "RING_DIP_R",
+   "dominant_after": "RING_DIP_R",
+   "dominant_R1": "RING_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    104,
+    105
+   ],
+   "non_nail_face_ids": [
+    106,
+    107
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "RING_DIP_R": 0.761627,
+    "RING_PIP_R": 0.238003,
+    "RING_MCP_R": 0.00037,
+    "WRIST_R": 0.0
+   },
+   "weights_before_R1": {
+    "RING_DIP_R": 0.761627,
+    "RING_PIP_R": 0.238003,
+    "RING_MCP_R": 0.00037,
+    "WRIST_R": 0.0
+   }
+  },
+  {
+   "vertex": 0,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    0
+   ],
+   "non_nail_face_ids": [
+    763,
+    765
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.949269,
+    "LITTLE_PIP_R": 0.049579,
+    "LITTLE_MCP_R": 0.001075,
+    "WRIST_R": 7.7e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.949269,
+    "LITTLE_PIP_R": 0.049579,
+    "LITTLE_MCP_R": 0.001075,
+    "WRIST_R": 7.7e-05
+   }
+  },
+  {
+   "vertex": 1,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    1,
+    15
+   ],
+   "non_nail_face_ids": [
+    764,
+    768
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.967073,
+    "LITTLE_PIP_R": 0.032244,
+    "LITTLE_MCP_R": 0.000649,
+    "WRIST_R": 3.4e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.967073,
+    "LITTLE_PIP_R": 0.032244,
+    "LITTLE_MCP_R": 0.000649,
+    "WRIST_R": 3.4e-05
+   }
+  },
+  {
+   "vertex": 223,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    759
+   ],
+   "non_nail_face_ids": [
+    761,
+    1010,
+    1014
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.820019,
+    "LITTLE_PIP_R": 0.174804,
+    "LITTLE_MCP_R": 0.005004,
+    "WRIST_R": 0.000172
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.820019,
+    "LITTLE_PIP_R": 0.174804,
+    "LITTLE_MCP_R": 0.005004,
+    "WRIST_R": 0.000172
+   }
+  },
+  {
+   "vertex": 226,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    774
+   ],
+   "non_nail_face_ids": [
+    770,
+    1035,
+    1906
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.969845,
+    "LITTLE_PIP_R": 0.029478,
+    "LITTLE_MCP_R": 0.000624,
+    "WRIST_R": 5.3e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.969845,
+    "LITTLE_PIP_R": 0.029478,
+    "LITTLE_MCP_R": 0.000624,
+    "WRIST_R": 5.3e-05
+   }
+  },
+  {
+   "vertex": 227,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    775,
+    777,
+    990
+   ],
+   "non_nail_face_ids": [
+    1034
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.830258,
+    "LITTLE_PIP_R": 0.165252,
+    "LITTLE_MCP_R": 0.004424,
+    "WRIST_R": 6.6e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.830258,
+    "LITTLE_PIP_R": 0.165252,
+    "LITTLE_MCP_R": 0.004424,
+    "WRIST_R": 6.6e-05
+   }
+  },
+  {
+   "vertex": 831,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    0,
+    1
+   ],
+   "non_nail_face_ids": [
+    764,
+    765
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.961001,
+    "LITTLE_PIP_R": 0.038145,
+    "LITTLE_MCP_R": 0.000799,
+    "WRIST_R": 5.5e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.961001,
+    "LITTLE_PIP_R": 0.038145,
+    "LITTLE_MCP_R": 0.000799,
+    "WRIST_R": 5.5e-05
+   }
+  },
+  {
+   "vertex": 832,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    0,
+    3,
+    760
+   ],
+   "non_nail_face_ids": [
+    763
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.915718,
+    "LITTLE_PIP_R": 0.082332,
+    "LITTLE_MCP_R": 0.001866,
+    "WRIST_R": 8.5e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.915718,
+    "LITTLE_PIP_R": 0.082332,
+    "LITTLE_MCP_R": 0.001866,
+    "WRIST_R": 8.5e-05
+   }
+  },
+  {
+   "vertex": 835,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    6,
+    9
+   ],
+   "non_nail_face_ids": [
+    7,
+    8
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.660564,
+    "LITTLE_PIP_R": 0.328734,
+    "LITTLE_MCP_R": 0.010626,
+    "WRIST_R": 7.5e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.660564,
+    "LITTLE_PIP_R": 0.328734,
+    "LITTLE_MCP_R": 0.010626,
+    "WRIST_R": 7.5e-05
+   }
+  },
+  {
+   "vertex": 836,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    5,
+    756
+   ],
+   "non_nail_face_ids": [
+    4,
+    757
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.670022,
+    "LITTLE_PIP_R": 0.319091,
+    "LITTLE_MCP_R": 0.010756,
+    "WRIST_R": 0.00013
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.670022,
+    "LITTLE_PIP_R": 0.319091,
+    "LITTLE_MCP_R": 0.010756,
+    "WRIST_R": 0.00013
+   }
+  },
+  {
+   "vertex": 839,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    10,
+    776
+   ],
+   "non_nail_face_ids": [
+    11,
+    779
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.675311,
+    "LITTLE_PIP_R": 0.314516,
+    "LITTLE_MCP_R": 0.010099,
+    "WRIST_R": 7.5e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.675311,
+    "LITTLE_PIP_R": 0.314516,
+    "LITTLE_MCP_R": 0.010099,
+    "WRIST_R": 7.5e-05
+   }
+  },
+  {
+   "vertex": 843,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    12,
+    15,
+    771
+   ],
+   "non_nail_face_ids": [
+    768
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.964684,
+    "LITTLE_PIP_R": 0.034607,
+    "LITTLE_MCP_R": 0.000683,
+    "WRIST_R": 2.6e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.964684,
+    "LITTLE_PIP_R": 0.034607,
+    "LITTLE_MCP_R": 0.000683,
+    "WRIST_R": 2.6e-05
+   }
+  },
+  {
+   "vertex": 1206,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    759
+   ],
+   "non_nail_face_ids": [
+    758,
+    1010,
+    1011
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.618907,
+    "LITTLE_PIP_R": 0.366385,
+    "LITTLE_MCP_R": 0.014487,
+    "WRIST_R": 0.000221
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.618907,
+    "LITTLE_PIP_R": 0.366385,
+    "LITTLE_MCP_R": 0.014487,
+    "WRIST_R": 0.000221
+   }
+  },
+  {
+   "vertex": 1207,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    756,
+    759,
+    760
+   ],
+   "non_nail_face_ids": [
+    761
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.820603,
+    "LITTLE_PIP_R": 0.17447,
+    "LITTLE_MCP_R": 0.004789,
+    "WRIST_R": 0.000139
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.820603,
+    "LITTLE_PIP_R": 0.17447,
+    "LITTLE_MCP_R": 0.004789,
+    "WRIST_R": 0.000139
+   }
+  },
+  {
+   "vertex": 1212,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    774,
+    775
+   ],
+   "non_nail_face_ids": [
+    1034,
+    1035
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.931945,
+    "LITTLE_PIP_R": 0.066514,
+    "LITTLE_MCP_R": 0.001487,
+    "WRIST_R": 5.3e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.931945,
+    "LITTLE_PIP_R": 0.066514,
+    "LITTLE_MCP_R": 0.001487,
+    "WRIST_R": 5.3e-05
+   }
+  },
+  {
+   "vertex": 1214,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    771,
+    773,
+    774
+   ],
+   "non_nail_face_ids": [
+    770
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    1,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.96496,
+    "LITTLE_PIP_R": 0.034308,
+    "LITTLE_MCP_R": 0.000698,
+    "WRIST_R": 3.4e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.96496,
+    "LITTLE_PIP_R": 0.034308,
+    "LITTLE_MCP_R": 0.000698,
+    "WRIST_R": 3.4e-05
+   }
+  },
+  {
+   "vertex": 1216,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    777,
+    990
+   ],
+   "non_nail_face_ids": [
+    778,
+    989
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.63309,
+    "LITTLE_PIP_R": 0.353554,
+    "LITTLE_MCP_R": 0.013235,
+    "WRIST_R": 0.000121
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.63309,
+    "LITTLE_PIP_R": 0.353554,
+    "LITTLE_MCP_R": 0.013235,
+    "WRIST_R": 0.000121
+   }
+  },
+  {
+   "vertex": 1313,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    990
+   ],
+   "non_nail_face_ids": [
+    991,
+    1033,
+    1034
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.843526,
+    "LITTLE_PIP_R": 0.15189,
+    "LITTLE_MCP_R": 0.004412,
+    "WRIST_R": 0.000171
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.843526,
+    "LITTLE_PIP_R": 0.15189,
+    "LITTLE_MCP_R": 0.004412,
+    "WRIST_R": 0.000171
+   }
+  },
+  {
+   "vertex": 2481,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    5,
+    6
+   ],
+   "non_nail_face_ids": [
+    4,
+    7
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.666224,
+    "LITTLE_PIP_R": 0.323085,
+    "LITTLE_MCP_R": 0.010594,
+    "WRIST_R": 9.8e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.666224,
+    "LITTLE_PIP_R": 0.323085,
+    "LITTLE_MCP_R": 0.010594,
+    "WRIST_R": 9.8e-05
+   }
+  },
+  {
+   "vertex": 2482,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    9,
+    10
+   ],
+   "non_nail_face_ids": [
+    8,
+    11
+   ],
+   "incident_face_material_index": [
+    0,
+    1,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.668321,
+    "LITTLE_PIP_R": 0.321374,
+    "LITTLE_MCP_R": 0.010237,
+    "WRIST_R": 6.8e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.668321,
+    "LITTLE_PIP_R": 0.321374,
+    "LITTLE_MCP_R": 0.010237,
+    "WRIST_R": 6.8e-05
+   }
+  },
+  {
+   "vertex": 2669,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    756,
+    759
+   ],
+   "non_nail_face_ids": [
+    757,
+    758
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.644968,
+    "LITTLE_PIP_R": 0.342457,
+    "LITTLE_MCP_R": 0.012402,
+    "WRIST_R": 0.000173
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.644968,
+    "LITTLE_PIP_R": 0.342457,
+    "LITTLE_MCP_R": 0.012402,
+    "WRIST_R": 0.000173
+   }
+  },
+  {
+   "vertex": 2670,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    760
+   ],
+   "non_nail_face_ids": [
+    761,
+    762,
+    763
+   ],
+   "incident_face_material_index": [
+    1,
+    0,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.913686,
+    "LITTLE_PIP_R": 0.084213,
+    "LITTLE_MCP_R": 0.001985,
+    "WRIST_R": 0.000116
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.913686,
+    "LITTLE_PIP_R": 0.084213,
+    "LITTLE_MCP_R": 0.001985,
+    "WRIST_R": 0.000116
+   }
+  },
+  {
+   "vertex": 2672,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    771
+   ],
+   "non_nail_face_ids": [
+    768,
+    769,
+    770
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    0,
+    1
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.981291,
+    "LITTLE_PIP_R": 0.018283,
+    "LITTLE_MCP_R": 0.000384,
+    "WRIST_R": 4.2e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.981291,
+    "LITTLE_PIP_R": 0.018283,
+    "LITTLE_MCP_R": 0.000384,
+    "WRIST_R": 4.2e-05
+   }
+  },
+  {
+   "vertex": 2674,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    776,
+    777
+   ],
+   "non_nail_face_ids": [
+    778,
+    779
+   ],
+   "incident_face_material_index": [
+    1,
+    1,
+    0,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.659606,
+    "LITTLE_PIP_R": 0.329096,
+    "LITTLE_MCP_R": 0.01121,
+    "WRIST_R": 8.8e-05
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.659606,
+    "LITTLE_PIP_R": 0.329096,
+    "LITTLE_MCP_R": 0.01121,
+    "WRIST_R": 8.8e-05
+   }
+  },
+  {
+   "vertex": 2727,
+   "digit": "LITTLE",
+   "expected": "LITTLE_DIP_R",
+   "dominant_after": "LITTLE_DIP_R",
+   "dominant_R1": "LITTLE_DIP_R",
+   "dominant_correct": true,
+   "nail_bed_face_ids": [
+    990
+   ],
+   "non_nail_face_ids": [
+    988,
+    989,
+    991
+   ],
+   "incident_face_material_index": [
+    0,
+    0,
+    1,
+    0
+   ],
+   "arc_along_thumb_chain_mm": null,
+   "thumb_segment_of_projection": null,
+   "classification": "SHARED_SEMANTIC_BOUNDARY_VERTEX",
+   "weights_after": {
+    "LITTLE_DIP_R": 0.646565,
+    "LITTLE_PIP_R": 0.339153,
+    "LITTLE_MCP_R": 0.013997,
+    "WRIST_R": 0.000285
+   },
+   "weights_before_R1": {
+    "LITTLE_DIP_R": 0.646565,
+    "LITTLE_PIP_R": 0.339153,
+    "LITTLE_MCP_R": 0.013997,
+    "WRIST_R": 0.000285
+   }
+  }
+ ],
+ "NAIL_WEIGHT_OWNERSHIP": "PASS",
+ "THUMB_NAIL_BOUNDARY_RESOLVED": "PASS"
+}

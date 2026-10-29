@@ -1,0 +1,118 @@
+{
+  "local_axes": "Y=longitudinal; Z=projected nail dorsal; X=Y cross Z (ULNAR cue here)",
+  "source": "approved Stage4C_R2 nail face normals recomputed from current geometry; right-handed frame; Bone.AxisRollFromMatrix used without bone writes",
+  "bones": {
+    "THUMB_IP_R": {
+      "candidate_roll_rad": 2.4771578311920166,
+      "candidate_roll_deg": 141.93068891508298,
+      "current_roll_deg": 141.4739814860409,
+      "roll_coordinate_delta_deg": 0.4567074290420726,
+      "parallel_transport_twist_delta_deg": 1.9640411341296764,
+      "axis_delta_deg": 13.933852284203642,
+      "frame_rotation_delta_deg": 14.070841119518358,
+      "candidate_parent_transport_twist_deg": 0.4983977937631694,
+      "candidate_frame_XYZ": [
+        [
+          -0.772481870435339,
+          0.02826294892830792,
+          0.6344075705464084
+        ],
+        [
+          0.626450296297614,
+          0.19764232087066833,
+          0.7539877580368846
+        ],
+        [
+          -0.10407586712274854,
+          0.9798666841559273,
+          -0.17038044243373815
+        ]
+      ],
+      "current_frame_XYZ": [
+        [
+          -0.7562769055366516,
+          0.06086394190788269,
+          0.6514145135879517
+        ],
+        [
+          0.6100401282310486,
+          0.4253993034362793,
+          0.6684958338737488
+        ],
+        [
+          -0.23642385005950928,
+          0.9029567241668701,
+          -0.3588489890098572
+        ]
+      ],
+      "head_delta_mm": 0.0,
+      "tail_delta_mm": 12.027052651872305,
+      "classification": "CHANGE_REQUIRED",
+      "current_own_axis_nail_alignment_error_deg": 1.1390761175093017e-05,
+      "candidate_nail_alignment_error_deg": 0.0,
+      "candidate_determinant": 1.0,
+      "projection_norm": 0.9882851805007662,
+      "axis_degeneracy": false,
+      "roll_ambiguity": false,
+      "flip_180": false,
+      "note": "Current roll rule is independently nail-compatible for the WRONG axis; that does not preserve its numeric roll when the axis changes. Blender coordinate roll and parallel-transport twist are both reported; neither is substituted for whole-frame rotation."
+    },
+    "THUMB_TIP_R": {
+      "candidate_roll_rad": 2.4771578311920166,
+      "candidate_roll_deg": 141.93068891508298,
+      "current_roll_deg": 141.47406344831094,
+      "roll_coordinate_delta_deg": 0.4566254667720325,
+      "parallel_transport_twist_delta_deg": 1.9640009665377516,
+      "axis_delta_deg": 13.933795081369343,
+      "frame_rotation_delta_deg": 14.070841119518358,
+      "candidate_parent_transport_twist_deg": 0.0,
+      "candidate_frame_XYZ": [
+        [
+          -0.772481870435339,
+          0.02826294892830792,
+          0.6344075705464084
+        ],
+        [
+          0.626450296297614,
+          0.19764232087066833,
+          0.7539877580368846
+        ],
+        [
+          -0.10407586712274854,
+          0.9798666841559273,
+          -0.17038044243373815
+        ]
+      ],
+      "current_frame_XYZ": [
+        [
+          -0.7562773823738098,
+          0.060865022242069244,
+          0.6514139175415039
+        ],
+        [
+          0.6100401878356934,
+          0.4253983795642853,
+          0.668496310710907
+        ],
+        [
+          -0.23642225563526154,
+          0.9029570817947388,
+          -0.3588491678237915
+        ]
+      ],
+      "head_delta_mm": 12.027052651872305,
+      "tail_delta_mm": 15.635183545981327,
+      "classification": "CHANGE_REQUIRED",
+      "current_own_axis_nail_alignment_error_deg": 8.365239156607497e-06,
+      "candidate_nail_alignment_error_deg": 0.0,
+      "candidate_determinant": 1.0,
+      "projection_norm": 0.9882851805007662,
+      "axis_degeneracy": false,
+      "roll_ambiguity": false,
+      "flip_180": false,
+      "note": "Current roll rule is independently nail-compatible for the WRONG axis; that does not preserve its numeric roll when the axis changes. Blender coordinate roll and parallel-transport twist are both reported; neither is substituted for whole-frame rotation."
+    }
+  },
+  "parent_frame_role": "Independent nail cue evaluated first; MCP frame used only for continuity check. IP→TIP candidate twist 0; existing hierarchy preserved.",
+  "radial_ulnar_basis": "native anatomical away-from-index sign + native IP surface half-ring IDs mapped unchanged to RSSF; qualitative cue, not new region authority"
+}

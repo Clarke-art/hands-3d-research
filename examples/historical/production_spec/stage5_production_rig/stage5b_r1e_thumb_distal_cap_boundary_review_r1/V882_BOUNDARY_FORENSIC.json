@@ -1,0 +1,942 @@
+{
+  "execution": "THUMB_DISTAL_CAP_BOUNDARY_REVIEW_R1",
+  "mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+  "native_mesh_sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039",
+  "seed_vertex_id": 284,
+  "region_identity": "ACCEPTED_BY_HUMAN_UNCHANGED",
+  "boundary_authority": "UNRESOLVED_PENDING_HUMAN",
+  "production_authority_applied": false,
+  "geometric_proxies_are_not_anatomical_authority": true,
+  "vertex": {
+    "vertex_id": 882,
+    "face_ids": [
+      64,
+      67,
+      68,
+      69
+    ],
+    "selected_candidate_face_ids": [
+      67
+    ],
+    "geodesic_from_v284_mm": 15.894139268401133,
+    "euclidean_tip_distance_mm": 11.951135641861601,
+    "native_XYZ_world_mm": [
+      1492.3689365386963,
+      -8.343295194208622,
+      455.6504189968109
+    ],
+    "native_normal_area_weighted": [
+      0.6058416638721547,
+      0.707238545418273,
+      -0.3643755181008523
+    ],
+    "normal_tip_axis_component": 0.03977978123201898,
+    "curvature_proxy": {
+      "normal_variation_rad_per_mm": 0.0429741511277395,
+      "one_ring_normal_angle_median_deg": 7.387051381272712,
+      "quadratic_fit_principal_curvatures_per_mm": [
+        -0.09433077267791574,
+        0.020343556781434805
+      ],
+      "quadratic_fit_rms_mm": 0.09702971186522534,
+      "quadratic_fit_rank": 6,
+      "quadratic_fit_sample_count": 12,
+      "proxy_only": true,
+      "sign_convention": "Quadratic surface height along saved area-weighted native normal; convex exterior may yield negative curvature"
+    },
+    "nail_membership": true,
+    "approved_nail_incident_face_ids": [
+      64,
+      68
+    ],
+    "boundary_membership": true,
+    "distance_to_thumb_IP_mm": 11.722515238660895,
+    "projection_on_IP_to_tip_axis_mm": 10.909348544106662,
+    "projection_fraction_IP_to_tip": 0.4944411893658171,
+    "axial_depth_from_tip_mm": 11.154647697992973,
+    "circumferential_angle_deg": 155.04176589385668,
+    "radial_distance_to_axis_mm": 4.289927489344637,
+    "one_ring": [
+      38,
+      39,
+      2496,
+      2497
+    ],
+    "two_ring_exact_hop_2": [
+      879,
+      880,
+      881,
+      883,
+      884,
+      885,
+      886,
+      1337
+    ],
+    "selected_face_incidence": 1,
+    "native_face_incidence": 4,
+    "candidate_memberships": [
+      "A",
+      "D"
+    ],
+    "geodesic_class": "EXPANSION_GT_9MM",
+    "classification_code": "C",
+    "classification": "PROXIMAL_OVERREACH",
+    "classification_status": "PROVISIONAL_ENGINEERING_FOR_HUMAN_BOUNDARY_REVIEW",
+    "anatomical_authority_changed": false,
+    "reason": "Beyond lower smoothed bulb-to-shaft knee, near transverse shaft normal, and low normal variation. This is a local distal-shaft tail of the cap patch, not a reclassification of the accepted thumb region.",
+    "multi_signal_basis": {
+      "native_tip_shape": {
+        "tip_facing_normal_component": 0.03977978123201898,
+        "axis_depth_mm": 11.154647697992973,
+        "radius_mm": 4.289927489344637
+      },
+      "normal_variation_rad_per_mm": 0.0429741511277395,
+      "local_median_edge_length_mm": 3.318625152518254,
+      "nail_membership": true,
+      "candidate_memberships": [
+        "A",
+        "D"
+      ],
+      "baseline_surface_continuity": "A is one manifold disk; this alone does not justify retaining the vertex"
+    },
+    "why_included_by_A": [
+      {
+        "face_id": 67,
+        "face_is_approved_nail": false,
+        "face_corners": [
+          882,
+          2496,
+          880,
+          39
+        ],
+        "core_corner_ids": [
+          880
+        ],
+        "min_corner_geodesic_mm": 8.82659210936784
+      }
+    ],
+    "remove_all_incident_A_faces_test": {
+      "remaining_core_vertices": 20,
+      "single_disk": true,
+      "caution": "Face-removal topology test is not a single-vertex delete proposal or proof of anatomical necessity"
+    }
+  },
+  "geodesic_matches_15_894139_mm": true,
+  "native_region_interpretation": "Approved nail-margin vertex on near-transverse distal-shaft continuation; beyond rounded terminal-bulb proxy, still distal of IP. Whole nail need not lie in cap.",
+  "other_over_13mm_vertices": [
+    {
+      "vertex_id": 39,
+      "face_ids": [
+        67,
+        69,
+        74,
+        77
+      ],
+      "selected_candidate_face_ids": [
+        67,
+        77
+      ],
+      "geodesic_from_v284_mm": 13.00725121121298,
+      "euclidean_tip_distance_mm": 11.437321865556749,
+      "native_XYZ_world_mm": [
+        1494.0924644470215,
+        -10.682827793061733,
+        454.63860034942627
+      ],
+      "native_normal_area_weighted": [
+        0.7146519963434227,
+        0.4946695413169041,
+        -0.4945448099168409
+      ],
+      "normal_tip_axis_component": 0.023722393631764663,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.05996815124087312,
+        "one_ring_normal_angle_median_deg": 11.179173562905467,
+        "quadratic_fit_principal_curvatures_per_mm": [
+          -0.11869443652545253,
+          0.013706116427359541
+        ],
+        "quadratic_fit_rms_mm": 0.12063551936962612,
+        "quadratic_fit_rank": 6,
+        "quadratic_fit_sample_count": 12,
+        "proxy_only": true,
+        "sign_convention": "Quadratic surface height along saved area-weighted native normal; convex exterior may yield negative curvature"
+      },
+      "nail_membership": false,
+      "approved_nail_incident_face_ids": [],
+      "boundary_membership": true,
+      "distance_to_thumb_IP_mm": 12.105031293166647,
+      "projection_on_IP_to_tip_axis_mm": 11.388222147280555,
+      "projection_fraction_IP_to_tip": 0.5161450365709833,
+      "axial_depth_from_tip_mm": 10.67577409481908,
+      "circumferential_angle_deg": 112.65380472128447,
+      "radial_distance_to_axis_mm": 4.103678707298174,
+      "one_ring": [
+        880,
+        882,
+        885,
+        886
+      ],
+      "two_ring_exact_hop_2": [
+        36,
+        38,
+        41,
+        43,
+        2496,
+        2497,
+        2498,
+        2499
+      ],
+      "selected_face_incidence": 2,
+      "native_face_incidence": 4,
+      "candidate_memberships": [
+        "A",
+        "D"
+      ],
+      "geodesic_class": "EXPANSION_GT_9MM",
+      "classification_code": "C",
+      "classification": "PROXIMAL_OVERREACH",
+      "classification_status": "PROVISIONAL_ENGINEERING_FOR_HUMAN_BOUNDARY_REVIEW",
+      "anatomical_authority_changed": false,
+      "reason": "Beyond lower smoothed bulb-to-shaft knee, near transverse shaft normal, and low normal variation. This is a local distal-shaft tail of the cap patch, not a reclassification of the accepted thumb region.",
+      "multi_signal_basis": {
+        "native_tip_shape": {
+          "tip_facing_normal_component": 0.023722393631764663,
+          "axis_depth_mm": 10.67577409481908,
+          "radius_mm": 4.103678707298174
+        },
+        "normal_variation_rad_per_mm": 0.05996815124087312,
+        "local_median_edge_length_mm": 3.318625152518254,
+        "nail_membership": false,
+        "candidate_memberships": [
+          "A",
+          "D"
+        ],
+        "baseline_surface_continuity": "A is one manifold disk; this alone does not justify retaining the vertex"
+      },
+      "why_included_by_A": [
+        {
+          "face_id": 67,
+          "face_is_approved_nail": false,
+          "face_corners": [
+            882,
+            2496,
+            880,
+            39
+          ],
+          "core_corner_ids": [
+            880
+          ],
+          "min_corner_geodesic_mm": 8.82659210936784
+        },
+        {
+          "face_id": 77,
+          "face_is_approved_nail": false,
+          "face_corners": [
+            886,
+            39,
+            880,
+            2499
+          ],
+          "core_corner_ids": [
+            880
+          ],
+          "min_corner_geodesic_mm": 8.82659210936784
+        }
+      ],
+      "remove_all_incident_A_faces_test": {
+        "remaining_core_vertices": 20,
+        "single_disk": true,
+        "caution": "Face-removal topology test is not a single-vertex delete proposal or proof of anatomical necessity"
+      }
+    },
+    {
+      "vertex_id": 881,
+      "face_ids": [
+        64,
+        65,
+        1040,
+        1043
+      ],
+      "selected_candidate_face_ids": [
+        65
+      ],
+      "geodesic_from_v284_mm": 13.380549702233209,
+      "euclidean_tip_distance_mm": 9.603805511820186,
+      "native_XYZ_world_mm": [
+        1492.769718170166,
+        -6.896576844155788,
+        459.8250091075897
+      ],
+      "native_normal_area_weighted": [
+        0.4813973214932371,
+        0.8254963347352136,
+        -0.2946394749483939
+      ],
+      "normal_tip_axis_component": 0.006660098994519433,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.05735649133385978,
+        "one_ring_normal_angle_median_deg": 8.338645252779864,
+        "quadratic_fit_principal_curvatures_per_mm": [
+          -0.05894239402609361,
+          0.01703524024032615
+        ],
+        "quadratic_fit_rms_mm": 0.04361093260170496,
+        "quadratic_fit_rank": 6,
+        "quadratic_fit_sample_count": 11,
+        "proxy_only": true,
+        "sign_convention": "Quadratic surface height along saved area-weighted native normal; convex exterior may yield negative curvature"
+      },
+      "nail_membership": true,
+      "approved_nail_incident_face_ids": [
+        64,
+        65,
+        1040
+      ],
+      "boundary_membership": true,
+      "distance_to_thumb_IP_mm": 15.355366396983788,
+      "projection_on_IP_to_tip_axis_mm": 14.285130402745002,
+      "projection_fraction_IP_to_tip": 0.6474407557905573,
+      "axial_depth_from_tip_mm": 7.778865839354632,
+      "circumferential_angle_deg": 185.0628325426642,
+      "radial_distance_to_axis_mm": 5.632257678958709,
+      "one_ring": [
+        37,
+        38,
+        2496,
+        2740
+      ],
+      "two_ring_exact_hop_2": [
+        879,
+        880,
+        882,
+        883,
+        1337,
+        1339,
+        1340
+      ],
+      "selected_face_incidence": 1,
+      "native_face_incidence": 4,
+      "candidate_memberships": [
+        "A",
+        "D"
+      ],
+      "geodesic_class": "EXPANSION_GT_9MM",
+      "classification_code": "B",
+      "classification": "MESH_FACE_COMPLETION_ONLY",
+      "classification_status": "PROVISIONAL_ENGINEERING_FOR_HUMAN_BOUNDARY_REVIEW",
+      "anatomical_authority_changed": false,
+      "reason": "Corner union extends onto a nearly shaft-directed side surface; topology-complete alternatives exist without this corner. Exact anatomical transition remains Human-reviewed.",
+      "multi_signal_basis": {
+        "native_tip_shape": {
+          "tip_facing_normal_component": 0.006660098994519433,
+          "axis_depth_mm": 7.778865839354632,
+          "radius_mm": 5.632257678958709
+        },
+        "normal_variation_rad_per_mm": 0.05735649133385978,
+        "local_median_edge_length_mm": 3.318625152518254,
+        "nail_membership": true,
+        "candidate_memberships": [
+          "A",
+          "D"
+        ],
+        "baseline_surface_continuity": "A is one manifold disk; this alone does not justify retaining the vertex"
+      },
+      "why_included_by_A": [
+        {
+          "face_id": 65,
+          "face_is_approved_nail": true,
+          "face_corners": [
+            881,
+            37,
+            879,
+            2496
+          ],
+          "core_corner_ids": [
+            879
+          ],
+          "min_corner_geodesic_mm": 8.440832562009987
+        }
+      ],
+      "remove_all_incident_A_faces_test": {
+        "remaining_core_vertices": 20,
+        "single_disk": true,
+        "caution": "Face-removal topology test is not a single-vertex delete proposal or proof of anatomical necessity"
+      }
+    },
+    {
+      "vertex_id": 886,
+      "face_ids": [
+        74,
+        75,
+        76,
+        77
+      ],
+      "selected_candidate_face_ids": [
+        77
+      ],
+      "geodesic_from_v284_mm": 15.070941226789513,
+      "euclidean_tip_distance_mm": 11.681947142568381,
+      "native_XYZ_world_mm": [
+        1494.9398040771484,
+        -13.772682286798954,
+        453.88177037239075
+      ],
+      "native_normal_area_weighted": [
+        0.7849570311813009,
+        0.20082978933311438,
+        -0.5860971377813196
+      ],
+      "normal_tip_axis_component": 0.020027497969568524,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.05992238761636845,
+        "one_ring_normal_angle_median_deg": 9.838457684581307,
+        "quadratic_fit_principal_curvatures_per_mm": [
+          -0.12127130008136776,
+          0.009350322983384608
+        ],
+        "quadratic_fit_rms_mm": 0.09720388266279607,
+        "quadratic_fit_rank": 6,
+        "quadratic_fit_sample_count": 12,
+        "proxy_only": true,
+        "sign_convention": "Quadratic surface height along saved area-weighted native normal; convex exterior may yield negative curvature"
+      },
+      "nail_membership": false,
+      "approved_nail_incident_face_ids": [],
+      "boundary_membership": true,
+      "distance_to_thumb_IP_mm": 12.669131404390322,
+      "projection_on_IP_to_tip_axis_mm": 11.576754411709427,
+      "projection_fraction_IP_to_tip": 0.5246898288361823,
+      "axial_depth_from_tip_mm": 10.487241830390207,
+      "circumferential_angle_deg": 73.00713521056178,
+      "radial_distance_to_axis_mm": 5.146420875975403,
+      "one_ring": [
+        39,
+        43,
+        2498,
+        2499
+      ],
+      "two_ring_exact_hop_2": [
+        880,
+        882,
+        885,
+        887,
+        888,
+        889,
+        890,
+        1345
+      ],
+      "selected_face_incidence": 1,
+      "native_face_incidence": 4,
+      "candidate_memberships": [
+        "A",
+        "D"
+      ],
+      "geodesic_class": "EXPANSION_GT_9MM",
+      "classification_code": "C",
+      "classification": "PROXIMAL_OVERREACH",
+      "classification_status": "PROVISIONAL_ENGINEERING_FOR_HUMAN_BOUNDARY_REVIEW",
+      "anatomical_authority_changed": false,
+      "reason": "Beyond lower smoothed bulb-to-shaft knee, near transverse shaft normal, and low normal variation. This is a local distal-shaft tail of the cap patch, not a reclassification of the accepted thumb region.",
+      "multi_signal_basis": {
+        "native_tip_shape": {
+          "tip_facing_normal_component": 0.020027497969568524,
+          "axis_depth_mm": 10.487241830390207,
+          "radius_mm": 5.146420875975403
+        },
+        "normal_variation_rad_per_mm": 0.05992238761636845,
+        "local_median_edge_length_mm": 3.318625152518254,
+        "nail_membership": false,
+        "candidate_memberships": [
+          "A",
+          "D"
+        ],
+        "baseline_surface_continuity": "A is one manifold disk; this alone does not justify retaining the vertex"
+      },
+      "why_included_by_A": [
+        {
+          "face_id": 77,
+          "face_is_approved_nail": false,
+          "face_corners": [
+            886,
+            39,
+            880,
+            2499
+          ],
+          "core_corner_ids": [
+            880
+          ],
+          "min_corner_geodesic_mm": 8.82659210936784
+        }
+      ],
+      "remove_all_incident_A_faces_test": {
+        "remaining_core_vertices": 20,
+        "single_disk": true,
+        "caution": "Face-removal topology test is not a single-vertex delete proposal or proof of anatomical necessity"
+      }
+    },
+    {
+      "vertex_id": 1453,
+      "face_ids": [
+        1220,
+        1223,
+        1224,
+        1225
+      ],
+      "selected_candidate_face_ids": [
+        1220
+      ],
+      "geodesic_from_v284_mm": 14.550213563213628,
+      "euclidean_tip_distance_mm": 10.813822069571268,
+      "native_XYZ_world_mm": [
+        1488.668441772461,
+        -7.242151536047459,
+        464.7541642189026
+      ],
+      "native_normal_area_weighted": [
+        -0.21258239052327238,
+        0.613198307147665,
+        0.7607868054525191
+      ],
+      "normal_tip_axis_component": 0.4087388934765867,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.1308293613220548,
+        "one_ring_normal_angle_median_deg": 21.90321946874378,
+        "quadratic_fit_principal_curvatures_per_mm": [
+          -0.2451403189642567,
+          -0.05237031745208112
+        ],
+        "quadratic_fit_rms_mm": 0.1907197874363752,
+        "quadratic_fit_rank": 6,
+        "quadratic_fit_sample_count": 12,
+        "proxy_only": true,
+        "sign_convention": "Quadratic surface height along saved area-weighted native normal; convex exterior may yield negative curvature"
+      },
+      "nail_membership": false,
+      "approved_nail_incident_face_ids": [],
+      "boundary_membership": true,
+      "distance_to_thumb_IP_mm": 17.814252061537985,
+      "projection_on_IP_to_tip_axis_mm": 15.573533266375618,
+      "projection_fraction_IP_to_tip": 0.7058346591203745,
+      "axial_depth_from_tip_mm": 6.490462975724016,
+      "circumferential_angle_deg": 231.6511554937336,
+      "radial_distance_to_axis_mm": 8.649429929949276,
+      "one_ring": [
+        299,
+        341,
+        2785,
+        2786
+      ],
+      "two_ring_exact_hop_2": [
+        1339,
+        1381,
+        1382,
+        1383,
+        1385,
+        1454,
+        1455,
+        1754
+      ],
+      "selected_face_incidence": 1,
+      "native_face_incidence": 4,
+      "candidate_memberships": [
+        "A",
+        "D"
+      ],
+      "geodesic_class": "EXPANSION_GT_9MM",
+      "classification_code": "A",
+      "classification": "ANATOMICALLY_REQUIRED_BOUNDARY_CORNER",
+      "classification_status": "PROVISIONAL_ENGINEERING_FOR_HUMAN_BOUNDARY_REVIEW",
+      "anatomical_authority_changed": false,
+      "reason": "Tip-facing convex bulb surface supported jointly by short axial depth, positive axial normal and appreciable local normal variation. Long tangential geodesic alone is not shaft intrusion.",
+      "multi_signal_basis": {
+        "native_tip_shape": {
+          "tip_facing_normal_component": 0.4087388934765867,
+          "axis_depth_mm": 6.490462975724016,
+          "radius_mm": 8.649429929949276
+        },
+        "normal_variation_rad_per_mm": 0.1308293613220548,
+        "local_median_edge_length_mm": 3.318625152518254,
+        "nail_membership": false,
+        "candidate_memberships": [
+          "A",
+          "D"
+        ],
+        "baseline_surface_continuity": "A is one manifold disk; this alone does not justify retaining the vertex"
+      },
+      "why_included_by_A": [
+        {
+          "face_id": 1220,
+          "face_is_approved_nail": false,
+          "face_corners": [
+            341,
+            1382,
+            2785,
+            1453
+          ],
+          "core_corner_ids": [
+            1382
+          ],
+          "min_corner_geodesic_mm": 8.818121035786918
+        }
+      ],
+      "remove_all_incident_A_faces_test": {
+        "remaining_core_vertices": 20,
+        "single_disk": true,
+        "caution": "Face-removal topology test is not a single-vertex delete proposal or proof of anatomical necessity"
+      }
+    },
+    {
+      "vertex_id": 2740,
+      "face_ids": [
+        1040,
+        1041,
+        1042,
+        1043
+      ],
+      "selected_candidate_face_ids": [
+        1042
+      ],
+      "geodesic_from_v284_mm": 13.177649325075697,
+      "euclidean_tip_distance_mm": 10.401411227745688,
+      "native_XYZ_world_mm": [
+        1491.593599319458,
+        -6.141339428722858,
+        460.5288505554199
+      ],
+      "native_normal_area_weighted": [
+        0.4445695435071962,
+        0.8795452423625716,
+        -0.16958209700074028
+      ],
+      "normal_tip_axis_component": 0.07639221416555045,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.09023848204698579,
+        "one_ring_normal_angle_median_deg": 13.945984216878406,
+        "quadratic_fit_principal_curvatures_per_mm": [
+          -0.12000916482352122,
+          -0.021386090928275227
+        ],
+        "quadratic_fit_rms_mm": 0.26011799319292367,
+        "quadratic_fit_rank": 6,
+        "quadratic_fit_sample_count": 12,
+        "proxy_only": true,
+        "sign_convention": "Quadratic surface height along saved area-weighted native normal; convex exterior may yield negative curvature"
+      },
+      "nail_membership": true,
+      "approved_nail_incident_face_ids": [
+        1040
+      ],
+      "boundary_membership": true,
+      "distance_to_thumb_IP_mm": 15.515724199262406,
+      "projection_on_IP_to_tip_axis_mm": 14.035722841732817,
+      "projection_fraction_IP_to_tip": 0.6361369303966652,
+      "axial_depth_from_tip_mm": 8.028273400366817,
+      "circumferential_angle_deg": 196.28479962075735,
+      "radial_distance_to_axis_mm": 6.61333363271782,
+      "one_ring": [
+        881,
+        1337,
+        1339,
+        1340
+      ],
+      "two_ring_exact_hop_2": [
+        37,
+        38,
+        282,
+        283,
+        2496,
+        2739,
+        2741,
+        2785
+      ],
+      "selected_face_incidence": 1,
+      "native_face_incidence": 4,
+      "candidate_memberships": [
+        "A",
+        "D"
+      ],
+      "geodesic_class": "EXPANSION_GT_9MM",
+      "classification_code": "B",
+      "classification": "MESH_FACE_COMPLETION_ONLY",
+      "classification_status": "PROVISIONAL_ENGINEERING_FOR_HUMAN_BOUNDARY_REVIEW",
+      "anatomical_authority_changed": false,
+      "reason": "Corner union extends onto a nearly shaft-directed side surface; topology-complete alternatives exist without this corner. Exact anatomical transition remains Human-reviewed.",
+      "multi_signal_basis": {
+        "native_tip_shape": {
+          "tip_facing_normal_component": 0.07639221416555045,
+          "axis_depth_mm": 8.028273400366817,
+          "radius_mm": 6.61333363271782
+        },
+        "normal_variation_rad_per_mm": 0.09023848204698579,
+        "local_median_edge_length_mm": 3.318625152518254,
+        "nail_membership": true,
+        "candidate_memberships": [
+          "A",
+          "D"
+        ],
+        "baseline_surface_continuity": "A is one manifold disk; this alone does not justify retaining the vertex"
+      },
+      "why_included_by_A": [
+        {
+          "face_id": 1042,
+          "face_is_approved_nail": false,
+          "face_corners": [
+            2740,
+            1339,
+            283,
+            1340
+          ],
+          "core_corner_ids": [
+            283
+          ],
+          "min_corner_geodesic_mm": 7.693165633266401
+        }
+      ],
+      "remove_all_incident_A_faces_test": {
+        "remaining_core_vertices": 20,
+        "single_disk": true,
+        "caution": "Face-removal topology test is not a single-vertex delete proposal or proof of anatomical necessity"
+      }
+    },
+    {
+      "vertex_id": 2785,
+      "face_ids": [
+        1220,
+        1221,
+        1222,
+        1223
+      ],
+      "selected_candidate_face_ids": [
+        1220,
+        1221
+      ],
+      "geodesic_from_v284_mm": 13.276937321883043,
+      "euclidean_tip_distance_mm": 10.961912694359397,
+      "native_XYZ_world_mm": [
+        1489.943504333496,
+        -5.631336010992527,
+        463.3471965789795
+      ],
+      "native_normal_area_weighted": [
+        0.07613072635454939,
+        0.8611303452241815,
+        0.5026516100032018
+      ],
+      "normal_tip_axis_component": 0.3692074845557931,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.13869044154016164,
+        "one_ring_normal_angle_median_deg": 24.891026310232586,
+        "quadratic_fit_principal_curvatures_per_mm": [
+          -0.2856726134038039,
+          -0.030694640294474586
+        ],
+        "quadratic_fit_rms_mm": 0.3162550088969137,
+        "quadratic_fit_rank": 6,
+        "quadratic_fit_sample_count": 12,
+        "proxy_only": true,
+        "sign_convention": "Quadratic surface height along saved area-weighted native normal; convex exterior may yield negative curvature"
+      },
+      "nail_membership": false,
+      "approved_nail_incident_face_ids": [],
+      "boundary_membership": true,
+      "distance_to_thumb_IP_mm": 17.37562228796339,
+      "projection_on_IP_to_tip_axis_mm": 15.150669960478963,
+      "projection_fraction_IP_to_tip": 0.6866693501139397,
+      "axial_depth_from_tip_mm": 6.913326281620671,
+      "circumferential_angle_deg": 215.2324848651629,
+      "radial_distance_to_axis_mm": 8.507023547787476,
+      "one_ring": [
+        1339,
+        1382,
+        1383,
+        1453
+      ],
+      "two_ring_exact_hop_2": [
+        282,
+        283,
+        299,
+        341,
+        2740,
+        2784,
+        2786,
+        2964
+      ],
+      "selected_face_incidence": 2,
+      "native_face_incidence": 4,
+      "candidate_memberships": [
+        "A",
+        "D"
+      ],
+      "geodesic_class": "EXPANSION_GT_9MM",
+      "classification_code": "A",
+      "classification": "ANATOMICALLY_REQUIRED_BOUNDARY_CORNER",
+      "classification_status": "PROVISIONAL_ENGINEERING_FOR_HUMAN_BOUNDARY_REVIEW",
+      "anatomical_authority_changed": false,
+      "reason": "Tip-facing convex bulb surface supported jointly by short axial depth, positive axial normal and appreciable local normal variation. Long tangential geodesic alone is not shaft intrusion.",
+      "multi_signal_basis": {
+        "native_tip_shape": {
+          "tip_facing_normal_component": 0.3692074845557931,
+          "axis_depth_mm": 6.913326281620671,
+          "radius_mm": 8.507023547787476
+        },
+        "normal_variation_rad_per_mm": 0.13869044154016164,
+        "local_median_edge_length_mm": 3.318625152518254,
+        "nail_membership": false,
+        "candidate_memberships": [
+          "A",
+          "D"
+        ],
+        "baseline_surface_continuity": "A is one manifold disk; this alone does not justify retaining the vertex"
+      },
+      "why_included_by_A": [
+        {
+          "face_id": 1220,
+          "face_is_approved_nail": false,
+          "face_corners": [
+            341,
+            1382,
+            2785,
+            1453
+          ],
+          "core_corner_ids": [
+            1382
+          ],
+          "min_corner_geodesic_mm": 8.818121035786918
+        },
+        {
+          "face_id": 1221,
+          "face_is_approved_nail": false,
+          "face_corners": [
+            1382,
+            283,
+            1339,
+            2785
+          ],
+          "core_corner_ids": [
+            1382,
+            283
+          ],
+          "min_corner_geodesic_mm": 7.693165633266401
+        }
+      ],
+      "remove_all_incident_A_faces_test": {
+        "remaining_core_vertices": 20,
+        "single_disk": true,
+        "caution": "Face-removal topology test is not a single-vertex delete proposal or proof of anatomical necessity"
+      }
+    },
+    {
+      "vertex_id": 2790,
+      "face_ids": [
+        1240,
+        1241,
+        1242,
+        1243
+      ],
+      "selected_candidate_face_ids": [
+        1243
+      ],
+      "geodesic_from_v284_mm": 13.35450920422004,
+      "euclidean_tip_distance_mm": 11.160403749322805,
+      "native_XYZ_world_mm": [
+        1495.2895641326904,
+        -21.065030246973038,
+        457.77130126953125
+      ],
+      "native_normal_area_weighted": [
+        0.5994550245994262,
+        -0.7977146609151083,
+        -0.06561244732209717
+      ],
+      "normal_tip_axis_component": 0.3875116815932773,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.14820427450725004,
+        "one_ring_normal_angle_median_deg": 23.24478733968742,
+        "quadratic_fit_principal_curvatures_per_mm": [
+          -0.2816559448959334,
+          -0.05926145266412473
+        ],
+        "quadratic_fit_rms_mm": 0.24345445129508533,
+        "quadratic_fit_rank": 6,
+        "quadratic_fit_sample_count": 12,
+        "proxy_only": true,
+        "sign_convention": "Quadratic surface height along saved area-weighted native normal; convex exterior may yield negative curvature"
+      },
+      "nail_membership": false,
+      "approved_nail_incident_face_ids": [],
+      "boundary_membership": true,
+      "distance_to_thumb_IP_mm": 17.807112077421667,
+      "projection_on_IP_to_tip_axis_mm": 15.395183887066695,
+      "projection_fraction_IP_to_tip": 0.6977513827568379,
+      "axial_depth_from_tip_mm": 6.668812355032939,
+      "circumferential_angle_deg": 17.921367449518755,
+      "radial_distance_to_axis_mm": 8.948829734733954,
+      "one_ring": [
+        1342,
+        1389,
+        1449,
+        1450
+      ],
+      "two_ring_exact_hop_2": [
+        285,
+        286,
+        301,
+        339,
+        2743,
+        2779,
+        2789,
+        2963
+      ],
+      "selected_face_incidence": 1,
+      "native_face_incidence": 4,
+      "candidate_memberships": [
+        "A",
+        "D"
+      ],
+      "geodesic_class": "EXPANSION_GT_9MM",
+      "classification_code": "A",
+      "classification": "ANATOMICALLY_REQUIRED_BOUNDARY_CORNER",
+      "classification_status": "PROVISIONAL_ENGINEERING_FOR_HUMAN_BOUNDARY_REVIEW",
+      "anatomical_authority_changed": false,
+      "reason": "Tip-facing convex bulb surface supported jointly by short axial depth, positive axial normal and appreciable local normal variation. Long tangential geodesic alone is not shaft intrusion.",
+      "multi_signal_basis": {
+        "native_tip_shape": {
+          "tip_facing_normal_component": 0.3875116815932773,
+          "axis_depth_mm": 6.668812355032939,
+          "radius_mm": 8.948829734733954
+        },
+        "normal_variation_rad_per_mm": 0.14820427450725004,
+        "local_median_edge_length_mm": 3.318625152518254,
+        "nail_membership": false,
+        "candidate_memberships": [
+          "A",
+          "D"
+        ],
+        "baseline_surface_continuity": "A is one manifold disk; this alone does not justify retaining the vertex"
+      },
+      "why_included_by_A": [
+        {
+          "face_id": 1243,
+          "face_is_approved_nail": false,
+          "face_corners": [
+            1450,
+            2790,
+            1342,
+            285
+          ],
+          "core_corner_ids": [
+            285
+          ],
+          "min_corner_geodesic_mm": 7.85442330220687
+        }
+      ],
+      "remove_all_incident_A_faces_test": {
+        "remaining_core_vertices": 20,
+        "single_disk": true,
+        "caution": "Face-removal topology test is not a single-vertex delete proposal or proof of anatomical necessity"
+      }
+    }
+  ],
+  "why_nail_membership_does_not_force_cap_retention": "Approved nail extends axially3.74 to19.63 mm from tip; v882 is11.16 mm proximal to tip. Anatomical nail authority is frozen, and cap/nail are different masks."
+}

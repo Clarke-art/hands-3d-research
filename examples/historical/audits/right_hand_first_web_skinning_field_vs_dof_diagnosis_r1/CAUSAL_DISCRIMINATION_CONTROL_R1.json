@@ -1,0 +1,12 @@
+{
+  "asset_and_saved_candidate_controls": "PASS",
+  "actual_evaluated_deformation": "BLENDER_ONLY",
+  "pair_S_and_all_other_weights": "PASS",
+  "manipulation_target_pair_band_gradient": "PASS_LOCAL_BAND_ONLY",
+  "whole_ROI_gradient_reduction": "NOT_ACHIEVED",
+  "whole_static_weight_field_vs_DOF_causal_isolation": "FAIL",
+  "CONTROL_FAILURE_CODE": "ALLOWED_PAIR_INTERVENTION_DOES_NOT_ISOLATE_DOMINANT_FULL_VECTOR_GRADIENT",
+  "reason": "Causal isolation for the requested whole-field-versus-21-bone-DOF question fails: the allowed manipulated pair accounts for only 9–35% of the inherited endpoint-vector L1. Most of the actual gradient is held constant in directly observed INDEX influences. Asset and pair-intervention controls pass, but an unsuccessful pair-field probe cannot distinguish an untested static full-vector field problem from a DOF limit.",
+  "not_a_missing_file_or_incomplete_execution": true,
+  "not_a_claim_all_21_bone_static_fields_are_impossible": true
+}

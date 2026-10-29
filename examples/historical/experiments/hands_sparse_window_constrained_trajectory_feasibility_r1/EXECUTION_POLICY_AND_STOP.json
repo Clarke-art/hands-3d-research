@@ -1,0 +1,38 @@
+{
+  "window": [
+    1.2414275,
+    2.134284
+  ],
+  "method": "C1 + six cubic B-spline coefficient slots per26 channels; native skin hard constraint functions; intended trust-constr/NonlinearConstraint",
+  "coefficient_slots": 156,
+  "free_variables": 52,
+  "contact_xy_variables": 0,
+  "coefficient_domains": {
+    "translation_mm": [
+      -8,
+      8
+    ],
+    "rotation_vector_deg": [
+      -4,
+      4
+    ],
+    "joint_correction_deg": [
+      -8,
+      8
+    ]
+  },
+  "init": "one all-zero C1 correction",
+  "solver_budget": {
+    "seconds": 180,
+    "iterations": 60,
+    "native_calls": 6000
+  },
+  "formal_started": false,
+  "stop_stage": 0,
+  "primary_stop": "Frozen endpoint actual non-target vertex depth already exceeds0.5mm; endpoint basis correction identically zero",
+  "secondary_stop": "Full numerical Jacobian45.078s; continuous root/skin bounds not certified",
+  "no_new_solver_or_seed": true,
+  "velocity_reference_status": "Reconstructed fixed C1 readback adapter, provisional; not original Action derivative certificate",
+  "key_screen_status": "32 nearby registered components; full continuous conservative coverage not certified; boundary proof independently checks all139",
+  "no_new_trajectory": true
+}

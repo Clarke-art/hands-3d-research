@@ -1,0 +1,15 @@
+{
+  "completed_no_progress_runs": [
+    "hold_1",
+    "hold_2",
+    "hold_3",
+    "hold_4",
+    "hold_5"
+  ],
+  "interrupted_run": "hold_6",
+  "interrupted_solve_upper_charge_seconds": 35,
+  "reason": "Repeated budget exhaustion retained unchanged P2. Driver should have stopped on no progress as well as actual failure; fixed for final correction.",
+  "correction": "One bounded12D predictor toward independently feasible junction, then constrained projection instead of minimizing entire remaining free-pad distance.",
+  "max_remaining_continuation_solves": 1,
+  "no_actual_movement_claim_for_failed_runs": true
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>FIRST_WEB_TOPOLOGY_CAUSAL_PROBE_R1 · Human Review</title>
+<style>
+:root{--bg:#f7f8fa;--panel:#fff;--ink:#171a1f;--muted:#5b6472;--line:#e2e5ea;--bad:#c0392b;--good:#1f7a4d;--warn:#a1680c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.6 "Segoe UI","Microsoft YaHei",system-ui,sans-serif}
+header{padding:22px 26px 14px;background:var(--panel);border-bottom:1px solid var(--line)}
+h1{margin:0 0 6px;font-size:20px}
+h2{margin:30px 0 10px;font-size:17px;border-left:4px solid #3d6ee0;padding-left:10px}
+.wrap{padding:0 26px 60px;max-width:1500px;margin:0 auto}
+.badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.badge{padding:4px 10px;border-radius:999px;font-size:13px;border:1px solid var(--line);background:#f1f3f7}
+.badge.b{background:#fdecea;border-color:#f5c6c0;color:var(--bad);font-weight:600}
+.badge.g{background:#e9f7f0;border-color:#bfe6d3;color:var(--good);font-weight:600}
+.badge.w{background:#fdf5e6;border-color:#f0dcb4;color:var(--warn);font-weight:600}
+table{border-collapse:collapse;width:100%;background:var(--panel);font-size:14px}
+th,td{border:1px solid var(--line);padding:7px 9px;text-align:cneter}
+th{background:#f1f3f7;text-align:center}
+td{text-align:center}
+td.l,th.l{text-align:left}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:10px}
+figure{margin:0;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:10px}
+figure img{width:100%;display:block;border-radius:5px;background:#dfe2e7}
+figcaption{font-size:13px;color:var(--muted);margin-bottom:6px}
+.controls{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:14px 0 4px;background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px}
+.controls label{font-size:14px;color:var(--muted)}
+select,button{font:inherit;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:#fff}
+button{cursor:pointer}
+button:hover{border-color:#3d6ee0}
+.seg{display:inline-flex;gap:6px}
+.seg button[aria-pressed="true"]{background:#3d6ee0;border-color:#3d6ee0;color:#fff}
+.note{background:#fff;border:1px solid var(--line);border-left:4px solid #3d6ee0;border-radius:8px;padding:12px 14px;margin-top:12px}
+.small{font-size:13px;color:var(--muted)}
+img.big{width:100%;border:1px solid var(--line);border-radius:8px;background:#fff}
+ul{margin:8px 0 0 18px}
+code{background:#eef1f5;padding:1px 5px;border-radius:4px;font-size:13px}
+</style>
+</head>
+<body>
+<header>
+  <h1>RIGHT_HAND_FIRST_WEB_TOPOLOGY_CAUSAL_PROBE_R1</h1>
+  <div class="small">ONE BOUNDED STRUCTURAL PROBE · baseline 左 / probe 右 · 同相机 · 同姿态 · 同帧 · 中性 Workbench 实体着色</div>
+  <div class="badges">
+    <span class="badge b">FINAL_CAUSAL_RESULT = LEVEL_1_NOT_SUPPORTED</span>
+    <span class="badge b">F130_HUMAN_VISIBLE_IMPROVEMENT = NO</span>
+    <span class="badge g">WEIGHT_FIELD_SEMANTICS_PRESERVED = YES</span>
+    <span class="badge g">FROZEN_FALLBACK_UNCHANGED = YES</span>
+  </div>
+</header>
+<div class="wrap">
+
+<h2>一、Q1–Q7</h2>
+<table>
+<tr><th class="l">#</th><th class="l">问题</th><th>回答</th></tr>
+<tr><td class="l">Q1</td><td class="l">candidate 是否真正改变了局部 topology / load path，而不是简单 subdivide？</td><td>YES</td></tr>
+<tr><td class="l">Q2</td><td class="l">WEIGHT_FIELD_SEMANTICS_PRESERVED？</td><td>YES</td></tr>
+<tr><td class="l">Q3</td><td class="l">F130 Human-visible main fold 是否明显改善？</td><td><b>NO</b></td></tr>
+<tr><td class="l">Q4</td><td class="l">F127 / F160 / F205 是否表现出一致改善？</td><td><b>NO</b></td></tr>
+<tr><td class="l">Q5</td><td class="l">F110 / F176 是否保持平滑，且无明显新 defect？</td><td>YES</td></tr>
+<tr><td class="l">Q6</td><td class="l">改善是否来自 topology 本身，而非新 weights / corrective / helper / cage / DQS？</td><td>YES（这些全部未使用）</td></tr>
+<tr><td class="l">Q7</td><td class="l">最终结论</td><td><b>LEVEL_1_NOT_SUPPORTED</b></td></tr>
+</table>
+
+<h2>二、六决策帧 A/B「滑动查看」</h2>
+<div class="controls">
+  <label>帧</label>
+  <select id="fr">
+    <option value="110">F110 · SMOOTH</option>
+    <option value="127">F127 · FOLDED</option>
+    <option value="130" selected>F130 · PEAK</option>
+    <option value="160">F160 · FOLDED</option>
+    <option value="176">F176 · SMOOTH / RECOVERY</option>
+    <option value="205">F205 · FOLDED</option>
+  </select>
+  <label>视角</label>
+  <div class="seg" id="vw">
+    <button data-v="FIRST_WEB_OBLIQUE" aria-pressed="true">FIRST_WEB_OBLIQUE</button>
+    <button data-v="PALMAR_THENAR_CLOSE" aria-pressed="false">PALMAR_THENAR_CLOSE</button>
+  </div>
+  <button id="prev">上一帧</button><button id="next">下一帧</button>
+</div>
+<div class="pair">
+  <figure><figcaption id="capB">BASELINE (frozen fallback)</figcaption><img id="imgB" alt="baseline"></figure>
+  <figure><figcaption id="capP">PROBE candidate topology</figcaption><img id="imgP" alt="probe"></figure>
+</div>
+
+<h2>三、F130 peak 证据图</h2>
+<img class="big" src="EVIDENCE_F130_BASELINE_VS_PROBE.png" alt="F130 evidence">
+<h2>四、六帧证据图</h2>
+<img class="big" src="EVIDENCE_SIX_FRAMES_BASELINE_VS_PROBE.png" alt="six frame evidence">
+
+<h2>五、决定性几何证据：形变后曲面几乎重合</h2>
+<table>
+<tr><th class="l">帧</th><th>probe 顶点 → baseline 曲面 最大距离 (mm)</th><th>该帧最大差分 (mm)</th><th>占比</th></tr>
+<tr><td class="l">F110</td><td>0.046</td><td>6.23</td><td>0.7%</td></tr>
+<tr><td class="l">F127</td><td>0.100</td><td>18.59</td><td>0.5%</td></tr>
+<tr><td class="l"><b>F130</b></td><td><b>0.152</b></td><td><b>25.58</b></td><td><b>0.6%</b></td></tr>
+<tr><td class="l">F160</td><td>0.064</td><td>10.21</td><td>0.6%</td></tr>
+<tr><td class="l">F176</td><td>0.038</td><td>3.22</td><td>1.2%</td></tr>
+<tr><td class="l">F205</td><td>0.106</td><td>14.19</td><td>0.7%</td></tr>
+</table>
+<div class="note">
+换掉局部承载结构之后，<b>形变后的曲面与 baseline 相差不到 0.152 mm，而该帧的差分是 25.6 mm</b>。
+渲染上的差别集中在折痕处的法线场离散方式，不是形状被修正。<br>
+LBS 形变场 <code>X(p)=Σ_b w_b(p)·T_b·p</code> 在重心插值细分下不变 ——
+在保持静止外形与 weight 语义的前提下，topology 对形变曲面没有自由度。
+</div>
+
+<h2>六、次级数字（不作 PASS 条件）</h2>
+<table>
+<tr><th class="l">帧</th><th>baseline max 边长比</th><th>probe max 边长比</th><th>变化</th><th>baseline 采样中 &gt;2× 占比</th><th>probe 采样中 &gt;2× 占比</th></tr>
+<tr><td class="l">F110</td><td>2.138</td><td>2.063</td><td>−3.5%</td><td>2.68%</td><td>0.77%</td></tr>
+<tr><td class="l">F127</td><td>6.031</td><td>5.531</td><td>−8.3%</td><td>12.75%</td><td>24.71%</td></tr>
+<tr><td class="l"><b>F130</b></td><td><b>8.099</b></td><td><b>7.312</b></td><td><b>−9.7%</b></td><td>15.44%</td><td>29.34%</td></tr>
+<tr><td class="l">F160</td><td>3.268</td><td>3.060</td><td>−6.4%</td><td>10.74%</td><td>13.13%</td></tr>
+<tr><td class="l">F176</td><td>1.407</td><td>1.411</td><td>+0.3%</td><td>0.00%</td><td>0.00%</td></tr>
+<tr><td class="l">F205</td><td>4.585</td><td>4.168</td><td>−9.1%</td><td>10.74%</td><td>20.46%</td></tr>
+</table>
+<div class="small">更细的网格把同一条高应变带解析得更清楚，因此 &gt;2× 采样占比反而更高；比值没有降到接近 1×。</div>
+
+<h2>七、F110 口径核对（上一轮 0 vs 2）</h2>
+<table>
+<tr><th class="l">edge subset</th><th class="l">度量</th><th>max</th><th>&gt;2×</th></tr>
+<tr><td class="l">first-web patch 内部边 (268)</td><td class="l">‖Δ(边向量) − 静止边向量‖ / 静止边长</td><td>1.742</td><td>0</td></tr>
+<tr><td class="l">first-web patch 内部边 (268)</td><td class="l">形变边长 / 静止边长</td><td>2.138</td><td>2</td></tr>
+<tr><td class="l">全网格边 (6596)</td><td class="l">差分 strain</td><td>1.742</td><td>0</td></tr>
+<tr><td class="l">全网格边 (6596)</td><td class="l">形变边长 / 静止边长</td><td>2.138</td><td>2</td></tr>
+</table>
+<div class="small">0 与 2 是同一批边的两种定义，不是两套数据；edge subset 在 F110 不影响结果。</div>
+
+<h2>八、成因（下一轮的入口）</h2>
+<div class="note">
+F130 最坏的 8 条边：静止长度 3.4–3.9 mm、形变后 20–29 mm，两端权重向量 L1 差 <b>0.39–0.57</b>，
+两端主导骨骼都是 <code>WRIST_R</code> 与 <code>THUMB_CMC_R</code> 的比例互换
+（例：<code>WRIST_R 0.45 / THUMB_CMC_R 0.27</code> ↔ <code>WRIST_R 0.41 / THUMB_CMC_R 0.39</code>）。
+局部差分 strain 与权重 L1 差的相关系数六帧为 0.53–0.71。<br>
+<b>blocker 位于 skinning / deformation field，不在网格结构。</b>
+</div>
+
+<h2>九、实验控制与资产保护</h2>
+<ul>
+  <li>21 骨骼 / rest transforms / Action / retarget mapping / motion sample 均未改动；Action payload SHA 与批准值一致。</li>
+  <li>候选静止外形 = 原始曲面：保留顶点偏移 0.0 mm，整区域偏差 2.6×10⁻⁴ mm。</li>
+  <li>权重 = 原权重场的重心插值，未做美术刷权重；权重和 ∈ [0.99999992, 1.00000007]，无零权重顶点。</li>
+  <li>corrective 按同一插值迁移，driver 表达式与变量逐字一致；六决策帧自然值 baseline 与 probe 均为 0.0。</li>
+  <li>helper bone / cage / DQS / 新 corrective：全部未使用。</li>
+  <li>新 ROI 边集与旧 ROI 边集共享 <b>0</b> 条边（旧 431 / 新 647）——这是真正换掉承载结构，不是细分。</li>
+  <li>冻结 fallback SHA256 轮前轮后均为 <code>4aa26e3a…e7d2</code>；未移动 production pointer、未 promotion、未开始左手、未开始 Web export。</li>
+</ul>
+
+<h2>十、结论</h2>
+<div class="note"><b>LEVEL_1_NOT_SUPPORTED</b> —— 真正改变局部承载结构后，F130 等主要 blocker 仍存在，
+次级数字只降约 9.7%，且形变后曲面与 baseline 相差 0.152 mm。<br>
+下一轮不要继续 topology iteration，应转入 SKINNING / DEFORMATION FIELD 分析，
+不要把 LEVEL 2 / LEVEL 3 当作下一步。</div>
+
+</div>
+<script>
+const FRAMES=[110,127,130,160,176,205];
+const VERDICT={110:'SMOOTH',127:'FOLDED',130:'PEAK',160:'FOLDED',176:'SMOOTH / RECOVERY',205:'FOLDED'};
+let view='FIRST_WEB_OBLIQUE';
+const imgB=document.getElementById('imgB'),imgP=document.getElementById('imgP');
+const capB=document.getElementById('capB'),capP=document.getElementById('capP');
+const sel=document.getElementById('fr');
+function pad(n){return String(n).padStart(3,'0')}
+function render(){
+  const f=Number(sel.value);
+  imgB.src=`renders/BASELINE_FROZEN__F${pad(f)}__${view}.png`;
+  imgP.src=`renders/PROBE_TOPOLOGY__F${pad(f)}__${view}.png`;
+  capB.textContent=`BASELINE (frozen fallback) · F${f} · ${VERDICT[f]}`;
+  capP.textContent=`PROBE candidate topology · F${f} · ${VERDICT[f]}`;
+}
+sel.addEventListener('change',render);
+document.getElementById('vw').addEventListener('click',e=>{
+  const b=e.target.closest('button'); if(!b)return;
+  view=b.dataset.v;
+  [...e.currentTarget.querySelectorAll('button')].forEach(x=>x.setAttribute('aria-pressed',String(x===b)));
+  render();
+});
+document.getElementById('prev').onclick=()=>{let i=FRAMES.indexOf(Number(sel.value));sel.value=FRAMES[(i-1+FRAMES.length)%FRAMES.length];render();};
+document.getElementById('next').onclick=()=>{let i=FRAMES.indexOf(Number(sel.value));sel.value=FRAMES[(i+1)%FRAMES.length];render();};
+render();
+</script>
+</body>
+</html>

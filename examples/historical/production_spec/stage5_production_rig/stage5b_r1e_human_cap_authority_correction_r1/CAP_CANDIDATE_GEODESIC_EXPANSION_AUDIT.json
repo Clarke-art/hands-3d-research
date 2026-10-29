@@ -1,0 +1,2781 @@
+{
+  "execution": "HUMAN_CAP_AUTHORITY_CORRECTION_R1",
+  "candidate_name": "NATIVE_THUMB_DISTAL_CAP_CANDIDATE_R1",
+  "human_approval": "PENDING_HUMAN_REVIEW",
+  "production_cap_replaced": false,
+  "mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+  "native_mesh_path": "production_spec\\stage4_blender\\stage4a_r2\\RIGHT_HAND_ENGINEERING_STAGE4A_R2.blend",
+  "native_mesh_sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039",
+  "vertex_count": 48,
+  "face_count": 33,
+  "seed_vertex_id": 284,
+  "geodesic_radius_convention_mm": 9.0,
+  "source_candidate_sha256": "531fd2740ded03db59b5b740288c1fa1bd5c5e403bb865c00475b337be7f5ba3",
+  "graph_domain": "Native THUMB-only induced edge graph; edge length in native world mm",
+  "face_predicate": "Fully native-thumb-branch face with min(vertex geodesic from independent native seed) <= 9 mm, connected to closest seed face",
+  "vertex_geodesic_le_9mm_count": 20,
+  "vertex_geodesic_le_9mm_ids": [
+    36,
+    283,
+    284,
+    285,
+    505,
+    879,
+    880,
+    890,
+    1338,
+    1341,
+    1343,
+    1382,
+    1752,
+    1753,
+    1754,
+    1755,
+    2741,
+    2742,
+    2963,
+    2964
+  ],
+  "face_expansion_geodesic_gt_9mm_count": 28,
+  "face_expansion_geodesic_gt_9mm_ids": [
+    37,
+    39,
+    44,
+    339,
+    340,
+    341,
+    881,
+    882,
+    886,
+    889,
+    1339,
+    1340,
+    1342,
+    1344,
+    1378,
+    1380,
+    1450,
+    1452,
+    1453,
+    1454,
+    2496,
+    2499,
+    2740,
+    2743,
+    2785,
+    2790,
+    2965,
+    2966
+  ],
+  "max_candidate_geodesic_mm": 15.894139268401133,
+  "all_candidate_vertices_within_9mm": false,
+  "expansion_vertices": [
+    {
+      "vertex_id": 37,
+      "face_ids": [
+        65,
+        1045
+      ],
+      "world_m": [
+        1.4946368932724,
+        -0.007185810245573521,
+        0.46191346645355225
+      ],
+      "geodesic_distance_mm": 10.564230666896014,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": true,
+      "tip_distance_mm": 7.4525026502280305,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          37,
+          881
+        ],
+        [
+          37,
+          1340
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1341,
+        2741,
+        1340,
+        37
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 65,
+          "vertices_le_9mm": [
+            879
+          ]
+        },
+        {
+          "face_id": 1045,
+          "vertices_le_9mm": [
+            879,
+            2741
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 39,
+      "face_ids": [
+        67,
+        77
+      ],
+      "world_m": [
+        1.4940924644470215,
+        -0.010682827793061733,
+        0.45463860034942627
+      ],
+      "geodesic_distance_mm": 13.00725121121298,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 11.43732186555675,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          39,
+          882
+        ],
+        [
+          39,
+          886
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1341,
+        36,
+        880,
+        39
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 67,
+          "vertices_le_9mm": [
+            880
+          ]
+        },
+        {
+          "face_id": 77,
+          "vertices_le_9mm": [
+            880
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 44,
+      "face_ids": [
+        79,
+        1051
+      ],
+      "world_m": [
+        1.4984047412872314,
+        -0.015966348350048065,
+        0.4583771526813507
+      ],
+      "geodesic_distance_mm": 10.146097477944402,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 7.429877387949161,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          44,
+          889
+        ],
+        [
+          44,
+          1344
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1343,
+        2742,
+        1344,
+        44
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 79,
+          "vertices_le_9mm": [
+            890
+          ]
+        },
+        {
+          "face_id": 1051,
+          "vertices_le_9mm": [
+            890,
+            2742
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 339,
+      "face_ids": [
+        1934,
+        1943
+      ],
+      "world_m": [
+        1.4948604106903076,
+        -0.02024093270301819,
+        0.4618949890136719
+      ],
+      "geodesic_distance_mm": 11.230029255665146,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 8.373723073787383,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          339,
+          1378
+        ],
+        [
+          339,
+          1450
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1753,
+        339
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1934,
+          "vertices_le_9mm": [
+            2963,
+            1753
+          ]
+        },
+        {
+          "face_id": 1943,
+          "vertices_le_9mm": [
+            1753
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 340,
+      "face_ids": [
+        1941,
+        1945
+      ],
+      "world_m": [
+        1.4896249771118164,
+        -0.016549989581108093,
+        0.4648802578449249
+      ],
+      "geodesic_distance_mm": 9.229549455793073,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 8.82212733620641,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          340,
+          1380
+        ],
+        [
+          340,
+          1452
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1755,
+        340
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1941,
+          "vertices_le_9mm": [
+            1755
+          ]
+        },
+        {
+          "face_id": 1945,
+          "vertices_le_9mm": [
+            1755
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 341,
+      "face_ids": [
+        1220,
+        1938,
+        1947
+      ],
+      "world_m": [
+        1.491044044494629,
+        -0.009749294258654118,
+        0.4663691520690918
+      ],
+      "geodesic_distance_mm": 10.7374142397047,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 7.582980665825206,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          341,
+          1453
+        ],
+        [
+          341,
+          1454
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1754,
+        341
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1220,
+          "vertices_le_9mm": [
+            1382
+          ]
+        },
+        {
+          "face_id": 1938,
+          "vertices_le_9mm": [
+            2964,
+            1382,
+            1754
+          ]
+        },
+        {
+          "face_id": 1947,
+          "vertices_le_9mm": [
+            1754
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 881,
+      "face_ids": [
+        65
+      ],
+      "world_m": [
+        1.492769718170166,
+        -0.006896576844155788,
+        0.4598250091075897
+      ],
+      "geodesic_distance_mm": 13.380549702233209,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": true,
+      "tip_distance_mm": 9.603805511820187,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          37,
+          881
+        ],
+        [
+          881,
+          2496
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1341,
+        2741,
+        1340,
+        37,
+        881
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 65,
+          "vertices_le_9mm": [
+            879
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 882,
+      "face_ids": [
+        67
+      ],
+      "world_m": [
+        1.4923689365386963,
+        -0.008343295194208622,
+        0.4556504189968109
+      ],
+      "geodesic_distance_mm": 15.894139268401133,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": true,
+      "tip_distance_mm": 11.951135641861601,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          39,
+          882
+        ],
+        [
+          882,
+          2496
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1341,
+        2741,
+        879,
+        2496,
+        882
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 67,
+          "vertices_le_9mm": [
+            880
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 886,
+      "face_ids": [
+        77
+      ],
+      "world_m": [
+        1.4949398040771484,
+        -0.013772682286798954,
+        0.45388177037239075
+      ],
+      "geodesic_distance_mm": 15.070941226789511,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 11.681947142568383,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          39,
+          886
+        ],
+        [
+          886,
+          2499
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1343,
+        2742,
+        890,
+        2499,
+        886
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 77,
+          "vertices_le_9mm": [
+            880
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 889,
+      "face_ids": [
+        79
+      ],
+      "world_m": [
+        1.496910572052002,
+        -0.016427025198936462,
+        0.4563983976840973
+      ],
+      "geodesic_distance_mm": 12.66804835013906,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 9.446134446810362,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          44,
+          889
+        ],
+        [
+          889,
+          2499
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1343,
+        2742,
+        1344,
+        44,
+        889
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 79,
+          "vertices_le_9mm": [
+            890
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1339,
+      "face_ids": [
+        1042,
+        1221
+      ],
+      "world_m": [
+        1.4909415245056152,
+        -0.005607151426374912,
+        0.46137577295303345
+      ],
+      "geodesic_distance_mm": 12.221453850018424,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 10.824092351649561,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1339,
+          2740
+        ],
+        [
+          1339,
+          2785
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1338,
+        283,
+        1339
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1042,
+          "vertices_le_9mm": [
+            283
+          ]
+        },
+        {
+          "face_id": 1221,
+          "vertices_le_9mm": [
+            1382,
+            283
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1340,
+      "face_ids": [
+        1042,
+        1045,
+        1046
+      ],
+      "world_m": [
+        1.4943604469299316,
+        -0.006797487847507,
+        0.4628745913505554
+      ],
+      "geodesic_distance_mm": 9.491394270820837,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 7.528835455979932,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          37,
+          1340
+        ],
+        [
+          1340,
+          2740
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1341,
+        2741,
+        1340
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1042,
+          "vertices_le_9mm": [
+            283
+          ]
+        },
+        {
+          "face_id": 1045,
+          "vertices_le_9mm": [
+            879,
+            2741
+          ]
+        },
+        {
+          "face_id": 1046,
+          "vertices_le_9mm": [
+            2741,
+            283,
+            1338
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1342,
+      "face_ids": [
+        1054,
+        1243
+      ],
+      "world_m": [
+        1.4964215755462646,
+        -0.019443966448307037,
+        0.4566977322101593
+      ],
+      "geodesic_distance_mm": 11.622694121868074,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 10.687649187107763,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1342,
+          2743
+        ],
+        [
+          1342,
+          2790
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1343,
+        285,
+        1342
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1054,
+          "vertices_le_9mm": [
+            285
+          ]
+        },
+        {
+          "face_id": 1243,
+          "vertices_le_9mm": [
+            285
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1344,
+      "face_ids": [
+        1050,
+        1051,
+        1054
+      ],
+      "world_m": [
+        1.4984891414642334,
+        -0.01681824028491974,
+        0.458702027797699
+      ],
+      "geodesic_distance_mm": 9.230462670939085,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 7.522461249509822,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          44,
+          1344
+        ],
+        [
+          1344,
+          2743
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1343,
+        2742,
+        1344
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1050,
+          "vertices_le_9mm": [
+            2742,
+            1343,
+            285
+          ]
+        },
+        {
+          "face_id": 1051,
+          "vertices_le_9mm": [
+            890,
+            2742
+          ]
+        },
+        {
+          "face_id": 1054,
+          "vertices_le_9mm": [
+            285
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1378,
+      "face_ids": [
+        1943
+      ],
+      "world_m": [
+        1.492689847946167,
+        -0.02007640153169632,
+        0.4626345634460449
+      ],
+      "geodesic_distance_mm": 12.113992320578438,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 8.98177018546628,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          339,
+          1378
+        ],
+        [
+          1378,
+          2965
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1755,
+        2965,
+        1378
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1943,
+          "vertices_le_9mm": [
+            1753
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1380,
+      "face_ids": [
+        1945
+      ],
+      "world_m": [
+        1.4890406131744385,
+        -0.014364161528646946,
+        0.46565496921539307
+      ],
+      "geodesic_distance_mm": 11.612442463370583,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 8.80283132772074,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          340,
+          1380
+        ],
+        [
+          1380,
+          2966
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1755,
+        2966,
+        1380
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1945,
+          "vertices_le_9mm": [
+            1755
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1450,
+      "face_ids": [
+        1243,
+        1934,
+        1935
+      ],
+      "world_m": [
+        1.4968624114990234,
+        -0.01972959190607071,
+        0.4610334038734436
+      ],
+      "geodesic_distance_mm": 9.49464420676425,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 7.874056962837085,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          339,
+          1450
+        ],
+        [
+          1450,
+          2790
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        2963,
+        1450
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1243,
+          "vertices_le_9mm": [
+            285
+          ]
+        },
+        {
+          "face_id": 1934,
+          "vertices_le_9mm": [
+            2963,
+            1753
+          ]
+        },
+        {
+          "face_id": 1935,
+          "vertices_le_9mm": [
+            1343,
+            2963,
+            285
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1452,
+      "face_ids": [
+        1941
+      ],
+      "world_m": [
+        1.490394115447998,
+        -0.018392786383628845,
+        0.4639555513858795
+      ],
+      "geodesic_distance_mm": 11.43013025889149,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 9.136099720195597,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          340,
+          1452
+        ],
+        [
+          1452,
+          2965
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1755,
+        340,
+        1452
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1941,
+          "vertices_le_9mm": [
+            1755
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1453,
+      "face_ids": [
+        1220
+      ],
+      "world_m": [
+        1.488668441772461,
+        -0.007242151536047459,
+        0.4647541642189026
+      ],
+      "geodesic_distance_mm": 14.55021356321363,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 10.813822069571268,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          341,
+          1453
+        ],
+        [
+          1453,
+          2785
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1754,
+        341,
+        1453
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1220,
+          "vertices_le_9mm": [
+            1382
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 1454,
+      "face_ids": [
+        1947
+      ],
+      "world_m": [
+        1.4898037910461426,
+        -0.01123074721544981,
+        0.4663681387901306
+      ],
+      "geodesic_distance_mm": 12.028306261641742,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 8.23971972994995,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          341,
+          1454
+        ],
+        [
+          1454,
+          2966
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1755,
+        2966,
+        1454
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1947,
+          "vertices_le_9mm": [
+            1754
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 2496,
+      "face_ids": [
+        65,
+        66,
+        67
+      ],
+      "world_m": [
+        1.494741678237915,
+        -0.008363296277821064,
+        0.45904773473739624
+      ],
+      "geodesic_distance_mm": 11.75022113989208,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": true,
+      "tip_distance_mm": 8.331069933990104,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          881,
+          2496
+        ],
+        [
+          882,
+          2496
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1341,
+        2741,
+        879,
+        2496
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 65,
+          "vertices_le_9mm": [
+            879
+          ]
+        },
+        {
+          "face_id": 66,
+          "vertices_le_9mm": [
+            879,
+            36,
+            880
+          ]
+        },
+        {
+          "face_id": 67,
+          "vertices_le_9mm": [
+            880
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 2499,
+      "face_ids": [
+        77,
+        78,
+        79
+      ],
+      "world_m": [
+        1.4973108768463135,
+        -0.013826967217028141,
+        0.45685669779777527
+      ],
+      "geodesic_distance_mm": 11.266322176657036,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 8.388500888919015,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          886,
+          2499
+        ],
+        [
+          889,
+          2499
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1343,
+        2742,
+        890,
+        2499
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 77,
+          "vertices_le_9mm": [
+            880
+          ]
+        },
+        {
+          "face_id": 78,
+          "vertices_le_9mm": [
+            880,
+            36,
+            890
+          ]
+        },
+        {
+          "face_id": 79,
+          "vertices_le_9mm": [
+            890
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 2740,
+      "face_ids": [
+        1042
+      ],
+      "world_m": [
+        1.491593599319458,
+        -0.006141339428722858,
+        0.4605288505554199
+      ],
+      "geodesic_distance_mm": 13.177649325075697,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": true,
+      "tip_distance_mm": 10.401411227745688,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1339,
+          2740
+        ],
+        [
+          1340,
+          2740
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1341,
+        2741,
+        1340,
+        2740
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1042,
+          "vertices_le_9mm": [
+            283
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 2743,
+      "face_ids": [
+        1054
+      ],
+      "world_m": [
+        1.4965918064117432,
+        -0.018011026084423065,
+        0.45641568303108215
+      ],
+      "geodesic_distance_mm": 12.432023330483275,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 10.128142129461693,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1342,
+          2743
+        ],
+        [
+          1344,
+          2743
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1343,
+        2742,
+        1344,
+        2743
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1054,
+          "vertices_le_9mm": [
+            285
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 2785,
+      "face_ids": [
+        1220,
+        1221
+      ],
+      "world_m": [
+        1.489943504333496,
+        -0.005631336010992527,
+        0.4633471965789795
+      ],
+      "geodesic_distance_mm": 13.276937321883043,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 10.961912694359397,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1339,
+          2785
+        ],
+        [
+          1453,
+          2785
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1338,
+        2964,
+        1382,
+        2785
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1220,
+          "vertices_le_9mm": [
+            1382
+          ]
+        },
+        {
+          "face_id": 1221,
+          "vertices_le_9mm": [
+            1382,
+            283
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 2790,
+      "face_ids": [
+        1243
+      ],
+      "world_m": [
+        1.4952895641326904,
+        -0.021065030246973038,
+        0.45777130126953125
+      ],
+      "geodesic_distance_mm": 13.35450920422004,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 11.160403749322807,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1342,
+          2790
+        ],
+        [
+          1450,
+          2790
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        2963,
+        1450,
+        2790
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1243,
+          "vertices_le_9mm": [
+            285
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 2965,
+      "face_ids": [
+        1940,
+        1941,
+        1943
+      ],
+      "world_m": [
+        1.4926245212554932,
+        -0.018180351704359055,
+        0.4645392894744873
+      ],
+      "geodesic_distance_mm": 9.425637104524213,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 7.235391364405547,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1378,
+          2965
+        ],
+        [
+          1452,
+          2965
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1755,
+        2965
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1940,
+          "vertices_le_9mm": [
+            505,
+            1755,
+            1753
+          ]
+        },
+        {
+          "face_id": 1941,
+          "vertices_le_9mm": [
+            1755
+          ]
+        },
+        {
+          "face_id": 1943,
+          "vertices_le_9mm": [
+            1753
+          ]
+        }
+      ]
+    },
+    {
+      "vertex_id": 2966,
+      "face_ids": [
+        1945,
+        1946,
+        1947
+      ],
+      "world_m": [
+        1.4908373355865479,
+        -0.013558165170252323,
+        0.4664744734764099
+      ],
+      "geodesic_distance_mm": 9.479503460551634,
+      "native_branch": "THUMB",
+      "native_branch_provenance": "Independent native partition; no R3 labels",
+      "nail_membership": false,
+      "tip_distance_mm": 7.034806779677031,
+      "tip_distance_metric": "Native Euclidean distance to seed v284; geodesic is separately recorded",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1380,
+          2966
+        ],
+        [
+          1454,
+          2966
+        ]
+      ],
+      "selection_class": "MIN_CORNER_FACE_EXPANSION_GT_9MM",
+      "geodesic_seed_to_vertex_path": [
+        284,
+        1752,
+        505,
+        1755,
+        2966
+      ],
+      "qualifying_face_corners": [
+        {
+          "face_id": 1945,
+          "vertices_le_9mm": [
+            1755
+          ]
+        },
+        {
+          "face_id": 1946,
+          "vertices_le_9mm": [
+            1755,
+            505,
+            1754
+          ]
+        },
+        {
+          "face_id": 1947,
+          "vertices_le_9mm": [
+            1754
+          ]
+        }
+      ]
+    }
+  ],
+  "faces_with_gt_9mm_corners": [
+    {
+      "face_id": 65,
+      "vertex_ids": [
+        881,
+        37,
+        879,
+        2496
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 881,
+          "geodesic_distance_mm": 13.380549702233209
+        },
+        {
+          "vertex_id": 37,
+          "geodesic_distance_mm": 10.564230666896014
+        },
+        {
+          "vertex_id": 879,
+          "geodesic_distance_mm": 8.440832562009987
+        },
+        {
+          "vertex_id": 2496,
+          "geodesic_distance_mm": 11.75022113989208
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 8.440832562009987,
+      "geodesic_distance_mm_max_corner": 13.380549702233209,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": true,
+      "nail_corner_vertex_ids": [
+        37,
+        879,
+        881,
+        2496
+      ],
+      "tip_distance_mm": 7.69733234268724,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          37,
+          881
+        ],
+        [
+          881,
+          2496
+        ]
+      ],
+      "vertices_gt_9mm": [
+        881,
+        37,
+        2496
+      ]
+    },
+    {
+      "face_id": 66,
+      "vertex_ids": [
+        2496,
+        879,
+        36,
+        880
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2496,
+          "geodesic_distance_mm": 11.75022113989208
+        },
+        {
+          "vertex_id": 879,
+          "geodesic_distance_mm": 8.440832562009987
+        },
+        {
+          "vertex_id": 36,
+          "geodesic_distance_mm": 5.226104792266886
+        },
+        {
+          "vertex_id": 880,
+          "geodesic_distance_mm": 8.82659210936784
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 5.226104792266886,
+      "geodesic_distance_mm_max_corner": 11.75022113989208,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [
+        879,
+        2496
+      ],
+      "tip_distance_mm": 6.432898212226682,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": false,
+      "boundary_edges": [],
+      "vertices_gt_9mm": [
+        2496
+      ]
+    },
+    {
+      "face_id": 67,
+      "vertex_ids": [
+        882,
+        2496,
+        880,
+        39
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 882,
+          "geodesic_distance_mm": 15.894139268401133
+        },
+        {
+          "vertex_id": 2496,
+          "geodesic_distance_mm": 11.75022113989208
+        },
+        {
+          "vertex_id": 880,
+          "geodesic_distance_mm": 8.82659210936784
+        },
+        {
+          "vertex_id": 39,
+          "geodesic_distance_mm": 13.00725121121298
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 8.82659210936784,
+      "geodesic_distance_mm_max_corner": 15.894139268401133,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [
+        882,
+        2496
+      ],
+      "tip_distance_mm": 9.68855185906719,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          39,
+          882
+        ],
+        [
+          882,
+          2496
+        ]
+      ],
+      "vertices_gt_9mm": [
+        882,
+        2496,
+        39
+      ]
+    },
+    {
+      "face_id": 77,
+      "vertex_ids": [
+        886,
+        39,
+        880,
+        2499
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 886,
+          "geodesic_distance_mm": 15.070941226789511
+        },
+        {
+          "vertex_id": 39,
+          "geodesic_distance_mm": 13.00725121121298
+        },
+        {
+          "vertex_id": 880,
+          "geodesic_distance_mm": 8.82659210936784
+        },
+        {
+          "vertex_id": 2499,
+          "geodesic_distance_mm": 11.266322176657036
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 8.82659210936784,
+      "geodesic_distance_mm_max_corner": 15.070941226789511,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 9.615746311026784,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          39,
+          886
+        ],
+        [
+          886,
+          2499
+        ]
+      ],
+      "vertices_gt_9mm": [
+        886,
+        39,
+        2499
+      ]
+    },
+    {
+      "face_id": 78,
+      "vertex_ids": [
+        2499,
+        880,
+        36,
+        890
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2499,
+          "geodesic_distance_mm": 11.266322176657036
+        },
+        {
+          "vertex_id": 880,
+          "geodesic_distance_mm": 8.82659210936784
+        },
+        {
+          "vertex_id": 36,
+          "geodesic_distance_mm": 5.226104792266886
+        },
+        {
+          "vertex_id": 890,
+          "geodesic_distance_mm": 8.05663612853377
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 5.226104792266886,
+      "geodesic_distance_mm_max_corner": 11.266322176657036,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 6.436993218158341,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": false,
+      "boundary_edges": [],
+      "vertices_gt_9mm": [
+        2499
+      ]
+    },
+    {
+      "face_id": 79,
+      "vertex_ids": [
+        889,
+        2499,
+        890,
+        44
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 889,
+          "geodesic_distance_mm": 12.66804835013906
+        },
+        {
+          "vertex_id": 2499,
+          "geodesic_distance_mm": 11.266322176657036
+        },
+        {
+          "vertex_id": 890,
+          "geodesic_distance_mm": 8.05663612853377
+        },
+        {
+          "vertex_id": 44,
+          "geodesic_distance_mm": 10.146097477944402
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 8.05663612853377,
+      "geodesic_distance_mm_max_corner": 12.66804835013906,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 7.706281905830578,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          44,
+          889
+        ],
+        [
+          889,
+          2499
+        ]
+      ],
+      "vertices_gt_9mm": [
+        889,
+        2499,
+        44
+      ]
+    },
+    {
+      "face_id": 1042,
+      "vertex_ids": [
+        2740,
+        1339,
+        283,
+        1340
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2740,
+          "geodesic_distance_mm": 13.177649325075697
+        },
+        {
+          "vertex_id": 1339,
+          "geodesic_distance_mm": 12.221453850018424
+        },
+        {
+          "vertex_id": 283,
+          "geodesic_distance_mm": 7.6931656332664
+        },
+        {
+          "vertex_id": 1340,
+          "geodesic_distance_mm": 9.491394270820837
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 7.6931656332664,
+      "geodesic_distance_mm_max_corner": 13.177649325075697,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [
+        2740
+      ],
+      "tip_distance_mm": 8.900025474153537,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1339,
+          2740
+        ],
+        [
+          1340,
+          2740
+        ]
+      ],
+      "vertices_gt_9mm": [
+        2740,
+        1339,
+        1340
+      ]
+    },
+    {
+      "face_id": 1045,
+      "vertex_ids": [
+        879,
+        37,
+        1340,
+        2741
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 879,
+          "geodesic_distance_mm": 8.440832562009987
+        },
+        {
+          "vertex_id": 37,
+          "geodesic_distance_mm": 10.564230666896014
+        },
+        {
+          "vertex_id": 1340,
+          "geodesic_distance_mm": 9.491394270820837
+        },
+        {
+          "vertex_id": 2741,
+          "geodesic_distance_mm": 4.946568077954204
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 4.946568077954204,
+      "geodesic_distance_mm_max_corner": 10.564230666896014,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [
+        37,
+        879
+      ],
+      "tip_distance_mm": 5.967453346417606,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          37,
+          1340
+        ]
+      ],
+      "vertices_gt_9mm": [
+        37,
+        1340
+      ]
+    },
+    {
+      "face_id": 1046,
+      "vertex_ids": [
+        2741,
+        1340,
+        283,
+        1338
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2741,
+          "geodesic_distance_mm": 4.946568077954204
+        },
+        {
+          "vertex_id": 1340,
+          "geodesic_distance_mm": 9.491394270820837
+        },
+        {
+          "vertex_id": 283,
+          "geodesic_distance_mm": 7.6931656332664
+        },
+        {
+          "vertex_id": 1338,
+          "geodesic_distance_mm": 3.9035374225110626
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 3.9035374225110626,
+      "geodesic_distance_mm_max_corner": 9.491394270820837,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 5.425852742917232,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": false,
+      "boundary_edges": [],
+      "vertices_gt_9mm": [
+        1340
+      ]
+    },
+    {
+      "face_id": 1050,
+      "vertex_ids": [
+        2742,
+        1343,
+        285,
+        1344
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2742,
+          "geodesic_distance_mm": 5.299689051364869
+        },
+        {
+          "vertex_id": 1343,
+          "geodesic_distance_mm": 3.9450161411356848
+        },
+        {
+          "vertex_id": 285,
+          "geodesic_distance_mm": 7.854423302206871
+        },
+        {
+          "vertex_id": 1344,
+          "geodesic_distance_mm": 9.230462670939085
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 3.9450161411356848,
+      "geodesic_distance_mm_max_corner": 9.230462670939085,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 5.657184222712017,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": false,
+      "boundary_edges": [],
+      "vertices_gt_9mm": [
+        1344
+      ]
+    },
+    {
+      "face_id": 1051,
+      "vertex_ids": [
+        890,
+        2742,
+        1344,
+        44
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 890,
+          "geodesic_distance_mm": 8.05663612853377
+        },
+        {
+          "vertex_id": 2742,
+          "geodesic_distance_mm": 5.299689051364869
+        },
+        {
+          "vertex_id": 1344,
+          "geodesic_distance_mm": 9.230462670939085
+        },
+        {
+          "vertex_id": 44,
+          "geodesic_distance_mm": 10.146097477944402
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 5.299689051364869,
+      "geodesic_distance_mm_max_corner": 10.146097477944402,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 6.1846792094241065,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          44,
+          1344
+        ]
+      ],
+      "vertices_gt_9mm": [
+        1344,
+        44
+      ]
+    },
+    {
+      "face_id": 1054,
+      "vertex_ids": [
+        2743,
+        1344,
+        285,
+        1342
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2743,
+          "geodesic_distance_mm": 12.432023330483275
+        },
+        {
+          "vertex_id": 1344,
+          "geodesic_distance_mm": 9.230462670939085
+        },
+        {
+          "vertex_id": 285,
+          "geodesic_distance_mm": 7.854423302206871
+        },
+        {
+          "vertex_id": 1342,
+          "geodesic_distance_mm": 11.622694121868074
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 7.854423302206871,
+      "geodesic_distance_mm_max_corner": 12.432023330483275,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 8.870855963515975,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1342,
+          2743
+        ],
+        [
+          1344,
+          2743
+        ]
+      ],
+      "vertices_gt_9mm": [
+        2743,
+        1344,
+        1342
+      ]
+    },
+    {
+      "face_id": 1220,
+      "vertex_ids": [
+        341,
+        1382,
+        2785,
+        1453
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 341,
+          "geodesic_distance_mm": 10.7374142397047
+        },
+        {
+          "vertex_id": 1382,
+          "geodesic_distance_mm": 8.818121035786918
+        },
+        {
+          "vertex_id": 2785,
+          "geodesic_distance_mm": 13.276937321883043
+        },
+        {
+          "vertex_id": 1453,
+          "geodesic_distance_mm": 14.55021356321363
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 8.818121035786918,
+      "geodesic_distance_mm_max_corner": 14.55021356321363,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 9.008396444614194,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          341,
+          1453
+        ],
+        [
+          1453,
+          2785
+        ]
+      ],
+      "vertices_gt_9mm": [
+        341,
+        2785,
+        1453
+      ]
+    },
+    {
+      "face_id": 1221,
+      "vertex_ids": [
+        1382,
+        283,
+        1339,
+        2785
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 1382,
+          "geodesic_distance_mm": 8.818121035786918
+        },
+        {
+          "vertex_id": 283,
+          "geodesic_distance_mm": 7.6931656332664
+        },
+        {
+          "vertex_id": 1339,
+          "geodesic_distance_mm": 12.221453850018424
+        },
+        {
+          "vertex_id": 2785,
+          "geodesic_distance_mm": 13.276937321883043
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 7.6931656332664,
+      "geodesic_distance_mm_max_corner": 13.276937321883043,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 8.930677442906884,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1339,
+          2785
+        ]
+      ],
+      "vertices_gt_9mm": [
+        1339,
+        2785
+      ]
+    },
+    {
+      "face_id": 1243,
+      "vertex_ids": [
+        1450,
+        2790,
+        1342,
+        285
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 1450,
+          "geodesic_distance_mm": 9.49464420676425
+        },
+        {
+          "vertex_id": 2790,
+          "geodesic_distance_mm": 13.35450920422004
+        },
+        {
+          "vertex_id": 1342,
+          "geodesic_distance_mm": 11.622694121868074
+        },
+        {
+          "vertex_id": 285,
+          "geodesic_distance_mm": 7.854423302206871
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 7.854423302206871,
+      "geodesic_distance_mm_max_corner": 13.35450920422004,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 9.18763234723845,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          1342,
+          2790
+        ],
+        [
+          1450,
+          2790
+        ]
+      ],
+      "vertices_gt_9mm": [
+        1450,
+        2790,
+        1342
+      ]
+    },
+    {
+      "face_id": 1934,
+      "vertex_ids": [
+        2963,
+        1753,
+        339,
+        1450
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2963,
+          "geodesic_distance_mm": 5.536046496705708
+        },
+        {
+          "vertex_id": 1753,
+          "geodesic_distance_mm": 7.818811998930613
+        },
+        {
+          "vertex_id": 339,
+          "geodesic_distance_mm": 11.230029255665146
+        },
+        {
+          "vertex_id": 1450,
+          "geodesic_distance_mm": 9.49464420676425
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 5.536046496705708,
+      "geodesic_distance_mm_max_corner": 11.230029255665146,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 6.3944802307210855,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          339,
+          1450
+        ]
+      ],
+      "vertices_gt_9mm": [
+        339,
+        1450
+      ]
+    },
+    {
+      "face_id": 1935,
+      "vertex_ids": [
+        1343,
+        2963,
+        1450,
+        285
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 1343,
+          "geodesic_distance_mm": 3.9450161411356848
+        },
+        {
+          "vertex_id": 2963,
+          "geodesic_distance_mm": 5.536046496705708
+        },
+        {
+          "vertex_id": 1450,
+          "geodesic_distance_mm": 9.49464420676425
+        },
+        {
+          "vertex_id": 285,
+          "geodesic_distance_mm": 7.854423302206871
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 3.9450161411356848,
+      "geodesic_distance_mm_max_corner": 9.49464420676425,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 5.722899935610463,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": false,
+      "boundary_edges": [],
+      "vertices_gt_9mm": [
+        1450
+      ]
+    },
+    {
+      "face_id": 1938,
+      "vertex_ids": [
+        2964,
+        1382,
+        341,
+        1754
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2964,
+          "geodesic_distance_mm": 5.52017033208557
+        },
+        {
+          "vertex_id": 1382,
+          "geodesic_distance_mm": 8.818121035786918
+        },
+        {
+          "vertex_id": 341,
+          "geodesic_distance_mm": 10.7374142397047
+        },
+        {
+          "vertex_id": 1754,
+          "geodesic_distance_mm": 7.776773978824811
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 5.52017033208557,
+      "geodesic_distance_mm_max_corner": 10.7374142397047,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 5.982423483980162,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": false,
+      "boundary_edges": [],
+      "vertices_gt_9mm": [
+        341
+      ]
+    },
+    {
+      "face_id": 1940,
+      "vertex_ids": [
+        505,
+        1755,
+        2965,
+        1753
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 505,
+          "geodesic_distance_mm": 4.411515488956164
+        },
+        {
+          "vertex_id": 1755,
+          "geodesic_distance_mm": 6.77621980093481
+        },
+        {
+          "vertex_id": 2965,
+          "geodesic_distance_mm": 9.425637104524213
+        },
+        {
+          "vertex_id": 1753,
+          "geodesic_distance_mm": 7.818811998930613
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 4.411515488956164,
+      "geodesic_distance_mm_max_corner": 9.425637104524213,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 5.75731810550056,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": false,
+      "boundary_edges": [],
+      "vertices_gt_9mm": [
+        2965
+      ]
+    },
+    {
+      "face_id": 1941,
+      "vertex_ids": [
+        1755,
+        340,
+        1452,
+        2965
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 1755,
+          "geodesic_distance_mm": 6.77621980093481
+        },
+        {
+          "vertex_id": 340,
+          "geodesic_distance_mm": 9.229549455793073
+        },
+        {
+          "vertex_id": 1452,
+          "geodesic_distance_mm": 11.43013025889149
+        },
+        {
+          "vertex_id": 2965,
+          "geodesic_distance_mm": 9.425637104524213
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 6.77621980093481,
+      "geodesic_distance_mm_max_corner": 11.43013025889149,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 7.833115758626689,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          340,
+          1452
+        ],
+        [
+          1452,
+          2965
+        ]
+      ],
+      "vertices_gt_9mm": [
+        340,
+        1452,
+        2965
+      ]
+    },
+    {
+      "face_id": 1943,
+      "vertex_ids": [
+        1753,
+        2965,
+        1378,
+        339
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 1753,
+          "geodesic_distance_mm": 7.818811998930613
+        },
+        {
+          "vertex_id": 2965,
+          "geodesic_distance_mm": 9.425637104524213
+        },
+        {
+          "vertex_id": 1378,
+          "geodesic_distance_mm": 12.113992320578438
+        },
+        {
+          "vertex_id": 339,
+          "geodesic_distance_mm": 11.230029255665146
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 7.818811998930613,
+      "geodesic_distance_mm_max_corner": 12.113992320578438,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 7.433927732456199,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          339,
+          1378
+        ],
+        [
+          1378,
+          2965
+        ]
+      ],
+      "vertices_gt_9mm": [
+        2965,
+        1378,
+        339
+      ]
+    },
+    {
+      "face_id": 1945,
+      "vertex_ids": [
+        1380,
+        340,
+        1755,
+        2966
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 1380,
+          "geodesic_distance_mm": 11.612442463370583
+        },
+        {
+          "vertex_id": 340,
+          "geodesic_distance_mm": 9.229549455793073
+        },
+        {
+          "vertex_id": 1755,
+          "geodesic_distance_mm": 6.77621980093481
+        },
+        {
+          "vertex_id": 2966,
+          "geodesic_distance_mm": 9.479503460551634
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 6.77621980093481,
+      "geodesic_distance_mm_max_corner": 11.612442463370583,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 7.687858419503115,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          340,
+          1380
+        ],
+        [
+          1380,
+          2966
+        ]
+      ],
+      "vertices_gt_9mm": [
+        1380,
+        340,
+        2966
+      ]
+    },
+    {
+      "face_id": 1946,
+      "vertex_ids": [
+        2966,
+        1755,
+        505,
+        1754
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 2966,
+          "geodesic_distance_mm": 9.479503460551634
+        },
+        {
+          "vertex_id": 1755,
+          "geodesic_distance_mm": 6.77621980093481
+        },
+        {
+          "vertex_id": 505,
+          "geodesic_distance_mm": 4.411515488956164
+        },
+        {
+          "vertex_id": 1754,
+          "geodesic_distance_mm": 7.776773978824811
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 4.411515488956164,
+      "geodesic_distance_mm_max_corner": 9.479503460551634,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 5.638242349014219,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": false,
+      "boundary_edges": [],
+      "vertices_gt_9mm": [
+        2966
+      ]
+    },
+    {
+      "face_id": 1947,
+      "vertex_ids": [
+        1454,
+        2966,
+        1754,
+        341
+      ],
+      "corner_geodesic_distances_mm": [
+        {
+          "vertex_id": 1454,
+          "geodesic_distance_mm": 12.028306261641742
+        },
+        {
+          "vertex_id": 2966,
+          "geodesic_distance_mm": 9.479503460551634
+        },
+        {
+          "vertex_id": 1754,
+          "geodesic_distance_mm": 7.776773978824811
+        },
+        {
+          "vertex_id": 341,
+          "geodesic_distance_mm": 10.7374142397047
+        }
+      ],
+      "geodesic_distance_mm_min_corner": 7.776773978824811,
+      "geodesic_distance_mm_max_corner": 12.028306261641742,
+      "geodesic_distance_semantics": "Face selection uses min corner; no centroid surface geodesic claimed",
+      "native_branch": "THUMB",
+      "corner_native_branches": [
+        "THUMB",
+        "THUMB",
+        "THUMB",
+        "THUMB"
+      ],
+      "nail_membership": false,
+      "nail_corner_vertex_ids": [],
+      "tip_distance_mm": 6.942524066936614,
+      "tip_distance_metric": "Native face-centroid Euclidean distance to v284",
+      "boundary_membership": true,
+      "boundary_edges": [
+        [
+          341,
+          1454
+        ],
+        [
+          1454,
+          2966
+        ]
+      ],
+      "vertices_gt_9mm": [
+        1454,
+        2966,
+        341
+      ]
+    }
+  ],
+  "statement": "9 mm is the min-corner face admission convention, not an all-vertices hard radius."
+}

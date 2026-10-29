@@ -1,0 +1,51 @@
+{
+  "task": "HANDS_HAND_ASSET_QUALITY_BENCHMARK_R1",
+  "candidate_evaluations": [
+    {
+      "candidate": "MAKEHUMAN",
+      "classification": "NO_MEANINGFUL_QUALITY_ADVANTAGE",
+      "index_proximal": "Some overhead contour improvement; no reliable cross-view clear superiority",
+      "first_web": "No clear multi-view improvement; faceting remains",
+      "native_three_static_poses": "TESTED_WITH_COMPARABILITY_LIMITS",
+      "native_right_handedness": "UNRESOLVED_REFLECTED_SOURCE_TRANSFORM",
+      "rig_actions_contact_compatibility": "NOT_TESTED",
+      "human_approved": false
+    }
+  ],
+  "overall_classification": "NO_MEANINGFUL_QUALITY_ADVANTAGE",
+  "recommend_asset_adaptation_trial": false,
+  "recommend_formal_replacement": false,
+  "protected_inputs_unchanged": 82,
+  "independent_piano_access": false,
+  "status": "STOP — HUMAN REVIEW",
+  "test_scope": {
+    "static_neutral_index_flex_thumb_spread": "EXECUTED",
+    "same_group_camera_scale_lighting": "VERIFIED",
+    "textures_or_AI_hands_used": false,
+    "contact_and_collision": "NOT_TESTED",
+    "self_intersection": "NOT_TESTED",
+    "full_range_and_opposition": "NOT_TESTED",
+    "midi_and_23_note_motion_compatibility": "NOT_TESTED"
+  },
+  "pose_comparability": {
+    "nominal_index_targets_deg": [
+      20,
+      35,
+      15
+    ],
+    "nominal_thumb_target_deg": 15,
+    "actual_local_C1_index_deg": [
+      20,
+      35,
+      15
+    ],
+    "actual_local_candidate_index_deg": [
+      19.25003,
+      35.82194,
+      15.26586
+    ],
+    "actual_local_C1_thumb_deg": 15,
+    "actual_local_candidate_thumb_deg": 16.85756,
+    "exact_angle_or_final_joint_pose_match": false
+  }
+}

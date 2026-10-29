@@ -1,0 +1,19 @@
+(False, {'face_ids': [517, 3314], 'fraction': 0.39314085349, 'kind': 'COPLANARITY_EVENT_CROSSING', 'swept_pairs': 1606, 'event_roots_checked': 4})
+         10650143 function calls (10650135 primitive calls) in 9.840 seconds
+
+   Ordered by: cumulative time
+   List reduced from 123 to 10 due to restriction <10>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    1.104    1.104    9.840    9.840 <HANDS_ROOT>\audits/minimal_local_geometry_amendment_design_r3\collision_engine.py:69(ccd)
+   115886    2.122    0.000    7.075    0.000 <USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\numeric.py:1563(cross)
+   347658    1.161    0.000    4.462    0.000 <USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\numeric.py:1489(moveaxis)
+   695324    1.729    0.000    2.752    0.000 <USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\numeric.py:1427(normalize_axis_tuple)
+    13397    0.284    0.000    1.439    0.000 <USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\lib\_polynomial_impl.py:168(roots)
+  1390648    0.344    0.000    0.499    0.000 <USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\_core\numeric.py:1476(<genexpr>)
+    13397    0.220    0.000    0.485    0.000 <USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\linalg\_linalg.py:1181(eigvals)
+  2305937    0.377    0.000    0.377    0.000 {built-in method builtins.len}
+  1042982    0.239    0.000    0.239    0.000 {built-in method numpy.lib.array_utils.normalize_axis_index}
+    13397    0.092    0.000    0.212    0.000 <USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\linalg\_linalg.py:189(_to_real_if_imag_zero)
+
+

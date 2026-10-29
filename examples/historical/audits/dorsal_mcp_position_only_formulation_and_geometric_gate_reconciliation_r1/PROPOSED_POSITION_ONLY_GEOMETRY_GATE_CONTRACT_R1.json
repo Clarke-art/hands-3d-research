@@ -1,0 +1,115 @@
+{
+  "phase": "PROPOSED_POSITION_ONLY_GEOMETRY_GATE_CONTRACT_R1",
+  "status": "PROPOSAL_ONLY_NOT_APPLIED",
+  "next_phase": "MINIMAL_LOCAL_GEOMETRY_AMENDMENT_DESIGN_R4_WITH_RECONCILED_GATES",
+  "execution_authority_granted": false,
+  "scope": "Position-only local geometry design against immutable native mesh and frozen source. Mathematical feasibility diagnostics do not authorize production edits or validate Full42/Stage6.",
+  "immutable": [
+    "Native V/E/F, vertex identities, face cycles and winding, edge incidence, triangulation convention",
+    "UV, material assignments, smooth/sharp attributes, custom-normal state",
+    "Weights, bones, joints, RSSF and every protected authority membership",
+    "Historical validators and all frozen historical/source assets"
+  ],
+  "hard_fail": [
+    {
+      "id": "NATIVE_TOPOLOGY_CHANGE",
+      "predicate": "Any change to native identities, cycles, winding, counts, incidence or frozen triangulation."
+    },
+    {
+      "id": "DEGENERATE_FACE",
+      "predicate": "Zero-area native fan triangle or collapse anywhere on the proposed continuous path. Also audit vector-sum quad area; cancellation with positive fan areas must be separately classified, never hidden by a single quad-area scalar."
+    },
+    {
+      "id": "FACE_REVERSAL",
+      "predicate": "Certified material orientation reversal under a declared material-chart/path convention, including a zero signed material Jacobian. A chart-outward normal dot or normal rotation alone is not intrinsic 3D inversion. Require both explicit orientation convention and continuous area checks; absent convention fails certification."
+    },
+    {
+      "id": "NEW_NONADJACENT_EXACT_INTERSECTION",
+      "predicate": "New finite point/segment/area contact between nonadjacent native fan triangles, with exact feature membership, across the entire path."
+    },
+    {
+      "id": "NEW_OFF_SHARED_FEATURE_CROSSING",
+      "predicate": "Any new contact outside the exact native common vertex/segment or legal same-face diagonal. Sharing a vertex/edge is never a whole-pair exemption."
+    },
+    {
+      "id": "NEW_TRUE3D_SELF_INTERSECTION",
+      "predicate": "New intrinsic fan overlap or new extrinsic surface crossing. Positive-area coplanar overlap remains illegal even when the faces share a native edge."
+    },
+    {
+      "id": "UNRESOLVED_CONTINUOUS_PREDICATE",
+      "predicate": "An uncertified root, chart singularity, coplanar interval or degeneracy interval cannot be promoted to PASS from endpoint tests or a few samples."
+    }
+  ],
+  "conditional_no_regression": [
+    {
+      "id": "BASELINE_PROJECTED_BOWTIE",
+      "faces": [
+        2771,
+        3332,
+        3351
+      ],
+      "classification": "PROJECTION_ONLY_DIAGNOSTIC_INTRINSIC_FAN",
+      "rule": "Do not require absolute flag count zero. Freeze chart, camera, native cycle and sampling convention; require no new true3D defect and disclose fixed-view crossing parameters and sharpness. New flag/severity worsening triggers review unless independently ruled structural. An updated SVD chart may be reported separately, never substituted to hide regression."
+    },
+    {
+      "id": "BASELINE_SHARED_FEATURE_CONTACT",
+      "rule": "Remove only the actual shared simplex from collision barrier and active set. Continue finite off-simplex checks. There is no positive pair-wide adjacency distance or clearance floor."
+    },
+    {
+      "id": "BASELINE_COPLANAR_DIAGNOSTIC",
+      "rule": "A certified coplanar disjoint pair or exact shared-simplex-only contact is legal. Positive-area overlap is a real defect even if baseline-existing, never a projection-only exemption."
+    },
+    {
+      "id": "BASELINE_TRUE_CONTACT_COMPONENTS",
+      "rule": "Track native triangle IDs, finite features, connected intersection components and contact extents. No wholesale face-family whitelist. New components or penetration/extent worsening cannot inherit a baseline exemption. Existing true contacts remain independently recorded defects; a local no-new-defect result is not global production safety approval."
+    }
+  ],
+  "warning_human": [
+    "Local sharpness and crease appearance",
+    "Valley depth and contour naturalness",
+    "Reference/surrounding continuity and boundary normal progression",
+    "Projection-only artifact in declared views",
+    "AABB proximity, unsigned distance and plane-extension volume sign used only to activate finite-feature checks"
+  ],
+  "feature_model": {
+    "shared_vertex": "Exclude only the identical native point.",
+    "shared_edge": "Exclude only the actual closed segment, with exact on-segment predicate; no expanded strip.",
+    "native_fan_diagonal": "Same-face diagonal is legal; coplanar fan area overlap remains illegal.",
+    "2182_3330_specific": "Current edge79/955 contact is legal, but same-side coplanar fold limit has positive-area overlap. Retain this finite corner/edge barrier; the active row is not automatically spurious.",
+    "204_207": "Nonadjacent, source gap0.024319952mm; preserve finite vertex/triangle nonpenetration and relative tangent-motion causality."
+  },
+  "continuous_collision": {
+    "broadphase": "Swept whole-mesh AABBs for every changed-incident fan, plus explicit same-native-face fan pairs. Unchanged static pairs retain independently recorded source status.",
+    "noncoplanar": "Isolate coplanarity roots with certified intervals; verify finite barycentric/edge membership at events. Exact Bernstein sign certificates for complete pair oriented-matroid predicates can instead certify event-free subintervals.",
+    "persistent_coplanar": "Certify common plane, use a nonsingular chart, partition all continuous 2D orientation/edge events, clip finite polygons and subtract shared simplex at events and sign-invariant intervals. All-zero 3D volume polynomials do not imply safety.",
+    "rotating_common_plane": "Certify a projection-chart atlas and singularity events, or complete rank-3 chirotope sign preservation within a certified chart; require certified algebraic-root isolation on intervals with events.",
+    "implemented_here": "Fixed-plane rational-event controls and exact sign-preserving continuous micro certificates. No general-purpose rotating-plane CCD implementation or candidate production validator is claimed.",
+    "unresolved_policy": "FAIL_CLOSED_FOR_THE_TRIAL, refine predicate/interval/chart; never endpoint-only PASS."
+  },
+  "tolerances": {
+    "classification": "COMPUTATIONAL_GEOMETRY_TOLERANCE",
+    "anatomy_clearance_mm": 0,
+    "shared_edge_separation_floor_mm": 0,
+    "exact_narrowphase": "Rational predicates on stored binary64 inputs; no barycentric extension epsilon.",
+    "broadphase_padding_mm": 1e-08,
+    "micro_numeric_fan_area_screen_mm2": 1e-10,
+    "old_R3_tolerances": "Historical values are reproduced only for comparator results; not silently elevated into anatomy rules.",
+    "uncertain_float_result": "Refine to exact/certified predicates; fail closed if undecidable."
+  },
+  "solver_formulation_proposal": {
+    "objective": "Simultaneous dent diagnostic, native hinge progression and frozen reference/surrounding continuity descent; shape completion is a goal, not an impossible infinitesimal terminal threshold.",
+    "variables": "Coupled normal plus both tangents within a separately reviewed local position pool, smooth displacement/gradient/bending metric and immutable outer boundary. Mathematical111-vertex probe support grants no application authority.",
+    "strategy": "Feature-aware nonlinear SQP/trust-region or constrained descent, re-identify closest finite features and contact components after every trial. Keep genuine active off-edge rows, remove pure shared-simplex zero-distance rows.",
+    "acceptance": "Certified continuous true3D nonpenetration/orientation/area; projection-specific no-regression; meaningful objective decrease and boundary checks. A small-step progress heuristic alone cannot establish infeasibility.",
+    "next_validation": "Implement rotating-plane/event root certification and baseline component tracking before candidate safety certification; retain the full negative-control suite and source no-drift check.",
+    "not_proved": "Local micro descent does not prove a complete repair, all-pose nonintersection or natural valley appearance."
+  },
+  "negative_control_requirement": {
+    "required": "Every true crossing, same-side shared-edge overlap, intrinsic coplanar bow, material reversal/collapse, degeneracy and persistent-coplanar tunnel must block. Legal shared vertices/edges and the three intrinsic projection-only fans must pass their geometric test.",
+    "this_round_result": "16/16 PASS",
+    "evidence": "GEOMETRIC_GATE_NEGATIVE_CONTROLS_R1.json"
+  },
+  "historical_validator_modified": false,
+  "clearance_increased": false,
+  "production_promotion": false
+}

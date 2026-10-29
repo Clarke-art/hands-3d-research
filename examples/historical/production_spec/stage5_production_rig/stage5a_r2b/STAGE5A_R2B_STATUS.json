@@ -1,0 +1,155 @@
+{
+ "stage": "STAGE5A_R2B_THUMB_IP_FEASIBILITY_AND_CHAIN_CLOSURE_R1",
+ "generated_at": "2026-09-29T21:40:00+08:00",
+ "read_only_feasibility_search": true,
+ "runtime": {"blender": "5.1.2", "executable": "D:\\Blender\\blender.exe"},
+
+ "BRANCH": "B",
+ "branch_reason": ("inside the approved THUMB_IP T-01 joint region NO candidate satisfies "
+                   "MCP->IP = 40/40 AND IP->TIP = 40/40 simultaneously; an extended "
+                   "diagnostic-only band (axial 35-100 mm) also contains no such position."),
+
+ "T01_authority": {
+  "source": "stage4_blender/stage4a_t01/T01_FINAL_AUDIT.json -> OTHER_T01_JOINTS.THUMB_IP",
+  "locator": "AXIAL -- joint centre = the web commissure projected on the finger axis",
+  "approved_axial_centre_mm": 65.986,
+  "zone_half_width_mm": 8.653,
+  "zone_mm": [57.333, 74.639],
+  "axis_definition": ("unit(THUMB_TIP_R.head - THUMB_CMC_R.head) of the frozen Stage4B joint "
+                      "frame; origin = THUMB_CMC_R.head of the same frame.  Restored, not "
+                      "re-invented: identical to the already-accepted THUMB_MCP T-01 gate "
+                      "convention (reproduces 43.300 mm exactly)."),
+  "axis_world": [0.027334976, -0.006212611, 0.999607024],
+  "T01_axial_spans": {"MCP_IP": 27.274, "IP_TIP": 21.995}
+ },
+
+ "current_state": {
+  "active_candidate": "STAGE5A_R2A",
+  "active_candidate_sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+  "THUMB_TIP_R_head_frozen": [1.45281744, 0.019802358, 0.493028343],
+  "THUMB_TIP_moved_this_round": false,
+  "THUMB_CMC_R": [1.440895081, 0.001219887, 0.3918145],
+  "THUMB_MCP_R_head": [1.454060912, 0.001536574, 0.436873049],
+  "THUMB_IP_R_head_current": [1.450860858, 0.006127121, 0.464001149],
+  "current_IP_axial_mm": 70.3014,
+  "current_IP_T01_axial_delta_mm": 4.3154,
+  "current_IP_inside_approved_zone": true
+ },
+
+ "search": {
+  "axial_levels_sampled": 35,
+  "candidates_inside_and_THUMB_owned": 501,
+  "candidates_after_clearance_prefilter_3mm": 259,
+  "fast_filter_feasible": 0,
+  "STRICT_parity_feasible": 0,
+  "interior_test": ("segment samples at t = k/(n+1), k=1..n, n = 20 and 40; strict test = "
+                    "64-direction ray parity; signed nearest-surface side test used only as the "
+                    "declared prefilter"),
+  "extended_diagnostic_band": {
+    "scope": "DIAGNOSIS ONLY, not an approved region",
+    "axial_mm": [35.0, 100.0],
+    "candidates_generated": 1248,
+    "candidates_scored_clearance_ge_3mm": 531,
+    "max_IP_TO_TIP_interior": "40/40",
+    "max_MCP_TO_IP_interior": "40/40",
+    "best_combined_interior": "35/40",
+    "positions_reaching_40_40_on_BOTH_segments": 0,
+    "max_IP_TO_TIP_position": {
+      "axial_mm": 57.8307, "T01_delta_mm": -8.1553, "in_zone": true,
+      "world_position": [1.464292995, 0.010916, 0.453643],
+      "STRICT_MCP_TO_IP_40": "20/40", "STRICT_IP_TO_TIP_40": "40/40",
+      "shift_from_current_IP_mm": 27.8207},
+    "best_combined_position": {
+      "axial_mm": 46.2679, "T01_delta_mm": -19.7181, "in_zone": false,
+      "world_position": [1.452882, -0.0070, 0.4433],
+      "STRICT_MCP_TO_IP_40": "40/40", "STRICT_IP_TO_TIP_40": "35/40",
+      "shift_from_current_IP_mm": 25.546}
+  }
+ },
+
+ "strict_verification": {
+  "method": "64-direction ray parity; 20 and 40 uniform interior samples per segment",
+  "R2A_current_THUMB_IP": {"MCP_TO_IP_20": "20/20", "MCP_TO_IP_40": "40/40",
+                           "IP_TO_TIP_20": "15/20", "IP_TO_TIP_40": "31/40",
+                           "min_margin_mm": 0.0096},
+  "best_near_feasible_in_zone": {"world_position": [1.455745101, -0.006207942, 0.455147952],
+                                 "axial_mm": 61.6619, "T01_delta_mm": -4.3241,
+                                 "shift_from_current_IP_mm": 15.9496, "clearance_mm": 0.3228,
+                                 "MCP_TO_IP_20": "20/20", "MCP_TO_IP_40": "40/40",
+                                 "IP_TO_TIP_20": "17/20", "IP_TO_TIP_40": "36/40",
+                                 "min_margin_mm": 0.2232},
+  "max_IP_TO_TIP_position": {"MCP_TO_IP_20": "10/20", "MCP_TO_IP_40": "20/40",
+                             "IP_TO_TIP_20": "20/20", "IP_TO_TIP_40": "40/40"},
+  "best_combined_position_outside_zone": {"MCP_TO_IP_20": "20/20", "MCP_TO_IP_40": "40/40",
+                                          "IP_TO_TIP_20": "18/20", "IP_TO_TIP_40": "35/40",
+                                          "outside_zone_by_mm": 11.0651}
+ },
+
+ "DIAGNOSIS": {
+  "A_thumb_distal_mesh_curvature": {
+    "centreline_sagitta_mm": 6.7968,
+    "mean_section_radius_mm": 7.9575,
+    "sagitta_over_radius": 0.8541,
+    "verdict": "CONTRIBUTING -- PRIMARY"},
+  "B_THUMB_IP_T01_region_position": {
+    "verdict": "NOT the primary cause -- the best-combined position lies 11.0651 mm OUTSIDE "
+               "the zone, so widening the zone could not close the chain either"},
+  "C_straight_single_bone_representation": {
+    "chain_kink_at_current_IP_deg": 18.5929,
+    "IP_to_TIP_chord_len_mm": 32.1468,
+    "verdict": "CONTRIBUTING"},
+  "D_coarse_thumb_topology": {
+    "n_faces_distal_of_IP": 166, "n_verts_distal_of_IP": 217,
+    "median_edge_len_mm": 3.7682, "max_edge_len_mm": 11.3915,
+    "verdict": "CONTRIBUTING (secondary)"}
+ },
+
+ "gates": {
+  "THUMB_IP_FEASIBILITY_SEARCH_COMPLETE": "PASS",
+  "THUMB_IP_T01_REGION_RESPECTED": "PASS",
+  "THUMB_MCP_FROZEN": "PASS",
+  "THUMB_TIP_R2A_FROZEN": "PASS",
+  "CMC_FROZEN": "PASS",
+  "WRIST_FROZEN": "PASS",
+  "INDEX_FROZEN": "PASS",
+  "DISTAL_CAP_METHOD_AUTHORITY_RECONCILED": "PASS",
+  "THUMB_IP_FEASIBLE_REGION": "NONE_WITHIN_APPROVED_T01_REGION",
+  "NO_UNAUTHORIZED_JOINT_MOVE": "PASS",
+  "FAIL_CLOSED": true,
+  "PRODUCTION_SKIN_WEIGHT": "NOT_STARTED",
+  "STAGE5B": "NOT_STARTED"
+ },
+
+ "frozen_inputs_unchanged": {
+  "stage4c_master_sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7",
+  "stage5a_r1_sha256": "dd5f7265ea373579e9f77ecea2f74f0b2d0642a2bbb10795f1ddf5c17eb1486d",
+  "stage5a_r2_sha256": "615367d7fab3e75431fa7171e7e82f3a655c62e29ad7ddca5509b093e9f68c81",
+  "stage5a_r2a_sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+  "verified_after_execution": true
+ },
+
+ "artifacts": {
+  "report": "stage5a_r2b/STAGE5A_R2B_REPORT.md",
+  "feasibility_volume": "stage5a_r2b/STAGE5A_R2B_THUMB_IP_FEASIBILITY_VOLUME.json",
+  "ranking": "stage5a_r2b/STAGE5A_R2B_FEASIBLE_CANDIDATE_RANKING.json",
+  "diagnosis": "stage5a_r2b/THUMB_STRAIGHT_BONE_COMPATIBILITY_DIAGNOSIS.json",
+  "distal_cap_method_errata": "stage5a_r2b/STAGE5A_R2A_DISTAL_CAP_METHOD_ERRATA.md",
+  "strict_verification": "stage5a_r2b/_tmp/S5A_R2B_STRICT_VERIFY.json",
+  "renders": ["stage5a_r2b/renders/STAGE5A_R2B_THUMB_IP_FEASIBILITY_MAP.png",
+              "stage5a_r2b/renders/STAGE5A_R2B_THUMB_CHAIN_BEFORE_AFTER.png",
+              "stage5a_r2b/renders/STAGE5A_R2B_THUMB_IP_CLOSEUP.png"],
+  "new_blend_created": false
+ },
+
+ "VERDICT": {
+  "STAGE5A_R2B": "FAIL_CLOSED_FOR_HUMAN_REVIEW",
+  "THUMB_IP_FEASIBLE_REGION": "NONE_WITHIN_APPROVED_T01_REGION",
+  "ACTIVE_PRODUCTION_RIG_CANDIDATE": "STAGE5A_R2A",
+  "PRODUCTION_SKIN_WEIGHT": "NOT_STARTED",
+  "STAGE5B": "NOT_STARTED"
+ },
+ "not_done_this_round": ["new blend", "THUMB_IP_R move", "THUMB_TIP move", "CMC/MCP/wrist/index move",
+                          "mesh / topology / CMC cage / RSSF / nails / UV", "skin weights",
+                          "vertex groups", "armature modifier", "IK", "controllers", "constraints",
+                          "animation", "GLB", "Three.js", "left hand", "Stage6", "Stage5B"]
+}

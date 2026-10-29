@@ -1,0 +1,87 @@
+{
+  "status": "RESOLVED_BOUND_FORMULA_GRAPH_INSTANCE_UNRESOLVED",
+  "canonical_units": "COMMON_MM",
+  "formula": "U=sum_v max(C_T(v),C_I(v)) <= |V|*400000; P<=|E|*1296; choose INF=|V|*400000+|E|*1296+1",
+  "proof": "A pin-respecting assignment exists only if source sets are disjoint. It has cost <=B. Every pin-violating cut has cost>=INF>B, hence cannot minimize. Each vertex contributes at most one terminal edge; each undirected unlike-label edge contributes one directed forward arc even when encoded by two directions.",
+  "preconditions": [
+    "finite nonnegative fields",
+    "every component reaches both unique source families",
+    "hard sources disjoint",
+    "confirmed 400 mm finite cap",
+    "integer accumulation does not overflow"
+  ],
+  "candidates": {
+    "G1": {
+      "vertex_count": 794,
+      "edge_count": 1535,
+      "max_finite_unary_sum_safe_upper_bound": 317600000,
+      "max_pairwise_contribution_safe_upper_bound": 1989360,
+      "finite_cut_cost_safe_upper_bound": 319589360,
+      "INF_SAFE_LOWER_BOUND_strict": 319589360,
+      "minimum_safe_integer_INF": 319589361,
+      "unary_bound_is_attained_maximum": false,
+      "pairwise_bound_is_attained_maximum": false,
+      "source": "400 mm cap x 1000 integer/mm; 1 pairwise penalty per undirected cut edge, not twice",
+      "static_viability": "NON_VIABLE",
+      "canonical": false
+    },
+    "G2": {
+      "vertex_count": 815,
+      "edge_count": 1573,
+      "max_finite_unary_sum_safe_upper_bound": 326000000,
+      "max_pairwise_contribution_safe_upper_bound": 2038608,
+      "finite_cut_cost_safe_upper_bound": 328038608,
+      "INF_SAFE_LOWER_BOUND_strict": 328038608,
+      "minimum_safe_integer_INF": 328038609,
+      "unary_bound_is_attained_maximum": false,
+      "pairwise_bound_is_attained_maximum": false,
+      "source": "400 mm cap x 1000 integer/mm; 1 pairwise penalty per undirected cut edge, not twice",
+      "static_viability": "NON_VIABLE",
+      "canonical": false
+    },
+    "G3_K1": {
+      "vertex_count": 892,
+      "edge_count": 1727,
+      "max_finite_unary_sum_safe_upper_bound": 356800000,
+      "max_pairwise_contribution_safe_upper_bound": 2238192,
+      "finite_cut_cost_safe_upper_bound": 359038192,
+      "INF_SAFE_LOWER_BOUND_strict": 359038192,
+      "minimum_safe_integer_INF": 359038193,
+      "unary_bound_is_attained_maximum": false,
+      "pairwise_bound_is_attained_maximum": false,
+      "source": "400 mm cap x 1000 integer/mm; 1 pairwise penalty per undirected cut edge, not twice",
+      "static_viability": "NON_VIABLE",
+      "canonical": false
+    },
+    "G3_K2": {
+      "vertex_count": 963,
+      "edge_count": 1882,
+      "max_finite_unary_sum_safe_upper_bound": 385200000,
+      "max_pairwise_contribution_safe_upper_bound": 2439072,
+      "finite_cut_cost_safe_upper_bound": 387639072,
+      "INF_SAFE_LOWER_BOUND_strict": 387639072,
+      "minimum_safe_integer_INF": 387639073,
+      "unary_bound_is_attained_maximum": false,
+      "pairwise_bound_is_attained_maximum": false,
+      "source": "400 mm cap x 1000 integer/mm; 1 pairwise penalty per undirected cut edge, not twice",
+      "static_viability": "CONNECTIVITY_PASSES_ONLY_AUTHORITY_UNRESOLVED",
+      "canonical": false
+    },
+    "G4_HISTORICAL_COMPARISON_ONLY": {
+      "vertex_count": 1008,
+      "edge_count": 1977,
+      "max_finite_unary_sum_safe_upper_bound": 403200000,
+      "max_pairwise_contribution_safe_upper_bound": 2562192,
+      "finite_cut_cost_safe_upper_bound": 405762192,
+      "INF_SAFE_LOWER_BOUND_strict": 405762192,
+      "minimum_safe_integer_INF": 405762193,
+      "unary_bound_is_attained_maximum": false,
+      "pairwise_bound_is_attained_maximum": false,
+      "source": "400 mm cap x 1000 integer/mm; 1 pairwise penalty per undirected cut edge, not twice",
+      "static_viability": "CONNECTIVITY_PASSES_ONLY_AUTHORITY_UNRESOLVED",
+      "canonical": false
+    }
+  },
+  "canonical_INF": null,
+  "note": "Source-independent conservative upper bounds, not exact maxima and not solve results. NON_VIABLE graph rows cannot authorize solving. Historical magic INF=10^15 retired."
+}

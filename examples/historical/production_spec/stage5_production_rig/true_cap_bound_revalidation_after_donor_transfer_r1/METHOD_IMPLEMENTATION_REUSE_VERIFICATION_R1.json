@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "checks": {
+    "pose_and_bounds_and_120_recipes": true,
+    "original_graph_metric_build": true,
+    "original_path_record_definition": true,
+    "original_sort_statistics_and_graph_hash": true
+  },
+  "frozen_historical_source": {
+    "path": "production_spec/stage5_production_rig/true_cap_bound_recompute_after_dependency_reconciliation_r1/compute_bound.py",
+    "sha256": "7c4ccf42dd60819004e4c65ec111c6fa159063d9b23f61bd2da5404204907547"
+  },
+  "current_implementation": {
+    "path": "production_spec/stage5_production_rig/true_cap_bound_revalidation_after_donor_transfer_r1/compute_bound.py",
+    "sha256": "1a3a96fa52b9c295e187034298c5550b6c76ce8fa69af69eafc859afec335774"
+  },
+  "changes": "Current-vs-old clean intake; non-mutating tie diagnostic and graph/endpoint exports only. Numeric pose/actual bounds/120 recipes unchanged."
+}

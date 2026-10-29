@@ -1,0 +1,21 @@
+from pathlib import Path
+P=Path(__file__).resolve().parent;SRC=P.parent/'minuet_stage_c_lightweight_animation_poc_r1'
+s=(SRC/'bake_validate.py').read_text(encoding='utf8')
+s=s.replace("man=read(C1/'SCENE_MANIFEST.json');lock=", "man=read(ROOT/'audits/minuet_stage_c_lightweight_animation_poc_r1/SCENE_MANIFEST.json');man['key_pivots']=read(C1/'SCENE_MANIFEST.json')['key_pivots'];lock=")
+s=s.replace('LIGHTWEIGHT_TRAJECTORY.npz','REPAIR_TRAJECTORY.npz').replace('STAGE_C_LIGHTWEIGHT_ANIMATION_POC_R1_DESIGN_ONLY.blend','PIANO_PEDAGOGICAL_MOTION_REFINEMENT_R1_DESIGN_ONLY.blend')
+s=s.replace("n['note_on']-.025<=t<=n['note_off']+.025", "n['note_on']-.015<=t<=n['note_off']")
+s=s.replace('DESIGN_ONLY_LIGHTWEIGHT_R1_RIGHT_JOINTS_NOT_APPROVED','DESIGN_ONLY_PEDAGOGICAL_REFINEMENT_R1_RIGHT_JOINTS_NOT_APPROVED')
+s=s.replace("dict(seconds=time.perf_counter()-start,samples=", "dict(seconds=time.perf_counter()-start,samples=")
+s=s.replace("severity<.002 and padmax<.25 and added<180", "severity<.002 and padmax<.25 and added<260")
+s=s.replace('added_velocity_deg_sec=180','added_velocity_deg_sec=260')
+s=s.replace("probe=np.unique(np.r_[np.arange(358)/60,[n[k] for n in notes for k in ['note_on','note_off']],1.133333333,3.825])", "probe=np.unique(np.r_[np.arange(358)/60,[n[k] for n in notes for k in ['note_on','note_off']],1.133333333,3.825,2.6,4.05,4.916666667])")
+(P/'bake_validate.py').write_text(s,encoding='utf8')
+s=(SRC/'check_asset_identity.py').read_text(encoding='utf8').replace("C1=P.parent/'minuet_stage_c_r1_dual_hand_synchronized_performance'","C1=P.parent/'minuet_stage_c_lightweight_animation_poc_r1'").replace('STAGE_C_LIGHTWEIGHT_ANIMATION_POC_R1_DESIGN_ONLY.blend','PIANO_PEDAGOGICAL_MOTION_REFINEMENT_R1_DESIGN_ONLY.blend')
+(P/'check_asset_identity.py').write_text(s,encoding='utf8')
+s=(SRC/'check_new_neighbors.py').read_text(encoding='utf8').replace("src=read(C1/'SCENE_MANIFEST.json')","src=read(ROOT/'audits/minuet_stage_c_lightweight_animation_poc_r1/SCENE_MANIFEST.json')").replace('DESIGN_ONLY_STAGE_C_R_rig','DESIGN_ONLY_LIGHTWEIGHT_R1_RIGHT_JOINTS_NOT_APPROVED')
+(P/'check_new_neighbors.py').write_text(s,encoding='utf8')
+s=(SRC/'render.py').read_text(encoding='utf8').replace("src=read(C1/'SCENE_MANIFEST.json')","src=read(ROOT/'audits/minuet_stage_c_lightweight_animation_poc_r1/SCENE_MANIFEST.json')").replace('DESIGN_ONLY_STAGE_C_R_rig','DESIGN_ONLY_LIGHTWEIGHT_R1_RIGHT_JOINTS_NOT_APPROVED')
+a=s.index("probes=[");b=s.index("rois=",a)
+s=s[:a]+"probes=[('B01',1.133333333),('B02',3.825),('B03_INDEX',2.6),('B03_MIDDLE',4.05),('B03_RING',4.916666667)]\n"+s[b:]
+(P/'render.py').write_text(s,encoding='utf8')
+print('Bake / validation / original-camera render scripts prepared; no correction rerun.')

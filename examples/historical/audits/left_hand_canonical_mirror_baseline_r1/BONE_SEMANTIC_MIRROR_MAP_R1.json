@@ -1,0 +1,892 @@
+{
+  "status": "PASS",
+  "precision_note": "Blender float32 head/tail subtraction at 1.4 m origin on 5 mm TIP helpers yields up to 2.6e-5 axis-component error. Endpoints are exact reflected floats; matrix tolerance 5e-5, parent/pose 1e-4; evaluated geometry bound 0.003 mm. No weight tolerance used.",
+  "bone_count": 21,
+  "TIP_helpers_non_deform": true,
+  "rest_rule": "L = S R H; H=diag(-1,1,1,1). Local X reverses its polar direction to retain proper handed bone frames; Y and Z reflect.",
+  "pose_rule": "B_L = H B_R H; axial rotation vector (x,y,z) -> (x,-y,-z); quaternion (w,x,y,z) -> (w,x,-y,-z)",
+  "bones": [
+    {
+      "right": "WRIST_R",
+      "left": "WRIST_L",
+      "max_rest_matrix_error": 2.980232238769531e-07,
+      "max_parent_space_error": 0,
+      "left_rest_matrix": [
+        [
+          -0.9800114631652832,
+          0.17337456345558167,
+          -0.09756440669298172,
+          1.3936593532562256
+        ],
+        [
+          -0.14344413578510284,
+          -0.27600523829460144,
+          0.9503917098045349,
+          0.04786719009280205
+        ],
+        [
+          0.13784557580947876,
+          0.9453895092010498,
+          0.2953581213951111,
+          0.36566731333732605
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999992847442627,
+      "settings": {
+        "use_deform": true,
+        "use_connect": false,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "THUMB_CMC_R",
+      "left": "THUMB_CMC_L",
+      "max_rest_matrix_error": 6.854534149169922e-07,
+      "max_parent_space_error": 5.364418029785156e-07,
+      "left_rest_matrix": [
+        [
+          -0.641288161277771,
+          -0.39082425832748413,
+          -0.6603074669837952,
+          1.371635913848877
+        ],
+        [
+          -0.4603937268257141,
+          -0.49244624376296997,
+          0.7386025786399841,
+          0.014564596116542816
+        ],
+        [
+          -0.6138296127319336,
+          0.7776583433151245,
+          0.13586726784706116,
+          0.39716973900794983
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999992847442627,
+      "settings": {
+        "use_deform": true,
+        "use_connect": false,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "THUMB_MCP_R",
+      "left": "THUMB_MCP_L",
+      "max_rest_matrix_error": 8.046627044677734e-07,
+      "max_parent_space_error": 6.556510925292969e-07,
+      "left_rest_matrix": [
+        [
+          -0.6185700297355652,
+          -0.22219029068946838,
+          -0.7536594867706299,
+          1.3537876605987549
+        ],
+        [
+          -0.5947065353393555,
+          -0.4944787621498108,
+          0.6338881850242615,
+          -0.007924560457468033
+        ],
+        [
+          -0.513512372970581,
+          0.8403103351593018,
+          0.17373205721378326,
+          0.4326840341091156
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999993443489075,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "THUMB_IP_R",
+      "left": "THUMB_IP_L",
+      "max_rest_matrix_error": 7.450580596923828e-07,
+      "max_parent_space_error": 6.109476089477539e-07,
+      "left_rest_matrix": [
+        [
+          -0.5819997787475586,
+          -0.393765926361084,
+          -0.7114945650100708,
+          1.3478419780731201
+        ],
+        [
+          -0.5322510600090027,
+          -0.4770372211933136,
+          0.6993879675865173,
+          -0.021156521514058113
+        ],
+        [
+          -0.6148044466972351,
+          0.7857375741004944,
+          0.06805356591939926,
+          0.45517024397850037
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999991655349731,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "THUMB_TIP_R",
+      "left": "THUMB_TIP_L",
+      "max_rest_matrix_error": 1.0460615158081055e-05,
+      "max_parent_space_error": 1.126900315284729e-05,
+      "left_rest_matrix": [
+        [
+          -0.5816211700439453,
+          -0.40365877747535706,
+          -0.7062408924102783,
+          1.3392547369003296
+        ],
+        [
+          -0.5224552154541016,
+          -0.48009032011032104,
+          0.7046651840209961,
+          -0.031559742987155914
+        ],
+        [
+          -0.623503565788269,
+          0.7788277268409729,
+          0.06833738833665848,
+          0.4723055958747864
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999991655349731,
+      "settings": {
+        "use_deform": false,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "INDEX_MCP_R",
+      "left": "INDEX_MCP_L",
+      "max_rest_matrix_error": 3.5762786865234375e-07,
+      "max_parent_space_error": 1.1920928955078125e-07,
+      "left_rest_matrix": [
+        [
+          -0.9993866086006165,
+          -0.03488081693649292,
+          -0.0031114816665649414,
+          1.389147400856018
+        ],
+        [
+          0.017864540219306946,
+          -0.5842300653457642,
+          0.8113911151885986,
+          0.007114630192518234
+        ],
+        [
+          -0.030119603499770164,
+          0.8108373880386353,
+          0.5844950675964355,
+          0.4853682816028595
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999991059303284,
+      "settings": {
+        "use_deform": true,
+        "use_connect": false,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "INDEX_PIP_R",
+      "left": "INDEX_PIP_L",
+      "max_rest_matrix_error": 9.629875421524048e-07,
+      "max_parent_space_error": 9.98377799987793e-07,
+      "left_rest_matrix": [
+        [
+          -0.9755666851997375,
+          0.14240716397762299,
+          -0.16730205714702606,
+          1.3880209922790527
+        ],
+        [
+          -0.21861106157302856,
+          -0.5533338189125061,
+          0.8037601113319397,
+          -0.011751936748623848
+        ],
+        [
+          0.021887369453907013,
+          0.820695161819458,
+          0.5709460377693176,
+          0.5115526914596558
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999992251396179,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "INDEX_DIP_R",
+      "left": "INDEX_DIP_L",
+      "max_rest_matrix_error": 4.246830940246582e-06,
+      "max_parent_space_error": 5.148351192474365e-06,
+      "left_rest_matrix": [
+        [
+          -0.9673827886581421,
+          0.16461560130119324,
+          -0.19254158437252045,
+          1.3909944295883179
+        ],
+        [
+          -0.24783071875572205,
+          -0.4576570689678192,
+          0.8538906574249268,
+          -0.02330545336008072
+        ],
+        [
+          0.052445754408836365,
+          0.873756468296051,
+          0.48352664709091187,
+          0.5286886692047119
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999991655349731,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "INDEX_TIP_R",
+      "left": "INDEX_TIP_L",
+      "max_rest_matrix_error": 1.5050172805786133e-06,
+      "max_parent_space_error": 5.323439836502075e-06,
+      "left_rest_matrix": [
+        [
+          -0.9661082625389099,
+          0.15287603437900543,
+          -0.20799939334392548,
+          1.3935167789459229
+        ],
+        [
+          -0.2507035732269287,
+          -0.3636986017227173,
+          0.8971456289291382,
+          -0.03031797893345356
+        ],
+        [
+          0.06150301918387413,
+          0.9188857078552246,
+          0.3896990716457367,
+          0.5420769453048706
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999991059303284,
+      "settings": {
+        "use_deform": false,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "MIDDLE_MCP_R",
+      "left": "MIDDLE_MCP_L",
+      "max_rest_matrix_error": 1.3113021850585938e-06,
+      "max_parent_space_error": 1.5031546354293823e-06,
+      "left_rest_matrix": [
+        [
+          -0.9801369905471802,
+          0.18440622091293335,
+          0.0729774683713913,
+          1.4136276245117188
+        ],
+        [
+          -0.007689967751502991,
+          -0.40303635597229004,
+          0.9151514172554016,
+          0.011094015091657639
+        ],
+        [
+          0.19817230105400085,
+          0.896412193775177,
+          0.39644914865493774,
+          0.4818028211593628
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999992251396179,
+      "settings": {
+        "use_deform": true,
+        "use_connect": false,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "MIDDLE_PIP_R",
+      "left": "MIDDLE_PIP_L",
+      "max_rest_matrix_error": 1.5050172805786133e-06,
+      "max_parent_space_error": 1.341104507446289e-06,
+      "left_rest_matrix": [
+        [
+          -0.970636248588562,
+          0.2404903620481491,
+          0.0054357051849365234,
+          1.4201524257659912
+        ],
+        [
+          -0.13277184963226318,
+          -0.5544450283050537,
+          0.8215606808662415,
+          -0.003166522830724716
+        ],
+        [
+          0.20059126615524292,
+          0.7967144846916199,
+          0.5700949430465698,
+          0.513520359992981
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999992251396179,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "MIDDLE_DIP_R",
+      "left": "MIDDLE_DIP_L",
+      "max_rest_matrix_error": 1.9073486328125e-06,
+      "max_parent_space_error": 2.3096799850463867e-06,
+      "left_rest_matrix": [
+        [
+          -0.958631694316864,
+          0.2844448685646057,
+          -0.01077890582382679,
+          1.426433801651001
+        ],
+        [
+          -0.17664745450019836,
+          -0.5647865533828735,
+          0.8061087727546692,
+          -0.01764809340238571
+        ],
+        [
+          0.22320574522018433,
+          0.774665117263794,
+          0.591668963432312,
+          0.5343297719955444
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999991655349731,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "MIDDLE_TIP_R",
+      "left": "MIDDLE_TIP_L",
+      "max_rest_matrix_error": 2.5600194931030273e-05,
+      "max_parent_space_error": 2.856925129890442e-05,
+      "left_rest_matrix": [
+        [
+          -0.9607177972793579,
+          0.27463582158088684,
+          -0.03995401784777641,
+          1.4314045906066895
+        ],
+        [
+          -0.16905370354652405,
+          -0.46494537591934204,
+          0.8690490126609802,
+          -0.02751796692609787
+        ],
+        [
+          0.22009557485580444,
+          0.8416649103164673,
+          0.49310970306396484,
+          0.5478673577308655
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999992251396179,
+      "settings": {
+        "use_deform": false,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "RING_MCP_R",
+      "left": "RING_MCP_L",
+      "max_rest_matrix_error": 2.1457672119140625e-06,
+      "max_parent_space_error": 2.3692846298217773e-06,
+      "left_rest_matrix": [
+        [
+          -0.8971142768859863,
+          0.3806537985801697,
+          -0.22425147891044617,
+          1.4346630573272705
+        ],
+        [
+          -0.37927907705307007,
+          -0.4032639265060425,
+          0.8327814936637878,
+          0.01580503024160862
+        ],
+        [
+          0.22656890749931335,
+          0.8321536779403687,
+          0.5061480402946472,
+          0.47392457723617554
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999992847442627,
+      "settings": {
+        "use_deform": true,
+        "use_connect": false,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "RING_PIP_R",
+      "left": "RING_PIP_L",
+      "max_rest_matrix_error": 1.6391277313232422e-06,
+      "max_parent_space_error": 9.685754776000977e-07,
+      "left_rest_matrix": [
+        [
+          -0.9588401317596436,
+          0.28371843695640564,
+          -0.011393934488296509,
+          1.447221040725708
+        ],
+        [
+          -0.1865520477294922,
+          -0.5991942286491394,
+          0.7785654664039612,
+          0.0025011273100972176
+        ],
+        [
+          0.2140662521123886,
+          0.7486449480056763,
+          0.6274596452713013,
+          0.5013778209686279
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999995827674866,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "RING_DIP_R",
+      "left": "RING_DIP_L",
+      "max_rest_matrix_error": 4.783272743225098e-06,
+      "max_parent_space_error": 6.6570937633514404e-06,
+      "left_rest_matrix": [
+        [
+          -0.97054123878479,
+          0.239944189786911,
+          0.021836034953594208,
+          1.4539250135421753
+        ],
+        [
+          -0.15064850449562073,
+          -0.6750754714012146,
+          0.7222034335136414,
+          -0.011657212860882282
+        ],
+        [
+          0.18802954256534576,
+          0.697638213634491,
+          0.6913357973098755,
+          0.5190675258636475
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999996423721313,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "RING_TIP_R",
+      "left": "RING_TIP_L",
+      "max_rest_matrix_error": 1.2531876564025879e-05,
+      "max_parent_space_error": 7.987022399902344e-06,
+      "left_rest_matrix": [
+        [
+          -0.9719154834747314,
+          0.23528598248958588,
+          -0.004598947241902351,
+          1.457700490951538
+        ],
+        [
+          -0.14754900336265564,
+          -0.594035267829895,
+          0.7907915115356445,
+          -0.022279400378465652
+        ],
+        [
+          0.18333028256893158,
+          0.7692606449127197,
+          0.6120681762695312,
+          0.5300447344779968
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999997615814209,
+      "settings": {
+        "use_deform": false,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "LITTLE_MCP_R",
+      "left": "LITTLE_MCP_L",
+      "max_rest_matrix_error": 5.066394805908203e-07,
+      "max_parent_space_error": 5.662441253662109e-07,
+      "left_rest_matrix": [
+        [
+          -0.8252173662185669,
+          0.5589468479156494,
+          -0.08120788633823395,
+          1.4616292715072632
+        ],
+        [
+          -0.2672961950302124,
+          -0.2598140835762024,
+          0.9279271960258484,
+          0.017606094479560852
+        ],
+        [
+          0.4975630044937134,
+          0.787447988986969,
+          0.36380764842033386,
+          0.4572618007659912
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999994039535522,
+      "settings": {
+        "use_deform": true,
+        "use_connect": false,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "LITTLE_PIP_R",
+      "left": "LITTLE_PIP_L",
+      "max_rest_matrix_error": 7.838010787963867e-06,
+      "max_parent_space_error": 8.299946784973145e-06,
+      "left_rest_matrix": [
+        [
+          -0.8722594976425171,
+          0.48663362860679626,
+          0.04848978668451309,
+          1.4754278659820557
+        ],
+        [
+          -0.1845250278711319,
+          -0.4193204641342163,
+          0.8888871073722839,
+          0.011192123405635357
+        ],
+        [
+          0.4528951346874237,
+          0.7663922905921936,
+          0.45555245876312256,
+          0.4767013490200043
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999993443489075,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "LITTLE_DIP_R",
+      "left": "LITTLE_DIP_L",
+      "max_rest_matrix_error": 6.377696990966797e-06,
+      "max_parent_space_error": 1.6674399375915527e-05,
+      "left_rest_matrix": [
+        [
+          -0.8371780514717102,
+          0.5468983054161072,
+          0.005944635719060898,
+          1.4835691452026367
+        ],
+        [
+          -0.2457994520664215,
+          -0.385928213596344,
+          0.8891802430152893,
+          0.004176977556198835
+        ],
+        [
+          0.4885854125022888,
+          0.7429404854774475,
+          0.4575181007385254,
+          0.48952293395996094
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999994039535522,
+      "settings": {
+        "use_deform": true,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    },
+    {
+      "right": "LITTLE_TIP_R",
+      "left": "LITTLE_TIP_L",
+      "max_rest_matrix_error": 6.794929504394531e-06,
+      "max_parent_space_error": 4.082918167114258e-06,
+      "left_rest_matrix": [
+        [
+          -0.8397567868232727,
+          0.5423855781555176,
+          -0.02503165230154991,
+          1.4898861646652222
+        ],
+        [
+          -0.24030591547489166,
+          -0.3299250900745392,
+          0.9129085540771484,
+          -0.0002807355485856533
+        ],
+        [
+          0.48688989877700806,
+          0.772635817527771,
+          0.4073955714702606,
+          0.49810436367988586
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "positive_rest_determinant": 0.9999993443489075,
+      "settings": {
+        "use_deform": false,
+        "use_connect": true,
+        "inherit_scale": "FULL",
+        "use_inherit_rotation": true,
+        "use_local_location": true,
+        "use_relative_parent": false,
+        "collections": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,1560 @@
+{
+  "status": "PASS",
+  "canonical_zero_epsilon": 0,
+  "evaluated": 55,
+  "exact_zero_pass_count": 55,
+  "remaining_forbidden_positive_count": 0,
+  "ratio_policy": "Original allowed components normalized proportionally, then exact IEEE float32 storage; no new components.",
+  "cleanup_only_free_smoothing": false,
+  "per_vertex": [
+    {
+      "vertex_id": 383,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9954366683959961,
+        "THUMB_CMC_R": 0.0045631746761500835,
+        "RING_MCP_R": 2.3679049832026067e-08,
+        "LITTLE_MCP_R": 1.3688519118204567e-07
+      },
+      "forbidden_entries_removed": {
+        "RING_MCP_R": 2.3679049832026067e-08,
+        "LITTLE_MCP_R": 1.3688519118204567e-07
+      },
+      "normalization_denominator": 0.9999998430721462,
+      "expected_float32_after": {
+        "WRIST_R": 0.9954368472099304,
+        "THUMB_CMC_R": 0.004563175607472658
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9954368472099304,
+        "THUMB_CMC_R": 0.004563175607472658
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 384,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9820774793624878,
+        "THUMB_CMC_R": 0.017922500148415565,
+        "MIDDLE_MCP_R": 3.5667285097629176e-11,
+        "LITTLE_MCP_R": 5.077551157306459e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.5667285097629176e-11,
+        "LITTLE_MCP_R": 5.077551157306459e-10
+      },
+      "normalization_denominator": 0.9999999795109034,
+      "expected_float32_after": {
+        "WRIST_R": 0.9820774793624878,
+        "THUMB_CMC_R": 0.017922500148415565
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9820774793624878,
+        "THUMB_CMC_R": 0.017922500148415565
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 420,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9112029671669006,
+        "THUMB_CMC_R": 0.08879696577787399,
+        "MIDDLE_MCP_R": 4.805022157938765e-08,
+        "RING_MCP_R": 1.7120175277440808e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.805022157938765e-08,
+        "RING_MCP_R": 1.7120175277440808e-09
+      },
+      "normalization_denominator": 0.9999999329447746,
+      "expected_float32_after": {
+        "WRIST_R": 0.9112030267715454,
+        "THUMB_CMC_R": 0.08879697322845459
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9112030267715454,
+        "THUMB_CMC_R": 0.08879697322845459
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 421,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.7399342060089111,
+        "THUMB_CMC_R": 0.26006564497947693,
+        "MIDDLE_MCP_R": 1.632995179079444e-07
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.632995179079444e-07
+      },
+      "normalization_denominator": 0.9999998509883881,
+      "expected_float32_after": {
+        "WRIST_R": 0.7399343252182007,
+        "THUMB_CMC_R": 0.2600656747817993
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.7399343252182007,
+        "THUMB_CMC_R": 0.2600656747817993
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 433,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9583583474159241,
+        "THUMB_CMC_R": 0.041641660034656525,
+        "MIDDLE_MCP_R": 8.467926360111733e-10,
+        "RING_MCP_R": 1.0112272998130667e-11
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 8.467926360111733e-10,
+        "RING_MCP_R": 1.0112272998130667e-11
+      },
+      "normalization_denominator": 1.0000000074505806,
+      "expected_float32_after": {
+        "WRIST_R": 0.9583583474159241,
+        "THUMB_CMC_R": 0.041641660034656525
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9583583474159241,
+        "THUMB_CMC_R": 0.041641660034656525
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 629,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9999995231628418,
+        "MIDDLE_MCP_R": 4.4931962861483044e-07
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.4931962861483044e-07
+      },
+      "normalization_denominator": 0.9999995231628418,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 713,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9782654047012329,
+        "THUMB_CMC_R": 0.021734554320573807,
+        "MIDDLE_MCP_R": 1.356263901186594e-08,
+        "LITTLE_MCP_R": 5.9624398751623175e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.356263901186594e-08,
+        "LITTLE_MCP_R": 5.9624398751623175e-09
+      },
+      "normalization_denominator": 0.9999999590218067,
+      "expected_float32_after": {
+        "WRIST_R": 0.9782654643058777,
+        "THUMB_CMC_R": 0.021734554320573807
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9782654643058777,
+        "THUMB_CMC_R": 0.021734554320573807
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 714,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9467349648475647,
+        "THUMB_CMC_R": 0.053264982998371124,
+        "MIDDLE_MCP_R": 2.2600744387091254e-08,
+        "RING_MCP_R": 1.8837789106385117e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 2.2600744387091254e-08,
+        "RING_MCP_R": 1.8837789106385117e-09
+      },
+      "normalization_denominator": 0.9999999478459358,
+      "expected_float32_after": {
+        "WRIST_R": 0.9467350244522095,
+        "THUMB_CMC_R": 0.05326498672366142
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9467350244522095,
+        "THUMB_CMC_R": 0.05326498672366142
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 715,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9346170425415039,
+        "THUMB_CMC_R": 0.0653829276561737,
+        "MIDDLE_MCP_R": 6.217330122959552e-11,
+        "LITTLE_MCP_R": 3.410051754859644e-11
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 6.217330122959552e-11,
+        "LITTLE_MCP_R": 3.410051754859644e-11
+      },
+      "normalization_denominator": 0.9999999701976776,
+      "expected_float32_after": {
+        "WRIST_R": 0.9346170425415039,
+        "THUMB_CMC_R": 0.0653829276561737
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9346170425415039,
+        "THUMB_CMC_R": 0.0653829276561737
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 716,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8623838424682617,
+        "THUMB_CMC_R": 0.13761615753173828,
+        "MIDDLE_MCP_R": 1.8990084504899585e-10,
+        "LITTLE_MCP_R": 6.6055984467017215e-12
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.8990084504899585e-10,
+        "LITTLE_MCP_R": 6.6055984467017215e-12
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 0.8623838424682617,
+        "THUMB_CMC_R": 0.13761615753173828
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8623838424682617,
+        "THUMB_CMC_R": 0.13761615753173828
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 719,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 1.0,
+        "MIDDLE_MCP_R": 1.1722135543864361e-14,
+        "LITTLE_MCP_R": 3.911630708249269e-16
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.1722135543864361e-14,
+        "LITTLE_MCP_R": 3.911630708249269e-16
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 805,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 1.0,
+        "MIDDLE_MCP_R": 1.4451125842848689e-12,
+        "LITTLE_MCP_R": 4.8049221258684646e-14
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.4451125842848689e-12,
+        "LITTLE_MCP_R": 4.8049221258684646e-14
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 806,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8747779726982117,
+        "THUMB_CMC_R": 0.12522204220294952,
+        "MIDDLE_MCP_R": 4.481218185154595e-13,
+        "LITTLE_MCP_R": 2.4460061797196286e-13
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.481218185154595e-13,
+        "LITTLE_MCP_R": 2.4460061797196286e-13
+      },
+      "normalization_denominator": 1.0000000149011612,
+      "expected_float32_after": {
+        "WRIST_R": 0.8747779726982117,
+        "THUMB_CMC_R": 0.12522204220294952
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8747779726982117,
+        "THUMB_CMC_R": 0.12522204220294952
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 1514,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9894101619720459,
+        "THUMB_CMC_R": 0.01058980729430914,
+        "MIDDLE_MCP_R": 5.539292913248062e-10,
+        "LITTLE_MCP_R": 6.428609200526125e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 5.539292913248062e-10,
+        "LITTLE_MCP_R": 6.428609200526125e-09
+      },
+      "normalization_denominator": 0.999999969266355,
+      "expected_float32_after": {
+        "WRIST_R": 0.9894102215766907,
+        "THUMB_CMC_R": 0.01058980729430914
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9894102215766907,
+        "THUMB_CMC_R": 0.01058980729430914
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 1572,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8956417441368103,
+        "THUMB_CMC_R": 0.10435816645622253,
+        "MIDDLE_MCP_R": 8.297757148056917e-08,
+        "RING_MCP_R": 2.115076558339979e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 8.297757148056917e-08,
+        "RING_MCP_R": 2.115076558339979e-09
+      },
+      "normalization_denominator": 0.9999999105930328,
+      "expected_float32_after": {
+        "WRIST_R": 0.8956418037414551,
+        "THUMB_CMC_R": 0.10435817390680313
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8956418037414551,
+        "THUMB_CMC_R": 0.10435817390680313
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 1574,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9298697113990784,
+        "THUMB_CMC_R": 0.07012935727834702,
+        "MIDDLE_MCP_R": 8.775348305789521e-07,
+        "RING_MCP_R": 2.5951171878091372e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 8.775348305789521e-07,
+        "RING_MCP_R": 2.5951171878091372e-08
+      },
+      "normalization_denominator": 0.9999990686774254,
+      "expected_float32_after": {
+        "WRIST_R": 0.92987060546875,
+        "THUMB_CMC_R": 0.07012942433357239
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.92987060546875,
+        "THUMB_CMC_R": 0.07012942433357239
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 1576,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.5498883128166199,
+        "THUMB_CMC_R": 0.4501113295555115,
+        "MIDDLE_MCP_R": 3.5418526067587663e-07
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.5418526067587663e-07
+      },
+      "normalization_denominator": 0.9999996423721313,
+      "expected_float32_after": {
+        "WRIST_R": 0.5498884916305542,
+        "THUMB_CMC_R": 0.4501114785671234
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.5498884916305542,
+        "THUMB_CMC_R": 0.4501114785671234
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 1593,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.6957321763038635,
+        "THUMB_CMC_R": 0.3042677938938141,
+        "MIDDLE_MCP_R": 3.0045448795590346e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.0045448795590346e-08
+      },
+      "normalization_denominator": 0.9999999701976776,
+      "expected_float32_after": {
+        "WRIST_R": 0.6957321763038635,
+        "THUMB_CMC_R": 0.3042677938938141
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.6957321763038635,
+        "THUMB_CMC_R": 0.3042677938938141
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 1600,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8449652791023254,
+        "THUMB_CMC_R": 0.15503470599651337,
+        "MIDDLE_MCP_R": 2.074431515453057e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 2.074431515453057e-09
+      },
+      "normalization_denominator": 0.9999999850988388,
+      "expected_float32_after": {
+        "WRIST_R": 0.8449652791023254,
+        "THUMB_CMC_R": 0.15503470599651337
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8449652791023254,
+        "THUMB_CMC_R": 0.15503470599651337
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 1601,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8567127585411072,
+        "THUMB_CMC_R": 0.14328724145889282,
+        "MIDDLE_MCP_R": 6.393380935776349e-09,
+        "RING_MCP_R": 1.322710135864824e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 6.393380935776349e-09,
+        "RING_MCP_R": 1.322710135864824e-10
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 0.8567127585411072,
+        "THUMB_CMC_R": 0.14328724145889282
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8567127585411072,
+        "THUMB_CMC_R": 0.14328724145889282
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 1602,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9641096591949463,
+        "THUMB_CMC_R": 0.03589031472802162,
+        "MIDDLE_MCP_R": 1.0913331349726718e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.0913331349726718e-10
+      },
+      "normalization_denominator": 0.9999999739229679,
+      "expected_float32_after": {
+        "WRIST_R": 0.9641096591949463,
+        "THUMB_CMC_R": 0.03589031472802162
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9641096591949463,
+        "THUMB_CMC_R": 0.03589031472802162
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2018,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9996350407600403,
+        "THUMB_CMC_R": 0.00036494291271083057,
+        "MIDDLE_MCP_R": 2.3935351478598932e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 2.3935351478598932e-08
+      },
+      "normalization_denominator": 0.9999999836727511,
+      "expected_float32_after": {
+        "WRIST_R": 0.9996350407600403,
+        "THUMB_CMC_R": 0.00036494291271083057
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9996350407600403,
+        "THUMB_CMC_R": 0.00036494291271083057
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2032,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9493653774261475,
+        "THUMB_CMC_R": 0.05063427984714508,
+        "MIDDLE_MCP_R": 3.4208940746793814e-07,
+        "RING_MCP_R": 2.0215136231627184e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.4208940746793814e-07,
+        "RING_MCP_R": 2.0215136231627184e-08
+      },
+      "normalization_denominator": 0.9999996572732925,
+      "expected_float32_after": {
+        "WRIST_R": 0.9493656754493713,
+        "THUMB_CMC_R": 0.05063429847359657
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9493656754493713,
+        "THUMB_CMC_R": 0.05063429847359657
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2055,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9999995827674866,
+        "MIDDLE_MCP_R": 3.8904926213945146e-07
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.8904926213945146e-07
+      },
+      "normalization_denominator": 0.9999995827674866,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2214,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9902166128158569,
+        "THUMB_CMC_R": 0.009783035144209862,
+        "MIDDLE_MCP_R": 2.611704417176952e-07,
+        "RING_MCP_R": 1.1995275883691647e-07
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 2.611704417176952e-07,
+        "RING_MCP_R": 1.1995275883691647e-07
+      },
+      "normalization_denominator": 0.9999996479600668,
+      "expected_float32_after": {
+        "WRIST_R": 0.9902169704437256,
+        "THUMB_CMC_R": 0.00978303886950016
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9902169704437256,
+        "THUMB_CMC_R": 0.00978303886950016
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2215,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9638835787773132,
+        "THUMB_CMC_R": 0.036116402596235275,
+        "MIDDLE_MCP_R": 1.7351583281310923e-08,
+        "RING_MCP_R": 2.5037980577735652e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.7351583281310923e-08,
+        "RING_MCP_R": 2.5037980577735652e-09
+      },
+      "normalization_denominator": 0.9999999813735485,
+      "expected_float32_after": {
+        "WRIST_R": 0.9638835787773132,
+        "THUMB_CMC_R": 0.036116402596235275
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9638835787773132,
+        "THUMB_CMC_R": 0.036116402596235275
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2216,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9715244174003601,
+        "THUMB_CMC_R": 0.028475318104028702,
+        "MIDDLE_MCP_R": 2.4895561523408105e-07,
+        "RING_MCP_R": 3.375471635536087e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 2.4895561523408105e-07,
+        "RING_MCP_R": 3.375471635536087e-08
+      },
+      "normalization_denominator": 0.9999997355043888,
+      "expected_float32_after": {
+        "WRIST_R": 0.9715246558189392,
+        "THUMB_CMC_R": 0.0284753255546093
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9715246558189392,
+        "THUMB_CMC_R": 0.0284753255546093
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2221,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8987428545951843,
+        "THUMB_CMC_R": 0.10125715285539627,
+        "MIDDLE_MCP_R": 9.915429588502889e-11,
+        "LITTLE_MCP_R": 1.2577051379525361e-11
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 9.915429588502889e-11,
+        "LITTLE_MCP_R": 1.2577051379525361e-11
+      },
+      "normalization_denominator": 1.0000000074505806,
+      "expected_float32_after": {
+        "WRIST_R": 0.8987428545951843,
+        "THUMB_CMC_R": 0.10125715285539627
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8987428545951843,
+        "THUMB_CMC_R": 0.10125715285539627
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2222,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9108203649520874,
+        "THUMB_CMC_R": 0.08917960524559021,
+        "MIDDLE_MCP_R": 2.1268951044817186e-09,
+        "RING_MCP_R": 1.0474836276141986e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 2.1268951044817186e-09,
+        "RING_MCP_R": 1.0474836276141986e-10
+      },
+      "normalization_denominator": 0.9999999701976776,
+      "expected_float32_after": {
+        "WRIST_R": 0.9108203649520874,
+        "THUMB_CMC_R": 0.08917960524559021
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9108203649520874,
+        "THUMB_CMC_R": 0.08917960524559021
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2223,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.958881139755249,
+        "THUMB_CMC_R": 0.041118837893009186,
+        "MIDDLE_MCP_R": 7.728259698858153e-10,
+        "LITTLE_MCP_R": 4.0872019657633984e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 7.728259698858153e-10,
+        "LITTLE_MCP_R": 4.0872019657633984e-10
+      },
+      "normalization_denominator": 0.9999999776482582,
+      "expected_float32_after": {
+        "WRIST_R": 0.958881139755249,
+        "THUMB_CMC_R": 0.041118837893009186
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.958881139755249,
+        "THUMB_CMC_R": 0.041118837893009186
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2224,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 1.0,
+        "MIDDLE_MCP_R": 5.709254480312266e-15,
+        "LITTLE_MCP_R": 8.235312240393417e-16
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 5.709254480312266e-15,
+        "LITTLE_MCP_R": 8.235312240393417e-16
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2227,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 1.0,
+        "MIDDLE_MCP_R": 8.628687575988115e-16,
+        "LITTLE_MCP_R": 2.728715150654626e-17
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 8.628687575988115e-16,
+        "LITTLE_MCP_R": 2.728715150654626e-17
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2230,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8087379336357117,
+        "THUMB_CMC_R": 0.19126208126544952,
+        "MIDDLE_MCP_R": 1.7123972378962904e-11,
+        "LITTLE_MCP_R": 5.87263798788179e-13
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.7123972378962904e-11,
+        "LITTLE_MCP_R": 5.87263798788179e-13
+      },
+      "normalization_denominator": 1.0000000149011612,
+      "expected_float32_after": {
+        "WRIST_R": 0.8087379336357117,
+        "THUMB_CMC_R": 0.19126208126544952
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8087379336357117,
+        "THUMB_CMC_R": 0.19126208126544952
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2231,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8514779806137085,
+        "THUMB_CMC_R": 0.1485220193862915,
+        "MIDDLE_MCP_R": 4.642868121212951e-14,
+        "LITTLE_MCP_R": 2.773336471768601e-14
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.642868121212951e-14,
+        "LITTLE_MCP_R": 2.773336471768601e-14
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 0.8514779806137085,
+        "THUMB_CMC_R": 0.1485220193862915
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8514779806137085,
+        "THUMB_CMC_R": 0.1485220193862915
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2306,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9884812831878662,
+        "THUMB_CMC_R": 0.011518692597746849,
+        "MIDDLE_MCP_R": 1.205154287475807e-08,
+        "LITTLE_MCP_R": 2.1750336642867296e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.205154287475807e-08,
+        "LITTLE_MCP_R": 2.1750336642867296e-08
+      },
+      "normalization_denominator": 0.9999999757856131,
+      "expected_float32_after": {
+        "WRIST_R": 0.9884812831878662,
+        "THUMB_CMC_R": 0.011518692597746849
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9884812831878662,
+        "THUMB_CMC_R": 0.011518692597746849
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2307,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9288614988327026,
+        "THUMB_CMC_R": 0.07113845646381378,
+        "MIDDLE_MCP_R": 3.0848195109456356e-08,
+        "RING_MCP_R": 1.6309920081170048e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.0848195109456356e-08,
+        "RING_MCP_R": 1.6309920081170048e-09
+      },
+      "normalization_denominator": 0.9999999552965164,
+      "expected_float32_after": {
+        "WRIST_R": 0.9288615584373474,
+        "THUMB_CMC_R": 0.07113845646381378
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9288615584373474,
+        "THUMB_CMC_R": 0.07113845646381378
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2308,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8253231644630432,
+        "THUMB_CMC_R": 0.1746768206357956,
+        "MIDDLE_MCP_R": 3.8721251205409146e-10,
+        "RING_MCP_R": 6.822533857309132e-12
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.8721251205409146e-10,
+        "RING_MCP_R": 6.822533857309132e-12
+      },
+      "normalization_denominator": 0.9999999850988388,
+      "expected_float32_after": {
+        "WRIST_R": 0.8253231644630432,
+        "THUMB_CMC_R": 0.1746768206357956
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8253231644630432,
+        "THUMB_CMC_R": 0.1746768206357956
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2309,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9621322751045227,
+        "THUMB_CMC_R": 0.037867750972509384,
+        "MIDDLE_MCP_R": 3.885524887947689e-11,
+        "LITTLE_MCP_R": 1.0521773036176185e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.885524887947689e-11,
+        "LITTLE_MCP_R": 1.0521773036176185e-10
+      },
+      "normalization_denominator": 1.000000026077032,
+      "expected_float32_after": {
+        "WRIST_R": 0.9621322751045227,
+        "THUMB_CMC_R": 0.037867750972509384
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9621322751045227,
+        "THUMB_CMC_R": 0.037867750972509384
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2425,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 1.0,
+        "MIDDLE_MCP_R": 1.3108481314305642e-13,
+        "LITTLE_MCP_R": 4.338046205077956e-15
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.3108481314305642e-13,
+        "LITTLE_MCP_R": 4.338046205077956e-15
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2426,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9049322605133057,
+        "THUMB_CMC_R": 0.09506775438785553,
+        "MIDDLE_MCP_R": 4.931382992928723e-12,
+        "LITTLE_MCP_R": 2.7586444413529865e-12
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.931382992928723e-12,
+        "LITTLE_MCP_R": 2.7586444413529865e-12
+      },
+      "normalization_denominator": 1.0000000149011612,
+      "expected_float32_after": {
+        "WRIST_R": 0.9049322605133057,
+        "THUMB_CMC_R": 0.09506775438785553
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9049322605133057,
+        "THUMB_CMC_R": 0.09506775438785553
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2431,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8126124143600464,
+        "THUMB_CMC_R": 0.18738757073879242,
+        "MIDDLE_MCP_R": 6.388117031880247e-13,
+        "LITTLE_MCP_R": 8.29030854382351e-14
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 6.388117031880247e-13,
+        "LITTLE_MCP_R": 8.29030854382351e-14
+      },
+      "normalization_denominator": 0.9999999850988388,
+      "expected_float32_after": {
+        "WRIST_R": 0.8126124143600464,
+        "THUMB_CMC_R": 0.18738757073879242
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8126124143600464,
+        "THUMB_CMC_R": 0.18738757073879242
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2432,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 1.0,
+        "MIDDLE_MCP_R": 4.191357764332659e-12,
+        "LITTLE_MCP_R": 3.823589394321564e-14
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.191357764332659e-12,
+        "LITTLE_MCP_R": 3.823589394321564e-14
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2847,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9463895559310913,
+        "THUMB_CMC_R": 0.0536104254424572,
+        "MIDDLE_MCP_R": 4.10790672311645e-12,
+        "LITTLE_MCP_R": 1.1239478098223898e-11
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.10790672311645e-12,
+        "LITTLE_MCP_R": 1.1239478098223898e-11
+      },
+      "normalization_denominator": 0.9999999813735485,
+      "expected_float32_after": {
+        "WRIST_R": 0.9463895559310913,
+        "THUMB_CMC_R": 0.0536104254424572
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9463895559310913,
+        "THUMB_CMC_R": 0.0536104254424572
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2849,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8834909200668335,
+        "THUMB_CMC_R": 0.11650906503200531,
+        "MIDDLE_MCP_R": 3.4901099787987278e-09,
+        "RING_MCP_R": 1.0850143006280177e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.4901099787987278e-09,
+        "RING_MCP_R": 1.0850143006280177e-10
+      },
+      "normalization_denominator": 0.9999999850988388,
+      "expected_float32_after": {
+        "WRIST_R": 0.8834909200668335,
+        "THUMB_CMC_R": 0.11650906503200531
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8834909200668335,
+        "THUMB_CMC_R": 0.11650906503200531
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2857,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 1.0,
+        "MIDDLE_MCP_R": 4.132941905377052e-11,
+        "RING_MCP_R": 4.1088597910361735e-13
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.132941905377052e-11,
+        "RING_MCP_R": 4.1088597910361735e-13
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2867,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9773944020271301,
+        "THUMB_CMC_R": 0.022605596110224724,
+        "MIDDLE_MCP_R": 6.073528346917101e-10,
+        "LITTLE_MCP_R": 1.4456957853070662e-09
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 6.073528346917101e-10,
+        "LITTLE_MCP_R": 1.4456957853070662e-09
+      },
+      "normalization_denominator": 0.9999999981373549,
+      "expected_float32_after": {
+        "WRIST_R": 0.9773944020271301,
+        "THUMB_CMC_R": 0.022605596110224724
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9773944020271301,
+        "THUMB_CMC_R": 0.022605596110224724
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 2868,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8596851229667664,
+        "THUMB_CMC_R": 0.14031487703323364,
+        "MIDDLE_MCP_R": 1.3432345014052771e-08,
+        "RING_MCP_R": 1.9894524916352907e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.3432345014052771e-08,
+        "RING_MCP_R": 1.9894524916352907e-10
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 0.8596851229667664,
+        "THUMB_CMC_R": 0.14031487703323364
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8596851229667664,
+        "THUMB_CMC_R": 0.14031487703323364
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 3134,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9954968094825745,
+        "THUMB_CMC_R": 0.004502454306930304,
+        "MIDDLE_MCP_R": 3.5340013937457115e-07,
+        "LITTLE_MCP_R": 3.797734677846165e-07
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 3.5340013937457115e-07,
+        "LITTLE_MCP_R": 3.797734677846165e-07
+      },
+      "normalization_denominator": 0.9999992637895048,
+      "expected_float32_after": {
+        "WRIST_R": 0.9954975247383118,
+        "THUMB_CMC_R": 0.004502457566559315
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9954975247383118,
+        "THUMB_CMC_R": 0.004502457566559315
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 3142,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9606391191482544,
+        "THUMB_CMC_R": 0.03936056047677994,
+        "MIDDLE_MCP_R": 2.697613297186763e-07,
+        "RING_MCP_R": 2.3640463808760614e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 2.697613297186763e-07,
+        "RING_MCP_R": 2.3640463808760614e-08
+      },
+      "normalization_denominator": 0.9999996796250343,
+      "expected_float32_after": {
+        "WRIST_R": 0.9606394171714783,
+        "THUMB_CMC_R": 0.03936057165265083
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9606394171714783,
+        "THUMB_CMC_R": 0.03936057165265083
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 3146,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9393557906150818,
+        "THUMB_CMC_R": 0.060643669217824936,
+        "MIDDLE_MCP_R": 5.092729793432227e-07,
+        "RING_MCP_R": 2.1322897225672932e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 5.092729793432227e-07,
+        "RING_MCP_R": 2.1322897225672932e-08
+      },
+      "normalization_denominator": 0.9999994598329067,
+      "expected_float32_after": {
+        "WRIST_R": 0.9393563270568848,
+        "THUMB_CMC_R": 0.06064370274543762
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9393563270568848,
+        "THUMB_CMC_R": 0.06064370274543762
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 3211,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.9824153184890747,
+        "THUMB_CMC_R": 0.017584364861249924,
+        "MIDDLE_MCP_R": 2.577797033609386e-07,
+        "RING_MCP_R": 6.218231618504433e-08
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 2.577797033609386e-07,
+        "RING_MCP_R": 6.218231618504433e-08
+      },
+      "normalization_denominator": 0.9999996833503246,
+      "expected_float32_after": {
+        "WRIST_R": 0.9824156165122986,
+        "THUMB_CMC_R": 0.01758437044918537
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.9824156165122986,
+        "THUMB_CMC_R": 0.01758437044918537
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 3213,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.936651885509491,
+        "THUMB_CMC_R": 0.06334812939167023,
+        "MIDDLE_MCP_R": 1.3658472131083954e-09,
+        "LITTLE_MCP_R": 1.6962506399487154e-10
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 1.3658472131083954e-09,
+        "LITTLE_MCP_R": 1.6962506399487154e-10
+      },
+      "normalization_denominator": 1.0000000149011612,
+      "expected_float32_after": {
+        "WRIST_R": 0.936651885509491,
+        "THUMB_CMC_R": 0.06334812939167023
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.936651885509491,
+        "THUMB_CMC_R": 0.06334812939167023
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 3216,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.8569509983062744,
+        "THUMB_CMC_R": 0.14304900169372559,
+        "MIDDLE_MCP_R": 8.147460137108986e-12,
+        "LITTLE_MCP_R": 1.0513540992657111e-12
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 8.147460137108986e-12,
+        "LITTLE_MCP_R": 1.0513540992657111e-12
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 0.8569509983062744,
+        "THUMB_CMC_R": 0.14304900169372559
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.8569509983062744,
+        "THUMB_CMC_R": 0.14304900169372559
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 3271,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 0.7771916389465332,
+        "THUMB_CMC_R": 0.2228083312511444,
+        "MIDDLE_MCP_R": 6.044709681797891e-14,
+        "LITTLE_MCP_R": 8.262559913878049e-15
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 6.044709681797891e-14,
+        "LITTLE_MCP_R": 8.262559913878049e-15
+      },
+      "normalization_denominator": 0.9999999701976776,
+      "expected_float32_after": {
+        "WRIST_R": 0.7771916389465332,
+        "THUMB_CMC_R": 0.2228083312511444
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 0.7771916389465332,
+        "THUMB_CMC_R": 0.2228083312511444
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    },
+    {
+      "vertex_id": 3272,
+      "rule": "EXACT_FORBIDDEN_ENTRY_REMOVAL_AND_NORMALIZATION_ONLY",
+      "before": {
+        "WRIST_R": 1.0,
+        "MIDDLE_MCP_R": 4.3647268958835195e-13,
+        "LITTLE_MCP_R": 3.77335220903309e-15
+      },
+      "forbidden_entries_removed": {
+        "MIDDLE_MCP_R": 4.3647268958835195e-13,
+        "LITTLE_MCP_R": 3.77335220903309e-15
+      },
+      "normalization_denominator": 1.0,
+      "expected_float32_after": {
+        "WRIST_R": 1.0
+      },
+      "new_driver_components": [],
+      "free_optimizer_variable": false,
+      "saved_R2_vector": {
+        "WRIST_R": 1.0
+      },
+      "all_forbidden_entries_exact_zero": true,
+      "proportional_normalization_matches_expected_float32": true,
+      "new_driver_components_count": 0,
+      "smoothing_applied": false
+    }
+  ]
+}

@@ -1,0 +1,1419 @@
+{
+  "phase": "RIGHT_HAND_FIRST_WEB_FOUNDATIONAL_REBUILD_TARGET_R1",
+  "mode": "READ_ONLY_VISIBLE_CREASE_DIAGNOSIS",
+  "blend_written": false,
+  "patch_local_edges": 268,
+  "patch_quads": 120,
+  "rest_edge_len_mm": {
+    "median": 4.125001424927666,
+    "min": 2.3284495199584203,
+    "max": 6.170043665184174
+  },
+  "axis_edge_counts": {
+    "axis0": 143,
+    "axis1": 125
+  },
+  "frames": [
+    {
+      "frame": 110,
+      "source_frame": 908,
+      "time_seconds": 15.133333333333333,
+      "approved_corrective_natural_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "differential_vs_rest_length": {
+        "median": 0.534,
+        "p75": 0.579,
+        "p90": 0.632,
+        "p95": 0.711,
+        "max": 1.742,
+        "edges_above_1x": 9,
+        "edges_above_2x": 0,
+        "edges_above_4x": 0,
+        "of_total_local_edges": 268,
+        "note": "Differential displacement between the two endpoints of an edge, divided by that edge own rest length. Above 1 the edge endpoints have separated by more than the edge was long."
+      },
+      "resolved_along_grid_axes": {
+        "median_abs_differential_along_axis0_mm": 1.143,
+        "median_abs_differential_along_axis1_mm": 1.358,
+        "max_abs_differential_along_axis0_mm": 2.234,
+        "max_abs_differential_along_axis1_mm": 5.198,
+        "note": "Which grid axis the differential motion runs along. Motion running across the grid lines has no edge to travel along."
+      },
+      "known_visible_fold_bands": [
+        {
+          "edge": [
+            416,
+            2033
+          ],
+          "rest_mm": 3.995,
+          "differential_mm": 2.387,
+          "ratio": 0.597,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            2033,
+            3145
+          ],
+          "rest_mm": 3.919,
+          "differential_mm": 2.437,
+          "ratio": 0.622,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            1565,
+            3145
+          ],
+          "rest_mm": 3.905,
+          "differential_mm": 2.074,
+          "ratio": 0.531,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1565,
+            415
+          ],
+          "rest_mm": 3.954,
+          "differential_mm": 2.347,
+          "ratio": 0.593,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            415,
+            1677
+          ],
+          "rest_mm": 3.879,
+          "differential_mm": 2.218,
+          "ratio": 0.572,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1677,
+            526
+          ],
+          "rest_mm": 4.079,
+          "differential_mm": 2.177,
+          "ratio": 0.534,
+          "grid_axis": "axis0"
+        }
+      ],
+      "worst_edges": [
+        {
+          "edge": [
+            2035,
+            646
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.573,
+          "differential_mm": 6.225,
+          "ratio": 1.742
+        },
+        {
+          "edge": [
+            2041,
+            2852
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.631,
+          "differential_mm": 5.633,
+          "ratio": 1.551
+        },
+        {
+          "edge": [
+            388,
+            2031
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.435,
+          "differential_mm": 4.772,
+          "ratio": 1.389
+        },
+        {
+          "edge": [
+            1525,
+            2825
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.617,
+          "differential_mm": 4.907,
+          "ratio": 1.357
+        },
+        {
+          "edge": [
+            645,
+            1577
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.752,
+          "differential_mm": 5.007,
+          "ratio": 1.335
+        },
+        {
+          "edge": [
+            2035,
+            3143
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 3.712,
+          "differential_mm": 4.837,
+          "ratio": 1.303
+        },
+        {
+          "edge": [
+            1566,
+            3143
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.407,
+          "differential_mm": 4.111,
+          "ratio": 1.207
+        },
+        {
+          "edge": [
+            1447,
+            338
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.878,
+          "differential_mm": 4.508,
+          "ratio": 1.162
+        },
+        {
+          "edge": [
+            2042,
+            3145
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.936,
+          "differential_mm": 4.518,
+          "ratio": 1.148
+        },
+        {
+          "edge": [
+            2033,
+            644
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 4.124,
+          "differential_mm": 3.845,
+          "ratio": 0.932
+        },
+        {
+          "edge": [
+            338,
+            1448
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 4.616,
+          "differential_mm": 3.867,
+          "ratio": 0.838
+        },
+        {
+          "edge": [
+            2044,
+            3148
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.562,
+          "differential_mm": 2.622,
+          "ratio": 0.736
+        },
+        {
+          "edge": [
+            338,
+            1550
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.989,
+          "differential_mm": 2.854,
+          "ratio": 0.715
+        },
+        {
+          "edge": [
+            416,
+            1565
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 4.048,
+          "differential_mm": 2.882,
+          "ratio": 0.712
+        }
+      ]
+    },
+    {
+      "frame": 127,
+      "source_frame": 942,
+      "time_seconds": 15.7,
+      "approved_corrective_natural_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "differential_vs_rest_length": {
+        "median": 0.396,
+        "p75": 0.46,
+        "p90": 1.163,
+        "p95": 1.959,
+        "max": 5.204,
+        "edges_above_1x": 30,
+        "edges_above_2x": 14,
+        "edges_above_4x": 4,
+        "of_total_local_edges": 268,
+        "note": "Differential displacement between the two endpoints of an edge, divided by that edge own rest length. Above 1 the edge endpoints have separated by more than the edge was long."
+      },
+      "resolved_along_grid_axes": {
+        "median_abs_differential_along_axis0_mm": 1.031,
+        "median_abs_differential_along_axis1_mm": 1.159,
+        "max_abs_differential_along_axis0_mm": 13.123,
+        "max_abs_differential_along_axis1_mm": 12.779,
+        "note": "Which grid axis the differential motion runs along. Motion running across the grid lines has no edge to travel along."
+      },
+      "known_visible_fold_bands": [
+        {
+          "edge": [
+            416,
+            2033
+          ],
+          "rest_mm": 3.995,
+          "differential_mm": 5.59,
+          "ratio": 1.399,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            2033,
+            3145
+          ],
+          "rest_mm": 3.919,
+          "differential_mm": 4.541,
+          "ratio": 1.159,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            1565,
+            3145
+          ],
+          "rest_mm": 3.905,
+          "differential_mm": 4.721,
+          "ratio": 1.209,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1565,
+            415
+          ],
+          "rest_mm": 3.954,
+          "differential_mm": 3.811,
+          "ratio": 0.964,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            415,
+            1677
+          ],
+          "rest_mm": 3.879,
+          "differential_mm": 6.231,
+          "ratio": 1.606,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1677,
+            526
+          ],
+          "rest_mm": 4.079,
+          "differential_mm": 1.584,
+          "ratio": 0.388,
+          "grid_axis": "axis0"
+        }
+      ],
+      "worst_edges": [
+        {
+          "edge": [
+            2035,
+            646
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.573,
+          "differential_mm": 18.594,
+          "ratio": 5.204
+        },
+        {
+          "edge": [
+            2035,
+            3143
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 3.712,
+          "differential_mm": 16.913,
+          "ratio": 4.556
+        },
+        {
+          "edge": [
+            2041,
+            2852
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.631,
+          "differential_mm": 16.451,
+          "ratio": 4.531
+        },
+        {
+          "edge": [
+            388,
+            2031
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.435,
+          "differential_mm": 14.497,
+          "ratio": 4.221
+        },
+        {
+          "edge": [
+            1525,
+            2825
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.617,
+          "differential_mm": 14.26,
+          "ratio": 3.943
+        },
+        {
+          "edge": [
+            1566,
+            3143
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.407,
+          "differential_mm": 12.661,
+          "ratio": 3.716
+        },
+        {
+          "edge": [
+            645,
+            1577
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.752,
+          "differential_mm": 13.289,
+          "ratio": 3.542
+        },
+        {
+          "edge": [
+            1447,
+            338
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.878,
+          "differential_mm": 12.139,
+          "ratio": 3.13
+        },
+        {
+          "edge": [
+            338,
+            1550
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.989,
+          "differential_mm": 11.019,
+          "ratio": 2.762
+        },
+        {
+          "edge": [
+            338,
+            1448
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 4.616,
+          "differential_mm": 12.394,
+          "ratio": 2.685
+        },
+        {
+          "edge": [
+            2042,
+            3145
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.936,
+          "differential_mm": 10.09,
+          "ratio": 2.564
+        },
+        {
+          "edge": [
+            1525,
+            2892
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.798,
+          "differential_mm": 8.611,
+          "ratio": 2.267
+        },
+        {
+          "edge": [
+            1875,
+            388
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.689,
+          "differential_mm": 7.789,
+          "ratio": 2.112
+        },
+        {
+          "edge": [
+            414,
+            2035
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.467,
+          "differential_mm": 7.033,
+          "ratio": 2.029
+        }
+      ]
+    },
+    {
+      "frame": 130,
+      "source_frame": 948,
+      "time_seconds": 15.8,
+      "approved_corrective_natural_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "differential_vs_rest_length": {
+        "median": 0.388,
+        "p75": 0.465,
+        "p90": 1.617,
+        "p95": 2.87,
+        "max": 7.159,
+        "edges_above_1x": 37,
+        "edges_above_2x": 21,
+        "edges_above_4x": 8,
+        "of_total_local_edges": 268,
+        "note": "Differential displacement between the two endpoints of an edge, divided by that edge own rest length. Above 1 the edge endpoints have separated by more than the edge was long."
+      },
+      "resolved_along_grid_axes": {
+        "median_abs_differential_along_axis0_mm": 0.986,
+        "median_abs_differential_along_axis1_mm": 1.016,
+        "max_abs_differential_along_axis0_mm": 19.131,
+        "max_abs_differential_along_axis1_mm": 14.127,
+        "note": "Which grid axis the differential motion runs along. Motion running across the grid lines has no edge to travel along."
+      },
+      "known_visible_fold_bands": [
+        {
+          "edge": [
+            416,
+            2033
+          ],
+          "rest_mm": 3.995,
+          "differential_mm": 7.517,
+          "ratio": 1.882,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            2033,
+            3145
+          ],
+          "rest_mm": 3.919,
+          "differential_mm": 6.065,
+          "ratio": 1.548,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            1565,
+            3145
+          ],
+          "rest_mm": 3.905,
+          "differential_mm": 6.626,
+          "ratio": 1.697,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1565,
+            415
+          ],
+          "rest_mm": 3.954,
+          "differential_mm": 5.014,
+          "ratio": 1.268,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            415,
+            1677
+          ],
+          "rest_mm": 3.879,
+          "differential_mm": 8.846,
+          "ratio": 2.28,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1677,
+            526
+          ],
+          "rest_mm": 4.079,
+          "differential_mm": 1.646,
+          "ratio": 0.403,
+          "grid_axis": "axis0"
+        }
+      ],
+      "worst_edges": [
+        {
+          "edge": [
+            2035,
+            646
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.573,
+          "differential_mm": 25.579,
+          "ratio": 7.159
+        },
+        {
+          "edge": [
+            2035,
+            3143
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 3.712,
+          "differential_mm": 23.88,
+          "ratio": 6.432
+        },
+        {
+          "edge": [
+            2041,
+            2852
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.631,
+          "differential_mm": 22.545,
+          "ratio": 6.209
+        },
+        {
+          "edge": [
+            388,
+            2031
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.435,
+          "differential_mm": 20.087,
+          "ratio": 5.848
+        },
+        {
+          "edge": [
+            1525,
+            2825
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.617,
+          "differential_mm": 19.824,
+          "ratio": 5.481
+        },
+        {
+          "edge": [
+            1566,
+            3143
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.407,
+          "differential_mm": 17.489,
+          "ratio": 5.133
+        },
+        {
+          "edge": [
+            645,
+            1577
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.752,
+          "differential_mm": 17.991,
+          "ratio": 4.795
+        },
+        {
+          "edge": [
+            1447,
+            338
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.878,
+          "differential_mm": 16.917,
+          "ratio": 4.362
+        },
+        {
+          "edge": [
+            338,
+            1550
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.989,
+          "differential_mm": 15.955,
+          "ratio": 3.999
+        },
+        {
+          "edge": [
+            338,
+            1448
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 4.616,
+          "differential_mm": 17.319,
+          "ratio": 3.752
+        },
+        {
+          "edge": [
+            2042,
+            3145
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.936,
+          "differential_mm": 13.345,
+          "ratio": 3.391
+        },
+        {
+          "edge": [
+            1525,
+            2892
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.798,
+          "differential_mm": 12.466,
+          "ratio": 3.282
+        },
+        {
+          "edge": [
+            1875,
+            388
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.689,
+          "differential_mm": 11.291,
+          "ratio": 3.061
+        },
+        {
+          "edge": [
+            414,
+            2035
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.467,
+          "differential_mm": 10.308,
+          "ratio": 2.973
+        }
+      ]
+    },
+    {
+      "frame": 160,
+      "source_frame": 1008,
+      "time_seconds": 16.8,
+      "approved_corrective_natural_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "differential_vs_rest_length": {
+        "median": 0.645,
+        "p75": 0.699,
+        "p90": 0.809,
+        "p95": 1.006,
+        "max": 2.857,
+        "edges_above_1x": 14,
+        "edges_above_2x": 7,
+        "edges_above_4x": 0,
+        "of_total_local_edges": 268,
+        "note": "Differential displacement between the two endpoints of an edge, divided by that edge own rest length. Above 1 the edge endpoints have separated by more than the edge was long."
+      },
+      "resolved_along_grid_axes": {
+        "median_abs_differential_along_axis0_mm": 1.548,
+        "median_abs_differential_along_axis1_mm": 1.653,
+        "max_abs_differential_along_axis0_mm": 3.729,
+        "max_abs_differential_along_axis1_mm": 8.787,
+        "note": "Which grid axis the differential motion runs along. Motion running across the grid lines has no edge to travel along."
+      },
+      "known_visible_fold_bands": [
+        {
+          "edge": [
+            416,
+            2033
+          ],
+          "rest_mm": 3.995,
+          "differential_mm": 3.463,
+          "ratio": 0.867,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            2033,
+            3145
+          ],
+          "rest_mm": 3.919,
+          "differential_mm": 3.513,
+          "ratio": 0.897,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            1565,
+            3145
+          ],
+          "rest_mm": 3.905,
+          "differential_mm": 2.978,
+          "ratio": 0.763,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1565,
+            415
+          ],
+          "rest_mm": 3.954,
+          "differential_mm": 3.248,
+          "ratio": 0.821,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            415,
+            1677
+          ],
+          "rest_mm": 3.879,
+          "differential_mm": 3.382,
+          "ratio": 0.872,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1677,
+            526
+          ],
+          "rest_mm": 4.079,
+          "differential_mm": 2.667,
+          "ratio": 0.654,
+          "grid_axis": "axis0"
+        }
+      ],
+      "worst_edges": [
+        {
+          "edge": [
+            2035,
+            646
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.573,
+          "differential_mm": 10.207,
+          "ratio": 2.857
+        },
+        {
+          "edge": [
+            2041,
+            2852
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.631,
+          "differential_mm": 9.146,
+          "ratio": 2.519
+        },
+        {
+          "edge": [
+            388,
+            2031
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.435,
+          "differential_mm": 8.001,
+          "ratio": 2.33
+        },
+        {
+          "edge": [
+            1525,
+            2825
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.617,
+          "differential_mm": 8.023,
+          "ratio": 2.218
+        },
+        {
+          "edge": [
+            2035,
+            3143
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 3.712,
+          "differential_mm": 8.179,
+          "ratio": 2.203
+        },
+        {
+          "edge": [
+            1566,
+            3143
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.407,
+          "differential_mm": 7.008,
+          "ratio": 2.057
+        },
+        {
+          "edge": [
+            645,
+            1577
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.752,
+          "differential_mm": 7.713,
+          "ratio": 2.056
+        },
+        {
+          "edge": [
+            1447,
+            338
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.878,
+          "differential_mm": 7.149,
+          "ratio": 1.843
+        },
+        {
+          "edge": [
+            2042,
+            3145
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.936,
+          "differential_mm": 6.39,
+          "ratio": 1.624
+        },
+        {
+          "edge": [
+            338,
+            1448
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 4.616,
+          "differential_mm": 6.524,
+          "ratio": 1.413
+        },
+        {
+          "edge": [
+            338,
+            1550
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.989,
+          "differential_mm": 4.962,
+          "ratio": 1.244
+        },
+        {
+          "edge": [
+            2033,
+            644
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 4.124,
+          "differential_mm": 5.028,
+          "ratio": 1.219
+        },
+        {
+          "edge": [
+            1525,
+            2892
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.798,
+          "differential_mm": 4.025,
+          "ratio": 1.06
+        },
+        {
+          "edge": [
+            416,
+            1565
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 4.048,
+          "differential_mm": 4.086,
+          "ratio": 1.009
+        }
+      ]
+    },
+    {
+      "frame": 176,
+      "source_frame": 1040,
+      "time_seconds": 17.333333333333332,
+      "approved_corrective_natural_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "differential_vs_rest_length": {
+        "median": 0.479,
+        "p75": 0.527,
+        "p90": 0.59,
+        "p95": 0.649,
+        "max": 0.868,
+        "edges_above_1x": 0,
+        "edges_above_2x": 0,
+        "edges_above_4x": 0,
+        "of_total_local_edges": 268,
+        "note": "Differential displacement between the two endpoints of an edge, divided by that edge own rest length. Above 1 the edge endpoints have separated by more than the edge was long."
+      },
+      "resolved_along_grid_axes": {
+        "median_abs_differential_along_axis0_mm": 1.111,
+        "median_abs_differential_along_axis1_mm": 0.986,
+        "max_abs_differential_along_axis0_mm": 1.796,
+        "max_abs_differential_along_axis1_mm": 2.914,
+        "note": "Which grid axis the differential motion runs along. Motion running across the grid lines has no edge to travel along."
+      },
+      "known_visible_fold_bands": [
+        {
+          "edge": [
+            416,
+            2033
+          ],
+          "rest_mm": 3.995,
+          "differential_mm": 1.993,
+          "ratio": 0.499,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            2033,
+            3145
+          ],
+          "rest_mm": 3.919,
+          "differential_mm": 1.835,
+          "ratio": 0.468,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            1565,
+            3145
+          ],
+          "rest_mm": 3.905,
+          "differential_mm": 2.097,
+          "ratio": 0.537,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1565,
+            415
+          ],
+          "rest_mm": 3.954,
+          "differential_mm": 1.893,
+          "ratio": 0.479,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            415,
+            1677
+          ],
+          "rest_mm": 3.879,
+          "differential_mm": 2.288,
+          "ratio": 0.59,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1677,
+            526
+          ],
+          "rest_mm": 4.079,
+          "differential_mm": 2.024,
+          "ratio": 0.496,
+          "grid_axis": "axis0"
+        }
+      ],
+      "worst_edges": [
+        {
+          "edge": [
+            2035,
+            3143
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 3.712,
+          "differential_mm": 3.221,
+          "ratio": 0.868
+        },
+        {
+          "edge": [
+            2035,
+            646
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.573,
+          "differential_mm": 3.024,
+          "ratio": 0.846
+        },
+        {
+          "edge": [
+            2041,
+            2852
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.631,
+          "differential_mm": 2.77,
+          "ratio": 0.763
+        },
+        {
+          "edge": [
+            338,
+            1550
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.989,
+          "differential_mm": 2.959,
+          "ratio": 0.742
+        },
+        {
+          "edge": [
+            388,
+            2031
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.435,
+          "differential_mm": 2.482,
+          "ratio": 0.722
+        },
+        {
+          "edge": [
+            1525,
+            2825
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.617,
+          "differential_mm": 2.599,
+          "ratio": 0.719
+        },
+        {
+          "edge": [
+            1525,
+            2892
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.798,
+          "differential_mm": 2.652,
+          "ratio": 0.698
+        },
+        {
+          "edge": [
+            645,
+            1577
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.752,
+          "differential_mm": 2.611,
+          "ratio": 0.696
+        },
+        {
+          "edge": [
+            414,
+            2035
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.467,
+          "differential_mm": 2.413,
+          "ratio": 0.696
+        },
+        {
+          "edge": [
+            1875,
+            388
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.689,
+          "differential_mm": 2.541,
+          "ratio": 0.689
+        },
+        {
+          "edge": [
+            2042,
+            3145
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.936,
+          "differential_mm": 2.605,
+          "ratio": 0.662
+        },
+        {
+          "edge": [
+            1567,
+            2852
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.63,
+          "differential_mm": 2.396,
+          "ratio": 0.66
+        },
+        {
+          "edge": [
+            1447,
+            338
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.878,
+          "differential_mm": 2.529,
+          "ratio": 0.652
+        },
+        {
+          "edge": [
+            1566,
+            3143
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.407,
+          "differential_mm": 2.218,
+          "ratio": 0.651
+        }
+      ]
+    },
+    {
+      "frame": 205,
+      "source_frame": 1098,
+      "time_seconds": 18.3,
+      "approved_corrective_natural_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "differential_vs_rest_length": {
+        "median": 0.635,
+        "p75": 0.805,
+        "p90": 1.08,
+        "p95": 1.684,
+        "max": 3.973,
+        "edges_above_1x": 34,
+        "edges_above_2x": 10,
+        "edges_above_4x": 0,
+        "of_total_local_edges": 268,
+        "note": "Differential displacement between the two endpoints of an edge, divided by that edge own rest length. Above 1 the edge endpoints have separated by more than the edge was long."
+      },
+      "resolved_along_grid_axes": {
+        "median_abs_differential_along_axis0_mm": 1.586,
+        "median_abs_differential_along_axis1_mm": 1.219,
+        "max_abs_differential_along_axis0_mm": 6.607,
+        "max_abs_differential_along_axis1_mm": 12.692,
+        "note": "Which grid axis the differential motion runs along. Motion running across the grid lines has no edge to travel along."
+      },
+      "known_visible_fold_bands": [
+        {
+          "edge": [
+            416,
+            2033
+          ],
+          "rest_mm": 3.995,
+          "differential_mm": 4.85,
+          "ratio": 1.214,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            2033,
+            3145
+          ],
+          "rest_mm": 3.919,
+          "differential_mm": 4.705,
+          "ratio": 1.201,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            1565,
+            3145
+          ],
+          "rest_mm": 3.905,
+          "differential_mm": 4.745,
+          "ratio": 1.215,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1565,
+            415
+          ],
+          "rest_mm": 3.954,
+          "differential_mm": 4.024,
+          "ratio": 1.018,
+          "grid_axis": "axis1"
+        },
+        {
+          "edge": [
+            415,
+            1677
+          ],
+          "rest_mm": 3.879,
+          "differential_mm": 5.418,
+          "ratio": 1.397,
+          "grid_axis": "axis0"
+        },
+        {
+          "edge": [
+            1677,
+            526
+          ],
+          "rest_mm": 4.079,
+          "differential_mm": 3.02,
+          "ratio": 0.74,
+          "grid_axis": "axis0"
+        }
+      ],
+      "worst_edges": [
+        {
+          "edge": [
+            2035,
+            646
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.573,
+          "differential_mm": 14.193,
+          "ratio": 3.973
+        },
+        {
+          "edge": [
+            2041,
+            2852
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.631,
+          "differential_mm": 12.531,
+          "ratio": 3.451
+        },
+        {
+          "edge": [
+            388,
+            2031
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.435,
+          "differential_mm": 11.483,
+          "ratio": 3.343
+        },
+        {
+          "edge": [
+            2035,
+            3143
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 3.712,
+          "differential_mm": 12.388,
+          "ratio": 3.337
+        },
+        {
+          "edge": [
+            1525,
+            2825
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.617,
+          "differential_mm": 11.424,
+          "ratio": 3.159
+        },
+        {
+          "edge": [
+            1566,
+            3143
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.407,
+          "differential_mm": 10.131,
+          "ratio": 2.973
+        },
+        {
+          "edge": [
+            645,
+            1577
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.752,
+          "differential_mm": 10.117,
+          "ratio": 2.696
+        },
+        {
+          "edge": [
+            1447,
+            338
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.878,
+          "differential_mm": 10.01,
+          "ratio": 2.581
+        },
+        {
+          "edge": [
+            338,
+            1448
+          ],
+          "grid_axis": "axis1",
+          "rest_mm": 4.616,
+          "differential_mm": 9.523,
+          "ratio": 2.063
+        },
+        {
+          "edge": [
+            338,
+            1550
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.989,
+          "differential_mm": 8.044,
+          "ratio": 2.016
+        },
+        {
+          "edge": [
+            2042,
+            3145
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.936,
+          "differential_mm": 7.77,
+          "ratio": 1.974
+        },
+        {
+          "edge": [
+            414,
+            2035
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.467,
+          "differential_mm": 6.168,
+          "ratio": 1.779
+        },
+        {
+          "edge": [
+            1525,
+            2892
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.798,
+          "differential_mm": 6.638,
+          "ratio": 1.748
+        },
+        {
+          "edge": [
+            1875,
+            388
+          ],
+          "grid_axis": "axis0",
+          "rest_mm": 3.689,
+          "differential_mm": 6.249,
+          "ratio": 1.694
+        }
+      ]
+    }
+  ],
+  "ZERO_restore_max_mm": 0.0,
+  "frozen_baseline_sha256": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+  "action_payload_sha256": "b03d02e4f9f4f624c6c3faf1c1c1d53d717eac4770a216d3b1f54af89672cdb0",
+  "inputs_unchanged": {
+    "production_spec/right_hand_product_baseline_r1/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+    "audits/pianovam_retarget_local_axis_mapping_correction_r1/RIGHT_HAND_PIANO_AXIS_CORRECTED_TEST_R1.blend": "a5190adc13d39318096490f8fd2c9956d0daff457d25753fa3c216eee2027bbd",
+    "audits/pianovam_retarget_local_axis_mapping_correction_r1/mapping_core.py": "4103092136a4e85864ea990f3a7f8d035cc0392d77260295766cbca92d8f142d",
+    "references/piano_motion/pianovam_sample_r1/Handskeleton/2024-03-04_03-46-36.json": "02d336c7a114b5d92be9472acfab4ba746b4e5b106cba35575fe86fd1c294035",
+    "references/piano_motion/pianovam_sample_r1/MIDI/2024-03-04_03-46-36.mid": "532ad501509b8cc8bf93e2486d0b3c671a41f13eb55f4a9f7efb8777b4791018",
+    "references/piano_motion/pianovam_sample_r1/Fingering/2024-03-04_03-46-36.tsv": "9a74ad42bb31ae9a9fa4810d2b6507d2b2f452a6c69806a7209ecee16e80feae",
+    "references/piano_motion/pianovam_sample_r1/Video/2024-03-04_03-46-36.mp4": "b005620ad3002c50f417e37abf9d2110620c59e1565d5952dd465d0dbd665076",
+    "audits/official_l1_first_web_targeted_deformation_fix_r1/WEIGHT_ITERATION_2.json": "e9ec7b0dd8ddcccbf36d81e8c1936f76249655031e835a5868dd55f4524c160f",
+    "audits/first_web_real_motion_deformation_fix_r1/REAL_MOTION_MATCHED_CAMERAS_R1.json": "4f8c89cb62c1c7eee2ce055744acb4866870f35cbd3f6e4b85f2d310b039478f"
+  },
+  "blend_files_written": 0
+}

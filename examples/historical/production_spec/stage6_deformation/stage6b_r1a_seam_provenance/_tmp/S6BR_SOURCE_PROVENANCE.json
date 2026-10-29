@@ -1,0 +1,46 @@
+{
+ "result": {
+  "S4A_R2_pre_rssf": {
+   "geodesic_thumb_tip_to_index_tip_mm": 197.6833,
+   "thumb_tip_eccentricity_mm": 271.7141,
+   "NV": 3416,
+   "NE": 6828
+  },
+  "C1_cc0_bootstrap": {
+   "NV": 831,
+   "NE": 1649,
+   "NF": 820,
+   "geodesic_farthest_pair_mm": 318.027,
+   "farthest_pair": [
+    823,
+    50
+   ],
+   "fingertip_candidates": [
+    50,
+    261,
+    224,
+    63,
+    87
+   ],
+   "fingertip_arc_from_A_mm": [
+    318.03,
+    312.27,
+    307.1,
+    298.18,
+    294.65
+   ]
+  },
+  "C1_vs_S4A_surface": {
+   "z_offset_mm": 126.693,
+   "median_dist_mm": 11.2988,
+   "p95_dist_mm": 32.8411,
+   "max_dist_mm": 56.7858
+  }
+ },
+ "log": [
+  "S4A_R2 (pre-RSSF, same surface as the CC0 source): geodesic thumb_tip->index_tip = 197.6833 mm ; thumb_tip->wrist-side eccentricity = 271.7141 mm",
+  "C1 CC0 bootstrap: NV=831 NE=1649 NF=820 | geodesic-farthest pair A=v823 B=v50 = 318.0270 mm",
+  "C1 fingertip candidates (furthest from A, spatially separated): [50, 261, 224, 63, 87]  arcs from A: [318.03, 312.27, 307.1, 298.18, 294.65]",
+  "C1 (Z-shifted 126.693 mm) -> Stage4A R2 nearest-SURFACE distance: median 11.2988 mm ; p95 32.8411 mm ; max 56.7858 mm  (sub-division smoothing only)"
+ ]
+}

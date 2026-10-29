@@ -1,0 +1,544 @@
+{
+ "stage": "STAGE4B_AUTO_TEMP_RIG_R2",
+ "TEMP_RSSF_REPOSE_ONLY": "YES",
+ "PRODUCTION_RIG": "NO",
+ "PRODUCTION_RIG_NOT_STARTED": "YES",
+ "bone_count": 21,
+ "movable_joints": 16,
+ "tip_helper_bones": 5,
+ "naming": "<FINGER>_<JOINT>_<SIDE>",
+ "bones": [
+  {
+   "name": "WRIST_R",
+   "parent": null,
+   "rest_head": [
+    1.395633,
+    0.015557,
+    0.277349
+   ],
+   "rest_tail": [
+    1.405533,
+    0.010079,
+    0.478082
+   ],
+   "posed_head": [
+    1.395633,
+    0.015557,
+    0.277349
+   ],
+   "posed_tail": [
+    1.405533,
+    0.010079,
+    0.478082
+   ],
+   "length_mm": 201.052
+  },
+  {
+   "name": "LITTLE_MCP_R",
+   "parent": "WRIST_R",
+   "rest_head": [
+    1.365105,
+    0.002072,
+    0.470611
+   ],
+   "rest_tail": [
+    1.357857,
+    -0.002719,
+    0.492948
+   ],
+   "posed_head": [
+    1.365105,
+    0.002072,
+    0.470611
+   ],
+   "posed_tail": [
+    1.35972,
+    -0.012156,
+    0.489131
+   ],
+   "length_mm": 23.968
+  },
+  {
+   "name": "LITTLE_PIP_R",
+   "parent": "LITTLE_MCP_R",
+   "rest_head": [
+    1.357857,
+    -0.002719,
+    0.492948
+   ],
+   "rest_tail": [
+    1.354584,
+    -0.006433,
+    0.50854
+   ],
+   "posed_head": [
+    1.35972,
+    -0.012156,
+    0.489131
+   ],
+   "posed_tail": [
+    1.359665,
+    -0.027045,
+    0.495908
+   ],
+   "length_mm": 16.359
+  },
+  {
+   "name": "LITTLE_DIP_R",
+   "parent": "LITTLE_PIP_R",
+   "rest_head": [
+    1.354584,
+    -0.006433,
+    0.50854
+   ],
+   "rest_tail": [
+    1.35147,
+    -0.009237,
+    0.519368
+   ],
+   "posed_head": [
+    1.359665,
+    -0.027045,
+    0.495908
+   ],
+   "posed_tail": [
+    1.359528,
+    -0.038467,
+    0.497987
+   ],
+   "length_mm": 11.611
+  },
+  {
+   "name": "LITTLE_TIP_R",
+   "parent": "LITTLE_DIP_R",
+   "rest_head": [
+    1.35147,
+    -0.009237,
+    0.519368
+   ],
+   "rest_tail": [
+    1.349602,
+    -0.01092,
+    0.525865
+   ],
+   "posed_head": [
+    1.359528,
+    -0.038467,
+    0.497987
+   ],
+   "posed_tail": [
+    1.359446,
+    -0.045321,
+    0.499234
+   ],
+   "length_mm": 6.966
+  },
+  {
+   "name": "RING_MCP_R",
+   "parent": "WRIST_R",
+   "rest_head": [
+    1.394244,
+    0.010574,
+    0.479239
+   ],
+   "rest_tail": [
+    1.391245,
+    0.00433,
+    0.510941
+   ],
+   "posed_head": [
+    1.394244,
+    0.010574,
+    0.479239
+   ],
+   "posed_tail": [
+    1.392641,
+    -0.009294,
+    0.504846
+   ],
+   "length_mm": 32.45
+  },
+  {
+   "name": "RING_PIP_R",
+   "parent": "RING_MCP_R",
+   "rest_head": [
+    1.391245,
+    0.00433,
+    0.510941
+   ],
+   "rest_tail": [
+    1.392216,
+    -0.004262,
+    0.532652
+   ],
+   "posed_head": [
+    1.392641,
+    -0.009294,
+    0.504846
+   ],
+   "posed_tail": [
+    1.394462,
+    -0.031272,
+    0.512574
+   ],
+   "length_mm": 23.369
+  },
+  {
+   "name": "RING_DIP_R",
+   "parent": "RING_PIP_R",
+   "rest_head": [
+    1.392216,
+    -0.004262,
+    0.532652
+   ],
+   "rest_tail": [
+    1.393754,
+    -0.011477,
+    0.546772
+   ],
+   "posed_head": [
+    1.394462,
+    -0.031272,
+    0.512574
+   ],
+   "posed_tail": [
+    1.39631,
+    -0.047095,
+    0.51245
+   ],
+   "length_mm": 15.931
+  },
+  {
+   "name": "RING_TIP_R",
+   "parent": "RING_DIP_R",
+   "rest_head": [
+    1.393754,
+    -0.011477,
+    0.546772
+   ],
+   "rest_tail": [
+    1.394676,
+    -0.015806,
+    0.555243
+   ],
+   "posed_head": [
+    1.39631,
+    -0.047095,
+    0.51245
+   ],
+   "posed_tail": [
+    1.397419,
+    -0.056589,
+    0.512375
+   ],
+   "length_mm": 9.559
+  },
+  {
+   "name": "MIDDLE_MCP_R",
+   "parent": "WRIST_R",
+   "rest_head": [
+    1.416905,
+    0.01384,
+    0.482859
+   ],
+   "rest_tail": [
+    1.420474,
+    0.009447,
+    0.516803
+   ],
+   "posed_head": [
+    1.416905,
+    0.01384,
+    0.482859
+   ],
+   "posed_tail": [
+    1.421529,
+    -0.005951,
+    0.510629
+   ],
+   "length_mm": 34.413
+  },
+  {
+   "name": "MIDDLE_PIP_R",
+   "parent": "MIDDLE_MCP_R",
+   "rest_head": [
+    1.420474,
+    0.009447,
+    0.516803
+   ],
+   "rest_tail": [
+    1.42247,
+    0.001654,
+    0.541241
+   ],
+   "posed_head": [
+    1.421529,
+    -0.005951,
+    0.510629
+   ],
+   "posed_tail": [
+    1.424311,
+    -0.02981,
+    0.519842
+   ],
+   "length_mm": 25.727
+  },
+  {
+   "name": "MIDDLE_DIP_R",
+   "parent": "MIDDLE_PIP_R",
+   "rest_head": [
+    1.42247,
+    0.001654,
+    0.541241
+   ],
+   "rest_tail": [
+    1.423106,
+    -0.0043,
+    0.557875
+   ],
+   "posed_head": [
+    1.424311,
+    -0.02981,
+    0.519842
+   ],
+   "posed_tail": [
+    1.425355,
+    -0.04743,
+    0.520845
+   ],
+   "length_mm": 17.679
+  },
+  {
+   "name": "MIDDLE_TIP_R",
+   "parent": "MIDDLE_DIP_R",
+   "rest_head": [
+    1.423106,
+    -0.0043,
+    0.557875
+   ],
+   "rest_tail": [
+    1.423488,
+    -0.007872,
+    0.567856
+   ],
+   "posed_head": [
+    1.425355,
+    -0.04743,
+    0.520845
+   ],
+   "posed_tail": [
+    1.425981,
+    -0.058002,
+    0.521447
+   ],
+   "length_mm": 10.608
+  },
+  {
+   "name": "INDEX_MCP_R",
+   "parent": "WRIST_R",
+   "rest_head": [
+    1.445879,
+    0.01383,
+    0.47962
+   ],
+   "rest_tail": [
+    1.452867,
+    0.007904,
+    0.509085
+   ],
+   "posed_head": [
+    1.445879,
+    0.01383,
+    0.47962
+   ],
+   "posed_tail": [
+    1.455229,
+    -0.003585,
+    0.503314
+   ],
+   "length_mm": 30.856
+  },
+  {
+   "name": "INDEX_PIP_R",
+   "parent": "INDEX_MCP_R",
+   "rest_head": [
+    1.452867,
+    0.007904,
+    0.509085
+   ],
+   "rest_tail": [
+    1.45642,
+    0.002525,
+    0.528457
+   ],
+   "posed_head": [
+    1.455229,
+    -0.003585,
+    0.503314
+   ],
+   "posed_tail": [
+    1.459105,
+    -0.022121,
+    0.510946
+   ],
+   "length_mm": 20.417
+  },
+  {
+   "name": "INDEX_DIP_R",
+   "parent": "INDEX_PIP_R",
+   "rest_head": [
+    1.45642,
+    0.002525,
+    0.528457
+   ],
+   "rest_tail": [
+    1.458495,
+    -0.000304,
+    0.543423
+   ],
+   "posed_head": [
+    1.459105,
+    -0.022121,
+    0.510946
+   ],
+   "posed_tail": [
+    1.460983,
+    -0.037063,
+    0.514026
+   ],
+   "length_mm": 15.371
+  },
+  {
+   "name": "INDEX_TIP_R",
+   "parent": "INDEX_DIP_R",
+   "rest_head": [
+    1.458495,
+    -0.000304,
+    0.543423
+   ],
+   "rest_tail": [
+    1.45974,
+    -0.002001,
+    0.552402
+   ],
+   "posed_head": [
+    1.460983,
+    -0.037063,
+    0.514026
+   ],
+   "posed_tail": [
+    1.462109,
+    -0.046029,
+    0.515873
+   ],
+   "length_mm": 9.223
+  },
+  {
+   "name": "THUMB_CMC_R",
+   "parent": "WRIST_R",
+   "rest_head": [
+    1.448804,
+    0.011108,
+    0.393759
+   ],
+   "rest_tail": [
+    1.460901,
+    -0.003129,
+    0.432133
+   ],
+   "posed_head": [
+    1.448804,
+    0.011108,
+    0.393759
+   ],
+   "posed_tail": [
+    1.443062,
+    0.007415,
+    0.435889
+   ],
+   "length_mm": 42.68
+  },
+  {
+   "name": "THUMB_MCP_R",
+   "parent": "THUMB_CMC_R",
+   "rest_head": [
+    1.460901,
+    -0.003129,
+    0.432133
+   ],
+   "rest_tail": [
+    1.483942,
+    -0.011352,
+    0.448077
+   ],
+   "posed_head": [
+    1.443062,
+    0.007415,
+    0.435889
+   ],
+   "posed_tail": [
+    1.450861,
+    0.006127,
+    0.464001
+   ],
+   "length_mm": 29.202
+  },
+  {
+   "name": "THUMB_IP_R",
+   "parent": "THUMB_MCP_R",
+   "rest_head": [
+    1.483942,
+    -0.011352,
+    0.448077
+   ],
+   "rest_tail": [
+    1.497742,
+    -0.013108,
+    0.465203
+   ],
+   "posed_head": [
+    1.450861,
+    0.006127,
+    0.464001
+   ],
+   "posed_tail": [
+    1.451316,
+    0.010537,
+    0.485615
+   ],
+   "length_mm": 22.064
+  },
+  {
+   "name": "THUMB_TIP_R",
+   "parent": "THUMB_IP_R",
+   "rest_head": [
+    1.497742,
+    -0.013108,
+    0.465203
+   ],
+   "rest_tail": [
+    1.506021,
+    -0.014162,
+    0.475479
+   ],
+   "posed_head": [
+    1.451316,
+    0.010537,
+    0.485615
+   ],
+   "posed_tail": [
+    1.451589,
+    0.013184,
+    0.498583
+   ],
+   "length_mm": 13.238
+  }
+ ],
+ "joint_centre_authority": {
+  "finger_MCP_PIP_DIP": "axial locator from the T-01 final reconciliation (MCP = web commissure projected on the finger axis); centre = centroid of that digit's cross-section",
+  "THUMB_CMC": "approved CMC rotation centre [1.448897, 0.011106, 0.393934] re-located by nearest vertex on the current mesh (vertex 3411)",
+  "THUMB_MCP_IP": "same axial locator, fractions 0.44 / 0.75 of the thumb axial length",
+  "TIP": "true fingertip geometric endpoint (most distal vertex of the digit)",
+  "WRIST_R": "narrowest cross-section along the forearm->palm centreline"
+ }
+}

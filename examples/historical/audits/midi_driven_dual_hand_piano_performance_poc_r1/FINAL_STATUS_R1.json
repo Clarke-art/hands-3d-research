@@ -1,0 +1,87 @@
+{
+  "phase": "MIDI_DRIVEN_DUAL_HAND_PIANO_PERFORMANCE_POC_R1",
+  "fields": {
+    "TEST_PIECE": "Musette, BWV Anh.126",
+    "TEST_MEASURES": "1–2",
+    "MIDI_SOURCE": "Mutopia Project official MIDI; Public Domain",
+    "FINGERING_STATUS": "DESIGNED_PROVISIONAL / HUMAN_REVIEW_PENDING",
+    "HAND_MOTION": "NEW_PROCEDURAL_CANDIDATE / NATURALNESS_FAIL",
+    "KEY_CONTACT": "FAIL; onset R8/10 L4/8; held R48/240 L12/240",
+    "AUDIO_SYNC": "KEY_AUDIO_PASS / HAND_CONTACT_SYNC_FAIL",
+    "SKIN_MATERIAL": "UNIFIED_SKIN_APPLIED / REALISM_NOT_PASSED",
+    "PRODUCT_DEMO_VIDEO": "product_midi_dual_hand_with_audio.mp4",
+    "PRODUCT_DEMO_PASS": "NO",
+    "FINAL_STATUS": "MIDI_DRIVEN_PIANO_PERFORMANCE_POC_PARTIAL",
+    "RIGHT_R2_UNCHANGED": "YES",
+    "LEFT_R1_UNCHANGED": "YES",
+    "PIANO_BASELINE_UNCHANGED": "YES"
+  },
+  "Q1_Q13": [
+    {
+      "id": "Q1",
+      "question": "官方 MIDI 已取得并与乐谱核对？",
+      "answer": "YES；PDF 目视 + LilyPond/MIDI 前两小节音高与 tick 逐项一致。"
+    },
+    {
+      "id": "Q2",
+      "question": "选择小节？",
+      "answer": "第 1–2 小节，首次出现，完整保留两声部；音乐 2.0 秒，展示含准备与释放共 3.4 秒。"
+    },
+    {
+      "id": "Q3",
+      "question": "左右手分配明确？",
+      "answer": "YES；Staff one/track1 → RIGHT，Staff two/track2 → LEFT，经谱面核对。"
+    },
+    {
+      "id": "Q4",
+      "question": "候选指法及权威程度明确？",
+      "answer": "YES；DESIGNED_PROVISIONAL，不是官方指法或 ground truth。"
+    },
+    {
+      "id": "Q5",
+      "question": "双手能按正确目标键演奏？",
+      "answer": "NO；虽目标音区与横向位置匹配，持续触键失败。"
+    },
+    {
+      "id": "Q6",
+      "question": "整体手掌与手腕自然？",
+      "answer": "NO；手指蜷曲、共享掌位缺乏随按键的合理配合。"
+    },
+    {
+      "id": "Q7",
+      "question": "存在明显穿键、悬浮或指链问题？",
+      "answer": "YES；持续悬浮、左掌键体命中、右手局部关节变化过快。"
+    },
+    {
+      "id": "Q8",
+      "question": "琴键下沉与 NOTE_ON 同步？",
+      "answer": "YES；同 timeline 起动，35ms 达到全行程；最终60fps量化最多8.33ms。"
+    },
+    {
+      "id": "Q9",
+      "question": "钢琴音高与 MIDI 对应？",
+      "answer": "YES；原采样 zone/ratio 检查通过，7 个实际音高的强谐波估计均在 ±25 cents 内。"
+    },
+    {
+      "id": "Q10",
+      "question": "视频有真实可听音轨？",
+      "answer": "YES；AAC 双声道，解码后非静音，18 个采样 voice，双手复音。"
+    },
+    {
+      "id": "Q11",
+      "question": "统一自然皮肤材质？",
+      "answer": "NO（完整质量门槛）；统一肤色 YES，半写实自然观感仍未通过。"
+    },
+    {
+      "id": "Q12",
+      "question": "更换 MIDI 有清晰复用接口？",
+      "answer": "YES；歌曲/指法数据 → timeline → 分离的手、键、音频执行器；新曲仍须人工规划与重新验证。"
+    },
+    {
+      "id": "Q13",
+      "question": "最终状态？",
+      "answer": "MIDI_DRIVEN_PIANO_PERFORMANCE_POC_PARTIAL；PRODUCT_DEMO_PASS = NO。"
+    }
+  ],
+  "STOP": "HUMAN REVIEW"
+}

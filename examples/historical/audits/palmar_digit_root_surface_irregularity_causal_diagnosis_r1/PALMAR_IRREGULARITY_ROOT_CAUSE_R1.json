@@ -1,0 +1,41 @@
+{
+  "classification": "UNRESOLVED",
+  "reason": "exact Human screenshot/region cannot be uniquely matched; candidate findings cannot be substituted for Human target",
+  "candidate_findings": {
+    "ROI_VERTEX_COUNT": 92,
+    "ROI_FACE_COUNT": 62,
+    "IRREGULARITY_VISIBLE_IN_OFFICIAL_L1": "coarse root creases yes; same current diagonal band unresolved",
+    "IRREGULARITY_VISIBLE_IN_STAGE2": "same as saved official L1",
+    "IRREGULARITY_VISIBLE_IN_STAGE4C_RAW": true,
+    "IRREGULARITY_VISIBLE_IN_CURRENT_R2_RAW": true,
+    "IRREGULARITY_VISIBLE_IN_ZERO": true,
+    "IRREGULARITY_VISIBLE_IN_POSED": true,
+    "FLAT_SHADING_SHOWS_DEFECT": "native geometric facets yes; structural defect not inferred from flat appearance",
+    "SMOOTH_SHADING_ONLY": false,
+    "REAL_GEOMETRY_FOLD_PRESENT": "geometric ridge/crease yes; severe inversion or self-overlap not established",
+    "POSE_AMPLIFICATION": "localized IDX influence; max displacement 1.78755 mm; median approx 0.000030 mm; TH_IP none",
+    "SKIN_CAUSAL": "existing LBS explains limited IDX displacement, not baseline crease",
+    "KINEMATIC_CAUSAL": "frozen single-joint transform explains displacement; rig defect not established",
+    "NORMAL_SHADING_CAUSAL": "visual modulation yes; custom split-normal artifact no",
+    "CURRENT9_PAIR_DIRECT_OVERLAP_COUNT": 0,
+    "CURRENT9_NEIGHBORHOOD_OVERLAP_COUNT": 0,
+    "CROSSING_VISIBLE_MANIFESTATION": "no evidence linking candidate to current9",
+    "EARLIEST_CONFIRMED_IRREGULARITY_STAGE": "source coarse root creases at OFFICIAL_L1; engineered band observed at STAGE4A_R2_BASE, strengthened by STAGE4B_RSSF",
+    "ROOT_CAUSE_CLASS": "UNRESOLVED_FOR_HUMAN_TARGET; candidate geometry baseline + shading visibility + limited IDX deformation",
+    "MACHINE_STRUCTURAL_DEFECT": "UNRESOLVED; no anatomy/product threshold invented",
+    "VISIBLE_PRODUCT_CONCERN": "candidate conspicuous facet band, Human product acceptability pending",
+    "minimum_repair_layer_if_candidate_confirmed": "first design review of local base geometry continuity and display normals; normal-only sufficiency unproven; no weight/rig repair justified by these data"
+  },
+  "seven_questions": {
+    "1_geometry_or_normals": "candidate contains actual native geometric creases; smooth display amplifies them; no custom-normal artifact",
+    "2_bind_zero": "candidate visible in RAW and ZERO; numerical ZERO noise only",
+    "3_stage6_pose": "not introduced by sampled Stage6 poses; IDX limited modulation, TH_IP none",
+    "4_pose_related_mechanism": "LBS with fixed joint transform reconstructs saved displacements; skin failure or rig defect not established",
+    "5_current9": "candidate has zero direct and neighborhood overlap; no causal crossing linkage",
+    "6_earliest_lineage": "coarse source root creases already in official L1/Stage2; engineered band observed at Stage4A_R2_BASE and amplified at Stage4B_RSSF; exact Human target unresolved",
+    "7_minimal_repair_layer": "conditional local base geometry/shading design review only; requires target confirmation first"
+  },
+  "product_judgment": "HUMAN_PRODUCT_ACCEPTABILITY_PENDING",
+  "NEXT": "PALMAR_DIGIT_ROOT_EVIDENCE_EXPANSION_R1",
+  "executed_repair": false
+}

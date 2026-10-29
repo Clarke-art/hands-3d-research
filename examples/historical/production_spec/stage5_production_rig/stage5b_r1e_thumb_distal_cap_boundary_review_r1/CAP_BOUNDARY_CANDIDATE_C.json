@@ -1,0 +1,405 @@
+{
+  "execution": "THUMB_DISTAL_CAP_BOUNDARY_REVIEW_R1",
+  "mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+  "native_mesh_sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039",
+  "seed_vertex_id": 284,
+  "region_identity": "ACCEPTED_BY_HUMAN_UNCHANGED",
+  "boundary_authority": "UNRESOLVED_PENDING_HUMAN",
+  "production_authority_applied": false,
+  "geometric_proxies_are_not_anatomical_authority": true,
+  "candidate": "C",
+  "name": "VERTEX_BALL_TOPOLOGY_CLOSED",
+  "rule": "Preserve all strict all-corner faces B; add the minimum number of A faces to cover every <=9 mm vertex, excluding faces with multi-signal distal-shaft overreach corners. Require one edge-connected manifold disk and one closed boundary loop.",
+  "tie_break": "Minimum boundary axial spread, then boundary geodesic RMS offset from9, then surface area, then sorted added face IDs",
+  "base_face_ids": [
+    1044,
+    1047,
+    1048,
+    1049,
+    1932,
+    1933,
+    1936,
+    1937,
+    1939
+  ],
+  "missing_core_vertex_ids_before_closure": [
+    285,
+    880,
+    1755
+  ],
+  "admissible_added_faces": [
+    65,
+    66,
+    78,
+    79,
+    1042,
+    1045,
+    1046,
+    1050,
+    1051,
+    1054,
+    1220,
+    1221,
+    1243,
+    1934,
+    1935,
+    1938,
+    1940,
+    1941,
+    1943,
+    1945,
+    1946,
+    1947
+  ],
+  "added_face_ids": [
+    78,
+    1050,
+    1940
+  ],
+  "exhaustive_cardinality_search": [
+    {
+      "added_face_count": 3,
+      "combinations_examined": 1540,
+      "combinations_covering_all_core_vertices": 32,
+      "viable_disk_solutions": 8
+    }
+  ],
+  "minimum_additions_proven": true,
+  "minimum_additions_coverage_lower_bound": 3,
+  "scope_of_minimality": "Global minimum added face count within the stated B-preserving/A-face domain and geometry gate; not a global anatomical optimum over all thumb faces",
+  "construction_status": "CONSTRUCTED",
+  "status": "VIABLE_TOPOLOGICAL_REVIEW_CANDIDATE",
+  "face_ids": [
+    78,
+    1044,
+    1047,
+    1048,
+    1049,
+    1050,
+    1932,
+    1933,
+    1936,
+    1937,
+    1939,
+    1940
+  ],
+  "vertex_ids": [
+    36,
+    283,
+    284,
+    285,
+    505,
+    879,
+    880,
+    890,
+    1338,
+    1341,
+    1343,
+    1344,
+    1382,
+    1752,
+    1753,
+    1754,
+    1755,
+    2499,
+    2741,
+    2742,
+    2963,
+    2964,
+    2965
+  ],
+  "metrics": {
+    "faces": [
+      78,
+      1044,
+      1047,
+      1048,
+      1049,
+      1050,
+      1932,
+      1933,
+      1936,
+      1937,
+      1939,
+      1940
+    ],
+    "vertices": [
+      36,
+      283,
+      284,
+      285,
+      505,
+      879,
+      880,
+      890,
+      1338,
+      1341,
+      1343,
+      1344,
+      1382,
+      1752,
+      1753,
+      1754,
+      1755,
+      2499,
+      2741,
+      2742,
+      2963,
+      2964,
+      2965
+    ],
+    "boundary_edges": [
+      [
+        36,
+        879
+      ],
+      [
+        36,
+        880
+      ],
+      [
+        283,
+        1338
+      ],
+      [
+        283,
+        1382
+      ],
+      [
+        285,
+        1343
+      ],
+      [
+        285,
+        1344
+      ],
+      [
+        505,
+        1754
+      ],
+      [
+        505,
+        1755
+      ],
+      [
+        879,
+        2741
+      ],
+      [
+        880,
+        2499
+      ],
+      [
+        890,
+        2499
+      ],
+      [
+        890,
+        2742
+      ],
+      [
+        1338,
+        2741
+      ],
+      [
+        1343,
+        2963
+      ],
+      [
+        1344,
+        2742
+      ],
+      [
+        1382,
+        2964
+      ],
+      [
+        1753,
+        2963
+      ],
+      [
+        1753,
+        2965
+      ],
+      [
+        1754,
+        2964
+      ],
+      [
+        1755,
+        2965
+      ]
+    ],
+    "boundary_vertices": [
+      36,
+      283,
+      285,
+      505,
+      879,
+      880,
+      890,
+      1338,
+      1343,
+      1344,
+      1382,
+      1753,
+      1754,
+      1755,
+      2499,
+      2741,
+      2742,
+      2963,
+      2964,
+      2965
+    ],
+    "boundary_loops": [
+      [
+        36,
+        879,
+        2741,
+        1338,
+        283,
+        1382,
+        2964,
+        1754,
+        505,
+        1755,
+        2965,
+        1753,
+        2963,
+        1343,
+        285,
+        1344,
+        2742,
+        890,
+        2499,
+        880,
+        36
+      ]
+    ],
+    "open_boundary_paths": [],
+    "connected_components": [
+      [
+        78,
+        1044,
+        1047,
+        1048,
+        1049,
+        1050,
+        1932,
+        1933,
+        1936,
+        1937,
+        1939,
+        1940
+      ]
+    ],
+    "boundary_angular_winding_numbers": [
+      1.0
+    ],
+    "component_count": 1,
+    "closed_loop_count": 1,
+    "boundary_degrees_not_two": [],
+    "nonmanifold_edges": [],
+    "nonmanifold_vertex_links": [],
+    "euler_characteristic": 1,
+    "single_disk": true,
+    "max_angular_gap_deg": 43.01187903247762,
+    "occupied_30deg_sectors": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      10,
+      11
+    ],
+    "surface_area_mm2": 99.29805693835036,
+    "boundary_perimeter_mm": 58.80263060385644,
+    "vertex_count": 23,
+    "face_count": 12,
+    "boundary_edge_count": 20,
+    "boundary_vertex_count": 20,
+    "seed_included": true,
+    "max_geodesic_mm": 11.266322176657038,
+    "median_geodesic_mm": 6.77621980093481,
+    "axial_min_mm_from_IP": 15.373176599014661,
+    "axial_max_mm_from_IP": 22.063996242099634,
+    "depth_from_tip_min_mm": 0.0,
+    "depth_from_tip_max_mm": 6.690819643084973,
+    "boundary_geodesic_median_mm": 7.734969806045606,
+    "boundary_geodesic_rms_offset_from_9mm": 2.81555647328292,
+    "boundary_axial_spread_mm": 5.938249652086673,
+    "circumferential_completeness": {
+      "occupied_30deg_sector_count": 11,
+      "max_angular_gap_deg": 43.01187903247762,
+      "complete_12_sectors": false,
+      "boundary_angular_winding_numbers": [
+        1.0
+      ],
+      "interpretation": "Projected boundary angular coverage about engineering IP-to-tip centerline; not uniform shaft rings or anatomical proof"
+    },
+    "core_9mm_vertex_count_covered": 20,
+    "missing_core_9mm_vertices": [],
+    "bulb_coverage": {
+      "rounded_tip_proxy_face_count": 24,
+      "rounded_tip_proxy_area_coverage_fraction": 0.3851882752770379,
+      "rounded_tip_proxy_vertex_count_covered": 18,
+      "rounded_tip_proxy_vertex_count_total": 36,
+      "definition": "Depth <= 2*local median edge + 0.5 mm; normal axial component >=0.35; normal variation >=0.07 rad/mm. Proxy only."
+    },
+    "proximal_shaft_intrusion": {
+      "flagged_vertex_ids": [],
+      "count": 0,
+      "definition": "Depth > global transition lower knee 9.5 mm AND normal axial component <0.15 AND normal variation <0.08 rad/mm",
+      "scope": "Local distal-shaft continuation relative to rounded tip; not middle/proximal thumb region identity contradiction"
+    },
+    "thumb_nail_coverage": {
+      "selected_approved_nail_face_ids": [],
+      "total_approved_nail_face_count": 12,
+      "selected_nail_face_count": 0,
+      "selected_nail_vertex_ids": [
+        879
+      ],
+      "nail_area_fraction": 0.0,
+      "nail_distal_edge_proxy_vertex_ids": [
+        37,
+        879
+      ],
+      "nail_distal_edge_proxy_ids_covered": [
+        879
+      ],
+      "approved_nail_face_depths_mm": {
+        "64": 9.422998452023462,
+        "65": 5.878784834930482,
+        "68": 13.164234411684948,
+        "71": 16.02301138977232,
+        "1036": 13.885835535280123,
+        "1037": 13.623416426311067,
+        "1038": 16.407657150282073,
+        "1039": 17.266128800899924,
+        "1040": 9.916914009786531,
+        "1216": 16.88710290634011,
+        "1218": 13.579567642183276,
+        "1219": 17.476742545510202
+      },
+      "whole_nail_inside_cap_required": false,
+      "approved_nail_native_depth_range_mm": [
+        3.7372475497970896,
+        19.631122155232163
+      ],
+      "cap_nail_intersection_face_components": [],
+      "approved_nail_edges_coincident_with_cap_boundary": [],
+      "nail_compatibility": "DISTAL_NAIL_MARGIN_PROXY_PARTLY_OMITTED",
+      "nail_compatibility_scope": "Native mask relationship only; final anatomical cap boundary remains unresolved",
+      "reason": "Cap may intersect the terminal nail edge; approved proximal nail extends onto the distal shaft and need not be in terminal cap. No nail authority change."
+    }
+  },
+  "human_readable_anatomical_interpretation": "Minimum topology closure preserves every core vertex and every strict B face, avoids the three strong shaft-extension proxy corners. Minimality is geometric/topological, not a complete bulb guarantee.",
+  "recommended_for_human_review_only": true,
+  "membership_authority_applied": false
+}

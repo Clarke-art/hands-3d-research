@@ -1,0 +1,987 @@
+{
+  "authority_id": "EDGE1234_SCOPE_CONFLICT_R1",
+  "verdict": "TRUE_SKIN_TRANSITION_DEFECT_AND_TRUE_SCOPE_CONFLICT",
+  "edge": {
+    "edge_id": 1234,
+    "vertex_ids": [
+      338,
+      1448
+    ],
+    "primary_classification": "TRUE_SCOPE_CONFLICT",
+    "primary_reason": "Fixed-neighbor/forbidden-support lower bound exceeds approved absolute screening gate.",
+    "temporal_classification": "REBUILD_INTRODUCED",
+    "endpoints": [
+      {
+        "vertex_id": 338,
+        "classification": "REBUILD_REQUIRED",
+        "authorized_write": true,
+        "frozen_R3_side": "INDEX",
+        "FIRST_WEB21": false,
+        "allowed_groups": [
+          "INDEX_DIP_R",
+          "INDEX_MCP_R",
+          "INDEX_PIP_R",
+          "WRIST_R"
+        ],
+        "forbidden_groups": [
+          "LITTLE_DIP_R",
+          "LITTLE_MCP_R",
+          "LITTLE_PIP_R",
+          "MIDDLE_DIP_R",
+          "MIDDLE_MCP_R",
+          "MIDDLE_PIP_R",
+          "RING_DIP_R",
+          "RING_MCP_R",
+          "RING_PIP_R",
+          "THUMB_CMC_R",
+          "THUMB_IP_R",
+          "THUMB_MCP_R"
+        ],
+        "donor_vector": {
+          "WRIST_R": 0.10097076743841171,
+          "THUMB_CMC_R": 0.11302915960550308,
+          "THUMB_MCP_R": 0.7860000729560852
+        },
+        "candidate_vector": {
+          "WRIST_R": 0.768878161907196,
+          "INDEX_MCP_R": 0.20365694165229797,
+          "INDEX_PIP_R": 0.016784492880105972,
+          "INDEX_DIP_R": 0.010680398903787136
+        },
+        "exact_donor_copy": false
+      },
+      {
+        "vertex_id": 1448,
+        "classification": "TARGETED_REVALIDATION",
+        "authorized_write": false,
+        "frozen_R3_side": "INDEX",
+        "FIRST_WEB21": true,
+        "allowed_groups": [
+          "INDEX_MCP_R",
+          "THUMB_CMC_R",
+          "THUMB_MCP_R",
+          "WRIST_R"
+        ],
+        "forbidden_groups": [
+          "INDEX_DIP_R",
+          "INDEX_PIP_R",
+          "LITTLE_DIP_R",
+          "LITTLE_MCP_R",
+          "LITTLE_PIP_R",
+          "MIDDLE_DIP_R",
+          "MIDDLE_MCP_R",
+          "MIDDLE_PIP_R",
+          "RING_DIP_R",
+          "RING_MCP_R",
+          "RING_PIP_R",
+          "THUMB_IP_R"
+        ],
+        "donor_vector": {
+          "THUMB_MCP_R": 1.0
+        },
+        "candidate_vector": {
+          "THUMB_MCP_R": 1.0
+        },
+        "exact_donor_copy": true
+      }
+    ],
+    "donor_metrics": {
+      "L_inf": 0.2139999270439148,
+      "L1": 0.4279998540878296,
+      "per_group": {
+        "THUMB_CMC_R": 0.11302915960550308,
+        "THUMB_MCP_R": 0.2139999270439148,
+        "WRIST_R": 0.10097076743841171
+      }
+    },
+    "candidate_metrics": {
+      "L_inf": 1.0,
+      "L1": 1.9999999953433871,
+      "per_group": {
+        "INDEX_DIP_R": 0.010680398903787136,
+        "INDEX_MCP_R": 0.20365694165229797,
+        "INDEX_PIP_R": 0.016784492880105972,
+        "THUMB_MCP_R": 1.0,
+        "WRIST_R": 0.768878161907196
+      }
+    },
+    "L_inf_delta": 0.7860000729560852,
+    "L1_delta": 1.5720001412555575,
+    "donor_absolute_fail": false,
+    "candidate_absolute_fail": true,
+    "regression_over_existing_tolerance": true,
+    "candidate_introduced_or_worsened": true,
+    "semantic_boundary_tags": [
+      "FIRST_WEB_INTERFACE",
+      "APPROVED_DRIVER_SUPPORT_BOUNDARY"
+    ],
+    "boundary_exemption_granted": false,
+    "true_scope_conflict_witnesses": [
+      {
+        "edge_id": 1234,
+        "write_vertex": 338,
+        "immutable_vertex": 1448,
+        "write_allowed_groups": [
+          "INDEX_DIP_R",
+          "INDEX_MCP_R",
+          "INDEX_PIP_R",
+          "WRIST_R"
+        ],
+        "fixed_forbidden_components": {
+          "THUMB_MCP_R": 1.0
+        },
+        "fixed_forbidden_mass": 1.0,
+        "fixed_allowed_mass": 0,
+        "minimum_L_inf": 1.0,
+        "minimum_L1_conservative": 1.99999,
+        "normalization_tolerance_accounted_for": 1e-05,
+        "formula": "min L_inf >= max fixed forbidden component; min L1 >= F + max(0, 1 - normalization_tolerance - A)",
+        "proof": "All foreign components are exact zero at the writable endpoint. Fixed endpoint cannot change under R1. Sum of allowed components at the writable endpoint must be >=1-tolerance. A lower bound already exceeds the unchanged gate; changing only existing authorized vertices cannot solve this edge."
+      }
+    ],
+    "baseline_attribution": "NO_DONOR_ABSOLUTE_DEFECT",
+    "candidate_acceptance": "NOT_QUALIFIED_STATIC_EXCEEDANCE_RECORDED",
+    "absolute_limits": {
+      "L_inf": 0.5,
+      "L1": 1.0
+    }
+  },
+  "legal_driver_family_boundary": true,
+  "boundary_legality_waives_discontinuity": false,
+  "decision": "Driver support changes here legally, but FIRST_WEB three-way continuity is mandatory. The new 1.0 THUMB_MCP jump is not a legally exempt boundary.",
+  "proof": "v338 outside FIRST_WEB is frozen R3 INDEX: THUMB_MCP_R=0. Copy-only FIRST_WEB v1448 has THUMB_MCP_R=1 exactly. Every legal 244-only solution has jump 1 >0.5, independent of solver or pose.",
+  "minimum_additional_vertices_for_edge1234_alone": [
+    1448
+  ],
+  "minimum_additional_vertices_for_all_v338_incident_conflicts": [
+    1447,
+    1448,
+    1550
+  ],
+  "edge1234_target": {
+    "v1448_THUMB_MCP_max": 0.5,
+    "joint_shared_support": [
+      "WRIST_R",
+      "INDEX_MCP_R"
+    ],
+    "L_inf_max": 0.5,
+    "L1_max": 1.0,
+    "no_THUMB_groups_allowed_at_v338": true
+  },
+  "v338_one_ring": [
+    {
+      "edge_id": 1233,
+      "vertex_ids": [
+        1447,
+        338
+      ],
+      "endpoints": [
+        {
+          "vertex_id": 1447,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "THUMB",
+          "FIRST_WEB21": false,
+          "allowed_groups": [
+            "THUMB_CMC_R",
+            "THUMB_IP_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_MCP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R"
+          ],
+          "donor_vector": {
+            "WRIST_R": 0.15947851538658142,
+            "THUMB_CMC_R": 0.35440003871917725,
+            "THUMB_MCP_R": 0.48612144589424133
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.15947851538658142,
+            "THUMB_CMC_R": 0.35440003871917725,
+            "THUMB_MCP_R": 0.48612144589424133
+          },
+          "exact_donor_copy": true
+        },
+        {
+          "vertex_id": 338,
+          "classification": "REBUILD_REQUIRED",
+          "authorized_write": true,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": false,
+          "allowed_groups": [
+            "INDEX_DIP_R",
+            "INDEX_MCP_R",
+            "INDEX_PIP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_CMC_R",
+            "THUMB_IP_R",
+            "THUMB_MCP_R"
+          ],
+          "donor_vector": {
+            "WRIST_R": 0.10097076743841171,
+            "THUMB_CMC_R": 0.11302915960550308,
+            "THUMB_MCP_R": 0.7860000729560852
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.768878161907196,
+            "INDEX_MCP_R": 0.20365694165229797,
+            "INDEX_PIP_R": 0.016784492880105972,
+            "INDEX_DIP_R": 0.010680398903787136
+          },
+          "exact_donor_copy": false
+        }
+      ],
+      "donor_metrics": {
+        "L_inf": 0.29987862706184387,
+        "L1": 0.5997572541236877,
+        "per_group": {
+          "THUMB_CMC_R": 0.24137087911367416,
+          "THUMB_MCP_R": 0.29987862706184387,
+          "WRIST_R": 0.05850774794816971
+        }
+      },
+      "candidate_metrics": {
+        "L_inf": 0.6093996465206146,
+        "L1": 1.6810429645702243,
+        "per_group": {
+          "INDEX_DIP_R": 0.010680398903787136,
+          "INDEX_MCP_R": 0.20365694165229797,
+          "INDEX_PIP_R": 0.016784492880105972,
+          "THUMB_CMC_R": 0.35440003871917725,
+          "THUMB_MCP_R": 0.48612144589424133,
+          "WRIST_R": 0.6093996465206146
+        }
+      }
+    },
+    {
+      "edge_id": 1234,
+      "vertex_ids": [
+        338,
+        1448
+      ],
+      "endpoints": [
+        {
+          "vertex_id": 338,
+          "classification": "REBUILD_REQUIRED",
+          "authorized_write": true,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": false,
+          "allowed_groups": [
+            "INDEX_DIP_R",
+            "INDEX_MCP_R",
+            "INDEX_PIP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_CMC_R",
+            "THUMB_IP_R",
+            "THUMB_MCP_R"
+          ],
+          "donor_vector": {
+            "WRIST_R": 0.10097076743841171,
+            "THUMB_CMC_R": 0.11302915960550308,
+            "THUMB_MCP_R": 0.7860000729560852
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.768878161907196,
+            "INDEX_MCP_R": 0.20365694165229797,
+            "INDEX_PIP_R": 0.016784492880105972,
+            "INDEX_DIP_R": 0.010680398903787136
+          },
+          "exact_donor_copy": false
+        },
+        {
+          "vertex_id": 1448,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": true,
+          "allowed_groups": [
+            "INDEX_MCP_R",
+            "THUMB_CMC_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_IP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "candidate_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "exact_donor_copy": true
+        }
+      ],
+      "donor_metrics": {
+        "L_inf": 0.2139999270439148,
+        "L1": 0.4279998540878296,
+        "per_group": {
+          "THUMB_CMC_R": 0.11302915960550308,
+          "THUMB_MCP_R": 0.2139999270439148,
+          "WRIST_R": 0.10097076743841171
+        }
+      },
+      "candidate_metrics": {
+        "L_inf": 1.0,
+        "L1": 1.9999999953433871,
+        "per_group": {
+          "INDEX_DIP_R": 0.010680398903787136,
+          "INDEX_MCP_R": 0.20365694165229797,
+          "INDEX_PIP_R": 0.016784492880105972,
+          "THUMB_MCP_R": 1.0,
+          "WRIST_R": 0.768878161907196
+        }
+      }
+    },
+    {
+      "edge_id": 1388,
+      "vertex_ids": [
+        338,
+        1525
+      ],
+      "endpoints": [
+        {
+          "vertex_id": 338,
+          "classification": "REBUILD_REQUIRED",
+          "authorized_write": true,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": false,
+          "allowed_groups": [
+            "INDEX_DIP_R",
+            "INDEX_MCP_R",
+            "INDEX_PIP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_CMC_R",
+            "THUMB_IP_R",
+            "THUMB_MCP_R"
+          ],
+          "donor_vector": {
+            "WRIST_R": 0.10097076743841171,
+            "THUMB_CMC_R": 0.11302915960550308,
+            "THUMB_MCP_R": 0.7860000729560852
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.768878161907196,
+            "INDEX_MCP_R": 0.20365694165229797,
+            "INDEX_PIP_R": 0.016784492880105972,
+            "INDEX_DIP_R": 0.010680398903787136
+          },
+          "exact_donor_copy": false
+        },
+        {
+          "vertex_id": 1525,
+          "classification": "REBUILD_REQUIRED",
+          "authorized_write": true,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": false,
+          "allowed_groups": [
+            "INDEX_DIP_R",
+            "INDEX_MCP_R",
+            "INDEX_PIP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_CMC_R",
+            "THUMB_IP_R",
+            "THUMB_MCP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 0.8197360038757324,
+            "WRIST_R": 0.045759811997413635,
+            "THUMB_CMC_R": 0.13450418412685394
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.7704806327819824,
+            "INDEX_MCP_R": 0.20328816771507263,
+            "INDEX_PIP_R": 0.016048070043325424,
+            "INDEX_DIP_R": 0.010183125734329224
+          },
+          "exact_donor_copy": false
+        }
+      ],
+      "donor_metrics": {
+        "L_inf": 0.05521095544099808,
+        "L1": 0.11042191088199615,
+        "per_group": {
+          "THUMB_CMC_R": 0.02147502452135086,
+          "THUMB_MCP_R": 0.03373593091964722,
+          "WRIST_R": 0.05521095544099808
+        }
+      },
+      "candidate_metrics": {
+        "L_inf": 0.001602470874786377,
+        "L1": 0.0032049408182501793,
+        "per_group": {
+          "INDEX_DIP_R": 0.0004972731694579124,
+          "INDEX_MCP_R": 0.0003687739372253418,
+          "INDEX_PIP_R": 0.0007364228367805481,
+          "WRIST_R": 0.001602470874786377
+        }
+      }
+    },
+    {
+      "edge_id": 1438,
+      "vertex_ids": [
+        338,
+        1550
+      ],
+      "endpoints": [
+        {
+          "vertex_id": 338,
+          "classification": "REBUILD_REQUIRED",
+          "authorized_write": true,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": false,
+          "allowed_groups": [
+            "INDEX_DIP_R",
+            "INDEX_MCP_R",
+            "INDEX_PIP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_CMC_R",
+            "THUMB_IP_R",
+            "THUMB_MCP_R"
+          ],
+          "donor_vector": {
+            "WRIST_R": 0.10097076743841171,
+            "THUMB_CMC_R": 0.11302915960550308,
+            "THUMB_MCP_R": 0.7860000729560852
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.768878161907196,
+            "INDEX_MCP_R": 0.20365694165229797,
+            "INDEX_PIP_R": 0.016784492880105972,
+            "INDEX_DIP_R": 0.010680398903787136
+          },
+          "exact_donor_copy": false
+        },
+        {
+          "vertex_id": 1550,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": true,
+          "allowed_groups": [
+            "INDEX_MCP_R",
+            "THUMB_CMC_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_IP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "candidate_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "exact_donor_copy": true
+        }
+      ],
+      "donor_metrics": {
+        "L_inf": 0.2139999270439148,
+        "L1": 0.4279998540878296,
+        "per_group": {
+          "THUMB_CMC_R": 0.11302915960550308,
+          "THUMB_MCP_R": 0.2139999270439148,
+          "WRIST_R": 0.10097076743841171
+        }
+      },
+      "candidate_metrics": {
+        "L_inf": 1.0,
+        "L1": 1.9999999953433871,
+        "per_group": {
+          "INDEX_DIP_R": 0.010680398903787136,
+          "INDEX_MCP_R": 0.20365694165229797,
+          "INDEX_PIP_R": 0.016784492880105972,
+          "THUMB_MCP_R": 1.0,
+          "WRIST_R": 0.768878161907196
+        }
+      }
+    }
+  ],
+  "v1448_one_ring": [
+    {
+      "edge_id": 1234,
+      "vertex_ids": [
+        338,
+        1448
+      ],
+      "endpoints": [
+        {
+          "vertex_id": 338,
+          "classification": "REBUILD_REQUIRED",
+          "authorized_write": true,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": false,
+          "allowed_groups": [
+            "INDEX_DIP_R",
+            "INDEX_MCP_R",
+            "INDEX_PIP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_CMC_R",
+            "THUMB_IP_R",
+            "THUMB_MCP_R"
+          ],
+          "donor_vector": {
+            "WRIST_R": 0.10097076743841171,
+            "THUMB_CMC_R": 0.11302915960550308,
+            "THUMB_MCP_R": 0.7860000729560852
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.768878161907196,
+            "INDEX_MCP_R": 0.20365694165229797,
+            "INDEX_PIP_R": 0.016784492880105972,
+            "INDEX_DIP_R": 0.010680398903787136
+          },
+          "exact_donor_copy": false
+        },
+        {
+          "vertex_id": 1448,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": true,
+          "allowed_groups": [
+            "INDEX_MCP_R",
+            "THUMB_CMC_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_IP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "candidate_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "exact_donor_copy": true
+        }
+      ],
+      "donor_metrics": {
+        "L_inf": 0.2139999270439148,
+        "L1": 0.4279998540878296,
+        "per_group": {
+          "THUMB_CMC_R": 0.11302915960550308,
+          "THUMB_MCP_R": 0.2139999270439148,
+          "WRIST_R": 0.10097076743841171
+        }
+      },
+      "candidate_metrics": {
+        "L_inf": 1.0,
+        "L1": 1.9999999953433871,
+        "per_group": {
+          "INDEX_DIP_R": 0.010680398903787136,
+          "INDEX_MCP_R": 0.20365694165229797,
+          "INDEX_PIP_R": 0.016784492880105972,
+          "THUMB_MCP_R": 1.0,
+          "WRIST_R": 0.768878161907196
+        }
+      }
+    },
+    {
+      "edge_id": 1235,
+      "vertex_ids": [
+        1448,
+        296
+      ],
+      "endpoints": [
+        {
+          "vertex_id": 1448,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": true,
+          "allowed_groups": [
+            "INDEX_MCP_R",
+            "THUMB_CMC_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_IP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "candidate_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "exact_donor_copy": true
+        },
+        {
+          "vertex_id": 296,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": true,
+          "allowed_groups": [
+            "INDEX_MCP_R",
+            "THUMB_CMC_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_IP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "candidate_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "exact_donor_copy": true
+        }
+      ],
+      "donor_metrics": {
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "per_group": {
+          "THUMB_MCP_R": 0.0
+        }
+      },
+      "candidate_metrics": {
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "per_group": {
+          "THUMB_MCP_R": 0.0
+        }
+      }
+    },
+    {
+      "edge_id": 5878,
+      "vertex_ids": [
+        1448,
+        3125
+      ],
+      "endpoints": [
+        {
+          "vertex_id": 1448,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": true,
+          "allowed_groups": [
+            "INDEX_MCP_R",
+            "THUMB_CMC_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_IP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "candidate_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "exact_donor_copy": true
+        },
+        {
+          "vertex_id": 3125,
+          "classification": "REBUILD_REQUIRED",
+          "authorized_write": true,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": true,
+          "allowed_groups": [
+            "INDEX_MCP_R",
+            "THUMB_CMC_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_IP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.39925962686538696,
+            "THUMB_CMC_R": 0.01638963259756565,
+            "THUMB_MCP_R": 0.4930126667022705,
+            "INDEX_MCP_R": 0.09133804589509964
+          },
+          "exact_donor_copy": false
+        }
+      ],
+      "donor_metrics": {
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "per_group": {
+          "THUMB_MCP_R": 0.0
+        }
+      },
+      "candidate_metrics": {
+        "L_inf": 0.5069873332977295,
+        "L1": 1.0139746386557817,
+        "per_group": {
+          "INDEX_MCP_R": 0.09133804589509964,
+          "THUMB_CMC_R": 0.01638963259756565,
+          "THUMB_MCP_R": 0.5069873332977295,
+          "WRIST_R": 0.39925962686538696
+        }
+      }
+    },
+    {
+      "edge_id": 6028,
+      "vertex_ids": [
+        1448,
+        3162
+      ],
+      "endpoints": [
+        {
+          "vertex_id": 1448,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "INDEX",
+          "FIRST_WEB21": true,
+          "allowed_groups": [
+            "INDEX_MCP_R",
+            "THUMB_CMC_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R",
+            "THUMB_IP_R"
+          ],
+          "donor_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "candidate_vector": {
+            "THUMB_MCP_R": 1.0
+          },
+          "exact_donor_copy": true
+        },
+        {
+          "vertex_id": 3162,
+          "classification": "TARGETED_REVALIDATION",
+          "authorized_write": false,
+          "frozen_R3_side": "THUMB",
+          "FIRST_WEB21": false,
+          "allowed_groups": [
+            "THUMB_CMC_R",
+            "THUMB_IP_R",
+            "THUMB_MCP_R",
+            "WRIST_R"
+          ],
+          "forbidden_groups": [
+            "INDEX_DIP_R",
+            "INDEX_MCP_R",
+            "INDEX_PIP_R",
+            "LITTLE_DIP_R",
+            "LITTLE_MCP_R",
+            "LITTLE_PIP_R",
+            "MIDDLE_DIP_R",
+            "MIDDLE_MCP_R",
+            "MIDDLE_PIP_R",
+            "RING_DIP_R",
+            "RING_MCP_R",
+            "RING_PIP_R"
+          ],
+          "donor_vector": {
+            "WRIST_R": 0.3336750864982605,
+            "THUMB_CMC_R": 0.28838613629341125,
+            "THUMB_MCP_R": 0.37793877720832825
+          },
+          "candidate_vector": {
+            "WRIST_R": 0.3336750864982605,
+            "THUMB_CMC_R": 0.28838613629341125,
+            "THUMB_MCP_R": 0.37793877720832825
+          },
+          "exact_donor_copy": true
+        }
+      ],
+      "donor_metrics": {
+        "L_inf": 0.6220612227916718,
+        "L1": 1.2441224455833435,
+        "per_group": {
+          "THUMB_CMC_R": 0.28838613629341125,
+          "THUMB_MCP_R": 0.6220612227916718,
+          "WRIST_R": 0.3336750864982605
+        }
+      },
+      "candidate_metrics": {
+        "L_inf": 0.6220612227916718,
+        "L1": 1.2441224455833435,
+        "per_group": {
+          "THUMB_CMC_R": 0.28838613629341125,
+          "THUMB_MCP_R": 0.6220612227916718,
+          "WRIST_R": 0.3336750864982605
+        }
+      }
+    }
+  ],
+  "v1550_required_by_independent_edge1438_same_fixed_one_hot_conflict": true,
+  "v296_role": "Additional global amendment witness edge1440 requires v296; it is not added merely for being a neighbor of v1448.",
+  "v3162_role": "Retained pin. Its inherited edge6028 is debt; no evidence here requires its write permission.",
+  "FIRST_WEB21_automatic_rebuild": false,
+  "poses_used_for_decision": 0,
+  "applied": false
+}

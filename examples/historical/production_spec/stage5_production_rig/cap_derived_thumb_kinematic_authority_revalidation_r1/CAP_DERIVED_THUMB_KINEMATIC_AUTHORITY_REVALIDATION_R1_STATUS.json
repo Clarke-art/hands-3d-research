@@ -1,0 +1,152 @@
+{
+  "execution": "CAP_DERIVED_THUMB_KINEMATIC_AUTHORITY_REVALIDATION_R1",
+  "mode": "READ_ONLY_LOCAL_KINEMATIC_AUTHORITY_REVALIDATION",
+  "THUMB_KINEMATIC_AUTHORITY": "CORRECTION_REQUIRED_PENDING_HUMAN_REVIEW",
+  "cap_authority_hash": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+  "OLD_CAP9": "SUPERSEDED_CONTAMINATED",
+  "final_answers": [
+    {
+      "item": 1,
+      "question": "THUMB_IP_R.head",
+      "answer": "REVALIDATED_UNCHANGED"
+    },
+    {
+      "item": 2,
+      "question": "THUMB_IP_R.tail",
+      "answer": "CHANGE_REQUIRED"
+    },
+    {
+      "item": 3,
+      "question": "THUMB_IP_R.roll",
+      "answer": "CHANGE_REQUIRED"
+    },
+    {
+      "item": 4,
+      "question": "THUMB_TIP_R.head",
+      "answer": "CHANGE_REQUIRED"
+    },
+    {
+      "item": 5,
+      "question": "THUMB_TIP_R.tail",
+      "answer": "CHANGE_REQUIRED"
+    },
+    {
+      "item": 6,
+      "question": "THUMB_TIP_R.roll",
+      "answer": "CHANGE_REQUIRED"
+    },
+    {
+      "item": 7,
+      "question": "current cap-derived REP authority",
+      "answer": "NO"
+    },
+    {
+      "item": 8,
+      "question": "independent thumb IP landmark confidence",
+      "answer": "MEDIUM_HIGH_GEOMETRIC; submillimeter osseous center not established"
+    },
+    {
+      "item": 9,
+      "question": "independent terminal tip landmark confidence",
+      "answer": "HIGH; frozen native v284 identity mapped exactly to RSSF"
+    },
+    {
+      "item": 10,
+      "question": "maximum position delta mm",
+      "answer": 15.635183545981327
+    },
+    {
+      "item": 11,
+      "question": "maximum axis delta deg",
+      "answer": 13.933852284203642
+    },
+    {
+      "item": 12,
+      "question": "maximum roll delta deg",
+      "answer": 0.4567074290420726
+    },
+    {
+      "item": 13,
+      "question": "current chain anatomically plausible",
+      "answer": "NO (local distal chain)"
+    },
+    {
+      "item": 14,
+      "question": "corrected candidate required",
+      "answer": "YES"
+    },
+    {
+      "item": 15,
+      "question": "Human review required",
+      "answer": "YES"
+    },
+    {
+      "item": 16,
+      "question": "R2/R3 input change expected",
+      "answer": "YES; direct R3 change, R2 default seed separately cap-driven"
+    },
+    {
+      "item": 17,
+      "question": "Stage5B field change expected",
+      "answer": "YES"
+    },
+    {
+      "item": 18,
+      "question": "unaffected hierarchy/origin preserved",
+      "answer": "YES"
+    },
+    {
+      "item": 19,
+      "question": "cap37 membership unchanged",
+      "answer": "YES"
+    },
+    {
+      "item": 20,
+      "question": "R3 run count",
+      "answer": 0
+    },
+    {
+      "item": 21,
+      "question": "Stage6 run count",
+      "answer": 0
+    },
+    {
+      "item": 22,
+      "question": "BLEND_FILES_WRITTEN",
+      "answer": 0
+    },
+    {
+      "item": 23,
+      "question": "NEXT",
+      "answer": "HUMAN_THUMB_KINEMATIC_AUTHORITY_CORRECTION"
+    },
+    {
+      "item": 24,
+      "question": "STOP",
+      "answer": "YES"
+    }
+  ],
+  "maximum_parallel_transport_twist_delta_deg": 1.9640411341296764,
+  "actual_changes": {
+    "BLEND_FILES_WRITTEN": 0,
+    "WEIGHT_DELTA": 0,
+    "GEOMETRY_DELTA": 0,
+    "TOPOLOGY_DELTA": 0,
+    "BONE_DELTA": 0,
+    "JOINT_DELTA": 0,
+    "R2_runs": 0,
+    "R3_runs": 0,
+    "Stage6_runs": 0,
+    "cap_selector_runs": 0,
+    "skin_rebuild_runs": 0,
+    "rig_rebuild_runs": 0
+  },
+  "NEXT": "HUMAN_THUMB_KINEMATIC_AUTHORITY_CORRECTION",
+  "STOP": true,
+  "protected_state": {
+    "all_before_equal_after": true,
+    "workspace_files": 1577,
+    "external_files": 6,
+    "manifest": "PROTECTED_STATE_VERIFICATION.json"
+  }
+}

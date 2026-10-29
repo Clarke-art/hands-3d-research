@@ -1,0 +1,1001 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+当前 Human 决定
+==================================================
+
+Human 已审阅：
+
+PALMAR_DIGIT_ROOT_LOCAL_DONOR_SHAPE_RESTORATION_DESIGN_R1
+
+并批准该 formal amendment design
+进入正式 application。
+
+Human approval scope：
+
+HUMAN_APPROVE_PALMAR_DIGIT_ROOT_DONOR_RESTORATION_R1
+=
+APPROVED
+
+DONOR_SOURCE =
+OFFICIAL_HAND_REALISTIC_MULTIRES_L1
+
+DONOR_SOURCE_HASH =
+3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137
+
+CURRENT_STAGE4C_SOURCE_HASH =
+5f48ffa5ac6ff6d10b5d3bde1348571437b3a4fdf5c3ecfb97922e7dc0acd4d1
+
+APPROVED_FORMAL_CANDIDATE_HASH =
+278dd6b9462f96f4261319688f64a063ab79f76abb772bee09e62ce0eb43130d
+
+APPROVED_WRITE_SET_COUNT =
+16
+
+APPROVED_WRITE_SET：
+
+3348
+3349
+3350
+3351
+3352
+3353
+3354
+3355
+3356
+3357
+3358
+3359
+3360
+3361
+3362
+3363
+
+PRIMARY_CORE_WRITES：
+
+3353
+3354
+3359
+
+其余13点：
+
+ANCESTRY_CLOSURE
+
+EXCLUDED_NORMAL_REGION：
+
+69 vertices / 49 faces
+=
+POSITION LOCKED
+
+Human visual decision：
+
+PRIMARY_DEFECT =
+PASS_HARD_SHELF_REMOVED_OR_CLEARLY_REDUCED
+
+NATURAL_PALMAR_ROOT_CREASE =
+PASS_PRESERVED
+
+EXCLUDED_NORMAL_REGION =
+PASS_UNCHANGED
+
+NEW_VISIBLE_DEFECT =
+NONE_OBSERVED
+
+Human 同时接受：
+
+MID_MCP_45_COMPRESSION_CHANGE
+=
+ACCEPTED_FOR_AMENDMENT_APPLICATION_WITH_MANDATORY_DOWNSTREAM_REQUALIFICATION
+
+注意：
+
+这不是 production promotion。
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+PALMAR_DIGIT_ROOT_DONOR_RESTORATION_APPLICATION_R1
+
+目标：
+
+把 Human-approved 16-point
+palmar donor restoration
+
+精确应用到：
+
+一个新的、独立的 Stage4C derived revision。
+
+本轮不是：
+
+Stage5 propagation
+skin requalification
+deformation qualification
+Full42
+Stage6B
+production promotion。
+
+==================================================
+一、绝对禁止覆盖现有资产
+==================================================
+
+以下全部 byte-frozen：
+
+official donor
+
+Stage2
+
+historical Stage4A / Stage4B
+
+旧 Stage4C_R2
+
+当前 dorsal-only donor-transfer Stage4C：
+
+production_spec/stage4_blender/
+stage4c_donor_transfer_r1/
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_R1.blend
+
+当前 Stage5A donor-transfer derivative
+
+当前 Stage5B R2 donor-transfer derivative
+
+所有 weights
+
+bones / joints
+
+RSSF
+
+cap37
+
+FIRST_WEB21
+
+fresh R3
+
+true-cap
+
+targeted deformation
+
+Full Stage6A fresh evidence
+
+current9 Human response / hold receipt。
+
+不得覆盖任何历史文件。
+
+==================================================
+二、新 Stage4C revision
+==================================================
+
+从：
+
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_R1.blend
+
+SHA256：
+
+5f48ffa5ac6ff6d10b5d3bde1348571437b3a4fdf5c3ecfb97922e7dc0acd4d1
+
+创建新的派生资产。
+
+建议目录：
+
+production_spec/stage4_blender/
+stage4c_donor_transfer_palmar_root_r1/
+
+建议资产名：
+
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_PALMAR_ROOT_R1.blend
+
+名称可按项目规范微调。
+
+必须：
+
+NEW_DERIVED_ASSET = YES
+
+SOURCE_ASSET_PRESERVED = YES
+
+PRODUCTION_PROMOTION = NO
+
+==================================================
+三、application 唯一合法 authority
+==================================================
+
+本轮不得重新：
+
+计算 donor ancestry
+
+运行 source restoration formula
+
+重新拟合 target
+
+重新读取 feasibility probe
+并自行“优化”。
+
+唯一合法 coordinate authority 是：
+
+PALMAR_DIGIT_ROOT_LOCAL_DONOR_SHAPE_RESTORATION_DESIGN_R1
+
+中的：
+
+PALMAR_ROOT_FORMAL_TARGET_COORDINATES_R1.json
+
+以及绑定的：
+
+FORMAL_CANDIDATE_HASH =
+278dd6b9462f96f4261319688f64a063ab79f76abb772bee09e62ce0eb43130d
+
+必须验证：
+
+source hash
+
+formal candidate hash
+
+write-set hash
+
+target-coordinate payload hash
+
+Human approval receipt
+
+全部一致。
+
+任一 mismatch：
+
+FAIL CLOSED
+STOP。
+
+==================================================
+四、正式写入范围
+==================================================
+
+只允许写：
+
+3348–3363
+
+共16个 vertex positions。
+
+要求：
+
+ACTUAL_CHANGED_VERTEX_COUNT = 16
+
+ID ∉ 16：
+
+position delta = exact 0
+
+特别：
+
+EXCLUDED NORMAL 69 vertices
+
+必须：
+
+position delta = exact 0
+
+不得出现：
+
+17th vertex
+boundary touch-up
+normal-context smoothing
+visual polish。
+
+==================================================
+五、禁止任何二次修饰
+==================================================
+
+禁止：
+
+smooth
+
+relax
+
+fair
+
+sculpt
+
+biharmonic
+
+Laplacian
+
+normal correction
+
+boundary correction
+
+manual tweak
+
+AI beautification
+
+contact cleanup
+
+compression cleanup。
+
+Human 批准的是：
+
+精确16 IDs
++
+精确正式 target coordinates。
+
+不是：
+
+“这个区域大致修顺”。
+
+==================================================
+六、application procedure
+==================================================
+
+必须：
+
+1.
+factory-clean open source Stage4C dorsal-transfer asset
+
+2.
+verify source SHA256
+
+3.
+verify V/E/F / topology signature
+
+4.
+verify approved coordinate payload
+
+5.
+apply exact16 target positions
+
+6.
+save new derived Stage4C asset
+
+7.
+factory-clean reopen
+
+8.
+重新读取实际 stored coordinates
+
+9.
+verify application vs approved target
+
+10.
+verify source history unchanged
+
+不得从：
+
+temporary probe
+formal design candidate open scene
+memory residue
+
+直接另存 production-derived revision。
+
+==================================================
+七、candidate → application geometry equivalence
+==================================================
+
+将新 applied Stage4C revision
+
+与 Human-approved：
+
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_PALMAR_ROOT_CANDIDATE_R1.blend
+
+比较。
+
+允许差异：
+
+revision metadata
+application provenance props
+
+不允许 mesh payload 差异。
+
+至少比较：
+
+3416 vertex positions
+
+edges
+
+faces
+
+native cycles
+
+UV
+
+materials
+
+smooth / sharp flags
+
+custom-normal state
+
+transforms。
+
+输出：
+
+APPROVED_CANDIDATE_TO_APPLICATION_GEOMETRY_EQUIVALENCE
+=
+PASS / FAIL
+
+==================================================
+八、16点精确 coordinate gate
+==================================================
+
+对16点逐一输出：
+
+vertex ID
+
+approved xyz
+
+stored application xyz
+
+delta xyz
+
+Euclidean delta。
+
+要求：
+
+MAX_COORD_DELTA_VS_APPROVED_TARGET_MM =
+0
+或仅明确的 native serialization semantics。
+
+目标：
+
+与 formal candidate
+stored geometry exact equivalent。
+
+==================================================
+九、正常69点保护
+==================================================
+
+必须专项验证：
+
+EXCLUDED_NORMAL_POSITION_DRIFT_COUNT = 0
+
+EXCLUDED_NORMAL_MAX_DISPLACEMENT_MM = 0
+
+并重新生成：
+
+CURRENT SOURCE
+vs
+APPLIED NEW REVISION
+
+的 normal-region：
+
+solid
+flat
+grazing
+
+matched comparison。
+
+不得仅引用 design 阶段证据。
+
+==================================================
+十、全 payload protection
+==================================================
+
+新 Stage4C geometry asset 必须保持：
+
+V = 3416
+E = 6828
+F = 3414
+
+vertex IDs unchanged
+
+edge IDs unchanged
+
+face IDs unchanged
+
+face cycles unchanged
+
+manifold incidence unchanged
+
+UV unchanged
+
+materials unchanged
+
+material assignments unchanged
+
+smooth/sharp flags unchanged
+
+custom-normal state unchanged
+
+RSSF provenance unchanged。
+
+不得凭空加入：
+
+armature
+weights
+groups
+
+如果 Stage4C source 本来没有这些 payload。
+
+==================================================
+十一、static true3D structure rerun
+==================================================
+
+在实际 save/reopen 后的新 application asset 上
+重新运行：
+
+new nonadjacent exact intersection = 0
+
+new off-shared crossing = 0
+
+new illegal coplanar overlap = 0
+
+new self-intersection = 0
+
+new structural bow-tie = 0
+
+face reversal = 0
+
+degenerate = 0
+
+new true contact component = 0
+
+existing contact worsening = 0
+
+feature expansion = 0
+
+new boundary transition fold = 0。
+
+不得因为 design candidate 已 PASS
+就跳过 application 资产本身的重新验证。
+
+==================================================
+十二、source-shape fidelity 复核
+==================================================
+
+重新检查16点
+vs approved ancestry-derived target。
+
+预期约：
+
+max ~0.000158855 mm
+
+RMS ~0.000088238 mm
+
+但必须 fresh read。
+
+这只是：
+
+native storage / ancestry fidelity diagnostic。
+
+不是 anatomy tolerance。
+
+==================================================
+十三、application visual equivalence
+==================================================
+
+生成：
+
+SOURCE_STAGE4C
+
+APPROVED_FORMAL_CANDIDATE
+
+APPLIED_NEW_STAGE4C_REVISION
+
+三列 matched review。
+
+必须包含：
+
+Human confirmed camera
+
+close solid
+
+alternate
+
+grazing
+
+flat
+
+wire
+
+native sections
+
+normal-region protection。
+
+Human 不需要重新选择 candidate。
+
+目的只确认：
+
+APPROVED_DESIGN_APPLIED_EXACTLY。
+
+==================================================
+十四、save / reopen
+==================================================
+
+必须：
+
+SAVE_REOPEN = PASS
+
+SERIALIZATION_POSITION_DRIFT = 0
+
+OUTSIDE16_DRIFT = 0
+
+NORMAL69_DRIFT = 0
+
+TOPOLOGY_DRIFT = 0
+
+UV_DRIFT = 0
+
+MATERIAL_DRIFT = 0。
+
+==================================================
+十五、Human approval receipt
+==================================================
+
+新增独立：
+
+HUMAN_PALMAR_DIGIT_ROOT_DONOR_RESTORATION_APPROVAL_R1.md
+
+HUMAN_PALMAR_DIGIT_ROOT_DONOR_RESTORATION_APPROVAL_R1.json
+
+记录：
+
+approved donor
+
+approved source Stage4C hash
+
+approved formal candidate hash
+
+approved16 IDs
+
+approved target-coordinate payload hash
+
+primary defect Human PASS
+
+natural crease Human PASS
+
+normal region unchanged Human PASS
+
+MID_MCP_45 compression change
+accepted only with mandatory downstream requalification
+
+topology / weight / rig change
+NOT approved
+
+production promotion
+NOT approved。
+
+不要修改旧 design report。
+
+==================================================
+十六、不要在本轮运行 bind / pose
+==================================================
+
+design 阶段已经做过 temporary bind / smoke。
+
+本轮 application 只建立：
+
+新的 Stage4C geometry authority。
+
+不要再：
+
+temporary bind
+
+MID15/30/45
+
+Full42
+
+targeted deformation。
+
+这些属于下游 propagation 后的正式资格。
+
+==================================================
+十七、current9 保持 HOLD
+==================================================
+
+current9 Human response：
+
+继续：
+
+HOLD_NOT_CLOSED
+
+不得：
+
+修改答案
+
+生成 crossing Human closure
+
+扩大 Human acceptance。
+
+Palmar16 与 current9：
+
+direct / 1-ring / 2-ring
+应继续保持：
+
+0 / 0 / 0
+
+但本轮只做 ID consistency recheck。
+
+==================================================
+十八、MID_MCP_45 压缩变化必须写入 downstream plan
+==================================================
+
+design 阶段已观察：
+
+candidate BIND incident edge ratio
+约：
+
+0.477504 – 1.632646
+
+current：
+
+0.760663 – 1.577704
+
+没有 collapse
+没有 new exact contact
+
+但 compression sensitivity 改变。
+
+因此 application 成功后
+必须在 downstream plan 中显式标记：
+
+MID_MCP_45 =
+MANDATORY_TARGETED_REVALIDATION
+
+不得因为 application static PASS
+就省略。
+
+==================================================
+十九、下游 revalidation blast radius
+==================================================
+
+application 成功后至少需要：
+
+1.
+Stage5 geometry propagation
+
+2.
+joint / surface / rest / zero / bind
+
+3.
+static skin compatibility
+
+4.
+geometry-dependent authority impact audit
+
+5.
+palmar-root targeted deformation
+
+重点：
+
+MID_MCP_15
+MID_MCP_30
+MID_MCP_45
+
+6.
+Full Stage6A 42-case requalification
+
+7.
+Human visual review
+
+8.
+current9 closure 恢复处理
+
+9.
+whole-hand surface integrity baseline
+
+10.
+之后才考虑 Stage6B。
+
+注意：
+
+true-cap 是否需要完整重算
+由正式 impact audit 决定，
+
+不得自动跳过，
+也不得机械重算后假装没检查影响范围。
+
+==================================================
+二十、成功 verdict
+==================================================
+
+只有：
+
+HUMAN_APPROVAL_BOUND = PASS
+
+SOURCE_HASH_VERIFIED = PASS
+
+APPROVED_WRITE_SET = 16/16
+
+ACTUAL_CHANGED_VERTEX_COUNT = 16
+
+OUTSIDE16_DRIFT = 0
+
+NORMAL69_DRIFT = 0
+
+CANDIDATE_APPLICATION_EQUIVALENCE = PASS
+
+STRUCTURAL_GATE = PASS
+
+TOPOLOGY_PRESERVED = PASS
+
+UV_MATERIAL_PRESERVED = PASS
+
+SOURCE_SHAPE_FIDELITY = PASS
+
+VISUAL_APPLICATION_EQUIVALENCE = PASS
+
+SAVE_REOPEN = PASS
+
+PROTECTED_HISTORY_DRIFT = 0
+
+才能输出：
+
+PALMAR_DIGIT_ROOT_DONOR_RESTORATION_APPLICATION_R1
+=
+PASS_APPLIED_TO_NEW_STAGE4C_DERIVED_REVISION
+
+注意：
+
+APPLIED
+只表示新 Stage4C revision 已建立。
+
+不表示：
+
+Stage5 propagated
+deformation qualified
+Full42 PASS
+production ready。
+
+==================================================
+二十一、失败条件
+==================================================
+
+任一：
+
+hash mismatch
+
+write-set mismatch
+
+coordinate mismatch
+
+17th vertex drift
+
+normal69 drift
+
+topology drift
+
+UV/material drift
+
+new structure defect
+
+candidate/application visual mismatch
+
+save/reopen drift
+
+都必须：
+
+FAIL_CLOSED_PALMAR_DONOR_RESTORATION_APPLICATION
+
+STOP。
+
+禁止：
+
+重新计算 donor target
+
+自由优化
+
+扩大 scope
+
+改 normals
+
+修 weights
+
+retopo。
+
+==================================================
+二十二、输出
+==================================================
+
+至少生成：
+
+PALMAR_DIGIT_ROOT_DONOR_RESTORATION_APPLICATION_R1_REPORT.md
+
+PALMAR_DIGIT_ROOT_DONOR_RESTORATION_APPLICATION_R1_STATUS.json
+
+HUMAN_PALMAR_DIGIT_ROOT_DONOR_RESTORATION_APPROVAL_R1.md
+
+HUMAN_PALMAR_DIGIT_ROOT_DONOR_RESTORATION_APPROVAL_R1.json
+
+PALMAR_APPLICATION_WRITE_VERIFICATION_R1.json
+
+PALMAR_APPLICATION_GEOMETRY_EQUIVALENCE_R1.json
+
+PALMAR_APPLICATION_STRUCTURE_AUDIT_R1.json
+
+PALMAR_APPLICATION_CONTACT_AUDIT_R1.json
+
+PALMAR_APPLICATION_NORMAL_CONTEXT_AUDIT_R1.json
+
+PALMAR_APPLICATION_SOURCE_FIDELITY_R1.json
+
+PALMAR_APPLICATION_SAVE_REOPEN_AUDIT_R1.json
+
+PALMAR_APPLICATION_DOWNSTREAM_REVALIDATION_PLAN_R1.json
+
+PALMAR_APPLICATION_PROTECTED_HISTORY_HASH_AUDIT_R1.json
+
+review.html
+
+以及：
+
+新的 Stage4C derived .blend。
+
+==================================================
+二十三、最终字段
+==================================================
+
+HUMAN_AMENDMENT_APPROVAL = ?
+
+DONOR_SOURCE_HASH = ?
+
+SOURCE_STAGE4C_HASH = ?
+
+APPROVED_FORMAL_CANDIDATE_HASH =
+278dd6b9462f96f4261319688f64a063ab79f76abb772bee09e62ce0eb43130d
+
+APPROVED_WRITE_SET_COUNT = 16
+
+ACTUAL_CHANGED_VERTEX_COUNT = ?
+
+OUTSIDE16_POSITION_DRIFT = ?
+
+NORMAL69_POSITION_DRIFT = ?
+
+MAX_COORD_DELTA_VS_APPROVED_TARGET_MM = ?
+
+APPLICATION_ASSET_PATH = ?
+
+APPLICATION_ASSET_SHA256 = ?
+
+APPROVED_CANDIDATE_TO_APPLICATION_GEOMETRY_EQUIVALENCE = ?
+
+TOPOLOGY_DRIFT = ?
+
+UV_DRIFT = ?
+
+MATERIAL_DRIFT = ?
+
+NEW_TRUE3D_CONTACT_COUNT = ?
+
+NEW_SELF_INTERSECTION_COUNT = ?
+
+FACE_REVERSAL_COUNT = ?
+
+DEGENERATE_COUNT = ?
+
+BASELINE_CONTACT_WORSENING_COUNT = ?
+
+SOURCE_SHAPE_FIDELITY_MAX_MM = ?
+
+SOURCE_SHAPE_FIDELITY_RMS_MM = ?
+
+PRIMARY_DEFECT_APPLICATION_STATUS = ?
+
+NATURAL_CREASE_APPLICATION_STATUS = ?
+
+NORMAL_REGION_APPLICATION_STATUS = ?
+
+SAVE_REOPEN = ?
+
+CURRENT9_HUMAN_RESPONSE =
+HOLD_NOT_CLOSED
+
+MID_MCP_45_MANDATORY_REVALIDATION =
+YES
+
+PRODUCTION_PROMOTION = NO
+
+PROTECTED_HISTORY_DRIFT = ?
+
+APPLICATION_VERDICT = ?
+
+==================================================
+二十四、NEXT
+==================================================
+
+如果 PASS：
+
+NEXT =
+STAGE5_GEOMETRY_PROPAGATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+
+只记录，不执行。
+
+本轮结束：
+
+STOP。

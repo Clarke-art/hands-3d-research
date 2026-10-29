@@ -1,0 +1,331 @@
+{
+ "stage": "STAGE5B_HUMAN_APPROVAL_FREEZE_R1",
+ "generated_at": "2026-09-30T08:04:14.443339+08:00",
+ "mode": "DOCUMENTATION_ONLY (no blend created, no weight modified)",
+ "zeroth_final_state": {
+  "STAGE5B": "FINAL_APPROVED",
+  "STAGE5B_R1A": "APPROVED_STAGE5B_STATIC_SKIN_MASTER",
+  "PRODUCTION_BINDING": "FINAL_APPROVED",
+  "PRODUCTION_SKIN_WEIGHT_STATIC": "FINAL_APPROVED",
+  "STAGE5B_FREEZE": "PASS",
+  "STAGE6": "READY_TO_BEGIN",
+  "note": "STAGE6 must never be written as STARTED in this round"
+ },
+ "human_review": {
+  "STAGE5B_R1A_HUMAN_REVIEW": "APPROVED",
+  "approved_gates": {
+   "PRODUCTION_BINDING": "APPROVED",
+   "FOUR_FINGER_SKIN_WEIGHT": "APPROVED",
+   "WRIST_WEIGHT": "APPROVED",
+   "THUMB_CHAIN_WEIGHTING": "APPROVED",
+   "THUMB_CMC_THENAR_LOCALITY": "APPROVED",
+   "THUMB_MCP_LOCALITY": "APPROVED",
+   "THUMB_IP_DISTAL_LOCALITY": "APPROVED",
+   "FIRST_WEB_WEIGHTING": "APPROVED",
+   "NAIL_WEIGHT_OWNERSHIP": "APPROVED",
+   "PRODUCTION_SKIN_WEIGHT_STATIC": "APPROVED"
+  },
+  "stage6_dynamic_deformation": "NOT_STARTED"
+ },
+ "active_stage5b_master": {
+  "path": "production_spec/stage5_production_rig/stage5b_r1a/RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1A.blend",
+  "sha256": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6",
+  "bytes": 2293759,
+  "mesh_object": "Hand  - Realistic",
+  "rig_object": "RIGHT_HAND_PRODUCTION_RIG",
+  "parent": "RIGHT_HAND_PRODUCTION_RIG",
+  "armature_modifier": "PRODUCTION_ARMATURE",
+  "production_bone_count": 21,
+  "deform_bones": 16,
+  "deform_vertex_groups": 16,
+  "tip_helpers": [
+   "THUMB_TIP_R",
+   "INDEX_TIP_R",
+   "MIDDLE_TIP_R",
+   "RING_TIP_R",
+   "LITTLE_TIP_R"
+  ],
+  "tip_helpers_with_deform_weight": []
+ },
+ "frozen_weighting_method": {
+  "THUMB_LONGITUDINAL_AUTHORITY": "APPROVED_JOINT_POLYLINE_ARC_LENGTH",
+  "joint_chain": "CMC -> MCP -> IP -> TIP",
+  "XIJ_thumb_arc_mm": [
+   0.0,
+   42.6796,
+   71.8815,
+   93.9454
+  ],
+  "FORBIDDEN": "GLOBAL_SURFACE_GEODESIC_FROM_DISTAL_TIP",
+  "LOCAL_DISTAL_CAP_GEODESIC_9MM": "REMAINS_APPROVED",
+  "derived_constants": {
+   "tau_mm": 3.8882,
+   "R_TT_mm": 9.44,
+   "R_MAX_mm": 29.87,
+   "R_TUBE_mm": 13.33,
+   "rule": "all data derived from the mesh median edge length / lateral distance percentiles; no hand-picked constant"
+  },
+  "partition_of_unity": {
+   "W_IP": "1 - t_IP",
+   "W_MCP": "t_IP - t_MCP",
+   "W_CMC": "(1 - t_MCP) * f_tube(d)",
+   "W_WRIST": "(1 - t_MCP) * (1 - f_tube(d))",
+   "f_tube": "1 - S((d - R_TT)/(R_MAX - R_TT))"
+  },
+  "semantic_regions": {
+   "THUMB_DISTAL": {
+    "vertices": 161,
+    "expected_dominant": "THUMB_IP_R"
+   },
+   "THUMB_PROXIMAL": {
+    "vertices": 107,
+    "expected_dominant": "THUMB_MCP_R"
+   },
+   "THUMB_FIRST_METACARPAL": {
+    "vertices": 153,
+    "expected_dominant": "THUMB_CMC_R"
+   },
+   "THUMB_BASE_FOLD": {
+    "vertices": 37,
+    "expected_dominant": "THUMB_MCP_R (proximal-phalanx level fold)"
+   },
+   "THENAR_BASE": {
+    "vertices": 287,
+    "expected_dominant": "WRIST_R + THUMB_CMC_R"
+   },
+   "FIRST_WEB": {
+    "vertices": 21,
+    "expected_dominant": "WRIST_R + THUMB_CMC_R + THUMB_MCP_R + INDEX_MCP_R",
+    "THUMB_IP_WEIGHT": 0
+   },
+   "CENTRAL_PALM": {
+    "vertices": 1199,
+    "expected_dominant": "WRIST_R",
+    "modified": false
+   }
+  },
+  "region_authority": "stage5b_r1a/THUMB_SEMANTIC_REGION_AUDIT.json"
+ },
+ "frozen_gate_values": {
+  "FIRST_WEB_THUMB_IP_WEIGHT": 0.0,
+  "FIRST_WEB_THUMB_IP_WEIGHT_R1": 14.0,
+  "FIRST_WEB_WHITELIST": "PASS",
+  "FIRST_WEB_VIOLATIONS": 0,
+  "THUMB_NAIL": "22 / 22 THUMB_IP dominant",
+  "THUMB_NAIL_fraction": 1.0,
+  "FOUR_FINGER_NAIL_fractions": {
+   "index": 1.0,
+   "middle": 1.0,
+   "ring": 1.0,
+   "little": 1.0
+  },
+  "UNAUTHORIZED_CHANGED_VERTICES": 0,
+  "FROZEN_FOUR_FINGER_GROUP_DRIFT": 0,
+  "CROSS_DIGIT_LEAKAGE": "PASS_WITH_DOCUMENTED_CARRY_OVER_RESIDUE",
+  "THUMB_CHAIN_DOMINANCE_BY_REGION": "PASS",
+  "unexpected_dominant_by_region": {
+   "THUMB_DISTAL": 0,
+   "THUMB_PROXIMAL": 0,
+   "THUMB_FIRST_METACARPAL": 0,
+   "THUMB_BASE_FOLD": 0,
+   "THENAR_BASE": 0,
+   "FIRST_WEB": 0,
+   "CENTRAL_PALM": 0
+  },
+  "authorised_region_vertices": 703,
+  "changed_vertices": 696
+ },
+ "static_integrity_freeze": {
+  "V": 3416,
+  "E": 6828,
+  "F": 3414,
+  "TRIS": 6828,
+  "topology_delta": 0,
+  "uv_delta": 0,
+  "material_delta": 0,
+  "nail_face_delta": 0,
+  "deform_vertex_groups": 16,
+  "tip_helpers_no_deform_weight": true,
+  "max_influences": 4,
+  "influence_distribution": {
+   "0": 0,
+   "1": 951,
+   "2": 244,
+   "3": 51,
+   "4": 2170,
+   ">4": 0
+  },
+  "unweighted_vertices": 0,
+  "worst_normalization_error": 4.4005e-08,
+  "WEIGHT_NORMALIZATION": "PASS",
+  "ZERO_POSE_BIND": "PASS",
+  "parent": "RIGHT_HAND_PRODUCTION_RIG",
+  "modifiers": [
+   [
+    "PRODUCTION_ARMATURE",
+    "ARMATURE",
+    "RIGHT_HAND_PRODUCTION_RIG"
+   ]
+  ],
+  "world_delta_vs_master_mm": 0.0
+ },
+ "zero_pose_frozen_values": {
+  "max_evaluated_vertex_delta_mm": 5.967e-05,
+  "mean_evaluated_vertex_delta_mm": 5.893e-06,
+  "bbox_delta_mm_max": 7.451e-06,
+  "base_mesh_vertex_delta_mm": 0.0,
+  "parent_world_delta_mm": 0.0,
+  "classification": "FLOAT_EQUIVALENT_ZERO",
+  "reverification_note": {
+   "max_reproduced_mm": 5.967e-05,
+   "mean_reproduced_mm": 5.649e-06,
+   "bbox_reproduced_mm": [
+    0.0,
+    7.451e-06,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "base_mesh_reproduced_mm": 0.0,
+   "statement": "max / bbox / base-mesh / parent-world reproduce exactly; the mean differs in the 3rd significant digit between two independent read-only depsgraph evaluations, both float32 noise level.  The R1A audit value (5.893e-06 mm) remains the frozen authority; the classification is unchanged."
+  }
+ },
+ "provenance_chain": {
+  "STAGE5B_R1": {
+   "status": "SUPERSEDED_FOR_THUMB_WEIGHTING",
+   "blend": "stage5b_r1/RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1.blend",
+   "sha256": "8f4c6901fdae417e3855d388f9739ebea10863f0ebdbfedf0df8d79a751c308d",
+   "provenance_retained": true,
+   "hr_verdict": "REQUEST_CHANGES_NARROW",
+   "failed_gates": [
+    "THUMB_CHAIN_WEIGHTING",
+    "FIRST_WEB_WEIGHTING"
+   ]
+  },
+  "STAGE5B_R1A": {
+   "status": "APPROVED_STAGE5B_STATIC_SKIN_MASTER",
+   "blend": "stage5b_r1a/RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1A.blend",
+   "sha256": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6"
+  },
+  "new_blend_created_this_round": false,
+  "R1B_R1C_R2_created": false
+ },
+ "stage6_binding_obligations": {
+  "scope": "STATIC_SKIN_WEIGHT_APPROVAL != FINAL_DEFORMATION_APPROVAL",
+  "required_tests": [
+   "THUMB CMC oppose",
+   "THUMB MCP flex",
+   "THUMB IP flex",
+   "CMC + MCP + IP combined opposition",
+   "first web deformation",
+   "thenar volume preservation",
+   "thumb distal volume preservation",
+   "thumb fingertip stability",
+   "nail / distal-cap distortion",
+   "pinching",
+   "collapse",
+   "candy-wrapper",
+   "skin inversion",
+   "cross-digit contamination",
+   "four-finger MCP / PIP / DIP flexion"
+  ],
+  "thumb_distal_exception_still_binding": {
+   "THUMB_IP_TO_TIP_STRAIGHT_CHORD_CONTAINMENT": "DIAGNOSTIC_ONLY",
+   "rule": "Stage6 must not auto-FAIL on a debug bone chord locally leaving the soft-tissue mesh; Stage6 judges actual skin deformation quality"
+  },
+  "diagnosis_order_if_stage6_fails": [
+   "skin weight",
+   "weight transition",
+   "first-web / thenar ownership",
+   "CMC cage consumption",
+   "rig local-axis mechanics",
+   "topology (only if required)"
+  ],
+  "escalation_rule": "any joint position / bone count / rig architecture reopening requires Human Review"
+ },
+ "registered_provenance_records": [
+  {
+   "id": "VERTEX_2189_CARRY_OVER_RESIDUE",
+   "status": "ACCEPTED_NON_BLOCKING_PROVENANCE",
+   "not": [
+    "PASS_AS_DESIGNED",
+    "GENERAL_EXCEPTION"
+   ],
+   "flags": [
+    "DO_NOT_PROPAGATE_AS_GENERAL_EXCEPTION",
+    "IF_THE_WHOLE_WEIGHT_SET_IS_EVER_REGENERATED_SHOULD_BE_CLEANED"
+   ],
+   "vertex": 2189,
+   "residual_group": "INDEX_PIP_R",
+   "residual_weight": 0.000244808878,
+   "residual_R1": 0.000244808878,
+   "before_equals_after": true,
+   "doc": "stage5b_r1a/STAGE5B_R1A_VERTEX2189_CARRY_OVER_ERRATA.md"
+  },
+  {
+   "id": "THUMB_CMC_LOCALITY_NUMERIC_RECONCILIATION",
+   "status": "CLOSED",
+   "report_stale_value": 1.0,
+   "report_value_classification": "STALE_WORDING (no machine readable backing)",
+   "status_json_value": 0.925204,
+   "status_json_value_classification": "AMBIGUOUS_NAMING; numerically equal to authoritative metric B",
+   "authoritative_metric_A_THUMB_CMC_NONZERO_VERTEX_COVERAGE_IN_TARGET_REGIONS_eps1e-8": {
+    "numerator": 339,
+    "denominator": 907,
+    "value": 0.373759647
+   },
+   "authoritative_metric_B_THUMB_CMC_WEIGHT_MASS_SHARE_IN_TARGET_REGIONS": {
+    "numerator": 225.194429466,
+    "denominator": 243.399683286,
+    "value": 0.925204283
+   },
+   "max_value_over_all_region_unions_studied": 0.972791,
+   "human_review": "THUMB_CMC_THENAR_LOCALITY APPROVED - NOT reopened",
+   "doc": "stage5b_r1a/STAGE5B_R1A_CMC_LOCALITY_NUMERIC_ERRATA.md"
+  },
+  {
+   "id": "GEODESIC_LONGITUDINAL_COORDINATE_LIMITATION",
+   "status": "CLOSED",
+   "GLOBAL_THUMB_LONGITUDINAL_COORDINATE": "APPROVED_JOINT_POLYLINE_ARC_LENGTH",
+   "FORBIDDEN": "GLOBAL_SURFACE_GEODESIC_FROM_DISTAL_TIP",
+   "LOCAL_DISTAL_CAP_GEODESIC_9MM": "REMAINS_APPROVED",
+   "doc": "stage5b_r1a/STAGE5B_R1A_GEODESIC_LONGITUDINAL_METHOD_ERRATA.md"
+  }
+ ],
+ "frozen_hashes_before_after": {
+  "stage5a_master": {
+   "sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+   "before": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+   "after": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+   "unchanged": true
+  },
+  "stage5b_r1": {
+   "sha256": "8f4c6901fdae417e3855d388f9739ebea10863f0ebdbfedf0df8d79a751c308d",
+   "before": "8f4c6901fdae417e3855d388f9739ebea10863f0ebdbfedf0df8d79a751c308d",
+   "after": "8f4c6901fdae417e3855d388f9739ebea10863f0ebdbfedf0df8d79a751c308d",
+   "unchanged": true
+  },
+  "stage5b_r1a": {
+   "sha256": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6",
+   "before": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6",
+   "after": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6",
+   "unchanged": true
+  },
+  "all_unchanged": true
+ },
+ "artifacts": {
+  "stage5b_freeze": [
+   "STAGE5B_HUMAN_APPROVAL_FREEZE_R1.md",
+   "STAGE5B_HUMAN_APPROVAL_FREEZE_R1.json",
+   "STAGE5B_FREEZE_VERIFICATION_R1.json"
+  ],
+  "stage5b_r1a": [
+   "STAGE5B_R1A_CMC_LOCALITY_NUMERIC_ERRATA.md",
+   "STAGE5B_R1A_CMC_LOCALITY_NUMERIC_RECOMPUTE.json",
+   "STAGE5B_R1A_VERTEX2189_CARRY_OVER_ERRATA.md",
+   "STAGE5B_R1A_GEODESIC_LONGITUDINAL_METHOD_ERRATA.md"
+  ]
+ },
+ "stop_point": "No new blend, no weight change, no Stage6.  STAGE6 = READY_TO_BEGIN only."
+}

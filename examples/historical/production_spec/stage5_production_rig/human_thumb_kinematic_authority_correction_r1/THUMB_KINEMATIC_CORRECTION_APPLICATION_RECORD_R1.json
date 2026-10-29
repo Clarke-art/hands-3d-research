@@ -1,0 +1,40 @@
+{
+  "record_id": "THUMB_KINEMATIC_CORRECTION_APPLICATION_RECORD_R1",
+  "execution": "HUMAN_THUMB_KINEMATIC_AUTHORITY_CORRECTION",
+  "status": "HUMAN_APPROVED_APPLIED_VERIFIED",
+  "approval_record": "HUMAN_THUMB_KINEMATIC_APPROVAL_R1.json",
+  "authority_record": "THUMB_DISTAL_IP_TIP_KINEMATIC_CORRECTION_AUTHORITY_R1.json",
+  "authority_combined_hash": "6325d030cbc1b12369bb208044657cb711aa29af017509cf52ce03c948c080c4",
+  "corrected_rig": {
+    "path": "production_spec\\stage5_production_rig\\human_thumb_kinematic_authority_correction_r1\\RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+    "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+  },
+  "slot_results": {
+    "THUMB_IP_R.head": "KEEP_CURRENT_REVALIDATED_UNCHANGED",
+    "THUMB_IP_R.tail": "HUMAN_APPROVED_CORRECTION_APPLIED",
+    "THUMB_IP_R.roll": "HUMAN_APPROVED_CORRECTION_APPLIED",
+    "THUMB_TIP_R.head": "HUMAN_APPROVED_CORRECTION_APPLIED",
+    "THUMB_TIP_R.tail": "HUMAN_APPROVED_CORRECTION_APPLIED",
+    "THUMB_TIP_R.roll": "HUMAN_APPROVED_CORRECTION_APPLIED"
+  },
+  "source_candidate_classifications_remain_historical": true,
+  "candidate_storage_errors": "see THUMB_KINEMATIC_BEFORE_AFTER_SLOT_VALUES.json; exact float32 local values; TIP tail world error 0.0000631503 mm",
+  "output_saved_reloaded_exact_match": true,
+  "hierarchy_origin_unrelated_bones_verification": "PASS",
+  "historical_protected_state_verification": "PASS",
+  "effective_thumb_kinematic_input_for_next_reconciliation": "production_spec\\stage5_production_rig\\human_thumb_kinematic_authority_correction_r1\\RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+  "current_hardcoded_downstream_loaders_updated": false,
+  "downstream_approval_not_granted": [
+    "R2",
+    "R3",
+    "skin weights",
+    "Stage5B",
+    "Stage6A",
+    "Stage6B",
+    "strict-bound results"
+  ],
+  "downstream_reconciliation_required": true,
+  "NEXT": "CAP_DERIVED_R2_R3_INPUT_RECONCILIATION_R1",
+  "STOP": true,
+  "combined_application_hash": "cbaee30b4104af1b27fb6116b948c3760bf3d42e880e32711bd341679c5ec209"
+}

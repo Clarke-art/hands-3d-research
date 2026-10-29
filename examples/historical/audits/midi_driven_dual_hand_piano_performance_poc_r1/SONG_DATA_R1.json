@@ -1,0 +1,15 @@
+{
+  "title": "Musette, BWV Anh.126",
+  "midi": "source/anna-magdalena-22.mid",
+  "score_pdf": "source/anna-magdalena-22-a4.pdf",
+  "measures": [1, 2],
+  "track_hand_map": {"1": "R", "2": "L"},
+  "fingering_plan": "PROVISIONAL_FINGERING_PLAN_R1.json",
+  "timeline": "PERFORMANCE_TIMELINE_R1.json",
+  "execution_layout": {
+    "R": {"home_midi_by_finger": [74,76,78,79,81], "home_depth_m_by_finger": [0.028,0.043,0.066,0.042,0.034], "root_seed_x_m": 0.25},
+    "L": {"home_midi_by_finger": [50,47,45,41,38], "home_depth_m_by_finger": [0.028,0.045,0.045,0.042,0.032], "root_seed_x_m": -0.227}
+  },
+  "scope": "One excerpt only. New songs require reviewed staff/hand assignment and explicit provisional fingering/layout, followed by a new candidate validation. No automatic fingering search or universal MIDI claim.",
+  "implementation_note": "Execution layout was factored out of the identical literal values in the first motion-plan run; candidate arrays and parameters were not regenerated or changed."
+}

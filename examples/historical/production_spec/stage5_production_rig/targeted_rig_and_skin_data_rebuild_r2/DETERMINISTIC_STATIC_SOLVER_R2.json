@@ -1,0 +1,37 @@
+{
+  "status": "CONVERGED",
+  "method": "Reuse approved sorted cyclic positive-edge harmonic initialization; deterministic Dykstra Euclidean projection onto exact driver/profile simplices and all incident L_inf/L1 gate constraints.",
+  "objective": "Minimum Euclidean departure from static harmonic field under approved support and continuity; no pose/deformation loss.",
+  "harmonic_prior_strength": 0.01,
+  "harmonic_sweeps": 165,
+  "deterministic_order": "ascending vertex/edge IDs, stable component sorting, fixed greedy edge colors",
+  "fixed_initialization": "R1 vectors then static bone-distance harmonic initialization",
+  "projection_tolerance": 1e-10,
+  "projection_max_sweeps": 30000,
+  "edge_color_count": 6,
+  "constrained_edge_count": 363,
+  "solver": {
+    "converged": true,
+    "sweeps": 100,
+    "rounding_guard": 2e-06,
+    "progress": [
+      {
+        "sweep": 100,
+        "vertex_projection_residual": 6.329381463388017e-13,
+        "edge_gate_residual": 1.1102230246251565e-16,
+        "max_change": 9.0427665355719e-13
+      }
+    ]
+  },
+  "cap37_and_compatible_distal_field_fixed_exact": true,
+  "proximal_rule": "Continuous base-budget repair with conditional corrected-arc quintic IP/MCP blend; geometry/topology/support only.",
+  "canonical_gates": {
+    "L_inf": 0.5,
+    "L1": 1,
+    "no_regression_tolerance": 1e-05
+  },
+  "threshold_relaxations": [],
+  "scope_extensions": [],
+  "deformation_runs": 0,
+  "Stage6_runs": 0
+}

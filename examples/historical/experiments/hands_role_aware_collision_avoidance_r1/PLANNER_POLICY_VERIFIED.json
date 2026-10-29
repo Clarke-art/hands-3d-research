@@ -1,0 +1,233 @@
+{
+  "method": "ROLE_FRONT_PORTAL_AND_RELEASE_LIFT",
+  "times": [
+    3.743568,
+    3.778568,
+    3.818568
+  ],
+  "roles": [
+    [
+      {
+        "digit": "THUMB",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      },
+      {
+        "digit": "INDEX",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      },
+      {
+        "digit": "MIDDLE",
+        "role": "PREPARING",
+        "event_id": "R11",
+        "next_event_id": "R11"
+      },
+      {
+        "digit": "RING",
+        "role": "ACTIVE_HOLD",
+        "event_id": "R10",
+        "next_event_id": null
+      },
+      {
+        "digit": "LITTLE",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      }
+    ],
+    [
+      {
+        "digit": "THUMB",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      },
+      {
+        "digit": "INDEX",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      },
+      {
+        "digit": "MIDDLE",
+        "role": "ACTIVE_HOLD",
+        "event_id": "R11",
+        "next_event_id": null
+      },
+      {
+        "digit": "RING",
+        "role": "RELEASING",
+        "event_id": "R10",
+        "next_event_id": null
+      },
+      {
+        "digit": "LITTLE",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      }
+    ],
+    [
+      {
+        "digit": "THUMB",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      },
+      {
+        "digit": "INDEX",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      },
+      {
+        "digit": "MIDDLE",
+        "role": "ACTIVE_HOLD",
+        "event_id": "R11",
+        "next_event_id": null
+      },
+      {
+        "digit": "RING",
+        "role": "PREPARING",
+        "event_id": "R12",
+        "next_event_id": "R12"
+      },
+      {
+        "digit": "LITTLE",
+        "role": "IDLE",
+        "event_id": null,
+        "next_event_id": null
+      }
+    ]
+  ],
+  "targets": [
+    [
+      {
+        "finger": 3,
+        "role": "PREPARING",
+        "target_world_m": [
+          0.215446314627,
+          0.014826413175301992,
+          0.0034999999206427592
+        ],
+        "source_world_m": [
+          1.3173710588870748,
+          -0.9752645456005807,
+          -0.0857913503156285
+        ]
+      },
+      {
+        "finger": 4,
+        "role": "ACTIVE_HOLD",
+        "target_world_m": [
+          1.3197036876932977,
+          -0.9825127357555062,
+          -0.10112536615370005
+        ],
+        "source_world_m": [
+          1.3197036876932977,
+          -0.9825127357555062,
+          -0.10112536615370005
+        ]
+      }
+    ],
+    [
+      {
+        "finger": 3,
+        "role": "ACTIVE_HOLD",
+        "target_world_m": [
+          0.215446314627,
+          0.014826413175301992,
+          0.0004999999206427592
+        ],
+        "source_world_m": [
+          1.3276369594308621,
+          -0.9750387775508358,
+          -0.07034915366266478
+        ]
+      },
+      {
+        "finger": 4,
+        "role": "RELEASING",
+        "target_world_m": [
+          1.332320656944692,
+          -0.9788882322613218,
+          1.5326508440846995
+        ],
+        "source_world_m": [
+          1.332320656944692,
+          -0.9788882322613218,
+          -0.08372020673215945
+        ]
+      }
+    ],
+    [
+      {
+        "finger": 3,
+        "role": "ACTIVE_HOLD",
+        "target_world_m": [
+          0.215446314627,
+          0.013885807448115184,
+          -0.008211805228470773
+        ],
+        "source_world_m": [
+          1.3365735028710137,
+          -0.9782379994184455,
+          -0.07065374515536557
+        ]
+      },
+      {
+        "finger": 4,
+        "role": "PREPARING",
+        "target_world_m": [
+          1.344845392873882,
+          -0.9737691637790872,
+          -0.07416936212664446
+        ],
+        "source_world_m": [
+          1.344845392873882,
+          -0.9737691637790872,
+          -0.07416936212664446
+        ]
+      }
+    ]
+  ],
+  "changed_digits": [
+    "MIDDLE",
+    "RING"
+  ],
+  "capsule_radii_m": {
+    "2": [
+      1.526686276546956,
+      1.5169125651529274
+    ],
+    "3": [
+      1.5162066640469,
+      0.0005
+    ]
+  },
+  "support_points_per_digit": 3,
+  "variables": 24,
+  "preflight_max_nfev": 35,
+  "trust_deg": [
+    12,
+    18,
+    14,
+    6
+  ],
+  "collision_guidance": "Frozen-FK distal capsules + local key bodies; final actual Blender skin required",
+  "preserves": [
+    "root",
+    "left",
+    "other digits",
+    "keys",
+    "MIDI",
+    "fingering"
+  ],
+  "model_parity_mm": 0.0006408972086771841,
+  "no_pitch_angle_constants": true,
+  "no_fixed_frame_corrections": true
+}

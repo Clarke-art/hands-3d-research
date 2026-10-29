@@ -1,0 +1,3253 @@
+{
+  "source": {
+    "path": "audits/minimal_local_geometry_amendment_design_r3/COLLISION_CONSTRAINED_SOLVE_AUDIT_R3.json",
+    "sha256": "7b728593cc2abe28b76b9ebaf546a08bfa74d972948f48288a94619e7b38c753"
+  },
+  "selected_solve_ids": [
+    "R3_A_S3_V2",
+    "R3_A_S4_V2",
+    "R3_A_S5_V2",
+    "R3_B_S3_V3",
+    "R3_B_S4_V3",
+    "R3_B_S5_V3"
+  ],
+  "all_trace_solve_ids_including_superseded": [
+    "R3_A_S3",
+    "R3_B_S3",
+    "R3_A_S4",
+    "R3_A_S3_V2",
+    "R3_B_S3_V2",
+    "R3_A_S4_V2",
+    "R3_B_S4_V2",
+    "R3_A_S5_V2",
+    "R3_B_S5_V2",
+    "R3_B_S3_V3",
+    "R3_B_S4_V3",
+    "R3_B_S5_V3"
+  ],
+  "pair_count": 13,
+  "pairs": [
+    {
+      "face_ids": [
+        204,
+        207
+      ],
+      "classification_at_baseline": "NEAR_CONTACT_WARNING",
+      "classification_at_R3_failed_point": "NEAR_CONTACT_WARNING",
+      "trace_occurrences": {
+        "constraint_occurrences": 12,
+        "solve_ids": [
+          "R3_B_S5_V2",
+          "R3_B_S5_V3"
+        ],
+        "feature_kinds": [
+          "VERTEX_TRIANGLE"
+        ],
+        "four_point_features": []
+      },
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3316,
+            3324,
+            2531,
+            2089
+          ],
+          [
+            3300,
+            3308,
+            1107,
+            181
+          ]
+        ],
+        "shared_vertex_ids": [],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.9946033369152428,
+        "whole_pair_unsigned_minimum_distance_mm": 0.024319952062078574,
+        "whole_pair_distance_is_not_off_shared_feature_margin": false,
+        "fan_pair_tests": [
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              414
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              415
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              414
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              415
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": false,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3316,
+            3324,
+            2531,
+            2089
+          ],
+          [
+            3300,
+            3308,
+            1107,
+            181
+          ]
+        ],
+        "shared_vertex_ids": [],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.9983410242744761,
+        "whole_pair_unsigned_minimum_distance_mm": 0.021028827154664545,
+        "whole_pair_distance_is_not_off_shared_feature_margin": false,
+        "fan_pair_tests": [
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              414
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              415
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              414
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              415
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": false,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        204,
+        3313
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {},
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3316,
+            3324,
+            2531,
+            2089
+          ],
+          [
+            2531,
+            2096,
+            3307,
+            3308
+          ]
+        ],
+        "shared_vertex_ids": [
+          2531
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.8908475841367203,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.3008604049683,
+                13.225621543824673,
+                487.30596899986267
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6626
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.3008604049683,
+                13.225621543824673,
+                487.30596899986267
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6627
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.3008604049683,
+                13.225621543824673,
+                487.30596899986267
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6626
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.3008604049683,
+                13.225621543824673,
+                487.30596899986267
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6627
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3316,
+            3324,
+            2531,
+            2089
+          ],
+          [
+            2531,
+            2096,
+            3307,
+            3308
+          ]
+        ],
+        "shared_vertex_ids": [
+          2531
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.8843584359580905,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.288559003869,
+                13.230295679898365,
+                487.29804832821634
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6626
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.288559003869,
+                13.230295679898365,
+                487.29804832821634
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6627
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.288559003869,
+                13.230295679898365,
+                487.29804832821634
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6626
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.288559003869,
+                13.230295679898365,
+                487.29804832821634
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6627
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        204,
+        3314
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {},
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3316,
+            3324,
+            2531,
+            2089
+          ],
+          [
+            3347,
+            3332,
+            3316,
+            3331
+          ]
+        ],
+        "shared_vertex_ids": [
+          3316
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.9804014408825057,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6628
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6629
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6628
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6629
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3316,
+            3324,
+            2531,
+            2089
+          ],
+          [
+            3347,
+            3332,
+            3316,
+            3331
+          ]
+        ],
+        "shared_vertex_ids": [
+          3316
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.989062544791763,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6628
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6629
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6628
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6629
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        204,
+        3329
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {},
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3316,
+            3324,
+            2531,
+            2089
+          ],
+          [
+            3332,
+            3340,
+            3324,
+            3316
+          ]
+        ],
+        "shared_vertex_ids": [
+          3316,
+          3324
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            3324,
+            3316
+          ]
+        ],
+        "native_face_normal_dot": 0.9994186495306767,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.253415107727,
+                14.65681567788124,
+                483.982115983963
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6658
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 3.2386053515017776,
+            "points_world_mm": [
+              [
+                1400.253415107727,
+                14.65681567788124,
+                483.982115983963
+              ],
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6659
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6658
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6659
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3316,
+            3324,
+            2531,
+            2089
+          ],
+          [
+            3332,
+            3340,
+            3324,
+            3316
+          ]
+        ],
+        "shared_vertex_ids": [
+          3316,
+          3324
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            3324,
+            3316
+          ]
+        ],
+        "native_face_normal_dot": 0.9989241982049474,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.2553824239521,
+                14.653462734983144,
+                483.9857141474579
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6658
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 3.245671989768268,
+            "points_world_mm": [
+              [
+                1400.2553824239521,
+                14.653462734983144,
+                483.9857141474579
+              ],
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              408,
+              6659
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6658
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              409,
+              6659
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        516,
+        3315
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {},
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3322,
+            3331,
+            2609,
+            2095
+          ],
+          [
+            3338,
+            3347,
+            3331,
+            3322
+          ]
+        ],
+        "shared_vertex_ids": [
+          3322,
+          3331
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            3331,
+            3322
+          ]
+        ],
+        "native_face_normal_dot": 0.9993602233693706,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.078224182129,
+                9.68873593956232,
+                480.33592104911804
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1032,
+              6630
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.862041808011181,
+            "points_world_mm": [
+              [
+                1401.078224182129,
+                9.68873593956232,
+                480.33592104911804
+              ],
+              [
+                1399.894118309021,
+                7.504662498831749,
+                478.9150059223175
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1032,
+              6631
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1033,
+              6630
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1399.894118309021,
+                7.504662498831749,
+                478.9150059223175
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1033,
+              6631
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3322,
+            3331,
+            2609,
+            2095
+          ],
+          [
+            3338,
+            3347,
+            3331,
+            3322
+          ]
+        ],
+        "shared_vertex_ids": [
+          3322,
+          3331
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            3331,
+            3322
+          ]
+        ],
+        "native_face_normal_dot": 0.998689476718317,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.9741011364194,
+                9.663755366051054,
+                480.3263573343099
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1032,
+              6630
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.814930402460688,
+            "points_world_mm": [
+              [
+                1400.9741011364194,
+                9.663755366051054,
+                480.3263573343099
+              ],
+              [
+                1399.86468985847,
+                7.497417767360466,
+                478.9121362781961
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1032,
+              6631
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1033,
+              6630
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1399.86468985847,
+                7.497417767360466,
+                478.9121362781961
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1033,
+              6631
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        517,
+        3314
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {},
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3331,
+            3316,
+            2089,
+            2609
+          ],
+          [
+            3347,
+            3332,
+            3316,
+            3331
+          ]
+        ],
+        "shared_vertex_ids": [
+          3316,
+          3331
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            3316,
+            3331
+          ]
+        ],
+        "native_face_normal_dot": 0.9997795789196263,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6628
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 3.0208528829801904,
+            "points_world_mm": [
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ],
+              [
+                1401.078224182129,
+                9.68873593956232,
+                480.33592104911804
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6629
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6628
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.078224182129,
+                9.68873593956232,
+                480.33592104911804
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6629
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3331,
+            3316,
+            2089,
+            2609
+          ],
+          [
+            3347,
+            3332,
+            3316,
+            3331
+          ]
+        ],
+        "shared_vertex_ids": [
+          3316,
+          3331
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            3316,
+            3331
+          ]
+        ],
+        "native_face_normal_dot": 0.9980936134697568,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6628
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.9948135428573197,
+            "points_world_mm": [
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ],
+              [
+                1400.9741011364194,
+                9.663755366051054,
+                480.3263573343099
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6629
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6628
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.9741011364194,
+                9.663755366051054,
+                480.3263573343099
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6629
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        517,
+        3315
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {},
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3331,
+            3316,
+            2089,
+            2609
+          ],
+          [
+            3338,
+            3347,
+            3331,
+            3322
+          ]
+        ],
+        "shared_vertex_ids": [
+          3331
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.8979778010540105,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.078224182129,
+                9.68873593956232,
+                480.33592104911804
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6630
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.078224182129,
+                9.68873593956232,
+                480.33592104911804
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6631
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.078224182129,
+                9.68873593956232,
+                480.33592104911804
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6630
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.078224182129,
+                9.68873593956232,
+                480.33592104911804
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6631
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3331,
+            3316,
+            2089,
+            2609
+          ],
+          [
+            3338,
+            3347,
+            3331,
+            3322
+          ]
+        ],
+        "shared_vertex_ids": [
+          3331
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.8874252711369324,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.9741011364194,
+                9.663755366051054,
+                480.3263573343099
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6630
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.9741011364194,
+                9.663755366051054,
+                480.3263573343099
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6631
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.9741011364194,
+                9.663755366051054,
+                480.3263573343099
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6630
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.9741011364194,
+                9.663755366051054,
+                480.3263573343099
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6631
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        517,
+        3329
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {},
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3331,
+            3316,
+            2089,
+            2609
+          ],
+          [
+            3332,
+            3340,
+            3324,
+            3316
+          ]
+        ],
+        "shared_vertex_ids": [
+          3316
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.9698500730414839,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6658
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.013731956482,
+                12.199879623949528,
+                482.01388120651245
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6659
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6658
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6659
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3331,
+            3316,
+            2089,
+            2609
+          ],
+          [
+            3332,
+            3340,
+            3324,
+            3316
+          ]
+        ],
+        "shared_vertex_ids": [
+          3316
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.9860893844898079,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6658
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.7706399186904,
+                12.142263393991213,
+                481.99504233897613
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1034,
+              6659
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6658
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              1035,
+              6659
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        2181,
+        3329
+      ],
+      "classification_at_baseline": "NONADJACENT_TRUE_COLLISION",
+      "classification_at_R3_failed_point": "NONADJACENT_TRUE_COLLISION",
+      "trace_occurrences": {
+        "constraint_occurrences": 182,
+        "solve_ids": [
+          "R3_A_S3",
+          "R3_A_S3_V2",
+          "R3_A_S4",
+          "R3_A_S4_V2",
+          "R3_A_S5_V2",
+          "R3_B_S3",
+          "R3_B_S3_V2",
+          "R3_B_S3_V3",
+          "R3_B_S4_V2",
+          "R3_B_S4_V3",
+          "R3_B_S5_V2",
+          "R3_B_S5_V3"
+        ],
+        "feature_kinds": [
+          "VERTEX_TRIANGLE"
+        ],
+        "four_point_features": []
+      },
+      "baseline": {
+        "native_face_cycles": [
+          [
+            2328,
+            80,
+            955,
+            3025
+          ],
+          [
+            3332,
+            3340,
+            3324,
+            3316
+          ]
+        ],
+        "shared_vertex_ids": [],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.9693493973848795,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": false,
+        "fan_pair_tests": [
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4362,
+              6658
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4362,
+              6659
+            ]
+          },
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 1.440538443165973,
+            "points_world_mm": [
+              [
+                1400.4062914589124,
+                14.740382126930387,
+                481.98027122662626
+              ],
+              [
+                1400.4008810134223,
+                15.214722395028074,
+                480.62007894485885
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1400.4062914589124,
+                14.740382126930387,
+                481.98027122662626
+              ],
+              [
+                1400.4008810134223,
+                15.214722395028074,
+                480.62007894485885
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4363,
+              6658
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4363,
+              6659
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": true,
+        "legal_shared_contact": false,
+        "max_illegal_segment_mm": 1.440538443165973
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            2328,
+            80,
+            955,
+            3025
+          ],
+          [
+            3332,
+            3340,
+            3324,
+            3316
+          ]
+        ],
+        "shared_vertex_ids": [],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": 0.9524130470655039,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": false,
+        "fan_pair_tests": [
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4362,
+              6658
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4362,
+              6659
+            ]
+          },
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 1.8417974894674713,
+            "points_world_mm": [
+              [
+                1400.3830202127076,
+                14.631509722308,
+                482.453846247387
+              ],
+              [
+                1400.320909530078,
+                15.359805265462315,
+                480.7633002240166
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1400.3830202127076,
+                14.631509722308,
+                482.453846247387
+              ],
+              [
+                1400.320909530078,
+                15.359805265462315,
+                480.7633002240166
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4363,
+              6658
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4363,
+              6659
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": true,
+        "legal_shared_contact": false,
+        "max_illegal_segment_mm": 1.8417974894674713
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        2182,
+        3330
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {
+        "constraint_occurrences": 498,
+        "solve_ids": [
+          "R3_A_S3_V2",
+          "R3_A_S4",
+          "R3_A_S4_V2",
+          "R3_A_S5_V2",
+          "R3_B_S3_V2",
+          "R3_B_S3_V3",
+          "R3_B_S4_V2",
+          "R3_B_S4_V3",
+          "R3_B_S5_V2",
+          "R3_B_S5_V3"
+        ],
+        "feature_kinds": [
+          "ADJACENT_OR_NONADJACENT_NONTRIVIAL_FEATURE_SIDE"
+        ],
+        "four_point_features": [
+          [
+            79,
+            3025,
+            955,
+            3340
+          ]
+        ]
+      },
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3025,
+            955,
+            79,
+            2327
+          ],
+          [
+            79,
+            955,
+            3340,
+            3332
+          ]
+        ],
+        "shared_vertex_ids": [
+          79,
+          955
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            79,
+            955
+          ]
+        ],
+        "native_face_normal_dot": -0.9926822229454563,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 3.24066438528681,
+            "points_world_mm": [
+              [
+                1400.3764390945435,
+                14.619283378124237,
+                482.48615860939026
+              ],
+              [
+                1401.3293981552124,
+                11.611002497375011,
+                481.7485809326172
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4364,
+              6660
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.3293981552124,
+                11.611002497375011,
+                481.7485809326172
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4364,
+              6661
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.3293981552124,
+                11.611002497375011,
+                481.7485809326172
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4365,
+              6660
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.3293981552124,
+                11.611002497375011,
+                481.7485809326172
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4365,
+              6661
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3025,
+            955,
+            79,
+            2327
+          ],
+          [
+            79,
+            955,
+            3340,
+            3332
+          ]
+        ],
+        "shared_vertex_ids": [
+          79,
+          955
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            79,
+            955
+          ]
+        ],
+        "native_face_normal_dot": -0.9896713706471185,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 3.246504645258384,
+            "points_world_mm": [
+              [
+                1400.3809859176822,
+                14.624837373511017,
+                482.48121941617507
+              ],
+              [
+                1401.5125769600295,
+                11.670816634472777,
+                481.75111285005227
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4364,
+              6660
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.5125769600295,
+                11.670816634472777,
+                481.75111285005227
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4364,
+              6661
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.5125769600295,
+                11.670816634472777,
+                481.75111285005227
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4365,
+              6660
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.5125769600295,
+                11.670816634472777,
+                481.75111285005227
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4365,
+              6661
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        2424,
+        2425
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {},
+      "baseline": {
+        "native_face_cycles": [
+          [
+            735,
+            2327,
+            3086,
+            2241
+          ],
+          [
+            2327,
+            79,
+            962,
+            3086
+          ]
+        ],
+        "shared_vertex_ids": [
+          2327,
+          3086
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            2327,
+            3086
+          ]
+        ],
+        "native_face_normal_dot": 0.9726131155978427,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1401.910901069641,
+                12.30242196470499,
+                478.8384735584259
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4848,
+              4850
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 3.3997090932989407,
+            "points_world_mm": [
+              [
+                1401.910901069641,
+                12.30242196470499,
+                478.8384735584259
+              ],
+              [
+                1402.4721384048462,
+                8.96318256855011,
+                478.5343110561371
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4848,
+              4851
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4849,
+              4850
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1402.4721384048462,
+                8.96318256855011,
+                478.5343110561371
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4849,
+              4851
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            735,
+            2327,
+            3086,
+            2241
+          ],
+          [
+            2327,
+            79,
+            962,
+            3086
+          ]
+        ],
+        "shared_vertex_ids": [
+          2327,
+          3086
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            2327,
+            3086
+          ]
+        ],
+        "native_face_normal_dot": 0.9717634008110687,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1402.0077386108148,
+                12.331669689224787,
+                478.8468078445077
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4848,
+              4850
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 3.4076658981042276,
+            "points_world_mm": [
+              [
+                1402.0077386108148,
+                12.331669689224787,
+                478.8468078445077
+              ],
+              [
+                1402.5175204079974,
+                8.976508425078658,
+                478.5382591709776
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4848,
+              4851
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4849,
+              4850
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1402.5175204079974,
+                8.976508425078658,
+                478.5382591709776
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              4849,
+              4851
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        3312,
+        3313
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {
+        "constraint_occurrences": 306,
+        "solve_ids": [
+          "R3_A_S3_V2",
+          "R3_A_S4",
+          "R3_A_S4_V2",
+          "R3_A_S5_V2",
+          "R3_B_S3_V2",
+          "R3_B_S3_V3",
+          "R3_B_S4_V2",
+          "R3_B_S4_V3"
+        ],
+        "feature_kinds": [
+          "ADJACENT_OR_NONADJACENT_NONTRIVIAL_FEATURE_SIDE"
+        ],
+        "four_point_features": [
+          [
+            2531,
+            2089,
+            3308,
+            3300
+          ]
+        ]
+      },
+      "baseline": {
+        "native_face_cycles": [
+          [
+            2089,
+            2531,
+            3308,
+            3300
+          ],
+          [
+            2531,
+            2096,
+            3307,
+            3308
+          ]
+        ],
+        "shared_vertex_ids": [
+          2531,
+          3308
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            3308,
+            2531
+          ]
+        ],
+        "native_face_normal_dot": -0.9443452014828096,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.3008604049683,
+                13.225621543824673,
+                487.30596899986267
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6624,
+              6626
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.8516946365647287,
+            "points_world_mm": [
+              [
+                1400.3008604049683,
+                13.225621543824673,
+                487.30596899986267
+              ],
+              [
+                1400.1500606536865,
+                13.94469104707241,
+                487.7367615699768
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6624,
+              6627
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6625,
+              6626
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.1500606536865,
+                13.94469104707241,
+                487.7367615699768
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6625,
+              6627
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            2089,
+            2531,
+            3308,
+            3300
+          ],
+          [
+            2531,
+            2096,
+            3307,
+            3308
+          ]
+        ],
+        "shared_vertex_ids": [
+          2531,
+          3308
+        ],
+        "shared_native_edge_vertex_ids": [
+          [
+            3308,
+            2531
+          ]
+        ],
+        "native_face_normal_dot": -0.9301211838249877,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.288559003869,
+                13.230295679898365,
+                487.29804832821634
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6624,
+              6626
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.8498268741544049,
+            "points_world_mm": [
+              [
+                1400.288559003869,
+                13.230295679898365,
+                487.29804832821634
+              ],
+              [
+                1400.1491333016095,
+                13.946791517448442,
+                487.73324932127343
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6624,
+              6627
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6625,
+              6626
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.1491333016095,
+                13.946791517448442,
+                487.73324932127343
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6625,
+              6627
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    },
+    {
+      "face_ids": [
+        3329,
+        3331
+      ],
+      "classification_at_baseline": "SHARED_LEGAL",
+      "classification_at_R3_failed_point": "SHARED_LEGAL",
+      "trace_occurrences": {
+        "constraint_occurrences": 1328,
+        "solve_ids": [
+          "R3_A_S3_V2",
+          "R3_A_S4",
+          "R3_A_S4_V2",
+          "R3_A_S5_V2",
+          "R3_B_S3_V2",
+          "R3_B_S3_V3",
+          "R3_B_S4_V2",
+          "R3_B_S4_V3",
+          "R3_B_S5_V2",
+          "R3_B_S5_V3"
+        ],
+        "feature_kinds": [
+          "ADJACENT_OR_NONADJACENT_NONTRIVIAL_FEATURE_SIDE"
+        ],
+        "four_point_features": [
+          [
+            955,
+            3332,
+            3340,
+            3324
+          ],
+          [
+            3324,
+            3316,
+            3340,
+            955
+          ],
+          [
+            3324,
+            3332,
+            3340,
+            955
+          ],
+          [
+            3332,
+            3324,
+            3340,
+            955
+          ]
+        ]
+      },
+      "baseline": {
+        "native_face_cycles": [
+          [
+            3332,
+            3340,
+            3324,
+            3316
+          ],
+          [
+            955,
+            80,
+            3339,
+            3340
+          ]
+        ],
+        "shared_vertex_ids": [
+          3340
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": -0.9671328268212152,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6658,
+              6662
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.1500606536865,
+                15.978274866938591,
+                481.204092502594
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6658,
+              6663
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6659,
+              6662
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6659,
+              6663
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "R3_failed_point": {
+        "native_face_cycles": [
+          [
+            3332,
+            3340,
+            3324,
+            3316
+          ],
+          [
+            955,
+            80,
+            3339,
+            3340
+          ]
+        ],
+        "shared_vertex_ids": [
+          3340
+        ],
+        "shared_native_edge_vertex_ids": [],
+        "native_face_normal_dot": -0.963205100098236,
+        "whole_pair_unsigned_minimum_distance_mm": 0.0,
+        "whole_pair_distance_is_not_off_shared_feature_margin": true,
+        "fan_pair_tests": [
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6658,
+              6662
+            ]
+          },
+          {
+            "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+            "illegal": false,
+            "exact_intersection_point_count": 1,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [
+              [
+                1400.1271447176925,
+                15.94534688746456,
+                481.21427713945235
+              ]
+            ],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6658,
+              6663
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6659,
+              6662
+            ]
+          },
+          {
+            "classification": "DISJOINT",
+            "illegal": false,
+            "exact_intersection_point_count": 0,
+            "illegal_point_count": 0,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.0,
+            "points_world_mm": [],
+            "illegal_points_world_mm": [],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "fan_triangle_indices": [
+              6659,
+              6663
+            ]
+          }
+        ],
+        "true_off_shared_feature_contact": false,
+        "legal_shared_contact": true,
+        "max_illegal_segment_mm": 0.0
+      },
+      "finite_feature_off_edge_crossing_still_hard_fail": true,
+      "old9_Stage6A_classification_not_rerun": true
+    }
+  ],
+  "one_native_pair_can_contain_legal_and_illegal_features": true,
+  "near_contact_is_not_exact_collision": true
+}

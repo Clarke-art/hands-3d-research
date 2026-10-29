@@ -1,0 +1,101 @@
+{
+  "rows": [
+    {
+      "time": 1.2414275,
+      "phase": "ENTRY",
+      "active": [
+        "R03"
+      ],
+      "original_actual_vertex_violations": [
+        {
+          "region": "MIDDLE",
+          "key": "C5",
+          "key_index": 51,
+          "component": "GP_V11D_KEY_RENDER_072_FRONT",
+          "vertex": 1292,
+          "depth_mm": 2.031165307970548,
+          "world_m": [
+            0.1581985354423523,
+            0.04131196811795235,
+            -0.0020311654079705477
+          ],
+          "body_local_m": [
+            0.1581985354423523,
+            0.04131196811795235,
+            -0.0020311654079705477
+          ],
+          "all_plane_slacks_mm": [
+            2.173704142352295,
+            41.31196781795235,
+            27.259521192029453,
+            2.031165307970548,
+            8.109408382047656,
+            20.915344957647715
+          ]
+        }
+      ]
+    },
+    {
+      "time": 2.134284,
+      "phase": "EXIT",
+      "active": [
+        "R06"
+      ],
+      "original_actual_vertex_violations": [
+        {
+          "region": "INDEX",
+          "key": "A#4",
+          "key_index": 49,
+          "component": "GP_V11D_KEY_RENDER_070",
+          "vertex": 250,
+          "depth_mm": 1.485202172912592,
+          "world_m": [
+            0.1275097131729126,
+            0.054804686456918716,
+            0.01376332901418209
+          ],
+          "body_local_m": [
+            0.1275097131729126,
+            0.054804686456918716,
+            0.01376332901418209
+          ],
+          "all_plane_slacks_mm": [
+            1.485202172912592,
+            5.383309056918716,
+            13.763328814182092,
+            1.6808509858179093,
+            59.48224694308128,
+            9.789049227087398
+          ]
+        }
+      ]
+    }
+  ],
+  "original_vertex_gate_mm": 0.5,
+  "all_non_target_regions_gate": true,
+  "fixed_endpoint_correction_zero_for_all_parameters": true,
+  "basis_endpoint_rows": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "basis_endpoint_derivative_rows": [
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0
+    ]
+  ],
+  "free_variables": 52,
+  "proof": "B-spline free basis rows at both endpoints identically zero; joint/root corrections and their first derivatives vanish for every feasible coefficient. Existing non-target actual-skin vertex depth >0.5mm is invariant under this boundary contract.",
+  "no_feasible_candidate_within_locked_boundary": true,
+  "not_global_rig_infeasibility": true
+}

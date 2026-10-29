@@ -1,0 +1,542 @@
+{
+  "FIRST_DEFECT_ADJUDICATION": "DEFECT_INTRODUCED_DURING_STAGE4A_CON1_ENGINEERING",
+  "FIRST_CONFIRMED_CLEAN_STAGE": "OFFICIAL_BASE",
+  "LAST_CONFIRMED_CLEAN_STATE": "STAGE4A_L1_NORMALIZED_BEFORE_CON1",
+  "FIRST_CONFIRMED_DEFECT_STATE": "CON1_RING_MCP@-1mm",
+  "FIRST_CONFIRMED_FROZEN_DEFECT_STAGE": "STAGE4A_R2_BASE",
+  "TRANSITION_STEP": "Historical CON1 ring-edge subdivision followed by perpendicular finger-axis plane projection",
+  "operation_name": "CON1_RING_MCP@-1mm / insert_loop plane projection",
+  "script": "production_spec\\stage4_blender\\scripts\\stage4a_r2_base.py",
+  "script_sha256": "7c96d426ce586d81936632115545dea1c6f8924aec8f9f8027ce65ff2ed415fb",
+  "function": "insert_loop",
+  "subdivide_lines": "612-613",
+  "projection_lines": "621-623",
+  "input_topology": {
+    "V": 3300,
+    "E": 6596,
+    "F": 3298
+  },
+  "output_topology": {
+    "V": 3316,
+    "E": 6628,
+    "F": 3314
+  },
+  "affected_new_vertices": [
+    {
+      "vertex_id": 3300,
+      "pre_projection_local_m": [
+        -0.004175662994384766,
+        -0.00020231024245731533,
+        0.13432419300079346
+      ],
+      "L1_ancestry": {
+        "181": 0.49999854860128234,
+        "2089": 0.5000014513987177
+      },
+      "parent_edge_fraction": 0.5000014513987177,
+      "post_plane_projection_local_m": [
+        -0.004346079658716917,
+        0.0009711867896839976,
+        0.13067114353179932
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        207,
+        518,
+        3299,
+        3312
+      ]
+    },
+    {
+      "vertex_id": 3301,
+      "pre_projection_local_m": [
+        -0.014530539512634277,
+        0.009921006858348846,
+        0.13371075689792633
+      ],
+      "L1_ancestry": {
+        "2090": 0.4999999954092643,
+        "175": 0.5000000045907357
+      },
+      "parent_edge_fraction": 0.5000000045907357,
+      "post_plane_projection_local_m": [
+        -0.014517433941364288,
+        0.009830762632191181,
+        0.13399168848991394
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        210,
+        215,
+        3308,
+        3311
+      ]
+    },
+    {
+      "vertex_id": 3302,
+      "pre_projection_local_m": [
+        -0.021629929542541504,
+        0.004792718216776848,
+        0.13258928060531616
+      ],
+      "L1_ancestry": {
+        "2091": 0.49999879652032386,
+        "176": 0.5000012034796761
+      },
+      "parent_edge_fraction": 0.5000012034796761,
+      "post_plane_projection_local_m": [
+        -0.021625041961669922,
+        0.004759067203849554,
+        0.1326940357685089
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        214,
+        219,
+        3306,
+        3309
+      ]
+    },
+    {
+      "vertex_id": 3303,
+      "pre_projection_local_m": [
+        -0.021470189094543457,
+        -0.0032559731043875217,
+        0.13185003399848938
+      ],
+      "L1_ancestry": {
+        "2092": 0.499999991798179,
+        "177": 0.500000008201821
+      },
+      "parent_edge_fraction": 0.500000008201821,
+      "post_plane_projection_local_m": [
+        -0.021543536335229874,
+        -0.0027508942876011133,
+        0.13027775287628174
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        218,
+        223,
+        3304,
+        3307
+      ]
+    },
+    {
+      "vertex_id": 3304,
+      "pre_projection_local_m": [
+        -0.017512917518615723,
+        -0.008547703735530376,
+        0.13135521113872528
+      ],
+      "L1_ancestry": {
+        "2093": 0.5,
+        "178": 0.5
+      },
+      "parent_edge_fraction": 0.5,
+      "post_plane_projection_local_m": [
+        -0.017644915729761124,
+        -0.007638758048415184,
+        0.12852570414543152
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        222,
+        227,
+        3302,
+        3305
+      ]
+    },
+    {
+      "vertex_id": 3305,
+      "pre_projection_local_m": [
+        -0.010796427726745605,
+        -0.009119154885411263,
+        0.13191479444503784
+      ],
+      "L1_ancestry": {
+        "2094": 0.49999998030686466,
+        "179": 0.5000000196931353
+      },
+      "parent_edge_fraction": 0.5000000196931353,
+      "post_plane_projection_local_m": [
+        -0.010973013006150723,
+        -0.007903178222477436,
+        0.1281295120716095
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        226,
+        231,
+        3300,
+        3303
+      ]
+    },
+    {
+      "vertex_id": 3306,
+      "pre_projection_local_m": [
+        -0.005239605903625488,
+        -0.006131611764431,
+        0.13318297266960144
+      ],
+      "L1_ancestry": {
+        "2095": 0.5000013922485879,
+        "180": 0.49999860775141214
+      },
+      "parent_edge_fraction": 0.49999860775141214,
+      "post_plane_projection_local_m": [
+        -0.005440150387585163,
+        -0.004750654101371765,
+        0.12888412177562714
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        230,
+        519,
+        3298,
+        3301
+      ]
+    },
+    {
+      "vertex_id": 3307,
+      "pre_projection_local_m": [
+        -0.0063742403872311115,
+        0.006621736101806164,
+        0.13437405228614807
+      ],
+      "L1_ancestry": {
+        "2096": 0.5000013557983156,
+        "182": 0.4999986442016844
+      },
+      "parent_edge_fraction": 0.4999986442016844,
+      "post_plane_projection_local_m": [
+        -0.006449916400015354,
+        0.007142844144254923,
+        0.13275186717510223
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        206,
+        211,
+        3310,
+        3313
+      ]
+    },
+    {
+      "vertex_id": 3308,
+      "pre_projection_local_m": [
+        -0.004806995391845703,
+        0.0032219956628978252,
+        0.13447171449661255
+      ],
+      "L1_ancestry": {
+        "1107": 0.5000014375802478,
+        "2531": 0.49999856241975216
+      },
+      "parent_edge_fraction": 0.49999856241975216,
+      "post_plane_projection_local_m": [
+        -0.004935970064252615,
+        0.0041101230308413506,
+        0.13170701265335083
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        206,
+        207,
+        3312,
+        3313
+      ]
+    },
+    {
+      "vertex_id": 3309,
+      "pre_projection_local_m": [
+        -0.01029658317565918,
+        0.009673204272985458,
+        0.13418486714363098
+      ],
+      "L1_ancestry": {
+        "1108": 0.5,
+        "2532": 0.5
+      },
+      "parent_edge_fraction": 0.5,
+      "post_plane_projection_local_m": [
+        -0.010315182618796825,
+        0.009801279753446579,
+        0.1337861716747284
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        210,
+        211,
+        3310,
+        3311
+      ]
+    },
+    {
+      "vertex_id": 3310,
+      "pre_projection_local_m": [
+        -0.01855599880218506,
+        0.008277956396341324,
+        0.13309909403324127
+      ],
+      "L1_ancestry": {
+        "1100": 0.4999999865321719,
+        "2533": 0.5000000134678281
+      },
+      "parent_edge_fraction": 0.5000000134678281,
+      "post_plane_projection_local_m": [
+        -0.018531428650021553,
+        0.008108768612146378,
+        0.13362577557563782
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        214,
+        215,
+        3308,
+        3309
+      ]
+    },
+    {
+      "vertex_id": 3311,
+      "pre_projection_local_m": [
+        -0.02242898941040039,
+        1.7766142264008522e-06,
+        0.13215473294258118
+      ],
+      "L1_ancestry": {
+        "1101": 0.5000012517207454,
+        "2534": 0.4999987482792546
+      },
+      "parent_edge_fraction": 0.4999987482792546,
+      "post_plane_projection_local_m": [
+        -0.022469142451882362,
+        0.0002782733936328441,
+        0.13129401206970215
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        218,
+        219,
+        3306,
+        3307
+      ]
+    },
+    {
+      "vertex_id": 3312,
+      "pre_projection_local_m": [
+        -0.020050762221217155,
+        -0.006160154938697815,
+        0.1315658688545227
+      ],
+      "L1_ancestry": {
+        "1102": 0.5,
+        "2535": 0.5
+      },
+      "parent_edge_fraction": 0.5,
+      "post_plane_projection_local_m": [
+        -0.020154286175966263,
+        -0.005447289906442165,
+        0.12934675812721252
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        222,
+        223,
+        3304,
+        3305
+      ]
+    },
+    {
+      "vertex_id": 3313,
+      "pre_projection_local_m": [
+        -0.014144182205200195,
+        -0.00936045777052641,
+        0.13154305517673492
+      ],
+      "L1_ancestry": {
+        "1103": 0.5,
+        "2536": 0.5
+      },
+      "parent_edge_fraction": 0.5,
+      "post_plane_projection_local_m": [
+        -0.01430175919085741,
+        -0.008275373838841915,
+        0.12816524505615234
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        226,
+        227,
+        3302,
+        3303
+      ]
+    },
+    {
+      "vertex_id": 3314,
+      "pre_projection_local_m": [
+        -0.007722377777099609,
+        -0.008117102086544037,
+        0.13248516619205475
+      ],
+      "L1_ancestry": {
+        "1104": 0.5,
+        "2537": 0.5
+      },
+      "parent_edge_fraction": 0.5,
+      "post_plane_projection_local_m": [
+        -0.007915502414107323,
+        -0.006787238642573357,
+        0.12834535539150238
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        230,
+        231,
+        3300,
+        3301
+      ]
+    },
+    {
+      "vertex_id": 3315,
+      "pre_projection_local_m": [
+        -0.004162311553955078,
+        -0.003302559722214937,
+        0.13386011123657227
+      ],
+      "L1_ancestry": {
+        "1106": 0.49999857587299834,
+        "2609": 0.5000014241270017
+      },
+      "parent_edge_fraction": 0.5000014241270017,
+      "post_plane_projection_local_m": [
+        -0.004355200100690126,
+        -0.001974321436136961,
+        0.1297253668308258
+      ],
+      "before_subdivision_element": "Actual L1 parent edge / interpolation weights",
+      "affected_after_faces": [
+        518,
+        519,
+        3298,
+        3299
+      ]
+    }
+  ],
+  "sequence_metrics": [
+    {
+      "operation": "L1_NORMALIZED_BEFORE_CON1",
+      "counts": {
+        "V": 3300,
+        "F": 3298
+      },
+      "max_mapped_patch_dihedral_deg": 60.15701696911214,
+      "worst_edge": {
+        "edge_vertices": [
+          738,
+          2238
+        ],
+        "faces": [
+          2180,
+          2956
+        ],
+        "degrees": 60.15701696911214
+      }
+    },
+    {
+      "operation": "CON1_RING_MCP@-1mm",
+      "counts": {
+        "V": 3316,
+        "F": 3314
+      },
+      "max_mapped_patch_dihedral_deg": 169.8325578726818,
+      "worst_edge": {
+        "edge_vertices": [
+          3300,
+          3308
+        ],
+        "faces": [
+          207,
+          3312
+        ],
+        "degrees": 169.8325578726818
+      }
+    },
+    {
+      "operation": "CON1_RING_MCP@-4mm",
+      "counts": {
+        "V": 3332,
+        "F": 3330
+      },
+      "max_mapped_patch_dihedral_deg": 169.8325578726818,
+      "worst_edge": {
+        "edge_vertices": [
+          3300,
+          3308
+        ],
+        "faces": [
+          207,
+          3312
+        ],
+        "degrees": 169.8325578726818
+      }
+    },
+    {
+      "operation": "CON1_RING_MCP@-7mm",
+      "counts": {
+        "V": 3348,
+        "F": 3346
+      },
+      "max_mapped_patch_dihedral_deg": 177.90386237641,
+      "worst_edge": {
+        "edge_vertices": [
+          3332,
+          3340
+        ],
+        "faces": [
+          3329,
+          3330
+        ],
+        "degrees": 177.90386237641
+      }
+    },
+    {
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "counts": {
+        "V": 3364,
+        "F": 3362
+      },
+      "max_mapped_patch_dihedral_deg": 177.90386237641,
+      "worst_edge": {
+        "edge_vertices": [
+          3332,
+          3340
+        ],
+        "faces": [
+          3329,
+          3330
+        ],
+        "degrees": 177.90386237641
+      }
+    }
+  ],
+  "first_step_max_projection_mm": 4.52,
+  "first_step_max_mapped_dihedral_deg": 169.8325578726818,
+  "before_max_mapped_dihedral_deg": 60.15701696911214,
+  "surface_preservation_semantics": "New edge points begin on actual donor edges. They are then moved along finger axis to a common deformation-loop plane. This is not donor surface projection/reprojection; it can leave the original surface and fold native fans. No donor surface preservation constraint follows.",
+  "donor_reprojection_present": false,
+  "source_shape_preservation_bug": "Missing surface-preservation constraint in plane-projected loop design, rather than shading or an incorrect Stage2 layer selection. This trace demonstrates a geometry defect; it does not infer intent.",
+  "CON3_secondary_effect": "Pole738 is later lateralized twice; its 1-ring is smoothed factor0.5. It changes nearby donor positions by up to0.456mm, but first visible fold is already in the first CON1 snapshot.",
+  "stage4a_engineer_audit": {
+    "path": "production_spec\\stage4_blender\\scripts\\stage4a_engineer.py",
+    "sha256": "7894eea52e8166376e5cf49d210ca016f33e7124b845619a045d4355077dc96f",
+    "insert_loop_AST_hash": "8a9b3daaeb64f6e417f744ec8168bb127c69eced6b0819ee34b529c68aa60f4a",
+    "same_insert_loop_as_r2_base": true,
+    "role": "Earlier historical script, not the executed frozen R2_BASE producer. R2_BASE exact replay establishes the operative transition."
+  },
+  "replay_semantics": "Only original historical operations executed in RAM, historical save section removed; exact final local coordinates and native cycles equal frozen R2_BASE. No alternative operation rebuild performed.",
+  "visual_before_after": [
+    "renders/TRACE_0_CLOSE_FLAT.png",
+    "renders/TRACE_1_CLOSE_FLAT.png"
+  ]
+}

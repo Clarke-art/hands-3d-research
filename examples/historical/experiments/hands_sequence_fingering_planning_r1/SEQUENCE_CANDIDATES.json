@@ -1,0 +1,882 @@
+{
+  "task": "PIANO_SEQUENCE_FINGERING_PLANNING_R1",
+  "availability": "AVAILABLE",
+  "candidate_count": 1,
+  "max_candidates": 3,
+  "test_note_count": 23,
+  "note_message_count": 46,
+  "candidates": [
+    {
+      "candidate_id": "C01_PIANOPLAYER",
+      "generation": "Unmodified existing PianoPlayer Hand.generate; finite lookahead effort search; no training and no fingering anchors",
+      "git_revision": "6fb0e2114d7b21f75c0be5208172e1243a57323e",
+      "generation_seconds": 5.637025599993649,
+      "settings": {
+        "R": {
+          "size": "M",
+          "depth": 9,
+          "autodepth": true,
+          "preserve_posture_memory": false,
+          "chord_stagger_seconds": 0,
+          "key_geometry": "Unmodified author keypos(note-name); not keypos_midi"
+        },
+        "L": {
+          "size": "M",
+          "depth": 9,
+          "autodepth": true,
+          "preserve_posture_memory": false,
+          "chord_stagger_seconds": 0,
+          "key_geometry": "Unmodified author keypos(note-name); not keypos_midi"
+        }
+      },
+      "model_scoring_role": "Path-specific Lumikey conditional evaluation AFTER generation; model NLL not used by PianoPlayer optimizer and no joint model-motion global optimum claimed",
+      "scores": {
+        "path_name": "pianoplayer_sequence",
+        "model_conditional_nll": 7.001292807146667,
+        "model_conditional_nll_by_hand": {
+          "left": 0.6400876078801461,
+          "right": 6.3612051992665215
+        },
+        "native_whole_hand_motion_cost": {
+          "R": 2.9020296873598506,
+          "L": 1.9575825573202756
+        },
+        "native_cost_units": "Author ave_velocity approximate weighted cm/s; full right16 and left7; separate units from NLL",
+        "nonthumb_reversal_count": 0,
+        "hard_conflicts": [],
+        "chords": [
+          {
+            "hand": "L",
+            "ids": [
+              "L00",
+              "L01",
+              "L02"
+            ],
+            "fingers": [
+              5,
+              3,
+              1
+            ],
+            "all_fingers_unique": true,
+            "span_cm": 9.42857142857143,
+            "configured_hand_max_span_cm": 17.22,
+            "within_approximate_hand_span": true
+          }
+        ],
+        "transitions": [
+          {
+            "ids": [
+              "R00",
+              "R01"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": -7,
+            "fingers": [
+              5,
+              1
+            ],
+            "onset_delta_ms": 428.57099999999997,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.9034285714285684,
+            "flags": [
+              "MELODIC_LEAP_HAND_POSITION_CHANGE_EXPECTED"
+            ]
+          },
+          {
+            "ids": [
+              "R01",
+              "R02"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 2,
+            "fingers": [
+              1,
+              2
+            ],
+            "onset_delta_ms": 214.28549999999996,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": -1.0868571428571383,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R02",
+              "R03"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 2,
+            "fingers": [
+              2,
+              3
+            ],
+            "onset_delta_ms": 214.2854999999999,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.06114285714284717,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R03",
+              "R04"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 1,
+            "fingers": [
+              3,
+              4
+            ],
+            "onset_delta_ms": 214.28550000000013,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.061142857142861384,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R04",
+              "R05"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 2,
+            "fingers": [
+              4,
+              5
+            ],
+            "onset_delta_ms": 214.28550000000013,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.061142857142861384,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R05",
+              "R06"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": -7,
+            "fingers": [
+              5,
+              1
+            ],
+            "onset_delta_ms": 428.5709999999998,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.9034285714285684,
+            "flags": [
+              "MELODIC_LEAP_HAND_POSITION_CHANGE_EXPECTED"
+            ]
+          },
+          {
+            "ids": [
+              "R06",
+              "R07"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 0,
+            "fingers": [
+              1,
+              1
+            ],
+            "onset_delta_ms": 428.571,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.0,
+            "flags": [
+              "REPEATED_NOTE_RELEASE_RESTRIKE_REQUIRED"
+            ]
+          },
+          {
+            "ids": [
+              "R07",
+              "R08"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 9,
+            "fingers": [
+              1,
+              3
+            ],
+            "onset_delta_ms": 428.57100000000025,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 6.045714285714278,
+            "flags": [
+              "MELODIC_LEAP_HAND_POSITION_CHANGE_EXPECTED"
+            ]
+          },
+          {
+            "ids": [
+              "R08",
+              "R09"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": -4,
+            "fingers": [
+              3,
+              1
+            ],
+            "onset_delta_ms": 428.5709999999998,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 1.0257142857142911,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R09",
+              "R10"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 2,
+            "fingers": [
+              1,
+              2
+            ],
+            "onset_delta_ms": 214.2854999999999,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": -1.0868571428571383,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R10",
+              "R11"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 2,
+            "fingers": [
+              2,
+              3
+            ],
+            "onset_delta_ms": 214.2854999999999,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.06114285714284717,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R11",
+              "R12"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 2,
+            "fingers": [
+              3,
+              4
+            ],
+            "onset_delta_ms": 214.28550000000035,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 1.239714285714292,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R12",
+              "R13"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 1,
+            "fingers": [
+              4,
+              5
+            ],
+            "onset_delta_ms": 214.2854999999999,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": -1.1174285714285692,
+            "flags": []
+          },
+          {
+            "ids": [
+              "R13",
+              "R14"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": -12,
+            "fingers": [
+              5,
+              1
+            ],
+            "onset_delta_ms": 428.5709999999998,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": -6.168000000000001,
+            "flags": [
+              "MELODIC_LEAP_HAND_POSITION_CHANGE_EXPECTED"
+            ]
+          },
+          {
+            "ids": [
+              "R14",
+              "R15"
+            ],
+            "hand": "R",
+            "pitch_delta_semitones": 0,
+            "fingers": [
+              1,
+              1
+            ],
+            "onset_delta_ms": 428.5709999999998,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.0,
+            "flags": [
+              "REPEATED_NOTE_RELEASE_RESTRIKE_REQUIRED"
+            ]
+          },
+          {
+            "ids": [
+              "L02",
+              "L03"
+            ],
+            "hand": "L",
+            "pitch_delta_semitones": -5,
+            "fingers": [
+              1,
+              4
+            ],
+            "onset_delta_ms": 857.1419999999999,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.9645714285714302,
+            "flags": []
+          },
+          {
+            "ids": [
+              "L03",
+              "L04"
+            ],
+            "hand": "L",
+            "pitch_delta_semitones": 2,
+            "fingers": [
+              4,
+              3
+            ],
+            "onset_delta_ms": 428.5709999999999,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.06114285714284717,
+            "flags": []
+          },
+          {
+            "ids": [
+              "L04",
+              "L05"
+            ],
+            "hand": "L",
+            "pitch_delta_semitones": 1,
+            "fingers": [
+              3,
+              2
+            ],
+            "onset_delta_ms": 1285.7130000000004,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": 0.061142857142861384,
+            "flags": []
+          },
+          {
+            "ids": [
+              "L05",
+              "L06"
+            ],
+            "hand": "L",
+            "pitch_delta_semitones": -1,
+            "fingers": [
+              2,
+              3
+            ],
+            "onset_delta_ms": 1285.7129999999995,
+            "release_gap_ticks": 0,
+            "relaxed_anchor_shift_cm": -0.061142857142861384,
+            "flags": []
+          }
+        ]
+      },
+      "authority": "DESIGN_PROVISIONAL",
+      "status": "SEQUENCE_POC_PASS",
+      "notes": [
+        {
+          "note_id": "R00",
+          "hand": "R",
+          "note_name": "D5",
+          "midi": 74,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 0.0,
+          "source_off_sec": 0.428571,
+          "on_tick": 0,
+          "off_tick": 384,
+          "finger": 5,
+          "model_input": {
+            "left": false,
+            "note": 74,
+            "time": 0.0,
+            "duration": 428.57099999999997,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "L00",
+          "hand": "L",
+          "note_name": "G3",
+          "midi": 55,
+          "velocity": 90,
+          "channel": 1,
+          "source_on_sec": 0.0,
+          "source_off_sec": 0.857142,
+          "on_tick": 0,
+          "off_tick": 768,
+          "finger": 5,
+          "model_input": {
+            "left": true,
+            "note": 55,
+            "time": 0.0,
+            "duration": 857.1419999999999,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "L01",
+          "hand": "L",
+          "note_name": "B3",
+          "midi": 59,
+          "velocity": 90,
+          "channel": 1,
+          "source_on_sec": 0.0,
+          "source_off_sec": 0.857142,
+          "on_tick": 0,
+          "off_tick": 768,
+          "finger": 3,
+          "model_input": {
+            "left": true,
+            "note": 59,
+            "time": 0.0,
+            "duration": 857.1419999999999,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "L02",
+          "hand": "L",
+          "note_name": "D4",
+          "midi": 62,
+          "velocity": 90,
+          "channel": 1,
+          "source_on_sec": 0.0,
+          "source_off_sec": 0.857142,
+          "on_tick": 0,
+          "off_tick": 768,
+          "finger": 1,
+          "model_input": {
+            "left": true,
+            "note": 62,
+            "time": 0.0,
+            "duration": 857.1419999999999,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R01",
+          "hand": "R",
+          "note_name": "G4",
+          "midi": 67,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 0.428571,
+          "source_off_sec": 0.6428564999999999,
+          "on_tick": 384,
+          "off_tick": 576,
+          "finger": 1,
+          "model_input": {
+            "left": false,
+            "note": 67,
+            "time": 428.57099999999997,
+            "duration": 214.28549999999996,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R02",
+          "hand": "R",
+          "note_name": "A4",
+          "midi": 69,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 0.6428564999999999,
+          "source_off_sec": 0.8571419999999998,
+          "on_tick": 576,
+          "off_tick": 768,
+          "finger": 2,
+          "model_input": {
+            "left": false,
+            "note": 69,
+            "time": 642.8565,
+            "duration": 214.2854999999999,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R03",
+          "hand": "R",
+          "note_name": "B4",
+          "midi": 71,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 0.8571419999999998,
+          "source_off_sec": 1.0714275,
+          "on_tick": 768,
+          "off_tick": 960,
+          "finger": 3,
+          "model_input": {
+            "left": false,
+            "note": 71,
+            "time": 857.1419999999998,
+            "duration": 214.28550000000013,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "L03",
+          "hand": "L",
+          "note_name": "A3",
+          "midi": 57,
+          "velocity": 90,
+          "channel": 1,
+          "source_on_sec": 0.857142,
+          "source_off_sec": 1.2857129999999999,
+          "on_tick": 768,
+          "off_tick": 1152,
+          "finger": 4,
+          "model_input": {
+            "left": true,
+            "note": 57,
+            "time": 857.1419999999999,
+            "duration": 428.5709999999999,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R04",
+          "hand": "R",
+          "note_name": "C5",
+          "midi": 72,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 1.0714275,
+          "source_off_sec": 1.285713,
+          "on_tick": 960,
+          "off_tick": 1152,
+          "finger": 4,
+          "model_input": {
+            "left": false,
+            "note": 72,
+            "time": 1071.4275,
+            "duration": 214.28550000000013,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R05",
+          "hand": "R",
+          "note_name": "D5",
+          "midi": 74,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 1.285713,
+          "source_off_sec": 1.714284,
+          "on_tick": 1152,
+          "off_tick": 1536,
+          "finger": 5,
+          "model_input": {
+            "left": false,
+            "note": 74,
+            "time": 1285.7130000000002,
+            "duration": 428.5709999999998,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "L04",
+          "hand": "L",
+          "note_name": "B3",
+          "midi": 59,
+          "velocity": 90,
+          "channel": 1,
+          "source_on_sec": 1.2857129999999999,
+          "source_off_sec": 2.571426,
+          "on_tick": 1152,
+          "off_tick": 2304,
+          "finger": 3,
+          "model_input": {
+            "left": true,
+            "note": 59,
+            "time": 1285.713,
+            "duration": 1285.7130000000004,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R06",
+          "hand": "R",
+          "note_name": "G4",
+          "midi": 67,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 1.714284,
+          "source_off_sec": 2.142855,
+          "on_tick": 1536,
+          "off_tick": 1920,
+          "finger": 1,
+          "model_input": {
+            "left": false,
+            "note": 67,
+            "time": 1714.2839999999999,
+            "duration": 428.571,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R07",
+          "hand": "R",
+          "note_name": "G4",
+          "midi": 67,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 2.142855,
+          "source_off_sec": 2.571426,
+          "on_tick": 1920,
+          "off_tick": 2304,
+          "finger": 1,
+          "model_input": {
+            "left": false,
+            "note": 67,
+            "time": 2142.855,
+            "duration": 428.57100000000025,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R08",
+          "hand": "R",
+          "note_name": "E5",
+          "midi": 76,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 2.571426,
+          "source_off_sec": 2.999997,
+          "on_tick": 2304,
+          "off_tick": 2688,
+          "finger": 3,
+          "model_input": {
+            "left": false,
+            "note": 76,
+            "time": 2571.4260000000004,
+            "duration": 428.5709999999998,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "L05",
+          "hand": "L",
+          "note_name": "C4",
+          "midi": 60,
+          "velocity": 90,
+          "channel": 1,
+          "source_on_sec": 2.571426,
+          "source_off_sec": 3.8571389999999997,
+          "on_tick": 2304,
+          "off_tick": 3456,
+          "finger": 2,
+          "model_input": {
+            "left": true,
+            "note": 60,
+            "time": 2571.4260000000004,
+            "duration": 1285.7129999999995,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R09",
+          "hand": "R",
+          "note_name": "C5",
+          "midi": 72,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 2.999997,
+          "source_off_sec": 3.2142825,
+          "on_tick": 2688,
+          "off_tick": 2880,
+          "finger": 1,
+          "model_input": {
+            "left": false,
+            "note": 72,
+            "time": 2999.997,
+            "duration": 214.2854999999999,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R10",
+          "hand": "R",
+          "note_name": "D5",
+          "midi": 74,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 3.2142825,
+          "source_off_sec": 3.428568,
+          "on_tick": 2880,
+          "off_tick": 3072,
+          "finger": 2,
+          "model_input": {
+            "left": false,
+            "note": 74,
+            "time": 3214.2825,
+            "duration": 214.2854999999999,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R11",
+          "hand": "R",
+          "note_name": "E5",
+          "midi": 76,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 3.428568,
+          "source_off_sec": 3.6428535,
+          "on_tick": 3072,
+          "off_tick": 3264,
+          "finger": 3,
+          "model_input": {
+            "left": false,
+            "note": 76,
+            "time": 3428.5679999999998,
+            "duration": 214.28550000000035,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R12",
+          "hand": "R",
+          "note_name": "F#5",
+          "midi": 78,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 3.6428535,
+          "source_off_sec": 3.857139,
+          "on_tick": 3264,
+          "off_tick": 3456,
+          "finger": 4,
+          "model_input": {
+            "left": false,
+            "note": 78,
+            "time": 3642.8535,
+            "duration": 214.2854999999999,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R13",
+          "hand": "R",
+          "note_name": "G5",
+          "midi": 79,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 3.857139,
+          "source_off_sec": 4.28571,
+          "on_tick": 3456,
+          "off_tick": 3840,
+          "finger": 5,
+          "model_input": {
+            "left": false,
+            "note": 79,
+            "time": 3857.139,
+            "duration": 428.5709999999998,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "L06",
+          "hand": "L",
+          "note_name": "B3",
+          "midi": 59,
+          "velocity": 90,
+          "channel": 1,
+          "source_on_sec": 3.8571389999999997,
+          "source_off_sec": 5.142852,
+          "on_tick": 3456,
+          "off_tick": 4608,
+          "finger": 3,
+          "model_input": {
+            "left": true,
+            "note": 59,
+            "time": 3857.1389999999997,
+            "duration": 1285.7130000000009,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R14",
+          "hand": "R",
+          "note_name": "G4",
+          "midi": 67,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 4.28571,
+          "source_off_sec": 4.714281,
+          "on_tick": 3840,
+          "off_tick": 4224,
+          "finger": 1,
+          "model_input": {
+            "left": false,
+            "note": 67,
+            "time": 4285.71,
+            "duration": 428.5709999999998,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        },
+        {
+          "note_id": "R15",
+          "hand": "R",
+          "note_name": "G4",
+          "midi": 67,
+          "velocity": 90,
+          "channel": 0,
+          "source_on_sec": 4.714281,
+          "source_off_sec": 5.142852,
+          "on_tick": 4224,
+          "off_tick": 4608,
+          "finger": 1,
+          "model_input": {
+            "left": false,
+            "note": 67,
+            "time": 4714.281,
+            "duration": 428.5710000000007,
+            "velocity": 90
+          },
+          "authority": "DESIGN_PROVISIONAL"
+        }
+      ],
+      "adjacent_phrase_context_role": "Real following MIDI notes inspected for preparation; not optimized or scored beyond the original23 test notes",
+      "known_limitations": [
+        "Finite horizon and tail padding, not exact full-piece DP",
+        "Author prunes non-thumb reverse transitions but permits thumb techniques; some valid repositionings may be excluded",
+        "No wrist, hand trajectory, key recovery or physical feasibility proof",
+        "Held-note conflicts independently validated for this input; not guaranteed on arbitrary polyphony",
+        "Model/code commercial weight rights remain unresolved"
+      ]
+    }
+  ]
+}

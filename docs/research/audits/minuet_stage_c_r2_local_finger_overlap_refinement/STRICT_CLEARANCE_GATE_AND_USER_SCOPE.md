@@ -1,0 +1,7 @@
+# Retained partial result and original strict clearance failure
+
+The original06_apply_validate.py enforces a blanket zero-target-patch-intersection assertion. The one locked−6degree trajectory passed every active-contact and non-target preservation guard, but failed that stronger geometric assertion at24 finite samples near video1.108333–1.191667s, max16 intersecting patch triangle pairs. Its first log, first numeric result and unchanged policy/module hashes are retained. Geometric clearance is explicitly FAIL, not relabeled PASS.
+
+The user requires Human-visible quality first, explicitly allows PARTIAL classification, recognizes natural adjacent-finger closeness, and prohibits endless optimization of tiny hidden geometric error. Normal unchanged-camera frames show substantially reduced extended fingertip fusion, preserved curvature and no newly confirmed visible defect. Therefore the SAME locked trajectory is committed once as a PARTIAL/WARN candidate for Human review. No amplitude, time window, contact guard, fingering, solver setting or frozen asset was changed after the strict assertion failure; no second trajectory or saved candidate exists. Original policy/model implementation remains byte-identical.
+
+This is not a new geometry tolerance or automatic Human acceptance. Human must inspect the remaining brief fingertip adjacency and may reject it. The round stops after this one partial result.

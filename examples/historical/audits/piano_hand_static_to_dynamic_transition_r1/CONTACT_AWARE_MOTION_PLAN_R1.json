@@ -1,0 +1,252 @@
+{
+  "planner": "CONTACT_AWARE_TEMPORAL_MOTION_PLANNER_R1",
+  "policy_sha256": "00a39c16e9a42b89a1fa2f43c83c4d55225c87d5bd642087da94af66e9c1eeba",
+  "anchor_sha256": "0d8abbf807dd940d96315aa46ad0f88286b759542d1a9c894bf5472ad2640cc2",
+  "candidate_count": 1,
+  "controls_radians": {
+    "L1": [
+      [
+        0.5497787143782137,
+        0.3360653398217183,
+        2.5890201910848517e-12,
+        0.42760566673861067
+      ],
+      [
+        0.5497787143782137,
+        0.3596669148947466,
+        1.0378921510116908e-15,
+        0.42760566673861067
+      ],
+      [
+        0.5497787143782137,
+        0.38371523706031896,
+        1.486679614496227e-16,
+        0.42760566673861067
+      ]
+    ],
+    "L2": [
+      [
+        0.07347724158205197,
+        0.2571664278564161,
+        0.3054326190990072,
+        -0.22234174188804895
+      ],
+      [
+        0.1309468922381571,
+        0.18988384413452145,
+        0.30543261909669894,
+        -0.2415182758402443
+      ],
+      [
+        0.22055595043226217,
+        0.10271661620619757,
+        0.2577629351720513,
+        -0.241274000276074
+      ]
+    ],
+    "R2": [
+      [
+        0.19062470018125663,
+        0.07911110441837778,
+        0.0891614246176752,
+        -0.12845413602427652
+      ],
+      [
+        0.2679261344457198,
+        7.236571359110159e-12,
+        2.489705534178317e-11,
+        -0.1296919330481344
+      ],
+      [
+        0.2863069880934206,
+        1.4359058948227875e-21,
+        1.44756241428294e-20,
+        -0.132412795512265
+      ]
+    ]
+  },
+  "controls_deg": {
+    "L1": [
+      [
+        31.499999999999993,
+        19.255125612414258,
+        1.4833993002331592e-10,
+        24.499999999999996
+      ],
+      [
+        31.499999999999993,
+        20.607396253959948,
+        5.946683984272459e-14,
+        24.499999999999996
+      ],
+      [
+        31.499999999999993,
+        21.98526361841815,
+        8.518046739877005e-15,
+        24.499999999999996
+      ]
+    ],
+    "L2": [
+      [
+        4.209935832914734,
+        14.734550948628208,
+        17.499999999999975,
+        -12.739243419772313
+      ],
+      [
+        7.5027042656008,
+        10.87954286662803,
+        17.49999999986772,
+        -13.837977880922434
+      ],
+      [
+        12.636925106265208,
+        5.8852285944801945,
+        14.768728300262783,
+        -13.8239819220573
+      ]
+    ],
+    "R2": [
+      [
+        10.921990791332703,
+        4.532732395791806,
+        5.108573325966629,
+        -7.3598798551904325
+      ],
+      [
+        15.351036724994412,
+        4.1462499702226214e-10,
+        1.426496193387817e-09,
+        -7.430800400551343
+      ],
+      [
+        16.404182062855313,
+        8.227134755130161e-20,
+        8.293921692018046e-19,
+        -7.586694336381592
+      ]
+    ]
+  },
+  "events": {
+    "L": [
+      {
+        "track": 2,
+        "channel": 1,
+        "midi_note": 38,
+        "on_tick": 0,
+        "off_tick": 192,
+        "velocity": 90,
+        "note_id": "n01",
+        "measure": 1,
+        "time": 0.7,
+        "note_on": 0.7,
+        "note_off": 0.95,
+        "hand": "L",
+        "finger": 5,
+        "key_index": 17,
+        "fingering_authority": "DESIGNED_PROVISIONAL_NOT_GROUND_TRUTH"
+      },
+      {
+        "track": 2,
+        "channel": 1,
+        "midi_note": 50,
+        "on_tick": 192,
+        "off_tick": 384,
+        "velocity": 90,
+        "note_id": "n02",
+        "measure": 1,
+        "time": 0.95,
+        "note_on": 0.95,
+        "note_off": 1.2,
+        "hand": "L",
+        "finger": 1,
+        "key_index": 29,
+        "fingering_authority": "DESIGNED_PROVISIONAL_NOT_GROUND_TRUTH"
+      },
+      {
+        "track": 2,
+        "channel": 1,
+        "midi_note": 38,
+        "on_tick": 384,
+        "off_tick": 576,
+        "velocity": 90,
+        "note_id": "n04",
+        "measure": 1,
+        "time": 1.2,
+        "note_on": 1.2,
+        "note_off": 1.45,
+        "hand": "L",
+        "finger": 5,
+        "key_index": 17,
+        "fingering_authority": "DESIGNED_PROVISIONAL_NOT_GROUND_TRUTH"
+      }
+    ],
+    "R": [
+      {
+        "track": 1,
+        "channel": 0,
+        "midi_note": 78,
+        "on_tick": 480,
+        "off_tick": 576,
+        "velocity": 90,
+        "note_id": "n05",
+        "measure": 1,
+        "time": 1.325,
+        "note_on": 1.325,
+        "note_off": 1.45,
+        "hand": "R",
+        "finger": 3,
+        "key_index": 57,
+        "fingering_authority": "DESIGNED_PROVISIONAL_NOT_GROUND_TRUTH"
+      }
+    ]
+  },
+  "windows": {
+    "L": [
+      0.4,
+      1.8
+    ],
+    "R": [
+      1.025,
+      1.8
+    ]
+  },
+  "diagnostics": {
+    "L": {
+      "success": true,
+      "nfev": 20,
+      "status": 2,
+      "cost": 197454.7465803123,
+      "optimality": 4.538149092901045,
+      "message": "`ftol` termination condition is satisfied.",
+      "calls": 500,
+      "one_seed": true,
+      "restarts": 0,
+      "per_frame_ik": false,
+      "skin_collocation_count": 39,
+      "time_samples": 180,
+      "elapsed_sec": 514.3909999999996
+    },
+    "R": {
+      "success": true,
+      "nfev": 11,
+      "status": 2,
+      "cost": 112.8210396754618,
+      "optimality": 0.00012586218510837868,
+      "message": "`ftol` termination condition is satisfied.",
+      "calls": 143,
+      "one_seed": true,
+      "restarts": 0,
+      "per_frame_ik": false,
+      "skin_collocation_count": 15,
+      "time_samples": 98,
+      "elapsed_sec": 571.3589999999967
+    }
+  },
+  "generated_pose_arrays_sha256": "c76bd141c73e8bcc0b8fb2646a0d7890d1e3b14601a645ac705db524f06032e0",
+  "source_events_unchanged": true,
+  "root_constant": true,
+  "anchors_not_reoptimized": true,
+  "postfilter": false,
+  "human_approval": false
+}

@@ -1,0 +1,22 @@
+{
+  "phases": {
+    "RUN_BUDGET.json": 14.670999999998457,
+    "EXTRA_BUDGET.json": 67.06200000000172,
+    "PRUNED_BUDGET.json": 13.625,
+    "ORIGINAL_DIRECT_BUDGET.json": 34.82800000000134,
+    "STAGE2_BUDGET.json": 9.98399999999674,
+    "NEIGHBOR_BUDGET.json": 42.23400000000038,
+    "FACE_BUDGET.json": 14.875,
+    "first_derivative_probe_seconds": 9.406,
+    "failed_UTF8_start_conservative_seconds": 2.0,
+    "shell_parser_failed_conservative_seconds": 1.0,
+    "final_derivative_verification_seconds": 8.3279999999977,
+    "resource_profile_seconds": 7.157000000002881
+  },
+  "total_charged_seconds": 225.16999999999922,
+  "limit_seconds": 600,
+  "under_budget": true,
+  "cumulative_deadline_enforced_for_final_stage": true,
+  "policy": "No further numerical solves after final verification",
+  "includes": "model builds, imports, failed starts, repeated diagnostic comparisons, SLSQP and independent Blender replay; sum of process wall times, concurrent overlap conservatively counted twice"
+}

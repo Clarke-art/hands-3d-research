@@ -1,0 +1,440 @@
+{
+  "verdict": "FAIL_CLOSED_TARGETED_DEFORMATION",
+  "count_unit": "Unique pose / face-pair observations",
+  "true_failure_observations": 3,
+  "true_failure_pose_count": 2,
+  "R2_incremental_introduced_count": 0,
+  "candidate_recovery_introduced_relative_historical_R1B": 3,
+  "failures": [
+    {
+      "fixture": "CAP37_2RING_CONTINUITY_NEIGHBORHOOD",
+      "pose": "TH_IP_30",
+      "run_label": "TARGETED_ISOLATED_FLEXION",
+      "face_pair": [
+        1225,
+        2740
+      ],
+      "vertex_ids": [
+        148,
+        299,
+        1053,
+        1385,
+        1453,
+        2062,
+        2786,
+        3165
+      ],
+      "core_cap37_overlap": [],
+      "region": "Frozen THUMB distal cap two-ring / native INDEX surface contact",
+      "classification": "CANDIDATE_INTRODUCED_DEFORMATION_FAILURE",
+      "classification_baseline": "Corrected recovery candidate versus historical R1B donor (same pose, mesh, metric); already present in corrected R1, not introduced by the R2 incremental skin rebuild",
+      "R2_incrementally_introduced": false,
+      "evidence": {
+        "face_ids": [
+          1225,
+          2740
+        ],
+        "domains": [
+          "THUMB",
+          "INDEX"
+        ],
+        "both_faces_in_patch": false,
+        "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+        "intersect": true,
+        "depth_mm": 5.5001658329274505,
+        "seg_mm": 0.9298528117312028,
+        "local_edge_mm": 4.372096336400464,
+        "tri_pairs": 4
+      },
+      "historical_comparison": {
+        "R1E": null,
+        "R1B_DONOR": null,
+        "R1_CORRECTED_RIG": {
+          "face_ids": [
+            1225,
+            2740
+          ],
+          "domains": [
+            "THUMB",
+            "INDEX"
+          ],
+          "both_faces_in_patch": false,
+          "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "intersect": true,
+          "depth_mm": 5.5001658329274505,
+          "seg_mm": 0.9298528117312028,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4
+        },
+        "R2": {
+          "face_ids": [
+            1225,
+            2740
+          ],
+          "domains": [
+            "THUMB",
+            "INDEX"
+          ],
+          "both_faces_in_patch": false,
+          "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "intersect": true,
+          "depth_mm": 5.5001658329274505,
+          "seg_mm": 0.9298528117312028,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4
+        }
+      },
+      "weights_R2": {
+        "148": {
+          "WRIST_R": 0.6832638382911682,
+          "INDEX_MCP_R": 0.3167361617088318,
+          "INDEX_PIP_R": 4.560490873828371e-10,
+          "INDEX_DIP_R": 1.799247337767488e-19
+        },
+        "299": {
+          "THUMB_MCP_R": 0.061399172991514206,
+          "THUMB_IP_R": 0.9386008381843567
+        },
+        "1053": {
+          "WRIST_R": 0.628001868724823,
+          "INDEX_MCP_R": 0.3719981014728546,
+          "INDEX_PIP_R": 1.0790740523347608e-09,
+          "INDEX_DIP_R": 2.8194068607836643e-19
+        },
+        "1385": {
+          "THUMB_MCP_R": 0.061094269156455994,
+          "THUMB_IP_R": 0.9389057159423828
+        },
+        "1453": {
+          "THUMB_MCP_R": 0.009788289666175842,
+          "THUMB_IP_R": 0.9902117252349854
+        },
+        "2062": {
+          "WRIST_R": 0.6009393334388733,
+          "INDEX_MCP_R": 0.3990606367588043,
+          "INDEX_PIP_R": 3.929239600353185e-09,
+          "INDEX_DIP_R": 4.362484893143547e-19
+        },
+        "2786": {
+          "THUMB_MCP_R": 0.011447017081081867,
+          "THUMB_IP_R": 0.988552987575531
+        },
+        "3165": {
+          "WRIST_R": 0.5753077864646912,
+          "INDEX_MCP_R": 0.42469218373298645,
+          "INDEX_PIP_R": 6.399699437054096e-09,
+          "INDEX_DIP_R": 5.791763035743563e-19
+        }
+      },
+      "bones": [
+        "INDEX_DIP_R",
+        "INDEX_MCP_R",
+        "INDEX_PIP_R",
+        "THUMB_IP_R",
+        "THUMB_MCP_R",
+        "WRIST_R"
+      ],
+      "vertices_outside317": [
+        148,
+        1053,
+        2062,
+        3165
+      ],
+      "inside317_vertices": [
+        299,
+        1385,
+        1453,
+        2786
+      ],
+      "scope_amendment": "CONDITIONAL_NOT_AUTOMATIC: a future weight remedy involving listed outside317 vertices needs a separate amendment. Remedy and necessity not solved; changing pinned quintic/driver rule needs separate authority review. No current scope expansion.",
+      "proof_image": "renders/PAIR_1225_2740__TH_IP_30__R2.png"
+    },
+    {
+      "fixture": "CAP37_2RING_CONTINUITY_NEIGHBORHOOD",
+      "pose": "IDX_MCP_45",
+      "run_label": "TARGETED_INDEX_COMPATIBILITY_CONTROL",
+      "face_pair": [
+        1041,
+        2735
+      ],
+      "vertex_ids": [
+        282,
+        655,
+        1337,
+        1339,
+        2064,
+        2066,
+        2740,
+        3163
+      ],
+      "core_cap37_overlap": [],
+      "region": "Frozen THUMB distal cap two-ring / native INDEX surface contact",
+      "classification": "CANDIDATE_INTRODUCED_DEFORMATION_FAILURE",
+      "classification_baseline": "Corrected recovery candidate versus historical R1B donor (same pose, mesh, metric); already present in corrected R1, not introduced by the R2 incremental skin rebuild",
+      "R2_incrementally_introduced": false,
+      "evidence": {
+        "face_ids": [
+          1041,
+          2735
+        ],
+        "domains": [
+          "THUMB",
+          "INDEX"
+        ],
+        "both_faces_in_patch": false,
+        "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+        "intersect": true,
+        "depth_mm": 3.709175107360352,
+        "seg_mm": 0.5925895821949515,
+        "local_edge_mm": 3.619188231230516,
+        "tri_pairs": 4
+      },
+      "historical_comparison": {
+        "R1E": null,
+        "R1B_DONOR": null,
+        "R1_CORRECTED_RIG": {
+          "face_ids": [
+            1041,
+            2735
+          ],
+          "domains": [
+            "THUMB",
+            "INDEX"
+          ],
+          "both_faces_in_patch": false,
+          "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "intersect": true,
+          "depth_mm": 3.7107792868482647,
+          "seg_mm": 0.6206547602059835,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4
+        },
+        "R2": {
+          "face_ids": [
+            1041,
+            2735
+          ],
+          "domains": [
+            "THUMB",
+            "INDEX"
+          ],
+          "both_faces_in_patch": false,
+          "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "intersect": true,
+          "depth_mm": 3.709175107360352,
+          "seg_mm": 0.5925895821949515,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4
+        }
+      },
+      "weights_R2": {
+        "282": {
+          "THUMB_MCP_R": 0.09926619380712509,
+          "THUMB_IP_R": 0.9007338285446167
+        },
+        "655": {
+          "WRIST_R": 0.3532099723815918,
+          "INDEX_MCP_R": 0.6360194087028503,
+          "INDEX_PIP_R": 0.007690545171499252,
+          "INDEX_DIP_R": 0.0030800546519458294
+        },
+        "1337": {
+          "THUMB_MCP_R": 0.10247573256492615,
+          "THUMB_IP_R": 0.8975242376327515
+        },
+        "1339": {
+          "THUMB_MCP_R": 0.021252302452921867,
+          "THUMB_IP_R": 0.9787477254867554
+        },
+        "2064": {
+          "WRIST_R": 0.4331265687942505,
+          "INDEX_MCP_R": 0.5567119717597961,
+          "INDEX_PIP_R": 0.006963625084608793,
+          "INDEX_DIP_R": 0.0031978271435946226
+        },
+        "2066": {
+          "WRIST_R": 0.3421168327331543,
+          "INDEX_MCP_R": 0.6476353406906128,
+          "INDEX_PIP_R": 0.007397092413157225,
+          "INDEX_DIP_R": 0.0028507390525192022
+        },
+        "2740": {
+          "THUMB_MCP_R": 0.023364296182990074,
+          "THUMB_IP_R": 0.9766356945037842
+        },
+        "3163": {
+          "WRIST_R": 0.42360538244247437,
+          "INDEX_MCP_R": 0.5678743720054626,
+          "INDEX_PIP_R": 0.005918398033827543,
+          "INDEX_DIP_R": 0.002601813990622759
+        }
+      },
+      "bones": [
+        "INDEX_DIP_R",
+        "INDEX_MCP_R",
+        "INDEX_PIP_R",
+        "THUMB_IP_R",
+        "THUMB_MCP_R",
+        "WRIST_R"
+      ],
+      "vertices_outside317": [],
+      "inside317_vertices": [
+        282,
+        655,
+        1337,
+        1339,
+        2064,
+        2066,
+        2740,
+        3163
+      ],
+      "scope_amendment": "CONDITIONAL_NOT_AUTOMATIC: a future weight remedy involving listed outside317 vertices needs a separate amendment. Remedy and necessity not solved; changing pinned quintic/driver rule needs separate authority review. No current scope expansion.",
+      "proof_image": "renders/PAIR_1041_2735__IDX_MCP_45__R2.png"
+    },
+    {
+      "fixture": "CAP37_2RING_CONTINUITY_NEIGHBORHOOD",
+      "pose": "IDX_MCP_45",
+      "run_label": "TARGETED_INDEX_COMPATIBILITY_CONTROL",
+      "face_pair": [
+        1226,
+        2742
+      ],
+      "vertex_ids": [
+        342,
+        654,
+        1381,
+        1385,
+        2063,
+        2068,
+        2786,
+        3165
+      ],
+      "core_cap37_overlap": [],
+      "region": "Frozen THUMB distal cap two-ring / native INDEX surface contact",
+      "classification": "CANDIDATE_INTRODUCED_DEFORMATION_FAILURE",
+      "classification_baseline": "Corrected recovery candidate versus historical R1B donor (same pose, mesh, metric); already present in corrected R1, not introduced by the R2 incremental skin rebuild",
+      "R2_incrementally_introduced": false,
+      "evidence": {
+        "face_ids": [
+          1226,
+          2742
+        ],
+        "domains": [
+          "THUMB",
+          "INDEX"
+        ],
+        "both_faces_in_patch": false,
+        "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+        "intersect": true,
+        "depth_mm": 4.626236739568412,
+        "seg_mm": 0.35031668445181197,
+        "local_edge_mm": 4.166125196808419,
+        "tri_pairs": 4
+      },
+      "historical_comparison": {
+        "R1E": null,
+        "R1B_DONOR": null,
+        "R1_CORRECTED_RIG": {
+          "face_ids": [
+            1226,
+            2742
+          ],
+          "domains": [
+            "THUMB",
+            "INDEX"
+          ],
+          "both_faces_in_patch": false,
+          "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "intersect": true,
+          "depth_mm": 4.6285808784887195,
+          "seg_mm": 0.3402542097387797,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4
+        },
+        "R2": {
+          "face_ids": [
+            1226,
+            2742
+          ],
+          "domains": [
+            "THUMB",
+            "INDEX"
+          ],
+          "both_faces_in_patch": false,
+          "class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "intersect": true,
+          "depth_mm": 4.626236739568412,
+          "seg_mm": 0.35031668445181197,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4
+        }
+      },
+      "weights_R2": {
+        "342": {
+          "THUMB_MCP_R": 0.07077464461326599,
+          "THUMB_IP_R": 0.9292253851890564
+        },
+        "654": {
+          "WRIST_R": 0.3995864689350128,
+          "INDEX_MCP_R": 0.5948367118835449,
+          "INDEX_PIP_R": 0.003923800773918629,
+          "INDEX_DIP_R": 0.001652998966164887
+        },
+        "1381": {
+          "THUMB_MCP_R": 0.016762783750891685,
+          "THUMB_IP_R": 0.9832372069358826
+        },
+        "1385": {
+          "THUMB_MCP_R": 0.061094269156455994,
+          "THUMB_IP_R": 0.9389057159423828
+        },
+        "2063": {
+          "WRIST_R": 0.49724170565605164,
+          "INDEX_MCP_R": 0.49695083498954773,
+          "INDEX_PIP_R": 0.003917274996638298,
+          "INDEX_DIP_R": 0.0018901560688391328
+        },
+        "2068": {
+          "WRIST_R": 0.45285025238990784,
+          "INDEX_MCP_R": 0.5471495985984802,
+          "INDEX_PIP_R": 1.5149376508816204e-07,
+          "INDEX_DIP_R": 4.7633463580384566e-17
+        },
+        "2786": {
+          "THUMB_MCP_R": 0.011447017081081867,
+          "THUMB_IP_R": 0.988552987575531
+        },
+        "3165": {
+          "WRIST_R": 0.5753077864646912,
+          "INDEX_MCP_R": 0.42469218373298645,
+          "INDEX_PIP_R": 6.399699437054096e-09,
+          "INDEX_DIP_R": 5.791763035743563e-19
+        }
+      },
+      "bones": [
+        "INDEX_DIP_R",
+        "INDEX_MCP_R",
+        "INDEX_PIP_R",
+        "THUMB_IP_R",
+        "THUMB_MCP_R",
+        "WRIST_R"
+      ],
+      "vertices_outside317": [
+        2068,
+        3165
+      ],
+      "inside317_vertices": [
+        342,
+        654,
+        1381,
+        1385,
+        2063,
+        2786
+      ],
+      "scope_amendment": "CONDITIONAL_NOT_AUTOMATIC: a future weight remedy involving listed outside317 vertices needs a separate amendment. Remedy and necessity not solved; changing pinned quintic/driver rule needs separate authority review. No current scope expansion.",
+      "proof_image": "renders/PAIR_1226_2742__IDX_MCP_45__R2.png"
+    }
+  ],
+  "anatomical_cause_or_optimal_fix_claimed": false,
+  "stop_after_adjudication": true
+}

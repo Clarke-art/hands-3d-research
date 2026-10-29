@@ -1,0 +1,469 @@
+{
+  "PHASE": "PIANO_HAND_POSTURE_REFERENCE_AND_STATIC_FEASIBILITY_R1",
+  "units": "mm derived from frozen equivalent-scale metres; no physical keyboard calibration claim",
+  "keyboard_metres_per_native_unit": 0.53255794,
+  "formal_hands": {
+    "L": {
+      "baseline": "production_spec/left_hand_product_baseline_r1/LEFT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend",
+      "baseline_sha256": "54307bb199a75a5e684c29d346de9ca6bf2f8e7696911d9d69c57559516ad1a7",
+      "bone_count": 21,
+      "mesh_vertices": 3300,
+      "rest_pad_xyz_mm": [
+        [
+          78.41181800181266,
+          111.94827921484283,
+          -42.585216664999784
+        ],
+        [
+          35.90004845149349,
+          184.73206061955463,
+          -26.499372304541684
+        ],
+        [
+          -1.6494068360764766,
+          194.7042017348184,
+          -24.97531948409702
+        ],
+        [
+          -29.950637939566366,
+          181.26399987585143,
+          -27.054638343336293
+        ],
+        [
+          -67.38125689895651,
+          152.3783069465018,
+          -19.761781927511173
+        ]
+      ],
+      "rest_thumb_little_euclidean_mm": 153.00691815934468,
+      "rest_thumb_little_x_span_mm": 145.79307490076914,
+      "palm_width_index_little_MCP_euclidean_mm": 78.44532251009717,
+      "coarse_palm_band_x_width_mm": 137.4300068539817,
+      "palm_band_definition": "canonical rest y in [45,105) mm; includes proximal thumb, not an anatomical segmentation",
+      "fingers": {
+        "THUMB": {
+          "proximal_to_pad_polyline_mm": 93.70190695578913,
+          "segments_to_pad_mm": [
+            45.668218955292915,
+            26.75939038941622,
+            21.27429761107999
+          ],
+          "bone_lengths_mm": [
+            45.66824808716774,
+            26.75941213965416,
+            21.80798538029194
+          ]
+        },
+        "INDEX": {
+          "proximal_to_pad_polyline_mm": 66.73216137802419,
+          "segments_to_pad_mm": [
+            32.2930087783745,
+            20.879807918354075,
+            13.559344681295618
+          ],
+          "bone_lengths_mm": [
+            32.29304403066635,
+            20.879831165075302,
+            15.322662889957428
+          ]
+        },
+        "MIDDLE": {
+          "proximal_to_pad_polyline_mm": 76.45911598855793,
+          "segments_to_pad_mm": [
+            35.38272062049326,
+            26.119003852990335,
+            14.957391515074328
+          ],
+          "bone_lengths_mm": [
+            35.38275882601738,
+            26.119036599993706,
+            17.47540384531021
+          ]
+        },
+        "RING": {
+          "proximal_to_pad_polyline_mm": 70.26637666540442,
+          "segments_to_pad_mm": [
+            32.99052163512858,
+            23.62894064711248,
+            13.646914383163356
+          ],
+          "bone_lengths_mm": [
+            32.99055993556976,
+            23.628966882824898,
+            15.73481597006321
+          ]
+        },
+        "LITTLE": {
+          "proximal_to_pad_polyline_mm": 51.503997335245444,
+          "segments_to_pad_mm": [
+            24.686751570683512,
+            16.729777338172244,
+            10.087468426389687
+          ],
+          "bone_lengths_mm": [
+            24.686772376298904,
+            16.729796305298805,
+            11.550627648830414
+          ]
+        }
+      },
+      "unrestricted_triangle_inequality_span_upper_bound_mm": 253.460708705088,
+      "upper_bound_warning": "Loose kinematic necessary bound. No joint-limit, common-palm, collision or naturalness guarantee. NOT maximum natural span.",
+      "existing_refined_pose_observed_span_mm": [
+        149.92868019352696,
+        176.18530326528847
+      ],
+      "existing_observed_span_warning": "Read-only failed prior candidate; sampled evidence only, not a search or a naturalness witness.",
+      "prior_wrist_root_z_range_mm": [
+        45.00000000000001,
+        62.55375562753342
+      ],
+      "prior_coarse_wrist_mesh_min_z_mm": 9.898846969008446,
+      "prior_coarse_palm_mesh_min_z_mm": -10.420246049761772,
+      "natural_wrist_height_interval": null,
+      "wrist_interval_reason": "No body/forearm model or side-view calibrated performance reference; previous root constraints were numerical policy, not an anatomical range."
+    },
+    "R": {
+      "baseline": "production_spec/right_hand_product_baseline_r2/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R2.blend",
+      "baseline_sha256": "c946fed318fa88c238d9aacc30cfb4e52f268848f0ad65a4dcbf594754d791f0",
+      "bone_count": 21,
+      "mesh_vertices": 3300,
+      "rest_pad_xyz_mm": [
+        [
+          -78.41138543219208,
+          111.94818818534785,
+          -42.58503376350276
+        ],
+        [
+          -35.90038945014075,
+          184.73217129431544,
+          -26.4993348355603
+        ],
+        [
+          1.6499075845899367,
+          194.70428967559812,
+          -24.97544662479271
+        ],
+        [
+          29.950770203070196,
+          181.26399920906204,
+          -27.054403576377368
+        ],
+        [
+          67.38146087231091,
+          152.37837082895518,
+          -19.761829934527256
+        ]
+      ],
+      "rest_thumb_little_euclidean_mm": 153.00670683072306,
+      "rest_thumb_little_x_span_mm": 145.79284630450297,
+      "palm_width_index_little_MCP_euclidean_mm": 78.44525152494859,
+      "coarse_palm_band_x_width_mm": 137.42971896046905,
+      "palm_band_definition": "canonical rest y in [45,105) mm; includes proximal thumb, not an anatomical segmentation",
+      "fingers": {
+        "THUMB": {
+          "proximal_to_pad_polyline_mm": 93.70156472581661,
+          "segments_to_pad_mm": [
+            45.66822529272839,
+            26.759404020290777,
+            21.273935412797453
+          ],
+          "bone_lengths_mm": [
+            45.66825553774834,
+            26.759430766105652,
+            21.807977929711342
+          ]
+        },
+        "INDEX": {
+          "proximal_to_pad_polyline_mm": 66.73230042611225,
+          "segments_to_pad_mm": [
+            32.293020379622604,
+            20.879804035708336,
+            13.559476010781308
+          ],
+          "bone_lengths_mm": [
+            32.29305148124695,
+            20.879823714494705,
+            15.322672203183174
+          ]
+        },
+        "MIDDLE": {
+          "proximal_to_pad_polyline_mm": 76.45935765324805,
+          "segments_to_pad_mm": [
+            35.38271436460659,
+            26.11896358965161,
+            14.957679698989834
+          ],
+          "bone_lengths_mm": [
+            35.382747650146484,
+            26.118991896510124,
+            17.475444823503494
+          ]
+        },
+        "RING": {
+          "proximal_to_pad_polyline_mm": 70.26631897334785,
+          "segments_to_pad_mm": [
+            32.99058936360612,
+            23.628946076947873,
+            13.64678353279386
+          ],
+          "bone_lengths_mm": [
+            32.99061581492424,
+            23.628970608115196,
+            15.734801068902016
+          ]
+        },
+        "LITTLE": {
+          "proximal_to_pad_polyline_mm": 51.5041984184742,
+          "segments_to_pad_mm": [
+            24.686754902853274,
+            16.7298347304203,
+            10.087608785200624
+          ],
+          "bone_lengths_mm": [
+            24.686776101589203,
+            16.729850322008133,
+            11.550608091056347
+          ]
+        }
+      },
+      "unrestricted_triangle_inequality_span_upper_bound_mm": 253.46053226891286,
+      "upper_bound_warning": "Loose kinematic necessary bound. No joint-limit, common-palm, collision or naturalness guarantee. NOT maximum natural span.",
+      "existing_refined_pose_observed_span_mm": [
+        96.16699614514997,
+        122.20995846226596
+      ],
+      "existing_observed_span_warning": "Read-only failed prior candidate; sampled evidence only, not a search or a naturalness witness.",
+      "prior_wrist_root_z_range_mm": [
+        45.00000000000001,
+        57.47987256129205
+      ],
+      "prior_coarse_wrist_mesh_min_z_mm": 9.246322326362133,
+      "prior_coarse_palm_mesh_min_z_mm": -10.16023475676775,
+      "natural_wrist_height_interval": null,
+      "wrist_interval_reason": "No body/forearm model or side-view calibrated performance reference; previous root constraints were numerical policy, not an anatomical range."
+    }
+  },
+  "keyboard": {
+    "38": {
+      "note": "D2",
+      "center_x_mm": -311.200232239,
+      "playable_surfaces_mm": [
+        {
+          "xmin": -322.74475679003564,
+          "xmax": -299.6557076879645,
+          "ymin": 3.142549739737133e-07,
+          "ymax": 49.421376517745024,
+          "z": -7.935724140899935e-08
+        },
+        {
+          "xmin": -317.5323460030743,
+          "xmax": -304.8681184749258,
+          "ymin": 49.42137736845546,
+          "ymax": 114.28693338754455,
+          "z": -7.935724140899935e-08
+        }
+      ],
+      "press_angle_rad": 0.08712320863156287
+    },
+    "50": {
+      "note": "D3",
+      "center_x_mm": -143.63087641799996,
+      "playable_surfaces_mm": [
+        {
+          "xmin": -155.17540096903556,
+          "xmax": -132.08635186696443,
+          "ymin": 3.142549739737133e-07,
+          "ymax": 49.421376517745024,
+          "z": -7.935724140899935e-08
+        },
+        {
+          "xmin": -149.9629901820743,
+          "xmax": -137.29876265392576,
+          "ymin": 49.42137736845546,
+          "ymax": 114.28693338754455,
+          "z": -7.935724140899935e-08
+        }
+      ],
+      "press_angle_rad": 0.08712320863156287
+    },
+    "74": {
+      "note": "D5",
+      "center_x_mm": 191.50783522400002,
+      "playable_surfaces_mm": [
+        {
+          "xmin": 179.96331067296444,
+          "xmax": 203.0523597750356,
+          "ymin": 3.142549739737133e-07,
+          "ymax": 49.421376517745024,
+          "z": -7.935724140899935e-08
+        },
+        {
+          "xmin": 185.17572145992574,
+          "xmax": 197.83994898807427,
+          "ymin": 49.42137736845546,
+          "ymax": 114.28693338754455,
+          "z": -7.935724140899935e-08
+        }
+      ],
+      "press_angle_rad": 0.08712320863156287
+    },
+    "76": {
+      "note": "E5",
+      "center_x_mm": 215.44631462700002,
+      "playable_surfaces_mm": [
+        {
+          "xmin": 203.90179007596444,
+          "xmax": 226.9908391780356,
+          "ymin": 3.142549739737133e-07,
+          "ymax": 49.421376517745024,
+          "z": -7.935724140899935e-08
+        },
+        {
+          "xmin": 209.11420088832008,
+          "xmax": 226.9908392034299,
+          "ymin": 49.42137736845546,
+          "ymax": 114.28693338754455,
+          "z": -7.935724140899935e-08
+        }
+      ],
+      "press_angle_rad": 0.08712320863156287
+    },
+    "78": {
+      "note": "F#5",
+      "center_x_mm": 251.3540337315,
+      "playable_surfaces_mm": [
+        {
+          "xmin": 245.7169080392884,
+          "xmax": 256.9911594237116,
+          "ymin": 49.42137736845546,
+          "ymax": 114.28693338754455,
+          "z": 15.444180037799608
+        }
+      ],
+      "press_angle_rad": 0.08712320863156287
+    },
+    "79": {
+      "note": "G5",
+      "center_x_mm": 263.32327343300005,
+      "playable_surfaces_mm": [
+        {
+          "xmin": 251.77874888196445,
+          "xmax": 274.8677979840355,
+          "ymin": 3.142549739737133e-07,
+          "ymax": 49.421376517745024,
+          "z": -7.935724140899935e-08
+        },
+        {
+          "xmin": 256.9911596689258,
+          "xmax": 269.6553871970742,
+          "ymin": 49.42137736845546,
+          "ymax": 114.28693338754455,
+          "z": -7.935724140899935e-08
+        }
+      ],
+      "press_angle_rad": 0.08712320863156287
+    },
+    "81": {
+      "note": "A5",
+      "center_x_mm": 287.26175283599997,
+      "playable_surfaces_mm": [
+        {
+          "xmin": 275.71722828496445,
+          "xmax": 298.8062773870356,
+          "ymin": 3.142549739737133e-07,
+          "ymax": 49.421376517745024,
+          "z": -7.935724140899935e-08
+        },
+        {
+          "xmin": 280.92963907192575,
+          "xmax": 293.59386660007425,
+          "ymin": 49.42137736845546,
+          "ymax": 114.28693338754455,
+          "z": -7.935724140899935e-08
+        }
+      ],
+      "press_angle_rad": 0.08712320863156287
+    }
+  },
+  "left_octave": {
+    "center_to_center_x_mm": 167.56935582100004,
+    "minimum_front_region_point_to_point_distance_mm": 144.4803067189289,
+    "minimum_warning": "Pads treated as points at inner edges; realistic pad area and edge safety require more. Not a target prescription.",
+    "natural_common_palm_feasibility": "UNPROVEN",
+    "hard_geometric_impossibility_proven": false,
+    "reason": "Rest shape and loose upper bound bracket the task; old poses touch separately but collide. No collision-free, natural common-palm witness."
+  },
+  "right_five_finger": {
+    "D5_A5_center_x_span_mm": 95.75391761199994,
+    "Fsharp5_black_top_height_mm": 15.444180037799608,
+    "Fsharp5_black_front_y_mm": 49.42137736845546,
+    "natural_common_palm_feasibility": "UNPROVEN",
+    "reason": "Different digit lengths and raised/rearward F# surface require coordinated common-palm setup; per-note reach is not simultaneous five-finger proof."
+  },
+  "existing_refined_contact_summary": {
+    "R": {
+      "onset_count": 10,
+      "onset_contact_pass": 10,
+      "held_observations": 240,
+      "held_contact_pass": 160,
+      "held_floating": 80,
+      "held_penetrating": 0,
+      "max_abs_held_vertical_mm": 7.975500847654388,
+      "max_held_horizontal_mm": 0.0,
+      "release_observations": 170,
+      "release_penetrating": 0,
+      "release_end_gaps_mm": [
+        22.54585929700098,
+        24.26721722372732,
+        6.315022666033973,
+        22.954391394936657,
+        5.486601111673926,
+        20.911796097838497,
+        27.004418974005794,
+        6.702994886812438,
+        30.283257444583988,
+        19.5043441701766
+      ],
+      "unexpected_key_pad_contacts": 4,
+      "palm_collision_observations": 10,
+      "wrist_collision_observations": 0,
+      "mesh_collision_observations": 76
+    },
+    "L": {
+      "onset_count": 8,
+      "onset_contact_pass": 8,
+      "held_observations": 240,
+      "held_contact_pass": 232,
+      "held_floating": 8,
+      "held_penetrating": 0,
+      "max_abs_held_vertical_mm": 4.3933043566507815,
+      "max_held_horizontal_mm": 0.0,
+      "release_observations": 136,
+      "release_penetrating": 0,
+      "release_end_gaps_mm": [
+        19.01713394113741,
+        6.593322460734462,
+        19.443905060374355,
+        6.510801692688083,
+        20.63485615440569,
+        6.503515024864291,
+        23.736465801679707,
+        13.481726949297999
+      ],
+      "unexpected_key_pad_contacts": 8,
+      "palm_collision_observations": 129,
+      "wrist_collision_observations": 0,
+      "mesh_collision_observations": 129
+    }
+  },
+  "measurement_limits": [
+    "No optimizer, parameter sweep, new pose candidate or Action generated.",
+    "No natural joint ranges inferred from photographs.",
+    "Prior contact is marker-based; prior collision is vertex-volume screen, not exhaustive triangle collision.",
+    "Reachable-set upper bound does not establish attainability.",
+    "Rest pad positions derive from unchanged distal markers and formal rest bone frames; mesh parity independently verified."
+  ],
+  "formal_asset_change_required": "NOT_ESTABLISHED",
+  "static_probe_gate": "REFERENCE_EVIDENCE_INSUFFICIENT"
+}

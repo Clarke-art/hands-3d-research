@@ -1,0 +1,22 @@
+import sys,json,hashlib
+from pathlib import Path
+sys.dont_write_bytecode=True;O=Path(__file__).resolve().parent
+src=(O/'batch_verify.py').read_text(encoding='utf8');exec(compile(src[:src.index('args=sys.argv')],str(O/'batch_verify.py'),'exec'))
+def js(n,d):(O/n).write_text(json.dumps(d,indent=2,default=lambda x:x.tolist() if hasattr(x,'tolist') else x.item()),encoding='utf8')
+P=O.parent/'hands_early_hand_preparation_entry_reachability_r1';A=O.parent/'hands_long_context_hand_motion_architecture_r1'
+midi=json.loads((O/'SOURCE_MIDI_REVALIDATION.json').read_text(encoding='utf8'));candidate=json.loads(Path(midi['candidate_file']).read_text(encoding='utf8'))['candidates'][0];assert candidate['candidate_id']=='C01_PIANOPLAYER';fingers={n['note_id']:n['finger'] for n in candidate['notes']};byid={n['note_id']:n for n in midi['notes']};old=byid[I['hold']['note']];new=byid[I['next']['note']];assert old['midi']==I['hold']['midi'] and new['midi']==I['next']['midi'];assert fingers[old['note_id']]==I['hold']['finger'] and fingers[new['note_id']]==I['next']['finger']
+anchors=json.loads((P/'ANCHOR_REQUESTS.json').read_text(encoding='utf8'));start=anchors[0];prefix=next(r for r in json.loads((P/'ENTRY_ACTUAL_SAMPLES.json').read_text(encoding='utf8')) if r['id']=='entry_sample_39');common=anchors[1];safe=next(r for r in json.loads((A/'HIGH_LEVEL_CLEARANCE_ACTUAL.json').read_text(encoding='utf8')) if r['id']=='high_level_above')
+assert start['display_time']==2.527855 and start['display_time']>=old['display_on'];junction=new['display_on'];assert abs(old['display_off']-junction)<1e-12
+curves={}
+for idx,name in u.man['key_pivots'].items():
+ ob=bpy.data.objects[name];curves[str(idx)]=[dict(path=f.data_path,index=f.array_index,points=[dict(time=(float(k.co.x)-1)/60,value=float(k.co.y),interpolation=k.interpolation) for k in f.keyframe_points]) for f in u.curves(ob.animation_data.action)] if ob.animation_data and ob.animation_data.action else []
+points=curves[str(new['midi']-21)][0]['points'];peak=max(p['value'] for p in points if junction-1e-6<=p['time']<=new['display_off']+1e-6);full=min(p['time'] for p in points if p['time']>junction and p['time']<new['display_off'] and abs(p['value']-peak)<1e-7)
+# Use the source-contract full-press time, verified against the actual Action float32 knot.
+contract_full=json.loads((O/'CONTACT_STATE_SEQUENCE.json').read_text(encoding='utf8'))['atomic_exchange']['E5_full_press_at'];assert abs(full-contract_full)<1e-6
+full=contract_full;contexts=[dict(n,finger=fingers[n['note_id']]) for n in midi['notes'] if n['hand']==old['hand'] and old['display_on']-1.0<=n['display_on']<=new['display_off']+.5]
+rows=[]
+for t in [start['display_time'],prefix['display_time'],junction-1e-6,junction,junction+1e-6,full,full+1e-6]:
+ u.settime(sc,t);rows.append(dict(time=t,key_angles=u.keyangles().tolist()))
+actualstart=measure(start);assert actualstart['all_gates'];actualprefix=measure(dict(id='readonly_prefix_end',display_time=prefix['display_time'],contacts=prefix['contact_results'] and start['contacts'],latent=prefix['latent'],state=prefix['state']));assert actualprefix['all_gates']
+context=dict(task='PIANO_LONG_CONTEXT_CORRIDOR_IK_BRIDGE_R2',authority='DESIGN_PROVISIONAL — STOP — HUMAN REVIEW',hand=old['hand'],events=contexts,pair=dict(held=old,next=new,held_finger=fingers[old['note_id']],preparing_finger=fingers[new['note_id']]),known_start=start,known_prefix_endpoint=dict(time=prefix['display_time'],latent=prefix['latent'],state=prefix['state']),reference_common=common,reference_safe=dict(time=safe['display_time'],latent=safe['latent'],state=safe['state']),contact_descriptors=I['contacts'],time_span=dict(start=start['display_time'],junction=junction,first_full_press=full,scope_end=full,optional_right_probe=full+1e-6),all_original_Action_payloads_match=True,all_frozen_native_identity=True,source_action_saved=False,source_MIDI=midi,curves=curves,action_payloads=actual,rows=rows,motion_bounds=dict(wrist_speed_mm_s=500,latent_velocity=[500,500,500,120,120,120,240,240,240,240,5,8],mapped_joint_rate_deg_s=240),earlier_context_kinematics='R06/R07 incoming motion UNKNOWN; no earlier state accepted as a known anchor',old_250ms_prefix='Only start fixed; intermediate controls may change and will be revalidated')
+js('R2_CONTEXT_RAW.json',context);js('R2_PREFLIGHT_ACTUAL.json',dict(start=actualstart,prefix_end=actualprefix,scope='READ_ONLY_CONTEXT_AND_REPRODUCTION'));print('R2_CONTEXT',start['display_time'],junction,full,'notes',len(contexts),'source_saved',False,flush=True)

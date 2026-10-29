@@ -1,0 +1,16 @@
+{
+  "CONTACT_VERTICAL_TOLERANCE_MM": 3.0,
+  "CONTACT_HORIZONTAL_TOLERANCE_MM": 2.0,
+  "penetration_threshold_mm": 3.0,
+  "correct_key_region_requires_actual_polygon_inside": true,
+  "boundary_near_miss_is_not_correct_key": true,
+  "units": "equivalent physical mm from approved keyboard scale",
+  "white_width_mm": 23.089049488700006,
+  "rationale": "3mm vertical is already visibly small relative to10mm key dip; 2mm horizontal is under10% of a23mm white key. Fixed before contact extraction, fitting, or result viewing.",
+  "same_for_both_hands_all_notes": true,
+  "root_model": "fixed wrist-rest anatomical orientation; metre scale1; only XYZ translation",
+  "root_temporal_regularization": "sum active assigned-pad target residuals squared + lambda*sum(second-difference translation squared); lambda=(0.080*60)^4; natural endpoints; no per-note tuning",
+  "root_y_target": "white front+25mm; black front+15mm within actual playable region; fixed before fitting",
+  "root_jump_flag_mm_per_60Hz": 10,
+  "contact_success_not_independent_validation": "Fitted on predicted assignments; report fit residuals, not ground-truth evidence."
+}

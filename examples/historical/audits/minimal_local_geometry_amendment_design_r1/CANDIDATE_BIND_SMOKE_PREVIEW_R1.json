@@ -1,0 +1,7460 @@
+{
+  "status": "DIAGNOSTIC_EVALUATION_ONLY_NOT_STAGE6A_QUALIFICATION",
+  "source": {
+    "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+    "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+  },
+  "source_weight_hash": "1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55",
+  "reused_function_AST_provenance": [
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6a/scripts/s6a_common.py",
+        "sha256": "cceedf3db14c9327de2e44e6a22457db11a793354922c8353ec65081043d5cf9"
+      },
+      "function_AST_sha256": {
+        "reset_pose": "a5f10fb615e007e6e45ae31f49c4bf5e5c85c1ebb3ce69af03b5ff66ebea3664",
+        "set_joint_rotation": "ebf9710a180dd22fcc6f4c04b71e44635d3bc3ae08d757f8a1b511a60554333f",
+        "pose_state": "dbf4989e10e171b7ecd6d54435f329adb672df9e4743d5edb7ed57a278f9d9de",
+        "evaluate": "d0a9e0353b050de0e0e4179b5f8d914f752fc7643c91c84b2e4148b4b8df7911"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6b_r1c/scripts/r1c_pen_common.py",
+        "sha256": "83e9b51f6f6b97e39929b0b083d28ac33ccb150d22b6bd78f3a1cd30937924db"
+      },
+      "function_AST_sha256": {
+        "ray_triangle": "1e3e76039beba7697905e58096c4aa51c21be7b11710372fb6fb31fecc01782b",
+        "tri_tri_intersection": "e92e21a00b586ffdb27baeecc98eb41e5fdb894f4a4ddbb2abe8432f3f862d63",
+        "seg_len": "0d93cf8c0e802427bd34982ec33ef99f3cc00adbfb9814fecee6cfd9ab6d76a8"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_after_approval_r1/blender_extract.py",
+        "sha256": "1161a123785c19a59eb455e0e3f262cfdb464d9929cf30648d69cc4aeeb81438"
+      },
+      "function_AST_sha256": {
+        "mesh_payload": "811a26192954ebb0ab0be93f3c3a4cd455890f1e1ee0c38e7ddd6a56cffc6c3e",
+        "rig_payload": "f5ada45711a53d771031a97af1b95199982801e2a823c1f45ba4c71c336d912c",
+        "weights": "fab6beea6c9aa0f3eddfb15e4e364fe52ec80b20d890e0f83e29d0ab78cbcdbd"
+      }
+    }
+  ],
+  "candidate_evaluations": {
+    "CURRENT": {
+      "invariant_checks": {
+        "vertex_count": true,
+        "edge_identity": true,
+        "face_winding_identity": true,
+        "material_assignment": true,
+        "material_slots": true,
+        "smooth_flags": true,
+        "custom_normal_flag": true,
+        "UV": true,
+        "weights_exact": true,
+        "weight_hash": true,
+        "rig_rest_exact": true,
+        "vertex_group_order": true
+      },
+      "actual_write_vertices": [],
+      "intended_to_float32_actual_max_mm": 0.0,
+      "states": {
+        "BIND": {
+          "pose_authority": {
+            "bone": "NONE",
+            "angle": 0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [],
+          "removed_local_diagnostic_pairs": [],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": true,
+          "raw_to_bind_max_mm": 5.967009246215726e-05
+        },
+        "IDX_MCP_15": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_15",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 15.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -15.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [],
+          "removed_local_diagnostic_pairs": [],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.991444885731,
+                -0.130526170135,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        },
+        "IDX_MCP_30": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_30",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 30.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -30.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [],
+          "removed_local_diagnostic_pairs": [],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.965925812721,
+                -0.258819103241,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        },
+        "IDX_MCP_45": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_45",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 45.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -45.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [],
+          "removed_local_diagnostic_pairs": [],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.923879504204,
+                -0.382683455944,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        }
+      }
+    },
+    "A": {
+      "invariant_checks": {
+        "vertex_count": true,
+        "edge_identity": true,
+        "face_winding_identity": true,
+        "material_assignment": true,
+        "material_slots": true,
+        "smooth_flags": true,
+        "custom_normal_flag": true,
+        "UV": true,
+        "weights_exact": true,
+        "weight_hash": true,
+        "rig_rest_exact": true,
+        "vertex_group_order": true
+      },
+      "actual_write_vertices": [
+        79,
+        80,
+        955,
+        2089,
+        2096,
+        2327,
+        2328,
+        2531,
+        3025,
+        3316,
+        3323,
+        3324,
+        3332,
+        3339,
+        3340
+      ],
+      "intended_to_float32_actual_max_mm": 5.4112921291833925e-05,
+      "states": {
+        "BIND": {
+          "pose_authority": {
+            "bone": "NONE",
+            "angle": 0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [
+            [
+              2182,
+              3314
+            ]
+          ],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": true,
+          "raw_to_bind_max_mm": 5.967009246215726e-05
+        },
+        "IDX_MCP_15": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_15",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 15.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -15.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [
+            [
+              2182,
+              3314
+            ]
+          ],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.991444885731,
+                -0.130526170135,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        },
+        "IDX_MCP_30": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_30",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 30.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -30.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [
+            [
+              2182,
+              3314
+            ]
+          ],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.965925812721,
+                -0.258819103241,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        },
+        "IDX_MCP_45": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_45",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 45.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -45.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [
+            [
+              2182,
+              3314
+            ]
+          ],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.923879504204,
+                -0.382683455944,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        }
+      }
+    },
+    "B": {
+      "invariant_checks": {
+        "vertex_count": true,
+        "edge_identity": true,
+        "face_winding_identity": true,
+        "material_assignment": true,
+        "material_slots": true,
+        "smooth_flags": true,
+        "custom_normal_flag": true,
+        "UV": true,
+        "weights_exact": true,
+        "weight_hash": true,
+        "rig_rest_exact": true,
+        "vertex_group_order": true
+      },
+      "actual_write_vertices": [
+        79,
+        80,
+        955,
+        2089,
+        2096,
+        2327,
+        2328,
+        2531,
+        3025,
+        3300,
+        3308,
+        3316,
+        3323,
+        3324,
+        3332,
+        3339,
+        3340,
+        3347
+      ],
+      "intended_to_float32_actual_max_mm": 5.592655910122917e-05,
+      "states": {
+        "BIND": {
+          "pose_authority": {
+            "bone": "NONE",
+            "angle": 0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [
+            [
+              517,
+              518
+            ],
+            [
+              2425,
+              3314
+            ]
+          ],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": true,
+          "raw_to_bind_max_mm": 5.967009246215726e-05
+        },
+        "IDX_MCP_15": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_15",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 15.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -15.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [
+            [
+              517,
+              518
+            ],
+            [
+              2425,
+              3314
+            ]
+          ],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.991444885731,
+                -0.130526170135,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        },
+        "IDX_MCP_30": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_30",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 30.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -30.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [
+            [
+              517,
+              518
+            ],
+            [
+              2425,
+              3314
+            ]
+          ],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.965925812721,
+                -0.258819103241,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        },
+        "IDX_MCP_45": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_45",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 45.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -45.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [
+            [
+              517,
+              518
+            ],
+            [
+              2425,
+              3314
+            ]
+          ],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.923879504204,
+                -0.382683455944,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        }
+      }
+    },
+    "C": {
+      "invariant_checks": {
+        "vertex_count": true,
+        "edge_identity": true,
+        "face_winding_identity": true,
+        "material_assignment": true,
+        "material_slots": true,
+        "smooth_flags": true,
+        "custom_normal_flag": true,
+        "UV": true,
+        "weights_exact": true,
+        "weight_hash": true,
+        "rig_rest_exact": true,
+        "vertex_group_order": true
+      },
+      "actual_write_vertices": [
+        79,
+        955,
+        962,
+        2089,
+        2238,
+        2327,
+        2328,
+        2531,
+        2609,
+        3025,
+        3300,
+        3306,
+        3308,
+        3315,
+        3316,
+        3324,
+        3331,
+        3332,
+        3338,
+        3339,
+        3340,
+        3347
+      ],
+      "intended_to_float32_actual_max_mm": 6.0014751239627416e-05,
+      "states": {
+        "BIND": {
+          "pose_authority": {
+            "bone": "NONE",
+            "angle": 0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": true,
+          "raw_to_bind_max_mm": 5.967009246215726e-05
+        },
+        "IDX_MCP_15": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_15",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 15.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -15.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.991444885731,
+                -0.130526170135,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        },
+        "IDX_MCP_30": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_30",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 30.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -30.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.965925812721,
+                -0.258819103241,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        },
+        "IDX_MCP_45": {
+          "pose_authority": {
+            "case_id": "IDX_MCP_45",
+            "digit": "INDEX",
+            "joint": "MCP",
+            "angle_deg": 45.0,
+            "bone": "INDEX_MCP_R",
+            "axis": "bone_local_X",
+            "sign": -1.0,
+            "applied_rotation_deg": -45.0
+          },
+          "evaluated_topology_same": true,
+          "introduced_nonadjacent_exact_pairs": [],
+          "removed_local_diagnostic_pairs": [
+            [
+              205,
+              207
+            ],
+            [
+              2181,
+              3329
+            ],
+            [
+              2182,
+              3329
+            ]
+          ],
+          "crossing_scope": "Only pairs touching the write-set incident faces; baseline contact classification and the prior9 crossings are not rerun or adjudicated. Nonadjacent fan-triangle segment intersections, geometric numerical tolerance1e-5mm, not an anatomy or Stage6 gate.",
+          "INCIDENTAL_DIAGNOSTIC_EFFECT": "Any changed contact recorded only; not candidate optimization/ranking objective.",
+          "pose_state": {
+            "WRIST_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_CMC_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_IP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "THUMB_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_MCP_R": {
+              "quat": [
+                0.923879504204,
+                -0.382683455944,
+                -0.0,
+                -0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "INDEX_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "MIDDLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "RING_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_MCP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_PIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_DIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            },
+            "LITTLE_TIP_R": {
+              "quat": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "loc": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ]
+            }
+          },
+          "rig_rest_unchanged": false
+        }
+      }
+    }
+  },
+  "max_design_candidates": 3,
+  "case_subset": [
+    "BIND",
+    "IDX_MCP_15",
+    "IDX_MCP_30",
+    "IDX_MCP_45"
+  ],
+  "Full42_rerun": false,
+  "Stage6B": false,
+  "production_blend_save_count": 0,
+  "old9_exact_crossing_evidence_untouched": true,
+  "saved_baseline_coordinate_verification": "Compared in the final independent metrics step; zero/full saved poses should reproduce.",
+  "candidate_summary": {
+    "A": {
+      "WRITE_VERTEX_COUNT": 15,
+      "MAX_DIHEDRAL_DEG": 171.23955851512073,
+      "BIND_MAX_DIHEDRAL_DEG": 171.23955851512073,
+      "EDGE6676_DIHEDRAL_DEG": 9.04196702118444,
+      "MAX_VERTEX_DISPLACEMENT_MM": 2.1574031770836863,
+      "MEAN_VERTEX_DISPLACEMENT_MM": 1.0856908727283432,
+      "RMS_VERTEX_DISPLACEMENT_MM": 1.2009622469361942,
+      "VISIBLE_DENT_STATUS": "CENTRAL_NOTCH_REDUCED_OR_REMOVED_BUT_CANDIDATE_REJECTED",
+      "NEW_VISIBLE_DEFECT": "NEW_LOCAL_CONTACT_AND_QUAD_BOWTIE; VISIBLE_SEVERITY_PENDING_HUMAN",
+      "BIND_PREVIEW": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+      "IDX_MCP_15_PREVIEW": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+      "IDX_MCP_30_PREVIEW": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+      "IDX_MCP_45_PREVIEW": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+      "smoke_details": {
+        "BIND": {
+          "status": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+          "contact_only": "FAIL_NEW_CONTACT",
+          "introduced_contact_pairs": [
+            [
+              2182,
+              3314
+            ],
+            [
+              2182,
+              3345
+            ],
+            [
+              3314,
+              3330
+            ]
+          ],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 2516,
+              "vertices": [
+                3300,
+                2089
+              ],
+              "face_ids": [
+                3299,
+                3312
+              ],
+              "baseline_angle_deg": 11.911848900919443,
+              "candidate_angle_deg": 111.81406668273736,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 2517,
+              "vertices": [
+                3332,
+                79
+              ],
+              "face_ids": [
+                3330,
+                3345
+              ],
+              "baseline_angle_deg": 13.877578619230256,
+              "candidate_angle_deg": 162.9292036004046,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [
+            3299,
+            3330
+          ],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0
+        },
+        "IDX_MCP_15": {
+          "status": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+          "contact_only": "FAIL_NEW_CONTACT",
+          "introduced_contact_pairs": [
+            [
+              2182,
+              3314
+            ],
+            [
+              2182,
+              3345
+            ],
+            [
+              3314,
+              3330
+            ]
+          ],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 2516,
+              "vertices": [
+                3300,
+                2089
+              ],
+              "face_ids": [
+                3299,
+                3312
+              ],
+              "baseline_angle_deg": 11.911848900919443,
+              "candidate_angle_deg": 111.81406668273736,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 2517,
+              "vertices": [
+                3332,
+                79
+              ],
+              "face_ids": [
+                3330,
+                3345
+              ],
+              "baseline_angle_deg": 13.877578619230256,
+              "candidate_angle_deg": 162.9292036004046,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [
+            3299,
+            3330
+          ],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        },
+        "IDX_MCP_30": {
+          "status": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+          "contact_only": "FAIL_NEW_CONTACT",
+          "introduced_contact_pairs": [
+            [
+              2182,
+              3314
+            ],
+            [
+              2182,
+              3345
+            ],
+            [
+              3314,
+              3330
+            ]
+          ],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 2516,
+              "vertices": [
+                3300,
+                2089
+              ],
+              "face_ids": [
+                3299,
+                3312
+              ],
+              "baseline_angle_deg": 11.911848900919443,
+              "candidate_angle_deg": 111.81406668273736,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 2517,
+              "vertices": [
+                3332,
+                79
+              ],
+              "face_ids": [
+                3330,
+                3345
+              ],
+              "baseline_angle_deg": 13.877578619230256,
+              "candidate_angle_deg": 162.9292036004046,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [
+            3299,
+            3330
+          ],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        },
+        "IDX_MCP_45": {
+          "status": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+          "contact_only": "FAIL_NEW_CONTACT",
+          "introduced_contact_pairs": [
+            [
+              2182,
+              3314
+            ],
+            [
+              2182,
+              3345
+            ],
+            [
+              3314,
+              3330
+            ]
+          ],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 2516,
+              "vertices": [
+                3300,
+                2089
+              ],
+              "face_ids": [
+                3299,
+                3312
+              ],
+              "baseline_angle_deg": 11.911848900919443,
+              "candidate_angle_deg": 111.81406668273736,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 2517,
+              "vertices": [
+                3332,
+                79
+              ],
+              "face_ids": [
+                3330,
+                3345
+              ],
+              "baseline_angle_deg": 13.877578619230256,
+              "candidate_angle_deg": 162.9292036004046,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [
+            3299,
+            3330
+          ],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        }
+      }
+    },
+    "B": {
+      "WRITE_VERTEX_COUNT": 18,
+      "MAX_DIHEDRAL_DEG": 171.23955851512073,
+      "BIND_MAX_DIHEDRAL_DEG": 171.23955851512073,
+      "EDGE6676_DIHEDRAL_DEG": 31.67997365229974,
+      "MAX_VERTEX_DISPLACEMENT_MM": 2.4700272258902136,
+      "MEAN_VERTEX_DISPLACEMENT_MM": 1.0864247206541855,
+      "RMS_VERTEX_DISPLACEMENT_MM": 1.2157614816191202,
+      "VISIBLE_DENT_STATUS": "CENTRAL_NOTCH_REDUCED_OR_REMOVED_BUT_CANDIDATE_REJECTED",
+      "NEW_VISIBLE_DEFECT": "NEW_LOCAL_CONTACT_AND_QUAD_BOWTIE; VISIBLE_SEVERITY_PENDING_HUMAN",
+      "BIND_PREVIEW": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+      "IDX_MCP_15_PREVIEW": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+      "IDX_MCP_30_PREVIEW": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+      "IDX_MCP_45_PREVIEW": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+      "smoke_details": {
+        "BIND": {
+          "status": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+          "contact_only": "FAIL_NEW_CONTACT",
+          "introduced_contact_pairs": [
+            [
+              517,
+              518
+            ],
+            [
+              517,
+              3299
+            ],
+            [
+              518,
+              3299
+            ],
+            [
+              2425,
+              3314
+            ],
+            [
+              2425,
+              3345
+            ],
+            [
+              3314,
+              3345
+            ]
+          ],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 2516,
+              "vertices": [
+                3300,
+                2089
+              ],
+              "face_ids": [
+                3299,
+                3312
+              ],
+              "baseline_angle_deg": 11.911848900919443,
+              "candidate_angle_deg": 169.34058090428476,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 2517,
+              "vertices": [
+                3332,
+                79
+              ],
+              "face_ids": [
+                3330,
+                3345
+              ],
+              "baseline_angle_deg": 13.877578619230256,
+              "candidate_angle_deg": 133.35122539652195,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [
+            3299,
+            3345
+          ],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0
+        },
+        "IDX_MCP_15": {
+          "status": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+          "contact_only": "FAIL_NEW_CONTACT",
+          "introduced_contact_pairs": [
+            [
+              517,
+              518
+            ],
+            [
+              517,
+              3299
+            ],
+            [
+              518,
+              3299
+            ],
+            [
+              2425,
+              3314
+            ],
+            [
+              2425,
+              3345
+            ],
+            [
+              3314,
+              3345
+            ]
+          ],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 2516,
+              "vertices": [
+                3300,
+                2089
+              ],
+              "face_ids": [
+                3299,
+                3312
+              ],
+              "baseline_angle_deg": 11.911848900919443,
+              "candidate_angle_deg": 169.34058090428476,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 2517,
+              "vertices": [
+                3332,
+                79
+              ],
+              "face_ids": [
+                3330,
+                3345
+              ],
+              "baseline_angle_deg": 13.877578619230256,
+              "candidate_angle_deg": 133.35122539652195,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [
+            3299,
+            3345
+          ],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        },
+        "IDX_MCP_30": {
+          "status": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+          "contact_only": "FAIL_NEW_CONTACT",
+          "introduced_contact_pairs": [
+            [
+              517,
+              518
+            ],
+            [
+              517,
+              3299
+            ],
+            [
+              518,
+              3299
+            ],
+            [
+              2425,
+              3314
+            ],
+            [
+              2425,
+              3345
+            ],
+            [
+              3314,
+              3345
+            ]
+          ],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 2516,
+              "vertices": [
+                3300,
+                2089
+              ],
+              "face_ids": [
+                3299,
+                3312
+              ],
+              "baseline_angle_deg": 11.911848900919443,
+              "candidate_angle_deg": 169.34058090428476,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 2517,
+              "vertices": [
+                3332,
+                79
+              ],
+              "face_ids": [
+                3330,
+                3345
+              ],
+              "baseline_angle_deg": 13.877578619230256,
+              "candidate_angle_deg": 133.35122539652195,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [
+            3299,
+            3345
+          ],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        },
+        "IDX_MCP_45": {
+          "status": "FAIL_NEW_LOCAL_STRUCTURAL_DEFECT",
+          "contact_only": "FAIL_NEW_CONTACT",
+          "introduced_contact_pairs": [
+            [
+              517,
+              518
+            ],
+            [
+              517,
+              3299
+            ],
+            [
+              518,
+              3299
+            ],
+            [
+              2425,
+              3314
+            ],
+            [
+              2425,
+              3345
+            ],
+            [
+              3314,
+              3345
+            ]
+          ],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 2516,
+              "vertices": [
+                3300,
+                2089
+              ],
+              "face_ids": [
+                3299,
+                3312
+              ],
+              "baseline_angle_deg": 11.911848900919443,
+              "candidate_angle_deg": 169.34058090428476,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 2517,
+              "vertices": [
+                3332,
+                79
+              ],
+              "face_ids": [
+                3330,
+                3345
+              ],
+              "baseline_angle_deg": 13.877578619230256,
+              "candidate_angle_deg": 133.35122539652195,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [
+            3299,
+            3345
+          ],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        }
+      }
+    },
+    "C": {
+      "WRITE_VERTEX_COUNT": 22,
+      "MAX_DIHEDRAL_DEG": 169.0360026340167,
+      "BIND_MAX_DIHEDRAL_DEG": 169.0360026340167,
+      "EDGE6676_DIHEDRAL_DEG": 0.7975725280300628,
+      "MAX_VERTEX_DISPLACEMENT_MM": 3.1074651565871565,
+      "MEAN_VERTEX_DISPLACEMENT_MM": 1.4800713835649668,
+      "RMS_VERTEX_DISPLACEMENT_MM": 1.7156862233994274,
+      "VISIBLE_DENT_STATUS": "CENTRAL_NOTCH_REDUCED_OR_REMOVED_BUT_CANDIDATE_REJECTED",
+      "NEW_VISIBLE_DEFECT": "NEW_SHARP_FOLD_AT_TRANSITION_BOUNDARY; VISIBLE_SEVERITY_PENDING_HUMAN",
+      "BIND_PREVIEW": "FAIL_NEW_BOUNDARY_SHARP_FOLD",
+      "IDX_MCP_15_PREVIEW": "FAIL_NEW_BOUNDARY_SHARP_FOLD",
+      "IDX_MCP_30_PREVIEW": "FAIL_NEW_BOUNDARY_SHARP_FOLD",
+      "IDX_MCP_45_PREVIEW": "FAIL_NEW_BOUNDARY_SHARP_FOLD",
+      "smoke_details": {
+        "BIND": {
+          "status": "FAIL_NEW_BOUNDARY_SHARP_FOLD",
+          "contact_only": "PASS_NO_NEW_CONTACT",
+          "introduced_contact_pairs": [],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 6602,
+              "vertices": [
+                2095,
+                3306
+              ],
+              "face_ids": [
+                3298,
+                3301
+              ],
+              "baseline_angle_deg": 25.668911373233854,
+              "candidate_angle_deg": 116.90631867027773,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 6675,
+              "vertices": [
+                962,
+                3347
+              ],
+              "face_ids": [
+                3344,
+                3345
+              ],
+              "baseline_angle_deg": 27.929194172314475,
+              "candidate_angle_deg": 153.909614050441,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0
+        },
+        "IDX_MCP_15": {
+          "status": "FAIL_NEW_BOUNDARY_SHARP_FOLD",
+          "contact_only": "PASS_NO_NEW_CONTACT",
+          "introduced_contact_pairs": [],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 6602,
+              "vertices": [
+                2095,
+                3306
+              ],
+              "face_ids": [
+                3298,
+                3301
+              ],
+              "baseline_angle_deg": 25.668911373233854,
+              "candidate_angle_deg": 116.90631867027773,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 6675,
+              "vertices": [
+                962,
+                3347
+              ],
+              "face_ids": [
+                3344,
+                3345
+              ],
+              "baseline_angle_deg": 27.929194172314475,
+              "candidate_angle_deg": 153.909614050441,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        },
+        "IDX_MCP_30": {
+          "status": "FAIL_NEW_BOUNDARY_SHARP_FOLD",
+          "contact_only": "PASS_NO_NEW_CONTACT",
+          "introduced_contact_pairs": [],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 6602,
+              "vertices": [
+                2095,
+                3306
+              ],
+              "face_ids": [
+                3298,
+                3301
+              ],
+              "baseline_angle_deg": 25.668911373233854,
+              "candidate_angle_deg": 116.90631867027773,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 6675,
+              "vertices": [
+                962,
+                3347
+              ],
+              "face_ids": [
+                3344,
+                3345
+              ],
+              "baseline_angle_deg": 27.929194172314475,
+              "candidate_angle_deg": 153.909614050441,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        },
+        "IDX_MCP_45": {
+          "status": "FAIL_NEW_BOUNDARY_SHARP_FOLD",
+          "contact_only": "PASS_NO_NEW_CONTACT",
+          "introduced_contact_pairs": [],
+          "new_boundary_fold_interfaces": [
+            {
+              "edge_id": 6602,
+              "vertices": [
+                2095,
+                3306
+              ],
+              "face_ids": [
+                3298,
+                3301
+              ],
+              "baseline_angle_deg": 25.668911373233854,
+              "candidate_angle_deg": 116.90631867027773,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            },
+            {
+              "edge_id": 6675,
+              "vertices": [
+                962,
+                3347
+              ],
+              "face_ids": [
+                3344,
+                3345
+              ],
+              "baseline_angle_deg": 27.929194172314475,
+              "candidate_angle_deg": 153.909614050441,
+              "cause": "A corrected formerly inward face now meets a still-inward boundary face; the former nearly aligned facets become opposed across this edge."
+            }
+          ],
+          "new_quad_bowties": [],
+          "new_degenerate_faces": [],
+          "new_reference_reversals": [],
+          "write_pose_delta_mm": 0.0
+        }
+      }
+    }
+  },
+  "recommended_candidate": "NONE",
+  "recommendation_is_application_approval": false,
+  "independent_contact_audit": "CANDIDATE_INDEPENDENT_CONTACT_AUDIT_R1.json",
+  "baseline_saved_FullStage6A_coord_match_exact": true,
+  "candidate_write_pose_preview_coordinate_match_to_bind": "C all22 write vertices and all15 diagnostic core vertices remain exactly unchanged in requested IDX15/30/45 states; the full hand outside this patch deforms normally.",
+  "contact_only_pass_does_not_imply_contour_pass": true,
+  "final_boundary_audit": "CANDIDATE_BOUNDARY_CONTINUITY_FAILURE_R1.json"
+}

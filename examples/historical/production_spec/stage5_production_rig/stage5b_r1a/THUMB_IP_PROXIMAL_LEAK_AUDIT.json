@@ -1,0 +1,64 @@
+{
+ "stage": "STAGE5B_R1A_THUMB_IP_PROXIMAL_LEAK_AUDIT",
+ "generated_at": "2026-09-30T06:58:56.163172+08:00",
+ "rule": "THUMB_IP_R must stay inside the thumb distal phalanx",
+ "checks": {
+  "FIRST_WEB": {
+   "vertex_count": 21,
+   "THUMB_IP_total_before": 14.0,
+   "THUMB_IP_total_after": 0.0,
+   "THUMB_IP_max_after": 0.0,
+   "THUMB_IP_nonzero_vertices_after": 0,
+   "requirement": "exact zero",
+   "result": "PASS"
+  },
+  "CENTRAL_PALM": {
+   "vertex_count": 1199,
+   "THUMB_IP_total_before": 0.0,
+   "THUMB_IP_total_after": 0.0,
+   "THUMB_IP_max_after": 0.0,
+   "THUMB_IP_nonzero_vertices_after": 0,
+   "requirement": "exact zero",
+   "result": "PASS"
+  },
+  "THENAR_BASE": {
+   "vertex_count": 287,
+   "THUMB_IP_total_before": 138.666671,
+   "THUMB_IP_total_after": 0.0,
+   "THUMB_IP_max_after": 0.0,
+   "THUMB_IP_nonzero_vertices_after": 0,
+   "requirement": "near zero - transition edge only",
+   "result": "PASS"
+  },
+  "CMC_LOCALITY": {
+   "vertex_count": 306,
+   "THUMB_IP_total_before": 204.000006,
+   "THUMB_IP_total_after": 0.0,
+   "THUMB_IP_max_after": 0.0,
+   "THUMB_IP_nonzero_vertices_after": 0,
+   "requirement": "exact zero",
+   "result": "PASS"
+  },
+  "THUMB_FIRST_METACARPAL": {
+   "vertex_count": 153,
+   "THUMB_IP_total_before": 102.000003,
+   "THUMB_IP_total_after": 0.0,
+   "THUMB_IP_max_after": 0.0,
+   "THUMB_IP_nonzero_vertices_after": 0,
+   "requirement": "near zero",
+   "result": "PASS"
+  },
+  "THUMB_PROXIMAL": {
+   "vertex_count": 107,
+   "THUMB_IP_total_before": 71.333335,
+   "THUMB_IP_total_after": 0.0,
+   "THUMB_IP_max_after": 0.0,
+   "THUMB_IP_nonzero_vertices_after": 0,
+   "requirement": "IP/MCP transition allowed",
+   "result": "PASS"
+  }
+ },
+ "THUMB_IP_PROXIMAL_LEAKAGE": "PASS",
+ "global_THUMB_IP_total_after": 134.166368,
+ "global_THUMB_IP_total_before": 411.814073
+}

@@ -1,0 +1,46 @@
+START coupled nonlinear S4 111 contact coincidence rank 10 reference95 35.9633531156261 relative depth target 0.4
+ACCEPT 0 objective 10.24233848 depth 1.504383 hinge 178.137235 step 0.0399416853781142 alpha 0.5 elapsed 9.3
+ACCEPT 1 objective 10.1817971 depth 1.44425 hinge 177.952948 step 0.07988073275793456 alpha 1.0 elapsed 14.8
+ACCEPT 2 objective 10.15333414 depth 1.437346 hinge 177.856913 step 0.03994464245845986 alpha 0.5 elapsed 23.7
+ACCEPT 3 objective 10.14639318 depth 1.435757 hinge 177.832381 step 0.009987170539427905 alpha 0.125 elapsed 39.5
+ACCEPT 4 objective 10.14553029 depth 1.435563 hinge 177.829298 step 0.0012484311225393575 alpha 0.015625 elapsed 65.4
+ACCEPT 5 objective 10.14509924 depth 1.435466 hinge 177.827755 step 0.0006242177851363661 alpha 0.0078125 elapsed 93.8
+ACCEPT 6 objective 10.14488382 depth 1.435418 hinge 177.826984 step 0.0003121094494442628 alpha 0.00390625 elapsed 124.7
+ACCEPT 7 objective 10.14487036 depth 1.435415 hinge 177.826936 step 1.950685801786806e-05 alpha 0.000244140625 elapsed 168.3
+ACCEPT 8 objective 10.14486699 depth 1.435414 hinge 177.826924 step 4.876714810132928e-06 alpha 6.103515625e-05 elapsed 218.7
+Traceback (most recent call last):
+  File "<HANDS_ROOT>\audits\minimal_local_geometry_amendment_design_r4\nonlinear_solve.py", line 135, in <module>
+    if __name__=='__main__':run()
+                            ^^^^^
+  File "<HANDS_ROOT>\audits\minimal_local_geometry_amendment_design_r4\nonlinear_solve.py", line 134, in run
+    dump('R4_NONLINEAR_SOLVER_AUDIT.json',audit);dump('R4_FEATURE_REIDENTIFICATION_AUDIT.json',{'iterations':features,'feature_reidentification_each_iteration':True,'pair_wide_shared_gap_mm':0,'new_anatomy_clearance_mm':0});dump('R4_CONTINUOUS_COLLISION_CERTIFICATE.json',{'accepted_step_certificates':certificates,'every_accepted_step_certified':all(z['status']=='CERTIFIED_CONTINUOUS_SAFE' for z in certificates),'accepted_step_count':len(certificates),'rejected_unresolved_intervals_never_accepted':True,'endpoint_only_used_for_safety':False,'full_baseline_to_diagnostic_endpoint_path_certified':bool(certificates)});print('TERMINATION',audit['termination'],'ACCEPTED',len(trace),flush=True)
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<HANDS_ROOT>\audits\minimal_local_geometry_amendment_design_r4\common.py", line 35, in dump
+    p.write_text(json.dumps(d,ensure_ascii=False,indent=2,allow_nan=False)+'\n',encoding='utf-8')
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ^^^^^^^^^^^
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 202, in encode
+    chunks = list(chunks)
+             ^^^^^^^^^^^^
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 432, in _iterencode
+    yield from _iterencode_dict(o, _current_indent_level)
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 406, in _iterencode_dict
+    yield from chunks
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 326, in _iterencode_list
+    yield from chunks
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 439, in _iterencode
+    o = _default(o)
+        ^^^^^^^^^^^
+  File "<USER_HOME>\AppData\Local\Programs\Python\Python312\Lib\json\encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type int64 is not JSON serializable

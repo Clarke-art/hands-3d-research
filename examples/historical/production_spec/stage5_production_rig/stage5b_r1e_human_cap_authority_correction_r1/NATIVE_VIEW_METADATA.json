@@ -1,0 +1,174 @@
+{
+  "views": [
+    {
+      "view": "DORSAL",
+      "png": "renders/HUMAN_CAP_DORSAL.png",
+      "camera_basis_native_world": {
+        "right_unit": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "up_unit": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "toward_viewer_unit": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      "native_mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+      "overlay_policy": "X-ray including hidden surfaces; depth-tested neutral base. Same candidate/nail/cap9/seed in every view.",
+      "panels": [
+        "native hand context",
+        "native thumb closeup",
+        "old erroneous cap9 INDEX inset"
+      ]
+    },
+    {
+      "view": "PALMAR",
+      "png": "renders/HUMAN_CAP_PALMAR.png",
+      "camera_basis_native_world": {
+        "right_unit": [
+          -1.0,
+          0.0,
+          0.0
+        ],
+        "up_unit": [
+          0.0,
+          -0.0,
+          1.0
+        ],
+        "toward_viewer_unit": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "native_mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+      "overlay_policy": "X-ray including hidden surfaces; depth-tested neutral base. Same candidate/nail/cap9/seed in every view.",
+      "panels": [
+        "native hand context",
+        "native thumb closeup",
+        "old erroneous cap9 INDEX inset"
+      ]
+    },
+    {
+      "view": "RADIAL",
+      "png": "renders/HUMAN_CAP_RADIAL.png",
+      "camera_basis_native_world": {
+        "right_unit": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "up_unit": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "toward_viewer_unit": [
+          1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "native_mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+      "overlay_policy": "X-ray including hidden surfaces; depth-tested neutral base. Same candidate/nail/cap9/seed in every view.",
+      "panels": [
+        "native hand context",
+        "native thumb closeup",
+        "old erroneous cap9 INDEX inset"
+      ]
+    },
+    {
+      "view": "ULNAR",
+      "png": "renders/HUMAN_CAP_ULNAR.png",
+      "camera_basis_native_world": {
+        "right_unit": [
+          0.0,
+          -1.0,
+          0.0
+        ],
+        "up_unit": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "toward_viewer_unit": [
+          -1.0,
+          0.0,
+          0.0
+        ]
+      },
+      "native_mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+      "overlay_policy": "X-ray including hidden surfaces; depth-tested neutral base. Same candidate/nail/cap9/seed in every view.",
+      "panels": [
+        "native hand context",
+        "native thumb closeup",
+        "old erroneous cap9 INDEX inset"
+      ]
+    },
+    {
+      "view": "THUMB_SIDE",
+      "png": "renders/HUMAN_CAP_THUMB_SIDE.png",
+      "camera_basis_native_world": {
+        "right_unit": [
+          -0.0,
+          1.0,
+          0.0
+        ],
+        "up_unit": [
+          0.6274340322977238,
+          0.0,
+          0.7786697214574475
+        ],
+        "toward_viewer_unit": [
+          0.7786697214574475,
+          0.0,
+          -0.6274340322977238
+        ]
+      },
+      "native_mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+      "overlay_policy": "X-ray including hidden surfaces; depth-tested neutral base. Same candidate/nail/cap9/seed in every view.",
+      "panels": [
+        "native hand context",
+        "native thumb closeup",
+        "old erroneous cap9 INDEX inset"
+      ]
+    },
+    {
+      "view": "THUMB_TIP_CLOSEUP",
+      "png": "renders/HUMAN_CAP_THUMB_TIP_CLOSEUP.png",
+      "camera_basis_native_world": {
+        "right_unit": [
+          0.12628576411109146,
+          0.9919939041057046,
+          -0.0
+        ],
+        "up_unit": [
+          -0.7699832404901941,
+          0.09802270102224037,
+          0.6304897774338013
+        ],
+        "toward_viewer_unit": [
+          0.6254420158152934,
+          -0.07962188330745959,
+          0.7761975525286561
+        ]
+      },
+      "native_mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+      "overlay_policy": "X-ray including hidden surfaces; depth-tested neutral base. Same candidate/nail/cap9/seed in every view.",
+      "panels": [
+        "native hand context",
+        "native thumb closeup",
+        "old erroneous cap9 INDEX inset"
+      ]
+    }
+  ],
+  "THUMB_SIDE_definition": "Side orthogonal to native IP-to-tip direction and dorsal normal",
+  "THUMB_TIP_CLOSEUP_definition": "Camera toward-viewer axis = native IP-to-v284 unit direction; axial terminal view"
+}

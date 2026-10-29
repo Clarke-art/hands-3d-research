@@ -1,0 +1,283 @@
+{
+ "stage": "STAGE6B_CMC_AXIS_PROBE_AUDIT",
+ "generated_at": "2026-09-30T20:33:28.689683+08:00",
+ "method": "six +-5 deg small-angle probes about the CMC LOCAL X / Y / Z axes with every other bone locked at RSSF bind; the thumb TIP landmark world displacement is measured and projected on the canonical hand axes",
+ "canonical_world_frame": {
+  "+X": "RADIAL",
+  "+Y": "DORSAL",
+  "+Z": "DISTAL",
+  "ULNAR": "-X",
+  "PALMAR": "-Y",
+  "T_OPPOSE": [
+   -0.707106769085,
+   -0.707106769085,
+   -0.0
+  ],
+  "note": "T_OPPOSE is a DIAGNOSTIC opposition direction, NOT a teaching end pose"
+ },
+ "probe_deg": 5.0,
+ "probes": {
+  "Xp5": {
+   "axis_local": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "angle_deg": 5.0,
+   "tip_world": [
+    1.457818031,
+    0.026669912,
+    0.490797311
+   ],
+   "displacement_mm": [
+    5.000591278,
+    6.867554188,
+    -2.231001854
+   ],
+   "displacement_magnitude_mm": 8.783312677,
+   "projections_mm": {
+    "RADIAL": 5.000591278,
+    "DORSAL": 6.867554039,
+    "DISTAL": -2.231001854,
+    "ULNAR": -5.000591278,
+    "PALMAR": -6.867554039,
+    "T_OPPOSE": -8.39204574
+   },
+   "pad_proxy_normal": [
+    -0.56648,
+    -0.814291,
+    0.126614
+   ],
+   "pad_alignment_with_T_OPPOSE": 0.976352364,
+   "pad_alignment_change_vs_bind": -0.010345221
+  },
+  "Xm5": {
+   "axis_local": [
+    1.0,
+    0.0,
+    0.0
+   ],
+   "angle_deg": -5.0,
+   "tip_world": [
+    1.44758606,
+    0.012908407,
+    0.494529128
+   ],
+   "displacement_mm": [
+    -5.231380463,
+    -6.893950462,
+    1.500815153
+   ],
+   "displacement_magnitude_mm": 8.783299074,
+   "projections_mm": {
+    "RADIAL": -5.231380463,
+    "DORSAL": -6.893950514,
+    "DISTAL": 1.500815153,
+    "ULNAR": 5.231380463,
+    "PALMAR": 6.893950514,
+    "T_OPPOSE": 8.573903469
+   },
+   "pad_proxy_normal": [
+    -0.601387,
+    -0.797793,
+    -0.043132
+   ],
+   "pad_alignment_with_T_OPPOSE": 0.989369452,
+   "pad_alignment_change_vs_bind": 0.002671868
+  },
+  "Yp5": {
+   "axis_local": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "angle_deg": 5.0,
+   "tip_world": [
+    1.451384425,
+    0.018257562,
+    0.493457884
+   ],
+   "displacement_mm": [
+    -1.43301487,
+    -1.54479599,
+    0.429570675
+   ],
+   "displacement_magnitude_mm": 2.150455109,
+   "projections_mm": {
+    "RADIAL": -1.43301487,
+    "DORSAL": -1.54479593,
+    "DISTAL": 0.429570675,
+    "ULNAR": 1.43301487,
+    "PALMAR": 1.54479593,
+    "T_OPPOSE": 2.105630236
+   },
+   "pad_proxy_normal": [
+    -0.516383,
+    -0.856078,
+    0.021865
+   ],
+   "pad_alignment_with_T_OPPOSE": 0.970476866,
+   "pad_alignment_change_vs_bind": -0.016220719
+  },
+  "Ym5": {
+   "axis_local": [
+    0.0,
+    1.0,
+    0.0
+   ],
+   "angle_deg": -5.0,
+   "tip_world": [
+    1.454374433,
+    0.021210894,
+    0.492563456
+   ],
+   "displacement_mm": [
+    1.556992531,
+    1.408535957,
+    -0.464856625
+   ],
+   "displacement_magnitude_mm": 2.15041649,
+   "projections_mm": {
+    "RADIAL": 1.556992531,
+    "DORSAL": 1.408535987,
+    "DISTAL": -0.464856625,
+    "ULNAR": -1.556992531,
+    "PALMAR": -1.408535987,
+    "T_OPPOSE": -2.096945303
+   },
+   "pad_proxy_normal": [
+    -0.651095,
+    -0.756571,
+    0.060632
+   ],
+   "pad_alignment_with_T_OPPOSE": 0.995369881,
+   "pad_alignment_change_vs_bind": 0.008672297
+  },
+  "Zp5": {
+   "axis_local": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "angle_deg": 5.0,
+   "tip_world": [
+    1.459993362,
+    0.014322757,
+    0.49278605
+   ],
+   "displacement_mm": [
+    7.175922394,
+    -5.479601383,
+    -0.242263079
+   ],
+   "displacement_magnitude_mm": 9.032086268,
+   "projections_mm": {
+    "RADIAL": 7.175922394,
+    "DORSAL": -5.479601212,
+    "DISTAL": -0.242263079,
+    "ULNAR": -7.175922394,
+    "PALMAR": 5.479601212,
+    "T_OPPOSE": -1.199480379
+   },
+   "pad_proxy_normal": [
+    -0.596335,
+    -0.801703,
+    0.040699
+   ],
+   "pad_alignment_with_T_OPPOSE": 0.988562316,
+   "pad_alignment_change_vs_bind": 0.001864731
+  },
+  "Zm5": {
+   "axis_local": [
+    0.0,
+    0.0,
+    1.0
+   ],
+   "angle_deg": -5.0,
+   "tip_world": [
+    1.445566893,
+    0.025161758,
+    0.492495418
+   ],
+   "displacement_mm": [
+    -7.250547409,
+    5.359400272,
+    -0.532895327
+   ],
+   "displacement_magnitude_mm": 9.032031017,
+   "projections_mm": {
+    "RADIAL": -7.250547409,
+    "DORSAL": 5.359400064,
+    "DISTAL": -0.532895327,
+    "ULNAR": 7.250547409,
+    "PALMAR": -5.359400064,
+    "T_OPPOSE": 1.337243244
+   },
+   "pad_proxy_normal": [
+    -0.576697,
+    -0.815763,
+    0.044172
+   ],
+   "pad_alignment_with_T_OPPOSE": 0.98461777,
+   "pad_alignment_change_vs_bind": -0.002079815
+  }
+ },
+ "jacobian_m_per_rad": [
+  [
+   0.058624885976,
+   -0.01713148132,
+   0.082657590508
+  ],
+  [
+   0.078847616911,
+   -0.016921345145,
+   -0.062102910131
+  ],
+  [
+   -0.021381735802,
+   0.005124691408,
+   0.001665200107
+  ]
+ ],
+ "jacobian_columns": {
+  "local_X": [
+   58.624885559,
+   78.847618103,
+   -21.381736755
+  ],
+  "local_Y": [
+   -17.131481171,
+   -16.921344757,
+   5.124691486
+  ],
+  "local_Z": [
+   82.657592773,
+   -62.102909088,
+   1.665200114
+  ]
+ },
+ "jacobian_note": "columns are tip displacement in mm per radian about each local axis",
+ "log": [
+  "nail faces = 12 (vertices 22)",
+  "bind pad proxy normal = [-0.586645, -0.808756, 0.041965]",
+  "T_OPPOSE = [-0.707107, -0.707107, -0.0]",
+  "bind pad alignment with T_OPPOSE = 0.986698",
+  "probe X+5    tip disp 8.783313 mm  T_OPPOSE -8.392046 mm  pad_dalign -0.010345",
+  "probe X-5    tip disp 8.783299 mm  T_OPPOSE +8.573903 mm  pad_dalign +0.002672",
+  "probe Y+5    tip disp 2.150455 mm  T_OPPOSE +2.105630 mm  pad_dalign -0.016221",
+  "probe Y-5    tip disp 2.150416 mm  T_OPPOSE -2.096945 mm  pad_dalign +0.008672",
+  "probe Z+5    tip disp 9.032086 mm  T_OPPOSE -1.199480 mm  pad_dalign +0.001865",
+  "probe Z-5    tip disp 9.032031 mm  T_OPPOSE +1.337243 mm  pad_dalign -0.002080",
+  "Jacobian (m/rad):\n[[ 0.058625 -0.017131  0.082658]\n [ 0.078848 -0.016921 -0.062103]\n [-0.021382  0.005125  0.001665]]",
+  "r_pen  = [-0.261584, -0.963998, -0.047766]  cos(T_OPPOSE)=0.929186  distal=+0.183078 dorsal=-0.429991",
+  "r_xz   = [-0.897281, 0.0, -0.44146]  cos(T_OPPOSE)=0.929185  distal=+0.183083 dorsal=-0.429990",
+  "twist Y +-3 deg: d_align(+) = -0.008932  d_align(-) = +0.006091",
+  "twist Y +-5 deg: d_align(+) = -0.016221  d_align(-) = +0.008672",
+  "twist Y +-7 deg: d_align(+) = -0.024653  d_align(-) = +0.010214",
+  "twist signs across +-3/5/7 deg = ['-1', '-1', '-1'] -> stable=True ; adopted = -1",
+  "unit rotation XZ-only direction  = [-0.897280753, 0.0, -0.441460401]  cos(T_OPPOSE)=0.929185",
+  "CMC_OPPOSITION_UNIT_ROTATION (local X,Y,Z coefficients) = [-0.868788302, -0.25, -0.427442193]",
+  "  X/Z share of magnitude = 0.9682 ; local-Y (twist) share = 0.2500",
+  "achieved: cos(T_OPPOSE)=0.922510  distal=+0.180732  dorsal=-0.411157  tilt_deg=22.704"
+ ]
+}

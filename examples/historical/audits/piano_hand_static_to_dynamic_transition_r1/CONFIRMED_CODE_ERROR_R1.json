@@ -1,0 +1,106 @@
+{
+  "bug": "Key pivot.location not evaluated before assigning child.matrix_world; child local matrix left identity, producing erroneous extra translation. Fix explicit inverse-pivot child basis; no motion/planner/parameter changes.",
+  "candidate_before_fix_sha256": "5c74a5f9b62c425285e58a066c14fa475453d76d5431176b27891d7c2d42f1be",
+  "motion_sha256": "c76bd141c73e8bcc0b8fb2646a0d7890d1e3b14601a645ac705db524f06032e0",
+  "observed_key_transforms": {
+    "L": [
+      {
+        "midi": 38,
+        "pivot_xyz": [
+          -0.31120023131370544,
+          0.11428693681955338,
+          -0.014645343646407127
+        ],
+        "child_matrices": [
+          {
+            "object": "L1_GP_V11D_KEY_RENDER_038_FRONT.001",
+            "world_translation": [
+              -0.31120023131370544,
+              0.11428693681955338,
+              -0.014645343646407127
+            ],
+            "expected_translation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "object": "L1_GP_V11D_KEY_RENDER_038_REAR_NOTCHED.001",
+            "world_translation": [
+              -0.31120023131370544,
+              0.11428693681955338,
+              -0.014645343646407127
+            ],
+            "expected_translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "midi": 50,
+        "pivot_xyz": [
+          -0.14363087713718414,
+          0.11428693681955338,
+          -0.014645343646407127
+        ],
+        "child_matrices": [
+          {
+            "object": "L1_GP_V11D_KEY_RENDER_050_FRONT.001",
+            "world_translation": [
+              -0.14363087713718414,
+              0.11428693681955338,
+              -0.014645343646407127
+            ],
+            "expected_translation": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "object": "L1_GP_V11D_KEY_RENDER_050_REAR_NOTCHED.001",
+            "world_translation": [
+              -0.14363087713718414,
+              0.11428693681955338,
+              -0.014645343646407127
+            ],
+            "expected_translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ],
+    "R": [
+      {
+        "midi": 78,
+        "pivot_xyz": [
+          0.25135403871536255,
+          0.11428693681955338,
+          0.007722089998424053
+        ],
+        "child_matrices": [
+          {
+            "object": "R1_GP_V11D_KEY_RENDER_078.001",
+            "world_translation": [
+              0.25135403871536255,
+              0.11428693681955338,
+              0.007722089998424053
+            ],
+            "expected_translation": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

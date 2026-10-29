@@ -1,0 +1,67 @@
+{
+ "stage": "CROSS_DIGIT_WEIGHT_LEAK_AUDIT_R1A",
+ "generated_at": "2026-09-30T06:58:56.163172+08:00",
+ "ownership_authority": "R1A semantic ownership: a vertex incident to a THUMB-owned NAIL_BED face, or inside the R2A-approved thumb distal-cap patch, is THUMB owned (see THUMB_NAIL_BOUNDARY_VERTEX_AUDIT).  The R1 2-D nearest-chain heuristic mis-assigned 4 such vertices to INDEX.",
+ "ownership_authority_corrections": [
+  1061,
+  1383,
+  2189,
+  2740
+ ],
+ "unauthorised_leakage_entries": 1,
+ "leakage_vertex_count": 1,
+ "leakage_total_weight": 0.000245,
+ "offending_bones": [
+  "INDEX_PIP_R"
+ ],
+ "samples": [
+  {
+   "vertex": 2189,
+   "bone": "INDEX_PIP_R",
+   "weight": 0.000245,
+   "vertex_digit": "THUMB"
+  }
+ ],
+ "under_the_legacy_R1_2D_heuristic_these_would_be_reported_as": 1,
+ "legacy_heuristic_samples": [
+  {
+   "vertex": 2189,
+   "bone": "INDEX_PIP_R",
+   "weight": 0.000245,
+   "vertex_digit_legacy_2D_heuristic": "INDEX"
+  }
+ ],
+ "SANCTIONED_palm_metacarpal_fan": {
+  "entries": 1140,
+  "total_weight": 35.45825,
+  "bones": [
+   "INDEX_MCP_R",
+   "LITTLE_MCP_R",
+   "MIDDLE_MCP_R",
+   "RING_MCP_R",
+   "THUMB_CMC_R"
+  ]
+ },
+ "SANCTIONED_first_web_root_blend": {
+  "entries": 43,
+  "total_weight": 0.589448,
+  "bones": [
+   "INDEX_MCP_R",
+   "THUMB_CMC_R",
+   "THUMB_MCP_R"
+  ]
+ },
+ "residue_classification": [
+  {
+   "vertex": 2189,
+   "bone": "INDEX_PIP_R",
+   "weight": 0.000245,
+   "class": "KNOWN_CARRY_OVER_RESIDUE_FROM_R1",
+   "before_R1": 0.000244809,
+   "after_R1A": 0.000244809,
+   "cause": "the vertex is now THUMB owned (R2A approved thumb distal cap / thumb nail border) but R1 had allocated it a small residue of the FROZEN four-finger group INDEX_PIP_R; this round is not authorised to modify INDEX_PIP_R, so the residue is carried over verbatim (before == after)",
+   "introduced_by_R1A": false
+  }
+ ],
+ "CROSS_DIGIT_LEAKAGE": "PASS_WITH_DOCUMENTED_CARRY_OVER_RESIDUE"
+}

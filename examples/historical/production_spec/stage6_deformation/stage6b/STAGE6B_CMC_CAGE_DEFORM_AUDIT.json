@@ -1,0 +1,744 @@
+{
+ "stage": "STAGE6B_CMC_CAGE_DEFORM_AUDIT",
+ "generated_at": "2026-09-30T20:37:35.929161+08:00",
+ "authority": {
+  "authority": "stage4_blender/stage4a_r2/CMC_LOCAL_RETOPO_AUDIT_R2.json",
+  "T04_CMC_definition": "LOCAL MULTI-AXIS DEFORMATION SUPPORT TOPOLOGY (R2 correction)",
+  "FINAL_CMC_DEFORMATION_AUTHORITY": "STAGE6_DEFORM_TEST_THUMB_OPPOSE",
+  "confined_radius_mm": 25.08,
+  "concentric_rings_total": 4,
+  "spokes": 16,
+  "cage_quads": 64,
+  "ring_axial_spans_mm": [
+   22.99,
+   16.56,
+   10.02
+  ],
+  "pole_vertex": 3411,
+  "cmc_pole_audit_vertex": 794,
+  "derivation": "vertices whose distance to the approved CMC rotation centre is within the R2 surgery confinement radius, restricted to thumb/wrist ownership"
+ },
+ "patch_vertex_count": 120,
+ "cases": {
+  "CMC_OPP_10": {
+   "cmc_deg": 10.0,
+   "cmc_magnitude_rad": 0.174532911,
+   "strain": {
+    "min_face_area_ratio": 0.849356,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.849356,
+     "p05": 0.92956,
+     "median": 1.000834,
+     "p95": 1.143616,
+     "max": 1.179495,
+     "mean": 1.014387
+    },
+    "min_edge_ratio": 0.839297,
+    "max_edge_ratio": 1.174277,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.839297,
+     "p05": 0.955128,
+     "median": 1.000001,
+     "p95": 1.092672,
+     "max": 1.174277,
+     "mean": 1.006135
+    },
+    "local_surface_area_ratio": 1.015264,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.849356,
+   "edge_ratio_min": 0.839297,
+   "edge_ratio_max": 1.174277,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.839297,
+   "boundary_edge_ratio_max": 1.17201,
+   "boundary_displacement_discontinuity_max_mm": 1.613377117,
+   "displacement_max_mm": 4.836766776,
+   "displacement_mean_mm": 2.083120057,
+   "cage_pca": {
+    "centroid": [
+     1.447926743,
+     0.009565556,
+     0.394423609
+    ],
+    "axes": [
+     [
+      0.220384102,
+      -0.012765296,
+      0.975329634
+     ],
+     [
+      -0.549263868,
+      0.824687798,
+      0.134904553
+     ],
+     [
+      0.806064545,
+      0.565444147,
+      -0.174736564
+     ]
+    ],
+    "extents_mm": [
+     47.166587,
+     43.751963,
+     15.233205
+    ],
+    "eigenvalues": [
+     0.000105615454494,
+     8.0905277884e-05,
+     8.195000908e-06
+    ],
+    "bbox_volume_proxy_mm3": 31435.710068
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  },
+  "CMC_OPP_20": {
+   "cmc_deg": 20.0,
+   "cmc_magnitude_rad": 0.349065823,
+   "strain": {
+    "min_face_area_ratio": 0.718022,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.718022,
+     "p05": 0.873385,
+     "median": 1.000355,
+     "p95": 1.296868,
+     "max": 1.394933,
+     "mean": 1.031249
+    },
+    "min_edge_ratio": 0.71409,
+    "max_edge_ratio": 1.395784,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.71409,
+     "p05": 0.906166,
+     "median": 1.0,
+     "p95": 1.205678,
+     "max": 1.395784,
+     "mean": 1.015299
+    },
+    "local_surface_area_ratio": 1.033067,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.718022,
+   "edge_ratio_min": 0.71409,
+   "edge_ratio_max": 1.395784,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.71409,
+   "boundary_edge_ratio_max": 1.395784,
+   "boundary_displacement_discontinuity_max_mm": 3.214494081,
+   "displacement_max_mm": 9.63672131,
+   "displacement_mean_mm": 4.150384115,
+   "cage_pca": {
+    "centroid": [
+     1.44775997,
+     0.008916797,
+     0.395883052
+    ],
+    "axes": [
+     [
+      0.103054241,
+      -0.066563885,
+      0.992446005
+     ],
+     [
+      -0.531203194,
+      0.83987681,
+      0.111490404
+     ],
+     [
+      0.84095362,
+      0.538680046,
+      -0.051193919
+     ]
+    ],
+    "extents_mm": [
+     47.880774,
+     43.795707,
+     16.021727
+    ],
+    "eigenvalues": [
+     0.000107033858362,
+     8.1052963614e-05,
+     8.47861647e-06
+    ],
+    "bbox_volume_proxy_mm3": 33597.118205
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  },
+  "CMC_OPP_30": {
+   "cmc_deg": 30.0,
+   "cmc_magnitude_rad": 0.523598776,
+   "strain": {
+    "min_face_area_ratio": 0.624729,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.624729,
+     "p05": 0.799989,
+     "median": 1.000405,
+     "p95": 1.463207,
+     "max": 1.643657,
+     "mean": 1.049212
+    },
+    "min_edge_ratio": 0.629499,
+    "max_edge_ratio": 1.64508,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.629499,
+     "p05": 0.869052,
+     "median": 1.000002,
+     "p95": 1.333393,
+     "max": 1.64508,
+     "mean": 1.026802
+    },
+    "local_surface_area_ratio": 1.051959,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.624729,
+   "edge_ratio_min": 0.629499,
+   "edge_ratio_max": 1.64508,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.629499,
+   "boundary_edge_ratio_max": 1.64508,
+   "boundary_displacement_discontinuity_max_mm": 4.791072489,
+   "displacement_max_mm": 14.363287708,
+   "displacement_mean_mm": 6.186062711,
+   "cage_pca": {
+    "centroid": [
+     1.447334288,
+     0.008203964,
+     0.397257582
+    ],
+    "axes": [
+     [
+      -0.021538741,
+      -0.107001687,
+      0.994025514
+     ],
+     [
+      -0.509950275,
+      0.856369075,
+      0.081133983
+     ],
+     [
+      0.859934183,
+      0.505156061,
+      0.073010651
+     ]
+    ],
+    "extents_mm": [
+     48.269461,
+     43.828191,
+     16.77856
+    ],
+    "eigenvalues": [
+     0.000107568420614,
+     8.1122903249e-05,
+     9.068118772e-06
+    ],
+    "bbox_volume_proxy_mm3": 35496.103826
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  },
+  "CMC_MCP_L1": {
+   "cmc_deg": 10.0,
+   "cmc_magnitude_rad": 0.174532911,
+   "strain": {
+    "min_face_area_ratio": 0.849356,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.849356,
+     "p05": 0.92956,
+     "median": 1.000834,
+     "p95": 1.143616,
+     "max": 1.179495,
+     "mean": 1.014387
+    },
+    "min_edge_ratio": 0.839297,
+    "max_edge_ratio": 1.174277,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.839297,
+     "p05": 0.955128,
+     "median": 1.000001,
+     "p95": 1.092672,
+     "max": 1.174277,
+     "mean": 1.006135
+    },
+    "local_surface_area_ratio": 1.015264,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.849356,
+   "edge_ratio_min": 0.839297,
+   "edge_ratio_max": 1.174277,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.839297,
+   "boundary_edge_ratio_max": 1.17201,
+   "boundary_displacement_discontinuity_max_mm": 1.613377117,
+   "displacement_max_mm": 4.836766776,
+   "displacement_mean_mm": 2.083120057,
+   "cage_pca": {
+    "centroid": [
+     1.447926743,
+     0.009565556,
+     0.394423609
+    ],
+    "axes": [
+     [
+      0.220384102,
+      -0.012765296,
+      0.975329634
+     ],
+     [
+      -0.549263868,
+      0.824687798,
+      0.134904553
+     ],
+     [
+      0.806064545,
+      0.565444147,
+      -0.174736564
+     ]
+    ],
+    "extents_mm": [
+     47.166587,
+     43.751963,
+     15.233205
+    ],
+    "eigenvalues": [
+     0.000105615454494,
+     8.0905277884e-05,
+     8.195000908e-06
+    ],
+    "bbox_volume_proxy_mm3": 31435.710068
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  },
+  "CMC_MCP_L2": {
+   "cmc_deg": 20.0,
+   "cmc_magnitude_rad": 0.349065823,
+   "strain": {
+    "min_face_area_ratio": 0.718022,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.718022,
+     "p05": 0.873385,
+     "median": 1.000355,
+     "p95": 1.296868,
+     "max": 1.394933,
+     "mean": 1.031249
+    },
+    "min_edge_ratio": 0.71409,
+    "max_edge_ratio": 1.395784,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.71409,
+     "p05": 0.906166,
+     "median": 1.0,
+     "p95": 1.205678,
+     "max": 1.395784,
+     "mean": 1.015299
+    },
+    "local_surface_area_ratio": 1.033067,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.718022,
+   "edge_ratio_min": 0.71409,
+   "edge_ratio_max": 1.395784,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.71409,
+   "boundary_edge_ratio_max": 1.395784,
+   "boundary_displacement_discontinuity_max_mm": 3.214494081,
+   "displacement_max_mm": 9.63672131,
+   "displacement_mean_mm": 4.150384115,
+   "cage_pca": {
+    "centroid": [
+     1.44775997,
+     0.008916797,
+     0.395883052
+    ],
+    "axes": [
+     [
+      0.103054241,
+      -0.066563885,
+      0.992446005
+     ],
+     [
+      -0.531203194,
+      0.83987681,
+      0.111490404
+     ],
+     [
+      0.84095362,
+      0.538680046,
+      -0.051193919
+     ]
+    ],
+    "extents_mm": [
+     47.880774,
+     43.795707,
+     16.021727
+    ],
+    "eigenvalues": [
+     0.000107033858362,
+     8.1052963614e-05,
+     8.47861647e-06
+    ],
+    "bbox_volume_proxy_mm3": 33597.118205
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  },
+  "CMC_MCP_L3": {
+   "cmc_deg": 30.0,
+   "cmc_magnitude_rad": 0.523598776,
+   "strain": {
+    "min_face_area_ratio": 0.624729,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.624729,
+     "p05": 0.799989,
+     "median": 1.000405,
+     "p95": 1.463207,
+     "max": 1.643657,
+     "mean": 1.049212
+    },
+    "min_edge_ratio": 0.629499,
+    "max_edge_ratio": 1.64508,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.629499,
+     "p05": 0.869052,
+     "median": 1.000002,
+     "p95": 1.333393,
+     "max": 1.64508,
+     "mean": 1.026802
+    },
+    "local_surface_area_ratio": 1.051959,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.624729,
+   "edge_ratio_min": 0.629499,
+   "edge_ratio_max": 1.64508,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.629499,
+   "boundary_edge_ratio_max": 1.64508,
+   "boundary_displacement_discontinuity_max_mm": 4.791072489,
+   "displacement_max_mm": 14.363287708,
+   "displacement_mean_mm": 6.186062711,
+   "cage_pca": {
+    "centroid": [
+     1.447334288,
+     0.008203964,
+     0.397257582
+    ],
+    "axes": [
+     [
+      -0.021538741,
+      -0.107001687,
+      0.994025514
+     ],
+     [
+      -0.509950275,
+      0.856369075,
+      0.081133983
+     ],
+     [
+      0.859934183,
+      0.505156061,
+      0.073010651
+     ]
+    ],
+    "extents_mm": [
+     48.269461,
+     43.828191,
+     16.77856
+    ],
+    "eigenvalues": [
+     0.000107568420614,
+     8.1122903249e-05,
+     9.068118772e-06
+    ],
+    "bbox_volume_proxy_mm3": 35496.103826
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  },
+  "FULL_OPP_L1": {
+   "cmc_deg": 10.0,
+   "cmc_magnitude_rad": 0.174532911,
+   "strain": {
+    "min_face_area_ratio": 0.849356,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.849356,
+     "p05": 0.92956,
+     "median": 1.000834,
+     "p95": 1.143616,
+     "max": 1.179495,
+     "mean": 1.014387
+    },
+    "min_edge_ratio": 0.839297,
+    "max_edge_ratio": 1.174277,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.839297,
+     "p05": 0.955128,
+     "median": 1.000001,
+     "p95": 1.092672,
+     "max": 1.174277,
+     "mean": 1.006135
+    },
+    "local_surface_area_ratio": 1.015264,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.849356,
+   "edge_ratio_min": 0.839297,
+   "edge_ratio_max": 1.174277,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.839297,
+   "boundary_edge_ratio_max": 1.17201,
+   "boundary_displacement_discontinuity_max_mm": 1.613377117,
+   "displacement_max_mm": 4.836766776,
+   "displacement_mean_mm": 2.083120057,
+   "cage_pca": {
+    "centroid": [
+     1.447926743,
+     0.009565556,
+     0.394423609
+    ],
+    "axes": [
+     [
+      0.220384102,
+      -0.012765296,
+      0.975329634
+     ],
+     [
+      -0.549263868,
+      0.824687798,
+      0.134904553
+     ],
+     [
+      0.806064545,
+      0.565444147,
+      -0.174736564
+     ]
+    ],
+    "extents_mm": [
+     47.166587,
+     43.751963,
+     15.233205
+    ],
+    "eigenvalues": [
+     0.000105615454494,
+     8.0905277884e-05,
+     8.195000908e-06
+    ],
+    "bbox_volume_proxy_mm3": 31435.710068
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  },
+  "FULL_OPP_L2": {
+   "cmc_deg": 20.0,
+   "cmc_magnitude_rad": 0.349065823,
+   "strain": {
+    "min_face_area_ratio": 0.718022,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.718022,
+     "p05": 0.873385,
+     "median": 1.000355,
+     "p95": 1.296868,
+     "max": 1.394933,
+     "mean": 1.031249
+    },
+    "min_edge_ratio": 0.71409,
+    "max_edge_ratio": 1.395784,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.71409,
+     "p05": 0.906166,
+     "median": 1.0,
+     "p95": 1.205678,
+     "max": 1.395784,
+     "mean": 1.015299
+    },
+    "local_surface_area_ratio": 1.033067,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.718022,
+   "edge_ratio_min": 0.71409,
+   "edge_ratio_max": 1.395784,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.71409,
+   "boundary_edge_ratio_max": 1.395784,
+   "boundary_displacement_discontinuity_max_mm": 3.214494081,
+   "displacement_max_mm": 9.63672131,
+   "displacement_mean_mm": 4.150384115,
+   "cage_pca": {
+    "centroid": [
+     1.44775997,
+     0.008916797,
+     0.395883052
+    ],
+    "axes": [
+     [
+      0.103054241,
+      -0.066563885,
+      0.992446005
+     ],
+     [
+      -0.531203194,
+      0.83987681,
+      0.111490404
+     ],
+     [
+      0.84095362,
+      0.538680046,
+      -0.051193919
+     ]
+    ],
+    "extents_mm": [
+     47.880774,
+     43.795707,
+     16.021727
+    ],
+    "eigenvalues": [
+     0.000107033858362,
+     8.1052963614e-05,
+     8.47861647e-06
+    ],
+    "bbox_volume_proxy_mm3": 33597.118205
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  },
+  "FULL_OPP_L3": {
+   "cmc_deg": 30.0,
+   "cmc_magnitude_rad": 0.523598776,
+   "strain": {
+    "min_face_area_ratio": 0.624729,
+    "face_area_ratio": {
+     "n": 127,
+     "min": 0.624729,
+     "p05": 0.799989,
+     "median": 1.000405,
+     "p95": 1.463207,
+     "max": 1.643657,
+     "mean": 1.049212
+    },
+    "min_edge_ratio": 0.629499,
+    "max_edge_ratio": 1.64508,
+    "edge_ratio": {
+     "n": 278,
+     "min": 0.629499,
+     "p05": 0.869052,
+     "median": 1.000002,
+     "p95": 1.333393,
+     "max": 1.64508,
+     "mean": 1.026802
+    },
+    "local_surface_area_ratio": 1.051959,
+    "face_count": 127,
+    "edge_count": 278,
+    "seam_edges_touching_region": 0
+   },
+   "face_area_ratio_min": 0.624729,
+   "edge_ratio_min": 0.629499,
+   "edge_ratio_max": 1.64508,
+   "fold_over_face_count_normal_dot_lt_-0.5": 0,
+   "fold_over_faces": [],
+   "new_self_intersection_pairs_within_cage": 0,
+   "new_pair_samples": [],
+   "boundary_edge_count": 42,
+   "boundary_edge_ratio_min": 0.629499,
+   "boundary_edge_ratio_max": 1.64508,
+   "boundary_displacement_discontinuity_max_mm": 4.791072489,
+   "displacement_max_mm": 14.363287708,
+   "displacement_mean_mm": 6.186062711,
+   "cage_pca": {
+    "centroid": [
+     1.447334288,
+     0.008203964,
+     0.397257582
+    ],
+    "axes": [
+     [
+      -0.021538741,
+      -0.107001687,
+      0.994025514
+     ],
+     [
+      -0.509950275,
+      0.856369075,
+      0.081133983
+     ],
+     [
+      0.859934183,
+      0.505156061,
+      0.073010651
+     ]
+    ],
+    "extents_mm": [
+     48.269461,
+     43.828191,
+     16.77856
+    ],
+    "eigenvalues": [
+     0.000107568420614,
+     8.1122903249e-05,
+     9.068118772e-06
+    ],
+    "bbox_volume_proxy_mm3": 35496.103826
+   },
+   "CMC_CAGE_CATASTROPHIC_FOLD_OVER": false
+  }
+ }
+}

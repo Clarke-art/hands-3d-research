@@ -1,0 +1,15 @@
+{
+  "resolved_audit_script_issues": [
+    {
+      "issue": "Reference reader misspelled encoding utf8-sig",
+      "resolution": "Corrected task-owned script to utf-8-sig; resumed reference phase using already completed before hashes. No source rehash or historical output change."
+    },
+    {
+      "issue": "Windows DirEntry.stat identity fields unavailable/zero caused invalid allocation dedup in first derived result",
+      "resolution": "Original FILES_BEFORE preserved; supplemental valid Path.stat identities, FileStandardInfo allocation and all-directory after hashes collected. Corrected derived space/decisions. Zero-ID result not used for acceptance."
+    }
+  ],
+  "automatic_approval_rejections_this_task": [],
+  "asset_or_history_edits": [],
+  "moves": []
+}

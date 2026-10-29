@@ -1,0 +1,18 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Stage A · 目标键与手位规划 R1</title>
+<style>body{margin:0;background:#eeede7;color:#22372e;font:16px/1.6 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1120px;margin:32px auto;padding:0 24px}h1{font-size:30px}video{width:100%;background:#171f1b;border-radius:12px}nav,button,select{font:inherit}button,select{padding:8px 16px;margin:6px;border-radius:8px;border:1px solid #b5beb6}button{background:#294b3c;color:white;cursor:pointer}.fail{padding:16px;background:#f5dcd3;border-left:5px solid #b24830}a{color:#24573e}img{width:100%}small{color:#57675d}table{border-collapse:collapse;width:100%}td,th{padding:8px;border-bottom:1px solid #c3cdc5;text-align:left}</style>
+<main><h1>Stage A：目标琴键驱动的手位规划</h1>
+<p class="fail"><strong>技术验证 FAIL · DESIGN_PROVISIONAL · HUMAN_PENDING</strong><br>只有一份右手动态候选。明显悬空和换位丢失触键阻断合格结论；这不代表冻结Rig物理不可行，也不撤销Musette的Human接受。</p>
+<p>《G大调小步舞曲》原MIDI前4小节全部16个右手音符。原速5.142852秒；视频含0.3秒准备与尾余量，共5.7秒。左手不在演奏场景中，音频只含原右手声部。</p>
+<nav><label>正常审核视角 <select id="view"><option value="teaching">教学</option><option value="side_oblique">侧斜</option><option value="overhead">俯视</option></select></label><button id="play">原速播放</button><button id="pause">暂停</button><span id="clock">0.000 / 5.700s</span></nav>
+<video id="performance" controls playsinline preload="auto" poster="review_poster.jpg" src="normal_speed_teaching.mp4"></video>
+<p><small>默认播放速度1×，所有视角同一候选、同一事件时钟。可用播放器正常拖动查看；没有慢放掩盖、挑音或逐姿态拼接。</small></p>
+<table><tr><th>观察点</th><th>源时间</th><th>主要限制</th></tr><tr><td>D5起音与持键</td><td>0.000–0.429s</td><td>小指悬空，键已下沉</td></tr><tr><td>F♯5</td><td>3.643–3.857s</td><td>黑键定位及触键能实现；不代表整段通过</td></tr><tr><td>G5→G4回落</td><td>3.857–4.286s及之后</td><td>root迁移提前拉走小指，持键接触丢失</td></tr><tr><td>G4连续重复</td><td>小节2和4</td><td>声音重奏，但既有max释放/起音键曲线没有完整回弹</td></tr></table>
+<p><a href="TARGET_KEY_PLANNING_DESIGN.md">规划设计</a> · <a href="FINGERING_AND_EVENT_SCOPE.md">指法与原事件范围</a> · <a href="IMPLEMENTATION_REPORT.md">实现及8项验收</a> · <a href="HUMAN_VISIBLE_REVIEW.md">可见质量记录</a> · <a href="ENGINEERING_DIAGNOSTICS.json">有限诊断</a> · <a href="FINAL_STATUS.json">最终状态</a> · <a href="STAGE_A_RIGHT_TARGET_KEY_DESIGN_PROVISIONAL_R1.blend">唯一候选blend</a></p>
+<details><summary>全部16音符教学视角接触表</summary><img src="contact_sheet_teaching.jpg" alt="全部16音符教学视角"></details>
+<details><summary>全部16音符侧视角接触表</summary><img src="contact_sheet_side_oblique.jpg" alt="全部16音符侧视角"></details>
+</main><script>
+const v=document.getElementById('performance');document.getElementById('play').onclick=()=>{v.playbackRate=1;v.play()};document.getElementById('pause').onclick=()=>v.pause();
+document.getElementById('view').onchange=e=>{const time=v.currentTime;v.pause();v.src='normal_speed_'+e.target.value+'.mp4';v.addEventListener('loadedmetadata',()=>{v.currentTime=time;v.playbackRate=1},{once:true})};
+v.ontimeupdate=()=>document.getElementById('clock').textContent=v.currentTime.toFixed(3)+' / 5.700s';
+</script></html>

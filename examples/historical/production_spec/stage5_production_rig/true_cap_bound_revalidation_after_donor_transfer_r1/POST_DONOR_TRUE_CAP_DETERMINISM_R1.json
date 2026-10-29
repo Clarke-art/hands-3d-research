@@ -1,0 +1,27 @@
+{
+  "status": "PASS_EXACT_VALUE_AND_PAYLOAD_HASH_MATCH",
+  "checks": {
+    "fresh_full_path_payload_exact": true,
+    "fresh_all_six_poses_and120_recipes_exact": true,
+    "fresh_graph_payload_exact": true,
+    "live_source_target_coordinates_exact": true,
+    "tie_audit_exact": true,
+    "geometry_context_every_numeric_value_exact": true,
+    "source_target_hashes_exact": true,
+    "all_RUN_A_live_prerequisites": true,
+    "all_RUN_B_live_prerequisites": true,
+    "final_current_R2_input_hash_bound": true,
+    "final_input_authority_hashes_exact": true
+  },
+  "independent_complete_Blender_processes": 2,
+  "each_current_run": "Clean reopen, fresh whole graph, fresh37-source Dijkstra,1406 paths,6 endpoint-bound poses,120 complete virtual recipes",
+  "graph_metric_hash_current": "0cbe60b8c13132c1e933ab17e730afb4e1f41a852ca3dea59525d7d80dcf1996",
+  "new_path_family_payload_hash": "0ac38feb5e4d1efe96d66158e7b33b22635ec24deea6fadb075563a8f6974db2",
+  "new_bound_payload_hash": "387c985a6177c6a7d08c8290d5b7009791a361f9ecf64af507a5dfc2212269f1",
+  "run_A_path_hash": "0ac38feb5e4d1efe96d66158e7b33b22635ec24deea6fadb075563a8f6974db2",
+  "run_B_path_hash": "0ac38feb5e4d1efe96d66158e7b33b22635ec24deea6fadb075563a8f6974db2",
+  "run_A_bound_hash": "387c985a6177c6a7d08c8290d5b7009791a361f9ecf64af507a5dfc2212269f1",
+  "run_B_bound_hash": "387c985a6177c6a7d08c8290d5b7009791a361f9ecf64af507a5dfc2212269f1",
+  "numeric_rounding_for_comparison": false,
+  "serialization": "Round-trip JSON of full binary64 values; exact recursive equality. No altered path selection."
+}

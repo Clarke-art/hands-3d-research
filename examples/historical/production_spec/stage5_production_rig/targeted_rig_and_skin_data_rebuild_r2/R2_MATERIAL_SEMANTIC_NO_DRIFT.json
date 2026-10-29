@@ -1,0 +1,1352 @@
+{
+  "status": "PASS",
+  "material_count": 2,
+  "R1_snapshot_hash": "0f2730a2a02e707b1eea5258c04b1314b52cf13c291ab3dd082fc373da7e185d",
+  "R2_snapshot_hash": "0f2730a2a02e707b1eea5258c04b1314b52cf13c291ab3dd082fc373da7e185d",
+  "material_properties_nodes_socket_defaults_links_images_exact": true,
+  "snapshots": {
+    "R1": [
+      {
+        "name": "HAND_SKIN",
+        "properties": {
+          "name": "HAND_SKIN",
+          "use_fake_user": false,
+          "use_extra_user": false,
+          "is_runtime_data": false,
+          "tag": false,
+          "surface_render_method": "DITHERED",
+          "displacement_method": "BUMP",
+          "blend_method": "HASHED",
+          "alpha_threshold": 0.5,
+          "use_transparency_overlap": true,
+          "show_transparent_back": true,
+          "use_backface_culling": false,
+          "use_backface_culling_shadow": false,
+          "use_backface_culling_lightprobe_volume": true,
+          "use_transparent_shadow": true,
+          "use_raytrace_refraction": false,
+          "use_screen_refraction": false,
+          "use_sss_translucency": false,
+          "refraction_depth": 0.0,
+          "thickness_mode": "SPHERE",
+          "use_thickness_from_shadow": false,
+          "volume_intersection_method": "FAST",
+          "max_vertex_displacement": 0.0,
+          "preview_render_type": "SPHERE",
+          "use_preview_world": false,
+          "pass_index": 0,
+          "use_nodes": true,
+          "paint_active_slot": 0,
+          "paint_clone_slot": 0,
+          "diffuse_color": [
+            0.8399999737739563,
+            0.6600000262260437,
+            0.5799999833106995,
+            1.0
+          ],
+          "specular_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness": 0.550000011920929,
+          "specular_intensity": 0.5,
+          "metallic": 0.0,
+          "line_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "line_priority": 0
+        },
+        "nodes": [
+          {
+            "name": "原理化 BSDF",
+            "type": "ShaderNodeBsdfPrincipled",
+            "properties": {
+              "location": [
+                -200.0,
+                100.0
+              ],
+              "location_absolute": [
+                -200.0,
+                100.0
+              ],
+              "width": 240.0,
+              "height": 100.0,
+              "name": "原理化 BSDF",
+              "label": "",
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeBsdfPrincipled",
+              "bl_label": "Principled BSDF",
+              "bl_description": "Physically-based, easy-to-use shader for rendering surface materials, based on the OpenPBR model",
+              "bl_icon": "NONE",
+              "bl_width_default": 240.0,
+              "bl_width_min": 140.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "distribution": "MULTI_GGX",
+              "subsurface_method": "RANDOM_WALK"
+            },
+            "inputs": [
+              {
+                "identifier": "Base Color",
+                "default_value": [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Metallic",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Roughness",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "IOR",
+                "default_value": 1.5
+              },
+              {
+                "identifier": "Alpha",
+                "default_value": 1.0
+              },
+              {
+                "identifier": "Normal",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Diffuse Roughness",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Subsurface Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Subsurface Radius",
+                "default_value": [
+                  1.0,
+                  0.20000000298023224,
+                  0.10000000149011612
+                ]
+              },
+              {
+                "identifier": "Subsurface Scale",
+                "default_value": 0.05000000074505806
+              },
+              {
+                "identifier": "Subsurface IOR",
+                "default_value": 1.399999976158142
+              },
+              {
+                "identifier": "Subsurface Anisotropy",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Specular IOR Level",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "Specular Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Anisotropic",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Anisotropic Rotation",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Tangent",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Transmission Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Coat Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Coat Roughness",
+                "default_value": 0.029999999329447746
+              },
+              {
+                "identifier": "Coat IOR",
+                "default_value": 1.5
+              },
+              {
+                "identifier": "Coat Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Coat Normal",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Sheen Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Sheen Roughness",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "Sheen Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Emission Color",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Emission Strength",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Thin Film Thickness",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Thin Film IOR",
+                "default_value": 1.3300000429153442
+              }
+            ],
+            "outputs": []
+          },
+          {
+            "name": "材质输出",
+            "type": "ShaderNodeOutputMaterial",
+            "properties": {
+              "location": [
+                200.0,
+                100.0
+              ],
+              "location_absolute": [
+                200.0,
+                100.0
+              ],
+              "width": 140.0,
+              "height": 100.0,
+              "name": "材质输出",
+              "label": "",
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeOutputMaterial",
+              "bl_label": "Material Output",
+              "bl_description": "Output surface material information for use in rendering",
+              "bl_icon": "NONE",
+              "bl_width_default": 140.0,
+              "bl_width_min": 100.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "is_active_output": true,
+              "target": "ALL"
+            },
+            "inputs": [
+              {
+                "identifier": "Displacement",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Thickness",
+                "default_value": 0.0
+              }
+            ],
+            "outputs": []
+          }
+        ],
+        "links": [
+          [
+            "原理化 BSDF",
+            "BSDF",
+            "材质输出",
+            "Surface"
+          ]
+        ]
+      },
+      {
+        "name": "NAIL_BED",
+        "properties": {
+          "name": "NAIL_BED",
+          "use_fake_user": false,
+          "use_extra_user": false,
+          "is_runtime_data": false,
+          "tag": false,
+          "surface_render_method": "DITHERED",
+          "displacement_method": "BUMP",
+          "blend_method": "HASHED",
+          "alpha_threshold": 0.5,
+          "use_transparency_overlap": true,
+          "show_transparent_back": true,
+          "use_backface_culling": false,
+          "use_backface_culling_shadow": false,
+          "use_backface_culling_lightprobe_volume": true,
+          "use_transparent_shadow": true,
+          "use_raytrace_refraction": false,
+          "use_screen_refraction": false,
+          "use_sss_translucency": false,
+          "refraction_depth": 0.0,
+          "thickness_mode": "SPHERE",
+          "use_thickness_from_shadow": false,
+          "volume_intersection_method": "FAST",
+          "max_vertex_displacement": 0.0,
+          "preview_render_type": "SPHERE",
+          "use_preview_world": false,
+          "pass_index": 0,
+          "use_nodes": true,
+          "paint_active_slot": 0,
+          "paint_clone_slot": 0,
+          "diffuse_color": [
+            0.949999988079071,
+            0.8999999761581421,
+            0.8899999856948853,
+            1.0
+          ],
+          "specular_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness": 0.2800000011920929,
+          "specular_intensity": 0.5,
+          "metallic": 0.0,
+          "line_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "line_priority": 0
+        },
+        "nodes": [
+          {
+            "name": "原理化 BSDF",
+            "type": "ShaderNodeBsdfPrincipled",
+            "properties": {
+              "location": [
+                -200.0,
+                100.0
+              ],
+              "location_absolute": [
+                -200.0,
+                100.0
+              ],
+              "width": 240.0,
+              "height": 100.0,
+              "name": "原理化 BSDF",
+              "label": "",
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeBsdfPrincipled",
+              "bl_label": "Principled BSDF",
+              "bl_description": "Physically-based, easy-to-use shader for rendering surface materials, based on the OpenPBR model",
+              "bl_icon": "NONE",
+              "bl_width_default": 240.0,
+              "bl_width_min": 140.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "distribution": "MULTI_GGX",
+              "subsurface_method": "RANDOM_WALK"
+            },
+            "inputs": [
+              {
+                "identifier": "Base Color",
+                "default_value": [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Metallic",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Roughness",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "IOR",
+                "default_value": 1.5
+              },
+              {
+                "identifier": "Alpha",
+                "default_value": 1.0
+              },
+              {
+                "identifier": "Normal",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Diffuse Roughness",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Subsurface Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Subsurface Radius",
+                "default_value": [
+                  1.0,
+                  0.20000000298023224,
+                  0.10000000149011612
+                ]
+              },
+              {
+                "identifier": "Subsurface Scale",
+                "default_value": 0.05000000074505806
+              },
+              {
+                "identifier": "Subsurface IOR",
+                "default_value": 1.399999976158142
+              },
+              {
+                "identifier": "Subsurface Anisotropy",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Specular IOR Level",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "Specular Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Anisotropic",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Anisotropic Rotation",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Tangent",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Transmission Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Coat Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Coat Roughness",
+                "default_value": 0.029999999329447746
+              },
+              {
+                "identifier": "Coat IOR",
+                "default_value": 1.5
+              },
+              {
+                "identifier": "Coat Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Coat Normal",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Sheen Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Sheen Roughness",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "Sheen Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Emission Color",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Emission Strength",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Thin Film Thickness",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Thin Film IOR",
+                "default_value": 1.3300000429153442
+              }
+            ],
+            "outputs": []
+          },
+          {
+            "name": "材质输出",
+            "type": "ShaderNodeOutputMaterial",
+            "properties": {
+              "location": [
+                200.0,
+                100.0
+              ],
+              "location_absolute": [
+                200.0,
+                100.0
+              ],
+              "width": 140.0,
+              "height": 100.0,
+              "name": "材质输出",
+              "label": "",
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeOutputMaterial",
+              "bl_label": "Material Output",
+              "bl_description": "Output surface material information for use in rendering",
+              "bl_icon": "NONE",
+              "bl_width_default": 140.0,
+              "bl_width_min": 100.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "is_active_output": true,
+              "target": "ALL"
+            },
+            "inputs": [
+              {
+                "identifier": "Displacement",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Thickness",
+                "default_value": 0.0
+              }
+            ],
+            "outputs": []
+          }
+        ],
+        "links": [
+          [
+            "原理化 BSDF",
+            "BSDF",
+            "材质输出",
+            "Surface"
+          ]
+        ]
+      }
+    ],
+    "R2": [
+      {
+        "name": "HAND_SKIN",
+        "properties": {
+          "name": "HAND_SKIN",
+          "use_fake_user": false,
+          "use_extra_user": false,
+          "is_runtime_data": false,
+          "tag": false,
+          "surface_render_method": "DITHERED",
+          "displacement_method": "BUMP",
+          "blend_method": "HASHED",
+          "alpha_threshold": 0.5,
+          "use_transparency_overlap": true,
+          "show_transparent_back": true,
+          "use_backface_culling": false,
+          "use_backface_culling_shadow": false,
+          "use_backface_culling_lightprobe_volume": true,
+          "use_transparent_shadow": true,
+          "use_raytrace_refraction": false,
+          "use_screen_refraction": false,
+          "use_sss_translucency": false,
+          "refraction_depth": 0.0,
+          "thickness_mode": "SPHERE",
+          "use_thickness_from_shadow": false,
+          "volume_intersection_method": "FAST",
+          "max_vertex_displacement": 0.0,
+          "preview_render_type": "SPHERE",
+          "use_preview_world": false,
+          "pass_index": 0,
+          "use_nodes": true,
+          "paint_active_slot": 0,
+          "paint_clone_slot": 0,
+          "diffuse_color": [
+            0.8399999737739563,
+            0.6600000262260437,
+            0.5799999833106995,
+            1.0
+          ],
+          "specular_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness": 0.550000011920929,
+          "specular_intensity": 0.5,
+          "metallic": 0.0,
+          "line_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "line_priority": 0
+        },
+        "nodes": [
+          {
+            "name": "原理化 BSDF",
+            "type": "ShaderNodeBsdfPrincipled",
+            "properties": {
+              "location": [
+                -200.0,
+                100.0
+              ],
+              "location_absolute": [
+                -200.0,
+                100.0
+              ],
+              "width": 240.0,
+              "height": 100.0,
+              "name": "原理化 BSDF",
+              "label": "",
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeBsdfPrincipled",
+              "bl_label": "Principled BSDF",
+              "bl_description": "Physically-based, easy-to-use shader for rendering surface materials, based on the OpenPBR model",
+              "bl_icon": "NONE",
+              "bl_width_default": 240.0,
+              "bl_width_min": 140.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "distribution": "MULTI_GGX",
+              "subsurface_method": "RANDOM_WALK"
+            },
+            "inputs": [
+              {
+                "identifier": "Base Color",
+                "default_value": [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Metallic",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Roughness",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "IOR",
+                "default_value": 1.5
+              },
+              {
+                "identifier": "Alpha",
+                "default_value": 1.0
+              },
+              {
+                "identifier": "Normal",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Diffuse Roughness",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Subsurface Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Subsurface Radius",
+                "default_value": [
+                  1.0,
+                  0.20000000298023224,
+                  0.10000000149011612
+                ]
+              },
+              {
+                "identifier": "Subsurface Scale",
+                "default_value": 0.05000000074505806
+              },
+              {
+                "identifier": "Subsurface IOR",
+                "default_value": 1.399999976158142
+              },
+              {
+                "identifier": "Subsurface Anisotropy",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Specular IOR Level",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "Specular Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Anisotropic",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Anisotropic Rotation",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Tangent",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Transmission Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Coat Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Coat Roughness",
+                "default_value": 0.029999999329447746
+              },
+              {
+                "identifier": "Coat IOR",
+                "default_value": 1.5
+              },
+              {
+                "identifier": "Coat Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Coat Normal",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Sheen Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Sheen Roughness",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "Sheen Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Emission Color",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Emission Strength",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Thin Film Thickness",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Thin Film IOR",
+                "default_value": 1.3300000429153442
+              }
+            ],
+            "outputs": []
+          },
+          {
+            "name": "材质输出",
+            "type": "ShaderNodeOutputMaterial",
+            "properties": {
+              "location": [
+                200.0,
+                100.0
+              ],
+              "location_absolute": [
+                200.0,
+                100.0
+              ],
+              "width": 140.0,
+              "height": 100.0,
+              "name": "材质输出",
+              "label": "",
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeOutputMaterial",
+              "bl_label": "Material Output",
+              "bl_description": "Output surface material information for use in rendering",
+              "bl_icon": "NONE",
+              "bl_width_default": 140.0,
+              "bl_width_min": 100.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "is_active_output": true,
+              "target": "ALL"
+            },
+            "inputs": [
+              {
+                "identifier": "Displacement",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Thickness",
+                "default_value": 0.0
+              }
+            ],
+            "outputs": []
+          }
+        ],
+        "links": [
+          [
+            "原理化 BSDF",
+            "BSDF",
+            "材质输出",
+            "Surface"
+          ]
+        ]
+      },
+      {
+        "name": "NAIL_BED",
+        "properties": {
+          "name": "NAIL_BED",
+          "use_fake_user": false,
+          "use_extra_user": false,
+          "is_runtime_data": false,
+          "tag": false,
+          "surface_render_method": "DITHERED",
+          "displacement_method": "BUMP",
+          "blend_method": "HASHED",
+          "alpha_threshold": 0.5,
+          "use_transparency_overlap": true,
+          "show_transparent_back": true,
+          "use_backface_culling": false,
+          "use_backface_culling_shadow": false,
+          "use_backface_culling_lightprobe_volume": true,
+          "use_transparent_shadow": true,
+          "use_raytrace_refraction": false,
+          "use_screen_refraction": false,
+          "use_sss_translucency": false,
+          "refraction_depth": 0.0,
+          "thickness_mode": "SPHERE",
+          "use_thickness_from_shadow": false,
+          "volume_intersection_method": "FAST",
+          "max_vertex_displacement": 0.0,
+          "preview_render_type": "SPHERE",
+          "use_preview_world": false,
+          "pass_index": 0,
+          "use_nodes": true,
+          "paint_active_slot": 0,
+          "paint_clone_slot": 0,
+          "diffuse_color": [
+            0.949999988079071,
+            0.8999999761581421,
+            0.8899999856948853,
+            1.0
+          ],
+          "specular_color": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "roughness": 0.2800000011920929,
+          "specular_intensity": 0.5,
+          "metallic": 0.0,
+          "line_color": [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "line_priority": 0
+        },
+        "nodes": [
+          {
+            "name": "原理化 BSDF",
+            "type": "ShaderNodeBsdfPrincipled",
+            "properties": {
+              "location": [
+                -200.0,
+                100.0
+              ],
+              "location_absolute": [
+                -200.0,
+                100.0
+              ],
+              "width": 240.0,
+              "height": 100.0,
+              "name": "原理化 BSDF",
+              "label": "",
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeBsdfPrincipled",
+              "bl_label": "Principled BSDF",
+              "bl_description": "Physically-based, easy-to-use shader for rendering surface materials, based on the OpenPBR model",
+              "bl_icon": "NONE",
+              "bl_width_default": 240.0,
+              "bl_width_min": 140.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "distribution": "MULTI_GGX",
+              "subsurface_method": "RANDOM_WALK"
+            },
+            "inputs": [
+              {
+                "identifier": "Base Color",
+                "default_value": [
+                  0.800000011920929,
+                  0.800000011920929,
+                  0.800000011920929,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Metallic",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Roughness",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "IOR",
+                "default_value": 1.5
+              },
+              {
+                "identifier": "Alpha",
+                "default_value": 1.0
+              },
+              {
+                "identifier": "Normal",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Diffuse Roughness",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Subsurface Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Subsurface Radius",
+                "default_value": [
+                  1.0,
+                  0.20000000298023224,
+                  0.10000000149011612
+                ]
+              },
+              {
+                "identifier": "Subsurface Scale",
+                "default_value": 0.05000000074505806
+              },
+              {
+                "identifier": "Subsurface IOR",
+                "default_value": 1.399999976158142
+              },
+              {
+                "identifier": "Subsurface Anisotropy",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Specular IOR Level",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "Specular Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Anisotropic",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Anisotropic Rotation",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Tangent",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Transmission Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Coat Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Coat Roughness",
+                "default_value": 0.029999999329447746
+              },
+              {
+                "identifier": "Coat IOR",
+                "default_value": 1.5
+              },
+              {
+                "identifier": "Coat Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Coat Normal",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Sheen Weight",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Sheen Roughness",
+                "default_value": 0.5
+              },
+              {
+                "identifier": "Sheen Tint",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Emission Color",
+                "default_value": [
+                  1.0,
+                  1.0,
+                  1.0,
+                  1.0
+                ]
+              },
+              {
+                "identifier": "Emission Strength",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Thin Film Thickness",
+                "default_value": 0.0
+              },
+              {
+                "identifier": "Thin Film IOR",
+                "default_value": 1.3300000429153442
+              }
+            ],
+            "outputs": []
+          },
+          {
+            "name": "材质输出",
+            "type": "ShaderNodeOutputMaterial",
+            "properties": {
+              "location": [
+                200.0,
+                100.0
+              ],
+              "location_absolute": [
+                200.0,
+                100.0
+              ],
+              "width": 140.0,
+              "height": 100.0,
+              "name": "材质输出",
+              "label": "",
+              "warning_propagation": "ALL",
+              "use_custom_color": false,
+              "color": [
+                0.6079999804496765,
+                0.6079999804496765,
+                0.6079999804496765
+              ],
+              "select": true,
+              "show_options": true,
+              "show_preview": false,
+              "hide": false,
+              "mute": false,
+              "show_texture": false,
+              "bl_idname": "ShaderNodeOutputMaterial",
+              "bl_label": "Material Output",
+              "bl_description": "Output surface material information for use in rendering",
+              "bl_icon": "NONE",
+              "bl_width_default": 140.0,
+              "bl_width_min": 100.0,
+              "bl_width_max": 700.0,
+              "bl_height_default": 100.0,
+              "bl_height_min": 30.0,
+              "bl_height_max": 30.0,
+              "is_active_output": true,
+              "target": "ALL"
+            },
+            "inputs": [
+              {
+                "identifier": "Displacement",
+                "default_value": [
+                  0.0,
+                  0.0,
+                  0.0
+                ]
+              },
+              {
+                "identifier": "Thickness",
+                "default_value": 0.0
+              }
+            ],
+            "outputs": []
+          }
+        ],
+        "links": [
+          [
+            "原理化 BSDF",
+            "BSDF",
+            "材质输出",
+            "Surface"
+          ]
+        ]
+      }
+    ]
+  },
+  "blend_writes": 0,
+  "deformation_runs": 0,
+  "Stage6_runs": 0
+}

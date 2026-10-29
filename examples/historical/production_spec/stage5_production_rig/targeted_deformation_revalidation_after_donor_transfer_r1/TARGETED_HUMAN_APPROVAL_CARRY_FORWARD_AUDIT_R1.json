@@ -1,0 +1,594 @@
+{
+  "status": "PASS_EXACT_SCOPE_NO_REGRESSION",
+  "CAP37_pairs": [
+    {
+      "pose": "TH_IP_30",
+      "face_pair": [
+        1225,
+        2740
+      ],
+      "pair_id": "PAIR_1225_2740",
+      "human_receipt": {
+        "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_human_closure_r1/CAP37_THUMB_INDEX_CROSSING_HUMAN_ADJUDICATION_R1.json",
+        "sha256": "f530e28be5a5dd792e389dd7c84b9fdc2a3f82e2fb2a217bdfa02ba3520a890b"
+      },
+      "prior_disposition": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+      "current_V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+      "current_exact_crossing_evidence": {
+        "intersect": true,
+        "depth_mm": 5.5001658329274505,
+        "seg_mm": 0.9298528117312028,
+        "pts": [
+          [
+            1.4402687549591064,
+            0.008787920698523521,
+            0.4762890934944153
+          ],
+          [
+            1.4403092861175537,
+            0.008496901951730251,
+            0.47717130184173584
+          ]
+        ],
+        "local_edge_mm": 4.372096336400464,
+        "tri_pairs": 4
+      },
+      "pre_donor_exact_crossing_evidence": {
+        "intersect": true,
+        "depth_mm": 5.5001658329274505,
+        "seg_mm": 0.9298528117312028,
+        "pts": [
+          [
+            1.4402687549591064,
+            0.008787920698523521,
+            0.4762890934944153
+          ],
+          [
+            1.4403092861175537,
+            0.008496901951730251,
+            0.47717130184173584
+          ]
+        ],
+        "local_edge_mm": 4.372096336400464,
+        "tri_pairs": 4
+      },
+      "one_ring_sheet_support": [
+        {
+          "face_id": 1225,
+          "label": "THUMB",
+          "core_vertex_ids": [
+            1453,
+            299,
+            1385,
+            2786
+          ],
+          "one_ring_same_frozen_label_vertex_ids": [
+            299,
+            341,
+            342,
+            1381,
+            1383,
+            1385,
+            1453,
+            1454,
+            1455,
+            2783,
+            2785,
+            2786
+          ],
+          "one_ring_face_ids": [
+            1215,
+            1223,
+            1224,
+            1225,
+            1226
+          ],
+          "one_ring_edge_ids": [
+            1100,
+            1104,
+            1108,
+            1109,
+            1244,
+            1245,
+            1247,
+            1249,
+            4512,
+            4513,
+            4520,
+            4521,
+            4522,
+            4523,
+            4524,
+            4525
+          ]
+        },
+        {
+          "face_id": 2740,
+          "label": "INDEX",
+          "core_vertex_ids": [
+            148,
+            1053,
+            3165,
+            2062
+          ],
+          "one_ring_same_frozen_label_vertex_ids": [
+            148,
+            149,
+            653,
+            1052,
+            1053,
+            1859,
+            1975,
+            2062,
+            2063,
+            2068,
+            3109,
+            3165,
+            3166
+          ],
+          "one_ring_face_ids": [
+            2519,
+            2740,
+            2741,
+            2743,
+            2745
+          ],
+          "one_ring_edge_ids": [
+            443,
+            444,
+            445,
+            2057,
+            2289,
+            2462,
+            2463,
+            2464,
+            2475,
+            5816,
+            5817,
+            6038,
+            6039,
+            6040,
+            6041,
+            6042,
+            6043
+          ]
+        }
+      ],
+      "criteria": {
+        "pose_identity_exact": true,
+        "face_pair_identity_exact": true,
+        "fixture_membership_exact": true,
+        "patch_unaffected_by_donor54": true,
+        "current_vs_pre_donor_patch_exact": true,
+        "current_vs_human_approved_causal_patch_exact": true,
+        "poke_bind_facet_segment_exact": true,
+        "severity_no_worse": true,
+        "no_new_failure_family": true
+      },
+      "classification": "KNOWN_HUMAN_ACCEPTED_EXACT_SCOPE",
+      "HUMAN_ACCEPTANCE_CARRY_FORWARD": "YES_EXACT_SCOPE_NO_REGRESSION",
+      "cross_pose_acceptance_extended": false
+    },
+    {
+      "pose": "IDX_MCP_45",
+      "face_pair": [
+        1041,
+        2735
+      ],
+      "pair_id": "PAIR_1041_2735",
+      "human_receipt": {
+        "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_human_closure_r1/CAP37_THUMB_INDEX_CROSSING_HUMAN_ADJUDICATION_R1.json",
+        "sha256": "f530e28be5a5dd792e389dd7c84b9fdc2a3f82e2fb2a217bdfa02ba3520a890b"
+      },
+      "prior_disposition": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+      "current_V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+      "current_exact_crossing_evidence": {
+        "intersect": true,
+        "depth_mm": 3.709175107360352,
+        "seg_mm": 0.5925895821949515,
+        "pts": [
+          [
+            1.4498637914657593,
+            0.015305346809327602,
+            0.4723440706729889
+          ],
+          [
+            1.4501432180404663,
+            0.015010664239525795,
+            0.4725916087627411
+          ]
+        ],
+        "local_edge_mm": 3.619188231230516,
+        "tri_pairs": 4
+      },
+      "pre_donor_exact_crossing_evidence": {
+        "intersect": true,
+        "depth_mm": 3.709175107360352,
+        "seg_mm": 0.5925895821949515,
+        "pts": [
+          [
+            1.4498637914657593,
+            0.015305346809327602,
+            0.4723440706729889
+          ],
+          [
+            1.4501432180404663,
+            0.015010664239525795,
+            0.4725916087627411
+          ]
+        ],
+        "local_edge_mm": 3.619188231230516,
+        "tri_pairs": 4
+      },
+      "one_ring_sheet_support": [
+        {
+          "face_id": 1041,
+          "label": "THUMB",
+          "core_vertex_ids": [
+            1337,
+            282,
+            1339,
+            2740
+          ],
+          "one_ring_same_frozen_label_vertex_ids": [
+            38,
+            282,
+            283,
+            881,
+            1336,
+            1337,
+            1339,
+            1340,
+            1383,
+            2739,
+            2740,
+            2785
+          ],
+          "one_ring_face_ids": [
+            1036,
+            1040,
+            1041,
+            1042,
+            1222
+          ],
+          "one_ring_edge_ids": [
+            101,
+            1010,
+            1012,
+            1013,
+            1016,
+            1017,
+            1018,
+            1105,
+            4334,
+            4337,
+            4338,
+            4339,
+            4340,
+            4341,
+            4519,
+            4520
+          ]
+        },
+        {
+          "face_id": 2735,
+          "label": "INDEX",
+          "core_vertex_ids": [
+            2064,
+            3163,
+            2066,
+            655
+          ],
+          "one_ring_same_frozen_label_vertex_ids": [
+            150,
+            649,
+            655,
+            1055,
+            1056,
+            1070,
+            2064,
+            2066,
+            2067,
+            2583,
+            3163,
+            3164
+          ],
+          "one_ring_face_ids": [
+            414,
+            2732,
+            2734,
+            2735,
+            2738
+          ],
+          "one_ring_edge_ids": [
+            448,
+            450,
+            478,
+            2466,
+            2467,
+            2470,
+            2471,
+            2472,
+            3711,
+            3712,
+            6030,
+            6031,
+            6032,
+            6033,
+            6035,
+            6036
+          ]
+        }
+      ],
+      "criteria": {
+        "pose_identity_exact": true,
+        "face_pair_identity_exact": true,
+        "fixture_membership_exact": true,
+        "patch_unaffected_by_donor54": true,
+        "current_vs_pre_donor_patch_exact": true,
+        "current_vs_human_approved_causal_patch_exact": true,
+        "poke_bind_facet_segment_exact": true,
+        "severity_no_worse": true,
+        "no_new_failure_family": true
+      },
+      "classification": "KNOWN_HUMAN_ACCEPTED_EXACT_SCOPE",
+      "HUMAN_ACCEPTANCE_CARRY_FORWARD": "YES_EXACT_SCOPE_NO_REGRESSION",
+      "cross_pose_acceptance_extended": false
+    },
+    {
+      "pose": "IDX_MCP_45",
+      "face_pair": [
+        1226,
+        2742
+      ],
+      "pair_id": "PAIR_1226_2742",
+      "human_receipt": {
+        "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_human_closure_r1/CAP37_THUMB_INDEX_CROSSING_HUMAN_ADJUDICATION_R1.json",
+        "sha256": "f530e28be5a5dd792e389dd7c84b9fdc2a3f82e2fb2a217bdfa02ba3520a890b"
+      },
+      "prior_disposition": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+      "current_V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+      "current_exact_crossing_evidence": {
+        "intersect": true,
+        "depth_mm": 4.626236739568412,
+        "seg_mm": 0.35031668445181197,
+        "pts": [
+          [
+            1.4423484802246094,
+            0.01064293272793293,
+            0.4747176170349121
+          ],
+          [
+            1.4423303604125977,
+            0.010371374897658825,
+            0.47493818402290344
+          ]
+        ],
+        "local_edge_mm": 4.166125196808419,
+        "tri_pairs": 4
+      },
+      "pre_donor_exact_crossing_evidence": {
+        "intersect": true,
+        "depth_mm": 4.626236739568412,
+        "seg_mm": 0.35031668445181197,
+        "pts": [
+          [
+            1.4423484802246094,
+            0.01064293272793293,
+            0.4747176170349121
+          ],
+          [
+            1.4423303604125977,
+            0.010371374897658825,
+            0.47493818402290344
+          ]
+        ],
+        "local_edge_mm": 4.166125196808419,
+        "tri_pairs": 4
+      },
+      "one_ring_sheet_support": [
+        {
+          "face_id": 1226,
+          "label": "THUMB",
+          "core_vertex_ids": [
+            2786,
+            1385,
+            342,
+            1381
+          ],
+          "one_ring_same_frozen_label_vertex_ids": [
+            298,
+            299,
+            342,
+            1381,
+            1384,
+            1385,
+            1453,
+            1454,
+            1456,
+            2783,
+            2786,
+            2787
+          ],
+          "one_ring_face_ids": [
+            1214,
+            1225,
+            1226,
+            1227,
+            1230
+          ],
+          "one_ring_edge_ids": [
+            1100,
+            1101,
+            1106,
+            1108,
+            1109,
+            1245,
+            1246,
+            1251,
+            4511,
+            4512,
+            4522,
+            4523,
+            4524,
+            4525,
+            4527,
+            4528
+          ]
+        },
+        {
+          "face_id": 2742,
+          "label": "INDEX",
+          "core_vertex_ids": [
+            3165,
+            2063,
+            654,
+            2068
+          ],
+          "one_ring_same_frozen_label_vertex_ids": [
+            149,
+            653,
+            654,
+            1053,
+            1068,
+            2062,
+            2063,
+            2067,
+            2068,
+            2581,
+            3164,
+            3165
+          ],
+          "one_ring_face_ids": [
+            404,
+            2739,
+            2741,
+            2742,
+            2743
+          ],
+          "one_ring_edge_ids": [
+            445,
+            474,
+            2463,
+            2464,
+            2465,
+            2473,
+            2474,
+            2475,
+            3702,
+            3705,
+            6036,
+            6037,
+            6038,
+            6039,
+            6040,
+            6041
+          ]
+        }
+      ],
+      "criteria": {
+        "pose_identity_exact": true,
+        "face_pair_identity_exact": true,
+        "fixture_membership_exact": true,
+        "patch_unaffected_by_donor54": true,
+        "current_vs_pre_donor_patch_exact": true,
+        "current_vs_human_approved_causal_patch_exact": true,
+        "poke_bind_facet_segment_exact": true,
+        "severity_no_worse": true,
+        "no_new_failure_family": true
+      },
+      "classification": "KNOWN_HUMAN_ACCEPTED_EXACT_SCOPE",
+      "HUMAN_ACCEPTANCE_CARRY_FORWARD": "YES_EXACT_SCOPE_NO_REGRESSION",
+      "cross_pose_acceptance_extended": false
+    }
+  ],
+  "four_reviewed_fixtures": [
+    {
+      "fixture": "OLD_CAP9",
+      "pose": "TH_IP_45",
+      "criteria": {
+        "fixture_support_no_donor54_overlap": true,
+        "pose_identity_exact": true,
+        "membership_exact": true,
+        "native_bind_coordinates_exact": true,
+        "posed_coordinates_exact": true,
+        "area_compression_stretch_separation_normals_crossings_exact": true,
+        "approved_historical_machine_metrics_reproduced": true,
+        "no_new_structural_failure": true
+      },
+      "PRIOR_HUMAN_REVIEW_CARRY_FORWARD": "YES_EXACT_SCOPE_NO_REGRESSION",
+      "historical_human_review": "PASS",
+      "current_local_surface_state": "EXACT_SAME_POSITIONS_AND_ORIENTED_NATIVE_CYCLES_AS_REVIEWED_PATCH",
+      "human_closure_source": {
+        "path": "production_spec/stage5_production_rig/targeted_deformation_final_human_closure_r1/TARGETED_DEFORMATION_FINAL_HUMAN_CLOSURE_R1.json",
+        "sha256": "dae471886d0b267c407f9c9990812c67fdec23940c760040858e2b633c18f719"
+      }
+    },
+    {
+      "fixture": "FIRST_WEB",
+      "pose": "FULL_OPP_L3",
+      "criteria": {
+        "fixture_support_no_donor54_overlap": true,
+        "pose_identity_exact": true,
+        "membership_exact": true,
+        "native_bind_coordinates_exact": true,
+        "posed_coordinates_exact": true,
+        "area_compression_stretch_separation_normals_crossings_exact": true,
+        "approved_historical_machine_metrics_reproduced": true,
+        "no_new_structural_failure": true
+      },
+      "PRIOR_HUMAN_REVIEW_CARRY_FORWARD": "YES_EXACT_SCOPE_NO_REGRESSION",
+      "historical_human_review": "PASS",
+      "current_local_surface_state": "EXACT_SAME_POSITIONS_AND_ORIENTED_NATIVE_CYCLES_AS_REVIEWED_PATCH",
+      "human_closure_source": {
+        "path": "production_spec/stage5_production_rig/targeted_deformation_final_human_closure_r1/TARGETED_DEFORMATION_FINAL_HUMAN_CLOSURE_R1.json",
+        "sha256": "dae471886d0b267c407f9c9990812c67fdec23940c760040858e2b633c18f719"
+      }
+    },
+    {
+      "fixture": "FRESH_R3_TRANSITION_COLLAR",
+      "pose": "CMC_OPP_30",
+      "criteria": {
+        "fixture_support_no_donor54_overlap": true,
+        "pose_identity_exact": true,
+        "membership_exact": true,
+        "native_bind_coordinates_exact": true,
+        "posed_coordinates_exact": true,
+        "area_compression_stretch_separation_normals_crossings_exact": true,
+        "approved_historical_machine_metrics_reproduced": true,
+        "no_new_structural_failure": true
+      },
+      "PRIOR_HUMAN_REVIEW_CARRY_FORWARD": "YES_EXACT_SCOPE_NO_REGRESSION",
+      "historical_human_review": "PASS",
+      "current_local_surface_state": "EXACT_SAME_POSITIONS_AND_ORIENTED_NATIVE_CYCLES_AS_REVIEWED_PATCH",
+      "human_closure_source": {
+        "path": "production_spec/stage5_production_rig/targeted_deformation_final_human_closure_r1/TARGETED_DEFORMATION_FINAL_HUMAN_CLOSURE_R1.json",
+        "sha256": "dae471886d0b267c407f9c9990812c67fdec23940c760040858e2b633c18f719"
+      }
+    },
+    {
+      "fixture": "EDGE5879",
+      "pose": "CMC_MCP_L3",
+      "criteria": {
+        "fixture_support_no_donor54_overlap": true,
+        "pose_identity_exact": true,
+        "membership_exact": true,
+        "native_bind_coordinates_exact": true,
+        "posed_coordinates_exact": true,
+        "area_compression_stretch_separation_normals_crossings_exact": true,
+        "approved_historical_machine_metrics_reproduced": true,
+        "no_new_structural_failure": true
+      },
+      "PRIOR_HUMAN_REVIEW_CARRY_FORWARD": "YES_EXACT_SCOPE_NO_REGRESSION",
+      "historical_human_review": "PASS",
+      "current_local_surface_state": "EXACT_SAME_POSITIONS_AND_ORIENTED_NATIVE_CYCLES_AS_REVIEWED_PATCH",
+      "human_closure_source": {
+        "path": "production_spec/stage5_production_rig/targeted_deformation_final_human_closure_r1/TARGETED_DEFORMATION_FINAL_HUMAN_CLOSURE_R1.json",
+        "sha256": "dae471886d0b267c407f9c9990812c67fdec23940c760040858e2b633c18f719"
+      }
+    }
+  ],
+  "FRESH_HUMAN_REVIEW_REQUIRED_FIXTURES": [],
+  "new_human_decision_fabricated": false,
+  "donor_ROI_Human_closed": false
+}

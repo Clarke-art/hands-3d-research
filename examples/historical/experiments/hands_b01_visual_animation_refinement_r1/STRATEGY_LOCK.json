@@ -1,0 +1,193 @@
+{
+  "strategy": "One authored multi-joint phase-pose increment, quintic interpolation over original C1; no pose search/IK/optimization",
+  "support": [
+    0.9,
+    1.705713
+  ],
+  "review_window": [
+    0.9,
+    1.75
+  ],
+  "core": [
+    1.1,
+    1.4214275
+  ],
+  "anchors": [
+    [
+      0.9,
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ],
+    [
+      1.027142,
+      [
+        -0.8,
+        1.6,
+        -0.8,
+        1.2
+      ],
+      [
+        -1.5,
+        2.5,
+        -1,
+        -3
+      ]
+    ],
+    [
+      1.1333333333333333,
+      [
+        -1.2,
+        2.4,
+        -1.2,
+        2.2
+      ],
+      [
+        -2.5,
+        4.5,
+        -2,
+        -5.5
+      ]
+    ],
+    [
+      1.207142,
+      [
+        -0.4,
+        0.8,
+        0,
+        1
+      ],
+      [
+        -2.5,
+        4.5,
+        -2,
+        -5.5
+      ]
+    ],
+    [
+      1.3,
+      [
+        -0.4,
+        0.8,
+        0,
+        1
+      ],
+      [
+        -1.5,
+        3,
+        -1,
+        -4.5
+      ]
+    ],
+    [
+      1.4214275,
+      [
+        -0.4,
+        0.8,
+        0,
+        1
+      ],
+      [
+        -0.6,
+        1.2,
+        0,
+        -4.5
+      ]
+    ],
+    [
+      1.4614275,
+      [
+        -0.5,
+        1,
+        -0.5,
+        1.8
+      ],
+      [
+        -0.6,
+        1.2,
+        0,
+        -3
+      ]
+    ],
+    [
+      1.55,
+      [
+        0,
+        -0.6,
+        0.6,
+        1
+      ],
+      [
+        -0.4,
+        0.8,
+        0,
+        -1.5
+      ]
+    ],
+    [
+      1.635713,
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        -0.2,
+        0.4,
+        0,
+        -0.5
+      ]
+    ],
+    [
+      1.705713,
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0
+      ]
+    ]
+  ],
+  "anchor_columns": [
+    "time",
+    "MIDDLE_MCP_PIP_DIP_spread_delta_deg",
+    "RING_MCP_PIP_DIP_spread_delta_deg"
+  ],
+  "bones": [
+    "MIDDLE_MCP_R",
+    "MIDDLE_PIP_R",
+    "MIDDLE_DIP_R",
+    "RING_MCP_R",
+    "RING_PIP_R",
+    "RING_DIP_R"
+  ],
+  "bake_hz": 240,
+  "candidate_limit": 1,
+  "original_C1_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+  "contact_horizontal_mm": 0.03,
+  "contact_gap_abs_mm": 3,
+  "nonregression_mm": 0.02,
+  "added_joint_velocity_deg_s": 180,
+  "domain_tolerance_deg": 0.002,
+  "geometry_numerical_mm": 0.0001,
+  "target_gate": "No middle/ring actual face intersections in primary B01 core; no new target face pairs relative to C1 at other times; full other-region nonregression",
+  "safety": "Actual active skin contact and original domain; no new other key penetration, shared/web regression, nonincident self or crosshand face pairs",
+  "final_product": "Human visual acceptance required; historical B02/B03 not repaired",
+  "render_policy": "Local NOT_APPROVED diagnostic first; full 23-note candidate video only if machine gates pass"
+}

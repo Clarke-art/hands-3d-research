@@ -1,0 +1,54 @@
+{
+  "limit_seconds": 180,
+  "used_seconds": 32.526363599987235,
+  "stages": [
+    {
+      "name": "prepare",
+      "elapsed_seconds": 0.7852776000072481,
+      "status": "RETURNED",
+      "returncode": 1,
+      "cap_seconds": 90
+    },
+    {
+      "name": "prepare",
+      "elapsed_seconds": 2.3730645999894477,
+      "status": "RETURNED",
+      "returncode": 0,
+      "cap_seconds": 90,
+      "log": "prepare_technical_repair_1.log"
+    },
+    {
+      "name": "solve",
+      "elapsed_seconds": 21.06268540000019,
+      "status": "RETURNED",
+      "returncode": 1,
+      "cap_seconds": 65,
+      "log": "solve.log"
+    },
+    {
+      "name": "recover_initial",
+      "elapsed_seconds": 3.2800146999943536,
+      "status": "RETURNED",
+      "returncode": 0,
+      "cap_seconds": 90,
+      "log": "recover_initial.log"
+    },
+    {
+      "name": "actual",
+      "elapsed_seconds": 3.298400200001197,
+      "status": "RETURNED",
+      "returncode": 0,
+      "cap_seconds": 90,
+      "log": "actual.log"
+    },
+    {
+      "name": "close",
+      "elapsed_seconds": 1.7269210999947973,
+      "status": "RETURNED",
+      "returncode": 0,
+      "cap_seconds": 90,
+      "log": "close.log"
+    }
+  ],
+  "remaining_seconds": 147.47363640001277
+}

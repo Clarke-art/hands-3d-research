@@ -1,0 +1,33 @@
+{
+  "status": "PASS_EXACT_VALUE_AND_PAYLOAD_HASH_MATCH",
+  "independent_complete_Blender_process_runs": 2,
+  "comparison": "Recursive exact equality of every path vertex/edge sequence, endpoint coordinates, edge lengths, bound value and all 120 virtual recipe results. No rounding and no tolerance in A/B comparison.",
+  "path_family_equal": true,
+  "bound_payload_equal": true,
+  "path_family_payload_hash": "ce537f0919cc8005747232273a1a927cfd17f7ae05376f4a23487c7d816c9a25",
+  "bound_payload_hash": "387c985a6177c6a7d08c8290d5b7009791a361f9ecf64af507a5dfc2212269f1",
+  "geometry_context_hash_equal": true,
+  "run_A": {
+    "path": "production_spec/stage5_production_rig/true_cap_bound_recompute_after_dependency_reconciliation_r1/RUN_A/COMPUTATION_VERIFICATION.json",
+    "sha256": "30843b89eceb4ee6783e212273656db3140f9072e3fbfee2cc6aa332bf3120ec"
+  },
+  "run_B": {
+    "path": "production_spec/stage5_production_rig/true_cap_bound_recompute_after_dependency_reconciliation_r1/RUN_B/COMPUTATION_VERIFICATION.json",
+    "sha256": "031edcb337f42a2b1dbec85c717cd11d130c1ec3ae506c9ada0fad14fecf34c2"
+  },
+  "input_authority_hashes": {
+    "cap37_combined": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+    "R3_membership": "f57483723e90cc34e0551bf70fac00c7c8cb789dbad5d0e248018fdaddd3741d",
+    "R3_combined": "361f4f25201f5810830dc1bfc4bd2cf19db908aef8945801a63bfd2829197ff0",
+    "corrected_rig": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe",
+    "R2_candidate": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9",
+    "weight_vector": "1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55"
+  },
+  "source_set_hash": "8711ef3a9c1518a75623410bd278858adeda0a551d6d2f8385d0df6210cdf377",
+  "target_set_hash": "755efe3bfb5ee0d24d4614d2965c5273f805c8c81e93211363158ff5349bed27",
+  "graph_metric_hash": "2cccf0b698177850d9d32e80854c533c3b82ac5a897d3d478532939c5b21428a",
+  "tie_rule": "Historical strict relaxation du+w < stored-1e-16; stale queue cutoff +1e-15. Ascending numeric source IDs, target IDs and adjacency IDs; heap ordered (distance,vertex). Equal candidates retain first predecessor. No rounded values select paths.",
+  "path_selection_rounded": false,
+  "max_path_sum_vs_Dijkstra_accumulation_residual_mm": 7.105427357601002e-14,
+  "residual_interpretation": "Binary64 summation order only; every full path is preserved and denominators are sums of recorded edge lengths. This residual is not an A/B difference."
+}

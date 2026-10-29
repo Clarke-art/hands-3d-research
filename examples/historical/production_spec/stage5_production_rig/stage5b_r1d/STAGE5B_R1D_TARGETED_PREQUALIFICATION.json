@@ -1,0 +1,2630 @@
+{
+ "stage": "STAGE5B_R1D_TARGETED_PREQUALIFICATION",
+ "generated_at": "2026-10-01T08:31:52.057325+08:00",
+ "poses": [
+  "TH_IP_30",
+  "TH_IP_45",
+  "TH_MCP_45",
+  "CMC_OPP_30",
+  "CMC_MCP_L3",
+  "FULL_OPP_L3"
+ ],
+ "thresholds": {
+  "severe_stretch_x": 5.0,
+  "min_bind_mm": 3.0,
+  "tear_x": 3.0,
+  "tear_min_posed_mm": 5.0
+ },
+ "R2_DISTAL_HARD_FLIP_EDGES": 0,
+ "requirements": {
+  "TH_IP_45": {
+   "severe_edge_stretch": 17,
+   "new_severe_distal_self_intersection": 1
+  },
+  "TH_IP_30": {
+   "severe_edge_stretch": 2,
+   "new_severe_distal_self_intersection": 0
+  },
+  "TH_MCP_45": {
+   "severe_edge_stretch": 31,
+   "new_severe_distal_self_intersection": 0
+  },
+  "CMC_OPP_30": {
+   "severe_distal_stretch": 21,
+   "new_severe_distal_self_intersection": 0
+  },
+  "CMC_MCP_L3": {
+   "severe_distal_stretch": 21,
+   "new_severe_distal_self_intersection": 0
+  },
+  "FULL_OPP_L3": {
+   "severe_distal_stretch": 21,
+   "new_severe_distal_self_intersection": 0
+  }
+ },
+ "targeted_prequalification": "FAIL_CLOSED",
+ "results": {
+  "R1B": {
+   "TH_IP_30": {
+    "edges_over_2x": 33,
+    "edges_over_5x": 0,
+    "edges_over_2x_distal": 33,
+    "edges_over_5x_distal": 0,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 0,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 0,
+    "max_stretch_ratio": 3.9497,
+    "max_stretch_edge": {
+     "edge": 2716,
+     "verts": [
+      694,
+      2189
+     ],
+     "bind_mm": 4.7104,
+     "posed_mm": 18.6048,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 27,
+    "worst_tear_edges": [
+     {
+      "edge": 451,
+      "verts": [
+       1056,
+       143
+      ],
+      "ratio": 3.0409,
+      "bind_mm": 3.531,
+      "posed_mm": 10.7375
+     },
+     {
+      "edge": 460,
+      "verts": [
+       650,
+       1061
+      ],
+      "ratio": 3.6249,
+      "bind_mm": 4.765,
+      "posed_mm": 17.2728
+     },
+     {
+      "edge": 464,
+      "verts": [
+       151,
+       1063
+      ],
+      "ratio": 3.1604,
+      "bind_mm": 4.4663,
+      "posed_mm": 14.1153
+     },
+     {
+      "edge": 486,
+      "verts": [
+       656,
+       1074
+      ],
+      "ratio": 3.4385,
+      "bind_mm": 4.6715,
+      "posed_mm": 16.0631
+     },
+     {
+      "edge": 1014,
+      "verts": [
+       284,
+       1338
+      ],
+      "ratio": 3.3782,
+      "bind_mm": 3.8665,
+      "posed_mm": 13.062
+     },
+     {
+      "edge": 1019,
+      "verts": [
+       1340,
+       37
+      ],
+      "ratio": 8.6832,
+      "bind_mm": 1.0586,
+      "posed_mm": 9.1919
+     },
+     {
+      "edge": 1097,
+      "verts": [
+       1379,
+       297
+      ],
+      "ratio": 4.8023,
+      "bind_mm": 2.1875,
+      "posed_mm": 10.5053
+     },
+     {
+      "edge": 1236,
+      "verts": [
+       339,
+       1449
+      ],
+      "ratio": 3.0937,
+      "bind_mm": 3.5789,
+      "posed_mm": 11.0721
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 8.6832,
+    "historic_CLASS_B_tear": 27,
+    "new_self_intersection_pairs": 108,
+    "new_self_intersection_pairs_distal": 108,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1240
+     ],
+     [
+      78,
+      1943
+     ],
+     [
+      356,
+      2888
+     ],
+     [
+      357,
+      367
+     ],
+     [
+      357,
+      2888
+     ],
+     [
+      358,
+      2877
+     ],
+     [
+      358,
+      2888
+     ],
+     [
+      359,
+      2888
+     ],
+     [
+      360,
+      432
+     ],
+     [
+      360,
+      435
+     ],
+     [
+      363,
+      435
+     ]
+    ]
+   },
+   "TH_IP_45": {
+    "edges_over_2x": 42,
+    "edges_over_5x": 7,
+    "edges_over_2x_distal": 42,
+    "edges_over_5x_distal": 7,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 7,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 7,
+    "max_stretch_ratio": 5.9223,
+    "max_stretch_edge": {
+     "edge": 2716,
+     "verts": [
+      694,
+      2189
+     ],
+     "bind_mm": 4.7104,
+     "posed_mm": 27.8967,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 43,
+    "worst_tear_edges": [
+     {
+      "edge": 449,
+      "verts": [
+       1055,
+       143
+      ],
+      "ratio": 3.1797,
+      "bind_mm": 3.6365,
+      "posed_mm": 11.5628
+     },
+     {
+      "edge": 451,
+      "verts": [
+       1056,
+       143
+      ],
+      "ratio": 4.1367,
+      "bind_mm": 3.531,
+      "posed_mm": 14.6068
+     },
+     {
+      "edge": 460,
+      "verts": [
+       650,
+       1061
+      ],
+      "ratio": 5.089,
+      "bind_mm": 4.765,
+      "posed_mm": 24.2491
+     },
+     {
+      "edge": 464,
+      "verts": [
+       151,
+       1063
+      ],
+      "ratio": 5.0444,
+      "bind_mm": 4.4663,
+      "posed_mm": 22.5299
+     },
+     {
+      "edge": 475,
+      "verts": [
+       1068,
+       155
+      ],
+      "ratio": 4.1697,
+      "bind_mm": 3.5929,
+      "posed_mm": 14.9814
+     },
+     {
+      "edge": 480,
+      "verts": [
+       155,
+       1071
+      ],
+      "ratio": 3.2465,
+      "bind_mm": 3.8093,
+      "posed_mm": 12.3672
+     },
+     {
+      "edge": 486,
+      "verts": [
+       656,
+       1074
+      ],
+      "ratio": 4.7655,
+      "bind_mm": 4.6715,
+      "posed_mm": 22.2622
+     },
+     {
+      "edge": 1014,
+      "verts": [
+       284,
+       1338
+      ],
+      "ratio": 4.7087,
+      "bind_mm": 3.8665,
+      "posed_mm": 18.2061
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 12.9165,
+    "historic_CLASS_B_tear": 43,
+    "new_self_intersection_pairs": 146,
+    "new_self_intersection_pairs_distal": 146,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      65,
+      1228
+     ],
+     [
+      65,
+      1232
+     ],
+     [
+      66,
+      405
+     ],
+     [
+      66,
+      410
+     ],
+     [
+      66,
+      1232
+     ],
+     [
+      66,
+      1235
+     ],
+     [
+      66,
+      1237
+     ],
+     [
+      68,
+      2732
+     ],
+     [
+      78,
+      376
+     ],
+     [
+      78,
+      410
+     ],
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1237
+     ]
+    ]
+   },
+   "TH_MCP_45": {
+    "edges_over_2x": 67,
+    "edges_over_5x": 53,
+    "edges_over_2x_distal": 57,
+    "edges_over_5x_distal": 53,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 53,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 53,
+    "max_stretch_ratio": 10.399,
+    "max_stretch_edge": {
+     "edge": 2716,
+     "verts": [
+      694,
+      2189
+     ],
+     "bind_mm": 4.7104,
+     "posed_mm": 48.9838,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 71,
+    "worst_tear_edges": [
+     {
+      "edge": 445,
+      "verts": [
+       1053,
+       149
+      ],
+      "ratio": 6.7049,
+      "bind_mm": 4.1385,
+      "posed_mm": 27.748
+     },
+     {
+      "edge": 449,
+      "verts": [
+       1055,
+       143
+      ],
+      "ratio": 8.9175,
+      "bind_mm": 3.6365,
+      "posed_mm": 32.4283
+     },
+     {
+      "edge": 451,
+      "verts": [
+       1056,
+       143
+      ],
+      "ratio": 9.316,
+      "bind_mm": 3.531,
+      "posed_mm": 32.8947
+     },
+     {
+      "edge": 460,
+      "verts": [
+       650,
+       1061
+      ],
+      "ratio": 9.2598,
+      "bind_mm": 4.765,
+      "posed_mm": 44.1228
+     },
+     {
+      "edge": 464,
+      "verts": [
+       151,
+       1063
+      ],
+      "ratio": 9.71,
+      "bind_mm": 4.4663,
+      "posed_mm": 43.3677
+     },
+     {
+      "edge": 475,
+      "verts": [
+       1068,
+       155
+      ],
+      "ratio": 9.796,
+      "bind_mm": 3.5929,
+      "posed_mm": 35.1962
+     },
+     {
+      "edge": 480,
+      "verts": [
+       155,
+       1071
+      ],
+      "ratio": 8.6645,
+      "bind_mm": 3.8093,
+      "posed_mm": 33.0062
+     },
+     {
+      "edge": 486,
+      "verts": [
+       656,
+       1074
+      ],
+      "ratio": 8.8546,
+      "bind_mm": 4.6715,
+      "posed_mm": 41.3644
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 31.9401,
+    "historic_CLASS_B_tear": 61,
+    "new_self_intersection_pairs": 217,
+    "new_self_intersection_pairs_distal": 217,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      64,
+      404
+     ],
+     [
+      64,
+      1228
+     ],
+     [
+      64,
+      1232
+     ],
+     [
+      65,
+      404
+     ],
+     [
+      65,
+      405
+     ],
+     [
+      66,
+      405
+     ],
+     [
+      66,
+      410
+     ],
+     [
+      67,
+      410
+     ],
+     [
+      67,
+      1232
+     ],
+     [
+      67,
+      1235
+     ],
+     [
+      67,
+      1237
+     ],
+     [
+      76,
+      1236
+     ]
+    ]
+   },
+   "CMC_OPP_30": {
+    "edges_over_2x": 74,
+    "edges_over_5x": 56,
+    "edges_over_2x_distal": 58,
+    "edges_over_5x_distal": 54,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 56,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 54,
+    "max_stretch_ratio": 12.4972,
+    "max_stretch_edge": {
+     "edge": 1251,
+     "verts": [
+      1456,
+      342
+     ],
+     "bind_mm": 3.2252,
+     "posed_mm": 40.3061,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 78,
+    "worst_tear_edges": [
+     {
+      "edge": 445,
+      "verts": [
+       1053,
+       149
+      ],
+      "ratio": 8.3871,
+      "bind_mm": 4.1385,
+      "posed_mm": 34.7101
+     },
+     {
+      "edge": 449,
+      "verts": [
+       1055,
+       143
+      ],
+      "ratio": 10.9661,
+      "bind_mm": 3.6365,
+      "posed_mm": 39.878
+     },
+     {
+      "edge": 451,
+      "verts": [
+       1056,
+       143
+      ],
+      "ratio": 11.1473,
+      "bind_mm": 3.531,
+      "posed_mm": 39.3611
+     },
+     {
+      "edge": 460,
+      "verts": [
+       650,
+       1061
+      ],
+      "ratio": 9.2628,
+      "bind_mm": 4.765,
+      "posed_mm": 44.1373
+     },
+     {
+      "edge": 464,
+      "verts": [
+       151,
+       1063
+      ],
+      "ratio": 9.7118,
+      "bind_mm": 4.4663,
+      "posed_mm": 43.3757
+     },
+     {
+      "edge": 475,
+      "verts": [
+       1068,
+       155
+      ],
+      "ratio": 12.3569,
+      "bind_mm": 3.5929,
+      "posed_mm": 44.3974
+     },
+     {
+      "edge": 480,
+      "verts": [
+       155,
+       1071
+      ],
+      "ratio": 10.7762,
+      "bind_mm": 3.8093,
+      "posed_mm": 41.0502
+     },
+     {
+      "edge": 486,
+      "verts": [
+       656,
+       1074
+      ],
+      "ratio": 9.4507,
+      "bind_mm": 4.6715,
+      "posed_mm": 44.1487
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 38.2469,
+    "historic_CLASS_B_tear": 61,
+    "new_self_intersection_pairs": 302,
+    "new_self_intersection_pairs_distal": 208,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      64,
+      2741
+     ],
+     [
+      64,
+      2742
+     ],
+     [
+      67,
+      404
+     ],
+     [
+      67,
+      1228
+     ],
+     [
+      67,
+      1231
+     ],
+     [
+      67,
+      1232
+     ],
+     [
+      67,
+      2742
+     ],
+     [
+      68,
+      1210
+     ],
+     [
+      68,
+      1230
+     ],
+     [
+      68,
+      1231
+     ],
+     [
+      68,
+      2741
+     ],
+     [
+      69,
+      1231
+     ]
+    ]
+   },
+   "CMC_MCP_L3": {
+    "edges_over_2x": 75,
+    "edges_over_5x": 60,
+    "edges_over_2x_distal": 58,
+    "edges_over_5x_distal": 55,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 60,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 56,
+    "max_stretch_ratio": 18.0553,
+    "max_stretch_edge": {
+     "edge": 6197,
+     "verts": [
+      2177,
+      3204
+     ],
+     "bind_mm": 3.6509,
+     "posed_mm": 65.9182,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 82,
+    "worst_tear_edges": [
+     {
+      "edge": 445,
+      "verts": [
+       1053,
+       149
+      ],
+      "ratio": 12.4791,
+      "bind_mm": 4.1385,
+      "posed_mm": 51.6447
+     },
+     {
+      "edge": 449,
+      "verts": [
+       1055,
+       143
+      ],
+      "ratio": 15.9887,
+      "bind_mm": 3.6365,
+      "posed_mm": 58.1426
+     },
+     {
+      "edge": 451,
+      "verts": [
+       1056,
+       143
+      ],
+      "ratio": 16.754,
+      "bind_mm": 3.531,
+      "posed_mm": 59.1584
+     },
+     {
+      "edge": 460,
+      "verts": [
+       650,
+       1061
+      ],
+      "ratio": 14.8107,
+      "bind_mm": 4.765,
+      "posed_mm": 70.5728
+     },
+     {
+      "edge": 464,
+      "verts": [
+       151,
+       1063
+      ],
+      "ratio": 16.0727,
+      "bind_mm": 4.4663,
+      "posed_mm": 71.7852
+     },
+     {
+      "edge": 475,
+      "verts": [
+       1068,
+       155
+      ],
+      "ratio": 17.6329,
+      "bind_mm": 3.5929,
+      "posed_mm": 63.3537
+     },
+     {
+      "edge": 480,
+      "verts": [
+       155,
+       1071
+      ],
+      "ratio": 16.028,
+      "bind_mm": 3.8093,
+      "posed_mm": 61.0561
+     },
+     {
+      "edge": 486,
+      "verts": [
+       656,
+       1074
+      ],
+      "ratio": 14.7743,
+      "bind_mm": 4.6715,
+      "posed_mm": 69.0181
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 57.472,
+    "historic_CLASS_B_tear": 61,
+    "new_self_intersection_pairs": 296,
+    "new_self_intersection_pairs_distal": 200,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      66,
+      1932
+     ],
+     [
+      66,
+      1933
+     ],
+     [
+      66,
+      1936
+     ],
+     [
+      66,
+      1939
+     ],
+     [
+      67,
+      404
+     ],
+     [
+      67,
+      405
+     ],
+     [
+      68,
+      2742
+     ],
+     [
+      69,
+      404
+     ],
+     [
+      69,
+      1228
+     ],
+     [
+      69,
+      1231
+     ],
+     [
+      69,
+      1232
+     ],
+     [
+      69,
+      2742
+     ]
+    ]
+   },
+   "FULL_OPP_L3": {
+    "edges_over_2x": 75,
+    "edges_over_5x": 60,
+    "edges_over_2x_distal": 58,
+    "edges_over_5x_distal": 55,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 60,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 56,
+    "max_stretch_ratio": 19.2972,
+    "max_stretch_edge": {
+     "edge": 6197,
+     "verts": [
+      2177,
+      3204
+     ],
+     "bind_mm": 3.6509,
+     "posed_mm": 70.4521,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 82,
+    "worst_tear_edges": [
+     {
+      "edge": 445,
+      "verts": [
+       1053,
+       149
+      ],
+      "ratio": 12.8439,
+      "bind_mm": 4.1385,
+      "posed_mm": 53.1541
+     },
+     {
+      "edge": 449,
+      "verts": [
+       1055,
+       143
+      ],
+      "ratio": 16.8029,
+      "bind_mm": 3.6365,
+      "posed_mm": 61.1035
+     },
+     {
+      "edge": 451,
+      "verts": [
+       1056,
+       143
+      ],
+      "ratio": 17.95,
+      "bind_mm": 3.531,
+      "posed_mm": 63.3813
+     },
+     {
+      "edge": 460,
+      "verts": [
+       650,
+       1061
+      ],
+      "ratio": 16.2045,
+      "bind_mm": 4.765,
+      "posed_mm": 77.2143
+     },
+     {
+      "edge": 464,
+      "verts": [
+       151,
+       1063
+      ],
+      "ratio": 17.7232,
+      "bind_mm": 4.4663,
+      "posed_mm": 79.1565
+     },
+     {
+      "edge": 475,
+      "verts": [
+       1068,
+       155
+      ],
+      "ratio": 18.356,
+      "bind_mm": 3.5929,
+      "posed_mm": 65.9517
+     },
+     {
+      "edge": 480,
+      "verts": [
+       155,
+       1071
+      ],
+      "ratio": 16.8541,
+      "bind_mm": 3.8093,
+      "posed_mm": 64.203
+     },
+     {
+      "edge": 486,
+      "verts": [
+       656,
+       1074
+      ],
+      "ratio": 16.1195,
+      "bind_mm": 4.6715,
+      "posed_mm": 75.302
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 61.3116,
+    "historic_CLASS_B_tear": 61,
+    "new_self_intersection_pairs": 284,
+    "new_self_intersection_pairs_distal": 200,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      66,
+      1047
+     ],
+     [
+      66,
+      1932
+     ],
+     [
+      66,
+      1933
+     ],
+     [
+      66,
+      1936
+     ],
+     [
+      66,
+      1939
+     ],
+     [
+      69,
+      404
+     ],
+     [
+      70,
+      404
+     ],
+     [
+      70,
+      1228
+     ],
+     [
+      70,
+      1232
+     ],
+     [
+      70,
+      2742
+     ],
+     [
+      71,
+      2742
+     ],
+     [
+      72,
+      1235
+     ]
+    ]
+   }
+  },
+  "R1C": {
+   "TH_IP_30": {
+    "edges_over_2x": 40,
+    "edges_over_5x": 1,
+    "edges_over_2x_distal": 40,
+    "edges_over_5x_distal": 1,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 1,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 1,
+    "max_stretch_ratio": 5.0428,
+    "max_stretch_edge": {
+     "edge": 2651,
+     "verts": [
+      2156,
+      693
+     ],
+     "bind_mm": 3.7838,
+     "posed_mm": 19.0812,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 37,
+    "worst_tear_edges": [
+     {
+      "edge": 442,
+      "verts": [
+       147,
+       1052
+      ],
+      "ratio": 3.6612,
+      "bind_mm": 3.3102,
+      "posed_mm": 12.1191
+     },
+     {
+      "edge": 462,
+      "verts": [
+       651,
+       1062
+      ],
+      "ratio": 3.4087,
+      "bind_mm": 4.5442,
+      "posed_mm": 15.49
+     },
+     {
+      "edge": 469,
+      "verts": [
+       1065,
+       153
+      ],
+      "ratio": 3.7468,
+      "bind_mm": 3.4643,
+      "posed_mm": 12.9797
+     },
+     {
+      "edge": 473,
+      "verts": [
+       1067,
+       154
+      ],
+      "ratio": 3.3493,
+      "bind_mm": 4.5858,
+      "posed_mm": 15.3593
+     },
+     {
+      "edge": 1246,
+      "verts": [
+       298,
+       1454
+      ],
+      "ratio": 5.1827,
+      "bind_mm": 2.0075,
+      "posed_mm": 10.4045
+     },
+     {
+      "edge": 1247,
+      "verts": [
+       1454,
+       341
+      ],
+      "ratio": 4.1345,
+      "bind_mm": 1.9201,
+      "posed_mm": 7.9384
+     },
+     {
+      "edge": 2456,
+      "verts": [
+       145,
+       2059
+      ],
+      "ratio": 3.4259,
+      "bind_mm": 4.3171,
+      "posed_mm": 14.7903
+     },
+     {
+      "edge": 2477,
+      "verts": [
+       2069,
+       652
+      ],
+      "ratio": 4.4213,
+      "bind_mm": 3.4069,
+      "posed_mm": 15.063
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.1189,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 68,
+    "new_self_intersection_pairs_distal": 46,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      354,
+      427
+     ],
+     [
+      356,
+      2888
+     ],
+     [
+      357,
+      367
+     ],
+     [
+      357,
+      435
+     ],
+     [
+      357,
+      2876
+     ],
+     [
+      357,
+      2888
+     ],
+     [
+      358,
+      2876
+     ],
+     [
+      359,
+      2888
+     ],
+     [
+      359,
+      2891
+     ],
+     [
+      363,
+      2876
+     ],
+     [
+      364,
+      389
+     ],
+     [
+      367,
+      389
+     ]
+    ]
+   },
+   "TH_IP_45": {
+    "edges_over_2x": 45,
+    "edges_over_5x": 26,
+    "edges_over_2x_distal": 45,
+    "edges_over_5x_distal": 26,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 26,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 26,
+    "max_stretch_ratio": 7.8355,
+    "max_stretch_edge": {
+     "edge": 2651,
+     "verts": [
+      2156,
+      693
+     ],
+     "bind_mm": 3.7838,
+     "posed_mm": 29.6482,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 44,
+    "worst_tear_edges": [
+     {
+      "edge": 437,
+      "verts": [
+       1049,
+       145
+      ],
+      "ratio": 3.3631,
+      "bind_mm": 4.4247,
+      "posed_mm": 14.8808
+     },
+     {
+      "edge": 442,
+      "verts": [
+       147,
+       1052
+      ],
+      "ratio": 4.9728,
+      "bind_mm": 3.3102,
+      "posed_mm": 16.461
+     },
+     {
+      "edge": 462,
+      "verts": [
+       651,
+       1062
+      ],
+      "ratio": 4.8467,
+      "bind_mm": 4.5442,
+      "posed_mm": 22.0243
+     },
+     {
+      "edge": 469,
+      "verts": [
+       1065,
+       153
+      ],
+      "ratio": 5.9286,
+      "bind_mm": 3.4643,
+      "posed_mm": 20.5381
+     },
+     {
+      "edge": 473,
+      "verts": [
+       1067,
+       154
+      ],
+      "ratio": 4.7161,
+      "bind_mm": 4.5858,
+      "posed_mm": 21.6272
+     },
+     {
+      "edge": 1246,
+      "verts": [
+       298,
+       1454
+      ],
+      "ratio": 7.2002,
+      "bind_mm": 2.0075,
+      "posed_mm": 14.4546
+     },
+     {
+      "edge": 1247,
+      "verts": [
+       1454,
+       341
+      ],
+      "ratio": 6.59,
+      "bind_mm": 1.9201,
+      "posed_mm": 12.6532
+     },
+     {
+      "edge": 2456,
+      "verts": [
+       145,
+       2059
+      ],
+      "ratio": 4.7509,
+      "bind_mm": 4.3171,
+      "posed_mm": 20.5105
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.1726,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 78,
+    "new_self_intersection_pairs_distal": 66,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      68,
+      2732
+     ],
+     [
+      354,
+      427
+     ],
+     [
+      357,
+      435
+     ],
+     [
+      357,
+      2865
+     ],
+     [
+      357,
+      2876
+     ],
+     [
+      358,
+      2865
+     ],
+     [
+      365,
+      385
+     ],
+     [
+      365,
+      390
+     ],
+     [
+      365,
+      391
+     ],
+     [
+      380,
+      385
+     ],
+     [
+      382,
+      444
+     ],
+     [
+      383,
+      385
+     ]
+    ]
+   },
+   "TH_MCP_45": {
+    "edges_over_2x": 66,
+    "edges_over_5x": 48,
+    "edges_over_2x_distal": 52,
+    "edges_over_5x_distal": 47,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 48,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 47,
+    "max_stretch_ratio": 13.5098,
+    "max_stretch_edge": {
+     "edge": 2651,
+     "verts": [
+      2156,
+      693
+     ],
+     "bind_mm": 3.7838,
+     "posed_mm": 51.1188,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 63,
+    "worst_tear_edges": [
+     {
+      "edge": 437,
+      "verts": [
+       1049,
+       145
+      ],
+      "ratio": 7.6985,
+      "bind_mm": 4.4247,
+      "posed_mm": 34.0636
+     },
+     {
+      "edge": 442,
+      "verts": [
+       147,
+       1052
+      ],
+      "ratio": 11.6014,
+      "bind_mm": 3.3102,
+      "posed_mm": 38.4028
+     },
+     {
+      "edge": 462,
+      "verts": [
+       651,
+       1062
+      ],
+      "ratio": 9.2459,
+      "bind_mm": 4.5442,
+      "posed_mm": 42.0154
+     },
+     {
+      "edge": 469,
+      "verts": [
+       1065,
+       153
+      ],
+      "ratio": 11.9729,
+      "bind_mm": 3.4643,
+      "posed_mm": 41.4774
+     },
+     {
+      "edge": 473,
+      "verts": [
+       1067,
+       154
+      ],
+      "ratio": 9.051,
+      "bind_mm": 4.5858,
+      "posed_mm": 41.5059
+     },
+     {
+      "edge": 1246,
+      "verts": [
+       298,
+       1454
+      ],
+      "ratio": 17.6757,
+      "bind_mm": 2.0075,
+      "posed_mm": 35.4846
+     },
+     {
+      "edge": 1247,
+      "verts": [
+       1454,
+       341
+      ],
+      "ratio": 17.028,
+      "bind_mm": 1.9201,
+      "posed_mm": 32.6948
+     },
+     {
+      "edge": 1269,
+      "verts": [
+       1465,
+       346
+      ],
+      "ratio": 3.0164,
+      "bind_mm": 4.3059,
+      "posed_mm": 12.9881
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 101,
+    "new_self_intersection_pairs_distal": 80,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      354,
+      427
+     ],
+     [
+      357,
+      435
+     ],
+     [
+      357,
+      2865
+     ],
+     [
+      357,
+      2876
+     ],
+     [
+      358,
+      2865
+     ],
+     [
+      365,
+      384
+     ],
+     [
+      365,
+      387
+     ],
+     [
+      365,
+      1047
+     ],
+     [
+      365,
+      1936
+     ],
+     [
+      380,
+      386
+     ],
+     [
+      380,
+      387
+     ],
+     [
+      380,
+      1044
+     ]
+    ]
+   },
+   "CMC_OPP_30": {
+    "edges_over_2x": 73,
+    "edges_over_5x": 51,
+    "edges_over_2x_distal": 53,
+    "edges_over_5x_distal": 48,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 51,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 48,
+    "max_stretch_ratio": 14.677,
+    "max_stretch_edge": {
+     "edge": 6184,
+     "verts": [
+      2172,
+      3201
+     ],
+     "bind_mm": 3.4402,
+     "posed_mm": 50.4914,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 67,
+    "worst_tear_edges": [
+     {
+      "edge": 437,
+      "verts": [
+       1049,
+       145
+      ],
+      "ratio": 7.7705,
+      "bind_mm": 4.4247,
+      "posed_mm": 34.3821
+     },
+     {
+      "edge": 442,
+      "verts": [
+       147,
+       1052
+      ],
+      "ratio": 12.3998,
+      "bind_mm": 3.3102,
+      "posed_mm": 41.0458
+     },
+     {
+      "edge": 462,
+      "verts": [
+       651,
+       1062
+      ],
+      "ratio": 9.2776,
+      "bind_mm": 4.5442,
+      "posed_mm": 42.1594
+     },
+     {
+      "edge": 469,
+      "verts": [
+       1065,
+       153
+      ],
+      "ratio": 13.057,
+      "bind_mm": 3.4643,
+      "posed_mm": 45.2329
+     },
+     {
+      "edge": 473,
+      "verts": [
+       1067,
+       154
+      ],
+      "ratio": 9.711,
+      "bind_mm": 4.5858,
+      "posed_mm": 44.5326
+     },
+     {
+      "edge": 1174,
+      "verts": [
+       774,
+       1418
+      ],
+      "ratio": 3.2579,
+      "bind_mm": 4.8552,
+      "posed_mm": 15.8176
+     },
+     {
+      "edge": 1176,
+      "verts": [
+       775,
+       1419
+      ],
+      "ratio": 3.0031,
+      "bind_mm": 4.3392,
+      "posed_mm": 13.031
+     },
+     {
+      "edge": 1246,
+      "verts": [
+       298,
+       1454
+      ],
+      "ratio": 20.8495,
+      "bind_mm": 2.0075,
+      "posed_mm": 41.8562
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 350,
+    "new_self_intersection_pairs_distal": 109,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      65,
+      1227
+     ],
+     [
+      65,
+      1944
+     ],
+     [
+      65,
+      1947
+     ],
+     [
+      355,
+      416
+     ],
+     [
+      356,
+      432
+     ],
+     [
+      356,
+      435
+     ],
+     [
+      358,
+      2865
+     ],
+     [
+      359,
+      435
+     ],
+     [
+      359,
+      2865
+     ],
+     [
+      359,
+      2876
+     ],
+     [
+      365,
+      412
+     ],
+     [
+      365,
+      1044
+     ]
+    ]
+   },
+   "CMC_MCP_L3": {
+    "edges_over_2x": 76,
+    "edges_over_5x": 58,
+    "edges_over_2x_distal": 55,
+    "edges_over_5x_distal": 51,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 58,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 51,
+    "max_stretch_ratio": 22.1894,
+    "max_stretch_edge": {
+     "edge": 2651,
+     "verts": [
+      2156,
+      693
+     ],
+     "bind_mm": 3.7838,
+     "posed_mm": 83.9608,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 74,
+    "worst_tear_edges": [
+     {
+      "edge": 437,
+      "verts": [
+       1049,
+       145
+      ],
+      "ratio": 13.0107,
+      "bind_mm": 4.4247,
+      "posed_mm": 57.5686
+     },
+     {
+      "edge": 442,
+      "verts": [
+       147,
+       1052
+      ],
+      "ratio": 18.5882,
+      "bind_mm": 3.3102,
+      "posed_mm": 61.5306
+     },
+     {
+      "edge": 462,
+      "verts": [
+       651,
+       1062
+      ],
+      "ratio": 14.7116,
+      "bind_mm": 4.5442,
+      "posed_mm": 66.8529
+     },
+     {
+      "edge": 469,
+      "verts": [
+       1065,
+       153
+      ],
+      "ratio": 20.236,
+      "bind_mm": 3.4643,
+      "posed_mm": 70.1028
+     },
+     {
+      "edge": 473,
+      "verts": [
+       1067,
+       154
+      ],
+      "ratio": 14.6584,
+      "bind_mm": 4.5858,
+      "posed_mm": 67.2201
+     },
+     {
+      "edge": 1174,
+      "verts": [
+       774,
+       1418
+      ],
+      "ratio": 3.4815,
+      "bind_mm": 4.8552,
+      "posed_mm": 16.9032
+     },
+     {
+      "edge": 1246,
+      "verts": [
+       298,
+       1454
+      ],
+      "ratio": 30.4231,
+      "bind_mm": 2.0075,
+      "posed_mm": 61.0755
+     },
+     {
+      "edge": 1247,
+      "verts": [
+       1454,
+       341
+      ],
+      "ratio": 30.8436,
+      "bind_mm": 1.9201,
+      "posed_mm": 59.2217
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 258,
+    "new_self_intersection_pairs_distal": 124,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      64,
+      401
+     ],
+     [
+      64,
+      1944
+     ],
+     [
+      64,
+      1947
+     ],
+     [
+      65,
+      401
+     ],
+     [
+      65,
+      1947
+     ],
+     [
+      66,
+      365
+     ],
+     [
+      66,
+      380
+     ],
+     [
+      66,
+      401
+     ],
+     [
+      67,
+      401
+     ],
+     [
+      78,
+      380
+     ],
+     [
+      78,
+      383
+     ],
+     [
+      79,
+      383
+     ]
+    ]
+   },
+   "FULL_OPP_L3": {
+    "edges_over_2x": 76,
+    "edges_over_5x": 58,
+    "edges_over_2x_distal": 55,
+    "edges_over_5x_distal": 51,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 58,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 51,
+    "max_stretch_ratio": 24.367,
+    "max_stretch_edge": {
+     "edge": 2651,
+     "verts": [
+      2156,
+      693
+     ],
+     "bind_mm": 3.7838,
+     "posed_mm": 92.2005,
+     "a_own": "THUMB",
+     "b_own": "THUMB",
+     "distal": true
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 74,
+    "worst_tear_edges": [
+     {
+      "edge": 437,
+      "verts": [
+       1049,
+       145
+      ],
+      "ratio": 14.2968,
+      "bind_mm": 4.4247,
+      "posed_mm": 63.2593
+     },
+     {
+      "edge": 442,
+      "verts": [
+       147,
+       1052
+      ],
+      "ratio": 19.3916,
+      "bind_mm": 3.3102,
+      "posed_mm": 64.1899
+     },
+     {
+      "edge": 462,
+      "verts": [
+       651,
+       1062
+      ],
+      "ratio": 15.9372,
+      "bind_mm": 4.5442,
+      "posed_mm": 72.4222
+     },
+     {
+      "edge": 469,
+      "verts": [
+       1065,
+       153
+      ],
+      "ratio": 21.8104,
+      "bind_mm": 3.4643,
+      "posed_mm": 75.5568
+     },
+     {
+      "edge": 473,
+      "verts": [
+       1067,
+       154
+      ],
+      "ratio": 15.4784,
+      "bind_mm": 4.5858,
+      "posed_mm": 70.9804
+     },
+     {
+      "edge": 1174,
+      "verts": [
+       774,
+       1418
+      ],
+      "ratio": 3.4815,
+      "bind_mm": 4.8552,
+      "posed_mm": 16.9032
+     },
+     {
+      "edge": 1246,
+      "verts": [
+       298,
+       1454
+      ],
+      "ratio": 31.7992,
+      "bind_mm": 2.0075,
+      "posed_mm": 63.8381
+     },
+     {
+      "edge": 1247,
+      "verts": [
+       1454,
+       341
+      ],
+      "ratio": 32.7768,
+      "bind_mm": 1.9201,
+      "posed_mm": 62.9337
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0602,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 262,
+    "new_self_intersection_pairs_distal": 134,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      64,
+      401
+     ],
+     [
+      64,
+      1944
+     ],
+     [
+      64,
+      1947
+     ],
+     [
+      67,
+      365
+     ],
+     [
+      67,
+      401
+     ],
+     [
+      68,
+      1944
+     ],
+     [
+      76,
+      380
+     ],
+     [
+      77,
+      365
+     ],
+     [
+      77,
+      380
+     ],
+     [
+      79,
+      380
+     ],
+     [
+      79,
+      382
+     ],
+     [
+      79,
+      383
+     ]
+    ]
+   }
+  },
+  "R1D": {
+   "TH_IP_30": {
+    "edges_over_2x": 24,
+    "edges_over_5x": 2,
+    "edges_over_2x_distal": 1,
+    "edges_over_5x_distal": 0,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 2,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 2,
+    "max_stretch_ratio": 6.5389,
+    "max_stretch_edge": {
+     "edge": 498,
+     "verts": [
+      160,
+      1080
+     ],
+     "bind_mm": 3.0983,
+     "posed_mm": 20.2592,
+     "a_own": "THUMB",
+     "b_own": "INDEX",
+     "distal": false
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 25,
+    "worst_tear_edges": [
+     {
+      "edge": 420,
+      "verts": [
+       159,
+       1041
+      ],
+      "ratio": 3.4889,
+      "bind_mm": 5.947,
+      "posed_mm": 20.7487
+     },
+     {
+      "edge": 422,
+      "verts": [
+       160,
+       1042
+      ],
+      "ratio": 3.7852,
+      "bind_mm": 5.676,
+      "posed_mm": 21.4848
+     },
+     {
+      "edge": 498,
+      "verts": [
+       160,
+       1080
+      ],
+      "ratio": 6.5389,
+      "bind_mm": 3.0983,
+      "posed_mm": 20.2592
+     },
+     {
+      "edge": 512,
+      "verts": [
+       164,
+       1087
+      ],
+      "ratio": 3.6187,
+      "bind_mm": 3.5937,
+      "posed_mm": 13.0044
+     },
+     {
+      "edge": 515,
+      "verts": [
+       1088,
+       166
+      ],
+      "ratio": 3.1836,
+      "bind_mm": 5.8291,
+      "posed_mm": 18.5574
+     },
+     {
+      "edge": 2058,
+      "verts": [
+       564,
+       1860
+      ],
+      "ratio": 5.5415,
+      "bind_mm": 2.0292,
+      "posed_mm": 11.2448
+     },
+     {
+      "edge": 2063,
+      "verts": [
+       1862,
+       563
+      ],
+      "ratio": 4.1314,
+      "bind_mm": 2.9493,
+      "posed_mm": 12.1848
+     },
+     {
+      "edge": 2666,
+      "verts": [
+       698,
+       2164
+      ],
+      "ratio": 4.4697,
+      "bind_mm": 3.2053,
+      "posed_mm": 14.3267
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0685,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 35,
+    "new_self_intersection_pairs_distal": 0,
+    "new_severe_self_intersection_pairs_distal_sample": []
+   },
+   "TH_IP_45": {
+    "edges_over_2x": 30,
+    "edges_over_5x": 17,
+    "edges_over_2x_distal": 2,
+    "edges_over_5x_distal": 0,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 17,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 17,
+    "max_stretch_ratio": 10.1041,
+    "max_stretch_edge": {
+     "edge": 498,
+     "verts": [
+      160,
+      1080
+     ],
+     "bind_mm": 3.0983,
+     "posed_mm": 31.305,
+     "a_own": "THUMB",
+     "b_own": "INDEX",
+     "distal": false
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 29,
+    "worst_tear_edges": [
+     {
+      "edge": 420,
+      "verts": [
+       159,
+       1041
+      ],
+      "ratio": 5.3592,
+      "bind_mm": 5.947,
+      "posed_mm": 31.8711
+     },
+     {
+      "edge": 422,
+      "verts": [
+       160,
+       1042
+      ],
+      "ratio": 5.7669,
+      "bind_mm": 5.676,
+      "posed_mm": 32.733
+     },
+     {
+      "edge": 432,
+      "verts": [
+       165,
+       1047
+      ],
+      "ratio": 4.584,
+      "bind_mm": 5.3373,
+      "posed_mm": 24.4662
+     },
+     {
+      "edge": 498,
+      "verts": [
+       160,
+       1080
+      ],
+      "ratio": 10.1041,
+      "bind_mm": 3.0983,
+      "posed_mm": 31.305
+     },
+     {
+      "edge": 512,
+      "verts": [
+       164,
+       1087
+      ],
+      "ratio": 5.7774,
+      "bind_mm": 3.5937,
+      "posed_mm": 20.7619
+     },
+     {
+      "edge": 515,
+      "verts": [
+       1088,
+       166
+      ],
+      "ratio": 4.907,
+      "bind_mm": 5.8291,
+      "posed_mm": 28.6035
+     },
+     {
+      "edge": 2058,
+      "verts": [
+       564,
+       1860
+      ],
+      "ratio": 8.2136,
+      "bind_mm": 2.0292,
+      "posed_mm": 16.667
+     },
+     {
+      "edge": 2060,
+      "verts": [
+       565,
+       1861
+      ],
+      "ratio": 4.0247,
+      "bind_mm": 4.2578,
+      "posed_mm": 17.1363
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.1105,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 47,
+    "new_self_intersection_pairs_distal": 1,
+    "new_severe_self_intersection_pairs_distal_sample": [
+     [
+      68,
+      2732
+     ]
+    ]
+   },
+   "TH_MCP_45": {
+    "edges_over_2x": 46,
+    "edges_over_5x": 31,
+    "edges_over_2x_distal": 1,
+    "edges_over_5x_distal": 0,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 31,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 21,
+    "max_stretch_ratio": 17.0205,
+    "max_stretch_edge": {
+     "edge": 498,
+     "verts": [
+      160,
+      1080
+     ],
+     "bind_mm": 3.0983,
+     "posed_mm": 52.7336,
+     "a_own": "THUMB",
+     "b_own": "INDEX",
+     "distal": false
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 44,
+    "worst_tear_edges": [
+     {
+      "edge": 420,
+      "verts": [
+       159,
+       1041
+      ],
+      "ratio": 8.9905,
+      "bind_mm": 5.947,
+      "posed_mm": 53.466
+     },
+     {
+      "edge": 422,
+      "verts": [
+       160,
+       1042
+      ],
+      "ratio": 9.4876,
+      "bind_mm": 5.676,
+      "posed_mm": 53.8523
+     },
+     {
+      "edge": 432,
+      "verts": [
+       165,
+       1047
+      ],
+      "ratio": 8.6773,
+      "bind_mm": 5.3373,
+      "posed_mm": 46.313
+     },
+     {
+      "edge": 498,
+      "verts": [
+       160,
+       1080
+      ],
+      "ratio": 17.0205,
+      "bind_mm": 3.0983,
+      "posed_mm": 52.7336
+     },
+     {
+      "edge": 512,
+      "verts": [
+       164,
+       1087
+      ],
+      "ratio": 11.8897,
+      "bind_mm": 3.5937,
+      "posed_mm": 42.7276
+     },
+     {
+      "edge": 515,
+      "verts": [
+       1088,
+       166
+      ],
+      "ratio": 8.649,
+      "bind_mm": 5.8291,
+      "posed_mm": 50.4163
+     },
+     {
+      "edge": 1269,
+      "verts": [
+       1465,
+       346
+      ],
+      "ratio": 3.0164,
+      "bind_mm": 4.3059,
+      "posed_mm": 12.9881
+     },
+     {
+      "edge": 1469,
+      "verts": [
+       1565,
+       415
+      ],
+      "ratio": 4.2799,
+      "bind_mm": 2.9739,
+      "posed_mm": 12.7278
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 81,
+    "new_self_intersection_pairs_distal": 0,
+    "new_severe_self_intersection_pairs_distal_sample": []
+   },
+   "CMC_OPP_30": {
+    "edges_over_2x": 53,
+    "edges_over_5x": 33,
+    "edges_over_2x_distal": 2,
+    "edges_over_5x_distal": 0,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 33,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 21,
+    "max_stretch_ratio": 18.31,
+    "max_stretch_edge": {
+     "edge": 498,
+     "verts": [
+      160,
+      1080
+     ],
+     "bind_mm": 3.0983,
+     "posed_mm": 56.729,
+     "a_own": "THUMB",
+     "b_own": "INDEX",
+     "distal": false
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 48,
+    "worst_tear_edges": [
+     {
+      "edge": 420,
+      "verts": [
+       159,
+       1041
+      ],
+      "ratio": 10.087,
+      "bind_mm": 5.947,
+      "posed_mm": 59.9869
+     },
+     {
+      "edge": 422,
+      "verts": [
+       160,
+       1042
+      ],
+      "ratio": 10.4943,
+      "bind_mm": 5.676,
+      "posed_mm": 59.5663
+     },
+     {
+      "edge": 432,
+      "verts": [
+       165,
+       1047
+      ],
+      "ratio": 10.7123,
+      "bind_mm": 5.3373,
+      "posed_mm": 57.1745
+     },
+     {
+      "edge": 498,
+      "verts": [
+       160,
+       1080
+      ],
+      "ratio": 18.31,
+      "bind_mm": 3.0983,
+      "posed_mm": 56.729
+     },
+     {
+      "edge": 512,
+      "verts": [
+       164,
+       1087
+      ],
+      "ratio": 14.7915,
+      "bind_mm": 3.5937,
+      "posed_mm": 53.1556
+     },
+     {
+      "edge": 515,
+      "verts": [
+       1088,
+       166
+      ],
+      "ratio": 10.1219,
+      "bind_mm": 5.8291,
+      "posed_mm": 59.0021
+     },
+     {
+      "edge": 1174,
+      "verts": [
+       774,
+       1418
+      ],
+      "ratio": 3.2579,
+      "bind_mm": 4.8552,
+      "posed_mm": 15.8176
+     },
+     {
+      "edge": 1176,
+      "verts": [
+       775,
+       1419
+      ],
+      "ratio": 3.0031,
+      "bind_mm": 4.3392,
+      "posed_mm": 13.031
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 234,
+    "new_self_intersection_pairs_distal": 0,
+    "new_severe_self_intersection_pairs_distal_sample": []
+   },
+   "CMC_MCP_L3": {
+    "edges_over_2x": 54,
+    "edges_over_5x": 38,
+    "edges_over_2x_distal": 2,
+    "edges_over_5x_distal": 0,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 38,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 21,
+    "max_stretch_ratio": 28.0368,
+    "max_stretch_edge": {
+     "edge": 498,
+     "verts": [
+      160,
+      1080
+     ],
+     "bind_mm": 3.0983,
+     "posed_mm": 86.865,
+     "a_own": "THUMB",
+     "b_own": "INDEX",
+     "distal": false
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 55,
+    "worst_tear_edges": [
+     {
+      "edge": 420,
+      "verts": [
+       159,
+       1041
+      ],
+      "ratio": 15.2731,
+      "bind_mm": 5.947,
+      "posed_mm": 90.8288
+     },
+     {
+      "edge": 422,
+      "verts": [
+       160,
+       1042
+      ],
+      "ratio": 15.7969,
+      "bind_mm": 5.676,
+      "posed_mm": 89.6637
+     },
+     {
+      "edge": 432,
+      "verts": [
+       165,
+       1047
+      ],
+      "ratio": 15.7248,
+      "bind_mm": 5.3373,
+      "posed_mm": 83.9277
+     },
+     {
+      "edge": 498,
+      "verts": [
+       160,
+       1080
+      ],
+      "ratio": 28.0368,
+      "bind_mm": 3.0983,
+      "posed_mm": 86.865
+     },
+     {
+      "edge": 512,
+      "verts": [
+       164,
+       1087
+      ],
+      "ratio": 21.7658,
+      "bind_mm": 3.5937,
+      "posed_mm": 78.2189
+     },
+     {
+      "edge": 515,
+      "verts": [
+       1088,
+       166
+      ],
+      "ratio": 15.179,
+      "bind_mm": 5.8291,
+      "posed_mm": 88.4803
+     },
+     {
+      "edge": 1174,
+      "verts": [
+       774,
+       1418
+      ],
+      "ratio": 3.4815,
+      "bind_mm": 4.8552,
+      "posed_mm": 16.9032
+     },
+     {
+      "edge": 1257,
+      "verts": [
+       1459,
+       346
+      ],
+      "ratio": 3.4701,
+      "bind_mm": 7.6768,
+      "posed_mm": 26.6397
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 170,
+    "new_self_intersection_pairs_distal": 0,
+    "new_severe_self_intersection_pairs_distal_sample": []
+   },
+   "FULL_OPP_L3": {
+    "edges_over_2x": 55,
+    "edges_over_5x": 38,
+    "edges_over_2x_distal": 3,
+    "edges_over_5x_distal": 0,
+    "SEVERE_EDGE_STRETCH_EDGE_COUNT": 38,
+    "SEVERE_EDGE_STRETCH_DISTAL_COUNT": 21,
+    "max_stretch_ratio": 30.3938,
+    "max_stretch_edge": {
+     "edge": 498,
+     "verts": [
+      160,
+      1080
+     ],
+     "bind_mm": 3.0983,
+     "posed_mm": 94.1677,
+     "a_own": "THUMB",
+     "b_own": "INDEX",
+     "distal": false
+    },
+    "TEAR_edges_over_3x_and_over_5mm": 55,
+    "worst_tear_edges": [
+     {
+      "edge": 420,
+      "verts": [
+       159,
+       1041
+      ],
+      "ratio": 16.5989,
+      "bind_mm": 5.947,
+      "posed_mm": 98.713
+     },
+     {
+      "edge": 422,
+      "verts": [
+       160,
+       1042
+      ],
+      "ratio": 17.0959,
+      "bind_mm": 5.676,
+      "posed_mm": 97.0372
+     },
+     {
+      "edge": 432,
+      "verts": [
+       165,
+       1047
+      ],
+      "ratio": 16.8699,
+      "bind_mm": 5.3373,
+      "posed_mm": 90.0396
+     },
+     {
+      "edge": 498,
+      "verts": [
+       160,
+       1080
+      ],
+      "ratio": 30.3938,
+      "bind_mm": 3.0983,
+      "posed_mm": 94.1677
+     },
+     {
+      "edge": 512,
+      "verts": [
+       164,
+       1087
+      ],
+      "ratio": 23.2294,
+      "bind_mm": 3.5937,
+      "posed_mm": 83.4785
+     },
+     {
+      "edge": 515,
+      "verts": [
+       1088,
+       166
+      ],
+      "ratio": 16.4431,
+      "bind_mm": 5.8291,
+      "posed_mm": 95.8488
+     },
+     {
+      "edge": 1174,
+      "verts": [
+       774,
+       1418
+      ],
+      "ratio": 3.4815,
+      "bind_mm": 4.8552,
+      "posed_mm": 16.9032
+     },
+     {
+      "edge": 1257,
+      "verts": [
+       1459,
+       346
+      ],
+      "ratio": 3.4701,
+      "bind_mm": 7.6768,
+      "posed_mm": 26.6397
+     }
+    ],
+    "historic_CLASS_B_max_stretch": 1.0352,
+    "historic_CLASS_B_tear": 0,
+    "new_self_intersection_pairs": 170,
+    "new_self_intersection_pairs_distal": 0,
+    "new_severe_self_intersection_pairs_distal_sample": []
+   }
+  }
+ },
+ "log": [
+  "LIVE XIJ = [0.0, 46.944, 74.643, 106.79] ; distal set = 375 ; corrected THUMB = 825",
+  "R1B      TH_IP_30    over2x=  33 over5x=   0 severe=   0 max=3.950 tear=27 histB_max=8.683 histB_tear=27 newSI=108",
+  "R1B      TH_IP_45    over2x=  42 over5x=   7 severe=   7 max=5.922 tear=43 histB_max=12.916 histB_tear=43 newSI=146",
+  "R1B      TH_MCP_45   over2x=  67 over5x=  53 severe=  53 max=10.399 tear=71 histB_max=31.940 histB_tear=61 newSI=217",
+  "R1B      CMC_OPP_30  over2x=  74 over5x=  56 severe=  56 max=12.497 tear=78 histB_max=38.247 histB_tear=61 newSI=302",
+  "R1B      CMC_MCP_L3  over2x=  75 over5x=  60 severe=  60 max=18.055 tear=82 histB_max=57.472 histB_tear=61 newSI=296",
+  "R1B      FULL_OPP_L3 over2x=  75 over5x=  60 severe=  60 max=19.297 tear=82 histB_max=61.312 histB_tear=61 newSI=284",
+  "R1C      TH_IP_30    over2x=  40 over5x=   1 severe=   1 max=5.043 tear=37 histB_max=1.119 histB_tear=0 newSI=68",
+  "R1C      TH_IP_45    over2x=  45 over5x=  26 severe=  26 max=7.835 tear=44 histB_max=1.173 histB_tear=0 newSI=78",
+  "R1C      TH_MCP_45   over2x=  66 over5x=  48 severe=  48 max=13.510 tear=63 histB_max=1.000 histB_tear=0 newSI=101",
+  "R1C      CMC_OPP_30  over2x=  73 over5x=  51 severe=  51 max=14.677 tear=67 histB_max=1.000 histB_tear=0 newSI=350",
+  "R1C      CMC_MCP_L3  over2x=  76 over5x=  58 severe=  58 max=22.189 tear=74 histB_max=1.000 histB_tear=0 newSI=258",
+  "R1C      FULL_OPP_L3 over2x=  76 over5x=  58 severe=  58 max=24.367 tear=74 histB_max=1.060 histB_tear=0 newSI=262",
+  "R1D      TH_IP_30    over2x=  24 over5x=   2 severe=   2 max=6.539 tear=25 histB_max=1.069 histB_tear=0 newSI=35",
+  "R1D      TH_IP_45    over2x=  30 over5x=  17 severe=  17 max=10.104 tear=29 histB_max=1.111 histB_tear=0 newSI=47",
+  "R1D      TH_MCP_45   over2x=  46 over5x=  31 severe=  31 max=17.020 tear=44 histB_max=1.000 histB_tear=0 newSI=81",
+  "R1D      CMC_OPP_30  over2x=  53 over5x=  33 severe=  33 max=18.310 tear=48 histB_max=1.000 histB_tear=0 newSI=234",
+  "R1D      CMC_MCP_L3  over2x=  54 over5x=  38 severe=  38 max=28.037 tear=55 histB_max=1.000 histB_tear=0 newSI=170",
+  "R1D      FULL_OPP_L3 over2x=  55 over5x=  38 severe=  38 max=30.394 tear=55 histB_max=1.035 histB_tear=0 newSI=170"
+ ]
+}

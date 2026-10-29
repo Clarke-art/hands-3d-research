@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "units": {
+    "time": "seconds display/music explicit",
+    "translation": "mm",
+    "control_angle": "rest-axis rig degrees; not clinical",
+    "geometry": "metres internally"
+  },
+  "modes": [
+    "FREE",
+    "APPROACH",
+    "PRE_TOUCH",
+    "PRESS",
+    "HOLD",
+    "RELEASE"
+  ],
+  "required_fields": [
+    "episode_id",
+    "note_id",
+    "hand",
+    "finger",
+    "midi",
+    "key_index",
+    "mode",
+    "display_interval",
+    "music_interval",
+    "required_contact",
+    "mechanical_phase",
+    "tangential_policy"
+  ],
+  "event_order": "Atomic event batch: remove obligations ending at t, add obligations beginning at t; preserve continuous-position one-sided-limit compatibility as separate junction obligation.",
+  "contact_validation": "True clipped pulp-face/top intersection and area; not distance tolerance alone; penetration and anatomy independently enforced.",
+  "boundary_compatibility": "A continuous trajectory must reconcile left/right contact sets and position/velocity limits. Half-open labels do not permit teleportation or prove junction existence.",
+  "free_motion": "No active contacts permits whole-hand motion only under anatomy, all-key collision and travel-time constraints.",
+  "sliding": "Material witness may migrate only within verified actual pulp/playable patch; tangential displacement/velocity budget is explicit planner parameter. Sticking is a valid stricter adapter specialization.",
+  "no_force_or_acoustic_proof": true
+}

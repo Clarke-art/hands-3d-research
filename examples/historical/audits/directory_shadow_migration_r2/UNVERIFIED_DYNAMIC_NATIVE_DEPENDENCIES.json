@@ -1,0 +1,51 @@
+[
+  {
+    "id": "U01",
+    "item": "完整原脚本/命令原样复现",
+    "status": "NOT_COMPATIBLE_WITHOUT_ENTRY_ADAPTATION / NOT_EXECUTED",
+    "evidence": "verify_midi.py 会写结果且 O.parent 导出错误源目录；其他脚本使用相同层级假设",
+    "authorization_needed": "若要求原命令执行，需另行设计/批准安全运行适配，不允许本轮直接执行"
+  },
+  {
+    "id": "U02",
+    "item": "Blender 原生加载、压缩 .blend 解析、linked resources、驱动/handler、GUI/版本环境",
+    "status": "UNKNOWN_NOT_EXECUTED",
+    "evidence": "5 个 .blend 内容 SHA 与合同相同；2 个 BLENDER 前缀、3 个 Zstandard 帧前缀，未解压或打开场景",
+    "authorization_needed": "另行白名单化原生只读加载验证；不可运行冻结场景脚本或保存源资产"
+  },
+  {
+    "id": "U03",
+    "item": "NumPy/SciPy/CasADi native loader、DLL 搜索与 ABI、优化器 plugin",
+    "status": "UNKNOWN_NOT_EXECUTED",
+    "evidence": "已读取当前 declared _deps/deps 的初始化源码与6个 native 文件字节；未导入数学包、未 load CasADi function、未调用优化器",
+    "authorization_needed": "单独隔离和无副作用加载验证，不能借路径治理启动求解"
+  },
+  {
+    "id": "U04",
+    "item": "AST exec/compile 提取函数、CLI、CWD、动态请求命名和现场分支",
+    "status": "STATIC_ONLY / PARTIAL_RECORDED_INSTANCE_READ",
+    "evidence": "23 个 O.parent 字面表达式，9 个文件表达式实际适配读取，14 个目录/未展开表达式只有静态说明；103个已记录请求文件实际读过不代表任意请求",
+    "authorization_needed": "新增有限只读审查器或明确安全切片；不得执行历史初始化"
+  },
+  {
+    "id": "U05",
+    "item": "项目全部外部输入/报告任意 prose URL/文件与所有保护清单全量当下复验",
+    "status": "NOT_CLAIMED",
+    "evidence": "251资源是具体白名单，44外部输入；报告23个明确文件名已读；86259保护表仅语义与文件字节核对，不重盘点/重哈希全项目",
+    "authorization_needed": "按确切未闭合读取增量补充，不开展完整重复普查"
+  },
+  {
+    "id": "U06",
+    "item": "全部打开文件/句柄和所有外部任务引用",
+    "status": "UNKNOWN_EXHAUSTIVE_ENUMERATION",
+    "evidence": "Restart Manager error29；207源文件同时拒绝写/删除共享的复制基线和207逐项独占只读探测通过，任务/进程快照未观察R2 writer",
+    "authorization_needed": "真实迁移前即时重查并建立原子/句柄保护；快照不能替代迁移时保护"
+  },
+  {
+    "id": "U07",
+    "item": "其他16个目录的独立入口、冻结引用映射与 cleanup 锁定账本复核",
+    "status": "NOT_EXECUTED_PLAN_ONLY",
+    "evidence": "复用R1清单和路径分析；未复制/测试其他目录、未执行execution_r1.py任何阶段",
+    "authorization_needed": "每批增量白名单验证，cleanup 必须另证锁定输入/账本读取，绝不重跑删除"
+  }
+]

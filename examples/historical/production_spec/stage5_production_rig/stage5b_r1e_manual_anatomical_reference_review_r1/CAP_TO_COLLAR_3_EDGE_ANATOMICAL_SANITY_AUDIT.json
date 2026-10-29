@@ -1,0 +1,173 @@
+{
+  "review": "MANUAL_ANATOMICAL_REFERENCE_REVIEW_R1",
+  "generated_at": "2026-10-01T20:53:09.441733+08:00",
+  "read_only_production": true,
+  "path_vertex_ids": [
+    2192,
+    703,
+    2169,
+    704
+  ],
+  "edge_ids": [
+    2722,
+    2676,
+    2677
+  ],
+  "edge_lengths_R1B_mm": [
+    4.540557383562179,
+    4.387491187200622,
+    4.236569327033491
+  ],
+  "total_R1B_mm": 13.164617897796292,
+  "matches_previous_13_1646_mm": true,
+  "independently_recomputed_global_shortest": true,
+  "pre_RSSF_edge_lengths_mm": [
+    4.304459499700114,
+    4.253891099372537,
+    4.15656494054872
+  ],
+  "pre_RSSF_total_mm": 12.71491553962137,
+  "vertices": [
+    {
+      "vertex_id": 2192,
+      "world_mm_R1B": [
+        1458.0062627792358,
+        16.356155276298523,
+        494.6153163909912
+      ],
+      "world_mm_pre_RSSF": [
+        1455.761194229126,
+        20.321829244494438,
+        490.5177354812622
+      ],
+      "R3_display_only": "THUMB",
+      "in_approved_cap": true,
+      "in_body_collar": false,
+      "in_index_collar": false,
+      "in_approved_first_web": false,
+      "current_index_axial_fraction": 0.4423877553792687,
+      "incident_face_ids": [
+        356,
+        359,
+        445,
+        446
+      ],
+      "one_ring": [
+        158,
+        703,
+        2569,
+        2591
+      ],
+      "candidate_visual_region": "Index proximal tube surface in pre-RSSF geometry; current contact pose needs Human confirmation"
+    },
+    {
+      "vertex_id": 703,
+      "world_mm_R1B": [
+        1459.4193696975708,
+        13.789976015686989,
+        498.0843961238861
+      ],
+      "world_mm_pre_RSSF": [
+        1456.7911624908447,
+        19.666625186800957,
+        494.64547634124756
+      ],
+      "R3_display_only": "THUMB",
+      "in_approved_cap": false,
+      "in_body_collar": false,
+      "in_index_collar": false,
+      "in_approved_first_web": false,
+      "current_index_axial_fraction": 0.5837243699268319,
+      "incident_face_ids": [
+        359,
+        446,
+        2881,
+        2892
+      ],
+      "one_ring": [
+        2168,
+        2169,
+        2175,
+        2192
+      ],
+      "candidate_visual_region": "Index proximal tube surface in pre-RSSF geometry; current contact pose needs Human confirmation"
+    },
+    {
+      "vertex_id": 2169,
+      "world_mm_R1B": [
+        1460.274577140808,
+        10.737184435129166,
+        501.11740827560425
+      ],
+      "world_mm_pre_RSSF": [
+        1457.345724105835,
+        18.579978495836258,
+        498.7206757068634
+      ],
+      "R3_display_only": "THUMB",
+      "in_approved_cap": false,
+      "in_body_collar": true,
+      "in_index_collar": false,
+      "in_approved_first_web": false,
+      "current_index_axial_fraction": 0.7194487725626336,
+      "incident_face_ids": [
+        2881,
+        2882,
+        2892,
+        2895
+      ],
+      "one_ring": [
+        703,
+        704,
+        3200,
+        3203
+      ],
+      "candidate_visual_region": "Index proximal tube surface in pre-RSSF geometry; current contact pose needs Human confirmation"
+    },
+    {
+      "vertex_id": 704,
+      "world_mm_R1B": [
+        1460.9894752502441,
+        7.451385259628296,
+        503.69441509246826
+      ],
+      "world_mm_pre_RSSF": [
+        1457.8311443328857,
+        17.294788733124733,
+        502.6436448097229
+      ],
+      "R3_display_only": "INDEX",
+      "in_approved_cap": false,
+      "in_body_collar": false,
+      "in_index_collar": true,
+      "in_approved_first_web": false,
+      "current_index_axial_fraction": 0.849219838881152,
+      "incident_face_ids": [
+        419,
+        443,
+        2882,
+        2895
+      ],
+      "one_ring": [
+        2169,
+        2170,
+        2176,
+        2190
+      ],
+      "candidate_visual_region": "Index proximal tube surface in pre-RSSF geometry; current contact pose needs Human confirmation"
+    }
+  ],
+  "first_web_intersection": [],
+  "all_edges_have_two_incident_mesh_faces": true,
+  "path_topological_continuity": "PASS: ordinary existing mesh edges; no new bridging edge, gap or nonmanifold seam is demonstrated",
+  "anatomical_sanity_option": "C",
+  "option_C_scope": "Visible region/semantic correspondence conflict; not a proven broken mesh topology",
+  "visual_observation": "In pre-RSSF geometry, the path runs longitudinally along the index proximal tube. v2192 is not visually at the separate native thumb terminal branch. Current v2192 is close to the engineered thumb-tip endpoint in the contact pose; proximity alone cannot settle its native surface origin.",
+  "v2169_candidate": "Dorsoradial index proximal surface, inherited DORSAL sector. A true shared thumb/index interface has not been registered.",
+  "v2192_anatomical_correspondence": "NOT_VISUALLY_CONFIRMED_AS_NATIVE_THUMB_DISTAL_CAP; visible pre-RSSF conflict requires Human Review",
+  "v2192_distance_to_current_engineered_thumb_endpoint_mm": 6.427960806933584,
+  "no_first_web_shortcut_established": true,
+  "no_topology_edit_authorized": true,
+  "approved_distal_cap_authority": "FROZEN, UNCHANGED — observation does not revoke project authority",
+  "human_decision": "PENDING_HUMAN_REGISTRATION"
+}

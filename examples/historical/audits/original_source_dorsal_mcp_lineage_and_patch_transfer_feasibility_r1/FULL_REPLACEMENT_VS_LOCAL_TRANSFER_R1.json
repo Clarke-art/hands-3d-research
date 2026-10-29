@@ -1,0 +1,46 @@
+{
+  "OPTION_A_FULL_ORIGINAL_MODEL_REPLACEMENT": {
+    "feasible_as_independent_new_asset": true,
+    "feasible_as_drop_in_production_replacement": false,
+    "cost": "Would reset the production asset to831 cage vertices plus modifier, or3300 baked L1 vertices. Requires reengineering, rebinding/reweighting, semantic mapping, authority recovery and downstream requalification.",
+    "lost_or_invalidated": [
+      "MCP engineering loops/vertex IDs",
+      "CMC engineered cage",
+      "frozen RSSF geometry/frame",
+      "nail face/material semantic membership",
+      "current UV connectivity and mesh identity",
+      "production weight vector indexing",
+      "production bone/joint coordinate compatibility",
+      "fresh R3 membership authority",
+      "cap37 membership authority",
+      "true-cap derived authority",
+      "Stage6 evidence applicability"
+    ],
+    "bone_note": "Old bone datablocks could be kept physically, but their asset compatibility and binding evidence do not survive wholesale replacement.",
+    "recommended": false
+  },
+  "OPTION_B_LOCAL_DONOR_SHAPE_TRANSFER": {
+    "feasible": true,
+    "preserved_exactly": [
+      "3416/6828/3414 topology",
+      "vertex IDs/native face cycles",
+      "current MCP/CMC edge connectivity",
+      "UV connectivity",
+      "material assignments/nail semantics",
+      "production weights",
+      "production bones/joints",
+      "authority files and memberships"
+    ],
+    "still_requires_future_revalidation": [
+      "Production promotion approval",
+      "geometry-dependent true-cap/downstream evidence after any future formal amendment",
+      "targeted deformation and Stage6 qualifications under separately authorized task"
+    ],
+    "existing_Stage6_pass_implied": false,
+    "recommended": true
+  },
+  "FULL_REPLACEMENT_RECOMMENDED": "NO",
+  "LOCAL_DONOR_TRANSFER_RECOMMENDED": "YES",
+  "STAGE4_OPERATION_REBUILD_FEASIBLE": "YES_IN_PRINCIPLE_NOT_EXECUTED",
+  "rebuild_tradeoff": "An ancestry-preserving cut without plane projection can be designed; demonstrated donor-derived54-vertex probe supports that design. Whole Stage4A rerun could alter geometry-dependent seed selection/order and downstream IDs, so local fixed-topology restoration is the cleaner scoped amendment. No surface-preserving rebuild was executed."
+}

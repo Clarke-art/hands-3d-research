@@ -1,0 +1,75 @@
+{
+  "execution": "HUMAN_CAP_AUTHORITY_FREEZE_R1",
+  "trigger": "CAP_MEMBERSHIP_AUTHORITY_CORRECTION",
+  "authority_id": "THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1",
+  "authority_hash": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+  "DOWNSTREAM_CAP_DEPENDENT_REVALIDATION": "REQUIRED",
+  "DIGIT_OWNERSHIP_AUTHORITY_R3": {
+    "status": "HISTORICALLY_HUMAN_APPROVED; REVALIDATION_REQUIRED_AFTER_CAP_AUTHORITY_CORRECTION",
+    "historical_human_approval": "HUMAN_APPROVED",
+    "revalidation": "REVALIDATION_REQUIRED_AFTER_CAP_AUTHORITY_CORRECTION",
+    "reason": "THUMB_STRONG inherited old cap9",
+    "historical_document_verdict_preserved": true,
+    "revalidated_this_round": false,
+    "rebuild_started": false
+  },
+  "Stage5B_R1B": {
+    "status": "FROZEN HISTORICAL PRODUCTION MASTER",
+    "cap_dependent_skin_semantics": "DEPENDENCY_AUDIT_REQUIRED",
+    "master_rebuilt": false,
+    "historical_approval_unchanged": true
+  },
+  "Stage5B_R1C_R1D_R1E": {
+    "historical_files_and_verdicts": "PRESERVED_BYTE_IDENTICAL",
+    "new_overlay": "DOWNSTREAM_CAP_DEPENDENT_REVALIDATION_REQUIRED",
+    "PASS_FAIL_reevaluated_this_round": false
+  },
+  "CAP_WEIGHT_AUTHORITY": "NOT_YET_RECONCILED",
+  "THUMB_IP_R_1_0_rule": {
+    "historical_old_cap9_rule_retained_for_provenance": true,
+    "inherited_by_new_37_point_cap": false,
+    "weight_vector_frozen": false,
+    "requires": "INDEPENDENT_SKIN_DRIVER_WEIGHT_AUTHORITY_RECONCILIATION"
+  },
+  "scope_exclusions_requiring_independent_reconciliation": [
+    "skin weight values",
+    "bone driver",
+    "THUMB_IP_R = 1.0 weight rule",
+    "R3 ownership",
+    "nail authority",
+    "first-web authority",
+    "CMC cage",
+    "pose limits",
+    "Stage6 deformation qualification",
+    "R1B/R1C/R1D/R1E cap-dependent qualification",
+    "Stage6A/Stage6B or strict-bound results"
+  ],
+  "old_strict_bound_evidence": {
+    "13.1646_mm_path": {
+      "status": "INVALIDATED",
+      "scope": "AS TRUE_THUMB_CAP→COLLAR ANATOMICAL ENDPOINT EVIDENCE",
+      "mesh_numerical_fact_preserved": true
+    },
+    "CMC_MCP_L3_5.9643": {
+      "status": "INVALIDATED",
+      "scope": "AS TRUE_THUMB_CAP ENDPOINT BOUND",
+      "mesh_numerical_fact_preserved": true
+    },
+    "FULL_OPP_L3_6.5160": {
+      "status": "INVALIDATED",
+      "scope": "AS TRUE_THUMB_CAP ENDPOINT BOUND",
+      "mesh_numerical_fact_preserved": true
+    },
+    "new_true_cap_bounds": "PENDING_RECOMPUTE_AFTER_DEPENDENCY_RECONCILIATION",
+    "recomputed_this_round": false
+  },
+  "SKIN_REBUILD": "NOT_STARTED",
+  "R3_REBUILD": "NOT_STARTED",
+  "R1F_CREATED": false,
+  "Stage6": "NOT_RUN",
+  "Stage6_runs": 0,
+  "strict_bound_recompute_runs": 0,
+  "NEXT": "CAP_DEPENDENCY_BLAST_RADIUS_AUDIT_R1",
+  "next_audit_started": false,
+  "instruction": "Next round first inspect old cap9 dependency blast radius; do not automatically rebuild R3, R1F, weights or Stage6"
+}

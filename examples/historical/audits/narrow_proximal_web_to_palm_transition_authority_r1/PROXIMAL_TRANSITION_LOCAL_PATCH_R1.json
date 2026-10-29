@@ -1,0 +1,6174 @@
+{
+  "name": "PROXIMAL_TRANSITION_LOCAL_PATCH_R1",
+  "row_ids": [
+    "P02",
+    "P03",
+    "P04",
+    "P05",
+    "P06"
+  ],
+  "focus_face_ids": [
+    1368,
+    1369,
+    1370,
+    1371,
+    1372,
+    1373,
+    1374,
+    1375,
+    1377,
+    1378
+  ],
+  "focus_vertex_ids": [
+    293,
+    294,
+    310,
+    317,
+    385,
+    386,
+    1423,
+    1442,
+    1444,
+    1445,
+    1518,
+    1519,
+    1520,
+    1521,
+    1523,
+    2822,
+    2823,
+    2824
+  ],
+  "direct_incident_face_ids": [
+    1249,
+    1250,
+    1254,
+    1255,
+    1257,
+    1258,
+    1368,
+    1369,
+    1370,
+    1371,
+    1372,
+    1373,
+    1374,
+    1375,
+    1376,
+    1377,
+    1378,
+    1379,
+    1496,
+    1497,
+    1500,
+    1503,
+    1504,
+    1505,
+    3032,
+    3033,
+    3037,
+    3060
+  ],
+  "scope": "Fixed ten faces and their direct vertex-incident neighbourhood; no recursive traversal and no P07+ trace. MCP/CMC/chain are structural references only.",
+  "units": {
+    "positions": "world metres",
+    "distances": "millimetres",
+    "angles": "degrees"
+  },
+  "normal_method": "Newell polygon area vector in world coordinates; vertex normal = normalized sum of direct incident polygon area vectors (computed diagnostic, not cached Blender split normals).",
+  "states": {
+    "NATIVE": {
+      "rows": [
+        {
+          "row_id": "P02",
+          "face_ids": [
+            1372,
+            1375
+          ],
+          "vertex_ids": [
+            310,
+            317,
+            1423,
+            1442,
+            1521,
+            2823
+          ],
+          "edge_ids": [
+            1184,
+            1185,
+            1223,
+            1380,
+            4670,
+            4672,
+            4673
+          ],
+          "incoming_edge_ids": [
+            1184,
+            1185
+          ],
+          "outgoing_edge_ids": [
+            4670,
+            4672
+          ],
+          "centre_world_m": [
+            1.458347757657369,
+            -0.0004384183945755164,
+            0.4238327294588089
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                310,
+                1423,
+                317
+              ],
+              "left_position_world_m": [
+                1.460893154144287,
+                0.0019076084718108177,
+                0.42240503430366516
+              ],
+              "middle_position_world_m": [
+                1.4592487812042236,
+                -0.0010819071903824806,
+                0.42469459772109985
+              ],
+              "right_position_world_m": [
+                1.4577710628509521,
+                -0.004368358291685581,
+                0.42600929737091064
+              ],
+              "chord_width_mm": 7.882000070942606,
+              "partial_arc_width_mm": 7.944658259754456,
+              "arc_chord_ratio": 1.0079495290849898,
+              "transverse_vector": [
+                -0.3961039412882917,
+                -0.7962403840407296,
+                0.4572777258062687
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                1442,
+                2823,
+                1521
+              ],
+              "left_position_world_m": [
+                1.458667516708374,
+                0.0033986270427703857,
+                0.42055976390838623
+              ],
+              "middle_position_world_m": [
+                1.4574615955352783,
+                0.00047373026609420776,
+                0.42368704080581665
+              ],
+              "right_position_world_m": [
+                1.4560444355010986,
+                -0.0029602106660604477,
+                0.42564064264297485
+              ],
+              "chord_width_mm": 8.55164900722692,
+              "partial_arc_width_mm": 8.645740757800654,
+              "arc_chord_ratio": 1.0110027610457606,
+              "transverse_vector": [
+                -0.3067339650000425,
+                -0.7435802970230698,
+                0.5941402331053133
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1223,
+          "right_frontier_edge_id": 1380,
+          "lanes": [
+            {
+              "face_id": 1372,
+              "left_frontier_edge_id": 1223,
+              "right_frontier_edge_id": 4673,
+              "incoming_edge_id": 1184,
+              "outgoing_edge_id": 4670,
+              "face_normal": [
+                -0.008383393594791773,
+                0.6775762340135314,
+                0.7354047632507386
+              ],
+              "normal_dot_own_face_centroid_radial": 0.4191999292887998,
+              "own_face_centroid_radial_direction": [
+                0.3520476765844945,
+                0.900414319364084,
+                -0.25557090385169573
+              ],
+              "side_tangent_turn_deg": 13.134351004196022
+            },
+            {
+              "face_id": 1375,
+              "left_frontier_edge_id": 4673,
+              "right_frontier_edge_id": 1380,
+              "incoming_edge_id": 1185,
+              "outgoing_edge_id": 4672,
+              "face_normal": [
+                0.012258201875930701,
+                0.43304087865381624,
+                0.9012909263392701
+              ],
+              "normal_dot_own_face_centroid_radial": 0.3267431700135048,
+              "own_face_centroid_radial_direction": [
+                0.0434215223632811,
+                0.9924285231885779,
+                -0.11489211355612397
+              ],
+              "side_tangent_turn_deg": 13.754973379309968
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 310,
+              "normal": [
+                -0.12367085681172885,
+                0.7727289132174223,
+                0.6225717194454582
+              ],
+              "normal_dot_chain_radial": 0.3594705554099127,
+              "normal_dot_chain_axis": 0.5702286321797605
+            },
+            {
+              "vertex_id": 317,
+              "normal": [
+                -0.31104000594247094,
+                0.25542957916551756,
+                0.9154287764706954
+              ],
+              "normal_dot_chain_radial": -0.03984427767978568,
+              "normal_dot_chain_axis": 0.7076580034903033
+            },
+            {
+              "vertex_id": 1423,
+              "normal": [
+                -0.21726528972178866,
+                0.599830470246436,
+                0.7700644134395815
+              ],
+              "normal_dot_chain_radial": 0.16536026946346077,
+              "normal_dot_chain_axis": 0.6472115723502238
+            },
+            {
+              "vertex_id": 1442,
+              "normal": [
+                0.19712720279299412,
+                0.7485305132043693,
+                0.6331215813104251
+              ],
+              "normal_dot_chain_radial": 0.6025216547141494,
+              "normal_dot_chain_axis": 0.716896616930863
+            },
+            {
+              "vertex_id": 1521,
+              "normal": [
+                0.11112980201122237,
+                0.20887901356163782,
+                0.9716067747800361
+              ],
+              "normal_dot_chain_radial": 0.3459314960020654,
+              "normal_dot_chain_axis": 0.9373574905408381
+            },
+            {
+              "vertex_id": 2823,
+              "normal": [
+                0.1953962463382667,
+                0.560984379229688,
+                0.8044357234591194
+              ],
+              "normal_dot_chain_radial": 0.46279833351109356,
+              "normal_dot_chain_axis": 0.8538795560398338
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.7221605047777563,
+              0.5605211300569034,
+              -0.405339694699234
+            ],
+            "transverse": [
+              -0.3508918753036253,
+              -0.7716827014190675,
+              0.5304532968852917
+            ],
+            "surface_normal": [
+              0.0008654869018787087,
+              0.574383790991389,
+              0.818585677604234
+            ],
+            "orthonormal_longitudinal": [
+              -0.7221910682740074,
+              0.5665694867913668,
+              -0.39678593415368846
+            ],
+            "orthonormal_transverse": [
+              -0.6916930763262493,
+              -0.5908318519539443,
+              0.41530520208516764
+            ],
+            "L_cross_T_dot_normal": 0.9998379693383247,
+            "longitudinal_dot_thumb_axis": -0.6294725760333904,
+            "transverse_dot_circumferential": 0.2228539199144262,
+            "transverse_dot_thumb_axis": 0.2579538017665936,
+            "normal_dot_chain_radial": 0.3471015865814523,
+            "normal_dot_thumb_axis": 0.7832606203168113,
+            "normal_dot_circumferential": 0.5157744557978444
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.443522067359776,
+                -0.006525033031573569,
+                0.39622855683974395
+              ],
+              [
+                1.4609006455070095,
+                -0.0031287952595831533,
+                0.43213291466236115
+              ],
+              [
+                1.4839419489321501,
+                -0.01135163952636978,
+                0.44807723553284357
+              ],
+              [
+                1.49774169921875,
+                -0.013108416460454464,
+                0.46520325541496277
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.7920715190286669,
+            "axis_vector": [
+              0.4341020862614249,
+              0.08483512803926287,
+              0.8968602899861498
+            ],
+            "radial_direction_only": [
+              0.2901916068931354,
+              0.9293212943817385,
+              -0.2283654157210111
+            ],
+            "circumferential_direction": [
+              -0.8528447748519413,
+              0.3593952321041726,
+              0.3788018705715818
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": -1.6676009644399037,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -9.157882466520153
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4609006455070095,
+              -0.0031287952595831533,
+              0.43213291466236115
+            ],
+            "centre_offset_world_m": [
+              -0.002552887849640584,
+              0.002690376865007637,
+              -0.008300185203552246
+            ],
+            "centre_distance_mm": 9.09111865844234,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.443522067359776,
+              -0.006525033031573569,
+              0.39622855683974395
+            ],
+            "centre_distance_mm": 31.919246803810953,
+            "centre_direction": [
+              -0.4644749416775981,
+              -0.190687915489013,
+              -0.864812781727957
+            ],
+            "normal_dot_CMC_direction": -0.8178534017046799,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.8432426816956271,
+            "inherited_proximal_palm_proxy_dot": -0.4537523364099274,
+            "inherited_thenar_direction_proxy": [
+              -0.45854675561318636,
+              0.4101288012023284,
+              -0.7883712573026505
+            ],
+            "local_flank_face_ids": [
+              1257,
+              1258,
+              1504,
+              1505,
+              3032,
+              3033,
+              3037,
+              3060
+            ],
+            "local_flank_mean_normal": [
+              -0.10780951211247768,
+              0.6068646165066651,
+              0.7874594886915057
+            ],
+            "normal_dot_local_flank_normal": 0.9930829504634223,
+            "face_pair_normal_turn_deg": 17.034392744903617,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "310": 4,
+              "317": 4,
+              "1423": 4,
+              "1442": 4,
+              "1521": 4,
+              "2823": 4
+            },
+            "incident_face_fans": {
+              "310": [
+                1258,
+                1372,
+                3032,
+                3037
+              ],
+              "317": [
+                1375,
+                1504,
+                3033,
+                3060
+              ],
+              "1423": [
+                1372,
+                1375,
+                3032,
+                3033
+              ],
+              "1442": [
+                1257,
+                1258,
+                1372,
+                1373
+              ],
+              "1521": [
+                1374,
+                1375,
+                1504,
+                1505
+              ],
+              "2823": [
+                1372,
+                1373,
+                1374,
+                1375
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": null,
+          "outgoing_row_tangent": [
+            -0.6884031368755485,
+            0.712279175802578,
+            -0.13696531260835595
+          ],
+          "turn_from_previous_row_deg": null,
+          "normal_turn_from_previous_row_deg": null,
+          "outgoing_width_relative_change_from_previous": null,
+          "within_row_width_relative_change": 0.08495926544748578
+        },
+        {
+          "row_id": "P03",
+          "face_ids": [
+            1373,
+            1374
+          ],
+          "vertex_ids": [
+            293,
+            386,
+            1442,
+            1518,
+            1521,
+            2823
+          ],
+          "edge_ids": [
+            1222,
+            1374,
+            1375,
+            1381,
+            4670,
+            4671,
+            4672
+          ],
+          "incoming_edge_ids": [
+            4670,
+            4672
+          ],
+          "outgoing_edge_ids": [
+            1375,
+            1374
+          ],
+          "centre_world_m": [
+            1.4564905961354573,
+            0.0012358705668399732,
+            0.42311663428942364
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                1442,
+                2823,
+                1521
+              ],
+              "left_position_world_m": [
+                1.458667516708374,
+                0.0033986270427703857,
+                0.42055976390838623
+              ],
+              "middle_position_world_m": [
+                1.4574615955352783,
+                0.00047373026609420776,
+                0.42368704080581665
+              ],
+              "right_position_world_m": [
+                1.4560444355010986,
+                -0.0029602106660604477,
+                0.42564064264297485
+              ],
+              "chord_width_mm": 8.55164900722692,
+              "partial_arc_width_mm": 8.645740757800654,
+              "arc_chord_ratio": 1.0110027610457606,
+              "transverse_vector": [
+                -0.3067339650000425,
+                -0.7435802970230698,
+                0.5941402331053133
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                293,
+                1518,
+                386
+              ],
+              "left_position_world_m": [
+                1.4564526081085205,
+                0.005425687413662672,
+                0.41982001066207886
+              ],
+              "middle_position_world_m": [
+                1.4557225704193115,
+                0.0021245013922452927,
+                0.42333441972732544
+              ],
+              "right_position_world_m": [
+                1.4545948505401611,
+                -0.0010471120476722717,
+                0.4256579279899597
+              ],
+              "chord_width_mm": 8.912332734847038,
+              "partial_arc_width_mm": 8.966844620375683,
+              "arc_chord_ratio": 1.00611645538272,
+              "transverse_vector": [
+                -0.20844795898335136,
+                -0.726274439465936,
+                0.6550380805526619
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1222,
+          "right_frontier_edge_id": 1381,
+          "lanes": [
+            {
+              "face_id": 1373,
+              "left_frontier_edge_id": 1222,
+              "right_frontier_edge_id": 4671,
+              "incoming_edge_id": 4670,
+              "outgoing_edge_id": 1375,
+              "face_normal": [
+                0.3825262730800331,
+                0.6158251485510495,
+                0.6887909964681433
+              ],
+              "normal_dot_own_face_centroid_radial": 0.5473596359522562,
+              "own_face_centroid_radial_direction": [
+                0.09746924687432748,
+                0.9852887890103151,
+                -0.1403771639702768
+              ],
+              "side_tangent_turn_deg": 5.5698550570704075
+            },
+            {
+              "face_id": 1374,
+              "left_frontier_edge_id": 4671,
+              "right_frontier_edge_id": 1381,
+              "incoming_edge_id": 4672,
+              "outgoing_edge_id": 1374,
+              "face_normal": [
+                0.363056169284463,
+                0.40383846718529465,
+                0.839705132987719
+              ],
+              "normal_dot_own_face_centroid_radial": 0.3207729794925913,
+              "own_face_centroid_radial_direction": [
+                -0.3164470436957254,
+                0.946473044007742,
+                0.0636399678107595
+              ],
+              "side_tangent_turn_deg": 12.794558254490562
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 293,
+              "normal": [
+                0.5181785915352022,
+                0.6887890791921447,
+                0.5070113920418667
+              ],
+              "normal_dot_chain_radial": 0.6566119067476912,
+              "normal_dot_chain_axis": 0.7380943014596997
+            },
+            {
+              "vertex_id": 386,
+              "normal": [
+                0.45427473716163075,
+                0.1481870061040852,
+                0.8784503824341128
+              ],
+              "normal_dot_chain_radial": 0.025991368765984152,
+              "normal_dot_chain_axis": 0.997620339502622
+            },
+            {
+              "vertex_id": 1442,
+              "normal": [
+                0.19712720279299412,
+                0.7485305132043693,
+                0.6331215813104251
+              ],
+              "normal_dot_chain_radial": 0.6025216547141494,
+              "normal_dot_chain_axis": 0.716896616930863
+            },
+            {
+              "vertex_id": 1518,
+              "normal": [
+                0.5573053706384202,
+                0.45652613683658616,
+                0.6935377496882457
+              ],
+              "normal_dot_chain_radial": 0.3510325784334676,
+              "normal_dot_chain_axis": 0.9026633446523784
+            },
+            {
+              "vertex_id": 1521,
+              "normal": [
+                0.11112980201122237,
+                0.20887901356163782,
+                0.9716067747800361
+              ],
+              "normal_dot_chain_radial": 0.3459314960020654,
+              "normal_dot_chain_axis": 0.9373574905408381
+            },
+            {
+              "vertex_id": 2823,
+              "normal": [
+                0.1953962463382667,
+                0.560984379229688,
+                0.8044357234591194
+              ],
+              "normal_dot_chain_radial": 0.46279833351109356,
+              "normal_dot_chain_axis": 0.8538795560398338
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.6884031368755485,
+              0.712279175802578,
+              -0.13696531260835595
+            ],
+            "transverse": [
+              -0.25701531580552,
+              -0.7360066819464653,
+              0.6262885050610008
+            ],
+            "surface_normal": [
+              0.3771759769817303,
+              0.5274523137651138,
+              0.7612702142417667
+            ],
+            "orthonormal_longitudinal": [
+              -0.6928930221050081,
+              0.7061165680180456,
+              -0.14594057793706855
+            ],
+            "orthonormal_transverse": [
+              -0.6145222065198833,
+              -0.4724335393198125,
+              0.6317982341061814
+            ],
+            "L_cross_T_dot_normal": 0.9999240592825105,
+            "longitudinal_dot_thumb_axis": -0.36124969281164626,
+            "transverse_dot_circumferential": 0.5103189526635715,
+            "transverse_dot_thumb_axis": 0.3876831843710048,
+            "normal_dot_chain_radial": 0.4534026490211644,
+            "normal_dot_thumb_axis": 0.8912323881710184,
+            "normal_dot_circumferential": -0.011439761167715723
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.443522067359776,
+                -0.006525033031573569,
+                0.39622855683974395
+              ],
+              [
+                1.4609006455070095,
+                -0.0031287952595831533,
+                0.43213291466236115
+              ],
+              [
+                1.4839419489321501,
+                -0.01135163952636978,
+                0.44807723553284357
+              ],
+              [
+                1.49774169921875,
+                -0.013108416460454464,
+                0.46520325541496277
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.7594388468535442,
+            "axis_vector": [
+              0.4341020862614249,
+              0.08483512803926287,
+              0.8968602899861498
+            ],
+            "radial_direction_only": [
+              -0.04411787588432532,
+              0.9963634895152622,
+              -0.07289313951549284
+            ],
+            "circumferential_direction": [
+              -0.8997827469622507,
+              -0.007924507021368423,
+              0.4362662151227556
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": -0.9451920236449693,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -10.103074490165106
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4609006455070095,
+              -0.0031287952595831533,
+              0.43213291466236115
+            ],
+            "centre_offset_world_m": [
+              -0.004410049371552205,
+              0.004364665826423126,
+              -0.009016280372937502
+            ],
+            "centre_distance_mm": 10.944960255720067,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.443522067359776,
+              -0.006525033031573569,
+              0.39622855683974395
+            ],
+            "centre_distance_mm": 30.844498248626394,
+            "centre_direction": [
+              -0.42044868654197876,
+              -0.2516138708386725,
+              -0.8717300969834095
+            ],
+            "normal_dot_CMC_direction": -0.9549196201579666,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.6161058885346422,
+            "inherited_proximal_palm_proxy_dot": -0.6491010609837093,
+            "inherited_thenar_direction_proxy": [
+              -0.43159450174951774,
+              0.38563024492764203,
+              -0.8154848252767384
+            ],
+            "local_flank_face_ids": [
+              1255,
+              1257,
+              1258,
+              1503,
+              1504,
+              1505
+            ],
+            "local_flank_mean_normal": [
+              0.336105149527397,
+              0.5735253820920939,
+              0.7470622226811391
+            ],
+            "normal_dot_local_flank_normal": 0.9979942962414836,
+            "face_pair_normal_turn_deg": 14.993818793266982,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "293": 4,
+              "386": 4,
+              "1442": 4,
+              "1518": 4,
+              "1521": 4,
+              "2823": 4
+            },
+            "incident_face_fans": {
+              "293": [
+                1255,
+                1257,
+                1368,
+                1373
+              ],
+              "386": [
+                1371,
+                1374,
+                1503,
+                1505
+              ],
+              "1442": [
+                1257,
+                1258,
+                1372,
+                1373
+              ],
+              "1518": [
+                1368,
+                1371,
+                1373,
+                1374
+              ],
+              "1521": [
+                1374,
+                1375,
+                1504,
+                1505
+              ],
+              "2823": [
+                1372,
+                1373,
+                1374,
+                1375
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": [
+            -0.7221605047777563,
+            0.5605211300569034,
+            -0.405339694699234
+          ],
+          "outgoing_row_tangent": [
+            -0.6652134355740223,
+            0.6947983513135286,
+            0.27339776177541847
+          ],
+          "turn_from_previous_row_deg": 17.84246510977729,
+          "normal_turn_from_previous_row_deg": 22.111759463406724,
+          "outgoing_width_relative_change_from_previous": 0.04217709675821668,
+          "within_row_width_relative_change": 0.04217709675821668
+        },
+        {
+          "row_id": "P04",
+          "face_ids": [
+            1368,
+            1371
+          ],
+          "vertex_ids": [
+            293,
+            386,
+            1444,
+            1518,
+            1520,
+            2822
+          ],
+          "edge_ids": [
+            1226,
+            1374,
+            1375,
+            1379,
+            4666,
+            4668,
+            4669
+          ],
+          "incoming_edge_ids": [
+            1375,
+            1374
+          ],
+          "outgoing_edge_ids": [
+            4666,
+            4668
+          ],
+          "centre_world_m": [
+            1.4547586838404338,
+            0.0030359907541424036,
+            0.42327912151813507
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                293,
+                1518,
+                386
+              ],
+              "left_position_world_m": [
+                1.4564526081085205,
+                0.005425687413662672,
+                0.41982001066207886
+              ],
+              "middle_position_world_m": [
+                1.4557225704193115,
+                0.0021245013922452927,
+                0.42333441972732544
+              ],
+              "right_position_world_m": [
+                1.4545948505401611,
+                -0.0010471120476722717,
+                0.4256579279899597
+              ],
+              "chord_width_mm": 8.912332734847038,
+              "partial_arc_width_mm": 8.966844620375683,
+              "arc_chord_ratio": 1.00611645538272,
+              "transverse_vector": [
+                -0.20844795898335136,
+                -0.726274439465936,
+                0.6550380805526619
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                1444,
+                2822,
+                1520
+              ],
+              "left_position_world_m": [
+                1.4544951915740967,
+                0.007349132560193539,
+                0.4202215373516083
+              ],
+              "middle_position_world_m": [
+                1.4543378353118896,
+                0.003971541300415993,
+                0.4241821765899658
+              ],
+              "right_position_world_m": [
+                1.452949047088623,
+                0.00039219390600919724,
+                0.4264586567878723
+              ],
+              "chord_width_mm": 9.470544708213325,
+              "partial_arc_width_mm": 9.671142040095006,
+              "arc_chord_ratio": 1.0211811820821366,
+              "transverse_vector": [
+                -0.16325824259429766,
+                -0.734586960784942,
+                0.6585808555293446
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1226,
+          "right_frontier_edge_id": 1379,
+          "lanes": [
+            {
+              "face_id": 1368,
+              "left_frontier_edge_id": 1226,
+              "right_frontier_edge_id": 4669,
+              "incoming_edge_id": 1375,
+              "outgoing_edge_id": 4666,
+              "face_normal": [
+                0.7215157975678451,
+                0.47156845775186024,
+                0.506989293292835
+              ],
+              "normal_dot_own_face_centroid_radial": 0.37332013112978296,
+              "own_face_centroid_radial_direction": [
+                -0.10022180127318035,
+                0.9939239050969214,
+                -0.045506718475902465
+              ],
+              "side_tangent_turn_deg": 14.493887749311536
+            },
+            {
+              "face_id": 1371,
+              "left_frontier_edge_id": 4669,
+              "right_frontier_edge_id": 1379,
+              "incoming_edge_id": 1374,
+              "outgoing_edge_id": 4668,
+              "face_normal": [
+                0.6540888167734284,
+                0.24403123232118656,
+                0.7159724697387041
+              ],
+              "normal_dot_own_face_centroid_radial": 0.019746708905371793,
+              "own_face_centroid_radial_direction": [
+                -0.44395473616684406,
+                0.8864160012470582,
+                0.1310376471408237
+              ],
+              "side_tangent_turn_deg": 11.235988300521795
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 293,
+              "normal": [
+                0.5181785915352022,
+                0.6887890791921447,
+                0.5070113920418667
+              ],
+              "normal_dot_chain_radial": 0.6566119067476912,
+              "normal_dot_chain_axis": 0.7380943014596997
+            },
+            {
+              "vertex_id": 386,
+              "normal": [
+                0.45427473716163075,
+                0.1481870061040852,
+                0.8784503824341128
+              ],
+              "normal_dot_chain_radial": 0.025991368765984152,
+              "normal_dot_chain_axis": 0.997620339502622
+            },
+            {
+              "vertex_id": 1444,
+              "normal": [
+                0.778526848251737,
+                0.5648888338041664,
+                0.2734895829727076
+              ],
+              "normal_dot_chain_radial": 0.48367697361156975,
+              "normal_dot_chain_axis": 0.6311644922734309
+            },
+            {
+              "vertex_id": 1518,
+              "normal": [
+                0.5573053706384202,
+                0.45652613683658616,
+                0.6935377496882457
+              ],
+              "normal_dot_chain_radial": 0.3510325784334676,
+              "normal_dot_chain_axis": 0.9026633446523784
+            },
+            {
+              "vertex_id": 1520,
+              "normal": [
+                0.7380911032983983,
+                -0.005945506340843053,
+                0.6746748655360625
+              ],
+              "normal_dot_chain_radial": -0.33159856610205596,
+              "normal_dot_chain_axis": 0.9249915955521875
+            },
+            {
+              "vertex_id": 2822,
+              "normal": [
+                0.8216386476948203,
+                0.2789205868389569,
+                0.49710485699864054
+              ],
+              "normal_dot_chain_radial": 0.04619225715540233,
+              "normal_dot_chain_axis": 0.8261709210159309
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.6652134355740223,
+              0.6947983513135286,
+              0.27339776177541847
+            ],
+            "transverse": [
+              -0.18521611887163747,
+              -0.7307507477831235,
+              0.6570375437709273
+            ],
+            "surface_normal": [
+              0.7003943619571195,
+              0.3756250410086566,
+              0.6069213839583548
+            ],
+            "orthonormal_longitudinal": [
+              -0.6383856693630428,
+              0.7099867217721662,
+              0.297292098884435
+            ],
+            "orthonormal_transverse": [
+              -0.319235766935003,
+              -0.5956716238620553,
+              0.7370643402274748
+            ],
+            "L_cross_T_dot_normal": 0.9991450796174266,
+            "longitudinal_dot_thumb_axis": 0.015372362810805007,
+            "transverse_dot_circumferential": 0.618769056362792,
+            "transverse_dot_thumb_axis": 0.44687484517379106,
+            "normal_dot_chain_radial": 0.20942116027938024,
+            "normal_dot_thumb_axis": 0.8802325405957333,
+            "normal_dot_circumferential": -0.42583265739445014
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.443522067359776,
+                -0.006525033031573569,
+                0.39622855683974395
+              ],
+              [
+                1.4609006455070095,
+                -0.0031287952595831533,
+                0.43213291466236115
+              ],
+              [
+                1.4839419489321501,
+                -0.01135163952636978,
+                0.44807723553284357
+              ],
+              [
+                1.49774169921875,
+                -0.013108416460454464,
+                0.46520325541496277
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.7481136762866516,
+            "axis_vector": [
+              0.4341020862614249,
+              0.08483512803926287,
+              0.8968602899861498
+            ],
+            "radial_direction_only": [
+              -0.2436831141962644,
+              0.9694998090407243,
+              0.026242334606689
+            ],
+            "circumferential_direction": [
+              -0.8672796080613729,
+              -0.22994156066392377,
+              0.44153477792847773
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": 0.03842208193592092,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -10.064652408229154
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4609006455070095,
+              -0.0031287952595831533,
+              0.43213291466236115
+            ],
+            "centre_offset_world_m": [
+              -0.006141961666575657,
+              0.006164786013725557,
+              -0.008853793144226074
+            ],
+            "centre_distance_mm": 12.414424382525985,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.443522067359776,
+              -0.006525033031573569,
+              0.39622855683974395
+            ],
+            "centre_distance_mm": 30.812461361991843,
+            "centre_direction": [
+              -0.3646776655927464,
+              -0.31029730709893244,
+              -0.877909893682134
+            ],
+            "normal_dot_CMC_direction": -0.9047959072810485,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.31684165745233966,
+            "inherited_proximal_palm_proxy_dot": -0.7723124345350387,
+            "inherited_thenar_direction_proxy": [
+              -0.39473844655517804,
+              0.34492106048002613,
+              -0.8515932249898063
+            ],
+            "local_flank_face_ids": [
+              1254,
+              1255,
+              1257,
+              1500,
+              1503,
+              1505
+            ],
+            "local_flank_mean_normal": [
+              0.6858864979402305,
+              0.49968381649426824,
+              0.5290328869522279
+            ],
+            "normal_dot_local_flank_normal": 0.9891661620704024,
+            "face_pair_normal_turn_deg": 18.19428099768596,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "293": 4,
+              "386": 4,
+              "1444": 4,
+              "1518": 4,
+              "1520": 4,
+              "2822": 4
+            },
+            "incident_face_fans": {
+              "293": [
+                1255,
+                1257,
+                1368,
+                1373
+              ],
+              "386": [
+                1371,
+                1374,
+                1503,
+                1505
+              ],
+              "1444": [
+                1254,
+                1255,
+                1368,
+                1369
+              ],
+              "1518": [
+                1368,
+                1371,
+                1373,
+                1374
+              ],
+              "1520": [
+                1370,
+                1371,
+                1500,
+                1503
+              ],
+              "2822": [
+                1368,
+                1369,
+                1370,
+                1371
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": [
+            -0.6884031368755485,
+            0.712279175802578,
+            -0.13696531260835595
+          ],
+          "outgoing_row_tangent": [
+            -0.4419141371008371,
+            0.6049003020513232,
+            0.66242548260815
+          ],
+          "turn_from_previous_row_deg": 23.74033514206496,
+          "normal_turn_from_previous_row_deg": 22.43285027020697,
+          "outgoing_width_relative_change_from_previous": 0.06263365495586681,
+          "within_row_width_relative_change": 0.06263365495586681
+        },
+        {
+          "row_id": "P05",
+          "face_ids": [
+            1369,
+            1370
+          ],
+          "vertex_ids": [
+            294,
+            385,
+            1444,
+            1519,
+            1520,
+            2822
+          ],
+          "edge_ids": [
+            1227,
+            1376,
+            1377,
+            1378,
+            4666,
+            4667,
+            4668
+          ],
+          "incoming_edge_ids": [
+            4666,
+            4668
+          ],
+          "outgoing_edge_ids": [
+            1376,
+            1377
+          ],
+          "centre_world_m": [
+            1.453277309735616,
+            0.004794087416181962,
+            0.4245952069759369
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                1444,
+                2822,
+                1520
+              ],
+              "left_position_world_m": [
+                1.4544951915740967,
+                0.007349132560193539,
+                0.4202215373516083
+              ],
+              "middle_position_world_m": [
+                1.4543378353118896,
+                0.003971541300415993,
+                0.4241821765899658
+              ],
+              "right_position_world_m": [
+                1.452949047088623,
+                0.00039219390600919724,
+                0.4264586567878723
+              ],
+              "chord_width_mm": 9.470544708213325,
+              "partial_arc_width_mm": 9.671142040095006,
+              "arc_chord_ratio": 1.0211811820821366,
+              "transverse_vector": [
+                -0.16325824259429766,
+                -0.734586960784942,
+                0.6585808555293446
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                294,
+                1519,
+                385
+              ],
+              "left_position_world_m": [
+                1.452859878540039,
+                0.009650505147874355,
+                0.42222240567207336
+              ],
+              "middle_position_world_m": [
+                1.4532279968261719,
+                0.0055635664612054825,
+                0.42599523067474365
+              ],
+              "right_position_world_m": [
+                1.451793909072876,
+                0.0018375851213932037,
+                0.4284912347793579
+              ],
+              "chord_width_mm": 10.07354101701344,
+              "partial_arc_width_mm": 10.282755497343699,
+              "arc_chord_ratio": 1.0207687128068383,
+              "transverse_vector": [
+                -0.10581874490437326,
+                -0.7755882477954602,
+                0.6223064061283886
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1227,
+          "right_frontier_edge_id": 1378,
+          "lanes": [
+            {
+              "face_id": 1369,
+              "left_frontier_edge_id": 1227,
+              "right_frontier_edge_id": 4667,
+              "incoming_edge_id": 4666,
+              "outgoing_edge_id": 1376,
+              "face_normal": [
+                0.8929148478719305,
+                0.3358550487665107,
+                0.29984072549920865
+              ],
+              "normal_dot_own_face_centroid_radial": 0.11523331656622787,
+              "own_face_centroid_radial_direction": [
+                -0.24447679279145704,
+                0.9692889481624393,
+                0.026646439847659756
+              ],
+              "side_tangent_turn_deg": 7.736895743308434
+            },
+            {
+              "face_id": 1370,
+              "left_frontier_edge_id": 4667,
+              "right_frontier_edge_id": 1378,
+              "incoming_edge_id": 4668,
+              "outgoing_edge_id": 1377,
+              "face_normal": [
+                0.8613328966377667,
+                -0.0009338961338101382,
+                0.5080401253912977
+              ],
+              "normal_dot_own_face_centroid_radial": -0.3655261332447264,
+              "own_face_centroid_radial_direction": [
+                -0.527807519226961,
+                0.8307399322069373,
+                0.17689089203318034
+              ],
+              "side_tangent_turn_deg": 5.3304206889065275
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 294,
+              "normal": [
+                0.870040620698413,
+                0.4766743823606411,
+                0.12574120858263346
+              ],
+              "normal_dot_chain_radial": 0.2728985066046409,
+              "normal_dot_chain_axis": 0.5308974776305972
+            },
+            {
+              "vertex_id": 385,
+              "normal": [
+                0.8730444578154374,
+                -0.1758238600580054,
+                0.4548399113007256
+              ],
+              "normal_dot_chain_radial": -0.6055794599018397,
+              "normal_dot_chain_axis": 0.772002235602721
+            },
+            {
+              "vertex_id": 1444,
+              "normal": [
+                0.778526848251737,
+                0.5648888338041664,
+                0.2734895829727076
+              ],
+              "normal_dot_chain_radial": 0.48367697361156975,
+              "normal_dot_chain_axis": 0.6311644922734309
+            },
+            {
+              "vertex_id": 1519,
+              "normal": [
+                0.942727584354958,
+                0.13269317563289088,
+                0.30603467587305294
+              ],
+              "normal_dot_chain_radial": -0.22578820464218635,
+              "normal_dot_chain_axis": 0.6949674018387569
+            },
+            {
+              "vertex_id": 1520,
+              "normal": [
+                0.7380911032983983,
+                -0.005945506340843053,
+                0.6746748655360625
+              ],
+              "normal_dot_chain_radial": -0.33159856610205596,
+              "normal_dot_chain_axis": 0.9249915955521875
+            },
+            {
+              "vertex_id": 2822,
+              "normal": [
+                0.8216386476948203,
+                0.2789205868389569,
+                0.49710485699864054
+              ],
+              "normal_dot_chain_radial": 0.04619225715540233,
+              "normal_dot_chain_axis": 0.8261709210159309
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.4419141371008371,
+              0.6049003020513232,
+              0.66242548260815
+            ],
+            "transverse": [
+              -0.13375761184575305,
+              -0.7563150230987785,
+              0.6403877630845354
+            ],
+            "surface_normal": [
+              0.8968507733294884,
+              0.1949151895928405,
+              0.3970727379766658
+            ],
+            "orthonormal_longitudinal": [
+              -0.428157256371842,
+              0.6079732109148216,
+              0.6686179317263773
+            ],
+            "orthonormal_transverse": [
+              -0.11108579654679343,
+              -0.7696600832029091,
+              0.6287155971738378
+            ],
+            "L_cross_T_dot_normal": 0.9998007702584322,
+            "longitudinal_dot_thumb_axis": 0.45358405613778263,
+            "transverse_dot_circumferential": 0.6714982640480358,
+            "transverse_dot_thumb_axis": 0.452111814725388,
+            "normal_dot_chain_radial": -0.11899509530304353,
+            "normal_dot_thumb_axis": 0.761979217760756,
+            "normal_dot_circumferential": -0.6365750851192078
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.443522067359776,
+                -0.006525033031573569,
+                0.39622855683974395
+              ],
+              [
+                1.4609006455070095,
+                -0.0031287952595831533,
+                0.43213291466236115
+              ],
+              [
+                1.4839419489321501,
+                -0.01135163952636978,
+                0.44807723553284357
+              ],
+              [
+                1.49774169921875,
+                -0.013108416460454464,
+                0.46520325541496277
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.7652600021465048,
+            "axis_vector": [
+              0.4341020862614249,
+              0.08483512803926287,
+              0.8968602899861498
+            ],
+            "radial_direction_only": [
+              -0.37482577948695456,
+              0.9222988290908455,
+              0.09418335781682578
+            ],
+            "circumferential_direction": [
+              -0.8191831380927439,
+              -0.37705154940434504,
+              0.4321702388599976
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": 1.334429020714452,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -8.730223387514695
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4609006455070095,
+              -0.0031287952595831533,
+              0.43213291466236115
+            ],
+            "centre_offset_world_m": [
+              -0.0076233357713935135,
+              0.007922882675765115,
+              -0.007537707686424255
+            ],
+            "centre_distance_mm": 13.33057970769937,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.443522067359776,
+              -0.006525033031573569,
+              0.39622855683974395
+            ],
+            "centre_distance_mm": 32.06172299598631,
+            "centre_direction": [
+              -0.3042644457087115,
+              -0.35304155204548837,
+              -0.8847512699097319
+            ],
+            "normal_dot_CMC_direction": -0.6930035736530124,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.013252227186749677,
+            "inherited_proximal_palm_proxy_dot": -0.792628350358793,
+            "inherited_thenar_direction_proxy": [
+              -0.3487288935696065,
+              0.2904597519125791,
+              -0.8910787234069731
+            ],
+            "local_flank_face_ids": [
+              1250,
+              1254,
+              1255,
+              1496,
+              1500,
+              1503
+            ],
+            "local_flank_mean_normal": [
+              0.8468828541816079,
+              0.4186368944813069,
+              0.3279216093401908
+            ],
+            "normal_dot_local_flank_normal": 0.9713349636130655,
+            "face_pair_normal_turn_deg": 22.910453048674004,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "294": 4,
+              "385": 4,
+              "1444": 4,
+              "1519": 4,
+              "1520": 4,
+              "2822": 4
+            },
+            "incident_face_fans": {
+              "294": [
+                1250,
+                1254,
+                1369,
+                1378
+              ],
+              "385": [
+                1370,
+                1377,
+                1496,
+                1500
+              ],
+              "1444": [
+                1254,
+                1255,
+                1368,
+                1369
+              ],
+              "1519": [
+                1369,
+                1370,
+                1377,
+                1378
+              ],
+              "1520": [
+                1370,
+                1371,
+                1500,
+                1503
+              ],
+              "2822": [
+                1368,
+                1369,
+                1370,
+                1371
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": [
+            -0.6652134355740223,
+            0.6947983513135286,
+            0.27339776177541847
+          ],
+          "outgoing_row_tangent": [
+            -0.2541094662400305,
+            0.3540883520115523,
+            0.9000276763172063
+          ],
+          "turn_from_previous_row_deg": 26.44572949082535,
+          "normal_turn_from_previous_row_deg": 19.548911661269017,
+          "outgoing_width_relative_change_from_previous": 0.06367071033170535,
+          "within_row_width_relative_change": 0.06367071033170535
+        },
+        {
+          "row_id": "P06",
+          "face_ids": [
+            1378,
+            1377
+          ],
+          "vertex_ids": [
+            294,
+            385,
+            1445,
+            1519,
+            1523,
+            2824
+          ],
+          "edge_ids": [
+            1229,
+            1376,
+            1377,
+            1384,
+            4674,
+            4675,
+            4676
+          ],
+          "incoming_edge_ids": [
+            1376,
+            1377
+          ],
+          "outgoing_edge_ids": [
+            4676,
+            4674
+          ],
+          "centre_world_m": [
+            1.4521816571553547,
+            0.006304812074328463,
+            0.42714790503184
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                294,
+                1519,
+                385
+              ],
+              "left_position_world_m": [
+                1.452859878540039,
+                0.009650505147874355,
+                0.42222240567207336
+              ],
+              "middle_position_world_m": [
+                1.4532279968261719,
+                0.0055635664612054825,
+                0.42599523067474365
+              ],
+              "right_position_world_m": [
+                1.451793909072876,
+                0.0018375851213932037,
+                0.4284912347793579
+              ],
+              "chord_width_mm": 10.07354101701344,
+              "partial_arc_width_mm": 10.282755497343699,
+              "arc_chord_ratio": 1.0207687128068383,
+              "transverse_vector": [
+                -0.10581874490437326,
+                -0.7755882477954602,
+                0.6223064061283886
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                1445,
+                2824,
+                1523
+              ],
+              "left_position_world_m": [
+                1.4517266750335693,
+                0.011178816668689251,
+                0.4257097840309143
+              ],
+              "middle_position_world_m": [
+                1.4524633884429932,
+                0.006770639214664698,
+                0.42926114797592163
+              ],
+              "right_position_world_m": [
+                1.4510180950164795,
+                0.0028277598321437836,
+                0.4312076270580292
+              ],
+              "chord_width_mm": 10.02339831986275,
+              "partial_arc_width_mm": 10.33710050078829,
+              "arc_chord_ratio": 1.0312969883980263,
+              "transverse_vector": [
+                -0.07069259291888005,
+                -0.833156238039218,
+                0.5485009027547206
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1229,
+          "right_frontier_edge_id": 1384,
+          "lanes": [
+            {
+              "face_id": 1378,
+              "left_frontier_edge_id": 1229,
+              "right_frontier_edge_id": 4675,
+              "incoming_edge_id": 1376,
+              "outgoing_edge_id": 4676,
+              "face_normal": [
+                0.9513886967962472,
+                0.2625531098367514,
+                0.16101370166352091
+              ],
+              "normal_dot_own_face_centroid_radial": -0.08569994878948725,
+              "own_face_centroid_radial_direction": [
+                -0.3610244182670159,
+                0.9284970802576027,
+                0.0869168646930474
+              ],
+              "side_tangent_turn_deg": 5.315382497435126
+            },
+            {
+              "face_id": 1377,
+              "left_frontier_edge_id": 4675,
+              "right_frontier_edge_id": 1384,
+              "incoming_edge_id": 1377,
+              "outgoing_edge_id": 4674,
+              "face_normal": [
+                0.9361279675377718,
+                -0.17467914148646815,
+                0.3052075128877904
+              ],
+              "normal_dot_own_face_centroid_radial": -0.6266523134892482,
+              "own_face_centroid_radial_direction": [
+                -0.5948391551230845,
+                0.7746584895666765,
+                0.21464063938297032
+              ],
+              "side_tangent_turn_deg": 2.646791827850738
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 294,
+              "normal": [
+                0.870040620698413,
+                0.4766743823606411,
+                0.12574120858263346
+              ],
+              "normal_dot_chain_radial": 0.2728985066046409,
+              "normal_dot_chain_axis": 0.5308974776305972
+            },
+            {
+              "vertex_id": 385,
+              "normal": [
+                0.8730444578154374,
+                -0.1758238600580054,
+                0.4548399113007256
+              ],
+              "normal_dot_chain_radial": -0.6055794599018397,
+              "normal_dot_chain_axis": 0.772002235602721
+            },
+            {
+              "vertex_id": 1445,
+              "normal": [
+                0.8601334770654671,
+                0.4996763836031156,
+                0.10243980330214246
+              ],
+              "normal_dot_chain_radial": 0.18265021478210103,
+              "normal_dot_chain_axis": 0.5076500385342625
+            },
+            {
+              "vertex_id": 1519,
+              "normal": [
+                0.942727584354958,
+                0.13269317563289088,
+                0.30603467587305294
+              ],
+              "normal_dot_chain_radial": -0.22578820464218635,
+              "normal_dot_chain_axis": 0.6949674018387569
+            },
+            {
+              "vertex_id": 1523,
+              "normal": [
+                0.9018702627194668,
+                -0.27569523195341367,
+                0.33259911049260693
+              ],
+              "normal_dot_chain_radial": -0.7335398249538752,
+              "normal_dot_chain_axis": 0.6664100569666127
+            },
+            {
+              "vertex_id": 2824,
+              "normal": [
+                0.9716712340523365,
+                0.09561365376476572,
+                0.21613200163085755
+              ],
+              "normal_dot_chain_radial": -0.36995589888749086,
+              "normal_dot_chain_axis": 0.623756116079706
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.2541094662400305,
+              0.3540883520115523,
+              0.9000276763172063
+            ],
+            "transverse": [
+              -0.08841001708628667,
+              -0.8053071967413447,
+              0.5862286139002426
+            ],
+            "surface_normal": [
+              0.9703954379831389,
+              0.08008003142043685,
+              0.22785934808388666
+            ],
+            "orthonormal_longitudinal": [
+              -0.24136814578207677,
+              0.35517224497757766,
+              0.9031024828884648
+            ],
+            "orthonormal_transverse": [
+              -0.008608840992498534,
+              -0.9313645177723326,
+              0.36398629492259243
+            ],
+            "L_cross_T_dot_normal": 0.9998195256709432,
+            "longitudinal_dot_thumb_axis": 0.7269287640239475,
+            "transverse_dot_circumferential": 0.7054152602828505,
+            "transverse_dot_thumb_axis": 0.41906785265069313,
+            "normal_dot_chain_radial": -0.35609836056022426,
+            "normal_dot_thumb_axis": 0.6324022848445603,
+            "normal_dot_circumferential": -0.6879399012484303
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.443522067359776,
+                -0.006525033031573569,
+                0.39622855683974395
+              ],
+              [
+                1.4609006455070095,
+                -0.0031287952595831533,
+                0.43213291466236115
+              ],
+              [
+                1.4839419489321501,
+                -0.01135163952636978,
+                0.44807723553284357
+              ],
+              [
+                1.49774169921875,
+                -0.013108416460454464,
+                0.46520325541496277
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.8137682839687377,
+            "axis_vector": [
+              0.4341020862614249,
+              0.08483512803926287,
+              0.8968602899861498
+            ],
+            "radial_direction_only": [
+              -0.47312623528200703,
+              0.8686718677468053,
+              0.14683579833661817
+            ],
+            "circumferential_direction": [
+              -0.7666204694575754,
+              -0.4880698589708638,
+              0.4172299948143801
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": 2.549472914407865,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -6.180750473106819
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4609006455070095,
+              -0.0031287952595831533,
+              0.43213291466236115
+            ],
+            "centre_offset_world_m": [
+              -0.008718988351654744,
+              0.009433607333911615,
+              -0.00498500963052112
+            ],
+            "centre_distance_mm": 13.779115582036113,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.443522067359776,
+              -0.006525033031573569,
+              0.39622855683974395
+            ],
+            "centre_distance_mm": 34.57744226360888,
+            "centre_direction": [
+              -0.2504404382938585,
+              -0.37104667858573326,
+              -0.8942057644511556
+            ],
+            "normal_dot_CMC_direction": -0.4764928310271461,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": -0.2096536537621102,
+            "inherited_proximal_palm_proxy_dot": -0.7455355024208583,
+            "inherited_thenar_direction_proxy": [
+              -0.30053132698788426,
+              0.23276915286941027,
+              -0.9249321288458731
+            ],
+            "local_flank_face_ids": [
+              1249,
+              1250,
+              1254,
+              1376,
+              1379,
+              1496,
+              1497,
+              1500
+            ],
+            "local_flank_mean_normal": [
+              0.9322293044665151,
+              0.29343971632999305,
+              0.21175848689970064
+            ],
+            "normal_dot_local_flank_normal": 0.9763808766884068,
+            "face_pair_normal_turn_deg": 26.632308663813426,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "294": 4,
+              "385": 4,
+              "1445": 4,
+              "1519": 4,
+              "1523": 4,
+              "2824": 4
+            },
+            "incident_face_fans": {
+              "294": [
+                1250,
+                1254,
+                1369,
+                1378
+              ],
+              "385": [
+                1370,
+                1377,
+                1496,
+                1500
+              ],
+              "1445": [
+                1249,
+                1250,
+                1378,
+                1379
+              ],
+              "1519": [
+                1369,
+                1370,
+                1377,
+                1378
+              ],
+              "1523": [
+                1376,
+                1377,
+                1496,
+                1497
+              ],
+              "2824": [
+                1376,
+                1377,
+                1378,
+                1379
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": [
+            -0.4419141371008371,
+            0.6049003020513232,
+            0.66242548260815
+          ],
+          "outgoing_row_tangent": null,
+          "turn_from_previous_row_deg": 22.678329058119,
+          "normal_turn_from_previous_row_deg": 12.47630095969083,
+          "outgoing_width_relative_change_from_previous": -0.004977663471663396,
+          "within_row_width_relative_change": -0.004977663471663396
+        }
+      ],
+      "vertex_positions_world_m": {
+        "293": [
+          1.4564526081085205,
+          0.005425687413662672,
+          0.41982001066207886
+        ],
+        "294": [
+          1.452859878540039,
+          0.009650505147874355,
+          0.42222240567207336
+        ],
+        "295": [
+          1.4504284858703613,
+          0.012309381738305092,
+          0.4297633767127991
+        ],
+        "310": [
+          1.460893154144287,
+          0.0019076084718108177,
+          0.42240503430366516
+        ],
+        "317": [
+          1.4577710628509521,
+          -0.004368358291685581,
+          0.42600929737091064
+        ],
+        "385": [
+          1.451793909072876,
+          0.0018375851213932037,
+          0.4284912347793579
+        ],
+        "386": [
+          1.4545948505401611,
+          -0.0010471120476722717,
+          0.4256579279899597
+        ],
+        "387": [
+          1.4505395889282227,
+          0.004010568372905254,
+          0.4343245029449463
+        ],
+        "1374": [
+          1.4564599990844727,
+          0.008361571468412876,
+          0.41475343704223633
+        ],
+        "1375": [
+          1.4505527019500732,
+          0.013344695791602135,
+          0.41730818152427673
+        ],
+        "1377": [
+          1.4476244449615479,
+          0.015572779811918736,
+          0.42645782232284546
+        ],
+        "1422": [
+          1.4591729640960693,
+          -0.005187484435737133,
+          0.42728233337402344
+        ],
+        "1423": [
+          1.4592487812042236,
+          -0.0010819071903824806,
+          0.42469459772109985
+        ],
+        "1424": [
+          1.4625492095947266,
+          0.0042868442833423615,
+          0.419272780418396
+        ],
+        "1427": [
+          1.4564838409423828,
+          -0.008273853920400143,
+          0.4256187677383423
+        ],
+        "1442": [
+          1.458667516708374,
+          0.0033986270427703857,
+          0.42055976390838623
+        ],
+        "1444": [
+          1.4544951915740967,
+          0.007349132560193539,
+          0.4202215373516083
+        ],
+        "1445": [
+          1.4517266750335693,
+          0.011178816668689251,
+          0.4257097840309143
+        ],
+        "1518": [
+          1.4557225704193115,
+          0.0021245013922452927,
+          0.42333441972732544
+        ],
+        "1519": [
+          1.4532279968261719,
+          0.0055635664612054825,
+          0.42599523067474365
+        ],
+        "1520": [
+          1.452949047088623,
+          0.00039219390600919724,
+          0.4264586567878723
+        ],
+        "1521": [
+          1.4560444355010986,
+          -0.0029602106660604477,
+          0.42564064264297485
+        ],
+        "1523": [
+          1.4510180950164795,
+          0.0028277598321437836,
+          0.4312076270580292
+        ],
+        "1524": [
+          1.4516656398773193,
+          0.008332794532179832,
+          0.4325428605079651
+        ],
+        "1579": [
+          1.4481751918792725,
+          0.0008090846240520477,
+          0.4353146255016327
+        ],
+        "1581": [
+          1.450011968612671,
+          -0.0017025619745254517,
+          0.4297039806842804
+        ],
+        "1584": [
+          1.4529118537902832,
+          -0.004794956184923649,
+          0.4261797070503235
+        ],
+        "2360": [
+          1.462780237197876,
+          0.0009204838424921036,
+          0.42461973428726196
+        ],
+        "2792": [
+          1.448871374130249,
+          0.014858897775411606,
+          0.4216633439064026
+        ],
+        "2793": [
+          1.4529128074645996,
+          0.010341069661080837,
+          0.41499269008636475
+        ],
+        "2794": [
+          1.4597511291503906,
+          0.0061402469873428345,
+          0.41653716564178467
+        ],
+        "2822": [
+          1.4543378353118896,
+          0.003971541300415993,
+          0.4241821765899658
+        ],
+        "2823": [
+          1.4574615955352783,
+          0.00047373026609420776,
+          0.42368704080581665
+        ],
+        "2824": [
+          1.4524633884429932,
+          0.006770639214664698,
+          0.42926114797592163
+        ],
+        "2854": [
+          1.4489834308624268,
+          -0.000237341970205307,
+          0.4324077367782593
+        ],
+        "2855": [
+          1.4513001441955566,
+          -0.003179139457643032,
+          0.4275415539741516
+        ],
+        "2856": [
+          1.4545817375183105,
+          -0.0067578526213765144,
+          0.42556294798851013
+        ],
+        "3238": [
+          1.4607899188995361,
+          -0.001887979917228222,
+          0.42649465799331665
+        ],
+        "3239": [
+          1.464949131011963,
+          0.0029429402202367783,
+          0.4220117926597595
+        ],
+        "3245": [
+          1.4581143856048584,
+          -0.008922691456973553,
+          0.42671066522598267
+        ]
+      },
+      "face_normals": {
+        "1249": [
+          0.7351088144374823,
+          0.6742312598102819,
+          0.07090302695202305
+        ],
+        "1250": [
+          0.7906342005934381,
+          0.6104896672347836,
+          0.04690337995857089
+        ],
+        "1254": [
+          0.8203119010146086,
+          0.5687256129520258,
+          0.06032878439137724
+        ],
+        "1255": [
+          0.5695574880507774,
+          0.7469819982747661,
+          0.3429608754052362
+        ],
+        "1257": [
+          0.35555248964148295,
+          0.7729424012662511,
+          0.5254925988389417
+        ],
+        "1258": [
+          0.007880360925039393,
+          0.8117264624103615,
+          0.5839846317622162
+        ],
+        "1368": [
+          0.7215157975678451,
+          0.47156845775186024,
+          0.506989293292835
+        ],
+        "1369": [
+          0.8929148478719305,
+          0.3358550487665107,
+          0.29984072549920865
+        ],
+        "1370": [
+          0.8613328966377667,
+          -0.0009338961338101382,
+          0.5080401253912977
+        ],
+        "1371": [
+          0.6540888167734284,
+          0.24403123232118656,
+          0.7159724697387041
+        ],
+        "1372": [
+          -0.008383393594791773,
+          0.6775762340135314,
+          0.7354047632507386
+        ],
+        "1373": [
+          0.3825262730800331,
+          0.6158251485510495,
+          0.6887909964681433
+        ],
+        "1374": [
+          0.363056169284463,
+          0.40383846718529465,
+          0.839705132987719
+        ],
+        "1375": [
+          0.012258201875930701,
+          0.43304087865381624,
+          0.9012909263392701
+        ],
+        "1376": [
+          0.9482438893649905,
+          -0.17569564152375894,
+          0.2645081621264461
+        ],
+        "1377": [
+          0.9361279675377718,
+          -0.17467914148646815,
+          0.3052075128877904
+        ],
+        "1378": [
+          0.9513886967962472,
+          0.2625531098367514,
+          0.16101370166352091
+        ],
+        "1379": [
+          0.9328553720673446,
+          0.32952504189120274,
+          0.14558194109056596
+        ],
+        "1496": [
+          0.8410950189980103,
+          -0.3292325929179868,
+          0.42914457794225486
+        ],
+        "1497": [
+          0.8208119424965984,
+          -0.45594427859613396,
+          0.3440676821068957
+        ],
+        "1500": [
+          0.7856557610762537,
+          -0.18885216350202258,
+          0.5891348618341116
+        ],
+        "1503": [
+          0.5197078880182023,
+          -0.0495930963798205,
+          0.852903415354354
+        ],
+        "1504": [
+          -0.12781080005713052,
+          -0.014651697310052973,
+          0.9916903383388843
+        ],
+        "1505": [
+          0.17909928275535889,
+          -0.01677176940151057,
+          0.9836880372697732
+        ],
+        "3032": [
+          -0.374722090405334,
+          0.6842565569003798,
+          0.6256007667043686
+        ],
+        "3033": [
+          -0.5014684756159982,
+          0.4679359471717042,
+          0.7277123863916891
+        ],
+        "3037": [
+          -0.160930643872207,
+          0.8320697976298216,
+          0.53081181197779
+        ],
+        "3060": [
+          -0.5888166118314956,
+          0.07948265150678664,
+          0.8043491193137022
+        ]
+      },
+      "vertex_normals": {
+        "293": [
+          0.5181785915352022,
+          0.6887890791921447,
+          0.5070113920418667
+        ],
+        "294": [
+          0.870040620698413,
+          0.4766743823606411,
+          0.12574120858263346
+        ],
+        "310": [
+          -0.12367085681172885,
+          0.7727289132174223,
+          0.6225717194454582
+        ],
+        "317": [
+          -0.31104000594247094,
+          0.25542957916551756,
+          0.9154287764706954
+        ],
+        "385": [
+          0.8730444578154374,
+          -0.1758238600580054,
+          0.4548399113007256
+        ],
+        "386": [
+          0.45427473716163075,
+          0.1481870061040852,
+          0.8784503824341128
+        ],
+        "1423": [
+          -0.21726528972178866,
+          0.599830470246436,
+          0.7700644134395815
+        ],
+        "1442": [
+          0.19712720279299412,
+          0.7485305132043693,
+          0.6331215813104251
+        ],
+        "1444": [
+          0.778526848251737,
+          0.5648888338041664,
+          0.2734895829727076
+        ],
+        "1445": [
+          0.8601334770654671,
+          0.4996763836031156,
+          0.10243980330214246
+        ],
+        "1518": [
+          0.5573053706384202,
+          0.45652613683658616,
+          0.6935377496882457
+        ],
+        "1519": [
+          0.942727584354958,
+          0.13269317563289088,
+          0.30603467587305294
+        ],
+        "1520": [
+          0.7380911032983983,
+          -0.005945506340843053,
+          0.6746748655360625
+        ],
+        "1521": [
+          0.11112980201122237,
+          0.20887901356163782,
+          0.9716067747800361
+        ],
+        "1523": [
+          0.9018702627194668,
+          -0.27569523195341367,
+          0.33259911049260693
+        ],
+        "2822": [
+          0.8216386476948203,
+          0.2789205868389569,
+          0.49710485699864054
+        ],
+        "2823": [
+          0.1953962463382667,
+          0.560984379229688,
+          0.8044357234591194
+        ],
+        "2824": [
+          0.9716712340523365,
+          0.09561365376476572,
+          0.21613200163085755
+        ]
+      },
+      "chain_reference_provenance": "Independent native frozen anchor evidence"
+    },
+    "RSSF": {
+      "rows": [
+        {
+          "row_id": "P02",
+          "face_ids": [
+            1372,
+            1375
+          ],
+          "vertex_ids": [
+            310,
+            317,
+            1423,
+            1442,
+            1521,
+            2823
+          ],
+          "edge_ids": [
+            1184,
+            1185,
+            1223,
+            1380,
+            4670,
+            4672,
+            4673
+          ],
+          "incoming_edge_ids": [
+            1184,
+            1185
+          ],
+          "outgoing_edge_ids": [
+            4670,
+            4672
+          ],
+          "centre_world_m": [
+            1.4448948502540588,
+            0.007671494657794635,
+            0.42697278161843616
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                310,
+                1423,
+                317
+              ],
+              "left_position_world_m": [
+                1.447912335395813,
+                0.009753840044140816,
+                0.4263249635696411
+              ],
+              "middle_position_world_m": [
+                1.4452465772628784,
+                0.0073411790654063225,
+                0.4282958209514618
+              ],
+              "right_position_world_m": [
+                1.4432969093322754,
+                0.00435090996325016,
+                0.4295731484889984
+              ],
+              "chord_width_mm": 7.813099031582505,
+              "partial_arc_width_mm": 7.891549412682214,
+              "arc_chord_ratio": 1.0100408788859059,
+              "transverse_vector": [
+                -0.5907292413523608,
+                -0.6915220271816162,
+                0.4157357927023992
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                1442,
+                2823,
+                1521
+              ],
+              "left_position_world_m": [
+                1.4467341899871826,
+                0.010609901510179043,
+                0.4233294427394867
+              ],
+              "middle_position_world_m": [
+                1.4441581964492798,
+                0.008477883413434029,
+                0.4262188971042633
+              ],
+              "right_position_world_m": [
+                1.4420208930969238,
+                0.005495253950357437,
+                0.42809441685676575
+              ],
+              "chord_width_mm": 8.430881660612464,
+              "partial_arc_width_mm": 8.540185569396447,
+              "arc_chord_ratio": 1.0129647067986534,
+              "transverse_vector": [
+                -0.5590514823945935,
+                -0.6066563101835841,
+                0.5651809987489375
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1223,
+          "right_frontier_edge_id": 1380,
+          "lanes": [
+            {
+              "face_id": 1372,
+              "left_frontier_edge_id": 1223,
+              "right_frontier_edge_id": 4673,
+              "incoming_edge_id": 1184,
+              "outgoing_edge_id": 4670,
+              "face_normal": [
+                -0.2971813128815724,
+                0.8360303911580057,
+                0.4612336201256115
+              ],
+              "normal_dot_own_face_centroid_radial": 0.9271169301528748,
+              "own_face_centroid_radial_direction": [
+                -0.5057621782292516,
+                0.8509391300833913,
+                0.14179991525288096
+              ],
+              "side_tangent_turn_deg": 12.402232313950828
+            },
+            {
+              "face_id": 1375,
+              "left_frontier_edge_id": 4673,
+              "right_frontier_edge_id": 1380,
+              "incoming_edge_id": 1185,
+              "outgoing_edge_id": 4672,
+              "face_normal": [
+                -0.4004343188962704,
+                0.6268168607941267,
+                0.6683958252968641
+              ],
+              "normal_dot_own_face_centroid_radial": 0.8208279148956817,
+              "own_face_centroid_radial_direction": [
+                -0.8014448210409196,
+                0.5519502198831449,
+                0.23029796698546076
+              ],
+              "side_tangent_turn_deg": 12.41923112027096
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 310,
+              "normal": [
+                -0.3287348454111025,
+                0.8986422963423394,
+                0.290474481903498
+              ],
+              "normal_dot_chain_radial": 0.9784579693875516,
+              "normal_dot_chain_axis": 0.19267498420005358
+            },
+            {
+              "vertex_id": 317,
+              "normal": [
+                -0.7123275352341883,
+                0.4207506200445827,
+                0.561745848475345
+              ],
+              "normal_dot_chain_radial": 0.932067877229712,
+              "normal_dot_chain_axis": 0.34224634868462966
+            },
+            {
+              "vertex_id": 1423,
+              "normal": [
+                -0.5139309254209518,
+                0.7510891251174149,
+                0.4144154075638605
+              ],
+              "normal_dot_chain_radial": 0.9592992143207689,
+              "normal_dot_chain_axis": 0.25870320059711643
+            },
+            {
+              "vertex_id": 1442,
+              "normal": [
+                -0.0637649922607957,
+                0.8930885674457968,
+                0.4453390129548445
+              ],
+              "normal_dot_chain_radial": 0.9015364563096603,
+              "normal_dot_chain_axis": 0.41559643517141603
+            },
+            {
+              "vertex_id": 1521,
+              "normal": [
+                -0.3837058809944019,
+                0.4303135083347421,
+                0.8170679784662692
+              ],
+              "normal_dot_chain_radial": 0.7188278573265988,
+              "normal_dot_chain_axis": 0.6795449837600515
+            },
+            {
+              "vertex_id": 2823,
+              "normal": [
+                -0.17639722146969775,
+                0.7533792356769081,
+                0.6334853964446602
+              ],
+              "normal_dot_chain_radial": 0.7855954730466463,
+              "normal_dot_chain_axis": 0.5636559174545904
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.43835768707879136,
+              0.3881890515134493,
+              -0.8106489983118593
+            ],
+            "transverse": [
+              -0.5764897235628726,
+              -0.6499577119693293,
+              0.4951914491163968
+            ],
+            "surface_normal": [
+              -0.3465994841144667,
+              0.7534469298857882,
+              0.5587365402918139
+            ],
+            "orthonormal_longitudinal": [
+              -0.4413284216170434,
+              0.39462639005408984,
+              -0.8059151546818601
+            ],
+            "orthonormal_transverse": [
+              -0.8277064829301477,
+              -0.5259160922795172,
+              0.1957402411280002
+            ],
+            "L_cross_T_dot_normal": 0.9997987721111452,
+            "longitudinal_dot_thumb_axis": -0.8984179872949285,
+            "transverse_dot_circumferential": 0.9508917425424279,
+            "transverse_dot_thumb_axis": 0.30923860154051297,
+            "normal_dot_chain_radial": 0.8795417597093225,
+            "normal_dot_thumb_axis": 0.444174362416233,
+            "normal_dot_circumferential": -0.17063243741903655
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.4408950805664062,
+                0.0012198872864246368,
+                0.3918145000934601
+              ],
+              [
+                1.4540609121322632,
+                0.0015365742146968842,
+                0.43687304854393005
+              ],
+              [
+                1.450860857963562,
+                0.006127120926976204,
+                0.4640011489391327
+              ],
+              [
+                1.4514825344085693,
+                0.010474493727087975,
+                0.48555445671081543
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.7436926497650833,
+            "axis_vector": [
+              0.2804599529009697,
+              0.006746098834950901,
+              0.9598420208395206
+            ],
+            "radial_direction_only": [
+              -0.6691994286448979,
+              0.7182523967333925,
+              0.19048784551272466
+            ],
+            "circumferential_direction": [
+              -0.6881237821207229,
+              -0.6957499441158774,
+              0.20595551884478702
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": -2.420157448632201,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -13.242097439927676
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4540609121322632,
+              0.0015365742146968842,
+              0.43687304854393005
+            ],
+            "centre_offset_world_m": [
+              -0.009166061878204346,
+              0.006134920443097751,
+              -0.009900266925493895
+            ],
+            "centre_distance_mm": 14.821242336398054,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.4408950805664062,
+              0.0012198872864246368,
+              0.3918145000934601
+            ],
+            "centre_distance_mm": 35.96840495515549,
+            "centre_direction": [
+              -0.1112023091554769,
+              -0.179368737073932,
+              -0.9774768041232449
+            ],
+            "normal_dot_CMC_direction": -0.6427541690315404,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.9563797373250098,
+            "inherited_proximal_palm_proxy_dot": -0.4888055904160831,
+            "inherited_thenar_direction_proxy": [
+              -0.08986702043271401,
+              0.2288113295180657,
+              -0.9693138264374037
+            ],
+            "local_flank_face_ids": [
+              1257,
+              1258,
+              1504,
+              1505,
+              3032,
+              3033,
+              3037,
+              3060
+            ],
+            "local_flank_mean_normal": [
+              -0.4243156717928229,
+              0.7776973751713765,
+              0.4638351035902271
+            ],
+            "normal_dot_local_flank_normal": 0.992182913694084,
+            "face_pair_normal_turn_deg": 17.949935715125633,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "310": 4,
+              "317": 4,
+              "1423": 4,
+              "1442": 4,
+              "1521": 4,
+              "2823": 4
+            },
+            "incident_face_fans": {
+              "310": [
+                1258,
+                1372,
+                3032,
+                3037
+              ],
+              "317": [
+                1375,
+                1504,
+                3033,
+                3060
+              ],
+              "1423": [
+                1372,
+                1375,
+                3032,
+                3033
+              ],
+              "1442": [
+                1257,
+                1258,
+                1372,
+                1373
+              ],
+              "1521": [
+                1374,
+                1375,
+                1504,
+                1505
+              ],
+              "2823": [
+                1372,
+                1373,
+                1374,
+                1375
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": null,
+          "outgoing_row_tangent": [
+            -0.492881533977369,
+            0.6109880151298301,
+            -0.6194848172730516
+          ],
+          "turn_from_previous_row_deg": null,
+          "normal_turn_from_previous_row_deg": null,
+          "outgoing_width_relative_change_from_previous": null,
+          "within_row_width_relative_change": 0.079070113732429
+        },
+        {
+          "row_id": "P03",
+          "face_ids": [
+            1373,
+            1374
+          ],
+          "vertex_ids": [
+            293,
+            386,
+            1442,
+            1518,
+            1521,
+            2823
+          ],
+          "edge_ids": [
+            1222,
+            1374,
+            1375,
+            1381,
+            4670,
+            4671,
+            4672
+          ],
+          "incoming_edge_ids": [
+            4670,
+            4672
+          ],
+          "outgoing_edge_ids": [
+            1375,
+            1374
+          ],
+          "centre_world_m": [
+            1.4436719218889873,
+            0.008978414504478375,
+            0.4250859469175339
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                1442,
+                2823,
+                1521
+              ],
+              "left_position_world_m": [
+                1.4467341899871826,
+                0.010609901510179043,
+                0.4233294427394867
+              ],
+              "middle_position_world_m": [
+                1.4441581964492798,
+                0.008477883413434029,
+                0.4262188971042633
+              ],
+              "right_position_world_m": [
+                1.4420208930969238,
+                0.005495253950357437,
+                0.42809441685676575
+              ],
+              "chord_width_mm": 8.430881660612464,
+              "partial_arc_width_mm": 8.540185569396447,
+              "arc_chord_ratio": 1.0129647067986534,
+              "transverse_vector": [
+                -0.5590514823945935,
+                -0.6066563101835841,
+                0.5651809987489375
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                293,
+                1518,
+                386
+              ],
+              "left_position_world_m": [
+                1.4452476501464844,
+                0.012236188165843487,
+                0.42120644450187683
+              ],
+              "middle_position_world_m": [
+                1.442946434020996,
+                0.009834873490035534,
+                0.42472028732299805
+              ],
+              "right_position_world_m": [
+                1.4409241676330566,
+                0.0072163864970207214,
+                0.4269461929798126
+              ],
+              "chord_width_mm": 8.765593101906878,
+              "partial_arc_width_mm": 8.825851848971796,
+              "arc_chord_ratio": 1.0068744631839925,
+              "transverse_vector": [
+                -0.49323331155848404,
+                -0.572671080035731,
+                0.6548043482291185
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1222,
+          "right_frontier_edge_id": 1381,
+          "lanes": [
+            {
+              "face_id": 1373,
+              "left_frontier_edge_id": 1222,
+              "right_frontier_edge_id": 4671,
+              "incoming_edge_id": 4670,
+              "outgoing_edge_id": 1375,
+              "face_normal": [
+                0.060871741382404664,
+                0.7922005684472542,
+                0.6072173337882584
+              ],
+              "normal_dot_own_face_centroid_radial": 0.7344993332896639,
+              "own_face_centroid_radial_direction": [
+                -0.49247955108358155,
+                0.8593361207226909,
+                0.1378597961183417
+              ],
+              "side_tangent_turn_deg": 4.484422573952434
+            },
+            {
+              "face_id": 1374,
+              "left_frontier_edge_id": 4671,
+              "right_frontier_edge_id": 1381,
+              "incoming_edge_id": 4672,
+              "outgoing_edge_id": 1374,
+              "face_normal": [
+                -0.06676229375490043,
+                0.6212783145927581,
+                0.7807407072449638
+              ],
+              "normal_dot_own_face_centroid_radial": 0.6006388951191847,
+              "own_face_centroid_radial_direction": [
+                -0.7610435725965305,
+                0.6109455970161143,
+                0.21807833018466793
+              ],
+              "side_tangent_turn_deg": 12.659710933942506
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 293,
+              "normal": [
+                0.2841294260354773,
+                0.8141763828759164,
+                0.5063470023885195
+              ],
+              "normal_dot_chain_radial": 0.7125527601545171,
+              "normal_dot_chain_axis": 0.5711925698102834
+            },
+            {
+              "vertex_id": 386,
+              "normal": [
+                -0.0359555827744762,
+                0.3865086689506103,
+                0.9215846379434585
+              ],
+              "normal_dot_chain_radial": 0.4453599282423432,
+              "normal_dot_chain_axis": 0.8770989858881567
+            },
+            {
+              "vertex_id": 1442,
+              "normal": [
+                -0.0637649922607957,
+                0.8930885674457968,
+                0.4453390129548445
+              ],
+              "normal_dot_chain_radial": 0.9015364563096603,
+              "normal_dot_chain_axis": 0.41559643517141603
+            },
+            {
+              "vertex_id": 1518,
+              "normal": [
+                0.20092633501860907,
+                0.6498915853092133,
+                0.732986722417444
+              ],
+              "normal_dot_chain_radial": 0.4960691892968889,
+              "normal_dot_chain_axis": 0.7642874802160787
+            },
+            {
+              "vertex_id": 1521,
+              "normal": [
+                -0.3837058809944019,
+                0.4303135083347421,
+                0.8170679784662692
+              ],
+              "normal_dot_chain_radial": 0.7188278573265988,
+              "normal_dot_chain_axis": 0.6795449837600515
+            },
+            {
+              "vertex_id": 2823,
+              "normal": [
+                -0.17639722146969775,
+                0.7533792356769081,
+                0.6334853964446602
+              ],
+              "normal_dot_chain_radial": 0.7855954730466463,
+              "normal_dot_chain_axis": 0.5636559174545904
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.492881533977369,
+              0.6109880151298301,
+              -0.6194848172730516
+            ],
+            "transverse": [
+              -0.5263918321918974,
+              -0.5903310304936296,
+              0.6118994308201198
+            ],
+            "surface_normal": [
+              0.0063433418664696995,
+              0.725847910670326,
+              0.6878259755123296
+            ],
+            "orthonormal_longitudinal": [
+              -0.49302212147673413,
+              0.6006984238490124,
+              -0.6293572843146352
+            ],
+            "orthonormal_transverse": [
+              -0.8699936492575941,
+              -0.3351211932433322,
+              0.3616695122492629
+            ],
+            "L_cross_T_dot_normal": 0.9998873919433687,
+            "longitudinal_dot_thumb_axis": -0.7287193051587812,
+            "transverse_dot_circumferential": 0.9000770094615292,
+            "transverse_dot_thumb_axis": 0.43571252628789303,
+            "normal_dot_chain_radial": 0.6641295984403249,
+            "normal_dot_thumb_axis": 0.6668799694272985,
+            "normal_dot_circumferential": -0.33793931829862345
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.4408950805664062,
+                0.0012198872864246368,
+                0.3918145000934601
+              ],
+              [
+                1.4540609121322632,
+                0.0015365742146968842,
+                0.43687304854393005
+              ],
+              [
+                1.450860857963562,
+                0.006127120926976204,
+                0.4640011489391327
+              ],
+              [
+                1.4514825344085693,
+                0.010474493727087975,
+                0.48555445671081543
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.6979947509045354,
+            "axis_vector": [
+              0.2804599529009697,
+              0.006746098834950901,
+              0.9598420208395206
+            ],
+            "radial_direction_only": [
+              -0.6373020990741624,
+              0.7490679199111752,
+              0.18095105933818637
+            ],
+            "circumferential_direction": [
+              -0.7177661522630141,
+              -0.6624588602399808,
+              0.21438285648599154
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": -1.8703006584045507,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -15.11239809833221
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4540609121322632,
+              0.0015365742146968842,
+              0.43687304854393005
+            ],
+            "centre_offset_world_m": [
+              -0.010388990243275886,
+              0.00744184028978149,
+              -0.01178710162639618
+            ],
+            "centre_distance_mm": 17.385277389920706,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.4408950805664062,
+              0.0012198872864246368,
+              0.3918145000934601
+            ],
+            "centre_distance_mm": 34.27673797331427,
+            "centre_direction": [
+              -0.08101241503036032,
+              -0.22634963759077784,
+              -0.9706713296340178
+            ],
+            "normal_dot_CMC_direction": -0.8324622551775859,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.9395150215369972,
+            "inherited_proximal_palm_proxy_dot": -0.6547991261943259,
+            "inherited_thenar_direction_proxy": [
+              -0.05911902157299002,
+              0.2047667694333092,
+              -0.9770238028953534
+            ],
+            "local_flank_face_ids": [
+              1255,
+              1257,
+              1258,
+              1503,
+              1504,
+              1505
+            ],
+            "local_flank_mean_normal": [
+              -0.022178870764110827,
+              0.761416384603004,
+              0.6478836214550566
+            ],
+            "normal_dot_local_flank_normal": 0.99816298770056,
+            "face_pair_normal_turn_deg": 15.805387359300758,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "293": 4,
+              "386": 4,
+              "1442": 4,
+              "1518": 4,
+              "1521": 4,
+              "2823": 4
+            },
+            "incident_face_fans": {
+              "293": [
+                1255,
+                1257,
+                1368,
+                1373
+              ],
+              "386": [
+                1371,
+                1374,
+                1503,
+                1505
+              ],
+              "1442": [
+                1257,
+                1258,
+                1372,
+                1373
+              ],
+              "1518": [
+                1368,
+                1371,
+                1373,
+                1374
+              ],
+              "1521": [
+                1374,
+                1375,
+                1504,
+                1505
+              ],
+              "2823": [
+                1372,
+                1373,
+                1374,
+                1375
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": [
+            -0.43835768707879136,
+            0.3881890515134493,
+            -0.8106489983118593
+          ],
+          "outgoing_row_tangent": [
+            -0.6306238240962311,
+            0.7274813238344864,
+            -0.27034148026943466
+          ],
+          "turn_from_previous_row_deg": 17.172144451619964,
+          "normal_turn_from_previous_row_deg": 21.72010253080945,
+          "outgoing_width_relative_change_from_previous": 0.03970064517191907,
+          "within_row_width_relative_change": 0.03970064517191907
+        },
+        {
+          "row_id": "P04",
+          "face_ids": [
+            1368,
+            1371
+          ],
+          "vertex_ids": [
+            293,
+            386,
+            1444,
+            1518,
+            1520,
+            2822
+          ],
+          "edge_ids": [
+            1226,
+            1374,
+            1375,
+            1379,
+            4666,
+            4668,
+            4669
+          ],
+          "incoming_edge_ids": [
+            1375,
+            1374
+          ],
+          "outgoing_edge_ids": [
+            4666,
+            4668
+          ],
+          "centre_world_m": [
+            1.4423150221506755,
+            0.010598137664298216,
+            0.42398043473561603
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                293,
+                1518,
+                386
+              ],
+              "left_position_world_m": [
+                1.4452476501464844,
+                0.012236188165843487,
+                0.42120644450187683
+              ],
+              "middle_position_world_m": [
+                1.442946434020996,
+                0.009834873490035534,
+                0.42472028732299805
+              ],
+              "right_position_world_m": [
+                1.4409241676330566,
+                0.0072163864970207214,
+                0.4269461929798126
+              ],
+              "chord_width_mm": 8.765593101906878,
+              "partial_arc_width_mm": 8.825851848971796,
+              "arc_chord_ratio": 1.0068744631839925,
+              "transverse_vector": [
+                -0.49323331155848404,
+                -0.572671080035731,
+                0.6548043482291185
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                1444,
+                2822,
+                1520
+              ],
+              "left_position_world_m": [
+                1.4437143802642822,
+                0.014017000794410706,
+                0.4202220141887665
+              ],
+              "middle_position_world_m": [
+                1.4416847229003906,
+                0.011656912975013256,
+                0.4243333041667938
+              ],
+              "right_position_world_m": [
+                1.4393727779388428,
+                0.008627464063465595,
+                0.4264543652534485
+              ],
+              "chord_width_mm": 9.31336763581846,
+              "partial_arc_width_mm": 9.518135581273661,
+              "arc_chord_ratio": 1.0219864557550247,
+              "transverse_vector": [
+                -0.4661688977832252,
+                -0.5786882835181323,
+                0.6691834047990212
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1226,
+          "right_frontier_edge_id": 1379,
+          "lanes": [
+            {
+              "face_id": 1368,
+              "left_frontier_edge_id": 1226,
+              "right_frontier_edge_id": 4669,
+              "incoming_edge_id": 1375,
+              "outgoing_edge_id": 4666,
+              "face_normal": [
+                0.4662960064423653,
+                0.6067733558645613,
+                0.6437345174749914
+              ],
+              "normal_dot_own_face_centroid_radial": 0.3812068048117764,
+              "own_face_centroid_radial_direction": [
+                -0.49143469231564,
+                0.8599836953423439,
+                0.13754994341677723
+              ],
+              "side_tangent_turn_deg": 14.062597530733552
+            },
+            {
+              "face_id": 1371,
+              "left_frontier_edge_id": 4669,
+              "right_frontier_edge_id": 1379,
+              "incoming_edge_id": 1374,
+              "outgoing_edge_id": 4668,
+              "face_normal": [
+                0.25879575559490514,
+                0.4565516811461838,
+                0.8512257745913567
+              ],
+              "normal_dot_own_face_centroid_radial": 0.2868777535904685,
+              "own_face_centroid_radial_direction": [
+                -0.7281998055826481,
+                0.6529805290907841,
+                0.20818614693997584
+              ],
+              "side_tangent_turn_deg": 13.162415643704543
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 293,
+              "normal": [
+                0.2841294260354773,
+                0.8141763828759164,
+                0.5063470023885195
+              ],
+              "normal_dot_chain_radial": 0.7125527601545171,
+              "normal_dot_chain_axis": 0.5711925698102834
+            },
+            {
+              "vertex_id": 386,
+              "normal": [
+                -0.0359555827744762,
+                0.3865086689506103,
+                0.9215846379434585
+              ],
+              "normal_dot_chain_radial": 0.4453599282423432,
+              "normal_dot_chain_axis": 0.8770989858881567
+            },
+            {
+              "vertex_id": 1444,
+              "normal": [
+                0.6584770664515388,
+                0.5988875023102131,
+                0.45578691571172814
+              ],
+              "normal_dot_chain_radial": 0.35462488344494686,
+              "normal_dot_chain_axis": 0.6262000355739263
+            },
+            {
+              "vertex_id": 1518,
+              "normal": [
+                0.20092633501860907,
+                0.6498915853092133,
+                0.732986722417444
+              ],
+              "normal_dot_chain_radial": 0.4960691892968889,
+              "normal_dot_chain_axis": 0.7642874802160787
+            },
+            {
+              "vertex_id": 1520,
+              "normal": [
+                0.3284637081374187,
+                0.20414378913208198,
+                0.9221913607247753
+              ],
+              "normal_dot_chain_radial": 0.05919636115087812,
+              "normal_dot_chain_axis": 0.9786561095707403
+            },
+            {
+              "vertex_id": 2822,
+              "normal": [
+                0.5441011340598565,
+                0.41450896199277604,
+                0.7294767140508663
+              ],
+              "normal_dot_chain_radial": 0.11528676492040582,
+              "normal_dot_chain_axis": 0.8555773002273244
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.6306238240962311,
+              0.7274813238344864,
+              -0.27034148026943466
+            ],
+            "transverse": [
+              -0.4793494896309371,
+              -0.575840991993884,
+              0.662292396702589
+            ],
+            "surface_normal": [
+              0.3803536649292998,
+              0.5482307781138284,
+              0.7448315940557008
+            ],
+            "orthonormal_longitudinal": [
+              -0.6150530160967649,
+              0.7513969849417361,
+              -0.23898192067757132
+            ],
+            "orthonormal_transverse": [
+              -0.6906814583910029,
+              -0.36721326902656254,
+              0.6229875906354018
+            ],
+            "L_cross_T_dot_normal": 0.9989378226189085,
+            "longitudinal_dot_thumb_axis": -0.43144217983165156,
+            "transverse_dot_circumferential": 0.8670034301245502,
+            "transverse_dot_thumb_axis": 0.49737305690745903,
+            "normal_dot_chain_radial": 0.31632602676631993,
+            "normal_dot_thumb_axis": 0.8252930523888459,
+            "normal_dot_circumferential": -0.46779185806182544
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.4408950805664062,
+                0.0012198872864246368,
+                0.3918145000934601
+              ],
+              [
+                1.4540609121322632,
+                0.0015365742146968842,
+                0.43687304854393005
+              ],
+              [
+                1.450860857963562,
+                0.006127120926976204,
+                0.4640011489391327
+              ],
+              [
+                1.4514825344085693,
+                0.010474493727087975,
+                0.48555445671081543
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.6675168407359655,
+            "axis_vector": [
+              0.2804599529009697,
+              0.006746098834950901,
+              0.9598420208395206
+            ],
+            "radial_direction_only": [
+              -0.6168562110591826,
+              0.7674090146169166,
+              0.17484798872850188
+            ],
+            "circumferential_direction": [
+              -0.7354118775873116,
+              -0.6411223708740807,
+              0.21938886906199861
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": -0.9911918834586187,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -16.103589981790808
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4540609121322632,
+              0.0015365742146968842,
+              0.43687304854393005
+            ],
+            "centre_offset_world_m": [
+              -0.011745889981587654,
+              0.009061563449601332,
+              -0.012892613808314024
+            ],
+            "centre_distance_mm": 19.654448718319255,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.4408950805664062,
+              0.0012198872864246368,
+              0.3918145000934601
+            ],
+            "centre_distance_mm": 33.53528240012705,
+            "centre_direction": [
+              -0.04234172139441713,
+              -0.2796532400108266,
+              -0.9591669531321462
+            ],
+            "normal_dot_CMC_direction": -0.8838371929519366,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.8283206272735955,
+            "inherited_proximal_palm_proxy_dot": -0.7602089238154951,
+            "inherited_thenar_direction_proxy": [
+              -0.01921154362107545,
+              0.16318280390620546,
+              -0.9864087839739691
+            ],
+            "local_flank_face_ids": [
+              1254,
+              1255,
+              1257,
+              1500,
+              1503,
+              1505
+            ],
+            "local_flank_mean_normal": [
+              0.41614482620215565,
+              0.6302374297686527,
+              0.6554572951335429
+            ],
+            "normal_dot_local_flank_normal": 0.9920030682756388,
+            "face_pair_normal_turn_deg": 18.974701358587218,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "293": 4,
+              "386": 4,
+              "1444": 4,
+              "1518": 4,
+              "1520": 4,
+              "2822": 4
+            },
+            "incident_face_fans": {
+              "293": [
+                1255,
+                1257,
+                1368,
+                1373
+              ],
+              "386": [
+                1371,
+                1374,
+                1503,
+                1505
+              ],
+              "1444": [
+                1254,
+                1255,
+                1368,
+                1369
+              ],
+              "1518": [
+                1368,
+                1371,
+                1373,
+                1374
+              ],
+              "1520": [
+                1370,
+                1371,
+                1500,
+                1503
+              ],
+              "2822": [
+                1368,
+                1369,
+                1370,
+                1371
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": [
+            -0.492881533977369,
+            0.6109880151298301,
+            -0.6194848172730516
+          ],
+          "outgoing_row_tangent": [
+            -0.5996293666308238,
+            0.770439909347009,
+            0.21648780279565388
+          ],
+          "turn_from_previous_row_deg": 22.664405764107492,
+          "normal_turn_from_previous_row_deg": 24.124513093894716,
+          "outgoing_width_relative_change_from_previous": 0.062491439831084294,
+          "within_row_width_relative_change": 0.062491439831084294
+        },
+        {
+          "row_id": "P05",
+          "face_ids": [
+            1369,
+            1370
+          ],
+          "vertex_ids": [
+            294,
+            385,
+            1444,
+            1519,
+            1520,
+            2822
+          ],
+          "edge_ids": [
+            1227,
+            1376,
+            1377,
+            1378,
+            4666,
+            4667,
+            4668
+          ],
+          "incoming_edge_ids": [
+            4666,
+            4668
+          ],
+          "outgoing_edge_ids": [
+            1376,
+            1377
+          ],
+          "centre_world_m": [
+            1.440804163614909,
+            0.012444288159410158,
+            0.423953836162885
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                1444,
+                2822,
+                1520
+              ],
+              "left_position_world_m": [
+                1.4437143802642822,
+                0.014017000794410706,
+                0.4202220141887665
+              ],
+              "middle_position_world_m": [
+                1.4416847229003906,
+                0.011656912975013256,
+                0.4243333041667938
+              ],
+              "right_position_world_m": [
+                1.4393727779388428,
+                0.008627464063465595,
+                0.4264543652534485
+              ],
+              "chord_width_mm": 9.31336763581846,
+              "partial_arc_width_mm": 9.518135581273661,
+              "arc_chord_ratio": 1.0219864557550247,
+              "transverse_vector": [
+                -0.4661688977832252,
+                -0.5786882835181323,
+                0.6691834047990212
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                294,
+                1519,
+                385
+              ],
+              "left_position_world_m": [
+                1.4419963359832764,
+                0.01655140332877636,
+                0.42064598202705383
+              ],
+              "middle_position_world_m": [
+                1.440314769744873,
+                0.013453076593577862,
+                0.4248998463153839
+              ],
+              "right_position_world_m": [
+                1.437741994857788,
+                0.010359871201217175,
+                0.42716750502586365
+              ],
+              "chord_width_mm": 9.948102870528823,
+              "partial_arc_width_mm": 10.143103894939728,
+              "arc_chord_ratio": 1.0196018303136565,
+              "transverse_vector": [
+                -0.42765351151441483,
+                -0.6223832029221924,
+                0.6555544392418554
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1227,
+          "right_frontier_edge_id": 1378,
+          "lanes": [
+            {
+              "face_id": 1369,
+              "left_frontier_edge_id": 1227,
+              "right_frontier_edge_id": 4667,
+              "incoming_edge_id": 4666,
+              "outgoing_edge_id": 1376,
+              "face_normal": [
+                0.7238145352028865,
+                0.38519273521225517,
+                0.5724675321524626
+              ],
+              "normal_dot_own_face_centroid_radial": 0.046376916259816534,
+              "own_face_centroid_radial_direction": [
+                -0.5013853633361061,
+                0.8537400587004014,
+                0.1405013508922816
+              ],
+              "side_tangent_turn_deg": 6.945860972413874
+            },
+            {
+              "face_id": 1370,
+              "left_frontier_edge_id": 4667,
+              "right_frontier_edge_id": 1378,
+              "incoming_edge_id": 4668,
+              "outgoing_edge_id": 1377,
+              "face_normal": [
+                0.5407851501601235,
+                0.16043181178672375,
+                0.8257197194769674
+              ],
+              "normal_dot_own_face_centroid_radial": -0.10958656538104372,
+              "own_face_centroid_radial_direction": [
+                -0.7125394369368753,
+                0.6714784651365653,
+                0.20348027341126534
+              ],
+              "side_tangent_turn_deg": 6.288194557207411
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 294,
+              "normal": [
+                0.8155849777642571,
+                0.42267933268742613,
+                0.3951750571129058
+              ],
+              "normal_dot_chain_radial": 0.09670141723817617,
+              "normal_dot_chain_axis": 0.610895986408927
+            },
+            {
+              "vertex_id": 385,
+              "normal": [
+                0.5520507868200888,
+                -0.016836248527791513,
+                0.8336404917629848
+              ],
+              "normal_dot_chain_radial": -0.2570244140490974,
+              "normal_dot_chain_axis": 0.9548777329413622
+            },
+            {
+              "vertex_id": 1444,
+              "normal": [
+                0.6584770664515388,
+                0.5988875023102131,
+                0.45578691571172814
+              ],
+              "normal_dot_chain_radial": 0.35462488344494686,
+              "normal_dot_chain_axis": 0.6262000355739263
+            },
+            {
+              "vertex_id": 1519,
+              "normal": [
+                0.7298340373422397,
+                0.19896064007201272,
+                0.6540313001981336
+              ],
+              "normal_dot_chain_radial": -0.17786679167591163,
+              "normal_dot_chain_axis": 0.8337981527551956
+            },
+            {
+              "vertex_id": 1520,
+              "normal": [
+                0.3284637081374187,
+                0.20414378913208198,
+                0.9221913607247753
+              ],
+              "normal_dot_chain_radial": 0.05919636115087812,
+              "normal_dot_chain_axis": 0.9786561095707403
+            },
+            {
+              "vertex_id": 2822,
+              "normal": [
+                0.5441011340598565,
+                0.41450896199277604,
+                0.7294767140508663
+              ],
+              "normal_dot_chain_radial": 0.11528676492040582,
+              "normal_dot_chain_axis": 0.8555773002273244
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.5996293666308238,
+              0.770439909347009,
+              0.21648780279565388
+            ],
+            "transverse": [
+              -0.4464761320363375,
+              -0.601524528204455,
+              0.6624404165585601
+            ],
+            "surface_normal": [
+              0.6574244235233798,
+              0.2942724844754943,
+              0.6936835245524948
+            ],
+            "orthonormal_longitudinal": [
+              -0.5883325140463782,
+              0.7756523515283912,
+              0.22853507932994724
+            ],
+            "orthonormal_transverse": [
+              -0.47080567145141733,
+              -0.5583611147358822,
+              0.6830628706642479
+            ],
+            "L_cross_T_dot_normal": 0.999778806532852,
+            "longitudinal_dot_thumb_axis": 0.04481952997401448,
+            "transverse_dot_circumferential": 0.8589279860272963,
+            "transverse_dot_thumb_axis": 0.5065615292341095,
+            "normal_dot_chain_radial": -0.05556833769842631,
+            "normal_dot_thumb_axis": 0.8521930101515404,
+            "normal_dot_circumferential": -0.5202684242718273
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.4408950805664062,
+                0.0012198872864246368,
+                0.3918145000934601
+              ],
+              [
+                1.4540609121322632,
+                0.0015365742146968842,
+                0.43687304854393005
+              ],
+              [
+                1.450860857963562,
+                0.006127120926976204,
+                0.4640011489391327
+              ],
+              [
+                1.4514825344085693,
+                0.010474493727087975,
+                0.48555445671081543
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.6582118369557933,
+            "axis_vector": [
+              0.2804599529009697,
+              0.006746098834950901,
+              0.9598420208395206
+            ],
+            "radial_direction_only": [
+              -0.6128151323183115,
+              0.7709123590756023,
+              0.17364258759353907
+            ],
+            "circumferential_direction": [
+              -0.7387826665674257,
+              -0.636905506943533,
+              0.22034415536729174
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": 0.11756902770162315,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -15.98602095408921
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4540609121322632,
+              0.0015365742146968842,
+              0.43687304854393005
+            ],
+            "centre_offset_world_m": [
+              -0.013256748517354255,
+              0.010907713944713274,
+              -0.012919212381045042
+            ],
+            "centre_distance_mm": 21.485475403132558,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.4408950805664062,
+              0.0012198872864246368,
+              0.3918145000934601
+            ],
+            "centre_distance_mm": 34.04309568521914,
+            "centre_direction": [
+              0.002670642891527524,
+              -0.3297115214424798,
+              -0.9440779524459996
+            ],
+            "normal_dot_CMC_direction": -0.750160604216718,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.652663170950758,
+            "inherited_proximal_palm_proxy_dot": -0.7588280248845671,
+            "inherited_thenar_direction_proxy": [
+              0.028432712358198765,
+              0.10615161269874342,
+              -0.9939433665905778
+            ],
+            "local_flank_face_ids": [
+              1250,
+              1254,
+              1255,
+              1496,
+              1500,
+              1503
+            ],
+            "local_flank_mean_normal": [
+              0.6774109194485646,
+              0.45284410191876695,
+              0.5796953213277091
+            ],
+            "normal_dot_local_flank_normal": 0.9807311358238211,
+            "face_pair_normal_turn_deg": 22.192042738750562,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "294": 4,
+              "385": 4,
+              "1444": 4,
+              "1519": 4,
+              "1520": 4,
+              "2822": 4
+            },
+            "incident_face_fans": {
+              "294": [
+                1250,
+                1254,
+                1369,
+                1378
+              ],
+              "385": [
+                1370,
+                1377,
+                1496,
+                1500
+              ],
+              "1444": [
+                1254,
+                1255,
+                1368,
+                1369
+              ],
+              "1519": [
+                1369,
+                1370,
+                1377,
+                1378
+              ],
+              "1520": [
+                1370,
+                1371,
+                1500,
+                1503
+              ],
+              "2822": [
+                1368,
+                1369,
+                1370,
+                1371
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": [
+            -0.6306238240962311,
+            0.7274813238344864,
+            -0.27034148026943466
+          ],
+          "outgoing_row_tangent": [
+            -0.5684896803675002,
+            0.5733687109981832,
+            0.5899727151012487
+          ],
+          "turn_from_previous_row_deg": 28.346105111494328,
+          "normal_turn_from_previous_row_deg": 21.865538247782602,
+          "outgoing_width_relative_change_from_previous": 0.06815313853489702,
+          "within_row_width_relative_change": 0.06815313853489702
+        },
+        {
+          "row_id": "P06",
+          "face_ids": [
+            1378,
+            1377
+          ],
+          "vertex_ids": [
+            294,
+            385,
+            1445,
+            1519,
+            1523,
+            2824
+          ],
+          "edge_ids": [
+            1229,
+            1376,
+            1377,
+            1384,
+            4674,
+            4675,
+            4676
+          ],
+          "incoming_edge_ids": [
+            1376,
+            1377
+          ],
+          "outgoing_edge_ids": [
+            4676,
+            4674
+          ],
+          "centre_world_m": [
+            1.4391225973765056,
+            0.014357568696141243,
+            0.4251667062441508
+          ],
+          "frontiers": {
+            "incoming": {
+              "ordered_vertex_ids": [
+                294,
+                1519,
+                385
+              ],
+              "left_position_world_m": [
+                1.4419963359832764,
+                0.01655140332877636,
+                0.42064598202705383
+              ],
+              "middle_position_world_m": [
+                1.440314769744873,
+                0.013453076593577862,
+                0.4248998463153839
+              ],
+              "right_position_world_m": [
+                1.437741994857788,
+                0.010359871201217175,
+                0.42716750502586365
+              ],
+              "chord_width_mm": 9.948102870528823,
+              "partial_arc_width_mm": 10.143103894939728,
+              "arc_chord_ratio": 1.0196018303136565,
+              "transverse_vector": [
+                -0.42765351151441483,
+                -0.6223832029221924,
+                0.6555544392418554
+              ]
+            },
+            "outgoing": {
+              "ordered_vertex_ids": [
+                1445,
+                2824,
+                1523
+              ],
+              "left_position_world_m": [
+                1.4400503635406494,
+                0.018691614270210266,
+                0.42270246148109436
+              ],
+              "middle_position_world_m": [
+                1.4385439157485962,
+                0.01525204535573721,
+                0.42688286304473877
+              ],
+              "right_position_world_m": [
+                1.43608820438385,
+                0.011837401427328587,
+                0.42870157957077026
+              ],
+              "chord_width_mm": 9.933194689182805,
+              "partial_arc_width_mm": 10.20159470706446,
+              "arc_chord_ratio": 1.0270205131662165,
+              "transverse_vector": [
+                -0.3988806502619027,
+                -0.6900310582199581,
+                0.6039464922809687
+              ]
+            }
+          },
+          "left_frontier_edge_id": 1229,
+          "right_frontier_edge_id": 1384,
+          "lanes": [
+            {
+              "face_id": 1378,
+              "left_frontier_edge_id": 1229,
+              "right_frontier_edge_id": 4675,
+              "incoming_edge_id": 1376,
+              "outgoing_edge_id": 4676,
+              "face_normal": [
+                0.8225630948995782,
+                0.2547769641519786,
+                0.5084079596610668
+              ],
+              "normal_dot_own_face_centroid_radial": -0.14770621140942536,
+              "own_face_centroid_radial_direction": [
+                -0.530221376238397,
+                0.8346532508428837,
+                0.14906120567493916
+              ],
+              "side_tangent_turn_deg": 3.289376868795587
+            },
+            {
+              "face_id": 1377,
+              "left_frontier_edge_id": 4675,
+              "right_frontier_edge_id": 1384,
+              "incoming_edge_id": 1377,
+              "outgoing_edge_id": 4674,
+              "face_normal": [
+                0.6816685561628683,
+                -0.0693598947312234,
+                0.7283661061181417
+              ],
+              "normal_dot_own_face_centroid_radial": -0.3841410234835755,
+              "own_face_centroid_radial_direction": [
+                -0.7126954450513729,
+                0.6712986767153715,
+                0.20352712164037665
+              ],
+              "side_tangent_turn_deg": 4.563863330631302
+            }
+          ],
+          "vertex_normals": [
+            {
+              "vertex_id": 294,
+              "normal": [
+                0.8155849777642571,
+                0.42267933268742613,
+                0.3951750571129058
+              ],
+              "normal_dot_chain_radial": 0.09670141723817617,
+              "normal_dot_chain_axis": 0.610895986408927
+            },
+            {
+              "vertex_id": 385,
+              "normal": [
+                0.5520507868200888,
+                -0.016836248527791513,
+                0.8336404917629848
+              ],
+              "normal_dot_chain_radial": -0.2570244140490974,
+              "normal_dot_chain_axis": 0.9548777329413622
+            },
+            {
+              "vertex_id": 1445,
+              "normal": [
+                0.8245676140414615,
+                0.3971064053743399,
+                0.40298232304239084
+              ],
+              "normal_dot_chain_radial": 0.01824736941725972,
+              "normal_dot_chain_axis": 0.6207364805679936
+            },
+            {
+              "vertex_id": 1519,
+              "normal": [
+                0.7298340373422397,
+                0.19896064007201272,
+                0.6540313001981336
+              ],
+              "normal_dot_chain_radial": -0.17786679167591163,
+              "normal_dot_chain_axis": 0.8337981527551956
+            },
+            {
+              "vertex_id": 1523,
+              "normal": [
+                0.6238887719032445,
+                -0.1470703272514878,
+                0.7675500759788912
+              ],
+              "normal_dot_chain_radial": -0.402457137652122,
+              "normal_dot_chain_axis": 0.9107104806432071
+            },
+            {
+              "vertex_id": 2824,
+              "normal": [
+                0.7777041143694774,
+                0.12627186471036664,
+                0.6158179330576155
+              ],
+              "normal_dot_chain_radial": -0.2871076556030204,
+              "normal_dot_chain_axis": 0.8100546311016019
+            }
+          ],
+          "frame": {
+            "longitudinal": [
+              -0.5684896803675002,
+              0.5733687109981832,
+              0.5899727151012487
+            ],
+            "transverse": [
+              -0.4136952643250221,
+              -0.6568444871227784,
+              0.6304058597534322
+            ],
+            "surface_normal": [
+              0.7795875742190698,
+              0.1201303146368188,
+              0.6146640721796625
+            ],
+            "orthonormal_longitudinal": [
+              -0.5594272861953209,
+              0.5748102178813134,
+              0.597188684487052
+            ],
+            "orthonormal_transverse": [
+              -0.28157472468842965,
+              -0.8094207317115717,
+              0.5153190793014937
+            ],
+            "L_cross_T_dot_normal": 0.9998651406856862,
+            "longitudinal_dot_thumb_axis": 0.41071001611566704,
+            "transverse_dot_circumferential": 0.8652118230850623,
+            "transverse_dot_thumb_axis": 0.48463394219753697,
+            "normal_dot_chain_radial": -0.28720593094698743,
+            "normal_dot_thumb_axis": 0.8094339105016515,
+            "normal_dot_circumferential": -0.5121811181202199
+          },
+          "thumb_chain_relation": {
+            "chain_points_world_m": [
+              [
+                1.4408950805664062,
+                0.0012198872864246368,
+                0.3918145000934601
+              ],
+              [
+                1.4540609121322632,
+                0.0015365742146968842,
+                0.43687304854393005
+              ],
+              [
+                1.450860857963562,
+                0.006127120926976204,
+                0.4640011489391327
+              ],
+              [
+                1.4514825344085693,
+                0.010474493727087975,
+                0.48555445671081543
+              ]
+            ],
+            "nearest_segment_index": 0,
+            "nearest_segment_fraction": 0.6732395971128947,
+            "axis_vector": [
+              0.2804599529009697,
+              0.006746098834950901,
+              0.9598420208395206
+            ],
+            "radial_direction_only": [
+              -0.6253648839941891,
+              0.7599030468414989,
+              0.17738692530155914
+            ],
+            "circumferential_direction": [
+              -0.728190206392341,
+              -0.6500014227303781,
+              0.2173411460418026
+            ],
+            "incoming_to_outgoing_axis_displacement_mm": 1.2933486950888897,
+            "inherited_outgoing_chain_arc_delta_to_MCP_mm": -14.692672259000311
+          },
+          "MCP_relation": {
+            "reference_world_m": [
+              1.4540609121322632,
+              0.0015365742146968842,
+              0.43687304854393005
+            ],
+            "centre_offset_world_m": [
+              -0.014938314755757576,
+              0.012820994481444359,
+              -0.011706342299779238
+            ],
+            "centre_distance_mm": 22.903484391570466,
+            "not_stop_rule": true
+          },
+          "CMC_relation": {
+            "reference_world_m": [
+              1.4408950805664062,
+              0.0012198872864246368,
+              0.3918145000934601
+            ],
+            "centre_distance_mm": 35.89024971492768,
+            "centre_direction": [
+              0.0493862038848791,
+              -0.36605154642466325,
+              -0.929283201304077
+            ],
+            "normal_dot_CMC_direction": -0.5766700132805046,
+            "ownership_hard_source": false
+          },
+          "surface_cues": {
+            "inherited_web_facing_dot": 0.5342629093205303,
+            "inherited_proximal_palm_proxy_dot": -0.7026432284224906,
+            "inherited_thenar_direction_proxy": [
+              0.07876302589333424,
+              0.044002329039837765,
+              -0.9959217744337131
+            ],
+            "local_flank_face_ids": [
+              1249,
+              1250,
+              1254,
+              1376,
+              1379,
+              1496,
+              1497,
+              1500
+            ],
+            "local_flank_mean_normal": [
+              0.787132683264679,
+              0.2631186673518007,
+              0.5578446968714131
+            ],
+            "normal_dot_local_flank_normal": 0.9881344804534631,
+            "face_pair_normal_turn_deg": 24.027347057885997,
+            "semantic_palmar_basis": "UNAVAILABLE",
+            "semantic_thenar_basis": "UNAVAILABLE"
+          },
+          "topology_auxiliary": {
+            "valences": {
+              "294": 4,
+              "385": 4,
+              "1445": 4,
+              "1519": 4,
+              "1523": 4,
+              "2824": 4
+            },
+            "incident_face_fans": {
+              "294": [
+                1250,
+                1254,
+                1369,
+                1378
+              ],
+              "385": [
+                1370,
+                1377,
+                1496,
+                1500
+              ],
+              "1445": [
+                1249,
+                1250,
+                1378,
+                1379
+              ],
+              "1519": [
+                1369,
+                1370,
+                1377,
+                1378
+              ],
+              "1523": [
+                1376,
+                1377,
+                1496,
+                1497
+              ],
+              "2824": [
+                1376,
+                1377,
+                1378,
+                1379
+              ]
+            },
+            "one_hop_neighbor_count": 12,
+            "neighbor_quads": true
+          },
+          "incoming_row_tangent": [
+            -0.5996293666308238,
+            0.770439909347009,
+            0.21648780279565388
+          ],
+          "outgoing_row_tangent": null,
+          "turn_from_previous_row_deg": 24.446078134300404,
+          "normal_turn_from_previous_row_deg": 13.029707600309244,
+          "outgoing_width_relative_change_from_previous": -0.0014985954146274905,
+          "within_row_width_relative_change": -0.0014985954146274905
+        }
+      ],
+      "vertex_positions_world_m": {
+        "293": [
+          1.4452476501464844,
+          0.012236188165843487,
+          0.42120644450187683
+        ],
+        "294": [
+          1.4419963359832764,
+          0.01655140332877636,
+          0.42064598202705383
+        ],
+        "295": [
+          1.4376152753829956,
+          0.020550133660435677,
+          0.4252244234085083
+        ],
+        "310": [
+          1.447912335395813,
+          0.009753840044140816,
+          0.4263249635696411
+        ],
+        "317": [
+          1.4432969093322754,
+          0.00435090996325016,
+          0.4295731484889984
+        ],
+        "385": [
+          1.437741994857788,
+          0.010359871201217175,
+          0.42716750502586365
+        ],
+        "386": [
+          1.4409241676330566,
+          0.0072163864970207214,
+          0.4269461929798126
+        ],
+        "387": [
+          1.4344866275787354,
+          0.013613048940896988,
+          0.4306569993495941
+        ],
+        "1374": [
+          1.4475983381271362,
+          0.013924834318459034,
+          0.416115403175354
+        ],
+        "1375": [
+          1.442328929901123,
+          0.019373154267668724,
+          0.41491472721099854
+        ],
+        "1377": [
+          1.4375407695770264,
+          0.023513926193118095,
+          0.42163386940956116
+        ],
+        "1422": [
+          1.4439098834991455,
+          0.003979366272687912,
+          0.43153440952301025
+        ],
+        "1423": [
+          1.4452465772628784,
+          0.0073411790654063225,
+          0.4282958209514618
+        ],
+        "1424": [
+          1.4510704278945923,
+          0.011323601938784122,
+          0.4238393306732178
+        ],
+        "1427": [
+          1.4423555135726929,
+          0.0002965610474348068,
+          0.42961791157722473
+        ],
+        "1442": [
+          1.4467341899871826,
+          0.010609901510179043,
+          0.4233294427394867
+        ],
+        "1444": [
+          1.4437143802642822,
+          0.014017000794410706,
+          0.4202220141887665
+        ],
+        "1445": [
+          1.4400503635406494,
+          0.018691614270210266,
+          0.42270246148109436
+        ],
+        "1518": [
+          1.442946434020996,
+          0.009834873490035534,
+          0.42472028732299805
+        ],
+        "1519": [
+          1.440314769744873,
+          0.013453076593577862,
+          0.4248998463153839
+        ],
+        "1520": [
+          1.4393727779388428,
+          0.008627464063465595,
+          0.4264543652534485
+        ],
+        "1521": [
+          1.4420208930969238,
+          0.005495253950357437,
+          0.42809441685676575
+        ],
+        "1523": [
+          1.43608820438385,
+          0.011837401427328587,
+          0.42870157957077026
+        ],
+        "1524": [
+          1.4367029666900635,
+          0.01739145815372467,
+          0.42874664068222046
+        ],
+        "1579": [
+          1.431889533996582,
+          0.010532413609325886,
+          0.43109041452407837
+        ],
+        "1581": [
+          1.4355748891830444,
+          0.007048025727272034,
+          0.4281264841556549
+        ],
+        "1584": [
+          1.4392579793930054,
+          0.003511989489197731,
+          0.427474707365036
+        ],
+        "2360": [
+          1.4486480951309204,
+          0.00945130456238985,
+          0.42941728234291077
+        ],
+        "2792": [
+          1.439855933189392,
+          0.021850356832146645,
+          0.4179159104824066
+        ],
+        "2793": [
+          1.4446523189544678,
+          0.015848776325583458,
+          0.4143866002559662
+        ],
+        "2794": [
+          1.4497207403182983,
+          0.012319565750658512,
+          0.419676274061203
+        ],
+        "2822": [
+          1.4416847229003906,
+          0.011656912975013256,
+          0.4243333041667938
+        ],
+        "2823": [
+          1.4441581964492798,
+          0.008477883413434029,
+          0.4262188971042633
+        ],
+        "2824": [
+          1.4385439157485962,
+          0.01525204535573721,
+          0.42688286304473877
+        ],
+        "2854": [
+          1.4336923360824585,
+          0.008970973081886768,
+          0.4294120967388153
+        ],
+        "2855": [
+          1.4374423027038574,
+          0.005248786881566048,
+          0.42739337682724
+        ],
+        "2856": [
+          1.4408260583877563,
+          0.0016038622707128525,
+          0.4282650947570801
+        ],
+        "3238": [
+          1.4458199739456177,
+          0.007102267816662788,
+          0.43078380823135376
+        ],
+        "3239": [
+          1.4520244598388672,
+          0.01083310879766941,
+          0.4277646541595459
+        ],
+        "3245": [
+          1.4431809186935425,
+          8.584372699260712e-05,
+          0.43150463700294495
+        ]
+      },
+      "face_normals": {
+        "1249": [
+          0.8037818462795016,
+          0.4923129398577892,
+          0.3340100490106496
+        ],
+        "1250": [
+          0.8289310056876927,
+          0.4814940950341703,
+          0.2846696756888864
+        ],
+        "1254": [
+          0.8164893828737038,
+          0.4989882593043869,
+          0.29044070777164893
+        ],
+        "1255": [
+          0.43366235571447714,
+          0.8113691932589057,
+          0.3919400381009361
+        ],
+        "1257": [
+          0.12931096577388984,
+          0.8950623495841076,
+          0.42678104982250625
+        ],
+        "1258": [
+          -0.18967209520154082,
+          0.9322351241201912,
+          0.3081593251200903
+        ],
+        "1368": [
+          0.4662960064423653,
+          0.6067733558645613,
+          0.6437345174749914
+        ],
+        "1369": [
+          0.7238145352028865,
+          0.38519273521225517,
+          0.5724675321524626
+        ],
+        "1370": [
+          0.5407851501601235,
+          0.16043181178672375,
+          0.8257197194769674
+        ],
+        "1371": [
+          0.25879575559490514,
+          0.4565516811461838,
+          0.8512257745913567
+        ],
+        "1372": [
+          -0.2971813128815724,
+          0.8360303911580057,
+          0.4612336201256115
+        ],
+        "1373": [
+          0.060871741382404664,
+          0.7922005684472542,
+          0.6072173337882584
+        ],
+        "1374": [
+          -0.06676229375490043,
+          0.6212783145927581,
+          0.7807407072449638
+        ],
+        "1375": [
+          -0.4004343188962704,
+          0.6268168607941267,
+          0.6683958252968641
+        ],
+        "1376": [
+          0.6964955538347753,
+          -0.08287580648924435,
+          0.7127591067023604
+        ],
+        "1377": [
+          0.6816685561628683,
+          -0.0693598947312234,
+          0.7283661061181417
+        ],
+        "1378": [
+          0.8225630948995782,
+          0.2547769641519786,
+          0.5084079596610668
+        ],
+        "1379": [
+          0.8053047424844004,
+          0.3010303890297062,
+          0.5107494264438848
+        ],
+        "1496": [
+          0.5193339174104173,
+          -0.15653948021214922,
+          0.8401117029074527
+        ],
+        "1497": [
+          0.5406694339996447,
+          -0.3029736923921155,
+          0.7847824570266536
+        ],
+        "1500": [
+          0.3968596625915353,
+          0.01728606877719197,
+          0.9177165139812855
+        ],
+        "1503": [
+          0.015610033820780666,
+          0.1952479167178995,
+          0.9806296843668533
+        ],
+        "1504": [
+          -0.6129458808771056,
+          0.18561582134343868,
+          0.76801309492924
+        ],
+        "1505": [
+          -0.36076147201708,
+          0.21932762811736153,
+          0.9065023727781863
+        ],
+        "3032": [
+          -0.5644467977574777,
+          0.7983415007705424,
+          0.20988249247797472
+        ],
+        "3033": [
+          -0.7656706971363264,
+          0.5774414526388758,
+          0.28338975338052874
+        ],
+        "3037": [
+          -0.3081291367146383,
+          0.9342060761733677,
+          0.1797649641844914
+        ],
+        "3060": [
+          -0.9094299232726802,
+          0.19182582185530164,
+          0.36897163674974426
+        ]
+      },
+      "vertex_normals": {
+        "293": [
+          0.2841294260354773,
+          0.8141763828759164,
+          0.5063470023885195
+        ],
+        "294": [
+          0.8155849777642571,
+          0.42267933268742613,
+          0.3951750571129058
+        ],
+        "310": [
+          -0.3287348454111025,
+          0.8986422963423394,
+          0.290474481903498
+        ],
+        "317": [
+          -0.7123275352341883,
+          0.4207506200445827,
+          0.561745848475345
+        ],
+        "385": [
+          0.5520507868200888,
+          -0.016836248527791513,
+          0.8336404917629848
+        ],
+        "386": [
+          -0.0359555827744762,
+          0.3865086689506103,
+          0.9215846379434585
+        ],
+        "1423": [
+          -0.5139309254209518,
+          0.7510891251174149,
+          0.4144154075638605
+        ],
+        "1442": [
+          -0.0637649922607957,
+          0.8930885674457968,
+          0.4453390129548445
+        ],
+        "1444": [
+          0.6584770664515388,
+          0.5988875023102131,
+          0.45578691571172814
+        ],
+        "1445": [
+          0.8245676140414615,
+          0.3971064053743399,
+          0.40298232304239084
+        ],
+        "1518": [
+          0.20092633501860907,
+          0.6498915853092133,
+          0.732986722417444
+        ],
+        "1519": [
+          0.7298340373422397,
+          0.19896064007201272,
+          0.6540313001981336
+        ],
+        "1520": [
+          0.3284637081374187,
+          0.20414378913208198,
+          0.9221913607247753
+        ],
+        "1521": [
+          -0.3837058809944019,
+          0.4303135083347421,
+          0.8170679784662692
+        ],
+        "1523": [
+          0.6238887719032445,
+          -0.1470703272514878,
+          0.7675500759788912
+        ],
+        "2822": [
+          0.5441011340598565,
+          0.41450896199277604,
+          0.7294767140508663
+        ],
+        "2823": [
+          -0.17639722146969775,
+          0.7533792356769081,
+          0.6334853964446602
+        ],
+        "2824": [
+          0.7777041143694774,
+          0.12627186471036664,
+          0.6158179330576155
+        ]
+      },
+      "chain_reference_provenance": "Human-approved corrected extracted live thumb chain"
+    }
+  },
+  "topology": {
+    "vertices": {
+      "293": {
+        "edge_ids": [
+          1087,
+          1222,
+          1226,
+          1375
+        ],
+        "incident_face_ids": [
+          1255,
+          1257,
+          1368,
+          1373
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1255,
+            1257,
+            1373,
+            1368
+          ],
+          "cyclic_shared_edge_ids": [
+            1087,
+            1222,
+            1375,
+            1226
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "294": {
+        "edge_ids": [
+          1088,
+          1227,
+          1229,
+          1376
+        ],
+        "incident_face_ids": [
+          1250,
+          1254,
+          1369,
+          1378
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1250,
+            1254,
+            1369,
+            1378
+          ],
+          "cyclic_shared_edge_ids": [
+            1088,
+            1227,
+            1376,
+            1229
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "310": {
+        "edge_ids": [
+          1184,
+          1187,
+          1223,
+          3058
+        ],
+        "incident_face_ids": [
+          1258,
+          1372,
+          3032,
+          3037
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1258,
+            1372,
+            3032,
+            3037
+          ],
+          "cyclic_shared_edge_ids": [
+            1223,
+            1184,
+            3058,
+            1187
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "317": {
+        "edge_ids": [
+          1183,
+          1185,
+          1192,
+          1380
+        ],
+        "incident_face_ids": [
+          1375,
+          1504,
+          3033,
+          3060
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1375,
+            1504,
+            3060,
+            3033
+          ],
+          "cyclic_shared_edge_ids": [
+            1380,
+            1192,
+            1183,
+            1185
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "385": {
+        "edge_ids": [
+          1377,
+          1378,
+          1384,
+          1500
+        ],
+        "incident_face_ids": [
+          1370,
+          1377,
+          1496,
+          1500
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1370,
+            1377,
+            1496,
+            1500
+          ],
+          "cyclic_shared_edge_ids": [
+            1377,
+            1384,
+            1500,
+            1378
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "386": {
+        "edge_ids": [
+          1374,
+          1379,
+          1381,
+          1507
+        ],
+        "incident_face_ids": [
+          1371,
+          1374,
+          1503,
+          1505
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1371,
+            1374,
+            1505,
+            1503
+          ],
+          "cyclic_shared_edge_ids": [
+            1374,
+            1381,
+            1507,
+            1379
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1423": {
+        "edge_ids": [
+          1184,
+          1185,
+          4673,
+          6330
+        ],
+        "incident_face_ids": [
+          1372,
+          1375,
+          3032,
+          3033
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1372,
+            1375,
+            3033,
+            3032
+          ],
+          "cyclic_shared_edge_ids": [
+            4673,
+            1185,
+            6330,
+            1184
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1442": {
+        "edge_ids": [
+          1222,
+          1223,
+          4555,
+          4670
+        ],
+        "incident_face_ids": [
+          1257,
+          1258,
+          1372,
+          1373
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1257,
+            1258,
+            1372,
+            1373
+          ],
+          "cyclic_shared_edge_ids": [
+            4555,
+            1223,
+            4670,
+            1222
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1444": {
+        "edge_ids": [
+          1226,
+          1227,
+          4552,
+          4666
+        ],
+        "incident_face_ids": [
+          1254,
+          1255,
+          1368,
+          1369
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1254,
+            1255,
+            1368,
+            1369
+          ],
+          "cyclic_shared_edge_ids": [
+            4552,
+            1226,
+            4666,
+            1227
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1445": {
+        "edge_ids": [
+          1228,
+          1229,
+          4547,
+          4676
+        ],
+        "incident_face_ids": [
+          1249,
+          1250,
+          1378,
+          1379
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1249,
+            1250,
+            1378,
+            1379
+          ],
+          "cyclic_shared_edge_ids": [
+            4547,
+            1229,
+            4676,
+            1228
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1518": {
+        "edge_ids": [
+          1374,
+          1375,
+          4669,
+          4671
+        ],
+        "incident_face_ids": [
+          1368,
+          1371,
+          1373,
+          1374
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1368,
+            1371,
+            1374,
+            1373
+          ],
+          "cyclic_shared_edge_ids": [
+            4669,
+            1374,
+            4671,
+            1375
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1519": {
+        "edge_ids": [
+          1376,
+          1377,
+          4667,
+          4675
+        ],
+        "incident_face_ids": [
+          1369,
+          1370,
+          1377,
+          1378
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1369,
+            1370,
+            1377,
+            1378
+          ],
+          "cyclic_shared_edge_ids": [
+            4667,
+            1377,
+            4675,
+            1376
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1520": {
+        "edge_ids": [
+          1378,
+          1379,
+          4668,
+          4801
+        ],
+        "incident_face_ids": [
+          1370,
+          1371,
+          1500,
+          1503
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1370,
+            1371,
+            1503,
+            1500
+          ],
+          "cyclic_shared_edge_ids": [
+            4668,
+            1379,
+            4801,
+            1378
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1521": {
+        "edge_ids": [
+          1380,
+          1381,
+          4672,
+          4802
+        ],
+        "incident_face_ids": [
+          1374,
+          1375,
+          1504,
+          1505
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1374,
+            1375,
+            1504,
+            1505
+          ],
+          "cyclic_shared_edge_ids": [
+            4672,
+            1380,
+            4802,
+            1381
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "1523": {
+        "edge_ids": [
+          1384,
+          1385,
+          4674,
+          4794
+        ],
+        "incident_face_ids": [
+          1376,
+          1377,
+          1496,
+          1497
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1376,
+            1377,
+            1496,
+            1497
+          ],
+          "cyclic_shared_edge_ids": [
+            4674,
+            1384,
+            4794,
+            1385
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "2822": {
+        "edge_ids": [
+          4666,
+          4667,
+          4668,
+          4669
+        ],
+        "incident_face_ids": [
+          1368,
+          1369,
+          1370,
+          1371
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1368,
+            1369,
+            1370,
+            1371
+          ],
+          "cyclic_shared_edge_ids": [
+            4666,
+            4667,
+            4668,
+            4669
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "2823": {
+        "edge_ids": [
+          4670,
+          4671,
+          4672,
+          4673
+        ],
+        "incident_face_ids": [
+          1372,
+          1373,
+          1374,
+          1375
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1372,
+            1373,
+            1374,
+            1375
+          ],
+          "cyclic_shared_edge_ids": [
+            4670,
+            4671,
+            4672,
+            4673
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      },
+      "2824": {
+        "edge_ids": [
+          4674,
+          4675,
+          4676,
+          4677
+        ],
+        "incident_face_ids": [
+          1376,
+          1377,
+          1378,
+          1379
+        ],
+        "valence": 4,
+        "local_ordered_face_fan": {
+          "cyclic_face_ids": [
+            1376,
+            1377,
+            1378,
+            1379
+          ],
+          "cyclic_shared_edge_ids": [
+            4674,
+            4675,
+            4676,
+            4677
+          ],
+          "closed_fan": true,
+          "orientation": "deterministic arbitrary cycle orientation; no anatomical label"
+        }
+      }
+    },
+    "edges": {
+      "1184": {
+        "vertex_ids": [
+          310,
+          1423
+        ],
+        "incident_face_ids": [
+          1372,
+          3032
+        ]
+      },
+      "1185": {
+        "vertex_ids": [
+          1423,
+          317
+        ],
+        "incident_face_ids": [
+          1375,
+          3033
+        ]
+      },
+      "1222": {
+        "vertex_ids": [
+          293,
+          1442
+        ],
+        "incident_face_ids": [
+          1257,
+          1373
+        ]
+      },
+      "1223": {
+        "vertex_ids": [
+          1442,
+          310
+        ],
+        "incident_face_ids": [
+          1258,
+          1372
+        ]
+      },
+      "1226": {
+        "vertex_ids": [
+          293,
+          1444
+        ],
+        "incident_face_ids": [
+          1255,
+          1368
+        ]
+      },
+      "1227": {
+        "vertex_ids": [
+          1444,
+          294
+        ],
+        "incident_face_ids": [
+          1254,
+          1369
+        ]
+      },
+      "1229": {
+        "vertex_ids": [
+          1445,
+          294
+        ],
+        "incident_face_ids": [
+          1250,
+          1378
+        ]
+      },
+      "1374": {
+        "vertex_ids": [
+          386,
+          1518
+        ],
+        "incident_face_ids": [
+          1371,
+          1374
+        ]
+      },
+      "1375": {
+        "vertex_ids": [
+          1518,
+          293
+        ],
+        "incident_face_ids": [
+          1368,
+          1373
+        ]
+      },
+      "1376": {
+        "vertex_ids": [
+          294,
+          1519
+        ],
+        "incident_face_ids": [
+          1369,
+          1378
+        ]
+      },
+      "1377": {
+        "vertex_ids": [
+          1519,
+          385
+        ],
+        "incident_face_ids": [
+          1370,
+          1377
+        ]
+      },
+      "1378": {
+        "vertex_ids": [
+          385,
+          1520
+        ],
+        "incident_face_ids": [
+          1370,
+          1500
+        ]
+      },
+      "1379": {
+        "vertex_ids": [
+          1520,
+          386
+        ],
+        "incident_face_ids": [
+          1371,
+          1503
+        ]
+      },
+      "1380": {
+        "vertex_ids": [
+          317,
+          1521
+        ],
+        "incident_face_ids": [
+          1375,
+          1504
+        ]
+      },
+      "1381": {
+        "vertex_ids": [
+          1521,
+          386
+        ],
+        "incident_face_ids": [
+          1374,
+          1505
+        ]
+      },
+      "1384": {
+        "vertex_ids": [
+          385,
+          1523
+        ],
+        "incident_face_ids": [
+          1377,
+          1496
+        ]
+      },
+      "4666": {
+        "vertex_ids": [
+          1444,
+          2822
+        ],
+        "incident_face_ids": [
+          1368,
+          1369
+        ]
+      },
+      "4667": {
+        "vertex_ids": [
+          1519,
+          2822
+        ],
+        "incident_face_ids": [
+          1369,
+          1370
+        ]
+      },
+      "4668": {
+        "vertex_ids": [
+          1520,
+          2822
+        ],
+        "incident_face_ids": [
+          1370,
+          1371
+        ]
+      },
+      "4669": {
+        "vertex_ids": [
+          1518,
+          2822
+        ],
+        "incident_face_ids": [
+          1368,
+          1371
+        ]
+      },
+      "4670": {
+        "vertex_ids": [
+          1442,
+          2823
+        ],
+        "incident_face_ids": [
+          1372,
+          1373
+        ]
+      },
+      "4671": {
+        "vertex_ids": [
+          1518,
+          2823
+        ],
+        "incident_face_ids": [
+          1373,
+          1374
+        ]
+      },
+      "4672": {
+        "vertex_ids": [
+          1521,
+          2823
+        ],
+        "incident_face_ids": [
+          1374,
+          1375
+        ]
+      },
+      "4673": {
+        "vertex_ids": [
+          1423,
+          2823
+        ],
+        "incident_face_ids": [
+          1372,
+          1375
+        ]
+      },
+      "4674": {
+        "vertex_ids": [
+          1523,
+          2824
+        ],
+        "incident_face_ids": [
+          1376,
+          1377
+        ]
+      },
+      "4675": {
+        "vertex_ids": [
+          1519,
+          2824
+        ],
+        "incident_face_ids": [
+          1377,
+          1378
+        ]
+      },
+      "4676": {
+        "vertex_ids": [
+          1445,
+          2824
+        ],
+        "incident_face_ids": [
+          1378,
+          1379
+        ]
+      }
+    },
+    "faces": {
+      "1249": {
+        "vertex_ids": [
+          1377,
+          295,
+          1445,
+          2792
+        ],
+        "edge_ids": [
+          1093,
+          1228,
+          4547,
+          4546
+        ]
+      },
+      "1250": {
+        "vertex_ids": [
+          2792,
+          1445,
+          294,
+          1375
+        ],
+        "edge_ids": [
+          4547,
+          1229,
+          1088,
+          4548
+        ]
+      },
+      "1254": {
+        "vertex_ids": [
+          2793,
+          1375,
+          294,
+          1444
+        ],
+        "edge_ids": [
+          4551,
+          1088,
+          1227,
+          4552
+        ]
+      },
+      "1255": {
+        "vertex_ids": [
+          1374,
+          2793,
+          1444,
+          293
+        ],
+        "edge_ids": [
+          4553,
+          4552,
+          1226,
+          1087
+        ]
+      },
+      "1257": {
+        "vertex_ids": [
+          1374,
+          293,
+          1442,
+          2794
+        ],
+        "edge_ids": [
+          1087,
+          1222,
+          4555,
+          4554
+        ]
+      },
+      "1258": {
+        "vertex_ids": [
+          2794,
+          1442,
+          310,
+          1424
+        ],
+        "edge_ids": [
+          4555,
+          1223,
+          1187,
+          4556
+        ]
+      },
+      "1368": {
+        "vertex_ids": [
+          293,
+          1444,
+          2822,
+          1518
+        ],
+        "edge_ids": [
+          1226,
+          4666,
+          4669,
+          1375
+        ]
+      },
+      "1369": {
+        "vertex_ids": [
+          1444,
+          294,
+          1519,
+          2822
+        ],
+        "edge_ids": [
+          1227,
+          1376,
+          4667,
+          4666
+        ]
+      },
+      "1370": {
+        "vertex_ids": [
+          2822,
+          1519,
+          385,
+          1520
+        ],
+        "edge_ids": [
+          4667,
+          1377,
+          1378,
+          4668
+        ]
+      },
+      "1371": {
+        "vertex_ids": [
+          1518,
+          2822,
+          1520,
+          386
+        ],
+        "edge_ids": [
+          4669,
+          4668,
+          1379,
+          1374
+        ]
+      },
+      "1372": {
+        "vertex_ids": [
+          310,
+          1442,
+          2823,
+          1423
+        ],
+        "edge_ids": [
+          1223,
+          4670,
+          4673,
+          1184
+        ]
+      },
+      "1373": {
+        "vertex_ids": [
+          1442,
+          293,
+          1518,
+          2823
+        ],
+        "edge_ids": [
+          1222,
+          1375,
+          4671,
+          4670
+        ]
+      },
+      "1374": {
+        "vertex_ids": [
+          2823,
+          1518,
+          386,
+          1521
+        ],
+        "edge_ids": [
+          4671,
+          1374,
+          1381,
+          4672
+        ]
+      },
+      "1375": {
+        "vertex_ids": [
+          1423,
+          2823,
+          1521,
+          317
+        ],
+        "edge_ids": [
+          4673,
+          4672,
+          1380,
+          1185
+        ]
+      },
+      "1376": {
+        "vertex_ids": [
+          387,
+          1523,
+          2824,
+          1524
+        ],
+        "edge_ids": [
+          1385,
+          4674,
+          4677,
+          1386
+        ]
+      },
+      "1377": {
+        "vertex_ids": [
+          1523,
+          385,
+          1519,
+          2824
+        ],
+        "edge_ids": [
+          1384,
+          1377,
+          4675,
+          4674
+        ]
+      },
+      "1378": {
+        "vertex_ids": [
+          2824,
+          1519,
+          294,
+          1445
+        ],
+        "edge_ids": [
+          4675,
+          1376,
+          1229,
+          4676
+        ]
+      },
+      "1379": {
+        "vertex_ids": [
+          1524,
+          2824,
+          1445,
+          295
+        ],
+        "edge_ids": [
+          4677,
+          4676,
+          1228,
+          1387
+        ]
+      },
+      "1496": {
+        "vertex_ids": [
+          385,
+          1523,
+          2854,
+          1581
+        ],
+        "edge_ids": [
+          1384,
+          4794,
+          4797,
+          1500
+        ]
+      },
+      "1497": {
+        "vertex_ids": [
+          1523,
+          387,
+          1579,
+          2854
+        ],
+        "edge_ids": [
+          1385,
+          1497,
+          4795,
+          4794
+        ]
+      },
+      "1500": {
+        "vertex_ids": [
+          385,
+          1581,
+          2855,
+          1520
+        ],
+        "edge_ids": [
+          1500,
+          4798,
+          4801,
+          1378
+        ]
+      },
+      "1503": {
+        "vertex_ids": [
+          1520,
+          2855,
+          1584,
+          386
+        ],
+        "edge_ids": [
+          4801,
+          4800,
+          1507,
+          1379
+        ]
+      },
+      "1504": {
+        "vertex_ids": [
+          317,
+          1521,
+          2856,
+          1427
+        ],
+        "edge_ids": [
+          1380,
+          4802,
+          4805,
+          1192
+        ]
+      },
+      "1505": {
+        "vertex_ids": [
+          1521,
+          386,
+          1584,
+          2856
+        ],
+        "edge_ids": [
+          1381,
+          1507,
+          4803,
+          4802
+        ]
+      },
+      "3032": {
+        "vertex_ids": [
+          310,
+          1423,
+          3238,
+          2360
+        ],
+        "edge_ids": [
+          1184,
+          6330,
+          6333,
+          3058
+        ]
+      },
+      "3033": {
+        "vertex_ids": [
+          1423,
+          317,
+          1422,
+          3238
+        ],
+        "edge_ids": [
+          1185,
+          1183,
+          6331,
+          6330
+        ]
+      },
+      "3037": {
+        "vertex_ids": [
+          1424,
+          310,
+          2360,
+          3239
+        ],
+        "edge_ids": [
+          1187,
+          3058,
+          6335,
+          6334
+        ]
+      },
+      "3060": {
+        "vertex_ids": [
+          317,
+          1427,
+          3245,
+          1422
+        ],
+        "edge_ids": [
+          1192,
+          6358,
+          6361,
+          1183
+        ]
+      }
+    }
+  },
+  "cue_limitations": "Palmar and thenar anatomical normal bases are not frozen in this patch. CMC direction and neighbour normals are proxies, never ownership sources. No full circumference inferred."
+}

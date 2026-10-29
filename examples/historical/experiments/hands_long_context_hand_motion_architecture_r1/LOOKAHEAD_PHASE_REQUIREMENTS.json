@@ -1,0 +1,116 @@
+{
+  "authority": "DESIGN_PROVISIONAL — STOP — HUMAN REVIEW",
+  "status": "LOOKAHEAD_REQUIREMENTS_AND_PROPOSED_PHASE_GRAPH_ONLY",
+  "context": [
+    {
+      "note_id": "R05",
+      "hand": "R",
+      "midi": 74,
+      "on_tick": 1152,
+      "off_tick": 1536,
+      "music_on": 1.285713,
+      "music_off": 1.714284,
+      "display_on": 1.635713,
+      "display_off": 2.064284,
+      "key_color": "WHITE"
+    },
+    {
+      "note_id": "R06",
+      "hand": "R",
+      "midi": 67,
+      "on_tick": 1536,
+      "off_tick": 1920,
+      "music_on": 1.714284,
+      "music_off": 2.142855,
+      "display_on": 2.064284,
+      "display_off": 2.492855,
+      "key_color": "WHITE"
+    },
+    {
+      "note_id": "R07",
+      "hand": "R",
+      "midi": 67,
+      "on_tick": 1920,
+      "off_tick": 2304,
+      "music_on": 2.142855,
+      "music_off": 2.571426,
+      "display_on": 2.492855,
+      "display_off": 2.9214260000000003,
+      "key_color": "WHITE"
+    },
+    {
+      "note_id": "R08",
+      "hand": "R",
+      "midi": 76,
+      "on_tick": 2304,
+      "off_tick": 2688,
+      "music_on": 2.571426,
+      "music_off": 2.999997,
+      "display_on": 2.9214260000000003,
+      "display_off": 3.349997,
+      "key_color": "WHITE"
+    },
+    {
+      "note_id": "R09",
+      "hand": "R",
+      "midi": 72,
+      "on_tick": 2688,
+      "off_tick": 2880,
+      "music_on": 2.999997,
+      "music_off": 3.2142825,
+      "display_on": 3.349997,
+      "display_off": 3.5642825,
+      "key_color": "WHITE"
+    },
+    {
+      "note_id": "R10",
+      "hand": "R",
+      "midi": 74,
+      "on_tick": 2880,
+      "off_tick": 3072,
+      "music_on": 3.2142825,
+      "music_off": 3.428568,
+      "display_on": 3.5642825,
+      "display_off": 3.778568,
+      "key_color": "WHITE"
+    },
+    {
+      "note_id": "R11",
+      "hand": "R",
+      "midi": 76,
+      "on_tick": 3072,
+      "off_tick": 3264,
+      "music_on": 3.428568,
+      "music_off": 3.6428535,
+      "display_on": 3.778568,
+      "display_off": 3.9928535000000003,
+      "key_color": "WHITE"
+    }
+  ],
+  "known_start": {
+    "time": 2.527855,
+    "status": "ACTUAL_B2_VALIDATED"
+  },
+  "earlier_state_provenance": "R06 to R07 is still unvalidated; only original MIDI events used, no earlier posture accepted",
+  "geometry_constraint": {
+    "obstacle_key_index": 54,
+    "prepare_digit": 3,
+    "region": "Whole preparing-digit skin over actual entity top + clearance; actual static example proved it exists"
+  },
+  "phases": [
+    "KEEP_EXISTING_HOLD_CONTACT",
+    "RAISE_BEFORE_OBSTACLE_ENTRY",
+    "TRANSVERSE_THE_SLICE_IN_VERIFIED_CLEARANCE_REGION",
+    "BEGIN_DESCENT_BEFORE_CONTACT_DEADLINE",
+    "CONNECT_TO_ORIGINAL_CONTACT_REGION_SET"
+  ],
+  "measured_old_collision_entry_time": 2.778896666666667,
+  "representative_safe_raised_state_time": 2.869521666666667,
+  "remaining_seconds": 0.05190433333333333,
+  "fixed_old_common_recovery_minimum_seconds": 0.11549032391526337,
+  "fixed_old_common_descent_must_start_by": 2.805935676084737,
+  "fixed_target_lateness_seconds": 0.06358599058193004,
+  "lower_bound_not_global_feasibility_proof": true,
+  "alternative_contact_regions": "May adjust natural boundary; must revalidate full contact/geometry/time, not old-vector lock",
+  "planner_output": "Time-labelled clearance corridors, entry/exit phase deadlines, natural-family reachable-region requests and uncertain flags; no new whole trajectory executed"
+}

@@ -1,0 +1,139 @@
+{
+  "qa_only": true,
+  "is_human_response": false,
+  "initial_state": {
+    "answers": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "canvas": [
+      {
+        "height": 480,
+        "id": "native-canvas",
+        "width": 568
+      },
+      {
+        "height": 480,
+        "id": "rssf-canvas",
+        "width": 568
+      }
+    ],
+    "images": [
+      {
+        "alt": "Three candidate edge-pair overlay overview",
+        "loaded": true
+      },
+      {
+        "alt": "Option A native/RSSF boundary closeup",
+        "loaded": true
+      },
+      {
+        "alt": "Option B native/RSSF boundary closeup",
+        "loaded": true
+      },
+      {
+        "alt": "Option C native/RSSF boundary closeup",
+        "loaded": true
+      },
+      {
+        "alt": "P02 early side control native and RSSF",
+        "loaded": true
+      },
+      {
+        "alt": "P06 late side control native and RSSF",
+        "loaded": true
+      },
+      {
+        "alt": "Native four anatomical reference views",
+        "loaded": true
+      },
+      {
+        "alt": "RSSF four anatomical reference views",
+        "loaded": true
+      },
+      {
+        "alt": "Frozen anatomical landmark context",
+        "loaded": true
+      }
+    ],
+    "selected": 0
+  },
+  "boundary_checks": [
+    {
+      "option": "A",
+      "readout": "Q3 · STOP_AFTER_P03 · P03 / P04 · e1375 / e1374"
+    },
+    {
+      "option": "B",
+      "readout": "Q3 · STOP_AFTER_P04 · P04 / P05 · e4666 / e4668"
+    },
+    {
+      "option": "C",
+      "readout": "Q3 · STOP_AFTER_P05 · P05 / P06 · e1376 / e1377"
+    }
+  ],
+  "view_checks": [
+    {
+      "view": "PALMAR",
+      "pressed": "true"
+    },
+    {
+      "view": "RADIAL",
+      "pressed": "true"
+    },
+    {
+      "view": "ULNAR",
+      "pressed": "true"
+    },
+    {
+      "view": "DORSAL",
+      "pressed": "true"
+    }
+  ],
+  "clear_and_view_change_state": {
+    "answers": [
+      "",
+      "",
+      "",
+      ""
+    ],
+    "preview": "",
+    "selected": 0
+  },
+  "empty_export_rejected": true,
+  "export_preview": {
+    "review_id": "PROXIMAL_PARTIAL_CIRCUMFERENCE_BOUNDARY_HUMAN_REVIEW_R1",
+    "authority_id": "PROXIMAL_PARTIAL_CIRCUMFERENCE_SEMANTIC_BOUNDARY_AUTHORITY_R1",
+    "selected_option": "D",
+    "Q1_P02_digit_web_acceptable": "UNRESOLVED",
+    "Q2_P06_broader_interface_acceptable": "UNRESOLVED",
+    "Q3_selected_boundary": {
+      "option": "D",
+      "stop": "KEEP_UNRESOLVED",
+      "distal_row": null,
+      "proximal_row": null,
+      "left_boundary_edge_id": null,
+      "right_boundary_edge_id": null,
+      "boundary_vertex_ids": null,
+      "incident_face_transitions": null
+    },
+    "Q4_native_RSSF_context_acceptable": "UNRESOLVED",
+    "Q5_approve_for_boundary_authority": "KEEP_UNRESOLVED",
+    "approved_for_boundary_authority": false,
+    "authority_scope": "THUMB_SHARED_STRIP_PROXIMAL_SEMANTIC_STOP_ONLY",
+    "notes": "AUTOMATED UI VALIDATION ONLY — 非 Human 裁定；验证 D 与 Unicode JSON。",
+    "timestamp": "2026-10-03T08:17:19.739Z",
+    "response_kind": "AUTOMATED_UI_VALIDATION_NOT_HUMAN",
+    "validation_mode": true,
+    "applies_production_changes": false,
+    "frozen_membership_changes": false,
+    "first_web_hard_pin_count": 0,
+    "automatic_role_extension": false,
+    "automatic_solver_execution": false,
+    "reviewer_timezone_offset_minutes": -480
+  },
+  "download_event_api": "Timed out; actual local downloaded JSON independently found and verified",
+  "runtime_fix": "Raw HTML template preserves JS newline escapes; after reload no new runtime error observed"
+}

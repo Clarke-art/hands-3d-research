@@ -1,0 +1,813 @@
+{
+ "t01_rings": {
+  "INDEX_MCP": {
+   "centroid": [
+    1.446303,
+    0.014881,
+    0.482225
+   ],
+   "n": 41,
+   "mean_ring_radius_mm": 11.489,
+   "min_r": 9.438,
+   "max_r": 15.487,
+   "zone_half_width_mm": 9.364
+  },
+  "MIDDLE_MCP": {
+   "centroid": [
+    1.417253,
+    0.014568,
+    0.485966
+   ],
+   "n": 42,
+   "mean_ring_radius_mm": 10.825,
+   "min_r": 8.732,
+   "max_r": 14.281,
+   "zone_half_width_mm": 9.149
+  },
+  "RING_MCP": {
+   "centroid": [
+    1.392398,
+    0.011618,
+    0.481937
+   ],
+   "n": 50,
+   "mean_ring_radius_mm": 9.873,
+   "min_r": 7.642,
+   "max_r": 13.465,
+   "zone_half_width_mm": 8.875
+  },
+  "LITTLE_MCP": {
+   "centroid": [
+    1.364287,
+    0.003915,
+    0.473617
+   ],
+   "n": 43,
+   "mean_ring_radius_mm": 9.835,
+   "min_r": 7.613,
+   "max_r": 12.061,
+   "zone_half_width_mm": 8.906
+  },
+  "LITTLE_PIP": {
+   "centroid": [
+    1.35976,
+    -0.011829,
+    0.489538
+   ],
+   "n": 34,
+   "mean_ring_radius_mm": 8.401,
+   "min_r": 5.803,
+   "max_r": 10.628,
+   "zone_half_width_mm": 8.906
+  },
+  "LITTLE_DIP": {
+   "centroid": [
+    1.359772,
+    -0.02837,
+    0.495937
+   ],
+   "n": 48,
+   "mean_ring_radius_mm": 7.0,
+   "min_r": 4.153,
+   "max_r": 10.26,
+   "zone_half_width_mm": 8.015
+  },
+  "RING_PIP": {
+   "centroid": [
+    1.392783,
+    -0.008882,
+    0.505984
+   ],
+   "n": 43,
+   "mean_ring_radius_mm": 10.079,
+   "min_r": 7.506,
+   "max_r": 13.626,
+   "zone_half_width_mm": 8.875
+  },
+  "RING_DIP": {
+   "centroid": [
+    1.394529,
+    -0.033118,
+    0.511855
+   ],
+   "n": 37,
+   "mean_ring_radius_mm": 8.195,
+   "min_r": 6.178,
+   "max_r": 11.214,
+   "zone_half_width_mm": 7.987
+  },
+  "MIDDLE_PIP": {
+   "centroid": [
+    1.421285,
+    -0.005704,
+    0.511426
+   ],
+   "n": 25,
+   "mean_ring_radius_mm": 9.677,
+   "min_r": 7.777,
+   "max_r": 11.742,
+   "zone_half_width_mm": 9.149
+  },
+  "MIDDLE_DIP": {
+   "centroid": [
+    1.424174,
+    -0.02936,
+    0.519759
+   ],
+   "n": 35,
+   "mean_ring_radius_mm": 9.204,
+   "min_r": 7.012,
+   "max_r": 12.203,
+   "zone_half_width_mm": 8.234
+  },
+  "INDEX_PIP": {
+   "centroid": [
+    1.455684,
+    -0.003069,
+    0.504578
+   ],
+   "n": 34,
+   "mean_ring_radius_mm": 9.824,
+   "min_r": 7.764,
+   "max_r": 12.194,
+   "zone_half_width_mm": 9.364
+  },
+  "INDEX_DIP": {
+   "centroid": [
+    1.459641,
+    -0.022671,
+    0.510701
+   ],
+   "n": 45,
+   "mean_ring_radius_mm": 8.982,
+   "min_r": 6.688,
+   "max_r": 12.84,
+   "zone_half_width_mm": 8.428
+  },
+  "THUMB_MCP": {
+   "centroid": [
+    1.453625,
+    0.001662,
+    0.436229
+   ],
+   "n": 43,
+   "mean_ring_radius_mm": 11.829,
+   "min_r": 9.454,
+   "max_r": 16.417,
+   "zone_half_width_mm": 9.614
+  },
+  "THUMB_IP": {
+   "centroid": [
+    1.449963,
+    0.005135,
+    0.465606
+   ],
+   "n": 35,
+   "mean_ring_radius_mm": 10.715,
+   "min_r": 8.525,
+   "max_r": 13.175,
+   "zone_half_width_mm": 8.653
+  }
+ },
+ "digit_local_patches": {
+  "THUMB": {
+   "n_faces": 497,
+   "n_verts": 559,
+   "R_mm": 16.15
+  },
+  "INDEX": {
+   "n_faces": 344,
+   "n_verts": 377,
+   "R_mm": 11.08
+  },
+  "MIDDLE": {
+   "n_faces": 302,
+   "n_verts": 323,
+   "R_mm": 11.31
+  },
+  "RING": {
+   "n_faces": 312,
+   "n_verts": 335,
+   "R_mm": 10.37
+  },
+  "LITTLE": {
+   "n_faces": 258,
+   "n_verts": 275,
+   "R_mm": 9.79
+  }
+ },
+ "joints": {
+  "WRIST_R": {
+   "joint": "WRIST_R",
+   "world": [
+    1.3956,
+    0.0156,
+    0.2773
+   ]
+  },
+  "THUMB_CMC_R": {
+   "joint": "THUMB_CMC_R",
+   "world": [
+    1.4488,
+    0.0111,
+    0.3938
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 0.1651,
+    "signed_mm": -0.1646,
+    "inside": true,
+    "nearest_face": 3404
+   },
+   "digit_r_env_mm": 11.14,
+   "dist_to_digit_chain_polyline_mm": 0.0
+  },
+  "THUMB_MCP_R": {
+   "joint": "THUMB_MCP_R",
+   "world": [
+    1.4431,
+    0.0074,
+    0.4359
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 2.4575,
+    "signed_mm": 2.4573,
+    "inside": false,
+    "nearest_face": 1139
+   },
+   "digit_r_env_mm": 11.14,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "THUMB_MCP",
+    "centroid": [
+     1.453625,
+     0.001662,
+     0.436229
+    ],
+    "mean_ring_radius_mm": 11.829,
+    "d_centroid_mm": 12.0328,
+    "d_plane_mm": 2.2478,
+    "d_radial_mm": 11.821,
+    "angle_plane_normal_vs_chain_axis_deg": 18.811,
+    "zone_half_width_mm": 9.614,
+    "axial_offset_vs_ring_mm": -1.0534
+   }
+  },
+  "THUMB_IP_R": {
+   "joint": "THUMB_IP_R",
+   "world": [
+    1.4509,
+    0.0061,
+    0.464
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 6.22,
+    "signed_mm": -6.22,
+    "inside": true,
+    "nearest_face": 1065
+   },
+   "digit_r_env_mm": 11.14,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "THUMB_IP",
+    "centroid": [
+     1.449963,
+     0.005135,
+     0.465606
+    ],
+    "mean_ring_radius_mm": 10.715,
+    "d_centroid_mm": 2.0896,
+    "d_plane_mm": 1.0949,
+    "d_radial_mm": 1.7798,
+    "angle_plane_normal_vs_chain_axis_deg": 10.198,
+    "zone_half_width_mm": 8.653,
+    "axial_offset_vs_ring_mm": -1.3722
+   }
+  },
+  "THUMB_TIP_R": {
+   "joint": "THUMB_TIP_R",
+   "world": [
+    1.4513,
+    0.0105,
+    0.4856
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 0.1111,
+    "signed_mm": 0.1111,
+    "inside": false,
+    "nearest_face": 1936
+   },
+   "digit_r_env_mm": 11.14,
+   "dist_to_digit_chain_polyline_mm": 0.0
+  },
+  "INDEX_MCP_R": {
+   "joint": "INDEX_MCP_R",
+   "world": [
+    1.4459,
+    0.0138,
+    0.4796
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 0.2334,
+    "signed_mm": -0.2328,
+    "inside": true,
+    "nearest_face": 1224
+   },
+   "digit_r_env_mm": 7.64,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "INDEX_MCP",
+    "centroid": [
+     1.446303,
+     0.014881,
+     0.482225
+    ],
+    "mean_ring_radius_mm": 11.489,
+    "d_centroid_mm": 2.8409,
+    "d_plane_mm": 2.1447,
+    "d_radial_mm": 1.8631,
+    "angle_plane_normal_vs_chain_axis_deg": 14.057,
+    "zone_half_width_mm": 9.364,
+    "axial_offset_vs_ring_mm": -2.5326
+   }
+  },
+  "INDEX_PIP_R": {
+   "joint": "INDEX_PIP_R",
+   "world": [
+    1.4552,
+    -0.0036,
+    0.5033
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 6.1275,
+    "signed_mm": -6.1271,
+    "inside": true,
+    "nearest_face": 428
+   },
+   "digit_r_env_mm": 7.64,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "INDEX_PIP",
+    "centroid": [
+     1.455684,
+     -0.003069,
+     0.504578
+    ],
+    "mean_ring_radius_mm": 9.824,
+    "d_centroid_mm": 1.4394,
+    "d_plane_mm": 0.7361,
+    "d_radial_mm": 1.237,
+    "angle_plane_normal_vs_chain_axis_deg": 8.757,
+    "zone_half_width_mm": 9.364,
+    "axial_offset_vs_ring_mm": -0.5468
+   }
+  },
+  "INDEX_DIP_R": {
+   "joint": "INDEX_DIP_R",
+   "world": [
+    1.4591,
+    -0.0221,
+    0.5109
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 5.0675,
+    "signed_mm": -5.0591,
+    "inside": true,
+    "nearest_face": 782
+   },
+   "digit_r_env_mm": 7.64,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "INDEX_DIP",
+    "centroid": [
+     1.459641,
+     -0.022671,
+     0.510701
+    ],
+    "mean_ring_radius_mm": 8.982,
+    "d_centroid_mm": 0.8059,
+    "d_plane_mm": 0.1214,
+    "d_radial_mm": 0.7967,
+    "angle_plane_normal_vs_chain_axis_deg": 74.682,
+    "zone_half_width_mm": 8.428,
+    "axial_offset_vs_ring_mm": -0.5295
+   }
+  },
+  "INDEX_TIP_R": {
+   "joint": "INDEX_TIP_R",
+   "world": [
+    1.461,
+    -0.0371,
+    0.514
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 0.254,
+    "signed_mm": 0.2488,
+    "inside": false,
+    "nearest_face": 800
+   },
+   "digit_r_env_mm": 7.64,
+   "dist_to_digit_chain_polyline_mm": 0.0
+  },
+  "MIDDLE_MCP_R": {
+   "joint": "MIDDLE_MCP_R",
+   "world": [
+    1.4169,
+    0.0138,
+    0.4829
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 6.1458,
+    "signed_mm": -6.1438,
+    "inside": true,
+    "nearest_face": 2783
+   },
+   "digit_r_env_mm": 7.8,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "MIDDLE_MCP",
+    "centroid": [
+     1.417253,
+     0.014568,
+     0.485966
+    ],
+    "mean_ring_radius_mm": 10.825,
+    "d_centroid_mm": 3.2105,
+    "d_plane_mm": 2.3056,
+    "d_radial_mm": 2.2341,
+    "angle_plane_normal_vs_chain_axis_deg": 25.83,
+    "zone_half_width_mm": 9.149,
+    "axial_offset_vs_ring_mm": -3.0472
+   }
+  },
+  "MIDDLE_PIP_R": {
+   "joint": "MIDDLE_PIP_R",
+   "world": [
+    1.4215,
+    -0.006,
+    0.5106
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 6.61,
+    "signed_mm": -6.6092,
+    "inside": true,
+    "nearest_face": 351
+   },
+   "digit_r_env_mm": 7.8,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "MIDDLE_PIP",
+    "centroid": [
+     1.421285,
+     -0.005704,
+     0.511426
+    ],
+    "mean_ring_radius_mm": 9.677,
+    "d_centroid_mm": 0.8686,
+    "d_plane_mm": 0.3485,
+    "d_radial_mm": 0.7957,
+    "angle_plane_normal_vs_chain_axis_deg": 4.081,
+    "zone_half_width_mm": 9.149,
+    "axial_offset_vs_ring_mm": -0.2922
+   }
+  },
+  "MIDDLE_DIP_R": {
+   "joint": "MIDDLE_DIP_R",
+   "world": [
+    1.4243,
+    -0.0298,
+    0.5198
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 5.9617,
+    "signed_mm": -5.9616,
+    "inside": true,
+    "nearest_face": 642
+   },
+   "digit_r_env_mm": 7.8,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "MIDDLE_DIP",
+    "centroid": [
+     1.424174,
+     -0.02936,
+     0.519759
+    ],
+    "mean_ring_radius_mm": 9.204,
+    "d_centroid_mm": 0.478,
+    "d_plane_mm": 0.0676,
+    "d_radial_mm": 0.4732,
+    "angle_plane_normal_vs_chain_axis_deg": 78.884,
+    "zone_half_width_mm": 8.234,
+    "axial_offset_vs_ring_mm": 0.4675
+   }
+  },
+  "MIDDLE_TIP_R": {
+   "joint": "MIDDLE_TIP_R",
+   "world": [
+    1.4254,
+    -0.0474,
+    0.5208
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 0.2419,
+    "signed_mm": 0.2419,
+    "inside": false,
+    "nearest_face": 1876
+   },
+   "digit_r_env_mm": 7.8,
+   "dist_to_digit_chain_polyline_mm": 0.0
+  },
+  "RING_MCP_R": {
+   "joint": "RING_MCP_R",
+   "world": [
+    1.3942,
+    0.0106,
+    0.4792
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 5.2408,
+    "signed_mm": -5.2358,
+    "inside": true,
+    "nearest_face": 3317
+   },
+   "digit_r_env_mm": 7.15,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "RING_MCP",
+    "centroid": [
+     1.392398,
+     0.011618,
+     0.481937
+    ],
+    "mean_ring_radius_mm": 9.873,
+    "d_centroid_mm": 3.4312,
+    "d_plane_mm": 1.4766,
+    "d_radial_mm": 3.0972,
+    "angle_plane_normal_vs_chain_axis_deg": 33.633,
+    "zone_half_width_mm": 8.875,
+    "axial_offset_vs_ring_mm": -2.5918
+   }
+  },
+  "RING_PIP_R": {
+   "joint": "RING_PIP_R",
+   "world": [
+    1.3926,
+    -0.0093,
+    0.5048
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 6.2105,
+    "signed_mm": -6.2104,
+    "inside": true,
+    "nearest_face": 553
+   },
+   "digit_r_env_mm": 7.15,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "RING_PIP",
+    "centroid": [
+     1.392783,
+     -0.008882,
+     0.505984
+    ],
+    "mean_ring_radius_mm": 10.079,
+    "d_centroid_mm": 1.2183,
+    "d_plane_mm": 1.1024,
+    "d_radial_mm": 0.5187,
+    "angle_plane_normal_vs_chain_axis_deg": 56.187,
+    "zone_half_width_mm": 8.875,
+    "axial_offset_vs_ring_mm": -0.3871
+   }
+  },
+  "RING_DIP_R": {
+   "joint": "RING_DIP_R",
+   "world": [
+    1.3945,
+    -0.0313,
+    0.5126
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 5.0839,
+    "signed_mm": -5.0839,
+    "inside": true,
+    "nearest_face": 111
+   },
+   "digit_r_env_mm": 7.15,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "RING_DIP",
+    "centroid": [
+     1.394529,
+     -0.033118,
+     0.511855
+    ],
+    "mean_ring_radius_mm": 8.195,
+    "d_centroid_mm": 1.9813,
+    "d_plane_mm": 0.0627,
+    "d_radial_mm": 1.9803,
+    "angle_plane_normal_vs_chain_axis_deg": 55.561,
+    "zone_half_width_mm": 7.987,
+    "axial_offset_vs_ring_mm": -1.6661
+   }
+  },
+  "RING_TIP_R": {
+   "joint": "RING_TIP_R",
+   "world": [
+    1.3963,
+    -0.0471,
+    0.5124
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 0.2321,
+    "signed_mm": 0.2286,
+    "inside": false,
+    "nearest_face": 1885
+   },
+   "digit_r_env_mm": 7.15,
+   "dist_to_digit_chain_polyline_mm": 0.0
+  },
+  "LITTLE_MCP_R": {
+   "joint": "LITTLE_MCP_R",
+   "world": [
+    1.3651,
+    0.0021,
+    0.4706
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 4.7863,
+    "signed_mm": -4.7853,
+    "inside": true,
+    "nearest_face": 619
+   },
+   "digit_r_env_mm": 6.75,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "LITTLE_MCP",
+    "centroid": [
+     1.364287,
+     0.003915,
+     0.473617
+    ],
+    "mean_ring_radius_mm": 9.835,
+    "d_centroid_mm": 3.6197,
+    "d_plane_mm": 3.1213,
+    "d_radial_mm": 1.833,
+    "angle_plane_normal_vs_chain_axis_deg": 9.002,
+    "zone_half_width_mm": 8.906,
+    "axial_offset_vs_ring_mm": -2.839
+   }
+  },
+  "LITTLE_PIP_R": {
+   "joint": "LITTLE_PIP_R",
+   "world": [
+    1.3597,
+    -0.0122,
+    0.4891
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 5.1464,
+    "signed_mm": -5.1457,
+    "inside": true,
+    "nearest_face": 251
+   },
+   "digit_r_env_mm": 6.75,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "LITTLE_PIP",
+    "centroid": [
+     1.35976,
+     -0.011829,
+     0.489538
+    ],
+    "mean_ring_radius_mm": 8.401,
+    "d_centroid_mm": 0.5233,
+    "d_plane_mm": 0.4958,
+    "d_radial_mm": 0.1675,
+    "angle_plane_normal_vs_chain_axis_deg": 78.676,
+    "zone_half_width_mm": 8.906,
+    "axial_offset_vs_ring_mm": -0.0137
+   }
+  },
+  "LITTLE_DIP_R": {
+   "joint": "LITTLE_DIP_R",
+   "world": [
+    1.3597,
+    -0.027,
+    0.4959
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 3.9549,
+    "signed_mm": -3.954,
+    "inside": true,
+    "nearest_face": 4
+   },
+   "digit_r_env_mm": 6.75,
+   "dist_to_digit_chain_polyline_mm": 0.0,
+   "ring": {
+    "ring": "LITTLE_DIP",
+    "centroid": [
+     1.359772,
+     -0.02837,
+     0.495937
+    ],
+    "mean_ring_radius_mm": 7.0,
+    "d_centroid_mm": 1.3299,
+    "d_plane_mm": 0.0578,
+    "d_radial_mm": 1.3287,
+    "angle_plane_normal_vs_chain_axis_deg": 74.522,
+    "zone_half_width_mm": 8.015,
+    "axial_offset_vs_ring_mm": -1.2646
+   }
+  },
+  "LITTLE_TIP_R": {
+   "joint": "LITTLE_TIP_R",
+   "world": [
+    1.3595,
+    -0.0385,
+    0.498
+   ],
+   "digit_local_surface": {
+    "found": true,
+    "dist_mm": 0.2135,
+    "signed_mm": 0.1871,
+    "inside": false,
+    "nearest_face": 1907
+   },
+   "digit_r_env_mm": 6.75,
+   "dist_to_digit_chain_polyline_mm": 0.0
+  }
+ },
+ "tip_check": {
+  "THUMB": {
+   "farthest_vertex_index": 2570,
+   "farthest_dist_from_proximal_mm": 105.3,
+   "tip_landmark_dist_to_farthest_vertex_mm": 15.636,
+   "tip_landmark_dist_from_proximal_mm": 91.892,
+   "mesh_extent_along_distal_axis_mm": 36.337,
+   "tip_landmark_along_distal_axis_mm": 22.064
+  },
+  "INDEX": {
+   "farthest_vertex_index": 1228,
+   "farthest_dist_from_proximal_mm": 63.292,
+   "tip_landmark_dist_to_farthest_vertex_mm": 0.47,
+   "tip_landmark_dist_from_proximal_mm": 63.261,
+   "mesh_extent_along_distal_axis_mm": 15.217,
+   "tip_landmark_along_distal_axis_mm": 15.371
+  },
+  "MIDDLE": {
+   "farthest_vertex_index": 1168,
+   "farthest_dist_from_proximal_mm": 73.813,
+   "tip_landmark_dist_to_farthest_vertex_mm": 3.919,
+   "tip_landmark_dist_from_proximal_mm": 72.584,
+   "mesh_extent_along_distal_axis_mm": 17.51,
+   "tip_landmark_along_distal_axis_mm": 17.679
+  },
+  "RING": {
+   "farthest_vertex_index": 900,
+   "farthest_dist_from_proximal_mm": 67.633,
+   "tip_landmark_dist_to_farthest_vertex_mm": 4.669,
+   "tip_landmark_dist_from_proximal_mm": 66.58,
+   "mesh_extent_along_distal_axis_mm": 15.773,
+   "tip_landmark_along_distal_axis_mm": 15.931
+  },
+  "LITTLE": {
+   "farthest_vertex_index": 2672,
+   "farthest_dist_from_proximal_mm": 49.762,
+   "tip_landmark_dist_to_farthest_vertex_mm": 3.551,
+   "tip_landmark_dist_from_proximal_mm": 49.234,
+   "mesh_extent_along_distal_axis_mm": 11.445,
+   "tip_landmark_along_distal_axis_mm": 11.611
+  }
+ },
+ "thumb_note": {
+  "THUMB_IP_head": [
+   1.450861,
+   0.006127,
+   0.464001
+  ],
+  "THUMB_TIP_head": [
+   1.451316,
+   0.010537,
+   0.485615
+  ]
+ }
+}

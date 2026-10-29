@@ -1,0 +1,6542 @@
+{
+  "status": "PASS",
+  "baseline_counts": {
+    "broadphase_pairs": 603,
+    "exact_narrowphase_pairs": 523,
+    "true_contact_native_pair_count": 10,
+    "component_count": 10
+  },
+  "candidate_counts": {
+    "broadphase_pairs": 493,
+    "exact_narrowphase_pairs": 413,
+    "true_contact_native_pair_count": 0,
+    "component_count": 0
+  },
+  "baseline_components": {
+    "(2189, 2784)": [
+      {
+        "component_id": "2189/2784:4378-5569",
+        "native_face_pair": [
+          2189,
+          2784
+        ],
+        "fan_pair_membership": [
+          [
+            4378,
+            5569
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  123,
+                  1023
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  3176,
+                  3351,
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  123,
+                  1023,
+                  1860
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3176,
+                  3361
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.2484690334715614,
+        "sum_fan_intersection_lengths_mm": 0.2484690334715614,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.7135353314989,
+                13.12265005405839,
+                481.98202402808295
+              ],
+              [
+                1425.7063621616842,
+                13.124643424327834,
+                481.9840708310888
+              ]
+            ],
+            "a_weights": [
+              0.06502165310163277,
+              0.0,
+              0.9349783468983672
+            ],
+            "b_weights": [
+              0.0,
+              0.08494676429050041,
+              0.9150532357094996
+            ],
+            "a_vertex_ids": [
+              1860,
+              123,
+              1023
+            ],
+            "b_vertex_ids": [
+              3351,
+              3176,
+              3361
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1425.7799549044394,
+                13.257770440856863,
+                482.21846673574646
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "crossing_segment_mm": 0.24846903347160987
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.2484690334715614,
+            "points_world_mm": [
+              [
+                1425.7799549044394,
+                13.257770440856861,
+                482.21846673574646
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.7799549044394,
+                13.257770440856861,
+                482.21846673574646
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4378,
+              5569
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    123,
+                    1023
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    3176,
+                    3351,
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    123,
+                    1023,
+                    1860
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3176,
+                    3361
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2189, 2787)": [
+      {
+        "component_id": "2189/2787:4378-5574",
+        "native_face_pair": [
+          2189,
+          2787
+        ],
+        "fan_pair_membership": [
+          [
+            4378,
+            5574
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  123,
+                  1023
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3176,
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  123,
+                  1023,
+                  1860
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3176,
+                  3361
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.10957165627462695,
+        "sum_fan_intersection_lengths_mm": 0.10957165627462695,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.7135353314989,
+                13.12265005405839,
+                481.98202402808295
+              ],
+              [
+                1425.7063621616842,
+                13.124643424327834,
+                481.9840708310888
+              ]
+            ],
+            "a_weights": [
+              0.06502165310163259,
+              0.0,
+              0.9349783468983675
+            ],
+            "b_weights": [
+              0.9150532357094994,
+              0.0849467642905006,
+              0.0
+            ],
+            "a_vertex_ids": [
+              1860,
+              123,
+              1023
+            ],
+            "b_vertex_ids": [
+              3361,
+              3176,
+              2077
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "crossing_segment_mm": 0.10957165627462048
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.10957165627462695,
+            "points_world_mm": [
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ],
+              [
+                1425.7150014532886,
+                13.077667296793894,
+                482.0600976501377
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4378,
+              5574
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    123,
+                    1023
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3176,
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    123,
+                    1023,
+                    1860
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3176,
+                    3361
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2190, 2787)": [
+      {
+        "component_id": "2190/2787:4380-5575,4381-5575",
+        "native_face_pair": [
+          2190,
+          2787
+        ],
+        "fan_pair_membership": [
+          [
+            4380,
+            5575
+          ],
+          [
+            4381,
+            5575
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1023
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3352,
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  3027
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3352,
+                  3361
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  3027
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3352,
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1862,
+                  3027
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  2077,
+                  3352
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 2.2753057938055448,
+        "sum_fan_intersection_lengths_mm": 2.3081791252004784,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.5009456819587,
+                12.624854790742976,
+                482.0324434726154
+              ],
+              [
+                1425.4824723189568,
+                12.636129760459957,
+                482.0438652238817
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.9122225258351497,
+              0.0877774741648503
+            ],
+            "b_weights": [
+              0.8598800731189542,
+              0.14011992688104574,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3027,
+              1023,
+              124
+            ],
+            "b_vertex_ids": [
+              3361,
+              2077,
+              3352
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ],
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ]
+            ],
+            "crossing_segment_mm": 1.5849045119374863
+          },
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.8589902583296,
+                10.663942600224134,
+                480.96261652413324
+              ],
+              [
+                1423.9089729923005,
+                10.722225631774599,
+                480.9961564494991
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.7933811590634202,
+              0.20661884093657976
+            ],
+            "b_weights": [
+              0.0,
+              0.2033895304766642,
+              0.7966104695233358
+            ],
+            "a_vertex_ids": [
+              3027,
+              124,
+              1862
+            ],
+            "b_vertex_ids": [
+              3361,
+              2077,
+              3352
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "crossing_segment_mm": 0.7232746132630201
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 1.5849045119374654,
+            "points_world_mm": [
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ],
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ],
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4380,
+              5575
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1023
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3352,
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    3027
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3352,
+                    3361
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          },
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.7232746132630128,
+            "points_world_mm": [
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1424.3038777105446,
+                11.319764439544134,
+                481.1306754850442
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4381,
+              5575
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    3027
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3352,
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1862,
+                    3027
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    2077,
+                    3352
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2190, 2780)": [
+      {
+        "component_id": "2190/2780:4381-5560",
+        "native_face_pair": [
+          2190,
+          2780
+        ],
+        "fan_pair_membership": [
+          [
+            4381,
+            5560
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1862
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3175,
+                  3352
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1862,
+                  3027
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  2077,
+                  3352
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.1780623742414675,
+        "sum_fan_intersection_lengths_mm": 0.1780623742414675,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.8589902583296,
+                10.663942600224136,
+                480.96261652413324
+              ],
+              [
+                1423.9089729923005,
+                10.722225631774604,
+                480.9961564494991
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.7933811590634177,
+              0.2066188409365824
+            ],
+            "b_weights": [
+              0.7966104695233371,
+              0.20338953047666283,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3027,
+              124,
+              1862
+            ],
+            "b_vertex_ids": [
+              3352,
+              2077,
+              3175
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "crossing_segment_mm": 0.1780623742414664
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.1780623742414675,
+            "points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.9065874303315,
+                10.735190940359404,
+                480.977181434704
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4381,
+              5560
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1862
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3175,
+                    3352
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1862,
+                    3027
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    2077,
+                    3352
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2420, 2780)": [
+      {
+        "component_id": "2420/2780:4840-5561,4841-5560,4841-5561",
+        "native_face_pair": [
+          2420,
+          2780
+        ],
+        "fan_pair_membership": [
+          [
+            4840,
+            5561
+          ],
+          [
+            4841,
+            5560
+          ],
+          [
+            4841,
+            5561
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  3175,
+                  3352,
+                  3360
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1024,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3175,
+                  3360
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1862
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3175,
+                  3352
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1862,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3175,
+                  3352
+                ]
+              }
+            }
+          ],
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  3175,
+                  3352,
+                  3360
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1862,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3175,
+                  3352
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 3.3866630548597922,
+        "sum_fan_intersection_lengths_mm": 3.5077865595018687,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1421.1050400069707,
+                8.610218692205347,
+                480.9183651551904
+              ],
+              [
+                1421.1071357648914,
+                8.607694449751225,
+                480.91637423706936
+              ]
+            ],
+            "a_weights": [
+              0.057499165569539934,
+              0.9425008344304601,
+              0.0
+            ],
+            "b_weights": [
+              0.0,
+              0.36098443417923387,
+              0.6390155658207661
+            ],
+            "a_vertex_ids": [
+              124,
+              1024,
+              3085
+            ],
+            "b_vertex_ids": [
+              3352,
+              3175,
+              3360
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334313,
+                480.8865408869524
+              ]
+            ],
+            "crossing_segment_mm": 2.63489257889911
+          },
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.3124296294072,
+                10.353692239488238,
+                480.9283434985784
+              ],
+              [
+                1423.3296205763024,
+                10.334604342066854,
+                480.91493585494226
+              ]
+            ],
+            "a_weights": [
+              0.8359056861911475,
+              0.16409431380885253,
+              0.0
+            ],
+            "b_weights": [
+              0.7982347911197365,
+              0.0,
+              0.2017652088802635
+            ],
+            "a_vertex_ids": [
+              124,
+              3085,
+              1862
+            ],
+            "b_vertex_ids": [
+              3352,
+              2077,
+              3175
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644548,
+                480.8417076550239
+              ]
+            ],
+            "crossing_segment_mm": 0.5567306823374668
+          },
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.3124296294072,
+                10.353692239488238,
+                480.9283434985784
+              ],
+              [
+                1423.3296205763024,
+                10.334604342066854,
+                480.91493585494226
+              ]
+            ],
+            "a_weights": [
+              0.8359056861911475,
+              0.16409431380885253,
+              0.0
+            ],
+            "b_weights": [
+              0.7982347911197365,
+              0.20176520888026345,
+              0.0
+            ],
+            "a_vertex_ids": [
+              124,
+              3085,
+              1862
+            ],
+            "b_vertex_ids": [
+              3352,
+              3175,
+              3360
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "crossing_segment_mm": 0.31616329826529616
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.6348925788990596,
+            "points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4840,
+              5561
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    3175,
+                    3352,
+                    3360
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1024,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3175,
+                    3360
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          },
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.5567306823375238,
+            "points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1423.846297783912,
+                10.605443681357343,
+                481.0831862291077
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4841,
+              5560
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1862
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3175,
+                    3352
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1862,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3175,
+                    3352
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          },
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.3161632982652855,
+            "points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1423.1097777604969,
+                10.327111484894179,
+                480.70635021770386
+              ],
+              [
+                1423.3768706564101,
+                10.428595376644546,
+                480.8417076550239
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4841,
+              5561
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    3175,
+                    3352,
+                    3360
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1862,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3175,
+                    3352
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2420, 2783)": [
+      {
+        "component_id": "2420/2783:4840-5566",
+        "native_face_pair": [
+          2420,
+          2783
+        ],
+        "fan_pair_membership": [
+          [
+            4840,
+            5566
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1024
+                ]
+              },
+              "b": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2078,
+                  3175,
+                  3360
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  124,
+                  1024,
+                  3085
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  3175,
+                  3360
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.038529153299419576,
+        "sum_fan_intersection_lengths_mm": 0.038529153299419576,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1421.1050400069707,
+                8.610218692205347,
+                480.9183651551904
+              ],
+              [
+                1421.1071357648914,
+                8.607694449751225,
+                480.91637423706936
+              ]
+            ],
+            "a_weights": [
+              0.057499165569540156,
+              0.9425008344304598,
+              0.0
+            ],
+            "b_weights": [
+              0.6390155658207661,
+              0.36098443417923387,
+              0.0
+            ],
+            "a_vertex_ids": [
+              124,
+              1024,
+              3085
+            ],
+            "b_vertex_ids": [
+              3360,
+              3175,
+              2078
+            ],
+            "feature_kind": "EDGE_EDGE",
+            "intersection_points_world_mm": [
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "crossing_segment_mm": 0.03852915329937734
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 2,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.038529153299419576,
+            "points_world_mm": [
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ],
+              [
+                1421.1036814855656,
+                8.628356658334315,
+                480.8865408869524
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              4840,
+              5566
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1024
+                  ]
+                },
+                "b": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2078,
+                    3175,
+                    3360
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    124,
+                    1024,
+                    3085
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    3175,
+                    3360
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2783, 3353)": [
+      {
+        "component_id": "2783/3353:5566-6707",
+        "native_face_pair": [
+          2783,
+          3353
+        ],
+        "fan_pair_membership": [
+          [
+            5566,
+            6707
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3360
+                ]
+              },
+              "b": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3360
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2078,
+                  3175,
+                  3360
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1024
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 2.0158773471582756,
+        "sum_fan_intersection_lengths_mm": 2.0158773471582756,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ]
+            ],
+            "a_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "b_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3360,
+              3175,
+              2078
+            ],
+            "b_vertex_ids": [
+              124,
+              3360,
+              1024
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ]
+            ],
+            "crossing_segment_mm": 2.015877347158265
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 1,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.0158773471582756,
+            "points_world_mm": [
+              [
+                1420.916199684143,
+                9.749802760779858,
+                479.26732897758484
+              ],
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1421.0977827267975,
+                8.605359744408517,
+                480.91688626961354
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              5566,
+              6707
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3360
+                  ]
+                },
+                "b": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3360
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2078,
+                    3175,
+                    3360
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1024
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [
+              3360
+            ],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2784, 3351)": [
+      {
+        "component_id": "2784/3351:5569-6703",
+        "native_face_pair": [
+          2784,
+          3351
+        ],
+        "fan_pair_membership": [
+          [
+            5569,
+            6703
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  3176,
+                  3351,
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  123,
+                  1023
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.5396911341458305,
+        "sum_fan_intersection_lengths_mm": 0.5396911341458305,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3351,
+              3176,
+              3361
+            ],
+            "b_vertex_ids": [
+              123,
+              3361,
+              1023
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695517,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695528,
+                481.6915988922119
+              ],
+              [
+                1425.7799549044394,
+                13.257770440856865,
+                482.21846673574646
+              ]
+            ],
+            "crossing_segment_mm": 0.5396911341458565
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 1,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.5396911341458305,
+            "points_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.7799549044394,
+                13.257770440856861,
+                482.21846673574646
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.7799549044394,
+                13.257770440856861,
+                482.21846673574646
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              5569,
+              6703
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    3176,
+                    3351,
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    123,
+                    1023
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [
+              3351,
+              3361
+            ],
+            "shared_edges": [
+              [
+                3351,
+                3361
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "(2787, 3351)": [
+      {
+        "component_id": "2787/3351:5574-6703",
+        "native_face_pair": [
+          2787,
+          3351
+        ],
+        "fan_pair_membership": [
+          [
+            5574,
+            6703
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3361
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3176,
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  123,
+                  1023
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 0.5415641267633943,
+        "sum_fan_intersection_lengths_mm": 0.5415641267633943,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ]
+            ],
+            "a_weights": [
+              1.0,
+              0.0,
+              0.0
+            ],
+            "b_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3361,
+              3176,
+              2077
+            ],
+            "b_vertex_ids": [
+              123,
+              3361,
+              1023
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.30535858869553,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ]
+            ],
+            "crossing_segment_mm": 0.5415641267633844
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 1,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 0.5415641267633943,
+            "points_world_mm": [
+              [
+                1425.6731271743774,
+                13.305358588695526,
+                481.6915988922119
+              ],
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.7091489535187,
+                13.00078787619253,
+                482.13795168531385
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              5574,
+              6703
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3361
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3176,
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    123,
+                    1023
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [
+              3361
+            ],
+            "shared_edges": []
+          }
+        ]
+      }
+    ],
+    "(2787, 3350)": [
+      {
+        "component_id": "2787/3350:5575-6701",
+        "native_face_pair": [
+          2787,
+          3350
+        ],
+        "fan_pair_membership": [
+          [
+            5575,
+            6701
+          ]
+        ],
+        "feature_identity": [
+          [
+            {
+              "a": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3352
+                ]
+              },
+              "b": {
+                "kind": "VERTEX",
+                "vertex_ids": [
+                  3352
+                ]
+              }
+            },
+            {
+              "a": {
+                "kind": "TRIANGLE_INTERIOR",
+                "vertex_ids": [
+                  2077,
+                  3352,
+                  3361
+                ]
+              },
+              "b": {
+                "kind": "EDGE",
+                "vertex_ids": [
+                  124,
+                  1023
+                ]
+              }
+            }
+          ]
+        ],
+        "segment_extent_mm": 2.498971505029362,
+        "sum_fan_intersection_lengths_mm": 2.498971505029362,
+        "coplanar_overlap_area_mm2": 0.0,
+        "closest_features": [
+          {
+            "distance_mm": 0.0,
+            "closest_world_mm": [
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ]
+            ],
+            "a_weights": [
+              0.0,
+              0.0,
+              1.0
+            ],
+            "b_weights": [
+              0.0,
+              1.0,
+              0.0
+            ],
+            "a_vertex_ids": [
+              3361,
+              2077,
+              3352
+            ],
+            "b_vertex_ids": [
+              1023,
+              3352,
+              124
+            ],
+            "feature_kind": "VERTEX_TRIANGLE",
+            "intersection_points_world_mm": [
+              [
+                1423.8059520721436,
+                11.282134801149367,
+                480.176717042923
+              ],
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ]
+            ],
+            "crossing_segment_mm": 2.4989715050293717
+          }
+        ],
+        "fan_contact_records": [
+          {
+            "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+            "illegal": true,
+            "exact_intersection_point_count": 2,
+            "illegal_point_count": 1,
+            "coplanar": false,
+            "coplanar_overlap_area_mm2": 0.0,
+            "intersection_segment_mm": 2.498971505029362,
+            "points_world_mm": [
+              [
+                1423.8059520721436,
+                11.282134801149368,
+                480.176717042923
+              ],
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ]
+            ],
+            "illegal_points_world_mm": [
+              [
+                1425.247937324015,
+                12.295547002223344,
+                481.94830752242103
+              ]
+            ],
+            "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance.",
+            "triangle_indices": [
+              5575,
+              6701
+            ],
+            "feature_identity": [
+              {
+                "a": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3352
+                  ]
+                },
+                "b": {
+                  "kind": "VERTEX",
+                  "vertex_ids": [
+                    3352
+                  ]
+                }
+              },
+              {
+                "a": {
+                  "kind": "TRIANGLE_INTERIOR",
+                  "vertex_ids": [
+                    2077,
+                    3352,
+                    3361
+                  ]
+                },
+                "b": {
+                  "kind": "EDGE",
+                  "vertex_ids": [
+                    124,
+                    1023
+                  ]
+                }
+              }
+            ],
+            "shared_vertex_ids": [
+              3352,
+              3361
+            ],
+            "shared_edges": [
+              [
+                3361,
+                3352
+              ]
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "candidate_components": {},
+  "contact_no_regression": {
+    "PASS": true,
+    "new_true_contact_components": [],
+    "worsening_components": [],
+    "feature_expansions": [],
+    "removed_components": [
+      "2189/2784:4378-5569",
+      "2189/2787:4378-5574",
+      "2190/2787:4380-5575,4381-5575",
+      "2190/2780:4381-5560",
+      "2420/2780:4840-5561,4841-5560,4841-5561",
+      "2420/2783:4840-5566",
+      "2783/3353:5566-6707",
+      "2784/3351:5569-6703",
+      "2787/3351:5574-6703",
+      "2787/3350:5575-6701"
+    ],
+    "before_after": [],
+    "COMPUTATIONAL_GEOMETRY_TOLERANCE": {
+      "contact_extent_mm": 1e-07,
+      "contact_area_mm2": 1e-07,
+      "anatomy_clearance": false
+    },
+    "existing_true_contacts_reclassified_legal": false
+  },
+  "intrinsic_native_fan_intersections": [],
+  "continuous_fan_area": {
+    "minimum_fan_triangle_area_mm2": 0.029319839408843605,
+    "location": {
+      "triangle_index": 6703,
+      "fraction": 0.2603531645341701,
+      "native_face_id": 3351
+    },
+    "numeric_area_audit_tolerance_mm2": 1e-10,
+    "COMPUTATIONAL_GEOMETRY_TOLERANCE": true,
+    "anatomy_threshold": false
+  },
+  "new_degenerate": 0,
+  "new_structural_bowtie": 0,
+  "face_reversal_count": 0,
+  "new_self_intersection_count": 0,
+  "new_nonadjacent_exact_intersection": 0,
+  "new_off_shared_crossing": 0,
+  "new_illegal_coplanar_overlap": 0,
+  "boundary": {
+    "boundary_edge_ids": [
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      393,
+      2486,
+      2488,
+      2490,
+      2492,
+      2494,
+      2496,
+      2498,
+      6062,
+      6064,
+      6065,
+      6067,
+      6068,
+      6069,
+      6070,
+      6072,
+      6073,
+      6074,
+      6076,
+      6077,
+      6078,
+      6080,
+      6081,
+      6082,
+      6084,
+      6085,
+      6086,
+      6088,
+      6089,
+      6090,
+      6092,
+      6093,
+      6692,
+      6693,
+      6694,
+      6695,
+      6696,
+      6697,
+      6698,
+      6699,
+      6700,
+      6701,
+      6702,
+      6703,
+      6704,
+      6705,
+      6706,
+      6707,
+      6708,
+      6709,
+      6710,
+      6711,
+      6712,
+      6713,
+      6714,
+      6715,
+      6716,
+      6717,
+      6718,
+      6719,
+      6720,
+      6721,
+      6722,
+      6723
+    ],
+    "outer_fixed_fixed_edge_ids": [
+      376,
+      377,
+      378,
+      379,
+      380,
+      381,
+      382,
+      383,
+      384,
+      385,
+      386,
+      387,
+      388,
+      389,
+      390,
+      391,
+      392,
+      2059,
+      2061,
+      2062,
+      2111,
+      2214,
+      2487,
+      2489,
+      2491,
+      2493,
+      2495,
+      2497,
+      2499,
+      2982,
+      2988,
+      2996,
+      4894,
+      5482,
+      5487,
+      5491,
+      5554,
+      5674,
+      5718,
+      5810,
+      6062,
+      6063,
+      6064,
+      6066,
+      6067,
+      6069,
+      6070,
+      6071,
+      6072,
+      6074,
+      6075,
+      6076,
+      6078,
+      6079,
+      6080,
+      6082,
+      6083,
+      6084,
+      6086,
+      6087,
+      6088,
+      6090,
+      6091,
+      6092
+    ],
+    "all_edges": [
+      {
+        "edge_id": 376,
+        "vertex_ids": [
+          119,
+          1019
+        ],
+        "face_ids": [
+          2184,
+          2771
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 159.4244719403623,
+        "candidate_dihedral_deg": 4.5009258407135,
+        "delta_deg": -154.9235460996488,
+        "adjacent_face_baseline_outward_dot": [
+          0.26937608666967877,
+          -0.06194818783865037
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.26937608666967877,
+          0.23998880780268908
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          -0.9602992899103837
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 377,
+        "vertex_ids": [
+          1019,
+          120
+        ],
+        "face_ids": [
+          2185,
+          2770
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 9.220771989606128,
+        "candidate_dihedral_deg": 2.198970714967554,
+        "delta_deg": -7.021801274638573,
+        "adjacent_face_baseline_outward_dot": [
+          -0.026698653062987025,
+          -0.147415752830867
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.026698653062987025,
+          -0.05828976201882803
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9924612989022762
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 378,
+        "vertex_ids": [
+          120,
+          1020
+        ],
+        "face_ids": [
+          2376,
+          3361
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 4.33932334309968,
+        "candidate_dihedral_deg": 2.0433254944498778,
+        "delta_deg": -2.295997848649802,
+        "adjacent_face_baseline_outward_dot": [
+          -0.4330911033539718,
+          -0.4992410495980143
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.4330911033539718,
+          -0.45676119167692825
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9987617684472616
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 379,
+        "vertex_ids": [
+          1020,
+          121
+        ],
+        "face_ids": [
+          2377,
+          3360
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 3.285014081250685,
+        "candidate_dihedral_deg": 1.7860328066922995,
+        "delta_deg": -1.4989812745583857,
+        "adjacent_face_baseline_outward_dot": [
+          -0.6912692930819565,
+          -0.6908009475777923
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.6912692930819565,
+          -0.7048254318526553
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          0.9992951179402413
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 380,
+        "vertex_ids": [
+          121,
+          1021
+        ],
+        "face_ids": [
+          2256,
+          3347
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 3.813331301617711,
+        "candidate_dihedral_deg": 0.9739818232066635,
+        "delta_deg": -2.8393494784110476,
+        "adjacent_face_baseline_outward_dot": [
+          -0.8006266166060096,
+          -0.7598354131933382
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.8006266166060096,
+          -0.800193811910107
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9979056632466609
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 381,
+        "vertex_ids": [
+          1021,
+          122
+        ],
+        "face_ids": [
+          2257,
+          3346
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 2.7828094706404203,
+        "candidate_dihedral_deg": 0.10533528362166494,
+        "delta_deg": -2.6774741870187553,
+        "adjacent_face_baseline_outward_dot": [
+          -0.7038125215901447,
+          -0.6761807787955636
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.7038125215901447,
+          -0.7026629578273447
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          0.9989068053411929
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 382,
+        "vertex_ids": [
+          122,
+          1022
+        ],
+        "face_ids": [
+          2193,
+          3349
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 0.9439480172268702,
+        "candidate_dihedral_deg": 1.5252523584669129,
+        "delta_deg": 0.5813043412400427,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5114121391598393,
+          -0.5166781693979063
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5114121391598393,
+          -0.5087797800432187
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.999896150214835
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 383,
+        "vertex_ids": [
+          1022,
+          123
+        ],
+        "face_ids": [
+          2194,
+          3348
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 3.9691185307567842,
+        "candidate_dihedral_deg": 3.5219987156404273,
+        "delta_deg": -0.4471198151163569,
+        "adjacent_face_baseline_outward_dot": [
+          -0.2955774909585164,
+          -0.29474413230817964
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.2955774909585164,
+          -0.27745201810619574
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          0.9997769621777068
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 384,
+        "vertex_ids": [
+          123,
+          1023
+        ],
+        "face_ids": [
+          2189,
+          3351
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 119.27442469198635,
+        "candidate_dihedral_deg": 7.399963412902008,
+        "delta_deg": -111.87446127908434,
+        "adjacent_face_baseline_outward_dot": [
+          0.02464139021123538,
+          0.5923490331233529
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.02464139021123538,
+          -0.03166121756082515
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          -0.5917396234852303
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 385,
+        "vertex_ids": [
+          1023,
+          124
+        ],
+        "face_ids": [
+          2190,
+          3350
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 170.08743600162092,
+        "candidate_dihedral_deg": 16.997807939164044,
+        "delta_deg": -153.08962806245688,
+        "adjacent_face_baseline_outward_dot": [
+          0.31786967369611907,
+          -0.22311752971465745
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.31786967369611907,
+          0.13805157725376857
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999994,
+          -0.9922799373667304
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 386,
+        "vertex_ids": [
+          124,
+          1024
+        ],
+        "face_ids": [
+          2420,
+          3353
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 172.1415123678348,
+        "candidate_dihedral_deg": 16.365433605506613,
+        "delta_deg": -155.77607876232818,
+        "adjacent_face_baseline_outward_dot": [
+          0.516420538993914,
+          -0.40550154064252997
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.516420538993914,
+          0.29616737879651195
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          -0.9884974810734857
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 387,
+        "vertex_ids": [
+          1024,
+          125
+        ],
+        "face_ids": [
+          2421,
+          3352
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 169.14032418160917,
+        "candidate_dihedral_deg": 10.881197020172776,
+        "delta_deg": -158.2591271614364,
+        "adjacent_face_baseline_outward_dot": [
+          0.6187236938648552,
+          -0.503512536423712
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.6187236938648552,
+          0.5127493771928192
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999998,
+          -0.9998672445074626
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 388,
+        "vertex_ids": [
+          125,
+          1025
+        ],
+        "face_ids": [
+          1596,
+          3355
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 160.85299005302383,
+        "candidate_dihedral_deg": 11.418450368585306,
+        "delta_deg": -149.43453968443853,
+        "adjacent_face_baseline_outward_dot": [
+          0.7374451901128811,
+          -0.5417024765834213
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7374451901128811,
+          0.6647895563610459
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          -0.98750759139809
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 389,
+        "vertex_ids": [
+          1025,
+          126
+        ],
+        "face_ids": [
+          1597,
+          3354
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 149.42954111224813,
+        "candidate_dihedral_deg": 14.167671802355546,
+        "delta_deg": -135.26186930989257,
+        "adjacent_face_baseline_outward_dot": [
+          0.8690953075834841,
+          -0.5534609235937825
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.8690953075834841,
+          0.7923927621295841
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          -0.9464874864137877
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 390,
+        "vertex_ids": [
+          126,
+          1026
+        ],
+        "face_ids": [
+          2512,
+          3357
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 147.6125251753944,
+        "candidate_dihedral_deg": 10.782139922981004,
+        "delta_deg": -136.8303852524134,
+        "adjacent_face_baseline_outward_dot": [
+          0.8443310394467609,
+          -0.4662928376698562
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.8443310394467609,
+          0.7300078526508219
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          -0.9215065055373741
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 391,
+        "vertex_ids": [
+          1026,
+          119
+        ],
+        "face_ids": [
+          2513,
+          3356
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 160.32459047092186,
+        "candidate_dihedral_deg": 6.164412002645256,
+        "delta_deg": -154.1601784682766,
+        "adjacent_face_baseline_outward_dot": [
+          0.40266819103836643,
+          -0.24113382037858047
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.40266819103836643,
+          0.37497668031791476
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999998,
+          -0.9715799773142411
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 392,
+        "vertex_ids": [
+          657,
+          1027
+        ],
+        "face_ids": [
+          2768,
+          2774
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 9.692248495912326,
+        "candidate_dihedral_deg": 9.692248495912326,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.23459474298422606,
+          0.35727951673970476
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.23459474298422606,
+          0.35727951673970476
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 393,
+        "vertex_ids": [
+          3348,
+          119
+        ],
+        "face_ids": [
+          2771,
+          3356
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 10.87026356497695,
+        "candidate_dihedral_deg": 9.059852289689227,
+        "delta_deg": -1.8104112752877235,
+        "adjacent_face_baseline_outward_dot": [
+          -0.06194818783865037,
+          -0.24113382037858047
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.23998880780268908,
+          0.37497668031791476
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9602992899103837,
+          -0.9715799773142411
+        ],
+        "endpoint_displacement_mm": [
+          3.406068544636731,
+          0.0
+        ],
+        "local_displacement_gradient": 2.3483558992323816
+      },
+      {
+        "edge_id": 2059,
+        "vertex_ids": [
+          1860,
+          123
+        ],
+        "face_ids": [
+          2189,
+          2194
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 22.941657523461913,
+        "candidate_dihedral_deg": 22.941657523461913,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.02464139021123538,
+          -0.2955774909585164
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.02464139021123538,
+          -0.2955774909585164
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2061,
+        "vertex_ids": [
+          1861,
+          122
+        ],
+        "face_ids": [
+          2193,
+          2257
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 20.210943966635554,
+        "candidate_dihedral_deg": 20.210943966635554,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5114121391598393,
+          -0.7038125215901447
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5114121391598393,
+          -0.7038125215901447
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2062,
+        "vertex_ids": [
+          124,
+          1862
+        ],
+        "face_ids": [
+          2190,
+          2420
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 23.68381711995993,
+        "candidate_dihedral_deg": 23.68381711995993,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.31786967369611907,
+          0.516420538993914
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.31786967369611907,
+          0.516420538993914
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999994,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2111,
+        "vertex_ids": [
+          1886,
+          121
+        ],
+        "face_ids": [
+          2256,
+          2377
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 32.59129260744653,
+        "candidate_dihedral_deg": 32.59129260744653,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.8006266166060096,
+          -0.6912692930819565
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.8006266166060096,
+          -0.6912692930819565
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2214,
+        "vertex_ids": [
+          125,
+          1938
+        ],
+        "face_ids": [
+          1596,
+          2421
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 11.17262345769248,
+        "candidate_dihedral_deg": 11.17262345769248,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.7374451901128811,
+          0.6187236938648552
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7374451901128811,
+          0.6187236938648552
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2486,
+        "vertex_ids": [
+          3349,
+          2074
+        ],
+        "face_ids": [
+          2767,
+          2792
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 26.992425857236384,
+        "candidate_dihedral_deg": 28.263530009428216,
+        "delta_deg": 1.2711041521918318,
+        "adjacent_face_baseline_outward_dot": [
+          -0.7432969646904632,
+          -0.8690570415049018
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.7110008092125494,
+          -0.8139983524886469
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9988922896034952,
+          0.99477161693164
+        ],
+        "endpoint_displacement_mm": [
+          0.6481824855827024,
+          0.0
+        ],
+        "local_displacement_gradient": 0.2663153170174472
+      },
+      {
+        "edge_id": 2487,
+        "vertex_ids": [
+          2074,
+          658
+        ],
+        "face_ids": [
+          2766,
+          2793
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 25.56635057537363,
+        "candidate_dihedral_deg": 25.56635057537363,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.6604342913269493,
+          -0.7408759763717603
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.6604342913269493,
+          -0.7408759763717603
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2488,
+        "vertex_ids": [
+          3350,
+          2075
+        ],
+        "face_ids": [
+          2788,
+          2795
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 23.47748472457093,
+        "candidate_dihedral_deg": 22.626957108326373,
+        "delta_deg": -0.850527616244559,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5477181529431564,
+          -0.785075020618106
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5352498437033564,
+          -0.7350511812062189
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998230581474788,
+          0.9968540327009585
+        ],
+        "endpoint_displacement_mm": [
+          0.3576637925824151,
+          0.0
+        ],
+        "local_displacement_gradient": 0.14757072714142733
+      },
+      {
+        "edge_id": 2489,
+        "vertex_ids": [
+          2075,
+          659
+        ],
+        "face_ids": [
+          2789,
+          2794
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 24.270203185793733,
+        "candidate_dihedral_deg": 24.270203185793733,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5146993320797,
+          -0.6901651959244469
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5146993320797,
+          -0.6901651959244469
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          1.0
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2490,
+        "vertex_ids": [
+          3351,
+          2076
+        ],
+        "face_ids": [
+          2784,
+          2791
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 18.826896260899943,
+        "candidate_dihedral_deg": 18.36923697945596,
+        "delta_deg": -0.45765928144398416,
+        "adjacent_face_baseline_outward_dot": [
+          -0.04886097472822412,
+          -0.2798211534817443
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.0387205442232311,
+          -0.28665094903511273
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998110539524085,
+          0.9998619284226894
+        ],
+        "endpoint_displacement_mm": [
+          1.1843278884176558,
+          0.0
+        ],
+        "local_displacement_gradient": 0.35700687274383347
+      },
+      {
+        "edge_id": 2491,
+        "vertex_ids": [
+          2076,
+          660
+        ],
+        "face_ids": [
+          2785,
+          2790
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 16.092872520343185,
+        "candidate_dihedral_deg": 16.092872520343185,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.09344752197751835,
+          -0.29450780052317194
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.09344752197751835,
+          -0.29450780052317194
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000004,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2492,
+        "vertex_ids": [
+          3352,
+          2077
+        ],
+        "face_ids": [
+          2780,
+          2787
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 23.38809161089744,
+        "candidate_dihedral_deg": 23.54995527368766,
+        "delta_deg": 0.16186366279022124,
+        "adjacent_face_baseline_outward_dot": [
+          0.3912068643270506,
+          0.17190163297497627
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.44477689135900295,
+          0.20302041682770866
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9971114147108586,
+          0.9986982030729554
+        ],
+        "endpoint_displacement_mm": [
+          3.013650695733896,
+          0.0
+        ],
+        "local_displacement_gradient": 0.6143002502538627
+      },
+      {
+        "edge_id": 2493,
+        "vertex_ids": [
+          2077,
+          661
+        ],
+        "face_ids": [
+          2781,
+          2786
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 25.898037804296475,
+        "candidate_dihedral_deg": 25.898037804296475,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.4020650955750982,
+          0.1291990616171012
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.4020650955750982,
+          0.1291990616171012
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2494,
+        "vertex_ids": [
+          3353,
+          2078
+        ],
+        "face_ids": [
+          2776,
+          2783
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 15.17487953775044,
+        "candidate_dihedral_deg": 15.569934880240913,
+        "delta_deg": 0.3950553424904726,
+        "adjacent_face_baseline_outward_dot": [
+          0.6408546345787249,
+          0.5500587840525597
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7259458444339026,
+          0.6246427300346469
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9929420443697878,
+          0.9948980317493283
+        ],
+        "endpoint_displacement_mm": [
+          4.199255918167255,
+          0.0
+        ],
+        "local_displacement_gradient": 0.6889132759724982
+      },
+      {
+        "edge_id": 2495,
+        "vertex_ids": [
+          2078,
+          662
+        ],
+        "face_ids": [
+          2777,
+          2782
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 16.857804164629243,
+        "candidate_dihedral_deg": 16.857804164629243,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.6819657053776365,
+          0.5910326092480289
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.6819657053776365,
+          0.5910326092480289
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999998,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2496,
+        "vertex_ids": [
+          3354,
+          2079
+        ],
+        "face_ids": [
+          2772,
+          2779
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 30.977846921282232,
+        "candidate_dihedral_deg": 31.207574555446943,
+        "delta_deg": 0.22972763416471054,
+        "adjacent_face_baseline_outward_dot": [
+          0.6081196319697334,
+          0.697349742960231
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.6890242045129154,
+          0.7946484137418051
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9901604417933998,
+          0.9890626000254154
+        ],
+        "endpoint_displacement_mm": [
+          4.762374413777248,
+          0.0
+        ],
+        "local_displacement_gradient": 0.7273109739798711
+      },
+      {
+        "edge_id": 2497,
+        "vertex_ids": [
+          2079,
+          663
+        ],
+        "face_ids": [
+          2773,
+          2778
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 30.317951348467925,
+        "candidate_dihedral_deg": 30.317951348467925,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.5976332617402949,
+          0.718110834558767
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.5976332617402949,
+          0.718110834558767
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2498,
+        "vertex_ids": [
+          3355,
+          2080
+        ],
+        "face_ids": [
+          2764,
+          3359
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 30.10597468272242,
+        "candidate_dihedral_deg": 29.30811299627317,
+        "delta_deg": -0.7978616864492487,
+        "adjacent_face_baseline_outward_dot": [
+          -0.45079620688078986,
+          -0.05795718443363779
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.4556236516944159,
+          -0.07096418057418084
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9995203469175785,
+          0.999682565896476
+        ],
+        "endpoint_displacement_mm": [
+          1.0148524330259565,
+          0.0
+        ],
+        "local_displacement_gradient": 0.2533116569348812
+      },
+      {
+        "edge_id": 2499,
+        "vertex_ids": [
+          2080,
+          664
+        ],
+        "face_ids": [
+          2765,
+          2769
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 28.932560172483875,
+        "candidate_dihedral_deg": 28.932560172483875,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.4211685936296196,
+          -0.056592875634664044
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.4211685936296196,
+          -0.056592875634664044
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2982,
+        "vertex_ids": [
+          126,
+          2322
+        ],
+        "face_ids": [
+          1597,
+          2512
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 35.928010375464744,
+        "candidate_dihedral_deg": 35.928010375464744,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.8690953075834841,
+          0.8443310394467609
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.8690953075834841,
+          0.8443310394467609
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          1.0
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2988,
+        "vertex_ids": [
+          119,
+          2325
+        ],
+        "face_ids": [
+          2184,
+          2513
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 8.345742779407418,
+        "candidate_dihedral_deg": 8.345742779407418,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.26937608666967877,
+          0.40266819103836643
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.26937608666967877,
+          0.40266819103836643
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 2996,
+        "vertex_ids": [
+          120,
+          2329
+        ],
+        "face_ids": [
+          2185,
+          2376
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 29.03110316710124,
+        "candidate_dihedral_deg": 29.03110316710124,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.026698653062987025,
+          -0.4330911033539718
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.026698653062987025,
+          -0.4330911033539718
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          1.0
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 4894,
+        "vertex_ids": [
+          1025,
+          2879
+        ],
+        "face_ids": [
+          1596,
+          1597
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 14.542432283149033,
+        "candidate_dihedral_deg": 14.542432283149033,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.7374451901128811,
+          0.8690953075834841
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7374451901128811,
+          0.8690953075834841
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 5482,
+        "vertex_ids": [
+          1019,
+          3026
+        ],
+        "face_ids": [
+          2184,
+          2185
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 18.610242131353456,
+        "candidate_dihedral_deg": 18.610242131353456,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.26937608666967877,
+          -0.026698653062987025
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.26937608666967877,
+          -0.026698653062987025
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          1.0
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 5487,
+        "vertex_ids": [
+          1023,
+          3027
+        ],
+        "face_ids": [
+          2189,
+          2190
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 22.59668942525865,
+        "candidate_dihedral_deg": 22.59668942525865,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.02464139021123538,
+          0.31786967369611907
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.02464139021123538,
+          0.31786967369611907
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999994
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 5491,
+        "vertex_ids": [
+          1022,
+          3028
+        ],
+        "face_ids": [
+          2193,
+          2194
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 16.55328926009426,
+        "candidate_dihedral_deg": 16.55328926009426,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5114121391598393,
+          -0.2955774909585164
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5114121391598393,
+          -0.2955774909585164
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 5554,
+        "vertex_ids": [
+          1021,
+          3044
+        ],
+        "face_ids": [
+          2256,
+          2257
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 27.313150689731838,
+        "candidate_dihedral_deg": 27.313150689731838,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.8006266166060096,
+          -0.7038125215901447
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.8006266166060096,
+          -0.7038125215901447
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 5674,
+        "vertex_ids": [
+          1020,
+          3074
+        ],
+        "face_ids": [
+          2376,
+          2377
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 27.89103014903396,
+        "candidate_dihedral_deg": 27.89103014903396,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.4330911033539718,
+          -0.6912692930819565
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.4330911033539718,
+          -0.6912692930819565
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 5718,
+        "vertex_ids": [
+          1024,
+          3085
+        ],
+        "face_ids": [
+          2420,
+          2421
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 15.385487435154188,
+        "candidate_dihedral_deg": 15.385487435154188,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.516420538993914,
+          0.6187236938648552
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.516420538993914,
+          0.6187236938648552
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 5810,
+        "vertex_ids": [
+          1026,
+          3108
+        ],
+        "face_ids": [
+          2512,
+          2513
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 39.81928729219996,
+        "candidate_dihedral_deg": 39.81928729219996,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.8443310394467609,
+          0.40266819103836643
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.8443310394467609,
+          0.40266819103836643
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6062,
+        "vertex_ids": [
+          2080,
+          3171
+        ],
+        "face_ids": [
+          2764,
+          2765
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 1.909821951156535,
+        "candidate_dihedral_deg": 3.0110506305224694,
+        "delta_deg": 1.1012286793659343,
+        "adjacent_face_baseline_outward_dot": [
+          -0.45079620688078986,
+          -0.4211685936296196
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.4556236516944159,
+          -0.4211685936296196
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9995203469175785,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6063,
+        "vertex_ids": [
+          2081,
+          3171
+        ],
+        "face_ids": [
+          2765,
+          2766
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 29.31071979972362,
+        "candidate_dihedral_deg": 29.31071979972362,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.4211685936296196,
+          -0.6604342913269493
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.4211685936296196,
+          -0.6604342913269493
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          1.0
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6064,
+        "vertex_ids": [
+          2074,
+          3171
+        ],
+        "face_ids": [
+          2766,
+          2767
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 7.702098895937938,
+        "candidate_dihedral_deg": 5.558467003553261,
+        "delta_deg": -2.1436318923846773,
+        "adjacent_face_baseline_outward_dot": [
+          -0.6604342913269493,
+          -0.7432969646904632
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.6604342913269493,
+          -0.7110008092125494
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9988922896034952
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6065,
+        "vertex_ids": [
+          3356,
+          3171
+        ],
+        "face_ids": [
+          2764,
+          2767
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 28.411655727436077,
+        "candidate_dihedral_deg": 27.718339435345275,
+        "delta_deg": -0.6933162920908025,
+        "adjacent_face_baseline_outward_dot": [
+          -0.45079620688078986,
+          -0.7432969646904632
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.4556236516944159,
+          -0.7110008092125494
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9995203469175785,
+          0.9988922896034952
+        ],
+        "endpoint_displacement_mm": [
+          0.038499435780395025,
+          0.0
+        ],
+        "local_displacement_gradient": 0.012630828989718621
+      },
+      {
+        "edge_id": 6066,
+        "vertex_ids": [
+          2082,
+          3172
+        ],
+        "face_ids": [
+          2768,
+          2769
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 21.359280460376475,
+        "candidate_dihedral_deg": 21.359280460376475,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.23459474298422606,
+          -0.056592875634664044
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.23459474298422606,
+          -0.056592875634664044
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6067,
+        "vertex_ids": [
+          2080,
+          3172
+        ],
+        "face_ids": [
+          2769,
+          3359
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 0.13623111576125568,
+        "candidate_dihedral_deg": 1.5796409070536848,
+        "delta_deg": 1.443409791292429,
+        "adjacent_face_baseline_outward_dot": [
+          -0.056592875634664044,
+          -0.05795718443363779
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.056592875634664044,
+          -0.07096418057418084
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          0.999682565896476
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6068,
+        "vertex_ids": [
+          3357,
+          3172
+        ],
+        "face_ids": [
+          3358,
+          3359
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 21.620361580695494,
+        "candidate_dihedral_deg": 21.326672989167413,
+        "delta_deg": -0.29368859152808113,
+        "adjacent_face_baseline_outward_dot": [
+          0.23076814208235902,
+          -0.05795718443363779
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.24110934461287592,
+          -0.07096418057418084
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9997552803373247,
+          0.999682565896476
+        ],
+        "endpoint_displacement_mm": [
+          2.3512176483346807,
+          0.0
+        ],
+        "local_displacement_gradient": 0.4651569790460751
+      },
+      {
+        "edge_id": 6069,
+        "vertex_ids": [
+          1027,
+          3172
+        ],
+        "face_ids": [
+          2768,
+          3358
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 0.7275664468638273,
+        "candidate_dihedral_deg": 0.569222833260891,
+        "delta_deg": -0.15834361360293636,
+        "adjacent_face_baseline_outward_dot": [
+          0.23459474298422606,
+          0.23076814208235902
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.23459474298422606,
+          0.24110934461287592
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9997552803373247
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6070,
+        "vertex_ids": [
+          2079,
+          3173
+        ],
+        "face_ids": [
+          2772,
+          2773
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 3.9676383089362757,
+        "candidate_dihedral_deg": 7.024718362523496,
+        "delta_deg": 3.05708005358722,
+        "adjacent_face_baseline_outward_dot": [
+          0.6081196319697334,
+          0.5976332617402949
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.6890242045129154,
+          0.5976332617402949
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9901604417933998,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6071,
+        "vertex_ids": [
+          2083,
+          3173
+        ],
+        "face_ids": [
+          2773,
+          2774
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 24.313092591368676,
+        "candidate_dihedral_deg": 24.313092591368676,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.5976332617402949,
+          0.35727951673970476
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.5976332617402949,
+          0.35727951673970476
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6072,
+        "vertex_ids": [
+          1027,
+          3173
+        ],
+        "face_ids": [
+          2774,
+          2775
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 1.010440717755246,
+        "candidate_dihedral_deg": 2.4460291946347574,
+        "delta_deg": 1.4355884768795115,
+        "adjacent_face_baseline_outward_dot": [
+          0.35727951673970476,
+          0.3460758081418949
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.35727951673970476,
+          0.3749025910622698
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999998,
+          0.9982094576537422
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6073,
+        "vertex_ids": [
+          3358,
+          3173
+        ],
+        "face_ids": [
+          2772,
+          2775
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 27.943607596126324,
+        "candidate_dihedral_deg": 27.99732856664314,
+        "delta_deg": 0.053720970516817346,
+        "adjacent_face_baseline_outward_dot": [
+          0.6081196319697334,
+          0.3460758081418949
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.6890242045129154,
+          0.3749025910622698
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9901604417933998,
+          0.9982094576537422
+        ],
+        "endpoint_displacement_mm": [
+          4.345775271511154,
+          0.0
+        ],
+        "local_displacement_gradient": 0.6818438314080414
+      },
+      {
+        "edge_id": 6074,
+        "vertex_ids": [
+          2078,
+          3174
+        ],
+        "face_ids": [
+          2776,
+          2777
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 4.17337625384091,
+        "candidate_dihedral_deg": 5.228012743951476,
+        "delta_deg": 1.0546364901105658,
+        "adjacent_face_baseline_outward_dot": [
+          0.6408546345787249,
+          0.6819657053776365
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7259458444339026,
+          0.6819657053776365
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9929420443697878,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6075,
+        "vertex_ids": [
+          2084,
+          3174
+        ],
+        "face_ids": [
+          2777,
+          2778
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 16.875236706909952,
+        "candidate_dihedral_deg": 16.875236706909952,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.6819657053776365,
+          0.718110834558767
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.6819657053776365,
+          0.718110834558767
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999998,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6076,
+        "vertex_ids": [
+          2079,
+          3174
+        ],
+        "face_ids": [
+          2778,
+          2779
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 4.793474400694489,
+        "candidate_dihedral_deg": 7.374685896827243,
+        "delta_deg": 2.581211496132754,
+        "adjacent_face_baseline_outward_dot": [
+          0.718110834558767,
+          0.697349742960231
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.718110834558767,
+          0.7946484137418051
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          0.9890626000254154
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6077,
+        "vertex_ids": [
+          3359,
+          3174
+        ],
+        "face_ids": [
+          2776,
+          2779
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 15.922145753784037,
+        "candidate_dihedral_deg": 16.683561542384197,
+        "delta_deg": 0.7614157886001607,
+        "adjacent_face_baseline_outward_dot": [
+          0.6408546345787249,
+          0.697349742960231
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7259458444339026,
+          0.7946484137418051
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9929420443697878,
+          0.9890626000254154
+        ],
+        "endpoint_displacement_mm": [
+          4.6006311193794724,
+          0.0
+        ],
+        "local_displacement_gradient": 0.7140292123175573
+      },
+      {
+        "edge_id": 6078,
+        "vertex_ids": [
+          2077,
+          3175
+        ],
+        "face_ids": [
+          2780,
+          2781
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 1.735124700670802,
+        "candidate_dihedral_deg": 2.9422531225126147,
+        "delta_deg": 1.2071284218418128,
+        "adjacent_face_baseline_outward_dot": [
+          0.3912068643270506,
+          0.4020650955750982
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.44477689135900295,
+          0.4020650955750982
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9971114147108586,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6079,
+        "vertex_ids": [
+          2085,
+          3175
+        ],
+        "face_ids": [
+          2781,
+          2782
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 23.230980897165473,
+        "candidate_dihedral_deg": 23.230980897165473,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.4020650955750982,
+          0.5910326092480289
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.4020650955750982,
+          0.5910326092480289
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6080,
+        "vertex_ids": [
+          2078,
+          3175
+        ],
+        "face_ids": [
+          2782,
+          2783
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 2.9139147760367172,
+        "candidate_dihedral_deg": 3.755096758802536,
+        "delta_deg": 0.8411819827658187,
+        "adjacent_face_baseline_outward_dot": [
+          0.5910326092480289,
+          0.5500587840525597
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.5910326092480289,
+          0.6246427300346469
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          0.9948980317493283
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6081,
+        "vertex_ids": [
+          3360,
+          3175
+        ],
+        "face_ids": [
+          2780,
+          2783
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 20.599767436405752,
+        "candidate_dihedral_deg": 21.025884858484268,
+        "delta_deg": 0.4261174220785158,
+        "adjacent_face_baseline_outward_dot": [
+          0.3912068643270506,
+          0.5500587840525597
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.44477689135900295,
+          0.6246427300346469
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9971114147108586,
+          0.9948980317493283
+        ],
+        "endpoint_displacement_mm": [
+          3.7156399676430603,
+          0.0
+        ],
+        "local_displacement_gradient": 0.665652261263024
+      },
+      {
+        "edge_id": 6082,
+        "vertex_ids": [
+          2076,
+          3176
+        ],
+        "face_ids": [
+          2784,
+          2785
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 2.5796503998720857,
+        "candidate_dihedral_deg": 3.3844378262571184,
+        "delta_deg": 0.8047874263850328,
+        "adjacent_face_baseline_outward_dot": [
+          -0.04886097472822412,
+          -0.09344752197751835
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.0387205442232311,
+          -0.09344752197751835
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998110539524085,
+          1.0000000000000004
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6083,
+        "vertex_ids": [
+          2086,
+          3176
+        ],
+        "face_ids": [
+          2785,
+          2786
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 19.124296751929695,
+        "candidate_dihedral_deg": 19.124296751929695,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.09344752197751835,
+          0.1291990616171012
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.09344752197751835,
+          0.1291990616171012
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000004,
+          0.9999999999999999
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6084,
+        "vertex_ids": [
+          2077,
+          3176
+        ],
+        "face_ids": [
+          2786,
+          2787
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 3.4940431267210914,
+        "candidate_dihedral_deg": 4.293273402436464,
+        "delta_deg": 0.7992302757153724,
+        "adjacent_face_baseline_outward_dot": [
+          0.1291990616171012,
+          0.17190163297497627
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.1291990616171012,
+          0.20302041682770866
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999999,
+          0.9986982030729554
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6085,
+        "vertex_ids": [
+          3361,
+          3176
+        ],
+        "face_ids": [
+          2784,
+          2787
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 21.210353673246143,
+        "candidate_dihedral_deg": 20.901600000607615,
+        "delta_deg": -0.3087536726385274,
+        "adjacent_face_baseline_outward_dot": [
+          -0.04886097472822412,
+          0.17190163297497627
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.0387205442232311,
+          0.20302041682770866
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998110539524085,
+          0.9986982030729554
+        ],
+        "endpoint_displacement_mm": [
+          2.136749175277994,
+          0.0
+        ],
+        "local_displacement_gradient": 0.5255037870312838
+      },
+      {
+        "edge_id": 6086,
+        "vertex_ids": [
+          2075,
+          3177
+        ],
+        "face_ids": [
+          2788,
+          2789
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 2.296400091359335,
+        "candidate_dihedral_deg": 1.8370670286715194,
+        "delta_deg": -0.4593330626878156,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5477181529431564,
+          -0.5146993320797
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5352498437033564,
+          -0.5146993320797
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998230581474788,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6087,
+        "vertex_ids": [
+          2087,
+          3177
+        ],
+        "face_ids": [
+          2789,
+          2790
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 19.703237003840993,
+        "candidate_dihedral_deg": 19.703237003840993,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5146993320797,
+          -0.29450780052317194
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5146993320797,
+          -0.29450780052317194
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6088,
+        "vertex_ids": [
+          2076,
+          3177
+        ],
+        "face_ids": [
+          2790,
+          2791
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 2.5366478345654806,
+        "candidate_dihedral_deg": 1.590048692196931,
+        "delta_deg": -0.9465991423685496,
+        "adjacent_face_baseline_outward_dot": [
+          -0.29450780052317194,
+          -0.2798211534817443
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.29450780052317194,
+          -0.28665094903511273
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          0.9998619284226894
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6089,
+        "vertex_ids": [
+          3362,
+          3177
+        ],
+        "face_ids": [
+          2788,
+          2791
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 20.270716621666736,
+        "candidate_dihedral_deg": 19.304641547777717,
+        "delta_deg": -0.9660750738890194,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5477181529431564,
+          -0.2798211534817443
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5352498437033564,
+          -0.28665094903511273
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998230581474788,
+          0.9998619284226894
+        ],
+        "endpoint_displacement_mm": [
+          0.3298043133554865,
+          0.0
+        ],
+        "local_displacement_gradient": 0.12027484072744522
+      },
+      {
+        "edge_id": 6090,
+        "vertex_ids": [
+          2074,
+          3178
+        ],
+        "face_ids": [
+          2792,
+          2793
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 12.58381451789829,
+        "candidate_dihedral_deg": 6.789120550534978,
+        "delta_deg": -5.794693967363312,
+        "adjacent_face_baseline_outward_dot": [
+          -0.8690570415049018,
+          -0.7408759763717603
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.8139983524886469,
+          -0.7408759763717603
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.99477161693164,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6091,
+        "vertex_ids": [
+          2088,
+          3178
+        ],
+        "face_ids": [
+          2793,
+          2794
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 28.745447807006393,
+        "candidate_dihedral_deg": 28.745447807006393,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.7408759763717603,
+          -0.6901651959244469
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.7408759763717603,
+          -0.6901651959244469
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999998,
+          1.0
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6092,
+        "vertex_ids": [
+          2075,
+          3178
+        ],
+        "face_ids": [
+          2794,
+          2795
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": true,
+        "baseline_dihedral_deg": 9.338507083343943,
+        "candidate_dihedral_deg": 5.223705062858298,
+        "delta_deg": -4.114802020485645,
+        "adjacent_face_baseline_outward_dot": [
+          -0.6901651959244469,
+          -0.785075020618106
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.6901651959244469,
+          -0.7350511812062189
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          0.9968540327009585
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6093,
+        "vertex_ids": [
+          3363,
+          3178
+        ],
+        "face_ids": [
+          2792,
+          2795
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 26.707985063985166,
+        "candidate_dihedral_deg": 28.529513272535628,
+        "delta_deg": 1.8215282085504612,
+        "adjacent_face_baseline_outward_dot": [
+          -0.8690570415049018,
+          -0.785075020618106
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.8139983524886469,
+          -0.7350511812062189
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.99477161693164,
+          0.9968540327009585
+        ],
+        "endpoint_displacement_mm": [
+          0.740414871877684,
+          0.0
+        ],
+        "local_displacement_gradient": 0.32609647599087
+      },
+      {
+        "edge_id": 6602,
+        "vertex_ids": [
+          2095,
+          3306
+        ],
+        "face_ids": [
+          3298,
+          3301
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 29.307174846652096,
+        "candidate_dihedral_deg": 29.307174846652096,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.18729235206421535,
+          0.4749068817412643
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.18729235206421535,
+          0.4749068817412643
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0000000000000002,
+          0.9999999999999998
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6675,
+        "vertex_ids": [
+          962,
+          3347
+        ],
+        "face_ids": [
+          3344,
+          3345
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 30.432284010989562,
+        "candidate_dihedral_deg": 30.432284010989562,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          0.30195373234702827,
+          -0.1159038634177791
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.30195373234702827,
+          -0.1159038634177791
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9999999999999998,
+          1.0000000000000002
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6676,
+        "vertex_ids": [
+          3340,
+          3332
+        ],
+        "face_ids": [
+          3329,
+          3330
+        ],
+        "boundary_incident": false,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 1.3778209144678089,
+        "candidate_dihedral_deg": 1.3778209144678089,
+        "delta_deg": 0.0,
+        "adjacent_face_baseline_outward_dot": [
+          -0.3260028401247542,
+          -0.3420206775093459
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.3260028401247542,
+          -0.3420206775093459
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          1.0,
+          1.0
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.0
+        ],
+        "local_displacement_gradient": 0.0
+      },
+      {
+        "edge_id": 6692,
+        "vertex_ids": [
+          1027,
+          3348
+        ],
+        "face_ids": [
+          2775,
+          3358
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 9.410896147920786,
+        "candidate_dihedral_deg": 9.210304779281495,
+        "delta_deg": -0.20059136863929083,
+        "adjacent_face_baseline_outward_dot": [
+          0.3460758081418949,
+          0.23076814208235902
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.3749025910622698,
+          0.24110934461287592
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9982094576537422,
+          0.9997552803373247
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          3.406068544636731
+        ],
+        "local_displacement_gradient": 0.5895349221881317
+      },
+      {
+        "edge_id": 6693,
+        "vertex_ids": [
+          121,
+          3349
+        ],
+        "face_ids": [
+          3347,
+          3360
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 29.29018054344324,
+        "candidate_dihedral_deg": 29.839629786199517,
+        "delta_deg": 0.5494492427562783,
+        "adjacent_face_baseline_outward_dot": [
+          -0.7598354131933382,
+          -0.6908009475777923
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.800193811910107,
+          -0.7048254318526553
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9979056632466609,
+          0.9992951179402413
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.6481824855827024
+        ],
+        "local_displacement_gradient": 0.18468412663727016
+      },
+      {
+        "edge_id": 6694,
+        "vertex_ids": [
+          122,
+          3350
+        ],
+        "face_ids": [
+          3346,
+          3349
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 20.913809911164073,
+        "candidate_dihedral_deg": 21.34323021907223,
+        "delta_deg": 0.4294203079081562,
+        "adjacent_face_baseline_outward_dot": [
+          -0.6761807787955636,
+          -0.5166781693979063
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.7026629578273447,
+          -0.5087797800432187
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9989068053411929,
+          0.999896150214835
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.3576637925824151
+        ],
+        "local_displacement_gradient": 0.12912835563635766
+      },
+      {
+        "edge_id": 6695,
+        "vertex_ids": [
+          123,
+          3351
+        ],
+        "face_ids": [
+          3348,
+          3351
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 123.40982124341063,
+        "candidate_dihedral_deg": 21.8504662557719,
+        "delta_deg": -101.55935498763873,
+        "adjacent_face_baseline_outward_dot": [
+          -0.29474413230817964,
+          0.5923490331233529
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.27745201810619574,
+          -0.03166121756082515
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9997769621777068,
+          -0.5917396234852303
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          1.1843278884176558
+        ],
+        "local_displacement_gradient": 2.2230538047484183
+      },
+      {
+        "edge_id": 6696,
+        "vertex_ids": [
+          124,
+          3352
+        ],
+        "face_ids": [
+          3350,
+          3353
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 19.806675358004508,
+        "candidate_dihedral_deg": 19.94935040907693,
+        "delta_deg": 0.1426750510724233,
+        "adjacent_face_baseline_outward_dot": [
+          -0.22311752971465745,
+          -0.40550154064252997
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.13805157725376857,
+          0.29616737879651195
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9922799373667304,
+          -0.9884974810734857
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          3.013650695733896
+        ],
+        "local_displacement_gradient": 1.93913692588722
+      },
+      {
+        "edge_id": 6697,
+        "vertex_ids": [
+          125,
+          3353
+        ],
+        "face_ids": [
+          3352,
+          3355
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 13.68205743737785,
+        "candidate_dihedral_deg": 14.80082824170951,
+        "delta_deg": 1.1187708043316604,
+        "adjacent_face_baseline_outward_dot": [
+          -0.503512536423712,
+          -0.5417024765834213
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.5127493771928192,
+          0.6647895563610459
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9998672445074626,
+          -0.98750759139809
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          4.199255918167255
+        ],
+        "local_displacement_gradient": 1.7277517408716614
+      },
+      {
+        "edge_id": 6698,
+        "vertex_ids": [
+          126,
+          3354
+        ],
+        "face_ids": [
+          3354,
+          3357
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 28.501462166479897,
+        "candidate_dihedral_deg": 32.134646659710086,
+        "delta_deg": 3.633184493230189,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5534609235937825,
+          -0.4662928376698562
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7923927621295841,
+          0.7300078526508219
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9464874864137877,
+          -0.9215065055373741
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          4.762374413777248
+        ],
+        "local_displacement_gradient": 1.573911869641314
+      },
+      {
+        "edge_id": 6699,
+        "vertex_ids": [
+          120,
+          3355
+        ],
+        "face_ids": [
+          2770,
+          3361
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 30.810861123694252,
+        "candidate_dihedral_deg": 30.2762746364209,
+        "delta_deg": -0.5345864872733515,
+        "adjacent_face_baseline_outward_dot": [
+          -0.147415752830867,
+          -0.4992410495980143
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.05828976201882803,
+          -0.45676119167692825
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9924612989022762,
+          0.9987617684472616
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          1.0148524330259565
+        ],
+        "local_displacement_gradient": 0.5294739438459055
+      },
+      {
+        "edge_id": 6700,
+        "vertex_ids": [
+          1020,
+          3356
+        ],
+        "face_ids": [
+          3360,
+          3361
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 27.423878175408195,
+        "candidate_dihedral_deg": 27.623620011633825,
+        "delta_deg": 0.19974183622563046,
+        "adjacent_face_baseline_outward_dot": [
+          -0.6908009475777923,
+          -0.4992410495980143
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.7048254318526553,
+          -0.45676119167692825
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9992951179402413,
+          0.9987617684472616
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.038499435780395025
+        ],
+        "local_displacement_gradient": 0.01298579389889696
+      },
+      {
+        "edge_id": 6701,
+        "vertex_ids": [
+          1019,
+          3357
+        ],
+        "face_ids": [
+          2770,
+          2771
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 158.28070685377784,
+        "candidate_dihedral_deg": 20.04835493434182,
+        "delta_deg": -138.232351919436,
+        "adjacent_face_baseline_outward_dot": [
+          -0.147415752830867,
+          -0.06194818783865037
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.05828976201882803,
+          0.23998880780268908
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9924612989022762,
+          -0.9602992899103837
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          2.3512176483346807
+        ],
+        "local_displacement_gradient": 2.5467574307535403
+      },
+      {
+        "edge_id": 6702,
+        "vertex_ids": [
+          1026,
+          3358
+        ],
+        "face_ids": [
+          3356,
+          3357
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 30.446418397475927,
+        "candidate_dihedral_deg": 31.90608841811777,
+        "delta_deg": 1.4596700206418411,
+        "adjacent_face_baseline_outward_dot": [
+          -0.24113382037858047,
+          -0.4662928376698562
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.37497668031791476,
+          0.7300078526508219
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9715799773142411,
+          -0.9215065055373741
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          4.345775271511154
+        ],
+        "local_displacement_gradient": 1.7038320638257942
+      },
+      {
+        "edge_id": 6703,
+        "vertex_ids": [
+          1025,
+          3359
+        ],
+        "face_ids": [
+          3354,
+          3355
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 15.322922015067508,
+        "candidate_dihedral_deg": 16.929940241961738,
+        "delta_deg": 1.6070182268942297,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5534609235937825,
+          -0.5417024765834213
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7923927621295841,
+          0.6647895563610459
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9464874864137877,
+          -0.98750759139809
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          4.6006311193794724
+        ],
+        "local_displacement_gradient": 1.6736017663183234
+      },
+      {
+        "edge_id": 6704,
+        "vertex_ids": [
+          1024,
+          3360
+        ],
+        "face_ids": [
+          3352,
+          3353
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 20.457265333463226,
+        "candidate_dihedral_deg": 20.453521670954856,
+        "delta_deg": -0.0037436625083699937,
+        "adjacent_face_baseline_outward_dot": [
+          -0.503512536423712,
+          -0.40550154064252997
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.5127493771928192,
+          0.29616737879651195
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9998672445074626,
+          -0.9884974810734857
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          3.7156399676430603
+        ],
+        "local_displacement_gradient": 1.8175963498237984
+      },
+      {
+        "edge_id": 6705,
+        "vertex_ids": [
+          1023,
+          3361
+        ],
+        "face_ids": [
+          3350,
+          3351
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 55.76419272022886,
+        "candidate_dihedral_deg": 24.05559324055299,
+        "delta_deg": -31.708599479675872,
+        "adjacent_face_baseline_outward_dot": [
+          -0.22311752971465745,
+          0.5923490331233529
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.13805157725376857,
+          -0.03166121756082515
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9922799373667304,
+          -0.5917396234852303
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          2.136749175277994
+        ],
+        "local_displacement_gradient": 3.4875329114596094
+      },
+      {
+        "edge_id": 6706,
+        "vertex_ids": [
+          1022,
+          3362
+        ],
+        "face_ids": [
+          3348,
+          3349
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 18.622772358374437,
+        "candidate_dihedral_deg": 18.248995461932697,
+        "delta_deg": -0.37377689644173984,
+        "adjacent_face_baseline_outward_dot": [
+          -0.29474413230817964,
+          -0.5166781693979063
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.27745201810619574,
+          -0.5087797800432187
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9997769621777068,
+          0.999896150214835
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.3298043133554865
+        ],
+        "local_displacement_gradient": 0.18781617290268668
+      },
+      {
+        "edge_id": 6707,
+        "vertex_ids": [
+          1021,
+          3363
+        ],
+        "face_ids": [
+          3346,
+          3347
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 27.642848364439278,
+        "candidate_dihedral_deg": 28.29297946103456,
+        "delta_deg": 0.6501310965952811,
+        "adjacent_face_baseline_outward_dot": [
+          -0.6761807787955636,
+          -0.7598354131933382
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.7026629578273447,
+          -0.800193811910107
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9989068053411929,
+          0.9979056632466609
+        ],
+        "endpoint_displacement_mm": [
+          0.0,
+          0.740414871877684
+        ],
+        "local_displacement_gradient": 0.21585923727560177
+      },
+      {
+        "edge_id": 6708,
+        "vertex_ids": [
+          3363,
+          3350
+        ],
+        "face_ids": [
+          2795,
+          3346
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 9.72523979737957,
+        "candidate_dihedral_deg": 2.7229005108727957,
+        "delta_deg": -7.002339286506775,
+        "adjacent_face_baseline_outward_dot": [
+          -0.785075020618106,
+          -0.6761807787955636
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.7350511812062189,
+          -0.7026629578273447
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9968540327009585,
+          0.9989068053411929
+        ],
+        "endpoint_displacement_mm": [
+          0.740414871877684,
+          0.3576637925824151
+        ],
+        "local_displacement_gradient": 0.08946242616243719
+      },
+      {
+        "edge_id": 6709,
+        "vertex_ids": [
+          3349,
+          3363
+        ],
+        "face_ids": [
+          2792,
+          3347
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 11.00782858563282,
+        "candidate_dihedral_deg": 1.8262723230442734,
+        "delta_deg": -9.181556262588547,
+        "adjacent_face_baseline_outward_dot": [
+          -0.8690570415049018,
+          -0.7598354131933382
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.8139983524886469,
+          -0.800193811910107
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.99477161693164,
+          0.9979056632466609
+        ],
+        "endpoint_displacement_mm": [
+          0.6481824855827024,
+          0.740414871877684
+        ],
+        "local_displacement_gradient": 0.020508018197477502
+      },
+      {
+        "edge_id": 6710,
+        "vertex_ids": [
+          3362,
+          3351
+        ],
+        "face_ids": [
+          2791,
+          3348
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 1.5940956363606065,
+        "candidate_dihedral_deg": 2.8660740729095933,
+        "delta_deg": 1.2719784365489868,
+        "adjacent_face_baseline_outward_dot": [
+          -0.2798211534817443,
+          -0.29474413230817964
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.28665094903511273,
+          -0.27745201810619574
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998619284226894,
+          0.9997769621777068
+        ],
+        "endpoint_displacement_mm": [
+          0.3298043133554865,
+          1.1843278884176558
+        ],
+        "local_displacement_gradient": 0.25040234471852585
+      },
+      {
+        "edge_id": 6711,
+        "vertex_ids": [
+          3350,
+          3362
+        ],
+        "face_ids": [
+          2788,
+          3349
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 3.0639235809462044,
+        "candidate_dihedral_deg": 2.897986401202007,
+        "delta_deg": -0.1659371797441973,
+        "adjacent_face_baseline_outward_dot": [
+          -0.5477181529431564,
+          -0.5166781693979063
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.5352498437033564,
+          -0.5087797800432187
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998230581474788,
+          0.999896150214835
+        ],
+        "endpoint_displacement_mm": [
+          0.3576637925824151,
+          0.3298043133554865
+        ],
+        "local_displacement_gradient": 0.18035170999868896
+      },
+      {
+        "edge_id": 6712,
+        "vertex_ids": [
+          3361,
+          3352
+        ],
+        "face_ids": [
+          2787,
+          3350
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 176.80452975940895,
+        "candidate_dihedral_deg": 9.346248384989586,
+        "delta_deg": -167.45828137441936,
+        "adjacent_face_baseline_outward_dot": [
+          0.17190163297497627,
+          -0.22311752971465745
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.20302041682770866,
+          0.13805157725376857
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9986982030729554,
+          -0.9922799373667304
+        ],
+        "endpoint_displacement_mm": [
+          2.136749175277994,
+          3.013650695733896
+        ],
+        "local_displacement_gradient": 0.2791760034791973
+      },
+      {
+        "edge_id": 6713,
+        "vertex_ids": [
+          3351,
+          3361
+        ],
+        "face_ids": [
+          2784,
+          3351
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 126.0181711287699,
+        "candidate_dihedral_deg": 2.335574639008928,
+        "delta_deg": -123.68259648976097,
+        "adjacent_face_baseline_outward_dot": [
+          -0.04886097472822412,
+          0.5923490331233529
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.0387205442232311,
+          -0.03166121756082515
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9998110539524085,
+          -0.5917396234852303
+        ],
+        "endpoint_displacement_mm": [
+          1.1843278884176558,
+          2.136749175277994
+        ],
+        "local_displacement_gradient": 0.304541323179317
+      },
+      {
+        "edge_id": 6714,
+        "vertex_ids": [
+          3360,
+          3353
+        ],
+        "face_ids": [
+          2783,
+          3352
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 176.8601336184418,
+        "candidate_dihedral_deg": 8.356904655457418,
+        "delta_deg": -168.5032289629844,
+        "adjacent_face_baseline_outward_dot": [
+          0.5500587840525597,
+          -0.503512536423712
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.6246427300346469,
+          0.5127493771928192
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9948980317493283,
+          -0.9998672445074626
+        ],
+        "endpoint_displacement_mm": [
+          3.7156399676430603,
+          4.199255918167255
+        ],
+        "local_displacement_gradient": 0.13503518019654212
+      },
+      {
+        "edge_id": 6715,
+        "vertex_ids": [
+          3352,
+          3360
+        ],
+        "face_ids": [
+          2780,
+          3353
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 178.18270764068896,
+        "candidate_dihedral_deg": 11.371031470736702,
+        "delta_deg": -166.81167616995225,
+        "adjacent_face_baseline_outward_dot": [
+          0.3912068643270506,
+          -0.40550154064252997
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.44477689135900295,
+          0.29616737879651195
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9971114147108586,
+          -0.9884974810734857
+        ],
+        "endpoint_displacement_mm": [
+          3.013650695733896,
+          3.7156399676430603
+        ],
+        "local_displacement_gradient": 0.20763302420994567
+      },
+      {
+        "edge_id": 6716,
+        "vertex_ids": [
+          3359,
+          3354
+        ],
+        "face_ids": [
+          2779,
+          3354
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 168.97932245855145,
+        "candidate_dihedral_deg": 4.179509887726394,
+        "delta_deg": -164.79981257082505,
+        "adjacent_face_baseline_outward_dot": [
+          0.697349742960231,
+          -0.5534609235937825
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7946484137418051,
+          0.7923927621295841
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9890626000254154,
+          -0.9464874864137877
+        ],
+        "endpoint_displacement_mm": [
+          4.6006311193794724,
+          4.762374413777248
+        ],
+        "local_displacement_gradient": 0.0837844492973654
+      },
+      {
+        "edge_id": 6717,
+        "vertex_ids": [
+          3353,
+          3359
+        ],
+        "face_ids": [
+          2776,
+          3355
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 172.84539098543135,
+        "candidate_dihedral_deg": 5.1102699365453095,
+        "delta_deg": -167.73512104888604,
+        "adjacent_face_baseline_outward_dot": [
+          0.6408546345787249,
+          -0.5417024765834213
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.7259458444339026,
+          0.6647895563610459
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9929420443697878,
+          -0.98750759139809
+        ],
+        "endpoint_displacement_mm": [
+          4.199255918167255,
+          4.6006311193794724
+        ],
+        "local_displacement_gradient": 0.1311187529587142
+      },
+      {
+        "edge_id": 6718,
+        "vertex_ids": [
+          3358,
+          3348
+        ],
+        "face_ids": [
+          2775,
+          3356
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 170.20749841148984,
+        "candidate_dihedral_deg": 0.5953005666958608,
+        "delta_deg": -169.61219784479397,
+        "adjacent_face_baseline_outward_dot": [
+          0.3460758081418949,
+          -0.24113382037858047
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.3749025910622698,
+          0.37497668031791476
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9982094576537422,
+          -0.9715799773142411
+        ],
+        "endpoint_displacement_mm": [
+          4.345775271511154,
+          3.406068544636731
+        ],
+        "local_displacement_gradient": 0.2814534826412626
+      },
+      {
+        "edge_id": 6719,
+        "vertex_ids": [
+          3354,
+          3358
+        ],
+        "face_ids": [
+          2772,
+          3357
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 166.25285333387657,
+        "candidate_dihedral_deg": 3.783101216406385,
+        "delta_deg": -162.4697521174702,
+        "adjacent_face_baseline_outward_dot": [
+          0.6081196319697334,
+          -0.4662928376698562
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.6890242045129154,
+          0.7300078526508219
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9901604417933998,
+          -0.9215065055373741
+        ],
+        "endpoint_displacement_mm": [
+          4.762374413777248,
+          4.345775271511154
+        ],
+        "local_displacement_gradient": 0.12716855214242315
+      },
+      {
+        "edge_id": 6720,
+        "vertex_ids": [
+          3357,
+          3348
+        ],
+        "face_ids": [
+          2771,
+          3358
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 165.12222541969905,
+        "candidate_dihedral_deg": 0.16446891613060743,
+        "delta_deg": -164.95775650356845,
+        "adjacent_face_baseline_outward_dot": [
+          -0.06194818783865037,
+          0.23076814208235902
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          0.23998880780268908,
+          0.24110934461287592
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          -0.9602992899103837,
+          0.9997552803373247
+        ],
+        "endpoint_displacement_mm": [
+          2.3512176483346807,
+          3.406068544636731
+        ],
+        "local_displacement_gradient": 0.29070341322508875
+      },
+      {
+        "edge_id": 6721,
+        "vertex_ids": [
+          3355,
+          3357
+        ],
+        "face_ids": [
+          2770,
+          3359
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 8.72779024324232,
+        "candidate_dihedral_deg": 1.23704562385839,
+        "delta_deg": -7.490744619383929,
+        "adjacent_face_baseline_outward_dot": [
+          -0.147415752830867,
+          -0.05795718443363779
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.05828976201882803,
+          -0.07096418057418084
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9924612989022762,
+          0.999682565896476
+        ],
+        "endpoint_displacement_mm": [
+          1.0148524330259565,
+          2.3512176483346807
+        ],
+        "local_displacement_gradient": 0.29120935934041536
+      },
+      {
+        "edge_id": 6722,
+        "vertex_ids": [
+          3356,
+          3349
+        ],
+        "face_ids": [
+          2767,
+          3360
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 4.66951848372176,
+        "candidate_dihedral_deg": 0.5044957535105761,
+        "delta_deg": -4.1650227302111835,
+        "adjacent_face_baseline_outward_dot": [
+          -0.7432969646904632,
+          -0.6908009475777923
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.7110008092125494,
+          -0.7048254318526553
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9988922896034952,
+          0.9992951179402413
+        ],
+        "endpoint_displacement_mm": [
+          0.038499435780395025,
+          0.6481824855827024
+        ],
+        "local_displacement_gradient": 0.128029145300031
+      },
+      {
+        "edge_id": 6723,
+        "vertex_ids": [
+          3355,
+          3356
+        ],
+        "face_ids": [
+          2764,
+          3361
+        ],
+        "boundary_incident": true,
+        "outer_fixed_fixed_ring": false,
+        "baseline_dihedral_deg": 4.212784063412082,
+        "candidate_dihedral_deg": 0.4064243133246034,
+        "delta_deg": -3.8063597500874784,
+        "adjacent_face_baseline_outward_dot": [
+          -0.45079620688078986,
+          -0.4992410495980143
+        ],
+        "adjacent_face_candidate_outward_dot": [
+          -0.4556236516944159,
+          -0.45676119167692825
+        ],
+        "adjacent_face_baseline_to_candidate_dot": [
+          0.9995203469175785,
+          0.9987617684472616
+        ],
+        "endpoint_displacement_mm": [
+          1.0148524330259565,
+          0.038499435780395025
+        ],
+        "local_displacement_gradient": 0.21764023869658
+      }
+    ],
+    "new_boundary_sharp_folds": [],
+    "max_boundary_dihedral_deg": 32.134646659710086,
+    "max_boundary_displacement_gradient": 3.4875329114596094,
+    "boundary_displacement_max_mm": 4.762374413777248,
+    "screen_is_anatomy_threshold": false,
+    "screen_definition": "Conservative geometry-design screen: newly obtuse interface OR angle>45deg and increase>20deg; full per-edge table + matched visual inspection required."
+  },
+  "absolute_projected_bowtie_zero_required": false,
+  "source_AST_provenance": [
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/geometry.py",
+        "sha256": "3b63bf6080b0afd2e7cbb490e3a906b0ac5a6c2f4baadcdc940a0c1f5ef959ac"
+      },
+      "function_AST_sha256": {
+        "normal": "b447ec17c518a5261db4f10184b43a1b6a5962b5d61fe714ae47cc3fc14593f7",
+        "normals": "60488423558881253656135703744de9aa4b42f038fda6c3f539046e6d723039",
+        "areas": "4b08ede8c4a5da3cd46b1e26525fff36d11ac9e521c0ed3591adb52528cde6d7",
+        "angles": "686e6137d979adf0a952d95d71ca11d195efb39497a52f5f36dcb54b1bc0705d",
+        "face_domain": "c6065928b7b60df5862db82ea1e0f1a60c0133a0677c6b612b6f890453ef8196",
+        "boundary_domain": "eb389d98da0979ff67d996096b45f52a3b0901d2b3aee7b2c39d1f453ea71e98",
+        "boundary_audit": "69b84b2a95ba74cc2abc4203b25ca76672e9b6b94294f92eb7ff57e35948726c"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r1/independent_contact_audit.py",
+        "sha256": "4a057a1b9284269c189f1c665a2d6a282bedf8ecd681784782880f3e1249d65a"
+      },
+      "function_AST_sha256": {
+        "edge_tri": "1f5864bdc6c38cff74a4fbbbd96d35420823d27b069faa10a4b6c702484bdec9"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/contact_geometry.py",
+        "sha256": "d25153d9db7691e9f055038d43f125dde506dc86d758cab074b99bbcdac4edc5"
+      },
+      "function_AST_sha256": {
+        "point_triangle": "cdcd7e68e98bf04ec15796040cae02bc186ebc42f2374afe0e28307611e2ae23",
+        "segment_segment": "223453e996a3d5dd122aee63b612fb5a3a854888f93253adb2faaa197a224a76",
+        "tri_pair_metrics": "f85b33d12146fe02527bb0558c102f979b66dfbe8e2073db42381d9da9e329f1"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/collision_engine.py",
+        "sha256": "2181b0e86327da86ab55b85ab44388328893452b5424daa31b902a2b1a137a06"
+      },
+      "function_AST_sha256": {
+        "common": "443530abe570da64bdae9838cafe9a2a67dec8f51542fe51f5671ab2ea42fd94",
+        "broad": "b0a416c6f684f80fba17d0b67a8980aeb7d4ee285f31b98a80becb657f6cb17e"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/robust_geometry.py",
+        "sha256": "b70d9a700bc58a91fcd1ec1d9397bba0bd36f64a51cf143df6cef1df400336ce"
+      },
+      "function_AST_sha256": {
+        "fq": "73f9626701055939b217aa68ab46b746019f295b3965d7af68291b75aa66463e",
+        "sub": "5d084ba1b3c27e4060c6df5d868ec128fb01ed2689fea5a5ae75ef1182474cae",
+        "add": "52909d0e49982d9b1352508dfdfee4b3aeb7893562bea932bd9ca844df7c3cae",
+        "mul": "9d46e48d5ea4f39d271d1aba29a31b318bf81ffcd46d3834e2cb97125ebd5c30",
+        "dot": "5d5d5abe635c10e97fdeffaeab37120101e537520ffac7d6f6ef7111bf1c56d9",
+        "cross": "5addf0dd000635dcb6a13e68f0e06c6201546bdcd3c39fe0b691b6fa2d8148c4",
+        "segment_hit": "637717a707a0291baa1fa265d29c564da583877379993be610f778297a9b077d",
+        "on_seg": "ec2d50606a3740e45bfb2f9ad814c0bd0d488cb0de99d7e606fdeb9a0b9f23d9",
+        "coplanar_polygon": "83935b807d55f10df6f2c8500da5bfcc2db83663a6e91bd34e1e185cea7a77c5",
+        "intersection": "1ac2d15aa5a178c9ae37c67c16521f8db5f5b11c20593ed935d34a28070d71e8",
+        "legal_features": "c7f1413270db3fa6379fc9bac076498b962702be91d1fc261f8461cd705fe9a9",
+        "triangle_area_vectors": "8a8826cf5026b4f4e917e2aae198693fb64f6e775b12690f7f9beae4104b9dba",
+        "swept_min_area": "8b0fadbfc2d5383e99bf6797838e20e797d75f3bb9b524c5b6fe195e14055c70"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/minimal_local_geometry_amendment_design_r4/contact_components.py",
+        "sha256": "b1f692661cb14cb8b4f4088ef9745e5a91c8f53389331428b6e35231fca27ee0"
+      },
+      "function_AST_sha256": {
+        "feature": "1d95e1e66a89013fbb276e467599f65bb135d64816f34d652e79d2ec1d1d7f5c",
+        "barycentric": "9af507d1fdbbc20c1a1a8a7b7e92a489d6bac99bc632cacd892548f82a2d5c23",
+        "registry": "71f78fd6871d370cd5319e0e77164def0947e32a6978f0a01e90f7cca0312738",
+        "compare": "ccb8e4855ba32536c827e93c770568b683c841f0a32005b4315c131288df5cfb"
+      }
+    },
+    {
+      "source": {
+        "path": "audits/local_donor_shape_transfer_amendment_design_r1/geometric_gate.py",
+        "sha256": "58b3ecd50de0bb722b077ad46bad9fc395c2cca2e04dbdc89105e35016f45cb4"
+      },
+      "function_AST_sha256": {
+        "assess": "f0835f0d024d28b3e210bedd337b5b4f44bfdf69254a45dcd402d3fa592e0b1e"
+      }
+    }
+  ],
+  "native_V_E_F": [
+    3416,
+    6828,
+    3414
+  ],
+  "all_changed_fans_vs_whole_mesh": true,
+  "new_contact_component_count": 0,
+  "existing_contact_worsening_count": 0,
+  "feature_expansion_count": 0,
+  "manifold_unchanged": true,
+  "face_reversal_semantics": "native cycles unchanged; linear baseline-to-probe morph has no zero fan triangle event; projected signs not intrinsic reversal; endpoint exact contact registry separate",
+  "no_absolute_projected_bowtie_zero_gate": true,
+  "continuous_collision_claimed": false,
+  "payload_preservation": {
+    "status": "PASS",
+    "all_protected_payloads_exact": true,
+    "protected_fields": [
+      "mesh",
+      "object",
+      "groups",
+      "weights_exact_including_zero",
+      "rigs",
+      "other_objects"
+    ],
+    "outside_write_set_positions_exact": true,
+    "excluded_normal_positions_exact": true,
+    "topology_counts": [
+      3416,
+      6828,
+      3414
+    ],
+    "smooth_sharp_custom_normal_state_exact": true,
+    "UV_materials_weights_rigs_groups_exact": true,
+    "source": {
+      "path": "production_spec/stage5_production_rig/geometry_propagation_after_donor_transfer_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend",
+      "sha256": "d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d"
+    },
+    "temporary_probe": {
+      "path": "audits/palmar_digit_root_local_donor_shape_restoration_feasibility_r1/TEMP_PALMAR_ROOT_DONOR_TRANSFER_PROBE_R1.blend",
+      "sha256": "4e643acf0fb0ba6ad60612259fb6b044655426c3572e6aa2525b58f9d9f1ddb6"
+    },
+    "production_save_calls": 0,
+    "temporary_probe_save_calls": 1,
+    "temporary_geometry_vertex_writes": 16,
+    "pose_setters": 0,
+    "deformation_evaluations": 0,
+    "bone_count": 21
+  },
+  "DESIGN_ONLY": true,
+  "NOT_PRODUCTION": true,
+  "NOT_APPROVED": true,
+  "Full42_runs": 0,
+  "Stage6_runs": 0,
+  "deformation_qualification_runs": 0,
+  "NEW_TRUE3D_DEFECT_COUNT": 0,
+  "new_boundary_transition_fold_count": 0
+}

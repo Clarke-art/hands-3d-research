@@ -1,0 +1,157 @@
+{
+  "baseline": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+  "event_scope": {
+    "baseline": "Stage C R1",
+    "baseline_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+    "video_to_music_offset_sec": -0.35,
+    "windows_video_sec": {
+      "INDEX": [
+        [
+          0,
+          0.9928564999999999
+        ],
+        [
+          1.2071419999999997,
+          3.349997
+        ],
+        [
+          3.5642825,
+          5.933333333333334
+        ]
+      ],
+      "MIDDLE": [
+        [
+          0.7785709999999999,
+          2.064284
+        ],
+        [
+          2.741426,
+          4.6357099999999996
+        ]
+      ],
+      "RING": [
+        [
+          0.35,
+          3.349997
+        ],
+        [
+          3.3842825,
+          5.933333333333334
+        ]
+      ]
+    },
+    "windows_music_sec": {
+      "INDEX": [
+        [
+          -0.35,
+          0.6428564999999999
+        ],
+        [
+          0.8571419999999997,
+          2.999997
+        ],
+        [
+          3.2142825,
+          5.583333333333334
+        ]
+      ],
+      "MIDDLE": [
+        [
+          0.4285709999999999,
+          1.7142839999999997
+        ],
+        [
+          2.391426,
+          4.28571
+        ]
+      ],
+      "RING": [
+        [
+          0.0,
+          2.999997
+        ],
+        [
+          3.0342824999999998,
+          5.583333333333334
+        ]
+      ]
+    },
+    "digits": [
+      "INDEX",
+      "MIDDLE",
+      "RING"
+    ],
+    "dofs": [
+      "MCP flexion",
+      "PIP flexion",
+      "DIP flexion",
+      "MCP spread"
+    ],
+    "fixed": [
+      "right root",
+      "thumb",
+      "little",
+      "entire left hand",
+      "keyboard",
+      "music"
+    ],
+    "window_reason": "Music-event anchored supports for confirmed pair/black-key conflicts. INDEX A4 active and the clean R09 phase are retained; middle early/late windows separated by a clean interval; ring windows separated around middle C5.",
+    "outer_clip_boundaries": "Source already penetrates at video start and end. These are presentation-domain edges, not artificial zero-offset seams inside the phrase. Interior support boundaries require zero correction and velocity.",
+    "status": "PROPOSED_PENDING_STATIC_GEOMETRY_GATE",
+    "formal_dynamic_attempts": 0
+  },
+  "root_policy": "LOCKED. Static failure is not a proof that fixed root is infeasible, therefore conditional root authorization is not activated.",
+  "strategy": "Simultaneous 12 joint increments over INDEX/MIDDLE/RING, original FK and actual LBS skin, 7 actual moving black-key volumes, local adjacent-patch signed surface constraints, moving active pad anchors and engineering bounds. Static feasibility only; dynamic continuation not authorized by this gate.",
+  "joint_delta_limits_deg": [
+    18,
+    25,
+    22,
+    14
+  ],
+  "joint_absolute_domains_deg": [
+    [
+      0,
+      75
+    ],
+    [
+      0,
+      95
+    ],
+    [
+      0,
+      65
+    ],
+    [
+      -28,
+      28
+    ]
+  ],
+  "black_margin_mm": 0.5,
+  "target_black_permitted_skin_depth_mm": 0.65,
+  "pair_margin_mm": 0.7,
+  "objective_weights": {
+    "active_gap": 12,
+    "active_horizontal_margin": 15,
+    "black_skin": 7,
+    "neighbor_skin": 5,
+    "source_prior": [
+      0.035,
+      0.045,
+      0.06,
+      0.085
+    ],
+    "moving_surface_floor": 5
+  },
+  "precheck_poses": 13,
+  "per_static_max_nfev": 160,
+  "formal_dynamic_solve_attempts": 0,
+  "new_dynamic_candidates": 0,
+  "parameter_retuning_after_valid_preflight": 0,
+  "status": "PREFLIGHT_CLOSED_FAILED_NO_DYNAMIC_STRATEGY_LAUNCHED",
+  "script_sha256": {
+    "coordination.py": "23c39bb220c59935ce6e78179d29edf2548d97547265652f457f936c081555a1",
+    "static_preflight.py": "6cf0b69601e6d5472d094b5b3622a15e03b3cd1782f8e4765d4ec5cc7a7f1e05",
+    "verify_static_geometry.py": "70b80ba5f3984ff3bcc066361423607589b3ea54454e8eaee5d9a67d63646faa",
+    "scope_and_protection.py": "95a79f003eed1ff42170623c30d56a7d4adf5d61a4a23837ae0ac7e79eb79aed"
+  }
+}

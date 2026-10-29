@@ -1,0 +1,45 @@
+{
+  "start_utc": "2026-10-15T12:14:32+00:00",
+  "report_utc": "2026-10-15T12:35:02.797738+00:00",
+  "elapsed_minutes": 20.513295633333332,
+  "blender_stage_processes": {
+    "diagnose_no_intersection_fix_PROCESS.json": {
+      "stage": "diagnose",
+      "seconds": 13.954982999999629,
+      "returncode": 7
+    },
+    "diagnose_PROCESS.json": {
+      "stage": "diagnose",
+      "seconds": 8.419204900000295,
+      "returncode": 7
+    },
+    "diagnose_scene_object_reference_fix_PROCESS.json": {
+      "stage": "diagnose",
+      "seconds": 15.568688100000145,
+      "returncode": 0
+    },
+    "ninth_still_PROCESS.json": {
+      "stage": "ninth_still",
+      "seconds": 2.669202399999449,
+      "returncode": 0
+    },
+    "supplement_geometry_PROCESS.json": {
+      "stage": "supplement_geometry",
+      "seconds": 4.992211199999474,
+      "returncode": 0
+    },
+    "verify_projection_PROCESS.json": {
+      "stage": "verify_projection",
+      "seconds": 1.0031392999999298,
+      "returncode": 0
+    }
+  },
+  "media_seconds": 6.388171299999158,
+  "software_bug_failures": [
+    "Empty certified triangle list at no-hit time: treated as zero, not collision PASS for unsampled states.",
+    "Stale bpy object reference after opening candidate: resolve actual key object by name in newly opened scene."
+  ],
+  "human_edit_minutes": 0,
+  "motion_edit_minutes": 0,
+  "scope": "48 event snapshots + 5 deep times + original 357-frame coordinate projection. No whole-phrase high-rate collision audit."
+}

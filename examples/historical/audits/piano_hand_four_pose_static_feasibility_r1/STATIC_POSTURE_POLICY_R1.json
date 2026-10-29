@@ -1,0 +1,413 @@
+{
+  "phase": "PIANO_HAND_FOUR_POSE_STATIC_FEASIBILITY_R1",
+  "authority": "CURRENT_HUMAN_AUTHORIZED_GEOMETRIC_PRODUCT_PROBE",
+  "candidate_count": 1,
+  "pose_count": 4,
+  "new_continuous_actions": 0,
+  "reference_search": "STOP_LOSS_REACHED_NO_NEW_SEARCH",
+  "evidence_boundary": "Inherited actual static photographs and primary teaching text, frozen RSSF mesh/rig and keyboard. No viewed black-key video, no measured physiological joint limits or biomechanics certification.",
+  "constraints": {
+    "NATURAL_IDLE_FINGERS": {
+      "REFERENCE_SUPPORTED": "R2 S1/S2 qualitative varied finger curves; S1 includes an E task, not three-idle ground truth.",
+      "GEOMETRY_DERIVED": "Canonical RSSF curved rest and existing digit chains.",
+      "ENGINEERING_ASSUMPTION": "Small nonuniform increments, strong idle prior; no forced straightening or uniform claws.",
+      "UNKNOWN": "Exact performer-dependent passive coupling and teacher-approved curve."
+    },
+    "ACTIVE_FINGER_CONTACT": {
+      "REFERENCE_SUPPORTED": "R2 S3 confirms D/E/F#/G/A fingering text; not D5 repertoire approval.",
+      "GEOMETRY_DERIVED": "Frozen existing pads and actual playable surfaces, black-key raised/rearward geometry.",
+      "ENGINEERING_ASSUMPTION": "Fit rigid pad and predicted skin pad jointly; evaluate actual saved/reopened skin as well.",
+      "UNKNOWN": "Finite pressure/contact area and soft tissue compression."
+    },
+    "SHARED_PALM_CONFIGURATION": {
+      "REFERENCE_SUPPORTED": "Single hand distributes several digit positions in real static photographs.",
+      "GEOMETRY_DERIVED": "One wrist-root per hand, 21 bones.",
+      "ENGINEERING_ASSUMPTION": "Each pair shares exactly the same six-DOF root; separate bounded digit rotations. No individual-finger roots.",
+      "UNKNOWN": "Dynamic transition and physiological maximum span."
+    },
+    "WRIST_ORIENTATION": {
+      "REFERENCE_SUPPORTED": "R2 S5 avoids outward twisting; wrist freedom is qualitative.",
+      "GEOMETRY_DERIVED": "Frozen keyboard axes and wrist origin.",
+      "ENGINEERING_ASSUMPTION": "Yaw ±12°, pitch ±8°, roll ±6° around canonical keyboard alignment. No extra local wrist rotation.",
+      "UNKNOWN": "Human anatomical limits and arm/elbow/shoulder context."
+    },
+    "PALM_CLEARANCE": {
+      "REFERENCE_SUPPORTED": "Product naturalness requirement; hidden palm underside not measured in sources.",
+      "GEOMETRY_DERIVED": "Canonical palm/wrist vertices and frozen rectangular key surfaces/volumes.",
+      "ENGINEERING_ASSUMPTION": "6mm planning proxy margin; exact evaluated mesh screen and normal side review after solving.",
+      "UNKNOWN": "Complete triangle collision or load-bearing tissue model."
+    },
+    "NEIGHBOR_KEY_CLEARANCE": {
+      "REFERENCE_SUPPORTED": "Only qualitative keyboard proximity, not measured clearances.",
+      "GEOMETRY_DERIVED": "All 88 keys and sampled evaluated hand vertices.",
+      "ENGINEERING_ASSUMPTION": "4mm idle pad/skin proxy margin, volume penetration flags above 3mm; visual veto retained.",
+      "UNKNOWN": "Zero false negatives for finite triangle intersections."
+    },
+    "JOINT_POSTURE": {
+      "REFERENCE_SUPPORTED": "R2 S5 supported fifth-finger joints; no exact angles inferred.",
+      "GEOMETRY_DERIVED": "Existing canonical rests/local rotation axes and unchanged drivers.",
+      "ENGINEERING_ASSUMPTION": "Below numeric increments are design bounds, never physiological limits. Positive flex only, base spread only, no axial twist.",
+      "UNKNOWN": "Teacher approved joint domain and deformation under every pose."
+    }
+  },
+  "coordinate_frame": {
+    "x": "bass to treble",
+    "y": "white front to rear",
+    "z": "up; unpressed white top ≈0",
+    "units": "equivalent scale metres internally, mm for reports",
+    "keys_unpressed": true,
+    "reason": "Static surface-contact geometry; no key press animation or action is generated."
+  },
+  "root_bounds": {
+    "L": {
+      "xyz_mm": [
+        [
+          -248,
+          -120,
+          44
+        ],
+        [
+          -210,
+          -70,
+          70
+        ]
+      ],
+      "seed_xyz_mm": [
+        -227.4,
+        -95,
+        55
+      ]
+    },
+    "R": {
+      "xyz_mm": [
+        [
+          230,
+          -130,
+          44
+        ],
+        [
+          260,
+          -75,
+          70
+        ]
+      ],
+      "seed_xyz_mm": [
+        244,
+        -95,
+        50
+      ]
+    },
+    "yaw_pitch_roll_deg": [
+      [
+        -12,
+        -8,
+        -6
+      ],
+      [
+        12,
+        8,
+        6
+      ]
+    ],
+    "pair_root_difference_mm": 0,
+    "pair_orientation_difference_deg": 0
+  },
+  "joint_increment_bounds_deg": {
+    "THUMB": [
+      [
+        0,
+        0,
+        0,
+        -35
+      ],
+      [
+        25,
+        25,
+        18,
+        35
+      ]
+    ],
+    "LONG": [
+      [
+        0,
+        0,
+        0,
+        -25
+      ],
+      [
+        32,
+        32,
+        20,
+        25
+      ]
+    ],
+    "LEFT_IDLE_INDEX_MIDDLE_RING": [
+      [
+        0,
+        0,
+        0,
+        -6
+      ],
+      [
+        12,
+        15,
+        10,
+        6
+      ]
+    ],
+    "meaning": "Flexion1/2/3 then base spread. Increment from already curved RSSF rest; not global anatomical joint angles."
+  },
+  "priors_deg": {
+    "L1": [
+      [
+        3,
+        2,
+        1,
+        0
+      ],
+      [
+        2,
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        4,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        2,
+        0
+      ],
+      [
+        18,
+        10,
+        4,
+        8
+      ]
+    ],
+    "L2": [
+      [
+        6,
+        4,
+        2,
+        0
+      ],
+      [
+        2,
+        3,
+        2,
+        0
+      ],
+      [
+        3,
+        4,
+        2,
+        0
+      ],
+      [
+        4,
+        4,
+        2,
+        0
+      ],
+      [
+        13,
+        7,
+        3,
+        8
+      ]
+    ],
+    "R1": [
+      [
+        2,
+        2,
+        1,
+        -18
+      ],
+      [
+        2,
+        3,
+        2,
+        -10
+      ],
+      [
+        0,
+        0,
+        0,
+        -4
+      ],
+      [
+        3,
+        3,
+        2,
+        6
+      ],
+      [
+        13,
+        7,
+        3,
+        14
+      ]
+    ],
+    "R2": [
+      [
+        2,
+        2,
+        1,
+        -18
+      ],
+      [
+        2,
+        3,
+        2,
+        -10
+      ],
+      [
+        4,
+        5,
+        2,
+        -4
+      ],
+      [
+        3,
+        3,
+        2,
+        6
+      ],
+      [
+        13,
+        7,
+        3,
+        14
+      ]
+    ]
+  },
+  "tasks": {
+    "L1": {
+      "hand": "L",
+      "active_finger": 5,
+      "active_midi": 38,
+      "prepared": {
+        "1": 50
+      }
+    },
+    "L2": {
+      "hand": "L",
+      "active_finger": 1,
+      "active_midi": 50,
+      "prepared": {
+        "5": 38
+      }
+    },
+    "R1": {
+      "hand": "R",
+      "active_finger": null,
+      "prepared": {
+        "1": 74,
+        "2": 76,
+        "3": 78,
+        "4": 79,
+        "5": 81
+      }
+    },
+    "R2": {
+      "hand": "R",
+      "active_finger": 3,
+      "active_midi": 78,
+      "prepared": {
+        "1": 74,
+        "2": 76,
+        "4": 79,
+        "5": 81
+      }
+    }
+  },
+  "contact_regions": {
+    "white_front_inset_xy_mm": [
+      3,
+      7
+    ],
+    "black_inset_xy_mm": [
+      2,
+      2
+    ],
+    "prepared_white_allowed": "Union of actual front/rear surfaces, 3mm lateral inset and 7mm outer front/rear inset, no artificial gap at internal front/rear interface. Left endpoints prefer front; active white tasks use front.",
+    "white_preferred_y_mm": {
+      "THUMB": 25,
+      "INDEX": 43,
+      "RING": 42,
+      "LITTLE": 32
+    },
+    "black_preferred_y_mm": 66,
+    "left_preferred_x_offset_from_center_mm": {
+      "THUMB": -6,
+      "LITTLE": 6
+    },
+    "active_target_vertical_gap_mm": 0.5,
+    "prepared_gap_interval_mm": [
+      4,
+      18
+    ],
+    "prepared_preferred_gap_mm": 8,
+    "idle_pad_min_gap_mm": 4,
+    "strict_actual_playable_region_required": true,
+    "vertical_tolerance_mm": 3,
+    "horizontal_tolerance_mm": 2,
+    "unchanged": true
+  },
+  "solver": {
+    "method": "One deterministic joint least-squares solve per shared-root hand-pair, collectively one four-pose candidate; no restart, sweep or candidate selection.",
+    "max_nfev_per_pair": 180,
+    "xtol": 1e-08,
+    "ftol": 1e-07,
+    "gtol": 1e-07,
+    "residual_weights": {
+      "active_contact_mm": 5,
+      "active_skin_contact_mm": 3,
+      "prepared_region_mm": 2,
+      "prepared_gap_interval_mm": 2,
+      "preferred_xy_mm": 0.18,
+      "prepared_preferred_height_mm": 0.3,
+      "left_idle_joint_rad": 30,
+      "other_joint_rad": 7,
+      "active_joint_rad": 4,
+      "paired_joint_difference_rad": 3,
+      "root_prior_mm": 0.08,
+      "root_rotation_rad": 10,
+      "palm_wrist_clearance_mm": 5,
+      "idle_proxy_clearance_mm": 4
+    },
+    "skin_proxy": "Linear blend prediction from unchanged extracted neutral mesh and weights, not new deformation; actual Blender drivers/skin are evaluated afterward.",
+    "proxy_sampling": "24 low palm vertices,12 low wrist vertices,8 low vertices per digit by dominant existing bone-weight; all chosen before solve.",
+    "priority": "Hard bounded non-reverse joint domain and shared bounded root; natural-prior objectives, contact, idle/clearance jointly penalized. Conflicts remain FAIL, never relax bounds for contact.",
+    "failure_rule": "Max evaluations/nonconvergence with usable finite pose is reported as solver limit and still rendered; cannot prove geometric impossibility."
+  },
+  "acceptance": {
+    "geometry_contact": "Fixed pad inside actual playable region and absolute vertical gap <=3mm; skin pad gap independently reported.",
+    "clearance": "Screen actual evaluated mesh against all frozen key volumes at >3mm depth; confirm human-visible issues through side images.",
+    "naturalness": "Normal top/side/close agent precheck, then HUMAN_PENDING. Bounds/contact alone never make naturalness PASS.",
+    "sequence": "Shared root is a necessary pair relationship only; no continuous transition is generated or proven."
+  },
+  "prohibited": [
+    "mesh/topology edits",
+    "rest edits",
+    "weight edits",
+    "driver/corrective edits",
+    "scale",
+    "finger-length changes",
+    "helper bones",
+    "new shape keys",
+    "per-vertex edits",
+    "key geometry changes",
+    "production pointer",
+    "MIDI/audio/fingering edits",
+    "continuous actions",
+    "parameter sweep",
+    "policy relaxation after results"
+  ]
+}

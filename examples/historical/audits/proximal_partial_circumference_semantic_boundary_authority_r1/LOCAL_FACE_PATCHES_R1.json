@@ -1,0 +1,259 @@
+{
+  "patches": [
+    {
+      "row": "P02",
+      "focus_face_ids": [
+        1372,
+        1375
+      ],
+      "focus_vertex_ids": [
+        310,
+        317,
+        1423,
+        1442,
+        1521,
+        2823
+      ],
+      "direct_incident_face_ids": [
+        1257,
+        1258,
+        1372,
+        1373,
+        1374,
+        1375,
+        1504,
+        1505,
+        3032,
+        3033,
+        3037,
+        3060
+      ],
+      "one_distal_row": {
+        "row": "P01",
+        "face_ids": [
+          3032,
+          3033
+        ]
+      },
+      "one_proximal_row": {
+        "row": "P03",
+        "face_ids": [
+          1373,
+          1374
+        ]
+      },
+      "no_recursive_growth": true
+    },
+    {
+      "row": "P03",
+      "focus_face_ids": [
+        1373,
+        1374
+      ],
+      "focus_vertex_ids": [
+        293,
+        386,
+        1442,
+        1518,
+        1521,
+        2823
+      ],
+      "direct_incident_face_ids": [
+        1255,
+        1257,
+        1258,
+        1368,
+        1371,
+        1372,
+        1373,
+        1374,
+        1375,
+        1503,
+        1504,
+        1505
+      ],
+      "one_distal_row": {
+        "row": "P02",
+        "face_ids": [
+          1372,
+          1375
+        ]
+      },
+      "one_proximal_row": {
+        "row": "P04",
+        "face_ids": [
+          1368,
+          1371
+        ]
+      },
+      "no_recursive_growth": true
+    },
+    {
+      "row": "P04",
+      "focus_face_ids": [
+        1368,
+        1371
+      ],
+      "focus_vertex_ids": [
+        293,
+        386,
+        1444,
+        1518,
+        1520,
+        2822
+      ],
+      "direct_incident_face_ids": [
+        1254,
+        1255,
+        1257,
+        1368,
+        1369,
+        1370,
+        1371,
+        1373,
+        1374,
+        1500,
+        1503,
+        1505
+      ],
+      "one_distal_row": {
+        "row": "P03",
+        "face_ids": [
+          1373,
+          1374
+        ]
+      },
+      "one_proximal_row": {
+        "row": "P05",
+        "face_ids": [
+          1369,
+          1370
+        ]
+      },
+      "no_recursive_growth": true
+    },
+    {
+      "row": "P05",
+      "focus_face_ids": [
+        1369,
+        1370
+      ],
+      "focus_vertex_ids": [
+        294,
+        385,
+        1444,
+        1519,
+        1520,
+        2822
+      ],
+      "direct_incident_face_ids": [
+        1250,
+        1254,
+        1255,
+        1368,
+        1369,
+        1370,
+        1371,
+        1377,
+        1378,
+        1496,
+        1500,
+        1503
+      ],
+      "one_distal_row": {
+        "row": "P04",
+        "face_ids": [
+          1368,
+          1371
+        ]
+      },
+      "one_proximal_row": {
+        "row": "P06",
+        "face_ids": [
+          1378,
+          1377
+        ]
+      },
+      "no_recursive_growth": true
+    },
+    {
+      "row": "P06",
+      "focus_face_ids": [
+        1378,
+        1377
+      ],
+      "focus_vertex_ids": [
+        294,
+        385,
+        1445,
+        1519,
+        1523,
+        2824
+      ],
+      "direct_incident_face_ids": [
+        1249,
+        1250,
+        1254,
+        1369,
+        1370,
+        1376,
+        1377,
+        1378,
+        1379,
+        1496,
+        1497,
+        1500
+      ],
+      "one_distal_row": {
+        "row": "P05",
+        "face_ids": [
+          1369,
+          1370
+        ]
+      },
+      "one_proximal_row": {
+        "row": "P07",
+        "face_ids": [
+          1379,
+          1376
+        ]
+      },
+      "no_recursive_growth": true
+    }
+  ],
+  "analysis_scope_face_ids": [
+    1249,
+    1250,
+    1254,
+    1255,
+    1257,
+    1258,
+    1368,
+    1369,
+    1370,
+    1371,
+    1372,
+    1373,
+    1374,
+    1375,
+    1376,
+    1377,
+    1378,
+    1379,
+    1496,
+    1497,
+    1500,
+    1503,
+    1504,
+    1505,
+    3032,
+    3033,
+    3037,
+    3060
+  ],
+  "guards": [
+    "P01",
+    "P07"
+  ],
+  "guards_are_context_only_not_stop_candidates": true
+}

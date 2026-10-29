@@ -1,0 +1,85 @@
+{
+  "candidates": [
+    {
+      "id": "U1",
+      "name": "HISTORICAL_EXECUTION_SEMANTICS",
+      "execution_verified": true,
+      "documented_intent_confirmed": false,
+      "energy_equivalent_in_report_mm_costs": "sum_v min(0.001*d_label_mm(v),400) + (TAU_mm/3)*number_of_cut_edges before integer quantization",
+      "distance_weight_relative_to_common_mm": 0.001,
+      "alternative_physical_distance_equivalent": "If unary is interpreted as true distance in mm, each edge costs 1296 mm after integerization; finite unary saturation is 400000 mm.",
+      "requires_undocumented_tradeoff_factor": 1000,
+      "canonical": false
+    },
+    {
+      "id": "U2",
+      "name": "DOCUMENTED_COMMON_MM_SEMANTICS",
+      "intent": "INTENT_CONFIRMED",
+      "evidence_scope": "Recorded design contract, not a claim of prior explicit Human approval of the fix",
+      "energy": "sum_v min(d_label_mm(v),400 mm) + (TAU_mm/3)*number_of_cut_edges; hard pins replace terminal costs",
+      "reason": "Published unary is geodesic distance, published pairwise is TAU/3 mm, generated cap metadata is 400 mm. A sum of physical length costs requires common units. Executable ambiguity check and pre-mincut distance probe explicitly convert the same metre geodesic to mm. No 0.001 unary coefficient or metre-cost tradeoff is specified. The missing conversion occurs only in terminal capacity assembly (and duplicated rerun).",
+      "historical_unit_bug_confirmed": true,
+      "canonical": true
+    },
+    {
+      "id": "U3",
+      "name": "DIMENSIONLESS_NORMALIZED_SEMANTICS",
+      "status": "NOT_SUPPORTED",
+      "reason": "No source declares a common reference length L_ref and a dimensionless smoothness coefficient, nor divides both distance and TAU by that length. No test contract defines normalized rounding.",
+      "mathematical_note": "Dividing an already unit-consistent energy by a shared positive length would preserve continuous ordering, but choosing L_ref and integerization now would be a new design. It does not explain the historical asymmetric factor of 1000.",
+      "reference_scale": null,
+      "canonical": false
+    }
+  ],
+  "representative_points": [
+    {
+      "distance_mm": 1,
+      "distance_m": 0.001,
+      "historical_unary_capacity": 1,
+      "historical_pairwise_capacity_per_edge": 1296,
+      "historical_unary_pairwise_ratio": 0.0007716049382716049,
+      "historical_pairwise_unary_ratio": 1296.0,
+      "common_mm_unary_capacity": 1000,
+      "common_mm_pairwise_capacity": 1296,
+      "common_mm_unary_pairwise_ratio": 0.7716049382716049
+    },
+    {
+      "distance_mm": 5,
+      "distance_m": 0.005,
+      "historical_unary_capacity": 5,
+      "historical_pairwise_capacity_per_edge": 1296,
+      "historical_unary_pairwise_ratio": 0.0038580246913580245,
+      "historical_pairwise_unary_ratio": 259.2,
+      "common_mm_unary_capacity": 5000,
+      "common_mm_pairwise_capacity": 1296,
+      "common_mm_unary_pairwise_ratio": 3.8580246913580245
+    },
+    {
+      "distance_mm": 10,
+      "distance_m": 0.01,
+      "historical_unary_capacity": 10,
+      "historical_pairwise_capacity_per_edge": 1296,
+      "historical_unary_pairwise_ratio": 0.007716049382716049,
+      "historical_pairwise_unary_ratio": 129.6,
+      "common_mm_unary_capacity": 10000,
+      "common_mm_pairwise_capacity": 1296,
+      "common_mm_unary_pairwise_ratio": 7.716049382716049
+    },
+    {
+      "distance_mm": 20,
+      "distance_m": 0.02,
+      "historical_unary_capacity": 20,
+      "historical_pairwise_capacity_per_edge": 1296,
+      "historical_unary_pairwise_ratio": 0.015432098765432098,
+      "historical_pairwise_unary_ratio": 64.8,
+      "common_mm_unary_capacity": 20000,
+      "common_mm_pairwise_capacity": 1296,
+      "common_mm_unary_pairwise_ratio": 15.432098765432098
+    }
+  ],
+  "historical_effective_scale_verdict": "PAIRWISE-DOMINATED",
+  "verdict_scope": "Finite local tradeoff at 1/5/10/20 mm: one boundary edge costs 1296/259.2/129.6/64.8 times the respective unary. This does not assert the pairwise term dominates every global energy sum or overrules hard pins. The relevant label change is unary DIFFERENCE; absolute example costs supply scale only.",
+  "historical_crossover_unary_mm_per_one_edge": 1296,
+  "common_mm_crossover_unary_mm_per_one_edge": 1.296,
+  "units_selected_by_matching_old_boundary": false
+}

@@ -1,0 +1,641 @@
+{
+  "task": "PIANO_SEQUENCE_FINGERING_PLANNING_R1",
+  "status": "SEQUENCE_POC_PASS",
+  "candidate_count": 1,
+  "test_notes": 23,
+  "unique_source_messages": 46,
+  "all_23_comparison_rows": 23,
+  "official_pianoplayer_output_fingers_unchanged": true,
+  "path_conditional_scores_recomputed": true,
+  "protected_file_count": 51,
+  "all_protected_files_unchanged": true,
+  "required_files": [
+    {
+      "file": "EXISTING_ALGORITHM_REVIEW.md",
+      "bytes": 5470,
+      "sha256": "8c1a563abcb445a166380c7cf2c940af12657c61cb2ca3d4c99947fb0aca6f43"
+    },
+    {
+      "file": "SEQUENCE_PLANNING_FEASIBILITY.md",
+      "bytes": 5973,
+      "sha256": "136bfc185d5d09fb6f02aec213401de8eb47f4344a77ae4fddf78410d00ca6c3"
+    },
+    {
+      "file": "SEQUENCE_CANDIDATES.json",
+      "bytes": 25101,
+      "sha256": "86ca8525577943389bf5ad73716c1062609d886a180766037c0159eb1fe495a9"
+    },
+    {
+      "file": "ALL_23_SEQUENCE_COMPARISON.md",
+      "bytes": 6327,
+      "sha256": "1916641b7e97c13a97219e08067f69b28de5c60f4a5531a813c0b89b3ef58d3c"
+    },
+    {
+      "file": "FINAL_RECOMMENDATION.md",
+      "bytes": 3663,
+      "sha256": "63931af79e71992f37bacff38b8c6f8486d09cda7fb3c4e0d57971aac770669b"
+    }
+  ],
+  "files": [
+    {
+      "file": "ALL_23_SEQUENCE_COMPARISON.md",
+      "bytes": 6327,
+      "sha256": "1916641b7e97c13a97219e08067f69b28de5c60f4a5531a813c0b89b3ef58d3c"
+    },
+    {
+      "file": "collect_existing.py",
+      "bytes": 1392,
+      "sha256": "6f58ebee6b4f927345117ff865e6c9330fc95ca98ff856599cf57b9cdda0d335"
+    },
+    {
+      "file": "CONDITIONAL_MODEL_PATH_SCORES.json",
+      "bytes": 223459,
+      "sha256": "3c8e750fb3d867a20215a0ee06b300e41662d565ebac34e30996bc8d34f0675f"
+    },
+    {
+      "file": "evaluate_sequence.py",
+      "bytes": 6929,
+      "sha256": "3a90535b1f101353b77161d6aefc1b51a218365954474c489c99cca87610b03c"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/._SourceCode",
+      "bytes": 239,
+      "sha256": "a232e315d656578ad6a540deed090296799edc0b0c9dc55777cfb3d4892f77ad"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/._Code",
+      "bytes": 239,
+      "sha256": "fc08b6d09569630e587146b8b353d8c14cdb6f1ee9bbc58f90f16c552b3b081b"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/._compile.sh",
+      "bytes": 355,
+      "sha256": "1228e15019f54d560bb517dd452cc9f1a3318b3b569b60a578ff64b1529737ab"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/._README.txt",
+      "bytes": 355,
+      "sha256": "234339ae804e2938f5f55d375044da5e040ac7a4164c868e97ae90b02de04c9b"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/._run_CHMM.sh",
+      "bytes": 355,
+      "sha256": "3e834f40c5553305552c0750091716a21bb6996cd4eebe45b5ee3bd7b1596972"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/._run_FHMM1.sh",
+      "bytes": 355,
+      "sha256": "c3281f06575bb7819224f3ea20cf38931e56921a918305fff05d68c8b985d5a5"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/._run_FHMM2.sh",
+      "bytes": 512,
+      "sha256": "38d46f38c9bd795c77a7b0f66f7482668432e9c05e66162effa8a65650f92479"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/._run_FHMM3.sh",
+      "bytes": 355,
+      "sha256": "b00647f810af65dfc7238b3d135fff6df69d2ae94cd8087c635fe060557a41f0"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._.DS_Store",
+      "bytes": 120,
+      "sha256": "2f380f4a3d05a8d90c2106f50da75064e9ce57a598599dc5404f8f69a0223aa9"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._BasicCalculation_v170122.hpp",
+      "bytes": 512,
+      "sha256": "a1c32a0f745d85a355e8d6c275fd0b7684c1a1bf12603b7cc1fdd2ee573535d6"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._BasicPitchCalculation_v170101.hpp",
+      "bytes": 512,
+      "sha256": "ea0190e0721c605df9227e4f1e89360bfea228d11705bdd5e6593af6c215c468"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._CHMM_Run_v190321.cpp",
+      "bytes": 355,
+      "sha256": "f37ed3c4a8fcb3319aa0d6bd1841b95eaa7e1d9e091132649dc45d336b825e86"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._CHMM_Train_v190320.cpp",
+      "bytes": 511,
+      "sha256": "163f58c3b14f0ac9a1cb37783b6945fc0de41414f4955064174f7e45db3c7ec0"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._CHMM_v181128.hpp",
+      "bytes": 512,
+      "sha256": "b51f73d50a047229eef8097edd136e359890efd38b2b52f6e0767a9cda2bad2c"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._ChordFinergingTemplates.txt",
+      "bytes": 299,
+      "sha256": "d01e4cfe96061803246c8f7e52fbc9fb9a30178f06c029ecdaf2cb8ccd8b3022"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._Evaluate_MultipleGroundTruth.cpp",
+      "bytes": 512,
+      "sha256": "a9a8df016b5ed17dbce71f05957458075349e1308ad52d03fc964bc720d6d8a0"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._Evaluate_SimpleMatchRate.cpp",
+      "bytes": 512,
+      "sha256": "fe12b4b4aa1810d5a6f9cf7e63d2103e8d4dae1e701bc342223fd0d2fffe4a15"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._FingeringEvaluation_v190306.hpp",
+      "bytes": 354,
+      "sha256": "0119fe7498c429198ad176f6efcb49d963817ece354832223bcc4dac011e8e07"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._FingeringHMM1_Run_v181122.cpp",
+      "bytes": 355,
+      "sha256": "dee501d66ea9840c19a817747f357286766955e54fe18629dff6f6cd74f37b3f"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._FingeringHMM1_Train_v190308.cpp",
+      "bytes": 512,
+      "sha256": "40e2e451a2be3f6541aaf46a4c2c12a211fd00c57ebbdda1b4f3a70f0a8a834c"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._FingeringHMM2_Run_v181125.cpp",
+      "bytes": 512,
+      "sha256": "7394c79771a0fefff07bb7fb27ec26de17b408ba67b7fffd1ffd082fbb54ba04"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._FingeringHMM2_Train_v190308.cpp",
+      "bytes": 355,
+      "sha256": "f12e5ab0f76c9e8673cd5cd46471ce27e94f82b41c350126159d8457ea3fc11f"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._FingeringHMM3_Run_v181125.cpp",
+      "bytes": 512,
+      "sha256": "0d05ab4f42b8084d9f18bed83a4b6e7deb52a79a138d3dc0bcfaa79118be51bd"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._FingeringHMM3_Train_v190308.cpp",
+      "bytes": 355,
+      "sha256": "55da3202b06ca8ccb6715168437340fd96d34afeb49960e981583a143a8c7b41"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._FingeringHMM_v180925.hpp",
+      "bytes": 355,
+      "sha256": "d8c88d655b5b4ec3bd49758cb08768ccc2afad8f77392d0918cdf3a369151703"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._KeyPos_v161230.hpp",
+      "bytes": 3663,
+      "sha256": "534d6db523126db54bb1ea627292703a31575e0d5aaf43e1a50ee76548729327"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._Midi_v170101.hpp",
+      "bytes": 355,
+      "sha256": "4e3c9a7acf7623e6e977771562c21972fa7a4024c8191429c8b84db245d1413f"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._param_CHMM1.txt",
+      "bytes": 299,
+      "sha256": "d60005ec91c342070701ece2a192ff6cd84b43b338d7972b2af74ccfd8e31314"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._param_FHMM1.txt",
+      "bytes": 355,
+      "sha256": "650838398c3f74a7c4a2f15873d662280fbce3682bd0e9cf1c286e3cffbfbec4"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._param_FHMM2.txt",
+      "bytes": 355,
+      "sha256": "d425d3ed88b21e5f523906375c10607abcdb35df87c03ec6958305c2f8fd379d"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._param_FHMM3.txt",
+      "bytes": 299,
+      "sha256": "5e4282b10a60a5e752b9de09015743ee8b332ff5b1a44b9b1913617f8f4fb9b3"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._PianoFingering_v170101_2.hpp",
+      "bytes": 355,
+      "sha256": "587ad73db0d1ee2365e1a4d3ac3082a8cc64c98131bf0a2887752810e1bd6dc6"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._PianoRoll_v170503.hpp",
+      "bytes": 355,
+      "sha256": "0e005361e31dcd64af942a313f6fd54054c3052c54a73e44ddac62809349f605"
+    },
+    {
+      "file": "evidence/nakamura/__MACOSX/SourceCode/Code/._ProbabilityVisualizer_v180920.hpp",
+      "bytes": 3662,
+      "sha256": "e74ddee6e03f176e89b68b0ff40aac6bdc86ac07981f2a952dbe5884e2c52fa7"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/.DS_Store",
+      "bytes": 8196,
+      "sha256": "126256d46ee46d20233583cd28b71c1cef655e0296bcc8617d1697fee90abea8"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/.DS_Store",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/BasicCalculation_v170122.hpp",
+      "bytes": 14338,
+      "sha256": "d60549116d058c2f7fac68009d4d256c1b14a0c2412b2cf994f8d88b24199e81"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/BasicPitchCalculation_v170101.hpp",
+      "bytes": 9908,
+      "sha256": "4005bde3fda1752b40dd5408bdbc546f840ec9b0d68e50b55f580bc17b591047"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/CHMM_Run_v190321.cpp",
+      "bytes": 1556,
+      "sha256": "b68da1e2f5e8da0167383055d60ba2a940a237c939a4076a1c2832a63afe5ddb"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/CHMM_Train_v190320.cpp",
+      "bytes": 1040,
+      "sha256": "b6c3299d5d72ec806f7b0eb0786c25e0d3becf2869b6357201a57f0140792af3"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/CHMM_v181128.hpp",
+      "bytes": 18621,
+      "sha256": "bb464d6db0e94b9b5e243b01d8b0dd97da0884e3a949f0c37191453e6b37f292"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/ChordFinergingTemplates.txt",
+      "bytes": 764,
+      "sha256": "de4e4bd606418b42bdd25ab91d05cc48c17ee297ddfade68fe00ab65e7cb8d3d"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/Evaluate_MultipleGroundTruth.cpp",
+      "bytes": 1597,
+      "sha256": "0b4ada05c28f353f6ac78bb5deb5dc7cca7417f04ee564cc6d9d03d700508446"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/Evaluate_SimpleMatchRate.cpp",
+      "bytes": 986,
+      "sha256": "c26ad1eb84bc5d0597931f0ddd54568e3156e096b781bf22fc40ef48b95e6c2c"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/FingeringEvaluation_v190306.hpp",
+      "bytes": 8502,
+      "sha256": "463b7201cc9e9925194bb754a83b41a8ada1d2c66d280e9adebb7ccbf85952e6"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/FingeringHMM1_Run_v181122.cpp",
+      "bytes": 968,
+      "sha256": "b26637f0579d5a2ce22945fac2ee2652dfdfa45dc1fbe9db15b25dc6f6c75156"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/FingeringHMM1_Train_v190308.cpp",
+      "bytes": 1222,
+      "sha256": "fb994885a7d4db7a46c8eae278c6631b6cc2e9e7c383572fde816dba0b0983ba"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/FingeringHMM2_Run_v181125.cpp",
+      "bytes": 1032,
+      "sha256": "07f12b092544feba36ab9b75a73044252a6ec2e241ff193cd8e3ed37b99196b2"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/FingeringHMM2_Train_v190308.cpp",
+      "bytes": 1225,
+      "sha256": "7a403339e01ad3a4877c1f2d8e5a21bb8685cc7ef08f592fde9c067cb69d5613"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/FingeringHMM3_Run_v181125.cpp",
+      "bytes": 1115,
+      "sha256": "8921699489c327df7dc33b4cba5d2fd62e88d637a07a81e1439f6053c914894f"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/FingeringHMM3_Train_v190308.cpp",
+      "bytes": 1225,
+      "sha256": "20f26461ab6fa8ecfc75d1368bff6a1af793446a9ad21fadac05fc6d4603fd24"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/FingeringHMM_v180925.hpp",
+      "bytes": 64798,
+      "sha256": "3da26566fc215018ed6efb75ccc9263aa75db4e9ee200c8cea04f538dce982e0"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/KeyPos_v161230.hpp",
+      "bytes": 1618,
+      "sha256": "40cf2598c9ec09c242d17eb0a36ee406cc53c277b90e51403d1f503b0b7034a2"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/Midi_v170101.hpp",
+      "bytes": 14365,
+      "sha256": "764bce1bcefed89f83a48f698d540f7d82464769f80e3b2f7fb579ce0c04765e"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/param_CHMM1.txt",
+      "bytes": 107107,
+      "sha256": "89629cb84e2c78cce5a871bad3577e85b81f36a12ae4326a5602588100b1eb79"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/param_FHMM1.txt",
+      "bytes": 53889,
+      "sha256": "98624c522501bdb22c4bcdd7577f707c37c8a9d1de99fbcae4a8a69222cd47af"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/param_FHMM2.txt",
+      "bytes": 108955,
+      "sha256": "9178f053d7a80e8f026f0438a598d0bce5f5aea9d9ebde34de849e354b853343"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/param_FHMM3.txt",
+      "bytes": 173310,
+      "sha256": "0dc8506b56f798d2b2b198a509ca5fc8a586c01d2892f515ae96188600689e82"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/PianoFingering_v170101_2.hpp",
+      "bytes": 7575,
+      "sha256": "4a25ed99a3feba9370556a90d1834a6ae9333c21329545fac8bd387d93ba9bc7"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/PianoRoll_v170503.hpp",
+      "bytes": 14672,
+      "sha256": "53d53097fef4fa256de89ce698e6c6607452b341ac64c97466d0a48d134a2122"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/Code/ProbabilityVisualizer_v180920.hpp",
+      "bytes": 7032,
+      "sha256": "5baa08c88c23bf3c76bcd748bd66481242246f982099e41a1ba02289750ccb3f"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/compile.sh",
+      "bytes": 782,
+      "sha256": "cd954ac90b4fa107be5f7cdb3a48f5eb6731e5cb220e3672ffab3ebf72172153"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/README.txt",
+      "bytes": 2959,
+      "sha256": "ecbd7066d430f634ffec104e76a5c7802f9da66505f06749ed13fa8fe96bcdb9"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/run_CHMM.sh",
+      "bytes": 252,
+      "sha256": "6af10ff06bed3de2727545db391e49708dd9c5f54444a1bdacf59954f6edbe7a"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/run_FHMM1.sh",
+      "bytes": 211,
+      "sha256": "bffec4341e075589ec888f2d2987993c819b5beb11d210bf830beda20414c5e0"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/run_FHMM2.sh",
+      "bytes": 223,
+      "sha256": "cca37fae8c1a92724c9e414acfcf17c80e219fb5fefe5ce7575a6eaaac39eb30"
+    },
+    {
+      "file": "evidence/nakamura/SourceCode/run_FHMM3.sh",
+      "bytes": 235,
+      "sha256": "fc339818063127ccd94e8da021b6bf12268847b5b35a531f81d7044f21f3671b"
+    },
+    {
+      "file": "evidence/nakamura_demo.html",
+      "bytes": 5502,
+      "sha256": "76c79a1803063ce99811101be71cdb9f903949efa20c874fc7a05f1f137bbde7"
+    },
+    {
+      "file": "evidence/nakamura_source.zip",
+      "bytes": 126511,
+      "sha256": "e2c15638794a71ab8e4aed0ffaa89d38bf86b56f6c64c602b54531673eeaf26c"
+    },
+    {
+      "file": "evidence/pianoplayer/LICENSE",
+      "bytes": 1067,
+      "sha256": "3182f7778aaae2ec8c3ee1939be8c44db5aa17749afa87ddaf158c5667dd26b1"
+    },
+    {
+      "file": "evidence/pianoplayer/pianoplayer/__init__.py",
+      "bytes": 401,
+      "sha256": "acb42c0bfc0da2dc6abda8e56dc4e209fa6f997598b90aae2f900f8305968eba"
+    },
+    {
+      "file": "evidence/pianoplayer/pianoplayer/core.py",
+      "bytes": 39123,
+      "sha256": "4158c9c462dfb27be7f90c8d8e26275b087b67b9842258c3c8d81e311b987022"
+    },
+    {
+      "file": "evidence/pianoplayer/pianoplayer/hand.py",
+      "bytes": 23530,
+      "sha256": "b77a739d4f28b6e137b068a62cf3f4ce6dedcffa9e0b1936566aa3d10ae89e9d"
+    },
+    {
+      "file": "evidence/pianoplayer/pianoplayer/models.py",
+      "bytes": 3946,
+      "sha256": "e3152a3df7e06bd8c055c1c2d2f1ebc7eb86cdb980b7916b9459a5cc31f3b081"
+    },
+    {
+      "file": "evidence/pianoplayer/pianoplayer/scorereader.py",
+      "bytes": 5967,
+      "sha256": "c6724414d41ced13078e0196b60a327859a49ed763c019856ef4cffa06dccc21"
+    },
+    {
+      "file": "evidence/pianoplayer/pyproject.toml",
+      "bytes": 1766,
+      "sha256": "5750a2362e1182dbf7769f89cc44e33049808466ca9444a3968db0c31bbbc274"
+    },
+    {
+      "file": "evidence/pianoplayer/README.md",
+      "bytes": 9031,
+      "sha256": "e330d929dcecddf3e0a087464a6f7c0f2a4c3297851b88e800acba35ffd852b4"
+    },
+    {
+      "file": "evidence/pianoplayer_commit.json",
+      "bytes": 173696,
+      "sha256": "7b0a9d7dec987185f50901b766a8db67fc5c9c6c07a28339b96b9b3c85a9f3f8"
+    },
+    {
+      "file": "evidence/pianoplayer_repo.json",
+      "bytes": 5457,
+      "sha256": "20aa460d8aa81dce29a95c1aed49c635b1907053718b57ef8f91662e5eed8e51"
+    },
+    {
+      "file": "evidence/pianoplayer_tree.json",
+      "bytes": 11997,
+      "sha256": "a666d00d94cf86af67e5dcb5e966e1fccd7402eb78ba048b6cc2fccb1c0ee05b"
+    },
+    {
+      "file": "evidence/ramoneda/choice_model.py",
+      "bytes": 14547,
+      "sha256": "76b2126bbef75ea8f48a61c2c0a9006da75761456a935a7fe0ae02836c97bd9f"
+    },
+    {
+      "file": "evidence/ramoneda/common_classification.py",
+      "bytes": 25697,
+      "sha256": "bd836ccb216de04c64916c187b1b0642bcd9c4515792325213c7ac32a204d2e1"
+    },
+    {
+      "file": "evidence/ramoneda/experiment_beam_k.py",
+      "bytes": 2086,
+      "sha256": "03a6264a3c5876cd9bdc6190d0904e8c80e43f3ec1fa0163f2052092c66b02fe"
+    },
+    {
+      "file": "evidence/ramoneda/LICENSE",
+      "bytes": 1072,
+      "sha256": "3ffef0d8d1a3f2bb7d055f165da64d3ca82fb28999737a2b9f48673ba411ed40"
+    },
+    {
+      "file": "evidence/ramoneda/nns/f_seq2seq.py",
+      "bytes": 19623,
+      "sha256": "8b1bcbf969297db7d7cd73ed3f9b94eb91488e9f5c94efb6a1df0e5d060d5657"
+    },
+    {
+      "file": "evidence/ramoneda/nns/seq2seq_model.py",
+      "bytes": 11170,
+      "sha256": "cb68bd119feb4b767d8d6e8e8eb5ca1b80747231a379b58bd4fac536f3b06b10"
+    },
+    {
+      "file": "evidence/ramoneda/README.md",
+      "bytes": 2743,
+      "sha256": "92d338ef79e72043c216ca58f0be740dc99e027d3a0d99cb6abf88a84dc0cd03"
+    },
+    {
+      "file": "evidence/ramoneda_commit.json",
+      "bytes": 5816,
+      "sha256": "37d29b65d31850bc877b4d5196c3a6fb6c7b64ab2f377937769b688a2b22e782"
+    },
+    {
+      "file": "evidence/ramoneda_repo.json",
+      "bytes": 5907,
+      "sha256": "84ae45d741b4544a12d12c5603799084a9e6a7f9148dc5db90c9cc4df9816abc"
+    },
+    {
+      "file": "evidence/ramoneda_tree.json",
+      "bytes": 34410,
+      "sha256": "defb515c63f7fab1fb542adc0bc97f4637a18ac73a52dfd25157c6257a3bb46c"
+    },
+    {
+      "file": "EXISTING_ALGORITHM_REVIEW.md",
+      "bytes": 5470,
+      "sha256": "8c1a563abcb445a166380c7cf2c940af12657c61cb2ca3d4c99947fb0aca6f43"
+    },
+    {
+      "file": "EXISTING_FETCH.log",
+      "bytes": 10290,
+      "sha256": "9d11090fecf9fd0db61520d3ca9a1d1e88a76af07195430af48048f6ce4f2cf9"
+    },
+    {
+      "file": "FETCH_MORE.log",
+      "bytes": 3901,
+      "sha256": "95f3f8bf3e58de97120c3694fa7e5220d573a5db40c4453dafa2cbf16c727703"
+    },
+    {
+      "file": "fetch_more.py",
+      "bytes": 1438,
+      "sha256": "5430109a315008ced1d94863132fd251293e567af7e5da73967f90326b2b37fb"
+    },
+    {
+      "file": "FINAL_RECOMMENDATION.md",
+      "bytes": 3663,
+      "sha256": "63931af79e71992f37bacff38b8c6f8486d09cda7fb3c4e0d57971aac770669b"
+    },
+    {
+      "file": "FINAL_STATUS.json",
+      "bytes": 636,
+      "sha256": "c11a21f5780ecfefe955126ef0740d0553919bd7fd212bc5b3b9798ef2472d28"
+    },
+    {
+      "file": "MODEL_SCORING.log",
+      "bytes": 1376,
+      "sha256": "f7702f2381a3e9087672df1786c6b9af6188ff2b094d1b3000014ba872bb97a1"
+    },
+    {
+      "file": "MODEL_SCORING_LOADER_ERROR.log",
+      "bytes": 1168,
+      "sha256": "25466ef45d332fb3f1f20cbc92356c26d9bb518c22de3b9356d27a4604a5d2f2"
+    },
+    {
+      "file": "PIANOPLAYER_RAW_OUTPUT.json",
+      "bytes": 3525,
+      "sha256": "f22ff93cab99f4073030c163f642ab45a31f9121f3f35450c91c0da10fb74133"
+    },
+    {
+      "file": "PIANOPLAYER_RUN.log",
+      "bytes": 2370,
+      "sha256": "0027005d0de0dca0ff9191dd51caa5d89e813e5aae4f79d643f5921e74754a74"
+    },
+    {
+      "file": "PROTECTED_INPUTS_AFTER.json",
+      "bytes": 9287,
+      "sha256": "53b09bd2f3d985bc59ca03191550378c7c461e15183f4c1eb83a12732ee56139"
+    },
+    {
+      "file": "PROTECTED_INPUTS_BEFORE.json",
+      "bytes": 9287,
+      "sha256": "53b09bd2f3d985bc59ca03191550378c7c461e15183f4c1eb83a12732ee56139"
+    },
+    {
+      "file": "run_pianoplayer.py",
+      "bytes": 2205,
+      "sha256": "b438795ee51694a37aacc3b897bf8fd2232cf1681bbbf38146609d243a07706e"
+    },
+    {
+      "file": "score_cpu_left_2026-10-11_22-31-24.json",
+      "bytes": 4243169,
+      "sha256": "e3382597a8d9e1dd8ac817964b5df76e21c4cd2f0588b6b5329e1997c9ddb6cb"
+    },
+    {
+      "file": "score_cpu_right_2026-10-11_22-31-24.json",
+      "bytes": 9711901,
+      "sha256": "92468b38bc639840831a2efa199f709f7daa63f0d0a98e70c7c6280b5465d953"
+    },
+    {
+      "file": "score_paths.mjs",
+      "bytes": 6355,
+      "sha256": "7a3d4952d1fb2b9c560fbe0997c07a45149d8907362db62ab8492487b7b4ce1b"
+    },
+    {
+      "file": "SEQUENCE_CANDIDATES.json",
+      "bytes": 25101,
+      "sha256": "86ca8525577943389bf5ad73716c1062609d886a180766037c0159eb1fe495a9"
+    },
+    {
+      "file": "SEQUENCE_EVALUATION.log",
+      "bytes": 544,
+      "sha256": "48ed79ea400e7c07e1e1f9c015d6d41a79a5b306e4c3ac39518bb7341f7fc5e6"
+    },
+    {
+      "file": "SEQUENCE_PLANNING_FEASIBILITY.md",
+      "bytes": 5973,
+      "sha256": "136bfc185d5d09fb6f02aec213401de8eb47f4344a77ae4fddf78410d00ca6c3"
+    },
+    {
+      "file": "SOURCE_EVENT_BINDINGS.json",
+      "bytes": 50244,
+      "sha256": "ef8a7386bc0daf03a6112ca48b67fbdda3c13c2f514406bb653a9b3c902d6433"
+    },
+    {
+      "file": "verify_delivery.py",
+      "bytes": 3205,
+      "sha256": "c0cc0ffba45e66329e2a25d0732905d4ec62a1d2c3ea48602a3d07eac8a7c7f9"
+    },
+    {
+      "file": "verify_inputs.py",
+      "bytes": 3137,
+      "sha256": "ab3584faf2d37e15821eb75b5cc76c54b190f37679be157e5c7734fbf360d011"
+    },
+    {
+      "file": "verify_source_revision.py",
+      "bytes": 1099,
+      "sha256": "bbda807603890f4659d1b5c52175735245b6c04da2967a50a4ed6433af372468"
+    },
+    {
+      "file": "WHOLE_SEQUENCE_COST_AND_RISK.json",
+      "bytes": 27079,
+      "sha256": "d626f01bd2e6813826bdd4f2a97fedfa93353b4ea45f19fbb4db6316047ae8c9"
+    },
+    {
+      "file": "write_reports.py",
+      "bytes": 23149,
+      "sha256": "3c5d6e08e2d47a5570a9e6c52e6d14f4d1cdd775715e3c68f7027efca532daad"
+    }
+  ]
+}

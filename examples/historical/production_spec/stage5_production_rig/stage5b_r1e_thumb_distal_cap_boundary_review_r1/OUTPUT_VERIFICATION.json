@@ -1,0 +1,53 @@
+{
+  "required_files": {
+    "THUMB_DISTAL_CAP_BOUNDARY_REVIEW_R1_REPORT.md": "1fddff3a5ba75bf7120b9cecc2777cce8795230331010167dbdfbaac3ea4e1bb",
+    "THUMB_DISTAL_CAP_BOUNDARY_REVIEW_R1_STATUS.json": "81af031ee49fe9afcabbb70add08ddc474e66b807897fd09b106857c5147feca",
+    "CURRENT_CAP_BOUNDARY_FORENSIC.json": "bf53193a80ba91fdaf40788848cb7018645474ff2f9081f1a6d8dbab2d6e8c4d",
+    "CAP_EXPANSION_VERTEX_CLASSIFICATION.json": "0699cd188b03ccd4ccb8f8706486b2abbf9de44d57afbb26f34e4c321c317c3d",
+    "CAP_BOUNDARY_CANDIDATE_A.json": "6d542479b760343930c5ede4afff7fe3450ffcbc0884581eabeeeb8f052c4bc2",
+    "CAP_BOUNDARY_CANDIDATE_B.json": "ef35c982aa1ded3f3d1943ae299ad1170b849855c89fb4f4adf4495010ba4116",
+    "CAP_BOUNDARY_CANDIDATE_C.json": "f0c80d98ccc85175365b139dcb7fff8de9a9b9d7a3e0797a6346daa14548e447",
+    "CAP_BOUNDARY_CANDIDATE_D.json": "feb5f80e09f5bab330c97043fb65eb04ef33d51f8921831bc7891799e70288fe",
+    "CAP_BOUNDARY_CANDIDATE_E.json": "3f06021453c4d5a82fbd251ea1e1557335a437fd77530c73364c320f22797af2",
+    "CAP_BOUNDARY_CANDIDATE_COMPARISON.json": "004c46e957d3d176aa312a3909d7c9e3789b27770ff94a435a4d418e40147020",
+    "V882_BOUNDARY_FORENSIC.json": "c6ae1c5af3a31e852fa53fc622f30e0cfd9a854aafe5aca5f2c1b5b6d15235cc",
+    "THUMB_DISTAL_CAP_BOUNDARY_REVIEW.html": "bf9becbe354ce18e5889120e1be4bb1887bab4b0db25c99fc17535d3f98c3d72"
+  },
+  "required_pngs": {
+    "CAP_BOUNDARY_CANDIDATES_DORSAL.png": "7bef934b9afc37c6e777e9cb732251a17d31693785a3c53d4c6721e2d46fa52d",
+    "CAP_BOUNDARY_CANDIDATES_PALMAR.png": "9d58f7049749e69169507556c00671a90e591f61c030464d5679eac8593ebdf3",
+    "CAP_BOUNDARY_CANDIDATES_RADIAL.png": "6d5922ad84bb3e5ea399a2e444a93c961ec8a88a07266a3999906963b26daf71",
+    "CAP_BOUNDARY_CANDIDATES_ULNAR.png": "96810a8c952cd069f69ca83f9f182b228abaa3f1ec6b99ca89a0dac07c33cbb4",
+    "CAP_BOUNDARY_CANDIDATES_SIDE.png": "7085f98c092d2e9c87abbd9074b3542a8e82f54f65823d162bb779a721efb9f1",
+    "CAP_BOUNDARY_CANDIDATES_TIP.png": "030bd270adfb0247411eaae2c63bf63d83f13c5e3cac9cbfc4d15eec76aeb335",
+    "CAP_28_EXPANSION_VERTICES_FORENSIC.png": "63f424baddf8795598cabaa7fbf26e98ecd27b1459106c329468ac5bb46c99ad"
+  },
+  "candidate_topology_and_membership_checks": "PASS",
+  "source_native_hash_check": "PASS",
+  "Human_response_original_and_copy_match": true,
+  "interactive_UI_verification": {
+    "status": "PASS",
+    "browser": "Headless local Chrome through bundled Playwright",
+    "six_direction_switches": true,
+    "five_candidate_switches": true,
+    "nail_switch": true,
+    "core_expansion_switches": true,
+    "vertex_face_id_switches": true,
+    "boundary_only_mode": true,
+    "tip_closeup": true,
+    "all_human_answers_remain_blank": true,
+    "no_human_approval_record_generated": true,
+    "empty_submit_blocked": true,
+    "script_errors": [],
+    "screenshots": [
+      "_REVIEW_UI_TIP_CANDIDATE_E.png",
+      "_REVIEW_UI_DORSAL_ALL_CANDIDATES.png"
+    ]
+  },
+  "six_native_views_and_forensic_visually_checked": true,
+  "region_identity_unchanged": true,
+  "old_cap9_remains_invalid": true,
+  "authority_applied": false,
+  "all_frozen_hashes_before_equals_after": true,
+  "STOP": "WAITING_FOR_HUMAN_BOUNDARY_REVIEW"
+}

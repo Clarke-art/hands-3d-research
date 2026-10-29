@@ -1,0 +1,239 @@
+{
+ "stage": "STAGE5B_FREEZE_VERIFICATION_R1",
+ "generated_at": "2026-09-30T08:04:13.027794+08:00",
+ "read_only": true,
+ "hashes_before": {
+  "stage5a_master": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+  "stage5b_r1": "8f4c6901fdae417e3855d388f9739ebea10863f0ebdbfedf0df8d79a751c308d",
+  "stage5b_r1a": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6"
+ },
+ "frozen_hash_authority": {
+  "stage5a_master": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+  "stage5b_r1": "8f4c6901fdae417e3855d388f9739ebea10863f0ebdbfedf0df8d79a751c308d",
+  "stage5b_r1a": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6"
+ },
+ "all_hashes_match": true,
+ "static_integrity": {
+  "mesh": {
+   "V": 3416,
+   "E": 6828,
+   "F": 3414,
+   "TRIS": 6828,
+   "topology_delta_vs_master": 0,
+   "uv_delta": 0,
+   "material_assignment_delta": 0,
+   "nail_face_assignment_delta": 0
+  },
+  "rig": {
+   "bone_count": 21,
+   "tip_helper_bones": [
+    "THUMB_TIP_R",
+    "INDEX_TIP_R",
+    "MIDDLE_TIP_R",
+    "RING_TIP_R",
+    "LITTLE_TIP_R"
+   ],
+   "tip_helper_count": 5,
+   "deform_bones": [
+    "WRIST_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "THUMB_IP_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "INDEX_DIP_R",
+    "MIDDLE_MCP_R",
+    "MIDDLE_PIP_R",
+    "MIDDLE_DIP_R",
+    "RING_MCP_R",
+    "RING_PIP_R",
+    "RING_DIP_R",
+    "LITTLE_MCP_R",
+    "LITTLE_PIP_R",
+    "LITTLE_DIP_R"
+   ],
+   "deform_bone_count": 16,
+   "vertex_groups": [
+    "INDEX_DIP_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "LITTLE_DIP_R",
+    "LITTLE_MCP_R",
+    "LITTLE_PIP_R",
+    "MIDDLE_DIP_R",
+    "MIDDLE_MCP_R",
+    "MIDDLE_PIP_R",
+    "RING_DIP_R",
+    "RING_MCP_R",
+    "RING_PIP_R",
+    "THUMB_CMC_R",
+    "THUMB_IP_R",
+    "THUMB_MCP_R",
+    "WRIST_R"
+   ],
+   "vertex_group_count": 16,
+   "tip_groups_with_deform_weight": []
+  },
+  "weights": {
+   "max_influences": 4,
+   "influence_distribution": {
+    "0": 0,
+    "1": 951,
+    "2": 244,
+    "3": 51,
+    "4": 2170,
+    ">4": 0
+   },
+   "vertices_over_4": 0,
+   "unweighted_vertices": 0,
+   "worst_normalization_error": 4.4005e-08
+  },
+  "binding": {
+   "parent": "RIGHT_HAND_PRODUCTION_RIG",
+   "modifiers": [
+    [
+     "PRODUCTION_ARMATURE",
+     "ARMATURE",
+     "RIGHT_HAND_PRODUCTION_RIG"
+    ]
+   ],
+   "world_delta_vs_master_mm": 0.0
+  },
+  "zero_pose": {
+   "max_evaluated_vertex_delta_mm": 5.967e-05,
+   "mean_evaluated_vertex_delta_mm": 5.649e-06,
+   "bbox_delta_mm": [
+    0.0,
+    7.451e-06,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "base_mesh_vertex_delta_mm": 0.0,
+   "classification": "FLOAT_EQUIVALENT_ZERO"
+  }
+ },
+ "thumb_cmc_locality": {
+  "A_THUMB_CMC_NONZERO_VERTEX_COVERAGE_IN_TARGET_REGIONS": {
+   "definition": "numerator = #{v : THUMB_CMC_R > eps AND v in (THUMB_FIRST_METACARPAL U THENAR_BASE)} ; denominator = #{v : THUMB_CMC_R > eps}",
+   "region_union": "THUMB_FIRST_METACARPAL U THENAR_BASE",
+   "by_epsilon": {
+    "eps=0.0": {
+     "numerator": 339,
+     "denominator": 907,
+     "value": 0.373759647
+    },
+    "eps=1e-8": {
+     "numerator": 339,
+     "denominator": 907,
+     "value": 0.373759647
+    },
+    "eps=1e-6": {
+     "numerator": 339,
+     "denominator": 874,
+     "value": 0.387871854
+    },
+    "eps=1e-3": {
+     "numerator": 336,
+     "denominator": 590,
+     "value": 0.569491525
+    }
+   }
+  },
+  "B_THUMB_CMC_WEIGHT_MASS_SHARE_IN_TARGET_REGIONS": {
+   "definition": "numerator = sum(THUMB_CMC_R) over (THUMB_FIRST_METACARPAL U THENAR_BASE) ; denominator = sum(THUMB_CMC_R) over the entire mesh",
+   "region_union": "THUMB_FIRST_METACARPAL U THENAR_BASE",
+   "value": {
+    "numerator": 225.194429466,
+    "denominator": 243.399683286,
+    "value": 0.925204283
+   }
+  }
+ },
+ "vertex_2189": {
+  "vertex": 2189,
+  "world_coordinate_mm": [
+   1450.257778,
+   18.083785,
+   498.66727
+  ],
+  "r1a_region": "THUMB_DISTAL",
+  "vertex_ownership_R1A": "THUMB",
+  "vertex_ownership_R1_2D_nearest_chain": "INDEX",
+  "in_thumb_distal_cap_patch": true,
+  "in_thumb_nail_vertex_set": false,
+  "arc_along_thumb_chain_mm": 93.9454,
+  "geodesic_from_thumb_distal_most_vertex_mm": "0.000 (this vertex IS D*)",
+  "current_full_weight_vector": {
+   "WRIST_R": 0.0,
+   "THUMB_CMC_R": 0.0,
+   "THUMB_MCP_R": 0.0,
+   "THUMB_IP_R": 0.999755203724,
+   "INDEX_MCP_R": 0.0,
+   "INDEX_PIP_R": 0.000244808878,
+   "INDEX_DIP_R": 1e-11,
+   "MIDDLE_MCP_R": 0.0,
+   "MIDDLE_PIP_R": 0.0,
+   "MIDDLE_DIP_R": 0.0,
+   "RING_MCP_R": 0.0,
+   "RING_PIP_R": 0.0,
+   "RING_DIP_R": 0.0,
+   "LITTLE_MCP_R": 0.0,
+   "LITTLE_PIP_R": 0.0,
+   "LITTLE_DIP_R": 0.0
+  },
+  "current_present_groups": [
+   "INDEX_DIP_R",
+   "INDEX_PIP_R",
+   "THUMB_IP_R"
+  ],
+  "current_dominant": "THUMB_IP_R",
+  "R1_full_weight_vector": {
+   "WRIST_R": 0.000682609971,
+   "THUMB_CMC_R": 0.0,
+   "THUMB_MCP_R": 0.0,
+   "THUMB_IP_R": 0.0,
+   "INDEX_MCP_R": 0.999072551727,
+   "INDEX_PIP_R": 0.000244808878,
+   "INDEX_DIP_R": 1e-11,
+   "MIDDLE_MCP_R": 0.0,
+   "MIDDLE_PIP_R": 0.0,
+   "MIDDLE_DIP_R": 0.0,
+   "RING_MCP_R": 0.0,
+   "RING_PIP_R": 0.0,
+   "RING_DIP_R": 0.0,
+   "LITTLE_MCP_R": 0.0,
+   "LITTLE_PIP_R": 0.0,
+   "LITTLE_DIP_R": 0.0
+  },
+  "R1_present_groups": [
+   "INDEX_DIP_R",
+   "INDEX_MCP_R",
+   "INDEX_PIP_R",
+   "WRIST_R"
+  ],
+  "R1_dominant": "INDEX_MCP_R",
+  "INDEX_PIP_R_residual": 0.000244808878,
+  "INDEX_PIP_R_residual_R1": 0.000244808878,
+  "before_equals_after": true,
+  "all_groups_before_equals_after": false,
+  "changed_groups": [
+   "INDEX_MCP_R",
+   "THUMB_IP_R",
+   "WRIST_R"
+  ]
+ },
+ "log": [
+  "master c4fafc56c591411b",
+  "r1     8f4c6901fdae417e",
+  "r1a    c68e415aff80b569",
+  "region cross-check: {\"THUMB_DISTAL\": true, \"THUMB_PROXIMAL\": true, \"THUMB_FIRST_METACARPAL\": true, \"THUMB_BASE_FOLD\": true, \"THENAR_BASE\": true, \"FIRST_WEB\": true, \"CENTRAL_PALM\": true}",
+  "R1 groups = 16",
+  "R1A groups = 16",
+  "integrity: V=3416 E=6828 F=3414 TRIS=6828 ; bones=21 (tip helpers 5) ; groups=16 ; max_inf=4 ; unweighted=0",
+  "zero pose max=0.000059670 mean=0.000005649 base=0.000000000",
+  "candidate unions computed: C1_META_U_THENAR=0.925204, C2_META_U_THENAR_U_PROXIMAL=0.972791, C3_META_U_THENAR_U_BASE_FOLD=0.925204, C4_META_U_THENAR_U_PROXIMAL_U_BASE_FOLD=0.972791, C5_META_U_THENAR_U_PROXIMAL_U_BASE_FOLD_U_DISTAL=0.972791, C6_META_U_THENAR_U_FIRST_WEB=0.925204, C7_ALL_THUMB_SEMANTIC_REGIONS_EXCEPT_CENTRAL_PALM=0.972791, C8_AUTHORISED_MODIFICATION_SET=0.972791, C9_META_ALONE=0.622982, C10_THENAR_ALONE=0.407537, C11_META_U_THENAR_U_AUTH=0.972791",
+  "wrote CMC_LOCALITY_NUMERIC_RECOMPUTE.json"
+ ]
+}

@@ -1,0 +1,558 @@
+{
+ "stage": "STAGE6A_FLEXION_AXIS_SIGN_AUDIT",
+ "generated_at": "2026-09-30T22:52:01.469503+08:00",
+ "method": "rotate the target joint about its bone LOCAL X by +/-5 deg, measure the world displacement of the digit tip landmark (posed TIP bone head), project onto the digit PALMAR direction (= -(bone local Z), Stage5A frozen convention), select the sign with the positive palmar component",
+ "canonical": {
+  "+Y": "DORSAL",
+  "-Y": "PALMAR",
+  "flexion_axis": "bone LOCAL X (Stage5A frozen)"
+ },
+ "palmar_direction_per_digit": {
+  "INDEX": [
+   0.002206,
+   -0.684498,
+   -0.729012
+  ],
+  "MIDDLE": [
+   0.230634,
+   -0.773842,
+   -0.589895
+  ],
+  "RING": [
+   -0.068778,
+   -0.786124,
+   -0.614231
+  ],
+  "LITTLE": [
+   0.247753,
+   -0.80174,
+   -0.543904
+  ],
+  "THUMB": [
+   -0.636014,
+   -0.769699,
+   0.055222
+  ]
+ },
+ "dorsal_convention_cross_check": {
+  "INDEX": {
+   "bone_local_Z_world": [
+    -0.002206,
+    0.684498,
+    0.729012
+   ],
+   "dot_with_global_plusY": 0.684498,
+   "consistent_with_canonical_plusY_dorsal": true
+  },
+  "MIDDLE": {
+   "bone_local_Z_world": [
+    -0.230634,
+    0.773842,
+    0.589895
+   ],
+   "dot_with_global_plusY": 0.773842,
+   "consistent_with_canonical_plusY_dorsal": true
+  },
+  "RING": {
+   "bone_local_Z_world": [
+    0.068778,
+    0.786124,
+    0.614231
+   ],
+   "dot_with_global_plusY": 0.786124,
+   "consistent_with_canonical_plusY_dorsal": true
+  },
+  "LITTLE": {
+   "bone_local_Z_world": [
+    -0.247753,
+    0.80174,
+    0.543904
+   ],
+   "dot_with_global_plusY": 0.80174,
+   "consistent_with_canonical_plusY_dorsal": true
+  },
+  "THUMB": {
+   "bone_local_Z_world": [
+    0.636014,
+    0.769699,
+    -0.055222
+   ],
+   "dot_with_global_plusY": 0.769699,
+   "consistent_with_canonical_plusY_dorsal": true
+  }
+ },
+ "probes": {
+  "INDEX_MCP": {
+   "+1": {
+    "tip_world": [
+     1.461410642,
+     -0.033993535,
+     0.518733621
+    ],
+    "displacement_mm": [
+     0.42784214,
+     3.069713712,
+     4.708051682
+    ],
+    "palmar_dot_mm": -5.532493269,
+    "magnitude_mm": 5.636660433
+   },
+   "-1": {
+    "tip_world": [
+     1.460359693,
+     -0.039736286,
+     0.509102285
+    ],
+    "displacement_mm": [
+     -0.623106956,
+     -2.67303735,
+     -4.923284054
+    ],
+    "palmar_dot_mm": 5.41744538,
+    "magnitude_mm": 5.636675962
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "INDEX_PIP": {
+   "+1": {
+    "tip_world": [
+     1.461712837,
+     -0.035901569,
+     0.516813278
+    ],
+    "displacement_mm": [
+     0.730037689,
+     1.161679626,
+     2.787709236
+    ],
+    "palmar_dot_mm": -2.825829475,
+    "magnitude_mm": 3.107052884
+   },
+   "-1": {
+    "tip_world": [
+     1.460206628,
+     -0.037970342,
+     0.511156917
+    ],
+    "displacement_mm": [
+     -0.776171684,
+     -0.907093287,
+     -2.868652344
+    ],
+    "palmar_dot_mm": 2.710472585,
+    "magnitude_mm": 3.107157374
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "INDEX_DIP": {
+   "+1": {
+    "tip_world": [
+     1.461329579,
+     -0.03670308,
+     0.515269816
+    ],
+    "displacement_mm": [
+     0.346779823,
+     0.360168517,
+     1.24424696
+    ],
+    "palmar_dot_mm": -1.1528403,
+    "magnitude_mm": 1.340942998
+   },
+   "-1": {
+    "tip_world": [
+     1.460621715,
+     -0.037309699,
+     0.512757778
+    ],
+    "displacement_mm": [
+     -0.361084938,
+     -0.246450305,
+     -1.267790794
+    ],
+    "palmar_dot_mm": 1.092132643,
+    "magnitude_mm": 1.341049429
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "MIDDLE_MCP": {
+   "+1": {
+    "tip_world": [
+     1.424265385,
+     -0.044034861,
+     0.526041508
+    ],
+    "displacement_mm": [
+     -1.089572906,
+     3.395520151,
+     5.196452141
+    ],
+    "palmar_dot_mm": -5.944252451,
+    "magnitude_mm": 6.302367832
+   },
+   "-1": {
+    "tip_world": [
+     1.426328659,
+     -0.0503738,
+     0.515358031
+    ],
+    "displacement_mm": [
+     0.973701477,
+     -2.94341892,
+     -5.487024784
+    ],
+    "palmar_dot_mm": 5.73908088,
+    "magnitude_mm": 6.302321057
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "MIDDLE_PIP": {
+   "+1": {
+    "tip_world": [
+     1.425113678,
+     -0.04640045,
+     0.5244326
+    ],
+    "displacement_mm": [
+     -0.241279602,
+     1.029931009,
+     3.587543964
+    ],
+    "palmar_dot_mm": -2.968927121,
+    "magnitude_mm": 3.740246672
+   },
+   "-1": {
+    "tip_world": [
+     1.425558329,
+     -0.048145778,
+     0.517179549
+    ],
+    "displacement_mm": [
+     0.203371048,
+     -0.715397298,
+     -3.66550684
+    ],
+    "palmar_dot_mm": 2.76277482,
+    "magnitude_mm": 3.740199695
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "MIDDLE_DIP": {
+   "+1": {
+    "tip_world": [
+     1.425298572,
+     -0.047278933,
+     0.522378922
+    ],
+    "displacement_mm": [
+     -0.056385994,
+     0.151447952,
+     1.533865929
+    ],
+    "palmar_dot_mm": -1.035021879,
+    "magnitude_mm": 1.542355552
+   },
+   "-1": {
+    "tip_world": [
+     1.425403357,
+     -0.047447726,
+     0.51930362
+    ],
+    "displacement_mm": [
+     0.048398972,
+     -0.017344952,
+     -1.541435719
+    ],
+    "palmar_dot_mm": 0.933870665,
+    "magnitude_mm": 1.542292869
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "RING_MCP": {
+   "+1": {
+    "tip_world": [
+     1.396589875,
+     -0.043993413,
+     0.517315984
+    ],
+    "displacement_mm": [
+     0.279426575,
+     3.10190767,
+     4.866480827
+    ],
+    "palmar_dot_mm": -5.44684297,
+    "magnitude_mm": 5.777763102
+   },
+   "-1": {
+    "tip_world": [
+     1.396067023,
+     -0.049762733,
+     0.507330179
+    ],
+    "displacement_mm": [
+     -0.243425369,
+     -2.667412162,
+     -5.11932373
+    ],
+    "palmar_dot_mm": 5.258103527,
+    "magnitude_mm": 5.777700141
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "RING_PIP": {
+   "+1": {
+    "tip_world": [
+     1.396232247,
+     -0.046292,
+     0.515730381
+    ],
+    "displacement_mm": [
+     -0.078201294,
+     0.8033216,
+     3.280878067
+    ],
+    "palmar_dot_mm": -2.641347037,
+    "magnitude_mm": 3.378698252
+   },
+   "-1": {
+    "tip_world": [
+     1.396364689,
+     -0.047610626,
+     0.509110808
+    ],
+    "displacement_mm": [
+     0.054240227,
+     -0.515304506,
+     -3.338694572
+    ],
+    "palmar_dot_mm": 2.452090667,
+    "magnitude_mm": 3.378662814
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "RING_DIP": {
+   "+1": {
+    "tip_world": [
+     1.396298409,
+     -0.047046617,
+     0.51383841
+    ],
+    "displacement_mm": [
+     -0.012040138,
+     0.048704445,
+     1.388907433
+    ],
+    "palmar_dot_mm": -0.890568977,
+    "magnitude_mm": 1.389813312
+   },
+   "-1": {
+    "tip_world": [
+     1.396308422,
+     -0.047023602,
+     0.511061609
+    ],
+    "displacement_mm": [
+     -0.002026558,
+     0.071719289,
+     -1.387894154
+    ],
+    "palmar_dot_mm": 0.796246074,
+    "magnitude_mm": 1.389747448
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "LITTLE_MCP": {
+   "+1": {
+    "tip_world": [
+     1.358230829,
+     -0.035905235,
+     0.501179636
+    ],
+    "displacement_mm": [
+     -1.296877861,
+     2.562105656,
+     3.193080425
+    ],
+    "palmar_dot_mm": -4.112177412,
+    "magnitude_mm": 4.294419696
+   },
+   "-1": {
+    "tip_world": [
+     1.360873461,
+     -0.04072044,
+     0.494587362
+    ],
+    "displacement_mm": [
+     1.34575367,
+     -2.253100276,
+     -3.399193287
+    ],
+    "palmar_dot_mm": 3.98865022,
+    "magnitude_mm": 4.294418346
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "LITTLE_PIP": {
+   "+1": {
+    "tip_world": [
+     1.358678699,
+     -0.037639767,
+     0.500096321
+    ],
+    "displacement_mm": [
+     -0.84900856,
+     0.82757324,
+     2.109766006
+    ],
+    "palmar_dot_mm": -2.021353503,
+    "magnitude_mm": 2.420083791
+   },
+   "-1": {
+    "tip_world": [
+     1.360370398,
+     -0.039095841,
+     0.495806754
+    ],
+    "displacement_mm": [
+     0.842690468,
+     -0.628501177,
+     -2.179801464
+    ],
+    "palmar_dot_mm": 1.898276765,
+    "magnitude_mm": 2.420056921
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "LITTLE_DIP": {
+   "+1": {
+    "tip_world": [
+     1.359192252,
+     -0.038249075,
+     0.498917043
+    ],
+    "displacement_mm": [
+     -0.335454941,
+     0.218264759,
+     0.93048811
+    ],
+    "palmar_dot_mm": -0.764197917,
+    "magnitude_mm": 1.012905559
+   },
+   "-1": {
+    "tip_world": [
+     1.359864235,
+     -0.038598664,
+     0.497040272
+    ],
+    "displacement_mm": [
+     0.336527824,
+     -0.131323934,
+     -0.94628334
+    ],
+    "palmar_dot_mm": 0.703350895,
+    "magnitude_mm": 1.012891461
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "THUMB_MCP": {
+   "+1": {
+    "tip_world": [
+     1.456145167,
+     0.023491174,
+     0.49166584
+    ],
+    "displacement_mm": [
+     3.327727318,
+     3.688815981,
+     -1.362472773
+    ],
+    "palmar_dot_mm": -5.030997556,
+    "magnitude_mm": 5.151452645
+   },
+   "-1": {
+    "tip_world": [
+     1.44949162,
+     0.015980614,
+     0.493961483
+    ],
+    "displacement_mm": [
+     -3.325819969,
+     -3.821743652,
+     0.933170319
+    ],
+    "palmar_dot_mm": 5.108391939,
+    "magnitude_mm": 5.151466736
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  },
+  "THUMB_IP": {
+   "+1": {
+    "tip_world": [
+     1.454635143,
+     0.021623297,
+     0.491912425
+    ],
+    "displacement_mm": [
+     1.817703247,
+     1.820938662,
+     -1.115888357
+    ],
+    "palmar_dot_mm": -2.619280807,
+    "magnitude_mm": 2.804473124
+   },
+   "-1": {
+    "tip_world": [
+     1.450984836,
+     0.01787734,
+     0.493923247
+    ],
+    "displacement_mm": [
+     -1.832604408,
+     -1.925017685,
+     0.894933939
+    ],
+    "palmar_dot_mm": 2.696666197,
+    "magnitude_mm": 2.804467682
+   },
+   "selected_FLEXION_SIGN": -1.0,
+   "separated": true
+  }
+ },
+ "FLEXION_SIGN": {
+  "INDEX_DIP": -1.0,
+  "INDEX_MCP": -1.0,
+  "INDEX_PIP": -1.0,
+  "LITTLE_DIP": -1.0,
+  "LITTLE_MCP": -1.0,
+  "LITTLE_PIP": -1.0,
+  "MIDDLE_DIP": -1.0,
+  "MIDDLE_MCP": -1.0,
+  "MIDDLE_PIP": -1.0,
+  "RING_DIP": -1.0,
+  "RING_MCP": -1.0,
+  "RING_PIP": -1.0,
+  "THUMB_IP": -1.0,
+  "THUMB_MCP": -1.0
+ },
+ "FLEXION_AXIS_SIGN_QUALIFIED": "PASS",
+ "per_digit_sign": {
+  "INDEX": -1.0,
+  "MIDDLE": -1.0,
+  "RING": -1.0,
+  "LITTLE": -1.0,
+  "THUMB": -1.0
+ }
+}

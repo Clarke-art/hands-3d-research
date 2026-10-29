@@ -1,0 +1,310 @@
+{
+  "type": "READ_ONLY_RECONCILIATION_EVIDENCE_MANIFEST_NOT_CANONICAL_CONTRACT",
+  "status": "FAIL_CLOSED",
+  "hash_method": "SHA256; JSON set hash over sorted unique integer IDs using UTF-8 compact sort_keys JSON; file hashes over exact bytes. Combined evidence hash excludes its own field.",
+  "authority_sources": {
+    "cap_authority": {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1e_human_cap_authority_freeze_r1\\THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+      "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256"
+    },
+    "corrected_rig": {
+      "path": "production_spec\\stage5_production_rig\\human_thumb_kinematic_authority_correction_r1\\RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+      "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+    },
+    "kinematic_authority": {
+      "path": "production_spec\\stage5_production_rig\\human_thumb_kinematic_authority_correction_r1\\THUMB_DISTAL_IP_TIP_KINEMATIC_CORRECTION_AUTHORITY_R1.json",
+      "sha256": "d2d4d2e3a30e5bc869c949de051e7762ca3b1038c9aca6106df73630beeda384"
+    },
+    "kinematic_application": {
+      "path": "production_spec\\stage5_production_rig\\human_thumb_kinematic_authority_correction_r1\\THUMB_KINEMATIC_CORRECTION_APPLICATION_RECORD_R1.json",
+      "sha256": "f267187cc62c722c468df280b3fb7ade0ee68969edf95572790687c165865fcf"
+    },
+    "Stage4C_geometry": {
+      "path": "production_spec\\stage4_blender\\stage4c_r2\\RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend",
+      "sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+    },
+    "native_geometry": {
+      "path": "production_spec\\stage4_blender\\stage4a_r2\\RIGHT_HAND_ENGINEERING_STAGE4A_R2.blend",
+      "sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039"
+    },
+    "nail_authority": {
+      "path": "production_spec\\stage4_blender\\stage4c_r2\\NAIL_AUDIT_R2.json",
+      "sha256": "0a8388c44792b432512818ea0f8450af8961981df1d487d0ecd5008abc5bcddc"
+    },
+    "first_web_membership": {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\FIRST_WEB_REGION_AUDIT_R1A.json",
+      "sha256": "ab01e023b437c456eaf46af39c01682d4a97050a5dd514e17c00f77ec5018208"
+    },
+    "first_web_human_approval": {
+      "path": "production_spec\\stage5_production_rig\\stage5b_freeze\\STAGE5B_HUMAN_APPROVAL_FREEZE_R1.json",
+      "sha256": "ad08791ce5fbe6deeb4cd41dd872614a363fe2abbf2ae9ea93f14b6e957c31ec"
+    },
+    "CMC_cage_source": {
+      "path": "production_spec\\stage4_blender\\stage4a_r2\\CMC_LOCAL_RETOPO_AUDIT_R2.json",
+      "sha256": "e1e6f7fd8a8745ac051ce9cc783199ecd4a88fdffed8fc39bd73c8c7294cb9b6"
+    },
+    "CMC_cage_construction": {
+      "path": "production_spec\\stage4_blender\\stage4a_r2\\R2_CAGE.json",
+      "sha256": "349f001a3ccfffa5fa723a21348515020aaab3ddf5ff81884ee9c8ab0d67eecc"
+    },
+    "native_partition_evidence": {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1\\_tmp\\native_independent_partition.json",
+      "sha256": "3f0389de71a88fdd9904e7cd67841996df40dc1fcb1fb6f8f2d62e104fd75f21"
+    },
+    "native_thumb_anchor_evidence": {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1\\NATIVE_THUMB_ANCHOR_SET.json",
+      "sha256": "8d0046882542a86b1b2db8d6233425c58f8c99fb62ff1db41dccfad2b097ac84"
+    },
+    "native_index_anchor_evidence": {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1\\NATIVE_INDEX_ANCHOR_SET.json",
+      "sha256": "73c8e57876b61583a827619d31d199805c61a4b494ffdb9b358f7b2ed65b3bbd"
+    },
+    "CLASS_A_geometry": {
+      "path": "production_spec\\stage6_deformation\\stage6b_r1a_seam_provenance\\STAGE6B_R1A_CLASS_A_VALID_WEB_EDGES.json",
+      "sha256": "8ab48a9c3ced0461ef2041d302cb8711dbd6c96fd67fbbc2d476798f7b2774a6"
+    },
+    "historical_R3_labels": {
+      "path": "production_spec/stage6_deformation/stage6b_r3_thumb_tip_ownership_boundary/R3_OWNERSHIP_LABELS.json",
+      "role": "DIFF_ONLY",
+      "sha256": "dc4e2622032138130d9fb951216a7594a937c3569ee4ef9604dc4b8bfe46f754"
+    }
+  },
+  "cap_combined_authority_hash": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+  "reconciled_candidate_set_hashes": [
+    {
+      "record": "CMC_CAGE_R3_WRAPPER_RECONCILIATION_R1.json/unfiltered_historical_support",
+      "count": 120,
+      "set_sha256": "4ba6e700e476a9065d6ba0141278411356edae074d91f6acee856a011ad2227e"
+    },
+    {
+      "record": "CMC_CAGE_R3_WRAPPER_RECONCILIATION_R1.json/construction_coordinate_candidate",
+      "count": 73,
+      "set_sha256": "7ac69808963ebfec7c49dd519d6fc7332921a6e2f6fb39ad1474edb859afc84e"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/thumb_radius_band",
+      "count": 116,
+      "set_sha256": "3d8cb81481e39b517bd8d778a8e7f0a338184814b39077b590eea15914aba830"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/index_radius_band",
+      "count": 67,
+      "set_sha256": "e3fac618e37b2204f9047bbe31ea30fa78ab28aabfe2f929e29df7deded04092"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/historical_radius_corrected_chain_raw_tube",
+      "count": 219,
+      "set_sha256": "de9552fcb21f95afdfb14851783183ce8aa8ce72b7a74c203afc9c7076bc854b"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/historical_radius_corrected_chain_raw_corridor",
+      "count": 8,
+      "set_sha256": "b58c8be3d2858273d33c9dd0532a9325e18d2641266a7d19b2c70ef551694fc8"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/independent_radius_raw_tube",
+      "count": 205,
+      "set_sha256": "914924f69700e0383b78b0512f60cdd8932a6bb6c8a6dd2bc137ba12b4a72438"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/independent_radius_raw_corridor",
+      "count": 5,
+      "set_sha256": "4c0ce0dc1ca222327afd0bfc3536371579165c30fe33ded014d4d333756a7cad"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/native_guarded_tube",
+      "count": 164,
+      "set_sha256": "a279654ae3d31c1d6506348d94f48663356295442cafc7eaf8ea9b94efe892e8"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/native_guarded_corridor",
+      "count": 5,
+      "set_sha256": "4c0ce0dc1ca222327afd0bfc3536371579165c30fe33ded014d4d333756a7cad"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/two_ring_stable_tube",
+      "count": 164,
+      "set_sha256": "a279654ae3d31c1d6506348d94f48663356295442cafc7eaf8ea9b94efe892e8"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/two_ring_stable_corridor",
+      "count": 5,
+      "set_sha256": "4c0ce0dc1ca222327afd0bfc3536371579165c30fe33ded014d4d333756a7cad"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/index_independent_raw_tube",
+      "count": 143,
+      "set_sha256": "b6320b0adcc40e46e68263c8c418b12cbd87c44b17d8231ca31a40bf80a1592f"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/index_native_guarded_tube",
+      "count": 143,
+      "set_sha256": "b6320b0adcc40e46e68263c8c418b12cbd87c44b17d8231ca31a40bf80a1592f"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/sets/index_two_ring_stable_tube",
+      "count": 143,
+      "set_sha256": "b6320b0adcc40e46e68263c8c418b12cbd87c44b17d8231ca31a40bf80a1592f"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/radius_sampling_sensitivity/alternative_tube_candidate",
+      "count": 155,
+      "set_sha256": "eaa96239993809ea5b172efd490cc8300fa8300eed8d309162ad1bd6f3e28d47"
+    },
+    {
+      "record": "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json/radius_sampling_sensitivity/alternative_corridor_candidate",
+      "count": 4,
+      "set_sha256": "fb9e176c989ddccf8ff724c6544a821dc1d4e3ff334a52b5f7730e93c46a15bc"
+    },
+    {
+      "record": "FIRST_WEB_WRAPPER_RECONCILIATION_R1.json/frozen_membership",
+      "count": 21,
+      "set_sha256": "5ff2f82d11bd2e980c336c9e502dcd7cacd4e44738c3db196a78a0811a4b1fc8"
+    },
+    {
+      "record": "HISTORICAL_REFERENCE_INPUT_PROVENANCE_R1.json/old_tube_predicate_only",
+      "count": 212,
+      "set_sha256": "6c3e874c0a4a088d141e66351d8a5ce9dfb83201e5fe7204e0342edb22dc4523"
+    },
+    {
+      "record": "HISTORICAL_REFERENCE_INPUT_PROVENANCE_R1.json/old_corridor_predicate_only",
+      "count": 8,
+      "set_sha256": "b58c8be3d2858273d33c9dd0532a9325e18d2641266a7d19b2c70ef551694fc8"
+    },
+    {
+      "record": "NAIL_CAP_WRAPPER_RECONCILIATION_R1.json/per_digit_vertex_sets/thumb",
+      "count": 22,
+      "set_sha256": "a77565041a0f4654f22e8f60aba793de2f608dc620f2535cce0ffb5b779c7ab8"
+    },
+    {
+      "record": "NAIL_CAP_WRAPPER_RECONCILIATION_R1.json/per_digit_vertex_sets/index",
+      "count": 43,
+      "set_sha256": "af0855e019adfd93f0da95f3b046874521927344136efd56e4bb3fafcfda4120"
+    },
+    {
+      "record": "NAIL_CAP_WRAPPER_RECONCILIATION_R1.json/per_digit_vertex_sets/middle",
+      "count": 50,
+      "set_sha256": "c1dbe1f7fb817edb2f0ef7068a52d83a54c23bbad1dc86430f1369dd423f303a"
+    },
+    {
+      "record": "NAIL_CAP_WRAPPER_RECONCILIATION_R1.json/per_digit_vertex_sets/ring",
+      "count": 38,
+      "set_sha256": "7cff8e629a887acabad88aa76d4da2d8799ccbefb18fea52f233089a97efbfbf"
+    },
+    {
+      "record": "NAIL_CAP_WRAPPER_RECONCILIATION_R1.json/per_digit_vertex_sets/little",
+      "count": 36,
+      "set_sha256": "04f07da198aeacb4ca53c51be660ad3734b3a77ac2c922779707c103a51fe86c"
+    },
+    {
+      "record": "NAIL_CAP_WRAPPER_RECONCILIATION_R1.json/cap37",
+      "count": 37,
+      "set_sha256": "8711ef3a9c1518a75623410bd278858adeda0a551d6d2f8385d0df6210cdf377"
+    },
+    {
+      "record": "R2_DOMAIN_INPUT_RULE_R1.json/guard_candidates/thumb/full_native_branch",
+      "count": 504,
+      "set_sha256": "4574ec32b25d271299676c07607b633df20373703ec97a4c8a24d1a0685c9be5"
+    },
+    {
+      "record": "R2_DOMAIN_INPUT_RULE_R1.json/guard_candidates/thumb/two_ring_stable_core",
+      "count": 414,
+      "set_sha256": "675de816313d662233b80236be0b32a23512cf582577eaa00837472189f61c1a"
+    },
+    {
+      "record": "R2_DOMAIN_INPUT_RULE_R1.json/guard_candidates/index/full_native_branch",
+      "count": 449,
+      "set_sha256": "eecb2871c59655f2b64af393b8a774c12e12d24ef03098c49eeff952f5570aca"
+    },
+    {
+      "record": "R2_DOMAIN_INPUT_RULE_R1.json/guard_candidates/index/two_ring_stable_core",
+      "count": 389,
+      "set_sha256": "9892d5e326b893eab0db72f081fcc5786b92ba97c97afad75902342d4a2131b4"
+    },
+    {
+      "record": "R2_R3_INPUT_DIFF_PREVIEW.json/thumb_tube_calibration_candidates/alternative_tube_candidate",
+      "count": 155,
+      "set_sha256": "eaa96239993809ea5b172efd490cc8300fa8300eed8d309162ad1bd6f3e28d47"
+    },
+    {
+      "record": "R2_R3_INPUT_DIFF_PREVIEW.json/thumb_tube_calibration_candidates/alternative_corridor_candidate",
+      "count": 4,
+      "set_sha256": "fb9e176c989ddccf8ff724c6544a821dc1d4e3ff334a52b5f7730e93c46a15bc"
+    },
+    {
+      "record": "R3_GRAPH_DOMAIN_INPUT_RECONCILIATION.json/old_graph",
+      "count": 1008,
+      "set_sha256": "9fa8305cc88d57df5301c0cab5f4e2974c83150baf0cb59191cfa1b0aca7df59"
+    },
+    {
+      "record": "R3_GRAPH_DOMAIN_INPUT_RECONCILIATION.json/illustrative_membership_candidates_NOT_AUTHORITY/native_thumb_index",
+      "count": 953,
+      "set_sha256": "00d79f73e36b82e31e81c6fc5fe2c0323bbcc0dbb32e80cb4101c7b66dbe9976"
+    },
+    {
+      "record": "R3_GRAPH_DOMAIN_INPUT_RECONCILIATION.json/illustrative_membership_candidates_NOT_AUTHORITY/native_thumb_index_plus_frozen_web",
+      "count": 959,
+      "set_sha256": "a14ddbc4f55df661e379aefb7b355eda6c93e0c657fa19cfc8616c43245e7622"
+    },
+    {
+      "record": "R3_GRAPH_DOMAIN_INPUT_RECONCILIATION.json/illustrative_membership_candidates_NOT_AUTHORITY/two_ring_stable_thumb_index_core",
+      "count": 803,
+      "set_sha256": "140ba4c187d9aa27241efe6cb7479c54dfb75e6af41f309760aad6f3a8983fbb"
+    },
+    {
+      "record": "R3_STRONG_ANCHOR_INPUT_RECONCILIATION.json/ingredients/0/set",
+      "count": 37,
+      "set_sha256": "8711ef3a9c1518a75623410bd278858adeda0a551d6d2f8385d0df6210cdf377"
+    },
+    {
+      "record": "R3_STRONG_ANCHOR_INPUT_RECONCILIATION.json/ingredients/1/set",
+      "count": 22,
+      "set_sha256": "a77565041a0f4654f22e8f60aba793de2f608dc620f2535cce0ffb5b779c7ab8"
+    },
+    {
+      "record": "R3_STRONG_ANCHOR_INPUT_RECONCILIATION.json/ingredients/5/set",
+      "count": 43,
+      "set_sha256": "af0855e019adfd93f0da95f3b046874521927344136efd56e4bb3fafcfda4120"
+    },
+    {
+      "record": "R3_STRONG_ANCHOR_INPUT_RECONCILIATION.json/ingredients/6/set",
+      "count": 143,
+      "set_sha256": "b6320b0adcc40e46e68263c8c418b12cbd87c44b17d8231ca31a40bf80a1592f"
+    }
+  ],
+  "output_file_hashes": {
+    "AUTHORITY_INPUT_VERIFICATION.json": "577528d341c06d63f8cb4a5b7021945e95aa5e6dd385155e5ef32fff7208a151",
+    "CAP_DERIVED_R2_R3_INPUT_RECONCILIATION_R1_REPORT.md": "c4f882060772a32d2a736d12c213b75c2028334ab75f624ecd497445f5197532",
+    "CAP_DERIVED_R2_R3_INPUT_RECONCILIATION_R1_STATUS.json": "f8504b18f50963ed14e9e1530a5ba5f5862ebb528dd4b50c2da16e2ae41227d4",
+    "CMC_CAGE_R3_WRAPPER_RECONCILIATION_R1.json": "a38b8f4bd89349d7f80d6391867a2d054c068a135a034034cb087782394d5d15",
+    "CORRECTED_LIVE_THUMB_CHAIN_R1.json": "d47499ef98818ddf1a372f427af111197e7d29fc0c5347a38fd5722f111cb908",
+    "CORRECTED_THUMB_TUBE_ANCHOR_CANDIDATE_AUDIT.json": "b663eb576a098776994118e24134ef90572dd82589796f6294b169894f078ce6",
+    "FIRST_WEB_WRAPPER_RECONCILIATION_R1.json": "da6e663b70451690d3e40c8ca85cb4eb143016276369137236fedf62922ea292",
+    "FROZEN_HASH_VERIFICATION_R1.json": "1bc6e9aa11c029f18be8b1fd1c91e97d8bd703dec0fc8d1b5af18d7b52eec44f",
+    "FROZEN_HASHES_AFTER.json": "07894c6f4a08d4fcb4cef465787e7dab761c67261a1b8c8c2ac7e28f70e8d7f1",
+    "FROZEN_HASHES_BEFORE.json": "07894c6f4a08d4fcb4cef465787e7dab761c67261a1b8c8c2ac7e28f70e8d7f1",
+    "HISTORICAL_REFERENCE_INPUT_PROVENANCE_R1.json": "f21df369faf8479892118605f2c1459572cb2f01a3b3f70c08d115f22270b931",
+    "NAIL_CAP_WRAPPER_RECONCILIATION_R1.json": "9ebbcae530d3e0f6f77f47ade3761ed76fbf33bf5435a06bd8bf0b9b46980499",
+    "OUTPUT_VERIFICATION_R1.json": "4d5370dcaf232b06a0834245e055e87fa324a187ce1735588658bae6683ffabb",
+    "R2_DOMAIN_INPUT_RULE_R1.json": "18a06bfb5f3e92d3c0785e2500525209cea00dbaeda96d2509e35fa4051fa21a",
+    "R2_R3_INPUT_DIFF_PREVIEW.json": "90a044ca087ebc248939c83ee6c97b27b9d50c1dbb9b2687db5d853ec404dd71",
+    "R2_SEED_AUTHORITY_RECONCILIATION.json": "c68e1861a80badd846d004098e03815e38c5a32a63d5b70a5a67c462adc3e3ce",
+    "R3_CLOSURE_INPUT_SEMANTICS_R1.json": "b8778d2b33492e9b4786dbf7ae77b39b4c758492f73257e42a0eadb32868f945",
+    "R3_GRAPH_DOMAIN_INPUT_RECONCILIATION.json": "c6232d4b3812444d7611238b30469b220cc7bb5b60e64fb257c3795310aee9c6",
+    "R3_STRONG_ANCHOR_INPUT_RECONCILIATION.json": "093adaaccde9a3df0fc677c89c59736055144741efa917f6a82b5ea4564cee69",
+    "R3_UNARY_FIELD_INPUT_CONTRACT_R1.json": "4fb8ee92d906e0b3507ae798aaff23ca4b7fff40e53d4e881f214d39286d1813",
+    "R3_VALIDATOR_REUSE_RECONCILIATION.json": "e006971d82d8daddd3ade2e562800b1de3c22a86c121ad20c7d9ef7765d52b4c",
+    "READ_ONLY_LIVE_EXTRACTION.json": "78bbfd11d5041a6527889f70b9fd98e90f83bf133351f7fa75e6e72a67576af6",
+    "scripts\\complete_records.py": "7cbd6a1f040540c441f1b0668d712b620d4d34474ae06fb08c966fbdcf9ce760",
+    "scripts\\extract_live.py": "cb95585d37f278a7814e59f05dd0245ddeb8c9325f9a7f54819080d99fb864aa",
+    "scripts\\intake.py": "655445aa1d7e126a1130f27031f9e94d6bb9f24542121de46573023c44d1ef1a",
+    "scripts\\static_reconcile.py": "9a0287ae64feb4091b26a2ee7f211b00d0ae7db7640c27020bbce12d2ac69989",
+    "scripts\\verify_finalize.py": "bdae95531c54886bc673a4e2b4366a6d7036ceb968545beb53b15212e89a6832",
+    "SOURCE_CODE_PROVENANCE_R1.json": "4ea2d563dba077091812693e4e990d3e9c41c2484e6f3609465b248efecb25e0",
+    "STATIC_RECONCILIATION_MEASUREMENTS.json": "2d2e7658578c2c775ed5162d7f5f6e87c55ff6c4d7500cd5d1959c7bfe5340d6",
+    "UNRESOLVED_INPUT_AUTHORITY_REVIEW_R1.json": "3f023e9e878a9f368e446c9669d6b860fc0aae2e6cdbafa450c471956dd511bc"
+  },
+  "combined_input_contract_hash": null,
+  "future_contract_requirement": "Only after all critical authorities resolved may a canonical contract be emitted. Its source+set hashes must be verified before any separately Human-approved R3 run.",
+  "combined_evidence_package_hash": "2e5320268fcf82594661f88261abc43d3641ca675d92242455bc167c6c913f1c"
+}

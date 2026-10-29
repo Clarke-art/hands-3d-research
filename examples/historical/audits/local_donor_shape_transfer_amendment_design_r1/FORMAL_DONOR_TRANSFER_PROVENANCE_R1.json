@@ -1,0 +1,709 @@
+{
+  "DONOR_SOURCE": {
+    "path": "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend",
+    "sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137"
+  },
+  "donor_object": "Hand  - Realistic",
+  "donor_layer": "Official stored Multires L1",
+  "SOURCE_STAGE4C": {
+    "path": "production_spec/stage4_blender/stage4c_r2/RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend",
+    "sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+  },
+  "historical_rest_ancestor": {
+    "path": "production_spec/stage4_blender/stage4a_r2/RIGHT_HAND_ENGINEERING_STAGE4A_R2.blend",
+    "sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039"
+  },
+  "FORMAL_CANDIDATE": {
+    "path": "audits/local_donor_shape_transfer_amendment_design_r1/RIGHT_HAND_ENGINEERING_STAGE4C_R2_DONOR_TRANSFER_CANDIDATE_R1.blend",
+    "sha256": "9788ef1582344b12d17c8c201b59f6f1b5c59eb22648a0753bba1725481ed8e8"
+  },
+  "verified_prior_inputs": [
+    {
+      "path": "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/DONOR_TO_CURRENT_TOPOLOGY_CORRESPONDENCE_R1.json",
+      "sha256": "d87aec252095f555c203c057d3bc6d62a160253d5b3773d9d9287c137b0e5c2c"
+    },
+    {
+      "path": "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/DONOR_PATCH_TRANSFER_FEASIBILITY_R1.json",
+      "sha256": "f1868eb9c7e7fcd49c8154149dff353fd4734da38ba66ea7c54ae97b3d7da3d3"
+    },
+    {
+      "path": "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/TEMP_DONOR_TRANSFER_DESIGN_ONLY.json",
+      "sha256": "e5352dd004c0518027d9b70e89f866dc3d93d86a7509b745dc8ee7d1e9e2e930"
+    },
+    {
+      "path": "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/HISTORICAL_OPERATION_RAM_REPLAY.json",
+      "sha256": "814aeeca0bdc1a3b7fadff8fcb7fd6144708835173a22c08ba3df21e4ef692b7"
+    },
+    {
+      "path": "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/HISTORICAL_RSSF_COORDINATE_CORRESPONDENCE.json",
+      "sha256": "5e57d5febac9e843b121c1f05ef069997667b00ca7b6eb915f49965408c47693"
+    },
+    {
+      "path": "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/RAW_SOURCE_GEOMETRY.json",
+      "sha256": "f945449477ecb3925932c6725baaf861c95458a101d61bdac535e3fa0654b72e"
+    }
+  ],
+  "official_L1_re_evaluated_from_master": true,
+  "official_L1_coordinates_and_native_cycles_exact_vs_frozen_evidence": true,
+  "Stage2_evaluated_L1_equality_authority": {
+    "path": "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/SOURCE_GEOMETRY_LINEAGE_R1.json",
+    "sha256": "5706cf78e5f8d4386329636f0686a5c64bf7a7ada6fedc2d548075f581c9205d"
+  },
+  "actual_split_parent_edge_independent_validation": [
+    {
+      "vertex_id": 3300,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        181,
+        2089
+      ],
+      "fraction_recomputed": 0.5000014590573714,
+      "frozen_fraction": 0.5000014513987177
+    },
+    {
+      "vertex_id": 3301,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        175,
+        2090
+      ],
+      "fraction_recomputed": 0.4999999955015378,
+      "frozen_fraction": 0.5000000045907357
+    },
+    {
+      "vertex_id": 3302,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        176,
+        2091
+      ],
+      "fraction_recomputed": 0.4999987932928914,
+      "frozen_fraction": 0.5000012034796761
+    },
+    {
+      "vertex_id": 3303,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        177,
+        2092
+      ],
+      "fraction_recomputed": 0.4999999918309487,
+      "frozen_fraction": 0.500000008201821
+    },
+    {
+      "vertex_id": 3304,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        178,
+        2093
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3305,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        179,
+        2094
+      ],
+      "fraction_recomputed": 0.49999998039217686,
+      "frozen_fraction": 0.5000000196931353
+    },
+    {
+      "vertex_id": 3306,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        180,
+        2095
+      ],
+      "fraction_recomputed": 0.5000013659459824,
+      "frozen_fraction": 0.49999860775141214
+    },
+    {
+      "vertex_id": 3307,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        182,
+        2096
+      ],
+      "fraction_recomputed": 0.5000013738303843,
+      "frozen_fraction": 0.4999986442016844
+    },
+    {
+      "vertex_id": 3308,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        1107,
+        2531
+      ],
+      "fraction_recomputed": 0.4999985404894745,
+      "frozen_fraction": 0.49999856241975216
+    },
+    {
+      "vertex_id": 3309,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        1108,
+        2532
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3310,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        1100,
+        2533
+      ],
+      "fraction_recomputed": 0.5000000134462164,
+      "frozen_fraction": 0.5000000134678281
+    },
+    {
+      "vertex_id": 3311,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        1101,
+        2534
+      ],
+      "fraction_recomputed": 0.49999873920623017,
+      "frozen_fraction": 0.4999987482792546
+    },
+    {
+      "vertex_id": 3312,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        1102,
+        2535
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3313,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        1103,
+        2536
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3314,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        1104,
+        2537
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3315,
+      "operation": "CON1_RING_MCP@-1mm",
+      "actual_parent_edge": [
+        1106,
+        2609
+      ],
+      "fraction_recomputed": 0.5000014177815987,
+      "frozen_fraction": 0.5000014241270017
+    },
+    {
+      "vertex_id": 3316,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        79,
+        2089
+      ],
+      "fraction_recomputed": 0.4999999972189133,
+      "frozen_fraction": 0.5000000030902805
+    },
+    {
+      "vertex_id": 3317,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        81,
+        2090
+      ],
+      "fraction_recomputed": 0.5000000012150687,
+      "frozen_fraction": 0.5000000012126615
+    },
+    {
+      "vertex_id": 3318,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        82,
+        2091
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3319,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        83,
+        2092
+      ],
+      "fraction_recomputed": 0.4999999873851328,
+      "frozen_fraction": 0.49999998723323413
+    },
+    {
+      "vertex_id": 3320,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        84,
+        2093
+      ],
+      "fraction_recomputed": 0.49999863006156336,
+      "frozen_fraction": 0.4999986475629208
+    },
+    {
+      "vertex_id": 3321,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        85,
+        2094
+      ],
+      "fraction_recomputed": 0.5000000249651657,
+      "frozen_fraction": 0.5000000258873879
+    },
+    {
+      "vertex_id": 3322,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        86,
+        2095
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3323,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        80,
+        2096
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3324,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        955,
+        2531
+      ],
+      "fraction_recomputed": 0.49999999730716765,
+      "frozen_fraction": 0.4999999973358022
+    },
+    {
+      "vertex_id": 3325,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        956,
+        2532
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3326,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        957,
+        2533
+      ],
+      "fraction_recomputed": 0.49999875992699394,
+      "frozen_fraction": 0.4999987284660399
+    },
+    {
+      "vertex_id": 3327,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        958,
+        2534
+      ],
+      "fraction_recomputed": 0.49999998717426075,
+      "frozen_fraction": 0.4999999869406714
+    },
+    {
+      "vertex_id": 3328,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        959,
+        2535
+      ],
+      "fraction_recomputed": 0.5000013163489686,
+      "frozen_fraction": 0.5000013179962547
+    },
+    {
+      "vertex_id": 3329,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        960,
+        2536
+      ],
+      "fraction_recomputed": 0.49999999068741857,
+      "frozen_fraction": 0.49999999086191527
+    },
+    {
+      "vertex_id": 3330,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        961,
+        2537
+      ],
+      "fraction_recomputed": 0.4999999918425101,
+      "frozen_fraction": 0.49999999111891574
+    },
+    {
+      "vertex_id": 3331,
+      "operation": "CON1_RING_MCP@-4mm",
+      "actual_parent_edge": [
+        962,
+        2609
+      ],
+      "fraction_recomputed": 0.4999982585505082,
+      "frozen_fraction": 0.49999827566162147
+    },
+    {
+      "vertex_id": 3332,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        79,
+        3316
+      ],
+      "fraction_recomputed": 0.5000014075327736,
+      "frozen_fraction": 0.4999985927133222
+    },
+    {
+      "vertex_id": 3333,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        81,
+        3317
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3334,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        82,
+        3318
+      ],
+      "fraction_recomputed": 0.5000000022511506,
+      "frozen_fraction": 0.5000000025252903
+    },
+    {
+      "vertex_id": 3335,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        83,
+        3319
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3336,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        84,
+        3320
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3337,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        85,
+        3321
+      ],
+      "fraction_recomputed": 0.4999956807921193,
+      "frozen_fraction": 0.4999956963946282
+    },
+    {
+      "vertex_id": 3338,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        86,
+        3322
+      ],
+      "fraction_recomputed": 0.4999954633277303,
+      "frozen_fraction": 0.49999545787470145
+    },
+    {
+      "vertex_id": 3339,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        80,
+        3323
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3340,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        955,
+        3324
+      ],
+      "fraction_recomputed": 0.5000059285042755,
+      "frozen_fraction": 0.5000059403924269
+    },
+    {
+      "vertex_id": 3341,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        956,
+        3325
+      ],
+      "fraction_recomputed": 0.4999983372777635,
+      "frozen_fraction": 0.49999831249775345
+    },
+    {
+      "vertex_id": 3342,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        957,
+        3326
+      ],
+      "fraction_recomputed": 0.4999999945503524,
+      "frozen_fraction": 0.4999999945980573
+    },
+    {
+      "vertex_id": 3343,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        958,
+        3327
+      ],
+      "fraction_recomputed": 0.49999848543184694,
+      "frozen_fraction": 0.49999848840073735
+    },
+    {
+      "vertex_id": 3344,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        959,
+        3328
+      ],
+      "fraction_recomputed": 0.5000000293999578,
+      "frozen_fraction": 0.5000000295723748
+    },
+    {
+      "vertex_id": 3345,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        960,
+        3329
+      ],
+      "fraction_recomputed": 0.49999769724052656,
+      "frozen_fraction": 0.4999977033173392
+    },
+    {
+      "vertex_id": 3346,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        961,
+        3330
+      ],
+      "fraction_recomputed": 0.4999996550590467,
+      "frozen_fraction": 0.49999965908405686
+    },
+    {
+      "vertex_id": 3347,
+      "operation": "CON1_RING_MCP@-7mm",
+      "actual_parent_edge": [
+        962,
+        3331
+      ],
+      "fraction_recomputed": 0.4999999203093883,
+      "frozen_fraction": 0.4999999221515081
+    },
+    {
+      "vertex_id": 3348,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        119,
+        1027
+      ],
+      "fraction_recomputed": 0.5000000020267231,
+      "frozen_fraction": 0.4999999978706916
+    },
+    {
+      "vertex_id": 3349,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        121,
+        2074
+      ],
+      "fraction_recomputed": 0.500000000925891,
+      "frozen_fraction": 0.5000000009243124
+    },
+    {
+      "vertex_id": 3350,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        122,
+        2075
+      ],
+      "fraction_recomputed": 0.5000014805888428,
+      "frozen_fraction": 0.5000014514426121
+    },
+    {
+      "vertex_id": 3351,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        123,
+        2076
+      ],
+      "fraction_recomputed": 0.49999834410336097,
+      "frozen_fraction": 0.49999837232297006
+    },
+    {
+      "vertex_id": 3352,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        124,
+        2077
+      ],
+      "fraction_recomputed": 0.5000000273095793,
+      "frozen_fraction": 0.5000000273213461
+    },
+    {
+      "vertex_id": 3353,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        125,
+        2078
+      ],
+      "fraction_recomputed": 0.4999983302977284,
+      "frozen_fraction": 0.49999830864166234
+    },
+    {
+      "vertex_id": 3354,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        126,
+        2079
+      ],
+      "fraction_recomputed": 0.4999982253210927,
+      "frozen_fraction": 0.4999982327509693
+    },
+    {
+      "vertex_id": 3355,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        120,
+        2080
+      ],
+      "fraction_recomputed": 0.500001476219255,
+      "frozen_fraction": 0.5000015056796561
+    },
+    {
+      "vertex_id": 3356,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        1020,
+        3171
+      ],
+      "fraction_recomputed": 0.49999999804229245,
+      "frozen_fraction": 0.4999999980463586
+    },
+    {
+      "vertex_id": 3357,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        1019,
+        3172
+      ],
+      "fraction_recomputed": 0.5,
+      "frozen_fraction": 0.5
+    },
+    {
+      "vertex_id": 3358,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        1026,
+        3173
+      ],
+      "fraction_recomputed": 0.5000000005612173,
+      "frozen_fraction": 0.5000000005459175
+    },
+    {
+      "vertex_id": 3359,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        1025,
+        3174
+      ],
+      "fraction_recomputed": 0.49999829773069077,
+      "frozen_fraction": 0.4999982876076046
+    },
+    {
+      "vertex_id": 3360,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        1024,
+        3175
+      ],
+      "fraction_recomputed": 0.4999999834652185,
+      "frozen_fraction": 0.4999999824447246
+    },
+    {
+      "vertex_id": 3361,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        1023,
+        3176
+      ],
+      "fraction_recomputed": 0.4999999999527483,
+      "frozen_fraction": 0.4999999999540523
+    },
+    {
+      "vertex_id": 3362,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        1022,
+        3177
+      ],
+      "fraction_recomputed": 0.49999843149768114,
+      "frozen_fraction": 0.4999984470868626
+    },
+    {
+      "vertex_id": 3363,
+      "operation": "CON1_MIDDLE_MCP@-1mm",
+      "actual_parent_edge": [
+        1021,
+        3178
+      ],
+      "fraction_recomputed": 0.5000014171769183,
+      "frozen_fraction": 0.5000014347377542
+    }
+  ],
+  "frozen_RSSF_native_reconstruction_authority": {
+    "path": "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/HISTORICAL_RSSF_COORDINATE_CORRESPONDENCE.json",
+    "sha256": "5e57d5febac9e843b121c1f05ef069997667b00ca7b6eb915f49965408c47693"
+  },
+  "WRITE_SET_REPRODUCED": "54/54",
+  "MAX_COORD_DELTA_VS_PROBE_MM": 0.0,
+  "copied_final_probe_coordinates": false,
+  "deterministic_formula": "source_stage4c[i] + frozen_RSSF_J[i] * (sum(parent_weight * actual_official_L1[parent]) - historical_stage4a_rest[i]); same native float32 storage conversion",
+  "metadata": [
+    "DESIGN_ONLY",
+    "NOT_PRODUCTION",
+    "NOT_HUMAN_APPROVED",
+    "DO_NOT_PROMOTE"
+  ],
+  "downstream_execution": false
+}

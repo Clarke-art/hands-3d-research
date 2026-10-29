@@ -1,0 +1,1452 @@
+{
+  "status": "CONTINUOUS_PATH_NOT_PROVEN",
+  "authority": "DESIGN_PROVISIONAL",
+  "candidate_count": 1,
+  "interval": [
+    2.913092666666667,
+    2.938092666666667
+  ],
+  "duration_seconds": 0.02499999999999991,
+  "boundary": 2.9214260000000003,
+  "knots": [
+    {
+      "id": "path_1",
+      "all_gates": true
+    },
+    {
+      "id": "path_2",
+      "all_gates": true
+    },
+    {
+      "id": "path_3",
+      "all_gates": true
+    },
+    {
+      "id": "path_4",
+      "all_gates": true
+    }
+  ],
+  "trajectory_file": "LOCAL_CONTROL_TRAJECTORY.json",
+  "actual_samples_file": "LOCAL_PATH_ACTUAL_SAMPLES.json",
+  "sample_count": 24,
+  "base_rate_hz": 120,
+  "maximum_sample_gap_seconds": 0.002083333334000237,
+  "sampling": "Every knot interval has small key-clearance headroom and contact switching; quarter-interval subdivision plus event +/-0.1ms and +1ms",
+  "failed_sample_count": 10,
+  "failed_samples": [
+    {
+      "time": 2.922426,
+      "failed_gates": [
+        "all_required_contacts"
+      ],
+      "target_depth_mm": 0.22045368282955155,
+      "non_target_or_wrong_region_mm": 0.24676964862813952,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 7,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.36063108161900004,
+            "pad_horizontal_outside_mm": 0.026039772695996,
+            "true_pulp_min_signed_gap_mm": -0.22184613364511813,
+            "pulp_min_vertex_gap_mm": -0.21745478820945652,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20562776151723194,
+              0.04327575358500753,
+              -1.5726375897326048e-05
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.0,
+            "near_contact_projected_area_mm2": 1.6460215314659592,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 7,
+            "top_surface_crossing_triangle_ids": [
+              3738,
+              3749,
+              3750,
+              3751,
+              3752,
+              3753,
+              3761
+            ],
+            "inside_playable_patch_vertices": 60,
+            "hover_only": false
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.922467666667,
+      "failed_gates": [
+        "all_required_contacts",
+        "non_target_or_wrong_region_depth"
+      ],
+      "target_depth_mm": 0.22469002419044837,
+      "non_target_or_wrong_region_mm": 0.25150216429104805,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 7,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.3570399658783982,
+            "pad_horizontal_outside_mm": 0.028662377066113187,
+            "true_pulp_min_signed_gap_mm": -0.22608062626962244,
+            "pulp_min_vertex_gap_mm": -0.22179476520840777,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20564112824875652,
+              0.043256491121772975,
+              -1.638256682838339e-05
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.0,
+            "near_contact_projected_area_mm2": 1.6254884409368926,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 7,
+            "top_surface_crossing_triangle_ids": [
+              3738,
+              3749,
+              3750,
+              3751,
+              3752,
+              3753,
+              3761
+            ],
+            "inside_playable_patch_vertices": 60,
+            "hover_only": false
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.923509333333,
+      "failed_gates": [
+        "all_required_contacts",
+        "target_depth",
+        "non_target_or_wrong_region_depth"
+      ],
+      "target_depth_mm": 0.3277102020093075,
+      "non_target_or_wrong_region_mm": 0.36498358717730045,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 7,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.2748513094727145,
+            "pad_horizontal_outside_mm": 0.08196383065650625,
+            "true_pulp_min_signed_gap_mm": -0.3284271704648006,
+            "pulp_min_vertex_gap_mm": -0.327035948947965,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20598867760243933,
+              0.04273101173548148,
+              -3.300667624142953e-05
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.0,
+            "near_contact_projected_area_mm2": 1.7653010201939405,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 7,
+            "top_surface_crossing_triangle_ids": [
+              3738,
+              3749,
+              3750,
+              3751,
+              3752,
+              3753,
+              3761
+            ],
+            "inside_playable_patch_vertices": 60,
+            "hover_only": false
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.924551,
+      "failed_gates": [
+        "all_required_contacts",
+        "target_depth",
+        "non_target_or_wrong_region_depth"
+      ],
+      "target_depth_mm": 0.33171537490038444,
+      "non_target_or_wrong_region_mm": 0.3751854112251901,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 7,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.2911493051154323,
+            "pad_horizontal_outside_mm": 0.0635608965821044,
+            "true_pulp_min_signed_gap_mm": -0.331715395543143,
+            "pulp_min_vertex_gap_mm": -0.331715395543143,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20609827614875403,
+              0.04244834471585808,
+              -4.9704396293509534e-05
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.0,
+            "near_contact_projected_area_mm2": 1.8321607003699003,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 7,
+            "top_surface_crossing_triangle_ids": [
+              3738,
+              3749,
+              3750,
+              3751,
+              3752,
+              3753,
+              3761
+            ],
+            "inside_playable_patch_vertices": 60,
+            "hover_only": false
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.927676,
+      "failed_gates": [
+        "all_required_contacts",
+        "non_target_or_wrong_region_depth"
+      ],
+      "target_depth_mm": 0.1581884833944318,
+      "non_target_or_wrong_region_mm": 0.31399278928025154,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 8,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.49973878968178664,
+            "pad_horizontal_outside_mm": 0.23055821008155508,
+            "true_pulp_min_signed_gap_mm": -0.1581885040371904,
+            "pulp_min_vertex_gap_mm": -0.1581885040371904,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20574427694038977,
+              0.04323554250437307,
+              -0.0003515561722186502
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.0,
+            "near_contact_projected_area_mm2": 2.6779734460507383,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 8,
+            "top_surface_crossing_triangle_ids": [
+              3738,
+              3749,
+              3750,
+              3751,
+              3752,
+              3753,
+              3761,
+              3767
+            ],
+            "inside_playable_patch_vertices": 63,
+            "hover_only": false
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.928717666667,
+      "failed_gates": [
+        "all_required_contacts",
+        "non_target_or_wrong_region_depth"
+      ],
+      "target_depth_mm": 0.1428658242614233,
+      "non_target_or_wrong_region_mm": 0.337711957825846,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 8,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.5277572859713788,
+            "pad_horizontal_outside_mm": 0.43792276925513907,
+            "true_pulp_min_signed_gap_mm": -0.14286584490418192,
+            "pulp_min_vertex_gap_mm": -0.14286584490418192,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20608871823454894,
+              0.04327124718241687,
+              -0.0004662225314514788
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.0,
+            "near_contact_projected_area_mm2": 3.2903936282996367,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 8,
+            "top_surface_crossing_triangle_ids": [
+              3738,
+              3749,
+              3750,
+              3751,
+              3752,
+              3753,
+              3761,
+              3767
+            ],
+            "inside_playable_patch_vertices": 64,
+            "hover_only": false
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.930801,
+      "failed_gates": [
+        "all_required_contacts"
+      ],
+      "target_depth_mm": 0.0,
+      "non_target_or_wrong_region_mm": 0.06940596358070289,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 0,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.7082516110318763,
+            "pad_horizontal_outside_mm": 0.0,
+            "true_pulp_min_signed_gap_mm": 0.0385138959421752,
+            "pulp_min_vertex_gap_mm": 0.0385138959421752,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20579245686531067,
+              0.04191404581069946,
+              -0.000764964206609875
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.0385138959421752,
+            "near_contact_projected_area_mm2": 0.20471282081036685,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 0,
+            "top_surface_crossing_triangle_ids": [],
+            "inside_playable_patch_vertices": 73,
+            "hover_only": true
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.934967666667,
+      "failed_gates": [
+        "all_required_contacts"
+      ],
+      "target_depth_mm": 0.0,
+      "non_target_or_wrong_region_mm": 0.09968884841689979,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 0,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.7939399156675059,
+            "pad_horizontal_outside_mm": 0.0,
+            "true_pulp_min_signed_gap_mm": 0.16345200528287812,
+            "pulp_min_vertex_gap_mm": 0.16345200528287812,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20921774208545685,
+              0.04203163459897041,
+              -0.0017325920052826405
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.16345200528287812,
+            "near_contact_projected_area_mm2": 0.0,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 0,
+            "top_surface_crossing_triangle_ids": [],
+            "inside_playable_patch_vertices": 95,
+            "hover_only": true
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.936009333333,
+      "failed_gates": [
+        "all_required_contacts"
+      ],
+      "target_depth_mm": 0.0,
+      "non_target_or_wrong_region_mm": 0.0,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 0,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.9367704505265623,
+            "pad_horizontal_outside_mm": 0.0,
+            "true_pulp_min_signed_gap_mm": 0.28520457992859904,
+            "pulp_min_vertex_gap_mm": 0.28520457992859904,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20908576250076294,
+              0.04185939207673073,
+              -0.001942549948580563
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.28520457992859904,
+            "near_contact_projected_area_mm2": 0.0,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 0,
+            "top_surface_crossing_triangle_ids": [],
+            "inside_playable_patch_vertices": 94,
+            "hover_only": true
+          }
+        }
+      ]
+    },
+    {
+      "time": 2.937051,
+      "failed_gates": [
+        "all_required_contacts"
+      ],
+      "target_depth_mm": 0.0,
+      "non_target_or_wrong_region_mm": 0.0,
+      "contacts": [
+        {
+          "midi": 76,
+          "strict_crossing_faces": 0,
+          "contact_gate": false,
+          "metrics": {
+            "pad_gap_mm": 0.9334028423215128,
+            "pad_horizontal_outside_mm": 0.0,
+            "true_pulp_min_signed_gap_mm": 0.2504375207662611,
+            "pulp_min_vertex_gap_mm": 0.2504375207662611,
+            "pulp_closest_vertex": 1738,
+            "pulp_contact_position_world_m": [
+              0.20883382856845856,
+              0.041530873626470566,
+              -0.002315973164513707
+            ],
+            "true_pulp_surface_contact_distance_mm": 0.2504375207662611,
+            "near_contact_projected_area_mm2": 0.0,
+            "near_contact_area_band_mm": 0.05,
+            "top_surface_crossing_triangles": 0,
+            "top_surface_crossing_triangle_ids": [],
+            "inside_playable_patch_vertices": 94,
+            "hover_only": true
+          }
+        }
+      ]
+    }
+  ],
+  "maximum_target_depth_mm": 0.33171537490038444,
+  "maximum_non_target_or_wrong_region_mm": 0.3751854112251901,
+  "maximum_self_crossings": 0,
+  "minimum_middle_ring_exact_gap_mm": 2.8987902526404574,
+  "all_joint_reference_and_axes_pass": true,
+  "kinematics": {
+    "method": "Secants of actual Blender wrist world coordinates and recovered engineering joint controls on irregular sample times; accelerations are differences of consecutive secant velocities at midpoint times. Estimates, not clinical limits or analytic maxima.",
+    "wrist_segment_peak_speed_mm_s": 3104.5310363506583,
+    "wrist_midpoint_peak_acceleration_mm_s2": 1314580.609859654,
+    "maximum_joint_control_secant_deg_s": 567.9927453182181,
+    "segment_velocities_mm_s": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        5.811452865588322,
+        2.2351741790724313,
+        3.53902578353135
+      ],
+      [
+        85.83068847655078,
+        10.894404517278243,
+        38.24217451942769
+      ],
+      [
+        150.56133149892477,
+        18.239021155451695,
+        70.3632825948063
+      ],
+      [
+        227.3225785756558,
+        22.95970918217403,
+        100.58283812284185
+      ],
+      [
+        351.1333464452146,
+        22.85957335694015,
+        154.00886530714496
+      ],
+      [
+        451.2548445212669,
+        10.571479793983713,
+        196.0194110243712
+      ],
+      [
+        1503.1242380225037,
+        -121.99401863276022,
+        663.3031372500567
+      ],
+      [
+        2759.370802949695,
+        -290.336608793778,
+        1181.6060539277819
+      ],
+      [
+        2871.5372076379103,
+        -345.45421589283336,
+        1128.2944675648428
+      ],
+      [
+        1840.496064410287,
+        -286.81755084273476,
+        503.2360556962023
+      ],
+      [
+        904.9415585482064,
+        -242.65766136031024,
+        -76.77912709639362
+      ],
+      [
+        763.0491254274496,
+        -247.4498747988231,
+        -169.15798181848092
+      ],
+      [
+        526.8144610915408,
+        -192.56114972040163,
+        -170.13788234154944
+      ],
+      [
+        196.03729241771453,
+        -77.26192471891974,
+        -79.13589475005814
+      ],
+      [
+        0.4434585569869491,
+        -0.014305114741514486,
+        -3.100633620223265
+      ],
+      [
+        0.0858306885314917,
+        -0.0858306885314917,
+        -1.9884109509795578
+      ],
+      [
+        -0.02861022948304117,
+        0.17166137689824704,
+        -1.3554096217590754
+      ],
+      [
+        0.1001358031906014,
+        -0.12874603267363038,
+        -0.31113624562794007
+      ]
+    ],
+    "velocity_midpoint_times": [
+      2.9141343333335,
+      2.9162176666665003,
+      2.918301,
+      2.9203343333335,
+      2.921376,
+      2.921476,
+      2.921976,
+      2.9224468333335,
+      2.9229884999999998,
+      2.9240301666665003,
+      2.9250718333335,
+      2.9261134999999996,
+      2.9271551666665,
+      2.9281968333335,
+      2.9292385000000003,
+      2.9302801666665,
+      2.9313218333335,
+      2.9323635,
+      2.9334051666664998,
+      2.9344468333335003,
+      2.9354885,
+      2.9365301666665,
+      2.9375718333335
+    ],
+    "accelerations_mm_s2": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        58114.52865576058,
+        22351.741790677144,
+        35390.257835238815
+      ],
+      [
+        160038.4712220136,
+        17318.460676421222,
+        69406.29747183115
+      ],
+      [
+        137481.01168028358,
+        15599.185774671101,
+        68221.82243683848
+      ],
+      [
+        141713.07156990102,
+        8715.11635970892,
+        55789.94868431828
+      ],
+      [
+        118858.33717373468,
+        -96.1303922398589,
+        51288.98610511171
+      ],
+      [
+        96116.6381222829,
+        -11796.569816666964,
+        40330.12387564417
+      ],
+      [
+        1009794.6179231133,
+        -127262.87851008146,
+        448592.3772485922
+      ],
+      [
+        1205996.7025224634,
+        -161608.8865803541,
+        497570.80008998
+      ],
+      [
+        107679.7484662627,
+        -52912.90279817756,
+        -51179.12289206024
+      ],
+      [
+        -989799.4976563939,
+        56291.19845707325,
+        -600056.0754896053
+      ],
+      [
+        -898132.3257716177,
+        42393.49390992556,
+        -556814.5755701803
+      ],
+      [
+        -136216.73575232178,
+        -4600.524899499641,
+        -88683.70050481493
+      ],
+      [
+        -226785.27779874194,
+        52693.17608371176,
+        -940.7045022962275
+      ],
+      [
+        -317546.0819777934,
+        110687.2560191719,
+        87361.90810184059
+      ],
+      [
+        -187770.08044611066,
+        74157.71479624059,
+        72993.85066124403
+      ],
+      [
+        -343.3227537722927,
+        -68.66455084938885,
+        1067.7337626451756
+      ],
+      [
+        -109.86328131152189,
+        247.1923828520824,
+        607.681276148849
+      ],
+      [
+        123.59619132713203,
+        -288.39111309668436,
+        1002.5024407649752
+      ]
+    ],
+    "joint_control_velocities_deg_s": [
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          17.7817942806493,
+          11.069095178578525,
+          5.91392337265435,
+          -2.146846343147234
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          164.49410224758492,
+          102.51674201605375,
+          54.968610091796904,
+          -20.45305511723542
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          271.36397363947293,
+          168.66856802217603,
+          90.83527429207331,
+          -34.546395274882705
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          325.5681720756939,
+          201.04775132299073,
+          109.4694189907157,
+          -43.91117150659078
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          304.210934706475,
+          185.09858745444419,
+          103.29263649578323,
+          -47.76173206820458
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          130.44543676446295,
+          78.29053779062428,
+          44.68976887848895,
+          -30.812348088040345
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.2445298121406702e-08,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          -14.565265381384508
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          -1.7053025652783497e-12,
+          -7.604333288621559e-05,
+          0.0,
+          -2.840365765678398e-05
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          -12.149211188634395
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0032278186973725576,
+          0.0,
+          0.0,
+          -8.634233928478995
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.003257776419143151,
+          0.0,
+          0.0,
+          -4.016777929046378
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.00020484745774105448,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -258.4950376941575,
+          -152.6512864840643,
+          -89.46378186773272,
+          -1.1996227108917494
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -567.9927453182181,
+          -335.3129700728965,
+          -196.6213567388767,
+          -0.9058988777010896
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -567.4812342708269,
+          -334.9266475011559,
+          -196.4693150576133,
+          -0.5676183377983381
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -257.84033395123356,
+          -152.15817715154122,
+          -89.27291561171924,
+          -0.20032126353339041
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          42.74676915324856,
+          25.232762329046732,
+          14.797572587149402,
+          0.0010164566443947834
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          150.2347302299789,
+          88.68728919941735,
+          52.00926477871356,
+          0.0028863415484179245
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          290.72154114063335,
+          171.60490845624759,
+          100.64340496905012,
+          0.0043565404897378136
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ],
+      [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          464.20428645198024,
+          274.01414001573465,
+          160.70019595393757,
+          0.00799887021684949
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ]
+      ]
+    ],
+    "joint_control_order": "five digits x flex1,flex2,flex3,spread; engineering mapped axes, not clinical Euler angles"
+  },
+  "position_and_first_parameter_derivative_continuous": true,
+  "second_derivative_continuity": false,
+  "naturalness": "HUMAN_PENDING; geometric failure already rejects candidate",
+  "not_B2_to_junction": true,
+  "not_P4_at_ON_plus35ms": true,
+  "no_Action_video": true,
+  "root_cause_direct_evidence": "Feasible knot controls interpolated in Euclidean latent coordinates leave nonlinear contact/obstacle constraint sets between knots; actual geometry rejects them.",
+  "unexcluded": "Contact-manifold continuation with tangent constraints and between-node correction, alternative surface witness charts, multi-frame constrained local planning",
+  "no_more_solves": true,
+  "naturalness_risk_flags": [
+    "Wrist segment peak 3.105m/s in a25ms fragment; no velocity or acceleration constraints were imposed in node IK. Requires Human review, no clinical threshold claimed.",
+    "C1 PCHIP controls do not constrain actual skin contact between nodes or guarantee acceleration continuity."
+  ]
+}

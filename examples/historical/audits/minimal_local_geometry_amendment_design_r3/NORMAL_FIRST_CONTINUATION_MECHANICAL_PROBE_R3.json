@@ -1,0 +1,162 @@
+{
+  "scope": "Four directional path hypotheses based on the new2182/3330 active contact, not a support expansion or another target family. None is a selectable geometry candidate.",
+  "motion_amplitude_is_anatomy_clearance": false,
+  "probes": [
+    {
+      "name": "ROOT_EDGE_OUTWARD",
+      "native_anchor_vertex_offsets_in_dorsal_normal_mm": {
+        "79": 0.15,
+        "955": 0.15
+      },
+      "support_depth": 5,
+      "seed_is_target_or_clearance": false,
+      "max_displacement_mm": 0.1457189846581053,
+      "orientation": {
+        "new_reversed_faces": [],
+        "new_degenerate_faces": [],
+        "new_bowtie_faces": [],
+        "minimum_area_mm2": 1.6261389144771206,
+        "positive_valid_baseline_orientation": true
+      },
+      "new_pair_ids": [
+        [
+          3329,
+          3331
+        ]
+      ],
+      "continuous_motion": {
+        "face_ids": [
+          517,
+          3314
+        ],
+        "fraction": 0.19986729827,
+        "kind": "COPLANARITY_EVENT_CROSSING",
+        "swept_pairs": 2815,
+        "event_roots_checked": 47
+      },
+      "mechanically_feasible_motion_seed": false,
+      "world_mm": null,
+      "coordinate_design_not_Human_candidate": true
+    },
+    {
+      "name": "ROOT_EDGE_INWARD",
+      "native_anchor_vertex_offsets_in_dorsal_normal_mm": {
+        "79": -0.15,
+        "955": -0.15
+      },
+      "support_depth": 5,
+      "seed_is_target_or_clearance": false,
+      "max_displacement_mm": 0.1457189846581053,
+      "orientation": {
+        "new_reversed_faces": [],
+        "new_degenerate_faces": [],
+        "new_bowtie_faces": [],
+        "minimum_area_mm2": 1.6261040647712093,
+        "positive_valid_baseline_orientation": true
+      },
+      "new_pair_ids": [
+        [
+          2182,
+          3314
+        ],
+        [
+          2182,
+          3330
+        ],
+        [
+          3314,
+          3330
+        ]
+      ],
+      "continuous_motion": {
+        "face_ids": [
+          2182,
+          3314
+        ],
+        "fraction": 0.94483076834,
+        "kind": "COPLANARITY_EVENT_CROSSING",
+        "swept_pairs": 2815,
+        "event_roots_checked": 47
+      },
+      "mechanically_feasible_motion_seed": false,
+      "world_mm": null,
+      "coordinate_design_not_Human_candidate": true
+    },
+    {
+      "name": "CREASE_APEX_OUTWARD",
+      "native_anchor_vertex_offsets_in_dorsal_normal_mm": {
+        "3332": 0.15,
+        "3340": 0.15
+      },
+      "support_depth": 5,
+      "seed_is_target_or_clearance": false,
+      "max_displacement_mm": 0.1457663207334046,
+      "orientation": {
+        "new_reversed_faces": [],
+        "new_degenerate_faces": [],
+        "new_bowtie_faces": [],
+        "minimum_area_mm2": 1.6261263397035217,
+        "positive_valid_baseline_orientation": true
+      },
+      "new_pair_ids": [
+        [
+          2182,
+          3330
+        ],
+        [
+          3312,
+          3313
+        ]
+      ],
+      "continuous_motion": {
+        "face_ids": [
+          2182,
+          3330
+        ],
+        "fraction": 0.01764998423,
+        "kind": "COPLANARITY_EVENT_CROSSING",
+        "swept_pairs": 2815,
+        "event_roots_checked": 42
+      },
+      "mechanically_feasible_motion_seed": false,
+      "world_mm": null,
+      "coordinate_design_not_Human_candidate": true
+    },
+    {
+      "name": "CREASE_APEX_INWARD",
+      "native_anchor_vertex_offsets_in_dorsal_normal_mm": {
+        "3332": -0.15,
+        "3340": -0.15
+      },
+      "support_depth": 5,
+      "seed_is_target_or_clearance": false,
+      "max_displacement_mm": 0.1457663207334046,
+      "orientation": {
+        "new_reversed_faces": [],
+        "new_degenerate_faces": [],
+        "new_bowtie_faces": [],
+        "minimum_area_mm2": 1.62611660812811,
+        "positive_valid_baseline_orientation": true
+      },
+      "new_pair_ids": [
+        [
+          3329,
+          3331
+        ]
+      ],
+      "continuous_motion": {
+        "face_ids": [
+          204,
+          3314
+        ],
+        "fraction": 0.56523026718,
+        "kind": "COPLANARITY_EVENT_CROSSING",
+        "swept_pairs": 2815,
+        "event_roots_checked": 1
+      },
+      "mechanically_feasible_motion_seed": false,
+      "world_mm": null,
+      "coordinate_design_not_Human_candidate": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "use_deform_saved": false,
+  "parent_saved": "THUMB_IP_R",
+  "use_connect_saved": true,
+  "head_semantic": "fingertip surface endpoint shared with IP tail",
+  "tail_semantic": "orientation/visualization helper extension, 30% distal segment length beyond head; intentionally outside skin",
+  "deformation_driver": false,
+  "downstream_weight_role": "TIP excluded from DEFORM in Stage5B R1; IP tail is the deform segment endpoint",
+  "teaching_application_consumer": "NOT independently evidenced in inspected builder; only production endpoint/orientation helper semantics claimed",
+  "contract_sources": [
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5a\\scripts\\stage5a_build.py",
+      "sha256": "9666742b392b855deefe8c68686843da2bb34a73bd03f43fea2626fbed12f9e6",
+      "lines": [
+        146,
+        192
+      ],
+      "role": "Deform IP, non-deform TIP; connected endpoint and 0.30 extension"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5a\\scripts\\stage5a_build.py",
+      "sha256": "9666742b392b855deefe8c68686843da2bb34a73bd03f43fea2626fbed12f9e6",
+      "lines": [
+        227,
+        249
+      ],
+      "role": "Local +Z projected dorsal; parent connectivity"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+      "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+      "lines": [
+        6,
+        16
+      ],
+      "role": "Three slot contract and retained IP head"
+    },
+    {
+      "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+      "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+      "lines": [
+        245,
+        260
+      ],
+      "role": "R2A endpoint convention"
+    }
+  ],
+  "not_a_tip_named_joint_relocation": true,
+  "candidate_head_world_m": [
+    1.4514825344085693,
+    0.010474493727087975,
+    0.48555445671081543
+  ],
+  "candidate_tail_world_m": [
+    1.4516690373420715,
+    0.011778705567121506,
+    0.49202044904232023
+  ],
+  "candidate_helper_outside_skin_expected": true
+}

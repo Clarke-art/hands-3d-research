@@ -1,0 +1,26 @@
+import sys,time,json,subprocess
+from pathlib import Path
+sys.dont_write_bytecode=True;O=Path(__file__).resolve().parent;sys.path.insert(0,str(O));from rig_model import *
+start=time.monotonic();a=json.loads((O/'ACTUAL_BLENDER_VALIDATION.json').read_text());assert a['all_geometry_gates'] and a['motion_pass'];r=json.loads((O/'CORRECTION_SOLVE_RESULTS.json').read_text());nodes=r['nodes'];known={float(x['display_time']):x for x in a['nodes']};plans=[];rounds=[]
+def control(t):
+ i=next(i for i in range(len(nodes)-1) if nodes[i]['display_time']-1e-12<=t<=nodes[i+1]['display_time']+1e-12);lo=nodes[i];hi=nodes[i+1];s=(t-lo['display_time'])/(hi['display_time']-lo['display_time']);z=(1-s)*np.array(lo['latent'])+s*np.array(hi['latent']);assert lo['contacts']==hi['contacts'];return dict(id='adj_'+format(t,'.12f').replace('.','_'),display_time=t,latent=z.tolist(),state=state(z).tolist(),contacts=lo['contacts'])
+intervals=[(nodes[i]['display_time'],nodes[i+1]['display_time']) for i in range(len(nodes)-1)]
+for depth in range(3):
+ if not intervals:break
+ req=[control((lo+hi)/2) for lo,hi in intervals];requestfile=O/('ADJ_REQUEST_'+str(depth)+'.json');outfile=O/('ADJ_ACTUAL_'+str(depth)+'.json');requestfile.write_text(json.dumps(req,indent=2));tick=time.monotonic()
+ with (O/'logs'/('blender_adj_'+str(depth)+'.log')).open('w') as log:subprocess.run([r'D:\blender\blender.exe','-b','-t','4','--python',str(O/'batch_verify.py'),'--',str(requestfile),str(outfile)],stdout=log,stderr=subprocess.STDOUT,timeout=40,check=True)
+ actual=json.loads(outfile.read_text());assert len(actual)==len(req)
+ for x in actual:known[x['display_time']]=x
+ nextintervals=[];decisions=[]
+ for (lo,hi),mid in zip(intervals,actual):
+  left=known[lo];right=known[hi];v=float(np.linalg.norm(np.array(right['wrist_world_m'])-left['wrist_world_m'])*1000/(hi-lo));gap=lambda x:x['contact_results'][0]['geometry']['contact']['true_pulp_min_signed_gap_mm'];curve=abs(gap(mid)-(gap(left)+gap(right))/2);sig=lambda x:tuple(x['contact_results'][0]['geometry']['contact']['top_surface_crossing_triangle_ids']);switch=sig(left)!=sig(mid) or sig(mid)!=sig(right);risk=not mid['all_gates'] or max(mid['target_max_depth_mm'],mid['non_target_or_wrong_region_max_mm'])>.20;refine=bool(v>350 or curve>.000025 or switch or risk)
+  decisions.append(dict(interval=[lo,hi],midpoint=mid['display_time'],speed_mm_s=v,gap_curvature_mm=curve,face_crossing_set_switch=switch,geometry_risk=risk,refine=refine,threshold_note='350mm/s and curvature thresholds trigger extra sampling only; acceptance gate remains500mm/s and0.25mm'))
+  if refine:nextintervals.extend([(lo,mid['display_time']),(mid['display_time'],hi)])
+ rounds.append(dict(depth=depth,new_samples=len(req),seconds=time.monotonic()-tick,decisions=decisions));intervals=nextintervals
+rows=[known[t] for t in sorted(known)];segments=[];bounds=json.loads((O/'RECOVERY_TIMELINE_INPUT.json').read_text())['motion_bounds'];vl=np.array(bounds['latent_velocity'])
+for aa,bb in zip(rows,rows[1:]):
+ dt=bb['display_time']-aa['display_time'];speed=float(np.linalg.norm(np.array(bb['wrist_world_m'])-aa['wrist_world_m'])*1000/dt);rate=(np.array(bb['latent'])-aa['latent'])/dt;qrate=(np.array(bb['state'][6:])-aa['state'][6:])/dt;segments.append(dict(dt=dt,wrist_speed_mm_s=speed,latent_rates=rate.tolist(),mapped_joint_rates=qrate.tolist(),pass_=bool(speed<=500 and np.all(abs(rate)<=vl+1e-6) and np.all(abs(qrate)<=240+1e-6))))
+passed=all(x['all_gates'] for x in rows) and all(x['pass_'] for x in segments)
+reference=json.loads((O/'RECOVERY_TIMELINE_INPUT.json').read_text())['preceding_valid_reference'];dt=rows[0]['display_time']-reference['display_time'];distance=float(np.linalg.norm(np.array(rows[0]['wrist_world_m'])-reference['wrist_world_m'])*1000)
+result=dict(status='LOCAL_ADJACENCY_SAMPLED_PASS_HUMAN_PENDING' if passed else 'COUPLED_NODES_PASS_INTERPOLATION_FAIL',authority='DESIGN_PROVISIONAL',interval=[rows[0]['display_time'],rows[-1]['display_time']],duration_seconds=rows[-1]['display_time']-rows[0]['display_time'],method='Piecewise linear latent diagnostic after joint-node pass, never used to repair independent states',sample_count=len(rows),rounds=rounds,actual_samples=rows,segments=segments,max_wrist_speed_mm_s=max(x['wrist_speed_mm_s'] for x in segments),max_target_intrusion_mm=max(x['target_max_depth_mm'] for x in rows),max_wrong_region_intrusion_mm=max(x['non_target_or_wrong_region_max_mm'] for x in rows),max_self_crossings=max(x['self_crossings'] for x in rows),all_gates=passed,continuous_global_proof=False,full_25ms_regression=False,original_24_sample_regression=False,derivative_continuity='C0 piecewise interpolation; C1/C2 not claimed',external_reference_diagnostic=dict(reference_id=reference['id'],reference_time=reference['display_time'],dt=dt,distance_mm=distance,allowed_mm=500*dt,necessary_average_speed_mm_s=distance/dt,selected_local_solution_can_connect_under_500=distance<=500*dt,scope='Not an optimized edge. If prior reference and selected first node both fixed this is a necessary displacement test, not proof that all adjustable choices fail.'),wall_seconds=time.monotonic()-start)
+(O/'LOCAL_ADJACENCY_CHECK.json').write_text(json.dumps(result,indent=2));print('ADJACENCY',result['status'],len(rows),result['max_wrist_speed_mm_s'],result['external_reference_diagnostic'],flush=True)

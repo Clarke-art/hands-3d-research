@@ -1,0 +1,1514 @@
+{
+ "stage": "R1E_THUMB_TRANSITION_GEOMETRIC_FEASIBILITY_CMC_OPP_30_SEVERE_EDGE_TOPOLOGY_MAP",
+ "generated_at": "2026-10-01T17:17:42.729932+08:00",
+ "read_only": true,
+ "pose": "CMC_OPP_30",
+ "motion_components_deg": {
+  "2577": {
+   "IP": 0.0,
+   "MCP": 0.0,
+   "CMC": 30.000000023
+  }
+ },
+ "thresholds": {
+  "severe_stretch_x": 5.0,
+  "severe_min_bind_mm": 3.0
+ },
+ "severe_edge_count": 32,
+ "by_level": {
+  "LEVEL_2_COLLAR_ONE_RING": 16,
+  "LEVEL_4_PLUS_TRANSITION": 4,
+  "LEVEL_1_COLLAR_VERTEX_INCIDENT": 12
+ },
+ "by_semantic_pair": {
+  "THUMB_DISTAL|THUMB_DISTAL": 25,
+  "DISTAL_CAP|THUMB_DISTAL": 3,
+  "FIRST_WEB|THUMB_DISTAL": 2,
+  "FIRST_WEB|PALM": 1,
+  "PALM|THUMB_MCP_TRANSITION": 1
+ },
+ "by_inner_ring_of_collar": {
+  "1": 16,
+  "12": 2,
+  "11": 1,
+  "13": 1,
+  "0": 12
+ },
+ "by_g_to_cap": {
+  "5": 3,
+  "8": 3,
+  "4": 3,
+  "6": 3,
+  "3": 4,
+  "14": 1,
+  "7": 2,
+  "2": 4,
+  "15": 1,
+  "1": 5,
+  "0": 3
+ },
+ "edges": [
+  {
+   "edge_id": 3676,
+   "v0": 2171,
+   "v1": 2574,
+   "ratio": 7.3462,
+   "bind_mm": 3.6241,
+   "posed_mm": 26.6233,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    6,
+    5
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4047,
+    "WRIST_R": 0.5953
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.9624,
+    "THUMB_MCP_R": 0.0,
+    "WRIST_R": 0.0376
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9767,
+    "INDEX_PIP_R": 0.0058,
+    "WRIST_R": 0.0175
+   },
+   "weights_R1B_v1": {
+    "INDEX_MCP_R": 0.9388,
+    "THUMB_CMC_R": 0.0,
+    "THUMB_MCP_R": 0.0036,
+    "WRIST_R": 0.0577
+   },
+   "displacement_v0_mm": 19.6887,
+   "displacement_v1_mm": 45.0366
+  },
+  {
+   "edge_id": 5879,
+   "v0": 1551,
+   "v1": 3125,
+   "ratio": 7.2508,
+   "bind_mm": 3.3701,
+   "posed_mm": 24.436,
+   "level": "LEVEL_4_PLUS_TRANSITION",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "FIRST_WEB",
+   "semantic_pair": "FIRST_WEB|THUMB_DISTAL",
+   "g_to_collar": [
+    12,
+    12
+   ],
+   "g_to_distal_cap": [
+    8,
+    9
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.0,
+    "THUMB_MCP_R": 0.06,
+    "WRIST_R": 0.94
+   },
+   "weights_R1E_v1": {
+    "THUMB_MCP_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "THUMB_IP_R": 0.0316,
+    "THUMB_MCP_R": 0.9684
+   },
+   "weights_R1B_v1": {
+    "THUMB_MCP_R": 1.0
+   },
+   "displacement_v0_mm": 1.5212,
+   "displacement_v1_mm": 25.2982
+  },
+  {
+   "edge_id": 2692,
+   "v0": 690,
+   "v1": 2177,
+   "ratio": 7.2096,
+   "bind_mm": 3.6804,
+   "posed_mm": 26.5344,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    5,
+    4
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4279,
+    "WRIST_R": 0.5721
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.9887,
+    "WRIST_R": 0.0113
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9794,
+    "INDEX_PIP_R": 0.0055,
+    "WRIST_R": 0.0151
+   },
+   "weights_R1B_v1": {
+    "INDEX_MCP_R": 0.946,
+    "THUMB_CMC_R": 0.0,
+    "THUMB_MCP_R": 0.0035,
+    "WRIST_R": 0.0505
+   },
+   "displacement_v0_mm": 20.8925,
+   "displacement_v1_mm": 46.4318
+  },
+  {
+   "edge_id": 2702,
+   "v0": 697,
+   "v1": 2182,
+   "ratio": 7.0694,
+   "bind_mm": 3.6779,
+   "posed_mm": 26.0006,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    7,
+    6
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.3752,
+    "WRIST_R": 0.6248
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.9085,
+    "WRIST_R": 0.0915
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9782,
+    "INDEX_PIP_R": 0.0058,
+    "WRIST_R": 0.016
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9428,
+    "INDEX_PIP_R": 0.0007,
+    "WRIST_R": 0.0564
+   },
+   "displacement_v0_mm": 18.2918,
+   "displacement_v1_mm": 42.5973
+  },
+  {
+   "edge_id": 2347,
+   "v0": 2004,
+   "v1": 618,
+   "ratio": 6.8631,
+   "bind_mm": 3.8615,
+   "posed_mm": 26.5023,
+   "level": "LEVEL_4_PLUS_TRANSITION",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "FIRST_WEB",
+   "semantic_pair": "FIRST_WEB|THUMB_DISTAL",
+   "g_to_collar": [
+    11,
+    11
+   ],
+   "g_to_distal_cap": [
+    8,
+    9
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.0668,
+    "THUMB_MCP_R": 0.0124,
+    "WRIST_R": 0.9208
+   },
+   "weights_R1E_v1": {
+    "INDEX_MCP_R": 0.0681,
+    "THUMB_MCP_R": 0.9319
+   },
+   "weights_R1B_v0": {
+    "THUMB_IP_R": 0.2716,
+    "THUMB_MCP_R": 0.7284
+   },
+   "weights_R1B_v1": {
+    "INDEX_MCP_R": 0.0681,
+    "THUMB_MCP_R": 0.9319
+   },
+   "displacement_v0_mm": 2.3775,
+   "displacement_v1_mm": 27.7518
+  },
+  {
+   "edge_id": 6196,
+   "v0": 2158,
+   "v1": 3204,
+   "ratio": 6.7252,
+   "bind_mm": 3.9076,
+   "posed_mm": 26.279,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    4,
+    3
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": true,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4416,
+    "WRIST_R": 0.5584
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.9983,
+    "WRIST_R": 0.0017
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9842,
+    "INDEX_PIP_R": 0.0051,
+    "WRIST_R": 0.0107
+   },
+   "weights_R1B_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "displacement_v0_mm": 21.7523,
+   "displacement_v1_mm": 47.2473
+  },
+  {
+   "edge_id": 2367,
+   "v0": 2014,
+   "v1": 525,
+   "ratio": 6.5776,
+   "bind_mm": 4.1389,
+   "posed_mm": 27.2241,
+   "level": "LEVEL_4_PLUS_TRANSITION",
+   "semantic_v0": "FIRST_WEB",
+   "semantic_v1": "PALM",
+   "semantic_pair": "FIRST_WEB|PALM",
+   "g_to_collar": [
+    12,
+    13
+   ],
+   "g_to_distal_cap": [
+    14,
+    15
+   ],
+   "R3": [
+    "THUMB",
+    "wrist"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_MCP_R": 1.0
+   },
+   "weights_R1E_v1": {
+    "INDEX_MCP_R": 0.0123,
+    "MIDDLE_MCP_R": 0.0506,
+    "THUMB_CMC_R": 0.0021,
+    "WRIST_R": 0.9349
+   },
+   "weights_R1B_v0": {
+    "THUMB_MCP_R": 1.0
+   },
+   "weights_R1B_v1": {
+    "INDEX_MCP_R": 0.0123,
+    "MIDDLE_MCP_R": 0.0506,
+    "THUMB_CMC_R": 0.0021,
+    "WRIST_R": 0.9349
+   },
+   "displacement_v0_mm": 31.2329,
+   "displacement_v1_mm": 0.0668
+  },
+  {
+   "edge_id": 3680,
+   "v0": 2162,
+   "v1": 2575,
+   "ratio": 6.4837,
+   "bind_mm": 3.7685,
+   "posed_mm": 24.4337,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    8,
+    7
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.3416,
+    "WRIST_R": 0.6584
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.8303,
+    "WRIST_R": 0.1697
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9823,
+    "INDEX_PIP_R": 0.0054,
+    "WRIST_R": 0.0123
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9511,
+    "INDEX_PIP_R": 0.0006,
+    "WRIST_R": 0.0482
+   },
+   "displacement_v0_mm": 16.7507,
+   "displacement_v1_mm": 39.1544
+  },
+  {
+   "edge_id": 2695,
+   "v0": 2178,
+   "v1": 695,
+   "ratio": 6.2522,
+   "bind_mm": 4.1236,
+   "posed_mm": 25.7819,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    2,
+    1
+   ],
+   "g_to_distal_cap": [
+    2,
+    3
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": true,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.4625,
+    "WRIST_R": 0.5375
+   },
+   "weights_R1B_v0": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9905,
+    "INDEX_PIP_R": 0.0047,
+    "WRIST_R": 0.0049
+   },
+   "displacement_v0_mm": 48.0289,
+   "displacement_v1_mm": 23.1506
+  },
+  {
+   "edge_id": 5928,
+   "v0": 1676,
+   "v1": 3137,
+   "ratio": 6.1958,
+   "bind_mm": 4.0117,
+   "posed_mm": 24.8558,
+   "level": "LEVEL_4_PLUS_TRANSITION",
+   "semantic_v0": "PALM",
+   "semantic_v1": "THUMB_MCP_TRANSITION",
+   "semantic_pair": "PALM|THUMB_MCP_TRANSITION",
+   "g_to_collar": [
+    14,
+    13
+   ],
+   "g_to_distal_cap": [
+    16,
+    15
+   ],
+   "R3": [
+    "wrist",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "INDEX_MCP_R": 0.0037,
+    "MIDDLE_MCP_R": 0.0193,
+    "THUMB_CMC_R": 0.0061,
+    "WRIST_R": 0.971
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.0245,
+    "THUMB_MCP_R": 0.9755
+   },
+   "weights_R1B_v0": {
+    "INDEX_MCP_R": 0.0037,
+    "MIDDLE_MCP_R": 0.0193,
+    "THUMB_CMC_R": 0.0061,
+    "WRIST_R": 0.971
+   },
+   "weights_R1B_v1": {
+    "THUMB_IP_R": 0.0245,
+    "THUMB_MCP_R": 0.9755
+   },
+   "displacement_v0_mm": 0.1771,
+   "displacement_v1_mm": 28.8243
+  },
+  {
+   "edge_id": 2653,
+   "v0": 2157,
+   "v1": 690,
+   "ratio": 6.0783,
+   "bind_mm": 3.6019,
+   "posed_mm": 21.8938,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    0,
+    1
+   ],
+   "g_to_distal_cap": [
+    6,
+    5
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.4279,
+    "WRIST_R": 0.5721
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.966,
+    "INDEX_PIP_R": 0.0294,
+    "WRIST_R": 0.0045
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9794,
+    "INDEX_PIP_R": 0.0055,
+    "WRIST_R": 0.0151
+   },
+   "displacement_v0_mm": 0.0,
+   "displacement_v1_mm": 20.8925
+  },
+  {
+   "edge_id": 6166,
+   "v0": 2158,
+   "v1": 3197,
+   "ratio": 6.0506,
+   "bind_mm": 3.7855,
+   "posed_mm": 22.9043,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    4,
+    5
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4416,
+    "WRIST_R": 0.5584
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9842,
+    "INDEX_PIP_R": 0.0051,
+    "WRIST_R": 0.0107
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9683,
+    "INDEX_PIP_R": 0.0291,
+    "WRIST_R": 0.0026
+   },
+   "displacement_v0_mm": 21.7523,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 2656,
+   "v0": 695,
+   "v1": 2159,
+   "ratio": 6.0485,
+   "bind_mm": 3.9509,
+   "posed_mm": 23.8968,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    3,
+    4
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4625,
+    "WRIST_R": 0.5375
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9905,
+    "INDEX_PIP_R": 0.0047,
+    "WRIST_R": 0.0049
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9697,
+    "INDEX_PIP_R": 0.0293,
+    "WRIST_R": 0.001
+   },
+   "displacement_v0_mm": 23.1506,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 2704,
+   "v0": 701,
+   "v1": 2183,
+   "ratio": 6.0188,
+   "bind_mm": 4.4437,
+   "posed_mm": 26.7458,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    3,
+    2
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4286,
+    "WRIST_R": 0.5714
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.9551,
+    "WRIST_R": 0.0449
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9974,
+    "INDEX_PIP_R": 0.0024,
+    "WRIST_R": 0.0002
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.998,
+    "INDEX_PIP_R": 0.0002,
+    "WRIST_R": 0.0019
+   },
+   "displacement_v0_mm": 22.1059,
+   "displacement_v1_mm": 47.1939
+  },
+  {
+   "edge_id": 6178,
+   "v0": 2168,
+   "v1": 3200,
+   "ratio": 6.0112,
+   "bind_mm": 4.2359,
+   "posed_mm": 25.463,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    2,
+    3
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4892,
+    "WRIST_R": 0.5108
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9936,
+    "INDEX_PIP_R": 0.0049,
+    "WRIST_R": 0.0015
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9654,
+    "INDEX_PIP_R": 0.0344,
+    "WRIST_R": 0.0002
+   },
+   "displacement_v0_mm": 24.9342,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 2676,
+   "v0": 703,
+   "v1": 2169,
+   "ratio": 5.9617,
+   "bind_mm": 4.3875,
+   "posed_mm": 26.1568,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    1,
+    2
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.5,
+    "WRIST_R": 0.5
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9945,
+    "INDEX_PIP_R": 0.0051,
+    "WRIST_R": 0.0004
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9615,
+    "INDEX_PIP_R": 0.0384,
+    "WRIST_R": 0.0
+   },
+   "displacement_v0_mm": 25.901,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 6182,
+   "v0": 2171,
+   "v1": 3201,
+   "ratio": 5.9258,
+   "bind_mm": 3.5001,
+   "posed_mm": 20.741,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    6,
+    7
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4047,
+    "WRIST_R": 0.5953
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9767,
+    "INDEX_PIP_R": 0.0058,
+    "WRIST_R": 0.0175
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9643,
+    "INDEX_PIP_R": 0.0302,
+    "WRIST_R": 0.0055
+   },
+   "displacement_v0_mm": 19.6887,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 2713,
+   "v0": 2187,
+   "v1": 700,
+   "ratio": 5.8962,
+   "bind_mm": 3.6731,
+   "posed_mm": 21.6578,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    2,
+    1
+   ],
+   "g_to_distal_cap": [
+    6,
+    7
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.7178,
+    "WRIST_R": 0.2822
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.295,
+    "WRIST_R": 0.705
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9594,
+    "INDEX_PIP_R": 0.0005,
+    "WRIST_R": 0.0401
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9856,
+    "INDEX_PIP_R": 0.0044,
+    "WRIST_R": 0.01
+   },
+   "displacement_v0_mm": 34.1077,
+   "displacement_v1_mm": 14.5495
+  },
+  {
+   "edge_id": 3744,
+   "v0": 2168,
+   "v1": 2591,
+   "ratio": 5.7768,
+   "bind_mm": 4.2938,
+   "posed_mm": 24.8043,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    2,
+    1
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": true,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4892,
+    "WRIST_R": 0.5108
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9936,
+    "INDEX_PIP_R": 0.0049,
+    "WRIST_R": 0.0015
+   },
+   "weights_R1B_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "displacement_v0_mm": 24.9342,
+   "displacement_v1_mm": 48.8726
+  },
+  {
+   "edge_id": 6190,
+   "v0": 2175,
+   "v1": 3203,
+   "ratio": 5.7279,
+   "bind_mm": 4.6651,
+   "posed_mm": 26.721,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    1,
+    2
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.5,
+    "WRIST_R": 0.5
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9952,
+    "INDEX_PIP_R": 0.0047,
+    "WRIST_R": 0.0001
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9593,
+    "INDEX_PIP_R": 0.0407,
+    "WRIST_R": 0.0
+   },
+   "displacement_v0_mm": 26.1672,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 6162,
+   "v0": 2154,
+   "v1": 3196,
+   "ratio": 5.6978,
+   "bind_mm": 4.6356,
+   "posed_mm": 26.4124,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    2,
+    3
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4811,
+    "WRIST_R": 0.5189
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9969,
+    "INDEX_PIP_R": 0.003,
+    "WRIST_R": 0.0001
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9708,
+    "INDEX_PIP_R": 0.0292,
+    "WRIST_R": 0.0
+   },
+   "displacement_v0_mm": 25.1008,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 3732,
+   "v0": 2165,
+   "v1": 2588,
+   "ratio": 5.6354,
+   "bind_mm": 4.2458,
+   "posed_mm": 23.9267,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    4,
+    3
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.36,
+    "WRIST_R": 0.64
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.8279,
+    "WRIST_R": 0.1721
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9969,
+    "INDEX_PIP_R": 0.0023,
+    "WRIST_R": 0.0008
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9948,
+    "INDEX_PIP_R": 0.0002,
+    "WRIST_R": 0.0051
+   },
+   "displacement_v0_mm": 18.3389,
+   "displacement_v1_mm": 40.4592
+  },
+  {
+   "edge_id": 2664,
+   "v0": 697,
+   "v1": 2163,
+   "ratio": 5.5325,
+   "bind_mm": 3.528,
+   "posed_mm": 19.5188,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    7,
+    8
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.3752,
+    "WRIST_R": 0.6248
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9782,
+    "INDEX_PIP_R": 0.0058,
+    "WRIST_R": 0.016
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9641,
+    "INDEX_PIP_R": 0.0312,
+    "WRIST_R": 0.0047
+   },
+   "displacement_v0_mm": 18.2918,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 3660,
+   "v0": 2154,
+   "v1": 2570,
+   "ratio": 5.5132,
+   "bind_mm": 4.7722,
+   "posed_mm": 26.3104,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    2,
+    1
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4811,
+    "WRIST_R": 0.5189
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9969,
+    "INDEX_PIP_R": 0.003,
+    "WRIST_R": 0.0001
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9989,
+    "INDEX_PIP_R": 0.0002,
+    "WRIST_R": 0.0009
+   },
+   "displacement_v0_mm": 25.1008,
+   "displacement_v1_mm": 49.8362
+  },
+  {
+   "edge_id": 2645,
+   "v0": 2153,
+   "v1": 694,
+   "ratio": 5.4933,
+   "bind_mm": 4.935,
+   "posed_mm": 27.1093,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    0,
+    1
+   ],
+   "g_to_distal_cap": [
+    2,
+    1
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.5,
+    "WRIST_R": 0.5
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9621,
+    "INDEX_PIP_R": 0.0379,
+    "WRIST_R": 0.0
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9963,
+    "INDEX_PIP_R": 0.0037,
+    "WRIST_R": 0.0001
+   },
+   "displacement_v0_mm": 0.0,
+   "displacement_v1_mm": 26.2177
+  },
+  {
+   "edge_id": 2722,
+   "v0": 703,
+   "v1": 2192,
+   "ratio": 5.431,
+   "bind_mm": 4.5406,
+   "posed_mm": 24.6595,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "DISTAL_CAP",
+   "semantic_pair": "DISTAL_CAP|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    1,
+    0
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": true,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.5,
+    "WRIST_R": 0.5
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9945,
+    "INDEX_PIP_R": 0.0051,
+    "WRIST_R": 0.0004
+   },
+   "weights_R1B_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "displacement_v0_mm": 25.901,
+   "displacement_v1_mm": 49.6005
+  },
+  {
+   "edge_id": 2716,
+   "v0": 694,
+   "v1": 2189,
+   "ratio": 5.372,
+   "bind_mm": 4.7104,
+   "posed_mm": 25.3043,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "DISTAL_CAP",
+   "semantic_pair": "DISTAL_CAP|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    1,
+    0
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": true,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.5,
+    "WRIST_R": 0.5
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9963,
+    "INDEX_PIP_R": 0.0037,
+    "WRIST_R": 0.0001
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_PIP_R": 0.0002,
+    "THUMB_IP_R": 0.9998
+   },
+   "displacement_v0_mm": 26.2177,
+   "displacement_v1_mm": 50.1062
+  },
+  {
+   "edge_id": 3656,
+   "v0": 2175,
+   "v1": 2569,
+   "ratio": 5.3284,
+   "bind_mm": 4.7229,
+   "posed_mm": 25.1659,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "DISTAL_CAP",
+   "semantic_pair": "DISTAL_CAP|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    1,
+    0
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": true,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.5,
+    "WRIST_R": 0.5
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9952,
+    "INDEX_PIP_R": 0.0047,
+    "WRIST_R": 0.0001
+   },
+   "weights_R1B_v1": {
+    "THUMB_IP_R": 1.0
+   },
+   "displacement_v0_mm": 26.1672,
+   "displacement_v1_mm": 50.0224
+  },
+  {
+   "edge_id": 2707,
+   "v0": 2184,
+   "v1": 691,
+   "ratio": 5.3218,
+   "bind_mm": 4.0392,
+   "posed_mm": 21.496,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    2,
+    1
+   ],
+   "g_to_distal_cap": [
+    4,
+    5
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.7098,
+    "WRIST_R": 0.2902
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.2949,
+    "WRIST_R": 0.7051
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9883,
+    "INDEX_PIP_R": 0.0002,
+    "WRIST_R": 0.0114
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.995,
+    "INDEX_PIP_R": 0.0028,
+    "WRIST_R": 0.0022
+   },
+   "displacement_v0_mm": 34.4021,
+   "displacement_v1_mm": 14.8584
+  },
+  {
+   "edge_id": 2648,
+   "v0": 701,
+   "v1": 2155,
+   "ratio": 5.3013,
+   "bind_mm": 4.4762,
+   "posed_mm": 23.7298,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    3,
+    4
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.4286,
+    "WRIST_R": 0.5714
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9974,
+    "INDEX_PIP_R": 0.0024,
+    "WRIST_R": 0.0002
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.977,
+    "INDEX_PIP_R": 0.023,
+    "WRIST_R": 0.0
+   },
+   "displacement_v0_mm": 22.1059,
+   "displacement_v1_mm": 0.0
+  },
+  {
+   "edge_id": 3664,
+   "v0": 2173,
+   "v1": 2571,
+   "ratio": 5.0858,
+   "bind_mm": 3.8612,
+   "posed_mm": 19.6374,
+   "level": "LEVEL_2_COLLAR_ONE_RING",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    2
+   ],
+   "g_to_distal_cap": [
+    6,
+    5
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.2624,
+    "WRIST_R": 0.7376
+   },
+   "weights_R1E_v1": {
+    "THUMB_IP_R": 0.6328,
+    "WRIST_R": 0.3672
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.991,
+    "INDEX_PIP_R": 0.0037,
+    "WRIST_R": 0.0053
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9769,
+    "INDEX_PIP_R": 0.0004,
+    "WRIST_R": 0.0227
+   },
+   "displacement_v0_mm": 13.0921,
+   "displacement_v1_mm": 30.4458
+  },
+  {
+   "edge_id": 6170,
+   "v0": 2162,
+   "v1": 3198,
+   "ratio": 5.0113,
+   "bind_mm": 3.6154,
+   "posed_mm": 18.1179,
+   "level": "LEVEL_1_COLLAR_VERTEX_INCIDENT",
+   "semantic_v0": "THUMB_DISTAL",
+   "semantic_v1": "THUMB_DISTAL",
+   "semantic_pair": "THUMB_DISTAL|THUMB_DISTAL",
+   "g_to_collar": [
+    1,
+    0
+   ],
+   "g_to_distal_cap": [
+    8,
+    9
+   ],
+   "R3": [
+    "THUMB",
+    "THUMB"
+   ],
+   "is_historic_CLASS_B": false,
+   "weights_R1E_v0": {
+    "THUMB_IP_R": 0.3416,
+    "WRIST_R": 0.6584
+   },
+   "weights_R1E_v1": {
+    "WRIST_R": 1.0
+   },
+   "weights_R1B_v0": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.9823,
+    "INDEX_PIP_R": 0.0054,
+    "WRIST_R": 0.0123
+   },
+   "weights_R1B_v1": {
+    "INDEX_DIP_R": 0.0,
+    "INDEX_MCP_R": 0.966,
+    "INDEX_PIP_R": 0.0306,
+    "WRIST_R": 0.0034
+   },
+   "displacement_v0_mm": 16.7507,
+   "displacement_v1_mm": 0.0
+  }
+ ],
+ "dominant_region": "THUMB_DISTAL|THUMB_DISTAL"
+}

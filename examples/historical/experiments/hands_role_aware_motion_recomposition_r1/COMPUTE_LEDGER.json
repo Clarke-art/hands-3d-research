@@ -1,0 +1,45 @@
+{
+  "numerical_limit_seconds": 180,
+  "numerical_used_seconds": 12.532231899996987,
+  "blender_diagnostic_seconds": 0.7240397999994457,
+  "report_seconds": 0.6228869000042323,
+  "total_process_seconds": 13.155118800001219,
+  "stages": [
+    {
+      "name": "prepare",
+      "kind": "numerical",
+      "seconds": 2.5281213999987813,
+      "cap_seconds": 20,
+      "status": "RETURNED",
+      "returncode": 0,
+      "log": "prepare.log"
+    },
+    {
+      "name": "source_fit",
+      "kind": "numerical",
+      "seconds": 9.28007069999876,
+      "cap_seconds": 30,
+      "status": "RETURNED",
+      "returncode": 0,
+      "log": "source_fit.log"
+    },
+    {
+      "name": "source_actual",
+      "kind": "blender_diagnostic",
+      "seconds": 0.7240397999994457,
+      "cap_seconds": 20,
+      "status": "RETURNED",
+      "returncode": 7,
+      "log": "source_actual.log"
+    },
+    {
+      "name": "reports",
+      "kind": "reporting",
+      "seconds": 0.6228869000042323,
+      "cap_seconds": 20,
+      "status": "RETURNED",
+      "returncode": 0,
+      "log": "reports.log"
+    }
+  ]
+}

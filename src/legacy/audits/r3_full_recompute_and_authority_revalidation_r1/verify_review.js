@@ -1,0 +1,10 @@
+const fs=require('fs'),path=require('path'),assert=require('assert');
+const dir=__dirname,api=require('./review_logic.js'),meta=JSON.parse(fs.readFileSync(path.join(dir,'R3_FRESH_REVIEW_VIEW_DATA_R1.json'),'utf8'));
+const yes={notes:'AUTOMATED LOGIC CHECK ONLY'};for(let i=1;i<=7;i++)yes['Q'+i]='YES';
+assert.equal(api.validate({}).length,7);
+const qa=api.build(yes,meta,'TEST_ONLY',true);assert.equal(qa.accepted_as_ownership_authority_candidate,false);assert.equal(qa.validation_mode,true);assert.equal(qa.response_kind,'AUTOMATED_UI_VALIDATION_NOT_HUMAN');
+const accept=api.build(yes,meta,'TEST_ONLY',false);assert.equal(accept.accepted_as_ownership_authority_candidate,true);assert.equal(accept.Human_approved_frozen,false);assert.equal(accept.sheet_revalidation_pass,false);assert(accept.revalidation_blockers.length>0);
+let cases=0;for(let i=1;i<=7;i++)for(const answer of ['NO','REVIEW_REQUIRED']){const a={...yes,['Q'+i]:answer};assert.equal(api.validate(a).length,0);const r=api.build(a,meta,'TEST_ONLY',false);assert.equal(r.accepted_as_ownership_authority_candidate,false);cases++;}
+for(const r of [qa,accept]){for(const k of ['automatic_apply','automatic_solver_execution','skin_rebuild_approved','Stage6_approved','applies_production_changes'])assert.equal(r[k],false);assert.equal(r.authorized_next_phase,null);assert.equal(r.fresh_result_label_hash,meta.result_hash)}
+const file=fs.readFileSync(path.join(dir,'R3_FRESH_RESULT_HUMAN_REVIEW.html'),'utf8');assert(file.includes('URL.createObjectURL(blob)'));assert(file.includes("link.download=FreshReview.REVIEW_ID+'_RESPONSE_'"));assert(file.includes("if(qa){status.textContent='AUTOMATED VALIDATION ONLY"));
+const result={pass:true,unanswered_rejected:true,validation_mode_cannot_approve:true,all_yes_accepts_candidate_only:true,NO_and_REVIEW_REQUIRED_cases:cases,sheet_blocker_always_retained:true,never_applies_or_authorizes_downstream:true,browser_native_JSON_download_wired:true,generated_Human_response_count:0};fs.writeFileSync(path.join(dir,'RESPONSE_LOGIC_VERIFICATION_R1.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));

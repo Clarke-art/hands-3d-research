@@ -1,0 +1,144 @@
+{
+ "stage": "STAGE5B_R1D_THUMB_DISTAL_WEIGHT_CONTINUITY_AUDIT",
+ "generated_at": "2026-10-01T08:29:07.917309+08:00",
+ "authority": "DIGIT_OWNERSHIP_AUTHORITY_R2 + LIVE Stage5A R2A joint polyline",
+ "live_thumb_arc_table_mm": [
+  0.0,
+  46.9437,
+  74.6429,
+  106.7898
+ ],
+ "stale_thumb_arc_table_mm_NOT_USED": [
+  0.0,
+  42.6796,
+  71.8815,
+  93.9454
+ ],
+ "field": {
+  "form": "centered",
+  "profile": "quintic",
+  "W_IP_mm": 19.441025,
+  "W_BASE_mm": 11.664615,
+  "MED_mm": 3.888205,
+  "R_TT_mm": 10.473499,
+  "R_MAX_mm": 27.31478
+ },
+ "edge_weight_vector_difference": {
+  "whole_mesh": {
+   "n": 6828,
+   "max_L1": 2.0,
+   "p95_L1": 0.479382,
+   "median_L1": 0.013772,
+   "max_L2": 1.39825
+  },
+  "authorised_region": {
+   "n": 589,
+   "max_L1": 2.0,
+   "p95_L1": 0.342662,
+   "median_L1": 0.00168,
+   "max_L2": 1.39825
+  }
+ },
+ "dominant_group_transition_counts": {
+  "WRIST_R -> THUMB_CMC_R": 35,
+  "THUMB_CMC_R -> WRIST_R": 24,
+  "THUMB_IP_R -> THUMB_MCP_R": 22,
+  "WRIST_R -> RING_MCP_R": 21,
+  "THUMB_CMC_R -> THUMB_MCP_R": 17,
+  "LITTLE_MCP_R -> LITTLE_PIP_R": 16,
+  "WRIST_R -> MIDDLE_MCP_R": 16,
+  "THUMB_MCP_R -> THUMB_IP_R": 13,
+  "LITTLE_MCP_R -> WRIST_R": 13,
+  "MIDDLE_DIP_R -> MIDDLE_PIP_R": 12,
+  "INDEX_DIP_R -> INDEX_PIP_R": 12,
+  "WRIST_R -> THUMB_MCP_R": 12,
+  "RING_MCP_R -> WRIST_R": 11,
+  "WRIST_R -> LITTLE_MCP_R": 11,
+  "LITTLE_PIP_R -> LITTLE_DIP_R": 11,
+  "RING_PIP_R -> RING_DIP_R": 10,
+  "RING_DIP_R -> RING_PIP_R": 10,
+  "MIDDLE_PIP_R -> MIDDLE_MCP_R": 10,
+  "RING_PIP_R -> RING_MCP_R": 9,
+  "LITTLE_DIP_R -> LITTLE_PIP_R": 9
+ },
+ "max_adjacent_weight_jump_L1": 2.0,
+ "hard_flip_edges": 3,
+ "region": {
+  "authorised_vertices": 320,
+  "primary": 266,
+  "one_ring": 39,
+  "two_ring": 9,
+  "reweighted": 283,
+  "region_expansion_rounds": 2,
+  "boundary_relaxation_rounds": 0
+ },
+ "isolated_weight_island_check": {
+  "WRIST_R": {
+   "dominant_vertices": 1552,
+   "connected_components": 2
+  },
+  "THUMB_CMC_R": {
+   "dominant_vertices": 220,
+   "connected_components": 1
+  },
+  "THUMB_MCP_R": {
+   "dominant_vertices": 155,
+   "connected_components": 2
+  },
+  "THUMB_IP_R": {
+   "dominant_vertices": 342,
+   "connected_components": 2
+  },
+  "INDEX_MCP_R": {
+   "dominant_vertices": 7,
+   "connected_components": 2
+  },
+  "INDEX_PIP_R": {
+   "dominant_vertices": 55,
+   "connected_components": 1
+  },
+  "INDEX_DIP_R": {
+   "dominant_vertices": 121,
+   "connected_components": 1
+  },
+  "MIDDLE_MCP_R": {
+   "dominant_vertices": 114,
+   "connected_components": 1
+  },
+  "MIDDLE_PIP_R": {
+   "dominant_vertices": 69,
+   "connected_components": 1
+  },
+  "MIDDLE_DIP_R": {
+   "dominant_vertices": 121,
+   "connected_components": 1
+  },
+  "RING_MCP_R": {
+   "dominant_vertices": 138,
+   "connected_components": 2
+  },
+  "RING_PIP_R": {
+   "dominant_vertices": 70,
+   "connected_components": 1
+  },
+  "RING_DIP_R": {
+   "dominant_vertices": 115,
+   "connected_components": 1
+  },
+  "LITTLE_MCP_R": {
+   "dominant_vertices": 171,
+   "connected_components": 1
+  },
+  "LITTLE_PIP_R": {
+   "dominant_vertices": 64,
+   "connected_components": 1
+  },
+  "LITTLE_DIP_R": {
+   "dominant_vertices": 102,
+   "connected_components": 1
+  }
+ },
+ "distal_cap_follows_distal_chain": true,
+ "first_web_THUMB_IP_vertices": 0,
+ "verdict": "REVIEW"
+}

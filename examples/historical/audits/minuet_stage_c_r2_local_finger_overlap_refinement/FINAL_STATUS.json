@@ -1,0 +1,57 @@
+{
+  "OVERLAP_IDENTITY": "CONFIRMED",
+  "OVERLAP_TYPE": "SAME_HAND",
+  "SOURCE_OF_DEFECT": "INHERITED_SINGLE_HAND",
+  "LOCAL_REFINEMENT": "PARTIAL",
+  "ACTIVE_KEY_CONTACT_PRESERVED": "PASS",
+  "APPROVED_SOURCE_ASSETS_PRESERVED": "YES",
+  "NON_TARGET_MOTION_PRESERVED": "PASS",
+  "MUSIC_FUNCTIONAL_CORRECTNESS": "PASS",
+  "ENGINEERING_DIAGNOSTICS": "WARN",
+  "HUMAN_VISIBLE_QUALITY": "HUMAN_PENDING",
+  "FROZEN_ASSETS_UNCHANGED": "YES",
+  "FINAL_STATUS": "READY_FOR_HUMAN_REVIEW",
+  "STAGE_C_R1_HUMAN_REVIEW": "REOPENED_FOR_LOCAL_VISIBLE_DEFECT",
+  "candidate_count": 1,
+  "candidate_sha256": "f163f633e6d8e583a5329ee7660d2c596350176e820d7cc9df7fa0222f0fa752",
+  "motion_solver_calls": 0,
+  "new_full_hand_planner_calls": 0,
+  "parameter_changes_after_lock": 0,
+  "strict_zero_geometric_intersection": "FAIL_RETAINED",
+  "residual_video_interval_sec": [
+    1.108333333,
+    1.191666667
+  ],
+  "protected_files_verified": 10691,
+  "single_target_bone": "RING_MCP_R",
+  "target_window_presentation_sec": [
+    0.8,
+    2.08
+  ],
+  "max_target_delta_deg": -6,
+  "source_audio_unchanged": true,
+  "scope_note": "Same locked partial result, no further optimization; Human must assess remaining brief fingertip adjacency.",
+  "stop": "STOP — HUMAN REVIEW",
+  "client_date": "2026-10-10",
+  "Agent_video_review": {
+    "full_original_speed_audiovisual_review": "COMPLETE_1X_BROWSER_PLAYBACK_VERIFIED_WITH_NORMAL_FRAME_REVIEW; PERCEPTUAL_AUDIO_LISTENING_NOT_CLAIMED",
+    "browser_playback_verified": {
+      "duration_sec": 5.95,
+      "playbackRate": 1,
+      "muted": false,
+      "ended": true,
+      "files": [
+        "synchronized_teaching_before_after.mp4",
+        "normal_speed_teaching.mp4",
+        "synchronized_overhead_before_after.mp4",
+        "synchronized_side_oblique_before_after.mp4"
+      ]
+    },
+    "frame_evidence": "Three delivered same-camera twelve-phase before/after sheets inspected, plus original Human arrow and actual full-size before/after locked-time frames, including worst residual1.133s",
+    "confirmed_new_product_blocker": false,
+    "local_visible_improvement": "PARTIAL; extended middle/ring tip fusion reduced, brief tip adjacency/residual intersection remains near1.108–1.192s",
+    "new_forcedV_claw_or_abnormal_straightening": "NONE_OBSERVED_IN_EXAMINED_NORMAL_FRAMES",
+    "full_motion_naturalness": "HUMAN_PENDING",
+    "Human_approval": false
+  }
+}

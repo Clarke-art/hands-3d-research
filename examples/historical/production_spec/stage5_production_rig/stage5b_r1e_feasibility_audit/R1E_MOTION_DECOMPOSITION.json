@@ -1,0 +1,84 @@
+{
+ "stage": "R1E_THUMB_TRANSITION_GEOMETRIC_FEASIBILITY_MOTION_DECOMPOSITION",
+ "generated_at": "2026-10-01T17:17:42.729932+08:00",
+ "table": [
+  {
+   "pose": "TH_IP_30",
+   "THUMB_IP_deg": 30.0,
+   "THUMB_MCP_deg": 0.0,
+   "CMC_opposition_deg": 0.0,
+   "SEVERE": 0,
+   "max_stretch": 2.1949,
+   "STRICT_BOUND": 1.3435
+  },
+  {
+   "pose": "TH_IP_45",
+   "THUMB_IP_deg": 45.0,
+   "THUMB_MCP_deg": 0.0,
+   "CMC_opposition_deg": 0.0,
+   "SEVERE": 0,
+   "max_stretch": 3.1838,
+   "STRICT_BOUND": 1.9337
+  },
+  {
+   "pose": "TH_MCP_45",
+   "THUMB_IP_deg": 0.0,
+   "THUMB_MCP_deg": 45.0,
+   "CMC_opposition_deg": 0.0,
+   "SEVERE": 17,
+   "max_stretch": 6.156,
+   "STRICT_BOUND": 3.3675
+  },
+  {
+   "pose": "CMC_OPP_30",
+   "THUMB_IP_deg": 0.0,
+   "THUMB_MCP_deg": 0.0,
+   "CMC_opposition_deg": 30.000000023,
+   "SEVERE": 32,
+   "max_stretch": 7.3462,
+   "STRICT_BOUND": 3.9013
+  },
+  {
+   "pose": "CMC_MCP_L3",
+   "THUMB_IP_deg": 0.0,
+   "THUMB_MCP_deg": 30.0,
+   "CMC_opposition_deg": 30.000000023,
+   "SEVERE": 39,
+   "max_stretch": 11.0413,
+   "STRICT_BOUND": 5.9643
+  },
+  {
+   "pose": "FULL_OPP_L3",
+   "THUMB_IP_deg": 15.0,
+   "THUMB_MCP_deg": 30.0,
+   "CMC_opposition_deg": 30.000000023,
+   "SEVERE": 41,
+   "max_stretch": 11.0413,
+   "STRICT_BOUND": 6.516
+  }
+ ],
+ "observations": {
+  "TH_IP_45_vs_TH_MCP_45": {
+   "IP_only_45": {
+    "severe": 0,
+    "max": 3.1838
+   },
+   "MCP_only_45": {
+    "severe": 17,
+    "max": 6.156
+   },
+   "conclusion": "the same 45 deg on MCP instead of IP produces the first severe population -> the residual is dominated by the MCP / proximal component, not by the IP"
+  },
+  "CMC_OPP_30_vs_CMC_MCP_L3": {
+   "CMC_30_only": {
+    "severe": 32,
+    "max": 7.3462
+   },
+   "CMC_30_plus_MCP_30": {
+    "severe": 39,
+    "max": 11.0413
+   },
+   "conclusion": "adding MCP 30 deg to the same CMC 30 deg opposition changes the distribution but not the mechanism"
+  }
+ }
+}

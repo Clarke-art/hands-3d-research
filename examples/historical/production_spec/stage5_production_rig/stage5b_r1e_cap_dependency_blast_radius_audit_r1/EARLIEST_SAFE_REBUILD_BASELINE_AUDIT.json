@@ -1,0 +1,53 @@
+{
+  "execution": "CAP_DEPENDENCY_BLAST_RADIUS_AUDIT_R1",
+  "earliest_cap_authority_point": "Stage5A R2A old distal-cap selector/representative (R2 earlier tip-selection is predecessor evidence, not retroactively rewritten)",
+  "earliest_cap_derived_production_data_change": "Stage5A R2A: THUMB_TIP_R.head/.tail, THUMB_IP_R.tail and align_roll for IP/TIP",
+  "earliest_skin_implementation_dependency": "Stage5B R1 via actual R2A bind bone geometry",
+  "first_explicit_cap_membership_skin_write": "Stage5B R1A",
+  "earliest_safe_rebuild_baseline": "Frozen Stage4C_R2 unskinned geometry/RSSF/nail/topology plus independently approved Stage5A hierarchy/origin/unrelated heads; exclude cap-derived R2A distal endpoint/frame slots pending targeted kinematic reconciliation",
+  "full_R2A_rig_unconditional_reuse": false,
+  "local_rig_dependency_revalidation_required": true,
+  "local_rig_rebuild_condition": "Only if separate kinematic authority review determines a slot/frame change; membership freeze is not bone-driver approval",
+  "unaffected_inheritable_assets": [
+    "Stage4A topology/UV/material/CMC cage geometry",
+    "Stage4B RSSF pose geometry",
+    "Stage4C approved nail face mask",
+    "Stage5A parent hierarchy and deform/nondeform group contract",
+    "Stage5A wrist/origin, CMC/MCP/IP heads and non-thumb joint heads not cap-derived"
+  ],
+  "conditional_assets": {
+    "R2A_THUMB_TIP_and_IP_tail_roll": "DIRECT CAP REPRESENTATIVE DEPENDENCY: targeted authority/kinematic revalidation before reuse",
+    "Stage5B_R1A_FIRST_WEB_21_membership_wrapper": "DIRECT cap-overridden ownership-boundary and cap-exclusion dependency; static targeted revalidation, not blanket first-web redesign",
+    "nail_weight_and_ownership_wrapper": "Revalidate cap/nail/ownership gates, approved Stage4 nail authority remains unchanged",
+    "R1E_CMC_cage_protection_wrapper": "Uses R3 label filter; static wrapper revalidation, cage geometry authority unchanged"
+  },
+  "R1B_preservation_and_reuse": {
+    "status": "FROZEN HISTORICAL PRODUCTION MASTER",
+    "copy_non_cap_dependent_vector_entries": true,
+    "candidate_rebuild_required": true,
+    "original_file_overwrite_allowed": false,
+    "verified_independent_vertex_count": 1931
+  },
+  "source_evidence": [
+    {
+      "path": "production_spec/stage5_production_rig/stage5a_r2a/scripts/s5a_r2a_build.py",
+      "locator": "L163–190,L245–260",
+      "claim": "REP old cap → real bone endpoint/frame writes",
+      "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1/scripts/s5b_r1_bind.py",
+      "locator": "L206–210,L282,L344",
+      "claim": "Live actual bone positions influence weight generation",
+      "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1a/scripts/r1a_common.py",
+      "locator": "L428–483",
+      "claim": "Explicit cap ownership drives skin and first-web selector",
+      "sha256": "67857339f01898c37dfa9f2d8a60c527d3205b5d9a3419e6692b2d23df574a80"
+    }
+  ],
+  "bone_hierarchy_or_joint_heads_reopened": false,
+  "all_changes_deferred": true
+}

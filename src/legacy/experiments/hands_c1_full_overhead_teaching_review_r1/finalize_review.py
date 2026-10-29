@@ -1,0 +1,69 @@
+from common import *
+from datetime import datetime,timezone
+cam=read(OUT/'CAMERA_FRAMING_CHECK.json');qa=read(OUT/'FINAL_MEDIA_QA.json')
+verification=read(C1/'VIDEO_VERIFICATION.json')['normal_speed_overhead.mp4'];render=read(C1/'RENDER_MANIFEST.json')
+assert verification['sha256']==sha(C1/'normal_speed_overhead.mp4')
+assert render['candidate_sha256']==MAN['sha256'] and render['views']['OVERHEAD']==cam['camera']
+assert cam['pass_'] and qa['pass_'] and cam['notes']==23
+prefix=OUT.as_posix()
+report=f'''**HANDS_C1_FULL_OVERHEAD_TEACHING_REVIEW_R1**
+
+日期：2026-10-15（Asia/Shanghai）。**READY_FOR_HUMAN_VISUAL_REVIEW**。
+
+已交付原 C1 的完整正俯视 [1×视频](<{prefix}/C1_FULL_OVERHEAD_1X.mp4>) 和 [0.5×视频](<{prefix}/C1_FULL_OVERHEAD_0_5X.mp4>)。复用经核验的 C1 原俯视视频，没有重新生成动作或重复3D渲染。1920×1080输出由原生1280×720画面以Lanczos等比例放大，不冒称新增原生1080细节。
+
+**相机与构图。** 实际读取冻结场景的 `STAGE_C_OVERHEAD`：正交投影，位置约 `(0.0839353, -0.0547938, 0.9000000)m`，光轴 `(0,0,-1)`；相对中性键面垂直偏差 **0°**，键盘水平偏差 **0°**，正交宽度约 **0.673317m**。相机357帧内不变，不是教学斜视/侧斜相机。
+
+在隔离副本中检查了全部357帧的实际双手网格及 G3–G5（MIDI55–79）之间25个键的完整范围，均无裁切；双手最低边界仍有约5.36%画面高度余量，音域键体最高边界距上沿约5.02%。正式编码前人工查看开始、中间、结束及全部已识别移动极值画面（第34、69、169、185、216、244、279、311帧），固定构图覆盖两手全部手指和实际演奏区，未强行容纳88键。未改灯光、材质或相机，也未添加文字/指法数字遮挡。
+
+| 输出 | 分辨率 / 帧率 | 帧数 / 时长 | 时间映射与音频 |
+|---|---|---|---|
+| `C1_FULL_OVERHEAD_1X.mp4` | 1920×1080 / 60fps | 357帧 / **5.950s** | 原357帧逐帧保留；AAC音轨直接复用，解码波形与原C1视频完全一致 |
+| `C1_FULL_OVERHEAD_0_5X.mp4` | 1920×1080 / 60fps | 714帧 / **11.900s** | 每个原帧显示两次，无删帧/运动插帧；原WAV经 `atempo=0.5` 保持音高并同步放慢 |
+
+**完整范围与音画检查。** 原场景第1–357帧完整保留，包括准备与释放尾段；右16音、左7音共23音，原起音0.350000s、末NOTE_OFF 5.492852s均在视频内，音乐本体5.142852s。慢速相应为0.700000s与10.985704s，完整展示范围11.9s。不是此前1.2s局部片段。
+
+两版音视频流均从PTS=0开始，音频时长与各自视频相同，完整FFmpeg解码通过；全部输出帧与原帧映射比对通过，无黑帧、漏帧或新增冻结/错误裁切。两帧重复是0.5×的明确时间映射。原有按键保持姿态没有被误判为编码冻结。
+
+初次慢速编码的首个声音活动约提前35.646ms，已在编码音轨上补偿1711个48kHz采样（35.646ms），最终首活动对齐读回误差约 **{qa['final_activity_error_ms']:.3f}ms**；视频帧完全未变，原可闻尾音未截断。原/慢速稳定开头和弦主频峰均约 **{qa['stable_opening_chord_dominant_frequency_original_Hz']:.3f}Hz**，没有采用降低采样率造成降八度的方式。此为数字时钟、首活动和主频抽查，不冒称逐音感知听辨或每个声学瞬态的亚帧认证；Human仍须观看/听音确认。
+
+**动作与资产保护。** 原Blend SHA256仍为 `d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7`；既有俯视视频与历史视频验收SHA相符。只在本目录复制件中读取相机/网格、选择原俯视相机；所有Action关键帧payload及双手Rig/rest/权重/corrective摘要前后一致。没有保存修改回原文件，没有改MIDI、指法、键几何、琴键Action或任何手部姿态。独立piano排除，路径不经重解析点；未运行SciPy、IK或几何碰撞审计，也未恢复任何修整路线。
+
+**可读性与Human重点。** 未发现画幅裁切导致的手指/演奏键缺失。手指轮廓大部分可辨，但原C1的局部中/无名指粘连、手指压住黑键及真实穿模会使某些边界难以分清；正俯视本身也不能单独判定空间深度。这些历史问题原样保留，不因视频制作通过而宣称无穿模或教学合格。
+
+| 观察内容 | 1×展示秒 | 0.5×视频秒 |
+|---|---|---|
+| 开头左三音和弦与右手进入 | 0.35附近 | 0.70附近 |
+| B01 中/无名指轮廓及交接 | 1.10–1.42 | 2.20–2.84 |
+| 拇指重复G4与旁指黑键关系 | 2.493、2.600附近 | 4.986、5.200附近 |
+| B02 原D5→E5交接 | 3.73–3.87 | 7.46–7.74 |
+| B03 中指/D♯5、无名指/C♯5 | 4.050、4.917附近 | 8.100、9.833附近 |
+| 末次重复G4及结束释放 | 5.064–5.493及随后尾段 | 10.129–10.986及随后尾段 |
+
+机器核对见 `CAMERA_FRAMING_CHECK.json`、`FINAL_MEDIA_QA.json` 和 `DELIVERY_RECEIPT.json`；接触表仅用于构图预检，未叠加到视频。初次未校正慢音频文件保留为内部诊断，交付只使用上述两个正式文件。
+
+```text
+HANDS_C1_FULL_OVERHEAD_TEACHING_REVIEW_R1
+RESULT = READY_FOR_HUMAN_VISUAL_REVIEW
+MOTION_DATA = ORIGINAL_C1_UNCHANGED
+GEOMETRY_REPAIR = NOT_EXECUTED
+HUMAN_VISUAL_ACCEPTANCE = PENDING
+STOP — HUMAN REVIEW
+```
+'''
+with (OUT/'FINAL_OVERHEAD_REVIEW.md').open('x',encoding='utf8') as f:f.write(report)
+expected={}
+for name in ['CAMERA_INPUT_PROTECTION.json','MEDIA_INPUT_PROTECTION.json','FINAL_MEDIA_INPUT_PROTECTION.json']:
+    for row in read(OUT/name)['files']:
+        assert row['unchanged'];expected[row['path']]=row['before']
+for p in [ROOT/'AGENTS.md',ROOT/'audits/minuet_in_g_longer_phrase_validation_r1/source/anna-magdalena-04.mid']:
+    expected.setdefault(str(p),sha(p))
+rows=[dict(path=p,expected=h,delivery=sha(p),unchanged=h==sha(p)) for p,h in expected.items()];assert all(r['unchanged'] for r in rows)
+files=[]
+for name in ['C1_FULL_OVERHEAD_1X.mp4','C1_FULL_OVERHEAD_0_5X.mp4','FINAL_OVERHEAD_REVIEW.md']:
+    p=OUT/name;files.append(dict(file=name,sha256=sha(p),bytes=p.stat().st_size))
+for item in qa['outputs']:assert sha(OUT/item['file'])==item['sha256']
+save('DELIVERY_RECEIPT.json',dict(pass_=True,result='READY_FOR_HUMAN_VISUAL_REVIEW',motion_data='ORIGINAL_C1_UNCHANGED',geometry_repair='NOT_EXECUTED',human_visual_acceptance='PENDING',
+    created=datetime.now(timezone.utc).isoformat(),files=files,source_files=rows,piano_access=False,new_3D_render=False,source_notes=23,source_frames=357,framing_pass=True,
+    no_motion_candidates=True,audio_alignment_sample_delay=qa['alignment_delay_samples_48k']))
+print('READY_FOR_HUMAN_VISUAL_REVIEW',json.dumps(files),flush=True)

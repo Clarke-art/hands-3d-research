@@ -1,0 +1,4665 @@
+{
+  "rule_evaluation_status": "PASS",
+  "evaluated_count": 9,
+  "actual_changed_count": 9,
+  "historical_THUMB_override_retired": true,
+  "one_hot_INDEX_MCP_assumed": false,
+  "INDEX_MCP_one_hot_count": 0,
+  "authority_sha256": "cecf165672a8d47c804f4cd91dbe70652ed370fcd3d0d57292964d186e8f9503",
+  "one_ring_continuity": {
+    "incident_edge_count": 24,
+    "max_after_L_inf": 0.07298888266086578,
+    "max_after_L1": 0.14597777904189702,
+    "blocker_count": 0,
+    "status": "PASS_STATIC_ABSOLUTE_GATES",
+    "edge_records": [
+      {
+        "edge_id": 460,
+        "vertex_ids": [
+          650,
+          1061
+        ],
+        "classifications": [
+          "TARGETED_REVALIDATION",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.9999997615814209,
+          "L1": 1.9999999726619606,
+          "per_group": {
+            "INDEX_DIP_R": 9.941840554333015e-17,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 2.408828621014436e-07,
+            "THUMB_IP_R": 0.9999997615814209,
+            "WRIST_R": 0.17136749625205994
+          }
+        },
+        "after": {
+          "L_inf": 0.06599938124418259,
+          "L1": 0.13199881094303834,
+          "per_group": {
+            "INDEX_DIP_R": 0.0005820504156872627,
+            "INDEX_MCP_R": 0.06336778402328491,
+            "INDEX_PIP_R": 0.0020495952598835743,
+            "WRIST_R": 0.06599938124418259
+          }
+        },
+        "L_inf_delta": -0.9340003803372383,
+        "L1_delta": -1.8680011617189223,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 461,
+        "vertex_ids": [
+          1061,
+          151
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 2.4493149908266787e-07,
+          "L1": 4.833500782839269e-07,
+          "per_group": {
+            "INDEX_DIP_R": 9.969651904566e-17,
+            "INDEX_PIP_R": 2.4493149908266787e-07,
+            "THUMB_IP_R": 2.384185791015625e-07
+          }
+        },
+        "after": {
+          "L_inf": 0.048895176500082016,
+          "L1": 0.0977903475286439,
+          "per_group": {
+            "INDEX_DIP_R": 0.00024526857305318117,
+            "INDEX_MCP_R": 0.0472942590713501,
+            "INDEX_PIP_R": 0.0013556433841586113,
+            "WRIST_R": 0.048895176500082016
+          }
+        },
+        "L_inf_delta": 0.04889493156858293,
+        "L1_delta": 0.09778986417856562,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 464,
+        "vertex_ids": [
+          151,
+          1063
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "TARGETED_REVALIDATION"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 1.0,
+          "L1": 1.9999999759761802,
+          "per_group": {
+            "INDEX_DIP_R": 2.7890612996211983e-14,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.007258357014507055
+          }
+        },
+        "after": {
+          "L_inf": 0.053439557552337646,
+          "L1": 0.10687915635796283,
+          "per_group": {
+            "INDEX_DIP_R": 0.0008273189887125535,
+            "INDEX_MCP_R": 0.053439557552337646,
+            "INDEX_PIP_R": 0.003397698323624354,
+            "WRIST_R": 0.04921458149328828
+          }
+        },
+        "L_inf_delta": -0.9465604424476624,
+        "L1_delta": -1.8931208196182174,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 486,
+        "vertex_ids": [
+          656,
+          1074
+        ],
+        "classifications": [
+          "TARGETED_REVALIDATION",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 1.0,
+          "L1": 2.0000000077002538,
+          "per_group": {
+            "INDEX_DIP_R": 4.562352408651672e-19,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.25825029611587524
+          }
+        },
+        "after": {
+          "L_inf": 0.07298888266086578,
+          "L1": 0.14597777904189702,
+          "per_group": {
+            "INDEX_DIP_R": 0.0013651708140969272,
+            "INDEX_MCP_R": 0.06687474250793457,
+            "INDEX_PIP_R": 0.004748983058999734,
+            "WRIST_R": 0.07298888266086578
+          }
+        },
+        "L_inf_delta": -0.9270111173391342,
+        "L1_delta": -1.8540222286583568,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 487,
+        "vertex_ids": [
+          1074,
+          158
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.06751025468111038,
+          "L1": 0.1350204871268943,
+          "per_group": {
+            "INDEX_DIP_R": 0.00037695199716836214,
+            "INDEX_MCP_R": 0.06485038995742798,
+            "INDEX_PIP_R": 0.0022828904911875725,
+            "WRIST_R": 0.06751025468111038
+          }
+        },
+        "L_inf_delta": 0.06751025468111038,
+        "L1_delta": 0.1350204871268943,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 489,
+        "vertex_ids": [
+          1075,
+          158
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.02416330575942993,
+          "L1": 0.04832662676926702,
+          "per_group": {
+            "INDEX_DIP_R": 0.00035889761056751013,
+            "INDEX_MCP_R": 0.02416330575942993,
+            "INDEX_PIP_R": 0.0011114822700619698,
+            "WRIST_R": 0.02269294112920761
+          }
+        },
+        "L_inf_delta": 0.02416330575942993,
+        "L1_delta": 0.04832662676926702,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 490,
+        "vertex_ids": [
+          158,
+          1076
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.0304182767868042,
+          "L1": 0.060836537391878664,
+          "per_group": {
+            "INDEX_DIP_R": 0.00040551892016083,
+            "INDEX_MCP_R": 0.0304182767868042,
+            "INDEX_PIP_R": 0.001510821282863617,
+            "WRIST_R": 0.02850192040205002
+          }
+        },
+        "L_inf_delta": 0.0304182767868042,
+        "L1_delta": 0.060836537391878664,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 491,
+        "vertex_ids": [
+          1076,
+          151
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.03540140390396118,
+          "L1": 0.07080280594527721,
+          "per_group": {
+            "INDEX_DIP_R": 0.0005092849023640156,
+            "INDEX_MCP_R": 0.03540140390396118,
+            "INDEX_PIP_R": 0.0021158172748982906,
+            "WRIST_R": 0.032776299864053726
+          }
+        },
+        "L_inf_delta": 0.03540140390396118,
+        "L1_delta": 0.07080280594527721,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 2716,
+        "vertex_ids": [
+          694,
+          2189
+        ],
+        "classifications": [
+          "TARGETED_REVALIDATION",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.9997552037239075,
+          "L1": 1.9995103703630486,
+          "per_group": {
+            "INDEX_DIP_R": 1.6087762268190975e-09,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0034411004453431815,
+            "THUMB_IP_R": 0.9997552037239075,
+            "WRIST_R": 6.0216509154997766e-05
+          }
+        },
+        "after": {
+          "L_inf": 0.026816725730895996,
+          "L1": 0.05363346854199269,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006947003529415019,
+            "INDEX_MCP_R": 0.026816725730895996,
+            "INDEX_PIP_R": 0.000346627552062273,
+            "WRIST_R": 0.02577541490609292
+          }
+        },
+        "L_inf_delta": -0.9729384779930115,
+        "L1_delta": -1.9458769018210558,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 2717,
+        "vertex_ids": [
+          2189,
+          151
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.00024480887805111706,
+          "L1": 0.0004896051643777898,
+          "per_group": {
+            "INDEX_DIP_R": 1.0234143393850204e-11,
+            "INDEX_PIP_R": 0.00024480887805111706,
+            "THUMB_IP_R": 0.0002447962760925293
+          }
+        },
+        "after": {
+          "L_inf": 0.030637307092547417,
+          "L1": 0.06153982359683141,
+          "per_group": {
+            "INDEX_DIP_R": 0.00013261701678857207,
+            "INDEX_MCP_R": 0.030142605304718018,
+            "INDEX_PIP_R": 0.0006272941827774048,
+            "WRIST_R": 0.030637307092547417
+          }
+        },
+        "L_inf_delta": 0.0303924982144963,
+        "L1_delta": 0.06105021843245362,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 2722,
+        "vertex_ids": [
+          703,
+          2192
+        ],
+        "classifications": [
+          "TARGETED_REVALIDATION",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 1.0,
+          "L1": 2.0000000077760447,
+          "per_group": {
+            "INDEX_DIP_R": 2.188109249345871e-09,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.00037366850301623344
+          }
+        },
+        "after": {
+          "L_inf": 0.060910165309906006,
+          "L1": 0.12182034961929133,
+          "per_group": {
+            "INDEX_DIP_R": 0.00130726294641903,
+            "INDEX_MCP_R": 0.060910165309906006,
+            "INDEX_PIP_R": 0.002110806293785572,
+            "WRIST_R": 0.05749211506918073
+          }
+        },
+        "L_inf_delta": -0.939089834690094,
+        "L1_delta": -1.8781796581567534,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 2723,
+        "vertex_ids": [
+          2192,
+          158
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.06010580062866211,
+          "L1": 0.12064049334730953,
+          "per_group": {
+            "INDEX_DIP_R": 0.0004348576767370105,
+            "INDEX_MCP_R": 0.06010580062866211,
+            "INDEX_PIP_R": 0.000214459840208292,
+            "WRIST_R": 0.05988537520170212
+          }
+        },
+        "L_inf_delta": 0.06010580062866211,
+        "L1_delta": 0.12064049334730953,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3654,
+        "vertex_ids": [
+          1076,
+          2569
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.045947469770908356,
+          "L1": 0.09245057916268706,
+          "per_group": {
+            "INDEX_DIP_R": 0.00027781492099165916,
+            "INDEX_MCP_R": 0.04569566249847412,
+            "INDEX_PIP_R": 0.0005296319723129272,
+            "WRIST_R": 0.045947469770908356
+          }
+        },
+        "L_inf_delta": 0.045947469770908356,
+        "L1_delta": 0.09245057916268706,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3655,
+        "vertex_ids": [
+          2189,
+          2569
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.00024480887805111706,
+          "L1": 0.0004896051643777898,
+          "per_group": {
+            "INDEX_DIP_R": 1.0234143393850204e-11,
+            "INDEX_PIP_R": 0.00024480887805111706,
+            "THUMB_IP_R": 0.0002447962760925293
+          }
+        },
+        "after": {
+          "L_inf": 0.019848346710205078,
+          "L1": 0.03969672595849261,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003640869981609285,
+            "INDEX_MCP_R": 0.019848346710205078,
+            "INDEX_PIP_R": 0.002018155064433813,
+            "WRIST_R": 0.017466137185692787
+          }
+        },
+        "L_inf_delta": 0.01960353783215396,
+        "L1_delta": 0.039207120794114814,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3656,
+        "vertex_ids": [
+          2175,
+          2569
+        ],
+        "classifications": [
+          "TARGETED_REVALIDATION",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 1.0,
+          "L1": 1.9999999977710854,
+          "per_group": {
+            "INDEX_DIP_R": 2.2385233666710747e-09,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.00010768482752609998
+          }
+        },
+        "after": {
+          "L_inf": 0.04557734727859497,
+          "L1": 0.09115472193181406,
+          "per_group": {
+            "INDEX_DIP_R": 0.001058786731589434,
+            "INDEX_MCP_R": 0.04557734727859497,
+            "INDEX_PIP_R": 0.0013245041482150555,
+            "WRIST_R": 0.043194083773414604
+          }
+        },
+        "L_inf_delta": -0.954422652721405,
+        "L1_delta": -1.9088452758392713,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3657,
+        "vertex_ids": [
+          2192,
+          2569
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.01600813865661621,
+          "L1": 0.03201627894304693,
+          "per_group": {
+            "INDEX_DIP_R": 0.0002484761644154787,
+            "INDEX_MCP_R": 0.01600813865661621,
+            "INDEX_PIP_R": 0.0011956491507589817,
+            "WRIST_R": 0.014564014971256256
+          }
+        },
+        "L_inf_delta": 0.01600813865661621,
+        "L1_delta": 0.03201627894304693,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3661,
+        "vertex_ids": [
+          2189,
+          2570
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "TARGETED_REVALIDATION"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.9997552037239075,
+          "L1": 1.99964091575058,
+          "per_group": {
+            "INDEX_DIP_R": 4.0120649857922075e-12,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 6.525483331643045e-05,
+            "THUMB_IP_R": 0.9997552037239075,
+            "WRIST_R": 0.0008790952851995826
+          }
+        },
+        "after": {
+          "L_inf": 0.029504239559173584,
+          "L1": 0.0590084604856736,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006947019657297937,
+            "INDEX_MCP_R": 0.029504239559173584,
+            "INDEX_PIP_R": 0.003852982830721885,
+            "WRIST_R": 0.024956536130048335
+          }
+        },
+        "L_inf_delta": -0.9702509641647339,
+        "L1_delta": -1.9406324552649064,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3682,
+        "vertex_ids": [
+          1074,
+          2576
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.03700381517410278,
+          "L1": 0.0740076086949557,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006064230110496283,
+            "INDEX_MCP_R": 0.03700381517410278,
+            "INDEX_PIP_R": 0.0017861006781458855,
+            "WRIST_R": 0.03461126983165741
+          }
+        },
+        "L_inf_delta": 0.03700381517410278,
+        "L1_delta": 0.0740076086949557,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3686,
+        "vertex_ids": [
+          1061,
+          2577
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 2.4493149908266787e-07,
+          "L1": 4.833500782839269e-07,
+          "per_group": {
+            "INDEX_DIP_R": 9.969651904566e-17,
+            "INDEX_PIP_R": 2.4493149908266787e-07,
+            "THUMB_IP_R": 2.384185791015625e-07
+          }
+        },
+        "after": {
+          "L_inf": 0.04052269458770752,
+          "L1": 0.08104535669554025,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003930461825802922,
+            "INDEX_MCP_R": 0.04052269458770752,
+            "INDEX_PIP_R": 0.0014155125245451927,
+            "WRIST_R": 0.038714103400707245
+          }
+        },
+        "L_inf_delta": 0.04052244965620844,
+        "L1_delta": 0.08104487334546197,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3687,
+        "vertex_ids": [
+          1076,
+          2577
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.054832980036735535,
+          "L1": 0.10966598521918058,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003615072928369045,
+            "INDEX_MCP_R": 0.052415549755096436,
+            "INDEX_PIP_R": 0.002055948134511709,
+            "WRIST_R": 0.054832980036735535
+          }
+        },
+        "L_inf_delta": 0.054832980036735535,
+        "L1_delta": 0.10966598521918058,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3688,
+        "vertex_ids": [
+          1074,
+          2577
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.04285311698913574,
+          "L1": 0.08570626517757773,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003900742158293724,
+            "INDEX_MCP_R": 0.04285311698913574,
+            "INDEX_PIP_R": 0.0012838789261877537,
+            "WRIST_R": 0.041179195046424866
+          }
+        },
+        "L_inf_delta": 0.04285311698913574,
+        "L1_delta": 0.08570626517757773,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3689,
+        "vertex_ids": [
+          2072,
+          2577
+        ],
+        "classifications": [
+          "TARGETED_REVALIDATION",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 1.0,
+          "L1": 1.9999999907414714,
+          "per_group": {
+            "INDEX_DIP_R": 3.4698510296828463e-19,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.19603221118450165
+          }
+        },
+        "after": {
+          "L_inf": 0.05194999277591705,
+          "L1": 0.10389998503147568,
+          "per_group": {
+            "INDEX_DIP_R": 0.0009750965982675549,
+            "INDEX_MCP_R": 0.04750978946685791,
+            "INDEX_PIP_R": 0.003465106190433165,
+            "WRIST_R": 0.05194999277591705
+          }
+        },
+        "L_inf_delta": -0.948050007224083,
+        "L1_delta": -1.8961000057099957,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3692,
+        "vertex_ids": [
+          1061,
+          2578
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "TARGETED_REVALIDATION"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.9999997615814209,
+          "L1": 1.9999996981037356,
+          "per_group": {
+            "INDEX_DIP_R": 3.7723227728346005e-17,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 8.180863630968815e-08,
+            "THUMB_IP_R": 0.9999997615814209,
+            "WRIST_R": 0.048278842121362686
+          }
+        },
+        "after": {
+          "L_inf": 0.059720754623413086,
+          "L1": 0.11944151411127274,
+          "per_group": {
+            "INDEX_DIP_R": 0.000582050415687201,
+            "INDEX_MCP_R": 0.059720754623413086,
+            "INDEX_PIP_R": 0.0020494361856577825,
+            "WRIST_R": 0.057089272886514664
+          }
+        },
+        "L_inf_delta": -0.9402790069580078,
+        "L1_delta": -1.8805581839924628,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      },
+      {
+        "edge_id": 3743,
+        "vertex_ids": [
+          2192,
+          2591
+        ],
+        "classifications": [
+          "REBUILD_REQUIRED",
+          "REBUILD_REQUIRED"
+        ],
+        "frozen_sides": [
+          "INDEX",
+          "INDEX"
+        ],
+        "before": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "after": {
+          "L_inf": 0.011946797370910645,
+          "L1": 0.02389355911873281,
+          "per_group": {
+            "INDEX_DIP_R": 0.00016134255565702915,
+            "INDEX_MCP_R": 0.011946797370910645,
+            "INDEX_PIP_R": 0.0005282922647893429,
+            "WRIST_R": 0.011257126927375793
+          }
+        },
+        "L_inf_delta": 0.011946797370910645,
+        "L1_delta": 0.02389355911873281,
+        "THUMB_IP_jump": 0,
+        "THUMB_MCP_jump": 0,
+        "touches_authorized_write": true
+      }
+    ]
+  },
+  "9_of_9_before_after_neighbor_metrics_present": true,
+  "per_vertex": [
+    {
+      "vertex_id": 151,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 1.0
+      },
+      "after": {
+        "WRIST_R": 0.056472938507795334,
+        "INDEX_MCP_R": 0.9392945170402527,
+        "INDEX_PIP_R": 0.003405242692679167,
+        "INDEX_DIP_R": 0.0008273189887404442
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 1061,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.10536811500787735,
+            "INDEX_MCP_R": 0.8920002579689026,
+            "INDEX_PIP_R": 0.0020495993085205555,
+            "INDEX_DIP_R": 0.000582050415687263
+          },
+          "before_vector": {
+            "THUMB_IP_R": 0.9999997615814209,
+            "INDEX_PIP_R": 2.4493149908266787e-07,
+            "INDEX_DIP_R": 9.969651904566e-17
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.048895176500082016,
+            "L1": 0.0977903475286439,
+            "per_group": {
+              "INDEX_DIP_R": 0.00024526857305318117,
+              "INDEX_MCP_R": 0.0472942590713501,
+              "INDEX_PIP_R": 0.0013556433841586113,
+              "WRIST_R": 0.048895176500082016
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 1063,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "before_vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.053439557552337646,
+            "L1": 0.10687915635796283,
+            "per_group": {
+              "INDEX_DIP_R": 0.0008273189887125535,
+              "INDEX_MCP_R": 0.053439557552337646,
+              "INDEX_PIP_R": 0.003397698323624354,
+              "WRIST_R": 0.04921458149328828
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 1076,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.08924923837184906,
+            "INDEX_MCP_R": 0.9038931131362915,
+            "INDEX_PIP_R": 0.005521059967577457,
+            "INDEX_DIP_R": 0.0013366038911044598
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.03540140390396118,
+            "L1": 0.07080280594527721,
+            "per_group": {
+              "INDEX_DIP_R": 0.0005092849023640156,
+              "INDEX_MCP_R": 0.03540140390396118,
+              "INDEX_PIP_R": 0.0021158172748982906,
+              "WRIST_R": 0.032776299864053726
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2189,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.025835631415247917,
+            "INDEX_MCP_R": 0.9694371223449707,
+            "INDEX_PIP_R": 0.004032536875456572,
+            "INDEX_DIP_R": 0.0006947019719518721
+          },
+          "before_vector": {
+            "THUMB_IP_R": 0.9997552037239075,
+            "INDEX_PIP_R": 0.00024480887805111706,
+            "INDEX_DIP_R": 1.0234143393850204e-11
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.030637307092547417,
+            "L1": 0.06153982359683141,
+            "per_group": {
+              "INDEX_DIP_R": 0.00013261701678857207,
+              "INDEX_MCP_R": 0.030142605304718018,
+              "INDEX_PIP_R": 0.0006272941827774048,
+              "WRIST_R": 0.030637307092547417
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.053439557552337646,
+        "max_after_L1": 0.10687915635796283,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 461,
+            "vertex_ids": [
+              1061,
+              151
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 2.4493149908266787e-07,
+              "L1": 4.833500782839269e-07,
+              "per_group": {
+                "INDEX_DIP_R": 9.969651904566e-17,
+                "INDEX_PIP_R": 2.4493149908266787e-07,
+                "THUMB_IP_R": 2.384185791015625e-07
+              }
+            },
+            "after": {
+              "L_inf": 0.048895176500082016,
+              "L1": 0.0977903475286439,
+              "per_group": {
+                "INDEX_DIP_R": 0.00024526857305318117,
+                "INDEX_MCP_R": 0.0472942590713501,
+                "INDEX_PIP_R": 0.0013556433841586113,
+                "WRIST_R": 0.048895176500082016
+              }
+            },
+            "L_inf_delta": 0.04889493156858293,
+            "L1_delta": 0.09778986417856562,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 464,
+            "vertex_ids": [
+              151,
+              1063
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "TARGETED_REVALIDATION"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 1.0,
+              "L1": 1.9999999759761802,
+              "per_group": {
+                "INDEX_DIP_R": 2.7890612996211983e-14,
+                "INDEX_MCP_R": 0.9927340745925903,
+                "INDEX_PIP_R": 7.544369054812705e-06,
+                "THUMB_IP_R": 1.0,
+                "WRIST_R": 0.007258357014507055
+              }
+            },
+            "after": {
+              "L_inf": 0.053439557552337646,
+              "L1": 0.10687915635796283,
+              "per_group": {
+                "INDEX_DIP_R": 0.0008273189887125535,
+                "INDEX_MCP_R": 0.053439557552337646,
+                "INDEX_PIP_R": 0.003397698323624354,
+                "WRIST_R": 0.04921458149328828
+              }
+            },
+            "L_inf_delta": -0.9465604424476624,
+            "L1_delta": -1.8931208196182174,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 491,
+            "vertex_ids": [
+              1076,
+              151
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.03540140390396118,
+              "L1": 0.07080280594527721,
+              "per_group": {
+                "INDEX_DIP_R": 0.0005092849023640156,
+                "INDEX_MCP_R": 0.03540140390396118,
+                "INDEX_PIP_R": 0.0021158172748982906,
+                "WRIST_R": 0.032776299864053726
+              }
+            },
+            "L_inf_delta": 0.03540140390396118,
+            "L1_delta": 0.07080280594527721,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 2717,
+            "vertex_ids": [
+              2189,
+              151
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.00024480887805111706,
+              "L1": 0.0004896051643777898,
+              "per_group": {
+                "INDEX_DIP_R": 1.0234143393850204e-11,
+                "INDEX_PIP_R": 0.00024480887805111706,
+                "THUMB_IP_R": 0.0002447962760925293
+              }
+            },
+            "after": {
+              "L_inf": 0.030637307092547417,
+              "L1": 0.06153982359683141,
+              "per_group": {
+                "INDEX_DIP_R": 0.00013261701678857207,
+                "INDEX_MCP_R": 0.030142605304718018,
+                "INDEX_PIP_R": 0.0006272941827774048,
+                "WRIST_R": 0.030637307092547417
+              }
+            },
+            "L_inf_delta": 0.0303924982144963,
+            "L1_delta": 0.06105021843245362,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 152,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.013637427240610123,
+            "INDEX_MCP_R": 0.9863558411598206,
+            "INDEX_PIP_R": 6.734968337696046e-06,
+            "INDEX_DIP_R": 2.2680010200080113e-14
+          },
+          "vector_sha256": "4e14d507aaadd95a441225d10540bb66ae4ec9aca0d9a030b5822e281cf173a3",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.306238778825582,
+            "mu_raw": 0.21526040620271464,
+            "mu_clamped": 0.21526040620271464,
+            "arc_mm": 6.78235337554512,
+            "normalized_longitudinal": 0.10078395540651461
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 650,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.17136749625205994,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 4.048636981224263e-09,
+            "INDEX_DIP_R": 2.7811350232984256e-19
+          },
+          "vector_sha256": "cfd6a965c604e39dcbfb7be94851b7066635b4b650a45ac7fb581754f28448c1",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.03231089045354,
+            "mu_raw": -0.0434588322623494,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 694,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 6.0216509154997766e-05,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0036859093233942986,
+            "INDEX_DIP_R": 1.6190103702129477e-09
+          },
+          "vector_sha256": "e684084ab7a74ea9483666a4ceb5fd7cf9c5506bd04d183d94922c2610aeb304",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.758828973870799,
+            "mu_raw": 0.5316695215799406,
+            "mu_clamped": 0.5316695215799406,
+            "arc_mm": 16.751666681174807,
+            "normalized_longitudinal": 0.24892528216942458
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 1063,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "vector_sha256": "6b8e9a64c66608710d4380e78d9bee52556e2010a333d9e6660a82818a58e95f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.47997280771249,
+            "mu_raw": 0.22168747384751528,
+            "mu_clamped": 0.22168747384751528,
+            "arc_mm": 6.9848552880172186,
+            "normalized_longitudinal": 0.10379307961256226
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2570,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.0008790952851995826,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 0.0001795540447346866,
+            "INDEX_DIP_R": 6.222078408057996e-12
+          },
+          "vector_sha256": "b864bd4a4d9fb0cc53a29e504724727e7674ea84dbc6ef8a1ae8575e795955bc",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 10.739519790328698,
+            "mu_raw": 0.36107480875735687,
+            "mu_clamped": 0.36107480875735687,
+            "arc_mm": 11.376625136038996,
+            "normalized_longitudinal": 0.16905360380091267
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2578,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.048278842121362686,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 1.6312286277297972e-07,
+            "INDEX_DIP_R": 6.197329131731399e-17
+          },
+          "vector_sha256": "690fac464d05e57ff6964b6a1dc086997f722c2165c0e637920c9b38919b6736",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 7.93148061978923,
+            "mu_raw": 0.07734686885739588,
+            "mu_clamped": 0.07734686885739588,
+            "arc_mm": 2.4370194516347103,
+            "normalized_longitudinal": 0.03621345661875376
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    },
+    {
+      "vertex_id": 158,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 1.0
+      },
+      "after": {
+        "WRIST_R": 0.11775115877389908,
+        "INDEX_MCP_R": 0.8734748363494873,
+        "INDEX_PIP_R": 0.007031881250441074,
+        "INDEX_DIP_R": 0.0017421228112652898
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 1074,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.18526141345500946,
+            "INDEX_MCP_R": 0.8086244463920593,
+            "INDEX_PIP_R": 0.004748990759253502,
+            "INDEX_DIP_R": 0.0013651708140969276
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.06751025468111038,
+            "L1": 0.1350204871268943,
+            "per_group": {
+              "INDEX_DIP_R": 0.00037695199716836214,
+              "INDEX_MCP_R": 0.06485038995742798,
+              "INDEX_PIP_R": 0.0022828904911875725,
+              "WRIST_R": 0.06751025468111038
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 1075,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.1404440999031067,
+            "INDEX_MCP_R": 0.8493115305900574,
+            "INDEX_PIP_R": 0.008143363520503044,
+            "INDEX_DIP_R": 0.0021010204218328
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.02416330575942993,
+            "L1": 0.04832662676926702,
+            "per_group": {
+              "INDEX_DIP_R": 0.00035889761056751013,
+              "INDEX_MCP_R": 0.02416330575942993,
+              "INDEX_PIP_R": 0.0011114822700619698,
+              "WRIST_R": 0.02269294112920761
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 1076,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.08924923837184906,
+            "INDEX_MCP_R": 0.9038931131362915,
+            "INDEX_PIP_R": 0.005521059967577457,
+            "INDEX_DIP_R": 0.0013366038911044598
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.0304182767868042,
+            "L1": 0.060836537391878664,
+            "per_group": {
+              "INDEX_DIP_R": 0.00040551892016083,
+              "INDEX_MCP_R": 0.0304182767868042,
+              "INDEX_PIP_R": 0.001510821282863617,
+              "WRIST_R": 0.02850192040205002
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2192,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.05786578357219696,
+            "INDEX_MCP_R": 0.9335806369781494,
+            "INDEX_PIP_R": 0.007246341090649366,
+            "INDEX_DIP_R": 0.0013072651345282793
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.06010580062866211,
+            "L1": 0.12064049334730953,
+            "per_group": {
+              "INDEX_DIP_R": 0.0004348576767370105,
+              "INDEX_MCP_R": 0.06010580062866211,
+              "INDEX_PIP_R": 0.000214459840208292,
+              "WRIST_R": 0.05988537520170212
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.06751025468111038,
+        "max_after_L1": 0.1350204871268943,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 487,
+            "vertex_ids": [
+              1074,
+              158
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.06751025468111038,
+              "L1": 0.1350204871268943,
+              "per_group": {
+                "INDEX_DIP_R": 0.00037695199716836214,
+                "INDEX_MCP_R": 0.06485038995742798,
+                "INDEX_PIP_R": 0.0022828904911875725,
+                "WRIST_R": 0.06751025468111038
+              }
+            },
+            "L_inf_delta": 0.06751025468111038,
+            "L1_delta": 0.1350204871268943,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 489,
+            "vertex_ids": [
+              1075,
+              158
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.02416330575942993,
+              "L1": 0.04832662676926702,
+              "per_group": {
+                "INDEX_DIP_R": 0.00035889761056751013,
+                "INDEX_MCP_R": 0.02416330575942993,
+                "INDEX_PIP_R": 0.0011114822700619698,
+                "WRIST_R": 0.02269294112920761
+              }
+            },
+            "L_inf_delta": 0.02416330575942993,
+            "L1_delta": 0.04832662676926702,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 490,
+            "vertex_ids": [
+              158,
+              1076
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.0304182767868042,
+              "L1": 0.060836537391878664,
+              "per_group": {
+                "INDEX_DIP_R": 0.00040551892016083,
+                "INDEX_MCP_R": 0.0304182767868042,
+                "INDEX_PIP_R": 0.001510821282863617,
+                "WRIST_R": 0.02850192040205002
+              }
+            },
+            "L_inf_delta": 0.0304182767868042,
+            "L1_delta": 0.060836537391878664,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 2723,
+            "vertex_ids": [
+              2192,
+              158
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.06010580062866211,
+              "L1": 0.12064049334730953,
+              "per_group": {
+                "INDEX_DIP_R": 0.0004348576767370105,
+                "INDEX_MCP_R": 0.06010580062866211,
+                "INDEX_PIP_R": 0.000214459840208292,
+                "WRIST_R": 0.05988537520170212
+              }
+            },
+            "L_inf_delta": 0.06010580062866211,
+            "L1_delta": 0.12064049334730953,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 656,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.25825029611587524,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "INDEX_DIP_R": 4.562352408651672e-19
+          },
+          "vector_sha256": "ec370257dd91a7ff57a07be54f5ccc1dcbc5dc586b26751fbaeccfbdcc817a17",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.706999603868017,
+            "mu_raw": 0.020095234543902,
+            "mu_clamped": 0.020095234543902,
+            "arc_mm": 0.6331539749713891,
+            "normalized_longitudinal": 0.009408498561731928
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 703,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00037366850301623344,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "INDEX_DIP_R": 2.188109249345871e-09
+          },
+          "vector_sha256": "efab7cbf9208877775bb28cd8bd3d12a9595b183077df3dc3274c4dffd79b8a4",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.220466233902775,
+            "mu_raw": 0.5837224005625403,
+            "mu_clamped": 0.5837224005625403,
+            "arc_mm": 18.39173150174386,
+            "normalized_longitudinal": 0.2732962063291731
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    },
+    {
+      "vertex_id": 1061,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 0.9999997615814209,
+        "INDEX_PIP_R": 2.4493149908266787e-07,
+        "INDEX_DIP_R": 9.969651904566e-17
+      },
+      "after": {
+        "WRIST_R": 0.10536811500787735,
+        "INDEX_MCP_R": 0.8920002579689026,
+        "INDEX_PIP_R": 0.0020495993085205555,
+        "INDEX_DIP_R": 0.000582050415687263
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 151,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.056472938507795334,
+            "INDEX_MCP_R": 0.9392945170402527,
+            "INDEX_PIP_R": 0.003405242692679167,
+            "INDEX_DIP_R": 0.0008273189887404442
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.048895176500082016,
+            "L1": 0.0977903475286439,
+            "per_group": {
+              "INDEX_DIP_R": 0.00024526857305318117,
+              "INDEX_MCP_R": 0.0472942590713501,
+              "INDEX_PIP_R": 0.0013556433841586113,
+              "WRIST_R": 0.048895176500082016
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 650,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.17136749625205994,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 4.048636981224263e-09,
+            "INDEX_DIP_R": 2.7811350232984256e-19
+          },
+          "before_vector": {
+            "WRIST_R": 0.17136749625205994,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 4.048636981224263e-09,
+            "INDEX_DIP_R": 2.7811350232984256e-19
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.06599938124418259,
+            "L1": 0.13199881094303834,
+            "per_group": {
+              "INDEX_DIP_R": 0.0005820504156872627,
+              "INDEX_MCP_R": 0.06336778402328491,
+              "INDEX_PIP_R": 0.0020495952598835743,
+              "WRIST_R": 0.06599938124418259
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2577,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.1440822184085846,
+            "INDEX_MCP_R": 0.8514775633811951,
+            "INDEX_PIP_R": 0.003465111833065748,
+            "INDEX_DIP_R": 0.0009750965982675552
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.04052269458770752,
+            "L1": 0.08104535669554025,
+            "per_group": {
+              "INDEX_DIP_R": 0.0003930461825802922,
+              "INDEX_MCP_R": 0.04052269458770752,
+              "INDEX_PIP_R": 0.0014155125245451927,
+              "WRIST_R": 0.038714103400707245
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2578,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.048278842121362686,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 1.6312286277297972e-07,
+            "INDEX_DIP_R": 6.197329131731399e-17
+          },
+          "before_vector": {
+            "WRIST_R": 0.048278842121362686,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 1.6312286277297972e-07,
+            "INDEX_DIP_R": 6.197329131731399e-17
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.059720754623413086,
+            "L1": 0.11944151411127274,
+            "per_group": {
+              "INDEX_DIP_R": 0.000582050415687201,
+              "INDEX_MCP_R": 0.059720754623413086,
+              "INDEX_PIP_R": 0.0020494361856577825,
+              "WRIST_R": 0.057089272886514664
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.06599938124418259,
+        "max_after_L1": 0.13199881094303834,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 460,
+            "vertex_ids": [
+              650,
+              1061
+            ],
+            "classifications": [
+              "TARGETED_REVALIDATION",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.9999997615814209,
+              "L1": 1.9999999726619606,
+              "per_group": {
+                "INDEX_DIP_R": 9.941840554333015e-17,
+                "INDEX_MCP_R": 0.8286324739456177,
+                "INDEX_PIP_R": 2.408828621014436e-07,
+                "THUMB_IP_R": 0.9999997615814209,
+                "WRIST_R": 0.17136749625205994
+              }
+            },
+            "after": {
+              "L_inf": 0.06599938124418259,
+              "L1": 0.13199881094303834,
+              "per_group": {
+                "INDEX_DIP_R": 0.0005820504156872627,
+                "INDEX_MCP_R": 0.06336778402328491,
+                "INDEX_PIP_R": 0.0020495952598835743,
+                "WRIST_R": 0.06599938124418259
+              }
+            },
+            "L_inf_delta": -0.9340003803372383,
+            "L1_delta": -1.8680011617189223,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 461,
+            "vertex_ids": [
+              1061,
+              151
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 2.4493149908266787e-07,
+              "L1": 4.833500782839269e-07,
+              "per_group": {
+                "INDEX_DIP_R": 9.969651904566e-17,
+                "INDEX_PIP_R": 2.4493149908266787e-07,
+                "THUMB_IP_R": 2.384185791015625e-07
+              }
+            },
+            "after": {
+              "L_inf": 0.048895176500082016,
+              "L1": 0.0977903475286439,
+              "per_group": {
+                "INDEX_DIP_R": 0.00024526857305318117,
+                "INDEX_MCP_R": 0.0472942590713501,
+                "INDEX_PIP_R": 0.0013556433841586113,
+                "WRIST_R": 0.048895176500082016
+              }
+            },
+            "L_inf_delta": 0.04889493156858293,
+            "L1_delta": 0.09778986417856562,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3686,
+            "vertex_ids": [
+              1061,
+              2577
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 2.4493149908266787e-07,
+              "L1": 4.833500782839269e-07,
+              "per_group": {
+                "INDEX_DIP_R": 9.969651904566e-17,
+                "INDEX_PIP_R": 2.4493149908266787e-07,
+                "THUMB_IP_R": 2.384185791015625e-07
+              }
+            },
+            "after": {
+              "L_inf": 0.04052269458770752,
+              "L1": 0.08104535669554025,
+              "per_group": {
+                "INDEX_DIP_R": 0.0003930461825802922,
+                "INDEX_MCP_R": 0.04052269458770752,
+                "INDEX_PIP_R": 0.0014155125245451927,
+                "WRIST_R": 0.038714103400707245
+              }
+            },
+            "L_inf_delta": 0.04052244965620844,
+            "L1_delta": 0.08104487334546197,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3692,
+            "vertex_ids": [
+              1061,
+              2578
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "TARGETED_REVALIDATION"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.9999997615814209,
+              "L1": 1.9999996981037356,
+              "per_group": {
+                "INDEX_DIP_R": 3.7723227728346005e-17,
+                "INDEX_MCP_R": 0.9517210125923157,
+                "INDEX_PIP_R": 8.180863630968815e-08,
+                "THUMB_IP_R": 0.9999997615814209,
+                "WRIST_R": 0.048278842121362686
+              }
+            },
+            "after": {
+              "L_inf": 0.059720754623413086,
+              "L1": 0.11944151411127274,
+              "per_group": {
+                "INDEX_DIP_R": 0.000582050415687201,
+                "INDEX_MCP_R": 0.059720754623413086,
+                "INDEX_PIP_R": 0.0020494361856577825,
+                "WRIST_R": 0.057089272886514664
+              }
+            },
+            "L_inf_delta": -0.9402790069580078,
+            "L1_delta": -1.8805581839924628,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 650,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.17136749625205994,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 4.048636981224263e-09,
+            "INDEX_DIP_R": 2.7811350232984256e-19
+          },
+          "vector_sha256": "cfd6a965c604e39dcbfb7be94851b7066635b4b650a45ac7fb581754f28448c1",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.03231089045354,
+            "mu_raw": -0.0434588322623494,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 1062,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.07498855888843536,
+            "INDEX_MCP_R": 0.9250112771987915,
+            "INDEX_PIP_R": 1.6091925658656692e-07,
+            "INDEX_DIP_R": 6.358559206263295e-17
+          },
+          "vector_sha256": "b8b56d4ec30f9141f882a08c42a82c6f67d6dabcce09bddccebca36390fd1be2",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 7.007460362260187,
+            "mu_raw": 0.07655092583998198,
+            "mu_clamped": 0.07655092583998198,
+            "arc_mm": 2.411941143430577,
+            "normalized_longitudinal": 0.03584079967274008
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 1063,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "vector_sha256": "6b8e9a64c66608710d4380e78d9bee52556e2010a333d9e6660a82818a58e95f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.47997280771249,
+            "mu_raw": 0.22168747384751528,
+            "mu_clamped": 0.22168747384751528,
+            "arc_mm": 6.9848552880172186,
+            "normalized_longitudinal": 0.10379307961256226
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2059,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.3499974012374878,
+            "INDEX_MCP_R": 0.6500025987625122,
+            "INDEX_PIP_R": 3.6290823124396354e-10,
+            "INDEX_DIP_R": 9.110933681821014e-20
+          },
+          "vector_sha256": "df65a409910cb8c11661eeaad3afe6e17de9b5e95cbea9e371b4bf3c86477b5f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.946595804227544,
+            "mu_raw": -0.18016690535519697,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2071,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.19242794811725616,
+            "INDEX_MCP_R": 0.807572066783905,
+            "INDEX_PIP_R": 2.9865787620764195e-09,
+            "INDEX_DIP_R": 2.4380135258750113e-19
+          },
+          "vector_sha256": "404f8061c159c2e1840315bf257e7f90dfc647ab645d42f366205287c64d098c",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 6.689363899072054,
+            "mu_raw": -0.06543849523111572,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2072,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "vector_sha256": "65e37085a7d7793d2ab75b109c1585b01a08a8ab6556ab57147c480b320a6775",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.846791951449033,
+            "mu_raw": -0.013504413266471019,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2578,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.048278842121362686,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 1.6312286277297972e-07,
+            "INDEX_DIP_R": 6.197329131731399e-17
+          },
+          "vector_sha256": "690fac464d05e57ff6964b6a1dc086997f722c2165c0e637920c9b38919b6736",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 7.93148061978923,
+            "mu_raw": 0.07734686885739588,
+            "mu_clamped": 0.07734686885739588,
+            "arc_mm": 2.4370194516347103,
+            "normalized_longitudinal": 0.03621345661875376
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    },
+    {
+      "vertex_id": 1074,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 1.0
+      },
+      "after": {
+        "WRIST_R": 0.18526141345500946,
+        "INDEX_MCP_R": 0.8086244463920593,
+        "INDEX_PIP_R": 0.004748990759253502,
+        "INDEX_DIP_R": 0.0013651708140969276
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 158,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.11775115877389908,
+            "INDEX_MCP_R": 0.8734748363494873,
+            "INDEX_PIP_R": 0.007031881250441074,
+            "INDEX_DIP_R": 0.0017421228112652898
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.06751025468111038,
+            "L1": 0.1350204871268943,
+            "per_group": {
+              "INDEX_DIP_R": 0.00037695199716836214,
+              "INDEX_MCP_R": 0.06485038995742798,
+              "INDEX_PIP_R": 0.0022828904911875725,
+              "WRIST_R": 0.06751025468111038
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 656,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.25825029611587524,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "INDEX_DIP_R": 4.562352408651672e-19
+          },
+          "before_vector": {
+            "WRIST_R": 0.25825029611587524,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "INDEX_DIP_R": 4.562352408651672e-19
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.07298888266086578,
+            "L1": 0.14597777904189702,
+            "per_group": {
+              "INDEX_DIP_R": 0.0013651708140969272,
+              "INDEX_MCP_R": 0.06687474250793457,
+              "INDEX_PIP_R": 0.004748983058999734,
+              "WRIST_R": 0.07298888266086578
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2576,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.21987268328666687,
+            "INDEX_MCP_R": 0.7716206312179565,
+            "INDEX_PIP_R": 0.006535091437399387,
+            "INDEX_DIP_R": 0.001971593825146556
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.03700381517410278,
+            "L1": 0.0740076086949557,
+            "per_group": {
+              "INDEX_DIP_R": 0.0006064230110496283,
+              "INDEX_MCP_R": 0.03700381517410278,
+              "INDEX_PIP_R": 0.0017861006781458855,
+              "WRIST_R": 0.03461126983165741
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2577,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.1440822184085846,
+            "INDEX_MCP_R": 0.8514775633811951,
+            "INDEX_PIP_R": 0.003465111833065748,
+            "INDEX_DIP_R": 0.0009750965982675552
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.04285311698913574,
+            "L1": 0.08570626517757773,
+            "per_group": {
+              "INDEX_DIP_R": 0.0003900742158293724,
+              "INDEX_MCP_R": 0.04285311698913574,
+              "INDEX_PIP_R": 0.0012838789261877537,
+              "WRIST_R": 0.041179195046424866
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.07298888266086578,
+        "max_after_L1": 0.14597777904189702,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 486,
+            "vertex_ids": [
+              656,
+              1074
+            ],
+            "classifications": [
+              "TARGETED_REVALIDATION",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 1.0,
+              "L1": 2.0000000077002538,
+              "per_group": {
+                "INDEX_DIP_R": 4.562352408651672e-19,
+                "INDEX_MCP_R": 0.7417497038841248,
+                "INDEX_PIP_R": 7.700253767950471e-09,
+                "THUMB_IP_R": 1.0,
+                "WRIST_R": 0.25825029611587524
+              }
+            },
+            "after": {
+              "L_inf": 0.07298888266086578,
+              "L1": 0.14597777904189702,
+              "per_group": {
+                "INDEX_DIP_R": 0.0013651708140969272,
+                "INDEX_MCP_R": 0.06687474250793457,
+                "INDEX_PIP_R": 0.004748983058999734,
+                "WRIST_R": 0.07298888266086578
+              }
+            },
+            "L_inf_delta": -0.9270111173391342,
+            "L1_delta": -1.8540222286583568,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 487,
+            "vertex_ids": [
+              1074,
+              158
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.06751025468111038,
+              "L1": 0.1350204871268943,
+              "per_group": {
+                "INDEX_DIP_R": 0.00037695199716836214,
+                "INDEX_MCP_R": 0.06485038995742798,
+                "INDEX_PIP_R": 0.0022828904911875725,
+                "WRIST_R": 0.06751025468111038
+              }
+            },
+            "L_inf_delta": 0.06751025468111038,
+            "L1_delta": 0.1350204871268943,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3682,
+            "vertex_ids": [
+              1074,
+              2576
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.03700381517410278,
+              "L1": 0.0740076086949557,
+              "per_group": {
+                "INDEX_DIP_R": 0.0006064230110496283,
+                "INDEX_MCP_R": 0.03700381517410278,
+                "INDEX_PIP_R": 0.0017861006781458855,
+                "WRIST_R": 0.03461126983165741
+              }
+            },
+            "L_inf_delta": 0.03700381517410278,
+            "L1_delta": 0.0740076086949557,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3688,
+            "vertex_ids": [
+              1074,
+              2577
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.04285311698913574,
+              "L1": 0.08570626517757773,
+              "per_group": {
+                "INDEX_DIP_R": 0.0003900742158293724,
+                "INDEX_MCP_R": 0.04285311698913574,
+                "INDEX_PIP_R": 0.0012838789261877537,
+                "WRIST_R": 0.041179195046424866
+              }
+            },
+            "L_inf_delta": 0.04285311698913574,
+            "L1_delta": 0.08570626517757773,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 656,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.25825029611587524,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "INDEX_DIP_R": 4.562352408651672e-19
+          },
+          "vector_sha256": "ec370257dd91a7ff57a07be54f5ccc1dcbc5dc586b26751fbaeccfbdcc817a17",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.706999603868017,
+            "mu_raw": 0.020095234543902,
+            "mu_clamped": 0.020095234543902,
+            "arc_mm": 0.6331539749713891,
+            "normalized_longitudinal": 0.009408498561731928
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2065,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.39454707503318787,
+            "INDEX_MCP_R": 0.6054528951644897,
+            "INDEX_PIP_R": 8.272839635559137e-10,
+            "INDEX_DIP_R": 1.5926417899352647e-19
+          },
+          "vector_sha256": "7384a0ad7212401d54550ecde912d27d3a3c6232d720e0e85b2e2aec66a608df",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.904240049927925,
+            "mu_raw": -0.10991080526185525,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2072,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "vector_sha256": "65e37085a7d7793d2ab75b109c1585b01a08a8ab6556ab57147c480b320a6775",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.846791951449033,
+            "mu_raw": -0.013504413266471019,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    },
+    {
+      "vertex_id": 1076,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 1.0
+      },
+      "after": {
+        "WRIST_R": 0.08924923837184906,
+        "INDEX_MCP_R": 0.9038931131362915,
+        "INDEX_PIP_R": 0.005521059967577457,
+        "INDEX_DIP_R": 0.0013366038911044598
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 151,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.056472938507795334,
+            "INDEX_MCP_R": 0.9392945170402527,
+            "INDEX_PIP_R": 0.003405242692679167,
+            "INDEX_DIP_R": 0.0008273189887404442
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.03540140390396118,
+            "L1": 0.07080280594527721,
+            "per_group": {
+              "INDEX_DIP_R": 0.0005092849023640156,
+              "INDEX_MCP_R": 0.03540140390396118,
+              "INDEX_PIP_R": 0.0021158172748982906,
+              "WRIST_R": 0.032776299864053726
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 158,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.11775115877389908,
+            "INDEX_MCP_R": 0.8734748363494873,
+            "INDEX_PIP_R": 0.007031881250441074,
+            "INDEX_DIP_R": 0.0017421228112652898
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.0304182767868042,
+            "L1": 0.060836537391878664,
+            "per_group": {
+              "INDEX_DIP_R": 0.00040551892016083,
+              "INDEX_MCP_R": 0.0304182767868042,
+              "INDEX_PIP_R": 0.001510821282863617,
+              "WRIST_R": 0.02850192040205002
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2569,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.043301768600940704,
+            "INDEX_MCP_R": 0.9495887756347656,
+            "INDEX_PIP_R": 0.006050691939890385,
+            "INDEX_DIP_R": 0.0010587889701128006
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.045947469770908356,
+            "L1": 0.09245057916268706,
+            "per_group": {
+              "INDEX_DIP_R": 0.00027781492099165916,
+              "INDEX_MCP_R": 0.04569566249847412,
+              "INDEX_PIP_R": 0.0005296319723129272,
+              "WRIST_R": 0.045947469770908356
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2577,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.1440822184085846,
+            "INDEX_MCP_R": 0.8514775633811951,
+            "INDEX_PIP_R": 0.003465111833065748,
+            "INDEX_DIP_R": 0.0009750965982675552
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.054832980036735535,
+            "L1": 0.10966598521918058,
+            "per_group": {
+              "INDEX_DIP_R": 0.0003615072928369045,
+              "INDEX_MCP_R": 0.052415549755096436,
+              "INDEX_PIP_R": 0.002055948134511709,
+              "WRIST_R": 0.054832980036735535
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.054832980036735535,
+        "max_after_L1": 0.10966598521918058,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 490,
+            "vertex_ids": [
+              158,
+              1076
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.0304182767868042,
+              "L1": 0.060836537391878664,
+              "per_group": {
+                "INDEX_DIP_R": 0.00040551892016083,
+                "INDEX_MCP_R": 0.0304182767868042,
+                "INDEX_PIP_R": 0.001510821282863617,
+                "WRIST_R": 0.02850192040205002
+              }
+            },
+            "L_inf_delta": 0.0304182767868042,
+            "L1_delta": 0.060836537391878664,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 491,
+            "vertex_ids": [
+              1076,
+              151
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.03540140390396118,
+              "L1": 0.07080280594527721,
+              "per_group": {
+                "INDEX_DIP_R": 0.0005092849023640156,
+                "INDEX_MCP_R": 0.03540140390396118,
+                "INDEX_PIP_R": 0.0021158172748982906,
+                "WRIST_R": 0.032776299864053726
+              }
+            },
+            "L_inf_delta": 0.03540140390396118,
+            "L1_delta": 0.07080280594527721,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3654,
+            "vertex_ids": [
+              1076,
+              2569
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.045947469770908356,
+              "L1": 0.09245057916268706,
+              "per_group": {
+                "INDEX_DIP_R": 0.00027781492099165916,
+                "INDEX_MCP_R": 0.04569566249847412,
+                "INDEX_PIP_R": 0.0005296319723129272,
+                "WRIST_R": 0.045947469770908356
+              }
+            },
+            "L_inf_delta": 0.045947469770908356,
+            "L1_delta": 0.09245057916268706,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3687,
+            "vertex_ids": [
+              1076,
+              2577
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.054832980036735535,
+              "L1": 0.10966598521918058,
+              "per_group": {
+                "INDEX_DIP_R": 0.0003615072928369045,
+                "INDEX_MCP_R": 0.052415549755096436,
+                "INDEX_PIP_R": 0.002055948134511709,
+                "WRIST_R": 0.054832980036735535
+              }
+            },
+            "L_inf_delta": 0.054832980036735535,
+            "L1_delta": 0.10966598521918058,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 1063,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "vector_sha256": "6b8e9a64c66608710d4380e78d9bee52556e2010a333d9e6660a82818a58e95f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.47997280771249,
+            "mu_raw": 0.22168747384751528,
+            "mu_clamped": 0.22168747384751528,
+            "arc_mm": 6.9848552880172186,
+            "normalized_longitudinal": 0.10379307961256226
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2072,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "vector_sha256": "65e37085a7d7793d2ab75b109c1585b01a08a8ab6556ab57147c480b320a6775",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.846791951449033,
+            "mu_raw": -0.013504413266471019,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2175,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "vector_sha256": "4b93118e08ff98b951e1d3ff21e396565879c3a9c474c8dc29f28b3f115a760d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.107333246556625,
+            "mu_raw": 0.5610544608674828,
+            "mu_clamped": 0.5610544608674828,
+            "arc_mm": 17.67751758744582,
+            "normalized_longitudinal": 0.26268317877020425
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    },
+    {
+      "vertex_id": 2189,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 0.9997552037239075,
+        "INDEX_PIP_R": 0.00024480887805111706,
+        "INDEX_DIP_R": 1.0234143393850204e-11
+      },
+      "after": {
+        "WRIST_R": 0.025835631415247917,
+        "INDEX_MCP_R": 0.9694371223449707,
+        "INDEX_PIP_R": 0.004032536875456572,
+        "INDEX_DIP_R": 0.0006947019719518721
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 151,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.056472938507795334,
+            "INDEX_MCP_R": 0.9392945170402527,
+            "INDEX_PIP_R": 0.003405242692679167,
+            "INDEX_DIP_R": 0.0008273189887404442
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.030637307092547417,
+            "L1": 0.06153982359683141,
+            "per_group": {
+              "INDEX_DIP_R": 0.00013261701678857207,
+              "INDEX_MCP_R": 0.030142605304718018,
+              "INDEX_PIP_R": 0.0006272941827774048,
+              "WRIST_R": 0.030637307092547417
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 694,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 6.0216509154997766e-05,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0036859093233942986,
+            "INDEX_DIP_R": 1.6190103702129477e-09
+          },
+          "before_vector": {
+            "WRIST_R": 6.0216509154997766e-05,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0036859093233942986,
+            "INDEX_DIP_R": 1.6190103702129477e-09
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.026816725730895996,
+            "L1": 0.05363346854199269,
+            "per_group": {
+              "INDEX_DIP_R": 0.0006947003529415019,
+              "INDEX_MCP_R": 0.026816725730895996,
+              "INDEX_PIP_R": 0.000346627552062273,
+              "WRIST_R": 0.02577541490609292
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2569,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.043301768600940704,
+            "INDEX_MCP_R": 0.9495887756347656,
+            "INDEX_PIP_R": 0.006050691939890385,
+            "INDEX_DIP_R": 0.0010587889701128006
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.019848346710205078,
+            "L1": 0.03969672595849261,
+            "per_group": {
+              "INDEX_DIP_R": 0.0003640869981609285,
+              "INDEX_MCP_R": 0.019848346710205078,
+              "INDEX_PIP_R": 0.002018155064433813,
+              "WRIST_R": 0.017466137185692787
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2570,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.0008790952851995826,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 0.0001795540447346866,
+            "INDEX_DIP_R": 6.222078408057996e-12
+          },
+          "before_vector": {
+            "WRIST_R": 0.0008790952851995826,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 0.0001795540447346866,
+            "INDEX_DIP_R": 6.222078408057996e-12
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.029504239559173584,
+            "L1": 0.0590084604856736,
+            "per_group": {
+              "INDEX_DIP_R": 0.0006947019657297937,
+              "INDEX_MCP_R": 0.029504239559173584,
+              "INDEX_PIP_R": 0.003852982830721885,
+              "WRIST_R": 0.024956536130048335
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.030637307092547417,
+        "max_after_L1": 0.06153982359683141,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 2716,
+            "vertex_ids": [
+              694,
+              2189
+            ],
+            "classifications": [
+              "TARGETED_REVALIDATION",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.9997552037239075,
+              "L1": 1.9995103703630486,
+              "per_group": {
+                "INDEX_DIP_R": 1.6087762268190975e-09,
+                "INDEX_MCP_R": 0.9962538480758667,
+                "INDEX_PIP_R": 0.0034411004453431815,
+                "THUMB_IP_R": 0.9997552037239075,
+                "WRIST_R": 6.0216509154997766e-05
+              }
+            },
+            "after": {
+              "L_inf": 0.026816725730895996,
+              "L1": 0.05363346854199269,
+              "per_group": {
+                "INDEX_DIP_R": 0.0006947003529415019,
+                "INDEX_MCP_R": 0.026816725730895996,
+                "INDEX_PIP_R": 0.000346627552062273,
+                "WRIST_R": 0.02577541490609292
+              }
+            },
+            "L_inf_delta": -0.9729384779930115,
+            "L1_delta": -1.9458769018210558,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 2717,
+            "vertex_ids": [
+              2189,
+              151
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.00024480887805111706,
+              "L1": 0.0004896051643777898,
+              "per_group": {
+                "INDEX_DIP_R": 1.0234143393850204e-11,
+                "INDEX_PIP_R": 0.00024480887805111706,
+                "THUMB_IP_R": 0.0002447962760925293
+              }
+            },
+            "after": {
+              "L_inf": 0.030637307092547417,
+              "L1": 0.06153982359683141,
+              "per_group": {
+                "INDEX_DIP_R": 0.00013261701678857207,
+                "INDEX_MCP_R": 0.030142605304718018,
+                "INDEX_PIP_R": 0.0006272941827774048,
+                "WRIST_R": 0.030637307092547417
+              }
+            },
+            "L_inf_delta": 0.0303924982144963,
+            "L1_delta": 0.06105021843245362,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3655,
+            "vertex_ids": [
+              2189,
+              2569
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.00024480887805111706,
+              "L1": 0.0004896051643777898,
+              "per_group": {
+                "INDEX_DIP_R": 1.0234143393850204e-11,
+                "INDEX_PIP_R": 0.00024480887805111706,
+                "THUMB_IP_R": 0.0002447962760925293
+              }
+            },
+            "after": {
+              "L_inf": 0.019848346710205078,
+              "L1": 0.03969672595849261,
+              "per_group": {
+                "INDEX_DIP_R": 0.0003640869981609285,
+                "INDEX_MCP_R": 0.019848346710205078,
+                "INDEX_PIP_R": 0.002018155064433813,
+                "WRIST_R": 0.017466137185692787
+              }
+            },
+            "L_inf_delta": 0.01960353783215396,
+            "L1_delta": 0.039207120794114814,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3661,
+            "vertex_ids": [
+              2189,
+              2570
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "TARGETED_REVALIDATION"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.9997552037239075,
+              "L1": 1.99964091575058,
+              "per_group": {
+                "INDEX_DIP_R": 4.0120649857922075e-12,
+                "INDEX_MCP_R": 0.9989413619041443,
+                "INDEX_PIP_R": 6.525483331643045e-05,
+                "THUMB_IP_R": 0.9997552037239075,
+                "WRIST_R": 0.0008790952851995826
+              }
+            },
+            "after": {
+              "L_inf": 0.029504239559173584,
+              "L1": 0.0590084604856736,
+              "per_group": {
+                "INDEX_DIP_R": 0.0006947019657297937,
+                "INDEX_MCP_R": 0.029504239559173584,
+                "INDEX_PIP_R": 0.003852982830721885,
+                "WRIST_R": 0.024956536130048335
+              }
+            },
+            "L_inf_delta": -0.9702509641647339,
+            "L1_delta": -1.9406324552649064,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 694,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 6.0216509154997766e-05,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0036859093233942986,
+            "INDEX_DIP_R": 1.6190103702129477e-09
+          },
+          "vector_sha256": "e684084ab7a74ea9483666a4ceb5fd7cf9c5506bd04d183d94922c2610aeb304",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.758828973870799,
+            "mu_raw": 0.5316695215799406,
+            "mu_clamped": 0.5316695215799406,
+            "arc_mm": 16.751666681174807,
+            "normalized_longitudinal": 0.24892528216942458
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 1063,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "vector_sha256": "6b8e9a64c66608710d4380e78d9bee52556e2010a333d9e6660a82818a58e95f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.47997280771249,
+            "mu_raw": 0.22168747384751528,
+            "mu_clamped": 0.22168747384751528,
+            "arc_mm": 6.9848552880172186,
+            "normalized_longitudinal": 0.10379307961256226
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2153,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 5.69666326555307e-06,
+            "INDEX_MCP_R": 0.9621217846870422,
+            "INDEX_PIP_R": 0.03787236660718918,
+            "INDEX_DIP_R": 1.6785701006938325e-07
+          },
+          "vector_sha256": "3e97ce577c4976fccfbbd72142c1aea753d1f833017d1db3814269e035c4c379",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.32435177253851,
+            "mu_raw": 0.6864684018367455,
+            "mu_clamped": 0.6864684018367455,
+            "arc_mm": 21.62901838073276,
+            "normalized_longitudinal": 0.3214014226728864
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2154,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 7.987602293724194e-05,
+            "INDEX_MCP_R": 0.9968734979629517,
+            "INDEX_PIP_R": 0.003046622732654214,
+            "INDEX_DIP_R": 1.1141868538899757e-09
+          },
+          "vector_sha256": "a47fe943d0ab0aa9910af596e45be6f445676f28606b18ddb326218fe27be7be",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.63920645288385,
+            "mu_raw": 0.509490516948225,
+            "mu_clamped": 0.509490516948225,
+            "arc_mm": 16.05285797044289,
+            "normalized_longitudinal": 0.23854117181120707
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2175,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "vector_sha256": "4b93118e08ff98b951e1d3ff21e396565879c3a9c474c8dc29f28b3f115a760d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.107333246556625,
+            "mu_raw": 0.5610544608674828,
+            "mu_clamped": 0.5610544608674828,
+            "arc_mm": 17.67751758744582,
+            "normalized_longitudinal": 0.26268317877020425
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2183,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.0018816824303939939,
+            "INDEX_MCP_R": 0.997954249382019,
+            "INDEX_PIP_R": 0.0001640751288505271,
+            "INDEX_DIP_R": 4.872674312650371e-12
+          },
+          "vector_sha256": "271505e0c4f59e28afa56aa4c1c064b6107f361bd8b2bcff6c230946e5ac4ce9",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.441501464755552,
+            "mu_raw": 0.35416137307969175,
+            "mu_clamped": 0.35416137307969175,
+            "arc_mm": 11.158798901144367,
+            "normalized_longitudinal": 0.1658167642662541
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2570,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.0008790952851995826,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 0.0001795540447346866,
+            "INDEX_DIP_R": 6.222078408057996e-12
+          },
+          "vector_sha256": "b864bd4a4d9fb0cc53a29e504724727e7674ea84dbc6ef8a1ae8575e795955bc",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 10.739519790328698,
+            "mu_raw": 0.36107480875735687,
+            "mu_clamped": 0.36107480875735687,
+            "arc_mm": 11.376625136038996,
+            "normalized_longitudinal": 0.16905360380091267
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    },
+    {
+      "vertex_id": 2192,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 1.0
+      },
+      "after": {
+        "WRIST_R": 0.05786578357219696,
+        "INDEX_MCP_R": 0.9335806369781494,
+        "INDEX_PIP_R": 0.007246341090649366,
+        "INDEX_DIP_R": 0.0013072651345282793
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 158,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.11775115877389908,
+            "INDEX_MCP_R": 0.8734748363494873,
+            "INDEX_PIP_R": 0.007031881250441074,
+            "INDEX_DIP_R": 0.0017421228112652898
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.06010580062866211,
+            "L1": 0.12064049334730953,
+            "per_group": {
+              "INDEX_DIP_R": 0.0004348576767370105,
+              "INDEX_MCP_R": 0.06010580062866211,
+              "INDEX_PIP_R": 0.000214459840208292,
+              "WRIST_R": 0.05988537520170212
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 703,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.00037366850301623344,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "INDEX_DIP_R": 2.188109249345871e-09
+          },
+          "before_vector": {
+            "WRIST_R": 0.00037366850301623344,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "INDEX_DIP_R": 2.188109249345871e-09
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.060910165309906006,
+            "L1": 0.12182034961929133,
+            "per_group": {
+              "INDEX_DIP_R": 0.00130726294641903,
+              "INDEX_MCP_R": 0.060910165309906006,
+              "INDEX_PIP_R": 0.002110806293785572,
+              "WRIST_R": 0.05749211506918073
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2569,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.043301768600940704,
+            "INDEX_MCP_R": 0.9495887756347656,
+            "INDEX_PIP_R": 0.006050691939890385,
+            "INDEX_DIP_R": 0.0010587889701128006
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.01600813865661621,
+            "L1": 0.03201627894304693,
+            "per_group": {
+              "INDEX_DIP_R": 0.0002484761644154787,
+              "INDEX_MCP_R": 0.01600813865661621,
+              "INDEX_PIP_R": 0.0011956491507589817,
+              "WRIST_R": 0.014564014971256256
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2591,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.06912291049957275,
+            "INDEX_MCP_R": 0.9216338396072388,
+            "INDEX_PIP_R": 0.007774633355438709,
+            "INDEX_DIP_R": 0.0014686076901853085
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.011946797370910645,
+            "L1": 0.02389355911873281,
+            "per_group": {
+              "INDEX_DIP_R": 0.00016134255565702915,
+              "INDEX_MCP_R": 0.011946797370910645,
+              "INDEX_PIP_R": 0.0005282922647893429,
+              "WRIST_R": 0.011257126927375793
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.060910165309906006,
+        "max_after_L1": 0.12182034961929133,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 2722,
+            "vertex_ids": [
+              703,
+              2192
+            ],
+            "classifications": [
+              "TARGETED_REVALIDATION",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 1.0,
+              "L1": 2.0000000077760447,
+              "per_group": {
+                "INDEX_DIP_R": 2.188109249345871e-09,
+                "INDEX_MCP_R": 0.9944908022880554,
+                "INDEX_PIP_R": 0.005135534796863794,
+                "THUMB_IP_R": 1.0,
+                "WRIST_R": 0.00037366850301623344
+              }
+            },
+            "after": {
+              "L_inf": 0.060910165309906006,
+              "L1": 0.12182034961929133,
+              "per_group": {
+                "INDEX_DIP_R": 0.00130726294641903,
+                "INDEX_MCP_R": 0.060910165309906006,
+                "INDEX_PIP_R": 0.002110806293785572,
+                "WRIST_R": 0.05749211506918073
+              }
+            },
+            "L_inf_delta": -0.939089834690094,
+            "L1_delta": -1.8781796581567534,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 2723,
+            "vertex_ids": [
+              2192,
+              158
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.06010580062866211,
+              "L1": 0.12064049334730953,
+              "per_group": {
+                "INDEX_DIP_R": 0.0004348576767370105,
+                "INDEX_MCP_R": 0.06010580062866211,
+                "INDEX_PIP_R": 0.000214459840208292,
+                "WRIST_R": 0.05988537520170212
+              }
+            },
+            "L_inf_delta": 0.06010580062866211,
+            "L1_delta": 0.12064049334730953,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3657,
+            "vertex_ids": [
+              2192,
+              2569
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.01600813865661621,
+              "L1": 0.03201627894304693,
+              "per_group": {
+                "INDEX_DIP_R": 0.0002484761644154787,
+                "INDEX_MCP_R": 0.01600813865661621,
+                "INDEX_PIP_R": 0.0011956491507589817,
+                "WRIST_R": 0.014564014971256256
+              }
+            },
+            "L_inf_delta": 0.01600813865661621,
+            "L1_delta": 0.03201627894304693,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3743,
+            "vertex_ids": [
+              2192,
+              2591
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.011946797370910645,
+              "L1": 0.02389355911873281,
+              "per_group": {
+                "INDEX_DIP_R": 0.00016134255565702915,
+                "INDEX_MCP_R": 0.011946797370910645,
+                "INDEX_PIP_R": 0.0005282922647893429,
+                "WRIST_R": 0.011257126927375793
+              }
+            },
+            "L_inf_delta": 0.011946797370910645,
+            "L1_delta": 0.02389355911873281,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 703,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.00037366850301623344,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "INDEX_DIP_R": 2.188109249345871e-09
+          },
+          "vector_sha256": "efab7cbf9208877775bb28cd8bd3d12a9595b183077df3dc3274c4dffd79b8a4",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.220466233902775,
+            "mu_raw": 0.5837224005625403,
+            "mu_clamped": 0.5837224005625403,
+            "arc_mm": 18.39173150174386,
+            "normalized_longitudinal": 0.2732962063291731
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2168,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.0014842695090919733,
+            "INDEX_MCP_R": 0.9936254024505615,
+            "INDEX_PIP_R": 0.0048903184942901134,
+            "INDEX_DIP_R": 1.6461763063801982e-09
+          },
+          "vector_sha256": "805bb7ede408358778c884fbef8dc006004027cf9106bf52ea4f765d41e2495f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.993868545078211,
+            "mu_raw": 0.5960263953305039,
+            "mu_clamped": 0.5960263953305039,
+            "arc_mm": 18.779401681872578,
+            "normalized_longitudinal": 0.279056881419829
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2169,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 4.752203312818892e-05,
+            "INDEX_MCP_R": 0.9615041017532349,
+            "INDEX_PIP_R": 0.03844821825623512,
+            "INDEX_DIP_R": 1.345846669664752e-07
+          },
+          "vector_sha256": "615b471b3bdd914646d0e90eaafd70d39de3dd70743f7337d4a9f351f3b6e85a",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.541179076013318,
+            "mu_raw": 0.71944746048952,
+            "mu_clamped": 0.71944746048952,
+            "arc_mm": 22.6681116061042,
+            "normalized_longitudinal": 0.336842069818558
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2175,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "vector_sha256": "4b93118e08ff98b951e1d3ff21e396565879c3a9c474c8dc29f28b3f115a760d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.107333246556625,
+            "mu_raw": 0.5610544608674828,
+            "mu_clamped": 0.5610544608674828,
+            "arc_mm": 17.67751758744582,
+            "normalized_longitudinal": 0.26268317877020425
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    },
+    {
+      "vertex_id": 2569,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 1.0
+      },
+      "after": {
+        "WRIST_R": 0.043301768600940704,
+        "INDEX_MCP_R": 0.9495887756347656,
+        "INDEX_PIP_R": 0.006050691939890385,
+        "INDEX_DIP_R": 0.0010587889701128006
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 1076,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.08924923837184906,
+            "INDEX_MCP_R": 0.9038931131362915,
+            "INDEX_PIP_R": 0.005521059967577457,
+            "INDEX_DIP_R": 0.0013366038911044598
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.045947469770908356,
+            "L1": 0.09245057916268706,
+            "per_group": {
+              "INDEX_DIP_R": 0.00027781492099165916,
+              "INDEX_MCP_R": 0.04569566249847412,
+              "INDEX_PIP_R": 0.0005296319723129272,
+              "WRIST_R": 0.045947469770908356
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2175,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "before_vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.04557734727859497,
+            "L1": 0.09115472193181406,
+            "per_group": {
+              "INDEX_DIP_R": 0.001058786731589434,
+              "INDEX_MCP_R": 0.04557734727859497,
+              "INDEX_PIP_R": 0.0013245041482150555,
+              "WRIST_R": 0.043194083773414604
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2189,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.025835631415247917,
+            "INDEX_MCP_R": 0.9694371223449707,
+            "INDEX_PIP_R": 0.004032536875456572,
+            "INDEX_DIP_R": 0.0006947019719518721
+          },
+          "before_vector": {
+            "THUMB_IP_R": 0.9997552037239075,
+            "INDEX_PIP_R": 0.00024480887805111706,
+            "INDEX_DIP_R": 1.0234143393850204e-11
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.019848346710205078,
+            "L1": 0.03969672595849261,
+            "per_group": {
+              "INDEX_DIP_R": 0.0003640869981609285,
+              "INDEX_MCP_R": 0.019848346710205078,
+              "INDEX_PIP_R": 0.002018155064433813,
+              "WRIST_R": 0.017466137185692787
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2192,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.05786578357219696,
+            "INDEX_MCP_R": 0.9335806369781494,
+            "INDEX_PIP_R": 0.007246341090649366,
+            "INDEX_DIP_R": 0.0013072651345282793
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.01600813865661621,
+            "L1": 0.03201627894304693,
+            "per_group": {
+              "INDEX_DIP_R": 0.0002484761644154787,
+              "INDEX_MCP_R": 0.01600813865661621,
+              "INDEX_PIP_R": 0.0011956491507589817,
+              "WRIST_R": 0.014564014971256256
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.045947469770908356,
+        "max_after_L1": 0.09245057916268706,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 3654,
+            "vertex_ids": [
+              1076,
+              2569
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.045947469770908356,
+              "L1": 0.09245057916268706,
+              "per_group": {
+                "INDEX_DIP_R": 0.00027781492099165916,
+                "INDEX_MCP_R": 0.04569566249847412,
+                "INDEX_PIP_R": 0.0005296319723129272,
+                "WRIST_R": 0.045947469770908356
+              }
+            },
+            "L_inf_delta": 0.045947469770908356,
+            "L1_delta": 0.09245057916268706,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3655,
+            "vertex_ids": [
+              2189,
+              2569
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.00024480887805111706,
+              "L1": 0.0004896051643777898,
+              "per_group": {
+                "INDEX_DIP_R": 1.0234143393850204e-11,
+                "INDEX_PIP_R": 0.00024480887805111706,
+                "THUMB_IP_R": 0.0002447962760925293
+              }
+            },
+            "after": {
+              "L_inf": 0.019848346710205078,
+              "L1": 0.03969672595849261,
+              "per_group": {
+                "INDEX_DIP_R": 0.0003640869981609285,
+                "INDEX_MCP_R": 0.019848346710205078,
+                "INDEX_PIP_R": 0.002018155064433813,
+                "WRIST_R": 0.017466137185692787
+              }
+            },
+            "L_inf_delta": 0.01960353783215396,
+            "L1_delta": 0.039207120794114814,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3656,
+            "vertex_ids": [
+              2175,
+              2569
+            ],
+            "classifications": [
+              "TARGETED_REVALIDATION",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 1.0,
+              "L1": 1.9999999977710854,
+              "per_group": {
+                "INDEX_DIP_R": 2.2385233666710747e-09,
+                "INDEX_MCP_R": 0.9951661229133606,
+                "INDEX_PIP_R": 0.004726187791675329,
+                "THUMB_IP_R": 1.0,
+                "WRIST_R": 0.00010768482752609998
+              }
+            },
+            "after": {
+              "L_inf": 0.04557734727859497,
+              "L1": 0.09115472193181406,
+              "per_group": {
+                "INDEX_DIP_R": 0.001058786731589434,
+                "INDEX_MCP_R": 0.04557734727859497,
+                "INDEX_PIP_R": 0.0013245041482150555,
+                "WRIST_R": 0.043194083773414604
+              }
+            },
+            "L_inf_delta": -0.954422652721405,
+            "L1_delta": -1.9088452758392713,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3657,
+            "vertex_ids": [
+              2192,
+              2569
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.01600813865661621,
+              "L1": 0.03201627894304693,
+              "per_group": {
+                "INDEX_DIP_R": 0.0002484761644154787,
+                "INDEX_MCP_R": 0.01600813865661621,
+                "INDEX_PIP_R": 0.0011956491507589817,
+                "WRIST_R": 0.014564014971256256
+              }
+            },
+            "L_inf_delta": 0.01600813865661621,
+            "L1_delta": 0.03201627894304693,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 694,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 6.0216509154997766e-05,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0036859093233942986,
+            "INDEX_DIP_R": 1.6190103702129477e-09
+          },
+          "vector_sha256": "e684084ab7a74ea9483666a4ceb5fd7cf9c5506bd04d183d94922c2610aeb304",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.758828973870799,
+            "mu_raw": 0.5316695215799406,
+            "mu_clamped": 0.5316695215799406,
+            "arc_mm": 16.751666681174807,
+            "normalized_longitudinal": 0.24892528216942458
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 703,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00037366850301623344,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "INDEX_DIP_R": 2.188109249345871e-09
+          },
+          "vector_sha256": "efab7cbf9208877775bb28cd8bd3d12a9595b183077df3dc3274c4dffd79b8a4",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.220466233902775,
+            "mu_raw": 0.5837224005625403,
+            "mu_clamped": 0.5837224005625403,
+            "arc_mm": 18.39173150174386,
+            "normalized_longitudinal": 0.2732962063291731
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2175,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "vector_sha256": "4b93118e08ff98b951e1d3ff21e396565879c3a9c474c8dc29f28b3f115a760d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.107333246556625,
+            "mu_raw": 0.5610544608674828,
+            "mu_clamped": 0.5610544608674828,
+            "arc_mm": 17.67751758744582,
+            "normalized_longitudinal": 0.26268317877020425
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2570,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.0008790952851995826,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 0.0001795540447346866,
+            "INDEX_DIP_R": 6.222078408057996e-12
+          },
+          "vector_sha256": "b864bd4a4d9fb0cc53a29e504724727e7674ea84dbc6ef8a1ae8575e795955bc",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 10.739519790328698,
+            "mu_raw": 0.36107480875735687,
+            "mu_clamped": 0.36107480875735687,
+            "arc_mm": 11.376625136038996,
+            "normalized_longitudinal": 0.16905360380091267
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 3203,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 1.202680778078502e-05,
+            "INDEX_MCP_R": 0.9592926502227783,
+            "INDEX_PIP_R": 0.040695175528526306,
+            "INDEX_DIP_R": 1.735136407887694e-07
+          },
+          "vector_sha256": "9e09a871c348b7f0fff172e9c4e8ff63210a9e3697860d777de5b94790e637d3",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.500208522281685,
+            "mu_raw": 0.7067868801521138,
+            "mu_clamped": 0.7067868801521138,
+            "arc_mm": 22.26920624630058,
+            "normalized_longitudinal": 0.33091444296578637
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    },
+    {
+      "vertex_id": 2577,
+      "classification": "REBUILD_REQUIRED",
+      "before": {
+        "THUMB_IP_R": 1.0
+      },
+      "after": {
+        "WRIST_R": 0.1440822184085846,
+        "INDEX_MCP_R": 0.8514775633811951,
+        "INDEX_PIP_R": 0.003465111833065748,
+        "INDEX_DIP_R": 0.0009750965982675552
+      },
+      "changed": true,
+      "dominant_before": "THUMB_IP_R",
+      "dominant_after": "INDEX_MCP_R",
+      "neighbor_evidence": [
+        {
+          "vertex_id": 1061,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.10536811500787735,
+            "INDEX_MCP_R": 0.8920002579689026,
+            "INDEX_PIP_R": 0.0020495993085205555,
+            "INDEX_DIP_R": 0.000582050415687263
+          },
+          "before_vector": {
+            "THUMB_IP_R": 0.9999997615814209,
+            "INDEX_PIP_R": 2.4493149908266787e-07,
+            "INDEX_DIP_R": 9.969651904566e-17
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.04052269458770752,
+            "L1": 0.08104535669554025,
+            "per_group": {
+              "INDEX_DIP_R": 0.0003930461825802922,
+              "INDEX_MCP_R": 0.04052269458770752,
+              "INDEX_PIP_R": 0.0014155125245451927,
+              "WRIST_R": 0.038714103400707245
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 1074,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.18526141345500946,
+            "INDEX_MCP_R": 0.8086244463920593,
+            "INDEX_PIP_R": 0.004748990759253502,
+            "INDEX_DIP_R": 0.0013651708140969276
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.04285311698913574,
+            "L1": 0.08570626517757773,
+            "per_group": {
+              "INDEX_DIP_R": 0.0003900742158293724,
+              "INDEX_MCP_R": 0.04285311698913574,
+              "INDEX_PIP_R": 0.0012838789261877537,
+              "WRIST_R": 0.041179195046424866
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 1076,
+          "classification": "REBUILD_REQUIRED",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.08924923837184906,
+            "INDEX_MCP_R": 0.9038931131362915,
+            "INDEX_PIP_R": 0.005521059967577457,
+            "INDEX_DIP_R": 0.0013366038911044598
+          },
+          "before_vector": {
+            "THUMB_IP_R": 1.0
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.054832980036735535,
+            "L1": 0.10966598521918058,
+            "per_group": {
+              "INDEX_DIP_R": 0.0003615072928369045,
+              "INDEX_MCP_R": 0.052415549755096436,
+              "INDEX_PIP_R": 0.002055948134511709,
+              "WRIST_R": 0.054832980036735535
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        },
+        {
+          "vertex_id": 2072,
+          "classification": "TARGETED_REVALIDATION",
+          "side": "INDEX",
+          "candidate_vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "before_vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "driver_families": [
+            "INDEX",
+            "WRIST"
+          ],
+          "weight_gradient": {
+            "L_inf": 0.05194999277591705,
+            "L1": 0.10389998503147568,
+            "per_group": {
+              "INDEX_DIP_R": 0.0009750965982675549,
+              "INDEX_MCP_R": 0.04750978946685791,
+              "INDEX_PIP_R": 0.003465106190433165,
+              "WRIST_R": 0.05194999277591705
+            }
+          },
+          "neighbor_dominant": "INDEX_MCP_R"
+        }
+      ],
+      "continuity_metric": {
+        "incident_edge_count": 4,
+        "max_after_L_inf": 0.054832980036735535,
+        "max_after_L1": 0.10966598521918058,
+        "blocker_count": 0,
+        "status": "PASS_STATIC_ABSOLUTE_GATES",
+        "edge_records": [
+          {
+            "edge_id": 3686,
+            "vertex_ids": [
+              1061,
+              2577
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 2.4493149908266787e-07,
+              "L1": 4.833500782839269e-07,
+              "per_group": {
+                "INDEX_DIP_R": 9.969651904566e-17,
+                "INDEX_PIP_R": 2.4493149908266787e-07,
+                "THUMB_IP_R": 2.384185791015625e-07
+              }
+            },
+            "after": {
+              "L_inf": 0.04052269458770752,
+              "L1": 0.08104535669554025,
+              "per_group": {
+                "INDEX_DIP_R": 0.0003930461825802922,
+                "INDEX_MCP_R": 0.04052269458770752,
+                "INDEX_PIP_R": 0.0014155125245451927,
+                "WRIST_R": 0.038714103400707245
+              }
+            },
+            "L_inf_delta": 0.04052244965620844,
+            "L1_delta": 0.08104487334546197,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3687,
+            "vertex_ids": [
+              1076,
+              2577
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.054832980036735535,
+              "L1": 0.10966598521918058,
+              "per_group": {
+                "INDEX_DIP_R": 0.0003615072928369045,
+                "INDEX_MCP_R": 0.052415549755096436,
+                "INDEX_PIP_R": 0.002055948134511709,
+                "WRIST_R": 0.054832980036735535
+              }
+            },
+            "L_inf_delta": 0.054832980036735535,
+            "L1_delta": 0.10966598521918058,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3688,
+            "vertex_ids": [
+              1074,
+              2577
+            ],
+            "classifications": [
+              "REBUILD_REQUIRED",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 0.0,
+              "L1": 0.0,
+              "per_group": {
+                "THUMB_IP_R": 0.0
+              }
+            },
+            "after": {
+              "L_inf": 0.04285311698913574,
+              "L1": 0.08570626517757773,
+              "per_group": {
+                "INDEX_DIP_R": 0.0003900742158293724,
+                "INDEX_MCP_R": 0.04285311698913574,
+                "INDEX_PIP_R": 0.0012838789261877537,
+                "WRIST_R": 0.041179195046424866
+              }
+            },
+            "L_inf_delta": 0.04285311698913574,
+            "L1_delta": 0.08570626517757773,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          },
+          {
+            "edge_id": 3689,
+            "vertex_ids": [
+              2072,
+              2577
+            ],
+            "classifications": [
+              "TARGETED_REVALIDATION",
+              "REBUILD_REQUIRED"
+            ],
+            "frozen_sides": [
+              "INDEX",
+              "INDEX"
+            ],
+            "before": {
+              "L_inf": 1.0,
+              "L1": 1.9999999907414714,
+              "per_group": {
+                "INDEX_DIP_R": 3.4698510296828463e-19,
+                "INDEX_MCP_R": 0.8039677739143372,
+                "INDEX_PIP_R": 5.642632583402474e-09,
+                "THUMB_IP_R": 1.0,
+                "WRIST_R": 0.19603221118450165
+              }
+            },
+            "after": {
+              "L_inf": 0.05194999277591705,
+              "L1": 0.10389998503147568,
+              "per_group": {
+                "INDEX_DIP_R": 0.0009750965982675549,
+                "INDEX_MCP_R": 0.04750978946685791,
+                "INDEX_PIP_R": 0.003465106190433165,
+                "WRIST_R": 0.05194999277591705
+              }
+            },
+            "L_inf_delta": -0.948050007224083,
+            "L1_delta": -1.8961000057099957,
+            "THUMB_IP_jump": 0,
+            "THUMB_MCP_jump": 0,
+            "touches_authorized_write": true
+          }
+        ]
+      },
+      "frozen_INDEX_witness_evidence": [
+        {
+          "vertex_id": 650,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.17136749625205994,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 4.048636981224263e-09,
+            "INDEX_DIP_R": 2.7811350232984256e-19
+          },
+          "vector_sha256": "cfd6a965c604e39dcbfb7be94851b7066635b4b650a45ac7fb581754f28448c1",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.03231089045354,
+            "mu_raw": -0.0434588322623494,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 656,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.25825029611587524,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "INDEX_DIP_R": 4.562352408651672e-19
+          },
+          "vector_sha256": "ec370257dd91a7ff57a07be54f5ccc1dcbc5dc586b26751fbaeccfbdcc817a17",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.706999603868017,
+            "mu_raw": 0.020095234543902,
+            "mu_clamped": 0.020095234543902,
+            "arc_mm": 0.6331539749713891,
+            "normalized_longitudinal": 0.009408498561731928
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2072,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "vector_sha256": "65e37085a7d7793d2ab75b109c1585b01a08a8ab6556ab57147c480b320a6775",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.846791951449033,
+            "mu_raw": -0.013504413266471019,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2578,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.048278842121362686,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 1.6312286277297972e-07,
+            "INDEX_DIP_R": 6.197329131731399e-17
+          },
+          "vector_sha256": "690fac464d05e57ff6964b6a1dc086997f722c2165c0e637920c9b38919b6736",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 7.93148061978923,
+            "mu_raw": 0.07734686885739588,
+            "mu_clamped": 0.07734686885739588,
+            "arc_mm": 2.4370194516347103,
+            "normalized_longitudinal": 0.03621345661875376
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 3169,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.3573540151119232,
+            "INDEX_MCP_R": 0.6426459550857544,
+            "INDEX_PIP_R": 5.32948796205801e-10,
+            "INDEX_DIP_R": 1.157034262198062e-19
+          },
+          "vector_sha256": "c8c671c0b53b156b01e51f0d2aa48c86a2e7fab05cf572d5e151671a8f4d2d3d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 10.457181138062927,
+            "mu_raw": -0.1486915028913512,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "driver_family_pass": true,
+      "INDEX_MCP_one_hot": false
+    }
+  ]
+}

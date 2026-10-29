@@ -1,0 +1,36 @@
+{
+  "contact_tolerances": "inherited3mm vertical,2mm horizontal; strict correct-key region unchanged",
+  "finger_label_independent": "Uses original predicted HAND active-key sets; no independence from hand-label errors claimed. UNKNOWN hand excluded, no reassignment.",
+  "placement_not_contact": {
+    "per_key_injective_pad_coverage_horizontal_margin_mm": 11.544524744350007,
+    "per_key_injective_pad_coverage_vertical_margin_mm": 10,
+    "rationale": "Coarse placement permits half a white key width horizontally and inherited full white-key10mm travel vertically. This is NOT a relaxed contact PASS. Strict contact feasibility also reported separately with inherited tolerances.",
+    "palm_collision_evaluated_separately": true
+  },
+  "A_PASS_requires_both_hands": {
+    "multi_note_coarse_coverage_fraction_min": 0.7,
+    "labeled_onset_contact_improvement_absolute_percentage_points_min": 15,
+    "combined_palm_wrist_collision_observation_reduction_min": 0.5,
+    "continuity_within_locked_limits": true,
+    "Human_visible_agent_precheck_natural_and_clearly_better": true,
+    "geometric_failure_fraction_max": 0.3
+  },
+  "failure_attribution_precedence": [
+    "strict labeled contact passes -> NO_FAILURE",
+    "labeled fails but strict injective unlabeled matching passes -> LIKELY_FINGERING_LABEL_CONFLICT",
+    "strict unlabeled fails but coarse injective matching passes -> SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT",
+    "coarse fails but injected horizontal/depth matching without height passes AND no duplicate predicted finger -> DEPTH_OR_APPROACH_ORIENTATION_LIMIT",
+    "otherwise -> ROOT_POSE_GEOMETRIC_FAILURE"
+  ],
+  "attribution_caution": "These are operational conditional diagnostics, not causal ground truth. Geometric failure at fitted pose does not prove all legal poses impossible.",
+  "MODEL_B_gate": {
+    "A_failed": true,
+    "depth_approach_share_of_multi_note_failures_must_exceed": 0.5,
+    "depth_approach_share_each_hand_must_exceed": 0.5,
+    "coarse_horizontal_multinote_feasibility_fraction_each_hand_min": 0.7,
+    "label_conflict_or_source_precision_not_majority": true,
+    "requires_visual_orientation_evidence": true,
+    "default_if_not_clear": "DO_NOT_RUN"
+  },
+  "failed_pose_without_causal_evidence": "Do not assert model architecture failure solely from unknown/predicted fingers or nonmetric source."
+}

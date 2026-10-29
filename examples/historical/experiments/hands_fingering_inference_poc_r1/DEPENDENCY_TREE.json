@@ -1,0 +1,166 @@
+{
+  "version": "1.0.0",
+  "name": "hands-fingering-inference-poc-r1",
+  "dependencies": {
+    "@lumikey/piano-fingering-model": {
+      "version": "0.3.0",
+      "resolved": "https://registry.npmjs.org/@lumikey/piano-fingering-model/-/piano-fingering-model-0.3.0.tgz",
+      "overridden": false,
+      "dependencies": {
+        "onnxruntime-common": {
+          "version": "1.23.2"
+        }
+      }
+    },
+    "onnxruntime-common": {
+      "version": "1.23.2",
+      "resolved": "https://registry.npmjs.org/onnxruntime-common/-/onnxruntime-common-1.23.2.tgz",
+      "overridden": false
+    },
+    "onnxruntime-node": {
+      "version": "1.23.2",
+      "resolved": "https://registry.npmjs.org/onnxruntime-node/-/onnxruntime-node-1.23.2.tgz",
+      "overridden": false,
+      "dependencies": {
+        "adm-zip": {
+          "version": "0.5.18",
+          "resolved": "https://registry.npmjs.org/adm-zip/-/adm-zip-0.5.18.tgz",
+          "overridden": false
+        },
+        "global-agent": {
+          "version": "3.0.0",
+          "resolved": "https://registry.npmjs.org/global-agent/-/global-agent-3.0.0.tgz",
+          "overridden": false,
+          "dependencies": {
+            "boolean": {
+              "version": "3.2.0",
+              "resolved": "https://registry.npmjs.org/boolean/-/boolean-3.2.0.tgz",
+              "overridden": false
+            },
+            "es6-error": {
+              "version": "4.1.1",
+              "resolved": "https://registry.npmjs.org/es6-error/-/es6-error-4.1.1.tgz",
+              "overridden": false
+            },
+            "matcher": {
+              "version": "3.0.0",
+              "resolved": "https://registry.npmjs.org/matcher/-/matcher-3.0.0.tgz",
+              "overridden": false,
+              "dependencies": {
+                "escape-string-regexp": {
+                  "version": "4.0.0",
+                  "resolved": "https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz",
+                  "overridden": false
+                }
+              }
+            },
+            "roarr": {
+              "version": "2.15.4",
+              "resolved": "https://registry.npmjs.org/roarr/-/roarr-2.15.4.tgz",
+              "overridden": false,
+              "dependencies": {
+                "boolean": {
+                  "version": "3.2.0"
+                },
+                "detect-node": {
+                  "version": "2.1.0",
+                  "resolved": "https://registry.npmjs.org/detect-node/-/detect-node-2.1.0.tgz",
+                  "overridden": false
+                },
+                "globalthis": {
+                  "version": "1.0.4",
+                  "resolved": "https://registry.npmjs.org/globalthis/-/globalthis-1.0.4.tgz",
+                  "overridden": false,
+                  "dependencies": {
+                    "define-properties": {
+                      "version": "1.2.1",
+                      "resolved": "https://registry.npmjs.org/define-properties/-/define-properties-1.2.1.tgz",
+                      "overridden": false,
+                      "dependencies": {
+                        "define-data-property": {
+                          "version": "1.1.4",
+                          "resolved": "https://registry.npmjs.org/define-data-property/-/define-data-property-1.1.4.tgz",
+                          "overridden": false,
+                          "dependencies": {
+                            "es-define-property": {
+                              "version": "1.0.1",
+                              "resolved": "https://registry.npmjs.org/es-define-property/-/es-define-property-1.0.1.tgz",
+                              "overridden": false
+                            },
+                            "es-errors": {
+                              "version": "1.3.0",
+                              "resolved": "https://registry.npmjs.org/es-errors/-/es-errors-1.3.0.tgz",
+                              "overridden": false
+                            },
+                            "gopd": {
+                              "version": "1.2.0"
+                            }
+                          }
+                        },
+                        "has-property-descriptors": {
+                          "version": "1.0.2",
+                          "resolved": "https://registry.npmjs.org/has-property-descriptors/-/has-property-descriptors-1.0.2.tgz",
+                          "overridden": false,
+                          "dependencies": {
+                            "es-define-property": {
+                              "version": "1.0.1"
+                            }
+                          }
+                        },
+                        "object-keys": {
+                          "version": "1.1.1",
+                          "resolved": "https://registry.npmjs.org/object-keys/-/object-keys-1.1.1.tgz",
+                          "overridden": false
+                        }
+                      }
+                    },
+                    "gopd": {
+                      "version": "1.2.0",
+                      "resolved": "https://registry.npmjs.org/gopd/-/gopd-1.2.0.tgz",
+                      "overridden": false
+                    }
+                  }
+                },
+                "json-stringify-safe": {
+                  "version": "5.0.1",
+                  "resolved": "https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz",
+                  "overridden": false
+                },
+                "semver-compare": {
+                  "version": "1.0.0",
+                  "resolved": "https://registry.npmjs.org/semver-compare/-/semver-compare-1.0.0.tgz",
+                  "overridden": false
+                },
+                "sprintf-js": {
+                  "version": "1.1.3",
+                  "resolved": "https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.1.3.tgz",
+                  "overridden": false
+                }
+              }
+            },
+            "semver": {
+              "version": "7.8.5",
+              "resolved": "https://registry.npmjs.org/semver/-/semver-7.8.5.tgz",
+              "overridden": false
+            },
+            "serialize-error": {
+              "version": "7.0.1",
+              "resolved": "https://registry.npmjs.org/serialize-error/-/serialize-error-7.0.1.tgz",
+              "overridden": false,
+              "dependencies": {
+                "type-fest": {
+                  "version": "0.13.1",
+                  "resolved": "https://registry.npmjs.org/type-fest/-/type-fest-0.13.1.tgz",
+                  "overridden": false
+                }
+              }
+            }
+          }
+        },
+        "onnxruntime-common": {
+          "version": "1.23.2"
+        }
+      }
+    }
+  }
+}

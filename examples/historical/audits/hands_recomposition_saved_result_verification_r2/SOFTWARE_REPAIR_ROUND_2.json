@@ -1,0 +1,26 @@
+{
+  "repair_round": 2,
+  "limit": 2,
+  "cause": "Initial R2 diagnostic added an unauthorized zero-BVH-pair predicate to the original 0.5mm active non-target-key gate and treated changed active-little face identities as other-hand regression",
+  "preserved_original_code": "source_actual_attempt_0.py",
+  "preserved_initial_result": "BLENDER_VERIFICATION_RESULT.json",
+  "preserved_initial_log": "blender_attempt_0.log",
+  "initial_result_classification_valid_under_original_gates": false,
+  "initial_geometry_observations_retained": true,
+  "changes": [
+    "Restore original active little 0.5mm depth predicate, retaining all BVH evidence",
+    "Exclude active LITTLE from other-digit key nonregression classification",
+    "Attempt read-only geometry recovery using already captured actual Blender skin, without reapplying corrected poses"
+  ],
+  "recovery_script": "recover_geometry.py",
+  "recovery_log": "software_recovery_1/blender_recovery.log",
+  "recovery_exit_code": 7,
+  "recovery_error": "ModuleNotFoundError: No module named 'source_actual'",
+  "recovery_error_origin": "Recovery script omitted its audit-directory sys.path initialization before module import",
+  "recovery_opened_original_scene": false,
+  "recovery_predicate_selftest_executed": false,
+  "recovery_corrected_poses_reapplied": 0,
+  "software_repair_rounds_used": 2,
+  "automatic_further_retry": false,
+  "RESULT": "BLOCKED_TOOLCHAIN"
+}

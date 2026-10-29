@@ -1,0 +1,149 @@
+{
+  "pass_": true,
+  "numpy": "2.5.3",
+  "modules": [
+    "common",
+    "depth_math",
+    "numpy",
+    "stdlib"
+  ],
+  "imports_absolute_script_directory": true,
+  "times": [
+    1.7,
+    2.0,
+    2.0625
+  ],
+  "cache_skin_errors_mm": [
+    0.0004846006046316371,
+    0.0006400772800117313,
+    0.0004538618977680938
+  ],
+  "vertex_count": 3300,
+  "face_count": 3298,
+  "units": "world meters; output mm",
+  "cached_E5_registered_geometry_errors_mm": [
+    7.444090344144172e-06,
+    6.971999283456043e-06
+  ],
+  "known_geometry_tests": [
+    {
+      "case": "inside",
+      "expected_mm": 500.0,
+      "lower_mm": 499.99999999799996,
+      "upper_mm": 500.000000004,
+      "gap_mm": 6.000033803132965e-09,
+      "witness_world_m": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "barycentric": [
+        0.0,
+        0.5,
+        0.5
+      ],
+      "raw_signed_depth_mm": 500.0,
+      "dual_active_constraints": [
+        0,
+        1,
+        2
+      ],
+      "dual_multipliers": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    },
+    {
+      "case": "outside",
+      "expected_mm": 0.0,
+      "lower_mm": 0.0,
+      "upper_mm": 0.0,
+      "gap_mm": 0.0,
+      "witness_world_m": [
+        2.0,
+        0.1,
+        0.5
+      ],
+      "barycentric": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "raw_signed_depth_mm": -1000.0,
+      "dual_active_constraints": [
+        0,
+        2,
+        7
+      ],
+      "dual_multipliers": [
+        1.0,
+        0.0,
+        0.5
+      ]
+    },
+    {
+      "case": "tangent",
+      "expected_mm": 0.0,
+      "lower_mm": 0.0,
+      "upper_mm": 4e-09,
+      "gap_mm": 4e-09,
+      "witness_world_m": [
+        0.0,
+        0.1,
+        0.5
+      ],
+      "barycentric": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "raw_signed_depth_mm": 0.0,
+      "dual_active_constraints": [
+        1,
+        2,
+        4
+      ],
+      "dual_multipliers": [
+        1.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "case": "interior_only",
+      "expected_mm": 500.0,
+      "lower_mm": 499.99999999799985,
+      "upper_mm": 500.000000004,
+      "gap_mm": 6.000144825435427e-09,
+      "witness_world_m": [
+        0.4999999999999999,
+        0.5,
+        0.5
+      ],
+      "barycentric": [
+        0.3333333333333334,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "raw_signed_depth_mm": 499.9999999999999,
+      "dual_active_constraints": [
+        0,
+        1,
+        2
+      ],
+      "dual_multipliers": [
+        0.5,
+        0.5,
+        0.0
+      ]
+    }
+  ],
+  "missing_cache_data": [
+    "Actual evaluated all-88-key geometry for all three Action times",
+    "Actual Blender tessellation of cached baseline/corrected polygons",
+    "BVH sets for final two times and left-hand geometry"
+  ],
+  "permitted_blender_supplement": "Read original scene/key Action only; tessellate cached skin coordinates in temporary in-memory mesh; never apply saved correction or save scene",
+  "optimizer_calls": 0
+}

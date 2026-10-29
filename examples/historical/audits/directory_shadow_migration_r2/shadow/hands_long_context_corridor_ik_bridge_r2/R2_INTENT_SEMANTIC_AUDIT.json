@@ -1,0 +1,26 @@
+{
+  "original_inputs": [
+    {
+      "candidate": "candidate_front",
+      "status": "REJECTED_SERIALIZED_SCHEMA_SEMANTICS",
+      "reason": "SERIALIZED_ACTIVE_CONTACT_MODE_MISMATCH:DESCEND",
+      "normalized_backend_physical_contacts": "Backend derived contacts from source clock, so physical equation did not inherit the stale header",
+      "corrective_optimizer_execution": false
+    },
+    {
+      "candidate": "candidate_right",
+      "status": "REJECTED_SERIALIZED_SCHEMA_SEMANTICS",
+      "reason": "SERIALIZED_ACTIVE_CONTACT_MODE_MISMATCH:DESCEND",
+      "normalized_backend_physical_contacts": "Backend derived contacts from source clock, so physical equation did not inherit the stale header",
+      "corrective_optimizer_execution": false
+    },
+    {
+      "candidate": "candidate_right",
+      "status": "CORRECTED_SERIALIZED_CONTRACT_PASS",
+      "correction_scope": "State labels/derived fields only before any second IK call; same timing/corridor/physical equations"
+    }
+  ],
+  "historical_front_input_preserved": true,
+  "first_candidate_no_optimization_retry": true,
+  "right_compiler_consumes_serialized_series": true
+}

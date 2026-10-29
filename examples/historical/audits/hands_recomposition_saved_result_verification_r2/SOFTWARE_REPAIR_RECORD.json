@@ -1,0 +1,24 @@
+{
+  "initial_known_repairs": [
+    "Use original INPUT_BINDINGS.scene; leave original source_scene-reading script unchanged",
+    "Configure existing Hands audits/midi_driven_dual_hand_piano_performance_poc_r1/_deps before import mido; install nothing"
+  ],
+  "selftest_attempt_0": {
+    "status": "FAIL",
+    "error": "BONE_IDENTITY WRIST_R",
+    "code_snapshot": "contract_attempt_0.py",
+    "gate_snapshot": "INPUT_CONTRACT_GATE_attempt_0.json",
+    "log": "input_contract_attempt_0.log"
+  },
+  "software_repair_round_1": {
+    "cause": "Previous R1 audit draft compared native rest_matrices with canonical probe matrices directly",
+    "change": "Apply original RIG_CANONICAL_PROBE_R1.native_to_canonical to native rest matrices before identity comparison; verify original bone parent names",
+    "read_only_evidence": "All 21 converted matrix errors exactly zero",
+    "movement_algorithm_changed": false,
+    "numeric_results_changed": false,
+    "gates_changed": false
+  },
+  "selftest_attempt_1": {"status": "PASS", "log": "input_contract_attempt_1.log"},
+  "repair_rounds_used_after_initial_known_repairs": 1,
+  "repair_round_limit": 2
+}

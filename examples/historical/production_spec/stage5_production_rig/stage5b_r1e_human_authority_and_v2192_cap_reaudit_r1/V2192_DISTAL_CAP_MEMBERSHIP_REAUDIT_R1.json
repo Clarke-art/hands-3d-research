@@ -1,0 +1,129 @@
+{
+  "audit_id": "V2192_DISTAL_CAP_MEMBERSHIP_REAUDIT_R1",
+  "scope": "Separate read-only membership provenance and static mesh audit requested by Human notes; not a new Human registration",
+  "human_authority_source_sha256": "c47c5e7d973be52a6887a5697fb80c6a823d8df3a6fbf97010b672d35f52517c",
+  "human_questions_verbatim": {
+    "Q1": "YES",
+    "Q2": "UNRESOLVED",
+    "Q3": "UNDECIDED",
+    "Q4": "NO",
+    "Q5": "LIMITED"
+  },
+  "human_notes_verbatim": "Human Review：body-side 16 视觉上主要对应食指近节表面；RADIAL cluster 与 first-web 的真实对应尚未确认。v2169 不支持认定为已证明的 index/thumb shared interface。v2192→v703→v2169→v704 作为 mesh 连续表面路径成立，但不支持将其解释为真实 thumb distal cap→index collar 的解剖路径；v2192 的 distal-cap membership 需单独重新审计。",
+  "vertex_id": 2192,
+  "historical_list_membership": {
+    "R2A_approved_cap_list_contains_v2192": true,
+    "approved_cap_vertex_ids": [
+      151,
+      158,
+      1061,
+      1074,
+      1076,
+      2189,
+      2192,
+      2569,
+      2577
+    ],
+    "approved_cap_face_ids": [
+      356,
+      357,
+      389,
+      390
+    ],
+    "cap_faces_incident_to_v2192": [
+      356
+    ],
+    "R3_cap_set_identical_to_R2A": true
+  },
+  "provenance_chain": [
+    {
+      "source": "production_spec\\stage5_production_rig\\stage5a_r2a\\THUMB_DISTAL_CAP_AUDIT.json",
+      "finding": "R2A records v2192 among the 9 cap vertices"
+    },
+    {
+      "source": "production_spec\\stage5_production_rig\\stage5a_r2b\\STAGE5A_R2A_DISTAL_CAP_METHOD_ERRATA.md",
+      "finding": "Canonical method is geodesic connected cap from a distal-most surface seed selected within digit-owned faces; older slab-method prose is superseded"
+    },
+    {
+      "source": "production_spec/stage5_production_rig/stage5a_r2a/scripts/s5a_r2a_audit.py",
+      "finding": "digit_cap selects seed from DIG_VERTS[D] using approved distal joint and tip direction, then restricts patch faces to OWN_FACES[D]. Correct input digit identity is a prerequisite."
+    },
+    {
+      "source": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+      "finding": "CAP imports R2A cap IDs, and THUMB_STRONG explicitly unions CAP. R3 label inheritance is not independent validation of anatomical cap identity."
+    }
+  ],
+  "static_mesh_evidence": {
+    "v2192_current_world_mm": [
+      1458.0062627792358,
+      16.356155276298523,
+      494.6153163909912
+    ],
+    "v2192_native_pre_RSSF_world_mm": [
+      1455.761194229126,
+      20.321829244494438,
+      490.5177354812622
+    ],
+    "incident_faces": [
+      356,
+      359,
+      445,
+      446
+    ],
+    "one_ring": [
+      158,
+      703,
+      2569,
+      2591
+    ],
+    "nearest_Human_Q1_body16_along_edges_current": {
+      "path": [
+        2192,
+        703,
+        2169
+      ],
+      "distance_mm": 8.928048570762801
+    },
+    "nearest_Human_Q1_body16_along_edges_native": {
+      "path": [
+        2192,
+        703,
+        2169
+      ],
+      "distance_mm": 8.55835059907265
+    },
+    "three_edge_path": [
+      2192,
+      703,
+      2169,
+      704
+    ],
+    "current_three_edge_length_mm": 13.164617897796292,
+    "path_first_web_intersection": [],
+    "topological_continuity": "Existing continuous mesh path; Human Q5 remains LIMITED for anatomical interpretation",
+    "existing_visual_evidence": "../stage5b_r1e_manual_anatomical_reference_review_r1/renders/CAP_TO_COLLAR_3_EDGE_ANATOMICAL_SANITY_CHECK.png",
+    "previous_static_visual_observation": "In pre-RSSF geometry, the path runs longitudinally along the index proximal tube. v2192 is not visually at the separate native thumb terminal branch. Current v2192 is close to the engineered thumb-tip endpoint in the contact pose; proximity alone cannot settle its native surface origin.",
+    "visual_observation_role": "Supporting model evidence only; does not override Human review or assign new anatomical membership"
+  },
+  "result": {
+    "historical_administrative_membership": "CONFIRMED_IN_FROZEN_APPROVED_LIST",
+    "anatomical_thumb_distal_cap_membership": "NOT_ESTABLISHED_BY_INDEPENDENT_CORRESPONDENCE",
+    "issue": "Frozen cap identity needs independent resolution; geodesic continuity and inherited THUMB labels do not resolve the region conflict.",
+    "membership_removed": false,
+    "replacement_cap_proposed": false,
+    "required_resolution": "Independent native thumb terminal-region identification and original digit-owned seed/face provenance validation, before any proposed production membership revision",
+    "Human_Q4": "NO",
+    "Human_Q5": "LIMITED"
+  },
+  "source_hashes": {
+    "production_spec\\stage5_production_rig\\stage5a_r2a\\THUMB_DISTAL_CAP_AUDIT.json": "c9f7ccf089a309f7331f3efbca4010cc9fbdfe592df23b0a110c908fb1ee0f45",
+    "production_spec\\stage5_production_rig\\stage5a_r2b\\STAGE5A_R2A_DISTAL_CAP_METHOD_ERRATA.md": "a536b71872868f21550e29fd05e38a9f88c8ce89be61fe14537240729ebe9a0f",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+    "production_spec\\stage5_production_rig\\stage5b_r1e_endpoint_authority_review\\_tmp\\review_raw.json": "b02fe45823d7ea73c2bb76dda2fc28d0c2bacb8dfdc1ce0a392084354db4cb98",
+    "production_spec\\stage5_production_rig\\stage5b_r1e_narrow_anatomical_review\\_tmp\\anatomy_static_extract.json": "142f7c4a5442f8024fb72e6e920912c4729803e5b9fbe88cba656b2d9876d367"
+  },
+  "production_membership_or_authority_changed": false,
+  "BLEND_FILES_WRITTEN": 0,
+  "R1F_CREATED": false,
+  "deformation_runs": 0
+}

@@ -1,0 +1,90 @@
+{
+  "PHASE": "OFFICIAL_L1_PRODUCT_REBASE_FEASIBILITY_R1",
+  "ASSET_CLASS": "DESIGN_ONLY / NOT_PRODUCTION",
+  "HUMAN_APPROVAL": "PENDING",
+  "DO_NOT_PROMOTE": true,
+  "SOURCE_MESH": "Blender Human Base Meshes v1.4.1 / Hand  - Realistic / Official Multires L1",
+  "SOURCE_VERTEX_FACE_COUNT": {
+    "vertices": 3300,
+    "edges": 6596,
+    "faces": 3298
+  },
+  "RIG_SOURCE": {
+    "path": "production_spec/stage5_production_rig/human_thumb_kinematic_authority_correction_r1/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+    "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+  },
+  "BONE_COUNT": 21,
+  "ARMATURE_FIT_STATUS": "COMPLETED_SOURCE_SHAPE_PRESERVED_DYNAMIC_FIRST_WEB_BLOCKER",
+  "WEIGHT_TRANSFER_METHOD": "Nearest surface + barycentric interpolation on an unsaved pose-registered R2 donor proxy; normalize 16 deform influences; no TIP weights",
+  "WEIGHT_DONOR_POSITIVE_HASH": "1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55",
+  "LOCAL_WEIGHT_TUNING_VERTEX_COUNT": 173,
+  "LOCAL_WEIGHT_TUNING_ATTEMPTS": 1,
+  "ZERO_VISUAL_STATUS": "PASS_CODEX_PRELIMINARY",
+  "FOUR_FINGER_FLEX_STATUS": "FAIL_INDEX_FIRST_WEB_HARD_FOLD; MIDDLE_RING_LITTLE_PASS_CODEX_PRELIMINARY",
+  "THUMB_FLEX_STATUS": "PASS_CODEX_PRELIMINARY",
+  "CMC_OPP_30_STATUS": "FAIL_VISIBLE_UPPER_FIRST_WEB_HARD_FOLD",
+  "FULL_OPP_L1_STATUS": "PASS_CODEX_PRELIMINARY",
+  "FULL_OPP_L2_STATUS": "FAIL_VISIBLE_UPPER_FIRST_WEB_HARD_FOLD",
+  "FULL_OPP_L3_STATUS": "FAIL_VISIBLE_UPPER_FIRST_WEB_HARD_FOLD",
+  "VISIBLE_PRODUCT_BLOCKER_COUNT": 1,
+  "VISIBLE_BLOCKER_COUNT_SEMANTICS": "One defect family repeated in four authorized cases",
+  "VISIBLE_AFFECTED_CASE_COUNT": 4,
+  "VISIBLE_AFFECTED_CASES": [
+    "INDEX_MCP_45",
+    "CMC_OPP_30",
+    "FULL_OPP_L2",
+    "FULL_OPP_L3"
+  ],
+  "MINIMUM_VISIBLE_BLOCKER": "Upper first-web at index-root attachment pinches into a pointed shelf / flap-like hard fold. Clear at CMC_OPP_30; repeated at FULL_OPP_L2/L3 and INDEX_MCP_45.",
+  "MACHINE_SAFETY": "PASS_MINIMUM_NUMERICAL_AND_GROSS_VISIBLE_SCREEN",
+  "MACHINE_SAFETY_DETAILS": {
+    "NaN_Inf": 0,
+    "collapsed_faces": 0,
+    "degenerate_edges": 0,
+    "gross_severe_stretch_edges": 0,
+    "gross_visible_tearing": 0,
+    "obvious_gross_visible_penetration": 0,
+    "visible_screen_scope": "Ordinary neutral renders only; no hidden intersection census",
+    "ZERO_restore": "PASS",
+    "ZERO_restore_max_mm": 0.0
+  },
+  "SOURCE_SHAPE_PRESERVED": "YES",
+  "SOURCE_NATIVE_POSITIONS_FACES_UV_MATERIALS": "PRESERVED",
+  "SOURCE_VS_BOUND_ZERO_FLOAT_ERROR_MM": 0.0004820626766340566,
+  "RECOMMENDED_PRODUCT_MESH": "NOT_CONFIRMED_BY_THIS_TRIAL",
+  "CURRENT_ENGINEERING_MESH_ROLE_FOR_NEW_ROUTE": "LEGACY_REFERENCE_ONLY",
+  "PRODUCTION_MASTER_REPLACED": false,
+  "PRODUCTION_PROMOTION": "NO",
+  "VERDICT": "FAIL_PRODUCT_REBASE_FEASIBILITY",
+  "VERDICT_SCOPE": "This fitted rig + surface weight transfer + one bounded local smooth trial; does not prove Official L1 cannot work.",
+  "CASE_VISIBLE_STATUS": {
+    "INDEX_MCP_45": "FAIL_VISIBLE_UPPER_FIRST_WEB_HARD_FOLD",
+    "MIDDLE_MCP_45": "PASS_CODEX_PRELIMINARY",
+    "RING_MCP_45": "PASS_CODEX_PRELIMINARY",
+    "LITTLE_MCP_45": "PASS_CODEX_PRELIMINARY",
+    "THUMB_MCP_45": "PASS_CODEX_PRELIMINARY",
+    "THUMB_IP_45": "PASS_CODEX_PRELIMINARY",
+    "CMC_OPP_30": "FAIL_VISIBLE_UPPER_FIRST_WEB_HARD_FOLD",
+    "FULL_OPP_L1": "PASS_CODEX_PRELIMINARY",
+    "FULL_OPP_L2": "FAIL_VISIBLE_UPPER_FIRST_WEB_HARD_FOLD",
+    "FULL_OPP_L3": "FAIL_VISIBLE_UPPER_FIRST_WEB_HARD_FOLD"
+  },
+  "source": {
+    "path": "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend",
+    "sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137"
+  },
+  "weight_donor": {
+    "path": "production_spec/stage5_production_rig/geometry_propagation_after_palmar_donor_restoration_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_PALMAR_ROOT_GEOMETRY_R1.blend",
+    "sha256": "90d3ebd1c1973f94020b66281781db481d5a366271a9d6aac6b921861e2b45aa"
+  },
+  "candidate": {
+    "path": "audits/official_l1_product_rebase_feasibility_r1/RIGHT_HAND_OFFICIAL_L1_PRODUCT_REBASE_CANDIDATE_R1.blend",
+    "sha256": "9e8b29875fc6c215ef1e0fce4f582774f10b21596835d03763edb771443b11ec"
+  },
+  "SAVED_CANDIDATE_POSE": "ZERO",
+  "TIP_HELPERS_NON_DEFORM": true,
+  "STATIC_MATCHED_VIEW_COUNT": 6,
+  "REPRESENTATIVE_CASE_COUNT": 10,
+  "STOP": "STOP — HUMAN REVIEW",
+  "AUTOMATIC_FOLLOWUP": false
+}

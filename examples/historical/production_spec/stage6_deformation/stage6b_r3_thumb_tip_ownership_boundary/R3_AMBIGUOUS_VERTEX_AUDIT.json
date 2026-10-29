@@ -1,0 +1,149 @@
+{
+ "stage": "R3_AMBIGUOUS_VERTEX_AUDIT",
+ "generated_at": "2026-10-01T16:15:36.949268+08:00",
+ "margin_definition_mm": 3.888205,
+ "AMBIGUOUS_VERTEX_COUNT_BEFORE": 16,
+ "AMBIGUOUS_VERTEX_COUNT_AFTER": 0,
+ "AMBIGUOUS_ASSIGNED_BY_TOPOLOGY_RATHER_THAN_OWN_UNARY": 6,
+ "ambiguous_vertices_assigned_by_topology": [
+  696,
+  700,
+  702,
+  2163,
+  2173,
+  3201
+ ],
+ "every_ambiguous_vertex_is_connected_to_its_own_anchor_set": true,
+ "resolution_rule": "min-cut unary is the geodesic distance to the two strong-anchor sets and the pairwise term prices boundary length, so a vertex whose two distances are within one mesh scale is decided by topological coherence with its neighbours and by connectivity to its own anchor set - never by a per-vertex override",
+ "ambiguous_vertices": [
+  {
+   "vertex": 159,
+   "dT_mm": 19.0352,
+   "dI_mm": 16.2095,
+   "margin_mm": 2.8257,
+   "R2_label": "THUMB",
+   "R3_label": "INDEX"
+  },
+  {
+   "vertex": 691,
+   "dT_mm": 15.6841,
+   "dI_mm": 19.0929,
+   "margin_mm": 3.4088,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 696,
+   "dT_mm": 12.024,
+   "dI_mm": 14.6142,
+   "margin_mm": 2.5902,
+   "R2_label": "THUMB",
+   "R3_label": "INDEX"
+  },
+  {
+   "vertex": 697,
+   "dT_mm": 10.6468,
+   "dI_mm": 14.2078,
+   "margin_mm": 3.561,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 700,
+   "dT_mm": 17.0791,
+   "dI_mm": 14.8059,
+   "margin_mm": 2.2732,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 702,
+   "dT_mm": 16.9607,
+   "dI_mm": 18.1235,
+   "margin_mm": 1.1628,
+   "R2_label": "THUMB",
+   "R3_label": "INDEX"
+  },
+  {
+   "vertex": 1090,
+   "dT_mm": 18.5771,
+   "dI_mm": 16.9317,
+   "margin_mm": 1.6455,
+   "R2_label": "THUMB",
+   "R3_label": "INDEX"
+  },
+  {
+   "vertex": 2157,
+   "dT_mm": 11.1549,
+   "dI_mm": 11.1937,
+   "margin_mm": 0.0389,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 2162,
+   "dT_mm": 13.9365,
+   "dI_mm": 14.4119,
+   "margin_mm": 0.4754,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 2163,
+   "dT_mm": 14.1366,
+   "dI_mm": 10.6798,
+   "margin_mm": 3.4568,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 2173,
+   "dT_mm": 19.0795,
+   "dI_mm": 15.6024,
+   "margin_mm": 3.4771,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 2568,
+   "dT_mm": 17.4334,
+   "dI_mm": 17.1251,
+   "margin_mm": 0.3083,
+   "R2_label": "THUMB",
+   "R3_label": "INDEX"
+  },
+  {
+   "vertex": 2590,
+   "dT_mm": 16.6364,
+   "dI_mm": 14.2831,
+   "margin_mm": 2.3533,
+   "R2_label": "THUMB",
+   "R3_label": "INDEX"
+  },
+  {
+   "vertex": 3197,
+   "dT_mm": 11.7144,
+   "dI_mm": 14.7123,
+   "margin_mm": 2.9979,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 3199,
+   "dT_mm": 16.5814,
+   "dI_mm": 18.7318,
+   "margin_mm": 2.1504,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  },
+  {
+   "vertex": 3201,
+   "dT_mm": 10.8168,
+   "dI_mm": 10.788,
+   "margin_mm": 0.0289,
+   "R2_label": "THUMB",
+   "R3_label": "THUMB"
+  }
+ ],
+ "manual_per_vertex_override_count": 0
+}

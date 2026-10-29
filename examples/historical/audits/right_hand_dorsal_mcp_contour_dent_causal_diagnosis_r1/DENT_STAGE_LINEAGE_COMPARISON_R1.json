@@ -1,0 +1,7333 @@
+{
+  "status": "PASS_MATCHED_LOCAL_GEOMETRY_LINEAGE_DIAGNOSIS",
+  "EARLIEST_CONFIRMED_DENT_STAGE": "STAGE4A_R2_BASE_PRE_CMC_RETOPO",
+  "earliest_scope": "Earliest among minimally inspected official candidates; the original creation event / earlier Stage2 is not established.",
+  "earlier_local_identity": {
+    "status": "PASS_EXACT_LOCAL_VERTEX_AND_FACE_IDENTITY",
+    "input": {
+      "path": "production_spec/stage4_blender/RIGHT_HAND_ENGINEERING_STAGE4A_R2_BASE.blend",
+      "sha256": "afbae673ac3e1a520c5a2d6b4e56c6cdc373394876569fb36510865bef7e54a4"
+    },
+    "whole_mesh_vertex_count": 3364,
+    "current_mesh_vertex_count": 3416,
+    "same_whole_mesh_topology": false,
+    "mapping_basis": "Unique exactly equal world coordinates for all52 ROI vertices, plus equal oriented native face cycles for all36 ROI faces. Native face identity is independently verified; global index mapping is not assumed.",
+    "current_to_native_vertex_ids": {
+      "79": 79,
+      "80": 80,
+      "81": 81,
+      "86": 86,
+      "181": 181,
+      "182": 182,
+      "735": 735,
+      "738": 738,
+      "955": 955,
+      "956": 956,
+      "962": 962,
+      "1107": 1107,
+      "1890": 1890,
+      "2089": 2089,
+      "2090": 2090,
+      "2095": 2095,
+      "2096": 2096,
+      "2237": 2237,
+      "2238": 2238,
+      "2239": 2239,
+      "2241": 2241,
+      "2276": 2276,
+      "2326": 2326,
+      "2327": 2327,
+      "2328": 2328,
+      "2330": 2330,
+      "2531": 2531,
+      "2532": 2532,
+      "2609": 2609,
+      "3025": 3025,
+      "3031": 3031,
+      "3086": 3086,
+      "3219": 3219,
+      "3300": 3300,
+      "3307": 3307,
+      "3308": 3308,
+      "3309": 3309,
+      "3315": 3315,
+      "3316": 3316,
+      "3317": 3317,
+      "3322": 3322,
+      "3323": 3323,
+      "3324": 3324,
+      "3325": 3325,
+      "3331": 3331,
+      "3332": 3332,
+      "3333": 3333,
+      "3338": 3338,
+      "3339": 3339,
+      "3340": 3340,
+      "3341": 3341,
+      "3347": 3347
+    },
+    "current_to_native_face_ids": {
+      "204": 204,
+      "205": 205,
+      "206": 206,
+      "207": 207,
+      "208": 208,
+      "209": 209,
+      "516": 516,
+      "517": 517,
+      "2180": 2180,
+      "2181": 2181,
+      "2182": 2182,
+      "2183": 2183,
+      "2204": 2204,
+      "2206": 2206,
+      "2207": 2207,
+      "2424": 2424,
+      "2425": 2425,
+      "2426": 2426,
+      "2956": 2956,
+      "2957": 2957,
+      "3299": 3299,
+      "3310": 3310,
+      "3312": 3312,
+      "3313": 3313,
+      "3314": 3314,
+      "3315": 3315,
+      "3326": 3326,
+      "3327": 3327,
+      "3328": 3328,
+      "3329": 3329,
+      "3330": 3330,
+      "3331": 3331,
+      "3332": 3332,
+      "3333": 3333,
+      "3344": 3344,
+      "3345": 3345
+    },
+    "unresolved_vertices": [],
+    "missing_faces": [],
+    "max_confirmed_ROI_coordinate_difference_mm": 0,
+    "earlier_ROI_geometry_matches_rendered_Stage4A_R2_exactly": true,
+    "armature_count": 0,
+    "blend_save_count": 0,
+    "scope_expansion": "Only one earlier engineering baseline selected ROI, not a historical qualification suite."
+  },
+  "input_state_checks": {
+    "stages": {
+      "STAGE4A_R2_FROZEN": {
+        "input": {
+          "path": "production_spec/stage4_blender/stage4a_r2/RIGHT_HAND_ENGINEERING_STAGE4A_R2.blend",
+          "sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039"
+        },
+        "armature_count": 0,
+        "custom_normals": false,
+        "max_raw_to_evaluated_on_mm": 0.0,
+        "max_off_to_on_mm": 0.0,
+        "exact_topology_matches_current": true,
+        "coordinate_interpretation": "Stage4C raw stored mesh is already RSSF; it is not a pre-RSSF native pose."
+      },
+      "STAGE4B_RSSF_R2": {
+        "input": {
+          "path": "production_spec/stage4_blender/stage4b_rssf/RIGHT_HAND_ENGINEERING_STAGE4B_RSSF_R2.blend",
+          "sha256": "78fc890bfa9575cd62f2ae5f55beb2eda2df7ebf565c4e346a8b5af7295bbe04"
+        },
+        "armature_count": 0,
+        "custom_normals": false,
+        "max_raw_to_evaluated_on_mm": 0.0,
+        "max_off_to_on_mm": 0.0,
+        "exact_topology_matches_current": true,
+        "coordinate_interpretation": "Stage4C raw stored mesh is already RSSF; it is not a pre-RSSF native pose."
+      },
+      "STAGE4C_R2_RAW": {
+        "input": {
+          "path": "production_spec/stage4_blender/stage4c_r2/RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend",
+          "sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+        },
+        "armature_count": 0,
+        "custom_normals": false,
+        "max_raw_to_evaluated_on_mm": 0.0,
+        "max_off_to_on_mm": 0.0,
+        "exact_topology_matches_current": true,
+        "coordinate_interpretation": "Stage4C raw stored mesh is already RSSF; it is not a pre-RSSF native pose."
+      },
+      "CORRECTED_STAGE5A_RIG": {
+        "input": {
+          "path": "production_spec/stage5_production_rig/human_thumb_kinematic_authority_correction_r1/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+          "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+        },
+        "armature_count": 0,
+        "custom_normals": false,
+        "max_raw_to_evaluated_on_mm": 0.0,
+        "max_off_to_on_mm": 0.0,
+        "exact_topology_matches_current": true,
+        "coordinate_interpretation": "Stage4C raw stored mesh is already RSSF; it is not a pre-RSSF native pose."
+      },
+      "R2_PRODUCTION": {
+        "input": {
+          "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+          "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+        },
+        "armature_count": 1,
+        "custom_normals": false,
+        "max_raw_to_evaluated_on_mm": 5.9670092462157264e-05,
+        "max_off_to_on_mm": 5.9670092462157264e-05,
+        "exact_topology_matches_current": true,
+        "coordinate_interpretation": "Stage4C raw stored mesh is already RSSF; it is not a pre-RSSF native pose."
+      }
+    },
+    "world_coordinates_vs_frozen_Stage4C_mm": {
+      "STAGE4B_RSSF_R2": 3.725290298461914e-06,
+      "CORRECTED_STAGE5A_RIG": 0.0,
+      "R2_PRODUCTION": 0.0
+    },
+    "vertex_identity": "Full identical faces/edges/3416 vertices from frozen Stage4A_R2 onward. Earlier3364-vertex BASE deliberately not matched.",
+    "Stage6A_pose_cases_executed": 0,
+    "production_edit_count": 0,
+    "ROI_dependent_causal_conclusion": "PENDING_HUMAN_LOCATION_CONFIRMATION"
+  },
+  "current_native_topology": {
+    "vertex_count": 3416,
+    "edge_count": 6828,
+    "face_count": 3414
+  },
+  "ROI": {
+    "vertices": [
+      79,
+      80,
+      81,
+      86,
+      181,
+      182,
+      735,
+      738,
+      955,
+      956,
+      962,
+      1107,
+      1890,
+      2089,
+      2090,
+      2095,
+      2096,
+      2237,
+      2238,
+      2239,
+      2241,
+      2276,
+      2326,
+      2327,
+      2328,
+      2330,
+      2531,
+      2532,
+      2609,
+      3025,
+      3031,
+      3086,
+      3219,
+      3300,
+      3307,
+      3308,
+      3309,
+      3315,
+      3316,
+      3317,
+      3322,
+      3323,
+      3324,
+      3325,
+      3331,
+      3332,
+      3333,
+      3338,
+      3339,
+      3340,
+      3341,
+      3347
+    ],
+    "faces": [
+      204,
+      205,
+      206,
+      207,
+      208,
+      209,
+      516,
+      517,
+      2180,
+      2181,
+      2182,
+      2183,
+      2204,
+      2206,
+      2207,
+      2424,
+      2425,
+      2426,
+      2956,
+      2957,
+      3299,
+      3310,
+      3312,
+      3313,
+      3314,
+      3315,
+      3326,
+      3327,
+      3328,
+      3329,
+      3330,
+      3331,
+      3332,
+      3333,
+      3344,
+      3345
+    ]
+  },
+  "Stage4C_raw_interpretation": "Stored Stage4C_R2 raw coordinates are already RSSF. RSSF comparator is official Stage4B_RSSF_R2, not an invented alternate Stage4C pose.",
+  "stage_metrics": {
+    "STAGE4A_R2_FROZEN": {
+      "core_quadratic_ring_depth_proxy_mm": 1.8071035514643883,
+      "core_quadratic_deepest_vertex_id": 2328,
+      "center_vertex_quadratic_residual_mm": -1.1792740871941998,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.3273180620806554,
+        "80": -1.0455327154189313,
+        "955": -1.1792740871941998,
+        "2089": 0.3850517444823721,
+        "2096": -0.6089231618085325,
+        "2327": -0.5097040208877728,
+        "2328": -1.8071035514643883,
+        "2531": -0.47275278455790626,
+        "3025": -1.746052982763266,
+        "3316": -0.7951203142180686,
+        "3323": -0.820318450275829,
+        "3324": -1.006863175739626,
+        "3332": -1.5996769900013146,
+        "3339": -0.7424928275565033,
+        "3340": -1.4277655192791896
+      },
+      "outer_fit_rms_mm": 1.3304867057783896,
+      "outer_quadratic_coefficients": [
+        1.344433093971259,
+        0.4203331009113654,
+        0.0566151906097601,
+        -0.07878005870983806,
+        -0.004522673071686808,
+        0.006248454919421553
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.1645766169870999,
+        "80": 0.5526330551408289,
+        "955": 0.21205026682907832,
+        "2089": 0.12178254783894321,
+        "2096": 0.4657101180198269,
+        "2327": 0.16657588757026065,
+        "2328": 0.04589949869149915,
+        "2531": 0.16664660783165697,
+        "3025": -0.04160980655428579,
+        "3316": 0.1100223536178307,
+        "3323": 0.3606542705307809,
+        "3324": 0.10344311050742275,
+        "3332": 0.12346255578693133,
+        "3339": 0.3717276687726842,
+        "3340": 0.1164839005622999
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 172.26164890518857
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 170.83427546556754
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.600469471020832
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 9.684691371127988
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 143.25906570303204
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.89108820552198
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.594962619147198
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 14.081588267316741
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 27.386393547694034
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 54.00057902665442
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 49.878595805963755
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 15.798963791929255
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 17.471463796146388
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.546454286130377
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.654936255840795
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.763070829610339
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 29.00783306950736
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 155.6895060151771
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 169.01638459908344
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 47.427061107262546
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.6904500643863027
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 23.663734764678704
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 162.6027511480674
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 14.742216804071257
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 10.73615515364212
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 15.053583840181755
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 16.33573176995734
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.79517734064066
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 4.724242080539772
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 12.796347109231984
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 39.131017882158226
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 20.448960665981804
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 32.75909436837859
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.337774181928038
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 169.83062487131048
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 29.245084553196417
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.579600783988488
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 24.12674888895604
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 13.086537997370003
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 34.42012409258123
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 25.297659447139722
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.1924292619502392
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 1.4696937552242006
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 54.40978972207383
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.5986641303137
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 2.091740192462355
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.7383276862877604
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.466081714114162
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 146.9276147497563
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.371293462429078
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 38.79267355786292
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 26.144550066126527
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 177.90401281947612
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 173.82136428577752
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 20.818260024030728
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 4.445555068166045
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.81037370549535
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.23596104429052
+        }
+      ],
+      "max_dihedral_deg": 177.90401281947612,
+      "vertex_normal_variation_max_deg": 158.04197504448234,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            0.9951446684053583,
+            -0.011964203855096889,
+            -0.09769312550278687
+          ],
+          [
+            0.040713519357619646,
+            0.9537203013953183,
+            0.2979261587171251
+          ],
+          [
+            0.08960746780211075,
+            -0.30045705938209954,
+            0.9495767779287551
+          ]
+        ],
+        "translation_mm": [
+          -36.710762697116024,
+          161.42010160901603,
+          158.86940262814971
+        ],
+        "outer_ring_rms_mm": 0.895073145041784,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 6.555508147063363,
+      "core_displacement_from_R2_raw_max_mm": 3.8775404036897063,
+      "core_face_area_mm2": 78.33581855379032,
+      "anatomical_threshold": null
+    },
+    "STAGE4B_RSSF_R2": {
+      "core_quadratic_ring_depth_proxy_mm": 1.5462392538414862,
+      "core_quadratic_deepest_vertex_id": 3025,
+      "center_vertex_quadratic_residual_mm": -1.030741186148227,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.40175313455337025,
+        "80": -0.7419266458141544,
+        "955": -1.030741186148227,
+        "2089": 0.22348529040225062,
+        "2096": -0.23866675907584045,
+        "2327": -0.416885527733477,
+        "2328": -1.468563018425235,
+        "2531": -0.28482586199528204,
+        "3025": -1.5462392538414862,
+        "3316": -0.7538418953430142,
+        "3323": -0.4531435655441396,
+        "3324": -0.7688809777225933,
+        "3332": -1.4163809430386247,
+        "3339": -0.3634914069531956,
+        "3340": -1.14715047913836
+      },
+      "outer_fit_rms_mm": 1.4264081035473783,
+      "outer_quadratic_coefficients": [
+        1.0307411800996862,
+        0.3901496735341518,
+        0.02674093133336409,
+        -0.07061563917084637,
+        0.0023542315583465617,
+        0.00334764750269978
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.16281150677018308,
+        "80": 0.48815966048559234,
+        "955": 0.16912330494095565,
+        "2089": 0.06909235818415993,
+        "2096": 0.42667841199630674,
+        "2327": 0.1346447613584485,
+        "2328": 0.10184874061261821,
+        "2531": 0.10204152619290807,
+        "3025": -0.06058475230661194,
+        "3316": 0.13213171715409455,
+        "3323": 0.35955794747021097,
+        "3324": 0.1193792416062208,
+        "3332": 0.08149136808314317,
+        "3339": 0.412891860739775,
+        "3340": 0.12326789408752659
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 173.06426625925337
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 167.35077220989163
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.275724044700782
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 8.957314468572214
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 139.5702986740036
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.16591457402004
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.91184861407245
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 13.877585182464237
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 28.439114900107956
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 55.24013445453985
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 50.11542343636433
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 12.97630386481332
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 16.75599347993448
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.914524665061249
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.03805723018806
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.520558555954993
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 20.32169606430684
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 160.7945704588041
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 168.44549281249766
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 44.190180696657805
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.9622846811019
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 24.149344499527174
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 160.72092481829628
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 10.8727220596925
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 9.645652746685993
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 12.89432016680709
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 14.244430649448311
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.08466544819375
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 3.969994138398058
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 13.440181186228216
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 42.376434666477934
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 15.470363684712988
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 27.368059365886882
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.018901462414481
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 168.47896779464497
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 22.29815507545343
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.336107780685563
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 23.41336183729027
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 12.33509810709475
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 33.37128723051296
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 27.0497175392115
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.2030180801550376
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 2.049625577364062
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 47.34372869873585
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.465055688878966
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 1.3213755304000019
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.953789115940694
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.084428409353542
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 143.68980133615787
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.307137772853345
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 35.1379481997159
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 27.92919843846817
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 178.22763392291822
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 170.61624668214031
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 19.948757767055373
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 6.0904002273274696
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.09129000572833
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.08752939843885
+        }
+      ],
+      "max_dihedral_deg": 178.22763392291822,
+      "vertex_normal_variation_max_deg": 154.1964369966278,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            1.0,
+            -8.505502819980758e-10,
+            5.308453311181567e-11
+          ],
+          [
+            8.505501570244679e-10,
+            1.0000000000000004,
+            4.4929996640820963e-10
+          ],
+          [
+            -5.3084780139011546e-11,
+            -4.4930003057601567e-10,
+            1.0
+          ]
+        ],
+        "translation_mm": [
+          1.3379121810430661e-08,
+          1.383690406697724e-06,
+          -8.067536327871494e-08
+        ],
+        "outer_ring_rms_mm": 1.7445474035854502e-07,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 4.6566128730773926e-07,
+      "core_displacement_from_R2_raw_max_mm": 0.0,
+      "core_face_area_mm2": 80.00949200939891,
+      "anatomical_threshold": null
+    },
+    "STAGE4C_R2_RAW": {
+      "core_quadratic_ring_depth_proxy_mm": 1.5462391683647856,
+      "core_quadratic_deepest_vertex_id": 3025,
+      "center_vertex_quadratic_residual_mm": -1.0307411024062876,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.4017530987545236,
+        "80": -0.7419265424278454,
+        "955": -1.0307411024062876,
+        "2089": 0.22348529656239424,
+        "2096": -0.23866667937804142,
+        "2327": -0.41688549218622273,
+        "2328": -1.4685629194896015,
+        "2531": -0.2848258067958208,
+        "3025": -1.5462391683647856,
+        "3316": -0.7538418464556537,
+        "3323": -0.453143471426233,
+        "3324": -0.7688808947755242,
+        "3332": -1.4163808792403834,
+        "3339": -0.3634913041852166,
+        "3340": -1.1471503838155932
+      },
+      "outer_fit_rms_mm": 1.426408103740422,
+      "outer_quadratic_coefficients": [
+        1.0307411024062871,
+        0.39014966395529005,
+        0.026740933159873782,
+        -0.07061563755482425,
+        0.0023542314640177774,
+        0.0033476480006075504
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.16281150778827808,
+        "80": 0.48815966126136223,
+        "955": 0.16912330585595628,
+        "2089": 0.06909242476597877,
+        "2096": 0.4266784121720808,
+        "2327": 0.1346447612186618,
+        "2328": 0.10184874057773842,
+        "2531": 0.10204152701387409,
+        "3025": -0.060584752475267,
+        "3316": 0.13213171698085358,
+        "3323": 0.3595579477462312,
+        "3324": 0.11937924160754725,
+        "3332": 0.08149136708828447,
+        "3339": 0.412891860193515,
+        "3340": 0.12326789326869758
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 173.06426625906784
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 167.35077221017704
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.27572404538114
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 8.95731446862978
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 139.5703022232857
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.16591457402873
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.911848724123615
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 13.877585181908588
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 28.4391149001141
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 55.24013445458321
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 50.11542343637009
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 12.976303864197458
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 16.75599347942464
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.914524665234909
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.038057230039367
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.520558555716516
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 20.32169606496044
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 160.7945704581617
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4454928122764
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 44.190180696810806
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.9622846808810768
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 24.1493458137091
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 160.72092594170223
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 10.872722059591936
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 9.645652747123533
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 12.894320166840384
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 14.244430649584991
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.08466544822818
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 3.969994138562061
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 13.440181186328381
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 42.3764303389044
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 15.470363684525761
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 27.368059364932474
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.018901462559114
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4789677939571
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 22.29815507623118
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.336107822217864
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 23.413361837544308
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 12.33509810687354
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 33.371287230292936
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 27.04971959672402
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.2030181261917727
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 2.049627660979095
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 47.34372869871683
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.465055688516973
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 1.321375530419311
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.95378911610451
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.084428409947401
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 143.68980133585876
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.30713777323475
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 35.1379481990886
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 27.929196939345555
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 178.22763392383138
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 170.61624668247995
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 19.948757767168733
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 6.0904002272877795
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.09128720595848
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.08752939815716
+        }
+      ],
+      "max_dihedral_deg": 178.22763392383138,
+      "vertex_normal_variation_max_deg": 154.19643700165588,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            0.9999999999999998,
+            -4.515574462264179e-16,
+            -5.850509561023683e-17
+          ],
+          [
+            -4.184957694236011e-17,
+            0.9999999999999998,
+            -1.646488406162466e-16
+          ],
+          [
+            -1.997435943746654e-17,
+            2.492897428381691e-17,
+            0.9999999999999997
+          ]
+        ],
+        "translation_mm": [
+          2.2737367544323206e-13,
+          6.217248937900877e-13,
+          2.2737367544323206e-13
+        ],
+        "outer_ring_rms_mm": 2.629053845385538e-15,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 0.0,
+      "core_displacement_from_R2_raw_max_mm": 0.0,
+      "core_face_area_mm2": 80.00949200939809,
+      "anatomical_threshold": null
+    },
+    "CORRECTED_STAGE5A_ZERO": {
+      "core_quadratic_ring_depth_proxy_mm": 1.5462391683647856,
+      "core_quadratic_deepest_vertex_id": 3025,
+      "center_vertex_quadratic_residual_mm": -1.0307411024062876,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.4017530987545236,
+        "80": -0.7419265424278454,
+        "955": -1.0307411024062876,
+        "2089": 0.22348529656239424,
+        "2096": -0.23866667937804142,
+        "2327": -0.41688549218622273,
+        "2328": -1.4685629194896015,
+        "2531": -0.2848258067958208,
+        "3025": -1.5462391683647856,
+        "3316": -0.7538418464556537,
+        "3323": -0.453143471426233,
+        "3324": -0.7688808947755242,
+        "3332": -1.4163808792403834,
+        "3339": -0.3634913041852166,
+        "3340": -1.1471503838155932
+      },
+      "outer_fit_rms_mm": 1.426408103740422,
+      "outer_quadratic_coefficients": [
+        1.0307411024062871,
+        0.39014966395529005,
+        0.026740933159873782,
+        -0.07061563755482425,
+        0.0023542314640177774,
+        0.0033476480006075504
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.16281150778827808,
+        "80": 0.48815966126136223,
+        "955": 0.16912330585595628,
+        "2089": 0.06909242476597877,
+        "2096": 0.4266784121720808,
+        "2327": 0.1346447612186618,
+        "2328": 0.10184874057773842,
+        "2531": 0.10204152701387409,
+        "3025": -0.060584752475267,
+        "3316": 0.13213171698085358,
+        "3323": 0.3595579477462312,
+        "3324": 0.11937924160754725,
+        "3332": 0.08149136708828447,
+        "3339": 0.412891860193515,
+        "3340": 0.12326789326869758
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 173.06426625906784
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 167.35077221017704
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.27572404538114
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 8.95731446862978
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 139.5703022232857
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.16591457402873
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.911848724123615
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 13.877585181908588
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 28.4391149001141
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 55.24013445458321
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 50.11542343637009
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 12.976303864197458
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 16.75599347942464
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.914524665234909
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.038057230039367
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.520558555716516
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 20.32169606496044
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 160.7945704581617
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4454928122764
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 44.190180696810806
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.9622846808810768
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 24.1493458137091
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 160.72092594170223
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 10.872722059591936
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 9.645652747123533
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 12.894320166840384
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 14.244430649584991
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.08466544822818
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 3.969994138562061
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 13.440181186328381
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 42.3764303389044
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 15.470363684525761
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 27.368059364932474
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.018901462559114
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4789677939571
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 22.29815507623118
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.336107822217864
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 23.413361837544308
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 12.33509810687354
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 33.371287230292936
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 27.04971959672402
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.2030181261917727
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 2.049627660979095
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 47.34372869871683
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.465055688516973
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 1.321375530419311
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.95378911610451
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.084428409947401
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 143.68980133585876
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.30713777323475
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 35.1379481990886
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 27.929196939345555
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 178.22763392383138
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 170.61624668247995
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 19.948757767168733
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 6.0904002272877795
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.09128720595848
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.08752939815716
+        }
+      ],
+      "max_dihedral_deg": 178.22763392383138,
+      "vertex_normal_variation_max_deg": 154.19643700165588,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            0.9999999999999998,
+            -4.515574462264179e-16,
+            -5.850509561023683e-17
+          ],
+          [
+            -4.184957694236011e-17,
+            0.9999999999999998,
+            -1.646488406162466e-16
+          ],
+          [
+            -1.997435943746654e-17,
+            2.492897428381691e-17,
+            0.9999999999999997
+          ]
+        ],
+        "translation_mm": [
+          2.2737367544323206e-13,
+          6.217248937900877e-13,
+          2.2737367544323206e-13
+        ],
+        "outer_ring_rms_mm": 2.629053845385538e-15,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 0.0,
+      "core_displacement_from_R2_raw_max_mm": 0.0,
+      "core_face_area_mm2": 80.00949200939809,
+      "anatomical_threshold": null
+    },
+    "R2_ARMATURE_OFF": {
+      "core_quadratic_ring_depth_proxy_mm": 1.5462391683647856,
+      "core_quadratic_deepest_vertex_id": 3025,
+      "center_vertex_quadratic_residual_mm": -1.0307411024062876,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.4017530987545236,
+        "80": -0.7419265424278454,
+        "955": -1.0307411024062876,
+        "2089": 0.22348529656239424,
+        "2096": -0.23866667937804142,
+        "2327": -0.41688549218622273,
+        "2328": -1.4685629194896015,
+        "2531": -0.2848258067958208,
+        "3025": -1.5462391683647856,
+        "3316": -0.7538418464556537,
+        "3323": -0.453143471426233,
+        "3324": -0.7688808947755242,
+        "3332": -1.4163808792403834,
+        "3339": -0.3634913041852166,
+        "3340": -1.1471503838155932
+      },
+      "outer_fit_rms_mm": 1.426408103740422,
+      "outer_quadratic_coefficients": [
+        1.0307411024062871,
+        0.39014966395529005,
+        0.026740933159873782,
+        -0.07061563755482425,
+        0.0023542314640177774,
+        0.0033476480006075504
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.16281150778827808,
+        "80": 0.48815966126136223,
+        "955": 0.16912330585595628,
+        "2089": 0.06909242476597877,
+        "2096": 0.4266784121720808,
+        "2327": 0.1346447612186618,
+        "2328": 0.10184874057773842,
+        "2531": 0.10204152701387409,
+        "3025": -0.060584752475267,
+        "3316": 0.13213171698085358,
+        "3323": 0.3595579477462312,
+        "3324": 0.11937924160754725,
+        "3332": 0.08149136708828447,
+        "3339": 0.412891860193515,
+        "3340": 0.12326789326869758
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 173.06426625906784
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 167.35077221017704
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.27572404538114
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 8.95731446862978
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 139.5703022232857
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.16591457402873
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.911848724123615
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 13.877585181908588
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 28.4391149001141
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 55.24013445458321
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 50.11542343637009
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 12.976303864197458
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 16.75599347942464
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.914524665234909
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.038057230039367
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.520558555716516
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 20.32169606496044
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 160.7945704581617
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4454928122764
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 44.190180696810806
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.9622846808810768
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 24.1493458137091
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 160.72092594170223
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 10.872722059591936
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 9.645652747123533
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 12.894320166840384
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 14.244430649584991
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.08466544822818
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 3.969994138562061
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 13.440181186328381
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 42.3764303389044
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 15.470363684525761
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 27.368059364932474
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.018901462559114
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4789677939571
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 22.29815507623118
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.336107822217864
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 23.413361837544308
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 12.33509810687354
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 33.371287230292936
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 27.04971959672402
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.2030181261917727
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 2.049627660979095
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 47.34372869871683
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.465055688516973
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 1.321375530419311
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.95378911610451
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.084428409947401
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 143.68980133585876
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.30713777323475
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 35.1379481990886
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 27.929196939345555
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 178.22763392383138
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 170.61624668247995
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 19.948757767168733
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 6.0904002272877795
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.09128720595848
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.08752939815716
+        }
+      ],
+      "max_dihedral_deg": 178.22763392383138,
+      "vertex_normal_variation_max_deg": 154.19643700165588,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            0.9999999999999998,
+            -4.515574462264179e-16,
+            -5.850509561023683e-17
+          ],
+          [
+            -4.184957694236011e-17,
+            0.9999999999999998,
+            -1.646488406162466e-16
+          ],
+          [
+            -1.997435943746654e-17,
+            2.492897428381691e-17,
+            0.9999999999999997
+          ]
+        ],
+        "translation_mm": [
+          2.2737367544323206e-13,
+          6.217248937900877e-13,
+          2.2737367544323206e-13
+        ],
+        "outer_ring_rms_mm": 2.629053845385538e-15,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 0.0,
+      "core_displacement_from_R2_raw_max_mm": 0.0,
+      "core_face_area_mm2": 80.00949200939809,
+      "anatomical_threshold": null
+    },
+    "R2_BIND_ZERO": {
+      "core_quadratic_ring_depth_proxy_mm": 1.546248071498743,
+      "core_quadratic_deepest_vertex_id": 3025,
+      "center_vertex_quadratic_residual_mm": -1.0307493914829748,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.4017588699111566,
+        "80": -0.7419353570985097,
+        "955": -1.0307493914829748,
+        "2089": 0.22348159354162855,
+        "2096": -0.2386718839519717,
+        "2327": -0.41689083659359516,
+        "2328": -1.46857316943051,
+        "2531": -0.2848314363484148,
+        "3025": -1.546248071498743,
+        "3316": -0.7538484166354933,
+        "3323": -0.4531500888800166,
+        "3324": -0.7688890283503979,
+        "3332": -1.4163881701932903,
+        "3339": -0.3635000084967388,
+        "3340": -1.14715953256842
+      },
+      "outer_fit_rms_mm": 1.4264078785512304,
+      "outer_quadratic_coefficients": [
+        1.0307497453037595,
+        0.39015025491586475,
+        0.02674091920063315,
+        -0.07061571882523321,
+        0.0023541769388313143,
+        0.0033475850252709383
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.16281147196359852,
+        "80": 0.48816002404083997,
+        "955": 0.1691241069693668,
+        "2089": 0.06909246440709865,
+        "2096": 0.4266781979787667,
+        "2327": 0.13464494907405516,
+        "2328": 0.1018488459964752,
+        "2531": 0.10204180640175675,
+        "3025": -0.06058493088594884,
+        "3316": 0.13213145664744308,
+        "3323": 0.3595586387966219,
+        "3324": 0.11937916934088985,
+        "3332": 0.08149100469901294,
+        "3339": 0.41289158296045164,
+        "3340": 0.12326774620504072
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 173.06426474916464
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 167.35077088795023
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.275724045246237
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 8.957314468586473
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 139.5702997936813
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.16591544758066
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.911848901202138
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 13.877578618909482
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 28.439122316389334
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 55.24037126511536
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 50.11542603184061
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 12.976309793503948
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 16.755989909894303
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.914487627770741
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.038060782404543
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.520556113324199
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 20.321708040984703
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 160.79456194322756
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4454994772798
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 44.19019341739621
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.9623395006994118
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 24.149348832077273
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 160.72093208074767
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 10.872716003868005
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 9.645655654279155
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 12.894319566703546
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 14.244418826812673
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.08466544846555
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 3.9699486739080014
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 13.440180189182172
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 42.376429808562065
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 15.47024687199036
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 27.368114269666314
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.018929709214726
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4789760063456
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 22.29817694076506
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.336104004367762
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 23.413371629586212
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 12.335098849389908
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 33.37127735896725
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 27.049715411012194
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.2030178196838448
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 2.0496205228149997
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 47.34375872248337
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.465047327969113
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 1.3213689170943415
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.953787301961815
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.084423280620104
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 143.68980133635858
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.307141829922106
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 35.13794819937448
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 27.92919417228219
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 178.22763363002085
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 170.61625054486288
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 19.948769770531655
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 6.090426800601818
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.09128887909793
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.08753027485656
+        }
+      ],
+      "max_dihedral_deg": 178.22763363002085,
+      "vertex_normal_variation_max_deg": 154.19643664863267,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            0.9999999999999847,
+            8.55761992862285e-08,
+            -1.5201149294690436e-07
+          ],
+          [
+            -8.557624148679309e-08,
+            0.9999999999999586,
+            -2.7453370233005565e-07
+          ],
+          [
+            1.520114690891788e-07,
+            2.7453371534650174e-07,
+            0.9999999999999505
+          ]
+        ],
+        "translation_mm": [
+          -7.205124120446271e-05,
+          -0.00024885106187966244,
+          0.00021648971176091436
+        ],
+        "outer_ring_rms_mm": 1.279943002199179e-05,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 3.0163926520760446e-05,
+      "core_displacement_from_R2_raw_max_mm": 4.656612873077393e-06,
+      "core_face_area_mm2": 80.00951483601443,
+      "anatomical_threshold": null
+    },
+    "IDX_MCP_15": {
+      "core_quadratic_ring_depth_proxy_mm": 1.5478544861010088,
+      "core_quadratic_deepest_vertex_id": 3025,
+      "center_vertex_quadratic_residual_mm": -1.0324702625540576,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.4028281849419457,
+        "80": -0.7438892050366235,
+        "955": -1.0324702625540576,
+        "2089": 0.22266872332991183,
+        "2096": -0.24014702744291427,
+        "2327": -0.4177638380702783,
+        "2328": -1.4704250027454313,
+        "2531": -0.28619599107462046,
+        "3025": -1.5478544861010088,
+        "3316": -0.7551039412476228,
+        "3323": -0.4549188973943734,
+        "3324": -0.7706183499971969,
+        "3332": -1.4177057628695444,
+        "3339": -0.36543625588833595,
+        "3340": -1.1490004204977673
+      },
+      "outer_fit_rms_mm": 1.4264456108653436,
+      "outer_quadratic_coefficients": [
+        1.0323894861459721,
+        0.39028681154607486,
+        0.02676397516027153,
+        -0.07063880967889391,
+        0.0023492089705957307,
+        0.0033362842492515865
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.16283717217833948,
+        "80": 0.4881785011473262,
+        "955": 0.16914351280650727,
+        "2089": 0.06910756650990885,
+        "2096": 0.4266781237263336,
+        "2327": 0.13464056431957233,
+        "2328": 0.1018468923372279,
+        "2531": 0.1020484866215591,
+        "3025": -0.06058509002613565,
+        "3316": 0.13212136256165377,
+        "3323": 0.3595538141843312,
+        "3324": 0.1193702203086229,
+        "3332": 0.08146384485277391,
+        "3339": 0.4128758845735215,
+        "3340": 0.12324503373274992
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 173.06426474955956
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 167.35077088790786
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.275724044786157
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 8.957314468590928
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 139.57029979348138
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.16591544763523
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.911848900212961
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 13.877578619870404
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 28.439122317220814
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 55.2684204061788
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 50.15125281089292
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 12.976309792358684
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 16.755989909737007
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.91448762777836
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.038060782688685
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.520556112145732
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 20.321708041387026
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 160.79456194213955
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 168.44549947769477
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 44.1901934170007
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.962339500807729
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 24.149348832833905
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 160.72093208037134
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 10.872716003915825
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 9.645655654137775
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 12.894319566653719
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 14.244418827123672
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.08466544825624
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 3.969948673691258
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 13.440180189453304
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 42.37642980910347
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 15.468921782124786
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 27.36811426916023
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.018929709108534
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4789760067526
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 22.298176941090674
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.336104004538456
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 23.41337162965795
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 12.335098849732427
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 33.37127735890127
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 27.049715411508227
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.2030178194850893
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 2.049620522704372
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 47.34375872221203
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.465047328071938
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 1.3213689171715788
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.9537873008876805
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.08442327998446
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 143.68980133654418
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.307141829528115
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 35.13794819963859
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 27.9291941718649
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 178.22763362877532
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 170.61625054481547
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 19.948769770331413
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 6.090426800555952
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.0912888789151
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.08753027522314
+        }
+      ],
+      "max_dihedral_deg": 178.22763362877532,
+      "vertex_normal_variation_max_deg": 154.19643663811382,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            0.9999999996974587,
+            -1.8757790035602392e-05,
+            -1.591312267539507e-05
+          ],
+          [
+            1.875746355795469e-05,
+            0.9999999996136224,
+            -2.05161423305825e-05
+          ],
+          [
+            1.5913507506138905e-05,
+            2.0515843834418786e-05,
+            0.99999999966293
+          ]
+        ],
+        "translation_mm": [
+          -0.007917571629150189,
+          0.016120865449444466,
+          0.022387519366304787
+        ],
+        "outer_ring_rms_mm": 0.0006123787867402203,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 0.002086591596637402,
+      "core_displacement_from_R2_raw_max_mm": 4.656612873077393e-06,
+      "core_face_area_mm2": 80.00951483601372,
+      "anatomical_threshold": null
+    },
+    "IDX_MCP_30": {
+      "core_quadratic_ring_depth_proxy_mm": 1.5496114896245752,
+      "core_quadratic_deepest_vertex_id": 3025,
+      "center_vertex_quadratic_residual_mm": -1.0343326457516582,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.40401699181669326,
+        "80": -0.7459736716486127,
+        "955": -1.0343326457516582,
+        "2089": 0.22178740987816337,
+        "2096": -0.24171430132054228,
+        "2327": -0.41877006088805013,
+        "2328": -1.4724056961649328,
+        "2531": -0.2876556697931132,
+        "3025": -1.5496114896245752,
+        "3316": -0.7564852066045782,
+        "3323": -0.45680294871937965,
+        "3324": -0.7724813431345989,
+        "3332": -1.419167394131538,
+        "3339": -0.36749821838027574,
+        "3340": -1.150989317562889
+      },
+      "outer_fit_rms_mm": 1.426525998013984,
+      "outer_quadratic_coefficients": [
+        1.0341476049184706,
+        0.390429927943774,
+        0.02678865110600182,
+        -0.07066327641147235,
+        0.0023440889339563092,
+        0.003324289760942345
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.16287120496304652,
+        "80": 0.48820321655708043,
+        "955": 0.16917003300603756,
+        "2089": 0.06913055621960784,
+        "2096": 0.42667903133968493,
+        "2327": 0.13463494804196266,
+        "2328": 0.10184454316031501,
+        "2531": 0.102060465059823,
+        "3025": -0.060586213876943004,
+        "3316": 0.13210927151006874,
+        "3323": 0.3595500544837557,
+        "3324": 0.11936037284981704,
+        "3332": 0.08142833473291267,
+        "3339": 0.41285552133939873,
+        "3340": 0.12321541309449191
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 173.06426474938482
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 167.35077088851338
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.27572404567618
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 8.957314468574381
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 139.57029979315163
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.1659154476305
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.91184889950232
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 13.877578619492104
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 28.439122316370405
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 55.298308839547204
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 50.19301385734867
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 12.976309793190266
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 16.75598990976878
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.914487628039103
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.038060782378157
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.520556113005103
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 20.321708041183914
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 160.79456193893174
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 168.44549947844538
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 44.190193417552216
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.9623395006552236
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 24.149348832144273
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 160.7209320810507
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 10.872716003697164
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 9.645655654196887
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 12.894319566735131
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 14.244418826123923
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.08466544838341
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 3.969948673917098
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 13.440180189421968
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 42.376429809973004
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 15.465550095554777
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 27.368114269194393
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.018929709096556
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4789760093887
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 22.298176940908167
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.336104004417662
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 23.413371629548095
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 12.335098849197076
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 33.371277358875695
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 27.04971541148568
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.203017820000157
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 2.049620522944303
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 47.34375872217069
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.465047327676425
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 1.3213689171415115
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.9537873022978434
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.08442328069153
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 143.68980133662905
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.307141829936162
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 35.13794819881844
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 27.929194172017727
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 178.2276336297794
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 170.61625054529983
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 19.948769770607093
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 6.090426800493779
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.09128887888556
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.0875302751188
+        }
+      ],
+      "max_dihedral_deg": 178.2276336297794,
+      "vertex_normal_variation_max_deg": 154.19643664330408,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            0.9999999987700309,
+            -3.2643758111944985e-05,
+            -3.734063434596404e-05
+          ],
+          [
+            3.264225734233934e-05,
+            0.9999999986595737,
+            -4.0191232320368755e-05
+          ],
+          [
+            3.7341946288942584e-05,
+            4.019001338789723e-05,
+            0.999999998495171
+          ]
+        ],
+        "translation_mm": [
+          -0.018445604894850476,
+          0.0258756009545813,
+          0.05242554674987332
+        ],
+        "outer_ring_rms_mm": 0.0012149122503974895,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 0.004123208116998828,
+      "core_displacement_from_R2_raw_max_mm": 4.656612873077393e-06,
+      "core_face_area_mm2": 80.00951483601459,
+      "anatomical_threshold": null
+    },
+    "IDX_MCP_45": {
+      "core_quadratic_ring_depth_proxy_mm": 1.5514193182621756,
+      "core_quadratic_deepest_vertex_id": 3025,
+      "center_vertex_quadratic_residual_mm": -1.0362183842216321,
+      "core_plane_ring_depth_proxy_mm": 0.0,
+      "core_residual_mm": {
+        "79": -0.40525922586597096,
+        "80": -0.7480481690136354,
+        "955": -1.0362183842216321,
+        "2089": 0.22090085331294418,
+        "2096": -0.24326563078129748,
+        "2327": -0.4198706925065011,
+        "2328": -1.4743871351500966,
+        "2531": -0.28910725597057985,
+        "3025": -1.5514193182621756,
+        "3316": -0.7579110686530159,
+        "3323": -0.4586734922250184,
+        "3324": -0.7743555487529206,
+        "3332": -1.4206966489131672,
+        "3339": -0.36954589771878354,
+        "3340": -1.1530011810550944
+      },
+      "outer_fit_rms_mm": 1.4266671293211568,
+      "outer_quadratic_coefficients": [
+        1.0359006508207336,
+        0.3905692277806073,
+        0.026811546881808472,
+        -0.07068747494189645,
+        0.0023395862927896374,
+        0.003312525883439721
+      ],
+      "core_curvature_umbrella_mm": {
+        "79": 0.16291249069083386,
+        "80": 0.4882333916381454,
+        "955": 0.1692028444477587,
+        "2089": 0.0691607703902059,
+        "2096": 0.4266809142082205,
+        "2327": 0.1346282825854635,
+        "2328": 0.10184187823271826,
+        "2531": 0.10207743099164343,
+        "3025": -0.060588286972562855,
+        "3316": 0.13209559524528777,
+        "3323": 0.3595475370527759,
+        "3324": 0.11934998363053569,
+        "3332": 0.08138561086877089,
+        "3339": 0.4128311485625906,
+        "3340": 0.12317983398802435
+      },
+      "dihedral": [
+        {
+          "edge_id": 248,
+          "vertices": [
+            79,
+            955
+          ],
+          "faces": [
+            2182,
+            3330
+          ],
+          "unsigned_angle_deg": 173.06426474941927
+        },
+        {
+          "edge_id": 249,
+          "vertices": [
+            955,
+            80
+          ],
+          "faces": [
+            2181,
+            3331
+          ],
+          "unsigned_angle_deg": 167.35077088815189
+        },
+        {
+          "edge_id": 250,
+          "vertices": [
+            80,
+            956
+          ],
+          "faces": [
+            2207,
+            3332
+          ],
+          "unsigned_angle_deg": 13.275724045490252
+        },
+        {
+          "edge_id": 251,
+          "vertices": [
+            956,
+            81
+          ],
+          "faces": [
+            2206,
+            3333
+          ],
+          "unsigned_angle_deg": 8.957314468653518
+        },
+        {
+          "edge_id": 262,
+          "vertices": [
+            86,
+            962
+          ],
+          "faces": [
+            2426,
+            3344
+          ],
+          "unsigned_angle_deg": 139.5702997933361
+        },
+        {
+          "edge_id": 263,
+          "vertices": [
+            962,
+            79
+          ],
+          "faces": [
+            2425,
+            3345
+          ],
+          "unsigned_angle_deg": 158.16591544765512
+        },
+        {
+          "edge_id": 2516,
+          "vertices": [
+            3300,
+            2089
+          ],
+          "faces": [
+            3299,
+            3312
+          ],
+          "unsigned_angle_deg": 11.911848902614512
+        },
+        {
+          "edge_id": 2517,
+          "vertices": [
+            3332,
+            79
+          ],
+          "faces": [
+            3330,
+            3345
+          ],
+          "unsigned_angle_deg": 13.877578619606862
+        },
+        {
+          "edge_id": 2530,
+          "vertices": [
+            3323,
+            2096
+          ],
+          "faces": [
+            205,
+            208
+          ],
+          "unsigned_angle_deg": 28.439122315936984
+        },
+        {
+          "edge_id": 2814,
+          "vertices": [
+            738,
+            2238
+          ],
+          "faces": [
+            2180,
+            2956
+          ],
+          "unsigned_angle_deg": 55.327933765798704
+        },
+        {
+          "edge_id": 2815,
+          "vertices": [
+            2238,
+            735
+          ],
+          "faces": [
+            2183,
+            2957
+          ],
+          "unsigned_angle_deg": 50.2399127675642
+        },
+        {
+          "edge_id": 2992,
+          "vertices": [
+            735,
+            2327
+          ],
+          "faces": [
+            2183,
+            2424
+          ],
+          "unsigned_angle_deg": 12.976309792735794
+        },
+        {
+          "edge_id": 2993,
+          "vertices": [
+            2327,
+            79
+          ],
+          "faces": [
+            2182,
+            2425
+          ],
+          "unsigned_angle_deg": 16.755989909657178
+        },
+        {
+          "edge_id": 2994,
+          "vertices": [
+            738,
+            2328
+          ],
+          "faces": [
+            2180,
+            2204
+          ],
+          "unsigned_angle_deg": 13.914487627642579
+        },
+        {
+          "edge_id": 2995,
+          "vertices": [
+            2328,
+            80
+          ],
+          "faces": [
+            2181,
+            2207
+          ],
+          "unsigned_angle_deg": 16.038060783142708
+        },
+        {
+          "edge_id": 3502,
+          "vertices": [
+            3324,
+            2531
+          ],
+          "faces": [
+            204,
+            205
+          ],
+          "unsigned_angle_deg": 13.520556113297129
+        },
+        {
+          "edge_id": 3503,
+          "vertices": [
+            2096,
+            2531
+          ],
+          "faces": [
+            205,
+            3313
+          ],
+          "unsigned_angle_deg": 20.321708041338084
+        },
+        {
+          "edge_id": 3504,
+          "vertices": [
+            3308,
+            2531
+          ],
+          "faces": [
+            3312,
+            3313
+          ],
+          "unsigned_angle_deg": 160.79456194442338
+        },
+        {
+          "edge_id": 3505,
+          "vertices": [
+            2089,
+            2531
+          ],
+          "faces": [
+            204,
+            3312
+          ],
+          "unsigned_angle_deg": 168.44549947662227
+        },
+        {
+          "edge_id": 3506,
+          "vertices": [
+            3325,
+            2532
+          ],
+          "faces": [
+            208,
+            209
+          ],
+          "unsigned_angle_deg": 44.190193417878156
+        },
+        {
+          "edge_id": 3509,
+          "vertices": [
+            2096,
+            2532
+          ],
+          "faces": [
+            208,
+            3310
+          ],
+          "unsigned_angle_deg": 2.962339500569185
+        },
+        {
+          "edge_id": 3814,
+          "vertices": [
+            3331,
+            2609
+          ],
+          "faces": [
+            516,
+            517
+          ],
+          "unsigned_angle_deg": 24.149348832543723
+        },
+        {
+          "edge_id": 3815,
+          "vertices": [
+            2089,
+            2609
+          ],
+          "faces": [
+            517,
+            3299
+          ],
+          "unsigned_angle_deg": 160.7209320811555
+        },
+        {
+          "edge_id": 5478,
+          "vertices": [
+            2328,
+            3025
+          ],
+          "faces": [
+            2180,
+            2181
+          ],
+          "unsigned_angle_deg": 10.872716004094286
+        },
+        {
+          "edge_id": 5479,
+          "vertices": [
+            955,
+            3025
+          ],
+          "faces": [
+            2181,
+            2182
+          ],
+          "unsigned_angle_deg": 9.645655653987019
+        },
+        {
+          "edge_id": 5480,
+          "vertices": [
+            2327,
+            3025
+          ],
+          "faces": [
+            2182,
+            2183
+          ],
+          "unsigned_angle_deg": 12.89431956671452
+        },
+        {
+          "edge_id": 5481,
+          "vertices": [
+            2238,
+            3025
+          ],
+          "faces": [
+            2180,
+            2183
+          ],
+          "unsigned_angle_deg": 14.24441882683568
+        },
+        {
+          "edge_id": 5504,
+          "vertices": [
+            956,
+            3031
+          ],
+          "faces": [
+            2206,
+            2207
+          ],
+          "unsigned_angle_deg": 33.084665448043786
+        },
+        {
+          "edge_id": 5505,
+          "vertices": [
+            2328,
+            3031
+          ],
+          "faces": [
+            2204,
+            2207
+          ],
+          "unsigned_angle_deg": 3.9699486733948555
+        },
+        {
+          "edge_id": 5722,
+          "vertices": [
+            2327,
+            3086
+          ],
+          "faces": [
+            2424,
+            2425
+          ],
+          "unsigned_angle_deg": 13.440180189461596
+        },
+        {
+          "edge_id": 5723,
+          "vertices": [
+            962,
+            3086
+          ],
+          "faces": [
+            2425,
+            2426
+          ],
+          "unsigned_angle_deg": 42.37642980943125
+        },
+        {
+          "edge_id": 6254,
+          "vertices": [
+            2238,
+            3219
+          ],
+          "faces": [
+            2956,
+            2957
+          ],
+          "unsigned_angle_deg": 15.460686394226759
+        },
+        {
+          "edge_id": 6603,
+          "vertices": [
+            2096,
+            3307
+          ],
+          "faces": [
+            3310,
+            3313
+          ],
+          "unsigned_angle_deg": 27.36811426877259
+        },
+        {
+          "edge_id": 6604,
+          "vertices": [
+            1107,
+            3308
+          ],
+          "faces": [
+            206,
+            207
+          ],
+          "unsigned_angle_deg": 15.018929708991934
+        },
+        {
+          "edge_id": 6626,
+          "vertices": [
+            3308,
+            3300
+          ],
+          "faces": [
+            207,
+            3312
+          ],
+          "unsigned_angle_deg": 168.4789760048716
+        },
+        {
+          "edge_id": 6627,
+          "vertices": [
+            3307,
+            3308
+          ],
+          "faces": [
+            206,
+            3313
+          ],
+          "unsigned_angle_deg": 22.298176941298557
+        },
+        {
+          "edge_id": 6628,
+          "vertices": [
+            2089,
+            3316
+          ],
+          "faces": [
+            204,
+            517
+          ],
+          "unsigned_angle_deg": 12.336104003968698
+        },
+        {
+          "edge_id": 6635,
+          "vertices": [
+            3339,
+            3323
+          ],
+          "faces": [
+            3327,
+            3328
+          ],
+          "unsigned_angle_deg": 23.413371629391442
+        },
+        {
+          "edge_id": 6636,
+          "vertices": [
+            3340,
+            3324
+          ],
+          "faces": [
+            3328,
+            3329
+          ],
+          "unsigned_angle_deg": 12.335098849563565
+        },
+        {
+          "edge_id": 6637,
+          "vertices": [
+            3341,
+            3325
+          ],
+          "faces": [
+            3326,
+            3327
+          ],
+          "unsigned_angle_deg": 33.37127735906852
+        },
+        {
+          "edge_id": 6643,
+          "vertices": [
+            3347,
+            3331
+          ],
+          "faces": [
+            3314,
+            3315
+          ],
+          "unsigned_angle_deg": 27.04971541116301
+        },
+        {
+          "edge_id": 6644,
+          "vertices": [
+            3316,
+            3331
+          ],
+          "faces": [
+            517,
+            3314
+          ],
+          "unsigned_angle_deg": 1.203017819442975
+        },
+        {
+          "edge_id": 6645,
+          "vertices": [
+            3331,
+            3322
+          ],
+          "faces": [
+            516,
+            3315
+          ],
+          "unsigned_angle_deg": 2.049620522699925
+        },
+        {
+          "edge_id": 6656,
+          "vertices": [
+            3317,
+            3325
+          ],
+          "faces": [
+            209,
+            3326
+          ],
+          "unsigned_angle_deg": 47.34375872242878
+        },
+        {
+          "edge_id": 6657,
+          "vertices": [
+            3325,
+            3323
+          ],
+          "faces": [
+            208,
+            3327
+          ],
+          "unsigned_angle_deg": 13.465047327723195
+        },
+        {
+          "edge_id": 6658,
+          "vertices": [
+            3323,
+            3324
+          ],
+          "faces": [
+            205,
+            3328
+          ],
+          "unsigned_angle_deg": 1.321368917160545
+        },
+        {
+          "edge_id": 6659,
+          "vertices": [
+            3324,
+            3316
+          ],
+          "faces": [
+            204,
+            3329
+          ],
+          "unsigned_angle_deg": 1.9537873019209542
+        },
+        {
+          "edge_id": 6660,
+          "vertices": [
+            3316,
+            3332
+          ],
+          "faces": [
+            3314,
+            3329
+          ],
+          "unsigned_angle_deg": 13.08442328042569
+        },
+        {
+          "edge_id": 6667,
+          "vertices": [
+            80,
+            3339
+          ],
+          "faces": [
+            3331,
+            3332
+          ],
+          "unsigned_angle_deg": 143.68980133560558
+        },
+        {
+          "edge_id": 6668,
+          "vertices": [
+            955,
+            3340
+          ],
+          "faces": [
+            3330,
+            3331
+          ],
+          "unsigned_angle_deg": 14.307141829706731
+        },
+        {
+          "edge_id": 6669,
+          "vertices": [
+            956,
+            3341
+          ],
+          "faces": [
+            3332,
+            3333
+          ],
+          "unsigned_angle_deg": 35.137948198778126
+        },
+        {
+          "edge_id": 6675,
+          "vertices": [
+            962,
+            3347
+          ],
+          "faces": [
+            3344,
+            3345
+          ],
+          "unsigned_angle_deg": 27.929194171829806
+        },
+        {
+          "edge_id": 6676,
+          "vertices": [
+            3340,
+            3332
+          ],
+          "faces": [
+            3329,
+            3330
+          ],
+          "unsigned_angle_deg": 178.22763362947788
+        },
+        {
+          "edge_id": 6677,
+          "vertices": [
+            3339,
+            3340
+          ],
+          "faces": [
+            3328,
+            3331
+          ],
+          "unsigned_angle_deg": 170.61625054481354
+        },
+        {
+          "edge_id": 6678,
+          "vertices": [
+            3341,
+            3339
+          ],
+          "faces": [
+            3327,
+            3332
+          ],
+          "unsigned_angle_deg": 19.948769770800787
+        },
+        {
+          "edge_id": 6679,
+          "vertices": [
+            3333,
+            3341
+          ],
+          "faces": [
+            3326,
+            3333
+          ],
+          "unsigned_angle_deg": 6.090426800417396
+        },
+        {
+          "edge_id": 6690,
+          "vertices": [
+            3347,
+            3338
+          ],
+          "faces": [
+            3315,
+            3344
+          ],
+          "unsigned_angle_deg": 170.09128887902452
+        },
+        {
+          "edge_id": 6691,
+          "vertices": [
+            3332,
+            3347
+          ],
+          "faces": [
+            3314,
+            3345
+          ],
+          "unsigned_angle_deg": 174.08753027519427
+        }
+      ],
+      "max_dihedral_deg": 178.22763362947788,
+      "vertex_normal_variation_max_deg": 154.19643664626975,
+      "rigid_registration": {
+        "rotation_row_vector": [
+          [
+            0.9999999971143904,
+            -4.066686341692088e-05,
+            -6.416716856355137e-05
+          ],
+          [
+            4.066314348124931e-05,
+            0.999999997492831,
+            -5.7972804254530384e-05
+          ],
+          [
+            6.416952597453223e-05,
+            5.797019484810593e-05,
+            0.9999999962608641
+          ]
+        ],
+        "translation_mm": [
+          -0.03152525888208402,
+          0.028400723503329672,
+          0.08994912711432335
+        ],
+        "outer_ring_rms_mm": 0.0018004511363979344,
+        "scale": 1,
+        "reflection": false,
+        "purpose": "Diagnostic rigid registration only; removes gross pre-RSSF orientation, does not remove or edit the local dent."
+      },
+      "ROI_displacement_from_R2_raw_max_mm": 0.006114337760112519,
+      "core_displacement_from_R2_raw_max_mm": 4.656612873077393e-06,
+      "core_face_area_mm2": 80.00951483601413,
+      "anatomical_threshold": null
+    }
+  },
+  "visibility": {
+    "STAGE4A_R2_FROZEN": true,
+    "STAGE4B_RSSF_R2": true,
+    "STAGE4C_R2_RAW": true,
+    "CORRECTED_STAGE5A_ZERO": true,
+    "R2_ARMATURE_OFF": true,
+    "R2_BIND_ZERO": true,
+    "IDX_MCP_15": true,
+    "IDX_MCP_30": true,
+    "IDX_MCP_45": true
+  },
+  "Stage4C_to_R2_raw_max_mm": 0.0,
+  "render_registration": "Outer-ring21 proper rigid rotation+translation, no scale. Pre-RSSF Stage4A has its actual original local shape retained. After registration residual RMS is reported per stage; this is display matching, not geometry repair.",
+  "BASE_render_evidence": "No fabricated whole-BASE rendering: its exact52-vertex/36-face local identity is proved, and STAGE4A_R2_FROZEN local evidence represents that same measured patch."
+}

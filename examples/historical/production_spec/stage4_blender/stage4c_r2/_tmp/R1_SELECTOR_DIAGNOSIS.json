@@ -1,0 +1,431 @@
+{
+ "stage": "STAGE4C_R2_NAIL_SELECTOR_ROOT_CAUSE_DIAGNOSIS",
+ "mode": "READ-ONLY",
+ "r1_counts": {
+  "thumb": 46,
+  "index": 47,
+  "middle": 36,
+  "ring": 44,
+  "little": 31
+ },
+ "r1_total_instances": 204,
+ "r1_union": 155,
+ "r1_duplicate_instances": 49,
+ "reconstructed_claim_counts": {
+  "thumb": 46,
+  "index": 47,
+  "middle": 36,
+  "ring": 44,
+  "little": 31
+ },
+ "reconstruction_matches_r1": {
+  "thumb": true,
+  "index": true,
+  "middle": true,
+  "ring": true,
+  "little": true
+ },
+ "nail_normal_pair_angles_deg": {
+  "thumb_vs_index": 87.99,
+  "thumb_vs_middle": 97.84,
+  "thumb_vs_ring": 102.57,
+  "thumb_vs_little": 91.15,
+  "index_vs_middle": 13.07,
+  "index_vs_ring": 24.32,
+  "index_vs_little": 29.93,
+  "middle_vs_ring": 11.8,
+  "middle_vs_little": 22.13,
+  "ring_vs_little": 15.24
+ },
+ "root_cause": [],
+ "faces_inside_more_than_one_cone": 838,
+ "faces_inside_more_than_one_cone_examples": [
+  {
+   "face": 0,
+   "digits": [
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 3.25,
+   "comp_dist_mm": 40.18
+  },
+  {
+   "face": 1,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 3.32,
+   "comp_dist_mm": 38.91
+  },
+  {
+   "face": 2,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 3.65,
+   "comp_dist_mm": 38.73
+  },
+  {
+   "face": 3,
+   "digits": [
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 3.49,
+   "comp_dist_mm": 40.12
+  },
+  {
+   "face": 4,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 3.95,
+   "comp_dist_mm": 40.29
+  },
+  {
+   "face": 5,
+   "digits": [
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 3.74,
+   "comp_dist_mm": 40.19
+  },
+  {
+   "face": 6,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 3.86,
+   "comp_dist_mm": 38.81
+  },
+  {
+   "face": 7,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 4.0,
+   "comp_dist_mm": 39.06
+  },
+  {
+   "face": 8,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 4.27,
+   "comp_dist_mm": 37.49
+  },
+  {
+   "face": 9,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 4.23,
+   "comp_dist_mm": 37.16
+  },
+  {
+   "face": 10,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 4.75,
+   "comp_dist_mm": 35.51
+  },
+  {
+   "face": 11,
+   "digits": [
+    "index",
+    "middle",
+    "ring",
+    "little"
+   ],
+   "owning": "little",
+   "own_dist_mm": 4.7,
+   "comp_dist_mm": 35.98
+  }
+ ],
+ "r1_union_distance_to_nearest_distal_bone_mm": {
+  "min": 3.09,
+  "median": 6.64,
+  "p90": 43.55,
+  "max": 64.82
+ },
+ "r1_union_far_from_any_distal_bone": {
+  "threshold_mm": 12.0,
+  "count": 46,
+  "faces": [
+   2205,
+   2220,
+   2221,
+   2222,
+   2223,
+   2236,
+   2237,
+   2260,
+   2261,
+   2262,
+   2263,
+   2268,
+   2269,
+   2270,
+   2271,
+   2276,
+   2277,
+   2278,
+   2279,
+   2336,
+   2337,
+   2338,
+   2379,
+   2388,
+   2389,
+   2412,
+   2413,
+   2449,
+   2450,
+   2452,
+   2453,
+   2481,
+   2482,
+   2492,
+   2493,
+   2494,
+   2495,
+   2500,
+   2501,
+   2502,
+   2503,
+   2761,
+   3004,
+   3005,
+   3006,
+   3007
+  ]
+ },
+ "r1_union_owned_by_a_different_digit": {
+  "count": 36,
+  "detail": [
+   {
+    "face": 25,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 5.38,
+    "comp_dist_mm": 28.83
+   },
+   {
+    "face": 80,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 5.2,
+    "comp_dist_mm": 28.85
+   },
+   {
+    "face": 81,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 5.74,
+    "comp_dist_mm": 26.62
+   },
+   {
+    "face": 82,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 6.11,
+    "comp_dist_mm": 26.09
+   },
+   {
+    "face": 83,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 5.81,
+    "comp_dist_mm": 28.95
+   },
+   {
+    "face": 84,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 6.13,
+    "comp_dist_mm": 25.46
+   },
+   {
+    "face": 87,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 6.6,
+    "comp_dist_mm": 24.53
+   },
+   {
+    "face": 107,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 6.61,
+    "comp_dist_mm": 34.63
+   },
+   {
+    "face": 108,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 5.75,
+    "comp_dist_mm": 31.91
+   },
+   {
+    "face": 109,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 5.95,
+    "comp_dist_mm": 34.34
+   },
+   {
+    "face": 110,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 5.58,
+    "comp_dist_mm": 33.51
+   },
+   {
+    "face": 111,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 5.11,
+    "comp_dist_mm": 31.45
+   },
+   {
+    "face": 112,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 7.55,
+    "comp_dist_mm": 35.35
+   },
+   {
+    "face": 113,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 7.66,
+    "comp_dist_mm": 32.6
+   },
+   {
+    "face": 118,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 7.72,
+    "comp_dist_mm": 29.36
+   },
+   {
+    "face": 119,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 7.67,
+    "comp_dist_mm": 26.15
+   },
+   {
+    "face": 121,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 7.92,
+    "comp_dist_mm": 32.79
+   },
+   {
+    "face": 124,
+    "owner": "ring",
+    "claimed_by": [
+     "little"
+    ],
+    "own_dist_mm": 7.32,
+    "comp_dist_mm": 32.61
+   },
+   {
+    "face": 636,
+    "owner": "middle",
+    "claimed_by": [
+     "index",
+     "ring",
+     "little"
+    ],
+    "own_dist_mm": 6.02,
+    "comp_dist_mm": 34.02
+   },
+   {
+    "face": 638,
+    "owner": "middle",
+    "claimed_by": [
+     "index",
+     "ring",
+     "little"
+    ],
+    "own_dist_mm": 6.83,
+    "comp_dist_mm": 33.69
+   }
+  ]
+ }
+}

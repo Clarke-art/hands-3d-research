@@ -1,0 +1,535 @@
+{
+ "generated_at": "2026-09-29T22:34:41.090217+08:00",
+ "runtime": {
+  "blender": "5.1.2",
+  "executable": "D:\\Blender\\blender.exe"
+ },
+ "read_only": true,
+ "stage4c_master_sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7",
+ "stage5a_r2a_sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+ "stage5a_r2a_sha256_after_open": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+ "bone_count": 21,
+ "deform_true_count": 16,
+ "deform_false_count": 5,
+ "deform_false_bones": [
+  "INDEX_TIP_R",
+  "LITTLE_TIP_R",
+  "MIDDLE_TIP_R",
+  "RING_TIP_R",
+  "THUMB_TIP_R"
+ ],
+ "bones": {
+  "WRIST_R": {
+   "head_world": [
+    1.406007767,
+    0.016420959,
+    0.358511657
+   ],
+   "tail_world": [
+    1.414331079,
+    0.017137397,
+    0.478491724
+   ],
+   "parent": null,
+   "use_connect": false,
+   "use_deform": true,
+   "length_mm": 120.270559,
+   "roll_rad": -0.069324292
+  },
+  "THUMB_CMC_R": {
+   "head_world": [
+    1.440895081,
+    0.001219887,
+    0.3918145
+   ],
+   "tail_world": [
+    1.454060912,
+    0.001536574,
+    0.436873049
+   ],
+   "parent": "WRIST_R",
+   "use_connect": false,
+   "use_deform": true,
+   "length_mm": 46.943713,
+   "roll_rad": -0.217839301
+  },
+  "THUMB_MCP_R": {
+   "head_world": [
+    1.454060912,
+    0.001536574,
+    0.436873049
+   ],
+   "tail_world": [
+    1.450860858,
+    0.006127121,
+    0.464001149
+   ],
+   "parent": "THUMB_CMC_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 27.699229,
+   "roll_rad": 0.195572078
+  },
+  "THUMB_IP_R": {
+   "head_world": [
+    1.450860858,
+    0.006127121,
+    0.464001149
+   ],
+   "tail_world": [
+    1.45281744,
+    0.019802358,
+    0.493028343
+   ],
+   "parent": "THUMB_MCP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 32.146824,
+   "roll_rad": 0.238683701
+  },
+  "THUMB_TIP_R": {
+   "head_world": [
+    1.45281744,
+    0.019802358,
+    0.493028343
+   ],
+   "tail_world": [
+    1.453404427,
+    0.023904929,
+    0.501736522
+   ],
+   "parent": "THUMB_IP_R",
+   "use_connect": true,
+   "use_deform": false,
+   "length_mm": 9.644067,
+   "roll_rad": 0.238682061
+  },
+  "INDEX_MCP_R": {
+   "head_world": [
+    1.442374706,
+    0.017366245,
+    0.483602315
+   ],
+   "tail_world": [
+    1.455228925,
+    -0.00358543,
+    0.503313541
+   ],
+   "parent": "WRIST_R",
+   "use_connect": false,
+   "use_deform": true,
+   "length_mm": 31.507714,
+   "roll_rad": -0.281490654
+  },
+  "INDEX_PIP_R": {
+   "head_world": [
+    1.455228925,
+    -0.00358543,
+    0.503313541
+   ],
+   "tail_world": [
+    1.459105253,
+    -0.022120921,
+    0.510946274
+   ],
+   "parent": "INDEX_MCP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 20.416879,
+   "roll_rad": -0.288524538
+  },
+  "INDEX_DIP_R": {
+   "head_world": [
+    1.459105253,
+    -0.022120921,
+    0.510946274
+   ],
+   "tail_world": [
+    1.4609828,
+    -0.037063241,
+    0.514025569
+   ],
+   "parent": "INDEX_PIP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 15.371406,
+   "roll_rad": -0.288442969
+  },
+  "INDEX_TIP_R": {
+   "head_world": [
+    1.4609828,
+    -0.037063241,
+    0.514025569
+   ],
+   "tail_world": [
+    1.461546063,
+    -0.041545942,
+    0.514949381
+   ],
+   "parent": "INDEX_DIP_R",
+   "use_connect": true,
+   "use_deform": false,
+   "length_mm": 4.611432,
+   "roll_rad": -0.288443029
+  },
+  "MIDDLE_MCP_R": {
+   "head_world": [
+    1.416904807,
+    0.013839795,
+    0.482859164
+   ],
+   "tail_world": [
+    1.421528935,
+    -0.005951108,
+    0.510629356
+   ],
+   "parent": "WRIST_R",
+   "use_connect": false,
+   "use_deform": true,
+   "length_mm": 34.412874,
+   "roll_rad": 0.028659102
+  },
+  "MIDDLE_PIP_R": {
+   "head_world": [
+    1.421528935,
+    -0.005951108,
+    0.510629356
+   ],
+   "tail_world": [
+    1.424311399,
+    -0.029810442,
+    0.519842446
+   ],
+   "parent": "MIDDLE_MCP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 25.727241,
+   "roll_rad": 0.03015752
+  },
+  "MIDDLE_DIP_R": {
+   "head_world": [
+    1.424311399,
+    -0.029810442,
+    0.519842446
+   ],
+   "tail_world": [
+    1.425354958,
+    -0.047430381,
+    0.520845115
+   ],
+   "parent": "MIDDLE_PIP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 17.679269,
+   "roll_rad": 0.030659474
+  },
+  "MIDDLE_TIP_R": {
+   "head_world": [
+    1.425354958,
+    -0.047430381,
+    0.520845115
+   ],
+   "tail_world": [
+    1.425668001,
+    -0.052716367,
+    0.52114594
+   ],
+   "parent": "MIDDLE_DIP_R",
+   "use_connect": true,
+   "use_deform": false,
+   "length_mm": 5.303785,
+   "roll_rad": 0.030659677
+  },
+  "RING_MCP_R": {
+   "head_world": [
+    1.394243836,
+    0.010573625,
+    0.479239345
+   ],
+   "tail_world": [
+    1.392641187,
+    -0.009293767,
+    0.504846096
+   ],
+   "parent": "WRIST_R",
+   "use_connect": false,
+   "use_deform": true,
+   "length_mm": 32.449767,
+   "roll_rad": -0.003283858
+  },
+  "RING_PIP_R": {
+   "head_world": [
+    1.392641187,
+    -0.009293767,
+    0.504846096
+   ],
+   "tail_world": [
+    1.394462228,
+    -0.031272471,
+    0.512574077
+   ],
+   "parent": "RING_MCP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 23.368809,
+   "roll_rad": 0.003258033
+  },
+  "RING_DIP_R": {
+   "head_world": [
+    1.394462228,
+    -0.031272471,
+    0.512574077
+   ],
+   "tail_world": [
+    1.396310449,
+    -0.047095314,
+    0.512449563
+   ],
+   "parent": "RING_PIP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 15.930906,
+   "roll_rad": 0.004512482
+  },
+  "RING_TIP_R": {
+   "head_world": [
+    1.396310449,
+    -0.047095314,
+    0.512449563
+   ],
+   "tail_world": [
+    1.396864891,
+    -0.051842168,
+    0.51241219
+   ],
+   "parent": "RING_DIP_R",
+   "use_connect": true,
+   "use_deform": false,
+   "length_mm": 4.779271,
+   "roll_rad": 0.00451232
+  },
+  "LITTLE_MCP_R": {
+   "head_world": [
+    1.365105033,
+    0.002072219,
+    0.470610827
+   ],
+   "tail_world": [
+    1.359719992,
+    -0.012156209,
+    0.489131242
+   ],
+   "parent": "WRIST_R",
+   "use_connect": false,
+   "use_deform": true,
+   "length_mm": 23.96774,
+   "roll_rad": 0.333351552
+  },
+  "LITTLE_PIP_R": {
+   "head_world": [
+    1.359719992,
+    -0.012156209,
+    0.489131242
+   ],
+   "tail_world": [
+    1.359664679,
+    -0.027045084,
+    0.495907992
+   ],
+   "parent": "LITTLE_MCP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 16.358668,
+   "roll_rad": 0.326628655
+  },
+  "LITTLE_DIP_R": {
+   "head_world": [
+    1.359664679,
+    -0.027045084,
+    0.495907992
+   ],
+   "tail_world": [
+    1.359527707,
+    -0.03846734,
+    0.497986585
+   ],
+   "parent": "LITTLE_PIP_R",
+   "use_connect": true,
+   "use_deform": true,
+   "length_mm": 11.61065,
+   "roll_rad": 0.334908456
+  },
+  "LITTLE_TIP_R": {
+   "head_world": [
+    1.359527707,
+    -0.03846734,
+    0.497986585
+   ],
+   "tail_world": [
+    1.35948658,
+    -0.041894011,
+    0.498610169
+   ],
+   "parent": "LITTLE_DIP_R",
+   "use_connect": true,
+   "use_deform": false,
+   "length_mm": 3.483191,
+   "roll_rad": 0.334908813
+  }
+ },
+ "joint_position_check": {
+  "WRIST_R": {
+   "expected": [
+    1.406007767,
+    0.016420959,
+    0.358511657
+   ],
+   "measured": [
+    1.406007767,
+    0.016420959,
+    0.358511657
+   ],
+   "delta_mm": 0.0
+  },
+  "THUMB_CMC_R": {
+   "expected": [
+    1.440895081,
+    0.001219887,
+    0.3918145
+   ],
+   "measured": [
+    1.440895081,
+    0.001219887,
+    0.3918145
+   ],
+   "delta_mm": 0.0
+  },
+  "THUMB_MCP_R": {
+   "expected": [
+    1.454060912,
+    0.001536574,
+    0.436873049
+   ],
+   "measured": [
+    1.454060912,
+    0.001536574,
+    0.436873049
+   ],
+   "delta_mm": 0.0
+  },
+  "THUMB_IP_R": {
+   "expected": [
+    1.450860858,
+    0.006127121,
+    0.464001149
+   ],
+   "measured": [
+    1.450860858,
+    0.006127121,
+    0.464001149
+   ],
+   "delta_mm": 0.0
+  },
+  "THUMB_TIP_R": {
+   "expected": [
+    1.45281744,
+    0.019802358,
+    0.493028343
+   ],
+   "measured": [
+    1.45281744,
+    0.019802358,
+    0.493028343
+   ],
+   "delta_mm": 0.0
+  },
+  "INDEX_MCP_R": {
+   "expected": [
+    1.442374706,
+    0.017366245,
+    0.483602315
+   ],
+   "measured": [
+    1.442374706,
+    0.017366245,
+    0.483602315
+   ],
+   "delta_mm": 0.0
+  }
+ },
+ "joint_position_max_delta_mm": 0.0,
+ "BONE_LOCAL_FRAME_ORTHONORMAL_max_norm_err": 2.84e-07,
+ "BONE_LOCAL_FRAME_ORTHONORMAL_max_dot": 3.05e-07,
+ "BONE_LOCAL_FRAME_ORTHONORMAL_max_handedness": 3.69e-07,
+ "BONE_LOCAL_FRAME_ORTHONORMAL": "PASS",
+ "roll_continuity_per_chain_deg": {
+  "thumb": [
+   47.2079,
+   7.5513,
+   18.4382,
+   0.014
+  ],
+  "index": [
+   47.1678,
+   22.4173,
+   11.2537,
+   0.0
+  ],
+  "middle": [
+   36.511,
+   32.8957,
+   17.6322,
+   0.0
+  ],
+  "ring": [
+   39.8009,
+   33.2371,
+   19.7672,
+   0.0
+  ],
+  "little": [
+   33.5115,
+   30.4473,
+   13.1993,
+   0.0
+  ]
+ },
+ "roll_continuity_max_deg": 47.2079,
+ "BONE_ROLL_180_FLIPS": 0,
+ "THUMB_CHAIN_ROLL_CONTINUITY": "PASS",
+ "rig_object": {
+  "name": "RIGHT_HAND_PRODUCTION_RIG",
+  "location": [
+   1.408704638,
+   0.022395039,
+   0.335847497
+  ],
+  "rotation_euler": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "scale": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "mesh_object": {
+  "name": "Hand  - Realistic",
+  "parent": null,
+  "modifiers": [],
+  "vertex_groups": []
+ },
+ "armature_modifier": [],
+ "PRODUCTION_SKIN_WEIGHT": "NOT_STARTED",
+ "stage4c_master_sha256_after_open": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7",
+ "mesh_comparison_vs_stage4c_master": {
+  "n_verts_master": 3416,
+  "n_verts_r2a": 3416,
+  "max_vertex_delta_mm": 9.31e-07,
+  "topology_delta": 0,
+  "uv_delta": 0,
+  "material_assignment_delta": 0
+ }
+}

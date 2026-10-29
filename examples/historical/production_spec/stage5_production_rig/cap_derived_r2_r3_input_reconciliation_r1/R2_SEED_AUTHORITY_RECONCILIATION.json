@@ -1,0 +1,152 @@
+{
+  "status": "RESOLVED",
+  "R2_SEED": "RECONCILED",
+  "action": "RETIRE old cap-derived seed; REPLACE with independent native terminal v284",
+  "historical_semantics": "Single mesh-vertex graph source for each digit in six-source surface-geodesic domain initialization; not bone joint, not cap centroid authority. No R2 solve performed.",
+  "historical_formula": "nearestvertex(V, mean(V[oldcap9])) overrides chain terminal seed in default approved_distal_cap mode",
+  "historical_seed": 1076,
+  "historical_mean_world_m": [
+    1.452584399117364,
+    0.0194131171123849,
+    0.49289562967088485
+  ],
+  "old_cap_derived": true,
+  "REP_directly_read_for_seed": false,
+  "REP_note": "The default R2 seed is derived from the old cap mean; separate live R3 chain inherited REP via R2A bones.",
+  "comparisons": [
+    {
+      "name": "cap37_centroid",
+      "vertex_id": null,
+      "world_m": [
+        1.4502484991743758,
+        0.008951891314338994,
+        0.4825731854181032
+      ],
+      "role": "surface-envelope centre; not a mesh graph source",
+      "distance_to_v284_mm": 3.5677919764597052,
+      "distance_to_corrected_IP_tail_mm": 3.5677919764597052
+    },
+    {
+      "name": "cap37_centroid_nearest_cap_vertex",
+      "vertex_id": 1752,
+      "world_m": [
+        1.449893832206726,
+        0.009661704301834106,
+        0.48548078536987305
+      ],
+      "role": "deterministic centroid projection; optimizes centre not terminal landmark",
+      "distance_to_v284_mm": 1.7860651730612715,
+      "distance_to_corrected_IP_tail_mm": 1.7860651730612715
+    },
+    {
+      "name": "cap37_geodesic_medoid",
+      "vertex_id": 1752,
+      "world_m": [
+        1.449893832206726,
+        0.009661704301834106,
+        0.48548078536987305
+      ],
+      "role": "minimizes summed edge-geodesic distances on fixed cap37 induced graph",
+      "distance_to_v284_mm": 1.7860651730612715,
+      "distance_to_corrected_IP_tail_mm": 1.7860651730612715
+    },
+    {
+      "name": "native_terminal_v284",
+      "vertex_id": 284,
+      "world_m": [
+        1.4514825344085693,
+        0.010474493727087975,
+        0.48555445671081543
+      ],
+      "role": "independent terminal surface landmark mapped by vertex identity",
+      "distance_to_v284_mm": 0.0,
+      "distance_to_corrected_IP_tail_mm": 0.0
+    },
+    {
+      "name": "historical_seed",
+      "vertex_id": 1076,
+      "world_m": [
+        1.4527783393859863,
+        0.019757091999053955,
+        0.4932788908481598
+      ],
+      "role": "RETIRED old cap mean nearest graph vertex",
+      "distance_to_v284_mm": 12.145477510595265,
+      "distance_to_corrected_IP_tail_mm": 12.145477510595265
+    }
+  ],
+  "cap_medoid_metric": "Sum of shortest edge paths in fixed induced cap37 graph; RSSF Euclidean edge length mm. This is a seed comparison, not cap reselection.",
+  "cap_medoid_scores_mm": {
+    "36": 359.92551379524514,
+    "37": 410.5636113056696,
+    "44": 406.05308768498656,
+    "283": 372.2639590102422,
+    "284": 297.9234811027492,
+    "285": 372.76930378592243,
+    "297": 401.7794297863792,
+    "298": 406.6199833591118,
+    "339": 371.72221253449436,
+    "340": 351.01200793391297,
+    "341": 368.0347360924524,
+    "505": 299.6116722043663,
+    "879": 385.9159926570581,
+    "880": 471.0162580270619,
+    "890": 372.32997563733954,
+    "1338": 316.84279543168435,
+    "1340": 394.7672121302514,
+    "1341": 317.24944905340936,
+    "1343": 321.96377411447287,
+    "1344": 392.267775265528,
+    "1378": 379.59995722122346,
+    "1380": 371.9455876356519,
+    "1382": 358.1329920834539,
+    "1450": 364.9432469401572,
+    "1452": 366.4523016140529,
+    "1454": 383.16285014076624,
+    "1752": 291.91437692554075,
+    "1753": 318.7705973332568,
+    "1754": 322.3346420460368,
+    "1755": 315.06848323133414,
+    "2499": 479.1026729151981,
+    "2741": 337.41884512973616,
+    "2742": 336.9799034502675,
+    "2963": 312.43441806125395,
+    "2964": 312.0528298662684,
+    "2965": 332.25309337887376,
+    "2966": 336.94514401016727
+  },
+  "chosen_vertex_id": 284,
+  "unique_rule": "Use the independently established native terminal tip ID, carried into identical production topology. Corrected kinematics independently agrees; cap37 verifies membership only. No minimizing drift criterion.",
+  "native_XYZ_m": [
+    1.49774169921875,
+    -0.013108416460454464,
+    0.46520325541496277
+  ],
+  "RSSF_XYZ_m": [
+    1.4514825344085693,
+    0.010474493727087975,
+    0.48555445671081543
+  ],
+  "mapping": "Stable vertex ID 284, exact edge and polygon identity; no native XYZ substitution; RSSF is nonrigid so no single rigid XYZ transform is assumed.",
+  "other_seed_provenance": {
+    "historical_documented": {
+      "INDEX": 1228,
+      "MIDDLE": 1737,
+      "RING": 1741,
+      "LITTLE": 225,
+      "wrist": 2255
+    },
+    "native_independent_tip_seeds": {
+      "little": 225,
+      "ring": 49,
+      "middle": 212,
+      "index": 233,
+      "thumb": 284,
+      "wrist": 2260
+    },
+    "future": "Independent native tip IDs are terminal identity evidence; other-digit graph-source replacement is a proposed domain-construction choice, not an executed solve."
+  },
+  "reference_AC": "RETIRE numeric STAGE4B_R2_JOINT_FRAME in future consumers. Corrected live polylines above replace AC/axis/reference center. Native branch map defines identity; chain distances do not grant ownership.",
+  "provenance_index": "SOURCE_CODE_PROVENANCE_R1.json",
+  "authority_source_index": "AUTHORITY_INPUT_VERIFICATION.json"
+}

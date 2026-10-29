@@ -1,0 +1,390 @@
+{
+  "status": "FAIL_CLOSED_SOLVER_EXCEPTION",
+  "error": "Error in Function::call for 'entry' [IpoptInterface] at .../casadi/core/function.cpp:1466:\nError in Function::call for 'entry' [IpoptInterface] at .../casadi/core/function.cpp:362:\n.../casadi/core/nlpsol.cpp:707: Assertion \"lb <= ub && lb!=inf && ub!=-inf\" failed:\nIll-posed problem detected: LBX[6] <= UBX[6] was violated. Got LBX[6]=9.82567 and UBX[6] = 9.",
+  "scope": "FULL_ENTRY_COLLOCATION_CANDIDATE_ONLY",
+  "times": [
+    2.527855,
+    2.62624775,
+    2.7246405000000005,
+    2.8230332500000004,
+    2.9214260000000003,
+    2.9287176666665005,
+    2.936009333333
+  ],
+  "latents": [
+    [
+      -107.32995336204932,
+      -5.778765778056209,
+      -2.410312964847451,
+      -0.7804855629918258,
+      -1.7739907129094237,
+      -11.563130166501317,
+      9.825665382617144,
+      3.41813540993904,
+      0.17588754649746222,
+      -17.013205685985085,
+      1.0870368010401976e-09,
+      0.0
+    ],
+    [
+      -101.4383649312611,
+      -4.678005692495674,
+      -1.2194021305600473,
+      -1.0957104920117522,
+      -2.722035385768301,
+      -11.672347624875988,
+      9.692140992956606,
+      2.948954560079913,
+      0.13191565987309667,
+      -11.71157373561829,
+      0.1467145824827598,
+      0.014436290489407921
+    ],
+    [
+      -95.5467765004729,
+      -3.5772456069351386,
+      -0.22077128605274246,
+      -1.4109354210316787,
+      -3.670080058627178,
+      -11.781565083250658,
+      9.55861660329607,
+      2.4797737102207864,
+      0.08794377324873111,
+      -6.409941785251492,
+      0.2934291638784828,
+      0.11549032391526337
+    ],
+    [
+      -89.65518806968468,
+      -2.4764855213746038,
+      0.7817568279283552,
+      -1.7261603500516052,
+      -4.618124731486055,
+      -11.89078254162533,
+      9.425092213635534,
+      2.0105928603616596,
+      0.043971886624365554,
+      -1.1083098348846967,
+      0.4401437452742058,
+      0.3897798432140139
+    ],
+    [
+      -83.76359963889647,
+      -1.3757254358140687,
+      1.3882021366737476,
+      -2.0413852790715317,
+      -5.566169404344932,
+      -12.0,
+      9.291567823974997,
+      1.5414120105025326,
+      2.6469779601696886e-23,
+      4.1933221154821,
+      0.5868583266699288,
+      0.923922591322107
+    ],
+    [
+      -83.76359963889647,
+      -1.3757254358140687,
+      1.0737434285430847,
+      -2.0413852790715317,
+      -5.566169404344932,
+      -12.0,
+      7.541567824014958,
+      1.5414120105025326,
+      2.6469779601696886e-23,
+      2.4433221155220606,
+      0.5868583266699288,
+      0.923922591322107
+    ],
+    [
+      -83.76359963889647,
+      -1.3757254358140687,
+      -0.6782873614404363,
+      -2.0413852790715317,
+      -5.566169404344932,
+      -12.0,
+      5.791567824055026,
+      1.5414120105025326,
+      2.6469779601696886e-23,
+      0.6933221155621281,
+      0.5868583266699288,
+      0.923922591322107
+    ]
+  ],
+  "fixed_start_error": 0.0,
+  "violation": 3.1714791959381747,
+  "row_violations": [
+    {
+      "name": "contact_0",
+      "start": 0,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_0",
+      "start": 1,
+      "count": 155,
+      "max_violation": 4.246517790178792e-17
+    },
+    {
+      "name": "contact_1",
+      "start": 156,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_1",
+      "start": 157,
+      "count": 160,
+      "max_violation": 0.0
+    },
+    {
+      "name": "contact_2",
+      "start": 317,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_2",
+      "start": 318,
+      "count": 165,
+      "max_violation": 0.0
+    },
+    {
+      "name": "contact_3",
+      "start": 483,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_3",
+      "start": 484,
+      "count": 221,
+      "max_violation": 3.1714791959381747
+    },
+    {
+      "name": "contact_4",
+      "start": 705,
+      "count": 2,
+      "max_violation": 0.16044551455075248
+    },
+    {
+      "name": "geometry_4",
+      "start": 707,
+      "count": 363,
+      "max_violation": 4.246517790178792e-17
+    },
+    {
+      "name": "contact_5",
+      "start": 1070,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_5",
+      "start": 1071,
+      "count": 353,
+      "max_violation": 0.654446986852055
+    },
+    {
+      "name": "contact_6",
+      "start": 1424,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_6",
+      "start": 1425,
+      "count": 353,
+      "max_violation": 1.9273107223469517
+    },
+    {
+      "name": "wrist_secant_1",
+      "start": 1778,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "latent_rate_1",
+      "start": 1779,
+      "count": 12,
+      "max_violation": 0.0
+    },
+    {
+      "name": "mapped_joint_rate_1",
+      "start": 1791,
+      "count": 20,
+      "max_violation": 0.0
+    },
+    {
+      "name": "wrist_secant_2",
+      "start": 1811,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "latent_rate_2",
+      "start": 1812,
+      "count": 12,
+      "max_violation": 0.0
+    },
+    {
+      "name": "mapped_joint_rate_2",
+      "start": 1824,
+      "count": 20,
+      "max_violation": 0.0
+    },
+    {
+      "name": "wrist_secant_3",
+      "start": 1844,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "latent_rate_3",
+      "start": 1845,
+      "count": 12,
+      "max_violation": 0.0
+    },
+    {
+      "name": "mapped_joint_rate_3",
+      "start": 1857,
+      "count": 20,
+      "max_violation": 0.0
+    },
+    {
+      "name": "wrist_secant_4",
+      "start": 1877,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "latent_rate_4",
+      "start": 1878,
+      "count": 12,
+      "max_violation": 0.0
+    },
+    {
+      "name": "mapped_joint_rate_4",
+      "start": 1890,
+      "count": 20,
+      "max_violation": 0.0
+    },
+    {
+      "name": "wrist_secant_5",
+      "start": 1910,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "latent_rate_5",
+      "start": 1911,
+      "count": 12,
+      "max_violation": 0.0
+    },
+    {
+      "name": "mapped_joint_rate_5",
+      "start": 1923,
+      "count": 20,
+      "max_violation": 0.0
+    },
+    {
+      "name": "wrist_secant_6",
+      "start": 1943,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "latent_rate_6",
+      "start": 1944,
+      "count": 12,
+      "max_violation": 0.0
+    },
+    {
+      "name": "mapped_joint_rate_6",
+      "start": 1956,
+      "count": 20,
+      "max_violation": 0.0
+    }
+  ],
+  "history": [],
+  "elapsed_seconds": 3.1090000000003783,
+  "guards": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "stats": [
+    {
+      "evaluations": 1,
+      "jacobians": 0,
+      "eval_seconds": 0.044493100002000574,
+      "jac_seconds": 0.0,
+      "face_switches": 0,
+      "collision_switches": 0,
+      "self_feature_switches": 0
+    },
+    {
+      "evaluations": 1,
+      "jacobians": 0,
+      "eval_seconds": 0.04387889999998151,
+      "jac_seconds": 0.0,
+      "face_switches": 0,
+      "collision_switches": 0,
+      "self_feature_switches": 0
+    },
+    {
+      "evaluations": 1,
+      "jacobians": 0,
+      "eval_seconds": 0.04388160000235075,
+      "jac_seconds": 0.0,
+      "face_switches": 0,
+      "collision_switches": 0,
+      "self_feature_switches": 0
+    },
+    {
+      "evaluations": 1,
+      "jacobians": 0,
+      "eval_seconds": 0.051613499999803025,
+      "jac_seconds": 0.0,
+      "face_switches": 0,
+      "collision_switches": 0,
+      "self_feature_switches": 0
+    },
+    {
+      "evaluations": 1,
+      "jacobians": 0,
+      "eval_seconds": 0.053202800001599826,
+      "jac_seconds": 0.0,
+      "face_switches": 0,
+      "collision_switches": 0,
+      "self_feature_switches": 0
+    },
+    {
+      "evaluations": 1,
+      "jacobians": 0,
+      "eval_seconds": 0.0512297999994189,
+      "jac_seconds": 0.0,
+      "face_switches": 0,
+      "collision_switches": 0,
+      "self_feature_switches": 0
+    },
+    {
+      "evaluations": 1,
+      "jacobians": 0,
+      "eval_seconds": 0.06934940000064671,
+      "jac_seconds": 0.0,
+      "face_switches": 0,
+      "collision_switches": 0,
+      "self_feature_switches": 0
+    }
+  ],
+  "actual_validation": "PENDING",
+  "primary_trajectory_candidate_count": 1,
+  "correction_count": 0,
+  "convergence_not_assumed": true
+}

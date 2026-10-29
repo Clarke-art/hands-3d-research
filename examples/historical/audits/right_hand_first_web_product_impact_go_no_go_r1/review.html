@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RIGHT_HAND_FIRST_WEB_PRODUCT_IMPACT_GO_NO_GO_R1 · Human Review</title>
+<style>
+  :root{
+    --bg:#0e1116; --panel:#161b22; --panel2:#1c232c; --line:#2a323d;
+    --tx:#e6edf3; --tx2:#9aa7b4; --acc:#4f9dd8; --ok:#3fb950; --warn:#d29922; --bad:#f85149;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--tx);
+       font:14px/1.65 "Segoe UI","Microsoft YaHei",system-ui,sans-serif}
+  .wrap{max-width:1360px;margin:0 auto;padding:28px 22px 72px}
+  h1{font-size:22px;margin:0 0 6px;letter-spacing:.2px}
+  h2{font-size:16px;margin:34px 0 12px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+  .sub{color:var(--tx2);font-size:13px;margin-bottom:20px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:9px;padding:15px 17px;margin-bottom:13px}
+  .verdict{background:linear-gradient(135deg,#16202b,#1a2430);border:1px solid var(--acc)}
+  .tag{display:inline-block;padding:2px 9px;border-radius:11px;font-size:12px;font-weight:600;letter-spacing:.3px}
+  .t-keep{background:rgba(63,185,80,.16);color:var(--ok);border:1px solid rgba(63,185,80,.4)}
+  .t-na{background:rgba(154,167,180,.14);color:var(--tx2);border:1px solid var(--line)}
+  .kv{display:grid;grid-template-columns:190px 1fr;gap:5px 14px;font-size:13px}
+  .kv b{color:var(--tx2);font-weight:500}
+  table{width:100%;border-collapse:collapse;font-size:13px;margin-top:6px}
+  th,td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+  th{color:var(--tx2);font-weight:600;font-size:12px;letter-spacing:.4px;text-transform:uppercase}
+  .ans{font-weight:700}
+  .y{color:var(--warn)} .n{color:var(--ok)}
+  video{width:100%;border-radius:8px;background:#000;display:block}
+  .vgrid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:13px}
+  img{width:100%;border-radius:7px;display:block;border:1px solid var(--line)}
+  .cap{color:var(--tx2);font-size:12px;margin:6px 0 0}
+  .row{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:13px}
+  .warnbox{background:rgba(210,153,34,.09);border:1px solid rgba(210,153,34,.35);border-radius:9px;padding:14px 17px}
+  .okbox{background:rgba(63,185,80,.08);border:1px solid rgba(63,185,80,.3);border-radius:9px;padding:14px 17px}
+  code{background:#0b0f14;padding:1.5px 6px;border-radius:4px;font-size:12px;color:var(--acc)}
+  ul{margin:7px 0;padding-left:22px} li{margin:3px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <h1>RIGHT_HAND_FIRST_WEB_PRODUCT_IMPACT_GO_NO_GO_R1</h1>
+  <div class="sub">
+    产品级 Go / No-Go 决策轮 · 观察轮，不是修复轮 ·
+    冻结基线 <code>RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend</code> ·
+    SHA256 <code>4aa26e3a…6e7d2</code>
+  </div>
+
+  <div class="card verdict">
+    <div style="display:flex;align-items:center;gap:12px;flex-wrap:wrap">
+      <span class="tag t-keep">KEEP_FROZEN_BASELINE_AND_PROCEED</span>
+      <span class="tag t-na">STOP — HUMAN REVIEW</span>
+    </div>
+    <div class="kv" style="margin-top:13px">
+      <b>FINAL_RECOMMENDATION</b><div><b>KEEP_FROZEN_BASELINE_AND_PROCEED</b></div>
+      <b>FROZEN_BASELINE_UNCHANGED</b><div><b class="n">YES</b> — 轮前/轮后 SHA256 逐字节一致</div>
+      <b>本轮写入 .blend</b><div>0（纯观察；未改 mesh / topology / weights / bones / rest / corrective / driver / Action / retarget）</div>
+      <b>真实 motion</b><div>PianoVAM v1.2 · 固定 sample 11.5–18.5s · 7 秒 · 421 observations · <code>PIANOVAM_PHYSICAL_RIGHT_AXIS_CORRECTED_R1</code></div>
+      <b>最低机器保护</b><div>NaN/Inf 0 · collapse 0 · degenerate edge 0 · ZERO restore 0.000 mm（421 observation 全程）</div>
+    </div>
+  </div>
+
+  <h2>1 · 七个必答问题</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th style="width:52px">#</th><th style="width:300px">问题</th><th style="width:96px">回答</th><th>依据</th></tr></thead>
+      <tbody>
+        <tr><td>Q1</td><td>DEFAULT_TEACHING_VIEW 完整 7 秒是否达到明显产品 blocker</td>
+            <td class="ans n">NO</td><td>主教学视角整手在画面内，虎口折口在这个距离不抢夺注意力；7 秒内手型、指序、掌体积均可信</td></tr>
+        <tr><td>Q2</td><td>NORMAL_ORBIT_VIEW 普通用户是否很容易看到明显不自然 deformation</td>
+            <td class="ans n">NO</td><td>常规旋转角度下虎口可见一条较深的折痕，但需注视才能察觉；不构成"很容易看到"的破坏性观感</td></tr>
+        <tr><td>Q3</td><td>REASONABLE_CLOSE_VIEW 是否明显到破坏产品可信度</td>
+            <td class="ans y">YES</td><td>正常产品允许的近景下，拇指-食指间深折 + 上方尖角在数帧内清晰可辨，是本轮唯一达到"明显"的问题</td></tr>
+        <tr><td>Q4</td><td>问题是 TRANSIENT 还是 SUSTAINED / REPEATED</td>
+            <td class="ans y">REPEATED</td><td>非一闪而过：F115 起出现，F127–F168 连续多帧明显，F176 基本恢复，F205 再次出现 ⇒ 随姿态反复生灭</td></tr>
+        <tr><td>Q5</td><td>当前右手整体 Human-visible 产品质量是否仍可接受</td>
+            <td class="ans n">YES</td><td>整体手型、index、thumb、掌体积在三视图与 7 秒动作中均可信；局部瑕疵未扩散到手部整体</td></tr>
+        <tr><td>Q6</td><td>foundational rebuild 的预期收益是否明显大于迁移+回归+左手+Web+集成的风险成本</td>
+            <td class="ans n">NO</td><td>唯一明显问题局限在 REASONABLE_CLOSE_VIEW；三条 bounded POC 均未证明值得 rebuild；左手/Web/集成成本尚未开始</td></tr>
+        <tr><td>Q7</td><td>最终推荐</td>
+            <td class="ans n"><b>KEEP_FROZEN_BASELINE_AND_PROCEED</b></td>
+            <td>承认为当前版本已知限制，不推翻 source mesh 或底层 deformation architecture</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>2 · 完整 7 秒真实 baseline 产品观察</h2>
+  <div class="card">
+    <video controls preload="metadata" src="product_7s_three_views.mp4"></video>
+    <p class="cap">三视图同步：DEFAULT_TEACHING_VIEW ｜ NORMAL_ORBIT_VIEW ｜ REASONABLE_CLOSE_VIEW。同一 7 秒、同一 Action、逐帧相机，无任何裁剪或加速。</p>
+    <div class="vgrid" style="margin-top:14px">
+      <div><video controls preload="metadata" src="product_7s_default_teaching_view.mp4"></video><p class="cap">单视：DEFAULT_TEACHING_VIEW</p></div>
+      <div><video controls preload="metadata" src="product_7s_normal_orbit_view.mp4"></video><p class="cap">单视：NORMAL_ORBIT_VIEW</p></div>
+      <div><video controls preload="metadata" src="product_7s_reasonable_close_view.mp4"></video><p class="cap">单视：REASONABLE_CLOSE_VIEW</p></div>
+    </div>
+  </div>
+
+  <h2>3 · 代表帧（少量、连续运动判断）</h2>
+  <div class="card">
+    <img src="EVIDENCE_CONTINUOUS_BEHAVIOUR.png" alt="peak recovery return">
+    <p class="cap">REASONABLE_CLOSE_VIEW 连续行为：F130（peak）→ F176（基本恢复）→ F205（再次出现）。说明缺陷随姿态反复生灭，而非单帧偶发。</p>
+  </div>
+  <div class="row">
+    <div class="card"><img src="EVIDENCE_PROBLEM_VISIBLE_F115.png" alt="F115"><p class="cap">F115 · t=15.30s · 问题已出现，折口开始形成</p></div>
+    <div class="card"><img src="EVIDENCE_PROBLEM_PEAK_F130.png" alt="F130"><p class="cap">F130 · t=15.80s · 本段最明显：深折 + 上方尖角</p></div>
+    <div class="card"><img src="EVIDENCE_PROBLEM_PEAK_ALT_F160.png" alt="F160"><p class="cap">F160 · t=16.80s · 不同姿态下再次出现深折</p></div>
+    <div class="card"><img src="EVIDENCE_PROBLEM_RECOVERY_F176.png" alt="F176"><p class="cap">F176 · t=17.33s · 离开该姿态后表面恢复平滑</p></div>
+    <div class="card"><img src="EVIDENCE_PROBLEM_RETURN_F205.png" alt="F205"><p class="cap">F205 · t=18.30s · 回到张开姿态，折口再现</p></div>
+  </div>
+  <div class="card">
+    <img src="EVIDENCE_PEAK_F130_THREE_VIEWS.png" alt="three views at peak">
+    <p class="cap">同一 peak 帧在三种产品视图下的对照：缺陷只在近景达到"明显"，在教学与常规旋转距离不构成 blocker。</p>
+  </div>
+
+  <h2>4 · 产品成本进入决策</h2>
+  <div class="card">
+    <table>
+      <thead><tr><th style="width:270px">维度</th><th style="width:110px">风险等级</th><th>说明</th></tr></thead>
+      <tbody>
+        <tr><td>source mesh replacement</td><td class="ans y">HIGH</td><td>需重选 CC0 源并重做全部 Human-approved 外形审核</td></tr>
+        <tr><td>skin transfer / repaint</td><td class="ans y">HIGH</td><td>现有 21 骨骼权重与已批准 first-web corrective 全部需重新迁移</td></tr>
+        <tr><td>corrective migration</td><td class="ans y">HIGH</td><td>现有 corrective + driver 表达式需在新拓扑上重建并重新人审</td></tr>
+        <tr><td>旧姿态 regression</td><td class="ans y">HIGH</td><td>多个已批准代表姿态需全部重跑并重新批准</td></tr>
+        <tr><td>motion regression</td><td class="ans">MEDIUM</td><td>retarget mapping 已建立且可复用，但需在新资产上重验</td></tr>
+        <tr><td>左手镜像影响</td><td class="ans y">HIGH</td><td>左手尚未开始；架构级改动会使镜像方案需重新设计</td></tr>
+        <tr><td>Web export 影响</td><td class="ans">MEDIUM</td><td>标准 bone+morph 形式可保留；任何后置 cage 类方案会显著提高成本</td></tr>
+        <tr><td>项目延期风险</td><td class="ans y">HIGH</td><td>左手、Web、钢琴集成三项尚未启动，此时重建将推迟全部后续里程碑</td></tr>
+      </tbody>
+    </table>
+    <p class="cap">以上为 LOW / MEDIUM / HIGH 工程风险判断，不含工时数字。</p>
+  </div>
+
+  <h2>5 · 本轮边界（stop-loss）</h2>
+  <div class="okbox">
+    <b>已遵守</b>
+    <ul>
+      <li>未修改任何正式资产；轮前轮后 SHA256 一致</li>
+      <li>未新建 weight / corrective / retopo / helper / cage candidate</li>
+      <li>未新增第四条技术路线，未在评估中"顺手修一下"</li>
+      <li>未运行 hidden crossing / normal-dot / R3 / true-cap / 2127-edge / 逐顶点解剖证明</li>
+      <li>未移动 production pointer，未 promotion 新资产，未开始左手，未开始 Web export</li>
+      <li>机器保护仅保留 NaN/Inf、gross collapse、tearing、明显 penetration、ZERO restore</li>
+    </ul>
+  </div>
+
+  <div class="warnbox" style="margin-top:13px">
+    <b>Human 决策点</b>
+    <div style="margin-top:7px">
+      本页为观察结论与建议，<b>不自动执行</b>。请确认是否接受 <code>KEEP_FROZEN_BASELINE_AND_PROCEED</code>，
+      并授权下一阶段推进方向（左手 / Web / 钢琴集成），或另行指示。
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

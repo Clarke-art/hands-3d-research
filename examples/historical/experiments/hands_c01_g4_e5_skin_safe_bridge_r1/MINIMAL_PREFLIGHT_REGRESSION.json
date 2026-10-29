@@ -1,0 +1,1365 @@
+{
+  "status": "MINIMAL_REGRESSION_PASS",
+  "triangle_interior_fixture": {
+    "depth_mm": 5.000000000000001,
+    "safe_mm": 0.0,
+    "tangent_mm": 0.0
+  },
+  "distance_fixtures": {
+    "parallel_mm": 1.0,
+    "edge_edge_mm": 0.1
+  },
+  "S1": [
+    {
+      "initialization": "C01_RECORDED",
+      "actual_geometry": {
+        "key_hits": [
+          {
+            "key": "G4",
+            "midi": 67,
+            "piece": 0,
+            "color": "WHITE",
+            "role": "TARGET_KEY",
+            "maximum_vertex_inside_depth_mm": 0.0,
+            "maximum_triangle_surface_inside_depth_mm": 0.5490023369434099,
+            "triangle_interior_witnesses": [
+              {
+                "hand_triangle_id": 3868,
+                "inside_depth_mm": 0.5461600934639247,
+                "world_point_m": [
+                  0.1018260596995849,
+                  -0.0002492532468210129,
+                  -0.010496565532750354
+                ],
+                "legal_target_pulp": true
+              },
+              {
+                "hand_triangle_id": 3869,
+                "inside_depth_mm": 0.5490023369434099,
+                "world_point_m": [
+                  0.10094171072291978,
+                  -0.0002461744712551339,
+                  -0.01049914968386983
+                ],
+                "legal_target_pulp": true
+              },
+              {
+                "hand_triangle_id": 3870,
+                "inside_depth_mm": 0.5490023369434099,
+                "world_point_m": [
+                  0.10094171072291977,
+                  -0.0002461744712551339,
+                  -0.01049914968386983
+                ],
+                "legal_target_pulp": true
+              },
+              {
+                "hand_triangle_id": 3871,
+                "inside_depth_mm": 0.2901471083876373,
+                "world_point_m": [
+                  0.09965079979988861,
+                  -0.0005265716851216018,
+                  -0.010263800026642043
+                ],
+                "legal_target_pulp": true
+              },
+              {
+                "hand_triangle_id": 3886,
+                "inside_depth_mm": 0.36775264492506543,
+                "world_point_m": [
+                  0.1039628649580321,
+                  -0.00044250779988692923,
+                  -0.010334358525788321
+                ],
+                "legal_target_pulp": true
+              },
+              {
+                "hand_triangle_id": 3887,
+                "inside_depth_mm": 0.5004117553570431,
+                "world_point_m": [
+                  0.10332837442242579,
+                  -0.00029880877102562986,
+                  -0.0104549714117729
+                ],
+                "legal_target_pulp": true
+              }
+            ],
+            "wrong_region_depth_mm": 0.0,
+            "vertex_ids": [],
+            "digit_attribution": {},
+            "shared_palm_or_ambiguous_vertices": [],
+            "triangle_surface_intersection_pairs": 12,
+            "hand_triangle_ids": [
+              3868,
+              3869,
+              3870,
+              3871,
+              3886,
+              3887
+            ],
+            "depth_meaning": "Minimum distance to supporting planes for vertices inside each convex key piece; not vertical-only depth or triangle-pair count"
+          },
+          {
+            "key": "A4",
+            "midi": 69,
+            "piece": 0,
+            "color": "WHITE",
+            "role": "NON_TARGET_KEY",
+            "maximum_vertex_inside_depth_mm": 0.0,
+            "maximum_triangle_surface_inside_depth_mm": 0.003682345295529635,
+            "triangle_interior_witnesses": [
+              {
+                "hand_triangle_id": 2455,
+                "inside_depth_mm": 0.003682345295529635,
+                "world_point_m": [
+                  0.10815155484529554,
+                  3.682645295530196e-06,
+                  -0.0028011834223276803
+                ],
+                "legal_target_pulp": false
+              },
+              {
+                "hand_triangle_id": 3889,
+                "inside_depth_mm": 0.003682345295529635,
+                "world_point_m": [
+                  0.10815155484529554,
+                  3.682645295530196e-06,
+                  -0.0028011834223276803
+                ],
+                "legal_target_pulp": false
+              }
+            ],
+            "wrong_region_depth_mm": 0.003682345295529635,
+            "vertex_ids": [],
+            "digit_attribution": {},
+            "shared_palm_or_ambiguous_vertices": [],
+            "triangle_surface_intersection_pairs": 4,
+            "hand_triangle_ids": [
+              2455,
+              3889
+            ],
+            "depth_meaning": "Minimum distance to supporting planes for vertices inside each convex key piece; not vertical-only depth or triangle-pair count"
+          }
+        ],
+        "wrong_key_or_nonpulp_max_depth_mm": 0.003682345295529635,
+        "target_key_max_depth_mm": 0.5490023369434099,
+        "self_skin": [
+          {
+            "digits": [
+              "THUMB",
+              "INDEX"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 34.77317839860916,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "THUMB",
+              "MIDDLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 52.85215750336647,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "THUMB",
+              "RING"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 62.93449550867081,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "THUMB",
+              "LITTLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 64.34287130832672,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 10.485228151082993,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "INDEX",
+              "RING"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 34.689392894506454,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "INDEX",
+              "LITTLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 59.765540063381195,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 0.5217212019488215,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "LITTLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 25.619573891162872,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 10.489393025636673,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          }
+        ],
+        "nonadjacent_self_triangle_pairs": 0,
+        "full_88_keys_checked": true,
+        "world_space": true,
+        "contact": {
+          "pad_gap_mm": 0.3226959304596032,
+          "pad_horizontal_outside_mm": 0.0,
+          "true_pulp_min_signed_gap_mm": -0.9075298589089332,
+          "pulp_min_vertex_gap_mm": 0.006298044222970984,
+          "pulp_closest_vertex": 1753,
+          "pulp_contact_position_world_m": [
+            0.10349677895370184,
+            0.00038348152613149056,
+            -0.009893060256621936
+          ],
+          "true_pulp_surface_contact_distance_mm": 0.0,
+          "near_contact_projected_area_mm2": 0.9242621935726122,
+          "near_contact_area_band_mm": 0.05,
+          "top_surface_crossing_triangles": 6,
+          "top_surface_crossing_triangle_ids": [
+            3868,
+            3869,
+            3870,
+            3871,
+            3886,
+            3887
+          ],
+          "inside_playable_patch_vertices": 24,
+          "hover_only": false
+        }
+      },
+      "preparation": {
+        "pad_gap_mm": 12.003024188065144,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": 11.868923050546261,
+        "pulp_min_vertex_gap_mm": 11.868923050546261,
+        "pulp_closest_vertex": 1298,
+        "pulp_contact_position_world_m": [
+          0.2132442146539688,
+          0.036799315363168716,
+          0.011868922971189022
+        ],
+        "true_pulp_surface_contact_distance_mm": 11.868923050546261,
+        "near_contact_projected_area_mm2": 0.0,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 0,
+        "top_surface_crossing_triangle_ids": [],
+        "inside_playable_patch_vertices": 109,
+        "hover_only": true
+      },
+      "witness_constraints": [
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3868,
+          "barycentric": [
+            0.6074805982731777,
+            -4.155396180063838e-16,
+            0.39251940172682265
+          ],
+          "old_depth_mm": 0.5461600934639247,
+          "legal_target": true
+        },
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3869,
+          "barycentric": [
+            0.5935941912733753,
+            3.3958451574138404e-15,
+            0.40640580872662135
+          ],
+          "old_depth_mm": 0.5490023369434099,
+          "legal_target": true
+        },
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3870,
+          "barycentric": [
+            2.6645352591003757e-15,
+            0.5935941912733724,
+            0.40640580872662496
+          ],
+          "old_depth_mm": 0.5490023369434099,
+          "legal_target": true
+        },
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3871,
+          "barycentric": [
+            0.5292987971542236,
+            0.470701202845782,
+            -5.5504243221178304e-15
+          ],
+          "old_depth_mm": 0.2901471083876373,
+          "legal_target": true
+        },
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3886,
+          "barycentric": [
+            0.7033694986596495,
+            -4.637972917141176e-16,
+            0.2966305013403509
+          ],
+          "old_depth_mm": 0.36775264492506543,
+          "legal_target": true
+        },
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3887,
+          "barycentric": [
+            0.7329083907446766,
+            -2.560903152990053e-15,
+            0.26709160925532593
+          ],
+          "old_depth_mm": 0.5004117553570431,
+          "legal_target": true
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 2455,
+          "barycentric": [
+            0.4615401994891297,
+            8.49701930321049e-16,
+            0.5384598005108694
+          ],
+          "old_depth_mm": 0.003682345295529635,
+          "legal_target": false
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 3889,
+          "barycentric": [
+            0.5384598005108712,
+            -8.94321701647427e-16,
+            0.46154019948912967
+          ],
+          "old_depth_mm": 0.003682345295529635,
+          "legal_target": false
+        }
+      ],
+      "state": [
+        -88.16305371230968,
+        -6.498023770940459,
+        -7.6358146755401695,
+        -0.22730024244461405,
+        -7.104240863263615,
+        -10.131234079284889,
+        6.487967694142013,
+        0.130699051748014,
+        0.00833570306807885,
+        -3.7260009696389838,
+        13.831855363710467,
+        17.011522617864152,
+        9.853005028686205,
+        -12.936211846921113,
+        7.007096595531624,
+        7.518003468086381,
+        8.620405022302277,
+        -24.98803437305139,
+        12.513207602429814,
+        12.811194957044611,
+        4.035613787673521,
+        -4.404561568642093,
+        18.454174479806248,
+        8.108270371186626,
+        2.701005851592297,
+        18.921117696925716
+      ],
+      "key_angles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08712320774793625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08712320774793625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_time": 2.527855
+    },
+    {
+      "initialization": "APPROVED_R1_X_RETARGET",
+      "actual_geometry": {
+        "key_hits": [
+          {
+            "key": "G4",
+            "midi": 67,
+            "piece": 0,
+            "color": "WHITE",
+            "role": "TARGET_KEY",
+            "maximum_vertex_inside_depth_mm": 0.0,
+            "maximum_triangle_surface_inside_depth_mm": 0.27765371348457124,
+            "triangle_interior_witnesses": [
+              {
+                "hand_triangle_id": 3864,
+                "inside_depth_mm": 0.27765371348457124,
+                "world_point_m": [
+                  0.10285711422849915,
+                  -0.0005401047829156763,
+                  -0.010252441105192191
+                ],
+                "legal_target_pulp": true
+              },
+              {
+                "hand_triangle_id": 3865,
+                "inside_depth_mm": 0.27261413192002737,
+                "world_point_m": [
+                  0.10266032663700769,
+                  -0.000545563759493578,
+                  -0.010247859147159496
+                ],
+                "legal_target_pulp": true
+              },
+              {
+                "hand_triangle_id": 3867,
+                "inside_depth_mm": 0.27765371348457124,
+                "world_point_m": [
+                  0.10285711422849915,
+                  -0.0005401047829156763,
+                  -0.010252441105192193
+                ],
+                "legal_target_pulp": true
+              },
+              {
+                "hand_triangle_id": 3870,
+                "inside_depth_mm": 0.19135623960594908,
+                "world_point_m": [
+                  0.10159581814502716,
+                  -0.0006335839503031349,
+                  -0.010173979947539427
+                ],
+                "legal_target_pulp": true
+              }
+            ],
+            "wrong_region_depth_mm": 0.0,
+            "vertex_ids": [],
+            "digit_attribution": {},
+            "shared_palm_or_ambiguous_vertices": [],
+            "triangle_surface_intersection_pairs": 8,
+            "hand_triangle_ids": [
+              3864,
+              3865,
+              3867,
+              3870
+            ],
+            "depth_meaning": "Minimum distance to supporting planes for vertices inside each convex key piece; not vertical-only depth or triangle-pair count"
+          },
+          {
+            "key": "A4",
+            "midi": 69,
+            "piece": 0,
+            "color": "WHITE",
+            "role": "NON_TARGET_KEY",
+            "maximum_vertex_inside_depth_mm": 0.11347397061991767,
+            "maximum_triangle_surface_inside_depth_mm": 0.1770670946414082,
+            "triangle_interior_witnesses": [
+              {
+                "hand_triangle_id": 2440,
+                "inside_depth_mm": 0.16927840679301348,
+                "world_point_m": [
+                  0.10831715090679302,
+                  0.00016927870679300794,
+                  -0.0025263203596635354
+                ],
+                "legal_target_pulp": false
+              },
+              {
+                "hand_triangle_id": 2441,
+                "inside_depth_mm": 0.11347397061991767,
+                "world_point_m": [
+                  0.10842443257570267,
+                  0.00011347427061991766,
+                  -0.0026102347765117884
+                ],
+                "legal_target_pulp": false
+              },
+              {
+                "hand_triangle_id": 2448,
+                "inside_depth_mm": 0.11347397061991767,
+                "world_point_m": [
+                  0.10842443257570267,
+                  0.00011347427061991766,
+                  -0.0026102347765117884
+                ],
+                "legal_target_pulp": false
+              },
+              {
+                "hand_triangle_id": 2449,
+                "inside_depth_mm": 0.11347397061991767,
+                "world_point_m": [
+                  0.10842443257570267,
+                  0.00011347427061991766,
+                  -0.0026102347765117884
+                ],
+                "legal_target_pulp": false
+              },
+              {
+                "hand_triangle_id": 3876,
+                "inside_depth_mm": 0.1770670946414082,
+                "world_point_m": [
+                  0.10832493959464141,
+                  0.00017706739464140586,
+                  -0.0026795775279263023
+                ],
+                "legal_target_pulp": false
+              },
+              {
+                "hand_triangle_id": 3877,
+                "inside_depth_mm": 0.1770670946414082,
+                "world_point_m": [
+                  0.10832493959464141,
+                  0.00017706739464140586,
+                  -0.0026795775279263023
+                ],
+                "legal_target_pulp": false
+              },
+              {
+                "hand_triangle_id": 3894,
+                "inside_depth_mm": 0.09253133340573451,
+                "world_point_m": [
+                  0.10824040383340575,
+                  9.253163340573745e-05,
+                  -0.004872055692726047
+                ],
+                "legal_target_pulp": false
+              },
+              {
+                "hand_triangle_id": 3895,
+                "inside_depth_mm": 0.17308473033256042,
+                "world_point_m": [
+                  0.10832095723033257,
+                  0.0001730850303325593,
+                  -0.0029616172254475926
+                ],
+                "legal_target_pulp": false
+              }
+            ],
+            "wrong_region_depth_mm": 0.1770670946414082,
+            "vertex_ids": [
+              341
+            ],
+            "digit_attribution": {
+              "THUMB": {
+                "vertices": [
+                  341
+                ],
+                "max_depth_mm": 0.11347397061991767
+              }
+            },
+            "shared_palm_or_ambiguous_vertices": [],
+            "triangle_surface_intersection_pairs": 11,
+            "hand_triangle_ids": [
+              2440,
+              2441,
+              2448,
+              2449,
+              3876,
+              3877,
+              3894,
+              3895
+            ],
+            "depth_meaning": "Minimum distance to supporting planes for vertices inside each convex key piece; not vertical-only depth or triangle-pair count"
+          }
+        ],
+        "wrong_key_or_nonpulp_max_depth_mm": 0.1770670946414082,
+        "target_key_max_depth_mm": 0.27765371348457124,
+        "self_skin": [
+          {
+            "digits": [
+              "THUMB",
+              "INDEX"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 33.71025249361992,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "THUMB",
+              "MIDDLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 51.11581087112427,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "THUMB",
+              "RING"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 61.08463928103447,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "THUMB",
+              "LITTLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 62.357787042856216,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 10.697118937969208,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "INDEX",
+              "RING"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 34.47901830077171,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "INDEX",
+              "LITTLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 59.722740203142166,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 0.6628281553275883,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "LITTLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 26.290232315659523,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "raw_triangle_pair_count": 0,
+            "excluded_topology_neighbor_pairs": 0,
+            "true_nonadjacent_triangle_pair_count": 0,
+            "triangle_pair_ids": [],
+            "minimum_gap_sampled_mm": 10.702156461775303,
+            "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+            "self_penetration_depth_mm": null,
+            "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+          }
+        ],
+        "nonadjacent_self_triangle_pairs": 0,
+        "full_88_keys_checked": true,
+        "world_space": true,
+        "contact": {
+          "pad_gap_mm": -0.6015538118614073,
+          "pad_horizontal_outside_mm": 0.00013015490995164908,
+          "true_pulp_min_signed_gap_mm": -0.6014020493135752,
+          "pulp_min_vertex_gap_mm": 0.2704647694810153,
+          "pulp_closest_vertex": 1343,
+          "pulp_contact_position_world_m": [
+            0.10301155433066245,
+            -0.0003270454622065905,
+            -0.009955120748976589
+          ],
+          "true_pulp_surface_contact_distance_mm": 0.0,
+          "near_contact_projected_area_mm2": 0.42104644987189904,
+          "near_contact_area_band_mm": 0.05,
+          "top_surface_crossing_triangles": 4,
+          "top_surface_crossing_triangle_ids": [
+            3864,
+            3865,
+            3867,
+            3870
+          ],
+          "inside_playable_patch_vertices": 15,
+          "hover_only": false
+        }
+      },
+      "preparation": {
+        "pad_gap_mm": 14.056963925444695,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": 14.00071204193792,
+        "pulp_min_vertex_gap_mm": 14.00071204193792,
+        "pulp_closest_vertex": 1298,
+        "pulp_contact_position_world_m": [
+          0.20528271794319153,
+          0.03995228931307793,
+          0.01400071196258068
+        ],
+        "true_pulp_surface_contact_distance_mm": 14.00071204193792,
+        "near_contact_projected_area_mm2": 0.0,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 0,
+        "top_surface_crossing_triangle_ids": [],
+        "inside_playable_patch_vertices": 75,
+        "hover_only": true
+      },
+      "witness_constraints": [
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3864,
+          "barycentric": [
+            8.881784197001252e-16,
+            0.12418373152165822,
+            0.8758162684783409
+          ],
+          "old_depth_mm": 0.27765371348457124,
+          "legal_target": true
+        },
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3865,
+          "barycentric": [
+            0.10076335830497041,
+            0.89923664169503,
+            -4.598515327194205e-16
+          ],
+          "old_depth_mm": 0.27261413192002737,
+          "legal_target": true
+        },
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3867,
+          "barycentric": [
+            0.12418373152165874,
+            -2.0891822123627163e-15,
+            0.8758162684783434
+          ],
+          "old_depth_mm": 0.27765371348457124,
+          "legal_target": true
+        },
+        {
+          "midi": 67,
+          "piece": 0,
+          "triangle_id": 3870,
+          "barycentric": [
+            0.47040001255618,
+            0.529599987443822,
+            -1.9445762021121053e-15
+          ],
+          "old_depth_mm": 0.19135623960594908,
+          "legal_target": true
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 2440,
+          "barycentric": [
+            0.9288441299807217,
+            0.07115587001927748,
+            7.431825423322048e-16
+          ],
+          "old_depth_mm": 0.16927840679301348,
+          "legal_target": false
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 2441,
+          "barycentric": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "old_depth_mm": 0.11347397061991767,
+          "legal_target": false
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 2448,
+          "barycentric": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "old_depth_mm": 0.11347397061991767,
+          "legal_target": false
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 2449,
+          "barycentric": [
+            1.0,
+            0.0,
+            0.0
+          ],
+          "old_depth_mm": 0.11347397061991767,
+          "legal_target": false
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 3876,
+          "barycentric": [
+            0.03833542000748791,
+            -5.917392579730678e-16,
+            0.9616645799925126
+          ],
+          "old_depth_mm": 0.1770670946414082,
+          "legal_target": false
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 3877,
+          "barycentric": [
+            0.03833542000748735,
+            0.9616645799925122,
+            4.2493469967384065e-16
+          ],
+          "old_depth_mm": 0.1770670946414082,
+          "legal_target": false
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 3894,
+          "barycentric": [
+            0.3239263178730597,
+            5.955181852697411e-16,
+            0.6760736821269397
+          ],
+          "old_depth_mm": 0.09253133340573451,
+          "legal_target": false
+        },
+        {
+          "midi": 69,
+          "piece": 0,
+          "triangle_id": 3895,
+          "barycentric": [
+            9.992007221626409e-16,
+            0.12535065444821744,
+            0.8746493455517815
+          ],
+          "old_depth_mm": 0.17308473033256042,
+          "legal_target": false
+        }
+      ],
+      "state": [
+        -95.39654924265544,
+        -5.465658096499121,
+        0.0,
+        -1.9769185769874602,
+        -2.9052633779713575,
+        -9.625642776811704,
+        9.808286433819635,
+        5.041749136460637,
+        0.37255284253162274,
+        -12.389481484027447,
+        17.696734903464986,
+        16.286275877851637,
+        8.214253129334603,
+        -10.40493186419144,
+        6.578196642622181,
+        3.9892284185049305,
+        2.1361125581102733,
+        -24.98253021717759,
+        14.281015555432257,
+        14.427828552800197,
+        5.842726940328569,
+        -3.05143810165293,
+        18.66883164927334,
+        7.932583167219448,
+        2.5816375276227883,
+        18.91387236277027
+      ],
+      "key_angles": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08712320774793625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08712320774793625,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "source_time": 2.527855
+    }
+  ],
+  "source_method": "Previously calibrated detector copied hash-identically; exact feature distance supplement",
+  "S2_exact_clearance": {
+    "distance_mm": 0.11774766739016501,
+    "triangle_ids": [
+      593,
+      286
+    ],
+    "witness_points_world_m": [
+      [
+        0.21647421045572482,
+        0.01777377972100668,
+        0.020888946423826223
+      ],
+      [
+        0.2165857608330919,
+        0.017774902755062792,
+        0.020926626196643983
+      ]
+    ],
+    "exact_feature_candidates": 370,
+    "aabb_pruning_upper_mm": 0.13770581968052537,
+    "method": "All nonadjacent triangle pairs with AABB lower bound <= sampled upper; exact point-face and all edge-edge feature minima for disjoint triangles"
+  },
+  "S2_previous_sampled_mm": 0.13770571968052536,
+  "S2_self_metric": [
+    {
+      "digits": [
+        "THUMB",
+        "INDEX"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 35.07900610566139,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "THUMB",
+        "MIDDLE"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 52.51578241586685,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "THUMB",
+        "RING"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 63.61931562423706,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "THUMB",
+        "LITTLE"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 65.04012644290924,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "INDEX",
+        "MIDDLE"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 10.415120050311089,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "INDEX",
+        "RING"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 34.6066989004612,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "INDEX",
+        "LITTLE"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 59.79993939399719,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "MIDDLE",
+        "RING"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 0.13770571968052536,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "MIDDLE",
+        "LITTLE"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 23.090291768312454,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    },
+    {
+      "digits": [
+        "RING",
+        "LITTLE"
+      ],
+      "raw_triangle_pair_count": 0,
+      "excluded_topology_neighbor_pairs": 0,
+      "true_nonadjacent_triangle_pair_count": 0,
+      "triangle_pair_ids": [],
+      "minimum_gap_sampled_mm": 12.465724721550941,
+      "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+      "self_penetration_depth_mm": null,
+      "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+    }
+  ],
+  "safe_translated_fixture_no_key_intrusion": true,
+  "wall_seconds": 0.25084379999861994
+}

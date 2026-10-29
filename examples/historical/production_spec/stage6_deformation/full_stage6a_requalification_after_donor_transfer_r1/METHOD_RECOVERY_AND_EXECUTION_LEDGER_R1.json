@@ -1,0 +1,118 @@
+{
+  "current_derivative": {
+    "path": "production_spec/stage5_production_rig/geometry_propagation_after_donor_transfer_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend",
+    "sha256": "d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d"
+  },
+  "formal_case_matrix_source": {
+    "path": "production_spec/stage6_deformation/full_stage6a_requalification_r1/FULL_STAGE6A_CASE_MATRIX_R1.json",
+    "sha256": "61226acb989e0487b7b356ee4d6795c6f5de55406e51f228ee855e64914f7fc5"
+  },
+  "measurement_adapter": {
+    "path": "production_spec/stage6_deformation/full_stage6a_requalification_after_donor_transfer_r1/run_cases.py",
+    "sha256": "02f6c4a489797b8aefe2209d91167d6c2e270ec998d530c00741f7bfbe7af26e"
+  },
+  "source_adapter": {
+    "path": "production_spec/stage6_deformation/full_stage6a_requalification_r1/run_cases.py",
+    "sha256": "4ebb4bb10abc3469c7136b9d1b5aef809f35c9e1da892a85c20ca0e54fe26367"
+  },
+  "historical_functions": [
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_after_approval_r1/blender_extract.py",
+        "sha256": "1161a123785c19a59eb455e0e3f262cfdb464d9929cf30648d69cc4aeeb81438"
+      },
+      "function_AST_sha256": {
+        "mesh_payload": "811a26192954ebb0ab0be93f3c3a4cd455890f1e1ee0c38e7ddd6a56cffc6c3e",
+        "rig_payload": "f5ada45711a53d771031a97af1b95199982801e2a823c1f45ba4c71c336d912c",
+        "weights": "fab6beea6c9aa0f3eddfb15e4e364fe52ec80b20d890e0f83e29d0ab78cbcdbd"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6a/scripts/s6a_common.py",
+        "sha256": "cceedf3db14c9327de2e44e6a22457db11a793354922c8353ec65081043d5cf9"
+      },
+      "function_AST_sha256": {
+        "reset_pose": "a5f10fb615e007e6e45ae31f49c4bf5e5c85c1ebb3ce69af03b5ff66ebea3664",
+        "set_joint_rotation": "ebf9710a180dd22fcc6f4c04b71e44635d3bc3ae08d757f8a1b511a60554333f",
+        "pose_state": "dbf4989e10e171b7ecd6d54435f329adb672df9e4743d5edb7ed57a278f9d9de",
+        "evaluate": "d0a9e0353b050de0e0e4179b5f8d914f752fc7643c91c84b2e4148b4b8df7911",
+        "bone_world": "e3a8f45b32b695e3e9ce17ddf2c09627e6896c8de887a5c33364de83886ce9d4",
+        "face_area": "a4e8f204e96dee66a0183b98b1ca6fa203f25d8df62f46cd713a8c24bac38e99",
+        "face_centroid": "97804281e9e3c2ec447fcc1d031abc76631658d7e1c90b0cead25af12da16671",
+        "face_normal": "5bedd9a621173ec49de8c39cedf1f593464752fa017d8f75ede7ebc105314d8a",
+        "stats": "2defad118d9b94ec1f2791350cf6249ffd000d614942ec2cb10bb8fc7cfa6c9b",
+        "rr": "7471696c783a3bb5dd0bd66bcc0a98ed0e4bb9ef050d3d7035216a6899103e39"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_common.py",
+        "sha256": "54313d7e54c12f8817134a2d11019dc4d84f7cf46ee7214a0f8d00c0a886a057"
+      },
+      "function_AST_sha256": {
+        "arc_of": "c10e5512f903d6a08eccb6631f9ad8bbaa3563bb42f69e489281be27ea25a46c"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_prequal.py",
+        "sha256": "6c24993810a89cd4a5180338bcaad86ca3cc332d78fa2188342f3e1c18dc4178"
+      },
+      "function_AST_sha256": {
+        "intersect_pairs": "92409cfc5fc948e164bb011465ee64cb835685db79b4bc2f61ac7976300cd977"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6b_r1c/scripts/r1c_pen_common.py",
+        "sha256": "83e9b51f6f6b97e39929b0b083d28ac33ccb150d22b6bd78f3a1cd30937924db"
+      },
+      "function_AST_sha256": {
+        "ray_triangle": "1e3e76039beba7697905e58096c4aa51c21be7b11710372fb6fb31fecc01782b",
+        "tri_tri_intersection": "e92e21a00b586ffdb27baeecc98eb41e5fdb894f4a4ddbb2abe8432f3f862d63",
+        "seg_len": "0d93cf8c0e802427bd34982ec33ef99f3cc00adbfb9814fecee6cfd9ab6d76a8",
+        "poke_depth": "fd50a1f140e3fbd2f9fe8064cefd3d1c65c60ee07e0d3daf2d032fea439d46cd",
+        "closest_point_on_triangle": "3d2e8eae2f0fcc895b912b173f3012b5408329d32787bdd1aea774a8a42b77fe",
+        "tris_of": "609573714c76e879ece5255a5f10da47e65ce017381acb02adb80f5e207ba0c6"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6b_r1c/scripts/r1c_pen_v2.py",
+        "sha256": "cbffb61e7e3bbb44a47bb53c2c488b890c37905481727532b343d36b78f8e6ae"
+      },
+      "function_AST_sha256": {
+        "tri_of": "f29a043f2af5462a377697442788025cd46af2b58b812fc66ebe6d5b3e491ac4",
+        "tri_mean_edge": "f1d2edc542ba31e72386434454e2e92bb15a689865ea99263978e72ebc70b459",
+        "pair_evidence": "cfde87cdbbb6ebeb3b4cd37b6e688c7687b3feb3e56af8ba9d59293087e7ea2f",
+        "classify": "9e6d38ebec6e9dd096428c07241da790461cff26638dff99487ef169cf889236"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6a_r1b/scripts/s6a_r1b_run_cases.py",
+        "sha256": "25feb79dca7b629d82b49d39c878884bcc968b9acc534a80d6dee6159429512c"
+      },
+      "function_AST_sha256": {
+        "metrics": "837b42feb9b0d808d4ae3ec2e5050461fe6d9593c8174534d13abdcb84bd5841"
+      }
+    }
+  ],
+  "formal_current_case_applications": 42,
+  "reset_before_after_records": 42,
+  "current_depsgraph_states_not_reused_between_cases": true,
+  "render_before_each_zero_reset": true,
+  "sign_sanity_applications": 28,
+  "historical_full42_pose_applications": 0,
+  "historical_results_context_only": true,
+  "production_saves": 0,
+  "harness_saves": 0,
+  "renderer": "Historical R1E solid depth-buffer primitives, exact native coordinates, old/current same camera and scale; no geometry smoothing/subdivision",
+  "deformation_probe_after_full42": 0,
+  "Stage6B_runs": 0,
+  "true_cap_recomputations": 0,
+  "R3_solver_runs": 0,
+  "Human_approvals_recorded": 0,
+  "automatic_repairs": 0
+}

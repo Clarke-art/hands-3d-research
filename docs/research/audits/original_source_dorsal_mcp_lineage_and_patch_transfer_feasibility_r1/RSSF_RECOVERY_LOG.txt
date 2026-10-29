@@ -1,0 +1,69 @@
+00:00.422  blend            | Read blend: "<HANDS_ROOT>\production_spec\stage4_blender\stage4a_r2\RIGHT_HAND_ENGINEERING_STAGE4A_R2.blend"
+STAGE4A_APPROVED_TOPOLOGY_BASELINE = <HANDS_ROOT>\production_spec\stage4_blender\stage4a_r2\RIGHT_HAND_ENGINEERING_STAGE4A_R2.blend
+  sha256 = 4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039
+  expected = 4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039
+  MATCH -> baseline frozen
+TOPOLOGY_SIGNATURE_PRE  = 5a39668418eea1716a0fd9bc20b3d0aeda67e6a49a343b74eb3e17c339f90c1d
+  LITTLE_MCP   axial 0.0% of 52.1 mm  n= 29  world=[1.36511, 0.00207, 0.47061]
+  LITTLE_PIP   axial 46.0% of 52.1 mm  n= 32  world=[1.35786, -0.00272, 0.49295]
+  LITTLE_DIP   axial 77.0% of 52.1 mm  n= 46  world=[1.35458, -0.00643, 0.50854]
+  LITTLE_TIP   fingertip vertex 225  world=[1.35147, -0.00924, 0.51937]
+  RING_MCP     axial 0.0% of 70.7 mm  n= 59  world=[1.39424, 0.01057, 0.47924]
+  RING_PIP     axial 46.0% of 70.7 mm  n= 16  world=[1.39124, 0.00433, 0.51094]
+  RING_DIP     axial 77.0% of 70.7 mm  n= 24  world=[1.39222, -0.00426, 0.53265]
+  RING_TIP     fingertip vertex 1741  world=[1.39375, -0.01148, 0.54677]
+  MIDDLE_MCP   axial 0.0% of 77.0 mm  n= 38  world=[1.4169, 0.01384, 0.48286]
+  MIDDLE_PIP   axial 46.0% of 77.0 mm  n= 16  world=[1.42047, 0.00945, 0.5168]
+  MIDDLE_DIP   axial 77.0% of 77.0 mm  n= 29  world=[1.42247, 0.00165, 0.54124]
+  MIDDLE_TIP   fingertip vertex 1737  world=[1.42311, -0.0043, 0.55788]
+  INDEX_MCP    axial 0.0% of 66.3 mm  n= 28  world=[1.44588, 0.01383, 0.47962]
+  INDEX_PIP    axial 46.0% of 66.3 mm  n= 26  world=[1.45287, 0.0079, 0.50908]
+  INDEX_DIP    axial 77.0% of 66.3 mm  n= 26  world=[1.45642, 0.00253, 0.52846]
+  INDEX_TIP    fingertip vertex 1228  world=[1.4585, -0.0003, 0.54342]
+  THUMB_CMC    approved [1.448897, 0.011106, 0.393934] -> nearest current vertex 3411 at [1.4488, 0.01111, 0.39376] (0.198 mm away)
+  THUMB_MCP     axial 44.0% of 88.0 mm  n= 38  world=[1.4609, -0.00313, 0.43213]
+  THUMB_IP      axial 75.0% of 88.0 mm  n= 23  world=[1.48394, -0.01135, 0.44808]
+  WRIST_R      narrowest cross-section at -1.9 mm from the forearm cap, radius 16.93 mm, n=57  world=[1.39563, 0.01556, 0.27735]
+skeleton: 21 bones (16 movable joints + 5 TIP helpers)
+   WRIST_R        parent=None           len=201.05 mm
+   LITTLE_MCP_R   parent=WRIST_R        len= 23.97 mm
+   LITTLE_PIP_R   parent=LITTLE_MCP_R   len= 16.36 mm
+   LITTLE_DIP_R   parent=LITTLE_PIP_R   len= 11.61 mm
+   LITTLE_TIP_R   parent=LITTLE_DIP_R   len=  6.97 mm
+   RING_MCP_R     parent=WRIST_R        len= 32.45 mm
+   RING_PIP_R     parent=RING_MCP_R     len= 23.37 mm
+   RING_DIP_R     parent=RING_PIP_R     len= 15.93 mm
+   RING_TIP_R     parent=RING_DIP_R     len=  9.56 mm
+   MIDDLE_MCP_R   parent=WRIST_R        len= 34.41 mm
+   MIDDLE_PIP_R   parent=MIDDLE_MCP_R   len= 25.73 mm
+   MIDDLE_DIP_R   parent=MIDDLE_PIP_R   len= 17.68 mm
+   MIDDLE_TIP_R   parent=MIDDLE_DIP_R   len= 10.61 mm
+   INDEX_MCP_R    parent=WRIST_R        len= 30.86 mm
+   INDEX_PIP_R    parent=INDEX_MCP_R    len= 20.42 mm
+   INDEX_DIP_R    parent=INDEX_PIP_R    len= 15.37 mm
+   INDEX_TIP_R    parent=INDEX_DIP_R    len=  9.22 mm
+   THUMB_CMC_R    parent=WRIST_R        len= 42.68 mm
+   THUMB_MCP_R    parent=THUMB_CMC_R    len= 29.20 mm
+   THUMB_IP_R     parent=THUMB_MCP_R    len= 22.06 mm
+   THUMB_TIP_R    parent=THUMB_IP_R     len= 13.24 mm
+weights: script-generated (distance-to-bone-segment^2.0 + 3 smoothing passes), 21 vertex groups
+per-digit flexion axes: {'little': [0.964, 0.07, 0.257], 'ring': [0.996, 0.082, -0.029], 'middle': [0.996, 0.083, -0.036], 'index': [0.988, 0.085, -0.128], 'thumb': [-0.26, -0.955, -0.145]}
+solving adjacent FINAL ABSOLUTE spread to targets {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 0: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 1: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 2: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 3: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 4: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 5: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 6: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 7: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 8: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+   round 9: applied {'little': 0.44, 'ring': 0.97, 'middle': 0.0, 'index': 4.76} -> absolute {'index-middle': 12.0, 'middle-ring': 13.0, 'ring-little': 12.0}
+thumb web: rest 19.33 deg -> solved abduction +9.435 deg -> web 40.00 deg (target 40.0)
+thumb MCP: rest 35.34 deg -> applied -13.182 deg -> absolute 22.00 deg (target 22.0)
+thumb IP : rest 17.08 deg -> applied +0.000 deg -> FINAL ABSOLUTE 17.84 deg
+thumb final absolute (from the finished pose): MCP 22.00 deg, IP 17.84 deg, web 40.00 deg (the CMC absolute is measured in the validation block below)
+RSSF historical correspondence reconstructed 0.0003182128229855965
+Blender 5.1.2 (hash ec6e62d40fa9 built 2026-05-19 01:37:34)
+
+Blender quit

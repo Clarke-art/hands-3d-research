@@ -1,0 +1,1664 @@
+{
+  "authority_id": "CAP37_SKIN_DRIVER_AUTHORITY_R1",
+  "status": "RESOLVED",
+  "proposal_status": "PENDING_HUMAN_APPROVAL",
+  "membership_reference": {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1e_human_cap_authority_freeze_r1\\THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+    "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256",
+    "role": "FROZEN_INPUT"
+  },
+  "ownership_authority_hash": "361f4f25201f5810830dc1bfc4bd2cf19db908aef8945801a63bfd2829197ff0",
+  "corrected_rig_sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe",
+  "driver_decision": "THUMB_IP_R primary, continuous THUMB_MCP_R residual; no THUMB_TIP_R driver",
+  "allowed_cap_deform_groups": [
+    "THUMB_MCP_R",
+    "THUMB_IP_R"
+  ],
+  "forbidden_cap_groups": [
+    "WRIST_R",
+    "THUMB_CMC_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "INDEX_DIP_R",
+    "MIDDLE_MCP_R",
+    "MIDDLE_PIP_R",
+    "MIDDLE_DIP_R",
+    "RING_MCP_R",
+    "RING_PIP_R",
+    "RING_DIP_R",
+    "LITTLE_MCP_R",
+    "LITTLE_PIP_R",
+    "LITTLE_DIP_R",
+    "THUMB_TIP_R",
+    "INDEX_TIP_R",
+    "MIDDLE_TIP_R",
+    "RING_TIP_R",
+    "LITTLE_TIP_R"
+  ],
+  "rule": {
+    "projection": "Clamped nearest corrected CMC-MCP-IP-terminal deform chain; proximal segment wins exact ties; cumulative arc s in mm",
+    "profile": "q(t)=6t^5-15t^4+10t^3, t=clamp(0.5+(s-s_IP)/(2h),0,1)",
+    "h_mm": 19.441025,
+    "s_IP_mm": 74.64295890757278,
+    "IP_share_semantics": "q(t)",
+    "MCP_share_semantics": "1-q(t)",
+    "parameter_source": {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1b\\_tmp\\R1B_REGIONS.json",
+      "sha256": "41393e9237ae05220f9071484159392a628c36eafb3bdf2d248b52c531a21e77",
+      "role": "Historical approved centered quintic family W_IP=5*MED; corrected chain replaces contaminated slots, not old cap selector"
+    },
+    "scope": "Use same profile on cap and adjacent true thumb distal/proximal support, with CMC/WRIST base transition only farther proximal where supported; no membership-dependent clamp",
+    "tip_plateau": "IP=1 is allowed only where longitudinal ramp mathematically saturates; terminal v284 satisfies plateau by geometry, not cap identity",
+    "weights_evaluated_or_generated_this_round": false
+  },
+  "geometry_evidence": {
+    "count": 37,
+    "IP_segment_projection_count": 37,
+    "IP_segment_mu_range": [
+      0.6943277663100877,
+      1.0
+    ],
+    "IP_head_relative_longitudinal_mm": [
+      15.272531243697415,
+      21.996140705795526
+    ],
+    "radial_distance_mm": [
+      0.0,
+      7.912650767560496
+    ],
+    "all_inside_historical_tube_radius": true,
+    "historical_FOREIGN_driver_cap_count": 21
+  },
+  "per_vertex_surface_evidence": [
+    {
+      "vertex_id": 36,
+      "position_RSSF_mm": [
+        1455.01806640625,
+        11.43002986907959,
+        482.2706604003906
+      ],
+      "position_native_mm": [
+        1498.629093170166,
+        -10.904156602919102,
+        460.94810962677
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 3.951939514233258,
+        "mu_raw": 0.866845465294592,
+        "mu_clamped": 0.866845465294592,
+        "arc_mm": 93.71021373237342,
+        "normalized_longitudinal": 0.9696925375679957
+      },
+      "distance_to_IP_head_mm": 19.472494254153524,
+      "distance_to_terminal_v284_mm": 4.9189631456283225,
+      "distance_to_thumb_nail_mm": 3.2707590902323025,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 37,
+      "position_RSSF_mm": [
+        1451.7503662109375,
+        14.87404727935791,
+        479.53533935546875
+      ],
+      "position_native_mm": [
+        1494.6368932724,
+        -7.185810245573521,
+        461.91346645355225
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 5.518049885013369,
+        "mu_raw": 0.7717413064687177,
+        "mu_clamped": 0.7717413064687177,
+        "arc_mm": 91.61828927313317,
+        "normalized_longitudinal": 0.9480457665652693
+      },
+      "distance_to_IP_head_mm": 17.849669900404677,
+      "distance_to_terminal_v284_mm": 7.460389467454652,
+      "distance_to_thumb_nail_mm": 0.0,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [
+        881
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 44,
+      "position_RSSF_mm": [
+        1455.9171142578125,
+        5.819828987121582,
+        481.57830810546875
+      ],
+      "position_native_mm": [
+        1498.4047412872314,
+        -15.966348350048065,
+        458.3771526813507
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 5.9277554365504335,
+        "mu_raw": 0.7867488547455003,
+        "mu_clamped": 0.7867488547455003,
+        "arc_mm": 91.94839741667829,
+        "normalized_longitudinal": 0.9514616525251531
+      },
+      "distance_to_IP_head_mm": 18.2925254272882,
+      "distance_to_terminal_v284_mm": 7.559164743117183,
+      "distance_to_thumb_nail_mm": 8.460188981406052,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [
+        889
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 283,
+      "position_RSSF_mm": [
+        1449.431640625,
+        15.763632774353027,
+        480.98968505859375
+      ],
+      "position_native_mm": [
+        1493.7198162078857,
+        -6.975510157644749,
+        464.67941999435425
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.392946286098039,
+        "mu_raw": 0.8415420834195936,
+        "mu_clamped": 0.8415420834195936,
+        "arc_mm": 93.15363698431848,
+        "normalized_longitudinal": 0.9639332046449689
+      },
+      "distance_to_IP_head_mm": 19.58353811439211,
+      "distance_to_terminal_v284_mm": 7.281360584082994,
+      "distance_to_thumb_nail_mm": 2.8780153091992164,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.2950810492038727,
+        "THUMB_CMC_R": 2.010536036323174e-06,
+        "THUMB_MCP_R": 0.010525883175432682,
+        "INDEX_MCP_R": 0.6943910717964172
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        1339
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 284,
+      "position_RSSF_mm": [
+        1451.4825439453125,
+        10.474493980407715,
+        485.554443359375
+      ],
+      "position_native_mm": [
+        1497.74169921875,
+        -13.108416460454464,
+        465.20325541496277
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 0.0,
+        "mu_raw": 1.0,
+        "mu_clamped": 1.0,
+        "arc_mm": 96.6390996133683,
+        "normalized_longitudinal": 1.0
+      },
+      "distance_to_IP_head_mm": 21.996140705795533,
+      "distance_to_terminal_v284_mm": 0.0,
+      "distance_to_thumb_nail_mm": 5.963592061390863,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 285,
+      "position_RSSF_mm": [
+        1454.621826171875,
+        3.9167869091033936,
+        483.19793701171875
+      ],
+      "position_native_mm": [
+        1498.1689453125,
+        -18.3655247092247,
+        459.85740423202515
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.785762116845853,
+        "mu_raw": 0.840134942041051,
+        "mu_clamped": 0.840134942041051,
+        "arc_mm": 93.1226853045631,
+        "normalized_longitudinal": 0.963612923517773
+      },
+      "distance_to_IP_head_mm": 19.68620977268203,
+      "distance_to_terminal_v284_mm": 7.642757165944114,
+      "distance_to_thumb_nail_mm": 10.282249045903164,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [
+        1342
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 297,
+      "position_RSSF_mm": [
+        1447.2100830078125,
+        2.770047664642334,
+        481.53515625
+      ],
+      "position_native_mm": [
+        1491.068720817566,
+        -19.74482834339142,
+        462.88084983825684
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 7.912650767560496,
+        "mu_raw": 0.7462350588184732,
+        "mu_clamped": 0.7462350588184732,
+        "arc_mm": 91.05725026094152,
+        "normalized_longitudinal": 0.9422402591212198
+      },
+      "distance_to_IP_head_mm": 18.221937405299435,
+      "distance_to_terminal_v284_mm": 9.683340558018301,
+      "distance_to_thumb_nail_mm": 12.49832846879168,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.28403276205062866,
+        "INDEX_MCP_R": 0.7159538865089417,
+        "INDEX_PIP_R": 1.3379734809859656e-05,
+        "INDEX_DIP_R": 4.8871883373980546e-14
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        1379
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 298,
+      "position_RSSF_mm": [
+        1444.254150390625,
+        10.105209350585938,
+        480.2493896484375
+      ],
+      "position_native_mm": [
+        1488.5549545288086,
+        -12.681265361607075,
+        465.76425433158875
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 7.109721603541625,
+        "mu_raw": 0.7510683167319182,
+        "mu_clamped": 0.7510683167319182,
+        "arc_mm": 91.16356328207306,
+        "normalized_longitudinal": 0.9433403627185926
+      },
+      "distance_to_IP_head_mm": 17.985508338065554,
+      "distance_to_terminal_v284_mm": 8.973830809370218,
+      "distance_to_thumb_nail_mm": 8.84967797014487,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.3726736307144165,
+        "THUMB_CMC_R": 3.5277071219752543e-06,
+        "THUMB_MCP_R": 0.015957321971654892,
+        "INDEX_MCP_R": 0.6113654971122742
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        1381
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 339,
+      "position_RSSF_mm": [
+        1450.66357421875,
+        2.3831799030303955,
+        483.23016357421875
+      ],
+      "position_native_mm": [
+        1494.8604106903076,
+        -20.24093270301819,
+        461.8949890136719
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 7.50558186661576,
+        "mu_raw": 0.8227043748073086,
+        "mu_clamped": 0.8227043748073086,
+        "arc_mm": 92.73928009510789,
+        "normalized_longitudinal": 0.9596455313236285
+      },
+      "distance_to_IP_head_mm": 19.59108469888544,
+      "distance_to_terminal_v284_mm": 8.458271184555164,
+      "distance_to_thumb_nail_mm": 11.98234997128636,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.16499991714954376,
+        "THUMB_CMC_R": 2.4637379283376504e-06,
+        "THUMB_MCP_R": 0.012635184451937675,
+        "INDEX_MCP_R": 0.8223624229431152
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        1449
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 340,
+      "position_RSSF_mm": [
+        1445.171142578125,
+        6.274225234985352,
+        481.30487060546875
+      ],
+      "position_native_mm": [
+        1489.6249771118164,
+        -16.549989581108093,
+        464.8802578449249
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.9842399421452654,
+        "mu_raw": 0.7648426972457169,
+        "mu_clamped": 0.7648426972457169,
+        "arc_mm": 91.46654649398974,
+        "normalized_longitudinal": 0.9464755658933827
+      },
+      "distance_to_IP_head_mm": 18.215726909659697,
+      "distance_to_terminal_v284_mm": 8.691082403374768,
+      "distance_to_thumb_nail_mm": 10.971525128721225,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.3120052218437195,
+        "THUMB_CMC_R": 3.3337119020870887e-06,
+        "THUMB_MCP_R": 0.015712186694145203,
+        "INDEX_MCP_R": 0.6722792387008667
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        1451
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 341,
+      "position_RSSF_mm": [
+        1446.087890625,
+        13.328329086303711,
+        481.4019775390625
+      ],
+      "position_native_mm": [
+        1491.044044494629,
+        -9.749294258654118,
+        466.3691520690918
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.412003956102027,
+        "mu_raw": 0.8337299630326708,
+        "mu_clamped": 0.8337299630326708,
+        "arc_mm": 92.98180048507712,
+        "normalized_longitudinal": 0.9621550786076937
+      },
+      "distance_to_IP_head_mm": 19.42747809515864,
+      "distance_to_terminal_v284_mm": 7.38170926323075,
+      "distance_to_thumb_nail_mm": 6.159319167093645,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.3009794354438782,
+        "THUMB_CMC_R": 1.685221036495932e-06,
+        "THUMB_MCP_R": 0.009306804277002811,
+        "INDEX_MCP_R": 0.6897121071815491
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        1453
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 505,
+      "position_RSSF_mm": [
+        1447.837890625,
+        8.400181770324707,
+        484.595703125
+      ],
+      "position_native_mm": [
+        1494.0345287322998,
+        -15.190881676971912,
+        466.1690592765808
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 4.049187406491098,
+        "mu_raw": 0.933969180309903,
+        "mu_clamped": 0.933969180309903,
+        "arc_mm": 95.18667641254592,
+        "normalized_longitudinal": 0.9849706463881265
+      },
+      "distance_to_IP_head_mm": 20.938964816270804,
+      "distance_to_terminal_v284_mm": 4.301796346548011,
+      "distance_to_thumb_nail_mm": 8.501468159947104,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.1388375461101532,
+        "THUMB_CMC_R": 6.284047913140967e-07,
+        "THUMB_MCP_R": 0.00455966591835022,
+        "INDEX_MCP_R": 0.8566021919250488
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 879,
+      "position_RSSF_mm": [
+        1453.255126953125,
+        13.863190650939941,
+        480.978515625
+      ],
+      "position_native_mm": [
+        1496.6459274291992,
+        -8.402836509048939,
+        461.75408363342285
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 4.625703163553282,
+        "mu_raw": 0.8288814608393769,
+        "mu_clamped": 0.8288814608393769,
+        "arc_mm": 92.87515214862105,
+        "normalized_longitudinal": 0.9610515052416054
+      },
+      "distance_to_IP_head_mm": 18.809837855128727,
+      "distance_to_terminal_v284_mm": 5.963592061390863,
+      "distance_to_thumb_nail_mm": 0.0,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [
+        2496
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 880,
+      "position_RSSF_mm": [
+        1455.26025390625,
+        10.621365547180176,
+        478.74456787109375
+      ],
+      "position_native_mm": [
+        1496.6051578521729,
+        -10.666088201105595,
+        457.97985792160034
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 4.234988192788205,
+        "mu_raw": 0.7028129842417791,
+        "mu_clamped": 0.7028129842417791,
+        "arc_mm": 90.10213219881501,
+        "normalized_longitudinal": 0.9323569089456933
+      },
+      "distance_to_IP_head_mm": 16.028760521066868,
+      "distance_to_terminal_v284_mm": 7.788906725079355,
+      "distance_to_thumb_nail_mm": 3.1277795606787286,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 0.9906627535820007,
+        "THUMB_MCP_R": 0.00933726318180561
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [
+        39,
+        2496
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 890,
+      "position_RSSF_mm": [
+        1456.012451171875,
+        7.821405410766602,
+        482.3844909667969
+      ],
+      "position_native_mm": [
+        1499.1629123687744,
+        -14.274376444518566,
+        459.4396948814392
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 5.033916533482499,
+        "mu_raw": 0.8407693732363716,
+        "mu_clamped": 0.8407693732363716,
+        "arc_mm": 93.13664034240352,
+        "normalized_longitudinal": 0.9637573271587034
+      },
+      "distance_to_IP_head_mm": 19.166548168073238,
+      "distance_to_terminal_v284_mm": 6.132498398763367,
+      "distance_to_thumb_nail_mm": 6.78842930267544,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1338,
+      "position_RSSF_mm": [
+        1449.731689453125,
+        13.579707145690918,
+        484.05706787109375
+      ],
+      "position_native_mm": [
+        1495.68772315979,
+        -9.902765043079853,
+        466.064989566803
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 3.759598113920059,
+        "mu_raw": 0.9589476804771796,
+        "mu_clamped": 0.9589476804771796,
+        "arc_mm": 95.73610701684507,
+        "normalized_longitudinal": 0.990656032598235
+      },
+      "distance_to_IP_head_mm": 21.425579925357646,
+      "distance_to_terminal_v284_mm": 3.8665195728932744,
+      "distance_to_thumb_nail_mm": 4.687478922201507,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.15558065474033356,
+        "THUMB_CMC_R": 5.701462555407488e-07,
+        "THUMB_MCP_R": 0.0041733006946742535,
+        "INDEX_MCP_R": 0.8402454853057861
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1340,
+      "position_RSSF_mm": [
+        1451.0107421875,
+        15.488090515136719,
+        479.978515625
+      ],
+      "position_native_mm": [
+        1494.3604469299316,
+        -6.797487847507,
+        462.8745913505554
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.026990872426365,
+        "mu_raw": 0.7960505608689561,
+        "mu_clamped": 0.7960505608689561,
+        "arc_mm": 92.15299905337379,
+        "normalized_longitudinal": 0.9535788249482621
+      },
+      "distance_to_IP_head_mm": 18.51826462938344,
+      "distance_to_terminal_v284_mm": 7.513302683287421,
+      "distance_to_thumb_nail_mm": 1.0585357798993948,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.3226601183414459,
+        "THUMB_CMC_R": 3.691579649967025e-06,
+        "THUMB_MCP_R": 0.016373327001929283,
+        "INDEX_MCP_R": 0.6609628796577454
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        2740
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1341,
+      "position_RSSF_mm": [
+        1453.1396484375,
+        11.243490219116211,
+        485.0743713378906
+      ],
+      "position_native_mm": [
+        1498.8300800323486,
+        -12.064606882631779,
+        464.0791714191437
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 1.8692410558082087,
+        "mu_raw": 0.987653134826183,
+        "mu_clamped": 0.987653134826183,
+        "arc_mm": 96.36751622972955,
+        "normalized_longitudinal": 0.9971897152940652
+      },
+      "distance_to_IP_head_mm": 21.804826368682566,
+      "distance_to_terminal_v284_mm": 1.8888672952295777,
+      "distance_to_thumb_nail_mm": 4.8633527181243155,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1343,
+      "position_RSSF_mm": [
+        1453.666259765625,
+        7.149864196777344,
+        485.34197998046875
+      ],
+      "position_native_mm": [
+        1499.0355968475342,
+        -15.987604856491089,
+        462.83698081970215
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 3.901438362269118,
+        "mu_raw": 0.9634684565669897,
+        "mu_clamped": 0.9634684565669897,
+        "arc_mm": 95.83554664381593,
+        "normalized_longitudinal": 0.9916850118350936
+      },
+      "distance_to_IP_head_mm": 21.54871217156489,
+      "distance_to_terminal_v284_mm": 3.98333009797851,
+      "distance_to_thumb_nail_mm": 8.017331442014845,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1344,
+      "position_RSSF_mm": [
+        1455.70654296875,
+        5.103172779083252,
+        482.1052551269531
+      ],
+      "position_native_mm": [
+        1498.4891414642334,
+        -16.81824028491974,
+        458.702027797699
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.317502630232796,
+        "mu_raw": 0.8035129047267079,
+        "mu_clamped": 0.8035129047267079,
+        "arc_mm": 92.31714181886392,
+        "normalized_longitudinal": 0.9552773379326216
+      },
+      "distance_to_IP_head_mm": 18.76932553569187,
+      "distance_to_terminal_v284_mm": 7.654420857287386,
+      "distance_to_thumb_nail_mm": 9.16607306877776,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [
+        2743
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1378,
+      "position_RSSF_mm": [
+        1448.5662841796875,
+        2.5413687229156494,
+        482.42413330078125
+      ],
+      "position_native_mm": [
+        1492.689847946167,
+        -20.07640153169632,
+        462.6345634460449
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 7.679961410085833,
+        "mu_raw": 0.7855244159298543,
+        "mu_clamped": 0.7855244159298543,
+        "arc_mm": 91.92146448820371,
+        "normalized_longitudinal": 0.9511829565461722
+      },
+      "distance_to_IP_head_mm": 18.908425697564095,
+      "distance_to_terminal_v284_mm": 9.01320633485082,
+      "distance_to_thumb_nail_mm": 12.339315572123112,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.22002233564853668,
+        "THUMB_CMC_R": 3.2994018965837313e-06,
+        "THUMB_MCP_R": 0.015757832676172256,
+        "INDEX_MCP_R": 0.7642165422439575
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        2789
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1380,
+      "position_RSSF_mm": [
+        1444.4932861328125,
+        8.52283763885498,
+        480.9298400878906
+      ],
+      "position_native_mm": [
+        1489.0406131744385,
+        -14.364161528646946,
+        465.65496921539307
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.919881790117048,
+        "mu_raw": 0.7674696345171567,
+        "mu_clamped": 0.7674696345171567,
+        "arc_mm": 91.52432897583762,
+        "normalized_longitudinal": 0.9470734862183758
+      },
+      "distance_to_IP_head_mm": 18.244599731726144,
+      "distance_to_terminal_v284_mm": 8.604977784035196,
+      "distance_to_thumb_nail_mm": 9.744111424376326,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.33829930424690247,
+        "THUMB_CMC_R": 3.064112661377294e-06,
+        "THUMB_MCP_R": 0.014609909616410732,
+        "INDEX_MCP_R": 0.6470877528190613
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        2787
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1382,
+      "position_RSSF_mm": [
+        1447.55029296875,
+        14.75812816619873,
+        481.51318359375
+      ],
+      "position_native_mm": [
+        1492.426872253418,
+        -8.270700462162495,
+        465.9448266029358
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.304528942724266,
+        "mu_raw": 0.8534102289418358,
+        "mu_clamped": 0.8534102289418358,
+        "arc_mm": 93.41469038314258,
+        "normalized_longitudinal": 0.9666345274001323
+      },
+      "distance_to_IP_head_mm": 19.802146039774243,
+      "distance_to_terminal_v284_mm": 7.081235773056396,
+      "distance_to_thumb_nail_mm": 4.643912177403592,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.2849592864513397,
+        "THUMB_CMC_R": 1.5277648799383314e-06,
+        "THUMB_MCP_R": 0.008630897849798203,
+        "INDEX_MCP_R": 0.7064083218574524
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        2785
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1450,
+      "position_RSSF_mm": [
+        1452.7745361328125,
+        2.8198864459991455,
+        483.6592712402344
+      ],
+      "position_native_mm": [
+        1496.8624114990234,
+        -19.72959190607071,
+        461.0334038734436
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 7.262406664638322,
+        "mu_raw": 0.848456382483641,
+        "mu_clamped": 0.848456382483641,
+        "arc_mm": 93.30572487941322,
+        "normalized_longitudinal": 0.9655069765002864
+      },
+      "distance_to_IP_head_mm": 20.02601768405962,
+      "distance_to_terminal_v284_mm": 7.9908658904747885,
+      "distance_to_thumb_nail_mm": 11.374180672384378,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [
+        2790
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1452,
+      "position_RSSF_mm": [
+        1446.1497802734375,
+        4.316072940826416,
+        481.5753173828125
+      ],
+      "position_native_mm": [
+        1490.394115447998,
+        -18.392786383628845,
+        463.9555513858795
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 7.379544185074733,
+        "mu_raw": 0.7605532187872602,
+        "mu_clamped": 0.7605532187872602,
+        "arc_mm": 91.37219452226304,
+        "normalized_longitudinal": 0.9454992325862205
+      },
+      "distance_to_IP_head_mm": 18.284556232823718,
+      "distance_to_terminal_v284_mm": 9.066309150816654,
+      "distance_to_thumb_nail_mm": 11.903467530269456,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.28799372911453247,
+        "THUMB_CMC_R": 3.7348449950513896e-06,
+        "THUMB_MCP_R": 0.017190968617796898,
+        "INDEX_MCP_R": 0.6948115825653076
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        2788
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1454,
+      "position_RSSF_mm": [
+        1444.99755859375,
+        11.78584098815918,
+        481.0575256347656
+      ],
+      "position_native_mm": [
+        1489.8037910461426,
+        -11.23074721544981,
+        466.3681387901306
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.7263474943816375,
+        "mu_raw": 0.8031247952499825,
+        "mu_clamped": 0.8031247952499825,
+        "arc_mm": 92.30860490820461,
+        "normalized_longitudinal": 0.955188999871801
+      },
+      "distance_to_IP_head_mm": 18.902878067501096,
+      "distance_to_terminal_v284_mm": 7.999808435620498,
+      "distance_to_thumb_nail_mm": 7.57987334199092,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.32730185985565186,
+        "THUMB_CMC_R": 2.1535738596867304e-06,
+        "THUMB_MCP_R": 0.011169313453137875,
+        "INDEX_MCP_R": 0.6615266799926758
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [
+        2786
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1752,
+      "position_RSSF_mm": [
+        1449.893798828125,
+        9.661704063415527,
+        485.48077392578125
+      ],
+      "position_native_mm": [
+        1496.3493347167969,
+        -14.026996679604053,
+        465.8960998058319
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 1.7643781355468113,
+        "mu_raw": 0.9873735694276511,
+        "mu_clamped": 0.9873735694276511,
+        "arc_mm": 96.36136686988696,
+        "normalized_longitudinal": 0.9971260830803217
+      },
+      "distance_to_IP_head_mm": 21.789958114294482,
+      "distance_to_terminal_v284_mm": 1.786103491401692,
+      "distance_to_thumb_nail_mm": 7.015792622078936,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1753,
+      "position_RSSF_mm": [
+        1449.30078125,
+        5.289705276489258,
+        484.6268310546875
+      ],
+      "position_native_mm": [
+        1494.9238300323486,
+        -18.010295927524567,
+        464.47503566741943
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 5.340525946224168,
+        "mu_raw": 0.909286952524692,
+        "mu_clamped": 0.909286952524692,
+        "arc_mm": 94.64376265724992,
+        "normalized_longitudinal": 0.9793526950882068
+      },
+      "distance_to_IP_head_mm": 20.701530571805385,
+      "distance_to_terminal_v284_mm": 5.701104011570509,
+      "distance_to_thumb_nail_mm": 10.121843057479147,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.12454397231340408,
+        "THUMB_CMC_R": 8.760603691371216e-07,
+        "THUMB_MCP_R": 0.005847811698913574,
+        "INDEX_MCP_R": 0.8696073293685913
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1754,
+      "position_RSSF_mm": [
+        1446.664794921875,
+        11.286964416503906,
+        483.4073181152344
+      ],
+      "position_native_mm": [
+        1492.6080703735352,
+        -12.218176387250423,
+        466.84226393699646
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 4.914945778743938,
+        "mu_raw": 0.9054612522545867,
+        "mu_clamped": 0.9054612522545867,
+        "arc_mm": 94.55961201581049,
+        "normalized_longitudinal": 0.978481922887554
+      },
+      "distance_to_IP_head_mm": 20.51413568839466,
+      "distance_to_terminal_v284_mm": 5.336755632066102,
+      "distance_to_thumb_nail_mm": 7.32955785277624,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.20041628181934357,
+        "THUMB_CMC_R": 8.169284342329775e-07,
+        "THUMB_MCP_R": 0.005532086361199617,
+        "INDEX_MCP_R": 0.7940508127212524
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 1755,
+      "position_RSSF_mm": [
+        1446.3475341796875,
+        7.31699800491333,
+        483.1628112792969
+      ],
+      "position_native_mm": [
+        1491.837739944458,
+        -15.967253595590591,
+        465.7650887966156
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 5.6894003807148845,
+        "mu_raw": 0.8584900378740076,
+        "mu_clamped": 0.8584900378740076,
+        "arc_mm": 93.52642657517319,
+        "normalized_longitudinal": 0.9677907487688914
+      },
+      "distance_to_IP_head_mm": 19.7219326599953,
+      "distance_to_terminal_v284_mm": 6.485214733128439,
+      "distance_to_thumb_nail_mm": 9.764149916296814,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.20955465734004974,
+        "THUMB_CMC_R": 1.3197601447245688e-06,
+        "THUMB_MCP_R": 0.008001264184713364,
+        "INDEX_MCP_R": 0.7824427485466003
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 2499,
+      "position_RSSF_mm": [
+        1456.182373046875,
+        7.337094306945801,
+        479.18994140625
+      ],
+      "position_native_mm": [
+        1497.3108768463135,
+        -13.826967217028141,
+        456.85669779777527
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 5.21839354662417,
+        "mu_raw": 0.6943277663100877,
+        "mu_clamped": 0.6943277663100877,
+        "arc_mm": 89.91549015127019,
+        "normalized_longitudinal": 0.9304255783735798
+      },
+      "distance_to_IP_head_mm": 16.139449860424698,
+      "distance_to_terminal_v284_mm": 8.511084267369501,
+      "distance_to_thumb_nail_mm": 6.4183296761507505,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [
+        886,
+        889
+      ],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 2741,
+      "position_RSSF_mm": [
+        1451.6636962890625,
+        13.706857681274414,
+        484.103515625
+      ],
+      "position_native_mm": [
+        1497.260570526123,
+        -9.59081295877695,
+        464.98221158981323
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 3.4614012294117753,
+        "mu_raw": 0.9646418454207584,
+        "mu_clamped": 0.9646418454207584,
+        "arc_mm": 95.86135667014604,
+        "normalized_longitudinal": 0.9919520882713742
+      },
+      "distance_to_IP_head_mm": 21.49887676325783,
+      "distance_to_terminal_v284_mm": 3.547701024143009,
+      "distance_to_thumb_nail_mm": 3.5103727089759076,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 2742,
+      "position_RSSF_mm": [
+        1454.7247314453125,
+        7.842175483703613,
+        484.8480224609375
+      ],
+      "position_native_mm": [
+        1499.6373653411865,
+        -15.07748942822218,
+        462.03404664993286
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 4.084565712779549,
+        "mu_raw": 0.9490447705773983,
+        "mu_clamped": 0.9490447705773983,
+        "arc_mm": 95.51828121729267,
+        "normalized_longitudinal": 0.9884020194666571
+      },
+      "distance_to_IP_head_mm": 21.271172008065367,
+      "distance_to_terminal_v284_mm": 4.235553203419364,
+      "distance_to_thumb_nail_mm": 7.306534346796341,
+      "R1B_historical_vector": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1B_foreign_driver": false,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 2963,
+      "position_RSSF_mm": [
+        1451.3890380859375,
+        6.206954002380371,
+        485.4072265625
+      ],
+      "position_native_mm": [
+        1497.166395187378,
+        -17.14111492037773,
+        464.0129804611206
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 4.154700243348298,
+        "mu_raw": 0.954976505787004,
+        "mu_clamped": 0.954976505787004,
+        "arc_mm": 95.64875649959268,
+        "normalized_longitudinal": 0.9897521487913509
+      },
+      "distance_to_IP_head_mm": 21.412731413553658,
+      "distance_to_terminal_v284_mm": 4.271102152264824,
+      "distance_to_thumb_nail_mm": 9.039564582817025,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.08911839127540588,
+        "THUMB_CMC_R": 5.899979100831843e-07,
+        "THUMB_MCP_R": 0.004272432532161474,
+        "INDEX_MCP_R": 0.9066085815429688
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 2964,
+      "position_RSSF_mm": [
+        1448.349609375,
+        12.784460067749023,
+        483.9754943847656
+      ],
+      "position_native_mm": [
+        1494.4539070129395,
+        -10.77952515333891,
+        466.6328728199005
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 4.031610053162367,
+        "mu_raw": 0.9463923316109741,
+        "mu_clamped": 0.9463923316109741,
+        "arc_mm": 95.45993779657367,
+        "normalized_longitudinal": 0.9877982946704574
+      },
+      "distance_to_IP_head_mm": 21.203784796254382,
+      "distance_to_terminal_v284_mm": 4.2005121367454805,
+      "distance_to_thumb_nail_mm": 5.8489010990861425,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.16617746651172638,
+        "THUMB_CMC_R": 5.896177412978432e-07,
+        "THUMB_MCP_R": 0.004299812018871307,
+        "INDEX_MCP_R": 0.8295221328735352
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 2965,
+      "position_RSSF_mm": [
+        1447.5,
+        4.914302349090576,
+        483.3174743652344
+      ],
+      "position_native_mm": [
+        1492.6245212554932,
+        -18.180351704359055,
+        464.5392894744873
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 6.340119466448082,
+        "mu_raw": 0.8452717144446806,
+        "mu_clamped": 0.8452717144446806,
+        "arc_mm": 93.23567447312699,
+        "normalized_longitudinal": 0.9647821104101998
+      },
+      "distance_to_IP_head_mm": 19.64398602500105,
+      "distance_to_terminal_v284_mm": 7.195861139159157,
+      "distance_to_thumb_nail_mm": 10.89379713754947,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.19048085808753967,
+        "THUMB_CMC_R": 1.6212139826166094e-06,
+        "THUMB_MCP_R": 0.009346296079456806,
+        "INDEX_MCP_R": 0.8001712560653687
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    },
+    {
+      "vertex_id": 2966,
+      "position_RSSF_mm": [
+        1445.4171142578125,
+        9.71834945678711,
+        482.4206848144531
+      ],
+      "position_native_mm": [
+        1490.8373355865479,
+        -13.558165170252323,
+        466.4744734764099
+      ],
+      "corrected_thumb_projection": {
+        "nearest_segment": 2,
+        "distance_mm": 5.973194077987913,
+        "mu_raw": 0.8458117520797105,
+        "mu_clamped": 0.8458117520797105,
+        "arc_mm": 93.24755321693354,
+        "normalized_longitudinal": 0.9649050290203076
+      },
+      "distance_to_IP_head_mm": 19.539958467438147,
+      "distance_to_terminal_v284_mm": 6.8688888804870505,
+      "distance_to_thumb_nail_mm": 8.661207696222547,
+      "R1B_historical_vector": {
+        "WRIST_R": 0.2560472786426544,
+        "THUMB_CMC_R": 1.4275091189119848e-06,
+        "THUMB_MCP_R": 0.008406558074057102,
+        "INDEX_MCP_R": 0.735544741153717
+      },
+      "R1B_foreign_driver": true,
+      "proximal_1ring_ids": [],
+      "skin_classification": "REBUILD_REQUIRED"
+    }
+  ],
+  "continuity_gate": {
+    "status": "RESOLVED",
+    "candidate_validation": "DEFORMATION_VALIDATION_REQUIRED",
+    "formula_continuity": "C2 quintic continuous field, no cap-edge step; nearest-chain arc tie seams must be checked before acceptance",
+    "maximum_profile_derivative_per_mm": 0.0482227660321408,
+    "profile_delta_bound_rule": "abs(q_u-q_v)<=min(1, 1.875/(2h)*abs(s_u-s_v)); recorded geometric upper bound, not generated weights",
+    "max_cap_2ring_arc_jump_mm": 4.445562819928185,
+    "upper_bound_at_largest_jump": 0.2143773357465809,
+    "cap_1ring_vertex_ids": [
+      36,
+      37,
+      39,
+      44,
+      283,
+      284,
+      285,
+      297,
+      298,
+      339,
+      340,
+      341,
+      505,
+      879,
+      880,
+      881,
+      886,
+      889,
+      890,
+      1338,
+      1339,
+      1340,
+      1341,
+      1342,
+      1343,
+      1344,
+      1378,
+      1379,
+      1380,
+      1381,
+      1382,
+      1449,
+      1450,
+      1451,
+      1452,
+      1453,
+      1454,
+      1752,
+      1753,
+      1754,
+      1755,
+      2496,
+      2499,
+      2740,
+      2741,
+      2742,
+      2743,
+      2785,
+      2786,
+      2787,
+      2788,
+      2789,
+      2790,
+      2963,
+      2964,
+      2965,
+      2966
+    ],
+    "cap_2ring_vertex_ids": [
+      36,
+      37,
+      38,
+      39,
+      43,
+      44,
+      282,
+      283,
+      284,
+      285,
+      286,
+      297,
+      298,
+      299,
+      300,
+      301,
+      339,
+      340,
+      341,
+      342,
+      343,
+      505,
+      879,
+      880,
+      881,
+      882,
+      885,
+      886,
+      889,
+      890,
+      1337,
+      1338,
+      1339,
+      1340,
+      1341,
+      1342,
+      1343,
+      1344,
+      1345,
+      1378,
+      1379,
+      1380,
+      1381,
+      1382,
+      1383,
+      1385,
+      1387,
+      1389,
+      1449,
+      1450,
+      1451,
+      1452,
+      1453,
+      1454,
+      1456,
+      1458,
+      1752,
+      1753,
+      1754,
+      1755,
+      2496,
+      2498,
+      2499,
+      2740,
+      2741,
+      2742,
+      2743,
+      2785,
+      2786,
+      2787,
+      2788,
+      2789,
+      2790,
+      2963,
+      2964,
+      2965,
+      2966
+    ],
+    "historical_top_edge_jumps": [
+      {
+        "edge_id": 1014,
+        "vertex_ids": [
+          284,
+          1338
+        ],
+        "L_inf": 1.0,
+        "L1": 2.0000000108870495,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.0041733006946742535
+      },
+      {
+        "edge_id": 1019,
+        "vertex_ids": [
+          1340,
+          37
+        ],
+        "L_inf": 1.0,
+        "L1": 2.0000000165807705,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.016373327001929283
+      },
+      {
+        "edge_id": 1239,
+        "vertex_ids": [
+          1450,
+          339
+        ],
+        "L_inf": 1.0,
+        "L1": 1.999999988282525,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.012635184451937675
+      },
+      {
+        "edge_id": 1843,
+        "vertex_ids": [
+          1752,
+          505
+        ],
+        "L_inf": 1.0,
+        "L1": 2.0000000323583436,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.00455966591835022
+      },
+      {
+        "edge_id": 4340,
+        "vertex_ids": [
+          1340,
+          2740
+        ],
+        "L_inf": 1.0,
+        "L1": 2.0000000165807705,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.016373327001929283
+      },
+      {
+        "edge_id": 4343,
+        "vertex_ids": [
+          1340,
+          2741
+        ],
+        "L_inf": 1.0,
+        "L1": 2.0000000165807705,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.016373327001929283
+      },
+      {
+        "edge_id": 4344,
+        "vertex_ids": [
+          1338,
+          2741
+        ],
+        "L_inf": 1.0,
+        "L1": 2.0000000108870495,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.0041733006946742535
+      },
+      {
+        "edge_id": 5230,
+        "vertex_ids": [
+          1752,
+          2963
+        ],
+        "L_inf": 1.0,
+        "L1": 1.9999999953484462,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.004272432532161474
+      },
+      {
+        "edge_id": 5232,
+        "vertex_ids": [
+          1450,
+          2963
+        ],
+        "L_inf": 1.0,
+        "L1": 1.9999999953484462,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.004272432532161474
+      },
+      {
+        "edge_id": 5233,
+        "vertex_ids": [
+          1343,
+          2963
+        ],
+        "L_inf": 1.0,
+        "L1": 1.9999999953484462,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.004272432532161474
+      },
+      {
+        "edge_id": 5237,
+        "vertex_ids": [
+          1752,
+          2964
+        ],
+        "L_inf": 1.0,
+        "L1": 2.000000001021874,
+        "IP_jump": 1.0,
+        "MCP_jump": 0.004299812018871307
+      },
+      {
+        "edge_id": 1236,
+        "vertex_ids": [
+          339,
+          1449
+        ],
+        "L_inf": 0.9885896444320679,
+        "L1": 1.977179250138306,
+        "IP_jump": 0.9885896444320679,
+        "MCP_jump": 0.0012248018756508827
+      },
+      {
+        "edge_id": 4534,
+        "vertex_ids": [
+          1378,
+          2789
+        ],
+        "L_inf": 0.986219048500061,
+        "L1": 1.9724381200092012,
+        "IP_jump": 0.986219048500061,
+        "MCP_jump": 0.0019768942147493362
+      },
+      {
+        "edge_id": 1097,
+        "vertex_ids": [
+          1379,
+          297
+        ],
+        "L_inf": 0.983087420463562,
+        "L1": 2.0000000208438484,
+        "IP_jump": 0.983087420463562,
+        "MCP_jump": 0.01691257208585739
+      },
+      {
+        "edge_id": 4533,
+        "vertex_ids": [
+          1452,
+          2788
+        ],
+        "L_inf": 0.9804847240447998,
+        "L1": 1.9656180574179416,
+        "IP_jump": 0.9804847240447998,
+        "MCP_jump": 0.002324286848306656
+      },
+      {
+        "edge_id": 1240,
+        "vertex_ids": [
+          340,
+          1451
+        ],
+        "L_inf": 0.979455292224884,
+        "L1": 1.9685755963864722,
+        "IP_jump": 0.979455292224884,
+        "MCP_jump": 0.004832509905099869
+      },
+      {
+        "edge_id": 1017,
+        "vertex_ids": [
+          1339,
+          283
+        ],
+        "L_inf": 0.1524409055709839,
+        "L1": 0.30488181640816947,
+        "IP_jump": 0,
+        "MCP_jump": 0.030787221156060696
+      },
+      {
+        "edge_id": 1015,
+        "vertex_ids": [
+          1338,
+          283
+        ],
+        "L_inf": 0.1458544135093689,
+        "L1": 0.29170883084344723,
+        "IP_jump": 0,
+        "MCP_jump": 0.006352582480758429
+      },
+      {
+        "edge_id": 4518,
+        "vertex_ids": [
+          1382,
+          2785
+        ],
+        "L_inf": 0.13870930671691895,
+        "L1": 0.27741868034811,
+        "IP_jump": 0,
+        "MCP_jump": 0.008630897849798203
+      },
+      {
+        "edge_id": 4526,
+        "vertex_ids": [
+          1380,
+          2787
+        ],
+        "L_inf": 0.13834425806999207,
+        "L1": 0.2766886682596521,
+        "IP_jump": 0,
+        "MCP_jump": 0.014609909616410732
+      }
+    ],
+    "acceptance": "Apply continuity contract to all cap-crossing and proximal 1/2-ring edges; widen shared thumb transition or optimize in candidate phase if profile-to-retained-field seam fails. Do not accept solely from analytic smoothness."
+  },
+  "37_point_one_hot_due_to_cap_name": false,
+  "historical_old_cap9_rule_inherited": false,
+  "skin_vectors_approved": false,
+  "weights_generated": 0
+}

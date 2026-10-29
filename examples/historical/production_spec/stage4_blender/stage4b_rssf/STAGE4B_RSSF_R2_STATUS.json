@@ -1,0 +1,345 @@
+{
+ "stage": "STAGE4B_RSSF_POSE_SEMANTIC_CORRECTION_R2",
+ "generated_at": "2026-09-28T22:39:08.717999+08:00",
+ "runtime": {
+  "blender": "D:/Blender/blender.exe (5.1.2)"
+ },
+ "frozen_input": {
+  "path": "production_spec/stage4_blender/RIGHT_HAND_ENGINEERING_STAGE4A_R2.blend",
+  "sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039",
+  "expected": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039",
+  "unchanged_by_run": true
+ },
+ "artifact": {
+  "blend": "stage4b_rssf\\RIGHT_HAND_ENGINEERING_STAGE4B_RSSF_R2.blend",
+  "bytes": 1988085,
+  "sha256": "78fc890bfa9575cd62f2ae5f55beb2eda2df7ebf565c4e346a8b5af7295bbe04"
+ },
+ "r1_provenance_untouched": {
+  "blend": "stage4b_rssf\\RIGHT_HAND_ENGINEERING_STAGE4B_RSSF_R1.blend",
+  "sha256": "d590660c305363981ba776b41a32e642a201093edb90fbe6a1a6a1572086c35d"
+ },
+ "VALIDATION_SEMANTICS": "FINAL_ABSOLUTE_ANGLE",
+ "FINAL_ABSOLUTE_POSE_VALUES": {
+  "LITTLE_MCP": {
+   "deg": 24.94,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "LITTLE_PIP": {
+   "deg": 30.03,
+   "range": [
+    25.0,
+    35.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "LITTLE_DIP": {
+   "deg": 13.53,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "RING_MCP": {
+   "deg": 26.71,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "RING_PIP": {
+   "deg": 33.06,
+   "range": [
+    25.0,
+    35.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "RING_DIP": {
+   "deg": 19.7,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "MIDDLE_MCP": {
+   "deg": 27.95,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "MIDDLE_PIP": {
+   "deg": 33.14,
+   "range": [
+    25.0,
+    35.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "MIDDLE_DIP": {
+   "deg": 17.84,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "INDEX_MCP": {
+   "deg": 24.09,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "INDEX_PIP": {
+   "deg": 30.77,
+   "range": [
+    25.0,
+    35.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "INDEX_DIP": {
+   "deg": 10.95,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "ADJACENT_SPREAD_INDEX_MIDDLE": {
+   "deg": 12.0,
+   "range": [
+    10.0,
+    15.0
+   ],
+   "status": "IN_TECHNICAL_RANGE",
+   "rest_deg": 6.96,
+   "change_deg": 5.04
+  },
+  "ADJACENT_SPREAD_MIDDLE_RING": {
+   "deg": 13.0,
+   "range": [
+    10.0,
+    15.0
+   ],
+   "status": "IN_TECHNICAL_RANGE",
+   "rest_deg": 11.62,
+   "change_deg": 1.38
+  },
+  "ADJACENT_SPREAD_RING_LITTLE": {
+   "deg": 12.0,
+   "range": [
+    10.0,
+    15.0
+   ],
+   "status": "IN_TECHNICAL_RANGE",
+   "rest_deg": 12.46,
+   "change_deg": -0.46
+  },
+  "THUMB_CMC": {
+   "deg": 27.7,
+   "range": [
+    20.0,
+    30.0
+   ],
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "THUMB_MCP": {
+   "deg": 22.0,
+   "range": [
+    15.0,
+    25.0
+   ],
+   "rest_deg": 35.34,
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "THUMB_IP": {
+   "deg": 17.84,
+   "range": [
+    10.0,
+    20.0
+   ],
+   "rest_deg": 17.08,
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "FIRST_WEB": {
+   "deg": 40.0,
+   "range": [
+    35.0,
+    45.0
+   ],
+   "rest_deg": 19.33,
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "WRIST_flex_ext": {
+   "deg": 0.0,
+   "range": "neutral (0)",
+   "status": "IN_TECHNICAL_RANGE"
+  },
+  "WRIST_radial_ulnar": {
+   "deg": 0.0,
+   "range": "neutral (0)",
+   "status": "IN_TECHNICAL_RANGE"
+  }
+ },
+ "APPLIED_ROTATION_VALUES": {
+  "method": "total rotation magnitude of each bone's LOCAL rotation matrix, acos((trace-1)/2) -- DIAGNOSTIC ONLY, never the validation authority",
+  "finger_bones_deg": {
+   "little": {
+    "MCP": 25.0,
+    "PIP": 28.0,
+    "DIP": 13.0
+   },
+   "ring": {
+    "MCP": 27.02,
+    "PIP": 22.0,
+    "DIP": 14.0
+   },
+   "middle": {
+    "MCP": 28.0,
+    "PIP": 23.0,
+    "DIP": 16.0
+   },
+   "index": {
+    "MCP": 24.46,
+    "PIP": 27.0,
+    "DIP": 16.0
+   }
+  },
+  "thumb_bones_deg": {
+   "CMC": 28.93,
+   "MCP": 13.18,
+   "IP": 0.0
+  },
+  "finger_spread_applied_deg": {
+   "little": 0.444,
+   "ring": 0.974,
+   "middle": 0.0,
+   "index": 4.758
+  },
+  "thumb_applied_deg": {
+   "CMC_FLEX": 24.0,
+   "MCP": -13.182,
+   "IP": 0.0,
+   "CMC_ABDUCT": 9.435
+  }
+ },
+ "AUTO_RSSF_INITIAL_VALUES": {
+  "flexion_applied_deg": {
+   "index": {
+    "MCP": 24.0,
+    "PIP": 27.0,
+    "DIP": 16.0
+   },
+   "middle": {
+    "MCP": 28.0,
+    "PIP": 23.0,
+    "DIP": 16.0
+   },
+   "ring": {
+    "MCP": 27.0,
+    "PIP": 22.0,
+    "DIP": 14.0
+   },
+   "little": {
+    "MCP": 25.0,
+    "PIP": 28.0,
+    "DIP": 13.0
+   }
+  },
+  "spread_applied_deg": {
+   "index": 4.758,
+   "middle": 0.0,
+   "ring": 0.974,
+   "little": 0.444
+  },
+  "thumb_applied_deg": {
+   "CMC_FLEX": 24.0,
+   "MCP": -13.182,
+   "IP": 0.0,
+   "CMC_ABDUCT": 9.435,
+   "WEB_TARGET": 40.0
+  },
+  "spread_absolute_targets_deg": {
+   "index_middle": 12.0,
+   "middle_ring": 13.0,
+   "ring_little": 12.0
+  },
+  "thumb_mcp_absolute_target_deg": 22.0,
+  "note": "produced entirely by the automatic solver; the four-finger flexion values are carried over unchanged from R1 (already verified in range)."
+ },
+ "HUMAN_REVIEW_TUNING_VALUES": {},
+ "TUNING_DIFF": {
+  "count": 0,
+  "items": [],
+  "rule": "records ONLY what changed AFTER the automatic solve AUTO_R2_VALUE -> FINAL_R2_VALUE, so the machine record and the human-readable report cannot disagree"
+ },
+ "items_not_in_range": [],
+ "topology": {
+  "signature_match": true,
+  "signature": "5a39668418eea1716a0fd9bc20b3d0aeda67e6a49a343b74eb3e17c339f90c1d",
+  "V": [
+   3416,
+   3416
+  ],
+  "E": [
+   6828,
+   6828
+  ],
+  "F": [
+   3414,
+   3414
+  ]
+ },
+ "rig": {
+  "bones": 21,
+  "movable_joints": 16,
+  "tip_helper_bones": 5,
+  "TEMP_RSSF_REPOSE_ONLY": "YES",
+  "PRODUCTION_RIG": "NO"
+ },
+ "static_deformation": {
+  "inverted_faces": 0,
+  "inverted_vertex_normals": 0,
+  "self_intersection_proximity_pairs": 3,
+  "signed_volume_delta_pct": -3.642,
+  "thenar_thickness_ratio": 1.0661,
+  "min_joint_cross_section_ratio": 0.925,
+  "collapse_seen": false
+ },
+ "renders": [
+  "renders/RSSF_R2_BEFORE_AFTER_DORSAL.png",
+  "renders/RSSF_R2_BEFORE_AFTER_PALMAR.png",
+  "renders/RSSF_R2_BEFORE_AFTER_RADIAL.png",
+  "renders/RSSF_R2_BEFORE_AFTER_OBLIQUE.png",
+  "renders/RSSF_R2_CMC_CLOSEUP.png"
+ ],
+ "temp_frames_dir": "stage4b_rssf/_tmp/r2/",
+ "VERDICT": {
+  "STAGE4B_RSSF_REPOSE_R2": "PASS",
+  "CON_5_RSSF_REPOSE": "PASS",
+  "CANONICAL_HAND_POSE": "RSSF",
+  "VALIDATION_SEMANTICS": "FINAL_ABSOLUTE_ANGLE",
+  "HUMAN_TUNING_SCOPE": "NONE",
+  "TOPOLOGY_SIGNATURE": "UNCHANGED",
+  "CON_1_MCP_TOPOLOGY": "PASS_NO_TOPOLOGY_REGRESSION",
+  "CON_2_THUMB_CMC_TOPOLOGY": "PASS_FOR_RIG_PIPELINE_NO_TOPOLOGY_REGRESSION",
+  "CON_3_POLE_AUDIT": "UNCHANGED_PASS",
+  "CMC_DEFORMATION_FINAL": "PENDING_STAGE6",
+  "PRODUCTION_RIG_NOT_STARTED": "YES",
+  "RIGHT_HAND_ENGINEERING_STAGE4B_RSSF_R2": "READY_FOR_HUMAN_REVIEW",
+  "STAGE4C": "NOT_STARTED",
+  "STAGE5": "NOT_STARTED"
+ }
+}

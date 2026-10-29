@@ -1,0 +1,2085 @@
+{
+  "status": "PASS",
+  "paths": {
+    "CORRECTED": {
+      "status": "PASS",
+      "bone_count": 21,
+      "BONE_PAYLOAD_DELTA": 0,
+      "JOINT_PAYLOAD_DELTA": 0,
+      "ROLL_DELTA": 0,
+      "REST_MATRIX_DELTA": 0,
+      "source_rig_payload_sha256": "eda505bffbfc5c8cbf12b7f4b6b20dab6cb667aa8c605c78b3ccf6a58bc5bc40",
+      "derived_rig_payload_sha256": "eda505bffbfc5c8cbf12b7f4b6b20dab6cb667aa8c605c78b3ccf6a58bc5bc40",
+      "hierarchy_names_head_tail_local_rest_matrices_inherit_deform_settings_exact": true,
+      "mesh_armature_transforms_pose_default_state_exact": true,
+      "explicit_native_rolls": {
+        "status": "PASS",
+        "roll_delta": 0,
+        "source_native_rolls": {
+          "RIGHT_HAND_PRODUCTION_RIG": {
+            "WRIST_R": -2.9122955799102783,
+            "THUMB_CMC_R": 2.7575817108154297,
+            "THUMB_MCP_R": 2.348830223083496,
+            "THUMB_IP_R": 2.4771578311920166,
+            "THUMB_TIP_R": 2.4771578311920166,
+            "INDEX_MCP_R": -2.1521379947662354,
+            "INDEX_PIP_R": -2.4734556674957275,
+            "INDEX_DIP_R": -2.328428030014038,
+            "INDEX_TIP_R": -2.328446626663208,
+            "MIDDLE_MCP_R": -2.6462221145629883,
+            "MIDDLE_PIP_R": -2.5011656284332275,
+            "MIDDLE_DIP_R": -1.4984538555145264,
+            "MIDDLE_TIP_R": -1.498608946800232,
+            "RING_MCP_R": 2.9718704223632812,
+            "RING_PIP_R": -2.6612260341644287,
+            "RING_DIP_R": 0.13859428465366364,
+            "RING_TIP_R": 0.13866360485553741,
+            "LITTLE_MCP_R": 2.9447810649871826,
+            "LITTLE_PIP_R": -2.7984564304351807,
+            "LITTLE_DIP_R": -2.9336488246917725,
+            "LITTLE_TIP_R": -2.9337615966796875
+          }
+        },
+        "reopened_native_rolls": {
+          "RIGHT_HAND_PRODUCTION_RIG": {
+            "WRIST_R": -2.9122955799102783,
+            "THUMB_CMC_R": 2.7575817108154297,
+            "THUMB_MCP_R": 2.348830223083496,
+            "THUMB_IP_R": 2.4771578311920166,
+            "THUMB_TIP_R": 2.4771578311920166,
+            "INDEX_MCP_R": -2.1521379947662354,
+            "INDEX_PIP_R": -2.4734556674957275,
+            "INDEX_DIP_R": -2.328428030014038,
+            "INDEX_TIP_R": -2.328446626663208,
+            "MIDDLE_MCP_R": -2.6462221145629883,
+            "MIDDLE_PIP_R": -2.5011656284332275,
+            "MIDDLE_DIP_R": -1.4984538555145264,
+            "MIDDLE_TIP_R": -1.498608946800232,
+            "RING_MCP_R": 2.9718704223632812,
+            "RING_PIP_R": -2.6612260341644287,
+            "RING_DIP_R": 0.13859428465366364,
+            "RING_TIP_R": 0.13866360485553741,
+            "LITTLE_MCP_R": 2.9447810649871826,
+            "LITTLE_PIP_R": -2.7984564304351807,
+            "LITTLE_DIP_R": -2.9336488246917725,
+            "LITTLE_TIP_R": -2.9337615966796875
+          }
+        },
+        "method": "Read actual EditBone.roll at end of unsaved clean-reopen session, with no edit setters or roll recalculation"
+      },
+      "corrected_thumb_exact": {
+        "THUMB_IP_R": {
+          "source": {
+            "head_local_m": [
+              0.042156219482421875,
+              -0.016267918050289154,
+              0.12815365195274353
+            ],
+            "tail_local_m": [
+              0.0427778959274292,
+              -0.011920545250177383,
+              0.14970695972442627
+            ],
+            "matrix_local": [
+              [
+                -0.7724820375442505,
+                0.028262965381145477,
+                0.6344075202941895,
+                0.04215622320771217
+              ],
+              [
+                0.62645024061203,
+                0.19764229655265808,
+                0.7539879679679871,
+                -0.016267918050289154
+              ],
+              [
+                -0.10407570749521255,
+                0.9798665046691895,
+                -0.1703803539276123,
+                0.12815362215042114
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "matrix": [
+              [
+                0.9958328604698181,
+                -0.09012889117002487,
+                0.013918568380177021
+              ],
+              [
+                0.0911344513297081,
+                0.9891525506973267,
+                -0.11520247161388397
+              ],
+              [
+                -0.003384517040103674,
+                0.11599086970090866,
+                0.9932445287704468
+              ]
+            ],
+            "head_world_m": [
+              1.450860857963562,
+              0.006127120926976204,
+              0.4640011489391327
+            ],
+            "tail_world_m": [
+              1.4514825344085693,
+              0.010474493727087975,
+              0.48555445671081543
+            ],
+            "parent": "THUMB_MCP_R",
+            "children": [
+              "THUMB_TIP_R"
+            ],
+            "settings": {
+              "name": "THUMB_IP_R",
+              "display_type": "ARMATURE_DEFINED",
+              "use_inherit_rotation": true,
+              "use_envelope_multiply": false,
+              "use_deform": true,
+              "inherit_scale": "FULL",
+              "use_local_location": true,
+              "use_relative_parent": false,
+              "show_wire": false,
+              "use_cyclic_offset": true,
+              "hide_select": false,
+              "envelope_distance": 0.25,
+              "envelope_weight": 1.0,
+              "head_radius": 0.10000000149011612,
+              "tail_radius": 0.05000000074505806,
+              "bbone_segments": 1,
+              "bbone_mapping_mode": "STRAIGHT",
+              "bbone_x": 0.10000000149011612,
+              "bbone_z": 0.10000000149011612,
+              "bbone_handle_type_start": "AUTO",
+              "bbone_custom_handle_start": null,
+              "bbone_handle_use_scale_start": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_start": false,
+              "bbone_handle_type_end": "AUTO",
+              "bbone_custom_handle_end": null,
+              "bbone_handle_use_scale_end": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_end": false,
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "use_endroll_as_inroll": false,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 1.0,
+              "bbone_easeout": 1.0,
+              "use_scale_easing": false,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "hide": false
+            },
+            "color": {
+              "palette": "DEFAULT"
+            },
+            "collections": [],
+            "custom_properties": {},
+            "pose": {
+              "name": "THUMB_IP_R",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation_quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_axis_angle": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_mode": "QUATERNION",
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 0.0,
+              "bbone_easeout": 0.0,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "lock_ik_x": false,
+              "lock_ik_y": false,
+              "lock_ik_z": false,
+              "use_ik_limit_x": false,
+              "use_ik_limit_y": false,
+              "use_ik_limit_z": false,
+              "use_ik_rotation_control": false,
+              "use_ik_linear_control": false,
+              "ik_min_x": -3.1415927410125732,
+              "ik_max_x": 3.1415927410125732,
+              "ik_min_y": -3.1415927410125732,
+              "ik_max_y": 3.1415927410125732,
+              "ik_min_z": -3.1415927410125732,
+              "ik_max_z": 3.1415927410125732,
+              "ik_stiffness_x": 0.0,
+              "ik_stiffness_y": 0.0,
+              "ik_stiffness_z": 0.0,
+              "ik_stretch": 0.0,
+              "ik_rotation_weight": 0.0,
+              "ik_linear_weight": 0.0,
+              "custom_shape_scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "custom_shape_translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "custom_shape_rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "use_transform_at_custom_shape": false,
+              "use_transform_around_custom_shape": false,
+              "use_custom_shape_bone_size": true,
+              "hide": false,
+              "select": false,
+              "custom_shape_transform": null,
+              "custom_shape_wire_width": 1.0,
+              "lock_location": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation_w": false,
+              "lock_rotations_4d": true,
+              "lock_scale": [
+                false,
+                false,
+                false
+              ]
+            },
+            "pose_constraints": [],
+            "pose_custom_properties": {}
+          },
+          "derived": {
+            "head_local_m": [
+              0.042156219482421875,
+              -0.016267918050289154,
+              0.12815365195274353
+            ],
+            "tail_local_m": [
+              0.0427778959274292,
+              -0.011920545250177383,
+              0.14970695972442627
+            ],
+            "matrix_local": [
+              [
+                -0.7724820375442505,
+                0.028262965381145477,
+                0.6344075202941895,
+                0.04215622320771217
+              ],
+              [
+                0.62645024061203,
+                0.19764229655265808,
+                0.7539879679679871,
+                -0.016267918050289154
+              ],
+              [
+                -0.10407570749521255,
+                0.9798665046691895,
+                -0.1703803539276123,
+                0.12815362215042114
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "matrix": [
+              [
+                0.9958328604698181,
+                -0.09012889117002487,
+                0.013918568380177021
+              ],
+              [
+                0.0911344513297081,
+                0.9891525506973267,
+                -0.11520247161388397
+              ],
+              [
+                -0.003384517040103674,
+                0.11599086970090866,
+                0.9932445287704468
+              ]
+            ],
+            "head_world_m": [
+              1.450860857963562,
+              0.006127120926976204,
+              0.4640011489391327
+            ],
+            "tail_world_m": [
+              1.4514825344085693,
+              0.010474493727087975,
+              0.48555445671081543
+            ],
+            "parent": "THUMB_MCP_R",
+            "children": [
+              "THUMB_TIP_R"
+            ],
+            "settings": {
+              "name": "THUMB_IP_R",
+              "display_type": "ARMATURE_DEFINED",
+              "use_inherit_rotation": true,
+              "use_envelope_multiply": false,
+              "use_deform": true,
+              "inherit_scale": "FULL",
+              "use_local_location": true,
+              "use_relative_parent": false,
+              "show_wire": false,
+              "use_cyclic_offset": true,
+              "hide_select": false,
+              "envelope_distance": 0.25,
+              "envelope_weight": 1.0,
+              "head_radius": 0.10000000149011612,
+              "tail_radius": 0.05000000074505806,
+              "bbone_segments": 1,
+              "bbone_mapping_mode": "STRAIGHT",
+              "bbone_x": 0.10000000149011612,
+              "bbone_z": 0.10000000149011612,
+              "bbone_handle_type_start": "AUTO",
+              "bbone_custom_handle_start": null,
+              "bbone_handle_use_scale_start": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_start": false,
+              "bbone_handle_type_end": "AUTO",
+              "bbone_custom_handle_end": null,
+              "bbone_handle_use_scale_end": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_end": false,
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "use_endroll_as_inroll": false,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 1.0,
+              "bbone_easeout": 1.0,
+              "use_scale_easing": false,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "hide": false
+            },
+            "color": {
+              "palette": "DEFAULT"
+            },
+            "collections": [],
+            "custom_properties": {},
+            "pose": {
+              "name": "THUMB_IP_R",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation_quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_axis_angle": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_mode": "QUATERNION",
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 0.0,
+              "bbone_easeout": 0.0,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "lock_ik_x": false,
+              "lock_ik_y": false,
+              "lock_ik_z": false,
+              "use_ik_limit_x": false,
+              "use_ik_limit_y": false,
+              "use_ik_limit_z": false,
+              "use_ik_rotation_control": false,
+              "use_ik_linear_control": false,
+              "ik_min_x": -3.1415927410125732,
+              "ik_max_x": 3.1415927410125732,
+              "ik_min_y": -3.1415927410125732,
+              "ik_max_y": 3.1415927410125732,
+              "ik_min_z": -3.1415927410125732,
+              "ik_max_z": 3.1415927410125732,
+              "ik_stiffness_x": 0.0,
+              "ik_stiffness_y": 0.0,
+              "ik_stiffness_z": 0.0,
+              "ik_stretch": 0.0,
+              "ik_rotation_weight": 0.0,
+              "ik_linear_weight": 0.0,
+              "custom_shape_scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "custom_shape_translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "custom_shape_rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "use_transform_at_custom_shape": false,
+              "use_transform_around_custom_shape": false,
+              "use_custom_shape_bone_size": true,
+              "hide": false,
+              "select": false,
+              "custom_shape_transform": null,
+              "custom_shape_wire_width": 1.0,
+              "lock_location": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation_w": false,
+              "lock_rotations_4d": true,
+              "lock_scale": [
+                false,
+                false,
+                false
+              ]
+            },
+            "pose_constraints": [],
+            "pose_custom_properties": {}
+          },
+          "native_roll_rad": 2.4771578311920166
+        },
+        "THUMB_TIP_R": {
+          "source": {
+            "head_local_m": [
+              0.0427778959274292,
+              -0.011920545250177383,
+              0.14970695972442627
+            ],
+            "tail_local_m": [
+              0.042964398860931396,
+              -0.010616333223879337,
+              0.1561729460954666
+            ],
+            "matrix_local": [
+              [
+                -0.7724820971488953,
+                0.028262969106435776,
+                0.6344074606895447,
+                0.0427778996527195
+              ],
+              [
+                0.6264501810073853,
+                0.1976424753665924,
+                0.7539879679679871,
+                -0.011920545250177383
+              ],
+              [
+                -0.10407581925392151,
+                0.9798664450645447,
+                -0.17038051784038544,
+                0.14970692992210388
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "matrix": [
+              [
+                1.0,
+                1.234924127402337e-07,
+                5.0291404818381125e-08
+              ],
+              [
+                -1.23492398529379e-07,
+                0.9999999403953552,
+                -1.5877594705671072e-07
+              ],
+              [
+                -5.02914261346632e-08,
+                1.5877594705671072e-07,
+                1.0
+              ]
+            ],
+            "head_world_m": [
+              1.4514825344085693,
+              0.010474493727087975,
+              0.48555445671081543
+            ],
+            "tail_world_m": [
+              1.4516689777374268,
+              0.01177870575338602,
+              0.4920204281806946
+            ],
+            "parent": "THUMB_IP_R",
+            "children": [],
+            "settings": {
+              "name": "THUMB_TIP_R",
+              "display_type": "ARMATURE_DEFINED",
+              "use_inherit_rotation": true,
+              "use_envelope_multiply": false,
+              "use_deform": false,
+              "inherit_scale": "FULL",
+              "use_local_location": true,
+              "use_relative_parent": false,
+              "show_wire": false,
+              "use_cyclic_offset": true,
+              "hide_select": false,
+              "envelope_distance": 0.25,
+              "envelope_weight": 1.0,
+              "head_radius": 0.05000000074505806,
+              "tail_radius": 0.05000000074505806,
+              "bbone_segments": 1,
+              "bbone_mapping_mode": "STRAIGHT",
+              "bbone_x": 0.10000000149011612,
+              "bbone_z": 0.10000000149011612,
+              "bbone_handle_type_start": "AUTO",
+              "bbone_custom_handle_start": null,
+              "bbone_handle_use_scale_start": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_start": false,
+              "bbone_handle_type_end": "AUTO",
+              "bbone_custom_handle_end": null,
+              "bbone_handle_use_scale_end": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_end": false,
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "use_endroll_as_inroll": false,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 1.0,
+              "bbone_easeout": 1.0,
+              "use_scale_easing": false,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "hide": false
+            },
+            "color": {
+              "palette": "DEFAULT"
+            },
+            "collections": [],
+            "custom_properties": {},
+            "pose": {
+              "name": "THUMB_TIP_R",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation_quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_axis_angle": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_mode": "QUATERNION",
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 0.0,
+              "bbone_easeout": 0.0,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "lock_ik_x": false,
+              "lock_ik_y": false,
+              "lock_ik_z": false,
+              "use_ik_limit_x": false,
+              "use_ik_limit_y": false,
+              "use_ik_limit_z": false,
+              "use_ik_rotation_control": false,
+              "use_ik_linear_control": false,
+              "ik_min_x": -3.1415927410125732,
+              "ik_max_x": 3.1415927410125732,
+              "ik_min_y": -3.1415927410125732,
+              "ik_max_y": 3.1415927410125732,
+              "ik_min_z": -3.1415927410125732,
+              "ik_max_z": 3.1415927410125732,
+              "ik_stiffness_x": 0.0,
+              "ik_stiffness_y": 0.0,
+              "ik_stiffness_z": 0.0,
+              "ik_stretch": 0.0,
+              "ik_rotation_weight": 0.0,
+              "ik_linear_weight": 0.0,
+              "custom_shape_scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "custom_shape_translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "custom_shape_rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "use_transform_at_custom_shape": false,
+              "use_transform_around_custom_shape": false,
+              "use_custom_shape_bone_size": true,
+              "hide": false,
+              "select": false,
+              "custom_shape_transform": null,
+              "custom_shape_wire_width": 1.0,
+              "lock_location": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation_w": false,
+              "lock_rotations_4d": true,
+              "lock_scale": [
+                false,
+                false,
+                false
+              ]
+            },
+            "pose_constraints": [],
+            "pose_custom_properties": {}
+          },
+          "derived": {
+            "head_local_m": [
+              0.0427778959274292,
+              -0.011920545250177383,
+              0.14970695972442627
+            ],
+            "tail_local_m": [
+              0.042964398860931396,
+              -0.010616333223879337,
+              0.1561729460954666
+            ],
+            "matrix_local": [
+              [
+                -0.7724820971488953,
+                0.028262969106435776,
+                0.6344074606895447,
+                0.0427778996527195
+              ],
+              [
+                0.6264501810073853,
+                0.1976424753665924,
+                0.7539879679679871,
+                -0.011920545250177383
+              ],
+              [
+                -0.10407581925392151,
+                0.9798664450645447,
+                -0.17038051784038544,
+                0.14970692992210388
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "matrix": [
+              [
+                1.0,
+                1.234924127402337e-07,
+                5.0291404818381125e-08
+              ],
+              [
+                -1.23492398529379e-07,
+                0.9999999403953552,
+                -1.5877594705671072e-07
+              ],
+              [
+                -5.02914261346632e-08,
+                1.5877594705671072e-07,
+                1.0
+              ]
+            ],
+            "head_world_m": [
+              1.4514825344085693,
+              0.010474493727087975,
+              0.48555445671081543
+            ],
+            "tail_world_m": [
+              1.4516689777374268,
+              0.01177870575338602,
+              0.4920204281806946
+            ],
+            "parent": "THUMB_IP_R",
+            "children": [],
+            "settings": {
+              "name": "THUMB_TIP_R",
+              "display_type": "ARMATURE_DEFINED",
+              "use_inherit_rotation": true,
+              "use_envelope_multiply": false,
+              "use_deform": false,
+              "inherit_scale": "FULL",
+              "use_local_location": true,
+              "use_relative_parent": false,
+              "show_wire": false,
+              "use_cyclic_offset": true,
+              "hide_select": false,
+              "envelope_distance": 0.25,
+              "envelope_weight": 1.0,
+              "head_radius": 0.05000000074505806,
+              "tail_radius": 0.05000000074505806,
+              "bbone_segments": 1,
+              "bbone_mapping_mode": "STRAIGHT",
+              "bbone_x": 0.10000000149011612,
+              "bbone_z": 0.10000000149011612,
+              "bbone_handle_type_start": "AUTO",
+              "bbone_custom_handle_start": null,
+              "bbone_handle_use_scale_start": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_start": false,
+              "bbone_handle_type_end": "AUTO",
+              "bbone_custom_handle_end": null,
+              "bbone_handle_use_scale_end": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_end": false,
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "use_endroll_as_inroll": false,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 1.0,
+              "bbone_easeout": 1.0,
+              "use_scale_easing": false,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "hide": false
+            },
+            "color": {
+              "palette": "DEFAULT"
+            },
+            "collections": [],
+            "custom_properties": {},
+            "pose": {
+              "name": "THUMB_TIP_R",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation_quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_axis_angle": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_mode": "QUATERNION",
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 0.0,
+              "bbone_easeout": 0.0,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "lock_ik_x": false,
+              "lock_ik_y": false,
+              "lock_ik_z": false,
+              "use_ik_limit_x": false,
+              "use_ik_limit_y": false,
+              "use_ik_limit_z": false,
+              "use_ik_rotation_control": false,
+              "use_ik_linear_control": false,
+              "ik_min_x": -3.1415927410125732,
+              "ik_max_x": 3.1415927410125732,
+              "ik_min_y": -3.1415927410125732,
+              "ik_max_y": 3.1415927410125732,
+              "ik_min_z": -3.1415927410125732,
+              "ik_max_z": 3.1415927410125732,
+              "ik_stiffness_x": 0.0,
+              "ik_stiffness_y": 0.0,
+              "ik_stiffness_z": 0.0,
+              "ik_stretch": 0.0,
+              "ik_rotation_weight": 0.0,
+              "ik_linear_weight": 0.0,
+              "custom_shape_scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "custom_shape_translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "custom_shape_rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "use_transform_at_custom_shape": false,
+              "use_transform_around_custom_shape": false,
+              "use_custom_shape_bone_size": true,
+              "hide": false,
+              "select": false,
+              "custom_shape_transform": null,
+              "custom_shape_wire_width": 1.0,
+              "lock_location": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation_w": false,
+              "lock_rotations_4d": true,
+              "lock_scale": [
+                false,
+                false,
+                false
+              ]
+            },
+            "pose_constraints": [],
+            "pose_custom_properties": {}
+          },
+          "native_roll_rad": 2.4771578311920166
+        }
+      }
+    },
+    "R2": {
+      "status": "PASS",
+      "bone_count": 21,
+      "BONE_PAYLOAD_DELTA": 0,
+      "JOINT_PAYLOAD_DELTA": 0,
+      "ROLL_DELTA": 0,
+      "REST_MATRIX_DELTA": 0,
+      "source_rig_payload_sha256": "6303818c11b3101509b8f09c6630d46d424694639dd6ecc41242289b18575e0b",
+      "derived_rig_payload_sha256": "6303818c11b3101509b8f09c6630d46d424694639dd6ecc41242289b18575e0b",
+      "hierarchy_names_head_tail_local_rest_matrices_inherit_deform_settings_exact": true,
+      "mesh_armature_transforms_pose_default_state_exact": true,
+      "explicit_native_rolls": {
+        "status": "PASS",
+        "roll_delta": 0,
+        "source_native_rolls": {
+          "RIGHT_HAND_PRODUCTION_RIG": {
+            "WRIST_R": -2.9122955799102783,
+            "THUMB_CMC_R": 2.7575817108154297,
+            "THUMB_MCP_R": 2.348830223083496,
+            "THUMB_IP_R": 2.4771578311920166,
+            "THUMB_TIP_R": 2.4771578311920166,
+            "INDEX_MCP_R": -2.1521379947662354,
+            "INDEX_PIP_R": -2.4734556674957275,
+            "INDEX_DIP_R": -2.328428030014038,
+            "INDEX_TIP_R": -2.328446626663208,
+            "MIDDLE_MCP_R": -2.6462221145629883,
+            "MIDDLE_PIP_R": -2.5011656284332275,
+            "MIDDLE_DIP_R": -1.4984538555145264,
+            "MIDDLE_TIP_R": -1.498608946800232,
+            "RING_MCP_R": 2.9718704223632812,
+            "RING_PIP_R": -2.6612260341644287,
+            "RING_DIP_R": 0.13859428465366364,
+            "RING_TIP_R": 0.13866360485553741,
+            "LITTLE_MCP_R": 2.9447810649871826,
+            "LITTLE_PIP_R": -2.7984564304351807,
+            "LITTLE_DIP_R": -2.9336488246917725,
+            "LITTLE_TIP_R": -2.9337615966796875
+          }
+        },
+        "reopened_native_rolls": {
+          "RIGHT_HAND_PRODUCTION_RIG": {
+            "WRIST_R": -2.9122955799102783,
+            "THUMB_CMC_R": 2.7575817108154297,
+            "THUMB_MCP_R": 2.348830223083496,
+            "THUMB_IP_R": 2.4771578311920166,
+            "THUMB_TIP_R": 2.4771578311920166,
+            "INDEX_MCP_R": -2.1521379947662354,
+            "INDEX_PIP_R": -2.4734556674957275,
+            "INDEX_DIP_R": -2.328428030014038,
+            "INDEX_TIP_R": -2.328446626663208,
+            "MIDDLE_MCP_R": -2.6462221145629883,
+            "MIDDLE_PIP_R": -2.5011656284332275,
+            "MIDDLE_DIP_R": -1.4984538555145264,
+            "MIDDLE_TIP_R": -1.498608946800232,
+            "RING_MCP_R": 2.9718704223632812,
+            "RING_PIP_R": -2.6612260341644287,
+            "RING_DIP_R": 0.13859428465366364,
+            "RING_TIP_R": 0.13866360485553741,
+            "LITTLE_MCP_R": 2.9447810649871826,
+            "LITTLE_PIP_R": -2.7984564304351807,
+            "LITTLE_DIP_R": -2.9336488246917725,
+            "LITTLE_TIP_R": -2.9337615966796875
+          }
+        },
+        "method": "Read actual EditBone.roll at end of unsaved clean-reopen session, with no edit setters or roll recalculation"
+      },
+      "corrected_thumb_exact": {
+        "THUMB_IP_R": {
+          "source": {
+            "head_local_m": [
+              0.042156219482421875,
+              -0.016267918050289154,
+              0.12815365195274353
+            ],
+            "tail_local_m": [
+              0.0427778959274292,
+              -0.011920545250177383,
+              0.14970695972442627
+            ],
+            "matrix_local": [
+              [
+                -0.7724820375442505,
+                0.028262965381145477,
+                0.6344075202941895,
+                0.04215622320771217
+              ],
+              [
+                0.62645024061203,
+                0.19764229655265808,
+                0.7539879679679871,
+                -0.016267918050289154
+              ],
+              [
+                -0.10407570749521255,
+                0.9798665046691895,
+                -0.1703803539276123,
+                0.12815362215042114
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "matrix": [
+              [
+                0.9958328604698181,
+                -0.09012889117002487,
+                0.013918568380177021
+              ],
+              [
+                0.0911344513297081,
+                0.9891525506973267,
+                -0.11520247161388397
+              ],
+              [
+                -0.003384517040103674,
+                0.11599086970090866,
+                0.9932445287704468
+              ]
+            ],
+            "head_world_m": [
+              1.450860857963562,
+              0.006127120926976204,
+              0.4640011489391327
+            ],
+            "tail_world_m": [
+              1.4514825344085693,
+              0.010474493727087975,
+              0.48555445671081543
+            ],
+            "parent": "THUMB_MCP_R",
+            "children": [
+              "THUMB_TIP_R"
+            ],
+            "settings": {
+              "name": "THUMB_IP_R",
+              "display_type": "ARMATURE_DEFINED",
+              "use_inherit_rotation": true,
+              "use_envelope_multiply": false,
+              "use_deform": true,
+              "inherit_scale": "FULL",
+              "use_local_location": true,
+              "use_relative_parent": false,
+              "show_wire": false,
+              "use_cyclic_offset": true,
+              "hide_select": false,
+              "envelope_distance": 0.25,
+              "envelope_weight": 1.0,
+              "head_radius": 0.10000000149011612,
+              "tail_radius": 0.05000000074505806,
+              "bbone_segments": 1,
+              "bbone_mapping_mode": "STRAIGHT",
+              "bbone_x": 0.10000000149011612,
+              "bbone_z": 0.10000000149011612,
+              "bbone_handle_type_start": "AUTO",
+              "bbone_custom_handle_start": null,
+              "bbone_handle_use_scale_start": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_start": false,
+              "bbone_handle_type_end": "AUTO",
+              "bbone_custom_handle_end": null,
+              "bbone_handle_use_scale_end": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_end": false,
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "use_endroll_as_inroll": false,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 1.0,
+              "bbone_easeout": 1.0,
+              "use_scale_easing": false,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "hide": false
+            },
+            "color": {
+              "palette": "DEFAULT"
+            },
+            "collections": [],
+            "custom_properties": {},
+            "pose": {
+              "name": "THUMB_IP_R",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation_quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_axis_angle": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_mode": "QUATERNION",
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 0.0,
+              "bbone_easeout": 0.0,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "lock_ik_x": false,
+              "lock_ik_y": false,
+              "lock_ik_z": false,
+              "use_ik_limit_x": false,
+              "use_ik_limit_y": false,
+              "use_ik_limit_z": false,
+              "use_ik_rotation_control": false,
+              "use_ik_linear_control": false,
+              "ik_min_x": -3.1415927410125732,
+              "ik_max_x": 3.1415927410125732,
+              "ik_min_y": -3.1415927410125732,
+              "ik_max_y": 3.1415927410125732,
+              "ik_min_z": -3.1415927410125732,
+              "ik_max_z": 3.1415927410125732,
+              "ik_stiffness_x": 0.0,
+              "ik_stiffness_y": 0.0,
+              "ik_stiffness_z": 0.0,
+              "ik_stretch": 0.0,
+              "ik_rotation_weight": 0.0,
+              "ik_linear_weight": 0.0,
+              "custom_shape_scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "custom_shape_translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "custom_shape_rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "use_transform_at_custom_shape": false,
+              "use_transform_around_custom_shape": false,
+              "use_custom_shape_bone_size": true,
+              "hide": false,
+              "select": false,
+              "custom_shape_transform": null,
+              "custom_shape_wire_width": 1.0,
+              "lock_location": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation_w": false,
+              "lock_rotations_4d": true,
+              "lock_scale": [
+                false,
+                false,
+                false
+              ]
+            },
+            "pose_constraints": [],
+            "pose_custom_properties": {}
+          },
+          "derived": {
+            "head_local_m": [
+              0.042156219482421875,
+              -0.016267918050289154,
+              0.12815365195274353
+            ],
+            "tail_local_m": [
+              0.0427778959274292,
+              -0.011920545250177383,
+              0.14970695972442627
+            ],
+            "matrix_local": [
+              [
+                -0.7724820375442505,
+                0.028262965381145477,
+                0.6344075202941895,
+                0.04215622320771217
+              ],
+              [
+                0.62645024061203,
+                0.19764229655265808,
+                0.7539879679679871,
+                -0.016267918050289154
+              ],
+              [
+                -0.10407570749521255,
+                0.9798665046691895,
+                -0.1703803539276123,
+                0.12815362215042114
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "matrix": [
+              [
+                0.9958328604698181,
+                -0.09012889117002487,
+                0.013918568380177021
+              ],
+              [
+                0.0911344513297081,
+                0.9891525506973267,
+                -0.11520247161388397
+              ],
+              [
+                -0.003384517040103674,
+                0.11599086970090866,
+                0.9932445287704468
+              ]
+            ],
+            "head_world_m": [
+              1.450860857963562,
+              0.006127120926976204,
+              0.4640011489391327
+            ],
+            "tail_world_m": [
+              1.4514825344085693,
+              0.010474493727087975,
+              0.48555445671081543
+            ],
+            "parent": "THUMB_MCP_R",
+            "children": [
+              "THUMB_TIP_R"
+            ],
+            "settings": {
+              "name": "THUMB_IP_R",
+              "display_type": "ARMATURE_DEFINED",
+              "use_inherit_rotation": true,
+              "use_envelope_multiply": false,
+              "use_deform": true,
+              "inherit_scale": "FULL",
+              "use_local_location": true,
+              "use_relative_parent": false,
+              "show_wire": false,
+              "use_cyclic_offset": true,
+              "hide_select": false,
+              "envelope_distance": 0.25,
+              "envelope_weight": 1.0,
+              "head_radius": 0.10000000149011612,
+              "tail_radius": 0.05000000074505806,
+              "bbone_segments": 1,
+              "bbone_mapping_mode": "STRAIGHT",
+              "bbone_x": 0.10000000149011612,
+              "bbone_z": 0.10000000149011612,
+              "bbone_handle_type_start": "AUTO",
+              "bbone_custom_handle_start": null,
+              "bbone_handle_use_scale_start": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_start": false,
+              "bbone_handle_type_end": "AUTO",
+              "bbone_custom_handle_end": null,
+              "bbone_handle_use_scale_end": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_end": false,
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "use_endroll_as_inroll": false,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 1.0,
+              "bbone_easeout": 1.0,
+              "use_scale_easing": false,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "hide": false
+            },
+            "color": {
+              "palette": "DEFAULT"
+            },
+            "collections": [],
+            "custom_properties": {},
+            "pose": {
+              "name": "THUMB_IP_R",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation_quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_axis_angle": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_mode": "QUATERNION",
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 0.0,
+              "bbone_easeout": 0.0,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "lock_ik_x": false,
+              "lock_ik_y": false,
+              "lock_ik_z": false,
+              "use_ik_limit_x": false,
+              "use_ik_limit_y": false,
+              "use_ik_limit_z": false,
+              "use_ik_rotation_control": false,
+              "use_ik_linear_control": false,
+              "ik_min_x": -3.1415927410125732,
+              "ik_max_x": 3.1415927410125732,
+              "ik_min_y": -3.1415927410125732,
+              "ik_max_y": 3.1415927410125732,
+              "ik_min_z": -3.1415927410125732,
+              "ik_max_z": 3.1415927410125732,
+              "ik_stiffness_x": 0.0,
+              "ik_stiffness_y": 0.0,
+              "ik_stiffness_z": 0.0,
+              "ik_stretch": 0.0,
+              "ik_rotation_weight": 0.0,
+              "ik_linear_weight": 0.0,
+              "custom_shape_scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "custom_shape_translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "custom_shape_rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "use_transform_at_custom_shape": false,
+              "use_transform_around_custom_shape": false,
+              "use_custom_shape_bone_size": true,
+              "hide": false,
+              "select": false,
+              "custom_shape_transform": null,
+              "custom_shape_wire_width": 1.0,
+              "lock_location": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation_w": false,
+              "lock_rotations_4d": true,
+              "lock_scale": [
+                false,
+                false,
+                false
+              ]
+            },
+            "pose_constraints": [],
+            "pose_custom_properties": {}
+          },
+          "native_roll_rad": 2.4771578311920166
+        },
+        "THUMB_TIP_R": {
+          "source": {
+            "head_local_m": [
+              0.0427778959274292,
+              -0.011920545250177383,
+              0.14970695972442627
+            ],
+            "tail_local_m": [
+              0.042964398860931396,
+              -0.010616333223879337,
+              0.1561729460954666
+            ],
+            "matrix_local": [
+              [
+                -0.7724820971488953,
+                0.028262969106435776,
+                0.6344074606895447,
+                0.0427778996527195
+              ],
+              [
+                0.6264501810073853,
+                0.1976424753665924,
+                0.7539879679679871,
+                -0.011920545250177383
+              ],
+              [
+                -0.10407581925392151,
+                0.9798664450645447,
+                -0.17038051784038544,
+                0.14970692992210388
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "matrix": [
+              [
+                1.0,
+                1.234924127402337e-07,
+                5.0291404818381125e-08
+              ],
+              [
+                -1.23492398529379e-07,
+                0.9999999403953552,
+                -1.5877594705671072e-07
+              ],
+              [
+                -5.02914261346632e-08,
+                1.5877594705671072e-07,
+                1.0
+              ]
+            ],
+            "head_world_m": [
+              1.4514825344085693,
+              0.010474493727087975,
+              0.48555445671081543
+            ],
+            "tail_world_m": [
+              1.4516689777374268,
+              0.01177870575338602,
+              0.4920204281806946
+            ],
+            "parent": "THUMB_IP_R",
+            "children": [],
+            "settings": {
+              "name": "THUMB_TIP_R",
+              "display_type": "ARMATURE_DEFINED",
+              "use_inherit_rotation": true,
+              "use_envelope_multiply": false,
+              "use_deform": false,
+              "inherit_scale": "FULL",
+              "use_local_location": true,
+              "use_relative_parent": false,
+              "show_wire": false,
+              "use_cyclic_offset": true,
+              "hide_select": false,
+              "envelope_distance": 0.25,
+              "envelope_weight": 1.0,
+              "head_radius": 0.05000000074505806,
+              "tail_radius": 0.05000000074505806,
+              "bbone_segments": 1,
+              "bbone_mapping_mode": "STRAIGHT",
+              "bbone_x": 0.10000000149011612,
+              "bbone_z": 0.10000000149011612,
+              "bbone_handle_type_start": "AUTO",
+              "bbone_custom_handle_start": null,
+              "bbone_handle_use_scale_start": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_start": false,
+              "bbone_handle_type_end": "AUTO",
+              "bbone_custom_handle_end": null,
+              "bbone_handle_use_scale_end": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_end": false,
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "use_endroll_as_inroll": false,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 1.0,
+              "bbone_easeout": 1.0,
+              "use_scale_easing": false,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "hide": false
+            },
+            "color": {
+              "palette": "DEFAULT"
+            },
+            "collections": [],
+            "custom_properties": {},
+            "pose": {
+              "name": "THUMB_TIP_R",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation_quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_axis_angle": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_mode": "QUATERNION",
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 0.0,
+              "bbone_easeout": 0.0,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "lock_ik_x": false,
+              "lock_ik_y": false,
+              "lock_ik_z": false,
+              "use_ik_limit_x": false,
+              "use_ik_limit_y": false,
+              "use_ik_limit_z": false,
+              "use_ik_rotation_control": false,
+              "use_ik_linear_control": false,
+              "ik_min_x": -3.1415927410125732,
+              "ik_max_x": 3.1415927410125732,
+              "ik_min_y": -3.1415927410125732,
+              "ik_max_y": 3.1415927410125732,
+              "ik_min_z": -3.1415927410125732,
+              "ik_max_z": 3.1415927410125732,
+              "ik_stiffness_x": 0.0,
+              "ik_stiffness_y": 0.0,
+              "ik_stiffness_z": 0.0,
+              "ik_stretch": 0.0,
+              "ik_rotation_weight": 0.0,
+              "ik_linear_weight": 0.0,
+              "custom_shape_scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "custom_shape_translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "custom_shape_rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "use_transform_at_custom_shape": false,
+              "use_transform_around_custom_shape": false,
+              "use_custom_shape_bone_size": true,
+              "hide": false,
+              "select": false,
+              "custom_shape_transform": null,
+              "custom_shape_wire_width": 1.0,
+              "lock_location": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation_w": false,
+              "lock_rotations_4d": true,
+              "lock_scale": [
+                false,
+                false,
+                false
+              ]
+            },
+            "pose_constraints": [],
+            "pose_custom_properties": {}
+          },
+          "derived": {
+            "head_local_m": [
+              0.0427778959274292,
+              -0.011920545250177383,
+              0.14970695972442627
+            ],
+            "tail_local_m": [
+              0.042964398860931396,
+              -0.010616333223879337,
+              0.1561729460954666
+            ],
+            "matrix_local": [
+              [
+                -0.7724820971488953,
+                0.028262969106435776,
+                0.6344074606895447,
+                0.0427778996527195
+              ],
+              [
+                0.6264501810073853,
+                0.1976424753665924,
+                0.7539879679679871,
+                -0.011920545250177383
+              ],
+              [
+                -0.10407581925392151,
+                0.9798664450645447,
+                -0.17038051784038544,
+                0.14970692992210388
+              ],
+              [
+                0.0,
+                0.0,
+                0.0,
+                1.0
+              ]
+            ],
+            "matrix": [
+              [
+                1.0,
+                1.234924127402337e-07,
+                5.0291404818381125e-08
+              ],
+              [
+                -1.23492398529379e-07,
+                0.9999999403953552,
+                -1.5877594705671072e-07
+              ],
+              [
+                -5.02914261346632e-08,
+                1.5877594705671072e-07,
+                1.0
+              ]
+            ],
+            "head_world_m": [
+              1.4514825344085693,
+              0.010474493727087975,
+              0.48555445671081543
+            ],
+            "tail_world_m": [
+              1.4516689777374268,
+              0.01177870575338602,
+              0.4920204281806946
+            ],
+            "parent": "THUMB_IP_R",
+            "children": [],
+            "settings": {
+              "name": "THUMB_TIP_R",
+              "display_type": "ARMATURE_DEFINED",
+              "use_inherit_rotation": true,
+              "use_envelope_multiply": false,
+              "use_deform": false,
+              "inherit_scale": "FULL",
+              "use_local_location": true,
+              "use_relative_parent": false,
+              "show_wire": false,
+              "use_cyclic_offset": true,
+              "hide_select": false,
+              "envelope_distance": 0.25,
+              "envelope_weight": 1.0,
+              "head_radius": 0.05000000074505806,
+              "tail_radius": 0.05000000074505806,
+              "bbone_segments": 1,
+              "bbone_mapping_mode": "STRAIGHT",
+              "bbone_x": 0.10000000149011612,
+              "bbone_z": 0.10000000149011612,
+              "bbone_handle_type_start": "AUTO",
+              "bbone_custom_handle_start": null,
+              "bbone_handle_use_scale_start": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_start": false,
+              "bbone_handle_type_end": "AUTO",
+              "bbone_custom_handle_end": null,
+              "bbone_handle_use_scale_end": [
+                false,
+                false,
+                false
+              ],
+              "bbone_handle_use_ease_end": false,
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "use_endroll_as_inroll": false,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 1.0,
+              "bbone_easeout": 1.0,
+              "use_scale_easing": false,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "hide": false
+            },
+            "color": {
+              "palette": "DEFAULT"
+            },
+            "collections": [],
+            "custom_properties": {},
+            "pose": {
+              "name": "THUMB_TIP_R",
+              "location": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "scale": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "rotation_quaternion": [
+                1.0,
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_axis_angle": [
+                0.0,
+                0.0,
+                1.0,
+                0.0
+              ],
+              "rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "rotation_mode": "QUATERNION",
+              "bbone_rollin": 0.0,
+              "bbone_rollout": 0.0,
+              "bbone_curveinx": 0.0,
+              "bbone_curveinz": 0.0,
+              "bbone_curveoutx": 0.0,
+              "bbone_curveoutz": 0.0,
+              "bbone_easein": 0.0,
+              "bbone_easeout": 0.0,
+              "bbone_scalein": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "bbone_scaleout": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "lock_ik_x": false,
+              "lock_ik_y": false,
+              "lock_ik_z": false,
+              "use_ik_limit_x": false,
+              "use_ik_limit_y": false,
+              "use_ik_limit_z": false,
+              "use_ik_rotation_control": false,
+              "use_ik_linear_control": false,
+              "ik_min_x": -3.1415927410125732,
+              "ik_max_x": 3.1415927410125732,
+              "ik_min_y": -3.1415927410125732,
+              "ik_max_y": 3.1415927410125732,
+              "ik_min_z": -3.1415927410125732,
+              "ik_max_z": 3.1415927410125732,
+              "ik_stiffness_x": 0.0,
+              "ik_stiffness_y": 0.0,
+              "ik_stiffness_z": 0.0,
+              "ik_stretch": 0.0,
+              "ik_rotation_weight": 0.0,
+              "ik_linear_weight": 0.0,
+              "custom_shape_scale_xyz": [
+                1.0,
+                1.0,
+                1.0
+              ],
+              "custom_shape_translation": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "custom_shape_rotation_euler": [
+                0.0,
+                0.0,
+                0.0
+              ],
+              "use_transform_at_custom_shape": false,
+              "use_transform_around_custom_shape": false,
+              "use_custom_shape_bone_size": true,
+              "hide": false,
+              "select": false,
+              "custom_shape_transform": null,
+              "custom_shape_wire_width": 1.0,
+              "lock_location": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation": [
+                false,
+                false,
+                false
+              ],
+              "lock_rotation_w": false,
+              "lock_rotations_4d": true,
+              "lock_scale": [
+                false,
+                false,
+                false
+              ]
+            },
+            "pose_constraints": [],
+            "pose_custom_properties": {}
+          },
+          "native_roll_rad": 2.4771578311920166
+        }
+      }
+    }
+  },
+  "rig_rebuild_joint_relocation_corrected_chain_or_roll_recalculation_run": false,
+  "corrected_rig_file_authority_sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+}

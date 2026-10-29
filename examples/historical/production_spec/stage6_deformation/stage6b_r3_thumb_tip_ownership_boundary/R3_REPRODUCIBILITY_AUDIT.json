@@ -1,0 +1,16 @@
+{
+ "stage": "R3_REPRODUCIBILITY_AUDIT",
+ "generated_at": "2026-10-01T16:15:36.949268+08:00",
+ "deterministic_reproducibility": true,
+ "method": "exact s-t minimum cut (Dinic) on the real mesh adjacency graph; unary = geodesic distance to the strong-anchor sets; pairwise = TAU/3 per THUMB|INDEX flip; strong anchors pinned; no randomness, no per-vertex override",
+ "parameters": {
+  "SCALE": 1000.0,
+  "P_FLIP_mm": 1.296,
+  "TAU_mm": 3.888205,
+  "CAP_MAX_mm": 400.0
+ },
+ "runs": 2,
+ "identical": true,
+ "vertex_set_size": 1008,
+ "recompute_vertex_label_mismatches": 0
+}

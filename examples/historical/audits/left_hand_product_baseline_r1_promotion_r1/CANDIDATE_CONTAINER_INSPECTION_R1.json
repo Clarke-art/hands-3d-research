@@ -1,0 +1,115 @@
+{
+  "PHASE": "LEFT_HAND_PRODUCT_BASELINE_R1_PROMOTION_R1",
+  "CANDIDATE_CONTAINER_STATUS": "AUDIT_SCAFFOLDING_PRESENT",
+  "reason": "Only scene/mesh-object pending identity labels and candidate scene name. No camera, debug object, comparison object, Action, or runtime audit helper.",
+  "inventory": {
+    "objects": [
+      {
+        "name": "LEFT_HAND_OFFICIAL_L1_MIRROR_PRODUCT_MESH",
+        "type": "MESH",
+        "props": {
+          "PHASE": "LEFT_HAND_CANONICAL_MIRROR_BASELINE_R1",
+          "DESIGN_ONLY": true,
+          "NOT_PRODUCTION": true,
+          "HUMAN_APPROVAL_PENDING": true,
+          "HUMAN_APPROVAL": "HUMAN_REVIEW_PENDING",
+          "PRODUCT_BASELINE_STATUS": "DESIGN_ONLY / HUMAN_REVIEW_PENDING",
+          "CANONICAL_SOURCE": "RIGHT_HAND_PRODUCT_BASELINE_R2",
+          "CANONICAL_SOURCE_SHA256": "c946fed318fa88c238d9aacc30cfb4e52f268848f0ad65a4dcbf594754d791f0",
+          "SOURCE_IDENTITY": "Official L1 / 3300 vertices",
+          "PRODUCTION_POINTER_UPDATED": false
+        },
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "determinant": 1.0000001192092896,
+        "constraints": []
+      },
+      {
+        "name": "LEFT_HAND_PRODUCTION_RIG",
+        "type": "ARMATURE",
+        "props": {},
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "determinant": 1.0,
+        "constraints": []
+      }
+    ],
+    "scenes": [
+      {
+        "name": "LEFT_HAND_CANONICAL_MIRROR_CANDIDATE_R1",
+        "props": {
+          "PHASE": "LEFT_HAND_CANONICAL_MIRROR_BASELINE_R1",
+          "DESIGN_ONLY": true,
+          "NOT_PRODUCTION": true,
+          "HUMAN_APPROVAL_PENDING": true,
+          "HUMAN_APPROVAL": "HUMAN_REVIEW_PENDING",
+          "PRODUCT_BASELINE_STATUS": "DESIGN_ONLY / HUMAN_REVIEW_PENDING",
+          "CANONICAL_SOURCE": "RIGHT_HAND_PRODUCT_BASELINE_R2",
+          "CANONICAL_SOURCE_SHA256": "c946fed318fa88c238d9aacc30cfb4e52f268848f0ad65a4dcbf594754d791f0",
+          "SOURCE_IDENTITY": "Official L1 / 3300 vertices",
+          "PRODUCTION_POINTER_UPDATED": false
+        },
+        "camera": null
+      }
+    ],
+    "collections": [],
+    "actions": [],
+    "camera_datablocks": [],
+    "texts": []
+  },
+  "permitted_metadata_keys": [
+    "DESIGN_ONLY",
+    "HUMAN_APPROVAL",
+    "HUMAN_APPROVAL_PENDING",
+    "NOT_PRODUCTION",
+    "PHASE",
+    "PRODUCTION_POINTER_UPDATED",
+    "PRODUCTION_PROMOTION",
+    "PRODUCT_BASELINE_SOURCE_SHA256",
+    "PRODUCT_BASELINE_STATUS"
+  ],
+  "pending_metadata": {
+    "LEFT_HAND_OFFICIAL_L1_MIRROR_PRODUCT_MESH": {
+      "PHASE": "LEFT_HAND_CANONICAL_MIRROR_BASELINE_R1",
+      "DESIGN_ONLY": true,
+      "NOT_PRODUCTION": true,
+      "HUMAN_APPROVAL_PENDING": true,
+      "HUMAN_APPROVAL": "HUMAN_REVIEW_PENDING",
+      "PRODUCT_BASELINE_STATUS": "DESIGN_ONLY / HUMAN_REVIEW_PENDING",
+      "PRODUCTION_POINTER_UPDATED": false
+    },
+    "LEFT_HAND_CANONICAL_MIRROR_CANDIDATE_R1": {
+      "PHASE": "LEFT_HAND_CANONICAL_MIRROR_BASELINE_R1",
+      "DESIGN_ONLY": true,
+      "NOT_PRODUCTION": true,
+      "HUMAN_APPROVAL_PENDING": true,
+      "HUMAN_APPROVAL": "HUMAN_REVIEW_PENDING",
+      "PRODUCT_BASELINE_STATUS": "DESIGN_ONLY / HUMAN_REVIEW_PENDING",
+      "PRODUCTION_POINTER_UPDATED": false
+    }
+  },
+  "core_component_sha256": {
+    "mesh_object": "79f62bf6b96cac34d8a7d5363870f7eb45f92800c8e0771b3cecf63a931c5dcb",
+    "armature_object": "abb3e6433c927df55e8db919b55d08ce25c645dec5bf0a1a3956128fdfb3a456",
+    "mesh_identity": "f5cec216a45fc4bc25b6070aca08a54cbda1159c31699e0c9976158e962c25a1",
+    "coordinates_vertex_order": "7222eaa82c701f06c56c2956b1030b490b278ba4da82d5b2961094873d077e43",
+    "topology_face_winding": "290e7d806a0519d8b454906a40fee155a105d9cdf00aff0ee14b9c6e89aca50b",
+    "UV": "d62b348b0ce18ca2305c58a6d1e70d932ee2411b09432fa189fff5ba9897c970",
+    "native_shading": "dfafad638ad86ce8c3f4be05fd94110c85c330236a63c35f1b27e33e32a356f1",
+    "attributes": "79530c172e9b952493e4774084a58f57c4ed4c729ab44fabbdf958fd2e56e69c",
+    "groups_and_weights": "585a401798d22b4a6a6d6b5ccf569588cdfcab59bc60df94680766f91aa73870",
+    "modifiers": "cde1825a71341f1b8e69cecbe554993b240b8bd0e953adb1cb1d32f8e20f345d",
+    "rig_rest_and_semantics": "a198dbee09d08b4c96c46b966ca2f3dd31868941528bfb4006c86ad57304e620",
+    "pose_state": "3fba05844b0c7a75a16e807e3a3d8933fc888ddc0197bf56e34a4da8b47ebe25",
+    "corrective_geometry_and_driver": "c4939b7d39e3eff2c9cc994f24bf1d6bd75571d48260d9f8ad59b59ce2276e5c"
+  },
+  "saved_ZERO_RSSF": true,
+  "source_candidate_sha256": "c31190de326c5af44baf876f4066a130c8a9fef42d6c71c0071de5f63f0f2750",
+  "review_or_debug_geometry_to_remove": false
+}

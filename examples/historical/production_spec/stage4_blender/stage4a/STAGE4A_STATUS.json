@@ -1,0 +1,239 @@
+{
+ "generated_at": "2026-09-28T09:23:03.102871+08:00",
+ "stage": "STAGE4A_ROUTE_C_BLENDER_ENGINEERING",
+ "revision": "R1 + CMC_LOCALITY_REFINEMENT_R1",
+ "scope": "FRAME NORMALIZATION (CON-9) + TOPOLOGY ENGINEERING (CON-1 / CON-2 / CON-3)",
+ "runtime": {
+  "blender": "5.1.2",
+  "build_hash": "ec6e62d40fa9",
+  "executable": "D:\\Blender\\blender.exe"
+ },
+ "input": {
+  "asset": "production_spec/stage2_bootstrap/RIGHT_HAND_BOOTSTRAP_C1.blend",
+  "role": "STAGE2_FROZEN_BOOTSTRAP_INPUT (byte-frozen, not modified)",
+  "BOOTSTRAP_HASH_PRE": "8fa9a5498dc5b06dc4d8fba116ebe3cedc03e4a4645921ae10df3edab805ef83",
+  "BOOTSTRAP_HASH_POST": "8fa9a5498dc5b06dc4d8fba116ebe3cedc03e4a4645921ae10df3edab805ef83",
+  "byte_unchanged": true
+ },
+ "output": {
+  "primary": "production_spec/stage4_blender/RIGHT_HAND_ENGINEERING_STAGE4A.blend",
+  "candidate_copy": "production_spec/stage4_blender/RIGHT_HAND_ENGINEERING_CANDIDATE_STAGE4A.blend",
+  "sha256": "5f69d1ca4b5a70f4f41d70710d6d8ed9b6ba6c4052a70d4de7c429a5b7bcbf40",
+  "bytes": 2023542,
+  "copies_byte_identical": true
+ },
+ "ASSET_FRAME_NORMALIZATION": "PASS",
+ "CANONICAL_FRAME_VALIDATION": "PASS",
+ "HAND_CHIRALITY_AFTER_NORMALIZATION": "RIGHT_HAND",
+ "OBJECT_SCALE": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "TOPOLOGY_WORKING_BASE": "OFFICIAL_MULTIREZ_L1_APPLIED",
+ "CON_1_MCP_TOPOLOGY": "PASS",
+ "CON_2_THUMB_CMC_TOPOLOGY": "NEEDS_REVISION",
+ "CON_3_POLE_AUDIT": "PROVISIONAL_PASS",
+ "DEFORMATION_TOPOLOGY_READY_FOR_RSSF": false,
+ "STAGE4A_TRI_COUNT": 7084,
+ "STAGE4A_FACE_COUNT": 3542,
+ "STAGE4A_ALL_QUADS": true,
+ "CON_4_NAILS": "PENDING",
+ "CON_5_RSSF_REPOSE": "PENDING",
+ "CON_6_ORIGIN": "PENDING",
+ "CON_7_UV": "PENDING",
+ "frame_after": {
+  "DISTAL_axis": [
+   0.078551,
+   -0.027236,
+   0.996538
+  ],
+  "RADIAL_axis": [
+   0.993587,
+   0.083687,
+   -0.076031
+  ],
+  "DORSAL_axis": [
+   -0.081326,
+   0.99612,
+   0.033635
+  ],
+  "PALMAR_axis": [
+   0.081326,
+   -0.99612,
+   -0.033635
+  ],
+  "DISTAL_dot_+Z": 0.9965,
+  "RADIAL_dot_+X": 0.9936,
+  "DORSAL_dot_+Y": 0.9961,
+  "PALMAR_dot_-Y": -0.9961,
+  "RADIAL_is_+X": true,
+  "DORSAL_is_+Y": true,
+  "DISTAL_is_+Z": true
+ },
+ "con9": {
+  "transform_matrix": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ]
+  ],
+  "equivalent": "Rx(180)",
+  "determinant": 1.0,
+  "orthogonal": true,
+  "scale_factor": 1.0,
+  "applied_to": "MESH DATA (object transform left at identity rotation / uniform scale)",
+  "negative_scale_used": false,
+  "mirror_used": false,
+  "reflection_used": false,
+  "MIRROR_TEST_note": "signed volume is invariant under a proper rotation and flips sign under a reflection; both measurements are taken AFTER the L1 bake so only the frame rotation is under test",
+  "signed_volume_before_rotation_m3": 0.000550383906337511,
+  "signed_volume_after_rotation_m3": 0.0005503800133200457,
+  "signed_volume_ratio": 0.9999929267236553,
+  "signed_volume_sign_preserved": true,
+  "object_scale_after": [
+   1.0,
+   1.0,
+   1.0
+  ]
+ },
+ "chirality": {
+  "triple_DxR_dot_DORSAL": 1.0,
+  "verdict": "RIGHT_HAND"
+ },
+ "thumb_signature": {
+  "thumb_tip_offset_along_PALMAR_mm": 17.497,
+  "thumb_tip_radial_gt_index_mm": 43.779
+ },
+ "functional_lengths_mm": {
+  "little": 89.059,
+  "ring": 88.749,
+  "middle": 91.493,
+  "index": 93.642,
+  "thumb": 98.945
+ },
+ "loop_audit_summary": {
+  "LITTLE_MCP": {
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "LITTLE_PIP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "LITTLE_DIP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "RING_MCP": {
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "RING_PIP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "RING_DIP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "MIDDLE_MCP": {
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "MIDDLE_PIP": {
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "MIDDLE_DIP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "INDEX_MCP": {
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "INDEX_PIP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "INDEX_DIP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "THUMB_CMC": {
+   "effective_loop_count": 3,
+   "meets_min_3": true
+  },
+  "THUMB_MCP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  },
+  "THUMB_IP": {
+   "effective_loop_count": 4,
+   "meets_min_3": true
+  }
+ },
+ "pole_audit_summary": {
+  "poles": 83,
+  "in_deformation_zone": 29,
+  "in_deformation_core": 18,
+  "on_flexion_midline": 0,
+  "created_by_stage4a": 0
+ },
+ "out_of_scope_this_round": [
+  "RSSF re-pose",
+  "nails",
+  "UV re-unwrap",
+  "origin reset",
+  "rig",
+  "skin weights",
+  "left-hand mirror",
+  "animation"
+ ],
+ "STAGE4A": "REVISION_REQUIRED",
+ "RIGHT_HAND_ENGINEERING_STAGE4A": "READY_FOR_HUMAN_REVIEW",
+ "review_outcome": {
+  "received": "STAGE4A = REVISION_REQUIRED",
+  "passed": [
+   "ASSET_FRAME_NORMALIZATION",
+   "CON_1_MCP_TOPOLOGY"
+  ],
+  "provisional": [
+   "CON_3_POLE_AUDIT"
+  ],
+  "failed": [
+   "CON_2_THUMB_CMC_TOPOLOGY"
+  ]
+ },
+ "CMC_LOCALITY_REFINEMENT": "FAILED",
+ "CMC_LOCALITY_REFINEMENT_detail": {
+  "attempted": [
+   "local thenar band re-grid (delete band + bridge/regrid)",
+   "cylinder-restricted plane cut",
+   "geodesic-annulus contour insertion",
+   "exhaustive topological edge-ring scan",
+   "iterated edge relaxation onto the target plane"
+  ],
+  "root_cause": "the thenar quad flow spirals around the first metacarpal base, so no local circumferential edge ring exists between the CMC and the metacarpal shaft; the exhaustive ring scan found near-circular rings ONLY at axial +24..+48 mm (metacarpal/MCP level), never inside the +-12 mm CMC window",
+  "best_achieved": "a CLOSED loop with 26.0 mm axial span (60% better than 66 mm) can be inserted by cutting a geodesic annulus around the CMC, but it leaves ~20 triangles + ~20 pentagons, violating the all-quad requirement",
+  "shipped_artifact": "RIGHT_HAND_ENGINEERING_STAGE4A.blend unchanged (all-quad preserved)"
+ },
+ "CMC_POLE_AUDIT": {
+  "CMC_CORE_POLES": 0,
+  "CMC_FLEXION_MIDLINE_POLES": 4,
+  "CMC_OPPOSITION_PATH_POLES": 0,
+  "verdict": "no pole lies in the CMC bending core or on the opposition path; 4 poles sit on a flexion midline but OUTSIDE the core window (axial 7.8-15.4 mm)"
+ }
+}

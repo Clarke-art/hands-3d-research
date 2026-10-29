@@ -1,0 +1,883 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+当前正式状态
+==================================================
+
+已完成：
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPLICATION_R1
+=
+PASS_APPLIED_TO_NEW_STAGE4C_DERIVED_REVISION
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_GEOMETRY_PROPAGATED_WITH_RIG_AND_WEIGHTS_FROZEN
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_JOINT_REST_ZERO_BIND_REQUALIFIED
+
+当前 R2 donor-transfer derivative：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_donor_transfer_r1/
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend
+
+SHA256：
+
+d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d
+
+当前 weight-vector authority：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+当前 corrected rig authority：
+
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+本轮是：
+
+READ-ONLY STATIC SKIN COMPATIBILITY REQUALIFICATION
+
+不是：
+
+weight rebuild
+
+harmonic solve
+
+Dykstra projection
+
+skin smoothing
+
+scope amendment
+
+R3 rerun
+
+joint relocation
+
+deformation
+
+Stage6A rerun
+
+Stage6B
+
+production promotion。
+
+==================================================
+一、核心问题
+==================================================
+
+证明：
+
+在 geometry 仅改变 approved54 vertices、
+topology 不变、
+rig 不变、
+3416 weight vectors 完全不变的条件下，
+
+当前 R2 skin authority
+是否仍与 donor-restored geometry
+静态兼容。
+
+如果兼容：
+
+继续下游。
+
+如果不兼容：
+
+FAIL CLOSED。
+
+不得自动修权重。
+
+==================================================
+二、禁止重新运行旧 R2 solver
+==================================================
+
+禁止执行：
+
+historical harmonic solver
+
+MED / edge-length weight solve
+
+0.01 geometry prior
+
+Dykstra projection
+
+317 write optimization
+
+任何 weight regeneration。
+
+这些方法曾用于生成 R2 权重，
+
+但本轮不是重新生成权重。
+
+当前唯一 weight authority
+就是已经冻结的：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+==================================================
+三、恢复正式 static skin contract
+==================================================
+
+读取并恢复：
+
+SKIN_STATIC_GATE_SEMANTICS_AND_SCOPE_RECONCILIATION_R1
+
+Human-approved
+SKIN_STATIC_GATE_AND_SCOPE_AMENDMENT
+
+TARGETED_RIG_AND_SKIN_DATA_REBUILD_R2
+
+不得自行创造新的 skin gate。
+
+正式 continuity semantics：
+
+SCOPED_ABSOLUTE_SCREEN_PLUS_NO_REGRESSION_WITH_EXPLICIT_QUALIFICATION
+
+continuity absolute screen：
+
+L∞ <= 0.5
+L1 <= 1.0
+
+canonical forbidden-weight zero：
+
+exact mathematical zero
+
+epsilon = 0
+
+normalization tolerance：
+
+沿用正式 R2 contract。
+
+==================================================
+四、weight payload preflight
+==================================================
+
+clean reopen 当前 donor-transfer R2 derivative。
+
+重新读取：
+
+3416 weight vectors
+
+16 deform groups
+
+group order
+
+zero entries
+
+完整 float32 payload。
+
+要求：
+
+R2_WEIGHT_VECTOR_HASH =
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+如果不匹配：
+
+FAIL_CLOSED_STATIC_SKIN_PAYLOAD_DRIFT
+
+STOP。
+
+==================================================
+五、全 mesh 数学 gate
+==================================================
+
+重新验证全部 3416 vertices：
+
+weight sum
+
+negative values
+
+NaN
+
+Inf
+
+max influences
+
+TIP helper influence
+
+forbidden group influence
+
+illegal cross-digit influence
+
+canonical exact zero。
+
+至少恢复旧 R2 的：
+
+weight sum violations = 0
+
+negative = 0
+
+NaN = 0
+
+Inf = 0
+
+TIP helper violations = 0
+
+FIRST_WEB THUMB_IP violations = 0
+
+illegal cross-digit violations = 0
+
+forbidden residue = 0。
+
+不得仅因为 hash 相同就不重测。
+
+==================================================
+六、cap37
+==================================================
+
+继续使用 frozen：
+
+THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1
+
+37 / 37 membership 不变。
+
+验证：
+
+cap37 weight vectors
+与旧 R2 完全一致。
+
+继续满足：
+
+THUMB_IP dominant
++
+THUMB_MCP continuous blend
+
+corrected arc quintic historical payload preserved。
+
+不要重新根据新 geometry
+计算新的 bone-distance weights。
+
+cap37 geometry 本轮未移动，
+authority 不重开。
+
+==================================================
+七、old cap9
+==================================================
+
+old cap9：
+
+9 / 9 native INDEX_SURFACE
+
+继续验证：
+
+THUMB distal override = 0
+
+INDEX-compatible weight field preserved
+
+所有9点 vector
+与旧 R2 精确一致。
+
+不要重新研究 anatomy。
+
+==================================================
+八、FIRST_WEB21
+==================================================
+
+FIRST_WEB21 membership frozen。
+
+验证：
+
+允许 family 仍只包含 approved shared wrapper：
+
+WRIST_R
+THUMB_CMC_R
+THUMB_MCP_R
+INDEX_MCP_R
+
+THUMB_IP_R = exact 0
+
+TIP helper = exact 0
+
+membership / vector payload
+与旧 R2 一致。
+
+==================================================
+九、fresh R3 只作为 guard
+==================================================
+
+继续使用 frozen：
+
+FRESH_R3_OWNERSHIP_AUTHORITY_R1
+
+仅作为：
+
+side / leakage guard
+
+不得：
+
+重新跑 Dijkstra
+min-cut
+closure
+sheet
+R3 solver
+
+不得将：
+
+THUMB label / INDEX label
+
+重新转换为 one-hot skin weights。
+
+==================================================
+十、edge5879
+==================================================
+
+重新验证：
+
+v1551
+v3125
+
+weight vectors
+与旧 R2 完全一致。
+
+静态 edge5879：
+
+L∞
+L1
+
+应与旧 R2 exact match。
+
+历史旧 R2：
+
+L∞ ≈ 0.06026959419250488
+L1 ≈ 0.16152597963809967
+
+只作为 comparison expectation，
+不要硬编码掩盖真实读取结果。
+
+==================================================
+十一、continuity full rerun
+==================================================
+
+重新执行正式 static continuity validator。
+
+至少覆盖旧 R2 的同一 2127 checked edges：
+
+317 incident/crossing
+FIRST_WEB完整2-ring
+fresh-R3 boundary
+cap37 2-ring
+old cap9 patch
+edge5879 neighborhood
+以及原正式集合。
+
+由于：
+
+topology unchanged
+weight vectors unchanged
+
+理论预期：
+
+每条 edge 的
+L∞ / L1
+应与旧 R2 完全一致。
+
+但必须实际重算并逐 edge 比较。
+
+输出：
+
+STATIC_EDGE_SET_IDENTITY = ?
+
+EDGE_METRIC_EXACT_MATCH_COUNT = ? / 2127
+
+MAX_LINF_DELTA_VS_OLD_R2 = ?
+
+MAX_L1_DELTA_VS_OLD_R2 = ?
+
+如果 topology edge set
+或 weight-edge metric
+出现任何无法解释的不同：
+
+FAIL CLOSED。
+
+==================================================
+十二、16 inherited static debts
+==================================================
+
+旧 R2 保留：
+
+16 inherited qualification debt edges：
+
+1130
+1137
+1171
+1172
+1174
+1176
+1555
+4417
+4421
+4425
+4427
+4428
+4431
+4474
+4881
+5474
+
+本轮必须重新确认：
+
+16 / 16 仍存在
+
+vector endpoints unchanged
+
+L∞ / L1 unchanged
+
+classification 仍为：
+
+INHERITED_COPY_ONLY_STATIC_QUALIFICATION_DEBT
+
+不得写成：
+
+RESOLVED
+
+不得因为 donor geometry 修复
+自动删除它们。
+
+也不得把它们重新算作：
+
+candidate-introduced blocker。
+
+==================================================
+十三、R2 candidate-introduced state
+==================================================
+
+必须重新确认：
+
+R2_INTRODUCED_ABSOLUTE_BLOCKER = 0
+
+R2_WORSENED_ABSOLUTE_BLOCKER = 0
+
+TRUE_SCOPE_CONFLICT = 0
+
+如果 weight-space metrics 完全相同，
+这些结果应保持不变。
+
+==================================================
+十四、approved54 与 static skin 的关系
+==================================================
+
+明确审计 donor-transfer 54 geometry vertices：
+
+与：
+
+historical317 weight-write universe
+
+cap37
+
+old cap9
+
+FIRST_WEB21
+
+freshR3 protected domain
+
+的 ID intersection。
+
+沿用实际结果，不要假设。
+
+对54点及其 incident edges：
+
+记录：
+
+weights
+
+groups
+
+continuity metrics
+
+driver family
+
+是否存在任何 geometry-change-induced
+semantic mismatch。
+
+注意：
+
+不能因为 geometry 改变
+就根据 nearest bone
+重新分配 driver。
+
+已有 skin authority
+仍是正式 authority。
+
+==================================================
+十五、geometry-sensitive compatibility diagnostics
+==================================================
+
+虽然 weight-only gate 应保持不变，
+
+本轮额外只读检查：
+
+donor-restored54 对当前 bones/joints 的
+surface / driver relation
+
+是否出现明显不合理变化。
+
+可以测：
+
+vertex-to-driver distance delta
+
+local edge-length delta
+
+local geometry/weight gradient context
+
+但全部属于：
+
+COMPATIBILITY_DIAGNOSTIC
+
+不是新的 weight authority。
+
+不得因此自动生成新 weights。
+
+如果发现明确严重矛盾：
+
+FAIL CLOSED
+并报告最小 blocker。
+
+==================================================
+十六、不要把 harmonic geometry prior 当 validation gate
+==================================================
+
+旧 R2 solver 使用过：
+
+MED / edge-length coefficients
++
+0.01 geometry prior
+
+那是：
+
+weight construction method
+
+不是当前 weight acceptance gate。
+
+因为 geometry 已改变，
+
+不得：
+
+重新跑 solver
+然后拿新 solver 输出与旧 weights 比较，
+再宣称旧 weights 错。
+
+当前任务只验证：
+
+已有 frozen weights
+是否仍满足正式 static contract。
+
+==================================================
+十七、normalization / exact-zero
+==================================================
+
+重新检查：
+
+3416 normalization
+
+canonical zero
+
+forbidden groups
+
+cleanup55
+
+要求：
+
+cleanup55 forbidden entries
+仍为 exact 0
+
+不允许：
+
+epsilon cutoff
+runtime prune
+重新 normalize
+
+修改现有 payload。
+
+==================================================
+十八、317 authority保持历史语义
+==================================================
+
+317 只是历史已批准 weight-write universe。
+
+本轮：
+
+write count = 0
+
+不得：
+
+重新打开317
+扩展317
+缩减317
+修改其中任何 vector。
+
+只做 compatibility verification。
+
+==================================================
+十九、static skin verdict
+==================================================
+
+如果：
+
+weight hash unchanged
+
+全mesh数学 PASS
+
+cap37 PASS
+
+oldcap9 PASS
+
+FIRST_WEB PASS
+
+freshR3 guard PASS
+
+edge5879 PASS
+
+2127 continuity metrics 与旧 R2 精确一致
+
+16 inherited debts 精确保留
+
+introduced/worsened blocker = 0
+
+approved54 未产生新的明确 authority incompatibility
+
+则输出：
+
+STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_STATIC_SKIN_COMPATIBILITY_REQUALIFIED
+
+并明确：
+
+WEIGHT_REBUILD_REQUIRED = NO
+
+WEIGHT_CHANGE_REQUIRED = NO
+
+SCOPE_EXPANSION_REQUIRED = NO
+
+INHERITED_STATIC_DEBT_COUNT = 16
+
+==================================================
+二十、失败条件
+==================================================
+
+如果任何：
+
+weight hash drift
+
+normalization fail
+
+forbidden residue
+
+TIP influence
+
+FIRST_WEB violation
+
+new illegal cross-digit influence
+
+continuity introduced/worsened blocker
+
+authority mismatch
+
+明确 geometry/driver incompatibility
+
+则：
+
+FAIL_CLOSED_STATIC_SKIN_COMPATIBILITY
+
+只报告最小 blocker。
+
+禁止自动：
+
+solve
+smooth
+normalize
+repair
+expand scope。
+
+==================================================
+二十一、不要运行 deformation
+==================================================
+
+本轮：
+
+POSE RUNS = 0
+STAGE6 RUNS = 0
+
+禁止：
+
+targeted deformation
+IDX flex
+TH_IP
+TH_MCP
+CMC
+opposition
+Full42。
+
+==================================================
+二十二、Full Stage6A 历史保持
+==================================================
+
+继续：
+
+FULL_STAGE6A_REQUALIFICATION_R1
+=
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT =
+9
+
+旧9 crossing：
+
+不修复
+不裁决
+不重新分类。
+
+==================================================
+二十三、输出
+==================================================
+
+至少生成：
+
+STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1_REPORT.md
+
+STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json
+
+STATIC_SKIN_WEIGHT_PAYLOAD_AUDIT_R1.json
+
+STATIC_SKIN_FULL_MESH_MATH_AUDIT_R1.json
+
+STATIC_SKIN_CONTINUITY_EDGE_REVALIDATION_R1.json
+
+STATIC_SKIN_OLD_R2_METRIC_EQUIVALENCE_R1.json
+
+STATIC_SKIN_CAP37_REVALIDATION_R1.json
+
+STATIC_SKIN_OLD_CAP9_REVALIDATION_R1.json
+
+STATIC_SKIN_FIRST_WEB_REVALIDATION_R1.json
+
+STATIC_SKIN_R3_GUARD_REVALIDATION_R1.json
+
+STATIC_SKIN_EDGE5879_REVALIDATION_R1.json
+
+STATIC_SKIN_INHERITED_DEBT_REVALIDATION_R1.json
+
+DONOR_TRANSFER54_SKIN_COMPATIBILITY_DIAGNOSTIC_R1.json
+
+PRODUCTION_READONLY_NO_DRIFT_VERIFICATION.json
+
+==================================================
+二十四、最终必须明确
+==================================================
+
+R2_WEIGHT_HASH = ?
+
+R2_WEIGHT_HASH_MATCH = ?
+
+WEIGHT_SUM_VIOLATIONS = ?
+
+NEGATIVE_COUNT = ?
+
+NAN_COUNT = ?
+
+INF_COUNT = ?
+
+MAX_INFLUENCE_VIOLATIONS = ?
+
+TIP_HELPER_VIOLATIONS = ?
+
+FORBIDDEN_RESIDUE_COUNT = ?
+
+FIRST_WEB_THUMB_IP_VIOLATIONS = ?
+
+ILLEGAL_CROSS_DIGIT_VIOLATIONS = ?
+
+CAP37_WEIGHT_PAYLOAD_MATCH = ?
+
+OLD_CAP9_WEIGHT_PAYLOAD_MATCH = ?
+
+FIRST_WEB_WEIGHT_PAYLOAD_MATCH = ?
+
+EDGE5879_LINF = ?
+
+EDGE5879_L1 = ?
+
+STATIC_CHECKED_EDGE_COUNT = ?
+
+STATIC_EDGE_SET_IDENTITY = ?
+
+EDGE_METRIC_EXACT_MATCH_COUNT = ?
+
+MAX_LINF_DELTA_VS_OLD_R2 = ?
+
+MAX_L1_DELTA_VS_OLD_R2 = ?
+
+ABSOLUTE_CONTINUITY_BLOCKER_COUNT = ?
+
+INHERITED_STATIC_DEBT_COUNT = ?
+
+INHERITED_DEBT_IDENTITY_MATCH = ?
+
+R2_INTRODUCED_BLOCKER_COUNT = ?
+
+R2_WORSENED_BLOCKER_COUNT = ?
+
+TRUE_SCOPE_CONFLICT_COUNT = ?
+
+APPROVED54_INTERSECTION_WITH_317 = ?
+
+GEOMETRY_DRIVER_COMPATIBILITY_DIAGNOSTIC = ?
+
+WEIGHT_REBUILD_REQUIRED = ?
+
+WEIGHT_CHANGE_REQUIRED = ?
+
+SCOPE_EXPANSION_REQUIRED = ?
+
+POSE_RUNS = 0
+
+STAGE6_RUNS = 0
+
+FULL_STAGE6A_STATUS_RETAINED =
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT_RETAINED =
+9
+
+PROTECTED_HISTORY_DRIFT = ?
+
+VERDICT = ?
+
+==================================================
+二十五、NEXT
+==================================================
+
+如果 PASS：
+
+NEXT =
+TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+只记录，不执行。
+
+后续顺序：
+
+true-cap geometry-dependent revalidation
+→
+targeted deformation revalidation
+→
+Full42 Stage6A
+→
+Human Review
+→
+之后才可能 Stage6B。
+
+STOP。

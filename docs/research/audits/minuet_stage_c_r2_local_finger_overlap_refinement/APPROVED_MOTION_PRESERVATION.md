@@ -1,0 +1,11 @@
+# Approved source and non-target motion preservation
+
+All10691 current historical/protected files, including Stage A R2, Stage B R3 and Stage C R1 source Blends, motions, MIDI, media and reports, match their intake SHA snapshot. Authoritative approved source identities are verified before diagnosis and again at delivery. No source Human status/report is rewritten; the new Human receipt records that C1 overall naturalness was accepted but local defect review is reopened. The four approved static scenes in the new Blend match the original frozen core SHA values.
+
+Actual root/bone basis, actual evaluated skin, pad markers and skin pad vertices are compared at1135 presentation/music times, including every source key, all357 video frames, fractional NOTE_ON/OFF/press/release probes and240Hz local samples, before save and after reopen. Both root matrix differences:0.0; non-target local bone-basis maximum:0.0; left actual skin maximum:0.0mm; right actual skin outside support:0.0mm; non-ring marker maximum:0.0mm; key-angle maximum:0.0rad. All are zero.
+
+Only RING_MCP_R spread in the finite window is deliberately different. Maximum target angular offset6degrees; maximum ring marker displacement across preparation/hold/recovery:6.17322mm. The original scalar flexion definition, PIP/DIP curve groups, all other fingers, root paths and musical ownership remain. Only C5 R04 has a locally changed active finger spread, justified by the original shared middle-OFF/ring-ON crossing. Actual C5 skin cap P90 minimum key-edge margin:6.42469mm; contact stays on its correct key.
+
+Global active marker absolute gap maximum:2.02587mm; active skin absolute gap maximum:2.04595mm; horizontal miss:0.0mm. Original3mm contact domain is retained, not relaxed. The analytic envelope has zero position/velocity/acceleration correction at the outer boundaries; source and corrected sampled Actions remain LINEAR and finite bake diagnostics are retained. Changed DOF range and finite velocity/acceleration:LOCAL_DOMAIN_AND_CONTINUITY.json.
+
+Complete data:SAVED_CANDIDATE_VALIDATION.json, ACTIVE_RING_C5_CAP_READBACK.json, STATIC_FOUR_SCENES_PRESERVED.json, APPROVED_SOURCE_PROTECTION.json. Geometry preservation and finite functional checks do not constitute Human acceptance of the new local motion.

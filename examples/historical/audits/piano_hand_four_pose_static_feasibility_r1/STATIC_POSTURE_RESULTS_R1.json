@@ -1,0 +1,750 @@
+{
+  "phase": "PIANO_HAND_FOUR_POSE_STATIC_FEASIBILITY_R1",
+  "candidate_count": 1,
+  "candidate_created": true,
+  "policy_sha256": "d289ec7eb9089bfde1bd18958e0dcc321e5c0cd24c89e2e9c0a627e4344cec61",
+  "candidate_sha256": "c60cdd3b36a786ec8b168473c24b2320ca499e45828cc17deb79191fc145a199",
+  "poses": {
+    "L1": {
+      "execution": "GENERATED_SAVED_REOPENED",
+      "STATIC_GEOMETRIC_FEASIBILITY": "PASS_SCREEN",
+      "active_contact": {
+        "finger": 5,
+        "fixed_pad": {
+          "xyz_mm": [
+            -302.6474416255951,
+            28.551049530506134,
+            0.5856057978235185
+          ],
+          "midi": 38,
+          "note": "D2",
+          "vertical_gap_mm": 0.5856058771807598,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        },
+        "skin_pad": {
+          "xyz_mm": [
+            -302.65653133392334,
+            28.569184243679047,
+            0.6009414792060852
+          ],
+          "midi": 38,
+          "note": "D2",
+          "vertical_gap_mm": 0.6009415585633265,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        }
+      },
+      "prepared_fingers": [
+        {
+          "xyz_mm": [
+            -150.5717635154724,
+            27.51651033759117,
+            8.047949522733688
+          ],
+          "midi": 50,
+          "note": "D3",
+          "vertical_gap_mm": 8.04794960209093,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 1,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              -150.5718231201172,
+              27.516692876815796,
+              8.047956973314285
+            ],
+            "midi": 50,
+            "note": "D3",
+            "vertical_gap_mm": 8.047957052671526,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        }
+      ],
+      "all_required_fixed_pad_contacts_pass": true,
+      "all_required_skin_pad_contacts_pass": true,
+      "all_prepared_regions_and_gaps_pass": true,
+      "joint_policy_bounds_pass": true,
+      "joint_increments_deg": [
+        [
+          6.196633513791858,
+          7.776650167702073,
+          4.656048903960169,
+          -6.396701581635437
+        ],
+        [
+          2.0,
+          3.0000000000000004,
+          2.0,
+          -1.1150579269690168e-18
+        ],
+        [
+          0.6968903210417503,
+          2.881783438903786,
+          1.6774863089088923,
+          -0.24070933724100899
+        ],
+        [
+          4.0,
+          4.0,
+          2.0,
+          5.096855351294725e-19
+        ],
+        [
+          31.999999999994962,
+          19.2014113548718,
+          3.655862887885047e-06,
+          18.102791438645095
+        ]
+      ],
+      "root_xyz_mm": [
+        -221.42357486775788,
+        -80.27161627785124,
+        69.99999999999999
+      ],
+      "root_yaw_pitch_roll_deg": [
+        9.851920969076906,
+        -6.788199200607207,
+        -6.0
+      ],
+      "actual_pad_span_thumb_little_mm": 152.26217100075786,
+      "pad_skin_drift_mm": [
+        0.0001921686586220403,
+        0.004801870294007485,
+        0.0068130131295264275,
+        0.007196366174579481,
+        0.02542978062870414
+      ],
+      "HUMAN_VISIBLE_NATURALNESS": "HUMAN_PENDING",
+      "classification": "PASS_CANDIDATE",
+      "continuous_transition_proven": false,
+      "ACTIVE_PAD_CONTACT": "PASS",
+      "IDLE_FINGER_CLEARANCE": "PASS_SCREEN",
+      "PALM_CLEARANCE": "PASS_SCREEN",
+      "WRIST_CLEARANCE": "PASS_SCREEN",
+      "NEIGHBOR_KEY_INTERFERENCE": "PASS_SCREEN",
+      "JOINT_POSTURE": "BOUNDED_NO_OBVIOUS_REVERSE / HUMAN_PENDING",
+      "observations": [
+        "小指指垫接近 D2 前部内侧，拇指在 D3 上方准备。三闲置指沿 RSSF 曲度延伸、相互留间距，未见统一钩爪或强制拉直。",
+        "侧斜视/近景未见掌部压入键盘、腕部反折或明显新网格崩塌；70mm wrist root 和有界旋转的自然程度需 Human 判断。",
+        "小指 MCP 增量触及 32° 预设边界，不能将候选称为已校准生理手型。"
+      ]
+    },
+    "L2": {
+      "execution": "GENERATED_SAVED_REOPENED",
+      "STATIC_GEOMETRIC_FEASIBILITY": "PASS_SCREEN",
+      "active_contact": {
+        "finger": 1,
+        "fixed_pad": {
+          "xyz_mm": [
+            -152.17934548854828,
+            17.049677670001984,
+            1.556082395836711
+          ],
+          "midi": 50,
+          "note": "D3",
+          "vertical_gap_mm": 1.5560824751939524,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        },
+        "skin_pad": {
+          "xyz_mm": [
+            -152.17939019203186,
+            17.04970747232437,
+            1.5560248866677284
+          ],
+          "midi": 50,
+          "note": "D3",
+          "vertical_gap_mm": 1.5560249660249699,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        }
+      },
+      "prepared_fingers": [
+        {
+          "xyz_mm": [
+            -307.9967200756073,
+            37.97426074743271,
+            6.926257628947496
+          ],
+          "midi": 38,
+          "note": "D2",
+          "vertical_gap_mm": 6.926257708304738,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 5,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              -308.01746249198914,
+              38.002483546733856,
+              6.942305713891983
+            ],
+            "midi": 38,
+            "note": "D2",
+            "vertical_gap_mm": 6.942305793249225,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        }
+      ],
+      "all_required_fixed_pad_contacts_pass": true,
+      "all_required_skin_pad_contacts_pass": true,
+      "all_prepared_regions_and_gaps_pass": true,
+      "joint_policy_bounds_pass": true,
+      "joint_increments_deg": [
+        [
+          1.677825960007202,
+          24.999999999999996,
+          17.999999999999996,
+          -7.3327881121157805
+        ],
+        [
+          2.0,
+          3.0000000000000004,
+          2.0,
+          2.3558131838351986e-16
+        ],
+        [
+          0.696890320189889,
+          2.8817834423097657,
+          1.6774863002166143,
+          -0.24070933534358288
+        ],
+        [
+          4.0,
+          4.0,
+          2.0,
+          -2.956370412044306e-18
+        ],
+        [
+          20.22528647019159,
+          12.590010460956526,
+          4.409561489592231,
+          11.889375722931675
+        ]
+      ],
+      "root_xyz_mm": [
+        -221.42357486775788,
+        -80.27161627785124,
+        69.99999999999999
+      ],
+      "root_yaw_pitch_roll_deg": [
+        9.851920969076906,
+        -6.788199200607207,
+        -6.0
+      ],
+      "actual_pad_span_thumb_little_mm": 157.30775944689594,
+      "pad_skin_drift_mm": [
+        7.87012349400174e-05,
+        0.004801870294007485,
+        0.0068130131295264275,
+        0.007196366174579481,
+        0.038526812327725264
+      ],
+      "HUMAN_VISIBLE_NATURALNESS": "HUMAN_PENDING",
+      "classification": "PASS_CANDIDATE",
+      "continuous_transition_proven": false,
+      "ACTIVE_PAD_CONTACT": "PASS",
+      "IDLE_FINGER_CLEARANCE": "PASS_SCREEN",
+      "PALM_CLEARANCE": "PASS_SCREEN",
+      "WRIST_CLEARANCE": "PASS_SCREEN",
+      "NEIGHBOR_KEY_INTERFERENCE": "PASS_SCREEN",
+      "JOINT_POSTURE": "BOUNDED_NO_OBVIOUS_REVERSE / HUMAN_PENDING",
+      "observations": [
+        "拇指皮肤 pad 在 D3 前部内侧，小指处于 D2 准备；三闲置指与 L1 几乎相同。",
+        "共同 root 无平移/旋转；拇指弯曲集中到 MCP/IP，触及 25°/18° 工程边界，需 Human 判断是否显得紧张。",
+        "未见明确反关节、掌腕压键或新的大面积塌陷；静态接触成立不能证明交替运动自然。"
+      ]
+    },
+    "R1": {
+      "execution": "GENERATED_SAVED_REOPENED",
+      "STATIC_GEOMETRIC_FEASIBILITY": "FAIL_SCREEN",
+      "active_contact": null,
+      "prepared_fingers": [
+        {
+          "xyz_mm": [
+            191.46203994750977,
+            8.796083740890026,
+            9.19919554144144
+          ],
+          "midi": 74,
+          "note": "D5",
+          "vertical_gap_mm": 9.199195620798681,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 1,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              191.4616823196411,
+              8.79625789821148,
+              9.199137799441814
+            ],
+            "midi": 74,
+            "note": "D5",
+            "vertical_gap_mm": 9.199137878799055,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        },
+        {
+          "xyz_mm": [
+            215.5478596687317,
+            54.670270532369614,
+            6.861462723463774
+          ],
+          "midi": 76,
+          "note": "E5",
+          "vertical_gap_mm": 6.861462802821015,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 2,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              215.55130183696747,
+              54.68291789293289,
+              6.869134493172169
+            ],
+            "midi": 76,
+            "note": "E5",
+            "vertical_gap_mm": 6.86913457252941,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        },
+        {
+          "xyz_mm": [
+            251.62208080291748,
+            72.09119945764542,
+            22.800128906965256
+          ],
+          "midi": 78,
+          "note": "F#5",
+          "vertical_gap_mm": 7.3559488691656485,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 3,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              251.6239583492279,
+              72.09576666355133,
+              22.80542254447937
+            ],
+            "midi": 78,
+            "note": "F#5",
+            "vertical_gap_mm": 7.361242506679763,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        },
+        {
+          "xyz_mm": [
+            263.3744478225708,
+            50.97631737589836,
+            6.940850522369146
+          ],
+          "midi": 79,
+          "note": "G5",
+          "vertical_gap_mm": 6.940850601726388,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 4,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              263.37650418281555,
+              50.994932651519775,
+              6.949238479137421
+            ],
+            "midi": 79,
+            "note": "G5",
+            "vertical_gap_mm": 6.949238558494662,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        },
+        {
+          "xyz_mm": [
+            289.39342498779297,
+            25.699786841869354,
+            9.753833524882793
+          ],
+          "midi": 81,
+          "note": "A5",
+          "vertical_gap_mm": 9.753833604240034,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 5,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              289.40510749816895,
+              25.711704045534134,
+              9.76894423365593
+            ],
+            "midi": 81,
+            "note": "A5",
+            "vertical_gap_mm": 9.76894431301317,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        }
+      ],
+      "all_required_fixed_pad_contacts_pass": true,
+      "all_required_skin_pad_contacts_pass": true,
+      "all_prepared_regions_and_gaps_pass": true,
+      "joint_policy_bounds_pass": true,
+      "joint_increments_deg": [
+        [
+          1.198331690016013,
+          0.27360315862881257,
+          3.391859227510742e-29,
+          -23.392412486857
+        ],
+        [
+          14.448219959942385,
+          11.465204864160315,
+          6.422811234438554,
+          -12.357213957739713
+        ],
+        [
+          1.019460687556349,
+          2.555044532484981,
+          1.7919496624072884,
+          -6.787141092009291
+        ],
+        [
+          9.185874056347483,
+          9.637453705530758,
+          5.7541568556020986,
+          4.088893680642686
+        ],
+        [
+          15.720697303704666,
+          6.694272133681867,
+          2.0627911747689276,
+          17.776028863701494
+        ]
+      ],
+      "root_xyz_mm": [
+        230.00000000000003,
+        -120.09004830240555,
+        44.000000483776354
+      ],
+      "root_yaw_pitch_roll_deg": [
+        -4.400212322040266,
+        2.328990616894215,
+        5.972526401109254
+      ],
+      "actual_pad_span_thumb_little_mm": 99.38107957617957,
+      "pad_skin_drift_mm": [
+        0.00040194850860945106,
+        0.015187504793073034,
+        0.007239278145343456,
+        0.02052108483155431,
+        0.022512980955421504
+      ],
+      "HUMAN_VISIBLE_NATURALNESS": "FAIL_NEIGHBOR_CLEARANCE_RISK",
+      "classification": "FAIL_CLEARANCE",
+      "continuous_transition_proven": false,
+      "ACTIVE_PAD_CONTACT": "PASS",
+      "IDLE_FINGER_CLEARANCE": "FAIL_RISK",
+      "PALM_CLEARANCE": "PASS_SCREEN",
+      "WRIST_CLEARANCE": "PASS_SCREEN",
+      "NEIGHBOR_KEY_INTERFERENCE": "FAIL_RISK",
+      "JOINT_POSTURE": "BOUNDED_NO_OBVIOUS_REVERSE / HUMAN_PENDING",
+      "observations": [
+        "五指呈不同前后/高度布局，中指靠近 F#5 黑键；未强迫同时触键。",
+        "正常近景显示食指/无名指与相邻黑键边缘空间挤压；D#5/G#5 全网格筛查仍命中，风险不能排除，保守 FAIL_CLEARANCE。",
+        "掌腕自身没有深度穿键筛查命中；该事实不能抵消闲置指邻键风险。"
+      ]
+    },
+    "R2": {
+      "execution": "GENERATED_SAVED_REOPENED",
+      "STATIC_GEOMETRIC_FEASIBILITY": "FAIL_SCREEN",
+      "active_contact": {
+        "finger": 3,
+        "fixed_pad": {
+          "xyz_mm": [
+            251.34339928627014,
+            68.57936084270477,
+            15.941007062792778
+          ],
+          "midi": 78,
+          "note": "F#5",
+          "vertical_gap_mm": 0.4968270249931708,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        },
+        "skin_pad": {
+          "xyz_mm": [
+            251.34727358818054,
+            68.58948618173599,
+            15.949837863445282
+          ],
+          "midi": 78,
+          "note": "F#5",
+          "vertical_gap_mm": 0.5056578256456747,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        }
+      },
+      "prepared_fingers": [
+        {
+          "xyz_mm": [
+            191.46203994750977,
+            8.796083740890026,
+            9.19919554144144
+          ],
+          "midi": 74,
+          "note": "D5",
+          "vertical_gap_mm": 9.199195620798681,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 1,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              191.4616823196411,
+              8.79625789821148,
+              9.199137799441814
+            ],
+            "midi": 74,
+            "note": "D5",
+            "vertical_gap_mm": 9.199137878799055,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        },
+        {
+          "xyz_mm": [
+            215.5478596687317,
+            54.670270532369614,
+            6.861462257802486
+          ],
+          "midi": 76,
+          "note": "E5",
+          "vertical_gap_mm": 6.861462337159728,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 2,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              215.55130183696747,
+              54.68291789293289,
+              6.869134493172169
+            ],
+            "midi": 76,
+            "note": "E5",
+            "vertical_gap_mm": 6.86913457252941,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        },
+        {
+          "xyz_mm": [
+            263.3744478225708,
+            50.97631737589836,
+            6.940850522369146
+          ],
+          "midi": 79,
+          "note": "G5",
+          "vertical_gap_mm": 6.940850601726388,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 4,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              263.37650418281555,
+              50.994932651519775,
+              6.949238479137421
+            ],
+            "midi": 79,
+            "note": "G5",
+            "vertical_gap_mm": 6.949238558494662,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        },
+        {
+          "xyz_mm": [
+            289.39342498779297,
+            25.699786841869354,
+            9.753833524882793
+          ],
+          "midi": 81,
+          "note": "A5",
+          "vertical_gap_mm": 9.753833604240034,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 5,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              289.40510749816895,
+              25.711704045534134,
+              9.76894423365593
+            ],
+            "midi": 81,
+            "note": "A5",
+            "vertical_gap_mm": 9.76894431301317,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        }
+      ],
+      "all_required_fixed_pad_contacts_pass": true,
+      "all_required_skin_pad_contacts_pass": true,
+      "all_prepared_regions_and_gaps_pass": true,
+      "joint_policy_bounds_pass": true,
+      "joint_increments_deg": [
+        [
+          1.1983317662332948,
+          0.27360329456851556,
+          1.2088533204619062e-30,
+          -23.392412463402156
+        ],
+        [
+          14.448220260479198,
+          11.465203778602255,
+          6.4228103105483765,
+          -12.35721364093778
+        ],
+        [
+          4.452219185076405,
+          6.531050607453595,
+          3.4753374092933966,
+          -7.855985256577986
+        ],
+        [
+          9.185874278059469,
+          9.637453652333987,
+          5.754157104687873,
+          4.088893693515618
+        ],
+        [
+          15.720697360788018,
+          6.6942718845913864,
+          2.062791736131679,
+          17.77602881615689
+        ]
+      ],
+      "root_xyz_mm": [
+        230.00000000000003,
+        -120.09004830240555,
+        44.000000483776354
+      ],
+      "root_yaw_pitch_roll_deg": [
+        -4.400212322040266,
+        2.328990616894215,
+        5.972526401109254
+      ],
+      "actual_pad_span_thumb_little_mm": 99.38107957617957,
+      "pad_skin_drift_mm": [
+        0.00040194850860945106,
+        0.01518774002110826,
+        0.013982694516949631,
+        0.02052108483155431,
+        0.022512980955421504
+      ],
+      "HUMAN_VISIBLE_NATURALNESS": "FAIL_NEIGHBOR_CLEARANCE_RISK",
+      "classification": "FAIL_CLEARANCE",
+      "continuous_transition_proven": false,
+      "ACTIVE_PAD_CONTACT": "PASS",
+      "IDLE_FINGER_CLEARANCE": "FAIL_RISK",
+      "PALM_CLEARANCE": "PASS_SCREEN",
+      "WRIST_CLEARANCE": "PASS_SCREEN",
+      "NEIGHBOR_KEY_INTERFERENCE": "FAIL_RISK",
+      "JOINT_POSTURE": "BOUNDED_NO_OBVIOUS_REVERSE / HUMAN_PENDING",
+      "observations": [
+        "中指固定 pad 和皮肤 pad 均在 F#5 真实顶面，较 R1 下降约 6.86mm，并适度改变曲度；其他四指和 root 几乎不变。",
+        "食指/无名指邻 D#5/G#5 的风险继承，不以中指接触成功掩盖。",
+        "没有明显腕部大角度扭转或反关节，但右手整体净空不能 PASS。"
+      ]
+    }
+  },
+  "solver_diagnostics": {
+    "L": {
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 50,
+      "njev": 40,
+      "cost": 44.30561315582314,
+      "optimality": 0.004101595156226769,
+      "one_initialization": true,
+      "restart_count": 0,
+      "elapsed_sec_since_start": 5.281000000000859,
+      "active_bound_variables": [
+        2,
+        5,
+        22,
+        27,
+        28
+      ]
+    },
+    "R": {
+      "success": true,
+      "status": 2,
+      "message": "`ftol` termination condition is satisfied.",
+      "nfev": 18,
+      "njev": 18,
+      "cost": 28.316138546298596,
+      "optimality": 4.011408333072978e-05,
+      "one_initialization": true,
+      "restart_count": 0,
+      "elapsed_sec_since_start": 7.875,
+      "active_bound_variables": [
+        0,
+        2,
+        8,
+        28
+      ]
+    }
+  },
+  "FINAL_STATUS": "STATIC_FEASIBILITY_PARTIAL",
+  "failure_layers": {
+    "technical_runtime": "NONE: all four saved/reopened/rendered",
+    "IK_SOLVER_FAILURE": "NOT_OBSERVED: both shared-root solves converged",
+    "POSTURE_CONSTRAINT_LIMIT": "One fixed proxy/prior policy yielded right neighbor clearance risks and left bound saturation; no follow-up tuning",
+    "GEOMETRY_LIMIT": "NOT_PROVEN; no claim frozen hand absolutely unreachable",
+    "REFERENCE_EVIDENCE_LIMIT": "Still incomplete but not an execution blocker under current Human authorization"
+  },
+  "dynamic_transition_proven": false,
+  "human_approval": false
+}

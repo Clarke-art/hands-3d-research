@@ -1,0 +1,37 @@
+{
+  "status": "EXECUTED_REAL_FROZEN_RIG_ADAPTER_FROM_SERIALIZED_INTENT",
+  "candidates": [
+    {
+      "intent_id": "high_level_front",
+      "serialized_intent_consumed": true,
+      "source_contract": "HAND_MOTION_INTENT_CONTRACT_CHECKS.json:actual_instances",
+      "key_index_not_note_name": true,
+      "input_pose_is_historical_failed_baseline": true,
+      "output_control_max_difference_from_Blender_checked_candidate": 0.0,
+      "output_full_state_difference": 0.0,
+      "frame": 2.869521666666667,
+      "actual_geometry_reused_by_identical_state": true,
+      "all_actual_gates": false
+    },
+    {
+      "intent_id": "high_level_above",
+      "serialized_intent_consumed": true,
+      "source_contract": "HAND_MOTION_INTENT_CONTRACT_CHECKS.json:actual_instances",
+      "key_index_not_note_name": true,
+      "input_pose_is_historical_failed_baseline": true,
+      "output_control_max_difference_from_Blender_checked_candidate": 0.0,
+      "output_full_state_difference": 0.0,
+      "frame": 2.869521666666667,
+      "actual_geometry_reused_by_identical_state": true,
+      "all_actual_gates": true
+    }
+  ],
+  "additional_candidate_count": 0,
+  "additional_optimizer_calls": 0,
+  "elapsed_seconds": 1.1569999999992433,
+  "unimplemented": [
+    "LEFT_OR_BIMANUAL_ADAPTER",
+    "CONTINUOUS_CORRIDOR_TRACKING",
+    "GENERATED_HUMAN_MOTION_PRIOR"
+  ]
+}

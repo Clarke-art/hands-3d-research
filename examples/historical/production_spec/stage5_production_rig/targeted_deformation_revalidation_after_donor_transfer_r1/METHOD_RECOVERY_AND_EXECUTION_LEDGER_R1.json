@@ -1,0 +1,153 @@
+{
+  "reused_functions": [
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_common.py",
+        "sha256": "54313d7e54c12f8817134a2d11019dc4d84f7cf46ee7214a0f8d00c0a886a057"
+      },
+      "function_AST_sha256": {
+        "reset_pose": "a0e34ed25951dbed09613eaa4be2003171ce55d1b49a023d6e129d85f1f39ade",
+        "set_joint_rotation": "93132ce711a774eb7018c52e8fec9753d6ffa5d70e6e9e19eed3e4684a438e3b",
+        "update": "a05c2813c3d379d754d5e4a4cc0ed9362aca6102f60540d896519cd47c275d22",
+        "evaluate": "2ad44b115d68c75ac763da56a0f8c7fb3ed85e5cc4a80a80b929d35c30c940a5",
+        "read_weights": "4312aebb6d7e98a72e43cfb95d2d19b8a460a35b2d716284aa2467b782c967dd"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6a/scripts/s6a_common.py",
+        "sha256": "cceedf3db14c9327de2e44e6a22457db11a793354922c8353ec65081043d5cf9"
+      },
+      "function_AST_sha256": {
+        "pose_state": "dbf4989e10e171b7ecd6d54435f329adb672df9e4743d5edb7ed57a278f9d9de",
+        "face_area": "a4e8f204e96dee66a0183b98b1ca6fa203f25d8df62f46cd713a8c24bac38e99",
+        "face_normal": "5bedd9a621173ec49de8c39cedf1f593464752fa017d8f75ede7ebc105314d8a"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6b_r1c/scripts/r1c_pen_common.py",
+        "sha256": "83e9b51f6f6b97e39929b0b083d28ac33ccb150d22b6bd78f3a1cd30937924db"
+      },
+      "function_AST_sha256": {
+        "ray_triangle": "1e3e76039beba7697905e58096c4aa51c21be7b11710372fb6fb31fecc01782b",
+        "tri_tri_intersection": "e92e21a00b586ffdb27baeecc98eb41e5fdb894f4a4ddbb2abe8432f3f862d63",
+        "seg_len": "0d93cf8c0e802427bd34982ec33ef99f3cc00adbfb9814fecee6cfd9ab6d76a8",
+        "poke_depth": "fd50a1f140e3fbd2f9fe8064cefd3d1c65c60ee07e0d3daf2d032fea439d46cd",
+        "closest_point_on_triangle": "3d2e8eae2f0fcc895b912b173f3012b5408329d32787bdd1aea774a8a42b77fe",
+        "tris_of": "609573714c76e879ece5255a5f10da47e65ce017381acb02adb80f5e207ba0c6"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_after_approval_r1/blender_extract.py",
+        "sha256": "1161a123785c19a59eb455e0e3f262cfdb464d9929cf30648d69cc4aeeb81438"
+      },
+      "function_AST_sha256": {
+        "mesh_payload": "811a26192954ebb0ab0be93f3c3a4cd455890f1e1ee0c38e7ddd6a56cffc6c3e",
+        "rig_payload": "f5ada45711a53d771031a97af1b95199982801e2a823c1f45ba4c71c336d912c",
+        "weights": "fab6beea6c9aa0f3eddfb15e4e364fe52ec80b20d890e0f83e29d0ab78cbcdbd"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_prequal.py",
+        "sha256": "6c24993810a89cd4a5180338bcaad86ca3cc332d78fa2188342f3e1c18dc4178"
+      },
+      "function_AST_sha256": {
+        "set_s6a": "4fb49830941b9261b506b4263ce829ce572228e9dfb1e4dee8f55ed5592795a2",
+        "set_s6b": "e81f0359b06e35362671e7821d31db8fa74ccaebdb4aacc86b1808212c1b30d3",
+        "intersect_pairs": "92409cfc5fc948e164bb011465ee64cb835685db79b4bc2f61ac7976300cd977"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6a_r1b/scripts/s6a_r1b_run_cases.py",
+        "sha256": "25feb79dca7b629d82b49d39c878884bcc968b9acc534a80d6dee6159429512c"
+      },
+      "function_AST_sha256": {
+        "metrics": "837b42feb9b0d808d4ae3ec2e5050461fe6d9593c8174534d13abdcb84bd5841"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6b_r1c/scripts/r1c_pen_v2.py",
+        "sha256": "cbffb61e7e3bbb44a47bb53c2c488b890c37905481727532b343d36b78f8e6ae"
+      },
+      "function_AST_sha256": {
+        "tri_of": "f29a043f2af5462a377697442788025cd46af2b58b812fc66ebe6d5b3e491ac4",
+        "tri_mean_edge": "f1d2edc542ba31e72386434454e2e92bb15a689865ea99263978e72ebc70b459",
+        "pair_evidence": "cfde87cdbbb6ebeb3b4cd37b6e688c7687b3feb3e56af8ba9d59293087e7ea2f",
+        "classify": "9e6d38ebec6e9dd096428c07241da790461cff26638dff99487ef169cf889236"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/cap_fixture_static_validation_and_targeted_deformation_r1/run_targeted.py",
+        "sha256": "d57201f705c0164fd00ba1b070c59c6006cb228eef06f659e8cd0e5260a3010f"
+      },
+      "function_AST_sha256": {
+        "local_metrics": "ac4b2cab99a31ce5ed08271ead1fcd14d025d29953fa897cbf7fa13edc806cbe"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage6_deformation/stage6b_r1c/scripts/r1c_pen_common.py",
+        "sha256": "83e9b51f6f6b97e39929b0b083d28ac33ccb150d22b6bd78f3a1cd30937924db"
+      },
+      "function_AST_sha256": {
+        "ortho_basis": "e314beee16aa78f216688a597c70769f345966e51cabe8196311b799c7f78e4b",
+        "View": "8c7ea402695614ac23199aaefd036effb28dd1c877bc88ecc6c0f29483c0cfe5",
+        "face_normals": "ed584e46717a15aa39c387f0ff897b1f6f11fdf2844f2ee4c8bc338e6b1225f2",
+        "Canvas": "d642cc6d8ad422c10f604f399e3afb2958a5bde551b8cdb4996bebe4a6445b93",
+        "save": "06bad6ca0bf447987c5a347dc12ee3e17277b4f085cc285d268cc3d983c4c236"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_prequal.py",
+        "sha256": "6c24993810a89cd4a5180338bcaad86ca3cc332d78fa2188342f3e1c18dc4178"
+      },
+      "function_AST_sha256": {
+        "fit_view": "9938bce8b19ee483ae02809b0a71a5ed12484e446524711502a6f33216a5f150",
+        "shade": "ec59183bef76556c4f797a628788758f5255ca57fbab23b7c634b1c29829eb33",
+        "draw_solid": "94a72755d7a1d814b31d5ad56cd76e762279ca960689a90adc6dccb55633145d",
+        "strain_fn": "87be060cefdf6a81b1ef34e34c921667a16fff071bae8cc8428282f8d5bfba2a"
+      },
+      "top_level_executed": false
+    }
+  ],
+  "existing_thresholds": {
+    "severe_x": 5.0,
+    "severe_min_bind_mm": 3.0,
+    "tear_strain_x": 3.0,
+    "tear_strain_min_posed_mm": 5.0,
+    "collapse_area_m2": 1e-12,
+    "collapse_area_ratio": 1e-06,
+    "local_surface_destruction_area_ratio": 0.05
+  },
+  "historical_metric_reproduction_exact": true,
+  "pose_identity": "Historical local-X minus angles; CMC case matrix quaternion with original MCP/IP angles. Three RING local-X minus15/30/45 only.",
+  "production_file_writes": 0,
+  "blender_endpoint_pose_runs": 2,
+  "endpoint_pose_applications": 20,
+  "distinct_pose_definitions": 10,
+  "pre_pose_launcher_retries": 2,
+  "launcher_retry_scope": "Import-path corrections before any source asset/pose execution",
+  "render_only_replay_runs": 1,
+  "render_only_replay_reason": "Dorsal view axis reversed to account for existing minimum-depth z buffer; no pose reapplication",
+  "coordinate_crossing_replay_runs": 1,
+  "full_Stage6A_runs": 0,
+  "Stage6B_runs": 0,
+  "true_cap_recomputations": 0,
+  "next_executed": false
+}

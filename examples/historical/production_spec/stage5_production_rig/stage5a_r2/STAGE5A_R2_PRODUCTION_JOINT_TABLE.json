@@ -1,0 +1,437 @@
+{
+ "stage": "STAGE5A_R2_PRODUCTION_JOINT_LANDMARK_REQUALIFICATION",
+ "generated_at": "2026-09-29T09:51:37.340205+08:00",
+ "artifact_sha256": "615367d7fab3e75431fa7171e7e82f3a655c62e29ad7ddca5509b093e9f68c81",
+ "criterion": "21 joints: every requalified joint is inside the mesh (ray parity) and satisfies its region authority (approved CMC cage region / approved T-01 axial zone / fingertip apex within 5 mm); the 15 frozen joints are byte-identical to R1",
+ "authorized_to_change": [
+  "INDEX_MCP_R",
+  "THUMB_CMC_R",
+  "THUMB_MCP_R",
+  "THUMB_TIP_R",
+  "WRIST_R"
+ ],
+ "joints": {
+  "WRIST_R": {
+   "joint_name": "WRIST_R",
+   "world_position": [
+    1.406007767,
+    0.016420959,
+    0.358511657
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 18.901,
+   "R1_authored_position": [
+    1.408704638,
+    0.022395039,
+    0.335847497
+   ],
+   "shift_from_R1_mm": 23.592942,
+   "authority": "STAGE5A_R2 PRODUCTION wrist/palm transition centre (decoupled from the asset origin)",
+   "validation_method": "PRODUCTION_WRIST_TRANSITION_CENTRE.  (1) forearm frame: e_long = forearm-cap centroid -> wrist-basin centroid; e_dorsal = the palm-plane normal; e_lateral = e_long x e_dorsal (positive side chosen toward the thumb).  (2) axial sections (2 mm step, +/-3 mm slab, vertices within R_MAX = 45 mm of the arm axis so the thumb column is excluded) from the approved wrist basin distally to just proximal of the first carpo-metacarpal level (the scan stops BEFORE the palm body / MCP region, not at an arbitrary offset).  (3) DECLARED, reproducible transition rule: A_ref = the median section area over the proximal 20% of the window (the forearm reference); s_on = the first section distal of the wrist constriction with A >= 1.03 A_ref; s_palm = the first with A >= 1.10 A_ref; the wrist/palm transition region is [s_on, s_palm] and its centre is s_trans = (s_on+s_palm)/2.  (4) the joint centre is the MAXIMUM-CLEARANCE point (largest inscribed sphere centre) of the section at s_trans - deliberately NOT the minimum-area point, and no target bone length is used anywhere.",
+   "status": "PASS",
+   "asset_origin_separation_mm": 23.5929
+  },
+  "THUMB_CMC_R": {
+   "joint_name": "THUMB_CMC_R",
+   "world_position": [
+    1.440895081,
+    0.001219887,
+    0.3918145
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 12.0003,
+   "R1_authored_position": [
+    1.448804379,
+    0.011108357,
+    0.39375928
+   ],
+   "shift_from_R1_mm": 12.810972,
+   "authority": "Stage5A R2 requalification",
+   "validation_method": "PRODUCTION CMC JOINT CENTRE: the Stage-4A approved CMC SURFACE cage anchor (vertex 794) is kept as the region authority, not as the joint centre.  Along the anchor's own local surface normal the interior chord is measured and the maximum-clearance point of that chord is taken (unified medial rule).  Cross-checked with the first-metacarpal axial section medial centre.  The result is clamped to the approved CMC cage locality sphere (R = 15.64 mm euclidean) and never claims a CMC deformation verdict.",
+   "status": "PASS"
+  },
+  "THUMB_MCP_R": {
+   "joint_name": "THUMB_MCP_R",
+   "world_position": [
+    1.454060912,
+    0.001536574,
+    0.436873049
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 9.4841,
+   "R1_authored_position": [
+    1.443062305,
+    0.007415419,
+    0.435889333
+   ],
+   "shift_from_R1_mm": 12.509911,
+   "authority": "Stage5A R2 requalification",
+   "validation_method": "approved T-01 THUMB_MCP axial zone is KEPT (the plane through the R1 landmark normal to the thumb's first-metacarpal axis); within that plane the centre is the maximum-clearance point (largest inscribed sphere centre) of the thumb cross-section.",
+   "status": "PASS"
+  },
+  "THUMB_IP_R": {
+   "joint_name": "THUMB_IP_R",
+   "world_position": [
+    1.450860858,
+    0.006127121,
+    0.464001149
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 6.2173,
+   "R1_authored_position": [
+    1.450860858,
+    0.006127121,
+    0.464001149
+   ],
+   "shift_from_R1_mm": 4.66e-07,
+   "authority": "CARRY_FORWARD from Stage5A R1 (kept by Human Review decision)",
+   "validation_method": "kept; chain geometry re-validated under the new CMC/MCP/TIP chain (see STAGE5A_R2_THUMB_CHAIN_AUDIT.json)",
+   "status": "PASS"
+  },
+  "THUMB_TIP_R": {
+   "joint_name": "THUMB_TIP_R",
+   "world_position": [
+    1.456466794,
+    0.018134484,
+    0.48759535
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 0.0022,
+   "R1_authored_position": [
+    1.451316237,
+    0.01053747,
+    0.485614926
+   ],
+   "shift_from_R1_mm": 9.389619,
+   "authority": "Stage5A R2 requalification",
+   "validation_method": "THUMB_FINGERTIP_LANDMARK.  (1) candidate set = thumb-owned skin samples (vertices AND face centroids, so the coarse 8-vertex distal cap cannot quantise the result) lying within the measured distal-phalanx envelope R_env(thumb) = %.2f mm of the THUMB_IP bone segment - the same envelope the approved nail selector uses; the tube restriction is essential because without it the farthest thumb point from the IP joint would be the carpo-metacarpal region;  (2) the landmark is the FARTHEST such candidate whose straight line from the THUMB_IP joint stays inside the thumb at every interior sample, so the resulting IP->TIP bone actually runs inside the digit.",
+   "status": "PASS"
+  },
+  "INDEX_MCP_R": {
+   "joint_name": "INDEX_MCP_R",
+   "world_position": [
+    1.442374706,
+    0.017366245,
+    0.483602315
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 5.867,
+   "R1_authored_position": [
+    1.445879102,
+    0.013830277,
+    0.479620308
+   ],
+   "shift_from_R1_mm": 6.37497,
+   "authority": "Stage5A R2 requalification",
+   "validation_method": "approved T-01 axial plane is KEPT (the plane through the R1 landmark normal to the index proximal-phalanx axis); within that plane the centre is the maximum-clearance point (largest inscribed sphere centre) of the index cross-section, radial cap 9.17 mm = 1.20 x R_env(index).",
+   "status": "PASS"
+  },
+  "INDEX_PIP_R": {
+   "joint_name": "INDEX_PIP_R",
+   "world_position": [
+    1.455228925,
+    -0.00358543,
+    0.503313541
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 6.1025,
+   "R1_authored_position": [
+    1.455228925,
+    -0.003585429,
+    0.503313541
+   ],
+   "shift_from_R1_mm": 1e-06,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "INDEX_DIP_R": {
+   "joint_name": "INDEX_DIP_R",
+   "world_position": [
+    1.459105253,
+    -0.022120921,
+    0.510946274
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 5.0675,
+   "R1_authored_position": [
+    1.459105253,
+    -0.022120923,
+    0.510946274
+   ],
+   "shift_from_R1_mm": 2e-06,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "INDEX_TIP_R": {
+   "joint_name": "INDEX_TIP_R",
+   "world_position": [
+    1.4609828,
+    -0.037063241,
+    0.514025569
+   ],
+   "ray_parity": "0/64",
+   "inside_mesh": false,
+   "nearest_surface_distance_mm": 0.254,
+   "R1_authored_position": [
+    1.4609828,
+    -0.037063241,
+    0.514025569
+   ],
+   "shift_from_R1_mm": 0.0,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "MIDDLE_MCP_R": {
+   "joint_name": "MIDDLE_MCP_R",
+   "world_position": [
+    1.416904807,
+    0.013839795,
+    0.482859164
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 6.1368,
+   "R1_authored_position": [
+    1.416904807,
+    0.013839795,
+    0.482859164
+   ],
+   "shift_from_R1_mm": 0.0,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "MIDDLE_PIP_R": {
+   "joint_name": "MIDDLE_PIP_R",
+   "world_position": [
+    1.421528935,
+    -0.005951108,
+    0.510629356
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 6.6248,
+   "R1_authored_position": [
+    1.421528935,
+    -0.005951107,
+    0.510629356
+   ],
+   "shift_from_R1_mm": 1e-06,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "MIDDLE_DIP_R": {
+   "joint_name": "MIDDLE_DIP_R",
+   "world_position": [
+    1.424311399,
+    -0.029810442,
+    0.519842446
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 5.9656,
+   "R1_authored_position": [
+    1.424311399,
+    -0.029810444,
+    0.519842446
+   ],
+   "shift_from_R1_mm": 2e-06,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "MIDDLE_TIP_R": {
+   "joint_name": "MIDDLE_TIP_R",
+   "world_position": [
+    1.425354958,
+    -0.047430381,
+    0.520845115
+   ],
+   "ray_parity": "0/64",
+   "inside_mesh": false,
+   "nearest_surface_distance_mm": 0.2419,
+   "R1_authored_position": [
+    1.425354958,
+    -0.047430381,
+    0.520845115
+   ],
+   "shift_from_R1_mm": 0.0,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "RING_MCP_R": {
+   "joint_name": "RING_MCP_R",
+   "world_position": [
+    1.394243836,
+    0.010573625,
+    0.479239345
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 5.163,
+   "R1_authored_position": [
+    1.394243836,
+    0.010573625,
+    0.479239345
+   ],
+   "shift_from_R1_mm": 0.0,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "RING_PIP_R": {
+   "joint_name": "RING_PIP_R",
+   "world_position": [
+    1.392641187,
+    -0.009293767,
+    0.504846096
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 6.2124,
+   "R1_authored_position": [
+    1.392641187,
+    -0.009293766,
+    0.504846096
+   ],
+   "shift_from_R1_mm": 1e-06,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "RING_DIP_R": {
+   "joint_name": "RING_DIP_R",
+   "world_position": [
+    1.394462228,
+    -0.031272471,
+    0.512574077
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 5.0859,
+   "R1_authored_position": [
+    1.394462228,
+    -0.031272467,
+    0.512574077
+   ],
+   "shift_from_R1_mm": 4e-06,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "RING_TIP_R": {
+   "joint_name": "RING_TIP_R",
+   "world_position": [
+    1.396310449,
+    -0.047095314,
+    0.512449563
+   ],
+   "ray_parity": "0/64",
+   "inside_mesh": false,
+   "nearest_surface_distance_mm": 0.2321,
+   "R1_authored_position": [
+    1.396310449,
+    -0.047095314,
+    0.512449563
+   ],
+   "shift_from_R1_mm": 0.0,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "LITTLE_MCP_R": {
+   "joint_name": "LITTLE_MCP_R",
+   "world_position": [
+    1.365105033,
+    0.002072219,
+    0.470610827
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 4.7497,
+   "R1_authored_position": [
+    1.365105033,
+    0.002072219,
+    0.470610827
+   ],
+   "shift_from_R1_mm": 0.0,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "LITTLE_PIP_R": {
+   "joint_name": "LITTLE_PIP_R",
+   "world_position": [
+    1.359719992,
+    -0.012156209,
+    0.489131242
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 5.1322,
+   "R1_authored_position": [
+    1.359719992,
+    -0.012156209,
+    0.489131242
+   ],
+   "shift_from_R1_mm": 0.0,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "LITTLE_DIP_R": {
+   "joint_name": "LITTLE_DIP_R",
+   "world_position": [
+    1.359664679,
+    -0.027045084,
+    0.495907992
+   ],
+   "ray_parity": "64/64",
+   "inside_mesh": true,
+   "nearest_surface_distance_mm": 4.0013,
+   "R1_authored_position": [
+    1.359664679,
+    -0.027045086,
+    0.495907992
+   ],
+   "shift_from_R1_mm": 2e-06,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  },
+  "LITTLE_TIP_R": {
+   "joint_name": "LITTLE_TIP_R",
+   "world_position": [
+    1.359527707,
+    -0.03846734,
+    0.497986585
+   ],
+   "ray_parity": "0/64",
+   "inside_mesh": false,
+   "nearest_surface_distance_mm": 0.2135,
+   "R1_authored_position": [
+    1.359527707,
+    -0.038467336,
+    0.497986585
+   ],
+   "shift_from_R1_mm": 4e-06,
+   "authority": "FROZEN (Stage5A R1 validated)",
+   "validation_method": "frozen joint; drift audited against Stage5A R1",
+   "status": "PASS"
+  }
+ },
+ "ALL_JOINTS_PASS": true
+}

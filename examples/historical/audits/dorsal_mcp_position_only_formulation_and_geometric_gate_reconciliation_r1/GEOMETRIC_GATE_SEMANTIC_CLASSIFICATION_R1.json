@@ -1,0 +1,47 @@
+{
+  "A_TRUE_3D_STRUCTURAL_HARD_GATE": {
+    "predicates": [
+      "native topology/cycle/incidence mutation",
+      "zero-area native fan triangle or collapse on the continuous path",
+      "certified new finite nonadjacent intersection",
+      "certified intersection beyond legal shared simplex",
+      "positive-area coplanar overlap"
+    ],
+    "orientation_note": "A fixed outward/chart normal dot or a 180deg normal change alone is not coordinate-free inversion. Require a declared material-frame/path convention; moving triangle area vectors continuously without zero area is not automatically face reversal."
+  },
+  "B_BASELINE_EXISTING_DIAGNOSTIC": {
+    "predicates": [
+      "Three baseline projected bowtie flags2771/3332/3351",
+      "baseline sharp crease/warped nonplanar quad"
+    ],
+    "policy": "Do not require absolute zero. Track fixed projection, positive 3D area, no new true defect and no-regression or justified Human review."
+  },
+  "C_SHARED_TOPOLOGY_LEGAL_CONTACT": {
+    "predicates": [
+      "Actual common native vertex",
+      "Actual common native edge",
+      "Fan internal diagonal"
+    ],
+    "policy": "Subtract legal simplex exactly; no pair-wide positive separation floor."
+  },
+  "D_SHARED_FEATURE_OFF_EDGE_ILLEGAL_CROSSING": {
+    "predicates": [
+      "Certified point/segment outside legal simplex",
+      "Coplanar overlap with positive area"
+    ],
+    "policy": "Hard fail, including faces with a shared vertex/edge."
+  },
+  "E_NUMERICAL_PROXIMITY_ACTIVE_SET_WARNING": {
+    "predicates": [
+      "AABB proximity band",
+      "Closest distance near zero",
+      "Four-point side sign/linearized volume warning",
+      "Fixed-chart outward normal diagnostic"
+    ],
+    "policy": "Activate feature-aware checks, never automatically structural failure. Plane-extension sign changes require finite-feature membership."
+  },
+  "tolerance_class": "COMPUTATIONAL_GEOMETRY_TOLERANCE",
+  "anatomy_clearance": false,
+  "historical_validator_edited": false,
+  "R3_iteration_vs_terminal_gate": "Iteration guards retained no NEW projected flags; final R3 eligibility also rejected unresolved baseline projected flags. The latter is overconstraint for the audited embedded quads, but by itself does not explain iteration stagnation."
+}

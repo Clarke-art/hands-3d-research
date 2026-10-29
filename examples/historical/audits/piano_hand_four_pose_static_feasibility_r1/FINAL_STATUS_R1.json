@@ -1,0 +1,83 @@
+{
+  "Q1_Q13": {
+    "Q1": {
+      "question": "四个静态候选真实生成？",
+      "answer": "YES",
+      "reason": "一个 blend 内四独立静态场景，保存后重新打开并渲染。"
+    },
+    "Q2": {
+      "question": "左手小指 D2 满足接触？",
+      "answer": "YES",
+      "reason": "固定 pad 0.586mm，皮肤 pad 0.601mm，正确可奏区域。"
+    },
+    "Q3": {
+      "question": "左手拇指 D3 满足接触？",
+      "answer": "YES",
+      "reason": "固定/皮肤 pad 1.556mm，正确可奏区域。"
+    },
+    "Q4": {
+      "question": "左手中间三指自然？",
+      "answer": "HUMAN_PENDING",
+      "reason": "Agent 未见统一钩爪/强制拉直；保留 RSSF 不同曲度，待 Human。"
+    },
+    "Q5": {
+      "question": "左手 L1/L2 掌腕合理？",
+      "answer": "HUMAN_PENDING",
+      "reason": "共同 root；70mm root 高度和部分关节边界饱和待审。"
+    },
+    "Q6": {
+      "question": "左手掌部无明显键体碰撞？",
+      "answer": "YES",
+      "reason": "深度>3mm 掌部命中0；正常侧斜视/近景未见压键。"
+    },
+    "Q7": {
+      "question": "右手五指准备自然？",
+      "answer": "NO",
+      "reason": "食指/无名指邻黑键干扰风险未排除。"
+    },
+    "Q8": {
+      "question": "右手中指 F#5 正确触键？",
+      "answer": "YES",
+      "reason": "固定 pad 0.497mm、皮肤 pad 0.506mm，正确黑键可奏面。"
+    },
+    "Q9": {
+      "question": "右手掌腕及其他四指合理？",
+      "answer": "NO",
+      "reason": "掌腕自身筛查无深度穿键，但另外两指邻键风险不能抵消。"
+    },
+    "Q10": {
+      "question": "四姿态有明显新变形或反关节？",
+      "answer": "NO",
+      "reason": "正常三视图未见明确反关节/新大面积塌陷；源组件身份匹配。"
+    },
+    "Q11": {
+      "question": "左手两姿态有合理共同八度关系？",
+      "answer": "UNCERTAIN",
+      "reason": "root 位移/转角均0，准备区域成立；边界饱和的自然性待 Human，过渡未证。"
+    },
+    "Q12": {
+      "question": "必须修改正式 mesh/rig 的证据？",
+      "answer": "NO",
+      "reason": "单次有界政策结果，不是硬几何不可达证明。"
+    },
+    "Q13": {
+      "question": "最终状态",
+      "answer": "STATIC_FEASIBILITY_PARTIAL",
+      "reason": "左手为候选通过待 Human；右手净空失败。"
+    }
+  },
+  "STATIC_CANDIDATE": "CREATED",
+  "LEFT_L1_STATUS": "PASS_CANDIDATE",
+  "LEFT_L2_STATUS": "PASS_CANDIDATE",
+  "RIGHT_R1_STATUS": "FAIL_CLEARANCE",
+  "RIGHT_R2_STATUS": "FAIL_CLEARANCE",
+  "LEFT_OCTAVE_SHARED_POSTURE": "SHARED_ROOT_VERIFIED / NATURALNESS_HUMAN_PENDING",
+  "LEFT_IDLE_FINGERS": "HUMAN_PENDING",
+  "RIGHT_FSHARP_CONTACT": "PASS_FIXED_AND_SKIN_PAD",
+  "PALM_WRIST_CLEARANCE": "PASS_SCREEN_AND_NORMAL_VIEW_PRECHECK; RIGHT_NEIGHBOR_CLEARANCE_FAIL",
+  "HUMAN_VISIBLE_QUALITY": "PARTIAL / LEFT_HUMAN_PENDING / RIGHT_CLEARANCE_RISK",
+  "FINAL_STATUS": "STATIC_FEASIBILITY_PARTIAL",
+  "HAND_BASELINES_UNCHANGED": "YES",
+  "PIANO_BASELINE_UNCHANGED": "YES",
+  "STOP": "HUMAN REVIEW"
+}

@@ -1,0 +1,118 @@
+{
+  "status": "PLAN_ONLY_NOT_EXECUTED",
+  "geometry_authority": {
+    "path": "production_spec/stage4_blender/stage4c_donor_transfer_palmar_root_r1/RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_PALMAR_ROOT_R1.blend",
+    "sha256": "0c1831042151a40f87f3779b97ece94cfc29a7831babfa1dda64c9ac0f4ae9c6"
+  },
+  "source_dorsal_only_geometry": {
+    "path": "production_spec/stage4_blender/stage4c_donor_transfer_r1/RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_R1.blend",
+    "sha256": "5f48ffa5ac6ff6d10b5d3bde1348571437b3a4fdf5c3ecfb97922e7dc0acd4d1"
+  },
+  "approved_write_set": {
+    "path": "audits/palmar_digit_root_local_donor_shape_restoration_design_r1/PALMAR_ROOT_FORMAL_WRITE_SET_R1.json",
+    "sha256": "9016a3a3a7ac72998272bb1fa094263ebb972eb1f9bf90d73f18b74e136eb7eb"
+  },
+  "APPROVED_GEOMETRY_APPLIED_ONLY": true,
+  "production_ready": false,
+  "MID_MCP_45": "MANDATORY_TARGETED_REVALIDATION",
+  "MID_MCP_45_MANDATORY_REVALIDATION": "YES",
+  "Human_compression_acceptance": "ACCEPTED_FOR_AMENDMENT_APPLICATION_WITH_MANDATORY_DOWNSTREAM_REQUALIFICATION",
+  "design_diagnostic_ratios_not_fresh_deformation_run": {
+    "candidate_MID45_edge_ratio_to_own_BIND": [
+      0.47750427928156564,
+      1.6326456719709912
+    ],
+    "current_MID45_edge_ratio_to_own_BIND": [
+      0.7606631716568016,
+      1.577704267836548
+    ],
+    "design_record": {
+      "path": "audits/palmar_digit_root_local_donor_shape_restoration_design_r1/PALMAR_ROOT_LOCAL_POSE_SMOKE_R1.json",
+      "sha256": "64a70c3072ae864ee591c16f7d3c25e150b0b13cf969571eec31fa8951c2727e"
+    },
+    "limitation": "Changed compression sensitivity; no design-observed collapse/new exact contact; cannot waive formal downstream qualification"
+  },
+  "revalidation_blast_radius": [
+    {
+      "order": 1,
+      "task": "Stage5 geometry propagation",
+      "requirement": "New independent Stage5A/current Stage5B R2 derivatives from applied Stage4C authority; only16 native geometry deltas, exact rig/groups/weights preservation. Do not overwrite previous derivatives.",
+      "executed": false
+    },
+    {
+      "order": 2,
+      "task": "joint / surface / rest / zero / bind",
+      "requirement": "Fresh consistency, surface-rest attachment and zero/bind checks after propagation.",
+      "executed": false
+    },
+    {
+      "order": 3,
+      "task": "static skin compatibility",
+      "requirement": "Fresh actual propagated skin payload and static geometry compatibility, normals/transforms/modifiers authority checked.",
+      "executed": false
+    },
+    {
+      "order": 4,
+      "task": "geometry-dependent authority impact audit",
+      "requirement": "Explicit impact/no-impact decision on RSSF, joints, cap37, FIRST_WEB21, freshR3, true-cap and geometry-dependent bind/deformation authorities. Byte-frozen historical records are references, not silently renewed qualification.",
+      "true_cap_decision": "Audit decides whether full true-cap recomputation or narrower supported revalidation is necessary; neither automatic skip nor mechanical full recomputation. Record affected inputs, neighborhoods, evidence and justification.",
+      "executed": false
+    },
+    {
+      "order": 5,
+      "task": "palmar-root targeted deformation",
+      "cases": [
+        "MID_MCP_15",
+        "MID_MCP_30",
+        "MID_MCP_45"
+      ],
+      "MID_MCP_45": "MANDATORY_TARGETED_REVALIDATION",
+      "requirement": "Fresh propagated native rig geometry; historical localX/-1 formal angles; shelf, crease, pinch/collapse, compression/stretch, exact contact, normal context and neighbor digit integrity. Application static PASS does not satisfy this gate.",
+      "executed": false
+    },
+    {
+      "order": 6,
+      "task": "Full Stage6A42-case requalification",
+      "requirement": "Fresh42-case evaluation only after prerequisites; retain current9 original evidence/answers until authorized reconciled Human closure. No full qualification asserted from design smoke.",
+      "executed": false
+    },
+    {
+      "order": 7,
+      "task": "Human visual review",
+      "requirement": "Review fresh downstream targeted/full evidence including MID45 compression change, natural crease and protected normal region. No automatic acceptance extension.",
+      "executed": false
+    },
+    {
+      "order": 8,
+      "task": "current9 closure resume",
+      "requirement": "Resume closure processing only after prerequisite qualification and Human review; source answers remain HOLD_NOT_CLOSED in this application round. Preserve response/hold bytes, bind closure to applicable fresh evidence with appropriate Human authorization.",
+      "executed": false
+    },
+    {
+      "order": 9,
+      "task": "whole-hand surface integrity baseline",
+      "requirement": "Establish fresh whole-hand surface integrity baseline and compare source/derived geometry across all regions, not only this16-point patch.",
+      "executed": false
+    },
+    {
+      "order": 10,
+      "task": "Stage6B consideration",
+      "requirement": "Consider only after all required earlier downstream gates and applicable Human decisions; no Stage6B authority/promotion is implied now.",
+      "executed": false
+    }
+  ],
+  "NEXT": "STAGE5_GEOMETRY_PROPAGATION_AFTER_PALMAR_DONOR_RESTORATION_R1",
+  "NEXT_EXECUTED": false,
+  "current9": "HOLD_NOT_CLOSED",
+  "this_round_bind_runs": 0,
+  "this_round_pose_runs": 0,
+  "this_round_Full42_runs": 0,
+  "this_round_targeted_deformation_runs": 0,
+  "Stage5_propagated": false,
+  "skin_qualified": false,
+  "deformation_qualified": false,
+  "true_cap_recomputed": false,
+  "Stage6B_run": false,
+  "PRODUCTION_PROMOTION": "NO",
+  "STOP": true
+}

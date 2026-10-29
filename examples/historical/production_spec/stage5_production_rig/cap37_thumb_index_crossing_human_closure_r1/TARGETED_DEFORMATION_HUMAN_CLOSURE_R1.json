@@ -1,0 +1,101 @@
+{
+  "artifact": "TARGETED_DEFORMATION_HUMAN_CLOSURE_R1",
+  "artifact_type": "Independent additive recovery closure; historical status files are not overwritten",
+  "recovery_phase": "CAP_FIXTURE_STATIC_VALIDATION_AND_TARGETED_DEFORMATION_R1",
+  "historical_phase_verdict_retained": "FAIL_CLOSED_TARGETED_DEFORMATION",
+  "historical_causal_verdict_retained": "READY_FOR_HUMAN_CAUSAL_ADJUDICATION",
+  "effective_recovery_status": "PASS_WITH_HUMAN_ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+  "CAP_FIXTURE_STATIC_VALIDATION_AND_TARGETED_DEFORMATION_R1": "PASS_WITH_HUMAN_ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+  "HUMAN_CAUSAL_ADJUDICATION": "APPROVED",
+  "PAIR_1225_2740": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+  "PAIR_1041_2735": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+  "PAIR_1226_2742": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+  "VISIBLE_TEACHING_DEFECT_COUNT": 0,
+  "VISIBLE_GROSS_LOCAL_SKIN_DEFECT_COUNT": 0,
+  "SKIN_REMEDIATION_REQUIRED": "NO",
+  "KINEMATIC_REMEDIATION_REQUIRED": "NO",
+  "SCOPE_EXPANSION_REQUIRED": "NO",
+  "R2_INTRODUCED_BLOCKER": "NO",
+  "R2_WORSENED_BLOCKER": "NO",
+  "R2_INCREMENTAL_INTRODUCED_PAIR_COUNT": 0,
+  "R2_WORSENED_PAIR_COUNT": 0,
+  "PRODUCTION_DRIFT": 0,
+  "PAIR_1225_2740_HUMAN_DISPOSITION": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+  "PAIR_1041_2735_HUMAN_DISPOSITION": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+  "PAIR_1226_2742_HUMAN_DISPOSITION": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+  "targeted_blocker_closed": true,
+  "closure_basis": {
+    "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_human_closure_r1/CAP37_THUMB_INDEX_CROSSING_HUMAN_ADJUDICATION_R1.json",
+    "sha256": "f530e28be5a5dd792e389dd7c84b9fdc2a3f82e2fb2a217bdfa02ba3520a890b"
+  },
+  "previously_qualified_items_carried_without_retest": {
+    "CAP37": {
+      "machine_crossing_facts": "RETAINED",
+      "machine_causal_classification": "VALIDATOR_SEMANTIC_ESCALATION_REQUIRES_HUMAN_ADJUDICATION",
+      "Human disposition": "ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT",
+      "visible_teaching_defect_count": 0
+    },
+    "old cap9": "PASS / previously qualified",
+    "FIRST_WEB": "PASS / previously qualified",
+    "fresh R3 transition/collar": "PASS / previously qualified",
+    "edge5879": "PASS / previously qualified",
+    "16 inherited debt": "STATIC_QUALIFICATION_DEBT_WITHOUT_TRUE_DEFORMATION_FAILURE"
+  },
+  "prior_fixture_pending_labels_in_historical_files_retained": true,
+  "sources": {
+    "historical_targeted_report": {
+      "path": "production_spec/stage5_production_rig/cap_fixture_static_validation_and_targeted_deformation_r1/CAP_FIXTURE_STATIC_VALIDATION_AND_TARGETED_DEFORMATION_R1_REPORT.md",
+      "sha256": "19c4f3cb67ac01988bd717ae830de232dfb0b4cdad071c5cf5348615ef2b78c6"
+    },
+    "historical_targeted_status": {
+      "path": "production_spec/stage5_production_rig/cap_fixture_static_validation_and_targeted_deformation_r1/CAP_FIXTURE_STATIC_VALIDATION_AND_TARGETED_DEFORMATION_R1_STATUS.json",
+      "sha256": "df5b09f876b30f20d5b6fe02d44e5cd0376f6be02478e585e361a94c0e32a3ab"
+    },
+    "historical_causal_report": {
+      "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_causal_adjudication_r1/CAP37_THUMB_INDEX_CROSSING_CAUSAL_ADJUDICATION_R1_REPORT.md",
+      "sha256": "140d405cb61937400bd099386cd30eed04006ef0123384349340cda28e9d0a91"
+    },
+    "historical_causal_status": {
+      "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_causal_adjudication_r1/CAP37_THUMB_INDEX_CROSSING_CAUSAL_ADJUDICATION_R1_STATUS.json",
+      "sha256": "ab1928203691489fa0b64fdf5de90cf0ff584c4b5dba3b4d7bf099be03ca6bee"
+    },
+    "machine_causal_matrix": {
+      "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_causal_adjudication_r1/THREE_PAIR_CAUSAL_MATRIX.json",
+      "sha256": "eca96700808607f1012303c2a39b32e7d4bc0b46006fb7b908133de2f352224a"
+    },
+    "matched_visual_evidence_manifest": {
+      "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_causal_adjudication_r1/VISUAL_EVIDENCE_MANIFEST.json",
+      "sha256": "65007674ff6bf1a819c04cd83cda9f3fbafa6f4dcb3979b26e26f54b59e68240"
+    },
+    "historical_production_verification": {
+      "path": "production_spec/stage5_production_rig/cap37_thumb_index_crossing_causal_adjudication_r1/PRODUCTION_READONLY_NO_DRIFT_VERIFICATION.json",
+      "sha256": "de300007ff97797ea446b815bd259ef89f20c554f85a6ccec747491a2c0f709f"
+    },
+    "R2_candidate": {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+      "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+    }
+  },
+  "NEXT": "TRUE_CAP_BOUND_RECOMPUTE_AFTER_DEPENDENCY_RECONCILIATION",
+  "NEXT_EXECUTED": false,
+  "STOP": true,
+  "activities_executed": [
+    "Record explicit Human decision",
+    "Create independent additive closure artifacts",
+    "Read-only byte/hash verification"
+  ],
+  "activities_not_executed": [
+    "bound recompute",
+    "Stage6A",
+    "Stage6B",
+    "skin/rig remediation",
+    "scope expansion",
+    "R3 rerun",
+    "production mutation",
+    "promotion/freeze"
+  ],
+  "retested_items": [],
+  "production_candidate_sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9",
+  "production_vector_sha256": "1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55",
+  "production_vector_verification_basis": "Current candidate byte hash equals the previously independently reopened candidate hash; no new weight/deformation test."
+}

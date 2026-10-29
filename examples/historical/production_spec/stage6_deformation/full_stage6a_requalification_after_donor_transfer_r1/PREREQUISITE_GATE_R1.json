@@ -1,0 +1,88 @@
+{
+  "status": "PASS_STATIC_PREREQUISITES_LIVE_REOPEN_PENDING",
+  "checks": {
+    "current_derivative_hash": true,
+    "corrected_rig_hash": true,
+    "cap37_frozen": true,
+    "cap37_count": true,
+    "fresh_R3_frozen": true,
+    "fresh_R3_membership_hash": true,
+    "JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1": true,
+    "JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_weight_hash": true,
+    "JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_asset_dependency": true,
+    "STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1": true,
+    "STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1_weight_hash": true,
+    "STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1_asset_dependency": true,
+    "TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1": true,
+    "TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_weight_hash": true,
+    "TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_asset_dependency": true,
+    "TARGETED_DEFORMATION_REVALIDATION_AFTER_DONOR_TRANSFER_R1": true,
+    "TARGETED_DEFORMATION_REVALIDATION_AFTER_DONOR_TRANSFER_R1_asset_dependency": true,
+    "frozen_CAP_SKIN_DRIVER_AUTHORITY_R1.json": true,
+    "frozen_CAP37_SKIN_DRIVER_AUTHORITY_R1.json": true,
+    "frozen_OLD_CAP9_SKIN_CORRECTION_AUTHORITY_R1.json": true,
+    "frozen_FIRST_WEB_SKIN_WEIGHT_WRAPPER_R2.json": true,
+    "frozen_SKIN_WEIGHT_CONTINUITY_CONTRACT_R1.json": true,
+    "frozen_CORRECTED_RIG_SKIN_FIELD_IMPACT_AUDIT_R1.json": true,
+    "frozen_R1B_SAFE_WEIGHT_REUSE_SET_R1.json": true,
+    "frozen_SKIN_REBUILD_ENVELOPE_R1.json": true,
+    "frozen_EDGE5879_REBUILD_SCOPE_R1.json": true,
+    "frozen_CMC_GEOMETRY_PROTECTION_CONTEXT_R1.json": true,
+    "frozen_INPUT_AUTHORITY_VERIFICATION_R1.json": true,
+    "frozen_R1B_FROZEN_SIDE_GUARD_AUDIT_R1.json": true,
+    "FIRST_WEB21_exact_membership": true,
+    "cap37_membership": true,
+    "targeted_exact_Human_carry_forward": true,
+    "formal42_14joints": true,
+    "historical_axis_sign_angles": true,
+    "frozen_native_weight_hash": true,
+    "old9_history_comparator_only": true
+  },
+  "sources": {
+    "current": {
+      "path": "production_spec/stage5_production_rig/geometry_propagation_after_donor_transfer_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend",
+      "sha256": "d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d"
+    },
+    "old_comparator": {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+      "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+    },
+    "corrected_rig": {
+      "path": "production_spec/stage5_production_rig/human_thumb_kinematic_authority_correction_r1/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+      "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+    },
+    "cap37": {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_human_cap_authority_freeze_r1/THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+      "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256"
+    },
+    "fresh_R3": {
+      "path": "audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1.json",
+      "sha256": "470cc182b643e92f0f48f4bea119f0e0c3a45d1c182d3610345ac787f19c98e9"
+    },
+    "matrix": {
+      "path": "production_spec/stage6_deformation/full_stage6a_requalification_r1/FULL_STAGE6A_CASE_MATRIX_R1.json",
+      "sha256": "61226acb989e0487b7b356ee4d6795c6f5de55406e51f228ee855e64914f7fc5"
+    }
+  },
+  "prerequisites": {
+    "JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1": {
+      "path": "production_spec/stage5_production_rig/joint_surface_rest_zero_bind_revalidation_after_donor_transfer_r1/JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json",
+      "sha256": "36b6080ccc2c725119747ea6aaa84bd18fe997dcd8fc8760a249497a88249bec"
+    },
+    "STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1": {
+      "path": "production_spec/stage5_production_rig/static_skin_compatibility_revalidation_after_donor_transfer_r1/STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json",
+      "sha256": "05e86c27fc3cd5c308f31e86acd23cc4319f9da0b7d530b47ac68390dd7ca950"
+    },
+    "TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1": {
+      "path": "production_spec/stage5_production_rig/true_cap_bound_revalidation_after_donor_transfer_r1/TRUE_CAP_BOUND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json",
+      "sha256": "27bfd8a9c009cfd49993a289e3d3f34365078913787e6c6c8bb69dba34edcb32"
+    },
+    "TARGETED_DEFORMATION_REVALIDATION_AFTER_DONOR_TRANSFER_R1": {
+      "path": "production_spec/stage5_production_rig/targeted_deformation_revalidation_after_donor_transfer_r1/TARGETED_DEFORMATION_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json",
+      "sha256": "994073ead812160ae12157af9cf0b0677c1b23d5875166312d45f4c79e70ff04"
+    }
+  },
+  "old_status_role": "HISTORICAL_PRE_DONOR_RESULT_ONLY",
+  "current_verdict_basis": "ALL42_FRESH_CURRENT_ASSET_EVALUATIONS",
+  "live_weight_and_payload_preflight_required_before_poses": true
+}

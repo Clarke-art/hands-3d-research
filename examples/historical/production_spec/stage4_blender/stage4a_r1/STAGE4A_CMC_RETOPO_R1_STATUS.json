@@ -1,0 +1,563 @@
+{
+ "stage": "STAGE4A_THUMB_CMC_LOCAL_RETOPO_R1",
+ "generated_at": "2026-09-28T18:17:33.262729+08:00",
+ "runtime": {
+  "blender": "5.1.2",
+  "executable": "D:\\Blender\\blender.exe"
+ },
+ "task_class": "THUMB CMC / THENAR LOCAL TOPOLOGY SURGERY (single-joint, local only)",
+ "input_protection": {
+  "frozen_baseline": {
+   "file": "production_spec/stage4_blender/RIGHT_HAND_ENGINEERING_STAGE4A.blend",
+   "role": "STAGE4A_PRE_CMC_RETOPO_BASELINE",
+   "sha256_pre": "5f69d1ca4b5a70f4f41d70710d6d8ed9b6ba6c4052a70d4de7c429a5b7bcbf40",
+   "sha256_post": "5f69d1ca4b5a70f4f41d70710d6d8ed9b6ba6c4052a70d4de7c429a5b7bcbf40",
+   "bytes": 2023542,
+   "modified": false
+  },
+  "working_copy": {
+   "file": "production_spec/stage4_blender/RIGHT_HAND_ENGINEERING_STAGE4A_CMC_R1.blend",
+   "sha256": "5f69d1ca4b5a70f4f41d70710d6d8ed9b6ba6c4052a70d4de7c429a5b7bcbf40",
+   "created_this_round": true,
+   "mesh_surgery_applied": false,
+   "why_no_surgery": "see verdict.reason -- the local route is provably blocked"
+  },
+  "stage2_bootstrap_untouched": {
+   "file": "production_spec/stage2_bootstrap/RIGHT_HAND_BOOTSTRAP_C1.blend",
+   "sha256": "8fa9a5498dc5b06dc4d8fba116ebe3cedc03e4a4645921ae10df3edab805ef83"
+  }
+ },
+ "mesh_integrity": {
+  "verts": 3544,
+  "edges": 7084,
+  "faces": 3542,
+  "face_sizes": {
+   "4": 3542
+  },
+  "quad_only": true,
+  "triangle_count": 0,
+  "ngon_count": 0,
+  "non_manifold_count": 0,
+  "boundary_edge_count": 0,
+  "loose_geometry": 0,
+  "internal_faces": 0
+ },
+ "cmc_frame": {
+  "cmc_rotation_center": [
+   1.448897,
+   0.011107,
+   0.393934
+  ],
+  "first_metacarpal_axis": [
+   0.617098,
+   -0.075968,
+   0.78321
+  ],
+  "engineering_window_mm": {
+   "primary": 12.0,
+   "secondary": 18.0,
+   "targets": {
+    "ACTUAL_AXIAL_SPAN_mm": 20.0,
+    "IN_PM12MM_RATIO": 0.8
+   }
+  }
+ },
+ "baseline_support_loops": [
+  {
+   "label": "CON2_CMC@-1mm",
+   "vertex_count": 60,
+   "closed_loop": true,
+   "closed_loop_basis": "mesh-edge degree within the vertex set",
+   "ACTUAL_AXIAL_MIN_mm": -48.814,
+   "ACTUAL_AXIAL_MAX_mm": 17.828,
+   "ACTUAL_AXIAL_SPAN_mm": 66.642,
+   "AXIAL_MEDIAN_mm": -1.01,
+   "AXIAL_STDDEV_mm": 20.331,
+   "MAX_OUTLIER_MM": 48.814,
+   "IN_PM12MM_RATIO": 0.4167,
+   "IN_PM18MM_RATIO": 0.55,
+   "MAX_SURFACE_DEVIATION_MM": 3.973,
+   "P95_SURFACE_DEVIATION_MM": 2.572,
+   "MEAN_SURFACE_DEVIATION_MM": 0.525
+  },
+  {
+   "label": "CON2_CMC@+1mm",
+   "vertex_count": 60,
+   "closed_loop": true,
+   "closed_loop_basis": "mesh-edge degree within the vertex set",
+   "ACTUAL_AXIAL_MIN_mm": -49.775,
+   "ACTUAL_AXIAL_MAX_mm": 17.281,
+   "ACTUAL_AXIAL_SPAN_mm": 67.055,
+   "AXIAL_MEDIAN_mm": 0.99,
+   "AXIAL_STDDEV_mm": 20.487,
+   "MAX_OUTLIER_MM": 49.775,
+   "IN_PM12MM_RATIO": 0.4667,
+   "IN_PM18MM_RATIO": 0.5333,
+   "MAX_SURFACE_DEVIATION_MM": 4.67,
+   "P95_SURFACE_DEVIATION_MM": 3.353,
+   "MEAN_SURFACE_DEVIATION_MM": 0.687
+  },
+  {
+   "label": "CON2_CMC@+3mm",
+   "vertex_count": 60,
+   "closed_loop": true,
+   "closed_loop_basis": "mesh-edge degree within the vertex set",
+   "ACTUAL_AXIAL_MIN_mm": -47.854,
+   "ACTUAL_AXIAL_MAX_mm": 18.421,
+   "ACTUAL_AXIAL_SPAN_mm": 66.275,
+   "AXIAL_MEDIAN_mm": 2.99,
+   "AXIAL_STDDEV_mm": 20.176,
+   "MAX_OUTLIER_MM": 47.854,
+   "IN_PM12MM_RATIO": 0.4833,
+   "IN_PM18MM_RATIO": 0.5167,
+   "MAX_SURFACE_DEVIATION_MM": 5.286,
+   "P95_SURFACE_DEVIATION_MM": 3.789,
+   "MEAN_SURFACE_DEVIATION_MM": 0.779
+  }
+ ],
+ "surface_deviation_mm": {
+  "MAX_SURFACE_DEVIATION_MM": 5.286,
+  "P95_SURFACE_DEVIATION_MM": 3.789,
+  "MEAN_SURFACE_DEVIATION_MM": 0.779
+ },
+ "cmc_concentric_ring_family": [
+  {
+   "label": "CMC_CONCENTRIC_R8mm",
+   "vertex_count": 8,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -1.833,
+   "ACTUAL_AXIAL_MAX_mm": 1.016,
+   "ACTUAL_AXIAL_SPAN_mm": 2.849,
+   "AXIAL_MEDIAN_mm": 0.499,
+   "AXIAL_STDDEV_mm": 1.083,
+   "MAX_OUTLIER_MM": 1.833,
+   "IN_PM12MM_RATIO": 1.0,
+   "IN_PM18MM_RATIO": 1.0,
+   "MAX_SURFACE_DEVIATION_MM": 0.391,
+   "P95_SURFACE_DEVIATION_MM": 0.163,
+   "MEAN_SURFACE_DEVIATION_MM": 0.089,
+   "R_mm": 8.0,
+   "WINDING_ABOUT_METACARPAL": 0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 17.46,
+   "R_FROM_AXIS_MAX_mm": 19.67
+  },
+  {
+   "label": "CMC_CONCENTRIC_R12mm",
+   "vertex_count": 16,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -8.088,
+   "ACTUAL_AXIAL_MAX_mm": 3.002,
+   "ACTUAL_AXIAL_SPAN_mm": 11.09,
+   "AXIAL_MEDIAN_mm": -0.001,
+   "AXIAL_STDDEV_mm": 3.227,
+   "MAX_OUTLIER_MM": 8.088,
+   "IN_PM12MM_RATIO": 1.0,
+   "IN_PM18MM_RATIO": 1.0,
+   "MAX_SURFACE_DEVIATION_MM": 0.391,
+   "P95_SURFACE_DEVIATION_MM": 0.315,
+   "MEAN_SURFACE_DEVIATION_MM": 0.09,
+   "R_mm": 12.0,
+   "WINDING_ABOUT_METACARPAL": 0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 16.41,
+   "R_FROM_AXIS_MAX_mm": 21.92
+  },
+  {
+   "label": "CMC_CONCENTRIC_R16mm",
+   "vertex_count": 22,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -10.457,
+   "ACTUAL_AXIAL_MAX_mm": 7.428,
+   "ACTUAL_AXIAL_SPAN_mm": 17.885,
+   "AXIAL_MEDIAN_mm": 0.0,
+   "AXIAL_STDDEV_mm": 4.69,
+   "MAX_OUTLIER_MM": 10.457,
+   "IN_PM12MM_RATIO": 1.0,
+   "IN_PM18MM_RATIO": 1.0,
+   "MAX_SURFACE_DEVIATION_MM": 0.826,
+   "P95_SURFACE_DEVIATION_MM": 0.384,
+   "MEAN_SURFACE_DEVIATION_MM": 0.12,
+   "R_mm": 16.0,
+   "WINDING_ABOUT_METACARPAL": 0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 15.52,
+   "R_FROM_AXIS_MAX_mm": 24.96
+  },
+  {
+   "label": "CMC_CONCENTRIC_R20mm",
+   "vertex_count": 24,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -14.009,
+   "ACTUAL_AXIAL_MAX_mm": 7.428,
+   "ACTUAL_AXIAL_SPAN_mm": 21.437,
+   "AXIAL_MEDIAN_mm": -0.991,
+   "AXIAL_STDDEV_mm": 5.986,
+   "MAX_OUTLIER_MM": 14.009,
+   "IN_PM12MM_RATIO": 0.9167,
+   "IN_PM18MM_RATIO": 1.0,
+   "MAX_SURFACE_DEVIATION_MM": 0.886,
+   "P95_SURFACE_DEVIATION_MM": 0.46,
+   "MEAN_SURFACE_DEVIATION_MM": 0.14,
+   "R_mm": 20.0,
+   "WINDING_ABOUT_METACARPAL": 0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 15.52,
+   "R_FROM_AXIS_MAX_mm": 25.35
+  },
+  {
+   "label": "CMC_CONCENTRIC_R25mm",
+   "vertex_count": 34,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -20.066,
+   "ACTUAL_AXIAL_MAX_mm": 15.41,
+   "ACTUAL_AXIAL_SPAN_mm": 35.476,
+   "AXIAL_MEDIAN_mm": -0.997,
+   "AXIAL_STDDEV_mm": 9.071,
+   "MAX_OUTLIER_MM": 20.066,
+   "IN_PM12MM_RATIO": 0.7353,
+   "IN_PM18MM_RATIO": 0.9412,
+   "MAX_SURFACE_DEVIATION_MM": 1.548,
+   "P95_SURFACE_DEVIATION_MM": 1.005,
+   "MEAN_SURFACE_DEVIATION_MM": 0.235,
+   "R_mm": 25.0,
+   "WINDING_ABOUT_METACARPAL": 0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 14.77,
+   "R_FROM_AXIS_MAX_mm": 31.83
+  },
+  {
+   "label": "CMC_CONCENTRIC_R30mm",
+   "vertex_count": 44,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -26.242,
+   "ACTUAL_AXIAL_MAX_mm": 22.332,
+   "ACTUAL_AXIAL_SPAN_mm": 48.574,
+   "AXIAL_MEDIAN_mm": -0.981,
+   "AXIAL_STDDEV_mm": 13.491,
+   "MAX_OUTLIER_MM": 26.242,
+   "IN_PM12MM_RATIO": 0.5227,
+   "IN_PM18MM_RATIO": 0.7273,
+   "MAX_SURFACE_DEVIATION_MM": 2.151,
+   "P95_SURFACE_DEVIATION_MM": 1.398,
+   "MEAN_SURFACE_DEVIATION_MM": 0.276,
+   "R_mm": 30.0,
+   "WINDING_ABOUT_METACARPAL": -0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 13.98,
+   "R_FROM_AXIS_MAX_mm": 34.73
+  },
+  {
+   "label": "CMC_CONCENTRIC_R35mm",
+   "vertex_count": 48,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -27.777,
+   "ACTUAL_AXIAL_MAX_mm": 27.196,
+   "ACTUAL_AXIAL_SPAN_mm": 54.973,
+   "AXIAL_MEDIAN_mm": -0.975,
+   "AXIAL_STDDEV_mm": 16.346,
+   "MAX_OUTLIER_MM": 27.777,
+   "IN_PM12MM_RATIO": 0.4583,
+   "IN_PM18MM_RATIO": 0.5625,
+   "MAX_SURFACE_DEVIATION_MM": 2.151,
+   "P95_SURFACE_DEVIATION_MM": 1.398,
+   "MEAN_SURFACE_DEVIATION_MM": 0.202,
+   "R_mm": 35.0,
+   "WINDING_ABOUT_METACARPAL": 0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 13.51,
+   "R_FROM_AXIS_MAX_mm": 35.24
+  },
+  {
+   "label": "CMC_CONCENTRIC_R40mm",
+   "vertex_count": 62,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -33.567,
+   "ACTUAL_AXIAL_MAX_mm": 32.516,
+   "ACTUAL_AXIAL_SPAN_mm": 66.083,
+   "AXIAL_MEDIAN_mm": -0.993,
+   "AXIAL_STDDEV_mm": 20.643,
+   "MAX_OUTLIER_MM": 33.567,
+   "IN_PM12MM_RATIO": 0.2903,
+   "IN_PM18MM_RATIO": 0.4355,
+   "MAX_SURFACE_DEVIATION_MM": 0.501,
+   "P95_SURFACE_DEVIATION_MM": 0.115,
+   "MEAN_SURFACE_DEVIATION_MM": 0.024,
+   "R_mm": 40.0,
+   "WINDING_ABOUT_METACARPAL": 0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 10.97,
+   "R_FROM_AXIS_MAX_mm": 38.66
+  },
+  {
+   "label": "CMC_CONCENTRIC_R45mm",
+   "vertex_count": 78,
+   "closed_loop": true,
+   "closed_loop_basis": "degree-2 cycle of the region boundary graph",
+   "ACTUAL_AXIAL_MIN_mm": -38.123,
+   "ACTUAL_AXIAL_MAX_mm": 36.034,
+   "ACTUAL_AXIAL_SPAN_mm": 74.157,
+   "AXIAL_MEDIAN_mm": 0.186,
+   "AXIAL_STDDEV_mm": 24.093,
+   "MAX_OUTLIER_MM": 38.123,
+   "IN_PM12MM_RATIO": 0.2436,
+   "IN_PM18MM_RATIO": 0.3333,
+   "MAX_SURFACE_DEVIATION_MM": 0.902,
+   "P95_SURFACE_DEVIATION_MM": 0.115,
+   "MEAN_SURFACE_DEVIATION_MM": 0.029,
+   "R_mm": 45.0,
+   "WINDING_ABOUT_METACARPAL": -0.0,
+   "ENCIRCLES_METACARPAL": false,
+   "R_FROM_AXIS_MIN_mm": 9.33,
+   "R_FROM_AXIS_MAX_mm": 41.09
+  }
+ ],
+ "cmc_ball_disk_test": [
+  {
+   "R_mm": 8.0,
+   "ball_verts": 10,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    8
+   ],
+   "is_topological_disk": true
+  },
+  {
+   "R_mm": 12.0,
+   "ball_verts": 19,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    16
+   ],
+   "is_topological_disk": true
+  },
+  {
+   "R_mm": 16.0,
+   "ball_verts": 31,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    22
+   ],
+   "is_topological_disk": true
+  },
+  {
+   "R_mm": 20.0,
+   "ball_verts": 41,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    24
+   ],
+   "is_topological_disk": true
+  },
+  {
+   "R_mm": 25.0,
+   "ball_verts": 60,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    34
+   ],
+   "is_topological_disk": true
+  },
+  {
+   "R_mm": 30.0,
+   "ball_verts": 88,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    44
+   ],
+   "is_topological_disk": true
+  },
+  {
+   "R_mm": 35.0,
+   "ball_verts": 116,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    48
+   ],
+   "is_topological_disk": true
+  },
+  {
+   "R_mm": 40.0,
+   "ball_verts": 158,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    62
+   ],
+   "is_topological_disk": true
+  },
+  {
+   "R_mm": 45.0,
+   "ball_verts": 210,
+   "boundary_loop_count": 1,
+   "boundary_loop_lengths": [
+    78
+   ],
+   "is_topological_disk": true
+  }
+ ],
+ "decisive_evidence": {
+  "axial_level_sets": {
+   "finding": "at the CMC height the surface cross-section is ONE contour spanning radius 13.4-110 mm, i.e. it cuts the WHOLE hand; the thumb only becomes a separate tube at axial >= +30 mm",
+   "source": "production_spec/stage4_blender/stage4a_r1/R1_LEVELSET.json"
+  },
+  "cmc_geodesic_ball_is_a_disk": {
+   "finding": "the CMC geodesic ball is a single-boundary topological DISK for every radius up to 45 mm (boundary loop length 8/16/22/24/34/44/48/62/78 edges)",
+   "consequence": "every closed loop lying inside such a disk bounds a sub-disk that avoids the metacarpal, hence has linking number 0 with the bone: no loop local to the CMC can encircle the first metacarpal",
+   "source": "production_spec/stage4_blender/stage4a_r1/R1_WINDING.json"
+  },
+  "winding_numbers": {
+   "finding": "all CMC-concentric rings measure winding = 0.000 about the first metacarpal axis",
+   "source": "production_spec/stage4_blender/stage4a_r1/R1_WINDING.json"
+  }
+ },
+ "con_1_no_regression": {
+  "basis": "the working file is byte-identical to the reviewed baseline (sha256 unchanged), therefore every previously-passing joint loop is unchanged",
+  "joint_loop_counts": {
+   "LITTLE_MCP": {
+    "effective_loop_count": 3,
+    "meets_min_3": true
+   },
+   "LITTLE_PIP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   },
+   "LITTLE_DIP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   },
+   "RING_MCP": {
+    "effective_loop_count": 3,
+    "meets_min_3": true
+   },
+   "RING_PIP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   },
+   "RING_DIP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   },
+   "MIDDLE_MCP": {
+    "effective_loop_count": 3,
+    "meets_min_3": true
+   },
+   "MIDDLE_PIP": {
+    "effective_loop_count": 3,
+    "meets_min_3": true
+   },
+   "MIDDLE_DIP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   },
+   "INDEX_MCP": {
+    "effective_loop_count": 3,
+    "meets_min_3": true
+   },
+   "INDEX_PIP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   },
+   "INDEX_DIP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   },
+   "THUMB_CMC": {
+    "effective_loop_count": 3,
+    "meets_min_3": true
+   },
+   "THUMB_MCP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   },
+   "THUMB_IP": {
+    "effective_loop_count": 4,
+    "meets_min_3": true
+   }
+  },
+  "all_joints_meet_min_3": true,
+  "CON_1_MCP_TOPOLOGY": "PASS_NO_REGRESSION"
+ },
+ "out_of_scope_this_round": [
+  "RSSF re-pose",
+  "nails",
+  "UV re-unwrap",
+  "origin reset",
+  "rig",
+  "skin weights",
+  "left-hand mirror",
+  "animation",
+  "other fingers",
+  "wrist",
+  "palm body"
+ ],
+ "verdict": {
+  "CON_2_THUMB_CMC_TOPOLOGY": "NEEDS_MAJOR_RETOPO",
+  "CON_3_POLE_AUDIT": "PROVISIONAL_PASS",
+  "CON_1_MCP_TOPOLOGY": "PASS_NO_REGRESSION",
+  "ASSET_FRAME_NORMALIZATION": "PASS",
+  "CANONICAL_FRAME_VALIDATION": "PASS",
+  "DEFORMATION_TOPOLOGY_READY_FOR_RSSF": false,
+  "STAGE4A": "REVISION_REQUIRED",
+  "STAGE4B_RSSF_REPOSE": "BLOCKED",
+  "reason": "A closed support loop that encircles the first metacarpal cannot stay local to the CMC: the CMC geodesic ball is a topological disk out to R = 45 mm, so any encircling loop must leave it and travel >= 45 mm across the thenar/palm.  The measured axial level sets confirm the same thing from the other side: at the CMC height the surface cross-section wraps the entire hand (radius 13.4-110 mm) and the thumb only separates from the palm at axial >= +30 mm.  The three existing support loops (66.6 / 67.1 / 66.3 mm axial span) are therefore not a modelling error but the only encircling structure the asset admits at that height.  Reaching the 20 mm target requires either re-scoping CON-2 or a thenar+palm scale rebuild -- both are outside a local collar surgery and outside this round's authorised scope.",
+  "failure_conditions_triggered": [
+   "12-1 only a large-scale thenar rebuild could satisfy the encircling requirement"
+  ]
+ },
+ "authorised_options_for_human_review": [
+  {
+   "id": "OPT-A",
+   "title": "Re-scope CON-2 to a CMC-centred concentric ring field (winding 0)",
+   "achievable_locally": true,
+   "measured": "R=8/12/16 mm rings: closed, axial span 2.85 / 11.09 / 17.89 mm, IN_PM12MM_RATIO = 1.00, on-surface deviation max 0.39 / 0.39 / 0.83 mm",
+   "caveat": "rings encircle the CMC joint centre on the thenar, they do NOT wrap the metacarpal; requires an explicit change to the accepted CON-2 definition"
+  },
+  {
+   "id": "OPT-B",
+   "title": "Authorise a thenar+palm macro-retopo to re-route encircling loops at near-constant axial height",
+   "achievable_locally": false,
+   "caveat": "largest authorised region would have to grow from the thenar to cover the adjacent palm and back of hand; forbidden by section 4 of this round"
+  }
+ ],
+ "evidence": {
+  "renders": [
+   "stage4a_r1/renders/CMC_RETOPO_BEFORE_AFTER.png",
+   "stage4a_r1/renders/CMC_RETOPO_DORSAL.png",
+   "stage4a_r1/renders/CMC_RETOPO_PALMAR.png",
+   "stage4a_r1/renders/CMC_RETOPO_SIDE.png",
+   "stage4a_r1/renders/R1_BASE_WIRE_dorsal.png",
+   "stage4a_r1/renders/R1_BASE_WIRE_palmar.png",
+   "stage4a_r1/renders/R1_BASE_WIRE_radial.png",
+   "stage4a_r1/renders/R1_BASE_WIRE_thumbaxis.png",
+   "stage4a_r1/renders/R1_GEORING_DORSAL.png",
+   "stage4a_r1/renders/R1_GEORING_SIDE.png",
+   "stage4a_r1/renders/R1_GEORING_LOOPS_ONLY.png"
+  ],
+  "machine_data": [
+   "stage4a_r1/CMC_LOCAL_RETOPO_AUDIT.json",
+   "stage4a_r1/R1_LEVELSET.json",
+   "stage4a_r1/R1_WINDING.json",
+   "stage4a_r1/R1_PROBE.json",
+   "stage4a_r1/R1_GEORING.json"
+  ],
+  "scripts": [
+   "scripts/stage4a_r1_probe.py",
+   "scripts/stage4a_r1_levelset.py",
+   "scripts/stage4a_r1_winding.py",
+   "scripts/stage4a_r1_georing_render.py",
+   "scripts/stage4a_r1_audit.py",
+   "scripts/stage4a_r1_render.py",
+   "scripts/stage4a_r1_status.py"
+  ],
+  "report": "stage4a_r1/THUMB_CMC_LOCAL_RETOPO_REPORT_R1.md"
+ },
+ "RIGHT_HAND_ENGINEERING_STAGE4A": "READY_FOR_HUMAN_REVIEW"
+}

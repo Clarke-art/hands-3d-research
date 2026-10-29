@@ -1,0 +1,70 @@
+{
+  "status": "PASS_ADAPTER_PROVENANCE",
+  "edge5879_historical_reproduction": [
+    {
+      "pose": "TH_IP_30",
+      "historical_reported_ratio": 1.0,
+      "rerun_R1E_ratio": 1.0000225367422686,
+      "R1_corrected_ratio": 0.9999989589834213,
+      "R2_ratio": 0.9999958709615215
+    },
+    {
+      "pose": "TH_IP_45",
+      "historical_reported_ratio": 1.0,
+      "rerun_R1E_ratio": 1.0000310973681357,
+      "R1_corrected_ratio": 0.9999989589834213,
+      "R2_ratio": 0.9999958709615215
+    },
+    {
+      "pose": "TH_MCP_45",
+      "historical_reported_ratio": 6.156,
+      "rerun_R1E_ratio": 6.156014280768344,
+      "R1_corrected_ratio": 3.541361093051113,
+      "R2_ratio": 1.0620279065237268
+    },
+    {
+      "pose": "CMC_OPP_30",
+      "historical_reported_ratio": 7.2508,
+      "rerun_R1E_ratio": 7.250812097711667,
+      "R1_corrected_ratio": 4.073856356974798,
+      "R2_ratio": 1.081635083161564
+    },
+    {
+      "pose": "CMC_MCP_L3",
+      "historical_reported_ratio": 11.0413,
+      "rerun_R1E_ratio": 11.041275341936593,
+      "R1_corrected_ratio": 6.084938299100307,
+      "R2_ratio": 1.1362495391454108
+    },
+    {
+      "pose": "FULL_OPP_L3",
+      "historical_reported_ratio": 11.0413,
+      "rerun_R1E_ratio": 11.041242806642524,
+      "R1_corrected_ratio": 6.084938299100307,
+      "R2_ratio": 1.1362495391454108
+    }
+  ],
+  "invalidated_semantics": [
+    {
+      "classification": "HISTORICAL_FIXTURE_OR_VALIDATOR_SEMANTICS_INVALIDATED",
+      "legacy": "old cap9 THUMB_IP onehot cap gate",
+      "replacement": "frozen cap37 quintic; old9 independent native INDEX control"
+    },
+    {
+      "classification": "HISTORICAL_FIXTURE_OR_VALIDATOR_SEMANTICS_INVALIDATED",
+      "legacy": "old R3 16edge whole-mesh cut-component same-surface classifier and collar incidence conflation",
+      "replacement": "fresh frozen boundary20 exact/core/2ring; pure-face domains/mixed-band diagnostics; independent R1C V2 geometric crossing classifier. No cut-component rerun."
+    },
+    {
+      "classification": "HISTORICAL_FIXTURE_OR_VALIDATOR_SEMANTICS_INVALIDATED",
+      "legacy": "normal flip alone or tear-strain >3x as actual surface destruction",
+      "replacement": "existing Stage6B R1B separates flips/strain diagnostics from collapse and true geometric crossing"
+    }
+  ],
+  "historical_pose_state_identical_across_assets": true,
+  "bind_evaluation_float_residual_shared_mm": 0.0001341104507446289,
+  "restored_zero_residual_mm": 0,
+  "test_harness_defect_count": 0,
+  "old_cap_bound_evaluations": 0,
+  "legacy_top_level_scripts_executed": false
+}

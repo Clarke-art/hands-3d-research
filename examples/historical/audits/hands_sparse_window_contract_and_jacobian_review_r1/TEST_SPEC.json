@@ -1,0 +1,16 @@
+{
+  "method": "2-point",
+  "absolute_step": 0.0001,
+  "inputs": [
+    "zeros(52)",
+    "0.02*sin(arange(52)+1), retaining only root channels 0:6 and spread channels 9,13,17,21,25 in both coefficient blocks"
+  ],
+  "constraint_atol": 1e-09,
+  "jacobian_atol": 2e-06,
+  "jacobian_rtol": 2e-06,
+  "structural_zero_atol": 2e-06,
+  "timer": "perf_counter wall clock; one measured complete Jacobian per state, including baseline and all columns",
+  "numerical_budget_seconds": 120,
+  "threads": 1,
+  "formal_solve": false
+}

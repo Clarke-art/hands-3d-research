@@ -1,0 +1,128 @@
+{
+  "status": "PASS",
+  "MIRROR_PLANE": "WRIST rest-local X=0; plane spanned by wrist longitudinal Y and palmar/dorsal Z through WRIST head",
+  "MIRROR_SPACE": "ARMATURE_DATA (rig world identity); mesh reflection conjugated into MESH_DATA",
+  "origin_armature_m": [
+    1.3936593532562256,
+    0.04786719009280205,
+    0.36566734313964844
+  ],
+  "normal_armature": [
+    -0.9800114035606384,
+    -0.1434440314769745,
+    0.13784562051296234
+  ],
+  "equation_n_dot_p_equals": -1.3222626722417772,
+  "reflection_armature_matrix": [
+    [
+      -0.9208446741104126,
+      -0.2811535596847534,
+      0.2701805531978607,
+      2.591665029525757
+    ],
+    [
+      -0.2811535596847534,
+      0.9588476419448853,
+      0.039546262472867966,
+      0.37934136390686035
+    ],
+    [
+      0.2701805531978607,
+      0.039546262472867966,
+      0.9619971513748169,
+      -0.36453622579574585
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "reflection_mesh_data_matrix": [
+    [
+      -0.9483517408370972,
+      0.2677491009235382,
+      -0.17011484503746033,
+      -0.0011849580332636833
+    ],
+    [
+      0.2677490711212158,
+      0.9632048606872559,
+      0.02337774634361267,
+      0.00016284361481666565
+    ],
+    [
+      -0.17011481523513794,
+      0.023377781733870506,
+      0.9851468205451965,
+      -0.00010346993803977966
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_mesh_world": [
+    [
+      0.9951446652412415,
+      -0.04071351885795593,
+      -0.08960746228694916,
+      1.3934006690979004
+    ],
+    [
+      -0.011964203789830208,
+      -0.9537203311920166,
+      0.30045706033706665,
+      0.04916166886687279
+    ],
+    [
+      -0.09769312292337418,
+      -0.2979261577129364,
+      -0.9495767951011658,
+      0.3608204126358032
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "source_armature_world": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "anatomical_side_projection_m": {
+    "THUMB_CMC_R": -0.030702817486599088,
+    "INDEX_MCP_R": -0.02676780242472887,
+    "MIDDLE_MCP_R": -0.0017145108431577682,
+    "LITTLE_MCP_R": 0.049644486512988806
+  },
+  "reason": "Existing wrist frame supplies longitudinal and palmar/dorsal axes. Thumb/index are radial and little finger is ulnar on opposite sides. Reflection preserves these two in-plane axes and reverses radial/ulnar chirality. A single asymmetric hand has no exact self-symmetry; this is its verified anatomical bilateral construction plane, not a symmetry-fit claim.",
+  "world_X_assumed": false
+}

@@ -1,0 +1,137 @@
+{
+  "authority_id": "THUMB_DISTAL_IP_TIP_KINEMATIC_CORRECTION_AUTHORITY_R1",
+  "status": "HUMAN_APPROVED",
+  "authority_scope": "six thumb distal IP/TIP slots: retained IP head plus five approved corrections",
+  "human_approval_record": "HUMAN_THUMB_KINEMATIC_APPROVAL_R1.json",
+  "human_approval_combined_hash": "381c094a5da6786b6b64d149ee68aceca5450fb4ad1a414b70e43672dde9d72f",
+  "approved_candidate_path": "production_spec\\stage5_production_rig\\cap_derived_thumb_kinematic_authority_revalidation_r1\\KINEMATIC_CANDIDATE_R1.json",
+  "approved_candidate_sha256": "c6e31f988ee1608391ebe2a2ea868dfc690b9fbc623cd174348e053320368e17",
+  "coordinate_contract": {
+    "position": "world meters / armature local meters",
+    "roll": "Blender edit-bone roll radians and degrees"
+  },
+  "slots": {
+    "THUMB_IP_R.head": {
+      "value": [
+        1.450860857963562,
+        0.006127120926976204,
+        0.4640011489391327
+      ],
+      "world_m": [
+        1.450860857963562,
+        0.006127120926976204,
+        0.4640011489391327
+      ],
+      "armature_local_m": [
+        0.042156219482421875,
+        -0.016267918050289154,
+        0.12815365195274353
+      ],
+      "roll_deg": null,
+      "confidence": "MEDIUM_HIGH_GEOMETRIC",
+      "evidence_basis": "Independent RSSF axial/IP section and true loops; current point is central within method resolution, 16/16 radial containment and 6.220 mm clearance. Exact centroid equality is NOT claimed.",
+      "classification": "REVALIDATED_UNCHANGED"
+    },
+    "THUMB_IP_R.tail": {
+      "value": [
+        1.4514825344085693,
+        0.010474493727087975,
+        0.48555445671081543
+      ],
+      "world_m": [
+        1.4514825344085693,
+        0.010474493727087975,
+        0.48555445671081543
+      ],
+      "armature_local_m": [
+        0.0427778959274292,
+        -0.011920545250177383,
+        0.14970695972442627
+      ],
+      "roll_deg": null,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Mapped native terminal tip v284 in approved RSSF, compatible with explicit fingertip surface-landmark contract; cap37 corroborates membership only.",
+      "classification": "CHANGE_REQUIRED"
+    },
+    "THUMB_IP_R.roll": {
+      "value": 2.4771578311920166,
+      "world_m": null,
+      "armature_local_m": null,
+      "roll_deg": 141.93068891508298,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Projected approved thumb nail normal onto independently corrected distal axis; right-handed orthonormal XYZ. Recomputed roll, no flip.",
+      "classification": "CHANGE_REQUIRED"
+    },
+    "THUMB_TIP_R.head": {
+      "value": [
+        1.4514825344085693,
+        0.010474493727087975,
+        0.48555445671081543
+      ],
+      "world_m": [
+        1.4514825344085693,
+        0.010474493727087975,
+        0.48555445671081543
+      ],
+      "armature_local_m": [
+        0.0427778959274292,
+        -0.011920545250177383,
+        0.14970695972442627
+      ],
+      "roll_deg": null,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Mapped native terminal tip v284 in approved RSSF, compatible with explicit fingertip surface-landmark contract; cap37 corroborates membership only.",
+      "classification": "CHANGE_REQUIRED"
+    },
+    "THUMB_TIP_R.tail": {
+      "value": [
+        1.4516690373420715,
+        0.011778705567121506,
+        0.49202044904232023
+      ],
+      "world_m": [
+        1.4516690373420715,
+        0.011778705567121506,
+        0.49202044904232023
+      ],
+      "armature_local_m": [
+        0.042964398860931396,
+        -0.010616333410143852,
+        0.15617295205593107
+      ],
+      "roll_deg": null,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Existing helper tail convention: mapped terminal + 0.30*(mapped terminal - independently revalidated IP head).",
+      "classification": "CHANGE_REQUIRED"
+    },
+    "THUMB_TIP_R.roll": {
+      "value": 2.4771578311920166,
+      "world_m": null,
+      "armature_local_m": null,
+      "roll_deg": 141.93068891508298,
+      "confidence": "HIGH_GEOMETRIC_AND_CONTRACT",
+      "evidence_basis": "Projected approved thumb nail normal onto independently corrected distal axis; right-handed orthonormal XYZ. Recomputed roll, no flip.",
+      "classification": "CHANGE_REQUIRED"
+    }
+  },
+  "slot_application_rule": "Copy the five approved slot values exactly; preserve IP head bitwise; no geometric refit or selector rerun. Float32 storage rounding is measured separately from authority value.",
+  "supersedes": "R2A old cap-derived distal endpoint/roll authority only; historical artifacts remain frozen",
+  "old_cap_REP_authority": "SUPERSEDED_CONTAMINATED; NOT_AUTHORITY",
+  "cap37_combined_authority_hash": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+  "cap37_semantics": "SURFACE MEMBERSHIP ONLY; unchanged",
+  "input_rig_path": "production_spec\\stage5_production_rig\\stage5a_r2a\\RIGHT_HAND_STAGE5A_PRODUCTION_RIG_R2A.blend",
+  "input_rig_sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+  "corrected_rig_path": "production_spec\\stage5_production_rig\\human_thumb_kinematic_authority_correction_r1\\RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+  "corrected_rig_scope": "New skeleton-only derivative for these approved slots; downstream consumers remain unreconciled",
+  "scope_exclusions": [
+    "R2",
+    "R3",
+    "skin weights",
+    "Stage5B",
+    "Stage6A",
+    "Stage6B",
+    "strict-bound results"
+  ],
+  "NEXT": "CAP_DERIVED_R2_R3_INPUT_RECONCILIATION_R1",
+  "combined_authority_hash": "6325d030cbc1b12369bb208044657cb711aa29af017509cf52ce03c948c080c4"
+}

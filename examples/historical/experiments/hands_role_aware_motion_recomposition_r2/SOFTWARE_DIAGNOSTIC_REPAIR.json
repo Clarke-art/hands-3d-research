@@ -1,0 +1,14 @@
+{
+  "stage": "Post-generation Blender diagnostic adapter",
+  "initial_error": "SciPy CPython extension ABI unavailable in Blender Python",
+  "initial_log": "validate_blender.log",
+  "initial_script_snapshot": "validate_blender_before_import_fix.py",
+  "repair": "Remove SciPy/Representation imports from Blender diagnostics and read q_deg/rig_world directly from immutable MOTION_CANDIDATE.npz at its saved times",
+  "runner_change": "Separate software_retry_1 receipt and log, preserving the initial failed process",
+  "motion_strategy_or_weights_changed": false,
+  "motion_parameters_changed": false,
+  "numerical_generation_restarted": false,
+  "new_candidate_generated": false,
+  "software_retry_log": "validate_blender_software_retry_1.log",
+  "software_retry_result": "Completed all 240 actual frames; machine quality FAIL retained"
+}

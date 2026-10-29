@@ -1,0 +1,176 @@
+{
+  "authority_status": "FAIL_CLOSED",
+  "distal": {
+    "nail_side": {
+      "status": "RESOLVED",
+      "mechanism": "AUTHORITY_CONFLICT_TERMINATION",
+      "side": "LEFT_COLUMN4",
+      "stop_boundary_edge_ids": [
+        4475
+      ],
+      "forbidden_face_ids": [
+        1177
+      ],
+      "frozen_nail_conflict": [
+        304
+      ],
+      "constraint": "No shared extension into face1177; this constrains only the nail-side lane."
+    },
+    "non_nail_side": {
+      "status": "RESOLVED_STOP_RULE_CANDIDATE_PENDING_HUMAN",
+      "side": "RIGHT_COLUMN6",
+      "mechanism": "AUTHORITY_CONFLICT_TERMINATION_AT_CAP_CONTEXT",
+      "safe_continuation_rows": [
+        "D01",
+        "D02",
+        "D03",
+        "D04"
+      ],
+      "safe_continuation_face_ids": [
+        1176,
+        1213,
+        1214,
+        1226
+      ],
+      "last_safe_row": "D04",
+      "last_safe_face_ids": [
+        1226
+      ],
+      "stop_boundary_edge_ids": [
+        4524
+      ],
+      "first_forbidden_row": "D05",
+      "first_forbidden_face_ids": [
+        1227
+      ],
+      "cap_conflict_ids": [
+        298,
+        1454
+      ],
+      "rule": "Follow the existing non-nail face column through actual opposite-edge adjacency. Stop before its first frozen nail/cap conflict; side-specific maximal safe continuation is a stop-rule proposal, not role membership authority.",
+      "supporting_context": [
+        "Same exact face sequence native/RSSF",
+        "No earlier nail/cap collision D01–D04",
+        "Gradual normal progression D01–D04; no independent earlier normal/topology event",
+        "D05 cap membership conflict and nonregular valence co-occur"
+      ],
+      "not_inferred_from_row_count": true
+    },
+    "asymmetric_taper": "SUPPORTED_STOP_RULE_PROPOSAL_NOT_APPLIED"
+  },
+  "proximal": {
+    "status": "UNRESOLVED",
+    "candidate_event_family": "DIGIT_WEB_TO_BROADER_INTERFACE_MORPHOLOGY_TRANSITION",
+    "transition_band": [
+      "P03",
+      "P04",
+      "P05"
+    ],
+    "event_descriptors": {
+      "NATIVE": {
+        "first_mean_arc_reversal": {
+          "last_descending_row": "P03",
+          "first_increasing_row": "P04"
+        },
+        "first_outward_tangent_nonnegative_row": "P04",
+        "first_nonregular_strip_vertex_row": "P35",
+        "note": "Zero derivative/sign change is a mathematical event descriptor, not a manufactured ownership threshold. Own-state centerline differs; no final stop inferred from it."
+      },
+      "RSSF": {
+        "first_mean_arc_reversal": {
+          "last_descending_row": "P04",
+          "first_increasing_row": "P05"
+        },
+        "first_outward_tangent_nonnegative_row": "P05",
+        "first_nonregular_strip_vertex_row": "P35",
+        "note": "Zero derivative/sign change is a mathematical event descriptor, not a manufactured ownership threshold. Own-state centerline differs; no final stop inferred from it."
+      }
+    },
+    "final_row": null,
+    "final_face_ids": null,
+    "why_not_resolved": "Regular quads continue; native first turn is P03/P04, RSSF P04/P05. Smooth widening lacks a unique row-specific anatomical role boundary. A centerline proxy event cannot certify loss of circumferential digit-web semantics."
+  },
+  "families": {
+    "S1_SYMMETRIC_CROP": {
+      "status": "REJECTED_AS_AUTHORITY",
+      "reason": "R00/R08 are prior analysis bounds; nail-side conflict cannot stop the opposite side or proximal lane."
+    },
+    "S2_DISTAL_ASYMMETRIC_TAPER_PLUS_PROXIMAL_SEMANTIC_STOP": {
+      "status": "PARTIAL",
+      "distal": {
+        "nail_side": {
+          "status": "RESOLVED",
+          "mechanism": "AUTHORITY_CONFLICT_TERMINATION",
+          "side": "LEFT_COLUMN4",
+          "stop_boundary_edge_ids": [
+            4475
+          ],
+          "forbidden_face_ids": [
+            1177
+          ],
+          "frozen_nail_conflict": [
+            304
+          ],
+          "constraint": "No shared extension into face1177; this constrains only the nail-side lane."
+        },
+        "non_nail_side": {
+          "status": "RESOLVED_STOP_RULE_CANDIDATE_PENDING_HUMAN",
+          "side": "RIGHT_COLUMN6",
+          "mechanism": "AUTHORITY_CONFLICT_TERMINATION_AT_CAP_CONTEXT",
+          "safe_continuation_rows": [
+            "D01",
+            "D02",
+            "D03",
+            "D04"
+          ],
+          "safe_continuation_face_ids": [
+            1176,
+            1213,
+            1214,
+            1226
+          ],
+          "last_safe_row": "D04",
+          "last_safe_face_ids": [
+            1226
+          ],
+          "stop_boundary_edge_ids": [
+            4524
+          ],
+          "first_forbidden_row": "D05",
+          "first_forbidden_face_ids": [
+            1227
+          ],
+          "cap_conflict_ids": [
+            298,
+            1454
+          ],
+          "rule": "Follow the existing non-nail face column through actual opposite-edge adjacency. Stop before its first frozen nail/cap conflict; side-specific maximal safe continuation is a stop-rule proposal, not role membership authority.",
+          "supporting_context": [
+            "Same exact face sequence native/RSSF",
+            "No earlier nail/cap collision D01–D04",
+            "Gradual normal progression D01–D04; no independent earlier normal/topology event",
+            "D05 cap membership conflict and nonregular valence co-occur"
+          ],
+          "not_inferred_from_row_count": true
+        },
+        "asymmetric_taper": "SUPPORTED_STOP_RULE_PROPOSAL_NOT_APPLIED"
+      },
+      "proximal": "UNRESOLVED; P03–P05 transition zone has no unique stable boundary"
+    },
+    "S3_FULL_FACE_STRIP_UNTIL_TOPOLOGY_STOP": {
+      "status": "REJECTED_AS_SEMANTIC_AUTHORITY",
+      "distal_first_event": "D05 cap conflict must not be crossed",
+      "proximal_first_local_lane_valence_event": "P35 v247 valence3; quads still continue",
+      "reason": "Two-column topology persists through directional reversal and large growth of distance from thumb axis. Waiting for a lane pole does not identify digit-web role termination. No later row was added to a role map."
+    },
+    "S4_HYBRID_AUTHORITY_CONFLICT_AND_MORPHOLOGY_STOP": {
+      "status": "NOT_COMPLETE",
+      "reason": "Distal side-specific frozen conflicts give event-adjacent stop proposals; proximal morphology only establishes a transition band, not a unique source-backed semantic stop."
+    }
+  },
+  "first_web_membership_unchanged": true,
+  "role_extension_emitted": false,
+  "complement_emitted": false,
+  "NEXT": "NARROW_PROXIMAL_WEB_TO_PALM_TRANSITION_AUTHORITY",
+  "next_scope": "Only existing P03–P05 rows (faces1373/1374,1368/1371,1369/1370) and their P02/P06 immediate controls; independent evidence for exact web-to-broader-interface transition. Do not repeat general domain tracing."
+}

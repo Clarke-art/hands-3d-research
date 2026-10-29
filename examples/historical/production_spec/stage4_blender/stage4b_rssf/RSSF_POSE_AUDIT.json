@@ -1,0 +1,233 @@
+{
+ "stage": "STAGE4B_AUTO_RSSF_INITIAL_POSE",
+ "AUTO_RSSF_INITIAL_VALUES": null,
+ "measured_on_posed_geometry": {
+  "little": {
+   "MCP_flexion": 27.25,
+   "MCP_abduction": -20.98,
+   "PIP_articulation": {
+    "change_deg": 26.1,
+    "rest_deg": 2.0,
+    "posed_deg": 28.1
+   },
+   "DIP_articulation": {
+    "change_deg": 13.7,
+    "rest_deg": 0.56,
+    "posed_deg": 14.25
+   },
+   "applied_rotation_deg": {
+    "MCP": 33.19,
+    "PIP": 28.0,
+    "DIP": 13.0
+   },
+   "finger_curl_deg": {
+    "rest": 3.09,
+    "posed": 43.53,
+    "delta": 40.44
+   }
+  },
+  "ring": {
+   "MCP_flexion": 27.44,
+   "MCP_abduction": -10.67,
+   "PIP_articulation": {
+    "change_deg": 21.19,
+    "rest_deg": 10.99,
+    "posed_deg": 32.19
+   },
+   "DIP_articulation": {
+    "change_deg": 13.25,
+    "rest_deg": 5.65,
+    "posed_deg": 18.9
+   },
+   "applied_rotation_deg": {
+    "MCP": 28.76,
+    "PIP": 22.0,
+    "DIP": 14.0
+   },
+   "finger_curl_deg": {
+    "rest": 19.25,
+    "posed": 53.4,
+    "delta": 34.15
+   }
+  },
+  "middle": {
+   "MCP_flexion": 27.99,
+   "MCP_abduction": 2.5,
+   "PIP_articulation": {
+    "change_deg": 22.97,
+    "rest_deg": 10.14,
+    "posed_deg": 33.11
+   },
+   "DIP_articulation": {
+    "change_deg": 15.91,
+    "rest_deg": 1.84,
+    "posed_deg": 17.75
+   },
+   "applied_rotation_deg": {
+    "MCP": 28.07,
+    "PIP": 23.0,
+    "DIP": 16.0
+   },
+   "finger_curl_deg": {
+    "rest": 12.89,
+    "posed": 51.18,
+    "delta": 38.29
+   }
+  },
+  "index": {
+   "MCP_flexion": 24.99,
+   "MCP_abduction": 13.53,
+   "PIP_articulation": {
+    "change_deg": 26.49,
+    "rest_deg": 3.9,
+    "posed_deg": 30.39
+   },
+   "DIP_articulation": {
+    "change_deg": 5.55,
+    "rest_deg": 4.87,
+    "posed_deg": 10.42
+   },
+   "applied_rotation_deg": {
+    "MCP": 27.73,
+    "PIP": 27.0,
+    "DIP": 16.0
+   },
+   "finger_curl_deg": {
+    "rest": 5.37,
+    "posed": 42.31,
+    "delta": 36.94
+   }
+  },
+  "thumb": {
+   "CMC_flexion": 24.27,
+   "CMC_abduction": 10.25,
+   "MCP_articulation": {
+    "change_deg": 18.97,
+    "rest_deg": 35.34,
+    "posed_deg": 54.31
+   },
+   "IP_articulation": {
+    "change_deg": 14.01,
+    "rest_deg": 17.08,
+    "posed_deg": 31.09
+   },
+   "thumb_index_web_deg": 40.0,
+   "thumb_index_web_rest_deg": 19.33,
+   "applied_rotation_deg": {
+    "CMC": 24.46,
+    "MCP": 19.0,
+    "IP": 14.0
+   }
+  },
+  "adjacent_spread": {
+   "index_middle": {
+    "rest_deg": 6.96,
+    "posed_deg": 19.24,
+    "change_deg": 12.28
+   },
+   "middle_ring": {
+    "rest_deg": 11.62,
+    "posed_deg": 25.97,
+    "change_deg": 14.35
+   },
+   "ring_little": {
+    "rest_deg": 12.46,
+    "posed_deg": 23.47,
+    "change_deg": 11.01
+   }
+  },
+  "wrist": {
+   "flex_ext_deg": 0.0,
+   "radial_ulnar_deviation_deg": 0.0,
+   "note": "wrist deliberately left neutral in RSSF"
+  }
+ },
+ "HUMAN_REVIEW_TUNING_VALUES": {
+  "index": {
+   "SPREAD": 14.0,
+   "DIP": 16.0
+  },
+  "middle": {
+   "PIP": 23.0
+  },
+  "ring": {
+   "SPREAD": -10.0,
+   "PIP": 22.0,
+   "DIP": 14.0
+  },
+  "little": {
+   "SPREAD": -22.0
+  }
+ },
+ "HUMAN_TUNING_SCOPE": "MINOR (3 spread values trimmed; nothing else changed)",
+ "FINAL_RSSF_VALUES": {
+  "index": {
+   "MCP": 24.0,
+   "PIP": 27.0,
+   "DIP": 16.0,
+   "SPREAD": 14.0
+  },
+  "middle": {
+   "MCP": 28.0,
+   "PIP": 23.0,
+   "DIP": 16.0,
+   "SPREAD": 2.0
+  },
+  "ring": {
+   "MCP": 27.0,
+   "PIP": 22.0,
+   "DIP": 14.0,
+   "SPREAD": -10.0
+  },
+  "little": {
+   "MCP": 25.0,
+   "PIP": 28.0,
+   "DIP": 13.0,
+   "SPREAD": -22.0
+  },
+  "thumb": {
+   "CMC_FLEX": 24.0,
+   "MCP": 19.0,
+   "IP": 14.0,
+   "WEB_TARGET": 40.0,
+   "CMC_ABDUCT": 1.14
+  }
+ },
+ "technical_ranges": {
+  "finger_spread_deg": [
+   10,
+   15
+  ],
+  "MCP_deg": [
+   20,
+   30
+  ],
+  "PIP_deg": [
+   25,
+   35
+  ],
+  "DIP_deg": [
+   10,
+   20
+  ],
+  "thumb_index_web_deg": [
+   35,
+   45
+  ],
+  "CMC_flexion_deg": [
+   20,
+   30
+  ],
+  "thumb_MCP_deg": [
+   15,
+   25
+  ],
+  "thumb_IP_deg": [
+   10,
+   20
+  ],
+  "wrist_flex_ext_deg": "neutral (0)",
+  "wrist_deviation_deg": "neutral (0)"
+ },
+ "note": "technical range, NOT a teaching parameter"
+}

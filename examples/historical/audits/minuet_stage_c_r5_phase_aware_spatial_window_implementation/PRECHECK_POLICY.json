@@ -1,0 +1,27 @@
+{
+  "windows_video_sec": [
+    [
+      0.778571,
+      2.134284
+    ],
+    [
+      2.741426,
+      4.70571
+    ]
+  ],
+  "root": "FIXED_C1",
+  "source_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+  "boundary": "source position and first derivative unchanged; zero correction at endpoints",
+  "non_target_internal_depth_limit_mm": 0.5,
+  "active_gap_limit_mm": 2.1,
+  "active_horizontal_limit_mm": 0.5,
+  "geometry_check": "Four exact boundary source poses, existing four distal ROIs and seven known black keys only; no optimization or pose edits",
+  "stop": "Any credible non-target penetration >0.5 mm at an immutable endpoint implies boundary gate FAIL and zero dynamic attempts",
+  "dynamic_method_lock": "NOT_REACHED; do not fabricate a backend/strategy lock before boundary feasibility",
+  "role_policy": {
+    "prepare_sec": 0.18,
+    "release_contact_sec": 0.04,
+    "exit_sec": 0.12,
+    "mechanical_rebound_context_sec": 0.07
+  }
+}

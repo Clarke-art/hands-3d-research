@@ -1,0 +1,1784 @@
+{
+  "historical_numeric_role": "HISTORICAL_VALUE_ONLY; no seed, threshold, expected-answer or acceptance-target use. Fixed-ID old arithmetic remains historical.",
+  "historical_shortest_path": {
+    "source_vertex": 2192,
+    "target_vertex": 704,
+    "vertex_sequence": [
+      2192,
+      703,
+      2169,
+      704
+    ],
+    "edge_id_sequence": [
+      2722,
+      2676,
+      2677
+    ],
+    "length_mm": 13.1646,
+    "source_authority": "SUPERSEDED_CONTAMINATED_OLD_CAP9",
+    "target_authority": "OLD_R3_EXACT_INDEX_COLLAR",
+    "current_anatomical_interpretation": "INVALIDATED"
+  },
+  "corrected_shortest_path": {
+    "source_vertex": 1380,
+    "target_vertex": 2035,
+    "target_class": "INDEX_SIDE_EXACT_FRESH_R3_BOUNDARY",
+    "vertex_sequence": [
+      1380,
+      2787,
+      1456,
+      2782,
+      1398,
+      2775,
+      1407,
+      2770,
+      1369,
+      2753,
+      1433,
+      2757,
+      2375,
+      3245,
+      1427,
+      2856,
+      1584,
+      2855,
+      1581,
+      2854,
+      1579,
+      2853,
+      2040,
+      3143,
+      2035
+    ],
+    "edge_id_sequence": [
+      4526,
+      4528,
+      4507,
+      4509,
+      4481,
+      4479,
+      4460,
+      4458,
+      4392,
+      4390,
+      4407,
+      4409,
+      6360,
+      6358,
+      4805,
+      4803,
+      4800,
+      4798,
+      4797,
+      4795,
+      4791,
+      4793,
+      5951,
+      5950
+    ],
+    "individual_edge_lengths_mm": [
+      2.861056943532529,
+      3.5934354516608717,
+      3.817244238244489,
+      4.0914784929808095,
+      4.137305371957894,
+      4.4031733760427,
+      4.7226520026109755,
+      4.798970162327009,
+      5.001493679576748,
+      4.5365637051251735,
+      3.6065919834637903,
+      2.8253825378472652,
+      2.591875214828556,
+      2.0701276133969424,
+      2.424537671756116,
+      2.5931705234947606,
+      2.513913607331944,
+      2.6947986988070833,
+      2.9823702581776006,
+      2.91632346811065,
+      3.168554230553696,
+      3.167854875576243,
+      3.8940040891958487,
+      2.3568574063910295
+    ],
+    "total_path_length_mm": 81.76973560299072,
+    "Dijkstra_accumulated_distance_mm": 81.7697356029907,
+    "path_sum_minus_Dijkstra_mm": 1.4210854715202004e-14,
+    "semantic_region_sequence": [
+      "DISTAL_CAP",
+      "THUMB_DISTAL",
+      "THUMB_DISTAL",
+      "THUMB_DISTAL",
+      "THUMB_DISTAL",
+      "THUMB_DISTAL",
+      "THUMB_MCP_TRANSITION",
+      "THUMB_MCP_TRANSITION",
+      "THUMB_MCP_TRANSITION",
+      "THUMB_MCP_TRANSITION",
+      "THUMB_MCP_TRANSITION",
+      "THUMB_MCP_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_CMC_TRANSITION",
+      "THUMB_MCP_TRANSITION",
+      "INDEX_ROOT"
+    ],
+    "semantic_label_role": "Corrected historical chain/ownership descriptive proxy, not new anatomy authority",
+    "fresh_R3_ownership_sequence": [
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "THUMB",
+      "INDEX"
+    ],
+    "passes_through": {
+      "cap37": true,
+      "thumb_distal": true,
+      "thumb_MCP_transition": true,
+      "CMC_transition": true,
+      "first_web": false,
+      "collar": true,
+      "palm": false
+    },
+    "palm_membership_note": "No full palm map is approved by bounded fresh-R3. Null means unknown on any unassigned route vertex; no invented global wrist/palm labels."
+  },
+  "historical_pair_count": 144,
+  "corrected_primary_pair_count": 703,
+  "corrected_all_exact_boundary_context_pair_count": 1406,
+  "pose_comparison": {
+    "TH_IP_30": {
+      "historical_top10_max": 1.3435,
+      "corrected_top10_max": 0.5134507622331868,
+      "corrected_full703_max": 0.5298063165507003,
+      "interpretation": "Input-authority replacement comparison, not acceptance testing."
+    },
+    "TH_IP_45": {
+      "historical_top10_max": 1.9337,
+      "corrected_top10_max": 0.48322492884521207,
+      "corrected_full703_max": 0.508486086009043,
+      "interpretation": "Input-authority replacement comparison, not acceptance testing."
+    },
+    "TH_MCP_45": {
+      "historical_top10_max": 3.3675,
+      "corrected_top10_max": 0.5257438179745317,
+      "corrected_full703_max": 0.5718349959429454,
+      "interpretation": "Input-authority replacement comparison, not acceptance testing."
+    },
+    "CMC_OPP_30": {
+      "historical_top10_max": 3.9013,
+      "corrected_top10_max": 0.5492316281310688,
+      "corrected_full703_max": 0.5701593676271911,
+      "interpretation": "Input-authority replacement comparison, not acceptance testing."
+    },
+    "CMC_MCP_L3": {
+      "historical_top10_max": 5.9643,
+      "corrected_top10_max": 0.6583331237580919,
+      "corrected_full703_max": 0.6806198919342639,
+      "interpretation": "Input-authority replacement comparison, not acceptance testing."
+    },
+    "FULL_OPP_L3": {
+      "historical_top10_max": 6.516,
+      "corrected_top10_max": 0.6691360618485301,
+      "corrected_full703_max": 0.6916621180243677,
+      "interpretation": "Input-authority replacement comparison, not acceptance testing."
+    }
+  },
+  "downstream_recommendations": {
+    "mesh_limit": "HISTORICAL_ONLY_REQUIRES_SEPARATE_DOWNSTREAM_RECONCILIATION",
+    "retopo": "HISTORICAL_ONLY_REQUIRES_SEPARATE_DOWNSTREAM_RECONCILIATION",
+    "no_legal_weights": "HISTORICAL_ONLY_REQUIRES_SEPARATE_DOWNSTREAM_RECONCILIATION",
+    "cap_constrained_feasibility": "HISTORICAL_ONLY_REQUIRES_SEPARATE_DOWNSTREAM_RECONCILIATION",
+    "recommendations_automatically_promoted": false
+  },
+  "endpoint_sensitivity_comparison": [
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.367508031470052,
+      "historical_max_288_all_collar_pairs": 5.005570190931201,
+      "corrected_max703_index_pairs": 0.5756141852440949,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341677335571035
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.1,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.367508361434542,
+      "historical_max_288_all_collar_pairs": 5.005570640550906,
+      "corrected_max703_index_pairs": 0.575614016272958,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341676024312854
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.2,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.3675086913990384,
+      "historical_max_288_all_collar_pairs": 5.005571090170655,
+      "corrected_max703_index_pairs": 0.5756140636316555,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341677335571035
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.3,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.367509021363556,
+      "historical_max_288_all_collar_pairs": 5.00557153979041,
+      "corrected_max703_index_pairs": 0.5756141852440949,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341677529382844
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.4,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.367509351328094,
+      "historical_max_288_all_collar_pairs": 5.0055719894102335,
+      "corrected_max703_index_pairs": 0.5756143542151823,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341677196268792
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.5,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.3675096812926553,
+      "historical_max_288_all_collar_pairs": 5.005572439030077,
+      "corrected_max703_index_pairs": 0.5756141852440949,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341677529382844
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.9012772975978187,
+      "historical_max_288_all_collar_pairs": 5.691603513426304,
+      "corrected_max703_index_pairs": 0.5746373205570223,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6414614067412833
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.492125254216647,
+      "historical_max_288_all_collar_pairs": 5.0980144152314715,
+      "corrected_max703_index_pairs": 0.5615282648755505,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6328231064092614
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.086389132518983,
+      "historical_max_288_all_collar_pairs": 4.5067221340236685,
+      "corrected_max703_index_pairs": 0.5489713680132299,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6247198474516444
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 2.685617584715449,
+      "historical_max_288_all_collar_pairs": 3.918766489626454,
+      "corrected_max703_index_pairs": 0.5368479931774475,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6169835359511324
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 2.29241588572898,
+      "historical_max_288_all_collar_pairs": 3.3359121988850116,
+      "corrected_max703_index_pairs": 0.5278088021920039,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6096278210740625
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 1.922371395439173,
+      "historical_max_288_all_collar_pairs": 2.761391422571276,
+      "corrected_max703_index_pairs": 0.5303756349477965,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6026673101059241
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.964270669916716,
+      "historical_max_288_all_collar_pairs": 8.773351053858171,
+      "corrected_max703_index_pairs": 0.6866071172786493,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.72891463353999
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.5575966015670595,
+      "historical_max_288_all_collar_pairs": 8.19041608679812,
+      "corrected_max703_index_pairs": 0.6696839011980752,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7162573537806374
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.153360087872643,
+      "historical_max_288_all_collar_pairs": 7.610488527490089,
+      "corrected_max703_index_pairs": 0.6529774085236905,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7038136556753798
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 4.752183209075132,
+      "historical_max_288_all_collar_pairs": 7.034312231537946,
+      "corrected_max703_index_pairs": 0.6365055512267933,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6915931219806245
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 4.354911613082492,
+      "historical_max_288_all_collar_pairs": 6.462890568932823,
+      "corrected_max703_index_pairs": 0.6204708358676007,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6796080396590837
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 3.962720014171317,
+      "historical_max_288_all_collar_pairs": 5.897605737311297,
+      "corrected_max703_index_pairs": 0.6050468150125557,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6678711002843503
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 6.5159538402807,
+      "historical_max_288_all_collar_pairs": 9.588429812845828,
+      "corrected_max703_index_pairs": 0.6979358851323245,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7377907571645264
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.1,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 6.114685978502291,
+      "historical_max_288_all_collar_pairs": 9.013830398877838,
+      "corrected_max703_index_pairs": 0.6803379902657742,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7241970270184797
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.2,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 5.716379941057479,
+      "historical_max_288_all_collar_pairs": 8.44308495960614,
+      "corrected_max703_index_pairs": 0.6634178899572132,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7108054362603419
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.3,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 5.3217008083096875,
+      "historical_max_288_all_collar_pairs": 7.877031281012523,
+      "corrected_max703_index_pairs": 0.6469943966836332,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.697625409580867
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.4,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 4.931519461952057,
+      "historical_max_288_all_collar_pairs": 7.3167583642281535,
+      "corrected_max703_index_pairs": 0.6313679914069085,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6849623138603309
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_CMC",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.5,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 4.5469939258666106,
+      "historical_max_288_all_collar_pairs": 6.763702914120734,
+      "corrected_max703_index_pairs": 0.615970059836698,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6727037240770647
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.367508031470052,
+      "historical_max_288_all_collar_pairs": 5.005570190931201,
+      "corrected_max703_index_pairs": 0.5756141852440949,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341677335571035
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.999100298878559,
+      "historical_max_288_all_collar_pairs": 4.466313001899918,
+      "corrected_max703_index_pairs": 0.5636801630028268,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.62752690695111
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.6343398942771907,
+      "historical_max_288_all_collar_pairs": 3.9294065803795997,
+      "corrected_max703_index_pairs": 0.55184498913162,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6212638715641775
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.2749818833468116,
+      "historical_max_288_all_collar_pairs": 3.3959660871847985,
+      "corrected_max703_index_pairs": 0.5407309753798454,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6151481358498724
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 1.9240556841372654,
+      "historical_max_288_all_collar_pairs": 2.8679261854303877,
+      "corrected_max703_index_pairs": 0.5342060632014327,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6092292808180698
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 1.5871640737159203,
+      "historical_max_288_all_collar_pairs": 2.3489318621948194,
+      "corrected_max703_index_pairs": 0.5380241748661331,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6033351226779214
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.9012772975978187,
+      "historical_max_288_all_collar_pairs": 5.691603513426304,
+      "corrected_max703_index_pairs": 0.5746373205570223,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6414614067412833
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.4921259955942134,
+      "historical_max_288_all_collar_pairs": 5.098015528629556,
+      "corrected_max703_index_pairs": 0.5615282648755505,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6328230854495266
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.08639059637021,
+      "historical_max_288_all_collar_pairs": 4.5067243434564785,
+      "corrected_max703_index_pairs": 0.5489719280901135,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6247200491518484
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 2.6856197395619272,
+      "historical_max_288_all_collar_pairs": 3.9187697670712547,
+      "corrected_max703_index_pairs": 0.5368480886316253,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6169837079337115
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 2.2924186758949485,
+      "historical_max_288_all_collar_pairs": 3.335916496013397,
+      "corrected_max703_index_pairs": 0.5278091492489744,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6096282235824297
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 1.9223744416646544,
+      "historical_max_288_all_collar_pairs": 2.7613966486346397,
+      "corrected_max703_index_pairs": 0.5303761799149497,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6026672220719123
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.964270669916716,
+      "historical_max_288_all_collar_pairs": 8.773351053858171,
+      "corrected_max703_index_pairs": 0.6866071172786493,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.72891463353999
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.325566509477365,
+      "historical_max_288_all_collar_pairs": 7.849806570688133,
+      "corrected_max703_index_pairs": 0.6614053191229987,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7117012517211303
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 4.688772217852001,
+      "historical_max_288_all_collar_pairs": 6.927509232174641,
+      "corrected_max703_index_pairs": 0.6365608676984735,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6947637050829454
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 4.054787715297785,
+      "historical_max_288_all_collar_pairs": 6.007033511490813,
+      "corrected_max703_index_pairs": 0.6121188122826322,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6781222066103927
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 3.425173595973582,
+      "historical_max_288_all_collar_pairs": 5.089367891609414,
+      "corrected_max703_index_pairs": 0.5883868059959511,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6617979110101628
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 2.802876584898982,
+      "historical_max_288_all_collar_pairs": 4.176365159535082,
+      "corrected_max703_index_pairs": 0.5664389689671793,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6458163200006043
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 6.5159538402807,
+      "historical_max_288_all_collar_pairs": 9.588429812845828,
+      "corrected_max703_index_pairs": 0.6979358851323245,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7377907571645264
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 5.8765858419092565,
+      "historical_max_288_all_collar_pairs": 8.665482308208228,
+      "corrected_max703_index_pairs": 0.6718446705469777,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7194780126061128
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 5.2387651318973605,
+      "historical_max_288_all_collar_pairs": 7.7437928351377545,
+      "corrected_max703_index_pairs": 0.6471074190080448,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7014228906427693
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 4.603134942431517,
+      "historical_max_288_all_collar_pairs": 6.823871173670729,
+      "corrected_max703_index_pairs": 0.622731706267277,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6839938571068299
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 3.9707473768146175,
+      "historical_max_288_all_collar_pairs": 5.9065433713670705,
+      "corrected_max703_index_pairs": 0.5987607672997487,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6671591049110874
+    },
+    {
+      "recipe": {
+        "family": "WRIST+THUMB_MCP",
+        "base_group": "WRIST_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 3.343442896764043,
+      "historical_max_288_all_collar_pairs": 4.993239217430773,
+      "corrected_max703_index_pairs": 0.5752512089146381,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6506384395035596
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.3675077846403294,
+      "historical_max_288_all_collar_pairs": 5.005569720100863,
+      "corrected_max703_index_pairs": 0.5756141291152799,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341676560323736
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.1,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.367508139287846,
+      "historical_max_288_all_collar_pairs": 5.0055702168036875,
+      "corrected_max703_index_pairs": 0.5756139601441265,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341675249065396
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.2,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.3675084939353623,
+      "historical_max_288_all_collar_pairs": 5.005570713506542,
+      "corrected_max703_index_pairs": 0.5756140636316555,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341676947947397
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.3,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.36750884858288,
+      "historical_max_288_all_collar_pairs": 5.005571210209378,
+      "corrected_max703_index_pairs": 0.5756141852440949,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341676947947397
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.4,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.3675092032304117,
+      "historical_max_288_all_collar_pairs": 5.005571706912268,
+      "corrected_max703_index_pairs": 0.5756143542151823,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341676614833315
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.5,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.367509557877959,
+      "historical_max_288_all_collar_pairs": 5.0055722036151495,
+      "corrected_max703_index_pairs": 0.5756141852440949,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341676947947397
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.901277589649167,
+      "historical_max_288_all_collar_pairs": 5.691603831150305,
+      "corrected_max703_index_pairs": 0.5746372687798138,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6414613629146486
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.4921255388128456,
+      "historical_max_288_all_collar_pairs": 5.098014721859248,
+      "corrected_max703_index_pairs": 0.5615282141762221,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.632823064489791
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.086389409651224,
+      "historical_max_288_all_collar_pairs": 4.50672242965369,
+      "corrected_max703_index_pairs": 0.5489713472696306,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6247198262200402
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 2.6856178542439353,
+      "historical_max_288_all_collar_pairs": 3.918766774345505,
+      "corrected_max703_index_pairs": 0.5368479507533631,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6169835144533066
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 2.2924161471924482,
+      "historical_max_288_all_collar_pairs": 3.3359124727136202,
+      "corrected_max703_index_pairs": 0.527808781263938,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6096277884382374
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 1.9223716591601132,
+      "historical_max_288_all_collar_pairs": 2.761391685295484,
+      "corrected_max703_index_pairs": 0.5303756210632758,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6026672880974223
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.964270755641705,
+      "historical_max_288_all_collar_pairs": 8.77335111087005,
+      "corrected_max703_index_pairs": 0.6866070626843217,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7289145756873411
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.557596678680957,
+      "historical_max_288_all_collar_pairs": 8.190416133906394,
+      "corrected_max703_index_pairs": 0.6696838452241242,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7162572949056502
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.153360156346204,
+      "historical_max_288_all_collar_pairs": 7.610488565041335,
+      "corrected_max703_index_pairs": 0.6529773702529907,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.703813635703407
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 4.7521832688771335,
+      "historical_max_288_all_collar_pairs": 7.034312259973682,
+      "corrected_max703_index_pairs": 0.636505492335156,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.691593071168424
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 4.3549116641814125,
+      "historical_max_288_all_collar_pairs": 6.462890588825466,
+      "corrected_max703_index_pairs": 0.6204707981719356,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6796080086341109
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 3.962720056539304,
+      "historical_max_288_all_collar_pairs": 5.8976057494174725,
+      "corrected_max703_index_pairs": 0.6050467956842492,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6678711002843503
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 6.51595389102821,
+      "historical_max_288_all_collar_pairs": 9.588429825563647,
+      "corrected_max703_index_pairs": 0.6979358294353604,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7377907168663438
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.1,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 6.114686022005948,
+      "historical_max_288_all_collar_pairs": 9.013830403916668,
+      "corrected_max703_index_pairs": 0.6803379331281302,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7241969654365634
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.2,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 5.716379977509575,
+      "historical_max_288_all_collar_pairs": 8.443084957615191,
+      "corrected_max703_index_pairs": 0.6634178717011551,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7108054048892819
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.3,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 5.321700837953791,
+      "historical_max_288_all_collar_pairs": 7.8770312727933,
+      "corrected_max703_index_pairs": 0.6469943616076822,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.697625345653378
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.4,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 4.931519485101134,
+      "historical_max_288_all_collar_pairs": 7.316758350782197,
+      "corrected_max703_index_pairs": 0.6313679554628249,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6849622933386952
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_CMC",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_CMC_R",
+        "parameter_fraction": 0.5,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 4.546993942929129,
+      "historical_max_288_all_collar_pairs": 6.763702896715591,
+      "corrected_max703_index_pairs": 0.6159700229940892,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6727037240770647
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.3675077846403294,
+      "historical_max_288_all_collar_pairs": 5.005569720100863,
+      "corrected_max703_index_pairs": 0.5756141291152799,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341676560323736
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.999100104812023,
+      "historical_max_288_all_collar_pairs": 4.466312603067573,
+      "corrected_max703_index_pairs": 0.5636800865799546,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6275268397513731
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.634339753919359,
+      "historical_max_288_all_collar_pairs": 3.929406254286074,
+      "corrected_max703_index_pairs": 0.55184498913162,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6212638489384499
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.2749817979057574,
+      "historical_max_288_all_collar_pairs": 3.395965834854199,
+      "corrected_max703_index_pairs": 0.5407309753798454,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6151480711639655
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 1.9240556550815913,
+      "historical_max_288_all_collar_pairs": 2.867926008310604,
+      "corrected_max703_index_pairs": 0.5342060256547766,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6092292155037189
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 1.5871641024880083,
+      "historical_max_288_all_collar_pairs": 2.3489317623473323,
+      "corrected_max703_index_pairs": 0.5380241500126637,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6033351226779214
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.901277589649167,
+      "historical_max_288_all_collar_pairs": 5.691603831150305,
+      "corrected_max703_index_pairs": 0.5746372687798138,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6414613629146486
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.492126280190496,
+      "historical_max_288_all_collar_pairs": 5.098015835257477,
+      "corrected_max703_index_pairs": 0.5615282141762221,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6328230435300547
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 3.086390873502605,
+      "historical_max_288_all_collar_pairs": 4.5067246390867775,
+      "corrected_max703_index_pairs": 0.5489719073465354,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.624720027920251
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 2.6856200090906275,
+      "historical_max_288_all_collar_pairs": 3.9187700517907054,
+      "corrected_max703_index_pairs": 0.5368480674195872,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6169836864358916
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 2.292418937358675,
+      "historical_max_288_all_collar_pairs": 3.335916769842509,
+      "corrected_max703_index_pairs": 0.5278091248329134,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6096281800680244
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 1.922374705385843,
+      "historical_max_288_all_collar_pairs": 2.761396911359428,
+      "corrected_max703_index_pairs": 0.5303761660304431,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6026672000634071
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.964270755641705,
+      "historical_max_288_all_collar_pairs": 8.77335111087005,
+      "corrected_max703_index_pairs": 0.6866070626843217,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7289145756873411
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 5.325566602213242,
+      "historical_max_288_all_collar_pairs": 7.8498066365130175,
+      "corrected_max703_index_pairs": 0.661405262448441,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7117011924692429
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 4.6887723178703755,
+      "historical_max_288_all_collar_pairs": 6.92750930701426,
+      "corrected_max703_index_pairs": 0.6365608088119539,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6947636545026281
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 4.054787822964095,
+      "historical_max_288_all_collar_pairs": 6.007033595626109,
+      "corrected_max703_index_pairs": 0.612118751044759,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6781221547888062
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 3.425173711784632,
+      "historical_max_288_all_collar_pairs": 5.0893679854456435,
+      "corrected_max703_index_pairs": 0.5883867669895578,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6617978579103145
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 2.8028767095174136,
+      "historical_max_288_all_collar_pairs": 4.1763652636789,
+      "corrected_max703_index_pairs": 0.5664389081905142,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6458162655867289
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 6.51595389102821,
+      "historical_max_288_all_collar_pairs": 9.588429825563647,
+      "corrected_max703_index_pairs": 0.6979358294353604,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7377907168663438
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 5.876585898287968,
+      "historical_max_288_all_collar_pairs": 8.665482328552784,
+      "corrected_max703_index_pairs": 0.6718446164657459,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7194779506202845
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 5.238765193833425,
+      "historical_max_288_all_collar_pairs": 7.743792863012865,
+      "corrected_max703_index_pairs": 0.6471073628594265,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.7014228270613817
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 4.603135009805387,
+      "historical_max_288_all_collar_pairs": 6.823871208934379,
+      "corrected_max703_index_pairs": 0.6227316479208219,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6839937954547519
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 3.9707474494210477,
+      "historical_max_288_all_collar_pairs": 5.906543413798368,
+      "corrected_max703_index_pairs": 0.5987607268448746,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6671590627725713
+    },
+    {
+      "recipe": {
+        "family": "INDEX_MCP+THUMB_MCP",
+        "base_group": "INDEX_MCP_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 3.3434429742233576,
+      "historical_max_288_all_collar_pairs": 4.993239266661731,
+      "corrected_max703_index_pairs": 0.5752511490690074,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6506383746908461
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 3.3675113311157805,
+      "historical_max_288_all_collar_pairs": 5.005574687129823,
+      "corrected_max703_index_pairs": 0.5756140636316555,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6341675881982273
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.9991033396187095,
+      "historical_max_288_all_collar_pairs": 4.466317122544906,
+      "corrected_max703_index_pairs": 0.5636800435920845,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6275269293510206
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.6343426741578306,
+      "historical_max_288_all_collar_pairs": 3.9294103248514927,
+      "corrected_max703_index_pairs": 0.5518450281625557,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.621263724496933
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 2.2749843987869642,
+      "historical_max_288_all_collar_pairs": 3.3959694542456518,
+      "corrected_max703_index_pairs": 0.5407310123846216,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6151482005357725
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 1.9240579282384476,
+      "historical_max_288_all_collar_pairs": 2.8679291725037697,
+      "corrected_max703_index_pairs": 0.5342056001258232,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6092290957607239
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "TH_MCP_45"
+      },
+      "historical_max_144_index_pairs": 1.5871660323886854,
+      "historical_max_288_all_collar_pairs": 2.3489344635463043,
+      "corrected_max703_index_pairs": 0.5380241997196015,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6033351666462016
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 0.9922323759938009,
+      "historical_max_288_all_collar_pairs": 0.9955096240111269,
+      "corrected_max703_index_pairs": 0.5599830309188286,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6329798449920672
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 0.9922319922075383,
+      "historical_max_288_all_collar_pairs": 0.9955090201845377,
+      "corrected_max703_index_pairs": 0.5599830216022974,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6329801363923484
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 0.9922316084225689,
+      "historical_max_288_all_collar_pairs": 0.9955084163607041,
+      "corrected_max703_index_pairs": 0.5599830297542622,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6329798370539695
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 0.9922312246388862,
+      "historical_max_288_all_collar_pairs": 0.9955078125396067,
+      "corrected_max703_index_pairs": 0.5599833465162312,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6329798333014143
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 0.9922308408564903,
+      "historical_max_288_all_collar_pairs": 0.9955072087212653,
+      "corrected_max703_index_pairs": 0.5599830157794654,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6329800000014458
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_OPP_30"
+      },
+      "historical_max_144_index_pairs": 0.9922304570753846,
+      "historical_max_288_all_collar_pairs": 0.9955066049056679,
+      "corrected_max703_index_pairs": 0.5599833309886879,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6329799962488916
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 2.2362164926536776,
+      "historical_max_288_all_collar_pairs": 3.325839825453407,
+      "corrected_max703_index_pairs": 0.5382458442994097,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6137392611049041
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 1.9996903889298079,
+      "historical_max_288_all_collar_pairs": 2.9695138507963423,
+      "corrected_max703_index_pairs": 0.5310640057298183,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6097382398251878
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 1.769126459754002,
+      "historical_max_288_all_collar_pairs": 2.6171157821092574,
+      "corrected_max703_index_pairs": 0.5320321456816673,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6057480868628845
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 1.5471924699554294,
+      "historical_max_288_all_collar_pairs": 2.2704752950107734,
+      "corrected_max703_index_pairs": 0.5352300694484607,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6017694427077855
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 1.3381890662509186,
+      "historical_max_288_all_collar_pairs": 1.9326928506459522,
+      "corrected_max703_index_pairs": 0.5384902943188129,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.5978028366813067
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "CMC_MCP_L3"
+      },
+      "historical_max_144_index_pairs": 1.1491930840558324,
+      "historical_max_288_all_collar_pairs": 1.6093557052486884,
+      "corrected_max703_index_pairs": 0.5418127090575523,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.5984693436374521
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 2.88313789957761,
+      "historical_max_288_all_collar_pairs": 4.29289261554156,
+      "corrected_max703_index_pairs": 0.546210743451283,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6153081870947157
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.1,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 2.6398497388974693,
+      "historical_max_288_all_collar_pairs": 3.933734863618805,
+      "corrected_max703_index_pairs": 0.5388924234485452,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6110941077772221
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.2,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 2.3995996477318515,
+      "historical_max_288_all_collar_pairs": 3.576883208510376,
+      "corrected_max703_index_pairs": 0.5316282496019986,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.6068903039804163
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.3,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 2.163400014859521,
+      "historical_max_288_all_collar_pairs": 3.2231037120750248,
+      "corrected_max703_index_pairs": 0.5252200746611848,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.602748881662344
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.4,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 1.9327364302085335,
+      "historical_max_288_all_collar_pairs": 2.8735312999260922,
+      "corrected_max703_index_pairs": 0.5278545039815016,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.5988625418901277
+    },
+    {
+      "recipe": {
+        "family": "THUMB_CMC+THUMB_MCP",
+        "base_group": "THUMB_CMC_R",
+        "added_group": "THUMB_MCP_R",
+        "parameter_fraction": 0.5,
+        "pose": "FULL_OPP_L3"
+      },
+      "historical_max_144_index_pairs": 1.709850848020897,
+      "historical_max_288_all_collar_pairs": 2.529910525278093,
+      "corrected_max703_index_pairs": 0.530559396021763,
+      "corrected_max1406_all_exact_boundary_context_pairs": 0.5949871601288194
+    }
+  ]
+}

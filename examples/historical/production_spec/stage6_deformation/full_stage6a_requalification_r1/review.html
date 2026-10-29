@@ -1,0 +1,1896 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>FULL_STAGE6A_REQUALIFICATION_R1</title><style>body{margin:0;background:#eef0f3;color:#202830;font:16px/1.6 system-ui,sans-serif}header,main{max-width:1440px;margin:auto;padding:24px}header{background:#fff}h1{font-size:26px}nav{display:flex;gap:12px;flex-wrap:wrap;position:sticky;top:0;background:#eef0f3;padding:12px;z-index:2}button,select{font:inherit;padding:8px;border:1px solid #9eaaba;border-radius:4px;background:white}article{background:white;padding:20px;margin:20px 0;border-radius:6px}article[data-state=BLOCKER]{border-left:6px solid #a83726}.images{display:grid;grid-template-columns:repeat(auto-fit,minmax(480px,1fr));gap:12px}figure{margin:0}figcaption{font-size:14px}img{width:100%;height:auto;display:block}table{border-collapse:collapse;width:100%;font-size:13px}td,th{border:1px solid #c3cbd5;padding:6px}pre{white-space:pre-wrap;font-size:13px}a{color:#245b91}[hidden]{display:none!important}@media(max-width:600px){.images{grid-template-columns:1fr}header,main{padding:12px}}</style><header><h1>FULL_STAGE6A_REQUALIFICATION_R1</h1><p><strong>FAIL CLOSED：42/42 已完成，3 个姿态共 9 对未获批准的严重精确 crossing。</strong></p><p>普通审阅先看灰色实体。所有对照图左侧为 RSSF / zero，右侧为该单关节屈曲；15/30/45° 仅为诊断 stress angles。</p><p>严重拉伸边 = 0；已批准三对 exact contact 保持非阻断。共 247 对未获批准的新增精确相交，其中 238 对低于既有 severe classifier，仅保留人工 contact review。没有自动修模、生产晋级或 Stage6B。</p><p><a href="FULL_STAGE6A_REQUALIFICATION_R1_REPORT.md">报告</a> · <a href="FULL_STAGE6A_REQUALIFICATION_R1_STATUS.json">最终字段</a> · <a href="FULL_STAGE6A_SELF_INTERSECTION_AUDIT_R1.json">所有逐对 crossing 数值</a> · <a href="FULL_STAGE6A_HISTORICAL_COMPARISON_R1.json">历史输入 lineage / regression</a></p></header><main><nav><label>范围 <select id="state"><option value="all">全部 42 cases</option><option value="BLOCKER">3 个 blocker cases</option><option value="HUMAN_REVIEW">其余人工审阅 cases</option></select></label><label>角度 <select id="angle"><option value="all">全部</option><option value="45">14 个 45° max-angle cases</option><option value="30">30°</option><option value="15">15°</option></select></label><span id="count"></span></nav><article data-state="BLOCKER" data-angle="15" data-digit="INDEX"><h2>IDX_MCP_15 — BLOCKER</h2><p>max edge ratio 1.740546; severe stretch edges 0; exact new crossings 28; unapproved severe pairs 1.</p><table><tr><th>case</th><th>face pair</th><th>poke mm</th><th>bind facet mm</th><th>segment mm</th><th>acceptance</th></tr><tr><td>IDX_MCP_15</td><td>[377,1054]</td><td>4.291852</td><td>3.656399</td><td>0.571132</td><td>UNAPPROVED_EXACT_CROSSING</td></tr></table><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_MCP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_FULL_SOLID.png" alt="IDX_MCP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_MCP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_LOCAL_SOLID.png" alt="IDX_MCP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_MCP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_LOCAL_PALMAR_SOLID.png" alt="IDX_MCP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_MCP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_NAIL_SOLID.png" alt="IDX_MCP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_MCP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_NAIL_ISOLATED_SOLID.png" alt="IDX_MCP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/IDX_MCP_15_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_CAP37_SOLID.png" alt="IDX_MCP_15 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/IDX_MCP_15_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_CAP37_ISOLATED_SOLID.png" alt="IDX_MCP_15 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_MCP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_LOCAL_STRAIN.png" alt="IDX_MCP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_MCP_15_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_CROSSING_CONTEXT.png" alt="IDX_MCP_15 精确相交面取证：区别于普通实体审阅"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/IDX_MCP_15_PAIR_377_1054_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_PAIR_377_1054_ISOLATED.png" alt="IDX_MCP_15 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/IDX_MCP_15_PAIR_377_1054_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_15_PAIR_377_1054_CONTEXT.png" alt="IDX_MCP_15 逐对取证：实际周围实体表面"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_MCP_15&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;INDEX_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="BLOCKER" data-angle="30" data-digit="INDEX"><h2>IDX_MCP_30 — BLOCKER</h2><p>max edge ratio 3.553904; severe stretch edges 0; exact new crossings 39; unapproved severe pairs 2.</p><table><tr><th>case</th><th>face pair</th><th>poke mm</th><th>bind facet mm</th><th>segment mm</th><th>acceptance</th></tr><tr><td>IDX_MCP_30</td><td>[1036,2732]</td><td>3.643732</td><td>3.499050</td><td>0.622804</td><td>UNAPPROVED_EXACT_CROSSING</td></tr><tr><td>IDX_MCP_30</td><td>[1226,2742]</td><td>4.881278</td><td>4.166145</td><td>0.225101</td><td>UNAPPROVED_EXACT_CROSSING</td></tr></table><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_MCP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_FULL_SOLID.png" alt="IDX_MCP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_MCP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_LOCAL_SOLID.png" alt="IDX_MCP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_MCP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_LOCAL_PALMAR_SOLID.png" alt="IDX_MCP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_MCP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_NAIL_SOLID.png" alt="IDX_MCP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_MCP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_NAIL_ISOLATED_SOLID.png" alt="IDX_MCP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/IDX_MCP_30_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_CAP37_SOLID.png" alt="IDX_MCP_30 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/IDX_MCP_30_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_CAP37_ISOLATED_SOLID.png" alt="IDX_MCP_30 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_MCP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_LOCAL_STRAIN.png" alt="IDX_MCP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_MCP_30_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_CROSSING_CONTEXT.png" alt="IDX_MCP_30 精确相交面取证：区别于普通实体审阅"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/IDX_MCP_30_PAIR_1036_2732_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_PAIR_1036_2732_ISOLATED.png" alt="IDX_MCP_30 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/IDX_MCP_30_PAIR_1036_2732_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_PAIR_1036_2732_CONTEXT.png" alt="IDX_MCP_30 逐对取证：实际周围实体表面"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/IDX_MCP_30_PAIR_1226_2742_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_PAIR_1226_2742_ISOLATED.png" alt="IDX_MCP_30 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/IDX_MCP_30_PAIR_1226_2742_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_30_PAIR_1226_2742_CONTEXT.png" alt="IDX_MCP_30 逐对取证：实际周围实体表面"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_MCP_30&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;INDEX_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [
+      5950
+    ],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="INDEX"><h2>IDX_MCP_45 — HUMAN_REVIEW</h2><p>max edge ratio 5.426537; severe stretch edges 0; exact new crossings 46; unapproved severe pairs 0.</p><table><tr><th>case</th><th>face pair</th><th>poke mm</th><th>bind facet mm</th><th>segment mm</th><th>acceptance</th></tr><tr><td>IDX_MCP_45</td><td>[1041,2735]</td><td>3.709175</td><td>3.619220</td><td>0.592590</td><td>KNOWN_HUMAN_ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT</td></tr><tr><td>IDX_MCP_45</td><td>[1226,2742]</td><td>4.626237</td><td>4.166145</td><td>0.350317</td><td>KNOWN_HUMAN_ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT</td></tr></table><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_MCP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_FULL_SOLID.png" alt="IDX_MCP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_MCP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_LOCAL_SOLID.png" alt="IDX_MCP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_MCP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_LOCAL_PALMAR_SOLID.png" alt="IDX_MCP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_MCP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_NAIL_SOLID.png" alt="IDX_MCP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_MCP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_NAIL_ISOLATED_SOLID.png" alt="IDX_MCP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/IDX_MCP_45_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_CAP37_SOLID.png" alt="IDX_MCP_45 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/IDX_MCP_45_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_CAP37_ISOLATED_SOLID.png" alt="IDX_MCP_45 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_MCP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_LOCAL_STRAIN.png" alt="IDX_MCP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_MCP_45_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_CROSSING_CONTEXT.png" alt="IDX_MCP_45 精确相交面取证：区别于普通实体审阅"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/IDX_MCP_45_PAIR_1041_2735_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_PAIR_1041_2735_ISOLATED.png" alt="IDX_MCP_45 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/IDX_MCP_45_PAIR_1041_2735_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_PAIR_1041_2735_CONTEXT.png" alt="IDX_MCP_45 逐对取证：实际周围实体表面"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/IDX_MCP_45_PAIR_1226_2742_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_PAIR_1226_2742_ISOLATED.png" alt="IDX_MCP_45 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/IDX_MCP_45_PAIR_1226_2742_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_MCP_45_PAIR_1226_2742_CONTEXT.png" alt="IDX_MCP_45 逐对取证：实际周围实体表面"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_MCP_45&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;INDEX_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [
+      2409,
+      5950
+    ],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="INDEX"><h2>IDX_PIP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.839866; severe stretch edges 0; exact new crossings 3; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_PIP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_15_FULL_SOLID.png" alt="IDX_PIP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_PIP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_15_LOCAL_SOLID.png" alt="IDX_PIP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_PIP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_15_LOCAL_PALMAR_SOLID.png" alt="IDX_PIP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_PIP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_15_NAIL_SOLID.png" alt="IDX_PIP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_PIP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_15_NAIL_ISOLATED_SOLID.png" alt="IDX_PIP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_PIP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_15_LOCAL_STRAIN.png" alt="IDX_PIP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_PIP_15_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_15_CROSSING_CONTEXT.png" alt="IDX_PIP_15 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_PIP_15&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;INDEX_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="INDEX"><h2>IDX_PIP_30 — HUMAN_REVIEW</h2><p>max edge ratio 3.380180; severe stretch edges 0; exact new crossings 4; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_PIP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_30_FULL_SOLID.png" alt="IDX_PIP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_PIP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_30_LOCAL_SOLID.png" alt="IDX_PIP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_PIP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_30_LOCAL_PALMAR_SOLID.png" alt="IDX_PIP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_PIP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_30_NAIL_SOLID.png" alt="IDX_PIP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_PIP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_30_NAIL_ISOLATED_SOLID.png" alt="IDX_PIP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_PIP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_30_LOCAL_STRAIN.png" alt="IDX_PIP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_PIP_30_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_30_CROSSING_CONTEXT.png" alt="IDX_PIP_30 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_PIP_30&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;INDEX_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="INDEX"><h2>IDX_PIP_45 — HUMAN_REVIEW</h2><p>max edge ratio 5.237062; severe stretch edges 0; exact new crossings 10; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_PIP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_45_FULL_SOLID.png" alt="IDX_PIP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_PIP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_45_LOCAL_SOLID.png" alt="IDX_PIP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_PIP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_45_LOCAL_PALMAR_SOLID.png" alt="IDX_PIP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_PIP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_45_NAIL_SOLID.png" alt="IDX_PIP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_PIP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_45_NAIL_ISOLATED_SOLID.png" alt="IDX_PIP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_PIP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_45_LOCAL_STRAIN.png" alt="IDX_PIP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_PIP_45_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_PIP_45_CROSSING_CONTEXT.png" alt="IDX_PIP_45 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_PIP_45&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;INDEX_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="INDEX"><h2>IDX_DIP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.525062; severe stretch edges 0; exact new crossings 1; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_DIP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_15_FULL_SOLID.png" alt="IDX_DIP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_DIP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_15_LOCAL_SOLID.png" alt="IDX_DIP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_DIP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_15_LOCAL_PALMAR_SOLID.png" alt="IDX_DIP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_DIP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_15_NAIL_SOLID.png" alt="IDX_DIP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_DIP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_15_NAIL_ISOLATED_SOLID.png" alt="IDX_DIP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_DIP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_15_LOCAL_STRAIN.png" alt="IDX_DIP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_DIP_15_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_15_CROSSING_CONTEXT.png" alt="IDX_DIP_15 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_DIP_15&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;INDEX_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="INDEX"><h2>IDX_DIP_30 — HUMAN_REVIEW</h2><p>max edge ratio 2.105473; severe stretch edges 0; exact new crossings 3; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_DIP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_30_FULL_SOLID.png" alt="IDX_DIP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_DIP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_30_LOCAL_SOLID.png" alt="IDX_DIP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_DIP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_30_LOCAL_PALMAR_SOLID.png" alt="IDX_DIP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_DIP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_30_NAIL_SOLID.png" alt="IDX_DIP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_DIP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_30_NAIL_ISOLATED_SOLID.png" alt="IDX_DIP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_DIP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_30_LOCAL_STRAIN.png" alt="IDX_DIP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_DIP_30_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_30_CROSSING_CONTEXT.png" alt="IDX_DIP_30 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_DIP_30&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;INDEX_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="INDEX"><h2>IDX_DIP_45 — HUMAN_REVIEW</h2><p>max edge ratio 3.126381; severe stretch edges 0; exact new crossings 3; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/IDX_DIP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_45_FULL_SOLID.png" alt="IDX_DIP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/IDX_DIP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_45_LOCAL_SOLID.png" alt="IDX_DIP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/IDX_DIP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_45_LOCAL_PALMAR_SOLID.png" alt="IDX_DIP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/IDX_DIP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_45_NAIL_SOLID.png" alt="IDX_DIP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/IDX_DIP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_45_NAIL_ISOLATED_SOLID.png" alt="IDX_DIP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/IDX_DIP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_45_LOCAL_STRAIN.png" alt="IDX_DIP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/IDX_DIP_45_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/IDX_DIP_45_CROSSING_CONTEXT.png" alt="IDX_DIP_45 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;IDX_DIP_45&quot;,
+    &quot;digit&quot;: &quot;INDEX&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;INDEX_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="MIDDLE"><h2>MID_MCP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.202768; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_MCP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_15_FULL_SOLID.png" alt="MID_MCP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_MCP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_15_LOCAL_SOLID.png" alt="MID_MCP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_MCP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_15_LOCAL_PALMAR_SOLID.png" alt="MID_MCP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_MCP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_15_NAIL_SOLID.png" alt="MID_MCP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_MCP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_15_NAIL_ISOLATED_SOLID.png" alt="MID_MCP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_MCP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_15_LOCAL_STRAIN.png" alt="MID_MCP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_MCP_15&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;MIDDLE_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="MIDDLE"><h2>MID_MCP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.398057; severe stretch edges 0; exact new crossings 2; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_MCP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_30_FULL_SOLID.png" alt="MID_MCP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_MCP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_30_LOCAL_SOLID.png" alt="MID_MCP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_MCP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_30_LOCAL_PALMAR_SOLID.png" alt="MID_MCP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_MCP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_30_NAIL_SOLID.png" alt="MID_MCP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_MCP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_30_NAIL_ISOLATED_SOLID.png" alt="MID_MCP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_MCP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_30_LOCAL_STRAIN.png" alt="MID_MCP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/MID_MCP_30_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_30_CROSSING_CONTEXT.png" alt="MID_MCP_30 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_MCP_30&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;MIDDLE_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="MIDDLE"><h2>MID_MCP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.577704; severe stretch edges 0; exact new crossings 3; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_MCP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_45_FULL_SOLID.png" alt="MID_MCP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_MCP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_45_LOCAL_SOLID.png" alt="MID_MCP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_MCP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_45_LOCAL_PALMAR_SOLID.png" alt="MID_MCP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_MCP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_45_NAIL_SOLID.png" alt="MID_MCP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_MCP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_45_NAIL_ISOLATED_SOLID.png" alt="MID_MCP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_MCP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_45_LOCAL_STRAIN.png" alt="MID_MCP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/MID_MCP_45_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/MID_MCP_45_CROSSING_CONTEXT.png" alt="MID_MCP_45 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_MCP_45&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;MIDDLE_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="MIDDLE"><h2>MID_PIP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.100341; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_PIP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_15_FULL_SOLID.png" alt="MID_PIP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_PIP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_15_LOCAL_SOLID.png" alt="MID_PIP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_PIP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_15_LOCAL_PALMAR_SOLID.png" alt="MID_PIP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_PIP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_15_NAIL_SOLID.png" alt="MID_PIP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_PIP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_15_NAIL_ISOLATED_SOLID.png" alt="MID_PIP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_PIP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_15_LOCAL_STRAIN.png" alt="MID_PIP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_PIP_15&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;MIDDLE_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="MIDDLE"><h2>MID_PIP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.204368; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_PIP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_30_FULL_SOLID.png" alt="MID_PIP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_PIP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_30_LOCAL_SOLID.png" alt="MID_PIP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_PIP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_30_LOCAL_PALMAR_SOLID.png" alt="MID_PIP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_PIP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_30_NAIL_SOLID.png" alt="MID_PIP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_PIP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_30_NAIL_ISOLATED_SOLID.png" alt="MID_PIP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_PIP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_30_LOCAL_STRAIN.png" alt="MID_PIP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_PIP_30&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;MIDDLE_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="MIDDLE"><h2>MID_PIP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.304963; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_PIP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_45_FULL_SOLID.png" alt="MID_PIP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_PIP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_45_LOCAL_SOLID.png" alt="MID_PIP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_PIP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_45_LOCAL_PALMAR_SOLID.png" alt="MID_PIP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_PIP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_45_NAIL_SOLID.png" alt="MID_PIP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_PIP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_45_NAIL_ISOLATED_SOLID.png" alt="MID_PIP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_PIP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_PIP_45_LOCAL_STRAIN.png" alt="MID_PIP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_PIP_45&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;MIDDLE_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="MIDDLE"><h2>MID_DIP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.089676; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_DIP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_15_FULL_SOLID.png" alt="MID_DIP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_DIP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_15_LOCAL_SOLID.png" alt="MID_DIP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_DIP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_15_LOCAL_PALMAR_SOLID.png" alt="MID_DIP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_DIP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_15_NAIL_SOLID.png" alt="MID_DIP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_DIP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_15_NAIL_ISOLATED_SOLID.png" alt="MID_DIP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_DIP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_15_LOCAL_STRAIN.png" alt="MID_DIP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_DIP_15&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;MIDDLE_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="MIDDLE"><h2>MID_DIP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.181602; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_DIP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_30_FULL_SOLID.png" alt="MID_DIP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_DIP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_30_LOCAL_SOLID.png" alt="MID_DIP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_DIP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_30_LOCAL_PALMAR_SOLID.png" alt="MID_DIP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_DIP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_30_NAIL_SOLID.png" alt="MID_DIP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_DIP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_30_NAIL_ISOLATED_SOLID.png" alt="MID_DIP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_DIP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_30_LOCAL_STRAIN.png" alt="MID_DIP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_DIP_30&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;MIDDLE_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="MIDDLE"><h2>MID_DIP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.269699; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/MID_DIP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_45_FULL_SOLID.png" alt="MID_DIP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/MID_DIP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_45_LOCAL_SOLID.png" alt="MID_DIP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/MID_DIP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_45_LOCAL_PALMAR_SOLID.png" alt="MID_DIP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/MID_DIP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_45_NAIL_SOLID.png" alt="MID_DIP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/MID_DIP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_45_NAIL_ISOLATED_SOLID.png" alt="MID_DIP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/MID_DIP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/MID_DIP_45_LOCAL_STRAIN.png" alt="MID_DIP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;MID_DIP_45&quot;,
+    &quot;digit&quot;: &quot;MIDDLE&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;MIDDLE_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="RING"><h2>RNG_MCP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.258422; severe stretch edges 0; exact new crossings 1; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_MCP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_15_FULL_SOLID.png" alt="RNG_MCP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_MCP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_15_LOCAL_SOLID.png" alt="RNG_MCP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_MCP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_15_LOCAL_PALMAR_SOLID.png" alt="RNG_MCP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_MCP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_15_NAIL_SOLID.png" alt="RNG_MCP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_MCP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_15_NAIL_ISOLATED_SOLID.png" alt="RNG_MCP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_MCP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_15_LOCAL_STRAIN.png" alt="RNG_MCP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/RNG_MCP_15_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_15_CROSSING_CONTEXT.png" alt="RNG_MCP_15 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_MCP_15&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;RING_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="RING"><h2>RNG_MCP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.495940; severe stretch edges 0; exact new crossings 1; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_MCP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_30_FULL_SOLID.png" alt="RNG_MCP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_MCP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_30_LOCAL_SOLID.png" alt="RNG_MCP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_MCP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_30_LOCAL_PALMAR_SOLID.png" alt="RNG_MCP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_MCP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_30_NAIL_SOLID.png" alt="RNG_MCP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_MCP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_30_NAIL_ISOLATED_SOLID.png" alt="RNG_MCP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_MCP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_30_LOCAL_STRAIN.png" alt="RNG_MCP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/RNG_MCP_30_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_30_CROSSING_CONTEXT.png" alt="RNG_MCP_30 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_MCP_30&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;RING_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="RING"><h2>RNG_MCP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.811479; severe stretch edges 0; exact new crossings 1; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_MCP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_45_FULL_SOLID.png" alt="RNG_MCP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_MCP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_45_LOCAL_SOLID.png" alt="RNG_MCP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_MCP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_45_LOCAL_PALMAR_SOLID.png" alt="RNG_MCP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_MCP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_45_NAIL_SOLID.png" alt="RNG_MCP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_MCP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_45_NAIL_ISOLATED_SOLID.png" alt="RNG_MCP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_MCP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_45_LOCAL_STRAIN.png" alt="RNG_MCP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/RNG_MCP_45_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/RNG_MCP_45_CROSSING_CONTEXT.png" alt="RNG_MCP_45 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_MCP_45&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;RING_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="RING"><h2>RNG_PIP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.110396; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_PIP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_15_FULL_SOLID.png" alt="RNG_PIP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_PIP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_15_LOCAL_SOLID.png" alt="RNG_PIP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_PIP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_15_LOCAL_PALMAR_SOLID.png" alt="RNG_PIP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_PIP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_15_NAIL_SOLID.png" alt="RNG_PIP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_PIP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_15_NAIL_ISOLATED_SOLID.png" alt="RNG_PIP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_PIP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_15_LOCAL_STRAIN.png" alt="RNG_PIP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_PIP_15&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;RING_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="RING"><h2>RNG_PIP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.220846; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_PIP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_30_FULL_SOLID.png" alt="RNG_PIP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_PIP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_30_LOCAL_SOLID.png" alt="RNG_PIP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_PIP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_30_LOCAL_PALMAR_SOLID.png" alt="RNG_PIP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_PIP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_30_NAIL_SOLID.png" alt="RNG_PIP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_PIP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_30_NAIL_ISOLATED_SOLID.png" alt="RNG_PIP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_PIP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_30_LOCAL_STRAIN.png" alt="RNG_PIP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_PIP_30&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;RING_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="RING"><h2>RNG_PIP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.324728; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_PIP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_45_FULL_SOLID.png" alt="RNG_PIP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_PIP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_45_LOCAL_SOLID.png" alt="RNG_PIP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_PIP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_45_LOCAL_PALMAR_SOLID.png" alt="RNG_PIP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_PIP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_45_NAIL_SOLID.png" alt="RNG_PIP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_PIP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_45_NAIL_ISOLATED_SOLID.png" alt="RNG_PIP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_PIP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_PIP_45_LOCAL_STRAIN.png" alt="RNG_PIP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_PIP_45&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;RING_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="RING"><h2>RNG_DIP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.082774; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_DIP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_15_FULL_SOLID.png" alt="RNG_DIP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_DIP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_15_LOCAL_SOLID.png" alt="RNG_DIP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_DIP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_15_LOCAL_PALMAR_SOLID.png" alt="RNG_DIP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_DIP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_15_NAIL_SOLID.png" alt="RNG_DIP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_DIP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_15_NAIL_ISOLATED_SOLID.png" alt="RNG_DIP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_DIP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_15_LOCAL_STRAIN.png" alt="RNG_DIP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_DIP_15&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;RING_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="RING"><h2>RNG_DIP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.164068; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_DIP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_30_FULL_SOLID.png" alt="RNG_DIP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_DIP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_30_LOCAL_SOLID.png" alt="RNG_DIP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_DIP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_30_LOCAL_PALMAR_SOLID.png" alt="RNG_DIP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_DIP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_30_NAIL_SOLID.png" alt="RNG_DIP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_DIP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_30_NAIL_ISOLATED_SOLID.png" alt="RNG_DIP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_DIP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_30_LOCAL_STRAIN.png" alt="RNG_DIP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_DIP_30&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;RING_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="RING"><h2>RNG_DIP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.239168; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/RNG_DIP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_45_FULL_SOLID.png" alt="RNG_DIP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/RNG_DIP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_45_LOCAL_SOLID.png" alt="RNG_DIP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/RNG_DIP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_45_LOCAL_PALMAR_SOLID.png" alt="RNG_DIP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/RNG_DIP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_45_NAIL_SOLID.png" alt="RNG_DIP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/RNG_DIP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_45_NAIL_ISOLATED_SOLID.png" alt="RNG_DIP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/RNG_DIP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/RNG_DIP_45_LOCAL_STRAIN.png" alt="RNG_DIP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;RNG_DIP_45&quot;,
+    &quot;digit&quot;: &quot;RING&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;RING_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="LITTLE"><h2>LTL_MCP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.180154; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_MCP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_15_FULL_SOLID.png" alt="LTL_MCP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_MCP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_15_LOCAL_SOLID.png" alt="LTL_MCP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_MCP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_15_LOCAL_PALMAR_SOLID.png" alt="LTL_MCP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_MCP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_15_NAIL_SOLID.png" alt="LTL_MCP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_MCP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_15_NAIL_ISOLATED_SOLID.png" alt="LTL_MCP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_MCP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_15_LOCAL_STRAIN.png" alt="LTL_MCP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_MCP_15&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;LITTLE_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="LITTLE"><h2>LTL_MCP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.396003; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_MCP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_30_FULL_SOLID.png" alt="LTL_MCP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_MCP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_30_LOCAL_SOLID.png" alt="LTL_MCP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_MCP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_30_LOCAL_PALMAR_SOLID.png" alt="LTL_MCP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_MCP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_30_NAIL_SOLID.png" alt="LTL_MCP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_MCP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_30_NAIL_ISOLATED_SOLID.png" alt="LTL_MCP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_MCP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_30_LOCAL_STRAIN.png" alt="LTL_MCP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_MCP_30&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;LITTLE_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="LITTLE"><h2>LTL_MCP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.626243; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_MCP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_45_FULL_SOLID.png" alt="LTL_MCP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_MCP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_45_LOCAL_SOLID.png" alt="LTL_MCP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_MCP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_45_LOCAL_PALMAR_SOLID.png" alt="LTL_MCP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_MCP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_45_NAIL_SOLID.png" alt="LTL_MCP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_MCP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_45_NAIL_ISOLATED_SOLID.png" alt="LTL_MCP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_MCP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_MCP_45_LOCAL_STRAIN.png" alt="LTL_MCP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_MCP_45&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;LITTLE_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="LITTLE"><h2>LTL_PIP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.104658; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_PIP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_15_FULL_SOLID.png" alt="LTL_PIP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_PIP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_15_LOCAL_SOLID.png" alt="LTL_PIP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_PIP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_15_LOCAL_PALMAR_SOLID.png" alt="LTL_PIP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_PIP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_15_NAIL_SOLID.png" alt="LTL_PIP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_PIP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_15_NAIL_ISOLATED_SOLID.png" alt="LTL_PIP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_PIP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_15_LOCAL_STRAIN.png" alt="LTL_PIP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_PIP_15&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;LITTLE_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="LITTLE"><h2>LTL_PIP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.204835; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_PIP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_30_FULL_SOLID.png" alt="LTL_PIP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_PIP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_30_LOCAL_SOLID.png" alt="LTL_PIP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_PIP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_30_LOCAL_PALMAR_SOLID.png" alt="LTL_PIP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_PIP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_30_NAIL_SOLID.png" alt="LTL_PIP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_PIP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_30_NAIL_ISOLATED_SOLID.png" alt="LTL_PIP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_PIP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_30_LOCAL_STRAIN.png" alt="LTL_PIP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_PIP_30&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;LITTLE_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="LITTLE"><h2>LTL_PIP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.295501; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_PIP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_45_FULL_SOLID.png" alt="LTL_PIP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_PIP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_45_LOCAL_SOLID.png" alt="LTL_PIP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_PIP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_45_LOCAL_PALMAR_SOLID.png" alt="LTL_PIP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_PIP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_45_NAIL_SOLID.png" alt="LTL_PIP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_PIP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_45_NAIL_ISOLATED_SOLID.png" alt="LTL_PIP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_PIP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_PIP_45_LOCAL_STRAIN.png" alt="LTL_PIP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_PIP_45&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;PIP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;LITTLE_PIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="LITTLE"><h2>LTL_DIP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.079512; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_DIP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_15_FULL_SOLID.png" alt="LTL_DIP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_DIP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_15_LOCAL_SOLID.png" alt="LTL_DIP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_DIP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_15_LOCAL_PALMAR_SOLID.png" alt="LTL_DIP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_DIP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_15_NAIL_SOLID.png" alt="LTL_DIP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_DIP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_15_NAIL_ISOLATED_SOLID.png" alt="LTL_DIP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_DIP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_15_LOCAL_STRAIN.png" alt="LTL_DIP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_DIP_15&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;LITTLE_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="LITTLE"><h2>LTL_DIP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.149077; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_DIP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_30_FULL_SOLID.png" alt="LTL_DIP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_DIP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_30_LOCAL_SOLID.png" alt="LTL_DIP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_DIP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_30_LOCAL_PALMAR_SOLID.png" alt="LTL_DIP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_DIP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_30_NAIL_SOLID.png" alt="LTL_DIP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_DIP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_30_NAIL_ISOLATED_SOLID.png" alt="LTL_DIP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_DIP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_30_LOCAL_STRAIN.png" alt="LTL_DIP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_DIP_30&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;LITTLE_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="LITTLE"><h2>LTL_DIP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.219192; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/LTL_DIP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_45_FULL_SOLID.png" alt="LTL_DIP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/LTL_DIP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_45_LOCAL_SOLID.png" alt="LTL_DIP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/LTL_DIP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_45_LOCAL_PALMAR_SOLID.png" alt="LTL_DIP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/LTL_DIP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_45_NAIL_SOLID.png" alt="LTL_DIP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/LTL_DIP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_45_NAIL_ISOLATED_SOLID.png" alt="LTL_DIP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/LTL_DIP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/LTL_DIP_45_LOCAL_STRAIN.png" alt="LTL_DIP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;LTL_DIP_45&quot;,
+    &quot;digit&quot;: &quot;LITTLE&quot;,
+    &quot;joint&quot;: &quot;DIP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;LITTLE_DIP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;THUMB&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 601
+    },
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="15" data-digit="THUMB"><h2>TH_MCP_15 — HUMAN_REVIEW</h2><p>max edge ratio 1.408898; severe stretch edges 0; exact new crossings 10; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/TH_MCP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_FULL_SOLID.png" alt="TH_MCP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/TH_MCP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_LOCAL_SOLID.png" alt="TH_MCP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/TH_MCP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_LOCAL_PALMAR_SOLID.png" alt="TH_MCP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/TH_MCP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_NAIL_SOLID.png" alt="TH_MCP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/TH_MCP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_NAIL_ISOLATED_SOLID.png" alt="TH_MCP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/TH_MCP_15_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_CAP37_SOLID.png" alt="TH_MCP_15 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/TH_MCP_15_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_CAP37_ISOLATED_SOLID.png" alt="TH_MCP_15 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/TH_MCP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_LOCAL_STRAIN.png" alt="TH_MCP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/TH_MCP_15_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_15_CROSSING_CONTEXT.png" alt="TH_MCP_15 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;TH_MCP_15&quot;,
+    &quot;digit&quot;: &quot;THUMB&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;THUMB_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="THUMB"><h2>TH_MCP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.819238; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/TH_MCP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_30_FULL_SOLID.png" alt="TH_MCP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/TH_MCP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_30_LOCAL_SOLID.png" alt="TH_MCP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/TH_MCP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_30_LOCAL_PALMAR_SOLID.png" alt="TH_MCP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/TH_MCP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_30_NAIL_SOLID.png" alt="TH_MCP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/TH_MCP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_30_NAIL_ISOLATED_SOLID.png" alt="TH_MCP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/TH_MCP_30_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_30_CAP37_SOLID.png" alt="TH_MCP_30 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/TH_MCP_30_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_30_CAP37_ISOLATED_SOLID.png" alt="TH_MCP_30 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/TH_MCP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_30_LOCAL_STRAIN.png" alt="TH_MCP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;TH_MCP_30&quot;,
+    &quot;digit&quot;: &quot;THUMB&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;THUMB_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="THUMB"><h2>TH_MCP_45 — HUMAN_REVIEW</h2><p>max edge ratio 2.209909; severe stretch edges 0; exact new crossings 0; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/TH_MCP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_45_FULL_SOLID.png" alt="TH_MCP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/TH_MCP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_45_LOCAL_SOLID.png" alt="TH_MCP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/TH_MCP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_45_LOCAL_PALMAR_SOLID.png" alt="TH_MCP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/TH_MCP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_45_NAIL_SOLID.png" alt="TH_MCP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/TH_MCP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_45_NAIL_ISOLATED_SOLID.png" alt="TH_MCP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/TH_MCP_45_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_45_CAP37_SOLID.png" alt="TH_MCP_45 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/TH_MCP_45_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_45_CAP37_ISOLATED_SOLID.png" alt="TH_MCP_45 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/TH_MCP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/TH_MCP_45_LOCAL_STRAIN.png" alt="TH_MCP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;TH_MCP_45&quot;,
+    &quot;digit&quot;: &quot;THUMB&quot;,
+    &quot;joint&quot;: &quot;MCP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;THUMB_MCP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="BLOCKER" data-angle="15" data-digit="THUMB"><h2>TH_IP_15 — BLOCKER</h2><p>max edge ratio 1.312020; severe stretch edges 0; exact new crossings 39; unapproved severe pairs 6.</p><table><tr><th>case</th><th>face pair</th><th>poke mm</th><th>bind facet mm</th><th>segment mm</th><th>acceptance</th></tr><tr><td>TH_IP_15</td><td>[77,408]</td><td>5.135487</td><td>4.234162</td><td>0.160551</td><td>UNAPPROVED_EXACT_CROSSING</td></tr><tr><td>TH_IP_15</td><td>[376,1050]</td><td>4.038801</td><td>3.764636</td><td>0.390457</td><td>UNAPPROVED_EXACT_CROSSING</td></tr><tr><td>TH_IP_15</td><td>[377,1048]</td><td>4.875181</td><td>4.015601</td><td>0.491367</td><td>UNAPPROVED_EXACT_CROSSING</td></tr><tr><td>TH_IP_15</td><td>[405,1946]</td><td>3.677946</td><td>3.526704</td><td>1.224819</td><td>UNAPPROVED_EXACT_CROSSING</td></tr><tr><td>TH_IP_15</td><td>[407,1944]</td><td>3.229683</td><td>3.078657</td><td>1.602101</td><td>UNAPPROVED_EXACT_CROSSING</td></tr><tr><td>TH_IP_15</td><td>[1944,2743]</td><td>3.229683</td><td>3.178365</td><td>0.208966</td><td>UNAPPROVED_EXACT_CROSSING</td></tr></table><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/TH_IP_15_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_FULL_SOLID.png" alt="TH_IP_15 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/TH_IP_15_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_LOCAL_SOLID.png" alt="TH_IP_15 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/TH_IP_15_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_LOCAL_PALMAR_SOLID.png" alt="TH_IP_15 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/TH_IP_15_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_NAIL_SOLID.png" alt="TH_IP_15 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/TH_IP_15_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_NAIL_ISOLATED_SOLID.png" alt="TH_IP_15 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/TH_IP_15_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_CAP37_SOLID.png" alt="TH_IP_15 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/TH_IP_15_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_CAP37_ISOLATED_SOLID.png" alt="TH_IP_15 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/TH_IP_15_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_LOCAL_STRAIN.png" alt="TH_IP_15 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/TH_IP_15_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_CROSSING_CONTEXT.png" alt="TH_IP_15 精确相交面取证：区别于普通实体审阅"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/TH_IP_15_PAIR_77_408_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_77_408_ISOLATED.png" alt="TH_IP_15 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/TH_IP_15_PAIR_77_408_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_77_408_CONTEXT.png" alt="TH_IP_15 逐对取证：实际周围实体表面"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/TH_IP_15_PAIR_376_1050_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_376_1050_ISOLATED.png" alt="TH_IP_15 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/TH_IP_15_PAIR_376_1050_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_376_1050_CONTEXT.png" alt="TH_IP_15 逐对取证：实际周围实体表面"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/TH_IP_15_PAIR_377_1048_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_377_1048_ISOLATED.png" alt="TH_IP_15 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/TH_IP_15_PAIR_377_1048_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_377_1048_CONTEXT.png" alt="TH_IP_15 逐对取证：实际周围实体表面"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/TH_IP_15_PAIR_405_1946_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_405_1946_ISOLATED.png" alt="TH_IP_15 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/TH_IP_15_PAIR_405_1946_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_405_1946_CONTEXT.png" alt="TH_IP_15 逐对取证：实际周围实体表面"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/TH_IP_15_PAIR_407_1944_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_407_1944_ISOLATED.png" alt="TH_IP_15 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/TH_IP_15_PAIR_407_1944_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_407_1944_CONTEXT.png" alt="TH_IP_15 逐对取证：实际周围实体表面"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/TH_IP_15_PAIR_1944_2743_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_1944_2743_ISOLATED.png" alt="TH_IP_15 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/TH_IP_15_PAIR_1944_2743_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_15_PAIR_1944_2743_CONTEXT.png" alt="TH_IP_15 逐对取证：实际周围实体表面"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;TH_IP_15&quot;,
+    &quot;digit&quot;: &quot;THUMB&quot;,
+    &quot;joint&quot;: &quot;IP&quot;,
+    &quot;angle_deg&quot;: 15.0,
+    &quot;bone&quot;: &quot;THUMB_IP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -15.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="30" data-digit="THUMB"><h2>TH_IP_30 — HUMAN_REVIEW</h2><p>max edge ratio 1.615924; severe stretch edges 0; exact new crossings 36; unapproved severe pairs 0.</p><table><tr><th>case</th><th>face pair</th><th>poke mm</th><th>bind facet mm</th><th>segment mm</th><th>acceptance</th></tr><tr><td>TH_IP_30</td><td>[1225,2740]</td><td>5.500166</td><td>4.372076</td><td>0.929853</td><td>KNOWN_HUMAN_ACCEPTED_NON_BLOCKING_DIAGNOSTIC_CONTACT</td></tr></table><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/TH_IP_30_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_FULL_SOLID.png" alt="TH_IP_30 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/TH_IP_30_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_LOCAL_SOLID.png" alt="TH_IP_30 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/TH_IP_30_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_LOCAL_PALMAR_SOLID.png" alt="TH_IP_30 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/TH_IP_30_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_NAIL_SOLID.png" alt="TH_IP_30 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/TH_IP_30_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_NAIL_ISOLATED_SOLID.png" alt="TH_IP_30 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/TH_IP_30_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_CAP37_SOLID.png" alt="TH_IP_30 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/TH_IP_30_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_CAP37_ISOLATED_SOLID.png" alt="TH_IP_30 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/TH_IP_30_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_LOCAL_STRAIN.png" alt="TH_IP_30 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/TH_IP_30_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_CROSSING_CONTEXT.png" alt="TH_IP_30 精确相交面取证：区别于普通实体审阅"></a></figure><figure><figcaption>逐对取证：bind/posed，橙色 face A、蓝色 face B</figcaption><a href="renders/TH_IP_30_PAIR_1225_2740_ISOLATED.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_PAIR_1225_2740_ISOLATED.png" alt="TH_IP_30 逐对取证：bind/posed，橙色 face A、蓝色 face B"></a></figure><figure><figcaption>逐对取证：实际周围实体表面</figcaption><a href="renders/TH_IP_30_PAIR_1225_2740_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_30_PAIR_1225_2740_CONTEXT.png" alt="TH_IP_30 逐对取证：实际周围实体表面"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;TH_IP_30&quot;,
+    &quot;digit&quot;: &quot;THUMB&quot;,
+    &quot;joint&quot;: &quot;IP&quot;,
+    &quot;angle_deg&quot;: 30.0,
+    &quot;bone&quot;: &quot;THUMB_IP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -30.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article><article data-state="HUMAN_REVIEW" data-angle="45" data-digit="THUMB"><h2>TH_IP_45 — HUMAN_REVIEW</h2><p>max edge ratio 1.899623; severe stretch edges 0; exact new crossings 20; unapproved severe pairs 0.</p><div class="images"><figure><figcaption>全手实体：左 RSSF，右单关节屈曲</figcaption><a href="renders/TH_IP_45_FULL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_FULL_SOLID.png" alt="TH_IP_45 全手实体：左 RSSF，右单关节屈曲"></a></figure><figure><figcaption>局部实体：相同机位与比例</figcaption><a href="renders/TH_IP_45_LOCAL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_LOCAL_SOLID.png" alt="TH_IP_45 局部实体：相同机位与比例"></a></figure><figure><figcaption>局部掌侧实体</figcaption><a href="renders/TH_IP_45_LOCAL_PALMAR_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_LOCAL_PALMAR_SOLID.png" alt="TH_IP_45 局部掌侧实体"></a></figure><figure><figcaption>目标手指指甲实体周围表面</figcaption><a href="renders/TH_IP_45_NAIL_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_NAIL_SOLID.png" alt="TH_IP_45 目标手指指甲实体周围表面"></a></figure><figure><figcaption>仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing</figcaption><a href="renders/TH_IP_45_NAIL_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_NAIL_ISOLATED_SOLID.png" alt="TH_IP_45 仅 native nail material 面：实际坐标隔离实体，边界裁切不是 tearing"></a></figure><figure><figcaption>冻结 cap37 实体周围表面</figcaption><a href="renders/TH_IP_45_CAP37_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_CAP37_SOLID.png" alt="TH_IP_45 冻结 cap37 实体周围表面"></a></figure><figure><figcaption>仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照</figcaption><a href="renders/TH_IP_45_CAP37_ISOLATED_SOLID.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_CAP37_ISOLATED_SOLID.png" alt="TH_IP_45 仅冻结 cap37 的25个面：实际坐标隔离实体，保持完整 context 图可对照"></a></figure><figure><figcaption>应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate</figcaption><a href="renders/TH_IP_45_LOCAL_STRAIN.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_LOCAL_STRAIN.png" alt="TH_IP_45 应变诊断：蓝为压缩、黄/红为拉伸；颜色不构成新 gate"></a></figure><figure><figcaption>精确相交面取证：区别于普通实体审阅</figcaption><a href="renders/TH_IP_45_CROSSING_CONTEXT.png" target="_blank"><img loading="lazy" src="renders/TH_IP_45_CROSSING_CONTEXT.png" alt="TH_IP_45 精确相交面取证：区别于普通实体审阅"></a></figure></div><p>人工状态：PENDING。V2 Class A 不自动等价于可见教学缺陷。原有三对批准只覆盖相同 pose/pair。</p><details><summary>完整机器证据 JSON</summary><pre>{
+  &quot;case&quot;: {
+    &quot;case_id&quot;: &quot;TH_IP_45&quot;,
+    &quot;digit&quot;: &quot;THUMB&quot;,
+    &quot;joint&quot;: &quot;IP&quot;,
+    &quot;angle_deg&quot;: 45.0,
+    &quot;bone&quot;: &quot;THUMB_IP_R&quot;,
+    &quot;axis&quot;: &quot;bone_local_X&quot;,
+    &quot;sign&quot;: -1.0,
+    &quot;applied_rotation_deg&quot;: -45.0
+  },
+  &quot;structural_candidates&quot;: {
+    &quot;normal_flip_diagnostic_face_ids&quot;: [],
+    &quot;tear_strain_edge_ids&quot;: [],
+    &quot;automatic_visible_flap_tearing_inversion_claim&quot;: false,
+    &quot;cap37_surface_separation_detected&quot;: false,
+    &quot;topology_separation_detected&quot;: false
+  },
+  &quot;non_target_clean_motion&quot;: {
+    &quot;INDEX&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 450
+    },
+    &quot;MIDDLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 358
+    },
+    &quot;RING&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 385
+    },
+    &quot;LITTLE&quot;: {
+      &quot;max_mm&quot;: 0.0,
+      &quot;mean_mm&quot;: 0.0,
+      &quot;vertex_count&quot;: 402
+    }
+  },
+  &quot;forearm&quot;: {
+    &quot;max_mm&quot;: 0.0,
+    &quot;mean_mm&quot;: 0.0,
+    &quot;vertex_count&quot;: 552
+  }
+}</pre></details></article></main><script>function filter(){let n=0;document.querySelectorAll('article').forEach(el=>{el.hidden=!((state.value==='all'||state.value===el.dataset.state)&&(angle.value==='all'||angle.value===el.dataset.angle));if(!el.hidden)n++});count.textContent=n+' cases'}state.onchange=angle.onchange=filter;filter()</script></html>

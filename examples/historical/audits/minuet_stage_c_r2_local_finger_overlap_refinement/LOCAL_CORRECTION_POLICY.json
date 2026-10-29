@@ -1,0 +1,341 @@
+{
+  "target_hand": "R",
+  "target_bone": "RING_MCP_R",
+  "target_DOF": "MCP spread only",
+  "maximum_delta_deg": -6.0,
+  "presentation_support_sec": [
+    0.8,
+    2.08
+  ],
+  "plateau_sec": [
+    0.98,
+    1.88
+  ],
+  "smoothing": "Analytic quintic smootherstep, delta/delta_velocity/delta_acceleration zero at support boundaries",
+  "bake_hz": 240,
+  "root_changes": 0,
+  "other_joint_channel_changes": 0,
+  "motion_solver_calls": 0,
+  "one_animated_candidate_only": true,
+  "policy_restarts": 0,
+  "baseline_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+  "source_timings_preserved": true,
+  "source_audio_sha256": "8f884ee49aa386dc798716985c3c7cc8dd708a39166ad67a4253b9eeed4f6803",
+  "idle_only_limitation": {
+    "shared_off_on_presentation_sec": 1.4214275,
+    "source_patch_intersections_at_handoff": 54,
+    "reason": "Middle B4 NOTE_OFF equals Ring C5 NOTE_ON. A continuous correction that is zero on every active interval for both fingers must be zero for both at this exact handoff, where original distal patches intersect. Idle-only refinement cannot fully remove this inherited defect without changing timing or leaving the handoff intersection."
+  },
+  "active_change_scope": "Only Ring C5 (R04) MCP spread is locally changed; every actual active finger pad must remain on its original key within inherited3mm contact domain; Middle B4 unchanged",
+  "finite_static_feasibility": {
+    "amplitudes_tested_deg": [
+      0,
+      -1,
+      -2,
+      -3,
+      -4,
+      -5,
+      -6
+    ],
+    "finite_poses": 77,
+    "minimum_tested_amplitude_that_removed_all_target_patch_intersections": -6,
+    "contact_check": {
+      "ring_MCP_spread_delta_deg": -6,
+      "samples": [
+        {
+          "presentation_sec": 0.966666667,
+          "music_sec": 0.6166666670000001,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 4.123339429497719,
+          "projection_envelope_overlap_mm": [
+            6.107881665229797,
+            29.781855642795563
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R01",
+              "finger": 1,
+              "marker": {
+                "gap_mm": 0.25764968368925684,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.25755247315440066,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.05,
+          "music_sec": 0.7000000000000001,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 2.411006251350045,
+          "projection_envelope_overlap_mm": [
+            6.614848971366882,
+            28.712958097457886
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R02",
+              "finger": 2,
+              "marker": {
+                "gap_mm": 0.6034677361212611,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.6061084931602291,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.2,
+          "music_sec": 0.85,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 0.15899886784609407,
+          "projection_envelope_overlap_mm": [
+            6.7635178565979,
+            31.034842133522034
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R02",
+              "finger": 2,
+              "marker": {
+                "gap_mm": 0.6187463805392165,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.620801656909871,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.383333333,
+          "music_sec": 1.0333333329999999,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 2.0040872041136026,
+          "projection_envelope_overlap_mm": [
+            1.460045576095581,
+            34.028060734272
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R03",
+              "finger": 3,
+              "marker": {
+                "gap_mm": 0.5402383864126712,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.5505345756840596,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.4214275,
+          "music_sec": 1.0714275,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 1.2263661483302712,
+          "projection_envelope_overlap_mm": [
+            1.4261305332183838,
+            32.988451421260834
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R04",
+              "finger": 4,
+              "marker": {
+                "gap_mm": -0.9048407453026724,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": -0.9018575444731963,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.45,
+          "music_sec": 1.1,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 2.872927114367485,
+          "projection_envelope_overlap_mm": [
+            1.629173755645752,
+            30.76411783695221
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R04",
+              "finger": 4,
+              "marker": {
+                "gap_mm": 0.5189066176022572,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.5192916528426879,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.55,
+          "music_sec": 1.2000000000000002,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 6.9619049318134785,
+          "projection_envelope_overlap_mm": [
+            4.119083285331726,
+            27.030862867832184
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R04",
+              "finger": 4,
+              "marker": {
+                "gap_mm": -0.15200919640338284,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": -0.14852853811705966,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.635713,
+          "music_sec": 1.2857129999999999,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 5.07552782073617,
+          "projection_envelope_overlap_mm": [
+            4.672348499298096,
+            27.31173485517502
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R05",
+              "finger": 5,
+              "marker": {
+                "gap_mm": 0.17858531578368425,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.19078663104138255,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.7,
+          "music_sec": 1.35,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 2.0596873946487904,
+          "projection_envelope_overlap_mm": [
+            5.285695195198059,
+            31.211882829666138
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R05",
+              "finger": 5,
+              "marker": {
+                "gap_mm": 0.6015198199658783,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.6143020510510929,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.8,
+          "music_sec": 1.4500000000000002,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 3.48607893101871,
+          "projection_envelope_overlap_mm": [
+            3.508538007736206,
+            30.83384782075882
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R05",
+              "finger": 5,
+              "marker": {
+                "gap_mm": 0.5329590553686225,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.5488452874753362,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        },
+        {
+          "presentation_sec": 1.85,
+          "music_sec": 1.5,
+          "intersecting_patch_triangle_pairs": 0,
+          "nearest_sampled_patch_distance_mm": 4.52718511223793,
+          "projection_envelope_overlap_mm": [
+            2.4205446243286133,
+            30.253686010837555
+          ],
+          "patch_scope": "MIDDLE/RING distal strong-weight skin only",
+          "ring_little_patch_triangle_pairs": 0,
+          "active_contacts": [
+            {
+              "note_id": "R05",
+              "finger": 5,
+              "marker": {
+                "gap_mm": 0.5295124088929294,
+                "horizontal_mm": 0.0
+              },
+              "skin": {
+                "gap_mm": 0.5463523884849023,
+                "horizontal_mm": 0.0
+              }
+            }
+          ]
+        }
+      ],
+      "target_patch_pair_sum": 0,
+      "neighbor_patch_pair_sum": 0,
+      "maximum_active_skin_gap_mm": 0.9018575444731963,
+      "maximum_active_skin_horizontal_mm": 0.0
+    }
+  },
+  "visual_static_review": "Agent inspected unchanged-camera overhead/teaching/side static poses at1.05,1.40,1.80s: separated distal fingers, preserved curvature, no exaggeratedV or claw. Human quality pending.",
+  "no_full_hand_planner": true,
+  "no_frozen_asset_writes": true
+}

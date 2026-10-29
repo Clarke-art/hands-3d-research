@@ -1,0 +1,38 @@
+{
+  "status": "PASS",
+  "RAW_TO_BIND_ROI_MAX_DELTA_MM": 3.0034250573435984e-05,
+  "RAW_TO_BIND_ROI_MEAN_DELTA_MM": 8.59340330978588e-06,
+  "RAW_TO_BIND_WRITE16_MAX_DELTA_MM": 3.0034250573435984e-05,
+  "numeric_zero_bound_mm": 0.0001,
+  "PALMAR_DEFECT_REAPPEARED_AT_BIND_ZERO": "NO_OBSERVED_PENDING_HUMAN",
+  "NEW_BIND_VISIBLE_DEFECT": "NONE_OBSERVED_PENDING_HUMAN",
+  "weights_rig_groups_exact": true,
+  "bone_count": 21,
+  "protected_payload_sha256": "b46bd20ae6b3a47a35d2d017e2ea91bbaeb07ff47c94e2e1581ba102f764a364",
+  "no_production_candidate_save": true,
+  "temporary_saved_copy": {
+    "path": "audits/palmar_digit_root_local_donor_shape_restoration_design_r1/TEMP_STAGE5B_PALMAR16_BIND_PREVIEW_DESIGN_ONLY.blend",
+    "sha256": "117613128b224ccf7c030f2bc8787b674de43413880aad5d4dc8e435a0776edc"
+  },
+  "zero_reopen_coordinates_exact": true,
+  "actual_pose_smoke_count": 0,
+  "pose_helper_AST": {
+    "source": {
+      "path": "production_spec/stage6_deformation/stage6a/scripts/s6a_common.py",
+      "sha256": "cceedf3db14c9327de2e44e6a22457db11a793354922c8353ec65081043d5cf9"
+    },
+    "function_AST_sha256": {
+      "reset_pose": "a5f10fb615e007e6e45ae31f49c4bf5e5c85c1ebb3ce69af03b5ff66ebea3664",
+      "set_joint_rotation": "ebf9710a180dd22fcc6f4c04b71e44635d3bc3ae08d757f8a1b511a60554333f",
+      "pose_state": "dbf4989e10e171b7ecd6d54435f329adb672df9e4743d5edb7ed57a278f9d9de",
+      "evaluate": "d0a9e0353b050de0e0e4179b5f8d914f752fc7643c91c84b2e4148b4b8df7911"
+    }
+  },
+  "visual_review_evidence": [
+    "FORMAL_CANDIDATE__CLOSE__SOLID",
+    "FORMAL_CANDIDATE_BIND__CLOSE__SOLID",
+    "CURRENT_RAW__CLOSE__SOLID",
+    "FORMAL_CANDIDATE_BIND__ALTERNATE__FLAT_SOURCE_NATIVE"
+  ],
+  "visual_review": "RAW/BIND shelf absent; natural crease retained; no observed new local notch/pinch; Human product acceptance pending"
+}

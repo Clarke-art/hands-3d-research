@@ -1,0 +1,62 @@
+{
+  "status": "PASS_STATIC_PREREQUISITES_LIVE_REOPEN_PENDING",
+  "checks": {
+    "current_derivative_SHA256": true,
+    "old_R2_SHA256": true,
+    "corrected_rig_SHA256": true,
+    "cap37_HUMAN_APPROVED_FROZEN": true,
+    "cap_combined_authority_hash": true,
+    "R3_HUMAN_APPROVED_FROZEN": true,
+    "R3_combined_authority_hash": true,
+    "R3_membership_hash": true,
+    "static_skin_prerequisite": true,
+    "joint_rest_zero_bind_prerequisite": true,
+    "historical_corrected_authority_PASS": true,
+    "historical_graph_metric_hash": true,
+    "historical_files_hash_bound": true,
+    "frozen_sources_exact": true,
+    "primary19_targets_exact": true,
+    "context38_targets_exact": true,
+    "saved_current_weight_hash": true
+  },
+  "historical_file_hash_checks": {
+    "compute_bound.py": true,
+    "common.py": true,
+    "HISTORICAL_TRUE_CAP_BOUND_METHOD_RECOVERY.json": true,
+    "CORRECTED_TRUE_CAP_SOURCE_TARGET_AUTHORITY.json": true,
+    "RUN_A/STATIC_PATH_PAYLOAD.json": true,
+    "RUN_A/POSED_BOUND_PAYLOAD.json": true,
+    "RUN_A/BOUND_GEOMETRY_CONTEXT.json": true,
+    "TRUE_CAP_BOUND_RECOMPUTE_AFTER_DEPENDENCY_RECONCILIATION_R1_STATUS.json": true
+  },
+  "inputs": {
+    "current": {
+      "path": "production_spec/stage5_production_rig/geometry_propagation_after_donor_transfer_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend",
+      "sha256": "d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d"
+    },
+    "old_R2": {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+      "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+    },
+    "rig": {
+      "path": "production_spec/stage5_production_rig/human_thumb_kinematic_authority_correction_r1/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+      "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+    },
+    "cap37": {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_human_cap_authority_freeze_r1/THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+      "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256"
+    },
+    "fresh_R3": {
+      "path": "audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1.json",
+      "sha256": "470cc182b643e92f0f48f4bea119f0e0c3a45d1c182d3610345ac787f19c98e9"
+    },
+    "static_skin": {
+      "path": "production_spec/stage5_production_rig/static_skin_compatibility_revalidation_after_donor_transfer_r1/STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json",
+      "sha256": "05e86c27fc3cd5c308f31e86acd23cc4319f9da0b7d530b47ac68390dd7ca950"
+    },
+    "joint_rest_zero_bind": {
+      "path": "production_spec/stage5_production_rig/joint_surface_rest_zero_bind_revalidation_after_donor_transfer_r1/JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json",
+      "sha256": "36b6080ccc2c725119747ea6aaa84bd18fe997dcd8fc8760a249497a88249bec"
+    }
+  }
+}

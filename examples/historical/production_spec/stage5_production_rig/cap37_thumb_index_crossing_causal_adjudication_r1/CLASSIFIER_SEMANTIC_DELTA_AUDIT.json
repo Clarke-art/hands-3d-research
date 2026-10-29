@@ -1,0 +1,842 @@
+{
+  "phase": "CAP37_THUMB_INDEX_CROSSING_CAUSAL_ADJUDICATION_R1",
+  "status": "THREE_PAIR_GEOMETRY_AND_SEMANTICS_ADJUDICATED_PENDING_HUMAN",
+  "sources": {
+    "production_spec/stage6_deformation/stage6a/scripts/s6a_run_cases.py": "33710e8f3b1d551401d0f30dee04052cd84a0f07d91a119e1a2f33854521fb67",
+    "production_spec/stage6_deformation/stage6a/scripts/s6a_common.py": "cceedf3db14c9327de2e44e6a22457db11a793354922c8353ec65081043d5cf9",
+    "production_spec/stage6_deformation/stage6a/STAGE6A_SELF_INTERSECTION_AUDIT.json": "e7afbd390e9d771addf791bba0856883382441f502d8be6da7d93fbdca4771b8",
+    "production_spec/stage6_deformation/stage6a/STAGE6A_REPORT_R1.md": "f3eccb3399f05fe9b3b8091628e9796101d79587e895402b49f02c373cdd5e04",
+    "production_spec/stage6_deformation/stage6a_r1a/STAGE6A_R1A_SELF_INTERSECTION_AUDIT.json": "a536fcca89d5dbe620f97f9c82766318befa5bbab33275800bb11bd426b1a3bf",
+    "production_spec/stage6_deformation/stage6a_r1b/scripts/s6a_r1b_run_cases.py": "25feb79dca7b629d82b49d39c878884bcc968b9acc534a80d6dee6159429512c",
+    "production_spec/stage6_deformation/stage6a_r1b/STAGE6A_R1B_SELF_INTERSECTION_AUDIT.json": "e9843ef92e4e8ac2441ce5a473691dbac35c54a6efeff5f3ae1c72e391899435",
+    "production_spec/stage6_deformation/stage6a_r1b/STAGE6A_R1B_STATUS.json": "2dffc9c89130fa339e29544a1a67eb296b8a65253d7dd187f6210400ac50fa9a",
+    "production_spec/stage6_deformation/stage6a_r1b/STAGE6A_R1B_REPORT.md": "45d0d08a5493d25df7805b28c42d1fa3e2280381e1f903854021a26ac83310c4",
+    "production_spec/stage6_deformation/stage6b_r1c/scripts/r1c_pen_common.py": "83e9b51f6f6b97e39929b0b083d28ac33ccb150d22b6bd78f3a1cd30937924db",
+    "production_spec/stage6_deformation/stage6b_r1c/scripts/r1c_pen_v2.py": "cbffb61e7e3bbb44a47bb53c2c488b890c37905481727532b343d36b78f8e6ae",
+    "production_spec/stage6_deformation/stage6b_r1c/STAGE6B_R1C_PENETRATION_ADJUDICATION.json": "2910f777c494136067a662fbaf6fed6f972f28bb46611d51e6ddc00e79075c4e",
+    "production_spec/stage6_deformation/stage6b_r1c/STAGE6B_R1C_PENETRATION_ADJUDICATION_REPORT.md": "5e119d3326700e2171f86772a58b1a42f807859dd366780a5e11325a0f7049c6",
+    "production_spec/stage5_production_rig/stage5b_r1d/scripts/s5b_r1d_prequal.py": "227710b4c6ce109e8646419ded1394388166f7f0b4953b714b3f44f526cdac53",
+    "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_prequal.py": "6c24993810a89cd4a5180338bcaad86ca3cc332d78fa2188342f3e1c18dc4178",
+    "production_spec/stage5_production_rig/cap_fixture_static_validation_and_targeted_deformation_r1/CAP_FIXTURE_STATIC_VALIDATION_AND_TARGETED_DEFORMATION_R1_REPORT.md": "19c4f3cb67ac01988bd717ae830de232dfb0b4cdad071c5cf5348615ef2b78c6",
+    "production_spec/stage5_production_rig/cap_fixture_static_validation_and_targeted_deformation_r1/TARGETED_DEFORMATION_MACHINE_EVIDENCE.json": "a32d9a3fc18cfb6ab5b0589d03233e6a2d0807a736b899dfbd7307b5c933f9b5",
+    "production_spec/stage5_production_rig/human_thumb_kinematic_authority_correction_r1/THUMB_KINEMATIC_CORRECTION_APPLICATION_RECORD_R1.json": "f267187cc62c722c468df280b3fb7ade0ee68969edf95572790687c165865fcf"
+  },
+  "historical_summaries": {
+    "Stage6A": {
+      "bind_baseline_pairs": 59,
+      "total_new_pairs": 909,
+      "total_intra_target": 279,
+      "total_target_vs_other": 404,
+      "severe_pairs_depth_gt_0_5mm": 454,
+      "NEW_SEVERE_SELF_INTERSECTION": "PASS_WITH_HUMAN_REVIEW",
+      "two_cases": {
+        "TH_IP_30": {
+          "new_pairs": 113,
+          "intra_target_digit_pairs": 35,
+          "target_vs_other_digit_pairs": 52,
+          "other_vs_other_pairs": 26,
+          "max_penetration_depth_mm": 1.978972,
+          "pairs_depth_gt_0_5mm": 61,
+          "pairs_depth_gt_0_2mm": 90,
+          "samples": [
+            [
+              78,
+              1236
+            ],
+            [
+              78,
+              1240
+            ],
+            [
+              78,
+              1943
+            ],
+            [
+              356,
+              2888
+            ],
+            [
+              357,
+              367
+            ],
+            [
+              357,
+              2888
+            ],
+            [
+              358,
+              2877
+            ],
+            [
+              358,
+              2888
+            ],
+            [
+              359,
+              2888
+            ],
+            [
+              360,
+              432
+            ],
+            [
+              360,
+              435
+            ],
+            [
+              363,
+              435
+            ]
+          ]
+        },
+        "IDX_MCP_45": {
+          "new_pairs": 46,
+          "intra_target_digit_pairs": 5,
+          "target_vs_other_digit_pairs": 32,
+          "other_vs_other_pairs": 9,
+          "max_penetration_depth_mm": 1.300098,
+          "pairs_depth_gt_0_5mm": 13,
+          "pairs_depth_gt_0_2mm": 32,
+          "samples": [
+            [
+              78,
+              2896
+            ],
+            [
+              79,
+              2896
+            ],
+            [
+              79,
+              2899
+            ],
+            [
+              376,
+              1236
+            ],
+            [
+              376,
+              1237
+            ],
+            [
+              376,
+              1240
+            ],
+            [
+              381,
+              1231
+            ],
+            [
+              381,
+              1233
+            ],
+            [
+              381,
+              1235
+            ],
+            [
+              381,
+              1237
+            ],
+            [
+              382,
+              1206
+            ],
+            [
+              382,
+              1233
+            ]
+          ]
+        }
+      }
+    },
+    "Stage6A_R1A": {
+      "bind_baseline_pairs": 59,
+      "total_new_pairs": 885,
+      "total_intra_target": 259,
+      "total_target_vs_other": 400,
+      "severe_pairs_depth_gt_0_5mm": 450,
+      "NEW_SEVERE_SELF_INTERSECTION": "PASS_WITH_HUMAN_REVIEW",
+      "two_cases": {
+        "TH_IP_30": {
+          "new_pairs": 108,
+          "intra_target_digit_pairs": 30,
+          "target_vs_other_digit_pairs": 52,
+          "other_vs_other_pairs": 26,
+          "max_penetration_depth_mm": 2.154904,
+          "pairs_depth_gt_0_5mm": 60,
+          "pairs_depth_gt_0_2mm": 86,
+          "samples": [
+            [
+              78,
+              1236
+            ],
+            [
+              78,
+              1240
+            ],
+            [
+              78,
+              1943
+            ],
+            [
+              356,
+              2888
+            ],
+            [
+              357,
+              367
+            ],
+            [
+              357,
+              2888
+            ],
+            [
+              358,
+              2877
+            ],
+            [
+              358,
+              2888
+            ],
+            [
+              359,
+              2888
+            ],
+            [
+              360,
+              432
+            ],
+            [
+              360,
+              435
+            ],
+            [
+              363,
+              435
+            ]
+          ]
+        },
+        "IDX_MCP_45": {
+          "new_pairs": 46,
+          "intra_target_digit_pairs": 5,
+          "target_vs_other_digit_pairs": 32,
+          "other_vs_other_pairs": 9,
+          "max_penetration_depth_mm": 1.300082,
+          "pairs_depth_gt_0_5mm": 13,
+          "pairs_depth_gt_0_2mm": 32,
+          "samples": [
+            [
+              78,
+              2896
+            ],
+            [
+              79,
+              2896
+            ],
+            [
+              79,
+              2899
+            ],
+            [
+              376,
+              1236
+            ],
+            [
+              376,
+              1237
+            ],
+            [
+              376,
+              1240
+            ],
+            [
+              381,
+              1231
+            ],
+            [
+              381,
+              1233
+            ],
+            [
+              381,
+              1235
+            ],
+            [
+              381,
+              1237
+            ],
+            [
+              382,
+              1206
+            ],
+            [
+              382,
+              1233
+            ]
+          ]
+        }
+      }
+    },
+    "Stage6A_R1B": {
+      "bind_baseline_pairs": 59,
+      "total_new_pairs": 411,
+      "total_intra_target": 17,
+      "total_target_vs_other": 87,
+      "severe_pairs_depth_gt_0_5mm": 251,
+      "NEW_SEVERE_SELF_INTERSECTION": "PASS_WITH_HUMAN_REVIEW",
+      "two_cases": {
+        "TH_IP_30": {
+          "new_pairs": 68,
+          "intra_target_digit_pairs": 3,
+          "target_vs_other_digit_pairs": 15,
+          "other_vs_other_pairs": 50,
+          "max_penetration_depth_mm": 2.877206,
+          "pairs_depth_gt_0_5mm": 36,
+          "pairs_depth_gt_0_2mm": 55,
+          "samples": [
+            [
+              354,
+              424
+            ],
+            [
+              354,
+              427
+            ],
+            [
+              356,
+              2888
+            ],
+            [
+              357,
+              367
+            ],
+            [
+              357,
+              435
+            ],
+            [
+              357,
+              2876
+            ],
+            [
+              357,
+              2888
+            ],
+            [
+              358,
+              2876
+            ],
+            [
+              359,
+              2888
+            ],
+            [
+              359,
+              2891
+            ],
+            [
+              363,
+              2876
+            ],
+            [
+              364,
+              389
+            ]
+          ]
+        },
+        "IDX_MCP_45": {
+          "new_pairs": 2,
+          "intra_target_digit_pairs": 2,
+          "target_vs_other_digit_pairs": 0,
+          "other_vs_other_pairs": 0,
+          "max_penetration_depth_mm": 0.604989,
+          "pairs_depth_gt_0_5mm": 1,
+          "pairs_depth_gt_0_2mm": 2,
+          "samples": [
+            [
+              374,
+              472
+            ],
+            [
+              468,
+              472
+            ]
+          ]
+        }
+      }
+    }
+  },
+  "comparison_axes": {
+    "inputs": {
+      "Stage6A": "Historical Stage6A/R1A/R1B candidates/harness. Stage6A_R1B actually uses Stage5B R1C, not donor R1B; all retain old rig/cap fixture lineage. Read-only prior reports, not rerun full matrices.",
+      "targeted_R1": "R1B, R1E, corrected R1 and R2 actual immutable candidates; only seven selected poses"
+    },
+    "baseline_subtraction": {
+      "Stage6A": "New non-shared-vertex BVH face pairs = posed minus RSSF bind pairs (59 bind pairs)",
+      "V2": "Same baseline subtraction; exact triangle evidence collected on BVH candidates. Present task examines only the three nominated pairs, including bind absence."
+    },
+    "face_ownership": {
+      "Stage6A": "Historical face-centroid ownership / target-digit decomposition; contaminated cap-derived selector context",
+      "targeted_R1": "Frozen fresh bounded pure-face THUMB/INDEX labels; no old cut-component split. Domain labels do not imply illegal driver or physical mesh separation."
+    },
+    "shared_vertex_exclusion": "Both exclude faces sharing a vertex. All three specified pairs share no vertices.",
+    "crossing_definition": {
+      "Stage6A": "BVHTree nonadjacent polygon overlap, epsilon0, new-vs-bind; not a penetration-depth classifier",
+      "V2": "Real triangle crossings from actual triangulated polygons, same frozen triangulation, local rays and segment endpoints"
+    },
+    "penetration_proxy": {
+      "Stage6A": "min of absolute centroid-to-other-face plane distances; .5mm practical visibility band for Human Review",
+      "V2": "max footprint-constrained vertex-to-opposing-plane poke on an intersecting triangle pair; cp-to-foot tolerance1e-6m; limit2*local max edge; NOT minimum translation distance, overlap thickness, or physical body penetration depth"
+    },
+    "local_facet_scale": {
+      "Stage6A": "No facet normalization; .5/.2mm counts diagnostic",
+      "V2": "Mean bind triangle-edge length averaged over same face-pair triangle combinations; ClassA ratio>=1.0"
+    },
+    "visibility_severity": {
+      "Stage6A": "Diagnostic contact counts including depths>.5mm retained for Human Review",
+      "V2": "Geometric visibility proxy class; prior report also used full surfaces/strain to identify a separate torn flap, not triangle ClassA alone"
+    },
+    "blocking_semantics": {
+      "Stage6A": "Cross-digit isolated-flex pose contacts PASS_WITH_HUMAN_REVIEW; machine hard blockers NaN/collapse/degenerate/clean-shaft motion/topology etc.",
+      "historical_V2": "HUMAN_REVIEW_EVIDENCE_ONLY; genuine gross distal flap identified from large local stretch/hard flips plus solid views. Not blanket authority that every later isolated pose ClassA means skin failure.",
+      "targeted_R1": "Escalated three ClassA observations to FAIL_CLOSED; conservative hold valid pending adjudication, but local skin/rig defect causality not established by that label."
+    }
+  },
+  "V2_rule_unchanged": {
+    "depth_measure": "footprint-constrained poke depth: the largest perpendicular distance of a vertex of one triangle from the other triangle's plane, counted only when that vertex projects INSIDE the other triangle",
+    "scale_reference": "the BIND (undeformed) mesh mean edge length of the SAME triangle pair; mesh median edge = 3.8882 mm",
+    "CASE_C_PROXY_OVER_ESTIMATION": "no real triangle/triangle crossing is found for the pair",
+    "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION": "real crossing AND depth >= 1.0 x the pair's own mean edge length (the sheets pass through each other by more than one facet of the mesh's own resolution)",
+    "CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT": "real crossing AND depth < 1.0 x the pair's own mean edge length (the sheets touch / graze; the crossing is within the mesh's own facet resolution)"
+  },
+  "no_classifier_threshold_change": true,
+  "not_automatically_A_old_validator_missed_defect": true,
+  "not_automatically_C_new_skin_failure": true,
+  "semantic_escalation_hypothesis": "B is a documented rule delta; A or C requires local causal and visual evidence. New pair identity relative historical skin is a geometric effect, not a remediation finding.",
+  "predecessor_results_carried_without_retest": {
+    "INHERITED_DEBT_TOTAL": 16,
+    "INHERITED_DEBT_TRUE_DEFORMATION_FAILURE": 0,
+    "STATIC_DEBT_WITHOUT_TRUE_DEFORMATION_FAILURE": 16,
+    "OLD_CAP9_TARGETED_DEFORMATION": "PASS_PENDING_HUMAN_REVIEW",
+    "FIRST_WEB_TARGETED_DEFORMATION": "PASS_PENDING_HUMAN_REVIEW",
+    "FRESH_R3_TRANSITION_COLLAR_TARGETED_DEFORMATION": "PASS_PENDING_HUMAN_REVIEW",
+    "EDGE5879_TARGETED_DEFORMATION": "PASS_PENDING_HUMAN_REVIEW"
+  },
+  "research_scope": [
+    {
+      "id": "PAIR_1225_2740",
+      "faces": [
+        1225,
+        2740
+      ],
+      "pose": "TH_IP_30",
+      "bone": "THUMB_IP_R",
+      "max_angle": 30.0
+    },
+    {
+      "id": "PAIR_1041_2735",
+      "faces": [
+        1041,
+        2735
+      ],
+      "pose": "IDX_MCP_45",
+      "bone": "INDEX_MCP_R",
+      "max_angle": 45.0
+    },
+    {
+      "id": "PAIR_1226_2742",
+      "faces": [
+        1226,
+        2742
+      ],
+      "pose": "IDX_MCP_45",
+      "bone": "INDEX_MCP_R",
+      "max_angle": 45.0
+    }
+  ],
+  "source_R1C_V1_finalizer_not_used": "V1 proxy/segment rule predates canonical V2 JSON; do not swap to it to make classification pass.",
+  "three_pair_measurements": {
+    "PAIR_1225_2740": {
+      "actual": {
+        "HISTORICAL_R1B_DONOR": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.5011736541055143,
+          "minimum_triangle_distance_mm": 5.181872357313724,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "CORRECTED_R1": {
+          "intersect": true,
+          "depth_mm": 5.5001658329274505,
+          "seg_mm": 0.9298528117312028,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.2408236759947613,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2": {
+          "intersect": true,
+          "depth_mm": 5.5001658329274505,
+          "seg_mm": 0.9298528117312028,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.2408236759947613,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "counterfactual": {
+        "BASE": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.5011755167506635,
+          "minimum_triangle_distance_mm": 5.181870338894437,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "K_ONLY": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.5011755167506635,
+          "minimum_triangle_distance_mm": 5.181870338894437,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "W_ONLY": {
+          "intersect": true,
+          "depth_mm": 2.2487273381557316,
+          "seg_mm": 0.7194019781439166,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT",
+          "Stage6A_centroid_plane_proxy_mm": 0.28019564342685044,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "FULL": {
+          "intersect": true,
+          "depth_mm": 5.500157392816618,
+          "seg_mm": 0.9298533924815149,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.24085203767754138,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2_W_ONLY": {
+          "intersect": true,
+          "depth_mm": 2.2487273381557316,
+          "seg_mm": 0.7194019781439166,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT",
+          "Stage6A_centroid_plane_proxy_mm": 0.28019564342685044,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2_FULL": {
+          "intersect": true,
+          "depth_mm": 5.500157392816618,
+          "seg_mm": 0.9298533924815149,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.24085203767754138,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      }
+    },
+    "PAIR_1041_2735": {
+      "actual": {
+        "HISTORICAL_R1B_DONOR": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.3793830255744979,
+          "minimum_triangle_distance_mm": 2.823179006576538,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "CORRECTED_R1": {
+          "intersect": true,
+          "depth_mm": 3.7107792868482647,
+          "seg_mm": 0.6206547602059835,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7787516187818255,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2": {
+          "intersect": true,
+          "depth_mm": 3.709175107360352,
+          "seg_mm": 0.5925895821949515,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7738400490779895,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "counterfactual": {
+        "BASE": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.379485878511332,
+          "minimum_triangle_distance_mm": 2.823179006576538,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "K_ONLY": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.37962761416565627,
+          "minimum_triangle_distance_mm": 2.82317852973938,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "W_ONLY": {
+          "intersect": true,
+          "depth_mm": 3.710793571372051,
+          "seg_mm": 0.6206400947904162,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7785113666614052,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "FULL": {
+          "intersect": true,
+          "depth_mm": 3.7107924654264934,
+          "seg_mm": 0.6206429912660737,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7791737298248336,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2_W_ONLY": {
+          "intersect": true,
+          "depth_mm": 3.7091870181029662,
+          "seg_mm": 0.5926054393788063,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7735985782346688,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2_FULL": {
+          "intersect": true,
+          "depth_mm": 3.7091858976054937,
+          "seg_mm": 0.5926089285018157,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7742562520434149,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      }
+    },
+    "PAIR_1226_2742": {
+      "actual": {
+        "HISTORICAL_R1B_DONOR": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.5179369365796447,
+          "minimum_triangle_distance_mm": 2.749739408493042,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "CORRECTED_R1": {
+          "intersect": true,
+          "depth_mm": 4.6285808784887195,
+          "seg_mm": 0.3402542097387797,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.0792734392452985,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2": {
+          "intersect": true,
+          "depth_mm": 4.626236739568412,
+          "seg_mm": 0.35031668445181197,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.0758781572803855,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "counterfactual": {
+        "BASE": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.5337615041062236,
+          "minimum_triangle_distance_mm": 2.749680280685425,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "K_ONLY": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.53376255184412,
+          "minimum_triangle_distance_mm": 2.749680757522583,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "W_ONLY": {
+          "intersect": true,
+          "depth_mm": 4.628599155694246,
+          "seg_mm": 0.3402243252794603,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.079205860150978,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "FULL": {
+          "intersect": true,
+          "depth_mm": 4.628596012480557,
+          "seg_mm": 0.3402243252794603,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.0792236716952175,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2_W_ONLY": {
+          "intersect": true,
+          "depth_mm": 4.626255948096514,
+          "seg_mm": 0.3502943015910081,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.0758189600892365,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "R2_FULL": {
+          "intersect": true,
+          "depth_mm": 4.626252804882824,
+          "seg_mm": 0.35029502167811993,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.0758368007373065,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      }
+    }
+  },
+  "evidence_based_resolution": {
+    "A_old_validator_missed_severe_defect": "NOT_PROVEN: exact crossing alone is not proof of unacceptable local/teaching defect.",
+    "B_stricter_contact_family_classification": "SUPPORTED: prior Stage6A pose-contact policy versus current V2 facet-scaled visibility proxy + inherited blocking interpretation.",
+    "C_corrected_recovery_changed_deformation": "SUPPORTED_FOR_PAIR_GEOMETRY_ONLY: donor lacks these pairs, corrected recovery has them; not automatically a failed skin.",
+    "coexisting_B_and_C": "The exact-pair geometry changes and the validator policy escalation both occur. They are not mutually exclusive.",
+    "classifier_defect": "NOT_PROVEN; unchanged V2 computes its stated predicate reproducibly.",
+    "poke_is_physical_penetration_thickness": false,
+    "INDEX_class_A_onset_segment_mm": {
+      "PAIR_1041_2735": 0.00010397915206437033,
+      "PAIR_1226_2742": 0.0012034071593225884
+    }
+  }
+}

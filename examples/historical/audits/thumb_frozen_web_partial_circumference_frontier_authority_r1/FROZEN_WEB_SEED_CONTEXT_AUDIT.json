@@ -1,0 +1,397 @@
+{
+  "status": "PROVENANCE_VALID",
+  "frozen_web21": {
+    "count": 21,
+    "vertex_ids": [
+      296,
+      346,
+      526,
+      618,
+      1396,
+      1399,
+      1402,
+      1448,
+      1459,
+      1460,
+      1550,
+      1677,
+      1997,
+      2014,
+      2015,
+      2016,
+      2774,
+      2848,
+      2858,
+      3125,
+      3161
+    ]
+  },
+  "seeds": [
+    {
+      "vertex_id": 1396,
+      "ring_id": "R00",
+      "circumferential_index": 6,
+      "neighbor_ring_mappings": [
+        {
+          "ring": "R01",
+          "vertex_id": 306,
+          "edge_id": 1131,
+          "face_ids": [
+            1179,
+            1181
+          ]
+        }
+      ],
+      "incident_faces": [
+        1176,
+        1179,
+        1180,
+        1181
+      ],
+      "frozen_web_provenance": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\FIRST_WEB_REGION_AUDIT_R1A.json",
+        "sha256": "ab01e023b437c456eaf46af39c01682d4a97050a5dd514e17c00f77ec5018208"
+      },
+      "one_ring_vertex_ids": [
+        303,
+        306,
+        2774,
+        2775
+      ],
+      "two_ring_vertex_ids": [
+        1384,
+        1395,
+        1397,
+        1398,
+        1399,
+        1402,
+        1404,
+        1407
+      ],
+      "other_frozen_web_connections_within_two_hops": [
+        {
+          "frozen_web_vertex": 1399,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1396,
+              2774,
+              1399
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        },
+        {
+          "frozen_web_vertex": 1402,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1396,
+              306,
+              1402
+            ],
+            [
+              1396,
+              2774,
+              1402
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        },
+        {
+          "frozen_web_vertex": 2774,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1396,
+              2774
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        }
+      ],
+      "known_shared": true,
+      "neighbors_auto_shared": false
+    },
+    {
+      "vertex_id": 1399,
+      "ring_id": "R00",
+      "circumferential_index": 4,
+      "neighbor_ring_mappings": [
+        {
+          "ring": "R01",
+          "vertex_id": 305,
+          "edge_id": 1136,
+          "face_ids": [
+            1174,
+            1178
+          ]
+        }
+      ],
+      "incident_faces": [
+        1174,
+        1175,
+        1177,
+        1178
+      ],
+      "frozen_web_provenance": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\FIRST_WEB_REGION_AUDIT_R1A.json",
+        "sha256": "ab01e023b437c456eaf46af39c01682d4a97050a5dd514e17c00f77ec5018208"
+      },
+      "one_ring_vertex_ids": [
+        304,
+        305,
+        2773,
+        2774
+      ],
+      "two_ring_vertex_ids": [
+        1352,
+        1396,
+        1397,
+        1400,
+        1401,
+        1402,
+        1403,
+        1455
+      ],
+      "other_frozen_web_connections_within_two_hops": [
+        {
+          "frozen_web_vertex": 1396,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1399,
+              2774,
+              1396
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        },
+        {
+          "frozen_web_vertex": 1402,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1399,
+              305,
+              1402
+            ],
+            [
+              1399,
+              2774,
+              1402
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        },
+        {
+          "frozen_web_vertex": 2774,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1399,
+              2774
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        }
+      ],
+      "known_shared": true,
+      "neighbors_auto_shared": false
+    },
+    {
+      "vertex_id": 1402,
+      "ring_id": "R01",
+      "circumferential_index": 5,
+      "neighbor_ring_mappings": [
+        {
+          "ring": "R00",
+          "vertex_id": 2774,
+          "edge_id": 4476,
+          "face_ids": [
+            1178,
+            1179
+          ]
+        },
+        {
+          "ring": "R02",
+          "vertex_id": 2771,
+          "edge_id": 4463,
+          "face_ids": [
+            1165,
+            1166
+          ]
+        }
+      ],
+      "incident_faces": [
+        1165,
+        1166,
+        1178,
+        1179
+      ],
+      "frozen_web_provenance": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\FIRST_WEB_REGION_AUDIT_R1A.json",
+        "sha256": "ab01e023b437c456eaf46af39c01682d4a97050a5dd514e17c00f77ec5018208"
+      },
+      "one_ring_vertex_ids": [
+        305,
+        306,
+        2771,
+        2774
+      ],
+      "two_ring_vertex_ids": [
+        1396,
+        1397,
+        1399,
+        1401,
+        1403,
+        1404,
+        1407,
+        1438
+      ],
+      "other_frozen_web_connections_within_two_hops": [
+        {
+          "frozen_web_vertex": 1396,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1402,
+              306,
+              1396
+            ],
+            [
+              1402,
+              2774,
+              1396
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        },
+        {
+          "frozen_web_vertex": 1399,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1402,
+              305,
+              1399
+            ],
+            [
+              1402,
+              2774,
+              1399
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        },
+        {
+          "frozen_web_vertex": 2774,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              1402,
+              2774
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        }
+      ],
+      "known_shared": true,
+      "neighbors_auto_shared": false
+    },
+    {
+      "vertex_id": 2774,
+      "ring_id": "R00",
+      "circumferential_index": 5,
+      "neighbor_ring_mappings": [
+        {
+          "ring": "R01",
+          "vertex_id": 1402,
+          "edge_id": 4476,
+          "face_ids": [
+            1178,
+            1179
+          ]
+        }
+      ],
+      "incident_faces": [
+        1176,
+        1177,
+        1178,
+        1179
+      ],
+      "frozen_web_provenance": {
+        "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\FIRST_WEB_REGION_AUDIT_R1A.json",
+        "sha256": "ab01e023b437c456eaf46af39c01682d4a97050a5dd514e17c00f77ec5018208"
+      },
+      "one_ring_vertex_ids": [
+        1396,
+        1397,
+        1399,
+        1402
+      ],
+      "two_ring_vertex_ids": [
+        303,
+        304,
+        305,
+        306,
+        2771,
+        2773,
+        2775,
+        2783
+      ],
+      "other_frozen_web_connections_within_two_hops": [
+        {
+          "frozen_web_vertex": 1396,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              2774,
+              1396
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        },
+        {
+          "frozen_web_vertex": 1399,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              2774,
+              1399
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        },
+        {
+          "frozen_web_vertex": 1402,
+          "all_minimum_1_or_2_hop_paths": [
+            [
+              2774,
+              1402
+            ]
+          ],
+          "edge_chain_not_membership_extension": true
+        }
+      ],
+      "known_shared": true,
+      "neighbors_auto_shared": false
+    }
+  ],
+  "web21_on_stack": [
+    1396,
+    1399,
+    1402,
+    2774
+  ],
+  "other17_outside_stack": [
+    296,
+    346,
+    526,
+    618,
+    1448,
+    1459,
+    1460,
+    1550,
+    1677,
+    1997,
+    2014,
+    2015,
+    2016,
+    2848,
+    2858,
+    3125,
+    3161
+  ],
+  "all_seed_ids_verified": true,
+  "first_web_membership_changed": false
+}

@@ -1,0 +1,674 @@
+{
+ "stage": "STAGE6B_DIGIT_SEAM_DEFORM_AUDIT",
+ "generated_at": "2026-09-30T20:37:35.929161+08:00",
+ "method": "edges whose two endpoints carry different digit ownership are the places where one closed surface physically joins two digits.  They are reported SEPARATELY from region strain: a region's strain must not be blamed for a cross-digit seam edge being pulled apart.",
+ "thumb_index_seam_bind_mm": 1.058578,
+ "cases": {
+  "CMC_OPP_10": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 12.597698,
+   "max_posed_length_mm": 13.335645,
+   "edges_over_3x_and_over_5mm": 48,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 12.597698,
+     "bind_mm": 1.058578,
+     "posed_mm": 13.335645,
+     "disp_thumb_mm": 0.229661,
+     "disp_other_mm": 14.01582,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 10.864123,
+     "bind_mm": 1.134067,
+     "posed_mm": 12.320642,
+     "disp_thumb_mm": 0.55205,
+     "disp_other_mm": 13.420998,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 7.031258,
+     "bind_mm": 2.187544,
+     "posed_mm": 15.381184,
+     "disp_thumb_mm": 14.520997,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 6.675195,
+     "bind_mm": 1.936762,
+     "posed_mm": 12.928262,
+     "disp_thumb_mm": 0.061328,
+     "disp_other_mm": 14.797917,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 5.920874,
+     "bind_mm": 2.197949,
+     "posed_mm": 13.013776,
+     "disp_thumb_mm": 15.291654,
+     "disp_other_mm": 0.191594,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  },
+  "CMC_OPP_20": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 25.514012,
+   "max_posed_length_mm": 27.008569,
+   "edges_over_3x_and_over_5mm": 64,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 25.514012,
+     "bind_mm": 1.058578,
+     "posed_mm": 27.008569,
+     "disp_thumb_mm": 0.457471,
+     "disp_other_mm": 27.925062,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 22.085532,
+     "bind_mm": 1.134067,
+     "posed_mm": 25.046472,
+     "disp_thumb_mm": 1.099968,
+     "disp_other_mm": 26.739861,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 14.206445,
+     "bind_mm": 1.936762,
+     "posed_mm": 27.514499,
+     "disp_thumb_mm": 0.122283,
+     "disp_other_mm": 29.483303,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 13.631691,
+     "bind_mm": 2.187544,
+     "posed_mm": 29.81992,
+     "disp_thumb_mm": 28.931485,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 12.712341,
+     "bind_mm": 2.197949,
+     "posed_mm": 27.941072,
+     "disp_thumb_mm": 30.466892,
+     "disp_other_mm": 0.381629,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  },
+  "CMC_OPP_30": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 38.246875,
+   "max_posed_length_mm": 40.487296,
+   "edges_over_3x_and_over_5mm": 67,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 38.246875,
+     "bind_mm": 1.058578,
+     "posed_mm": 40.487296,
+     "disp_thumb_mm": 0.681927,
+     "disp_other_mm": 41.621795,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 33.151176,
+     "bind_mm": 1.134067,
+     "posed_mm": 37.595653,
+     "disp_thumb_mm": 1.639431,
+     "disp_other_mm": 39.855314,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 21.633684,
+     "bind_mm": 1.936762,
+     "posed_mm": 41.899292,
+     "disp_thumb_mm": 0.182263,
+     "disp_other_mm": 43.944266,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 20.149727,
+     "bind_mm": 2.187544,
+     "posed_mm": 44.078407,
+     "disp_thumb_mm": 43.12191,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 19.411236,
+     "bind_mm": 2.197949,
+     "posed_mm": 42.664898,
+     "disp_thumb_mm": 45.410297,
+     "disp_other_mm": 0.568774,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  },
+  "CMC_MCP_L1": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 19.549286,
+   "max_posed_length_mm": 20.694441,
+   "edges_over_3x_and_over_5mm": 63,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 19.549286,
+     "bind_mm": 1.058578,
+     "posed_mm": 20.694441,
+     "disp_thumb_mm": 0.351452,
+     "disp_other_mm": 21.359229,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 16.777328,
+     "bind_mm": 1.134067,
+     "posed_mm": 19.026613,
+     "disp_thumb_mm": 0.837055,
+     "disp_other_mm": 20.275031,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 10.832591,
+     "bind_mm": 1.936762,
+     "posed_mm": 20.980148,
+     "disp_thumb_mm": 0.094465,
+     "disp_other_mm": 22.771137,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 10.21968,
+     "bind_mm": 2.187544,
+     "posed_mm": 22.355997,
+     "disp_thumb_mm": 21.178863,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 9.213709,
+     "bind_mm": 2.197949,
+     "posed_mm": 20.251259,
+     "disp_thumb_mm": 22.572244,
+     "disp_other_mm": 0.282583,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  },
+  "CMC_MCP_L2": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 38.975817,
+   "max_posed_length_mm": 41.258938,
+   "edges_over_3x_and_over_5mm": 67,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 38.975817,
+     "bind_mm": 1.058578,
+     "posed_mm": 41.258938,
+     "disp_thumb_mm": 0.695258,
+     "disp_other_mm": 42.246556,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 33.516625,
+     "bind_mm": 1.134067,
+     "posed_mm": 38.010096,
+     "disp_thumb_mm": 1.65634,
+     "disp_other_mm": 40.113023,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 22.244632,
+     "bind_mm": 1.936762,
+     "posed_mm": 43.082553,
+     "disp_thumb_mm": 0.186754,
+     "disp_other_mm": 45.000064,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 19.613104,
+     "bind_mm": 2.187544,
+     "posed_mm": 42.904522,
+     "disp_thumb_mm": 41.601409,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 19.002046,
+     "bind_mm": 2.197949,
+     "posed_mm": 41.765519,
+     "disp_thumb_mm": 44.415876,
+     "disp_other_mm": 0.555689,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  },
+  "CMC_MCP_L3": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 57.47202,
+   "max_posed_length_mm": 60.83861,
+   "edges_over_3x_and_over_5mm": 67,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 57.47202,
+     "bind_mm": 1.058578,
+     "posed_mm": 60.83861,
+     "disp_thumb_mm": 1.02231,
+     "disp_other_mm": 62.114887,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 49.469305,
+     "bind_mm": 1.134067,
+     "posed_mm": 56.101503,
+     "disp_thumb_mm": 2.436328,
+     "disp_other_mm": 58.99678,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 33.099973,
+     "bind_mm": 1.936762,
+     "posed_mm": 64.106763,
+     "disp_thumb_mm": 0.274235,
+     "disp_other_mm": 66.099103,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 28.42163,
+     "bind_mm": 2.187544,
+     "posed_mm": 62.173558,
+     "disp_thumb_mm": 60.735654,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 28.231422,
+     "bind_mm": 2.197949,
+     "posed_mm": 62.051213,
+     "disp_thumb_mm": 64.963366,
+     "disp_other_mm": 0.812211,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  },
+  "FULL_OPP_L1": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 20.996038,
+   "max_posed_length_mm": 22.225941,
+   "edges_over_3x_and_over_5mm": 63,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 20.996038,
+     "bind_mm": 1.058578,
+     "posed_mm": 22.225941,
+     "disp_thumb_mm": 0.351452,
+     "disp_other_mm": 22.878477,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 17.918675,
+     "bind_mm": 1.134067,
+     "posed_mm": 20.320977,
+     "disp_thumb_mm": 0.837055,
+     "disp_other_mm": 21.557009,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 11.776146,
+     "bind_mm": 1.936762,
+     "posed_mm": 22.807589,
+     "disp_thumb_mm": 0.094465,
+     "disp_other_mm": 24.581721,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 10.73976,
+     "bind_mm": 2.187544,
+     "posed_mm": 23.493695,
+     "disp_thumb_mm": 22.243381,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 9.851832,
+     "bind_mm": 2.197949,
+     "posed_mm": 21.653821,
+     "disp_thumb_mm": 23.965333,
+     "disp_other_mm": 0.282583,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  },
+  "FULL_OPP_L2": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 41.773965,
+   "max_posed_length_mm": 44.220996,
+   "edges_over_3x_and_over_5mm": 67,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 41.773965,
+     "bind_mm": 1.058578,
+     "posed_mm": 44.220996,
+     "disp_thumb_mm": 0.695258,
+     "disp_other_mm": 45.185985,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 35.738557,
+     "bind_mm": 1.134067,
+     "posed_mm": 40.529916,
+     "disp_thumb_mm": 1.65634,
+     "disp_other_mm": 42.615594,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 24.026442,
+     "bind_mm": 1.936762,
+     "posed_mm": 46.533494,
+     "disp_thumb_mm": 0.186754,
+     "disp_other_mm": 48.427707,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 20.427841,
+     "bind_mm": 2.187544,
+     "posed_mm": 44.686794,
+     "disp_thumb_mm": 43.295138,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 20.112907,
+     "bind_mm": 2.197949,
+     "posed_mm": 44.207135,
+     "disp_thumb_mm": 46.84031,
+     "disp_other_mm": 0.555689,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  },
+  "FULL_OPP_L3": {
+   "thumb_index_seam_edge_count": 67,
+   "bind_length_mm": {
+    "min": 1.058578,
+    "median": 3.891159,
+    "max": 9.045642
+   },
+   "max_stretch_ratio": 61.311616,
+   "max_posed_length_mm": 64.903121,
+   "edges_over_3x_and_over_5mm": 67,
+   "worst_edges": [
+    {
+     "edge": 1019,
+     "ratio": 61.311616,
+     "bind_mm": 1.058578,
+     "posed_mm": 64.903121,
+     "disp_thumb_mm": 1.02231,
+     "disp_other_mm": 66.145073,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4339,
+     "ratio": 52.544628,
+     "bind_mm": 1.134067,
+     "posed_mm": 59.589125,
+     "disp_thumb_mm": 2.436328,
+     "disp_other_mm": 62.460058,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 4344,
+     "ratio": 35.487322,
+     "bind_mm": 1.936762,
+     "posed_mm": 68.730489,
+     "disp_thumb_mm": 0.274235,
+     "disp_other_mm": 70.684468,
+     "own": [
+      "INDEX",
+      "THUMB"
+     ]
+    },
+    {
+     "edge": 1239,
+     "ratio": 29.560288,
+     "bind_mm": 2.197949,
+     "posed_mm": 64.971992,
+     "disp_thumb_mm": 67.851107,
+     "disp_other_mm": 0.812211,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    },
+    {
+     "edge": 1097,
+     "ratio": 29.256944,
+     "bind_mm": 2.187544,
+     "posed_mm": 64.000843,
+     "disp_thumb_mm": 62.467871,
+     "disp_other_mm": 0.0,
+     "own": [
+      "THUMB",
+      "INDEX"
+     ]
+    }
+   ],
+   "THUMB_INDEX_SEAM_TEAR": true
+  }
+ }
+}

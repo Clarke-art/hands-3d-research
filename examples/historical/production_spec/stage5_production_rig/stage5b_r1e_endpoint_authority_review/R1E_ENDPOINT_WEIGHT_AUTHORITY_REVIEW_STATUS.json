@@ -1,0 +1,72 @@
+{
+ "review": "R1E_ENDPOINT_WEIGHT_AUTHORITY_REVIEW",
+ "generated_at": "2026-10-01T19:19:16.745488+08:00",
+ "read_only": true,
+ "human_review_branch": "C",
+ "ENDPOINT_WEIGHT_AUTHORITY_R1": "UNRESOLVED",
+ "ENDPOINT_WEIGHT_ALLOWED_GROUP_AUTHORITY_R1": "UNRESOLVED",
+ "NEXT": "NARROW_ANATOMICAL_EVIDENCE_REVIEW",
+ "STOP": "WAITING_FOR_HUMAN_REVIEW",
+ "class_counts": {
+  "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED": 16,
+  "INDEX_ROOT_DOMINANT_TISSUE": 16
+ },
+ "domain_counts": {
+  "C0": 32,
+  "C1": 32,
+  "C2": 32,
+  "extra_web_neighbors": 33,
+  "total": 129
+ },
+ "R1B_collar_dominants": {
+  "INDEX_MCP_R": 32
+ },
+ "R1E_collar_dominants": {
+  "WRIST_R": 32
+ },
+ "existing_THUMB_CMC_cross_region_precedent": true,
+ "existing_THUMB_MCP_cross_region_precedent": true,
+ "exact_collar_mixed_CMC_supported": "UNRESOLVED",
+ "exact_collar_mixed_MCP_supported": "UNRESOLVED",
+ "exact_collar_identical_transform_required": false,
+ "THUMB_IP_collar_allowed": false,
+ "INDEX_DIP_collar_allowed": false,
+ "edge5879": "WEIGHT_TRANSITION_PARTITIONING_DEFECT",
+ "zero_thumb_strict_bounds": {
+  "TH_MCP_45": 3.367508031470052,
+  "CMC_OPP_30": 3.9012772975978187,
+  "CMC_MCP_L3": 5.964270669916716,
+  "FULL_OPP_L3": 6.5159538402807
+ },
+ "legal_authority_path_reducing_bound_without_cap_change": "NOT_ESTABLISHED",
+ "CURRENT_MESH_SUPPORT_INSUFFICIENT_FOR_THIS_POSE_RANGE": "NOT_PROVEN",
+ "RETOPO_REQUIRED": "NO",
+ "retopo_authorized": false,
+ "frozen_hashes_equal": true,
+ "protected_file_count": 190,
+ "BLEND_FILES_WRITTEN": 0,
+ "WEIGHT_DELTA": 0,
+ "GEOMETRY_DELTA": 0,
+ "TOPOLOGY_DELTA": 0,
+ "BONE_DELTA": 0,
+ "JOINT_DELTA": 0,
+ "R3_AUTHORITY_DELTA": 0,
+ "DIGIT_OWNERSHIP_AUTHORITY_R3": "HUMAN_APPROVED_PER_CURRENT_USER_FREEZE",
+ "R3_EXACT_COLLAR": "PASS",
+ "EXACT_R3_COLLAR_TOPOLOGY": "NOT_A_FAILURE",
+ "CMC_CAGE_DYNAMIC_QUALIFICATION": "PASS_PER_CURRENT_USER_FREEZE",
+ "Stage6A_full_run": false,
+ "Stage6B_full_run": false,
+ "Stage6C_entered": false,
+ "Stage5B_R1F_created": false,
+ "runtime": {
+  "blender": "5.1.2",
+  "binary": "D:\\Blender\\blender.exe"
+ },
+ "evidence_limitations": [
+  "R3 historical files still say pending human review; current user instruction supplies HUMAN_APPROVED authority, historical files unchanged.",
+  "Arc-derived semantic labels are proxies and cannot establish biological tissue identity in contacting RSSF pose.",
+  "Cross-region thumb precedent exists on thenar/palm/web, but not on the remote exact collar or R3-INDEX.",
+  "Future index motion compatibility is static structural analysis only, no dynamic PASS."
+ ]
+}

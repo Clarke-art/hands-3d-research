@@ -1,0 +1,174 @@
+{
+  "poses": [
+    "L1",
+    "L2"
+  ],
+  "shared_root_enforced_before_solve": true,
+  "root_position_delta_mm": 0.0,
+  "root_orientation_delta_deg": 0.0,
+  "actual_pad_span_mm": {
+    "L1": 152.26217100075786,
+    "L2": 157.30775944689594
+  },
+  "thumb_little_contact_and_prepared": {
+    "L1": {
+      "active": {
+        "finger": 5,
+        "fixed_pad": {
+          "xyz_mm": [
+            -302.6474416255951,
+            28.551049530506134,
+            0.5856057978235185
+          ],
+          "midi": 38,
+          "note": "D2",
+          "vertical_gap_mm": 0.5856058771807598,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        },
+        "skin_pad": {
+          "xyz_mm": [
+            -302.65653133392334,
+            28.569184243679047,
+            0.6009414792060852
+          ],
+          "midi": 38,
+          "note": "D2",
+          "vertical_gap_mm": 0.6009415585633265,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        }
+      },
+      "prepared": [
+        {
+          "xyz_mm": [
+            -150.5717635154724,
+            27.51651033759117,
+            8.047949522733688
+          ],
+          "midi": 50,
+          "note": "D3",
+          "vertical_gap_mm": 8.04794960209093,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 1,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              -150.5718231201172,
+              27.516692876815796,
+              8.047956973314285
+            ],
+            "midi": 50,
+            "note": "D3",
+            "vertical_gap_mm": 8.047957052671526,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        }
+      ]
+    },
+    "L2": {
+      "active": {
+        "finger": 1,
+        "fixed_pad": {
+          "xyz_mm": [
+            -152.17934548854828,
+            17.049677670001984,
+            1.556082395836711
+          ],
+          "midi": 50,
+          "note": "D3",
+          "vertical_gap_mm": 1.5560824751939524,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        },
+        "skin_pad": {
+          "xyz_mm": [
+            -152.17939019203186,
+            17.04970747232437,
+            1.5560248866677284
+          ],
+          "midi": 50,
+          "note": "D3",
+          "vertical_gap_mm": 1.5560249660249699,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": true
+        }
+      },
+      "prepared": [
+        {
+          "xyz_mm": [
+            -307.9967200756073,
+            37.97426074743271,
+            6.926257628947496
+          ],
+          "midi": 38,
+          "note": "D2",
+          "vertical_gap_mm": 6.926257708304738,
+          "horizontal_error_mm": 0.0,
+          "inside_actual_playable_region": true,
+          "contact_pass": false,
+          "finger": 5,
+          "prepared_gap_in_policy_interval": true,
+          "skin_pad": {
+            "xyz_mm": [
+              -308.01746249198914,
+              38.002483546733856,
+              6.942305713891983
+            ],
+            "midi": 38,
+            "note": "D2",
+            "vertical_gap_mm": 6.942305793249225,
+            "horizontal_error_mm": 0.0,
+            "inside_actual_playable_region": true,
+            "contact_pass": false
+          }
+        }
+      ]
+    }
+  },
+  "idle_index_middle_ring_joint_delta_deg": [
+    [
+      0.0,
+      0.0,
+      0.0,
+      2.3669637631048886e-16
+    ],
+    [
+      -8.518613592300994e-10,
+      3.4059794984386826e-09,
+      -8.692278008481935e-09,
+      1.8974261051241115e-09
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      -3.4660559471737784e-18
+    ]
+  ],
+  "per_digit_max_joint_delta_deg": [
+    17.223349832297924,
+    2.3669637631048886e-16,
+    8.692278008481935e-09,
+    3.4660559471737784e-18,
+    11.774713529803371
+  ],
+  "same_reasonable_octave_configuration": "UNCERTAIN_HUMAN_PENDING; exact shared root and prepared endpoints verified; naturalness at saturated engineering bounds not certified",
+  "sequence_feasibility": "UNPROVEN",
+  "no_large_root_transport_used": true,
+  "solver_bound_saturation": [
+    "L shared root z at70mm and roll at-6deg",
+    "L1 little MCP increment at32deg",
+    "L2 thumb MCP/IP increments at25/18deg"
+  ],
+  "bound_saturation_meaning": "Engineering-policy conflict indicator, not physiological maximum span or impossible hand geometry.",
+  "static_poses_individually_feasible": "PASS_CANDIDATE_PENDING_HUMAN"
+}

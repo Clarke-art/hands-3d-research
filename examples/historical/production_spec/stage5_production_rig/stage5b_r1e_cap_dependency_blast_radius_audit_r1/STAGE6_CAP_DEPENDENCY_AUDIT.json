@@ -1,0 +1,444 @@
+{
+  "execution": "CAP_DEPENDENCY_BLAST_RADIUS_AUDIT_R1",
+  "stages": [
+    {
+      "stage": "Stage6A R1",
+      "historical_skin_source": "Stage5B R1A",
+      "source_evidence": {
+        "path": "production_spec/stage6_deformation/stage6a/scripts/s6a_common.py",
+        "locator": "L19–20",
+        "claim": "Executable assignments override stale header comments",
+        "sha256": "cceedf3db14c9327de2e44e6a22457db11a793354922c8353ec65081043d5cf9"
+      },
+      "results": [
+        {
+          "result_kind": "abstract_pose_definition_angles_and_case_matrix",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "REUSABLE TEST INTENT",
+          "qualification_action": "Retain canonical angle/case requirements; do not rerun now"
+        },
+        {
+          "result_kind": "pose_world_axes_and_LBS_transforms",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Thumb IP local frame and cap-derived rig must be reconciled; canonical angles are not world-transform independence"
+        },
+        {
+          "result_kind": "skin_weights_and_harness_payload",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "Historical exact skin/harness payload retained",
+          "qualification_action": "Build a new reconciled harness only after rig/weight authorities approved"
+        },
+        {
+          "result_kind": "actual_deformation_geometry_edge_stretch_and_displacement",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "New production requires new measurements; old numbers remain true for old input"
+        },
+        {
+          "result_kind": "global_severe_edge_threshold_definition",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "Threshold constants unchanged",
+          "qualification_action": "Retain independent arithmetic threshold; measured geometry still cap-dependent"
+        },
+        {
+          "result_kind": "distal_cap_specific_metric_region_and_nail_cap_distance",
+          "dependency_class": "DIRECT_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Historical fixed-ID numbers factual; TRUE_THUMB_CAP interpretation invalid",
+          "qualification_action": "Use explicit cap37 in future metric fixtures; no threshold selector"
+        },
+        {
+          "result_kind": "self_intersection_raw_triangle_pairs_depth",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Keep old pair/depth evidence; rerun on future reconciled geometry"
+        },
+        {
+          "result_kind": "self_intersection_digit_or_cap_region_classifier",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Classifier labels are not independent anatomical proof",
+          "qualification_action": "R1A/R2 ownership-derived buckets and severity interpretation need revalidation"
+        },
+        {
+          "result_kind": "R3_collar_metrics",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE IN THIS HISTORICAL FULL SUITE",
+          "numeric_status": "NOT_APPLICABLE: these full suites precede R3; R3 used in later R1E targeted audits",
+          "qualification_action": "Do not retroactively claim these runs consumed R3"
+        },
+        {
+          "result_kind": "freeze_status_qualification_and_recommendation",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "REPORTING_ONLY_CONTAMINATION",
+          "numeric_status": "Historical Human approval/verdict remains factual",
+          "qualification_action": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION for corrected production; no new PASS/FAIL issued"
+        }
+      ],
+      "qualification_status": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION",
+      "future_remediation": "TIER_4 FULL DEFORMATION REQUALIFICATION",
+      "suite_run_now": false
+    },
+    {
+      "stage": "Stage6A R1A",
+      "historical_skin_source": "Stage5B R1B",
+      "source_evidence": {
+        "path": "production_spec/stage6_deformation/stage6a_r1a/scripts/s6a_common.py",
+        "locator": "L20–21",
+        "claim": "Executable assignments override stale header comments",
+        "sha256": "6ecd132d2290167764733a513a9a72831de0342c0dd60d78d6c12b97285ce9a3"
+      },
+      "results": [
+        {
+          "result_kind": "abstract_pose_definition_angles_and_case_matrix",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "REUSABLE TEST INTENT",
+          "qualification_action": "Retain canonical angle/case requirements; do not rerun now"
+        },
+        {
+          "result_kind": "pose_world_axes_and_LBS_transforms",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Thumb IP local frame and cap-derived rig must be reconciled; canonical angles are not world-transform independence"
+        },
+        {
+          "result_kind": "skin_weights_and_harness_payload",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "Historical exact skin/harness payload retained",
+          "qualification_action": "Build a new reconciled harness only after rig/weight authorities approved"
+        },
+        {
+          "result_kind": "actual_deformation_geometry_edge_stretch_and_displacement",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "New production requires new measurements; old numbers remain true for old input"
+        },
+        {
+          "result_kind": "global_severe_edge_threshold_definition",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "Threshold constants unchanged",
+          "qualification_action": "Retain independent arithmetic threshold; measured geometry still cap-dependent"
+        },
+        {
+          "result_kind": "distal_cap_specific_metric_region_and_nail_cap_distance",
+          "dependency_class": "DIRECT_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Historical fixed-ID numbers factual; TRUE_THUMB_CAP interpretation invalid",
+          "qualification_action": "Use explicit cap37 in future metric fixtures; no threshold selector"
+        },
+        {
+          "result_kind": "self_intersection_raw_triangle_pairs_depth",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Keep old pair/depth evidence; rerun on future reconciled geometry"
+        },
+        {
+          "result_kind": "self_intersection_digit_or_cap_region_classifier",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Classifier labels are not independent anatomical proof",
+          "qualification_action": "R1A/R2 ownership-derived buckets and severity interpretation need revalidation"
+        },
+        {
+          "result_kind": "R3_collar_metrics",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE IN THIS HISTORICAL FULL SUITE",
+          "numeric_status": "NOT_APPLICABLE: these full suites precede R3; R3 used in later R1E targeted audits",
+          "qualification_action": "Do not retroactively claim these runs consumed R3"
+        },
+        {
+          "result_kind": "freeze_status_qualification_and_recommendation",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "REPORTING_ONLY_CONTAMINATION",
+          "numeric_status": "Historical Human approval/verdict remains factual",
+          "qualification_action": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION for corrected production; no new PASS/FAIL issued"
+        }
+      ],
+      "qualification_status": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION",
+      "future_remediation": "TIER_4 FULL DEFORMATION REQUALIFICATION",
+      "suite_run_now": false
+    },
+    {
+      "stage": "Stage6A R1B",
+      "historical_skin_source": "Stage5B R1C",
+      "source_evidence": {
+        "path": "production_spec/stage6_deformation/stage6a_r1b/scripts/s6a_r1b_build_harness.py",
+        "locator": "L34–36",
+        "claim": "Executable assignments override stale header comments",
+        "sha256": "df4e315f127f81d8194a10800396689630527cbb7c917141e88306732b70bb83"
+      },
+      "results": [
+        {
+          "result_kind": "abstract_pose_definition_angles_and_case_matrix",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "REUSABLE TEST INTENT",
+          "qualification_action": "Retain canonical angle/case requirements; do not rerun now"
+        },
+        {
+          "result_kind": "pose_world_axes_and_LBS_transforms",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Thumb IP local frame and cap-derived rig must be reconciled; canonical angles are not world-transform independence"
+        },
+        {
+          "result_kind": "skin_weights_and_harness_payload",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "Historical exact skin/harness payload retained",
+          "qualification_action": "Build a new reconciled harness only after rig/weight authorities approved"
+        },
+        {
+          "result_kind": "actual_deformation_geometry_edge_stretch_and_displacement",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "New production requires new measurements; old numbers remain true for old input"
+        },
+        {
+          "result_kind": "global_severe_edge_threshold_definition",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "Threshold constants unchanged",
+          "qualification_action": "Retain independent arithmetic threshold; measured geometry still cap-dependent"
+        },
+        {
+          "result_kind": "distal_cap_specific_metric_region_and_nail_cap_distance",
+          "dependency_class": "DIRECT_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Historical fixed-ID numbers factual; TRUE_THUMB_CAP interpretation invalid",
+          "qualification_action": "Use explicit cap37 in future metric fixtures; no threshold selector"
+        },
+        {
+          "result_kind": "self_intersection_raw_triangle_pairs_depth",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Keep old pair/depth evidence; rerun on future reconciled geometry"
+        },
+        {
+          "result_kind": "self_intersection_digit_or_cap_region_classifier",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Classifier labels are not independent anatomical proof",
+          "qualification_action": "R1A/R2 ownership-derived buckets and severity interpretation need revalidation"
+        },
+        {
+          "result_kind": "R3_collar_metrics",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE IN THIS HISTORICAL FULL SUITE",
+          "numeric_status": "NOT_APPLICABLE: these full suites precede R3; R3 used in later R1E targeted audits",
+          "qualification_action": "Do not retroactively claim these runs consumed R3"
+        },
+        {
+          "result_kind": "freeze_status_qualification_and_recommendation",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "REPORTING_ONLY_CONTAMINATION",
+          "numeric_status": "Historical Human approval/verdict remains factual",
+          "qualification_action": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION for corrected production; no new PASS/FAIL issued"
+        }
+      ],
+      "qualification_status": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION",
+      "future_remediation": "TIER_4 FULL DEFORMATION REQUALIFICATION",
+      "suite_run_now": false
+    },
+    {
+      "stage": "Stage6B R1",
+      "historical_skin_source": "Stage5B R1B",
+      "source_evidence": {
+        "path": "production_spec/stage6_deformation/stage6b/scripts/s6b_common.py",
+        "locator": "L44–48",
+        "claim": "Executable assignments override stale header comments",
+        "sha256": "e71059ab3147c950536159cc661b2eb02a4427a1d6734283dc9b81bdf9e71dde"
+      },
+      "results": [
+        {
+          "result_kind": "abstract_pose_definition_angles_and_case_matrix",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "REUSABLE TEST INTENT",
+          "qualification_action": "Retain canonical angle/case requirements; do not rerun now"
+        },
+        {
+          "result_kind": "pose_world_axes_and_LBS_transforms",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Thumb IP local frame and cap-derived rig must be reconciled; canonical angles are not world-transform independence"
+        },
+        {
+          "result_kind": "skin_weights_and_harness_payload",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "Historical exact skin/harness payload retained",
+          "qualification_action": "Build a new reconciled harness only after rig/weight authorities approved"
+        },
+        {
+          "result_kind": "actual_deformation_geometry_edge_stretch_and_displacement",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "New production requires new measurements; old numbers remain true for old input"
+        },
+        {
+          "result_kind": "global_severe_edge_threshold_definition",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "Threshold constants unchanged",
+          "qualification_action": "Retain independent arithmetic threshold; measured geometry still cap-dependent"
+        },
+        {
+          "result_kind": "distal_cap_specific_metric_region_and_nail_cap_distance",
+          "dependency_class": "DIRECT_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Historical fixed-ID numbers factual; TRUE_THUMB_CAP interpretation invalid",
+          "qualification_action": "Use explicit cap37 in future metric fixtures; no threshold selector"
+        },
+        {
+          "result_kind": "self_intersection_raw_triangle_pairs_depth",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Keep old pair/depth evidence; rerun on future reconciled geometry"
+        },
+        {
+          "result_kind": "self_intersection_digit_or_cap_region_classifier",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Classifier labels are not independent anatomical proof",
+          "qualification_action": "R1A/R2 ownership-derived buckets and severity interpretation need revalidation"
+        },
+        {
+          "result_kind": "R3_collar_metrics",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE IN THIS HISTORICAL FULL SUITE",
+          "numeric_status": "NOT_APPLICABLE: these full suites precede R3; R3 used in later R1E targeted audits",
+          "qualification_action": "Do not retroactively claim these runs consumed R3"
+        },
+        {
+          "result_kind": "freeze_status_qualification_and_recommendation",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "REPORTING_ONLY_CONTAMINATION",
+          "numeric_status": "Historical Human approval/verdict remains factual",
+          "qualification_action": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION for corrected production; no new PASS/FAIL issued"
+        }
+      ],
+      "qualification_status": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION",
+      "future_remediation": "TIER_4 FULL DEFORMATION REQUALIFICATION",
+      "suite_run_now": false
+    },
+    {
+      "stage": "Stage6B R1B",
+      "historical_skin_source": "Stage5B R1C",
+      "source_evidence": {
+        "path": "production_spec/stage6_deformation/stage6b_r1b/scripts/s6b_r1b_build_harness.py",
+        "locator": "L29–30",
+        "claim": "Executable assignments override stale header comments",
+        "sha256": "e87677e05d3784880b2372588a58961ad2f41186031b664413c39507db37ae39"
+      },
+      "results": [
+        {
+          "result_kind": "abstract_pose_definition_angles_and_case_matrix",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "REUSABLE TEST INTENT",
+          "qualification_action": "Retain canonical angle/case requirements; do not rerun now"
+        },
+        {
+          "result_kind": "pose_world_axes_and_LBS_transforms",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Thumb IP local frame and cap-derived rig must be reconciled; canonical angles are not world-transform independence"
+        },
+        {
+          "result_kind": "skin_weights_and_harness_payload",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "Historical exact skin/harness payload retained",
+          "qualification_action": "Build a new reconciled harness only after rig/weight authorities approved"
+        },
+        {
+          "result_kind": "actual_deformation_geometry_edge_stretch_and_displacement",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "New production requires new measurements; old numbers remain true for old input"
+        },
+        {
+          "result_kind": "global_severe_edge_threshold_definition",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE",
+          "numeric_status": "Threshold constants unchanged",
+          "qualification_action": "Retain independent arithmetic threshold; measured geometry still cap-dependent"
+        },
+        {
+          "result_kind": "distal_cap_specific_metric_region_and_nail_cap_distance",
+          "dependency_class": "DIRECT_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Historical fixed-ID numbers factual; TRUE_THUMB_CAP interpretation invalid",
+          "qualification_action": "Use explicit cap37 in future metric fixtures; no threshold selector"
+        },
+        {
+          "result_kind": "self_intersection_raw_triangle_pairs_depth",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "IMPLEMENTATION_CONTAMINATION",
+          "numeric_status": "NUMERIC_OBSERVATION_STILL_FACTUAL",
+          "qualification_action": "Keep old pair/depth evidence; rerun on future reconciled geometry"
+        },
+        {
+          "result_kind": "self_intersection_digit_or_cap_region_classifier",
+          "dependency_class": "DERIVED_DEPENDENCY",
+          "contamination": "VALIDATOR_CONTAMINATION",
+          "numeric_status": "Classifier labels are not independent anatomical proof",
+          "qualification_action": "R1A/R2 ownership-derived buckets and severity interpretation need revalidation"
+        },
+        {
+          "result_kind": "R3_collar_metrics",
+          "dependency_class": "NO_CAP_DEPENDENCY",
+          "contamination": "NONE IN THIS HISTORICAL FULL SUITE",
+          "numeric_status": "NOT_APPLICABLE: these full suites precede R3; R3 used in later R1E targeted audits",
+          "qualification_action": "Do not retroactively claim these runs consumed R3"
+        },
+        {
+          "result_kind": "freeze_status_qualification_and_recommendation",
+          "dependency_class": "TRANSITIVE_DEPENDENCY",
+          "contamination": "REPORTING_ONLY_CONTAMINATION",
+          "numeric_status": "Historical Human approval/verdict remains factual",
+          "qualification_action": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION for corrected production; no new PASS/FAIL issued"
+        }
+      ],
+      "qualification_status": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION",
+      "future_remediation": "TIER_4 FULL DEFORMATION REQUALIFICATION",
+      "suite_run_now": false
+    }
+  ],
+  "later_R1D_R1E_targeted_prequalification": {
+    "R1D": "R2 labels + cap-derived live rig + reconciled-from-R1B field",
+    "R1E": "R3 labels/collar + old-cap anchor clamp + cap-derived live rig; R3 collar metrics directly derived",
+    "self_intersection_classifier": "R2/R3-derived semantic buckets; raw triangle intersections still recorded fixed-geometry facts"
+  },
+  "historical_harness_header_errata_not_rewritten": "Stage6A R1B and Stage6B R1B builder comments say older master; operative code selects R1C. Audit follows code and existing candidate hash, not filename/header.",
+  "scope_distinction": [
+    "NUMERIC_OBSERVATION_STILL_FACTUAL",
+    "ANATOMICAL_INTERPRETATION_INVALIDATED",
+    "QUALIFICATION_VERDICT_NEEDS_REVALIDATION"
+  ],
+  "Stage6A_qualification_status": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION",
+  "Stage6B_qualification_status": "QUALIFICATION_VERDICT_NEEDS_REVALIDATION",
+  "Stage6_runs": 0
+}

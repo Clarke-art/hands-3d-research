@@ -1,0 +1,121 @@
+{
+  "states": {
+    "NATIVE": {
+      "distal_axis": [
+        0.6412339815503083,
+        -0.08401843056968555,
+        0.7627318560475531
+      ],
+      "dorsal_axis_from_approved_nail": [
+        0.4177648823389903,
+        0.8719883479195792,
+        -0.25516430819527347
+      ],
+      "radial_axis_away_from_frozen_web": [
+        0.6436547863485739,
+        -0.48226260939149096,
+        -0.5942485099631987
+      ],
+      "web_seed_centroid_world_m": [
+        1.4757564663887024,
+        -0.0054747178219258785,
+        0.45327749103307724
+      ],
+      "nail_centroid_world_m": [
+        1.489151651209051,
+        -0.005889468191360886,
+        0.4558578512885354
+      ],
+      "independent_wrist_world_m": [
+        1.408704638,
+        0.022395039,
+        0.335847497
+      ],
+      "corrected_chain_world_m": null,
+      "native_nail_orientation_transport_rotation": [
+        [
+          0.7841531693232573,
+          0.08388586371596495,
+          0.6148715060148072
+        ],
+        [
+          0.11865867413741604,
+          0.9522720710717524,
+          -0.28124370518940683
+        ],
+        [
+          -0.6091173336002197,
+          0.29349798044508263,
+          0.7367733772215282
+        ]
+      ],
+      "native_nail_transport_fit_rms_mm": 0.1445026155361622,
+      "native_joint_registration_status": "NO_APPROVED_NATIVE_CORRECTED_MCP_CMC_REGISTRATION",
+      "source_rule": "Approved corrected distal direction; approved thumb nail; frozen first-web seeds; Stage4C approved wrist. Native axis only transported by same nail IDs; no native corrected joint locations claimed.",
+      "no_axis_is_a_palm_normal": true
+    },
+    "RSSF": {
+      "distal_axis": [
+        0.02826294892830792,
+        0.19764232087066833,
+        0.9798666841559273
+      ],
+      "dorsal_axis_from_approved_nail": [
+        0.5878112734794743,
+        0.7895735923012022,
+        -0.1762142137031346
+      ],
+      "radial_axis_away_from_frozen_web": [
+        0.8085042439519502,
+        -0.5809570167761389,
+        0.0938607062100769
+      ],
+      "web_seed_centroid_world_m": [
+        1.4427524209022522,
+        0.012186335399746895,
+        0.46120454370975494
+      ],
+      "nail_centroid_world_m": [
+        1.4513152783567256,
+        0.013858259951865131,
+        0.4712985564361919
+      ],
+      "independent_wrist_world_m": [
+        1.408704638,
+        0.022395039,
+        0.335847497
+      ],
+      "corrected_chain_world_m": [
+        [
+          1.4408950805664062,
+          0.0012198872864246368,
+          0.3918145000934601
+        ],
+        [
+          1.4540609121322632,
+          0.0015365742146968842,
+          0.43687304854393005
+        ],
+        [
+          1.450860857963562,
+          0.006127120926976204,
+          0.4640011489391327
+        ],
+        [
+          1.4514825344085693,
+          0.010474493727087975,
+          0.48555445671081543
+        ]
+      ],
+      "native_nail_orientation_transport_rotation": null,
+      "native_nail_transport_fit_rms_mm": null,
+      "native_joint_registration_status": "HUMAN_APPROVED_CORRECTED_RSSF_STRUCTURE",
+      "source_rule": "Approved corrected distal direction; approved thumb nail; frozen first-web seeds; Stage4C approved wrist. Native axis only transported by same nail IDs; no native corrected joint locations claimed.",
+      "no_axis_is_a_palm_normal": true
+    }
+  },
+  "reference_roles_only": true,
+  "axis_is_not_surface_role": true,
+  "native_MCP_CMC_positions_not_inferred": true,
+  "wrist_source": "Stage4C R2 Human-approved wrist origin; erroneous Stage4B cut-plane WRIST not used"
+}

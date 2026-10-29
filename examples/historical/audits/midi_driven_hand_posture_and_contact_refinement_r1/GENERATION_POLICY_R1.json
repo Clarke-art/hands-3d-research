@@ -1,0 +1,65 @@
+{
+  "candidate_count": 1,
+  "authority": "DESIGN_ONLY / fingering DESIGN_PROVISIONAL",
+  "reference": "Frozen L1 ZERO / RSSF rest geometry, mirrored from R2; angles below are modest audit increments from that curved geometry, not human anatomical standards",
+  "idle_target": "NO key/home IK for relaxed fingers. Curved RSSF + small deterministic phase-driven flexion; shared palm transport.",
+  "states": [
+    "ACTIVE_PRESS",
+    "PREPARING",
+    "RELEASING",
+    "RELAXED_IDLE"
+  ],
+  "prepare_sec": 0.16,
+  "release_sec": 0.14,
+  "joint_increment_limits_deg": {
+    "long": [
+      50,
+      48,
+      32,
+      28
+    ],
+    "thumb": [
+      30,
+      35,
+      25,
+      35
+    ]
+  },
+  "palm_global_bounds": {
+    "x": "seed +/-45mm",
+    "y_m": [
+      -0.14,
+      -0.065
+    ],
+    "z_m": [
+      0.045,
+      0.085
+    ],
+    "yaw_deg": [
+      -16,
+      16
+    ],
+    "pitch_deg": [
+      0,
+      9
+    ],
+    "roll_deg": [
+      -5,
+      5
+    ]
+  },
+  "temporal_constraints": {
+    "joint_velocity_deg_s": 360,
+    "joint_acceleration_deg_s2": 14400,
+    "root_velocity_m_s": 0.32,
+    "root_acceleration_m_s2": 14,
+    "root_rotation_velocity_deg_s": 70,
+    "root_rotation_acceleration_deg_s2": 2400,
+    "method": "previous legal state plus velocity prediction; intersect per-step velocity/acceleration bounds and braking envelope with joint limits INSIDE IK. No post-smoothing."
+  },
+  "whole_hand": "single root XYZ/yaw/pitch/roll jointly solved with playing/preparing/releasing fingers; idle fingers transported in that common palm frame; clearance proxies are RSSF palm samples and idle pads",
+  "objective_units": "contact in mm; natural posture and temporal penalties in rad; root regularization in mm. No effectively-zero prior.",
+  "fixed_inputs": "copied byte-identical timeline, fingering, keyboard, markers, tolerances and WAV; key angle array copied exactly",
+  "skin": "inherit exactly; realism unresolved independently",
+  "stop_loss": "one deterministic initialization and one forward constrained trajectory; no restarts, sweeps or alternate versions"
+}

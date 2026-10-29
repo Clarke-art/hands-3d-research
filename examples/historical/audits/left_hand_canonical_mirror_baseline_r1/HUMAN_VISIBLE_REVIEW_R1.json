@@ -1,0 +1,44 @@
+{
+  "HUMAN_VISIBLE_RESULT": "AGENT_VISIBLE_PASS / HUMAN_REVIEW_PENDING",
+  "reviewer": "Codex image inspection; no human approval inferred",
+  "views": [
+    "PALMAR",
+    "DORSAL",
+    "FIRST_WEB reasonable close"
+  ],
+  "native_shading": "R2 native face smooth/flat flags preserved exactly; visible low-poly faceting is inherited, not new geometry. No subdivision or cosmetic smoothing introduced.",
+  "cases": [
+    {
+      "pose": "ZERO",
+      "agent_visible_result": "PASS",
+      "findings": "掌侧、背侧身份清楚；拇指、掌体积、指链和腕部自然镜像，未观察到 inside-out 或翻面。"
+    },
+    {
+      "pose": "INDEX_MCP_45",
+      "agent_visible_result": "PASS",
+      "findings": "食指屈曲方向及指根形态与右手镜像等价；现有折线/面感同时见于右手，未观察到新增 flap 或明显穿透。"
+    },
+    {
+      "pose": "CMC_OPP_30",
+      "agent_visible_result": "PASS",
+      "findings": "拇指向掌侧 opposition，thenar 与 first-web 形态随右手等价变化；corrective 自然触发。"
+    },
+    {
+      "pose": "FULL_OPP_L1",
+      "agent_visible_result": "PASS",
+      "findings": "轻度 opposition 的拇指链和掌体积镜像一致，无新增 bulge、塌陷或异常骨轴感。"
+    },
+    {
+      "pose": "FULL_OPP_L2",
+      "agent_visible_result": "PASS",
+      "findings": "中度 opposition 的拇指根及 first-web 对照一致，无新增可见缺陷。"
+    },
+    {
+      "pose": "FULL_OPP_L3",
+      "agent_visible_result": "PASS",
+      "findings": "最大批准组合姿态保持拇指屈曲与掌侧关系；未观察到 corrective 反向、inside-out 或明显穿透。"
+    }
+  ],
+  "new_obvious_bulge_flap_collapse_inversion_thumb_or_first_web_defect": false,
+  "human_approved": false
+}

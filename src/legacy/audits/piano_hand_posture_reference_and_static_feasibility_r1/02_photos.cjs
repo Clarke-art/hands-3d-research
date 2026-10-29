@@ -1,0 +1,5 @@
+const {chromium}=require('<USER_HOME>/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const fs=require('fs');const path=require('path');
+(async()=>{let b=await chromium.launch({executablePath:'C:/Program Files/Google/Chrome/Application/chrome.exe',headless:true});let p=await b.newPage({viewport:{width:1200,height:850}});let out=[];
+for(const [id,url] of [['left','https://piadoor.com/content/piece/000/02/11_basic/image_left_hand_1_en.png'],['right','https://cdn.mos.cms.futurecdn.net/N2M4LgaytGt4Vza8r9eFTB.jpg']]){try{await p.goto(url,{waitUntil:'load',timeout:30000});await p.screenshot({path:path.join(__dirname,'_research',id+'_source_view.png')});out.push({id,url,images:await p.locator('img').evaluateAll(es=>es.map(e=>({src:e.src,width:e.naturalWidth,height:e.naturalHeight}))),status:'opened'});}catch(e){out.push({id,url,error:String(e)});}}
+fs.writeFileSync(path.join(__dirname,'_research','photo_access.json'),JSON.stringify(out,null,2));await b.close();console.log(out);})();

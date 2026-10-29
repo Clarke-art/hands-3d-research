@@ -1,0 +1,316 @@
+{
+  "authority": "DESIGN_PROVISIONAL — STOP — HUMAN REVIEW",
+  "schema_version": "1.0",
+  "schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "HandMotionIntent",
+    "type": "object",
+    "required": [
+      "intent_id",
+      "hand_identity",
+      "MIDI_event_context",
+      "assigned_fingering",
+      "active_contact_modes",
+      "preparation_time_window",
+      "palm_position_region",
+      "wrist_orientation_region",
+      "digit_preparation_targets",
+      "obstacle_clearance_intent",
+      "target_contact_region",
+      "timing_constraints",
+      "motion_cost_estimates",
+      "uncertainty_or_unverified_flags",
+      "source_bindings",
+      "coordination"
+    ],
+    "properties": {
+      "intent_id": {
+        "type": "string",
+        "minLength": 1
+      },
+      "hand_identity": {
+        "enum": [
+          "R",
+          "L",
+          "BOTH"
+        ]
+      },
+      "MIDI_event_context": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "note_id",
+            "hand",
+            "midi",
+            "display_on",
+            "display_off"
+          ]
+        }
+      },
+      "assigned_fingering": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": [
+            "note_id",
+            "hand",
+            "finger"
+          ],
+          "properties": {
+            "finger": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 5
+            }
+          }
+        }
+      },
+      "active_contact_modes": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "episode_id",
+            "note_id",
+            "hand",
+            "finger",
+            "midi",
+            "mode",
+            "display_interval",
+            "required_contact",
+            "tangential_policy"
+          ],
+          "properties": {
+            "mode": {
+              "enum": [
+                "FREE",
+                "APPROACH",
+                "PRE_TOUCH",
+                "PRESS",
+                "HOLD",
+                "RELEASE"
+              ]
+            }
+          }
+        }
+      },
+      "preparation_time_window": {
+        "type": "array",
+        "minItems": 2,
+        "maxItems": 2,
+        "items": {
+          "type": "number"
+        }
+      },
+      "palm_position_region": {
+        "type": "object",
+        "required": [
+          "frame",
+          "regions"
+        ],
+        "properties": {
+          "frame": {
+            "enum": [
+              "frozen_world_m",
+              "key_local_m",
+              "root_control_mm"
+            ]
+          },
+          "regions": {
+            "type": "array",
+            "items": {
+              "type": "object"
+            }
+          }
+        }
+      },
+      "wrist_orientation_region": {
+        "type": "object",
+        "required": [
+          "frame",
+          "units",
+          "authorized_control_bounds"
+        ]
+      },
+      "digit_preparation_targets": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "hand",
+            "finger",
+            "region",
+            "surface_scope"
+          ]
+        }
+      },
+      "obstacle_clearance_intent": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "obstacle_key_index",
+            "piece_indices",
+            "route",
+            "clearance_m"
+          ],
+          "properties": {
+            "obstacle_key_index": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 87
+            },
+            "route": {
+              "enum": [
+                "ABOVE_ENTITY",
+                "FRONT_OF_ENTITY",
+                "LATERAL_CORRIDOR",
+                "NO_OBSTACLE_INTENT"
+              ]
+            },
+            "clearance_m": {
+              "type": "number",
+              "minimum": 0
+            }
+          }
+        }
+      },
+      "target_contact_region": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": [
+            "hand",
+            "finger",
+            "key_index",
+            "playable_patches_source",
+            "contact_mode_source"
+          ]
+        }
+      },
+      "timing_constraints": {
+        "type": "object",
+        "required": [
+          "evaluation_time",
+          "clock_offset_seconds",
+          "preserve_MIDI_events",
+          "preserve_key_Action",
+          "preserve_fingering",
+          "early_release_allowed",
+          "early_wrong_press_allowed"
+        ]
+      },
+      "motion_cost_estimates": {
+        "type": "object",
+        "required": [
+          "status",
+          "necessary_bounds_only"
+        ]
+      },
+      "uncertainty_or_unverified_flags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        }
+      },
+      "source_bindings": {
+        "type": "object",
+        "required": [
+          "MIDI_sha256",
+          "fingering_sha256",
+          "rig_identity",
+          "key_geometry_source",
+          "contact_sequence_source"
+        ]
+      },
+      "coordination": {
+        "type": "object",
+        "required": [
+          "mode",
+          "hands"
+        ],
+        "properties": {
+          "mode": {
+            "enum": [
+              "INDEPENDENT",
+              "COUPLED",
+              "SINGLE_HAND"
+            ]
+          },
+          "hands": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "R",
+                "L"
+              ]
+            }
+          }
+        }
+      }
+    },
+    "additionalProperties": false
+  },
+  "units": {
+    "time": "display seconds with explicit music/display offset",
+    "geometry": "metres in declared world/key frame",
+    "root_controls": "mm and rest-axis degrees; no clinical interpretation"
+  },
+  "inheritance": {
+    "contact_sequence": "Existing ContactStateSchema/Sequence, half-open modes plus separate junction continuity obligations",
+    "fingering": "Immutable source assignments; future feedback proposes separate candidate and requires authorization",
+    "target_contact_region": "A set of original key playable patches; never fabricate a target point off the real entity"
+  },
+  "hard_acceptance": {
+    "target_depth_mm": 0.25,
+    "wrong_region_depth_mm": 0.25,
+    "nonadjacent_self_crossings": 0,
+    "wrist_speed_mm_s": 500,
+    "mapped_joint_rate_deg_s": 240,
+    "natural_family": "Original authorized reference family and control domain",
+    "actual_Blender_required": true
+  },
+  "solver_handoff": {
+    "high_level_output": "Time-labelled palm regions, digit whole-skin clearance halfspaces/corridors, contact-region sets, event deadlines and explicit uncertain flags",
+    "low_level_role": "Existing frozen FK/skin + contact constraint adapter resolves engineering controls; final full Blender rejection is mandatory",
+    "mapping": "Fix required contact modes and source clock; add geometry corridor inequalities for assigned free preparing digits; keep state(z) reference-family mapping",
+    "infeasible_result": "Emit region/phase/constraint witness and motion cost; do not alter MIDI/fingering/Action or enlarge domains",
+    "motion_prior": "Optional soft reference with separate provenance/licence; never override hard contact/event/geometry constraints"
+  },
+  "implemented_adapter_scope": {
+    "right_hand": true,
+    "free_preparing_digit": "Only existing designated-digit alpha mapping from source input",
+    "palm_translation": true,
+    "geometry_waypoint_modes": [
+      "ABOVE_ENTITY",
+      "FRONT_OF_ENTITY"
+    ],
+    "left_hand": "CONTRACT_ONLY_UNADAPTED",
+    "chord": "CONTRACT_ONLY_UNADAPTED",
+    "continuous_corridor_tracking": "NOT_IMPLEMENTED",
+    "mature_external_generator": "NOT_EXECUTED"
+  },
+  "acceptance_states": [
+    "INTENT_PROPOSED",
+    "RIG_STATIC_CHECKED",
+    "STATIC_ACCEPTED_OR_REJECTED",
+    "CORRIDOR_CONNECTION_UNVERIFIED",
+    "CONTINUOUS_PATH_VALIDATED_HUMAN_PENDING"
+  ],
+  "limits": {
+    "maximum_spatial_candidates": 2,
+    "new_numerical_recommended_seconds": 300,
+    "new_numerical_hard_seconds": 600
+  },
+  "evidence_classes": [
+    "REAL_HUMAN_OBSERVATION",
+    "LICENSED_DATA_ASSET",
+    "DATA_DERIVED_STATISTIC",
+    "MODEL_GENERATED_CANDIDATE",
+    "PROGRAMMATIC_GEOMETRY_HYPOTHESIS",
+    "UNVERIFIED"
+  ]
+}

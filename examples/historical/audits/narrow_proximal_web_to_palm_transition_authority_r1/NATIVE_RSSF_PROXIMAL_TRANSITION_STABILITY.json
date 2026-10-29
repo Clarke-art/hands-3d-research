@@ -1,0 +1,27 @@
+{
+  "same_stable_topology_ids": true,
+  "same_topological_transition_neighbourhood": true,
+  "transition_neighbourhood": [
+    "P03",
+    "P04",
+    "P05"
+  ],
+  "native_longitudinal_sign_reversal_pair": [
+    "P03",
+    "P04"
+  ],
+  "RSSF_longitudinal_sign_reversal_pair": [
+    "P04",
+    "P05"
+  ],
+  "area_mean_radial_normal_sign_reversal_pair_both_states": [
+    "P04",
+    "P05"
+  ],
+  "same_unique_semantic_boundary_established": false,
+  "surface_supported": true,
+  "scope": "Ten original quads and direct incident neighbourhood only. Different state geometric scalars are not required to match.",
+  "partial_circumference_disagreement": "P02 native T.circ=0.223 versus RSSF=0.951. P05 is mixed per-face own-centroid radial in both states; RSSF changes from mixed to both-negative if a shared row radial is substituted. Reference choice itself prevents a scalar semantic rule.",
+  "authority_conclusion": "FAIL_CLOSED",
+  "single_remaining_blocker": "PROXIMAL_PARTIAL_CIRCUMFERENCE_SEMANTIC_BOUNDARY_AUTHORITY"
+}

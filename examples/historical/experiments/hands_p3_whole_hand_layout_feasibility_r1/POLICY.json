@@ -1,0 +1,149 @@
+{
+  "task": "HANDS_P3_WHOLE_HAND_LAYOUT_FEASIBILITY_R1",
+  "batch_limit": 1,
+  "solver_calls": 1,
+  "max_nfev": 45,
+  "solver_wall_cap_seconds": 65,
+  "total_execution_cap_seconds": 180,
+  "root_common_across_all_10_phases": true,
+  "root_bounds": [
+    -154.58614885739144,
+    -30.0,
+    -16.0,
+    -8.0,
+    -8.0,
+    -12.0,
+    33.938387804875696,
+    35.0,
+    12.0,
+    8.0,
+    8.0,
+    12.0
+  ],
+  "root_low": [
+    -154.58614885739144,
+    -30.0,
+    -16.0,
+    -8.0,
+    -8.0,
+    -12.0
+  ],
+  "root_high": [
+    33.938387804875696,
+    35.0,
+    12.0,
+    8.0,
+    8.0,
+    12.0
+  ],
+  "joint_bounds_deg": [
+    [
+      [
+        0,
+        0,
+        0,
+        -35
+      ],
+      [
+        25,
+        25,
+        18,
+        35
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        -25
+      ],
+      [
+        32,
+        32,
+        20,
+        25
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        -25
+      ],
+      [
+        32,
+        32,
+        20,
+        25
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        -25
+      ],
+      [
+        32,
+        32,
+        20,
+        25
+      ]
+    ],
+    [
+      [
+        0,
+        0,
+        0,
+        -25
+      ],
+      [
+        32,
+        32,
+        20,
+        25
+      ]
+    ]
+  ],
+  "source": "Original A2/C1 EventCoordinator bounds using ORIGINAL fingers; no P3-derived domain enlargement",
+  "contact_horizontal_mm": 0.03,
+  "contact_vertical_abs_mm": 3,
+  "new_key_depth_mm": 0.5,
+  "nonregression_mm": 0.02,
+  "added_joint_velocity_deg_sec": 180,
+  "phase_times_sec": [
+    2.9564260000000004,
+    3.169997,
+    3.274997,
+    3.349997,
+    3.3849970000000003,
+    3.5642825,
+    3.5992825,
+    3.813568,
+    4.0278535,
+    4.242139
+  ],
+  "phase_labels": [
+    "R08_DEPRESSED",
+    "R08_PREP_START",
+    "R08_THUMB_NEAR",
+    "R09_ON_HANDOFF",
+    "R09_DEPRESSED",
+    "R10_ON_HANDOFF",
+    "R10_DEPRESSED",
+    "R11_DEPRESSED",
+    "R12_DEPRESSED",
+    "R13_DEPRESSED"
+  ],
+  "one_deterministic_seed": "median original C1 root; original C1 joint poses at same times",
+  "contact_locations": "A2 original inset surface bounds, six event coordinates shared across phases",
+  "no_trajectory": true,
+  "no_actions": true,
+  "no_domain_relaxation": true,
+  "geometry_proxy": "Existing A2 pad box clearance and joint center prior; native frozen weighted skin pad for contacts",
+  "naturalness": "A2 neutral + same-phase original C1 joint prior; exact original tighter bounds",
+  "temporal": "Sparse phase soft velocity from original A2; endpoint lower bound on added correction; no path certificate"
+}

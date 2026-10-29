@@ -1,0 +1,24 @@
+{
+  "required": [
+    "TRAJECTORY_PLANNER_SOURCE_REVIEW.md",
+    "TRAJECTORY_BENCHMARK_INPUT.json",
+    "PLANNER_ADAPTER_EXECUTION.md",
+    "LOCAL_BOUNDARY_TRAJECTORY_RESULTS.json",
+    "STAGED_G4_E5_TRAJECTORY_RESULTS.json",
+    "ACTUAL_BLENDER_VALIDATION.json",
+    "PRODUCT_ROUTE_REVIEW.md",
+    "FINAL_RECOMMENDATION.md"
+  ],
+  "present": true,
+  "python_syntax": true,
+  "json_parse": true,
+  "protected_files": 6639,
+  "decision": "B",
+  "no_more_solves": true,
+  "source_review_only": [
+    "OMPL",
+    "TrajOpt/Tesseract"
+  ],
+  "actual_framework": "CasADi3.7.2/IPOPT3.14.11",
+  "authority": "DESIGN_PROVISIONAL"
+}

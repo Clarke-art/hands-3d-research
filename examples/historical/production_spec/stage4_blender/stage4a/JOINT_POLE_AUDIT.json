@@ -1,0 +1,1563 @@
+{
+ "generated_at": "2026-09-28T09:23:03.102871+08:00",
+ "valence_histogram": {
+  "3": 54,
+  "4": 3461,
+  "5": 28,
+  "22": 1
+ },
+ "pole_count": 83,
+ "valence3": 54,
+ "valence5": 28,
+ "other_valence": 1,
+ "provenance": {
+  "inherited_from_official_CC0_base_mesh": 82,
+  "created_by_applying_official_MULTIRES_L1": 1,
+  "created_by_stage4a_loop_insertion": 0,
+  "evidence": "the valence histogram is IDENTICAL before and after the Stage 4A loop work (54 x v3 + 28 x v5 + 1 x v22 = 83); ring subdivision inserts only valence-4 vertices, so no pole can be introduced by CON-1/CON-2"
+ },
+ "zone_definition": {
+  "band_half_width_mm": "max(7 mm, 0.10 x MCP->tip length) for MCP/PIP; max(6 mm, 0.09 x length) for DIP/IP; 10% of thumb length for the CMC",
+  "DEFORMATION_ZONE": "|geodesic from own tip - joint centre| <= band half width",
+  "DEFORMATION_CORE": "|geodesic from own tip - joint centre| <= 0.5 x band half width (the true bending core; poles here MUST be moved/rearranged)"
+ },
+ "poles_in_deformation_zone": 29,
+ "poles_in_deformation_core": 18,
+ "flexion_midline_analysis": {
+  "core_poles_analysed": 18,
+  "on_flexion_midline": 0,
+  "criterion_deg": 45.0,
+  "proxy_note": "angle measured between the pole's outward 1-ring normal and the global anatomical DORSAL/PALMAR axis; fingers are only mildly curled in this asset so the global axis is a usable proxy for the local one",
+  "rows": [
+   {
+    "vertex": 10,
+    "digit": "ring",
+    "joint": "RING_DIP",
+    "valence": 3,
+    "angle_from_dorsal_deg": 66.6,
+    "angle_from_palmar_deg": 113.4,
+    "on_flexion_midline": false,
+    "world": [
+     1.388095,
+     -0.002571,
+     0.536355
+    ]
+   },
+   {
+    "vertex": 15,
+    "digit": "ring",
+    "joint": "RING_DIP",
+    "valence": 3,
+    "angle_from_dorsal_deg": 89.43,
+    "angle_from_palmar_deg": 90.57,
+    "on_flexion_midline": false,
+    "world": [
+     1.395862,
+     -0.001428,
+     0.536481
+    ]
+   },
+   {
+    "vertex": 19,
+    "digit": "middle",
+    "joint": "MIDDLE_DIP",
+    "valence": 3,
+    "angle_from_dorsal_deg": 98.33,
+    "angle_from_palmar_deg": 81.67,
+    "on_flexion_midline": false,
+    "world": [
+     1.419264,
+     0.003721,
+     0.547305
+    ]
+   },
+   {
+    "vertex": 24,
+    "digit": "middle",
+    "joint": "MIDDLE_DIP",
+    "valence": 3,
+    "angle_from_dorsal_deg": 72.26,
+    "angle_from_palmar_deg": 107.74,
+    "on_flexion_midline": false,
+    "world": [
+     1.42635,
+     0.004442,
+     0.547178
+    ]
+   },
+   {
+    "vertex": 40,
+    "digit": "thumb",
+    "joint": "THUMB_IP",
+    "valence": 3,
+    "angle_from_dorsal_deg": 48.96,
+    "angle_from_palmar_deg": 131.04,
+    "on_flexion_midline": false,
+    "world": [
+     1.488704,
+     -0.006585,
+     0.451271
+    ]
+   },
+   {
+    "vertex": 42,
+    "digit": "thumb",
+    "joint": "THUMB_IP",
+    "valence": 3,
+    "angle_from_dorsal_deg": 133.33,
+    "angle_from_palmar_deg": 46.67,
+    "on_flexion_midline": false,
+    "world": [
+     1.491929,
+     -0.015179,
+     0.449299
+    ]
+   },
+   {
+    "vertex": 46,
+    "digit": "ring",
+    "joint": "RING_DIP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 76.07,
+    "angle_from_palmar_deg": 103.93,
+    "on_flexion_midline": false,
+    "world": [
+     1.39772,
+     -0.00077,
+     0.533417
+    ]
+   },
+   {
+    "vertex": 52,
+    "digit": "ring",
+    "joint": "RING_DIP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 80.59,
+    "angle_from_palmar_deg": 99.41,
+    "on_flexion_midline": false,
+    "world": [
+     1.385914,
+     -0.00263,
+     0.533525
+    ]
+   },
+   {
+    "vertex": 207,
+    "digit": "middle",
+    "joint": "MIDDLE_DIP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 56.19,
+    "angle_from_palmar_deg": 123.81,
+    "on_flexion_midline": false,
+    "world": [
+     1.42853,
+     0.005001,
+     0.544602
+    ]
+   },
+   {
+    "vertex": 209,
+    "digit": "middle",
+    "joint": "MIDDLE_DIP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 57.97,
+    "angle_from_palmar_deg": 122.03,
+    "on_flexion_midline": false,
+    "world": [
+     1.417253,
+     0.004159,
+     0.544714
+    ]
+   },
+   {
+    "vertex": 220,
+    "digit": "little",
+    "joint": "LITTLE_DIP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 49.29,
+    "angle_from_palmar_deg": 130.71,
+    "on_flexion_midline": false,
+    "world": [
+     1.359143,
+     -0.002737,
+     0.509302
+    ]
+   },
+   {
+    "vertex": 228,
+    "digit": "index",
+    "joint": "INDEX_DIP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 48.26,
+    "angle_from_palmar_deg": 131.74,
+    "on_flexion_midline": false,
+    "world": [
+     1.451816,
+     0.005389,
+     0.531207
+    ]
+   },
+   {
+    "vertex": 230,
+    "digit": "index",
+    "joint": "INDEX_DIP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 76.77,
+    "angle_from_palmar_deg": 103.23,
+    "on_flexion_midline": false,
+    "world": [
+     1.462518,
+     0.005688,
+     0.529913
+    ]
+   },
+   {
+    "vertex": 281,
+    "digit": "thumb",
+    "joint": "THUMB_IP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 60.11,
+    "angle_from_palmar_deg": 119.89,
+    "on_flexion_midline": false,
+    "world": [
+     1.486348,
+     -0.004477,
+     0.449978
+    ]
+   },
+   {
+    "vertex": 287,
+    "digit": "thumb",
+    "joint": "THUMB_IP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 123.7,
+    "angle_from_palmar_deg": 56.3,
+    "on_flexion_midline": false,
+    "world": [
+     1.490816,
+     -0.017313,
+     0.446708
+    ]
+   },
+   {
+    "vertex": 565,
+    "digit": "index",
+    "joint": "INDEX_MCP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 121.02,
+    "angle_from_palmar_deg": 58.98,
+    "on_flexion_midline": false,
+    "world": [
+     1.424595,
+     0.019396,
+     0.470858
+    ]
+   },
+   {
+    "vertex": 737,
+    "digit": "middle",
+    "joint": "MIDDLE_MCP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 49.94,
+    "angle_from_palmar_deg": 130.06,
+    "on_flexion_midline": false,
+    "world": [
+     1.406993,
+     0.020412,
+     0.472563
+    ]
+   },
+   {
+    "vertex": 738,
+    "digit": "ring",
+    "joint": "RING_MCP",
+    "valence": 5,
+    "angle_from_dorsal_deg": 132.2,
+    "angle_from_palmar_deg": 47.8,
+    "on_flexion_midline": false,
+    "world": [
+     1.399701,
+     0.017573,
+     0.470834
+    ]
+   }
+  ]
+ },
+ "remediation": {
+  "axial_core_relocation": {
+   "performed": false,
+   "moved": 0,
+   "reason": "attempted and reverted: relocation did not reduce the core-window classification and accumulated up to ~17 mm of local displacement; see POLE_MIDLINE_ANALYSIS.json for the criterion actually applied",
+   "attempted_before_revert": {
+    "passes": 5,
+    "distinct_poles_touched": 18,
+    "max_cumulative_displacement_mm": 16.896,
+    "core_poles_before": 18,
+    "core_poles_after": 8,
+    "volume_delta_pct": 0.00052
+   }
+  },
+  "flexion_midline_lateralisation": {
+   "performed": true,
+   "passes": 2,
+   "moved": 4,
+   "max_displacement_mm": 0.166,
+   "method": "circumferential slide off the flexion midline (target 45 deg + 8 deg margin, capped at 5 mm), neighbours relaxed before each slide"
+  },
+  "midline_moves": [
+   {
+    "pass": 1,
+    "vertex": 220,
+    "digit": "little",
+    "joint": "LITTLE_DIP",
+    "valence": 5,
+    "angle_before_deg": 38.7,
+    "displacement_mm": 0.1,
+    "before": [
+     1.359152,
+     -0.002671,
+     0.509228
+    ],
+    "after": [
+     1.359143,
+     -0.002737,
+     0.509302
+    ]
+   },
+   {
+    "pass": 1,
+    "vertex": 228,
+    "digit": "index",
+    "joint": "INDEX_DIP",
+    "valence": 5,
+    "angle_before_deg": 28.48,
+    "displacement_mm": 0.166,
+    "before": [
+     1.451812,
+     0.005473,
+     0.531065
+    ],
+    "after": [
+     1.451816,
+     0.005389,
+     0.531207
+    ]
+   },
+   {
+    "pass": 1,
+    "vertex": 738,
+    "digit": "ring",
+    "joint": "RING_MCP",
+    "valence": 5,
+    "angle_before_deg": 43.46,
+    "displacement_mm": 0.13,
+    "before": [
+     1.399886,
+     0.017421,
+     0.470839
+    ],
+    "after": [
+     1.399785,
+     0.017502,
+     0.470839
+    ]
+   },
+   {
+    "pass": 2,
+    "vertex": 738,
+    "digit": "ring",
+    "joint": "RING_MCP",
+    "valence": 5,
+    "angle_before_deg": 44.88,
+    "displacement_mm": 0.11,
+    "before": [
+     1.399785,
+     0.017502,
+     0.470839
+    ],
+    "after": [
+     1.399701,
+     0.017573,
+     0.470834
+    ]
+   }
+  ]
+ },
+ "JOINT_POLE_AUDIT": "PASS",
+ "JOINT_POLE_AUDIT_note": "0 poles lie on the flexion midline (dorsal/palmar crest) of any joint's bending core, using an explicit radial-direction criterion with the global anatomical dorsal axis as the local proxy (fingers are only mildly curled in this asset). Four poles that had been within 45 deg of a midline were slid circumferentially onto the lateral aspect by CON-3. ACTUAL maximum displacement = 0.166 mm. The 5 mm figure is the ALLOWED CAP (the per-move limit), NOT the achieved displacement; the machine-readable field max_displacement_mm records the ACTUAL value (0.166 mm).",
+ "poles": [
+  {
+   "vertex": 0,
+   "valence": 3,
+   "digit": "little",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 6.312,
+   "world": [
+    1.349695,
+    -0.007329,
+    0.515718
+   ]
+  },
+  {
+   "vertex": 4,
+   "valence": 3,
+   "digit": "little",
+   "in_deformation_zone": "LITTLE_DIP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 6.315,
+   "geod_from_tip_mm": 14.169,
+   "world": [
+    1.351797,
+    -0.003854,
+    0.509053
+   ]
+  },
+  {
+   "vertex": 6,
+   "valence": 3,
+   "digit": "little",
+   "in_deformation_zone": "LITTLE_DIP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 4.58,
+   "geod_from_tip_mm": 15.904,
+   "world": [
+    1.356643,
+    -0.002968,
+    0.510817
+   ]
+  },
+  {
+   "vertex": 8,
+   "valence": 3,
+   "digit": "little",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 7.747,
+   "world": [
+    1.355262,
+    -0.005554,
+    0.518389
+   ]
+  },
+  {
+   "vertex": 10,
+   "valence": 3,
+   "digit": "ring",
+   "in_deformation_zone": "RING_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 2.024,
+   "geod_from_tip_mm": 18.389,
+   "world": [
+    1.388095,
+    -0.002571,
+    0.536355
+   ]
+  },
+  {
+   "vertex": 14,
+   "valence": 3,
+   "digit": "ring",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 8.068,
+   "world": [
+    1.388423,
+    -0.007419,
+    0.545339
+   ]
+  },
+  {
+   "vertex": 15,
+   "valence": 3,
+   "digit": "ring",
+   "in_deformation_zone": "RING_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 2.981,
+   "geod_from_tip_mm": 17.432,
+   "world": [
+    1.395862,
+    -0.001428,
+    0.536481
+   ]
+  },
+  {
+   "vertex": 17,
+   "valence": 3,
+   "digit": "ring",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 7.642,
+   "world": [
+    1.396359,
+    -0.005416,
+    0.545292
+   ]
+  },
+  {
+   "vertex": 19,
+   "valence": 3,
+   "digit": "middle",
+   "in_deformation_zone": "MIDDLE_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 3.889,
+   "geod_from_tip_mm": 17.154,
+   "world": [
+    1.419264,
+    0.003721,
+    0.547305
+   ]
+  },
+  {
+   "vertex": 23,
+   "valence": 3,
+   "digit": "middle",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 7.671,
+   "world": [
+    1.419005,
+    -0.000197,
+    0.555901
+   ]
+  },
+  {
+   "vertex": 24,
+   "valence": 3,
+   "digit": "middle",
+   "in_deformation_zone": "MIDDLE_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 2.862,
+   "geod_from_tip_mm": 18.182,
+   "world": [
+    1.42635,
+    0.004442,
+    0.547178
+   ]
+  },
+  {
+   "vertex": 26,
+   "valence": 3,
+   "digit": "middle",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 8.138,
+   "world": [
+    1.426807,
+    0.001378,
+    0.556478
+   ]
+  },
+  {
+   "vertex": 28,
+   "valence": 3,
+   "digit": "index",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 7.31,
+   "world": [
+    1.454452,
+    0.001208,
+    0.54123
+   ]
+  },
+  {
+   "vertex": 32,
+   "valence": 3,
+   "digit": "index",
+   "in_deformation_zone": "INDEX_DIP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 5.231,
+   "geod_from_tip_mm": 16.306,
+   "world": [
+    1.454141,
+    0.005051,
+    0.533219
+   ]
+  },
+  {
+   "vertex": 33,
+   "valence": 3,
+   "digit": "index",
+   "in_deformation_zone": "INDEX_DIP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 4.911,
+   "geod_from_tip_mm": 16.627,
+   "world": [
+    1.461318,
+    0.004817,
+    0.532576
+   ]
+  },
+  {
+   "vertex": 35,
+   "valence": 3,
+   "digit": "index",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 7.975,
+   "world": [
+    1.462429,
+    0.002143,
+    0.54053
+   ]
+  },
+  {
+   "vertex": 37,
+   "valence": 3,
+   "digit": "thumb",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 10.564,
+   "world": [
+    1.494637,
+    -0.007186,
+    0.461913
+   ]
+  },
+  {
+   "vertex": 40,
+   "valence": 3,
+   "digit": "thumb",
+   "in_deformation_zone": "THUMB_IP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 1.766,
+   "geod_from_tip_mm": 22.97,
+   "world": [
+    1.488704,
+    -0.006585,
+    0.451271
+   ]
+  },
+  {
+   "vertex": 42,
+   "valence": 3,
+   "digit": "thumb",
+   "in_deformation_zone": "THUMB_IP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 3.207,
+   "geod_from_tip_mm": 21.529,
+   "world": [
+    1.491929,
+    -0.015179,
+    0.449299
+   ]
+  },
+  {
+   "vertex": 44,
+   "valence": 3,
+   "digit": "thumb",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 10.146,
+   "world": [
+    1.498405,
+    -0.015966,
+    0.458377
+   ]
+  },
+  {
+   "vertex": 46,
+   "valence": 5,
+   "digit": "ring",
+   "in_deformation_zone": "RING_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 0.705,
+   "geod_from_tip_mm": 19.707,
+   "world": [
+    1.39772,
+    -0.00077,
+    0.533417
+   ]
+  },
+  {
+   "vertex": 52,
+   "valence": 5,
+   "digit": "ring",
+   "in_deformation_zone": "RING_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 0.203,
+   "geod_from_tip_mm": 20.616,
+   "world": [
+    1.385914,
+    -0.00263,
+    0.533525
+   ]
+  },
+  {
+   "vertex": 107,
+   "valence": 5,
+   "digit": "little",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 70.251,
+   "world": [
+    1.37608,
+    0.008339,
+    0.460955
+   ]
+  },
+  {
+   "vertex": 109,
+   "valence": 5,
+   "digit": "little",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 68.162,
+   "world": [
+    1.377251,
+    -0.001556,
+    0.463898
+   ]
+  },
+  {
+   "vertex": 146,
+   "valence": 5,
+   "digit": "index",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 82.506,
+   "world": [
+    1.433753,
+    0.019065,
+    0.471508
+   ]
+  },
+  {
+   "vertex": 148,
+   "valence": 5,
+   "digit": "index",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 78.833,
+   "world": [
+    1.435564,
+    0.004871,
+    0.474605
+   ]
+  },
+  {
+   "vertex": 207,
+   "valence": 5,
+   "digit": "middle",
+   "in_deformation_zone": "MIDDLE_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 0.831,
+   "geod_from_tip_mm": 20.212,
+   "world": [
+    1.42853,
+    0.005001,
+    0.544602
+   ]
+  },
+  {
+   "vertex": 209,
+   "valence": 5,
+   "digit": "middle",
+   "in_deformation_zone": "MIDDLE_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 1.944,
+   "geod_from_tip_mm": 19.1,
+   "world": [
+    1.417253,
+    0.004159,
+    0.544714
+   ]
+  },
+  {
+   "vertex": 216,
+   "valence": 3,
+   "digit": "ring",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 10.346,
+   "world": [
+    1.391588,
+    -0.014665,
+    0.541789
+   ]
+  },
+  {
+   "vertex": 218,
+   "valence": 3,
+   "digit": "ring",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 10.396,
+   "world": [
+    1.396014,
+    -0.013956,
+    0.541766
+   ]
+  },
+  {
+   "vertex": 220,
+   "valence": 5,
+   "digit": "little",
+   "in_deformation_zone": "LITTLE_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 3.007,
+   "geod_from_tip_mm": 17.476,
+   "world": [
+    1.359143,
+    -0.002737,
+    0.509302
+   ]
+  },
+  {
+   "vertex": 222,
+   "valence": 5,
+   "digit": "little",
+   "in_deformation_zone": "LITTLE_DIP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 4.855,
+   "geod_from_tip_mm": 15.629,
+   "world": [
+    1.351104,
+    -0.00346,
+    0.506505
+   ]
+  },
+  {
+   "vertex": 228,
+   "valence": 5,
+   "digit": "index",
+   "in_deformation_zone": "INDEX_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 3.659,
+   "geod_from_tip_mm": 17.879,
+   "world": [
+    1.451816,
+    0.005389,
+    0.531207
+   ]
+  },
+  {
+   "vertex": 230,
+   "valence": 5,
+   "digit": "index",
+   "in_deformation_zone": "INDEX_DIP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 3.082,
+   "geod_from_tip_mm": 18.455,
+   "world": [
+    1.462518,
+    0.005688,
+    0.529913
+   ]
+  },
+  {
+   "vertex": 247,
+   "valence": 3,
+   "digit": "index",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 10.348,
+   "world": [
+    1.462466,
+    -0.004681,
+    0.537466
+   ]
+  },
+  {
+   "vertex": 249,
+   "valence": 3,
+   "digit": "index",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 10.212,
+   "world": [
+    1.455924,
+    -0.005885,
+    0.538054
+   ]
+  },
+  {
+   "vertex": 262,
+   "valence": 3,
+   "digit": "middle",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 11.825,
+   "world": [
+    1.419099,
+    -0.007215,
+    0.552776
+   ]
+  },
+  {
+   "vertex": 264,
+   "valence": 3,
+   "digit": "middle",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 12.23,
+   "world": [
+    1.426332,
+    -0.007853,
+    0.552846
+   ]
+  },
+  {
+   "vertex": 277,
+   "valence": 3,
+   "digit": "little",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 9.752,
+   "world": [
+    1.35096,
+    -0.01294,
+    0.51397
+   ]
+  },
+  {
+   "vertex": 279,
+   "valence": 3,
+   "digit": "little",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 10.227,
+   "world": [
+    1.356639,
+    -0.013143,
+    0.515512
+   ]
+  },
+  {
+   "vertex": 281,
+   "valence": 5,
+   "digit": "thumb",
+   "in_deformation_zone": "THUMB_IP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 0.051,
+   "geod_from_tip_mm": 24.787,
+   "world": [
+    1.486348,
+    -0.004477,
+    0.449978
+   ]
+  },
+  {
+   "vertex": 287,
+   "valence": 5,
+   "digit": "thumb",
+   "in_deformation_zone": "THUMB_IP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 1.181,
+   "geod_from_tip_mm": 23.555,
+   "world": [
+    1.490816,
+    -0.017313,
+    0.446708
+   ]
+  },
+  {
+   "vertex": 297,
+   "valence": 3,
+   "digit": "thumb",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 13.284,
+   "world": [
+    1.491069,
+    -0.019745,
+    0.462881
+   ]
+  },
+  {
+   "vertex": 298,
+   "valence": 3,
+   "digit": "thumb",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 13.367,
+   "world": [
+    1.488555,
+    -0.012681,
+    0.465764
+   ]
+  },
+  {
+   "vertex": 316,
+   "valence": 5,
+   "digit": "thumb",
+   "in_deformation_zone": "THUMB_MCP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 9.112,
+   "geod_from_tip_mm": 64.521,
+   "world": [
+    1.455719,
+    -0.012712,
+    0.422745
+   ]
+  },
+  {
+   "vertex": 335,
+   "valence": 5,
+   "digit": "thumb",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 79.294,
+   "world": [
+    1.456298,
+    0.010003,
+    0.407672
+   ]
+  },
+  {
+   "vertex": 336,
+   "valence": 5,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.445457,
+    0.016205,
+    0.410858
+   ]
+  },
+  {
+   "vertex": 399,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.386989,
+    0.020773,
+    0.276835
+   ]
+  },
+  {
+   "vertex": 404,
+   "valence": 5,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.435467,
+    -0.015206,
+    0.374239
+   ]
+  },
+  {
+   "vertex": 429,
+   "valence": 5,
+   "digit": "thumb",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 87.396,
+   "world": [
+    1.44038,
+    -0.009264,
+    0.427499
+   ]
+  },
+  {
+   "vertex": 439,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.392612,
+    0.029905,
+    0.277974
+   ]
+  },
+  {
+   "vertex": 440,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.400709,
+    0.034768,
+    0.278623
+   ]
+  },
+  {
+   "vertex": 458,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.396277,
+    0.004233,
+    0.275838
+   ]
+  },
+  {
+   "vertex": 462,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.389225,
+    0.025969,
+    0.277502
+   ]
+  },
+  {
+   "vertex": 482,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.430823,
+    0.01861,
+    0.277782
+   ]
+  },
+  {
+   "vertex": 498,
+   "valence": 5,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.400552,
+    -0.013026,
+    0.36373
+   ]
+  },
+  {
+   "vertex": 500,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.410916,
+    -0.017981,
+    0.384983
+   ]
+  },
+  {
+   "vertex": 507,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.38705,
+    0.014638,
+    0.276054
+   ]
+  },
+  {
+   "vertex": 508,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.390378,
+    0.008602,
+    0.275676
+   ]
+  },
+  {
+   "vertex": 517,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.430996,
+    0.024347,
+    0.278382
+   ]
+  },
+  {
+   "vertex": 522,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.403314,
+    0.002262,
+    0.276226
+   ]
+  },
+  {
+   "vertex": 531,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.417832,
+    0.035839,
+    0.279261
+   ]
+  },
+  {
+   "vertex": 532,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.413589,
+    0.036522,
+    0.279172
+   ]
+  },
+  {
+   "vertex": 541,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.423596,
+    0.007896,
+    0.276511
+   ]
+  },
+  {
+   "vertex": 542,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.428226,
+    0.012811,
+    0.277139
+   ]
+  },
+  {
+   "vertex": 553,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.425846,
+    0.032242,
+    0.279238
+   ]
+  },
+  {
+   "vertex": 561,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.429074,
+    0.028989,
+    0.27887
+   ]
+  },
+  {
+   "vertex": 563,
+   "valence": 5,
+   "digit": "index",
+   "in_deformation_zone": "INDEX_MCP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 5.249,
+   "geod_from_tip_mm": 88.394,
+   "world": [
+    1.426019,
+    0.005783,
+    0.474037
+   ]
+  },
+  {
+   "vertex": 565,
+   "valence": 5,
+   "digit": "index",
+   "in_deformation_zone": "INDEX_MCP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 0.536,
+   "geod_from_tip_mm": 93.107,
+   "world": [
+    1.424595,
+    0.019396,
+    0.470858
+   ]
+  },
+  {
+   "vertex": 566,
+   "valence": 5,
+   "digit": "little",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": 78.307,
+   "world": [
+    1.386729,
+    0.000948,
+    0.467352
+   ]
+  },
+  {
+   "vertex": 568,
+   "valence": 5,
+   "digit": "little",
+   "in_deformation_zone": "LITTLE_MCP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 7.105,
+   "geod_from_tip_mm": 81.954,
+   "world": [
+    1.384323,
+    0.013783,
+    0.464789
+   ]
+  },
+  {
+   "vertex": 585,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.396527,
+    0.032769,
+    0.278337
+   ]
+  },
+  {
+   "vertex": 591,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.421976,
+    0.034451,
+    0.279307
+   ]
+  },
+  {
+   "vertex": 723,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.417507,
+    0.004345,
+    0.276161
+   ]
+  },
+  {
+   "vertex": 724,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.410548,
+    0.002374,
+    0.276197
+   ]
+  },
+  {
+   "vertex": 733,
+   "valence": 5,
+   "digit": "ring",
+   "in_deformation_zone": "RING_MCP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 5.033,
+   "geod_from_tip_mm": 93.782,
+   "world": [
+    1.40302,
+    0.004353,
+    0.474403
+   ]
+  },
+  {
+   "vertex": 734,
+   "valence": 5,
+   "digit": "middle",
+   "in_deformation_zone": "MIDDLE_MCP",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 6.06,
+   "geod_from_tip_mm": 97.554,
+   "world": [
+    1.409569,
+    0.00445,
+    0.475704
+   ]
+  },
+  {
+   "vertex": 737,
+   "valence": 5,
+   "digit": "middle",
+   "in_deformation_zone": "MIDDLE_MCP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 3.496,
+   "geod_from_tip_mm": 94.99,
+   "world": [
+    1.406993,
+    0.020412,
+    0.472563
+   ]
+  },
+  {
+   "vertex": 738,
+   "valence": 5,
+   "digit": "ring",
+   "in_deformation_zone": "RING_MCP",
+   "in_deformation_core": true,
+   "distance_to_joint_center_mm": 0.594,
+   "geod_from_tip_mm": 88.155,
+   "world": [
+    1.399701,
+    0.017573,
+    0.470834
+   ]
+  },
+  {
+   "vertex": 759,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.405002,
+    0.036007,
+    0.278868
+   ]
+  },
+  {
+   "vertex": 760,
+   "valence": 3,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.409302,
+    0.036571,
+    0.279048
+   ]
+  },
+  {
+   "vertex": 802,
+   "valence": 3,
+   "digit": "thumb",
+   "in_deformation_zone": "THUMB_CMC",
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": 6.602,
+   "geod_from_tip_mm": 92.343,
+   "world": [
+    1.438213,
+    -0.011982,
+    0.421478
+   ]
+  },
+  {
+   "vertex": 3277,
+   "valence": 22,
+   "digit": "wrist",
+   "in_deformation_zone": null,
+   "in_deformation_core": false,
+   "distance_to_joint_center_mm": null,
+   "geod_from_tip_mm": null,
+   "world": [
+    1.409389,
+    0.02187,
+    0.277571
+   ]
+  }
+ ],
+ "wording_correction": {
+  "corrected_at": "2026-09-28T10:04:18.083752+08:00",
+  "fields": [
+   "JOINT_POLE_AUDIT_note"
+  ],
+  "previous_text_claimed": "the maximum displacement was 5 mm",
+  "correct_text": "actual maximum displacement = 0.166 mm; 5 mm was the permitted cap",
+  "machine_field_max_displacement_mm": 0.166,
+  "cap_displacement_mm": 5.0,
+  "issue": "the note described the CAP as if it were the achieved displacement"
+ }
+}

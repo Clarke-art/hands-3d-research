@@ -1,0 +1,6 @@
+from pathlib import Path
+O=Path(__file__).resolve().parent;p=O/'geometry_detector.py';s=p.read_text(encoding='utf-8-sig');s=s.replace("near_contact_projected_area_mm2=bandarea,","true_pulp_surface_contact_distance_mm=0. if cross else min([abs(v) for v in facegaps+gaps]) if facegaps or gaps else None,near_contact_projected_area_mm2=bandarea,");p.write_text(s,encoding='utf8')
+p=O/'verify_static_blender.py';s=p.read_text(encoding='utf-8-sig');s=s.replace("abs(ct['true_pulp_min_signed_gap_mm'])<=.05","ct['true_pulp_surface_contact_distance_mm']<=.05")
+s=s.replace("indent=2)+'\\n'","indent=2,default=lambda x:x.tolist() if hasattr(x,'tolist') else x.item())+'\\n'")
+s=s.replace("passed=[r['test'] for r in actual", "firstfourpass=all(r['status']=='PASS_STATIC_SCREEN_HUMAN_PENDING' for r in actual if r['test'] in ['S1','S2','S3','S4'])\nfor r in actual:\n if r['test']=='S5' and not firstfourpass:r['exploratory_actual_status']=r['status'];r['status']='NOT_QUALIFIED_PRECONDITION_NOT_MET';r['reason']='Provisional proxy checks allowed calculation, but stricter actual triangle interior verification later rejected S1. Retain S5 controls as exploratory evidence only; not formal acceptance.'\npassed=[r['test'] for r in actual")
+p.write_text(s,encoding='utf8')

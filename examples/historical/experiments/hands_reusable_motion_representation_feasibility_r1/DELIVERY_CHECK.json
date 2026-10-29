@@ -1,0 +1,146 @@
+{
+  "task": "HANDS_REUSABLE_MOTION_REPRESENTATION_FEASIBILITY_R1",
+  "status": "FAIL",
+  "failure_stage": "SOURCE_QUALIFICATION_GATE",
+  "required_reports_present": 3,
+  "source_gate": "FAIL",
+  "source_native_skin_audit_samples": 239,
+  "source_core_contact_samples": 168,
+  "source_contacts_pass": true,
+  "source_core_skin_collision_samples": 62,
+  "source_core_non_owned_key_intrusion_samples": 161,
+  "protected_sources_checked": 36,
+  "protected_sources_unchanged": true,
+  "numerical_execution_seconds": 23.366580399990198,
+  "optimization_calls": 0,
+  "new_candidates": 0,
+  "retargets_executed": 0,
+  "local_IK_calls": 0,
+  "new_actions": 0,
+  "new_blends": 0,
+  "new_videos": 0,
+  "independent_piano_access": false,
+  "stop": "STOP — HUMAN REVIEW",
+  "files": [
+    {
+      "name": "COMPUTE_LEDGER.json",
+      "bytes": 722,
+      "sha256": "bf5f1bd18d729ab15ba610c44d0e4d332ead636eb41ea116e6097011c7d30209"
+    },
+    {
+      "name": "FINAL_HUMAN_REVIEW.md",
+      "bytes": 3899,
+      "sha256": "575d941780e8a628bfd12473fe0c82d464b4147407614b2312d91907a1de5eba"
+    },
+    {
+      "name": "FINAL_STATUS.json",
+      "bytes": 872,
+      "sha256": "59c10d7d6d432be175b4853c4e34712d5f9a797089135cbb27656e5bb7b0971d"
+    },
+    {
+      "name": "INPUT_BINDINGS.json",
+      "bytes": 33738,
+      "sha256": "a2b74fa339070777307230cbaab358f6be6586f3f5ddf0f1fedd08a0c1d69856"
+    },
+    {
+      "name": "MOTION_PRIMITIVE_DESIGN.md",
+      "bytes": 3033,
+      "sha256": "40b7ce6b362b1f2f5ce5897ef7e51bbfbc32c857e05b31487b31e4c357bd8566"
+    },
+    {
+      "name": "persistence.py",
+      "bytes": 2278,
+      "sha256": "36455ad03894b6ef0a42f1474f9f704e03c422ca2c98a272ae38dfbe0c4400a4"
+    },
+    {
+      "name": "POLICY_LOCK.json",
+      "bytes": 121,
+      "sha256": "e3586880ea6d8596e2d2a1cdf55bade015f0183ce1d0522b50300872e7442031"
+    },
+    {
+      "name": "POLICY.json",
+      "bytes": 5428,
+      "sha256": "f9bdd94ed50a27a683fe5084327ee0fcc7bab36b5bb39bd2102d7ab0b1e16765"
+    },
+    {
+      "name": "prepare.log",
+      "bytes": 72,
+      "sha256": "a1bd8469dbaad930ea6b892a5a47ceb582ca94bac1bd712479f791822d47a149"
+    },
+    {
+      "name": "prepare.py",
+      "bytes": 4995,
+      "sha256": "7c534f6ff5e84f824ee568aeb5c42d70052dcaa1f8e86ab144b96ef9176aca7f"
+    },
+    {
+      "name": "PROTECTED_BEFORE.json",
+      "bytes": 7369,
+      "sha256": "30c5aa71e6b8c58f76d56d2619eeb3d9578b0fa3cf89d2c988bdf72e47d2fb3d"
+    },
+    {
+      "name": "PROTECTION_CHECK.json",
+      "bytes": 14932,
+      "sha256": "447963474d0f3d93eda2b30fba49412130a3e698ebc347aaa3360125a254d320"
+    },
+    {
+      "name": "reports.log",
+      "bytes": 112,
+      "sha256": "85d8a9dfa478430dfa85f3f8ae8b66626a0c6a34b2ec1dbe0ec0a6fe48989502"
+    },
+    {
+      "name": "reports.py",
+      "bytes": 15304,
+      "sha256": "09069d6b7814f97ccd00642fcc6af8b99fb4ac1b033907338bd55ad2b661d9e5"
+    },
+    {
+      "name": "RETARGET_AND_GEOMETRY_VALIDATION.md",
+      "bytes": 3408,
+      "sha256": "be391a7017e4ac5ebdecdf924899edafdb55407338b09faa4e0beb5b5e029382"
+    },
+    {
+      "name": "run_stage.py",
+      "bytes": 1572,
+      "sha256": "7e7a63303cbd3a8c7a09ecf6ba7be5b3f4338012ecaa888afbf57c78d316a462"
+    },
+    {
+      "name": "SOURCE_AUDIT_SAMPLES.npz",
+      "bytes": 10181970,
+      "sha256": "fa65e44ab6c04d07d3c64738905c3d5c6de4c141b72539dd576d1e0481aabe08"
+    },
+    {
+      "name": "source_audit.log",
+      "bytes": 813,
+      "sha256": "36304de8c771e0e8d1c2dc4772ba652955aee515a5fbbb8eec988e73949c5aec"
+    },
+    {
+      "name": "source_audit.py",
+      "bytes": 8908,
+      "sha256": "d2be75cf363eab404d910c71f6877b74441576b62bebc90169a0aee1ac3d7e82"
+    },
+    {
+      "name": "SOURCE_GEOMETRY_AUDIT.json",
+      "bytes": 480895,
+      "sha256": "5e1c6ac5522c95b2f3f431a9264df55e926b0975f62963370e91ad9588d1d397"
+    },
+    {
+      "name": "SOURCE_QUALIFICATION_GATE.json",
+      "bytes": 979,
+      "sha256": "132eacb68d2e8b4c632a174e898a617a1ddd15461f5bc0cb23329f2c9f8e7b49"
+    },
+    {
+      "name": "SOURCE_REJECTION_WITNESSES.json",
+      "bytes": 1623,
+      "sha256": "b632c914b89ecb91db19f569c899268d264f6c51442983a742e8e1839667c95c"
+    },
+    {
+      "name": "support.py",
+      "bytes": 2421,
+      "sha256": "bd49b51fdfad259299d65b043f2da56fbd2540033c5472a50ed8448f941e9cdc"
+    },
+    {
+      "name": "VISUAL_SOURCE_NOTE.json",
+      "bytes": 825,
+      "sha256": "4ade74706f84b6afeb454d99a20620ea5da189559b5e6eb2c544298c941fabdb"
+    }
+  ]
+}

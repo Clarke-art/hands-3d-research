@@ -1,0 +1,29 @@
+{
+  "status": "RESOLVED_PROPOSAL_PENDING_HUMAN",
+  "R3_COST_UNIT_AUTHORITY_R1": "CORRECTED_COMMON_MM_SEMANTICS",
+  "summary_enum": "CORRECTED_MM",
+  "DOCUMENTED_COMMON_MM_SEMANTICS": "INTENT_CONFIRMED",
+  "HISTORICAL_EXECUTION_SEMANTICS": "EXECUTION_CONFIRMED_NOT_INTENT_AUTHORITY",
+  "DIMENSIONLESS_NORMALIZED_SEMANTICS": "NOT_SUPPORTED",
+  "historical_unit_bug_confirmed": "YES",
+  "proof_chain": [
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py:239",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py:277",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py:350",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py:377",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py:730",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py:917",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\THUMB_TIP_OWNERSHIP_BOUNDARY_R3_REPORT.md:20",
+    "production_spec\\stage5_production_rig\\stage5b_r1a\\scripts\\r1a_common.py:150",
+    "production_spec\\stage5_production_rig\\stage5b_r1a\\scripts\\r1a_common.py:12",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\_r3_geo.py:39",
+    "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\R3_REPRODUCIBILITY_AUDIT.json:1"
+  ],
+  "decision_basis": "Published unary is geodesic distance, published pairwise is TAU/3 mm, generated cap metadata is 400 mm. A sum of physical length costs requires common units. Executable ambiguity check and pre-mincut distance probe explicitly convert the same metre geodesic to mm. No 0.001 unary coefficient or metre-cost tradeoff is specified. The missing conversion occurs only in terminal capacity assembly (and duplicated rerun).",
+  "canonical_distance_unit": "mm",
+  "capacity_scale_per_mm": 1000,
+  "historical_results_role": "HISTORICAL_EXECUTION_EVIDENCE_ONLY; not corrected R3 targets",
+  "production_implementation_modified": false,
+  "new_human_approval_recorded": false,
+  "solve_authorized": false
+}

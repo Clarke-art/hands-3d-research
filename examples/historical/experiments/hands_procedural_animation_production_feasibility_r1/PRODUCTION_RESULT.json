@@ -1,0 +1,197 @@
+{
+  "task": "HANDS_PROCEDURAL_ANIMATION_PRODUCTION_FEASIBILITY_R1",
+  "RESULT": "HUMAN_EDIT_REQUIRED",
+  "MACHINE_VALIDATION": "FAIL",
+  "HUMAN_NATURALNESS": "NOT_TESTED",
+  "GENERAL_MIDI_AUTOMATION": "NOT_VALIDATED",
+  "witness": {
+    "time": 4.916666666666667,
+    "target_vertex_mm": [
+      5.222201347351074,
+      2.3260265588760376
+    ],
+    "target_surface_upper_mm": [
+      5.263690236675818,
+      2.781884938864913
+    ],
+    "target_key_face_pairs": [
+      29,
+      21
+    ],
+    "target_surface_witness": [
+      {
+        "triangle": 189,
+        "component": "GP_V11D_KEY_RENDER_073",
+        "lower_mm": 5.263690230673868,
+        "upper_mm": 5.263690236675818,
+        "gap_mm": 6.001950672573919e-09,
+        "witness_world_m": [
+          0.17962479348398197,
+          0.05468506771270393,
+          0.010180489764174239
+        ],
+        "barycentric": [
+          0.5676764158784184,
+          0.0,
+          0.4323235841215816
+        ],
+        "raw_signed_depth_mm": 5.263690232673868,
+        "signed_lower_mm": 5.263690230673868,
+        "signed_upper_mm": 5.263690236675818,
+        "dual_active_constraints": [
+          2,
+          4,
+          6
+        ],
+        "dual_multipliers": [
+          0.04078204773024108,
+          0.9592179522697589,
+          0.0009750064495994725
+        ]
+      },
+      {
+        "triangle": 3796,
+        "component": "GP_V11D_KEY_RENDER_073",
+        "lower_mm": 2.781884932864913,
+        "upper_mm": 2.781884938864913,
+        "gap_mm": 5.999999976025183e-09,
+        "witness_world_m": [
+          0.18239383194211872,
+          0.05220326241489497,
+          0.012662295061983193
+        ],
+        "barycentric": [
+          0.5786225371828451,
+          0.313634422750333,
+          0.10774304006682199
+        ],
+        "raw_signed_depth_mm": 2.781884934864913,
+        "signed_lower_mm": 2.781884932864913,
+        "signed_upper_mm": 2.781884938864913,
+        "dual_active_constraints": [
+          0,
+          2,
+          4
+        ],
+        "dual_multipliers": [
+          0.31605317863532434,
+          0.5901365678084102,
+          0.09381025355626543
+        ]
+      }
+    ],
+    "pairs": {
+      "THUMB_INDEX": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_MIDDLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_RING": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_MIDDLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_RING": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "MIDDLE_RING": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "MIDDLE_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "RING_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "FULL_SELF": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "RIGHT_LEFT": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      }
+    },
+    "other_vertex_peak_mm": [
+      5.222201347351074,
+      3.3795982599258423
+    ],
+    "new_other_key_face_pairs": 0
+  },
+  "core_baseline_vertex_peak_mm": 5.239751189947128,
+  "core_candidate_vertex_peak_mm": 3.285008482635021,
+  "core_baseline_surface_peak_upper_mm": 5.322217420405681,
+  "core_candidate_surface_peak_upper_mm": 3.465534266163045,
+  "regression_groups": {
+    "NEW_OTHER_SKIN_KEY_FACE_PAIRS": {
+      "records": 26,
+      "distinct_times": 26,
+      "first": 4.654166666666667,
+      "last": 4.791666666666667
+    },
+    "OTHER_REGION_SURFACE_REGRESSION": {
+      "records": 16,
+      "distinct_times": 8,
+      "first": 4.7625,
+      "last": 4.791666666666667
+    },
+    "OTHER_REGION_VERTEX_REGRESSION": {
+      "records": 2,
+      "distinct_times": 1,
+      "first": 4.775,
+      "last": 4.775
+    },
+    "TARGET_REGRESSION": {
+      "records": 51,
+      "distinct_times": 51,
+      "first": 5.279166666666667,
+      "last": 5.479166666666667
+    }
+  },
+  "dsharp_vertex_max_mm": 0.5035698413848877,
+  "dsharp_surface_max_mm": 0.5743708209999046,
+  "target_exit_vertex_worsening_max_mm": 0.6950646638870239,
+  "no_new_digit_self_crosshand_faces": true,
+  "candidate_count": 1,
+  "complete_geometry_passes": 1,
+  "optimizer_calls": 0,
+  "new_candidate_video": false,
+  "human_edit_handoff": "HUMAN_RING_EDIT_HANDOFF.blend",
+  "contact_counts": {
+    "R13": 59,
+    "L06": 279,
+    "R14": 110,
+    "R15": 110
+  },
+  "historical_defects_retained": true
+}

@@ -1,0 +1,34 @@
+{
+  "hands": {
+    "R": {
+      "action": "PIANOVAM_PHYSICAL_RIGHT_AXIS_CORRECTED_R1",
+      "payload_sha256": "b03d02e4f9f4f624c6c3faf1c1c1d53d717eac4770a216d3b1f54af89672cdb0",
+      "expected": "b03d02e4f9f4f624c6c3faf1c1c1d53d717eac4770a216d3b1f54af89672cdb0",
+      "identity": "MATCH",
+      "source_file": "audits/pianovam_retarget_local_axis_mapping_correction_r1/RIGHT_HAND_PIANO_AXIS_CORRECTED_TEST_R1.blend",
+      "source_sha256": "a5190adc13d39318096490f8fd2c9956d0daff457d25753fa3c216eee2027bbd",
+      "pad_vs_corresponding_evaluated_vertex_max_mm": 0.319870231887151,
+      "saved_reopened_action_sha256": "b03d02e4f9f4f624c6c3faf1c1c1d53d717eac4770a216d3b1f54af89672cdb0",
+      "static_components": "MATCH",
+      "evaluated_421_max_error_mm": 0.0007155935796421264,
+      "marker_binding_max_error_mm": 0.0006312924577408506
+    },
+    "L": {
+      "action": "PIANOVAM_PHYSICAL_LEFT_MIRRORED_MAPPING_R1",
+      "payload_sha256": "d3061e8effcb6f7ad0a7759ae0f9aa75a196d295a072e83c617a2c8ce4c29ac8",
+      "expected": "d3061e8effcb6f7ad0a7759ae0f9aa75a196d295a072e83c617a2c8ce4c29ac8",
+      "identity": "MATCH",
+      "source_file": "audits/left_hand_real_motion_retarget_validation_r1/LEFT_HAND_REAL_MOTION_VALIDATION_CANDIDATE_R1.blend",
+      "source_sha256": "c356c3d223f9f0853b3451d93a2cdc4a0212805b72a7aea3bc829d084f41665d",
+      "pad_vs_corresponding_evaluated_vertex_max_mm": 0.13258351687410255,
+      "saved_reopened_action_sha256": "d3061e8effcb6f7ad0a7759ae0f9aa75a196d295a072e83c617a2c8ce4c29ac8",
+      "static_components": "MATCH",
+      "evaluated_421_max_error_mm": 0.000895834661451822,
+      "marker_binding_max_error_mm": 0.0008147710022100974
+    }
+  },
+  "internal_action_operations": 0,
+  "phase": "SAVED_AND_REOPENED_VERIFIED",
+  "candidate_sha256": "a8a882de31088a63d18acce2f2e65f19506f4b963b25d6b8c7088d000e73ca2b",
+  "post_verification_change": "CONTACT_CLOSE camera framing only; no object, key, root or Action mutations"
+}

@@ -1,0 +1,63 @@
+{
+  "original_vs_pruned_max_abs": 0.0,
+  "constraint_value_max_abs": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "checks": [
+    {
+      "h": 0.01,
+      "max_abs": 0.02303036695021754,
+      "relative_frobenius": 2.32105799305134e-05,
+      "missing_nonzeros": 0,
+      "unstable_variables": [
+        76,
+        77,
+        83,
+        88,
+        89,
+        94,
+        95,
+        100,
+        101,
+        107
+      ]
+    },
+    {
+      "h": 0.001,
+      "max_abs": 4.511703188825322e-08,
+      "relative_frobenius": 1.8022562324214264e-10,
+      "missing_nonzeros": 0,
+      "unstable_variables": []
+    },
+    {
+      "h": 0.0001,
+      "max_abs": 4.301349165736212e-09,
+      "relative_frobenius": 2.4323558470543348e-11,
+      "missing_nonzeros": 0,
+      "unstable_variables": []
+    }
+  ],
+  "sign_tests": [
+    {
+      "case": "original_failure",
+      "d_gap_d_root_z": 0.9992029586012976,
+      "expected": "positive; moving-key normal projection"
+    },
+    {
+      "case": "recovered",
+      "d_gap_d_root_z": 0.9992029586012976,
+      "expected": "positive; moving-key normal projection"
+    }
+  ],
+  "memory_start": {
+    "status": "INVALID_64_BIT_HANDLE_MEASUREMENT_SUPERSEDED",
+    "replacement": "RESOURCE_PROFILE.json"
+  },
+  "memory_end": {
+    "status": "INVALID_64_BIT_HANDLE_MEASUREMENT_SUPERSEDED",
+    "replacement": "RESOURCE_PROFILE.json"
+  },
+  "scope": "144 Bernstein coefficients, three actual adjacent timestamps. Perturbations used for derivative diagnostics only, never accepted states."
+}

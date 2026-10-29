@@ -1,0 +1,2957 @@
+{
+  "status": {
+    "MULTI_FINGER_COORDINATION": "PARTIAL",
+    "EARLY_MIDDLE_RING_INTERSECTION": "NOT_RUN",
+    "LATE_MIDDLE_RING_INTERSECTION": "FAIL",
+    "BLACK_KEY_SPATIAL_CLEARANCE": "NOT_RUN",
+    "ACTIVE_KEY_CONTACT": "PASS",
+    "RIGHT_HAND_MOTION_PRESERVATION": "PASS",
+    "LEFT_HAND_APPROVED_MOTION_PRESERVED": "YES",
+    "DUAL_HAND_MUSIC_FUNCTION": "PASS",
+    "ENGINEERING_DIAGNOSTICS": "FAIL",
+    "HUMAN_VISIBLE_QUALITY": "HUMAN_PENDING",
+    "NEW_DYNAMIC_CANDIDATES": 0,
+    "FROZEN_ASSETS_UNCHANGED": "YES",
+    "FINAL_STATUS": "FAIL_CLOSED",
+    "FORMAL_DYNAMIC_SOLVE_ATTEMPTS": 0,
+    "ROOT_COMPENSATION_ENABLED": false,
+    "status_scope": "No new animation. NOT_RUN refers to repaired dynamic intervals; late FAIL is confirmed in finite static feasibility. Contact/music/preservation PASS refers to unchanged original sources and finite active-contact samples, not a successful repaired performance.",
+    "static_preflight_early": "IMPROVED_AT_THREE_SAMPLES_ONLY",
+    "static_preflight_black": "PARTIAL",
+    "candidate_path": null,
+    "stop": "STOP — HUMAN REVIEW",
+    "client_date": "2026-10-11"
+  },
+  "pre_generation_gate": {
+    "status": "FAIL_CLOSED",
+    "stage": "FINITE_STATIC_FEASIBILITY",
+    "reason": "Late D5 to E5 handoff remains visibly intersecting in actual Blender skin after simultaneous joint preflight; do not generate a trajectory from a failed anchor.",
+    "late_case": {
+      "video_sec": 3.825,
+      "music_sec": 3.475,
+      "delta_applied_deg": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -2.7917931557166455,
+          6.379068954651014,
+          -8.996911449540855,
+          -6.935981619485076
+        ],
+        [
+          2.2928769868812795,
+          -3.918951036124984,
+          14.021193244440472,
+          -4.756347677531148
+        ]
+      ],
+      "pairs": [
+        {
+          "digits": [
+            "INDEX",
+            "MIDDLE"
+          ],
+          "before_face_pairs": 0,
+          "after_face_pairs": 0
+        },
+        {
+          "digits": [
+            "MIDDLE",
+            "RING"
+          ],
+          "before_face_pairs": 93,
+          "after_face_pairs": 92
+        },
+        {
+          "digits": [
+            "RING",
+            "LITTLE"
+          ],
+          "before_face_pairs": 0,
+          "after_face_pairs": 0
+        }
+      ],
+      "black_before": [
+        {
+          "digit": "MIDDLE",
+          "midi": 75,
+          "note": "D#5",
+          "triangle_pairs": 10,
+          "inside_vertices": 1,
+          "deepest_vertex": 26,
+          "depth_mm": 0.7272772490978241,
+          "nearest_actual_surface_mm": 0.7272772490978241,
+          "point_world_m": [
+            0.20809489488601685,
+            0.050148654729127884,
+            0.001152102486230433
+          ],
+          "key_object": "R1_GP_V11D_KEY_RENDER_075.001",
+          "key_surface_point_world_m": [
+            0.20809489488601685,
+            0.04942137748003006,
+            0.0011521023698151112
+          ],
+          "patch_face_examples": [
+            [
+              865,
+              2491,
+              866,
+              26
+            ],
+            [
+              865,
+              2491,
+              866,
+              26
+            ],
+            [
+              26,
+              866,
+              2644,
+              1169
+            ]
+          ]
+        }
+      ],
+      "black_after": [],
+      "contacts": [
+        {
+          "note_id": "R11",
+          "finger": 3,
+          "note": "E5",
+          "skin": {
+            "gap_mm": 0.7518109010293141,
+            "horizontal_mm": 0.0
+          }
+        }
+      ]
+    },
+    "numerical_termination": {
+      "video_sec": 3.825,
+      "music_sec": 3.475,
+      "delta_deg": [
+        [
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -2.7917931557166455,
+          6.379068954651014,
+          -8.996911449540855,
+          -6.935981619485076
+        ],
+        [
+          2.2928769868812795,
+          -3.918951036124984,
+          14.021193244440472,
+          -4.756347677531148
+        ]
+      ],
+      "actual_degrees": [
+        [
+          8.463417161607975,
+          11.399332800560332,
+          6.647068396341571,
+          -12.024344111788292
+        ],
+        [
+          12.41117637488473,
+          14.00078699613858,
+          0.0033018718220798604,
+          -23.28083914404969
+        ],
+        [
+          12.414372981146943,
+          0.010163392086715017,
+          17.450450121055145,
+          13.080343048656772
+        ]
+      ],
+      "success": true,
+      "nfev": 27,
+      "cost": 21687.933398994042,
+      "message": "`xtol` termination condition is satisfied.",
+      "max_black_constraint_residual_mm": 0.0,
+      "max_pair_constraint_residual_mm": 7.63360808765256,
+      "contacts": [
+        {
+          "t": 3.825,
+          "note": "R11",
+          "gap_mm": 0.7518280530149133,
+          "horizontal_margin_violation_mm": 0.0,
+          "pad_movement_mm": 7.054020619724279
+        }
+      ]
+    },
+    "formal_dynamic_solve_attempts": 0,
+    "new_dynamic_candidates": 0,
+    "root_enabled": false,
+    "does_not_prove_global_fixed_root_infeasibility": true,
+    "does_not_prove_frozen_rig_infeasibility": true,
+    "static_batches": {
+      "valid_batch": 1,
+      "poses": 13,
+      "invalid_development_batch": 1,
+      "reason": "An early development check incorrectly applied stationary white-key height to active sinking fingers. Entire result retained as invalid; corrected to actual moving target surface before the one valid feasibility batch. No weights, angle limits, root variables or candidate were changed after valid batch failure."
+    },
+    "stop": "STOP — HUMAN REVIEW"
+  },
+  "policy": {
+    "baseline": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+    "event_scope": {
+      "baseline": "Stage C R1",
+      "baseline_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+      "video_to_music_offset_sec": -0.35,
+      "windows_video_sec": {
+        "INDEX": [
+          [
+            0,
+            0.9928564999999999
+          ],
+          [
+            1.2071419999999997,
+            3.349997
+          ],
+          [
+            3.5642825,
+            5.933333333333334
+          ]
+        ],
+        "MIDDLE": [
+          [
+            0.7785709999999999,
+            2.064284
+          ],
+          [
+            2.741426,
+            4.6357099999999996
+          ]
+        ],
+        "RING": [
+          [
+            0.35,
+            3.349997
+          ],
+          [
+            3.3842825,
+            5.933333333333334
+          ]
+        ]
+      },
+      "windows_music_sec": {
+        "INDEX": [
+          [
+            -0.35,
+            0.6428564999999999
+          ],
+          [
+            0.8571419999999997,
+            2.999997
+          ],
+          [
+            3.2142825,
+            5.583333333333334
+          ]
+        ],
+        "MIDDLE": [
+          [
+            0.4285709999999999,
+            1.7142839999999997
+          ],
+          [
+            2.391426,
+            4.28571
+          ]
+        ],
+        "RING": [
+          [
+            0.0,
+            2.999997
+          ],
+          [
+            3.0342824999999998,
+            5.583333333333334
+          ]
+        ]
+      },
+      "digits": [
+        "INDEX",
+        "MIDDLE",
+        "RING"
+      ],
+      "dofs": [
+        "MCP flexion",
+        "PIP flexion",
+        "DIP flexion",
+        "MCP spread"
+      ],
+      "fixed": [
+        "right root",
+        "thumb",
+        "little",
+        "entire left hand",
+        "keyboard",
+        "music"
+      ],
+      "window_reason": "Music-event anchored supports for confirmed pair/black-key conflicts. INDEX A4 active and the clean R09 phase are retained; middle early/late windows separated by a clean interval; ring windows separated around middle C5.",
+      "outer_clip_boundaries": "Source already penetrates at video start and end. These are presentation-domain edges, not artificial zero-offset seams inside the phrase. Interior support boundaries require zero correction and velocity.",
+      "status": "PROPOSED_PENDING_STATIC_GEOMETRY_GATE",
+      "formal_dynamic_attempts": 0
+    },
+    "root_policy": "LOCKED. Static failure is not a proof that fixed root is infeasible, therefore conditional root authorization is not activated.",
+    "strategy": "Simultaneous 12 joint increments over INDEX/MIDDLE/RING, original FK and actual LBS skin, 7 actual moving black-key volumes, local adjacent-patch signed surface constraints, moving active pad anchors and engineering bounds. Static feasibility only; dynamic continuation not authorized by this gate.",
+    "joint_delta_limits_deg": [
+      18,
+      25,
+      22,
+      14
+    ],
+    "joint_absolute_domains_deg": [
+      [
+        0,
+        75
+      ],
+      [
+        0,
+        95
+      ],
+      [
+        0,
+        65
+      ],
+      [
+        -28,
+        28
+      ]
+    ],
+    "black_margin_mm": 0.5,
+    "target_black_permitted_skin_depth_mm": 0.65,
+    "pair_margin_mm": 0.7,
+    "objective_weights": {
+      "active_gap": 12,
+      "active_horizontal_margin": 15,
+      "black_skin": 7,
+      "neighbor_skin": 5,
+      "source_prior": [
+        0.035,
+        0.045,
+        0.06,
+        0.085
+      ],
+      "moving_surface_floor": 5
+    },
+    "precheck_poses": 13,
+    "per_static_max_nfev": 160,
+    "formal_dynamic_solve_attempts": 0,
+    "new_dynamic_candidates": 0,
+    "parameter_retuning_after_valid_preflight": 0,
+    "status": "PREFLIGHT_CLOSED_FAILED_NO_DYNAMIC_STRATEGY_LAUNCHED",
+    "script_sha256": {
+      "coordination.py": "23c39bb220c59935ce6e78179d29edf2548d97547265652f457f936c081555a1",
+      "static_preflight.py": "6cf0b69601e6d5472d094b5b3622a15e03b3cd1782f8e4765d4ec5cc7a7f1e05",
+      "verify_static_geometry.py": "70b80ba5f3984ff3bcc066361423607589b3ea54454e8eaee5d9a67d63646faa",
+      "scope_and_protection.py": "95a79f003eed1ff42170623c30d56a7d4adf5d61a4a23837ae0ac7e79eb79aed"
+    }
+  },
+  "source_skin_model_parity": {
+    "max_mm": 0.0009310026315898424,
+    "samples": 18,
+    "method": "Original saved quaternions + frozen FK + actual weighted skin, no geometry proxy for black keys"
+  },
+  "actual_static_geometry": {
+    "kind": "Static preflight only; no new Action, keyframes or Blend",
+    "poses": [
+      {
+        "video_sec": 0.0,
+        "music_sec": -0.35,
+        "delta_applied_deg": [
+          [
+            2.86548776020145,
+            2.776404719902935,
+            0.9857541055782592,
+            -0.004888655269364828
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 68,
+            "note": "G#4",
+            "triangle_pairs": 17,
+            "inside_vertices": 13,
+            "deepest_vertex": 878,
+            "depth_mm": 2.6848502457141876,
+            "nearest_actual_surface_mm": 2.6848502457141876,
+            "point_world_m": [
+              0.10901486128568649,
+              0.05210622772574425,
+              0.012601323425769806
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_068.001",
+            "key_surface_point_world_m": [
+              0.10901486128568649,
+              0.04942137748003006,
+              0.012601323425769806
+            ],
+            "patch_face_examples": [
+              [
+                2492,
+                867,
+                27,
+                868
+              ],
+              [
+                1228,
+                27,
+                867,
+                2680
+              ],
+              [
+                233,
+                1228,
+                2680,
+                1226
+              ]
+            ]
+          }
+        ],
+        "black_after": [],
+        "contacts": []
+      },
+      {
+        "video_sec": 0.433333333,
+        "music_sec": 0.08333333300000001,
+        "delta_applied_deg": [
+          [
+            3.899714630759579,
+            3.886075860436414,
+            2.2420168763698696,
+            0.8547568888158682
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 68,
+            "note": "G#4",
+            "triangle_pairs": 28,
+            "inside_vertices": 28,
+            "deepest_vertex": 27,
+            "depth_mm": 4.328347742557526,
+            "nearest_actual_surface_mm": 4.328347742557526,
+            "point_world_m": [
+              0.10660756379365921,
+              0.053749725222587585,
+              0.009214991703629494
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_068.001",
+            "key_surface_point_world_m": [
+              0.10660756379365921,
+              0.04942137748003006,
+              0.009214991703629494
+            ],
+            "patch_face_examples": [
+              [
+                2679,
+                1225,
+                35,
+                878
+              ],
+              [
+                2702,
+                1268,
+                234,
+                1231
+              ],
+              [
+                29,
+                870,
+                2493,
+                871
+              ]
+            ]
+          }
+        ],
+        "black_after": [],
+        "contacts": [
+          {
+            "note_id": "R00",
+            "finger": 5,
+            "note": "D5",
+            "skin": {
+              "gap_mm": 0.5213975656306464,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 1.133333333,
+        "music_sec": 0.783333333,
+        "delta_applied_deg": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.4923801048675957,
+            0.16655383037006075,
+            0.04419502709350346,
+            3.5023448196373916
+          ],
+          [
+            1.1252948095747943,
+            1.9313246276348788,
+            0.6797251050237818,
+            -3.6003649213343927
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 63,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [],
+        "black_after": [],
+        "contacts": [
+          {
+            "note_id": "R02",
+            "finger": 2,
+            "note": "A4",
+            "skin": {
+              "gap_mm": 0.6324919903356215,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 1.4214275,
+        "music_sec": 1.0714275,
+        "delta_applied_deg": [
+          [
+            1.5694874582240614,
+            0.6289717814441127,
+            0.14186404302775302,
+            -0.025104436832052334
+          ],
+          [
+            1.1430348339188905,
+            1.2158567101830409,
+            -0.02686453460423656,
+            5.601845282328053
+          ],
+          [
+            -0.2166238425854164,
+            0.1345277775082592,
+            -0.021528166453052368,
+            -0.22400211645743798
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 54,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 68,
+            "note": "G#4",
+            "triangle_pairs": 12,
+            "inside_vertices": 4,
+            "deepest_vertex": 2679,
+            "depth_mm": 0.6564147770404816,
+            "nearest_actual_surface_mm": 0.6564147770404816,
+            "point_world_m": [
+              0.10979746282100677,
+              0.05007779225707054,
+              0.00832832045853138
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_068.001",
+            "key_surface_point_world_m": [
+              0.10979746282100677,
+              0.04942137748003006,
+              0.008328319527208805
+            ],
+            "patch_face_examples": [
+              [
+                1228,
+                27,
+                867,
+                2680
+              ],
+              [
+                1228,
+                27,
+                867,
+                2680
+              ],
+              [
+                233,
+                1228,
+                2680,
+                1226
+              ]
+            ]
+          }
+        ],
+        "black_after": [],
+        "contacts": [
+          {
+            "note_id": "R04",
+            "finger": 4,
+            "note": "C5",
+            "skin": {
+              "gap_mm": 0.27752311803325,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 1.8,
+        "music_sec": 1.4500000000000002,
+        "delta_applied_deg": [
+          [
+            3.1225729562957385,
+            1.905218777216849,
+            1.1263128755788703,
+            0.6324972083431947
+          ],
+          [
+            -0.39550825940746565,
+            0.04204584944286172,
+            -0.0021983315965603315,
+            1.0018534716790837
+          ],
+          [
+            2.1564235665519274,
+            0.4566407998619204,
+            -0.10963019376038366,
+            -0.9374353940157113
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 40,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 70,
+            "note": "A#4",
+            "triangle_pairs": 18,
+            "inside_vertices": 9,
+            "deepest_vertex": 1231,
+            "depth_mm": 1.5912801027297974,
+            "nearest_actual_surface_mm": 1.5912801027297974,
+            "point_world_m": [
+              0.12762844562530518,
+              0.05101265758275986,
+              0.011663809418678284
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_070.001",
+            "key_surface_point_world_m": [
+              0.12762844562530518,
+              0.04942137748003006,
+              0.011663809418678284
+            ],
+            "patch_face_examples": [
+              [
+                1268,
+                2961,
+                1226,
+                234
+              ],
+              [
+                29,
+                869,
+                2492,
+                870
+              ],
+              [
+                869,
+                28,
+                867,
+                2492
+              ]
+            ]
+          }
+        ],
+        "black_after": [],
+        "contacts": [
+          {
+            "note_id": "R05",
+            "finger": 5,
+            "note": "D5",
+            "skin": {
+              "gap_mm": 0.5488452874753362,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 2.6,
+        "music_sec": 2.25,
+        "delta_applied_deg": [
+          [
+            -3.8588333825733474,
+            18.222034950210237,
+            8.349951677604395,
+            -2.3906161782058
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -5.07141393772516,
+            4.660634574413695,
+            6.430107685019191,
+            -8.337166593697853
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 70,
+            "note": "A#4",
+            "triangle_pairs": 40,
+            "inside_vertices": 45,
+            "deepest_vertex": 35,
+            "depth_mm": 5.603864789009094,
+            "nearest_actual_surface_mm": 5.603864789009094,
+            "point_world_m": [
+              0.1316283792257309,
+              0.055700190365314484,
+              0.006684491410851479
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_070.001",
+            "key_surface_point_world_m": [
+              0.1260245144367218,
+              0.055700186640024185,
+              0.0066844928078353405
+            ],
+            "patch_face_examples": [
+              [
+                871,
+                2493,
+                873,
+                32
+              ],
+              [
+                2493,
+                872,
+                31,
+                873
+              ],
+              [
+                875,
+                31,
+                872,
+                2494
+              ]
+            ]
+          },
+          {
+            "digit": "RING",
+            "midi": 73,
+            "note": "C#5",
+            "triangle_pairs": 23,
+            "inside_vertices": 20,
+            "deepest_vertex": 899,
+            "depth_mm": 3.913372755050659,
+            "nearest_actual_surface_mm": 3.913372755050659,
+            "point_world_m": [
+              0.17939560115337372,
+              0.05333475023508072,
+              0.01060635969042778
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_073.001",
+            "key_surface_point_world_m": [
+              0.17939560115337372,
+              0.04942137748003006,
+              0.01060635969042778
+            ],
+            "patch_face_examples": [
+              [
+                849,
+                2485,
+                847,
+                14
+              ],
+              [
+                849,
+                2485,
+                847,
+                14
+              ],
+              [
+                2504,
+                849,
+                14,
+                901
+              ]
+            ]
+          }
+        ],
+        "black_after": [
+          {
+            "digit": "RING",
+            "midi": 73,
+            "note": "C#5",
+            "triangle_pairs": 6,
+            "inside_vertices": 0,
+            "deepest_vertex": 1183,
+            "depth_mm": 0,
+            "nearest_actual_surface_mm": 0.499361427500844,
+            "point_world_m": [
+              0.18523091077804565,
+              0.04892507568001747,
+              0.011294973082840443
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_073.001",
+            "key_surface_point_world_m": [
+              0.18517571687698364,
+              0.04942137748003006,
+              0.011294973082840443
+            ],
+            "patch_face_examples": [
+              [
+                894,
+                2502,
+                897,
+                48
+              ],
+              [
+                894,
+                2502,
+                897,
+                48
+              ],
+              [
+                2652,
+                894,
+                48,
+                1183
+              ]
+            ]
+          }
+        ],
+        "contacts": [
+          {
+            "note_id": "R07",
+            "finger": 1,
+            "note": "G4",
+            "skin": {
+              "gap_mm": 0.4379940138475107,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 3.4,
+        "music_sec": 3.05,
+        "delta_applied_deg": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.9504388380680907,
+            2.9470896791625427,
+            0.008328912356692407,
+            -0.44337475148649563
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "MIDDLE",
+            "midi": 73,
+            "note": "C#5",
+            "triangle_pairs": 10,
+            "inside_vertices": 1,
+            "deepest_vertex": 2491,
+            "depth_mm": 0.2908967435359955,
+            "nearest_actual_surface_mm": 0.2908967435359955,
+            "point_world_m": [
+              0.17444944381713867,
+              0.049712274223566055,
+              0.001741021522320807
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_073.001",
+            "key_surface_point_world_m": [
+              0.17444944381713867,
+              0.04942137748003006,
+              0.001741022802889347
+            ],
+            "patch_face_examples": [
+              [
+                22,
+                860,
+                2489,
+                861
+              ],
+              [
+                22,
+                860,
+                2489,
+                861
+              ],
+              [
+                2491,
+                860,
+                22,
+                866
+              ]
+            ]
+          }
+        ],
+        "black_after": [
+          {
+            "digit": "MIDDLE",
+            "midi": 73,
+            "note": "C#5",
+            "triangle_pairs": 6,
+            "inside_vertices": 0,
+            "deepest_vertex": 2491,
+            "depth_mm": 0,
+            "nearest_actual_surface_mm": 0.4982389509677887,
+            "point_world_m": [
+              0.17458947002887726,
+              0.04892313852906227,
+              0.0012040833244100213
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_073.001",
+            "key_surface_point_world_m": [
+              0.17458947002887726,
+              0.04942137748003006,
+              0.0012040836736559868
+            ],
+            "patch_face_examples": [
+              [
+                2491,
+                860,
+                22,
+                866
+              ],
+              [
+                2491,
+                860,
+                22,
+                866
+              ],
+              [
+                865,
+                2491,
+                866,
+                26
+              ]
+            ]
+          }
+        ],
+        "contacts": [
+          {
+            "note_id": "R09",
+            "finger": 3,
+            "note": "C5",
+            "skin": {
+              "gap_mm": 0.49981581238403927,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 3.825,
+        "music_sec": 3.475,
+        "delta_applied_deg": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -2.7917931557166455,
+            6.379068954651014,
+            -8.996911449540855,
+            -6.935981619485076
+          ],
+          [
+            2.2928769868812795,
+            -3.918951036124984,
+            14.021193244440472,
+            -4.756347677531148
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 93,
+            "after_face_pairs": 92
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "MIDDLE",
+            "midi": 75,
+            "note": "D#5",
+            "triangle_pairs": 10,
+            "inside_vertices": 1,
+            "deepest_vertex": 26,
+            "depth_mm": 0.7272772490978241,
+            "nearest_actual_surface_mm": 0.7272772490978241,
+            "point_world_m": [
+              0.20809489488601685,
+              0.050148654729127884,
+              0.001152102486230433
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_075.001",
+            "key_surface_point_world_m": [
+              0.20809489488601685,
+              0.04942137748003006,
+              0.0011521023698151112
+            ],
+            "patch_face_examples": [
+              [
+                865,
+                2491,
+                866,
+                26
+              ],
+              [
+                865,
+                2491,
+                866,
+                26
+              ],
+              [
+                26,
+                866,
+                2644,
+                1169
+              ]
+            ]
+          }
+        ],
+        "black_after": [],
+        "contacts": [
+          {
+            "note_id": "R11",
+            "finger": 3,
+            "note": "E5",
+            "skin": {
+              "gap_mm": 0.7518109010293141,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 4.0,
+        "music_sec": 3.65,
+        "delta_applied_deg": [
+          [
+            -0.32869010915097535,
+            -0.16802222569460304,
+            -0.037808945366539885,
+            -0.2683417118575377
+          ],
+          [
+            -2.1687915341154875,
+            6.0136983899906395,
+            1.0999483268078822,
+            -1.1567307149253812
+          ],
+          [
+            -1.1345571099260299,
+            0.5108255394363986,
+            0.36717709362662343,
+            0.28662558842224123
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 73,
+            "note": "C#5",
+            "triangle_pairs": 8,
+            "inside_vertices": 0,
+            "deepest_vertex": 1260,
+            "depth_mm": 0,
+            "nearest_actual_surface_mm": 0.1999884843826294,
+            "point_world_m": [
+              0.18537570536136627,
+              0.05209353193640709,
+              0.015123430639505386
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_073.001",
+            "key_surface_point_world_m": [
+              0.18517571687698364,
+              0.05209353193640709,
+              0.015123430639505386
+            ],
+            "patch_face_examples": [
+              [
+                2699,
+                1262,
+                247,
+                1260
+              ],
+              [
+                2699,
+                1262,
+                247,
+                1260
+              ],
+              [
+                1749,
+                2960,
+                1261,
+                246
+              ]
+            ]
+          },
+          {
+            "digit": "MIDDLE",
+            "midi": 75,
+            "note": "D#5",
+            "triangle_pairs": 19,
+            "inside_vertices": 5,
+            "deepest_vertex": 862,
+            "depth_mm": 1.2090802192687988,
+            "nearest_actual_surface_mm": 1.2090802192687988,
+            "point_world_m": [
+              0.2062993347644806,
+              0.05063045769929886,
+              0.002305777510628104
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_075.001",
+            "key_surface_point_world_m": [
+              0.2062993347644806,
+              0.04942137748003006,
+              0.002305777510628104
+            ],
+            "patch_face_examples": [
+              [
+                18,
+                863,
+                2639,
+                1157
+              ],
+              [
+                18,
+                863,
+                2639,
+                1157
+              ],
+              [
+                863,
+                24,
+                1158,
+                2639
+              ]
+            ]
+          },
+          {
+            "digit": "RING",
+            "midi": 78,
+            "note": "F#5",
+            "triangle_pairs": 17,
+            "inside_vertices": 7,
+            "deepest_vertex": 1175,
+            "depth_mm": 0.5631117504175664,
+            "nearest_actual_surface_mm": 0.5631116800941527,
+            "point_world_m": [
+              0.24929176270961761,
+              0.05178501084446907,
+              0.014547991566359997
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_078.001",
+            "key_surface_point_world_m": [
+              0.24929176270961761,
+              0.05178200826048851,
+              0.015111095272004604
+            ],
+            "patch_face_examples": [
+              [
+                1743,
+                502,
+                1740,
+                2953
+              ],
+              [
+                1174,
+                2648,
+                1176,
+                215
+              ],
+              [
+                2953,
+                1740,
+                215,
+                1176
+              ]
+            ]
+          }
+        ],
+        "black_after": [],
+        "contacts": [
+          {
+            "note_id": "R12",
+            "finger": 4,
+            "note": "F#5",
+            "skin": {
+              "gap_mm": 0.4999594255744016,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 4.05,
+        "music_sec": 3.6999999999999997,
+        "delta_applied_deg": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -9.010890253200927,
+            17.01228469117132,
+            3.5744198475353084,
+            -8.322108007233366
+          ],
+          [
+            0.1645747485696644,
+            -0.1252123133136126,
+            -0.020644014978609928,
+            -0.04664454308083783
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "MIDDLE",
+            "midi": 75,
+            "note": "D#5",
+            "triangle_pairs": 25,
+            "inside_vertices": 27,
+            "deepest_vertex": 1171,
+            "depth_mm": 5.55594265460968,
+            "nearest_actual_surface_mm": 5.55594265460968,
+            "point_world_m": [
+              0.20355825126171112,
+              0.05498187243938446,
+              0.006707541644573212
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_075.001",
+            "key_surface_point_world_m": [
+              0.2091141939163208,
+              0.05498187243938446,
+              0.006707541644573212
+            ],
+            "patch_face_examples": [
+              [
+                1158,
+                2646,
+                1170,
+                207
+              ],
+              [
+                207,
+                1170,
+                2709,
+                1277
+              ],
+              [
+                1277,
+                2709,
+                1282,
+                255
+              ]
+            ]
+          }
+        ],
+        "black_after": [
+          {
+            "digit": "MIDDLE",
+            "midi": 75,
+            "note": "D#5",
+            "triangle_pairs": 8,
+            "inside_vertices": 0,
+            "deepest_vertex": 2709,
+            "depth_mm": 0,
+            "nearest_actual_surface_mm": 0.4983119433745742,
+            "point_world_m": [
+              0.20918141305446625,
+              0.050215281546115875,
+              0.015937937423586845
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_075.001",
+            "key_surface_point_world_m": [
+              0.2091141939163208,
+              0.050215281546115875,
+              0.015444179996848106
+            ],
+            "patch_face_examples": [
+              [
+                2709,
+                1281,
+                256,
+                1282
+              ],
+              [
+                2709,
+                1281,
+                256,
+                1282
+              ],
+              [
+                2709,
+                1281,
+                256,
+                1282
+              ]
+            ]
+          }
+        ],
+        "contacts": [
+          {
+            "note_id": "R12",
+            "finger": 4,
+            "note": "F#5",
+            "skin": {
+              "gap_mm": 0.49998083571843427,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 4.683333333,
+        "music_sec": 4.333333333000001,
+        "delta_applied_deg": [
+          [
+            -2.716577225762699,
+            -2.9504649171316992,
+            -0.46810400478830205,
+            -4.824155387412706
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -2.225693241039292,
+            -4.7510871154103524,
+            -2.84283706501369,
+            -3.8538502523202425
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 70,
+            "note": "A#4",
+            "triangle_pairs": 25,
+            "inside_vertices": 27,
+            "deepest_vertex": 2960,
+            "depth_mm": 3.2314807176589966,
+            "nearest_actual_surface_mm": 3.2314807176589966,
+            "point_world_m": [
+              0.13406728208065033,
+              0.06248190253973007,
+              0.011778523214161396
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_070.001",
+            "key_surface_point_world_m": [
+              0.13729876279830933,
+              0.06248190253973007,
+              0.011778523214161396
+            ],
+            "patch_face_examples": [
+              [
+                2961,
+                1748,
+                233,
+                1226
+              ],
+              [
+                1751,
+                2962,
+                1750,
+                504
+              ],
+              [
+                1751,
+                504,
+                1748,
+                2961
+              ]
+            ]
+          },
+          {
+            "digit": "RING",
+            "midi": 75,
+            "note": "D#5",
+            "triangle_pairs": 29,
+            "inside_vertices": 32,
+            "deepest_vertex": 219,
+            "depth_mm": 4.497046582400799,
+            "nearest_actual_surface_mm": 4.497046582400799,
+            "point_world_m": [
+              0.20447386801242828,
+              0.060262590646743774,
+              0.010947133414447308
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_075.001",
+            "key_surface_point_world_m": [
+              0.20447386801242828,
+              0.060262590646743774,
+              0.015444179996848106
+            ],
+            "patch_face_examples": [
+              [
+                900,
+                13,
+                849,
+                2504
+              ],
+              [
+                49,
+                900,
+                2504,
+                898
+              ],
+              [
+                2951,
+                1741,
+                49,
+                898
+              ]
+            ]
+          }
+        ],
+        "black_after": [
+          {
+            "digit": "RING",
+            "midi": 75,
+            "note": "D#5",
+            "triangle_pairs": 4,
+            "inside_vertices": 0,
+            "deepest_vertex": 219,
+            "depth_mm": 0,
+            "nearest_actual_surface_mm": 0.5792925949208438,
+            "point_world_m": [
+              0.20953041315078735,
+              0.0629337728023529,
+              0.01584709621965885
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_075.001",
+            "key_surface_point_world_m": [
+              0.2091141939163208,
+              0.0629337728023529,
+              0.015444179996848106
+            ],
+            "patch_face_examples": [
+              [
+                218,
+                1181,
+                2651,
+                1179
+              ],
+              [
+                218,
+                1181,
+                2651,
+                1179
+              ],
+              [
+                1181,
+                62,
+                923,
+                2651
+              ]
+            ]
+          }
+        ],
+        "contacts": [
+          {
+            "note_id": "R14",
+            "finger": 1,
+            "note": "G4",
+            "skin": {
+              "gap_mm": 0.32027076457305875,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 4.916666667,
+        "music_sec": 4.566666667000001,
+        "delta_applied_deg": [
+          [
+            -4.209063713514704,
+            -3.490119134686121,
+            -1.2655065266035785,
+            2.7461894577509423
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.735286037981997,
+            10.172115283074534,
+            3.65981567031906,
+            -1.2448646306398696
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 70,
+            "note": "A#4",
+            "triangle_pairs": 28,
+            "inside_vertices": 17,
+            "deepest_vertex": 1267,
+            "depth_mm": 3.3795982599258423,
+            "nearest_actual_surface_mm": 3.3795982599258423,
+            "point_world_m": [
+              0.12940411269664764,
+              0.05494800955057144,
+              0.011216272599995136
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_070.001",
+            "key_surface_point_world_m": [
+              0.1260245144367218,
+              0.05494800955057144,
+              0.011216271668672562
+            ],
+            "patch_face_examples": [
+              [
+                1226,
+                2680,
+                1229,
+                234
+              ],
+              [
+                2680,
+                867,
+                28,
+                1229
+              ],
+              [
+                2680,
+                867,
+                28,
+                1229
+              ]
+            ]
+          },
+          {
+            "digit": "RING",
+            "midi": 73,
+            "note": "C#5",
+            "triangle_pairs": 29,
+            "inside_vertices": 29,
+            "deepest_vertex": 2503,
+            "depth_mm": 5.222201347351074,
+            "nearest_actual_surface_mm": 5.222201347351074,
+            "point_world_m": [
+              0.1795031726360321,
+              0.054643578827381134,
+              0.009204646572470665
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_073.001",
+            "key_surface_point_world_m": [
+              0.1795031726360321,
+              0.04942137748003006,
+              0.009204646572470665
+            ],
+            "patch_face_examples": [
+              [
+                848,
+                12,
+                846,
+                2485
+              ],
+              [
+                849,
+                2485,
+                847,
+                14
+              ],
+              [
+                2504,
+                849,
+                14,
+                901
+              ]
+            ]
+          }
+        ],
+        "black_after": [],
+        "contacts": [
+          {
+            "note_id": "R14",
+            "finger": 1,
+            "note": "G4",
+            "skin": {
+              "gap_mm": 0.49999407077972086,
+              "horizontal_mm": 0.0
+            }
+          }
+        ]
+      },
+      {
+        "video_sec": 5.933333333,
+        "music_sec": 5.583333333000001,
+        "delta_applied_deg": [
+          [
+            -12.157278495849775,
+            19.55226424543732,
+            5.6049669421801696,
+            0.6438745628829438
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -6.237487069583059,
+            11.835004267918553,
+            2.3723975804858366,
+            1.2793586100758085
+          ]
+        ],
+        "pairs": [
+          {
+            "digits": [
+              "INDEX",
+              "MIDDLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "MIDDLE",
+              "RING"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          },
+          {
+            "digits": [
+              "RING",
+              "LITTLE"
+            ],
+            "before_face_pairs": 0,
+            "after_face_pairs": 0
+          }
+        ],
+        "black_before": [
+          {
+            "digit": "INDEX",
+            "midi": 70,
+            "note": "A#4",
+            "triangle_pairs": 20,
+            "inside_vertices": 8,
+            "deepest_vertex": 234,
+            "depth_mm": 2.2649280726909637,
+            "nearest_actual_surface_mm": 2.2649280726909637,
+            "point_world_m": [
+              0.12905842065811157,
+              0.051909949630498886,
+              0.013179251924157143
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_070.001",
+            "key_surface_point_world_m": [
+              0.12905842065811157,
+              0.051909949630498886,
+              0.015444179996848106
+            ],
+            "patch_face_examples": [
+              [
+                1228,
+                27,
+                867,
+                2680
+              ],
+              [
+                1228,
+                27,
+                867,
+                2680
+              ],
+              [
+                2492,
+                867,
+                27,
+                868
+              ]
+            ]
+          },
+          {
+            "digit": "RING",
+            "midi": 73,
+            "note": "C#5",
+            "triangle_pairs": 16,
+            "inside_vertices": 5,
+            "deepest_vertex": 901,
+            "depth_mm": 1.432463526725769,
+            "nearest_actual_surface_mm": 1.432463526725769,
+            "point_world_m": [
+              0.1767297387123108,
+              0.05085384100675583,
+              0.013833901844918728
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_073.001",
+            "key_surface_point_world_m": [
+              0.1767297387123108,
+              0.04942137748003006,
+              0.013833901844918728
+            ],
+            "patch_face_examples": [
+              [
+                849,
+                2485,
+                847,
+                14
+              ],
+              [
+                2504,
+                849,
+                14,
+                901
+              ],
+              [
+                900,
+                13,
+                849,
+                2504
+              ]
+            ]
+          }
+        ],
+        "black_after": [
+          {
+            "digit": "INDEX",
+            "midi": 70,
+            "note": "A#4",
+            "triangle_pairs": 9,
+            "inside_vertices": 0,
+            "deepest_vertex": 1268,
+            "depth_mm": 0,
+            "nearest_actual_surface_mm": 0.4962421953678131,
+            "point_world_m": [
+              0.12689033150672913,
+              0.04892513528466225,
+              0.015181686729192734
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_070.001",
+            "key_surface_point_world_m": [
+              0.12689033150672913,
+              0.04942137748003006,
+              0.015181686729192734
+            ],
+            "patch_face_examples": [
+              [
+                1226,
+                2680,
+                1229,
+                234
+              ],
+              [
+                1226,
+                2680,
+                1229,
+                234
+              ],
+              [
+                1226,
+                2680,
+                1229,
+                234
+              ]
+            ]
+          },
+          {
+            "digit": "RING",
+            "midi": 73,
+            "note": "C#5",
+            "triangle_pairs": 7,
+            "inside_vertices": 0,
+            "deepest_vertex": 14,
+            "depth_mm": 0,
+            "nearest_actual_surface_mm": 0.4983153776265681,
+            "point_world_m": [
+              0.17572057247161865,
+              0.04920554161071777,
+              0.015893327072262764
+            ],
+            "key_object": "R1_GP_V11D_KEY_RENDER_073.001",
+            "key_surface_point_world_m": [
+              0.17572057247161865,
+              0.04942137748003006,
+              0.015444179996848106
+            ],
+            "patch_face_examples": [
+              [
+                2504,
+                849,
+                14,
+                901
+              ],
+              [
+                2504,
+                849,
+                14,
+                901
+              ],
+              [
+                2504,
+                849,
+                14,
+                901
+              ]
+            ]
+          }
+        ],
+        "contacts": []
+      }
+    ],
+    "formal_dynamic_solve_attempts": 0,
+    "new_dynamic_candidates": 0
+  },
+  "static_numerical_termination": {
+    "kind": "ONE_FINITE_STATIC_PREFLIGHT_BATCH_NOT_DYNAMIC",
+    "root_locked": true,
+    "poses": [
+      {
+        "video_sec": 0.0,
+        "music_sec": -0.35,
+        "delta_deg": [
+          [
+            2.86548776020145,
+            2.776404719902935,
+            0.9857541055782592,
+            -0.004888655269364828
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "actual_degrees": [
+          [
+            16.95541189056167,
+            22.091526543976887,
+            12.437546870013499,
+            -2.1035001167150233
+          ],
+          [
+            3.6856068705941345,
+            7.087950567849936,
+            4.192869381765433,
+            -7.259796864309055
+          ],
+          [
+            6.937325676493059,
+            11.198405749423209,
+            6.7501548692091715,
+            6.763637480292812
+          ]
+        ],
+        "success": false,
+        "nfev": 160,
+        "cost": 0.014583911774840391,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "max_black_constraint_residual_mm": 0.00017108131035404803,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": []
+      },
+      {
+        "video_sec": 0.433333333,
+        "music_sec": 0.08333333300000001,
+        "delta_deg": [
+          [
+            3.899714630759579,
+            3.886075860436414,
+            2.2420168763698696,
+            0.8547568888158682
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "actual_degrees": [
+          [
+            16.017488416214665,
+            24.129676831582017,
+            14.911571161777086,
+            2.073588846670617
+          ],
+          [
+            3.5601973896577777,
+            8.523770501890674,
+            5.313144075713609,
+            -7.641130997424619
+          ],
+          [
+            5.278566761819757,
+            10.313622174410614,
+            6.547417554736579,
+            7.162326851070006
+          ]
+        ],
+        "success": false,
+        "nfev": 160,
+        "cost": 0.036292394761440985,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "max_black_constraint_residual_mm": 0.0,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": []
+      },
+      {
+        "video_sec": 1.133333333,
+        "music_sec": 0.783333333,
+        "delta_deg": [
+          [
+            0.3307586081809104,
+            -0.27210187378710016,
+            -0.15867580748958166,
+            0.02117327236613645
+          ],
+          [
+            0.4923801048675957,
+            0.16655383037006075,
+            0.04419502709350346,
+            3.5023448196373916
+          ],
+          [
+            1.1252948095747943,
+            1.9313246276348788,
+            0.6797251050237818,
+            -3.6003649213343927
+          ]
+        ],
+        "actual_degrees": [
+          [
+            28.53675826933361,
+            11.638082899953435,
+            0.667242882234532,
+            -8.030892047249955
+          ],
+          [
+            2.3538539733341595,
+            27.060066664200164,
+            20.015811526920857,
+            -10.152815354031546
+          ],
+          [
+            7.234469676115171,
+            10.84772469936974,
+            7.516057067085803,
+            5.451793683837295
+          ]
+        ],
+        "success": false,
+        "nfev": 160,
+        "cost": 0.09723182658543957,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "max_black_constraint_residual_mm": 0.0,
+        "max_pair_constraint_residual_mm": 0.0010178339851870666,
+        "contacts": [
+          {
+            "t": 1.133333333,
+            "note": "R02",
+            "gap_mm": 0.5000542419793531,
+            "horizontal_margin_violation_mm": 0.0,
+            "pad_movement_mm": 0.18348375587863594
+          }
+        ]
+      },
+      {
+        "video_sec": 1.4214275,
+        "music_sec": 1.0714275,
+        "delta_deg": [
+          [
+            1.5694874582240614,
+            0.6289717814441127,
+            0.14186404302775302,
+            -0.025104436832052334
+          ],
+          [
+            1.1430348339188905,
+            1.2158567101830409,
+            -0.02686453460423656,
+            5.601845282328053
+          ],
+          [
+            -0.2166238425854164,
+            0.1345277775082592,
+            -0.021528166453052368,
+            -0.22400211645743798
+          ]
+        ],
+        "actual_degrees": [
+          [
+            11.647498930055004,
+            13.16129143209514,
+            6.327242309980438,
+            -7.843774193767609
+          ],
+          [
+            9.690561703511026,
+            22.260404355964926,
+            13.931872014850764,
+            -9.525720428355399
+          ],
+          [
+            10.453417409094186,
+            2.421460563532313,
+            1.5021699898116962,
+            5.610816819936501
+          ]
+        ],
+        "success": true,
+        "nfev": 145,
+        "cost": 0.12345841257828401,
+        "message": "`ftol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 7.472303577239423e-05,
+        "max_pair_constraint_residual_mm": 0.0015898361471465838,
+        "contacts": [
+          {
+            "t": 1.4214275,
+            "note": "R04",
+            "gap_mm": 0.4999069006632954,
+            "horizontal_margin_violation_mm": 0.0,
+            "pad_movement_mm": 0.29140715012465324
+          }
+        ]
+      },
+      {
+        "video_sec": 1.8,
+        "music_sec": 1.4500000000000002,
+        "delta_deg": [
+          [
+            3.1225729562957385,
+            1.905218777216849,
+            1.1263128755788703,
+            0.6324972083431947
+          ],
+          [
+            -0.39550825940746565,
+            0.04204584944286172,
+            -0.0021983315965603315,
+            1.0018534716790837
+          ],
+          [
+            2.1564235665519274,
+            0.4566407998619204,
+            -0.10963019376038366,
+            -0.9374353940157113
+          ]
+        ],
+        "actual_degrees": [
+          [
+            15.537161390017957,
+            16.459343307510753,
+            8.916477516761864,
+            -10.09919295101886
+          ],
+          [
+            1.7291846031083513,
+            12.558526279729728,
+            9.200007770675073,
+            -9.030777779983051
+          ],
+          [
+            4.724263478481475,
+            16.237198027882734,
+            13.195094286762926,
+            11.52298594469079
+          ]
+        ],
+        "success": false,
+        "nfev": 160,
+        "cost": 0.023357988788493565,
+        "message": "The maximum number of function evaluations is exceeded.",
+        "max_black_constraint_residual_mm": 0.0001885737798630648,
+        "max_pair_constraint_residual_mm": 0.00039813520182407913,
+        "contacts": []
+      },
+      {
+        "video_sec": 2.6,
+        "music_sec": 2.25,
+        "delta_deg": [
+          [
+            -3.8588333825733474,
+            18.222034950210237,
+            8.349951677604395,
+            -2.3906161782058
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -5.07141393772516,
+            4.660634574413695,
+            6.430107685019191,
+            -8.337166593697853
+          ]
+        ],
+        "actual_degrees": [
+          [
+            13.005950207905112,
+            35.60489657730051,
+            17.402950215930296,
+            -16.17717880804597
+          ],
+          [
+            3.1715943055835183,
+            7.422146946711771,
+            5.100945177191721,
+            -5.802331835421396
+          ],
+          [
+            2.5148783323634794,
+            18.321539702418466,
+            15.407982329248009,
+            -3.2112337286059045
+          ]
+        ],
+        "success": true,
+        "nfev": 69,
+        "cost": 790.9856153078773,
+        "message": "`ftol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 0.003478268850290022,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": []
+      },
+      {
+        "video_sec": 3.4,
+        "music_sec": 3.05,
+        "delta_deg": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -0.9504388380680907,
+            2.9470896791625427,
+            0.008328912356692407,
+            -0.44337475148649563
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "actual_degrees": [
+          [
+            8.480186383402222,
+            13.071115064952393,
+            7.902505733388905,
+            -12.818457748253973
+          ],
+          [
+            12.65333888155848,
+            17.971227904918635,
+            13.193044076458273,
+            -9.429896248408742
+          ],
+          [
+            2.19777408070903,
+            5.419123417244077,
+            8.205334162845926,
+            -0.8285798890057704
+          ]
+        ],
+        "success": true,
+        "nfev": 20,
+        "cost": 0.03235913387963286,
+        "message": "`ftol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 0.0017107177207177464,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": [
+          {
+            "t": 3.4,
+            "note": "R09",
+            "gap_mm": 0.49985413701788595,
+            "horizontal_margin_violation_mm": 0.0,
+            "pad_movement_mm": 1.0650467958868586
+          }
+        ]
+      },
+      {
+        "video_sec": 3.825,
+        "music_sec": 3.475,
+        "delta_deg": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -2.7917931557166455,
+            6.379068954651014,
+            -8.996911449540855,
+            -6.935981619485076
+          ],
+          [
+            2.2928769868812795,
+            -3.918951036124984,
+            14.021193244440472,
+            -4.756347677531148
+          ]
+        ],
+        "actual_degrees": [
+          [
+            8.463417161607975,
+            11.399332800560332,
+            6.647068396341571,
+            -12.024344111788292
+          ],
+          [
+            12.41117637488473,
+            14.00078699613858,
+            0.0033018718220798604,
+            -23.28083914404969
+          ],
+          [
+            12.414372981146943,
+            0.010163392086715017,
+            17.450450121055145,
+            13.080343048656772
+          ]
+        ],
+        "success": true,
+        "nfev": 27,
+        "cost": 21687.933398994042,
+        "message": "`xtol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 0.0,
+        "max_pair_constraint_residual_mm": 7.63360808765256,
+        "contacts": [
+          {
+            "t": 3.825,
+            "note": "R11",
+            "gap_mm": 0.7518280530149133,
+            "horizontal_margin_violation_mm": 0.0,
+            "pad_movement_mm": 7.054020619724279
+          }
+        ]
+      },
+      {
+        "video_sec": 4.0,
+        "music_sec": 3.65,
+        "delta_deg": [
+          [
+            -0.32869010915097535,
+            -0.16802222569460304,
+            -0.037808945366539885,
+            -0.2683417118575377
+          ],
+          [
+            -2.1687915341154875,
+            6.0136983899906395,
+            1.0999483268078822,
+            -1.1567307149253812
+          ],
+          [
+            -1.1345571099260299,
+            0.5108255394363986,
+            0.36717709362662343,
+            0.28662558842224123
+          ]
+        ],
+        "actual_degrees": [
+          [
+            11.764145621397244,
+            12.840486070639388,
+            6.886487255157202,
+            -10.988829132981053
+          ],
+          [
+            21.590888251671263,
+            30.889598245478055,
+            16.694137072797453,
+            0.44420271277486
+          ],
+          [
+            5.381323977382918,
+            1.6730186523748194,
+            0.48252423371077213,
+            -4.775599744504406
+          ]
+        ],
+        "success": true,
+        "nfev": 51,
+        "cost": 0.05059747755285843,
+        "message": "`ftol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 0.0004585211078877993,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": [
+          {
+            "t": 4.0,
+            "note": "R12",
+            "gap_mm": 0.4999460312827084,
+            "horizontal_margin_violation_mm": 0.0,
+            "pad_movement_mm": 0.9852006370851202
+          }
+        ]
+      },
+      {
+        "video_sec": 4.05,
+        "music_sec": 3.6999999999999997,
+        "delta_deg": [
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -9.010890253200927,
+            17.01228469117132,
+            3.5744198475353084,
+            -8.322108007233366
+          ],
+          [
+            0.1645747485696644,
+            -0.1252123133136126,
+            -0.020644014978609928,
+            -0.04664454308083783
+          ]
+        ],
+        "actual_degrees": [
+          [
+            11.81739761255817,
+            12.953917512926802,
+            6.891072877491167,
+            -9.883389332807239
+          ],
+          [
+            9.80593686284952,
+            43.67166368193041,
+            21.411111134567044,
+            -6.995218499898048
+          ],
+          [
+            13.910890150063434,
+            1.8103651711390003,
+            1.000000871942408e-06,
+            -6.734185120429119
+          ]
+        ],
+        "success": true,
+        "nfev": 11,
+        "cost": 0.6163445118247671,
+        "message": "`ftol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 0.0024227454358395455,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": [
+          {
+            "t": 4.05,
+            "note": "R12",
+            "gap_mm": 0.500014415569008,
+            "horizontal_margin_violation_mm": 0.0,
+            "pad_movement_mm": 0.11911782025063009
+          }
+        ]
+      },
+      {
+        "video_sec": 4.683333333,
+        "music_sec": 4.333333333000001,
+        "delta_deg": [
+          [
+            -2.716577225762699,
+            -2.9504649171316992,
+            -0.46810400478830205,
+            -4.824155387412706
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -2.225693241039292,
+            -4.7510871154103524,
+            -2.84283706501369,
+            -3.8538502523202425
+          ]
+        ],
+        "actual_degrees": [
+          [
+            5.897623330851267,
+            9.503658055843585,
+            6.13868084548232,
+            14.364816885979224
+          ],
+          [
+            0.1904560197367383,
+            0.4531187167948656,
+            0.6475428238834017,
+            -4.153885635759875
+          ],
+          [
+            1.528476150655775,
+            4.937635348418747,
+            7.167871366928225,
+            4.719644127743784
+          ]
+        ],
+        "success": true,
+        "nfev": 32,
+        "cost": 809.91487446656,
+        "message": "`ftol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 0.0011619297773490366,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": []
+      },
+      {
+        "video_sec": 4.916666667,
+        "music_sec": 4.566666667000001,
+        "delta_deg": [
+          [
+            -4.209063713514704,
+            -3.490119134686121,
+            -1.2655065266035785,
+            2.7461894577509423
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.735286037981997,
+            10.172115283074534,
+            3.65981567031906,
+            -1.2448646306398696
+          ]
+        ],
+        "actual_degrees": [
+          [
+            8.441169159946785,
+            11.057219314190458,
+            6.308023644284521,
+            7.902404332671839
+          ],
+          [
+            2.1844786886329235,
+            2.67163619288861,
+            1.5923989798946558,
+            -5.16104124374114
+          ],
+          [
+            11.393748841890979,
+            24.284509784340266,
+            14.004232467879707,
+            7.102193548724796
+          ]
+        ],
+        "success": true,
+        "nfev": 45,
+        "cost": 775.0103958401598,
+        "message": "`ftol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 0.0016979327992629016,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": []
+      },
+      {
+        "video_sec": 5.933333333,
+        "music_sec": 5.583333333000001,
+        "delta_deg": [
+          [
+            -12.157278495849775,
+            19.55226424543732,
+            5.6049669421801696,
+            0.6438745628829438
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            -6.237487069583059,
+            11.835004267918553,
+            2.3723975804858366,
+            1.2793586100758085
+          ]
+        ],
+        "actual_degrees": [
+          [
+            5.162853643762981,
+            36.61479191814752,
+            14.375978767062595,
+            -9.439932647447183
+          ],
+          [
+            3.834560891056746,
+            4.53069542383828,
+            2.298602097521576,
+            -6.344588142969462
+          ],
+          [
+            5.30153730798575,
+            25.453661249102353,
+            10.02428598295084,
+            7.203113137829568
+          ]
+        ],
+        "success": true,
+        "nfev": 46,
+        "cost": 0.7181237473076783,
+        "message": "`ftol` termination condition is satisfied.",
+        "max_black_constraint_residual_mm": 0.0037906642224162616,
+        "max_pair_constraint_residual_mm": 0.0,
+        "contacts": []
+      }
+    ],
+    "dynamic_candidates": 0,
+    "formal_solve_attempts": 0,
+    "elapsed_sec": 107.53199999999924,
+    "complete": true
+  },
+  "asset_preservation": {
+    "pass_": true,
+    "source_files_verified": 6471,
+    "changed": [],
+    "static_files_verified": 20,
+    "static_changed": [],
+    "new_saved_actions": 0,
+    "new_blends": 0,
+    "historical_directory_recovered": true,
+    "implementation_note": "Initial export helper wrote one newly named manifest to R2 due to inherited output-directory binding. No existing file was overwritten. It was moved immediately into R4, helper binding fixed, and absence in R2 verified. This incident is disclosed; final historical assets and reports are unchanged."
+  },
+  "original_contact_evidence": {
+    "samples": 1148,
+    "note_ids": [
+      "L00",
+      "L01",
+      "L02",
+      "L03",
+      "L04",
+      "L05",
+      "L06",
+      "R00",
+      "R01",
+      "R02",
+      "R03",
+      "R04",
+      "R05",
+      "R06",
+      "R07",
+      "R08",
+      "R09",
+      "R10",
+      "R11",
+      "R12",
+      "R13",
+      "R14",
+      "R15"
+    ],
+    "max_skin_gap_mm": 2.045950699280319,
+    "max_marker_gap_mm": 2.0258718632428194,
+    "max_horizontal_miss_mm": 0.0,
+    "max_actual_key_mesh_nearest_mm": 2.045950386673212,
+    "max_moving_key_mesh_vs_authoritative_table_mm": 1.3924741274518956e-05,
+    "original_timeline_sha256": "7fe5541fe9a1cfcca881ff6b22f34f70973402593d1cba4d863a0db069507d5d",
+    "source_audio_sha256": "8f884ee49aa386dc798716985c3c7cc8dd708a39166ad67a4253b9eeed4f6803"
+  },
+  "formal_dynamic_execution": {
+    "attempts": 0,
+    "candidates": 0,
+    "bakes": 0,
+    "save_reopen": "NOT_APPLICABLE_NO_CANDIDATE",
+    "velocity_acceleration_continuity": "NOT_RUN_FOR_NEW_MOTION",
+    "second_formal_attempt": false
+  },
+  "limitations": [
+    "Finite static constraints do not certify temporal feasibility",
+    "Signed local nearest-surface field is an optimizer guide; BVH and visible evidence overrule numerical success",
+    "No proof of global infeasibility or root necessity",
+    "No full 88-key forensic or whole hand scan",
+    "An invalid development floor check is retained and excluded; one valid 13-pose preflight batch remains the decision basis"
+  ]
+}

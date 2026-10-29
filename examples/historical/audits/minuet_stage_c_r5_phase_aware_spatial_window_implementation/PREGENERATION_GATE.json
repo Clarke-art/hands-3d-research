@@ -1,0 +1,217 @@
+{
+  "status": "FAIL_CLOSED",
+  "reason": "IMMUTABLE_BOUNDARY_NON_TARGET_KEY_PENETRATION",
+  "proof": "Boundary equality q=q_source, root=root_source and unchanged key geometry/clock uniquely preserve source skin; measured non-target penetration exceeds 0.5mm at all four endpoints. Even excluding the exact endpoint cannot repair the immediate interior continuously.",
+  "boundary_violations": [
+    {
+      "window": 0,
+      "edge": "start",
+      "video_sec": 0.778571,
+      "digit": "INDEX",
+      "midi": 68,
+      "note": "G#4",
+      "inside_vertices": 13,
+      "max_internal_depth_mm": 2.602214924991131,
+      "witness_vertex": 1240,
+      "witness_world_m": [
+        0.11041860282421112,
+        0.05202951654791832,
+        0.012841965071856976
+      ],
+      "nearest_key_surface_world_m": [
+        0.11041860282421112,
+        0.05202951654791832,
+        0.015444179996848106
+      ],
+      "distance_to_actual_key_surface_mm": 2.602214924991131,
+      "convex_verified": true,
+      "intersecting_face_pairs": 22,
+      "slack_mm": -2.102214924991131,
+      "hard_violation": true
+    },
+    {
+      "window": 0,
+      "edge": "start",
+      "video_sec": 0.778571,
+      "digit": "RING",
+      "midi": 73,
+      "note": "C#5",
+      "inside_vertices": 4,
+      "max_internal_depth_mm": 1.5112906694412231,
+      "witness_vertex": 51,
+      "witness_world_m": [
+        0.17541275918483734,
+        0.0513150654733181,
+        0.012726090848445892
+      ],
+      "nearest_key_surface_world_m": [
+        0.17390146851539612,
+        0.0513150617480278,
+        0.012726090848445892
+      ],
+      "distance_to_actual_key_surface_mm": 1.5112906694412231,
+      "convex_verified": true,
+      "intersecting_face_pairs": 15,
+      "slack_mm": -1.0112906694412231,
+      "hard_violation": true
+    },
+    {
+      "window": 0,
+      "edge": "end",
+      "video_sec": 2.134284,
+      "digit": "INDEX",
+      "midi": 70,
+      "note": "A#4",
+      "inside_vertices": 7,
+      "max_internal_depth_mm": 1.485198736190796,
+      "witness_vertex": 250,
+      "witness_world_m": [
+        0.1275097131729126,
+        0.054804686456918716,
+        0.01376332901418209
+      ],
+      "nearest_key_surface_world_m": [
+        0.1260245144367218,
+        0.054804686456918716,
+        0.01376332901418209
+      ],
+      "distance_to_actual_key_surface_mm": 1.485198736190796,
+      "convex_verified": true,
+      "intersecting_face_pairs": 19,
+      "slack_mm": -0.9851987361907959,
+      "hard_violation": true
+    },
+    {
+      "window": 1,
+      "edge": "start",
+      "video_sec": 2.741426,
+      "digit": "INDEX",
+      "midi": 70,
+      "note": "A#4",
+      "inside_vertices": 23,
+      "max_internal_depth_mm": 3.595493733882904,
+      "witness_vertex": 35,
+      "witness_world_m": [
+        0.13346922397613525,
+        0.053016871213912964,
+        0.009256161749362946
+      ],
+      "nearest_key_surface_world_m": [
+        0.13346922397613525,
+        0.04942137748003006,
+        0.009256160818040371
+      ],
+      "distance_to_actual_key_surface_mm": 3.595493733882904,
+      "convex_verified": true,
+      "intersecting_face_pairs": 25,
+      "slack_mm": -3.095493733882904,
+      "hard_violation": true
+    },
+    {
+      "window": 1,
+      "edge": "start",
+      "video_sec": 2.741426,
+      "digit": "RING",
+      "midi": 73,
+      "note": "C#5",
+      "inside_vertices": 5,
+      "max_internal_depth_mm": 1.4168024063110352,
+      "witness_vertex": 2952,
+      "witness_world_m": [
+        0.18129639327526093,
+        0.050838179886341095,
+        0.013514040969312191
+      ],
+      "nearest_key_surface_world_m": [
+        0.18129639327526093,
+        0.04942137748003006,
+        0.013514040969312191
+      ],
+      "distance_to_actual_key_surface_mm": 1.4168024063110352,
+      "convex_verified": true,
+      "intersecting_face_pairs": 16,
+      "slack_mm": -0.9168024063110352,
+      "hard_violation": true
+    },
+    {
+      "window": 1,
+      "edge": "end",
+      "video_sec": 4.70571,
+      "digit": "INDEX",
+      "midi": 70,
+      "note": "A#4",
+      "inside_vertices": 4,
+      "max_internal_depth_mm": 0.583454966545105,
+      "witness_vertex": 1265,
+      "witness_world_m": [
+        0.1266079694032669,
+        0.05948213115334511,
+        0.014783702790737152
+      ],
+      "nearest_key_surface_world_m": [
+        0.1260245144367218,
+        0.059482134878635406,
+        0.014783702790737152
+      ],
+      "distance_to_actual_key_surface_mm": 0.583454966545105,
+      "convex_verified": true,
+      "intersecting_face_pairs": 13,
+      "slack_mm": -0.08345496654510498,
+      "hard_violation": true
+    },
+    {
+      "window": 1,
+      "edge": "end",
+      "video_sec": 4.70571,
+      "digit": "RING",
+      "midi": 75,
+      "note": "D#5",
+      "inside_vertices": 14,
+      "max_internal_depth_mm": 2.386147156357765,
+      "witness_vertex": 1173,
+      "witness_world_m": [
+        0.20042812824249268,
+        0.06118285655975342,
+        0.013058032840490341
+      ],
+      "nearest_key_surface_world_m": [
+        0.20042812824249268,
+        0.06118285655975342,
+        0.015444179996848106
+      ],
+      "distance_to_actual_key_surface_mm": 2.386147156357765,
+      "convex_verified": true,
+      "intersecting_face_pairs": 25,
+      "slack_mm": -1.8861471563577652,
+      "hard_violation": true
+    }
+  ],
+  "roles_pass": true,
+  "spatial_kernel": "PARTIAL_ACTUAL_GEOMETRY_BOUNDARY_QUERY",
+  "feasibility_solver": "NOT_IMPLEMENTED_STOPPED_AT_BOUNDARY_GATE",
+  "formal_dynamic_solve_attempts": 0,
+  "new_static_solves": 0,
+  "nfev": 0,
+  "major_iterations": 0,
+  "optimizer_status": "NOT_STARTED_GATE_BLOCKED",
+  "dynamic_candidate_count": 0,
+  "backend_method": "NOT_LOCKED_NOT_RUN",
+  "backend_function_evaluation_limit": "NOT_LOCKED_NOT_RUN",
+  "authorized_budget_only": {
+    "max_major_iterations": 200,
+    "max_wall_seconds": 1800
+  },
+  "new_blend": "NOT_RUN",
+  "new_action": "NOT_RUN",
+  "new_video": "NOT_RUN",
+  "root_expansion": false,
+  "window_expansion": false,
+  "tolerance_relaxation": false,
+  "script_hashes": {
+    "event_phase_plan.py": "aa259e8694abd9ee6fc9c5d2c87ee4c4cd8e94d24134cd415e0c586e8c2852c2",
+    "local_spatial_constraints.py": "cce8b1a2fe9c6dab95705d456e0d267772562b162c8440f6aebd7208bb410fb8",
+    "precheck_setup.py": "af7c53b48079a0aa6f4eb236cd67e38ae69a0dc8fd1afa915fd3011109af3101",
+    "boundary_readonly.py": "822167dc54fdb463c2acd175319f9f0b8735bfa0c6f024dfc2cdb88b377d59b4"
+  },
+  "stop": "STOP — HUMAN REVIEW"
+}

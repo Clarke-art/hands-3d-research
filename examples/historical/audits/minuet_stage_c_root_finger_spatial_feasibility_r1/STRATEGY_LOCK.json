@@ -1,0 +1,76 @@
+{
+  "baseline": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+  "purpose": "FINITE_STATIC_A_B_COMPARISON_ONLY",
+  "times_video_sec": [
+    3.75,
+    3.825,
+    3.85
+  ],
+  "times_music_sec": [
+    3.4,
+    3.475,
+    3.5
+  ],
+  "fixed_A": "Reuse R4 valid 3.825s 12-DOF result without any fixed-root reoptimization; neighboring original R1 states are references only, not optimized A solutions.",
+  "joint_degrees": [
+    "MCP flex",
+    "PIP flex",
+    "DIP flex",
+    "MCP spread"
+  ],
+  "joint_delta_limits": [
+    18.0,
+    25.0,
+    22.0,
+    14.0
+  ],
+  "joint_absolute_bounds": [
+    [
+      0,
+      75
+    ],
+    [
+      0,
+      95
+    ],
+    [
+      0,
+      65
+    ],
+    [
+      -28,
+      28
+    ]
+  ],
+  "root_dofs": [
+    "world X mm",
+    "world Y mm",
+    "world Z mm",
+    "world X pitch deg",
+    "world Z yaw deg"
+  ],
+  "root_bounds_symmetric": [
+    3.0,
+    5.0,
+    3.0,
+    2.0,
+    2.0
+  ],
+  "root_pivot": "Original WRIST_R world position; world rotation vector [pitch,0,yaw], no roll parameter",
+  "range_rationale": "X <=3 mm: <27% of 11.274 mm black-key width; Y <=5 mm: <8% of 64.866 mm black-key length; Z <=3 mm: <20% of 15.444 mm black-key height. Original wrist local envelope saved separately; these conservative research caps are not a proven naturalness threshold. Rotations capped at 2 degrees, same order as original late local orientation excursion; original total route untouched.",
+  "objective": "Identical R4 skin, active/release moving surface, 7 local black keys, adjacent pairs, source joint prior; add root normalized L2 weight2. No new release target or joint-domain relaxation.",
+  "seed": "Original C1 zero joint/root increments independently for each of three static states; no multistart, no choosing among outcomes.",
+  "per_pose_max_nfev": 160,
+  "ftol": 1e-07,
+  "xtol": 1e-07,
+  "gtol": 1e-07,
+  "diff_step": 0.0001,
+  "termination_policy": "Save every result and validate exact Blender skin; no parameter retuning, range expansion or rerun. Independent static samples do not establish temporal continuity.",
+  "actual_validation": "E5/D5 actual pad gap <=2 mm and horizontal <=0.5 mm; local actual skin intersection witnesses and black key depth, three unchanged source cameras; no numerical success alone establishes feasibility.",
+  "script_sha256": {
+    "bounded_static.py": "7bf8f8bbab9d319517a5ae14107b79f03eb11aba6ce34831218a0f1f465f0164",
+    "coordination.py": "23c39bb220c59935ce6e78179d29edf2548d97547265652f457f936c081555a1"
+  },
+  "new_dynamic_solves": 0,
+  "new_dynamic_candidates": 0
+}

@@ -1,0 +1,78 @@
+{
+  "status": "PASS",
+  "paths": {
+    "CORRECTED": {
+      "status": "PASS",
+      "vertex_vector_count": 3416,
+      "exact_including_zero_entry_count": 0,
+      "explicit_zero_entry_count": 0,
+      "weight_scalar_drift": 0,
+      "GROUP_SET_ORDER_UNCHANGED": "PASS",
+      "group_count": 0,
+      "group_order": [],
+      "source_exact_weight_payload_sha256": "61c72638bfb9414eb9726b62d85b3090ef320ec8f263b629f37d2461a3020f48",
+      "derived_exact_weight_payload_sha256": "61c72638bfb9414eb9726b62d85b3090ef320ec8f263b629f37d2461a3020f48",
+      "positive_weight_vector_sha256": "df7a6354be042be8a8d17663b3e927c56f92e1cc439bb87c6e93c175f4b7f421",
+      "edge5879_native_endpoints": [
+        1551,
+        3125
+      ],
+      "edge5879_weights_unchanged": {
+        "1551": {},
+        "3125": {}
+      },
+      "qualification": "Payload inheritance only; cap37/old_cap9/FIRST_WEB/317 and 16 inherited static debts not requalified"
+    },
+    "R2": {
+      "status": "PASS",
+      "vertex_vector_count": 3416,
+      "exact_including_zero_entry_count": 10627,
+      "explicit_zero_entry_count": 0,
+      "weight_scalar_drift": 0,
+      "GROUP_SET_ORDER_UNCHANGED": "PASS",
+      "group_count": 16,
+      "group_order": [
+        "WRIST_R",
+        "THUMB_CMC_R",
+        "THUMB_MCP_R",
+        "THUMB_IP_R",
+        "INDEX_MCP_R",
+        "INDEX_PIP_R",
+        "INDEX_DIP_R",
+        "MIDDLE_MCP_R",
+        "MIDDLE_PIP_R",
+        "MIDDLE_DIP_R",
+        "RING_MCP_R",
+        "RING_PIP_R",
+        "RING_DIP_R",
+        "LITTLE_MCP_R",
+        "LITTLE_PIP_R",
+        "LITTLE_DIP_R"
+      ],
+      "source_exact_weight_payload_sha256": "0be76dd258aab54c8fe91422911e076e45d87e03a7e383e2cb44b4f6ebce80b7",
+      "derived_exact_weight_payload_sha256": "0be76dd258aab54c8fe91422911e076e45d87e03a7e383e2cb44b4f6ebce80b7",
+      "positive_weight_vector_sha256": "1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55",
+      "edge5879_native_endpoints": [
+        1551,
+        3125
+      ],
+      "edge5879_weights_unchanged": {
+        "1551": {
+          "WRIST_R": 0.8708838820457458,
+          "INDEX_MCP_R": 0.1086227297782898,
+          "INDEX_PIP_R": 0.010395855642855167,
+          "INDEX_DIP_R": 0.010097541846334934
+        },
+        "3125": {
+          "WRIST_R": 0.810614287853241,
+          "THUMB_CMC_R": 0.019935186952352524,
+          "THUMB_MCP_R": 0.020576516166329384,
+          "INDEX_MCP_R": 0.14887401461601257
+        }
+      },
+      "qualification": "Payload inheritance only; cap37/old_cap9/FIRST_WEB/317 and 16 inherited static debts not requalified"
+    }
+  },
+  "R2_authority_positive_vector_sha256": "1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55",
+  "any_weight_group_creation_normalization_smoothing_solver_or_rebinding_run": false
+}

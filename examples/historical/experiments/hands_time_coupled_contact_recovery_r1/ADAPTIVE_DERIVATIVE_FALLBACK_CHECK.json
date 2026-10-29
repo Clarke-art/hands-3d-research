@@ -1,0 +1,61 @@
+{
+  "status": "OBSERVED_COUPLED_BRANCH_VERIFIED",
+  "full_checked_jacobian_seconds": 7.779478599997674,
+  "guards": [
+    {
+      "status": "LOCAL_DIFFERENCE_CONSISTENT",
+      "steps": [
+        {
+          "h": 1e-05,
+          "max_abs_difference": 0.018561736681022012
+        },
+        {
+          "h": 1e-06,
+          "max_abs_difference": 2.1231905122376382e-06
+        }
+      ],
+      "universal_smoothness": false
+    },
+    {
+      "status": "LOCAL_DIFFERENCE_CONSISTENT",
+      "steps": [
+        {
+          "h": 1e-05,
+          "max_abs_difference": 2.983613356932757e-07
+        }
+      ],
+      "universal_smoothness": false
+    },
+    {
+      "status": "LOCAL_DIFFERENCE_CONSISTENT",
+      "steps": [
+        {
+          "h": 1e-05,
+          "max_abs_difference": 3.83026943495679e-07
+        }
+      ],
+      "universal_smoothness": false
+    }
+  ],
+  "directional_checks": [
+    {
+      "h": 1e-05,
+      "max_abs": 0.009823221778472016,
+      "relative": 0.00014395203815160574
+    },
+    {
+      "h": 1e-06,
+      "max_abs": 1.1639950709962932e-06,
+      "relative": 6.094047172704675e-08
+    },
+    {
+      "h": 1e-07,
+      "max_abs": 4.1360871425311085e-06,
+      "relative": 2.3442883944728794e-07
+    }
+  ],
+  "no_solver_executed": true,
+  "actual_solver_derivatives": "Historical main/correction used single-step current-geometry FD; this stricter adaptive guard was added and independently validated afterward, not claimed retroactively.",
+  "global_smoothness": false,
+  "wall_seconds": 9.812999999998283
+}

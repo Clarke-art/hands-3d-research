@@ -1,0 +1,231 @@
+{
+  "DISTAL": {
+    "endpoint_ring": "R00",
+    "termination_authority": "UNRESOLVED",
+    "two_face_row_continuation_probe": [
+      {
+        "hop": 1,
+        "records": [
+          {
+            "incoming_edge": 4475,
+            "outward_face_ids": [
+              1177
+            ],
+            "unique_quad_continuation": true,
+            "opposite_outward_edge": 1132,
+            "face_vertex_ids": [
+              1397,
+              304,
+              1399,
+              2774
+            ]
+          },
+          {
+            "incoming_edge": 4477,
+            "outward_face_ids": [
+              1176
+            ],
+            "unique_quad_continuation": true,
+            "opposite_outward_edge": 1133,
+            "face_vertex_ids": [
+              303,
+              1397,
+              2774,
+              1396
+            ]
+          }
+        ],
+        "face_ids": [
+          1176,
+          1177
+        ],
+        "outward_vertex_ids": [
+          303,
+          304,
+          1397
+        ],
+        "cap_overlap": [],
+        "nail_overlap": [
+          304
+        ],
+        "frozen_web_overlap": [
+          1396,
+          1399,
+          2774
+        ],
+        "outward_edge_support_continues": true,
+        "outward_vertex_valences": {
+          "304": 4,
+          "1397": 4,
+          "303": 4
+        }
+      },
+      {
+        "hop": 2,
+        "records": [
+          {
+            "incoming_edge": 1132,
+            "outward_face_ids": [
+              1212
+            ],
+            "unique_quad_continuation": true,
+            "opposite_outward_edge": 4513,
+            "face_vertex_ids": [
+              304,
+              1397,
+              2783,
+              1455
+            ]
+          },
+          {
+            "incoming_edge": 1133,
+            "outward_face_ids": [
+              1213
+            ],
+            "unique_quad_continuation": true,
+            "opposite_outward_edge": 4511,
+            "face_vertex_ids": [
+              1397,
+              303,
+              1384,
+              2783
+            ]
+          }
+        ],
+        "face_ids": [
+          1212,
+          1213
+        ],
+        "outward_vertex_ids": [
+          1384,
+          1455,
+          2783
+        ],
+        "cap_overlap": [],
+        "nail_overlap": [
+          304,
+          1455
+        ],
+        "frozen_web_overlap": [],
+        "outward_edge_support_continues": true,
+        "outward_vertex_valences": {
+          "1384": 4,
+          "2783": 4,
+          "1455": 4
+        }
+      }
+    ],
+    "scope_limited_to_two_face_rows": true,
+    "warning": "A topology stop/pole, if present, is not by itself a biological shared-role stop; no graph extension applied."
+  },
+  "PROXIMAL": {
+    "endpoint_ring": "R08",
+    "termination_authority": "UNRESOLVED",
+    "two_face_row_continuation_probe": [
+      {
+        "hop": 1,
+        "records": [
+          {
+            "incoming_edge": 6333,
+            "outward_face_ids": [
+              3032
+            ],
+            "unique_quad_continuation": true,
+            "opposite_outward_edge": 1184,
+            "face_vertex_ids": [
+              310,
+              1423,
+              3238,
+              2360
+            ]
+          },
+          {
+            "incoming_edge": 6331,
+            "outward_face_ids": [
+              3033
+            ],
+            "unique_quad_continuation": true,
+            "opposite_outward_edge": 1185,
+            "face_vertex_ids": [
+              1423,
+              317,
+              1422,
+              3238
+            ]
+          }
+        ],
+        "face_ids": [
+          3032,
+          3033
+        ],
+        "outward_vertex_ids": [
+          310,
+          317,
+          1423
+        ],
+        "cap_overlap": [],
+        "nail_overlap": [],
+        "frozen_web_overlap": [],
+        "outward_edge_support_continues": true,
+        "outward_vertex_valences": {
+          "317": 4,
+          "310": 4,
+          "1423": 4
+        }
+      },
+      {
+        "hop": 2,
+        "records": [
+          {
+            "incoming_edge": 1184,
+            "outward_face_ids": [
+              1372
+            ],
+            "unique_quad_continuation": true,
+            "opposite_outward_edge": 4670,
+            "face_vertex_ids": [
+              310,
+              1442,
+              2823,
+              1423
+            ]
+          },
+          {
+            "incoming_edge": 1185,
+            "outward_face_ids": [
+              1375
+            ],
+            "unique_quad_continuation": true,
+            "opposite_outward_edge": 4672,
+            "face_vertex_ids": [
+              1423,
+              2823,
+              1521,
+              317
+            ]
+          }
+        ],
+        "face_ids": [
+          1372,
+          1375
+        ],
+        "outward_vertex_ids": [
+          1442,
+          1521,
+          2823
+        ],
+        "cap_overlap": [],
+        "nail_overlap": [],
+        "frozen_web_overlap": [],
+        "outward_edge_support_continues": true,
+        "outward_vertex_valences": {
+          "1521": 4,
+          "1442": 4,
+          "2823": 4
+        }
+      }
+    ],
+    "scope_limited_to_two_face_rows": true,
+    "warning": "A topology stop/pole, if present, is not by itself a biological shared-role stop; no graph extension applied."
+  }
+}

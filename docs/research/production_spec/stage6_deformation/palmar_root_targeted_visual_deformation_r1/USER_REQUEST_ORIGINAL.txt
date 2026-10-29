@@ -1,0 +1,456 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+新的项目验收原则
+==================================================
+
+从本轮开始，采用：
+
+HUMAN_VISIBLE_PRODUCT_QUALITY_FIRST
+
+最终目标不是医学仿真或数学完美。
+
+只要在：
+
+正常旋转
+正常近景
+钢琴教学动作范围
+
+中，人眼看不到明显问题，就可以接受。
+
+不要继续为了：
+
+亚毫米差异
+隐藏 triangle crossing
+不可见 normal 数值异常
+理论上的 path / metric 变化
+不可见的权重细节
+
+反复重开已关闭阶段。
+
+机器检查只保留最低必要安全门：
+
+NaN / Inf
+明显 collapse
+degenerate
+严重拉伸
+明显 self-intersection / penetration
+ZERO reset failure
+明显 rig / weight corruption
+
+除此之外：
+
+Human visual review 为最终 authority。
+
+==================================================
+当前正式资产
+==================================================
+
+最新 Stage5B R2：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_palmar_donor_restoration_r1/
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_PALMAR_ROOT_GEOMETRY_R1.blend
+
+SHA256：
+
+90d3ebd1c1973f94020b66281781db481d5a366271a9d6aac6b921861e2b45aa
+
+当前已完成：
+
+PALMAR geometry application = PASS
+Stage5 propagation = PASS
+joint/rest/zero/bind = PASS
+static skin compatibility = PASS
+
+权重、rig、joint 无需修改。
+
+当前已知：
+
+MID_MCP_45_MANDATORY_REVALIDATION = YES
+
+current9 Human response =
+HOLD_NOT_CLOSED
+
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_REQUIRED = YES
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+PALMAR_ROOT_TARGETED_VISUAL_DEFORMATION_R1
+
+本轮只回答一个问题：
+
+修复后的掌侧指根，
+在中指 MCP 实际屈曲时，
+人眼看起来是否正常？
+
+==================================================
+一、只跑三个动作
+==================================================
+
+只执行：
+
+MID_MCP_15
+MID_MCP_30
+MID_MCP_45
+
+使用现有正式 Stage6A：
+
+local X
+historical -1
+15 / 30 / 45°
+
+不得增加其它 pose。
+
+每个 pose：
+
+RESET ZERO
+→ apply pose
+→ evaluate
+→ render
+→ reset ZERO
+
+最终：
+
+ZERO restore = PASS
+
+==================================================
+二、Human 重点看什么
+==================================================
+
+对三个 pose 重点检查：
+
+1.
+之前修复的 hard shelf
+是否重新出现
+
+2.
+natural palmar-root crease
+是否仍然自然
+
+3.
+有没有明显：
+
+pinch
+collapse
+ridge
+notch
+bulge
+surface penetration
+tearing
+spike
+异常折面
+
+4.
+下方正常区域
+有没有被带坏
+
+5.
+相邻指根
+有没有明显异常牵拉
+
+==================================================
+三、机器只做最低必要 gate
+==================================================
+
+只检查：
+
+NaN / Inf = 0
+
+collapsed face = 0
+
+degenerate = 0
+
+明显 severe stretch = 0
+
+明显 new self-intersection / penetration = 0
+
+ZERO restore = PASS
+
+neighbor digit gross contamination = 0
+
+不要：
+
+重跑 static skin
+
+重跑 true-cap
+
+重跑 R3
+
+重新分析 2127 edges
+
+重新研究 normal-dot
+
+重新做 authority impact audit
+
+重新跑 Full42。
+
+==================================================
+四、不要因为轻微 crease / compression FAIL
+==================================================
+
+手在弯曲时：
+
+自然 crease
+轻微 compression
+轻微 pinch
+低模 polygon 感
+
+不自动构成 blocker。
+
+只有：
+
+普通实体表面上
+人眼明显觉得不自然、
+教学或最终产品不可接受
+
+才作为视觉问题。
+
+==================================================
+五、必须生成 Human review
+==================================================
+
+生成一个简洁 review.html。
+
+只显示：
+
+MID_MCP_15
+MID_MCP_30
+MID_MCP_45
+
+每个 pose 提供：
+
+A.
+full hand solid
+
+B.
+palmar root close solid
+
+C.
+alternate view
+
+D.
+grazing
+
+必要时：
+
+flat / wire
+仅作为辅助。
+
+不要塞大量 forensic 数值表。
+
+==================================================
+六、对照方式
+==================================================
+
+每个 pose 最好显示：
+
+CURRENT PRE-PALMAR
+vs
+CURRENT REPAIRED PALMAR
+
+同机位对照。
+
+Human 重点判断：
+
+修复后是否：
+
+更自然
+没有新问题
+没有把正常区域修坏。
+
+==================================================
+七、MID_MCP_45
+==================================================
+
+MID45 是本轮重点。
+
+此前 design smoke 已看到：
+
+compression sensitivity 有变化，
+
+但没有：
+
+collapse
+new exact contact
+明显可见 defect。
+
+本轮不要继续研究 ratio 数值。
+
+只回答：
+
+MID_MCP_45
+在普通实体表面上
+是否出现明显不可接受的形变。
+
+==================================================
+八、成功条件
+==================================================
+
+如果三个 pose：
+
+机器最低安全门全部 PASS
+
+并且普通实体没有明显可见问题，
+
+输出：
+
+PALMAR_ROOT_TARGETED_VISUAL_DEFORMATION_R1
+=
+READY_FOR_HUMAN_VISUAL_APPROVAL
+
+PALMAR_ROOT_MACHINE_SAFETY =
+PASS
+
+MID_MCP_15 =
+VISUALLY_ACCEPTABLE_PENDING_HUMAN
+
+MID_MCP_30 =
+VISUALLY_ACCEPTABLE_PENDING_HUMAN
+
+MID_MCP_45 =
+VISUALLY_ACCEPTABLE_PENDING_HUMAN
+
+ADDITIONAL_GEOMETRY_REPAIR_REQUIRED =
+NO
+
+ADDITIONAL_WEIGHT_REPAIR_REQUIRED =
+NO
+
+ADDITIONAL_RIG_REPAIR_REQUIRED =
+NO
+
+STOP — HUMAN REVIEW
+
+==================================================
+九、失败条件
+==================================================
+
+如果任一 pose 出现：
+
+明显 collapse
+
+明显穿模
+
+明显 shelf 回返
+
+明显新 ridge / notch
+
+明显异常 pinch
+
+或普通实体肉眼明显不自然，
+
+则：
+
+FAIL_CLOSED_PALMAR_VISUAL_DEFORMATION
+
+只报告：
+
+哪个 pose
+哪个位置
+普通实体截图
+
+不要自动修复。
+
+STOP。
+
+==================================================
+十、输出
+==================================================
+
+至少生成：
+
+PALMAR_ROOT_TARGETED_VISUAL_DEFORMATION_R1_REPORT.md
+
+PALMAR_ROOT_TARGETED_VISUAL_DEFORMATION_R1_STATUS.json
+
+review.html
+
+MID_MCP_15 matched renders
+
+MID_MCP_30 matched renders
+
+MID_MCP_45 matched renders
+
+ZERO reset audit
+
+minimum machine safety audit
+
+==================================================
+十一、最终字段
+==================================================
+
+POSE_COUNT = 3
+
+MID_MCP_15_MACHINE_SAFETY = ?
+
+MID_MCP_30_MACHINE_SAFETY = ?
+
+MID_MCP_45_MACHINE_SAFETY = ?
+
+MID_MCP_15_VISIBLE_STATUS = ?
+
+MID_MCP_30_VISIBLE_STATUS = ?
+
+MID_MCP_45_VISIBLE_STATUS = ?
+
+PALMAR_SHELF_REAPPEAR_COUNT = ?
+
+NEW_VISIBLE_DEFECT_COUNT = ?
+
+NORMAL_REGION_VISIBLE_DAMAGE = ?
+
+NEIGHBOR_DIGIT_GROSS_CONTAMINATION = ?
+
+ZERO_RESTORE = ?
+
+ADDITIONAL_GEOMETRY_REPAIR_REQUIRED = ?
+
+ADDITIONAL_WEIGHT_REPAIR_REQUIRED = ?
+
+ADDITIONAL_RIG_REPAIR_REQUIRED = ?
+
+CURRENT9_HUMAN_RESPONSE =
+HOLD_NOT_CLOSED
+
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_REQUIRED =
+YES
+
+VERDICT = ?
+
+==================================================
+十二、NEXT
+==================================================
+
+如果 Human 视觉批准这三个 pose：
+
+NEXT =
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_R1
+
+注意：
+
+下一阶段也采用视觉优先原则，
+不做深度数学审计。
+
+只做：
+
+整只手静态 + 关键关节动作
+的一次性 Human-visible surface 总检。
+
+总检通过后：
+
+再恢复 current9 closure
+
+然后才考虑 Stage6B。
+
+本轮不得自动执行 NEXT。
+
+STOP。

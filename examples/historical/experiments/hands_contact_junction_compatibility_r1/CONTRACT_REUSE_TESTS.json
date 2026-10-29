@@ -1,0 +1,219 @@
+{
+  "tests": [
+    {
+      "case": "single_finger_repetition",
+      "real_source_note_ids": [
+        "R06",
+        "R07"
+      ],
+      "note_summary": [
+        {
+          "id": "R06",
+          "hand": "R",
+          "midi": 67,
+          "finger": 1
+        },
+        {
+          "id": "R07",
+          "hand": "R",
+          "midi": 67,
+          "finger": 1
+        }
+      ],
+      "status": "REPRESENTATION_PARSE_PASS",
+      "episodes": [
+        "R06:APPROACH",
+        "R06:PRESS",
+        "R06:HOLD",
+        "R07:APPROACH",
+        "R07:PRESS",
+        "R07:HOLD",
+        "R07:RELEASE"
+      ],
+      "kinematic_feasibility": "NOT_TESTED",
+      "source": "same existing23-note original MIDI; not an independent cross-MIDI performance test"
+    },
+    {
+      "case": "successive_different_fingers",
+      "real_source_note_ids": [
+        "R09",
+        "R10"
+      ],
+      "note_summary": [
+        {
+          "id": "R09",
+          "hand": "R",
+          "midi": 72,
+          "finger": 1
+        },
+        {
+          "id": "R10",
+          "hand": "R",
+          "midi": 74,
+          "finger": 2
+        }
+      ],
+      "status": "REPRESENTATION_PARSE_PASS",
+      "episodes": [
+        "R09:APPROACH",
+        "R09:PRESS",
+        "R09:HOLD",
+        "R09:RELEASE",
+        "R10:APPROACH",
+        "R10:PRESS",
+        "R10:HOLD",
+        "R10:RELEASE"
+      ],
+      "kinematic_feasibility": "NOT_TESTED",
+      "source": "same existing23-note original MIDI; not an independent cross-MIDI performance test"
+    },
+    {
+      "case": "same_hand_chord_hold",
+      "real_source_note_ids": [
+        "L00",
+        "L01",
+        "L02"
+      ],
+      "note_summary": [
+        {
+          "id": "L00",
+          "hand": "L",
+          "midi": 55,
+          "finger": 5
+        },
+        {
+          "id": "L01",
+          "hand": "L",
+          "midi": 59,
+          "finger": 3
+        },
+        {
+          "id": "L02",
+          "hand": "L",
+          "midi": 62,
+          "finger": 1
+        }
+      ],
+      "status": "REPRESENTATION_PARSE_PASS",
+      "episodes": [
+        "L00:APPROACH",
+        "L00:PRESS",
+        "L00:HOLD",
+        "L00:RELEASE",
+        "L01:APPROACH",
+        "L01:PRESS",
+        "L01:HOLD",
+        "L01:RELEASE",
+        "L02:APPROACH",
+        "L02:PRESS",
+        "L02:HOLD",
+        "L02:RELEASE"
+      ],
+      "kinematic_feasibility": "NOT_TESTED",
+      "source": "same existing23-note original MIDI; not an independent cross-MIDI performance test"
+    },
+    {
+      "case": "black_press_white_release",
+      "real_source_note_ids": [
+        "R11",
+        "R12"
+      ],
+      "note_summary": [
+        {
+          "id": "R11",
+          "hand": "R",
+          "midi": 76,
+          "finger": 3
+        },
+        {
+          "id": "R12",
+          "hand": "R",
+          "midi": 78,
+          "finger": 4
+        }
+      ],
+      "status": "REPRESENTATION_PARSE_PASS",
+      "episodes": [
+        "R11:APPROACH",
+        "R11:PRESS",
+        "R11:HOLD",
+        "R11:RELEASE",
+        "R12:APPROACH",
+        "R12:PRESS",
+        "R12:HOLD",
+        "R12:RELEASE"
+      ],
+      "kinematic_feasibility": "NOT_TESTED",
+      "source": "same existing23-note original MIDI; not an independent cross-MIDI performance test"
+    },
+    {
+      "case": "octave_leap",
+      "real_source_note_ids": [
+        "R13",
+        "R14"
+      ],
+      "note_summary": [
+        {
+          "id": "R13",
+          "hand": "R",
+          "midi": 79,
+          "finger": 5
+        },
+        {
+          "id": "R14",
+          "hand": "R",
+          "midi": 67,
+          "finger": 1
+        }
+      ],
+      "status": "REPRESENTATION_PARSE_PASS",
+      "episodes": [
+        "R13:APPROACH",
+        "R13:PRESS",
+        "R13:HOLD",
+        "R13:RELEASE",
+        "R14:APPROACH",
+        "R14:PRESS",
+        "R14:HOLD"
+      ],
+      "kinematic_feasibility": "NOT_TESTED",
+      "source": "same existing23-note original MIDI; not an independent cross-MIDI performance test"
+    },
+    {
+      "case": "one_holds_other_prepares",
+      "real_source_note_ids": [
+        "R07",
+        "R08"
+      ],
+      "note_summary": [
+        {
+          "id": "R07",
+          "hand": "R",
+          "midi": 67,
+          "finger": 1
+        },
+        {
+          "id": "R08",
+          "hand": "R",
+          "midi": 76,
+          "finger": 3
+        }
+      ],
+      "status": "REPRESENTATION_PARSE_PASS",
+      "episodes": [
+        "R07:APPROACH",
+        "R07:PRESS",
+        "R07:HOLD",
+        "R07:RELEASE",
+        "R08:APPROACH",
+        "R08:PRESS",
+        "R08:HOLD",
+        "R08:RELEASE"
+      ],
+      "kinematic_feasibility": "NOT_TESTED",
+      "source": "same existing23-note original MIDI; not an independent cross-MIDI performance test"
+    }
+  ],
+  "all_pass": true,
+  "no_new_motion_generated": true
+}

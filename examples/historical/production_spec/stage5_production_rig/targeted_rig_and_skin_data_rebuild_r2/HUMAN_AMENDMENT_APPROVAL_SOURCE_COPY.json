@@ -1,0 +1,21 @@
+{
+  "review_id": "SKIN_STATIC_GATE_AND_SCOPE_AMENDMENT_HUMAN_REVIEW_R1",
+  "phase": "HUMAN_SKIN_STATIC_GATE_AND_SCOPE_AMENDMENT_APPROVAL",
+  "proposal_sha256": "b023f12f40f4eb0bbf32ba4944a6d43fe1503c7b8a3051326e983e05727f7e02",
+  "candidate_R1_sha256": "290d2734f80edb25872962bf378dbc4c122d6fafe3fd118b22a6e550ddfcb84a",
+  "Q1": "YES",
+  "Q2": "YES",
+  "Q3": "YES",
+  "Q4": "YES",
+  "Q5": "YES",
+  "notes": "Human Review：批准 Skin Static Gate / Scope Amendment R2。\n\n接受将 inherited donor static debt 与 candidate-introduced defect 分开记录与归因。\n历史 copy-only defect 不视为本轮新增，但在受影响 interface 中仍需后续 qualification。\n\n接受 continuity gate 的正式语义：\nSCOPED_ABSOLUTE_SCREEN_PLUS_NO_REGRESSION_WITH_EXPLICIT_QUALIFICATION。\n不放宽现有 L∞=0.5、L1=1.0 gate，也不把历史 donor defect 自动视为 PASS。\n\n接受 canonical forbidden-weight zero epsilon = 0，即 exact mathematical zero。\n55 个历史 forbidden residue 必须显式清除，不以 1e-8、1e-6 或 runtime cutoff 代替 authority zero。\n\n批准最小新增 write permission 共 73 点：\n18 点用于有独立 lower-bound 证据的 continuity reconstruction；\n55 点仅允许 exact forbidden-entry removal + normalization。\n不得将这 55 点用于自由 smoothing，也不得自动扩大到其它邻域。\n\n批准在原 244 点 write scope 基础上加入这 73 点，生成新的独立\nTARGETED_RIG_AND_SKIN_DATA_REBUILD_R2 candidate。\n\n本次批准不代表 R2 自动通过 static gate，\n不批准 deformation、Stage6、anatomy 修改或 production promotion。\nR2 生成后仍必须重新执行完整 static continuity / scope / zero / normalization 验证。",
+  "timestamp": "2026-10-03T14:57:26.511Z",
+  "all_questions_answered": true,
+  "all_accepted": true,
+  "automatic_apply": false,
+  "Stage6_approved": false,
+  "deformation_approved": false,
+  "production_promotion_approved": false,
+  "response_kind": "HUMAN_STATIC_GATE_SCOPE_AMENDMENT_RESPONSE",
+  "authorized_next_phase": "TARGETED_RIG_AND_SKIN_DATA_REBUILD_R2"
+}

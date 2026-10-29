@@ -1,0 +1,36 @@
+{
+  "model": "A",
+  "summary": {
+    "R": {
+      "denominator": "same-hand MULTI_NOTE observations whose original predicted labels fail strict contact; repeated held observations are temporally correlated",
+      "count": 37,
+      "counts": {
+        "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 26,
+        "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 10,
+        "ROOT_POSE_GEOMETRIC_FAILURE": 1
+      },
+      "likely_finger_label_conflict": 0,
+      "likely_conflict_fraction": 0.0
+    },
+    "L": {
+      "denominator": "same-hand MULTI_NOTE observations whose original predicted labels fail strict contact; repeated held observations are temporally correlated",
+      "count": 79,
+      "counts": {
+        "SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT": 61,
+        "DEPTH_OR_APPROACH_ORIENTATION_LIMIT": 10,
+        "ROOT_POSE_GEOMETRIC_FAILURE": 8
+      },
+      "likely_finger_label_conflict": 0,
+      "likely_conflict_fraction": 0.0
+    }
+  },
+  "classification_policy": [
+    "strict labeled contact passes -> NO_FAILURE",
+    "labeled fails but strict injective unlabeled matching passes -> LIKELY_FINGERING_LABEL_CONFLICT",
+    "strict unlabeled fails but coarse injective matching passes -> SOURCE_2_5D_OR_CONTACT_PRECISION_LIMIT",
+    "coarse fails but injected horizontal/depth matching without height passes AND no duplicate predicted finger -> DEPTH_OR_APPROACH_ORIENTATION_LIMIT",
+    "otherwise -> ROOT_POSE_GEOMETRIC_FAILURE"
+  ],
+  "critical_caveat": "These are operational conditional diagnostics, not causal ground truth. Geometric failure at fitted pose does not prove all legal poses impossible.",
+  "evidence_counts_do_not_certify_causality": true
+}

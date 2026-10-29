@@ -1,0 +1,10 @@
+{
+  "evidence": "Error in Function::call for 'entry' [IpoptInterface] at .../casadi/core/function.cpp:1466:\nError in Function::call for 'entry' [IpoptInterface] at .../casadi/core/function.cpp:362:\n.../casadi/core/nlpsol.cpp:707: Assertion \"lb <= ub && lb!=inf && ub!=-inf\" failed:\nIll-posed problem detected: LBX[6] <= UBX[6] was violated. Got LBX[6]=9.82567 and UBX[6] = 9.",
+  "cause": "Inherited HIGH array is integer dtype; assigning fractional fixed B2 controls truncated upper bounds (thumb 9.825665 became 9). IPOPT rejected before iterations.",
+  "change": "Cast both bound arrays to float before assigning exact B2; assert feasibility of bound ordering and exact start identity.",
+  "same_time_grid": true,
+  "same_initialization": true,
+  "same_physical_constraints": true,
+  "no_extra_solver_iterations": true,
+  "correction_limit": 1
+}

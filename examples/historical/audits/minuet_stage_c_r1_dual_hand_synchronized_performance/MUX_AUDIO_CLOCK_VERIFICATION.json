@@ -1,0 +1,30 @@
+{
+  "pass_": true,
+  "three_views_decoded_audio_identical": true,
+  "reference_WAV_sha256": "8f884ee49aa386dc798716985c3c7cc8dd708a39166ad67a4253b9eeed4f6803",
+  "best_lag_samples": 0,
+  "per_video": {
+    "normal_speed_teaching.mp4": {
+      "decoded_audio_sha256": "20d99a0be7cb2aecf60a0b1b0dcce1b265964f40c26b60f7c131deef6544332d",
+      "best_lag_samples_48k": 0,
+      "lag_search_window_ms": 10,
+      "reference_waveform_correlation": 0.9999103005964439,
+      "decoded_codec_padding_samples": 96
+    },
+    "normal_speed_overhead.mp4": {
+      "decoded_audio_sha256": "20d99a0be7cb2aecf60a0b1b0dcce1b265964f40c26b60f7c131deef6544332d",
+      "best_lag_samples_48k": 0,
+      "lag_search_window_ms": 10,
+      "reference_waveform_correlation": 0.9999103005964439,
+      "decoded_codec_padding_samples": 96
+    },
+    "normal_speed_side_oblique.mp4": {
+      "decoded_audio_sha256": "20d99a0be7cb2aecf60a0b1b0dcce1b265964f40c26b60f7c131deef6544332d",
+      "best_lag_samples_48k": 0,
+      "lag_search_window_ms": 10,
+      "reference_waveform_correlation": 0.9999103005964439,
+      "decoded_codec_padding_samples": 96
+    }
+  },
+  "limitation": "Waveform identity/clock check after lossy AAC encoding; not a perceptual realtime listening claim. NOTE_ON/OFF/pitch/velocity23-voice scheduling is verified separately."
+}

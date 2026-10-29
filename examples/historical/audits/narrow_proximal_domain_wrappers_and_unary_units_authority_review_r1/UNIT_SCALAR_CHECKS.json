@@ -1,0 +1,61 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "test": "Metre/mm representation invariance after explicit conversion",
+      "distance_mm": 1,
+      "result": "PASS",
+      "historical_expression_fails_invariance_factor": 1000
+    },
+    {
+      "test": "Metre/mm representation invariance after explicit conversion",
+      "distance_mm": 5,
+      "result": "PASS",
+      "historical_expression_fails_invariance_factor": 1000
+    },
+    {
+      "test": "Metre/mm representation invariance after explicit conversion",
+      "distance_mm": 10,
+      "result": "PASS",
+      "historical_expression_fails_invariance_factor": 1000
+    },
+    {
+      "test": "Metre/mm representation invariance after explicit conversion",
+      "distance_mm": 20,
+      "result": "PASS",
+      "historical_expression_fails_invariance_factor": 1000
+    },
+    {
+      "test": "10mm historical unary=10 vs pairwise=1296; corrected unary=10000",
+      "result": "PASS"
+    },
+    {
+      "test": "400mm cap counterexample",
+      "legacy_capacity_at_400mm": 400,
+      "corrected_capacity_at_400mm": 400000,
+      "result": "PASS: legacy contradicts CAP_MAX_mm contract"
+    },
+    {
+      "test": "Undirected flip encoding truth table",
+      "TT": 0,
+      "II": 0,
+      "TI": 1296,
+      "IT": 1296,
+      "result": "PASS"
+    },
+    {
+      "test": "Guard cannot use two-ring stability as exclusive evidence when sample intersects frozen shared web",
+      "result": "PASS_COUNTEREXAMPLE_FOUND",
+      "web_vertex_ids": [
+        1396,
+        1399,
+        1402,
+        2774
+      ]
+    }
+  ],
+  "R2_runs": 0,
+  "R3_runs": 0,
+  "mincut_calls": 0,
+  "source_distance_fields_computed": 0
+}

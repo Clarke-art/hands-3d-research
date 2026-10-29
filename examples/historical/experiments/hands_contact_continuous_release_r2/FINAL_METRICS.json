@@ -1,0 +1,88 @@
+{
+  "actual_samples": 316,
+  "source_peak_pairs": 93,
+  "new_peak_pairs": 67,
+  "source_collision_samples": 74,
+  "new_collision_samples": 51,
+  "new_collision_first_observed": 3.7729166666666667,
+  "new_collision_last_observed": 3.864583333333333,
+  "first_new_key_surface_crossing": 3.560416666666667,
+  "first_pointwise_depth_witness": {
+    "t": 3.5625,
+    "source_pairs": 0,
+    "new_pairs": 0,
+    "contact_failures": 0,
+    "key_regression_count": 1,
+    "new_key_surface_crossings": 1,
+    "neighbor_regressions": [],
+    "key_witnesses": [
+      {
+        "t": 3.5625,
+        "digit": "RING",
+        "key": 74,
+        "component": "GP_V11D_KEY_RENDER_074_FRONT",
+        "vertex": 1175,
+        "depth_mm": 0.5487378385158419,
+        "source_depth_mm": -0.1914297008180827,
+        "increase_mm": 0.7401675393339247,
+        "world_m": [
+          0.2006797045469284,
+          0.03405622020363808,
+          -0.000548737938515842
+        ]
+      }
+    ],
+    "surface_witnesses": [
+      {
+        "t": 3.5625,
+        "digit": "RING",
+        "key": 74,
+        "component": "GP_V11D_KEY_RENDER_074_FRONT",
+        "new_triangle_pairs": 15,
+        "source_triangle_pairs": 0
+      }
+    ],
+    "pair_faces": []
+  },
+  "contacts": [
+    {
+      "event": "R09",
+      "records": 89,
+      "failed": 0,
+      "max_absolute_gap_mm": 0.8899095371924134,
+      "max_horizontal_mm": 0.0
+    },
+    {
+      "event": "R10",
+      "records": 99,
+      "failed": 0,
+      "max_absolute_gap_mm": 1.4134191581273035,
+      "max_horizontal_mm": 0.0
+    },
+    {
+      "event": "R11",
+      "records": 86,
+      "failed": 22,
+      "max_absolute_gap_mm": 3.9758351656381254,
+      "max_horizontal_mm": 0.0
+    },
+    {
+      "event": "R12",
+      "records": 45,
+      "failed": 0,
+      "max_absolute_gap_mm": 2.1584053953914455,
+      "max_horizontal_mm": 0.0
+    }
+  ],
+  "key_regression_samples": 221,
+  "surface_regression_samples": 27,
+  "domain_witness": {
+    "t": 3.675,
+    "digit": "MIDDLE",
+    "coordinate": "MCP_FLEX",
+    "actual_angle_deg": -1.1244104427052644,
+    "violation_deg": 1.1244104427052644
+  },
+  "source_actions_preserved": true,
+  "formal_dynamic_candidates": 0
+}

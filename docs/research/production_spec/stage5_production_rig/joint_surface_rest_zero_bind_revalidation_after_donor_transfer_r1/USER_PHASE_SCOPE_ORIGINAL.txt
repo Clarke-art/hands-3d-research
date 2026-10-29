@@ -1,0 +1,857 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+当前正式输入
+==================================================
+
+Stage5 geometry propagation 已完成：
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_GEOMETRY_PROPAGATED_WITH_RIG_AND_WEIGHTS_FROZEN
+
+新的 corrected-rig derivative：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_donor_transfer_r1/
+RIGHT_HAND_STAGE5A_CORRECTED_RIG_DONOR_TRANSFER_R1.blend
+
+SHA256：
+
+513323c98a0d2a1c3b45f5543c6738476af7090447e84a0cc510d6e9606adc62
+
+新的 R2 geometry-propagated derivative：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_donor_transfer_r1/
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend
+
+SHA256：
+
+d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d
+
+R2 weight-vector authority：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+corrected rig authority：
+
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+本轮只重新验证：
+
+1.
+joint / surface relation
+
+2.
+rest-pose rig integrity
+
+3.
+zero-pose integrity
+
+4.
+bind / armature-modifier zero-state integrity
+
+不修改任何：
+
+geometry
+bone
+joint
+roll
+weight
+group
+modifier
+RSSF authority
+
+==================================================
+一、本轮性质
+==================================================
+
+这是：
+
+READ-ONLY REQUALIFICATION
+
+不是：
+
+joint relocation
+
+rig rebuild
+
+skin rebuild
+
+weight adjustment
+
+static skin requalification
+
+true-cap recomputation
+
+deformation test
+
+Stage6A rerun
+
+Stage6B
+
+production promotion。
+
+如果任何 joint / rest / zero / bind
+因为新 geometry 而不再成立：
+
+FAIL CLOSED。
+
+不得自动修 joint 或 weights。
+
+==================================================
+二、先恢复当前正式 joint qualification semantics
+==================================================
+
+不要直接把最早 Stage5A R1 的失败表
+当当前 authority。
+
+必须读取并恢复：
+
+Stage5A R2 / R2A
+corrected thumb kinematic authority
+之后正式采用的 joint qualification semantics。
+
+至少确认：
+
+- 16 deform joint heads 的 current authority；
+- 5 TIP helper 的 current authority；
+- wrist authority；
+- THUMB_CMC current approved region semantics；
+- MCP/PIP/DIP T-01 region semantics；
+- fingertip surface/apex semantics；
+- corrected THUMB_IP / THUMB_TIP kinematic slots。
+
+输出：
+
+CURRENT_JOINT_QUALIFICATION_SEMANTICS_R1.json
+
+禁止重新研究 anatomy。
+
+==================================================
+三、两个派生资产的角色
+==================================================
+
+A.
+Stage5A corrected-rig derivative
+
+用于：
+
+joint-to-surface
+bone/rest
+object-frame
+joint-region
+rig structural qualification。
+
+B.
+Stage5B R2 donor-transfer derivative
+
+用于：
+
+same joint/rig cross-check
++
+actual groups/weights/modifier
++
+zero/bind evaluated-mesh qualification。
+
+两个资产的：
+
+mesh coordinates
+bone payload
+
+已经应当一致。
+
+如发现不一致：
+
+FAIL CLOSED。
+
+==================================================
+四、Joint-to-surface full revalidation
+==================================================
+
+对当前 21 个 joint/helper 全部重新运行
+当前正式资格规则。
+
+不要只检查与54点最近的 joint。
+
+至少记录每个：
+
+name
+
+world position
+
+authority
+
+ray-parity / inside relation
+（仅对需要 inside 的 joint）
+
+nearest surface distance
+
+signed distance
+
+nearest native face / feature
+
+old geometry value
+
+new geometry value
+
+delta
+
+region qualification
+
+final status。
+
+==================================================
+五、16 deform joint heads
+==================================================
+
+对于正式要求位于 mesh 内部的 joint：
+
+重新运行当前 ray-parity / inside semantics。
+
+不得因为：
+
+bone payload 没变化
+
+就自动沿用旧 PASS。
+
+表面已经改变，
+所以必须重新测。
+
+如果任一正式 inside joint：
+
+OUTSIDE
+
+则：
+
+FAIL_CLOSED_JOINT_SURFACE_REVALIDATION
+
+并 STOP。
+
+不得移动 bone。
+
+==================================================
+六、MCP / PIP / DIP region authority
+==================================================
+
+继续使用已经批准的
+T-01 / current region semantics。
+
+不要重新计算 joint locator。
+
+只验证当前固定 joint
+相对新 geometry / frozen region authority
+仍满足既有要求。
+
+必须区分：
+
+joint coordinates unchanged
+
+和：
+
+joint qualification against new surface passed。
+
+两者不能混为一谈。
+
+==================================================
+七、THUMB_CMC
+==================================================
+
+THUMB_CMC 继续使用当前 frozen CMC region authority。
+
+不得重新打开：
+
+CMC anatomy
+CMC topology
+CMC cage construction。
+
+检查：
+
+current fixed THUMB_CMC
+在新 geometry 下：
+
+inside relation
+nearest surface relation
+approved CMC region relation
+
+是否仍成立。
+
+历史“小 surface clearance”
+如果仍存在：
+
+如实报告。
+
+不要人为要求它变成 deep joint。
+
+==================================================
+八、TIP helpers
+==================================================
+
+TIP helpers = non-deform。
+
+继续使用当前正式 fingertip-helper semantics。
+
+重新验证：
+
+surface relation
+own-digit apex relation
+digit identity
+
+但：
+
+不要把 TIP helper
+要求为 inside deform joint。
+
+THUMB_TIP 必须使用 corrected thumb chain
+的当前 authority，
+不得退回旧 tip slot。
+
+==================================================
+九、joint surface delta 重点区域
+==================================================
+
+除了全部21项，
+
+额外突出 donor-transfer ROI 附近可能受影响的：
+
+RING_MCP / neighboring MCP / WRIST-side relation
+
+以及报告中
+JOINT_SURFACE_DELTA_DIAGNOSTIC
+变化最大的 joint/head/tail。
+
+但不要预设：
+
+“54点属于 RING，所以只查 RING”。
+
+按实际距离变化排序。
+
+输出：
+
+JOINT_SURFACE_DELTA_RANKING_R1.json
+
+==================================================
+十、Joint coordinates 必须零漂移
+==================================================
+
+本轮禁止 joint relocation。
+
+相对于：
+
+corrected rig source
+
+必须：
+
+joint head delta = 0
+joint tail delta = 0
+roll delta = 0
+rest matrix delta = 0
+
+如果任一非零：
+
+FAIL CLOSED。
+
+==================================================
+十一、Rest-pose integrity
+==================================================
+
+对 Stage5A derivative：
+
+验证完整21-bone rest structure：
+
+bone names
+hierarchy
+head/tail
+roll
+rest matrices
+local frames
+deform flags
+object transforms
+armature transforms
+
+与 corrected rig authority
+逐值一致。
+
+输出：
+
+REST_RIG_PAYLOAD_MATCH = PASS
+
+这只是：
+
+rest data 不变，
+
+不是 bind qualification。
+
+==================================================
+十二、Zero-pose integrity
+==================================================
+
+在 clean reopened R2 derivative：
+
+将所有 pose channels
+按现有正式 zero procedure
+归零。
+
+验证：
+
+pose matrices / transforms
+符合当前 zero convention。
+
+必须检测：
+
+NaN / Inf = 0
+
+bone missing = 0
+
+group missing = 0
+
+modifier reference missing = 0
+
+pose residue = 0
+或现有正式数值语义内的零值。
+
+不要保存任何 zero 操作回原文件。
+
+使用 temporary evaluation copy / memory。
+
+==================================================
+十三、Bind zero-state geometry
+==================================================
+
+在实际 R2 derivative 上：
+
+armature modifier ON
+all pose bones ZERO
+
+evaluated mesh
+vs
+raw donor-transfer geometry
+
+做 full 3416-point comparison。
+
+报告：
+
+RAW_TO_BIND_MAX_DELTA_MM
+
+RAW_TO_BIND_MEAN_DELTA_MM
+
+RAW_TO_BIND_RMS_DELTA_MM
+
+OUTSIDE_EXPECTED_NUMERICAL_RESIDUE_COUNT
+
+不得只检查54点。
+
+==================================================
+十四、zero/bind 判定语义
+==================================================
+
+优先恢复项目已有正式：
+
+zero / bind tolerance semantics。
+
+不要发明新 tolerance。
+
+历史项目中已有约：
+
+0.0001 mm
+
+级 zero verification 语义时，
+
+必须读取其正式来源，
+确认适用于当前检查后再使用。
+
+如果不存在唯一适用 authority：
+
+报告数值，
+不要私自创建新硬阈值。
+
+==================================================
+十五、Donor contour 在 bind 后保持
+==================================================
+
+除了纯数值 zero：
+
+必须确认：
+
+Human-approved dorsal MCP contour
+在 bind zero-state
+没有重新出现 dent。
+
+使用：
+
+new Stage4C raw
+
+Stage5B R2 raw
+
+Stage5B R2 evaluated bind zero
+
+三列 matched view。
+
+检查：
+
+dent
+new ridge
+new notch
+new local collapse
+
+但本轮只做 zero/bind，
+不运行 flexion pose。
+
+==================================================
+十六、Modifier / bind contract
+==================================================
+
+验证：
+
+armature modifier object target
+modifier order
+bind object transforms
+mesh object transforms
+armature object transforms
+vertex group names/order
+deform bone mapping
+
+与旧 R2 candidate
+完全一致。
+
+不得 re-parent
+不得 rebind
+不得重新计算 inverse bind。
+
+如果 Blender 语义中当前 asset
+并不保存独立 bind matrix，
+如实记录实际 modifier semantics，
+不要发明字段。
+
+==================================================
+十七、Weight payload保持只读
+==================================================
+
+本轮再次核验：
+
+完整3416 weight vectors
+
+hash 必须仍为：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+但：
+
+不要运行 static skin continuity qualification。
+
+本轮只证明：
+
+weights unchanged
++
+zero bind compatible。
+
+==================================================
+十八、Joint qualification 与 static skin 分开
+==================================================
+
+如果：
+
+joint-to-surface
+rest
+zero
+bind
+
+全部 PASS，
+
+不得直接宣布：
+
+STATIC_SKIN_REQUALIFICATION = PASS。
+
+下一阶段才做：
+
+STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+原因：
+
+54点位置改变后，
+即使 weight scalars 不变，
+
+邻边几何长度、continuity 和 surface/driver relation
+仍需要重新验证。
+
+==================================================
+十九、不要运行 Stage6 pose
+==================================================
+
+禁止：
+
+IDX15 / 30 / 45
+TH_IP
+TH_MCP
+CMC
+opposition
+任何 deformation case。
+
+不重跑：
+
+旧9 crossing。
+
+==================================================
+二十、Full Stage6A历史状态
+==================================================
+
+继续保持：
+
+FULL_STAGE6A_REQUALIFICATION_R1
+=
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT =
+9
+
+不修复
+不裁决
+不重分类。
+
+==================================================
+二十一、Visual evidence
+==================================================
+
+生成一个小型 review.html。
+
+Human不需要重新审批 rig，
+但 evidence 至少包括：
+
+A.
+joint overview on new geometry
+
+B.
+donor-transfer ROI + nearest relevant joints
+
+C.
+raw vs bind-zero dorsal MCP contour
+
+D.
+任何 qualification margin 明显变化的 joint close-up
+
+E.
+TIP helper relation overview。
+
+这主要用于审计，
+不需要大规模 Human visual gate，
+除非出现 borderline joint relation。
+
+==================================================
+二十二、Pass conditions
+==================================================
+
+PASS 要求：
+
+21-bone payload unchanged
+
+joint coordinates unchanged
+
+all required deform joints satisfy current inside semantics
+
+all joint region authorities PASS
+
+TIP helper semantics PASS
+
+THUMB corrected chain authority preserved
+
+REST_RIG_PAYLOAD_MATCH = PASS
+
+ZERO_POSE = PASS
+
+BIND_ZERO = PASS
+
+full 3416 raw→bind comparison acceptable
+under recovered existing semantics
+
+modifier binding = PASS
+
+weight hash unchanged = PASS
+
+approved dorsal MCP contour preserved at bind zero
+
+save/reopen / protected history drift = 0
+
+==================================================
+二十三、成功 verdict
+==================================================
+
+如果全部 PASS：
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+=
+PASS_JOINT_REST_ZERO_BIND_REQUALIFIED
+
+并明确：
+
+JOINT_RELOCATION_REQUIRED = NO
+
+RIG_REBUILD_REQUIRED = NO
+
+WEIGHT_CHANGE_REQUIRED = NO
+
+STATIC_SKIN_REQUALIFICATION =
+NOT_RUN
+
+==================================================
+二十四、失败条件
+==================================================
+
+如果某 joint 不再满足正式资格：
+
+FAIL_CLOSED_JOINT_SURFACE_REVALIDATION
+
+如果 rest payload drift：
+
+FAIL_CLOSED_REST_RIG_INTEGRITY
+
+如果 zero/bind 异常：
+
+FAIL_CLOSED_ZERO_BIND_REVALIDATION
+
+只报告最小 blocker。
+
+禁止自动：
+
+移动 joint
+改 bones
+改 weights
+rebind
+扩大 geometry scope。
+
+STOP。
+
+==================================================
+二十五、输出
+==================================================
+
+至少生成：
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_REPORT.md
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1_STATUS.json
+
+CURRENT_JOINT_QUALIFICATION_SEMANTICS_R1.json
+
+JOINT_SURFACE_REQUALIFICATION_R1.json
+
+JOINT_SURFACE_DELTA_RANKING_R1.json
+
+REST_RIG_PAYLOAD_REVALIDATION_R1.json
+
+ZERO_POSE_REVALIDATION_R1.json
+
+BIND_ZERO_GEOMETRY_REVALIDATION_R1.json
+
+MODIFIER_BIND_CONTRACT_REVALIDATION_R1.json
+
+WEIGHT_HASH_READONLY_REVERIFICATION_R1.json
+
+DORSAL_MCP_BIND_ZERO_CONTOUR_EVIDENCE_R1.json
+
+PRODUCTION_READONLY_NO_DRIFT_VERIFICATION.json
+
+review.html
+
+==================================================
+二十六、最终必须明确
+==================================================
+
+FORMAL_JOINT_COUNT = ?
+
+FORMAL_JOINTS_PASS = ?
+
+DEFORM_JOINT_INSIDE_FAILURE_COUNT = ?
+
+TIP_HELPER_FAILURE_COUNT = ?
+
+JOINT_REGION_FAILURE_COUNT = ?
+
+MAX_JOINT_SURFACE_DISTANCE_DELTA_MM = ?
+
+MAX_JOINT_SURFACE_DISTANCE_DELTA_JOINT = ?
+
+RING_MCP_SURFACE_DELTA_MM = ?
+
+CORRECTED_THUMB_CHAIN_PRESERVED = ?
+
+BONE_PAYLOAD_DELTA = ?
+
+JOINT_PAYLOAD_DELTA = ?
+
+ROLL_DELTA = ?
+
+REST_RIG_PAYLOAD_MATCH = ?
+
+ZERO_POSE = ?
+
+RAW_TO_BIND_MAX_DELTA_MM = ?
+
+RAW_TO_BIND_RMS_DELTA_MM = ?
+
+BIND_ZERO = ?
+
+DORSAL_MCP_DENT_REAPPEARED_AT_BIND_ZERO = ?
+
+MODIFIER_BINDING = ?
+
+R2_WEIGHT_HASH = ?
+
+R2_WEIGHT_HASH_MATCH = ?
+
+JOINT_RELOCATION_REQUIRED = ?
+
+RIG_REBUILD_REQUIRED = ?
+
+WEIGHT_CHANGE_REQUIRED = ?
+
+STATIC_SKIN_REQUALIFICATION = NOT_RUN
+
+FULL_STAGE6A_STATUS_RETAINED =
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT_RETAINED =
+9
+
+PROTECTED_HISTORY_DRIFT = ?
+
+VERDICT = ?
+
+==================================================
+二十七、NEXT
+==================================================
+
+如果 PASS：
+
+NEXT =
+STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+只记录，不执行。
+
+后续仍然：
+
+static skin compatibility
+→
+geometry-dependent true-cap revalidation
+→
+targeted deformation
+→
+Full42 Stage6A
+→
+Human Review
+→
+之后才可能进入 Stage6B。
+
+STOP。

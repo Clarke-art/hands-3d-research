@@ -1,0 +1,43 @@
+{
+  "review_type": "AGENT_PRECHECK_NOT_HUMAN_APPROVAL",
+  "complete_3_4sec_reviewed": true,
+  "FINAL_STATUS": "MOTION_REFINEMENT_PARTIAL",
+  "human_pass": false,
+  "required_times_sec": [
+    0.85,
+    1.15,
+    1.85,
+    2.5
+  ],
+  "observations": [
+    "左手闲置三指钩爪明显减轻；保持RSSF派生弧度和小幅协调随动，非完全伸直或锁死。",
+    "左手八度仍有拇指/掌侧接触风险，不能认定整体自然。",
+    "右手连续换指仍偏机械；原21.817度单步跳变已由求解内边界消除。",
+    "双掌已有连续随动，但持音悬空与掌部键体筛查命中仍在；不以接触率提高替代完整自然度。",
+    "演奏指目标区域未测到错键，闲置指邻键接近风险保留；它们不代表实际弹错声音。",
+    "右掌新增小范围筛查命中保留；侧面视图未见新的大幅翻转或明显大面积穿透，完整自然度仍不通过。",
+    "左右肤色一致，粉白与分面模型感仍在，皮肤质感作为独立未通过问题保留。"
+  ],
+  "fixed_scope": "one final candidate, no parameter sweep, no fingering/timeline/audio changes; bugs only",
+  "material_realism_pass": false,
+  "coverage": {
+    "all_rendered_frames": 204,
+    "time_range_sec": [
+      0,
+      3.4
+    ],
+    "sheets": [
+      "full_motion_1.jpg",
+      "full_motion_2.jpg",
+      "full_motion_3.jpg",
+      "full_motion_4.jpg"
+    ],
+    "fixed_four_time_comparison_reviewed": true,
+    "side_risk_checks_sec": [
+      1.1416666666666666,
+      2.566666666666667
+    ]
+  },
+  "new_obvious_flip_teleport_or_large_penetration_observed": false,
+  "classification_reason": "Idle posture visibly improves and original jump is removed; held contact remains incomplete and palm screen still flags risk. No new obvious gross motion failure in full-frame review; PARTIAL, not ready and not Human PASS."
+}

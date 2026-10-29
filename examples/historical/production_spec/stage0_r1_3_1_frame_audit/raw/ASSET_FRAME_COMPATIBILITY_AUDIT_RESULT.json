@@ -1,0 +1,151 @@
+{
+ "audit_id": "ASSET_FRAME_COMPATIBILITY_AUDIT",
+ "revision": "R1.3.1",
+ "date": "2026-09-28",
+ "mode": "PURE_MATHEMATICAL_READ_ONLY",
+ "runtime": "D:\\Blender\\blender.exe (5.1.2)",
+ "master_file": "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend",
+ "master_file_sha256_expected": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137",
+ "master_file_written_back": false,
+ "working_mesh_created": false,
+ "official_multires_applied": false,
+
+ "source_asset": "Hand  - Realistic",
+ "source_vertex_count": 831,
+
+ "Q1_source_orientation_three_axis_reading_correct": {
+  "DISTAL_fingers_=_MINUS_Z": {
+   "recorded": "-Z",
+   "verdict": "CORRECT",
+   "evidence": [
+    "z_slab_profile: 五个指尖簇位于 z=0.149..0.188（全网格最小 z 端）",
+    "z_slab_profile: 前臂平切端（唯一 ngon 盖面）位于 z=0.4316（全网格最大 z 端）",
+    "沿 +Z 从指尖走到前臂，截面从 5 个独立指截面 → 掌 → 腕 → 前臂单管，方向单调且唯一"
+   ]
+  },
+  "RADIAL_thumb_=_PLUS_X": {
+   "recorded": "+X",
+   "verdict": "CORRECT",
+   "evidence": [
+    "拇指远节区域（z∈[0.2409,0.2749]）实测 x_mean=1.485，覆盖全网格 x 最大值 1.4986",
+    "四指掌心核心区 x∈[1.354,1.454]；拇指位于其 +X 外侧",
+    "radial 轴 = 尺侧→桡侧 = +X（拇指方向）"
+   ]
+  },
+  "DORSAL_=_PLUS_Y": {
+   "recorded": "+Y",
+   "verdict": "WRONG — 该轴标签被反转",
+   "true_dorsal": "-Y",
+   "true_palmar": "+Y",
+   "evidence": [
+    "① 指中心线（网格连通性 Dijkstra，非平面切片）：index/middle/ring 三指由指根走向指尖，y 单调增加 +15~20 mm。手指只能向掌侧屈曲 → 指尖偏向的一侧 = 掌侧 → 掌侧 = +Y。",
+    "② 拇指区域 y∈[0.0228,0.0456]，其 y 最大值 0.0456 即全手 y 最大值所在（x=1.4876）→ 拇指构成手掌平面的 +Y 极值。拇指属掌侧（鱼际），不可能是背侧特征。",
+    "③ 横向壳层剖面：−Y 侧最大凸出点在横断面中央（x=1.410，y=-0.0053）= 掌骨拱 → 背侧；+Y 侧极值位于拇指/鱼际（x=1.488）→ 掌侧。",
+    "④ 第一指蹼（虎口）过渡面位于 y≈+0.02..0.03，高于手掌中平面（约 +0.0125）→ 指蹼偏向 +Y = 掌侧。",
+    "⑤ C1 记录自身 G-12 的算式：D×T = (0,0,-1)×(+1,0,0) = (0,-1,0) = -Y。右手判据要求 D×R = 背侧法向，故 -Y 必须是背侧法向；记录却把 -Y 写成“掌面法向”。这是记录内部的标签错位，与其自身“右手”结论直接冲突。"
+   ]
+  }
+ },
+
+ "Q2_canonical_frame_is_valid_right_handed": {
+  "canonical_axes": { "+X": "RADIAL", "+Y": "DORSAL", "+Z": "DISTAL" },
+  "verdict": "CORRECT / INTERNALLY_CONSISTENT",
+  "reasoning": "对右手，cross(distal, radial) = dorsal，等价于 cross(radial, dorsal) = distal。canonical 的 (X=radial, Y=dorsal, Z=distal) 恰满足 X × Y = Z，故该三轴定义本身构成合法的右手坐标系，并与 RIGHT_HAND 语义自洽。canonical 帧无需修正。",
+  "right_hand_triads": {
+   "radial_x_dorsal": "= distal",
+   "distal_x_radial": "= dorsal"
+  }
+ },
+
+ "Q3_proper_rotation_exists": {
+  "as_literally_recorded_dorsal_=_PLUS_Y": {
+   "answer": "NO",
+   "reason": "要求把 (radial,dorsal,distal)=(+X,+Y,-Z) 映到 (+X,+Y,+Z)。X→X 与 Y→Y 已被锁定，线性性迫使 Z→Z，与 Z→-Z 矛盾；等价地该三标签的基行列式 det=diag(1,1,-1)=-1（improper）。其内在手性为左手。",
+   "forbidden_fixes_rejected": ["negative scale", "runtime mirror", "reflection"]
+  },
+  "after_labelling_correction_dorsal_=_-Y": {
+   "answer": "YES",
+   "matrix_source_to_canonical": [[1,0,0],[0,-1,0],[0,0,-1]],
+   "determinant": 1,
+   "proper_rotation": true,
+   "rotation_axis": "X (radial)",
+   "rotation_angle_deg": 180,
+   "scale_after_normalization": 1.0,
+   "mirror_or_negative_scale_used": false,
+   "axis_mapping_verification": {
+    "source_radial_+X": "-> canonical +X (RADIAL)",
+    "source_dorsal_-Y": "-> canonical +Y (DORSAL)",
+    "source_distal_-Z": "-> canonical +Z (DISTAL)"
+   }
+  }
+ },
+
+ "Q4_conflict_source": {
+  "type": "SOURCE_ORIENTATION_LABEL_ERROR",
+  "wrong_label": "DORSAL (及与之连带的 PALMAR 语义)",
+  "wrong_value_recorded": "DORSAL = +Y",
+  "correct_value": "DORSAL = -Y ; PALMAR = +Y",
+  "not_the_cause": [
+   "canonical frame 定义（正确）",
+   "RIGHT_HAND 语义（正确）",
+   "DISTAL 标签（正确）",
+   "RADIAL 标签（正确）",
+   "资产本身的手性（资产确为解剖学右手）"
+  ],
+  "collateral_documents_with_inverted_Y_labels": [
+   "docs/STAGE1C_C1_ASSET_QUALIFICATION_R1.md §0 / §5 视角约定（背侧 +Y / 掌侧 -Y 写反）",
+   "docs/STAGE1C_C1_ASSET_QUALIFICATION_R1.md §5 G-12 行（-Y 被写成“掌面法向”，实为背面法向）",
+   "docs/STAGE1C_C1_ASSET_QUALIFICATION_R1.md §9.1 证据图命名语义（EVIDENCE_DORSAL.png 实为掌侧视图，EVIDENCE_PALMAR.png 实为背侧视图；相机位置描述无损，解剖学命名互换）",
+   "docs/STAGE1C_C1_ASSET_QUALIFICATION_R1.md §0 掌/背侧判定结论段"
+  ]
+ },
+
+ "Q5_no_improper_fix": {
+  "negative_scale": false,
+  "runtime_mirror": false,
+  "reflection": false,
+  "verdict": "PASS — 全部在 proper rotation 内闭合"
+ },
+
+ "Q6_right_hand_semantics_unchanged": {
+  "verdict": "UNCHANGED",
+  "re_verified_chirality": "RIGHT (triple product (D × R) · dorsal = +1, 使用实测 D=-Z / R=+X / dorsal=-Y)"
+ },
+
+ "SOURCE_TO_CANONICAL_TRANSFORM": {
+  "result_code": "ROTATION_ONLY_COMPATIBLE",
+  "conclusion_letter": "B",
+  "matrix": [[1,0,0],[0,-1,0],[0,0,-1]],
+  "matrix_type": "PROPER_ROTATION",
+  "determinant": 1,
+  "equivalent": "Rx(180 deg) — 绕桡侧轴（X）旋转 180°",
+  "source_orientation_corrected_record": {
+   "DISTAL_fingers": "-Z",
+   "DORSAL": "-Y",
+   "PALMAR": "+Y",
+   "RADIAL_thumb": "+X"
+  },
+  "canonical_target_frame": {
+   "+X": "RADIAL (thumb side)",
+   "+Y": "DORSAL (back of hand)",
+   "+Z": "DISTAL (wrist -> fingertips)"
+  },
+  "APPROVED_TRANSFORM": true
+ },
+
+ "raw_evidence": [
+  "production_spec/stage0_r1_3_1_frame_audit/raw/asset_frame_audit_raw.json",
+  "production_spec/stage0_r1_3_1_frame_audit/raw/finger_centreline_raw.json",
+  "production_spec/stage0_r1_3_1_frame_audit/raw/side_calibration_raw.json",
+  "production_spec/stage0_r1_3_1_frame_audit/raw/body_hand_probe_raw.json"
+ ],
+
+ "scripts": [
+  "production_spec/stage0_r1_3_1_frame_audit/scripts/asset_frame_compatibility_audit.py",
+  "production_spec/stage0_r1_3_1_frame_audit/scripts/finger_centreline_probe.py",
+  "production_spec/stage0_r1_3_1_frame_audit/scripts/side_calibration_probe.py",
+  "production_spec/stage0_r1_3_1_frame_audit/scripts/body_hand_orientation_probe.py"
+ ],
+
+ "FINAL": "ASSET_FRAME_CONFLICT = RESOLVED ; SOURCE_TO_CANONICAL_TRANSFORM = DEFINED ; ASSET_FRAME_AUTHORITY = CONSISTENT"
+}

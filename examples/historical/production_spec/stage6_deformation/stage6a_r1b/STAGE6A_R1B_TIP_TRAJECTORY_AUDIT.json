@@ -1,0 +1,890 @@
+{
+ "stage": "STAGE6A_TIP_TRAJECTORY_AUDIT.json",
+ "generated_at": "2026-09-30T22:52:01.469503+08:00",
+ "method": "per isolated joint: tip landmark world position at bind / 15 / 30 / 45 deg; palmar component must increase monotonically",
+ "joints": {
+  "INDEX_MCP": {
+   "digit": "INDEX",
+   "joint": "MCP",
+   "bone": "INDEX_MCP_R",
+   "bind_tip_world": [
+    1.4609828,
+    -0.037063248,
+    0.514025569
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.458547831,
+      -0.043814138,
+      0.498761296
+     ],
+     "displacement_mm": [
+      -2.434968948,
+      -6.750889122,
+      -15.26427269
+     ],
+     "displacement_magnitude_mm": 16.86717512,
+     "palmar_component_mm": 15.743431006
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.45453012,
+      -0.046552993,
+      0.482610226
+     ],
+     "displacement_mm": [
+      -6.452679634,
+      -9.489744902,
+      -31.415343285
+     ],
+     "displacement_magnitude_mm": 33.445719349,
+     "palmar_component_mm": 29.383630917
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.449203253,
+      -0.045093171,
+      0.466673076
+     ],
+     "displacement_mm": [
+      -11.779546738,
+      -8.029922843,
+      -47.352492809
+     ],
+     "displacement_magnitude_mm": 49.451955456,
+     "palmar_component_mm": 39.991008003
+    }
+   ],
+   "palmar_components_mm": [
+    15.743431006,
+    29.383630917,
+    39.991008003
+   ],
+   "monotonic": true
+  },
+  "INDEX_PIP": {
+   "digit": "INDEX",
+   "joint": "PIP",
+   "bone": "INDEX_PIP_R",
+   "bind_tip_world": [
+    1.4609828,
+    -0.037063248,
+    0.514025569
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.458539963,
+      -0.038995147,
+      0.505264997
+     ],
+     "displacement_mm": [
+      -2.442836761,
+      -1.931898296,
+      -8.76057148
+     ],
+     "displacement_magnitude_mm": 9.297703918,
+     "palmar_component_mm": 7.703551501
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.45585084,
+      -0.038515717,
+      0.496377558
+     ],
+     "displacement_mm": [
+      -5.131959915,
+      -1.452468336,
+      -17.648011446
+     ],
+     "displacement_magnitude_mm": 18.436349711,
+     "palmar_component_mm": 13.848500261
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.453098655,
+      -0.035657622,
+      0.487968951
+     ],
+     "displacement_mm": [
+      -7.884144783,
+      1.405626535,
+      -26.056617498
+     ],
+     "displacement_magnitude_mm": 27.25954573,
+     "palmar_component_mm": 18.016044163
+    }
+   ],
+   "palmar_components_mm": [
+    7.703551501,
+    13.848500261,
+    18.016044163
+   ],
+   "monotonic": true
+  },
+  "INDEX_DIP": {
+   "digit": "INDEX",
+   "joint": "DIP",
+   "bone": "INDEX_DIP_R",
+   "bind_tip_world": [
+    1.4609828,
+    -0.037063248,
+    0.514025569
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.459867835,
+      -0.037454814,
+      0.510190725
+     ],
+     "displacement_mm": [
+      -1.114964485,
+      -0.391565263,
+      -3.834843636
+     ],
+     "displacement_magnitude_mm": 4.012791374,
+     "palmar_component_mm": 3.061212492
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.458700895,
+      -0.03680139,
+      0.50640744
+     ],
+     "displacement_mm": [
+      -2.281904221,
+      0.261858106,
+      -7.618129253
+     ],
+     "displacement_magnitude_mm": 7.956855549,
+     "palmar_component_mm": 5.369431859
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.457561493,
+      -0.035147525,
+      0.502933502
+     ],
+     "displacement_mm": [
+      -3.42130661,
+      1.915723085,
+      -11.092066765
+     ],
+     "displacement_magnitude_mm": 11.76474708,
+     "palmar_component_mm": 6.767393744
+    }
+   ],
+   "palmar_components_mm": [
+    3.061212492,
+    5.369431859,
+    6.767393744
+   ],
+   "monotonic": true
+  },
+  "MIDDLE_MCP": {
+   "digit": "MIDDLE",
+   "joint": "MCP",
+   "bone": "MIDDLE_MCP_R",
+   "bind_tip_world": [
+    1.425354958,
+    -0.047430381,
+    0.520845056
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.427899718,
+      -0.054818317,
+      0.503680944
+     ],
+     "displacement_mm": [
+      2.544760704,
+      -7.387936115,
+      -17.164111137
+     ],
+     "displacement_magnitude_mm": 18.859059686,
+     "palmar_component_mm": 16.429035226
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.42923367,
+      -0.057654403,
+      0.485084116
+     ],
+     "displacement_mm": [
+      3.878712654,
+      -10.224021971,
+      -35.760939121
+     ],
+     "displacement_magnitude_mm": 37.395451831,
+     "palmar_component_mm": 29.901556962
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.429265857,
+      -0.0557454,
+      0.466321945
+     ],
+     "displacement_mm": [
+      3.910899162,
+      -8.31501931,
+      -54.52311039
+     ],
+     "displacement_magnitude_mm": 55.291990655,
+     "palmar_component_mm": 39.499435574
+    }
+   ],
+   "palmar_components_mm": [
+    16.429035226,
+    29.901556962,
+    39.499435574
+   ],
+   "monotonic": true
+  },
+  "MIDDLE_PIP": {
+   "digit": "MIDDLE",
+   "joint": "PIP",
+   "bone": "MIDDLE_PIP_R",
+   "bind_tip_world": [
+    1.425354958,
+    -0.047430381,
+    0.520845056
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.425845027,
+      -0.048613586,
+      0.509726346
+     ],
+     "displacement_mm": [
+      0.490069389,
+      -1.183204353,
+      -11.118710041
+     ],
+     "displacement_magnitude_mm": 11.192222705,
+     "palmar_component_mm": 7.587516826
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.425961375,
+      -0.046899609,
+      0.498666704
+     ],
+     "displacement_mm": [
+      0.606417656,
+      0.530771911,
+      -22.178351879
+     ],
+     "displacement_magnitude_mm": 22.192988973,
+     "palmar_component_mm": 12.812036235
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.425696135,
+      -0.042405285,
+      0.48841992
+     ],
+     "displacement_mm": [
+      0.341176987,
+      5.025096238,
+      -32.425135374
+     ],
+     "displacement_magnitude_mm": 32.813981381,
+     "palmar_component_mm": 15.317497775
+    }
+   ],
+   "palmar_components_mm": [
+    7.587516826,
+    12.812036235,
+    15.317497775
+   ],
+   "monotonic": true
+  },
+  "MIDDLE_DIP": {
+   "digit": "MIDDLE",
+   "joint": "DIP",
+   "bone": "MIDDLE_DIP_R",
+   "bind_tip_world": [
+    1.425354958,
+    -0.047430381,
+    0.520845056
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.425475001,
+      -0.047080629,
+      0.516244709
+     ],
+     "displacement_mm": [
+      0.120043755,
+      0.349752605,
+      -4.600346088
+     ],
+     "displacement_magnitude_mm": 4.615183896,
+     "palmar_component_mm": 2.470756246
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.425515652,
+      -0.04555393,
+      0.511889517
+     ],
+     "displacement_mm": [
+      0.160694122,
+      1.876451075,
+      -8.955538273
+     ],
+     "displacement_magnitude_mm": 9.15142377,
+     "palmar_component_mm": 3.867816176
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.425474405,
+      -0.042954348,
+      0.50807631
+     ],
+     "displacement_mm": [
+      0.119447708,
+      4.476033151,
+      -12.768745422
+     ],
+     "displacement_magnitude_mm": 13.531075602,
+     "palmar_component_mm": 4.096031591
+    }
+   ],
+   "palmar_components_mm": [
+    2.470756246,
+    3.867816176,
+    4.096031591
+   ],
+   "monotonic": true
+  },
+  "RING_MCP": {
+   "digit": "RING",
+   "joint": "MCP",
+   "bone": "RING_MCP_R",
+   "bind_tip_world": [
+    1.396310449,
+    -0.047095321,
+    0.512449503
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.395695686,
+      -0.053716324,
+      0.49649018
+     ],
+     "displacement_mm": [
+      -0.614762306,
+      -6.621003151,
+      -15.959322453
+     ],
+     "displacement_magnitude_mm": 17.289175054,
+     "palmar_component_mm": 15.049913054
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.395445585,
+      -0.055995442,
+      0.479353726
+     ],
+     "displacement_mm": [
+      -0.864863396,
+      -8.900120854,
+      -33.095777035
+     ],
+     "displacement_magnitude_mm": 34.282511544,
+     "palmar_component_mm": 27.384516798
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.395577431,
+      -0.053777374,
+      0.462207913
+     ],
+     "displacement_mm": [
+      -0.733017921,
+      -6.682053208,
+      -50.241589546
+     ],
+     "displacement_magnitude_mm": 50.689293815,
+     "palmar_component_mm": 36.163253943
+    }
+   ],
+   "palmar_components_mm": [
+    15.049913054,
+    27.384516798,
+    36.163253943
+   ],
+   "monotonic": true
+  },
+  "RING_PIP": {
+   "digit": "RING",
+   "joint": "PIP",
+   "bone": "RING_PIP_R",
+   "bind_tip_world": [
+    1.396310449,
+    -0.047095321,
+    0.512449503
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.396399617,
+      -0.047763698,
+      0.502361655
+     ],
+     "displacement_mm": [
+      0.089168549,
+      -0.668376684,
+      -10.08784771
+     ],
+     "displacement_magnitude_mm": 10.110358563,
+     "palmar_component_mm": 6.715557694
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.396267653,
+      -0.045807473,
+      0.492443174
+     ],
+     "displacement_mm": [
+      -0.042796135,
+      1.287847757,
+      -20.006328821
+     ],
+     "displacement_magnitude_mm": 20.047782335,
+     "palmar_component_mm": 11.279033369
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.395923734,
+      -0.041359954,
+      0.483370066
+     ],
+     "displacement_mm": [
+      -0.386714935,
+      5.735367537,
+      -29.079437256
+     ],
+     "displacement_magnitude_mm": 29.642159936,
+     "palmar_component_mm": 13.379366446
+    }
+   ],
+   "palmar_components_mm": [
+    6.715557694,
+    11.279033369,
+    13.379366446
+   ],
+   "monotonic": true
+  },
+  "RING_DIP": {
+   "digit": "RING",
+   "joint": "DIP",
+   "bone": "RING_DIP_R",
+   "bind_tip_world": [
+    1.396310449,
+    -0.047095321,
+    0.512449503
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.396262169,
+      -0.046522006,
+      0.508330703
+     ],
+     "displacement_mm": [
+      -0.048279762,
+      0.573314726,
+      -4.118800163
+     ],
+     "displacement_magnitude_mm": 4.158790227,
+     "palmar_component_mm": 2.082517064
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.396091342,
+      -0.044909455,
+      0.504501104
+     ],
+     "displacement_mm": [
+      -0.219106674,
+      2.185866237,
+      -7.94839859
+     ],
+     "displacement_magnitude_mm": 8.246396616,
+     "palmar_component_mm": 3.178857142
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.395809412,
+      -0.04236757,
+      0.501221597
+     ],
+     "displacement_mm": [
+      -0.501036644,
+      4.727751017,
+      -11.22790575
+     ],
+     "displacement_magnitude_mm": 12.192970421,
+     "palmar_component_mm": 3.214385102
+    }
+   ],
+   "palmar_components_mm": [
+    2.082517064,
+    3.178857142,
+    3.214385102
+   ],
+   "monotonic": true
+  },
+  "LITTLE_MCP": {
+   "digit": "LITTLE",
+   "joint": "MCP",
+   "bone": "LITTLE_MCP_R",
+   "bind_tip_world": [
+    1.359527707,
+    -0.03846734,
+    0.497986555
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.363670349,
+      -0.044233546,
+      0.487275511
+     ],
+     "displacement_mm": [
+      4.142642021,
+      -5.76620549,
+      -10.711044073
+     ],
+     "displacement_magnitude_mm": 12.850566962,
+     "palmar_component_mm": 11.475130566
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.367968082,
+      -0.046839871,
+      0.475448728
+     ],
+     "displacement_mm": [
+      8.440375328,
+      -8.372530341,
+      -22.537827492
+     ],
+     "displacement_magnitude_mm": 25.481226327,
+     "palmar_component_mm": 21.062138956
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.372128248,
+      -0.046108693,
+      0.463312209
+     ],
+     "displacement_mm": [
+      12.600541115,
+      -7.641352713,
+      -34.674346447
+     ],
+     "displacement_magnitude_mm": 37.67591041,
+     "palmar_component_mm": 28.10772229
+    }
+   ],
+   "palmar_components_mm": [
+    11.475130566,
+    21.062138956,
+    28.10772229
+   ],
+   "monotonic": true
+  },
+  "LITTLE_PIP": {
+   "digit": "LITTLE",
+   "joint": "PIP",
+   "bone": "LITTLE_PIP_R",
+   "bind_tip_world": [
+    1.359527707,
+    -0.03846734,
+    0.497986555
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.362011194,
+      -0.039738089,
+      0.491303682
+     ],
+     "displacement_mm": [
+      2.483487129,
+      -1.270748675,
+      -6.682872772
+     ],
+     "displacement_magnitude_mm": 7.241774557,
+     "palmar_component_mm": 5.26894402
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.364269018,
+      -0.039139777,
+      0.484448969
+     ],
+     "displacement_mm": [
+      4.741311073,
+      -0.672437251,
+      -13.537585735
+     ],
+     "displacement_magnitude_mm": 14.359610966,
+     "palmar_component_mm": 9.076944087
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.366147161,
+      -0.036713161,
+      0.477889478
+     ],
+     "displacement_mm": [
+      6.61945343,
+      1.754179597,
+      -20.097076893
+     ],
+     "displacement_magnitude_mm": 21.231740851,
+     "palmar_component_mm": 11.164479074
+    }
+   ],
+   "palmar_components_mm": [
+    5.26894402,
+    9.076944087,
+    11.164479074
+   ],
+   "monotonic": true
+  },
+  "LITTLE_DIP": {
+   "digit": "LITTLE",
+   "joint": "DIP",
+   "bone": "LITTLE_DIP_R",
+   "bind_tip_world": [
+    1.359527707,
+    -0.03846734,
+    0.497986555
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.360530138,
+      -0.038597204,
+      0.495129079
+     ],
+     "displacement_mm": [
+      1.002430916,
+      -0.12986362,
+      -2.857476473
+     ],
+     "displacement_magnitude_mm": 3.030990561,
+     "palmar_component_mm": 1.90666569
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.36147356,
+      -0.037939817,
+      0.49232471
+     ],
+     "displacement_mm": [
+      1.945853233,
+      0.527523458,
+      -5.661845207
+     ],
+     "displacement_magnitude_mm": 6.010084554,
+     "palmar_component_mm": 3.138655942
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.362293839,
+      -0.036539964,
+      0.489764512
+     ],
+     "displacement_mm": [
+      2.766132355,
+      1.927375793,
+      -8.222043514
+     ],
+     "displacement_magnitude_mm": 8.886408974,
+     "palmar_component_mm": 3.612067841
+    }
+   ],
+   "palmar_components_mm": [
+    1.90666569,
+    3.138655942,
+    3.612067841
+   ],
+   "monotonic": true
+  },
+  "THUMB_MCP": {
+   "digit": "THUMB",
+   "joint": "MCP",
+   "bone": "THUMB_MCP_R",
+   "bind_tip_world": [
+    1.45281744,
+    0.019802358,
+    0.493028313
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.442946792,
+      0.008055481,
+      0.494514853
+     ],
+     "displacement_mm": [
+      -9.870648384,
+      -11.746876873,
+      1.486539841
+     ],
+     "displacement_magnitude_mm": 15.415207389,
+     "palmar_component_mm": 15.401520192
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.433766127,
+      -0.004081145,
+      0.492056042
+     ],
+     "displacement_mm": [
+      -19.0513134,
+      -23.88350293,
+      -0.972270966
+     ],
+     "displacement_magnitude_mm": 30.566640818,
+     "palmar_component_mm": 30.4463231
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.425901055,
+      -0.01578041,
+      0.485819399
+     ],
+     "displacement_mm": [
+      -26.916384697,
+      -35.582765937,
+      -7.208913565
+     ],
+     "displacement_magnitude_mm": 45.195060449,
+     "palmar_component_mm": 44.109133218
+    }
+   ],
+   "palmar_components_mm": [
+    15.401520192,
+    30.4463231,
+    44.109133218
+   ],
+   "monotonic": true
+  },
+  "THUMB_IP": {
+   "digit": "THUMB",
+   "joint": "IP",
+   "bone": "THUMB_IP_R",
+   "bind_tip_world": [
+    1.45281744,
+    0.019802358,
+    0.493028313
+   ],
+   "samples": [
+    {
+     "angle_deg": 15.0,
+     "tip_world": [
+      1.447330832,
+      0.01377436,
+      0.49502492
+     ],
+     "displacement_mm": [
+      -5.486607552,
+      -6.027998403,
+      1.996606588
+     ],
+     "displacement_magnitude_mm": 8.39202398,
+     "palmar_component_mm": 8.239560389
+    },
+    {
+     "angle_deg": 30.0,
+     "tip_world": [
+      1.442084908,
+      0.00722521,
+      0.49490732
+     ],
+     "displacement_mm": [
+      -10.732531548,
+      -12.577148154,
+      1.879006624
+     ],
+     "displacement_magnitude_mm": 16.640389412,
+     "palmar_component_mm": 16.610421866
+    },
+    {
+     "angle_deg": 45.0,
+     "tip_world": [
+      1.437436938,
+      0.000601236,
+      0.49268353
+     ],
+     "displacement_mm": [
+      -15.380501747,
+      -19.201122224,
+      -0.344783068
+     ],
+     "displacement_magnitude_mm": 24.604101556,
+     "palmar_component_mm": 24.542261428
+    }
+   ],
+   "palmar_components_mm": [
+    8.239560389,
+    16.610421866,
+    24.542261428
+   ],
+   "monotonic": true
+  }
+ },
+ "TIP_TRAJECTORY_MONOTONIC": "PASS"
+}

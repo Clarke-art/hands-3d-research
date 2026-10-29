@@ -1,0 +1,54 @@
+{
+  "review_type": "AGENT_NORMAL_VIEW_PRECHECK_NOT_HUMAN_APPROVAL",
+  "reviewed_views": {
+    "L1": [
+      "TEACHING_TOP",
+      "SIDE_OBLIQUE",
+      "REASONABLE_CLOSE"
+    ],
+    "L2": [
+      "TEACHING_TOP",
+      "SIDE_OBLIQUE",
+      "REASONABLE_CLOSE"
+    ],
+    "R1": [
+      "TEACHING_TOP",
+      "SIDE_OBLIQUE",
+      "REASONABLE_CLOSE"
+    ],
+    "R2": [
+      "TEACHING_TOP",
+      "SIDE_OBLIQUE",
+      "REASONABLE_CLOSE"
+    ]
+  },
+  "views_selected_before_inspection": true,
+  "observations": {
+    "L1": [
+      "小指指垫接近 D2 前部内侧，拇指在 D3 上方准备。三闲置指沿 RSSF 曲度延伸、相互留间距，未见统一钩爪或强制拉直。",
+      "侧斜视/近景未见掌部压入键盘、腕部反折或明显新网格崩塌；70mm wrist root 和有界旋转的自然程度需 Human 判断。",
+      "小指 MCP 增量触及 32° 预设边界，不能将候选称为已校准生理手型。"
+    ],
+    "L2": [
+      "拇指皮肤 pad 在 D3 前部内侧，小指处于 D2 准备；三闲置指与 L1 几乎相同。",
+      "共同 root 无平移/旋转；拇指弯曲集中到 MCP/IP，触及 25°/18° 工程边界，需 Human 判断是否显得紧张。",
+      "未见明确反关节、掌腕压键或新的大面积塌陷；静态接触成立不能证明交替运动自然。"
+    ],
+    "R1": [
+      "五指呈不同前后/高度布局，中指靠近 F#5 黑键；未强迫同时触键。",
+      "正常近景显示食指/无名指与相邻黑键边缘空间挤压；D#5/G#5 全网格筛查仍命中，风险不能排除，保守 FAIL_CLEARANCE。",
+      "掌腕自身没有深度穿键筛查命中；该事实不能抵消闲置指邻键风险。"
+    ],
+    "R2": [
+      "中指固定 pad 和皮肤 pad 均在 F#5 真实顶面，较 R1 下降约 6.86mm，并适度改变曲度；其他四指和 root 几乎不变。",
+      "食指/无名指邻 D#5/G#5 的风险继承，不以中指接触成功掩盖。",
+      "没有明显腕部大角度扭转或反关节，但右手整体净空不能 PASS。"
+    ]
+  },
+  "new_obvious_reverse_joint_or_large_mesh_collapse": false,
+  "render_boundary": "Workbench studio object color/cavity display emphasizes the existing mesh facets. No smoothing/topology/material/driver editing. These images review posture/contact, not finished realistic skin material. Not a real human performance reference.",
+  "full_triangle_or_hidden_geometry_forensics_performed": false,
+  "normal_side_view_limit": "Side and close views expose local crowding; 3-vertex conservative box hits are not a certified full-triangle penetration proof. Retain the risk and FAIL_CLEARANCE rather than upgrading it to PASS.",
+  "human_approval": false,
+  "dynamic_motion_proven": false
+}

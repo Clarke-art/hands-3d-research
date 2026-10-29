@@ -1,0 +1,44 @@
+{
+  "source_episode": {
+    "episode_id": "R00:RELEASE",
+    "note_id": "R00",
+    "hand": "R",
+    "finger": 5,
+    "midi": 74,
+    "key_index": 53,
+    "mode": "RELEASE",
+    "display_interval": [
+      0.7785709999999999,
+      0.8485710144042968
+    ],
+    "music_interval": [
+      0.4285709999999999,
+      0.49857101440429685
+    ],
+    "interval_convention": "[start,end)",
+    "required_contact": false,
+    "optional_early_contact": false,
+    "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+    "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+    "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+    "source_event_ticks": [
+      0,
+      384
+    ],
+    "geometry_oracle": "frozen_blender_actual_skin_v1",
+    "target_depth_limit_mm": 0.25,
+    "non_target_depth_limit_mm": 0.25,
+    "nonadjacent_self_crossings_limit": 0,
+    "contact_force": "NOT_ESTIMATED",
+    "pre_touch_guard": null
+  },
+  "result": {
+    "event_time": 0.7785709999999999,
+    "contacts": [],
+    "jacobian": [],
+    "gap": [],
+    "signature": []
+  },
+  "passed": true,
+  "scope": "Another existing MIDI RELEASE type: no required contact equality. No other-song motion solved. Collision and joint gates are not waived by release."
+}

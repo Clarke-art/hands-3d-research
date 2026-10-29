@@ -1,0 +1,49 @@
+{
+ "seeds": {
+  "THUMB": 284,
+  "INDEX": 1228,
+  "MIDDLE": 1737,
+  "RING": 1741,
+  "LITTLE": 225,
+  "wrist": 2255
+ },
+ "counts": {
+  "LITTLE": 568,
+  "RING": 394,
+  "MIDDLE": 367,
+  "INDEX": 462,
+  "THUMB": 607,
+  "wrist": 1018
+ },
+ "changed": 597,
+ "pairs": {
+  "wrist->RING": 36,
+  "wrist->MIDDLE": 34,
+  "THUMB->INDEX": 78,
+  "INDEX->THUMB": 31,
+  "THUMB->wrist": 86,
+  "wrist->THUMB": 116,
+  "wrist->LITTLE": 139,
+  "wrist->INDEX": 21,
+  "MIDDLE->INDEX": 29,
+  "RING->LITTLE": 27
+ },
+ "outside_changed": 420,
+ "inside_changed": 177,
+ "log": [
+  "own_r1a counts: {'LITTLE': 402, 'RING': 385, 'MIDDLE': 362, 'INDEX': 365, 'THUMB': 624, 'wrist': 1278}",
+  "R2 partition counts: {'LITTLE': 568, 'RING': 394, 'MIDDLE': 367, 'INDEX': 462, 'THUMB': 607, 'wrist': 1018}",
+  "changed vs own_r1a: 597",
+  "change pairs: {('wrist', 'RING'): 36, ('wrist', 'MIDDLE'): 34, ('THUMB', 'INDEX'): 78, ('INDEX', 'THUMB'): 31, ('THUMB', 'wrist'): 86, ('wrist', 'THUMB'): 116, ('wrist', 'LITTLE'): 139, ('wrist', 'INDEX'): 21, ('MIDDLE', 'INDEX'): 29, ('RING', 'LITTLE'): 27}",
+  "THUMB-ward changes 147 ; INDEX-ward changes 128",
+  "THUMB-ward: dThumb median 32.39  p95 48.23  max 56.66",
+  "INDEX-ward: dThumb median 17.99  p95 40.28  max 45.68",
+  "changed inside 6-ring of the 84 flagged vertices: 177 ; outside: 420",
+  "outside-change pairs: {('wrist', 'RING'): 36, ('wrist', 'MIDDLE'): 19, ('THUMB', 'wrist'): 86, ('wrist', 'LITTLE'): 139, ('wrist', 'THUMB'): 101, ('RING', 'LITTLE'): 27, ('MIDDLE', 'INDEX'): 9, ('wrist', 'INDEX'): 3}",
+  "  dThumb [0,10): 37  {('THUMB', 'wrist'): 37}",
+  "  dThumb [10,20): 21  {('THUMB', 'wrist'): 21}",
+  "  dThumb [20,30): 45  {('THUMB', 'wrist'): 23, ('wrist', 'MIDDLE'): 1, ('wrist', 'THUMB'): 20, ('MIDDLE', 'INDEX'): 1}",
+  "  dThumb [30,60): 225  {('wrist', 'RING'): 36, ('wrist', 'MIDDLE'): 18, ('wrist', 'LITTLE'): 71, ('wrist', 'THUMB'): 81, ('MIDDLE', 'INDEX'): 8, ('wrist', 'INDEX'): 3, ('THUMB', 'wrist'): 5, ('RING', 'LITTLE'): 3}",
+  "  dThumb [60,200): 92  {('wrist', 'LITTLE'): 68, ('RING', 'LITTLE'): 24}"
+ ]
+}

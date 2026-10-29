@@ -1,0 +1,1114 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+当前正式 geometry authority
+==================================================
+
+最新 Stage4C geometry authority：
+
+production_spec/stage4_blender/
+stage4c_donor_transfer_palmar_root_r1/
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_PALMAR_ROOT_R1.blend
+
+SHA256：
+
+0c1831042151a40f87f3779b97ece94cfc29a7831babfa1dda64c9ac0f4ae9c6
+
+该 asset 已正式包含：
+
+1.
+此前 Human-approved dorsal54 donor restoration
+
+2.
+最新 Human-approved palmar16 donor restoration
+
+palmar16：
+
+3348–3363
+
+其中：
+
+3353 / 3354 / 3359
+=
+primary core
+
+其余13点
+=
+ancestry closure
+
+并已确认：
+
+outside16 drift = 0
+
+normal69 drift = 0
+
+topology drift = 0
+
+UV drift = 0
+
+material drift = 0
+
+save/reopen = PASS
+
+static structural gate = PASS
+
+==================================================
+当前正式 Stage5 lineage
+==================================================
+
+当前 corrected Stage5A donor-transfer derivative：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_donor_transfer_r1/
+RIGHT_HAND_STAGE5A_CORRECTED_RIG_DONOR_TRANSFER_R1.blend
+
+SHA256：
+
+513323c98a0d2a1c3b45f5543c6738476af7090447e84a0cc510d6e9606adc62
+
+当前 Stage5B R2 donor-transfer derivative：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_donor_transfer_r1/
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend
+
+SHA256：
+
+d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d
+
+当前 R2 weight-vector authority：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+当前 corrected rig authority：
+
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+
+本轮只做：
+
+FULL MESH GEOMETRY PAYLOAD PROPAGATION
++
+RIG / WEIGHT / GROUP / MODIFIER PAYLOAD PRESERVATION
+
+不是：
+
+joint requalification
+
+joint relocation
+
+rest / zero / bind qualification
+
+static skin requalification
+
+true-cap recomputation
+
+targeted deformation
+
+Full Stage6A
+
+current9 Human closure
+
+whole-hand integrity baseline
+
+Stage6B
+
+production promotion。
+
+==================================================
+一、核心目标
+==================================================
+
+将最新：
+
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_PALMAR_ROOT_R1
+
+的完整 3416-vertex native geometry
+
+精确传播到：
+
+A.
+当前 corrected Stage5A rig lineage
+
+B.
+当前 Stage5B R2 skin lineage
+
+同时完整冻结：
+
+21 bones
+
+bone hierarchy
+
+head / tail
+
+roll
+
+rest transforms
+
+corrected thumb kinematics
+
+joint coordinates
+
+object transforms
+
+armature transforms
+
+vertex groups
+
+group order
+
+3416 weight vectors
+
+modifier binding
+
+all weight authority semantics。
+
+唯一合法变化：
+
+mesh vertex positions。
+
+==================================================
+二、为什么从现有 Stage5 donor-transfer derivatives 继续
+==================================================
+
+当前 Stage5A / Stage5B R2 derivatives
+已经包含此前 dorsal54 geometry correction。
+
+最新 Stage4C
+=
+dorsal54
++
+palmar16。
+
+因此：
+
+不要重新从 pre-donor Stage5
+再应用 dorsal54 + palmar16 两轮 patch。
+
+正确路线是：
+
+CURRENT_STAGE5_DORSAL_DERIVATIVE
+→
+replace / propagate complete latest Stage4C geometry payload
+
+理论上相对于当前 Stage5 derivatives：
+
+新增 geometry delta
+应该仅为 palmar16。
+
+必须实际验证：
+
+OLD_STAGE5_TO_NEW_STAGE5_CHANGED_VERTEX_COUNT = 16
+
+OUTSIDE_PALMAR16_GEOMETRY_DRIFT = 0
+
+==================================================
+三、输入 hash preflight
+==================================================
+
+必须先验证：
+
+LATEST_STAGE4C_SHA256
+=
+0c1831042151a40f87f3779b97ece94cfc29a7831babfa1dda64c9ac0f4ae9c6
+
+CURRENT_STAGE5A_SHA256
+=
+513323c98a0d2a1c3b45f5543c6738476af7090447e84a0cc510d6e9606adc62
+
+CURRENT_STAGE5B_R2_SHA256
+=
+d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d
+
+R2_WEIGHT_HASH
+=
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+CORRECTED_RIG_AUTHORITY
+=
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+任一不一致：
+
+FAIL_CLOSED_STAGE5_LINEAGE_INPUT_MISMATCH
+
+STOP。
+
+==================================================
+四、禁止重新构建 Stage5
+==================================================
+
+本轮禁止：
+
+重新生成 armature
+
+重新定位 joints
+
+重新计算 head / tail
+
+重新计算 roll
+
+重新生成 corrected THUMB_IP / THUMB_TIP
+
+重新 skin
+
+重新 normalize weights
+
+重新 smooth weights
+
+重新运行 317 solver
+
+重新运行 R3
+
+重新生成 groups
+
+重新 bind
+
+修改 modifier stack。
+
+本轮只有：
+
+geometry propagation。
+
+==================================================
+五、建立两个新的独立 derived assets
+==================================================
+
+不得覆盖当前 Stage5A / Stage5B R2。
+
+建议目录：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_palmar_donor_restoration_r1/
+
+--------------------------------
+A. Stage5A corrected rig derivative
+--------------------------------
+
+来源：
+
+RIGHT_HAND_STAGE5A_CORRECTED_RIG_DONOR_TRANSFER_R1.blend
+
+生成例如：
+
+RIGHT_HAND_STAGE5A_CORRECTED_RIG_DONOR_TRANSFER_PALMAR_ROOT_R1.blend
+
+要求：
+
+mesh geometry
+=
+latest Stage4C complete geometry
+
+rig payload
+=
+current Stage5A corrected rig exact equivalent
+
+--------------------------------
+B. Stage5B R2 skin derivative
+--------------------------------
+
+来源：
+
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_GEOMETRY_R1.blend
+
+生成例如：
+
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_PALMAR_ROOT_GEOMETRY_R1.blend
+
+要求：
+
+mesh geometry
+=
+latest Stage4C complete geometry
+
+rig / groups / weights / modifiers
+=
+current Stage5B R2 exact equivalent。
+
+==================================================
+六、传播 authority 必须是完整 3416 点 geometry
+==================================================
+
+不要只向 Stage5 手工写16点。
+
+正式 propagation semantics：
+
+LATEST_STAGE4C_COMPLETE_GEOMETRY
+→
+Stage5 mesh payload
+
+必须证明：
+
+3416 / 3416 coordinates
+
+Stage5A =
+latest Stage4C
+
+Stage5B R2 =
+latest Stage4C
+
+目标：
+
+STAGE4C_TO_STAGE5A_VERTEX_MAX_DELTA_MM = 0
+
+STAGE4C_TO_STAGE5B_R2_VERTEX_MAX_DELTA_MM = 0
+
+或仅允许明确的 native serialization semantics。
+
+==================================================
+七、相对旧 Stage5 的 geometry delta
+==================================================
+
+同时验证：
+
+current Stage5A
+→ new Stage5A
+
+current Stage5B R2
+→ new Stage5B R2
+
+预期：
+
+ACTUAL_CHANGED_VERTEX_COUNT = 16
+
+changed IDs =
+3348–3363
+
+outside16 position drift =
+0
+
+此前 dorsal54
+不得再次产生 delta。
+
+如果出现：
+
+第17个 vertex change
+
+或任何 dorsal54 再变化
+
+FAIL CLOSED。
+
+==================================================
+八、Stage5A rig payload 必须 exact frozen
+==================================================
+
+对：
+
+new Stage5A
+vs
+current Stage5A
+
+完整比较：
+
+21 bone names
+
+parents
+
+hierarchy
+
+head
+
+tail
+
+roll
+
+rest matrix
+
+local matrix
+
+use_deform
+
+inherit settings
+
+object transform
+
+armature transform
+
+pose/rest default state。
+
+要求：
+
+BONE_PAYLOAD_DELTA = 0
+
+JOINT_PAYLOAD_DELTA = 0
+
+ROLL_DELTA = 0
+
+REST_MATRIX_DELTA = 0
+
+特别包括：
+
+THUMB_IP_R
+
+THUMB_TIP_R
+
+corrected chain
+必须逐值完全一致。
+
+不得根据新 palmar surface
+自动移动 MIDDLE_MCP joint。
+
+==================================================
+九、Stage5B R2 weight payload必须 exact frozen
+==================================================
+
+对：
+
+new Stage5B R2
+vs
+current Stage5B R2
+
+完整比较：
+
+vertex group set
+
+group order
+
+3416 weight vectors
+
+所有 weight scalars。
+
+save/reopen 后完整 hash
+必须仍为：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+要求：
+
+WEIGHT_VECTOR_CHANGED_COUNT = 0
+
+GROUP_DRIFT = 0
+
+GROUP_ORDER_DRIFT = 0
+
+不得：
+
+normalize
+prune
+repair
+smooth。
+
+==================================================
+十、其它 payload 保护
+==================================================
+
+必须保持：
+
+V/E/F
+
+vertex IDs
+
+edge IDs
+
+face IDs
+
+native cycles
+
+manifold
+
+UV
+
+materials
+
+material assignments
+
+smooth / sharp flags
+
+custom-normal state
+
+mesh object transform
+
+armature object transform
+
+modifier stack
+
+modifier target
+
+vertex-group binding
+
+nail semantics。
+
+除新 provenance metadata 外：
+
+无非 geometry drift。
+
+==================================================
+十一、normal69 保护必须继续验证
+==================================================
+
+最新 Stage4C 中：
+
+下方正常69点
+=
+position locked。
+
+传播到两个 Stage5 derivatives 后
+必须继续：
+
+NORMAL69_STAGE5A_POSITION_MATCH_STAGE4C = PASS
+
+NORMAL69_STAGE5B_POSITION_MATCH_STAGE4C = PASS
+
+不得因为 armature / group payload copy
+改变 stored raw coordinates。
+
+==================================================
+十二、Authority ID membership
+==================================================
+
+只做 ID consistency：
+
+cap37
+
+old cap9
+
+FIRST_WEB21
+
+fresh-R3 962-domain
+
+historical317
+
+dorsal54
+
+palmar16
+
+必须：
+
+membership IDs / counts unchanged。
+
+不要：
+
+重新 R3
+
+重新 ownership
+
+重新 anatomy research。
+
+==================================================
+十三、当前 palmar16 与 current9
+==================================================
+
+再次验证：
+
+palmar16
+vs current9
+
+direct overlap = 0
+
+1-ring overlap = 0
+
+2-ring overlap = 0
+
+只做 ID / topology consistency。
+
+current9 Human response：
+
+继续：
+
+HOLD_NOT_CLOSED
+
+不得：
+
+生成 closure
+改答案
+扩大批准。
+
+==================================================
+十四、只允许最小 ZERO evaluation smoke
+==================================================
+
+允许 clean reopen 后：
+
+all pose channels = ZERO
+
+depsgraph evaluate
+
+只确认：
+
+file opens
+
+modifier valid
+
+missing bones = 0
+
+missing groups = 0
+
+NaN / Inf = 0
+
+evaluation failure = 0。
+
+输出：
+
+ZERO_EVAL_SMOKE = PASS / FAIL
+
+这不是：
+
+joint/rest/zero/bind requalification。
+
+==================================================
+十五、不要现在运行 MID MCP pose
+==================================================
+
+虽然：
+
+MID_MCP_45
+=
+MANDATORY_TARGETED_REVALIDATION
+
+但本轮禁止：
+
+MID_MCP_15
+MID_MCP_30
+MID_MCP_45
+
+pose evaluation。
+
+正式 deformation 属于 propagation 后的下游资格。
+
+==================================================
+十六、joint-surface 只做 diagnostic
+==================================================
+
+允许只读测量：
+
+new surface
+vs fixed joints
+
+nearest-surface distance delta
+
+特别突出：
+
+MIDDLE_MCP_R
+
+RING_MCP_R
+
+WRIST
+
+以及 palmar16 最近 joint。
+
+但只标：
+
+DIAGNOSTIC_ONLY
+
+不得：
+
+移动 joint
+
+判正式 joint qualification
+
+重新 rig。
+
+下一阶段才执行正式：
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+
+==================================================
+十七、save / reopen
+==================================================
+
+两个新 Stage5 assets
+都必须：
+
+save
+
+factory-clean reopen
+
+重新读取并验证：
+
+3416 mesh coordinates
+
+rig payload
+
+groups
+
+weights
+
+UV
+
+materials
+
+modifiers
+
+transforms。
+
+R2 derivative reopen 后：
+
+重新计算 weight hash。
+
+必须仍为：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+==================================================
+十八、protected history
+==================================================
+
+不得修改：
+
+latest Stage4C authority
+
+previous Stage4C source
+
+current Stage5A
+
+current Stage5B R2
+
+Human approval receipts
+
+dorsal donor reports
+
+palmar donor reports
+
+true-cap
+
+targeted deformation
+
+Full Stage6A
+
+current9 Human response / hold receipt。
+
+做 before/after SHA256 audit。
+
+==================================================
+十九、MID45 mandatory flag 必须向下游传播
+==================================================
+
+新 Stage5 lineage metadata / status
+必须继续携带：
+
+MID_MCP_45_MANDATORY_REVALIDATION = YES
+
+不得因为 geometry propagation PASS
+把它清除。
+
+同时记录历史 design observation：
+
+candidate incident edge ratio：
+
+0.477504 – 1.632646
+
+previous current：
+
+0.760663 – 1.577704
+
+只作 future revalidation context。
+
+不得在本轮重新解释。
+
+==================================================
+二十、whole-hand integrity future gate
+==================================================
+
+记录：
+
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_REQUIRED = YES
+
+但：
+
+本轮不执行。
+
+该 gate 位于：
+
+palmar propagation + downstream requalification 完成之后
+
+Stage6B 之前。
+
+==================================================
+二十一、Pass criteria
+==================================================
+
+必须全部满足：
+
+LATEST_STAGE4C_HASH_VERIFIED = PASS
+
+CURRENT_STAGE5A_HASH_VERIFIED = PASS
+
+CURRENT_STAGE5B_R2_HASH_VERIFIED = PASS
+
+STAGE5A_GEOMETRY_EQUALS_LATEST_STAGE4C = PASS
+
+STAGE5B_GEOMETRY_EQUALS_LATEST_STAGE4C = PASS
+
+OLD_TO_NEW_STAGE5A_CHANGED_COUNT = 16
+
+OLD_TO_NEW_STAGE5B_CHANGED_COUNT = 16
+
+CHANGED_VERTEX_IDENTITY = 3348–3363
+
+OUTSIDE16_STAGE5A_DRIFT = 0
+
+OUTSIDE16_STAGE5B_DRIFT = 0
+
+NORMAL69_GEOMETRY_MATCH = PASS
+
+BONE_PAYLOAD_DELTA = 0
+
+JOINT_PAYLOAD_DELTA = 0
+
+ROLL_DELTA = 0
+
+REST_MATRIX_DELTA = 0
+
+R2_WEIGHT_HASH_MATCH = PASS
+
+GROUP_SET_ORDER_UNCHANGED = PASS
+
+UV_MATERIAL_PAYLOAD_UNCHANGED = PASS
+
+MODIFIER_BINDING_UNCHANGED = PASS
+
+AUTHORITY_MEMBERSHIP_UNCHANGED = PASS
+
+CURRENT9_OVERLAP = 0/0/0
+
+ZERO_EVAL_SMOKE = PASS
+
+SAVE_REOPEN = PASS
+
+PROTECTED_HISTORY_DRIFT = 0
+
+MID_MCP_45_MANDATORY_REVALIDATION = YES
+
+==================================================
+二十二、成功 verdict
+==================================================
+
+如果全部 PASS：
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+=
+PASS_GEOMETRY_PROPAGATED_WITH_RIG_AND_WEIGHTS_FROZEN
+
+并明确：
+
+JOINT_RELOCATION_REQUIRED =
+NOT_EVALUATED_THIS_PHASE
+
+RIG_REBUILD_REQUIRED =
+NO
+
+WEIGHT_CHANGE_REQUIRED =
+NO
+
+MID_MCP_45_MANDATORY_REVALIDATION =
+YES
+
+==================================================
+二十三、失败条件
+==================================================
+
+以下任一：
+
+Stage4C geometry mismatch
+
+17th vertex drift
+
+dorsal54 unintended delta
+
+bone/joint/roll drift
+
+weight drift
+
+weight hash mismatch
+
+group/order drift
+
+modifier binding drift
+
+topology/UV/material drift
+
+save/reopen drift
+
+必须：
+
+FAIL_CLOSED_STAGE5_GEOMETRY_PROPAGATION_AFTER_PALMAR_RESTORATION
+
+STOP。
+
+不得自动：
+
+修 bones
+修 joints
+修 weights
+normalize
+expand scope
+rebuild rig。
+
+==================================================
+二十四、输出
+==================================================
+
+至少生成：
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_PALMAR_DONOR_RESTORATION_R1_REPORT.md
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_PALMAR_DONOR_RESTORATION_R1_STATUS.json
+
+PALMAR_STAGE5_INPUT_LINEAGE_RECOVERY_R1.json
+
+PALMAR_STAGE5A_GEOMETRY_PROPAGATION_AUDIT_R1.json
+
+PALMAR_STAGE5B_R2_GEOMETRY_PROPAGATION_AUDIT_R1.json
+
+PALMAR_STAGE5_RIG_PAYLOAD_EQUIVALENCE_R1.json
+
+PALMAR_STAGE5_WEIGHT_PAYLOAD_EQUIVALENCE_R1.json
+
+PALMAR_STAGE5_NORMAL69_PROTECTION_R1.json
+
+PALMAR_STAGE5_AUTHORITY_MEMBERSHIP_R1.json
+
+PALMAR_STAGE5_CURRENT9_INDEPENDENCE_R1.json
+
+PALMAR_STAGE5_JOINT_SURFACE_DIAGNOSTIC_R1.json
+
+PALMAR_STAGE5_ZERO_EVAL_SMOKE_R1.json
+
+PALMAR_STAGE5_SAVE_REOPEN_AUDIT_R1.json
+
+PRODUCTION_READONLY_NO_DRIFT_VERIFICATION.json
+
+以及两个新的 Stage5 derived .blend。
+
+==================================================
+二十五、最终必须明确
+==================================================
+
+LATEST_STAGE4C_PATH = ?
+
+LATEST_STAGE4C_SHA256 =
+0c1831042151a40f87f3779b97ece94cfc29a7831babfa1dda64c9ac0f4ae9c6
+
+SOURCE_STAGE5A_SHA256 =
+513323c98a0d2a1c3b45f5543c6738476af7090447e84a0cc510d6e9606adc62
+
+SOURCE_STAGE5B_R2_SHA256 =
+d8ea48d5d09635a46aebabb7a6e516f2a2a8599c92f2ca68489cdbeb0ec6866d
+
+SOURCE_R2_WEIGHT_HASH =
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+NEW_STAGE5A_PATH = ?
+
+NEW_STAGE5A_SHA256 = ?
+
+NEW_STAGE5B_R2_PATH = ?
+
+NEW_STAGE5B_R2_SHA256 = ?
+
+STAGE4C_TO_STAGE5A_MAX_VERTEX_DELTA_MM = ?
+
+STAGE4C_TO_STAGE5B_MAX_VERTEX_DELTA_MM = ?
+
+OLD_TO_NEW_STAGE5A_CHANGED_VERTEX_COUNT = ?
+
+OLD_TO_NEW_STAGE5B_CHANGED_VERTEX_COUNT = ?
+
+CHANGED_VERTEX_IDS_MATCH_PALMAR16 = ?
+
+OUTSIDE16_STAGE5A_DRIFT = ?
+
+OUTSIDE16_STAGE5B_DRIFT = ?
+
+DORSAL54_UNINTENDED_DELTA_COUNT = ?
+
+NORMAL69_STAGE5A_DRIFT = ?
+
+NORMAL69_STAGE5B_DRIFT = ?
+
+BONE_PAYLOAD_DELTA = ?
+
+JOINT_PAYLOAD_DELTA = ?
+
+ROLL_DELTA = ?
+
+REST_MATRIX_DELTA = ?
+
+R2_WEIGHT_HASH_AFTER_PROPAGATION = ?
+
+R2_WEIGHT_HASH_MATCH = ?
+
+GROUP_ORDER_DRIFT = ?
+
+TOPOLOGY_DRIFT = ?
+
+UV_DRIFT = ?
+
+MATERIAL_DRIFT = ?
+
+MODIFIER_BINDING_UNCHANGED = ?
+
+AUTHORITY_MEMBERSHIP_UNCHANGED = ?
+
+CURRENT9_DIRECT_OVERLAP = ?
+
+CURRENT9_1RING_OVERLAP = ?
+
+CURRENT9_2RING_OVERLAP = ?
+
+ZERO_EVAL_SMOKE = ?
+
+SAVE_REOPEN = ?
+
+MID_MCP_45_MANDATORY_REVALIDATION =
+YES
+
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_REQUIRED =
+YES
+
+PROTECTED_HISTORY_DRIFT = ?
+
+VERDICT = ?
+
+==================================================
+二十六、NEXT
+==================================================
+
+如果 PASS：
+
+NEXT =
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+
+只记录，不执行。
+
+后续正式顺序：
+
+joint / surface / rest / zero / bind
+
+→
+static skin compatibility
+
+→
+geometry-dependent authority impact audit
+
+→
+palmar-root targeted deformation
+（MID_MCP_15 / 30 / 45，45重点）
+
+→
+fresh Full Stage6A42
+
+→
+Human visual review
+
+→
+current9 closure resume
+
+→
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_R1
+
+→
+之后才考虑 Stage6B。
+
+STOP。

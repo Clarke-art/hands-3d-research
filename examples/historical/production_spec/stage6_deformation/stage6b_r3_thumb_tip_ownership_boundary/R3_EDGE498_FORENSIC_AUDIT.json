@@ -1,0 +1,66 @@
+{
+ "stage": "R3_EDGE498_FORENSIC_AUDIT",
+ "generated_at": "2026-10-01T16:15:36.949268+08:00",
+ "edge": {
+  "edge_id": 498,
+  "v0": 160,
+  "v1": 1080,
+  "bind_mm": 3.0983
+ },
+ "R2_labels": [
+  "THUMB",
+  "INDEX"
+ ],
+ "R3_labels": [
+  "INDEX",
+  "INDEX"
+ ],
+ "Q1_v160_anatomy": {
+  "nearest_live_chain": "INDEX",
+  "dTHUMB_mm": 28.697,
+  "sTHUMB_mm": 106.79,
+  "dINDEX_mm": 8.861,
+  "sINDEX_mm": 32.534,
+  "in_INDEX_STRONG": false,
+  "in_THUMB_STRONG": false,
+  "in_R3_sheet": true,
+  "live_chain_distance_verdict": "the LIVE index axis is 8.86 mm away and the LIVE thumb axis is 28.70 mm away, so the chain-distance test alone says INDEX"
+ },
+ "Q2_v1080_anatomy": {
+  "nearest_live_chain": "INDEX",
+  "dTHUMB_mm": 29.253,
+  "sTHUMB_mm": 106.79,
+  "dINDEX_mm": 8.342,
+  "sINDEX_mm": 33.183,
+  "in_INDEX_STRONG": false,
+  "in_THUMB_STRONG": false,
+  "in_R3_sheet": true
+ },
+ "Q3_same_digit_domain": true,
+ "Q4_not_applicable_reason": null,
+ "Q5_why_R2_split_it": "R2 assigns every vertex independently to the nearest of SIX single geodesic seeds (the approved joint-chain distal landmark of each digit plus the wrist origin).  v160 sits at the base collar of the index tube, where the RSSF bind pose presses the thumb tip against the index; with only the index TIP as the index seed, v160's geodesic unary is closer to the thumb seed, so R2 called it THUMB while its immediate neighbour v1080 stayed INDEX.  R3 pins the WHOLE live index tube plus the live index nail as INDEX_STRONG anchors, so both endpoints resolve to INDEX.",
+ "Q6_ring_support": {
+  "v160_ring1_R3": {
+   "INDEX": 4
+  },
+  "v160_ring2_R3": {
+   "INDEX": 8
+  },
+  "v1080_ring1_R3": {
+   "INDEX": 4
+  },
+  "v1080_ring2_R3": {
+   "INDEX": 8
+  }
+ },
+ "Q7_topology_relation": {
+  "geodesic_to_approved_distal_cap_mm": null,
+  "boundary_cut_sheet": "cutting the 16 corrected boundary edges leaves v160 and v1080 in the SAME sheet (the 217-vertex sheet that carries the live index tip vertex v1228 and the whole live index nail region and NONE of the approved thumb cap / thumb nail / first web)",
+  "sheet_contains_index_nail_vertices": 43,
+  "sheet_contains_thumb_cap_vertices": 0,
+  "sheet_contains_thumb_nail_vertices": 0,
+  "sheet_contains_first_web_vertices": 0
+ },
+ "animation_result_used_as_ownership_evidence": false,
+ "verdict": "RESOLVED_WITH_ANATOMICAL_AND_TOPOLOGICAL_EVIDENCE: both endpoints belong to the INDEX surface; the disputed seam is the base collar of the index tube, not a thumb-tip boundary"
+}

@@ -1,0 +1,16 @@
+{
+  "status": "CANDIDATE_READY_FOR_HUMAN_APPROVAL",
+  "rule": "NO HISTORICAL LABEL INJECTION",
+  "input": "Fresh R3 solved graph labels only; exact graph IDs, hard sets and freshly computed mm fields",
+  "outside_graph": "Explicit unassigned/nonparticipating status; separate independent reference buckets only",
+  "component_order": "THUMB then INDEX; components visited by ascending minimum vertex ID and sorted neighbors",
+  "component_action": "Only components without any own-digit hard source may reassign to opposite label; verify both hard sets after every update",
+  "full_sweep_changed": "Initialize sweep_changed=False once before both target loops; OR every target change into it, never reset per target",
+  "convergence": "A complete THUMB+INDEX sweep with zero changes; confirm pin preservation before success",
+  "iteration_cap_full_sweeps": 20,
+  "cycle_detection": "Hash sorted (vertex_id,label) after each changed full sweep; repeated state fails closed",
+  "non_convergent": "FAIL_CLOSED on repeated state or cap reached while still changing; do not publish the latest labels as valid",
+  "ambiguity_margin": "abs(dT_mm-dI_mm)<TAU_mm; no extra meter-to-mm multiplication",
+  "executed_this_run": false,
+  "historical_closure_bug_acknowledged": true
+}

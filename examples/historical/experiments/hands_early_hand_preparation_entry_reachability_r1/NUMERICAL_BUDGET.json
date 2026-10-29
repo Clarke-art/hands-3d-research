@@ -1,0 +1,63 @@
+{
+  "limit_seconds": 600,
+  "stages": [
+    {
+      "name": "hold_continuation",
+      "script": "solve_hold_continuation.py",
+      "wall_seconds": 11.93699999999808,
+      "cap_seconds": 185.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "branch_diagnosis",
+      "script": "diagnose_guard.py",
+      "wall_seconds": 9.343999999997322,
+      "cap_seconds": 30.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "hold_path_diagnostic",
+      "script": "sample_hold_path.py",
+      "wall_seconds": 30.031999999999243,
+      "cap_seconds": 50.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "contact_proxy_repair_and_entry_input",
+      "script": "repair_proxy_and_build_entry.py",
+      "wall_seconds": 2.7819999999992433,
+      "cap_seconds": 40.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "main_entry_candidate",
+      "script": "solve_entry.py",
+      "wall_seconds": 4.73399999999674,
+      "cap_seconds": 245.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "sole_entry_correction",
+      "script": "solve_entry_correction.py",
+      "wall_seconds": 208.39100000000326,
+      "cap_seconds": 245.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "final_candidate_sampling",
+      "script": "sample_entry_candidate.py",
+      "wall_seconds": 1.860000000000582,
+      "cap_seconds": 35.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    }
+  ],
+  "total_seconds": 269.07999999999447,
+  "under_budget": true
+}

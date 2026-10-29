@@ -1,0 +1,217 @@
+{
+  "result": "GENERATED_WITH_DEFECTS",
+  "machine_validation": "FAIL",
+  "human_visual_acceptance": "PENDING",
+  "original_C1": "UNCHANGED",
+  "B02_B03": "NOT_MODIFIED",
+  "core_samples": 87,
+  "core_source_intersection_samples": 87,
+  "core_candidate_intersection_samples": 0,
+  "core_source_peak_face_pairs": 68,
+  "core_candidate_peak_face_pairs": 0,
+  "witness_1_133333": {
+    "time": 1.1333333333333333,
+    "pairs": {
+      "THUMB_INDEX": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_MIDDLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_RING": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_MIDDLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_RING": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "MIDDLE_RING": {
+        "baseline": 63,
+        "candidate": 0,
+        "new": 0
+      },
+      "MIDDLE_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "RING_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "FULL_SELF": {
+        "baseline": 63,
+        "candidate": 0,
+        "new": 0
+      },
+      "RIGHT_LEFT": {
+        "baseline": 26,
+        "candidate": 26,
+        "new": 0
+      }
+    },
+    "new_nonowned_key_faces": 0,
+    "all_region_vertex_peak_mm": [
+      2.7779415249824524,
+      2.7779415249824524
+    ],
+    "all_region_surface_peak_mm": [
+      2.889675848971605,
+      2.889675848971605
+    ]
+  },
+  "handoff_1_4214275": {
+    "time": 1.4214275,
+    "pairs": {
+      "THUMB_INDEX": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_MIDDLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_RING": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "THUMB_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_MIDDLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_RING": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "INDEX_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "MIDDLE_RING": {
+        "baseline": 54,
+        "candidate": 0,
+        "new": 0
+      },
+      "MIDDLE_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "RING_LITTLE": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      },
+      "FULL_SELF": {
+        "baseline": 54,
+        "candidate": 0,
+        "new": 0
+      },
+      "RIGHT_LEFT": {
+        "baseline": 0,
+        "candidate": 0,
+        "new": 0
+      }
+    },
+    "new_nonowned_key_faces": 3,
+    "all_region_vertex_peak_mm": [
+      2.378329634666443,
+      1.4689266681671143
+    ],
+    "all_region_surface_peak_mm": [
+      2.5564056543688287,
+      1.8133153278416707
+    ]
+  },
+  "domain_witness": {
+    "time": 1.4914275000000001,
+    "digit": "MIDDLE",
+    "channel": "MCP_flexion",
+    "source_deg": 0.004086953282309275,
+    "candidate_deg": -0.38696361824919534,
+    "lower_deg": 0.0,
+    "upper_deg": 32.0,
+    "violation_deg": 0.38696361824919534
+  },
+  "regression_groups": {
+    "NONOWNED_SURFACE_REGRESSION": {
+      "records": 4,
+      "first": 1.4166666666666667,
+      "last": 1.4208333333333334
+    },
+    "NEW_NONOWNED_SKIN_KEY_FACES": {
+      "records": 66,
+      "first": 1.2166666666666666,
+      "last": 1.6416666666666666
+    },
+    "NEW_MIDDLE_RING_FACE_PAIRS": {
+      "records": 5,
+      "first": 1.675,
+      "last": 1.6916666666666667
+    },
+    "NONOWNED_VERTEX_REGRESSION": {
+      "records": 2,
+      "first": 1.4208333333333334,
+      "last": 1.4208333333333334
+    },
+    "NEW_FULL_SELF_FACE_PAIRS": {
+      "records": 5,
+      "first": 1.675,
+      "last": 1.6916666666666667
+    }
+  },
+  "key_regression_record_counts": {
+    "C5": 68,
+    "B4": 4
+  },
+  "contact_counts": {
+    "L00": 83,
+    "L01": 83,
+    "L02": 83,
+    "R01": 24,
+    "R02": 58,
+    "R03": 59,
+    "L03": 116,
+    "R04": 58,
+    "R05": 33,
+    "L04": 33
+  },
+  "contact_pad_change_max_mm": 4.487056561349839,
+  "new_other_digit_pair_records": [],
+  "candidate_sha256": "1984d92bf437c5f833b2ad62e3aaeed5abd16e3e2979e5356b120a14af6a44ed",
+  "full_candidate_video_produced": false
+}

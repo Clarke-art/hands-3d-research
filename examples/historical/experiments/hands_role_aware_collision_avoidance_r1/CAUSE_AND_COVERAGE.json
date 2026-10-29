@@ -1,0 +1,92 @@
+{
+  "static_rows": [
+    {
+      "t": 3.743568,
+      "source_pairs": 14,
+      "new_pairs": 0,
+      "contacts": [
+        {
+          "event": "R10",
+          "source": {
+            "gap_mm": 0.532496430576979,
+            "horizontal_mm": 0.0,
+            "pass_original_contact": true
+          },
+          "new": {
+            "gap_mm": -2.1107399557773654,
+            "horizontal_mm": 0.0,
+            "pass_original_contact": true
+          }
+        }
+      ],
+      "regression_count": 2,
+      "max_regression_mm": 2.2198514527187423
+    },
+    {
+      "t": 3.778568,
+      "source_pairs": 32,
+      "new_pairs": 7,
+      "contacts": [
+        {
+          "event": "R11",
+          "source": {
+            "gap_mm": 0.2218679649142447,
+            "horizontal_mm": 0.0,
+            "pass_original_contact": true
+          },
+          "new": {
+            "gap_mm": 2.9871932558800904,
+            "horizontal_mm": 0.0,
+            "pass_original_contact": true
+          }
+        },
+        {
+          "event": "R10",
+          "source": {
+            "gap_mm": 0.8866268571715541,
+            "horizontal_mm": 0.0,
+            "pass_original_contact": true
+          },
+          "new": {
+            "gap_mm": -2.169343921277177,
+            "horizontal_mm": 0.0,
+            "pass_original_contact": true
+          }
+        }
+      ],
+      "regression_count": 1,
+      "max_regression_mm": 2.3194805410458383
+    },
+    {
+      "t": 3.818568,
+      "source_pairs": 69,
+      "new_pairs": 0,
+      "contacts": [
+        {
+          "event": "R11",
+          "source": {
+            "gap_mm": 0.84495128617431,
+            "horizontal_mm": 0.0,
+            "pass_original_contact": true
+          },
+          "new": {
+            "gap_mm": 3.419384049870206,
+            "horizontal_mm": 0.741444521612622,
+            "pass_original_contact": false
+          }
+        }
+      ],
+      "regression_count": 4,
+      "max_regression_mm": 5.174420756437676
+    }
+  ],
+  "required_direct_connection_average_rate_max_deg_sec": 424.7358462532597,
+  "rate_scope": "Necessary mean angular rate IF these failed static endpoints were connected; no trajectory or measured animation velocity.",
+  "release_portal_at_off_lift_mm": 34.278049057677855,
+  "release_target_issue": "Full clearance portal assigned at RELEASING entry without a continuous ramp; OFF still requires old-contact left limit. This is an implementation/design defect, not proof of insufficient human time or fixed-root impossibility.",
+  "capsules": "Single full-segment radius around 10-12mm is conservative: two anchors have capsule overlap but actual distal BVH has no intersection. Capsule failure alone is not actual skin failure.",
+  "candidate_count": 0,
+  "continuous_motion_check": "NOT_RUN_PREGENERATION_FAILURE",
+  "inherited_B01_B03": "Not repaired; original evidence remains",
+  "naturalness": "NO_DYNAMIC_CANDIDATE_HUMAN_NOT_ASSESSED"
+}

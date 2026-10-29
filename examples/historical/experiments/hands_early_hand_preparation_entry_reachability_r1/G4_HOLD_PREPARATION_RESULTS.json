@@ -1,0 +1,74 @@
+{
+  "authority": "DESIGN_PROVISIONAL — STOP — HUMAN REVIEW",
+  "status": "SAMPLED_PARTIAL_PREPARATION_FEASIBLE_FULL_HOLD_ENTRY_FAILED",
+  "actual_B2_start": true,
+  "original_G4_HOLD_window": [
+    2.527855,
+    2.9214260000000003
+  ],
+  "hold_diagnostic_prefix": {
+    "start": 2.527855,
+    "last_pass_time": 2.74127003125,
+    "first_sampled_failure_time": 2.7422863708333334,
+    "duration_sampled_prefix_ms": 213.41503124999983,
+    "passing_prefix_sample_count": 33,
+    "wrist_displacement_mm": 13.2113596254425,
+    "middle_to_E5_distance_mm": 16.373470572002372,
+    "initial_middle_distance_mm": 27.667431641176968,
+    "last_pass_id": "hold_path_adaptive_4",
+    "first_fail_id": "hold_path_adaptive_5",
+    "first_failure_gates": {
+      "all_required_contacts": true,
+      "target_depth": true,
+      "non_target_or_wrong_region_depth": false,
+      "self_surfaces": true,
+      "natural_family": true,
+      "authorized_axes": true,
+      "authorized_domain": true
+    },
+    "first_failure_wrong_depth_mm": 0.2780790048485196,
+    "interval_between_last_pass_and_failure_ms": 1.0163395833333588,
+    "no_unsampled_continuous_guarantee": true
+  },
+  "main_candidate_hold_prefix": {
+    "start": 2.527855,
+    "last_pass_time": 2.777855,
+    "first_sampled_failure_time": 2.778896666666667,
+    "duration_sampled_prefix_ms": 250.0,
+    "passing_prefix_sample_count": 40,
+    "wrist_displacement_mm": 15.4188732965672,
+    "middle_to_E5_distance_mm": 16.331513120278125,
+    "initial_middle_distance_mm": 27.667431641176968,
+    "last_pass_id": "entry_sample_39",
+    "first_fail_id": "entry_adaptive_1",
+    "first_failure_gates": {
+      "all_required_contacts": true,
+      "target_depth": true,
+      "non_target_or_wrong_region_depth": false,
+      "self_surfaces": true,
+      "natural_family": true,
+      "authorized_axes": true,
+      "authorized_domain": true
+    },
+    "first_failure_wrong_depth_mm": 0.2546670857079212,
+    "interval_between_last_pass_and_failure_ms": 1.0416666666666075,
+    "no_unsampled_continuous_guarantee": true
+  },
+  "continuous_position_representation": "Main candidate is C0 in latent controls and frozen FK; diagnostic normal projection has only sampled branch evidence",
+  "sampling": "120Hz + exact knots/events + first-failure adaptive subdivisions",
+  "naturalness": "Reference-family and domain pass; Human not approved; no medical comfort claim",
+  "failed_regions": "Preparing MIDDLE intersects intervening D#5; original simultaneous-flex probes also C#5",
+  "static_probe_sources": [
+    "HOLD_PROBE_ACTUAL.json",
+    "HOLD_CORRECTED_ACTUAL.json",
+    "DELAYED_FLEX_ACTUAL.json"
+  ],
+  "actual_path_sources": [
+    "HOLD_PATH_BASE_ACTUAL.json",
+    "HOLD_PATH_ADAPTIVE_ACTUAL.json",
+    "ENTRY_ACTUAL_SAMPLES.json",
+    "ENTRY_ADAPTIVE_ACTUAL.json"
+  ],
+  "remaining_full_entry_obligations": "Late G4 HOLD clearance, common boundary contact residual, E5 PRESS surface contact plus RELEASE-key clearance",
+  "absolute_anatomical_or_fingering_impossibility_proven": false
+}

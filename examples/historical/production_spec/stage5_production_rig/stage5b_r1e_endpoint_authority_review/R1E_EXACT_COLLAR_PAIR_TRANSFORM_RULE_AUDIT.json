@@ -1,0 +1,753 @@
+{
+ "review": "R1E_ENDPOINT_WEIGHT_AUTHORITY_REVIEW",
+ "generated_at": "2026-10-01T19:19:16.745488+08:00",
+ "read_only": true,
+ "candidate_rule": "B",
+ "identical_effective_transform_required": false,
+ "identical_transform_is_sufficient": true,
+ "R1E_max_ratio": 1.0000004007674463,
+ "hard_constraints": {
+  "retain_existing_severe_gate": ">5x AND bind >=3 mm",
+  "retain_existing_tear_gate": ">3x AND posed >5 mm",
+  "future_requirement": "future independent INDEX_MCP flex and opposition combinations must constrain any implemented candidate; not tested in this read-only round"
+ },
+ "same_six_poses_not_general_proof": true,
+ "pairs": [
+  {
+   "edge_id": 2644,
+   "vertices": [
+    693,
+    2153
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 4.442416111330011,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 8.458162596980401e-07,
+     "INDEX_MCP_R": 0.8338568210601807,
+     "INDEX_PIP_R": 0.16613726317882538,
+     "INDEX_DIP_R": 5.0896314860438e-06
+    },
+    {
+     "WRIST_R": 5.69666326555307e-06,
+     "INDEX_MCP_R": 0.9621217846870422,
+     "INDEX_PIP_R": 0.03787236660718918,
+     "INDEX_DIP_R": 1.6785701006938325e-07
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.000000178259983,
+    "TH_IP_45": 1.000000178259983,
+    "TH_MCP_45": 1.000000178259983,
+    "CMC_OPP_30": 1.000000178259983,
+    "CMC_MCP_L3": 1.000000178259983,
+    "FULL_OPP_L3": 1.000000178259983
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 2649,
+   "vertices": [
+    2155,
+    702
+   ],
+   "classes": [
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED",
+    "INDEX_ROOT_DOMINANT_TISSUE"
+   ],
+   "bind_length_mm": 4.529156769289769,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 2.558115556894336e-05,
+     "INDEX_MCP_R": 0.977019190788269,
+     "INDEX_PIP_R": 0.0229551550000906,
+     "INDEX_DIP_R": 5.3028372803964885e-08
+    },
+    {
+     "WRIST_R": 3.129330025331001e-06,
+     "INDEX_MCP_R": 0.8742409944534302,
+     "INDEX_PIP_R": 0.1257534772157669,
+     "INDEX_DIP_R": 2.4071432562777773e-06
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 0.9999998468787209,
+    "TH_IP_45": 0.9999998468787209,
+    "TH_MCP_45": 0.9999998468787209,
+    "CMC_OPP_30": 0.9999998468787209,
+    "CMC_MCP_L3": 0.9999998468787209,
+    "FULL_OPP_L3": 0.9999998468787209
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 2652,
+   "vertices": [
+    689,
+    2157
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 3.5551468322324085,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.0011579619022086263,
+     "INDEX_MCP_R": 0.8924424052238464,
+     "INDEX_PIP_R": 0.10639876872301102,
+     "INDEX_DIP_R": 8.907380788514274e-07
+    },
+    {
+     "WRIST_R": 0.00454821577295661,
+     "INDEX_MCP_R": 0.9660210609436035,
+     "INDEX_PIP_R": 0.029430704191327095,
+     "INDEX_DIP_R": 3.822429306410413e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0000003224957579,
+    "TH_IP_45": 1.0000003224957579,
+    "TH_MCP_45": 1.0000003224957579,
+    "CMC_OPP_30": 1.0000003224957579,
+    "CMC_MCP_L3": 1.0000003224957579,
+    "FULL_OPP_L3": 1.0000003224957579
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 2657,
+   "vertices": [
+    2159,
+    696
+   ],
+   "classes": [
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED",
+    "INDEX_ROOT_DOMINANT_TISSUE"
+   ],
+   "bind_length_mm": 3.9495002827514054,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.0009869172936305404,
+     "INDEX_MCP_R": 0.9697197675704956,
+     "INDEX_PIP_R": 0.029293281957507133,
+     "INDEX_DIP_R": 5.7916047069284105e-08
+    },
+    {
+     "WRIST_R": 0.00017374973685946316,
+     "INDEX_MCP_R": 0.8807755708694458,
+     "INDEX_PIP_R": 0.11904893815517426,
+     "INDEX_DIP_R": 1.72017269051139e-06
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0,
+    "TH_IP_45": 1.0,
+    "TH_MCP_45": 1.0,
+    "CMC_OPP_30": 1.0,
+    "CMC_MCP_L3": 1.0,
+    "FULL_OPP_L3": 1.0
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 2660,
+   "vertices": [
+    699,
+    2161
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 3.6171522159909046,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.00069042993709445,
+     "INDEX_MCP_R": 0.8992825150489807,
+     "INDEX_PIP_R": 0.10002633184194565,
+     "INDEX_DIP_R": 7.378487794085231e-07
+    },
+    {
+     "WRIST_R": 0.002625884022563696,
+     "INDEX_MCP_R": 0.9717690348625183,
+     "INDEX_PIP_R": 0.025605030357837677,
+     "INDEX_DIP_R": 2.9120879929678267e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0000003710040213,
+    "TH_IP_45": 1.0000003710040213,
+    "TH_MCP_45": 1.0000003710040213,
+    "CMC_OPP_30": 1.0000003710040213,
+    "CMC_MCP_L3": 1.0000003710040213,
+    "FULL_OPP_L3": 1.0000003710040213
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 2665,
+   "vertices": [
+    2163,
+    698
+   ],
+   "classes": [
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED",
+    "INDEX_ROOT_DOMINANT_TISSUE"
+   ],
+   "bind_length_mm": 3.4161611297196552,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.0046907588839530945,
+     "INDEX_MCP_R": 0.964076042175293,
+     "INDEX_PIP_R": 0.031233185902237892,
+     "INDEX_DIP_R": 3.5635409290080133e-08
+    },
+    {
+     "WRIST_R": 0.0013987739803269506,
+     "INDEX_MCP_R": 0.8902671933174133,
+     "INDEX_PIP_R": 0.10833331197500229,
+     "INDEX_DIP_R": 7.388983362943691e-07
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0,
+    "TH_IP_45": 1.0,
+    "TH_MCP_45": 1.0,
+    "CMC_OPP_30": 1.0,
+    "CMC_MCP_L3": 1.0,
+    "FULL_OPP_L3": 1.0
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 2671,
+   "vertices": [
+    2166,
+    692
+   ],
+   "classes": [
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED",
+    "INDEX_ROOT_DOMINANT_TISSUE"
+   ],
+   "bind_length_mm": 4.018058208942964,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.00040367161273024976,
+     "INDEX_MCP_R": 0.9789044857025146,
+     "INDEX_PIP_R": 0.02069179341197014,
+     "INDEX_DIP_R": 2.7712182770756044e-08
+    },
+    {
+     "WRIST_R": 6.684281106572598e-05,
+     "INDEX_MCP_R": 0.8996192812919617,
+     "INDEX_PIP_R": 0.10031286627054214,
+     "INDEX_DIP_R": 9.934570925906883e-07
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0,
+    "TH_IP_45": 1.0,
+    "TH_MCP_45": 1.0,
+    "CMC_OPP_30": 1.0,
+    "CMC_MCP_L3": 1.0,
+    "FULL_OPP_L3": 1.0
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 2677,
+   "vertices": [
+    2169,
+    704
+   ],
+   "classes": [
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED",
+    "INDEX_ROOT_DOMINANT_TISSUE"
+   ],
+   "bind_length_mm": 4.236569327033491,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 4.752203312818892e-05,
+     "INDEX_MCP_R": 0.9615041017532349,
+     "INDEX_PIP_R": 0.03844821825623512,
+     "INDEX_DIP_R": 1.345846669664752e-07
+    },
+    {
+     "WRIST_R": 6.191664397192653e-06,
+     "INDEX_MCP_R": 0.841798722743988,
+     "INDEX_PIP_R": 0.15819096565246582,
+     "INDEX_DIP_R": 4.092229573871009e-06
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0000001704953487,
+    "TH_IP_45": 1.0000001704953487,
+    "TH_MCP_45": 1.0000001704953487,
+    "CMC_OPP_30": 1.0000001704953487,
+    "CMC_MCP_L3": 1.0000001704953487,
+    "FULL_OPP_L3": 1.0000001704953487
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 6164,
+   "vertices": [
+    2156,
+    3196
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 4.645741817977113,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 9.710586255096132e-07,
+     "INDEX_MCP_R": 0.848699688911438,
+     "INDEX_PIP_R": 0.15129515528678894,
+     "INDEX_DIP_R": 4.166584858467104e-06
+    },
+    {
+     "WRIST_R": 8.223073564295191e-06,
+     "INDEX_MCP_R": 0.9707547426223755,
+     "INDEX_PIP_R": 0.029236916452646255,
+     "INDEX_DIP_R": 9.850555926504967e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0000001546726245,
+    "TH_IP_45": 1.0000001546726245,
+    "TH_MCP_45": 1.0000001546726245,
+    "CMC_OPP_30": 1.0000001546726245,
+    "CMC_MCP_L3": 1.0000001546726245,
+    "FULL_OPP_L3": 1.0000001546726245
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 6168,
+   "vertices": [
+    2160,
+    3197
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 3.7025521052098593,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.0005672412808053195,
+     "INDEX_MCP_R": 0.8889867663383484,
+     "INDEX_PIP_R": 0.11044484376907349,
+     "INDEX_DIP_R": 1.1665335932775633e-06
+    },
+    {
+     "WRIST_R": 0.0025831626262515783,
+     "INDEX_MCP_R": 0.9683198928833008,
+     "INDEX_PIP_R": 0.029096893966197968,
+     "INDEX_DIP_R": 4.576250844934293e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0,
+    "TH_IP_45": 1.0,
+    "TH_MCP_45": 1.0,
+    "CMC_OPP_30": 1.0,
+    "CMC_MCP_L3": 1.0,
+    "FULL_OPP_L3": 1.0
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 6172,
+   "vertices": [
+    2164,
+    3198
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 3.444156659687504,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.0010427922243252397,
+     "INDEX_MCP_R": 0.892059326171875,
+     "INDEX_PIP_R": 0.10689712315797806,
+     "INDEX_DIP_R": 7.459137805199134e-07
+    },
+    {
+     "WRIST_R": 0.003406232688575983,
+     "INDEX_MCP_R": 0.9659702181816101,
+     "INDEX_PIP_R": 0.030623523518443108,
+     "INDEX_DIP_R": 3.56729543682377e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0000004007674463,
+    "TH_IP_45": 1.0000004007674463,
+    "TH_MCP_45": 1.0000004007674463,
+    "CMC_OPP_30": 1.0000004007674463,
+    "CMC_MCP_L3": 1.0000004007674463,
+    "FULL_OPP_L3": 1.0000004007674463
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 6176,
+   "vertices": [
+    2167,
+    3199
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 4.271246375121534,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 1.535122464701999e-05,
+     "INDEX_MCP_R": 0.8917702436447144,
+     "INDEX_PIP_R": 0.10821301490068436,
+     "INDEX_DIP_R": 1.4152858511806699e-06
+    },
+    {
+     "WRIST_R": 0.00010682761057978496,
+     "INDEX_MCP_R": 0.9792783856391907,
+     "INDEX_PIP_R": 0.020614733919501305,
+     "INDEX_DIP_R": 3.4339837640118276e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0,
+    "TH_IP_45": 1.0,
+    "TH_MCP_45": 1.0,
+    "CMC_OPP_30": 1.0,
+    "CMC_MCP_L3": 1.0,
+    "FULL_OPP_L3": 1.0
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 6180,
+   "vertices": [
+    2170,
+    3200
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 4.068175528969955,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 3.3122436434496194e-05,
+     "INDEX_MCP_R": 0.8612868189811707,
+     "INDEX_PIP_R": 0.1386772245168686,
+     "INDEX_DIP_R": 2.8283925530558918e-06
+    },
+    {
+     "WRIST_R": 0.00022147050185594708,
+     "INDEX_MCP_R": 0.9653548002243042,
+     "INDEX_PIP_R": 0.034423623234033585,
+     "INDEX_DIP_R": 9.535585832054494e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 0.9999998329619187,
+    "TH_IP_45": 0.9999998329619187,
+    "TH_MCP_45": 0.9999998329619187,
+    "CMC_OPP_30": 0.9999998329619187,
+    "CMC_MCP_L3": 0.9999998329619187,
+    "FULL_OPP_L3": 0.9999998329619187
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 6184,
+   "vertices": [
+    2172,
+    3201
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 3.4401781782996483,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.0015731294406577945,
+     "INDEX_MCP_R": 0.892385721206665,
+     "INDEX_PIP_R": 0.10604039579629898,
+     "INDEX_DIP_R": 7.552648071396106e-07
+    },
+    {
+     "WRIST_R": 0.005516508594155312,
+     "INDEX_MCP_R": 0.9643325209617615,
+     "INDEX_PIP_R": 0.03015093505382538,
+     "INDEX_DIP_R": 3.541994431088824e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 0.9999945344497002,
+    "TH_IP_45": 0.9999945344497002,
+    "TH_MCP_45": 0.9999945344497002,
+    "CMC_OPP_30": 0.9999945344497002,
+    "CMC_MCP_L3": 0.9999945344497002,
+    "FULL_OPP_L3": 0.9999945344497002
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 6188,
+   "vertices": [
+    2174,
+    3202
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 3.7439328480536487,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 0.00023115365183912218,
+     "INDEX_MCP_R": 0.901983916759491,
+     "INDEX_PIP_R": 0.09778404980897903,
+     "INDEX_DIP_R": 8.604607728557312e-07
+    },
+    {
+     "WRIST_R": 0.001152458367869258,
+     "INDEX_MCP_R": 0.9759088158607483,
+     "INDEX_PIP_R": 0.022938689216971397,
+     "INDEX_DIP_R": 2.9437089210659906e-08
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0000003349577078,
+    "TH_IP_45": 1.0000003349577078,
+    "TH_MCP_45": 1.0000003349577078,
+    "CMC_OPP_30": 1.0000003349577078,
+    "CMC_MCP_L3": 1.0000003349577078,
+    "FULL_OPP_L3": 1.0000003349577078
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  },
+  {
+   "edge_id": 6192,
+   "vertices": [
+    2176,
+    3203
+   ],
+   "classes": [
+    "INDEX_ROOT_DOMINANT_TISSUE",
+    "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED"
+   ],
+   "bind_length_mm": 4.337961276235456,
+   "R1B_vectors": [
+    {
+     "WRIST_R": 1.694715479061415e-06,
+     "INDEX_MCP_R": 0.8313371539115906,
+     "INDEX_PIP_R": 0.16865621507167816,
+     "INDEX_DIP_R": 4.953837105858838e-06
+    },
+    {
+     "WRIST_R": 1.202680778078502e-05,
+     "INDEX_MCP_R": 0.9592926502227783,
+     "INDEX_PIP_R": 0.040695175528526306,
+     "INDEX_DIP_R": 1.735136407887694e-07
+    }
+   ],
+   "R1E_vectors": [
+    {
+     "WRIST_R": 1.0
+    },
+    {
+     "WRIST_R": 1.0
+    }
+   ],
+   "identical_R1B_vectors": false,
+   "identical_R1E_vectors": true,
+   "R1E_six_pose_ratios": {
+    "TH_IP_30": 1.0000001801965561,
+    "TH_IP_45": 1.0000001801965561,
+    "TH_MCP_45": 1.0000001801965561,
+    "CMC_OPP_30": 1.0000001801965561,
+    "CMC_MCP_L3": 1.0000001801965561,
+    "FULL_OPP_L3": 1.0000001801965561
+   },
+   "rule": "B_APPROXIMATE_EFFECTIVE_TRANSFORM_COMPATIBILITY_WITH_HARD_DYNAMIC_CONSTRAINTS",
+   "rule_reason": "an actual finite edge joins distinct tissue points; shared transforms suffice to preserve length, but identical transforms are not anatomically necessary for a continuous deforming surface."
+  }
+ ]
+}

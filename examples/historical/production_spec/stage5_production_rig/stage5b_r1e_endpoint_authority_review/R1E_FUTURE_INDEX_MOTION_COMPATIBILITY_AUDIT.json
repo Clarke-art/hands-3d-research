@@ -1,0 +1,78 @@
+{
+ "review": "R1E_ENDPOINT_WEIGHT_AUTHORITY_REVIEW",
+ "generated_at": "2026-10-01T19:19:16.745488+08:00",
+ "read_only": true,
+ "verdict": "CONDITIONAL_STRUCTURAL_COMPATIBILITY_ONLY; EXACT_COLLAR_AUTHORITY_UNRESOLVED",
+ "index_animation_run": false,
+ "analysis": "For normalized LBS, with thumb bones bind and INDEX_MCP independently moving, the index-driven displacement term is w_INDEX_MCP*(T_INDEX-I)*x. A regional mixture retaining index drive permits index-root freedom. Replacing the entire collar with thumb-only drive removes that degree of freedom. INDEX_PIP transitions must retain their anatomically proximal role. Shared skin can interpolate, while shaft/nail and frozen authorities must retain independent drives.",
+ "sensitivities": [
+  {
+   "family": "WRIST+THUMB_CMC",
+   "index_MCP_fraction": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "verdict": "no independent index drive in this simplified diagnostic family; cannot be a blanket root authority"
+  },
+  {
+   "family": "WRIST+THUMB_MCP",
+   "index_MCP_fraction": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "verdict": "no independent index drive in this simplified diagnostic family; cannot be a blanket root authority"
+  },
+  {
+   "family": "INDEX_MCP+THUMB_CMC",
+   "index_MCP_fraction": [
+    1,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.5
+   ],
+   "verdict": "retains INDEX_MCP freedom but not validated anatomy"
+  },
+  {
+   "family": "INDEX_MCP+THUMB_MCP",
+   "index_MCP_fraction": [
+    1,
+    0.9,
+    0.8,
+    0.7,
+    0.6,
+    0.5
+   ],
+   "verdict": "retains INDEX_MCP freedom but not validated anatomy"
+  },
+  {
+   "family": "THUMB_CMC+THUMB_MCP",
+   "index_MCP_fraction": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "verdict": "no independent index drive in this simplified diagnostic family; cannot be a blanket root authority"
+  }
+ ],
+ "constraints": [
+  "preserve index shaft and nail field",
+  "preserve first-web and CMC-cage locality",
+  "prohibit wholesale thumb-binding of the collar",
+  "preserve palm anchor convergence",
+  "require future INDEX_MCP flex + combined opposition qualification after human approval"
+ ],
+ "no_dynamic_compatibility_PASS_claim": true
+}

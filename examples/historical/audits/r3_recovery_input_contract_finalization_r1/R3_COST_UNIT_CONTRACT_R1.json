@@ -1,0 +1,53 @@
+{
+  "status": "CANDIDATE_READY_FOR_HUMAN_APPROVAL",
+  "R3_COST_UNIT": "CORRECTED_COMMON_MM_SEMANTICS",
+  "canonical_units": "mm",
+  "historical_unit_bug_acknowledged": true,
+  "historical_unit_bug_example_10mm": {
+    "historical_unary": 10,
+    "pairwise": 1296,
+    "effect": "PAIRWISE_DOMINATED",
+    "corrected_unary": 10000
+  },
+  "TAU_mm": 3.8882049466976314,
+  "TAU_definition": "Upper median over all frozen RSSF original mesh edge lengths in world mm",
+  "TAU_source": {
+    "path": "audits\\narrow_proximal_domain_wrappers_and_unary_units_authority_review_r1\\R3_PAIRWISE_COST_CONTRACT_R1.json",
+    "sha256": "6b9db8924aa56f64999c465516fe52ec162e8ad37f5befcf1774058bbe17145c",
+    "role": "PREVIOUSLY_VERIFIED_FIXED_METRIC_NOT_NEW_RESEARCH"
+  },
+  "pairwise_mm": 1.2960683155658772,
+  "pairwise_capacity": 1296,
+  "capacity_per_mm": 1000,
+  "finite_cap_mm": 400,
+  "finite_capacity_cap": 400000,
+  "rounding": "Python nearest, ties to even; clamp finite terminal to 400000 after integerization",
+  "example_table": [
+    {
+      "distance_mm": 1,
+      "corrected_unary_capacity": 1000,
+      "historical_bug_capacity": 1,
+      "pairwise_capacity": 1296
+    },
+    {
+      "distance_mm": 5,
+      "corrected_unary_capacity": 5000,
+      "historical_bug_capacity": 5,
+      "pairwise_capacity": 1296
+    },
+    {
+      "distance_mm": 10,
+      "corrected_unary_capacity": 10000,
+      "historical_bug_capacity": 10,
+      "pairwise_capacity": 1296
+    },
+    {
+      "distance_mm": 20,
+      "corrected_unary_capacity": 20000,
+      "historical_bug_capacity": 20,
+      "pairwise_capacity": 1296
+    }
+  ],
+  "Human_cost_freeze_recorded": false,
+  "auto_run_permitted": false
+}

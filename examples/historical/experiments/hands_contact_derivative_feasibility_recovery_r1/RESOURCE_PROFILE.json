@@ -1,0 +1,108 @@
+{
+  "memory": [
+    {
+      "id": "J1",
+      "before": {
+        "working_set_bytes": 107429888,
+        "peak_working_set_bytes": 107429888
+      },
+      "after_old": {
+        "working_set_bytes": 359895040,
+        "peak_working_set_bytes": 430833664
+      },
+      "after_new": {
+        "working_set_bytes": 360148992,
+        "peak_working_set_bytes": 430833664
+      },
+      "note": "Same process allocations retained; RSS not allocation-attributed"
+    },
+    {
+      "id": "J2",
+      "before": {
+        "working_set_bytes": 360148992,
+        "peak_working_set_bytes": 430833664
+      },
+      "after_old": {
+        "working_set_bytes": 370745344,
+        "peak_working_set_bytes": 668823552
+      },
+      "after_new": {
+        "working_set_bytes": 371998720,
+        "peak_working_set_bytes": 668823552
+      },
+      "note": "Same process allocations retained; RSS not allocation-attributed"
+    },
+    {
+      "id": "J3",
+      "before": {
+        "working_set_bytes": 371998720,
+        "peak_working_set_bytes": 668823552
+      },
+      "after_old": {
+        "working_set_bytes": 366968832,
+        "peak_working_set_bytes": 672657408
+      },
+      "after_new": {
+        "working_set_bytes": 367579136,
+        "peak_working_set_bytes": 672657408
+      },
+      "note": "Same process allocations retained; RSS not allocation-attributed"
+    }
+  ],
+  "skin_instrumentation": [
+    {
+      "FK_seconds": 0.00098059999072575,
+      "weighted_skin_seconds": 0.0020407999982126057
+    },
+    {
+      "FK_seconds": 0.0008950000046752393,
+      "weighted_skin_seconds": 0.001758700000209501
+    },
+    {
+      "FK_seconds": 0.0013799999906041194,
+      "weighted_skin_seconds": 0.003572200013877591
+    },
+    {
+      "FK_seconds": 0.001567700004670769,
+      "weighted_skin_seconds": 0.0033060999994631857
+    },
+    {
+      "FK_seconds": 0.001582799985044403,
+      "weighted_skin_seconds": 0.0034941999983857386
+    },
+    {
+      "FK_seconds": 0.0015847000104258768,
+      "weighted_skin_seconds": 0.0032922999962465838
+    },
+    {
+      "FK_seconds": 0.001613200016436167,
+      "weighted_skin_seconds": 0.003334600005473476
+    },
+    {
+      "FK_seconds": 0.0008877999971446116,
+      "weighted_skin_seconds": 0.00218259999746806
+    },
+    {
+      "FK_seconds": 0.0008486999940942042,
+      "weighted_skin_seconds": 0.0018440999920130707
+    },
+    {
+      "FK_seconds": 0.0008566999931645114,
+      "weighted_skin_seconds": 0.0017700999960652553
+    }
+  ],
+  "face_contact_detection_seconds": [
+    0.01719310000044061,
+    0.01763800000117044,
+    0.012472999998863088,
+    0.012526900001830654,
+    0.012360200002149213
+  ],
+  "instrumentation_source": "AST copy of historical Skin.__call__; exact output matched <1e-12 m",
+  "old_J4_external_observation": {
+    "working_set_bytes": 8945868800,
+    "CPU_seconds": 57.02,
+    "note": "PowerShell Get-Process snapshot during old extra probe, not peak or per-function allocation"
+  },
+  "new_J4_serialized_function_bytes": 147116700
+}

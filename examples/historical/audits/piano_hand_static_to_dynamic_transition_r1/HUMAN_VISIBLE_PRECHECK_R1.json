@@ -1,0 +1,46 @@
+{
+  "type": "AGENT_NORMAL_VIEW_PRECHECK_NOT_HUMAN_APPROVAL",
+  "candidate_sha256": "664a0702637e7c3d7aef6b4ba260d8b464f87c9704aa2d4b56b8492d01492284",
+  "video_sha256": {
+    "L": "c150965126f7ae99d1a7ae6fe78db01af1f5d84b9f738d5b7bfbc36565f81ff0",
+    "R": "99c898ac66d6ca07d306388560aeded9a39ae6f92e207276e8e2610d7166c992"
+  },
+  "views": [
+    "TEACHING_TOP",
+    "SIDE_OBLIQUE",
+    "REASONABLE_CLOSE"
+  ],
+  "reviewed_all_60fps_frames": {
+    "L": 84,
+    "R": 47
+  },
+  "evidence": "All-frame three-view strips plus full-size NOTE_ON/key-down/HOLD/release/RECOVERY views; browser playback validated separately.",
+  "major_visible_regression": true,
+  "major_regression_reason": "Left D2 little finger loses sustained contact during moving-key descent/HOLD, maximum actual skin gap7.689mm; approved static contact does not persist.",
+  "L": {
+    "naturalness_precheck_pass": false,
+    "idle_fingers_precheck_pass": true,
+    "wrist_precheck_pass": true,
+    "new_obvious_defect": true,
+    "observations": [
+      "左三闲置指保留批准曲度、间距和整体形态，完整路径未见新的钩爪或反关节；没有给它们添加假home-key运动。",
+      "共享批准掌腕在全部画面稳定，未为每音搬掌、抬高或扭转；稳定性通过，不声称真实肌肉放松已测。",
+      "D2两次起音contact端点正确，但下沉/持键时小指没有有效跟随琴键，近景可见悬空；最大皮肤间隙7.689mm，不能称自然交替演奏成功。",
+      "拇指D3下压/持键/回弹的实际接触通过，release/recovery连续；这不能抵消小指失败。",
+      "小指工程近限位持续0.2917s，超过事前0.05s。限位失败保留，没有扩大域或重算另一候选。"
+    ]
+  },
+  "R": {
+    "naturalness_precheck_pass": true,
+    "neighbor_clearance_precheck_pass": true,
+    "new_obvious_defect": false,
+    "observations": [
+      "正常顶视/侧斜/近景中五指准备保持批准形态；中指在原F#5事件接近、下压、持键、跟随回弹后恢复准备，未见IK分支切换或反折。",
+      "F#5下沉/持键/回弹固定pad与实际皮肤接触均通过，最大gap约0.710mm；实际运动键世界顶点与冻结规则一致。",
+      "食指D#5与无名指G#5邻键净空贯穿整段，未见新的吞入黑键或错键，完整顶点筛查也无命中。",
+      "PIP/DIP工程增量靠近下边界持续0.1167s，超过事前0.05s，故右手仅接触/正常画面预审部分通过，不能宣布完整动态合格。增量0是已有曲度rest，并非把实际关节反折。"
+    ]
+  },
+  "human_approval": false,
+  "STOP": "HUMAN REVIEW"
+}

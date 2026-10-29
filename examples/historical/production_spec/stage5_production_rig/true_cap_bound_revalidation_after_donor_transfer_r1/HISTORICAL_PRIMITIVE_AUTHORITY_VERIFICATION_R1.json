@@ -1,0 +1,111 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_four_historical_source_hashes_exact": true,
+    "all_historical_AST_hashes_exact": true,
+    "historical_pose_case_matrix_hash_exact": true
+  },
+  "historical_function_records": [
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_after_approval_r1/blender_extract.py",
+        "sha256": "1161a123785c19a59eb455e0e3f262cfdb464d9929cf30648d69cc4aeeb81438"
+      },
+      "function_AST_sha256": {
+        "mesh_payload": "811a26192954ebb0ab0be93f3c3a4cd455890f1e1ee0c38e7ddd6a56cffc6c3e",
+        "rig_payload": "f5ada45711a53d771031a97af1b95199982801e2a823c1f45ba4c71c336d912c",
+        "weights": "fab6beea6c9aa0f3eddfb15e4e364fe52ec80b20d890e0f83e29d0ab78cbcdbd"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_common.py",
+        "sha256": "54313d7e54c12f8817134a2d11019dc4d84f7cf46ee7214a0f8d00c0a886a057"
+      },
+      "function_AST_sha256": {
+        "reset_pose": "a0e34ed25951dbed09613eaa4be2003171ce55d1b49a023d6e129d85f1f39ade",
+        "set_joint_rotation": "93132ce711a774eb7018c52e8fec9753d6ffa5d70e6e9e19eed3e4684a438e3b",
+        "update": "a05c2813c3d379d754d5e4a4cc0ed9362aca6102f60540d896519cd47c275d22",
+        "evaluate": "2ad44b115d68c75ac763da56a0f8c7fb3ed85e5cc4a80a80b929d35c30c940a5",
+        "arc_of": "c10e5512f903d6a08eccb6631f9ad8bbaa3563bb42f69e489281be27ea25a46c"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_prequal.py",
+        "sha256": "6c24993810a89cd4a5180338bcaad86ca3cc332d78fa2188342f3e1c18dc4178"
+      },
+      "function_AST_sha256": {
+        "set_s6a": "4fb49830941b9261b506b4263ce829ce572228e9dfb1e4dee8f55ed5592795a2",
+        "set_s6b": "e81f0359b06e35362671e7821d31db8fa74ccaebdb4aacc86b1808212c1b30d3"
+      }
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e_feasibility_audit/scripts/feas_audit.py",
+        "sha256": "289beda523faf29648e0ad40da9c21da39e4fda72c2307b7d61b0cb2b93075de"
+      },
+      "function_AST_sha256": {
+        "dijkstra_with_pred": "3cc5cb6a38ee2c467e54ff9d39a5f09be002fcb04035fc68de8b607d476d333f",
+        "path_between": "88063cc1d5895cae0011ab554c6af06128cc1ecd4b057e6ea776d43089efbc99"
+      }
+    }
+  ],
+  "current_function_records": [
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_after_approval_r1/blender_extract.py",
+        "sha256": "1161a123785c19a59eb455e0e3f262cfdb464d9929cf30648d69cc4aeeb81438"
+      },
+      "function_AST_sha256": {
+        "mesh_payload": "811a26192954ebb0ab0be93f3c3a4cd455890f1e1ee0c38e7ddd6a56cffc6c3e",
+        "rig_payload": "f5ada45711a53d771031a97af1b95199982801e2a823c1f45ba4c71c336d912c",
+        "weights": "fab6beea6c9aa0f3eddfb15e4e364fe52ec80b20d890e0f83e29d0ab78cbcdbd"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_common.py",
+        "sha256": "54313d7e54c12f8817134a2d11019dc4d84f7cf46ee7214a0f8d00c0a886a057"
+      },
+      "function_AST_sha256": {
+        "reset_pose": "a0e34ed25951dbed09613eaa4be2003171ce55d1b49a023d6e129d85f1f39ade",
+        "set_joint_rotation": "93132ce711a774eb7018c52e8fec9753d6ffa5d70e6e9e19eed3e4684a438e3b",
+        "update": "a05c2813c3d379d754d5e4a4cc0ed9362aca6102f60540d896519cd47c275d22",
+        "evaluate": "2ad44b115d68c75ac763da56a0f8c7fb3ed85e5cc4a80a80b929d35c30c940a5",
+        "arc_of": "c10e5512f903d6a08eccb6631f9ad8bbaa3563bb42f69e489281be27ea25a46c"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_prequal.py",
+        "sha256": "6c24993810a89cd4a5180338bcaad86ca3cc332d78fa2188342f3e1c18dc4178"
+      },
+      "function_AST_sha256": {
+        "set_s6a": "4fb49830941b9261b506b4263ce829ce572228e9dfb1e4dee8f55ed5592795a2",
+        "set_s6b": "e81f0359b06e35362671e7821d31db8fa74ccaebdb4aacc86b1808212c1b30d3"
+      },
+      "top_level_executed": false
+    },
+    {
+      "source": {
+        "path": "production_spec/stage5_production_rig/stage5b_r1e_feasibility_audit/scripts/feas_audit.py",
+        "sha256": "289beda523faf29648e0ad40da9c21da39e4fda72c2307b7d61b0cb2b93075de"
+      },
+      "function_AST_sha256": {
+        "dijkstra_with_pred": "3cc5cb6a38ee2c467e54ff9d39a5f09be002fcb04035fc68de8b607d476d333f",
+        "path_between": "88063cc1d5895cae0011ab554c6af06128cc1ecd4b057e6ea776d43089efbc99"
+      },
+      "top_level_executed": false
+    }
+  ],
+  "case_matrix_source": {
+    "path": "production_spec/stage6_deformation/stage6b/STAGE6B_CASE_MATRIX.json",
+    "sha256": "924e631edc26332d525dbcc89f1f42784802c30b7e474c44b1d8f4138f4ff0f0",
+    "classification": "HISTORICAL_VALUE_ONLY",
+    "direct_relevant_excerpts": [],
+    "entire_content_read": true
+  }
+}

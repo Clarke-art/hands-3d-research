@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "case_matrix": {
+    "path": "production_spec/stage6_deformation/stage6b/STAGE6B_CASE_MATRIX.json",
+    "sha256": "924e631edc26332d525dbcc89f1f42784802c30b7e474c44b1d8f4138f4ff0f0"
+  },
+  "opposition_authority": {
+    "path": "production_spec/stage6_deformation/stage6b/STAGE6B_OPPOSITION_VECTOR_AUDIT.json",
+    "sha256": "adef6b7170344717d4a6f355613bd5b49a636340c447d0fd7645e1d85ea06d1b"
+  },
+  "cases": [
+    {
+      "case_id": "FULL_OPP_L1",
+      "cmc_deg": 10.0,
+      "mcp_deg": 10.0,
+      "ip_deg": 5.0,
+      "cmc_quaternion_local": [
+        0.996194720268,
+        -0.075719885528,
+        -0.021788932383,
+        -0.037254035473
+      ]
+    },
+    {
+      "case_id": "FULL_OPP_L2",
+      "cmc_deg": 20.0,
+      "mcp_deg": 20.0,
+      "ip_deg": 10.0,
+      "cmc_quaternion_local": [
+        0.984807729721,
+        -0.150863498449,
+        -0.043412040919,
+        -0.074224554002
+      ]
+    },
+    {
+      "case_id": "FULL_OPP_L3",
+      "cmc_deg": 30.0,
+      "mcp_deg": 30.0,
+      "ip_deg": 15.0,
+      "cmc_quaternion_local": [
+        0.965925812721,
+        -0.224859043956,
+        -0.064704783261,
+        -0.110630221665
+      ]
+    }
+  ],
+  "angles_changed": false,
+  "source_native_and_candidate_native_unchanged_by_smoke": true,
+  "inputs_before": {
+    "production_spec/stage5_production_rig/geometry_propagation_after_palmar_donor_restoration_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_PALMAR_ROOT_GEOMETRY_R1.blend": "90d3ebd1c1973f94020b66281781db481d5a366271a9d6aac6b921861e2b45aa",
+    "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137",
+    "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/RAW_SOURCE_GEOMETRY.json": "f945449477ecb3925932c6725baaf861c95458a101d61bdac535e3fa0654b72e",
+    "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/HISTORICAL_OPERATION_RAM_REPLAY.json": "814aeeca0bdc1a3b7fadff8fcb7fd6144708835173a22c08ba3df21e4ef692b7",
+    "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/DONOR_TO_CURRENT_TOPOLOGY_CORRESPONDENCE_R1.json": "d87aec252095f555c203c057d3bc6d62a160253d5b3773d9d9287c137b0e5c2c",
+    "production_spec/stage6_deformation/stage6a_human_visible_product_qualification_r1/STAGE6A_HUMAN_VISIBLE_PRODUCT_QUALIFICATION_R1_STATUS.json": "f5dbc5d3286042dfc8b60d0116e6ac94d40e326fef6a691073d6fd4c76a07513",
+    "production_spec/stage6_deformation/stage6b/STAGE6B_CASE_MATRIX.json": "924e631edc26332d525dbcc89f1f42784802c30b7e474c44b1d8f4138f4ff0f0",
+    "production_spec/stage6_deformation/stage6b/STAGE6B_OPPOSITION_VECTOR_AUDIT.json": "adef6b7170344717d4a6f355613bd5b49a636340c447d0fd7645e1d85ea06d1b",
+    "production_spec/stage6_deformation/stage6a_human_visible_product_qualification_r1/WHOLE_HAND_SURFACE_INTEGRITY_HUMAN_APPROVAL_R1.json": "e5bedf3c3cc91deef7454d601c26f0cd1b699c80904a54f676c7778ae797ac97",
+    "production_spec/stage6_deformation/stage6a_human_visible_product_qualification_r1/CURRENT_FULL_STAGE6A_CROSSING_HUMAN_CLOSURE_R1.json": "38766b6a62a454b7cbf70767530b0176472218469afc3aa1fd4997b6d6ca2eb5",
+    "production_spec/stage6_deformation/stage6a_human_visible_product_qualification_r1/FULL_STAGE6A_OVERALL_HUMAN_CLOSURE_R1.json": "1e26270ce39dc06e895a6058fb158d763769f1b886dd18f5c96d9f1312ac8993"
+  },
+  "inputs_after": {
+    "production_spec/stage5_production_rig/geometry_propagation_after_palmar_donor_restoration_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_PALMAR_ROOT_GEOMETRY_R1.blend": "90d3ebd1c1973f94020b66281781db481d5a366271a9d6aac6b921861e2b45aa",
+    "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137",
+    "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/RAW_SOURCE_GEOMETRY.json": "f945449477ecb3925932c6725baaf861c95458a101d61bdac535e3fa0654b72e",
+    "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/HISTORICAL_OPERATION_RAM_REPLAY.json": "814aeeca0bdc1a3b7fadff8fcb7fd6144708835173a22c08ba3df21e4ef692b7",
+    "audits/original_source_dorsal_mcp_lineage_and_patch_transfer_feasibility_r1/DONOR_TO_CURRENT_TOPOLOGY_CORRESPONDENCE_R1.json": "d87aec252095f555c203c057d3bc6d62a160253d5b3773d9d9287c137b0e5c2c",
+    "production_spec/stage6_deformation/stage6a_human_visible_product_qualification_r1/STAGE6A_HUMAN_VISIBLE_PRODUCT_QUALIFICATION_R1_STATUS.json": "f5dbc5d3286042dfc8b60d0116e6ac94d40e326fef6a691073d6fd4c76a07513",
+    "production_spec/stage6_deformation/stage6b/STAGE6B_CASE_MATRIX.json": "924e631edc26332d525dbcc89f1f42784802c30b7e474c44b1d8f4138f4ff0f0",
+    "production_spec/stage6_deformation/stage6b/STAGE6B_OPPOSITION_VECTOR_AUDIT.json": "adef6b7170344717d4a6f355613bd5b49a636340c447d0fd7645e1d85ea06d1b",
+    "production_spec/stage6_deformation/stage6a_human_visible_product_qualification_r1/WHOLE_HAND_SURFACE_INTEGRITY_HUMAN_APPROVAL_R1.json": "e5bedf3c3cc91deef7454d601c26f0cd1b699c80904a54f676c7778ae797ac97",
+    "production_spec/stage6_deformation/stage6a_human_visible_product_qualification_r1/CURRENT_FULL_STAGE6A_CROSSING_HUMAN_CLOSURE_R1.json": "38766b6a62a454b7cbf70767530b0176472218469afc3aa1fd4997b6d6ca2eb5",
+    "production_spec/stage6_deformation/stage6a_human_visible_product_qualification_r1/FULL_STAGE6A_OVERALL_HUMAN_CLOSURE_R1.json": "1e26270ce39dc06e895a6058fb158d763769f1b886dd18f5c96d9f1312ac8993"
+  },
+  "Stage6A_closure_receipts_unchanged": true,
+  "FINAL_POSE": "ZERO / RSSF",
+  "candidate": {
+    "path": "audits/palmar_thenar_source_shape_restoration_r1/RIGHT_HAND_STAGE5B_PALMAR_THENAR_RESTORATION_CANDIDATE_R1.blend",
+    "sha256": "950d47f422f5c4b5eb604edefce0d6f4c542a90a395f522c3e9917ad362d12e8"
+  },
+  "candidate_not_promoted": true,
+  "WEIGHTS_CHANGED": "NO",
+  "RIG_CHANGED": "NO",
+  "PRODUCTION_PROMOTION": "NO",
+  "FULL_STAGE6A_RERUN": false,
+  "Stage6B_final_PASS": false
+}

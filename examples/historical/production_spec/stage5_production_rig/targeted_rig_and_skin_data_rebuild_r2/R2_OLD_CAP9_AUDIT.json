@@ -1,0 +1,2733 @@
+{
+  "status": "PASS",
+  "count": 9,
+  "native_INDEX_only": true,
+  "THUMB_override_restored": false,
+  "allowed_groups": [
+    "INDEX_DIP_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "WRIST_R"
+  ],
+  "incident_continuity": {
+    "checked_count": 24,
+    "absolute_exceedance_ids": [],
+    "candidate_introduced_or_worsened": [],
+    "max_L_inf": 0.07286246120929718,
+    "max_L1": 0.14572488875772382,
+    "edges": [
+      {
+        "edge_id": 460,
+        "vertex_ids": [
+          650,
+          1061
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 650,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 0.17136749625205994,
+              "INDEX_MCP_R": 0.8286324739456177,
+              "INDEX_PIP_R": 4.048636981224263e-09,
+              "INDEX_DIP_R": 2.7811350232984256e-19
+            },
+            "R1_vector": {
+              "WRIST_R": 0.17136749625205994,
+              "INDEX_MCP_R": 0.8286324739456177,
+              "INDEX_PIP_R": 4.048636981224263e-09,
+              "INDEX_DIP_R": 2.7811350232984256e-19
+            },
+            "R2_vector": {
+              "WRIST_R": 0.17136749625205994,
+              "INDEX_MCP_R": 0.8286324739456177,
+              "INDEX_PIP_R": 4.048636981224263e-09,
+              "INDEX_DIP_R": 2.7811350232984256e-19
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 1061,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 0.9999997615814209,
+              "INDEX_PIP_R": 2.4493149908266787e-07,
+              "INDEX_DIP_R": 9.969651904566e-17
+            },
+            "R1_vector": {
+              "WRIST_R": 0.10536811500787735,
+              "INDEX_MCP_R": 0.8920002579689026,
+              "INDEX_PIP_R": 0.0020495993085205555,
+              "INDEX_DIP_R": 0.000582050415687263
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1053876280784607,
+              "INDEX_MCP_R": 0.8919780254364014,
+              "INDEX_PIP_R": 0.002050176728516817,
+              "INDEX_DIP_R": 0.0005841871025040746
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.9999997615814209,
+          "L1": 1.9999999726619606,
+          "per_group": {
+            "INDEX_DIP_R": 9.941840554333015e-17,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 2.408828621014436e-07,
+            "THUMB_IP_R": 0.9999997615814209,
+            "WRIST_R": 0.17136749625205994
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.06599938124418259,
+          "L1": 0.13199881094303834,
+          "per_group": {
+            "INDEX_DIP_R": 0.0005820504156872627,
+            "INDEX_MCP_R": 0.06336778402328491,
+            "INDEX_PIP_R": 0.0020495952598835743,
+            "WRIST_R": 0.06599938124418259
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.06597986817359924,
+          "L1": 0.13195977944676685,
+          "per_group": {
+            "INDEX_DIP_R": 0.0005841871025040742,
+            "INDEX_MCP_R": 0.06334555149078369,
+            "INDEX_PIP_R": 0.002050172679879836,
+            "WRIST_R": 0.06597986817359924
+          }
+        },
+        "L_inf_delta_vs_R1": -1.9513070583343506e-05,
+        "L1_delta_vs_R1": -3.903149627149105e-05,
+        "L_inf_delta_vs_donor": -0.9340198934078217,
+        "L1_delta_vs_donor": -1.8680401932151938,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 461,
+        "vertex_ids": [
+          1061,
+          151
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1061,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 0.9999997615814209,
+              "INDEX_PIP_R": 2.4493149908266787e-07,
+              "INDEX_DIP_R": 9.969651904566e-17
+            },
+            "R1_vector": {
+              "WRIST_R": 0.10536811500787735,
+              "INDEX_MCP_R": 0.8920002579689026,
+              "INDEX_PIP_R": 0.0020495993085205555,
+              "INDEX_DIP_R": 0.000582050415687263
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1053876280784607,
+              "INDEX_MCP_R": 0.8919780254364014,
+              "INDEX_PIP_R": 0.002050176728516817,
+              "INDEX_DIP_R": 0.0005841871025040746
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 151,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.056472938507795334,
+              "INDEX_MCP_R": 0.9392945170402527,
+              "INDEX_PIP_R": 0.003405242692679167,
+              "INDEX_DIP_R": 0.0008273189887404442
+            },
+            "R2_vector": {
+              "WRIST_R": 0.05649714171886444,
+              "INDEX_MCP_R": 0.9392669200897217,
+              "INDEX_PIP_R": 0.0034059579484164715,
+              "INDEX_DIP_R": 0.0008299682522192597
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 2.4493149908266787e-07,
+          "L1": 4.833500782839269e-07,
+          "per_group": {
+            "INDEX_DIP_R": 9.969651904566e-17,
+            "INDEX_PIP_R": 2.4493149908266787e-07,
+            "THUMB_IP_R": 2.384185791015625e-07
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.048895176500082016,
+          "L1": 0.0977903475286439,
+          "per_group": {
+            "INDEX_DIP_R": 0.00024526857305318117,
+            "INDEX_MCP_R": 0.0472942590713501,
+            "INDEX_PIP_R": 0.0013556433841586113,
+            "WRIST_R": 0.048895176500082016
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.04889048635959625,
+          "L1": 0.0977809433825314,
+          "per_group": {
+            "INDEX_DIP_R": 0.00024578114971518517,
+            "INDEX_MCP_R": 0.04728889465332031,
+            "INDEX_PIP_R": 0.0013557812198996544,
+            "WRIST_R": 0.04889048635959625
+          }
+        },
+        "L_inf_delta_vs_R1": -4.69014048576355e-06,
+        "L1_delta_vs_R1": -9.404146112501621e-06,
+        "L_inf_delta_vs_donor": 0.04889024142809717,
+        "L1_delta_vs_donor": 0.09778046003245312,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 464,
+        "vertex_ids": [
+          151,
+          1063
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 151,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.056472938507795334,
+              "INDEX_MCP_R": 0.9392945170402527,
+              "INDEX_PIP_R": 0.003405242692679167,
+              "INDEX_DIP_R": 0.0008273189887404442
+            },
+            "R2_vector": {
+              "WRIST_R": 0.05649714171886444,
+              "INDEX_MCP_R": 0.9392669200897217,
+              "INDEX_PIP_R": 0.0034059579484164715,
+              "INDEX_DIP_R": 0.0008299682522192597
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 1063,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 0.007258357014507055,
+              "INDEX_MCP_R": 0.9927340745925903,
+              "INDEX_PIP_R": 7.544369054812705e-06,
+              "INDEX_DIP_R": 2.7890612996211983e-14
+            },
+            "R1_vector": {
+              "WRIST_R": 0.007258357014507055,
+              "INDEX_MCP_R": 0.9927340745925903,
+              "INDEX_PIP_R": 7.544369054812705e-06,
+              "INDEX_DIP_R": 2.7890612996211983e-14
+            },
+            "R2_vector": {
+              "WRIST_R": 0.007258357014507055,
+              "INDEX_MCP_R": 0.9927340745925903,
+              "INDEX_PIP_R": 7.544369054812705e-06,
+              "INDEX_DIP_R": 2.7890612996211983e-14
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 1.0,
+          "L1": 1.9999999759761802,
+          "per_group": {
+            "INDEX_DIP_R": 2.7890612996211983e-14,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.007258357014507055
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.053439557552337646,
+          "L1": 0.10687915635796283,
+          "per_group": {
+            "INDEX_DIP_R": 0.0008273189887125535,
+            "INDEX_MCP_R": 0.053439557552337646,
+            "INDEX_PIP_R": 0.003397698323624354,
+            "WRIST_R": 0.04921458149328828
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.05346715450286865,
+          "L1": 0.10693432103877906,
+          "per_group": {
+            "INDEX_DIP_R": 0.0008299682521913691,
+            "INDEX_MCP_R": 0.05346715450286865,
+            "INDEX_PIP_R": 0.0033984135793616588,
+            "WRIST_R": 0.049238784704357386
+          }
+        },
+        "L_inf_delta_vs_R1": 2.759695053100586e-05,
+        "L1_delta_vs_R1": 5.516468081623316e-05,
+        "L_inf_delta_vs_donor": -0.9465328454971313,
+        "L1_delta_vs_donor": -1.8930656549374012,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 486,
+        "vertex_ids": [
+          656,
+          1074
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 656,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 0.25825029611587524,
+              "INDEX_MCP_R": 0.7417497038841248,
+              "INDEX_PIP_R": 7.700253767950471e-09,
+              "INDEX_DIP_R": 4.562352408651672e-19
+            },
+            "R1_vector": {
+              "WRIST_R": 0.25825029611587524,
+              "INDEX_MCP_R": 0.7417497038841248,
+              "INDEX_PIP_R": 7.700253767950471e-09,
+              "INDEX_DIP_R": 4.562352408651672e-19
+            },
+            "R2_vector": {
+              "WRIST_R": 0.25825029611587524,
+              "INDEX_MCP_R": 0.7417497038841248,
+              "INDEX_PIP_R": 7.700253767950471e-09,
+              "INDEX_DIP_R": 4.562352408651672e-19
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 1074,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.18526141345500946,
+              "INDEX_MCP_R": 0.8086244463920593,
+              "INDEX_PIP_R": 0.004748990759253502,
+              "INDEX_DIP_R": 0.0013651708140969276
+            },
+            "R2_vector": {
+              "WRIST_R": 0.18538783490657806,
+              "INDEX_MCP_R": 0.8084803819656372,
+              "INDEX_PIP_R": 0.004752738866955042,
+              "INDEX_DIP_R": 0.0013790183002129197
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 1.0,
+          "L1": 2.0000000077002538,
+          "per_group": {
+            "INDEX_DIP_R": 4.562352408651672e-19,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.25825029611587524
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.07298888266086578,
+          "L1": 0.14597777904189702,
+          "per_group": {
+            "INDEX_DIP_R": 0.0013651708140969272,
+            "INDEX_MCP_R": 0.06687474250793457,
+            "INDEX_PIP_R": 0.004748983058999734,
+            "WRIST_R": 0.07298888266086578
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.07286246120929718,
+          "L1": 0.14572488875772382,
+          "per_group": {
+            "INDEX_DIP_R": 0.0013790183002129193,
+            "INDEX_MCP_R": 0.06673067808151245,
+            "INDEX_PIP_R": 0.004752731166701274,
+            "WRIST_R": 0.07286246120929718
+          }
+        },
+        "L_inf_delta_vs_R1": -0.00012642145156860352,
+        "L1_delta_vs_R1": -0.0002528902841731906,
+        "L_inf_delta_vs_donor": -0.9271375387907028,
+        "L1_delta_vs_donor": -1.85427511894253,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 487,
+        "vertex_ids": [
+          1074,
+          158
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1074,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.18526141345500946,
+              "INDEX_MCP_R": 0.8086244463920593,
+              "INDEX_PIP_R": 0.004748990759253502,
+              "INDEX_DIP_R": 0.0013651708140969276
+            },
+            "R2_vector": {
+              "WRIST_R": 0.18538783490657806,
+              "INDEX_MCP_R": 0.8084803819656372,
+              "INDEX_PIP_R": 0.004752738866955042,
+              "INDEX_DIP_R": 0.0013790183002129197
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 158,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.11775115877389908,
+              "INDEX_MCP_R": 0.8734748363494873,
+              "INDEX_PIP_R": 0.007031881250441074,
+              "INDEX_DIP_R": 0.0017421228112652898
+            },
+            "R2_vector": {
+              "WRIST_R": 0.11787789314985275,
+              "INDEX_MCP_R": 0.8733304738998413,
+              "INDEX_PIP_R": 0.007035623304545879,
+              "INDEX_DIP_R": 0.001755992998369038
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.06751025468111038,
+          "L1": 0.1350204871268943,
+          "per_group": {
+            "INDEX_DIP_R": 0.00037695199716836214,
+            "INDEX_MCP_R": 0.06485038995742798,
+            "INDEX_PIP_R": 0.0022828904911875725,
+            "WRIST_R": 0.06751025468111038
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.06750994175672531,
+          "L1": 0.13501989282667637,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003769746981561184,
+            "INDEX_MCP_R": 0.0648500919342041,
+            "INDEX_PIP_R": 0.0022828844375908375,
+            "WRIST_R": 0.06750994175672531
+          }
+        },
+        "L_inf_delta_vs_R1": -3.129243850708008e-07,
+        "L1_delta_vs_R1": -5.943002179265022e-07,
+        "L_inf_delta_vs_donor": 0.06750994175672531,
+        "L1_delta_vs_donor": 0.13501989282667637,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 489,
+        "vertex_ids": [
+          1075,
+          158
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1075,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.1404440999031067,
+              "INDEX_MCP_R": 0.8493115305900574,
+              "INDEX_PIP_R": 0.008143363520503044,
+              "INDEX_DIP_R": 0.0021010204218328
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1406847983598709,
+              "INDEX_MCP_R": 0.8490373492240906,
+              "INDEX_PIP_R": 0.008150461129844189,
+              "INDEX_DIP_R": 0.002127355430275202
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 158,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.11775115877389908,
+              "INDEX_MCP_R": 0.8734748363494873,
+              "INDEX_PIP_R": 0.007031881250441074,
+              "INDEX_DIP_R": 0.0017421228112652898
+            },
+            "R2_vector": {
+              "WRIST_R": 0.11787789314985275,
+              "INDEX_MCP_R": 0.8733304738998413,
+              "INDEX_PIP_R": 0.007035623304545879,
+              "INDEX_DIP_R": 0.001755992998369038
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.02416330575942993,
+          "L1": 0.04832662676926702,
+          "per_group": {
+            "INDEX_DIP_R": 0.00035889761056751013,
+            "INDEX_MCP_R": 0.02416330575942993,
+            "INDEX_PIP_R": 0.0011114822700619698,
+            "WRIST_R": 0.02269294112920761
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.024293124675750732,
+          "L1": 0.04858623014297336,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003713624319061637,
+            "INDEX_MCP_R": 0.024293124675750732,
+            "INDEX_PIP_R": 0.0011148378252983093,
+            "WRIST_R": 0.022806905210018158
+          }
+        },
+        "L_inf_delta_vs_R1": 0.00012981891632080078,
+        "L1_delta_vs_R1": 0.0002596033737063408,
+        "L_inf_delta_vs_donor": 0.024293124675750732,
+        "L1_delta_vs_donor": 0.04858623014297336,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 490,
+        "vertex_ids": [
+          158,
+          1076
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 158,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.11775115877389908,
+              "INDEX_MCP_R": 0.8734748363494873,
+              "INDEX_PIP_R": 0.007031881250441074,
+              "INDEX_DIP_R": 0.0017421228112652898
+            },
+            "R2_vector": {
+              "WRIST_R": 0.11787789314985275,
+              "INDEX_MCP_R": 0.8733304738998413,
+              "INDEX_PIP_R": 0.007035623304545879,
+              "INDEX_DIP_R": 0.001755992998369038
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 1076,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.08924923837184906,
+              "INDEX_MCP_R": 0.9038931131362915,
+              "INDEX_PIP_R": 0.005521059967577457,
+              "INDEX_DIP_R": 0.0013366038911044598
+            },
+            "R2_vector": {
+              "WRIST_R": 0.08930905163288116,
+              "INDEX_MCP_R": 0.9038249850273132,
+              "INDEX_PIP_R": 0.00552282715216279,
+              "INDEX_DIP_R": 0.001343150739558041
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.0304182767868042,
+          "L1": 0.060836537391878664,
+          "per_group": {
+            "INDEX_DIP_R": 0.00040551892016083,
+            "INDEX_MCP_R": 0.0304182767868042,
+            "INDEX_PIP_R": 0.001510821282863617,
+            "WRIST_R": 0.02850192040205002
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.030494511127471924,
+          "L1": 0.0609889910556376,
+          "per_group": {
+            "INDEX_DIP_R": 0.000412842258810997,
+            "INDEX_MCP_R": 0.030494511127471924,
+            "INDEX_PIP_R": 0.001512796152383089,
+            "WRIST_R": 0.028568841516971588
+          }
+        },
+        "L_inf_delta_vs_R1": 7.623434066772461e-05,
+        "L1_delta_vs_R1": 0.00015245366375893354,
+        "L_inf_delta_vs_donor": 0.030494511127471924,
+        "L1_delta_vs_donor": 0.0609889910556376,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 491,
+        "vertex_ids": [
+          1076,
+          151
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1076,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.08924923837184906,
+              "INDEX_MCP_R": 0.9038931131362915,
+              "INDEX_PIP_R": 0.005521059967577457,
+              "INDEX_DIP_R": 0.0013366038911044598
+            },
+            "R2_vector": {
+              "WRIST_R": 0.08930905163288116,
+              "INDEX_MCP_R": 0.9038249850273132,
+              "INDEX_PIP_R": 0.00552282715216279,
+              "INDEX_DIP_R": 0.001343150739558041
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 151,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.056472938507795334,
+              "INDEX_MCP_R": 0.9392945170402527,
+              "INDEX_PIP_R": 0.003405242692679167,
+              "INDEX_DIP_R": 0.0008273189887404442
+            },
+            "R2_vector": {
+              "WRIST_R": 0.05649714171886444,
+              "INDEX_MCP_R": 0.9392669200897217,
+              "INDEX_PIP_R": 0.0034059579484164715,
+              "INDEX_DIP_R": 0.0008299682522192597
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.03540140390396118,
+          "L1": 0.07080280594527721,
+          "per_group": {
+            "INDEX_DIP_R": 0.0005092849023640156,
+            "INDEX_MCP_R": 0.03540140390396118,
+            "INDEX_PIP_R": 0.0021158172748982906,
+            "WRIST_R": 0.032776299864053726
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.03544193506240845,
+          "L1": 0.07088389666751027,
+          "per_group": {
+            "INDEX_DIP_R": 0.0005131824873387814,
+            "INDEX_MCP_R": 0.03544193506240845,
+            "INDEX_PIP_R": 0.002116869203746319,
+            "WRIST_R": 0.032811909914016724
+          }
+        },
+        "L_inf_delta_vs_R1": 4.0531158447265625e-05,
+        "L1_delta_vs_R1": 8.109072223305702e-05,
+        "L_inf_delta_vs_donor": 0.03544193506240845,
+        "L1_delta_vs_donor": 0.07088389666751027,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 2716,
+        "vertex_ids": [
+          694,
+          2189
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 694,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 6.0216509154997766e-05,
+              "INDEX_MCP_R": 0.9962538480758667,
+              "INDEX_PIP_R": 0.0036859093233942986,
+              "INDEX_DIP_R": 1.6190103702129477e-09
+            },
+            "R1_vector": {
+              "WRIST_R": 6.0216509154997766e-05,
+              "INDEX_MCP_R": 0.9962538480758667,
+              "INDEX_PIP_R": 0.0036859093233942986,
+              "INDEX_DIP_R": 1.6190103702129477e-09
+            },
+            "R2_vector": {
+              "WRIST_R": 6.0216509154997766e-05,
+              "INDEX_MCP_R": 0.9962538480758667,
+              "INDEX_PIP_R": 0.0036859093233942986,
+              "INDEX_DIP_R": 1.6190103702129477e-09
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2189,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 0.9997552037239075,
+              "INDEX_PIP_R": 0.00024480887805111706,
+              "INDEX_DIP_R": 1.0234143393850204e-11
+            },
+            "R1_vector": {
+              "WRIST_R": 0.025835631415247917,
+              "INDEX_MCP_R": 0.9694371223449707,
+              "INDEX_PIP_R": 0.004032536875456572,
+              "INDEX_DIP_R": 0.0006947019719518721
+            },
+            "R2_vector": {
+              "WRIST_R": 0.025851303711533546,
+              "INDEX_MCP_R": 0.9694193005561829,
+              "INDEX_PIP_R": 0.0040329997427761555,
+              "INDEX_DIP_R": 0.0006964169442653656
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.9997552037239075,
+          "L1": 1.9995103703630486,
+          "per_group": {
+            "INDEX_DIP_R": 1.6087762268190975e-09,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0034411004453431815,
+            "THUMB_IP_R": 0.9997552037239075,
+            "WRIST_R": 6.0216509154997766e-05
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.026816725730895996,
+          "L1": 0.05363346854199269,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006947003529415019,
+            "INDEX_MCP_R": 0.026816725730895996,
+            "INDEX_PIP_R": 0.000346627552062273,
+            "WRIST_R": 0.02577541490609292
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.026834547519683838,
+          "L1": 0.05366914046669924,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006964153252549954,
+            "INDEX_MCP_R": 0.026834547519683838,
+            "INDEX_PIP_R": 0.0003470904193818569,
+            "WRIST_R": 0.02579108720237855
+          }
+        },
+        "L_inf_delta_vs_R1": 1.7821788787841797e-05,
+        "L1_delta_vs_R1": 3.567192470654845e-05,
+        "L_inf_delta_vs_donor": -0.9729206562042236,
+        "L1_delta_vs_donor": -1.9458412298963492,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 2717,
+        "vertex_ids": [
+          2189,
+          151
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 2189,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 0.9997552037239075,
+              "INDEX_PIP_R": 0.00024480887805111706,
+              "INDEX_DIP_R": 1.0234143393850204e-11
+            },
+            "R1_vector": {
+              "WRIST_R": 0.025835631415247917,
+              "INDEX_MCP_R": 0.9694371223449707,
+              "INDEX_PIP_R": 0.004032536875456572,
+              "INDEX_DIP_R": 0.0006947019719518721
+            },
+            "R2_vector": {
+              "WRIST_R": 0.025851303711533546,
+              "INDEX_MCP_R": 0.9694193005561829,
+              "INDEX_PIP_R": 0.0040329997427761555,
+              "INDEX_DIP_R": 0.0006964169442653656
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 151,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.056472938507795334,
+              "INDEX_MCP_R": 0.9392945170402527,
+              "INDEX_PIP_R": 0.003405242692679167,
+              "INDEX_DIP_R": 0.0008273189887404442
+            },
+            "R2_vector": {
+              "WRIST_R": 0.05649714171886444,
+              "INDEX_MCP_R": 0.9392669200897217,
+              "INDEX_PIP_R": 0.0034059579484164715,
+              "INDEX_DIP_R": 0.0008299682522192597
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.00024480887805111706,
+          "L1": 0.0004896051643777898,
+          "per_group": {
+            "INDEX_DIP_R": 1.0234143393850204e-11,
+            "INDEX_PIP_R": 0.00024480887805111706,
+            "THUMB_IP_R": 0.0002447962760925293
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.030637307092547417,
+          "L1": 0.06153982359683141,
+          "per_group": {
+            "INDEX_DIP_R": 0.00013261701678857207,
+            "INDEX_MCP_R": 0.030142605304718018,
+            "INDEX_PIP_R": 0.0006272941827774048,
+            "WRIST_R": 0.030637307092547417
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.030645838007330894,
+          "L1": 0.061558811576105654,
+          "per_group": {
+            "INDEX_DIP_R": 0.00013355130795389414,
+            "INDEX_MCP_R": 0.03015238046646118,
+            "INDEX_PIP_R": 0.000627041794359684,
+            "WRIST_R": 0.030645838007330894
+          }
+        },
+        "L_inf_delta_vs_R1": 8.530914783477783e-06,
+        "L1_delta_vs_R1": 1.8987979274243116e-05,
+        "L_inf_delta_vs_donor": 0.030401029129279777,
+        "L1_delta_vs_donor": 0.06106920641172786,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 2722,
+        "vertex_ids": [
+          703,
+          2192
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 703,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 0.00037366850301623344,
+              "INDEX_MCP_R": 0.9944908022880554,
+              "INDEX_PIP_R": 0.005135534796863794,
+              "INDEX_DIP_R": 2.188109249345871e-09
+            },
+            "R1_vector": {
+              "WRIST_R": 0.00037366850301623344,
+              "INDEX_MCP_R": 0.9944908022880554,
+              "INDEX_PIP_R": 0.005135534796863794,
+              "INDEX_DIP_R": 2.188109249345871e-09
+            },
+            "R2_vector": {
+              "WRIST_R": 0.00037366850301623344,
+              "INDEX_MCP_R": 0.9944908022880554,
+              "INDEX_PIP_R": 0.005135534796863794,
+              "INDEX_DIP_R": 2.188109249345871e-09
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2192,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.05786578357219696,
+              "INDEX_MCP_R": 0.9335806369781494,
+              "INDEX_PIP_R": 0.007246341090649366,
+              "INDEX_DIP_R": 0.0013072651345282793
+            },
+            "R2_vector": {
+              "WRIST_R": 0.05793888866901398,
+              "INDEX_MCP_R": 0.9334973692893982,
+              "INDEX_PIP_R": 0.007248494308441877,
+              "INDEX_DIP_R": 0.0013152610044926405
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 1.0,
+          "L1": 2.0000000077760447,
+          "per_group": {
+            "INDEX_DIP_R": 2.188109249345871e-09,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.00037366850301623344
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.060910165309906006,
+          "L1": 0.12182034961929133,
+          "per_group": {
+            "INDEX_DIP_R": 0.00130726294641903,
+            "INDEX_MCP_R": 0.060910165309906006,
+            "INDEX_PIP_R": 0.002110806293785572,
+            "WRIST_R": 0.05749211506918073
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.06099343299865723,
+          "L1": 0.12198687149261644,
+          "per_group": {
+            "INDEX_DIP_R": 0.0013152588163833911,
+            "INDEX_MCP_R": 0.06099343299865723,
+            "INDEX_PIP_R": 0.002112959511578083,
+            "WRIST_R": 0.057565220165997744
+          }
+        },
+        "L_inf_delta_vs_R1": 8.32676887512207e-05,
+        "L1_delta_vs_R1": 0.00016652187332510948,
+        "L_inf_delta_vs_donor": -0.9390065670013428,
+        "L1_delta_vs_donor": -1.8780131362834283,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 2723,
+        "vertex_ids": [
+          2192,
+          158
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 2192,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.05786578357219696,
+              "INDEX_MCP_R": 0.9335806369781494,
+              "INDEX_PIP_R": 0.007246341090649366,
+              "INDEX_DIP_R": 0.0013072651345282793
+            },
+            "R2_vector": {
+              "WRIST_R": 0.05793888866901398,
+              "INDEX_MCP_R": 0.9334973692893982,
+              "INDEX_PIP_R": 0.007248494308441877,
+              "INDEX_DIP_R": 0.0013152610044926405
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 158,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.11775115877389908,
+              "INDEX_MCP_R": 0.8734748363494873,
+              "INDEX_PIP_R": 0.007031881250441074,
+              "INDEX_DIP_R": 0.0017421228112652898
+            },
+            "R2_vector": {
+              "WRIST_R": 0.11787789314985275,
+              "INDEX_MCP_R": 0.8733304738998413,
+              "INDEX_PIP_R": 0.007035623304545879,
+              "INDEX_DIP_R": 0.001755992998369038
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.06010580062866211,
+          "L1": 0.12064049334730953,
+          "per_group": {
+            "INDEX_DIP_R": 0.0004348576767370105,
+            "INDEX_MCP_R": 0.06010580062866211,
+            "INDEX_PIP_R": 0.000214459840208292,
+            "WRIST_R": 0.05988537520170212
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.060166895389556885,
+          "L1": 0.12075950286816806,
+          "per_group": {
+            "INDEX_DIP_R": 0.0004407319938763976,
+            "INDEX_MCP_R": 0.060166895389556885,
+            "INDEX_PIP_R": 0.000212871003895998,
+            "WRIST_R": 0.059939004480838776
+          }
+        },
+        "L_inf_delta_vs_R1": 6.109476089477539e-05,
+        "L1_delta_vs_R1": 0.00011900952085852623,
+        "L_inf_delta_vs_donor": 0.060166895389556885,
+        "L1_delta_vs_donor": 0.12075950286816806,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3654,
+        "vertex_ids": [
+          1076,
+          2569
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1076,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.08924923837184906,
+              "INDEX_MCP_R": 0.9038931131362915,
+              "INDEX_PIP_R": 0.005521059967577457,
+              "INDEX_DIP_R": 0.0013366038911044598
+            },
+            "R2_vector": {
+              "WRIST_R": 0.08930905163288116,
+              "INDEX_MCP_R": 0.9038249850273132,
+              "INDEX_PIP_R": 0.00552282715216279,
+              "INDEX_DIP_R": 0.001343150739558041
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2569,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.043301768600940704,
+              "INDEX_MCP_R": 0.9495887756347656,
+              "INDEX_PIP_R": 0.006050691939890385,
+              "INDEX_DIP_R": 0.0010587889701128006
+            },
+            "R2_vector": {
+              "WRIST_R": 0.043338559567928314,
+              "INDEX_MCP_R": 0.9495468735694885,
+              "INDEX_PIP_R": 0.006051777396351099,
+              "INDEX_DIP_R": 0.001062814611941576
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.045947469770908356,
+          "L1": 0.09245057916268706,
+          "per_group": {
+            "INDEX_DIP_R": 0.00027781492099165916,
+            "INDEX_MCP_R": 0.04569566249847412,
+            "INDEX_PIP_R": 0.0005296319723129272,
+            "WRIST_R": 0.045947469770908356
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.04597049206495285,
+          "L1": 0.09250166697893292,
+          "per_group": {
+            "INDEX_DIP_R": 0.0002803361276164651,
+            "INDEX_MCP_R": 0.04572188854217529,
+            "INDEX_PIP_R": 0.0005289502441883087,
+            "WRIST_R": 0.04597049206495285
+          }
+        },
+        "L_inf_delta_vs_R1": 2.302229404449463e-05,
+        "L1_delta_vs_R1": 5.10878162458539e-05,
+        "L_inf_delta_vs_donor": 0.04597049206495285,
+        "L1_delta_vs_donor": 0.09250166697893292,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3655,
+        "vertex_ids": [
+          2189,
+          2569
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 2189,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 0.9997552037239075,
+              "INDEX_PIP_R": 0.00024480887805111706,
+              "INDEX_DIP_R": 1.0234143393850204e-11
+            },
+            "R1_vector": {
+              "WRIST_R": 0.025835631415247917,
+              "INDEX_MCP_R": 0.9694371223449707,
+              "INDEX_PIP_R": 0.004032536875456572,
+              "INDEX_DIP_R": 0.0006947019719518721
+            },
+            "R2_vector": {
+              "WRIST_R": 0.025851303711533546,
+              "INDEX_MCP_R": 0.9694193005561829,
+              "INDEX_PIP_R": 0.0040329997427761555,
+              "INDEX_DIP_R": 0.0006964169442653656
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2569,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.043301768600940704,
+              "INDEX_MCP_R": 0.9495887756347656,
+              "INDEX_PIP_R": 0.006050691939890385,
+              "INDEX_DIP_R": 0.0010587889701128006
+            },
+            "R2_vector": {
+              "WRIST_R": 0.043338559567928314,
+              "INDEX_MCP_R": 0.9495468735694885,
+              "INDEX_PIP_R": 0.006051777396351099,
+              "INDEX_DIP_R": 0.001062814611941576
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.00024480887805111706,
+          "L1": 0.0004896051643777898,
+          "per_group": {
+            "INDEX_DIP_R": 1.0234143393850204e-11,
+            "INDEX_PIP_R": 0.00024480887805111706,
+            "THUMB_IP_R": 0.0002447962760925293
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.019848346710205078,
+          "L1": 0.03969672595849261,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003640869981609285,
+            "INDEX_MCP_R": 0.019848346710205078,
+            "INDEX_PIP_R": 0.002018155064433813,
+            "WRIST_R": 0.017466137185692787
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.019872426986694336,
+          "L1": 0.03974485816434026,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003663976676762104,
+            "INDEX_MCP_R": 0.019872426986694336,
+            "INDEX_PIP_R": 0.0020187776535749435,
+            "WRIST_R": 0.017487255856394768
+          }
+        },
+        "L_inf_delta_vs_R1": 2.4080276489257812e-05,
+        "L1_delta_vs_R1": 4.8132205847650766e-05,
+        "L_inf_delta_vs_donor": 0.01962761810864322,
+        "L1_delta_vs_donor": 0.039255252999962464,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3656,
+        "vertex_ids": [
+          2175,
+          2569
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 2175,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 0.00010768482752609998,
+              "INDEX_MCP_R": 0.9951661229133606,
+              "INDEX_PIP_R": 0.004726187791675329,
+              "INDEX_DIP_R": 2.2385233666710747e-09
+            },
+            "R1_vector": {
+              "WRIST_R": 0.00010768482752609998,
+              "INDEX_MCP_R": 0.9951661229133606,
+              "INDEX_PIP_R": 0.004726187791675329,
+              "INDEX_DIP_R": 2.2385233666710747e-09
+            },
+            "R2_vector": {
+              "WRIST_R": 0.00010768482752609998,
+              "INDEX_MCP_R": 0.9951661229133606,
+              "INDEX_PIP_R": 0.004726187791675329,
+              "INDEX_DIP_R": 2.2385233666710747e-09
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2569,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.043301768600940704,
+              "INDEX_MCP_R": 0.9495887756347656,
+              "INDEX_PIP_R": 0.006050691939890385,
+              "INDEX_DIP_R": 0.0010587889701128006
+            },
+            "R2_vector": {
+              "WRIST_R": 0.043338559567928314,
+              "INDEX_MCP_R": 0.9495468735694885,
+              "INDEX_PIP_R": 0.006051777396351099,
+              "INDEX_DIP_R": 0.001062814611941576
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 1.0,
+          "L1": 1.9999999977710854,
+          "per_group": {
+            "INDEX_DIP_R": 2.2385233666710747e-09,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.00010768482752609998
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.04557734727859497,
+          "L1": 0.09115472193181406,
+          "per_group": {
+            "INDEX_DIP_R": 0.001058786731589434,
+            "INDEX_MCP_R": 0.04557734727859497,
+            "INDEX_PIP_R": 0.0013245041482150555,
+            "WRIST_R": 0.043194083773414604
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.04561924934387207,
+          "L1": 0.09123852606236826,
+          "per_group": {
+            "INDEX_DIP_R": 0.0010628123734182093,
+            "INDEX_MCP_R": 0.04561924934387207,
+            "INDEX_PIP_R": 0.0013255896046757698,
+            "WRIST_R": 0.043230874740402214
+          }
+        },
+        "L_inf_delta_vs_R1": 4.190206527709961e-05,
+        "L1_delta_vs_R1": 8.380413055419922e-05,
+        "L_inf_delta_vs_donor": -0.9543807506561279,
+        "L1_delta_vs_donor": -1.9087614717087171,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3657,
+        "vertex_ids": [
+          2192,
+          2569
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 2192,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.05786578357219696,
+              "INDEX_MCP_R": 0.9335806369781494,
+              "INDEX_PIP_R": 0.007246341090649366,
+              "INDEX_DIP_R": 0.0013072651345282793
+            },
+            "R2_vector": {
+              "WRIST_R": 0.05793888866901398,
+              "INDEX_MCP_R": 0.9334973692893982,
+              "INDEX_PIP_R": 0.007248494308441877,
+              "INDEX_DIP_R": 0.0013152610044926405
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2569,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.043301768600940704,
+              "INDEX_MCP_R": 0.9495887756347656,
+              "INDEX_PIP_R": 0.006050691939890385,
+              "INDEX_DIP_R": 0.0010587889701128006
+            },
+            "R2_vector": {
+              "WRIST_R": 0.043338559567928314,
+              "INDEX_MCP_R": 0.9495468735694885,
+              "INDEX_PIP_R": 0.006051777396351099,
+              "INDEX_DIP_R": 0.001062814611941576
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.01600813865661621,
+          "L1": 0.03201627894304693,
+          "per_group": {
+            "INDEX_DIP_R": 0.0002484761644154787,
+            "INDEX_MCP_R": 0.01600813865661621,
+            "INDEX_PIP_R": 0.0011956491507589817,
+            "WRIST_R": 0.014564014971256256
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.016049504280090332,
+          "L1": 0.03209899668581784,
+          "per_group": {
+            "INDEX_DIP_R": 0.0002524463925510645,
+            "INDEX_MCP_R": 0.016049504280090332,
+            "INDEX_PIP_R": 0.0011967169120907784,
+            "WRIST_R": 0.014600329101085663
+          }
+        },
+        "L_inf_delta_vs_R1": 4.1365623474121094e-05,
+        "L1_delta_vs_R1": 8.271774277091026e-05,
+        "L_inf_delta_vs_donor": 0.016049504280090332,
+        "L1_delta_vs_donor": 0.03209899668581784,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3661,
+        "vertex_ids": [
+          2189,
+          2570
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 2189,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 0.9997552037239075,
+              "INDEX_PIP_R": 0.00024480887805111706,
+              "INDEX_DIP_R": 1.0234143393850204e-11
+            },
+            "R1_vector": {
+              "WRIST_R": 0.025835631415247917,
+              "INDEX_MCP_R": 0.9694371223449707,
+              "INDEX_PIP_R": 0.004032536875456572,
+              "INDEX_DIP_R": 0.0006947019719518721
+            },
+            "R2_vector": {
+              "WRIST_R": 0.025851303711533546,
+              "INDEX_MCP_R": 0.9694193005561829,
+              "INDEX_PIP_R": 0.0040329997427761555,
+              "INDEX_DIP_R": 0.0006964169442653656
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2570,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 0.0008790952851995826,
+              "INDEX_MCP_R": 0.9989413619041443,
+              "INDEX_PIP_R": 0.0001795540447346866,
+              "INDEX_DIP_R": 6.222078408057996e-12
+            },
+            "R1_vector": {
+              "WRIST_R": 0.0008790952851995826,
+              "INDEX_MCP_R": 0.9989413619041443,
+              "INDEX_PIP_R": 0.0001795540447346866,
+              "INDEX_DIP_R": 6.222078408057996e-12
+            },
+            "R2_vector": {
+              "WRIST_R": 0.0008790952851995826,
+              "INDEX_MCP_R": 0.9989413619041443,
+              "INDEX_PIP_R": 0.0001795540447346866,
+              "INDEX_DIP_R": 6.222078408057996e-12
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.9997552037239075,
+          "L1": 1.99964091575058,
+          "per_group": {
+            "INDEX_DIP_R": 4.0120649857922075e-12,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 6.525483331643045e-05,
+            "THUMB_IP_R": 0.9997552037239075,
+            "WRIST_R": 0.0008790952851995826
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.029504239559173584,
+          "L1": 0.0590084604856736,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006947019657297937,
+            "INDEX_MCP_R": 0.029504239559173584,
+            "INDEX_PIP_R": 0.003852982830721885,
+            "WRIST_R": 0.024956536130048335
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.029522061347961426,
+          "L1": 0.059044132410380146,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006964169380432872,
+            "INDEX_MCP_R": 0.029522061347961426,
+            "INDEX_PIP_R": 0.003853445698041469,
+            "WRIST_R": 0.024972208426333964
+          }
+        },
+        "L_inf_delta_vs_R1": 1.7821788787841797e-05,
+        "L1_delta_vs_R1": 3.567192470654845e-05,
+        "L_inf_delta_vs_donor": -0.970233142375946,
+        "L1_delta_vs_donor": -1.9405967833401998,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3682,
+        "vertex_ids": [
+          1074,
+          2576
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1074,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.18526141345500946,
+              "INDEX_MCP_R": 0.8086244463920593,
+              "INDEX_PIP_R": 0.004748990759253502,
+              "INDEX_DIP_R": 0.0013651708140969276
+            },
+            "R2_vector": {
+              "WRIST_R": 0.18538783490657806,
+              "INDEX_MCP_R": 0.8084803819656372,
+              "INDEX_PIP_R": 0.004752738866955042,
+              "INDEX_DIP_R": 0.0013790183002129197
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2576,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.21987268328666687,
+              "INDEX_MCP_R": 0.7716206312179565,
+              "INDEX_PIP_R": 0.006535091437399387,
+              "INDEX_DIP_R": 0.001971593825146556
+            },
+            "R2_vector": {
+              "WRIST_R": 0.220183864235878,
+              "INDEX_MCP_R": 0.7712661027908325,
+              "INDEX_PIP_R": 0.0065443324856460094,
+              "INDEX_DIP_R": 0.0020056923385709524
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.03700381517410278,
+          "L1": 0.0740076086949557,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006064230110496283,
+            "INDEX_MCP_R": 0.03700381517410278,
+            "INDEX_PIP_R": 0.0017861006781458855,
+            "WRIST_R": 0.03461126983165741
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.03721427917480469,
+          "L1": 0.07442857616115361,
+          "per_group": {
+            "INDEX_DIP_R": 0.0006266740383580327,
+            "INDEX_MCP_R": 0.03721427917480469,
+            "INDEX_PIP_R": 0.0017915936186909676,
+            "WRIST_R": 0.03479602932929993
+          }
+        },
+        "L_inf_delta_vs_R1": 0.0002104640007019043,
+        "L1_delta_vs_R1": 0.0004209674661979079,
+        "L_inf_delta_vs_donor": 0.03721427917480469,
+        "L1_delta_vs_donor": 0.07442857616115361,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3686,
+        "vertex_ids": [
+          1061,
+          2577
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1061,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 0.9999997615814209,
+              "INDEX_PIP_R": 2.4493149908266787e-07,
+              "INDEX_DIP_R": 9.969651904566e-17
+            },
+            "R1_vector": {
+              "WRIST_R": 0.10536811500787735,
+              "INDEX_MCP_R": 0.8920002579689026,
+              "INDEX_PIP_R": 0.0020495993085205555,
+              "INDEX_DIP_R": 0.000582050415687263
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1053876280784607,
+              "INDEX_MCP_R": 0.8919780254364014,
+              "INDEX_PIP_R": 0.002050176728516817,
+              "INDEX_DIP_R": 0.0005841871025040746
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2577,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.1440822184085846,
+              "INDEX_MCP_R": 0.8514775633811951,
+              "INDEX_PIP_R": 0.003465111833065748,
+              "INDEX_DIP_R": 0.0009750965982675552
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1441342830657959,
+              "INDEX_MCP_R": 0.8514182567596436,
+              "INDEX_PIP_R": 0.0034666541032493114,
+              "INDEX_DIP_R": 0.000980799668468535
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 2.4493149908266787e-07,
+          "L1": 4.833500782839269e-07,
+          "per_group": {
+            "INDEX_DIP_R": 9.969651904566e-17,
+            "INDEX_PIP_R": 2.4493149908266787e-07,
+            "THUMB_IP_R": 2.384185791015625e-07
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.04052269458770752,
+          "L1": 0.08104535669554025,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003930461825802922,
+            "INDEX_MCP_R": 0.04052269458770752,
+            "INDEX_PIP_R": 0.0014155125245451927,
+            "WRIST_R": 0.038714103400707245
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.04055976867675781,
+          "L1": 0.08111951360478997,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003966125659644604,
+            "INDEX_MCP_R": 0.04055976867675781,
+            "INDEX_PIP_R": 0.0014164773747324944,
+            "WRIST_R": 0.038746654987335205
+          }
+        },
+        "L_inf_delta_vs_R1": 3.707408905029297e-05,
+        "L1_delta_vs_R1": 7.415690924972296e-05,
+        "L_inf_delta_vs_donor": 0.04055952374525873,
+        "L1_delta_vs_donor": 0.08111903025471169,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3687,
+        "vertex_ids": [
+          1076,
+          2577
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1076,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.08924923837184906,
+              "INDEX_MCP_R": 0.9038931131362915,
+              "INDEX_PIP_R": 0.005521059967577457,
+              "INDEX_DIP_R": 0.0013366038911044598
+            },
+            "R2_vector": {
+              "WRIST_R": 0.08930905163288116,
+              "INDEX_MCP_R": 0.9038249850273132,
+              "INDEX_PIP_R": 0.00552282715216279,
+              "INDEX_DIP_R": 0.001343150739558041
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2577,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.1440822184085846,
+              "INDEX_MCP_R": 0.8514775633811951,
+              "INDEX_PIP_R": 0.003465111833065748,
+              "INDEX_DIP_R": 0.0009750965982675552
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1441342830657959,
+              "INDEX_MCP_R": 0.8514182567596436,
+              "INDEX_PIP_R": 0.0034666541032493114,
+              "INDEX_DIP_R": 0.000980799668468535
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.054832980036735535,
+          "L1": 0.10966598521918058,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003615072928369045,
+            "INDEX_MCP_R": 0.052415549755096436,
+            "INDEX_PIP_R": 0.002055948134511709,
+            "WRIST_R": 0.054832980036735535
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.054825231432914734,
+          "L1": 0.1096504838205874,
+          "per_group": {
+            "INDEX_DIP_R": 0.00036235107108950615,
+            "INDEX_MCP_R": 0.05240672826766968,
+            "INDEX_PIP_R": 0.002056173048913479,
+            "WRIST_R": 0.054825231432914734
+          }
+        },
+        "L_inf_delta_vs_R1": -7.748603820800781e-06,
+        "L1_delta_vs_R1": -1.5501398593187332e-05,
+        "L_inf_delta_vs_donor": 0.054825231432914734,
+        "L1_delta_vs_donor": 0.1096504838205874,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3688,
+        "vertex_ids": [
+          1074,
+          2577
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1074,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.18526141345500946,
+              "INDEX_MCP_R": 0.8086244463920593,
+              "INDEX_PIP_R": 0.004748990759253502,
+              "INDEX_DIP_R": 0.0013651708140969276
+            },
+            "R2_vector": {
+              "WRIST_R": 0.18538783490657806,
+              "INDEX_MCP_R": 0.8084803819656372,
+              "INDEX_PIP_R": 0.004752738866955042,
+              "INDEX_DIP_R": 0.0013790183002129197
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2577,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.1440822184085846,
+              "INDEX_MCP_R": 0.8514775633811951,
+              "INDEX_PIP_R": 0.003465111833065748,
+              "INDEX_DIP_R": 0.0009750965982675552
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1441342830657959,
+              "INDEX_MCP_R": 0.8514182567596436,
+              "INDEX_PIP_R": 0.0034666541032493114,
+              "INDEX_DIP_R": 0.000980799668468535
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.04285311698913574,
+          "L1": 0.08570626517757773,
+          "per_group": {
+            "INDEX_DIP_R": 0.0003900742158293724,
+            "INDEX_MCP_R": 0.04285311698913574,
+            "INDEX_PIP_R": 0.0012838789261877537,
+            "WRIST_R": 0.041179195046424866
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.04293787479400635,
+          "L1": 0.08587573003023863,
+          "per_group": {
+            "INDEX_DIP_R": 0.00039821863174438477,
+            "INDEX_MCP_R": 0.04293787479400635,
+            "INDEX_PIP_R": 0.0012860847637057304,
+            "WRIST_R": 0.041253551840782166
+          }
+        },
+        "L_inf_delta_vs_R1": 8.475780487060547e-05,
+        "L1_delta_vs_R1": 0.0001694648526608944,
+        "L_inf_delta_vs_donor": 0.04293787479400635,
+        "L1_delta_vs_donor": 0.08587573003023863,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3689,
+        "vertex_ids": [
+          2072,
+          2577
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 2072,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 0.19603221118450165,
+              "INDEX_MCP_R": 0.8039677739143372,
+              "INDEX_PIP_R": 5.642632583402474e-09,
+              "INDEX_DIP_R": 3.4698510296828463e-19
+            },
+            "R1_vector": {
+              "WRIST_R": 0.19603221118450165,
+              "INDEX_MCP_R": 0.8039677739143372,
+              "INDEX_PIP_R": 5.642632583402474e-09,
+              "INDEX_DIP_R": 3.4698510296828463e-19
+            },
+            "R2_vector": {
+              "WRIST_R": 0.19603221118450165,
+              "INDEX_MCP_R": 0.8039677739143372,
+              "INDEX_PIP_R": 5.642632583402474e-09,
+              "INDEX_DIP_R": 3.4698510296828463e-19
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2577,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.1440822184085846,
+              "INDEX_MCP_R": 0.8514775633811951,
+              "INDEX_PIP_R": 0.003465111833065748,
+              "INDEX_DIP_R": 0.0009750965982675552
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1441342830657959,
+              "INDEX_MCP_R": 0.8514182567596436,
+              "INDEX_PIP_R": 0.0034666541032493114,
+              "INDEX_DIP_R": 0.000980799668468535
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 1.0,
+          "L1": 1.9999999907414714,
+          "per_group": {
+            "INDEX_DIP_R": 3.4698510296828463e-19,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "THUMB_IP_R": 1.0,
+            "WRIST_R": 0.19603221118450165
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.05194999277591705,
+          "L1": 0.10389998503147568,
+          "per_group": {
+            "INDEX_DIP_R": 0.0009750965982675549,
+            "INDEX_MCP_R": 0.04750978946685791,
+            "INDEX_PIP_R": 0.003465106190433165,
+            "WRIST_R": 0.05194999277591705
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.05189792811870575,
+          "L1": 0.10379585909309741,
+          "per_group": {
+            "INDEX_DIP_R": 0.0009807996684685345,
+            "INDEX_MCP_R": 0.047450482845306396,
+            "INDEX_PIP_R": 0.003466648460616728,
+            "WRIST_R": 0.05189792811870575
+          }
+        },
+        "L_inf_delta_vs_R1": -5.206465721130371e-05,
+        "L1_delta_vs_R1": -0.00010412593837827444,
+        "L_inf_delta_vs_donor": -0.9481020718812943,
+        "L1_delta_vs_donor": -1.896204131648374,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3692,
+        "vertex_ids": [
+          1061,
+          2578
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 1061,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 0.9999997615814209,
+              "INDEX_PIP_R": 2.4493149908266787e-07,
+              "INDEX_DIP_R": 9.969651904566e-17
+            },
+            "R1_vector": {
+              "WRIST_R": 0.10536811500787735,
+              "INDEX_MCP_R": 0.8920002579689026,
+              "INDEX_PIP_R": 0.0020495993085205555,
+              "INDEX_DIP_R": 0.000582050415687263
+            },
+            "R2_vector": {
+              "WRIST_R": 0.1053876280784607,
+              "INDEX_MCP_R": 0.8919780254364014,
+              "INDEX_PIP_R": 0.002050176728516817,
+              "INDEX_DIP_R": 0.0005841871025040746
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2578,
+            "R2_write_authorized": false,
+            "operation": "COPY_ONLY",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "WRIST_R": 0.048278842121362686,
+              "INDEX_MCP_R": 0.9517210125923157,
+              "INDEX_PIP_R": 1.6312286277297972e-07,
+              "INDEX_DIP_R": 6.197329131731399e-17
+            },
+            "R1_vector": {
+              "WRIST_R": 0.048278842121362686,
+              "INDEX_MCP_R": 0.9517210125923157,
+              "INDEX_PIP_R": 1.6312286277297972e-07,
+              "INDEX_DIP_R": 6.197329131731399e-17
+            },
+            "R2_vector": {
+              "WRIST_R": 0.048278842121362686,
+              "INDEX_MCP_R": 0.9517210125923157,
+              "INDEX_PIP_R": 1.6312286277297972e-07,
+              "INDEX_DIP_R": 6.197329131731399e-17
+            },
+            "R2_exact_R1": true,
+            "R2_exact_donor": true,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.9999997615814209,
+          "L1": 1.9999996981037356,
+          "per_group": {
+            "INDEX_DIP_R": 3.7723227728346005e-17,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 8.180863630968815e-08,
+            "THUMB_IP_R": 0.9999997615814209,
+            "WRIST_R": 0.048278842121362686
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.059720754623413086,
+          "L1": 0.11944151411127274,
+          "per_group": {
+            "INDEX_DIP_R": 0.000582050415687201,
+            "INDEX_MCP_R": 0.059720754623413086,
+            "INDEX_PIP_R": 0.0020494361856577825,
+            "WRIST_R": 0.057089272886514664
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.05974298715591431,
+          "L1": 0.11948597382117038,
+          "per_group": {
+            "INDEX_DIP_R": 0.0005841871025040126,
+            "INDEX_MCP_R": 0.05974298715591431,
+            "INDEX_PIP_R": 0.002050013605654044,
+            "WRIST_R": 0.05710878595709801
+          }
+        },
+        "L_inf_delta_vs_R1": 2.2232532501220703e-05,
+        "L1_delta_vs_R1": 4.445970989763737e-05,
+        "L_inf_delta_vs_donor": -0.9402567744255066,
+        "L1_delta_vs_donor": -1.8805137242825651,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      },
+      {
+        "edge_id": 3743,
+        "vertex_ids": [
+          2192,
+          2591
+        ],
+        "endpoints": [
+          {
+            "vertex_id": 2192,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.05786578357219696,
+              "INDEX_MCP_R": 0.9335806369781494,
+              "INDEX_PIP_R": 0.007246341090649366,
+              "INDEX_DIP_R": 0.0013072651345282793
+            },
+            "R2_vector": {
+              "WRIST_R": 0.05793888866901398,
+              "INDEX_MCP_R": 0.9334973692893982,
+              "INDEX_PIP_R": 0.007248494308441877,
+              "INDEX_DIP_R": 0.0013152610044926405
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          },
+          {
+            "vertex_id": 2591,
+            "R2_write_authorized": true,
+            "operation": "ORIGINAL_WRITE",
+            "frozen_side": "INDEX",
+            "FIRST_WEB21": false,
+            "donor_vector": {
+              "THUMB_IP_R": 1.0
+            },
+            "R1_vector": {
+              "WRIST_R": 0.06912291049957275,
+              "INDEX_MCP_R": 0.9216338396072388,
+              "INDEX_PIP_R": 0.007774633355438709,
+              "INDEX_DIP_R": 0.0014686076901853085
+            },
+            "R2_vector": {
+              "WRIST_R": 0.06924886256456375,
+              "INDEX_MCP_R": 0.9214904308319092,
+              "INDEX_PIP_R": 0.007778332568705082,
+              "INDEX_DIP_R": 0.0014823750825598836
+            },
+            "R2_exact_R1": false,
+            "R2_exact_donor": false,
+            "allowed_groups": [
+              "INDEX_DIP_R",
+              "INDEX_MCP_R",
+              "INDEX_PIP_R",
+              "WRIST_R"
+            ]
+          }
+        ],
+        "donor_metrics": {
+          "L_inf": 0.0,
+          "L1": 0.0,
+          "per_group": {
+            "THUMB_IP_R": 0.0
+          }
+        },
+        "R1_metrics": {
+          "L_inf": 0.011946797370910645,
+          "L1": 0.02389355911873281,
+          "per_group": {
+            "INDEX_DIP_R": 0.00016134255565702915,
+            "INDEX_MCP_R": 0.011946797370910645,
+            "INDEX_PIP_R": 0.0005282922647893429,
+            "WRIST_R": 0.011257126927375793
+          }
+        },
+        "R2_metrics": {
+          "L_inf": 0.012006938457489014,
+          "L1": 0.024013864691369236,
+          "per_group": {
+            "INDEX_DIP_R": 0.0001671140780672431,
+            "INDEX_MCP_R": 0.012006938457489014,
+            "INDEX_PIP_R": 0.0005298382602632046,
+            "WRIST_R": 0.011309973895549774
+          }
+        },
+        "L_inf_delta_vs_R1": 6.014108657836914e-05,
+        "L1_delta_vs_R1": 0.0001203055726364255,
+        "L_inf_delta_vs_donor": 0.012006938457489014,
+        "L1_delta_vs_donor": 0.024013864691369236,
+        "absolute_exceedance": false,
+        "boundary_context": []
+      }
+    ]
+  },
+  "per_vertex": [
+    {
+      "vertex_id": 151,
+      "R1B": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1": {
+        "WRIST_R": 0.056472938507795334,
+        "INDEX_MCP_R": 0.9392945170402527,
+        "INDEX_PIP_R": 0.003405242692679167,
+        "INDEX_DIP_R": 0.0008273189887404442
+      },
+      "R2": {
+        "WRIST_R": 0.05649714171886444,
+        "INDEX_MCP_R": 0.9392669200897217,
+        "INDEX_PIP_R": 0.0034059579484164715,
+        "INDEX_DIP_R": 0.0008299682522192597
+      },
+      "INDEX_compatible_support": true
+    },
+    {
+      "vertex_id": 158,
+      "R1B": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1": {
+        "WRIST_R": 0.11775115877389908,
+        "INDEX_MCP_R": 0.8734748363494873,
+        "INDEX_PIP_R": 0.007031881250441074,
+        "INDEX_DIP_R": 0.0017421228112652898
+      },
+      "R2": {
+        "WRIST_R": 0.11787789314985275,
+        "INDEX_MCP_R": 0.8733304738998413,
+        "INDEX_PIP_R": 0.007035623304545879,
+        "INDEX_DIP_R": 0.001755992998369038
+      },
+      "INDEX_compatible_support": true
+    },
+    {
+      "vertex_id": 1061,
+      "R1B": {
+        "THUMB_IP_R": 0.9999997615814209,
+        "INDEX_PIP_R": 2.4493149908266787e-07,
+        "INDEX_DIP_R": 9.969651904566e-17
+      },
+      "R1": {
+        "WRIST_R": 0.10536811500787735,
+        "INDEX_MCP_R": 0.8920002579689026,
+        "INDEX_PIP_R": 0.0020495993085205555,
+        "INDEX_DIP_R": 0.000582050415687263
+      },
+      "R2": {
+        "WRIST_R": 0.1053876280784607,
+        "INDEX_MCP_R": 0.8919780254364014,
+        "INDEX_PIP_R": 0.002050176728516817,
+        "INDEX_DIP_R": 0.0005841871025040746
+      },
+      "INDEX_compatible_support": true
+    },
+    {
+      "vertex_id": 1074,
+      "R1B": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1": {
+        "WRIST_R": 0.18526141345500946,
+        "INDEX_MCP_R": 0.8086244463920593,
+        "INDEX_PIP_R": 0.004748990759253502,
+        "INDEX_DIP_R": 0.0013651708140969276
+      },
+      "R2": {
+        "WRIST_R": 0.18538783490657806,
+        "INDEX_MCP_R": 0.8084803819656372,
+        "INDEX_PIP_R": 0.004752738866955042,
+        "INDEX_DIP_R": 0.0013790183002129197
+      },
+      "INDEX_compatible_support": true
+    },
+    {
+      "vertex_id": 1076,
+      "R1B": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1": {
+        "WRIST_R": 0.08924923837184906,
+        "INDEX_MCP_R": 0.9038931131362915,
+        "INDEX_PIP_R": 0.005521059967577457,
+        "INDEX_DIP_R": 0.0013366038911044598
+      },
+      "R2": {
+        "WRIST_R": 0.08930905163288116,
+        "INDEX_MCP_R": 0.9038249850273132,
+        "INDEX_PIP_R": 0.00552282715216279,
+        "INDEX_DIP_R": 0.001343150739558041
+      },
+      "INDEX_compatible_support": true
+    },
+    {
+      "vertex_id": 2189,
+      "R1B": {
+        "THUMB_IP_R": 0.9997552037239075,
+        "INDEX_PIP_R": 0.00024480887805111706,
+        "INDEX_DIP_R": 1.0234143393850204e-11
+      },
+      "R1": {
+        "WRIST_R": 0.025835631415247917,
+        "INDEX_MCP_R": 0.9694371223449707,
+        "INDEX_PIP_R": 0.004032536875456572,
+        "INDEX_DIP_R": 0.0006947019719518721
+      },
+      "R2": {
+        "WRIST_R": 0.025851303711533546,
+        "INDEX_MCP_R": 0.9694193005561829,
+        "INDEX_PIP_R": 0.0040329997427761555,
+        "INDEX_DIP_R": 0.0006964169442653656
+      },
+      "INDEX_compatible_support": true
+    },
+    {
+      "vertex_id": 2192,
+      "R1B": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1": {
+        "WRIST_R": 0.05786578357219696,
+        "INDEX_MCP_R": 0.9335806369781494,
+        "INDEX_PIP_R": 0.007246341090649366,
+        "INDEX_DIP_R": 0.0013072651345282793
+      },
+      "R2": {
+        "WRIST_R": 0.05793888866901398,
+        "INDEX_MCP_R": 0.9334973692893982,
+        "INDEX_PIP_R": 0.007248494308441877,
+        "INDEX_DIP_R": 0.0013152610044926405
+      },
+      "INDEX_compatible_support": true
+    },
+    {
+      "vertex_id": 2569,
+      "R1B": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1": {
+        "WRIST_R": 0.043301768600940704,
+        "INDEX_MCP_R": 0.9495887756347656,
+        "INDEX_PIP_R": 0.006050691939890385,
+        "INDEX_DIP_R": 0.0010587889701128006
+      },
+      "R2": {
+        "WRIST_R": 0.043338559567928314,
+        "INDEX_MCP_R": 0.9495468735694885,
+        "INDEX_PIP_R": 0.006051777396351099,
+        "INDEX_DIP_R": 0.001062814611941576
+      },
+      "INDEX_compatible_support": true
+    },
+    {
+      "vertex_id": 2577,
+      "R1B": {
+        "THUMB_IP_R": 1.0
+      },
+      "R1": {
+        "WRIST_R": 0.1440822184085846,
+        "INDEX_MCP_R": 0.8514775633811951,
+        "INDEX_PIP_R": 0.003465111833065748,
+        "INDEX_DIP_R": 0.0009750965982675552
+      },
+      "R2": {
+        "WRIST_R": 0.1441342830657959,
+        "INDEX_MCP_R": 0.8514182567596436,
+        "INDEX_PIP_R": 0.0034666541032493114,
+        "INDEX_DIP_R": 0.000980799668468535
+      },
+      "INDEX_compatible_support": true
+    }
+  ]
+}

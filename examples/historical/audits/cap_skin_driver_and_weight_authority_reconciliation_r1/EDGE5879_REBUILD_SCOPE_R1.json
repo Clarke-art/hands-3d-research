@@ -1,0 +1,62 @@
+{
+  "status": "RESOLVED",
+  "action": "TARGETED_REBUILD_REQUIRED",
+  "historical_dependency": "PARTLY_CAP_DERIVED",
+  "edge_id": 5879,
+  "endpoints": [
+    1551,
+    3125
+  ],
+  "endpoint_fresh_side": [
+    "INDEX",
+    "INDEX"
+  ],
+  "endpoint_R1B_vectors": [
+    {
+      "THUMB_MCP_R": 0.9684315323829651,
+      "THUMB_IP_R": 0.03156847879290581
+    },
+    {
+      "THUMB_MCP_R": 1.0
+    }
+  ],
+  "historical_R1E_CMC_MCP_L3_ratio": 11.041286717387363,
+  "historical_measurement_retained": true,
+  "source": {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1e_cap_dependency_blast_radius_audit_r1\\EDGE5879_CAP_DEPENDENCY_AUDIT.json",
+    "sha256": "75bc778326f7695c50547e068e0be78adce5a2fd7d9a809cec47233360dae3ec",
+    "role": "FROZEN_INPUT"
+  },
+  "neighborhood_ids": [
+    296,
+    338,
+    617,
+    618,
+    1448,
+    1460,
+    1539,
+    1550,
+    1551,
+    1932,
+    1996,
+    2004,
+    2016,
+    2892,
+    2896,
+    3093,
+    3125,
+    3162
+  ],
+  "neighborhood_count": 18,
+  "endpoints_in_envelope": true,
+  "v3125_rule": "Frozen FIRST_WEB21: THUMB_IP=0, shared four-group wrapper regardless of fresh side",
+  "v1551_rule": "Use corrected geometry and frozen side guard; couple to v3125 shared interface without historical wrist-heavy partition step",
+  "neighborhood_classification_counts": {
+    "TARGETED_REVALIDATION": 11,
+    "REBUILD_REQUIRED": 7
+  },
+  "why_rebuild_instead_of_revalidation_only": "Recorded R1E 0.94 wrist/MCP partition mismatch is a real defect; do not inherit R1E field. New joint candidate transition covers both endpoints. R1B near-continuous pair is a retention prior, not a waiver of wrapper/corrected-chain qualification.",
+  "validation": "DEFORMATION_VALIDATION_REQUIRED",
+  "new_vector_written": false,
+  "new_deformation_run": false
+}

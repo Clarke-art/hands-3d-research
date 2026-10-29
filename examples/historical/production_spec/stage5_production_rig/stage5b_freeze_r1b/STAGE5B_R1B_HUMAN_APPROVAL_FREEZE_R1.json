@@ -1,0 +1,329 @@
+{
+ "stage": "STAGE5B_R1B_HUMAN_APPROVAL_FREEZE_R1",
+ "generated_at": "2026-09-30T19:10:38.898149+08:00",
+ "round": "STAGE5B_R1B_STAGE6A_R1A_HUMAN_APPROVAL_FREEZE_R1",
+ "mode": "DOCUMENTATION + PROVENANCE + HUMAN APPROVAL FREEZE (no production change)",
+ "human_review": {
+  "STAGE5B_R1B_HUMAN_REVIEW": "APPROVED",
+  "STAGE6A_R1A_HUMAN_REVIEW": "APPROVED"
+ },
+ "zeroth_final_state": {
+  "STAGE5B_R1B": "FINAL_APPROVED",
+  "PRODUCTION_BINDING": "FINAL_APPROVED",
+  "PRODUCTION_SKIN_WEIGHT_STATIC": "FINAL_APPROVED",
+  "STAGE5B_MASTER": "RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1B.blend",
+  "STAGE5B_FREEZE_R1B": "PASS",
+  "STAGE5B_R1A": "SUPERSEDED_BY_R1B_FOR_THUMB_WEIGHTING",
+  "STAGE6A_R1A": "FINAL_APPROVED",
+  "STAGE6A_ISOLATED_FLEX_DEFORMATION": "FINAL_APPROVED",
+  "DEFORMATION_FINAL": "PENDING_STAGE6B",
+  "STAGE6B": "READY_TO_BEGIN",
+  "PRODUCTION_MASTER_GEOMETRY": "UNCHANGED",
+  "PRODUCTION_RIG_SKELETON": "UNCHANGED"
+ },
+ "active_stage5b_master": {
+  "path": "production_spec/stage5_production_rig/stage5b_r1b/RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1B.blend",
+  "sha256": "cec5804f1319bf2408fded21a3d0cf8c9f01bf778ae0659c18cf17950b117d10",
+  "role": "APPROVED_STAGE5B_STATIC_SKIN_MASTER / Production Skin Weight master"
+ },
+ "frozen_provenance": {
+  "stage5b_r1a_master": {
+   "path": "production_spec/stage5_production_rig/stage5b_r1a/RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1A.blend",
+   "sha256": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6",
+   "role": "FROZEN_PROVENANCE / SUPERSEDED_BY_STAGE5B_R1B_FOR_THUMB_WEIGHTING",
+   "files_and_reports_retained_not_overwritten": true
+  },
+  "stage5a_skeleton_master": {
+   "path": "production_spec/stage5_production_rig/stage5a_r2a/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_R2A.blend",
+   "sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+   "role": "FROZEN_PROVENANCE"
+  },
+  "stage6a_r1_harness": {
+   "path": "production_spec/stage6_deformation/stage6a/RIGHT_HAND_STAGE6A_DEFORMATION_HARNESS_R1.blend",
+   "sha256": "8f223c979362a8c3414b58e2467c7cda2da60f993245cc95b2a38d76c718d3ef",
+   "role": "FROZEN_PROVENANCE (historical harness)"
+  },
+  "stage6a_r1a_harness": {
+   "path": "production_spec/stage6_deformation/stage6a_r1a/RIGHT_HAND_STAGE6A_DEFORMATION_HARNESS_R1A.blend",
+   "sha256": "c4bb74ea116e7352064c26977a509ed1248aacbe734118e5f9c240fa24b1157b",
+   "role": "APPROVED_STAGE6A_ISOLATED_FLEX_TEST_HARNESS (TEST HARNESS, not a production master)"
+  }
+ },
+ "read_only_integrity_reverification": {
+  "file": "stage5b_freeze_r1b/STAGE5B_R1B_FREEZE_VERIFICATION_R1.json",
+  "all_five_blends_hash_unchanged": true,
+  "all_structural_checks_pass": true,
+  "per_blend": {
+   "stage5a_skeleton_master": {
+    "sha256_before": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+    "sha256_after": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+    "unchanged": true,
+    "V": 3416,
+    "E": 6828,
+    "F": 3414,
+    "TRIS": 6828,
+    "uv_matches_reference": true,
+    "material_matches_reference": true,
+    "nail_assignment_matches_reference": true,
+    "nail_face_count": 124,
+    "bone_count": 21,
+    "deform_bone_count": 16,
+    "tip_helpers": [
+     "INDEX_TIP_R",
+     "LITTLE_TIP_R",
+     "MIDDLE_TIP_R",
+     "RING_TIP_R",
+     "THUMB_TIP_R"
+    ],
+    "hierarchy_matches_reference": true,
+    "bone_head_tail_roll_matches_reference": true,
+    "object_origin_matches_reference": true,
+    "RSSF_bind_zero_pose_max_delta_mm": 0.0
+   },
+   "stage5b_r1a_master": {
+    "sha256_before": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6",
+    "sha256_after": "c68e415aff80b56911cfe5646e47dff9100d7b54b8bf7aa8ba068bb3948c0ea6",
+    "unchanged": true,
+    "V": 3416,
+    "E": 6828,
+    "F": 3414,
+    "TRIS": 6828,
+    "uv_matches_reference": true,
+    "material_matches_reference": true,
+    "nail_assignment_matches_reference": true,
+    "nail_face_count": 124,
+    "bone_count": 21,
+    "deform_bone_count": 16,
+    "tip_helpers": [
+     "INDEX_TIP_R",
+     "LITTLE_TIP_R",
+     "MIDDLE_TIP_R",
+     "RING_TIP_R",
+     "THUMB_TIP_R"
+    ],
+    "hierarchy_matches_reference": true,
+    "bone_head_tail_roll_matches_reference": true,
+    "object_origin_matches_reference": true,
+    "RSSF_bind_zero_pose_max_delta_mm": 5.967e-05
+   },
+   "stage5b_r1b_master": {
+    "sha256_before": "cec5804f1319bf2408fded21a3d0cf8c9f01bf778ae0659c18cf17950b117d10",
+    "sha256_after": "cec5804f1319bf2408fded21a3d0cf8c9f01bf778ae0659c18cf17950b117d10",
+    "unchanged": true,
+    "V": 3416,
+    "E": 6828,
+    "F": 3414,
+    "TRIS": 6828,
+    "uv_matches_reference": true,
+    "material_matches_reference": true,
+    "nail_assignment_matches_reference": true,
+    "nail_face_count": 124,
+    "bone_count": 21,
+    "deform_bone_count": 16,
+    "tip_helpers": [
+     "INDEX_TIP_R",
+     "LITTLE_TIP_R",
+     "MIDDLE_TIP_R",
+     "RING_TIP_R",
+     "THUMB_TIP_R"
+    ],
+    "hierarchy_matches_reference": true,
+    "bone_head_tail_roll_matches_reference": true,
+    "object_origin_matches_reference": true,
+    "RSSF_bind_zero_pose_max_delta_mm": 5.967e-05
+   },
+   "stage6a_r1_harness": {
+    "sha256_before": "8f223c979362a8c3414b58e2467c7cda2da60f993245cc95b2a38d76c718d3ef",
+    "sha256_after": "8f223c979362a8c3414b58e2467c7cda2da60f993245cc95b2a38d76c718d3ef",
+    "unchanged": true,
+    "V": 3416,
+    "E": 6828,
+    "F": 3414,
+    "TRIS": 6828,
+    "uv_matches_reference": true,
+    "material_matches_reference": true,
+    "nail_assignment_matches_reference": true,
+    "nail_face_count": 124,
+    "bone_count": 21,
+    "deform_bone_count": 16,
+    "tip_helpers": [
+     "INDEX_TIP_R",
+     "LITTLE_TIP_R",
+     "MIDDLE_TIP_R",
+     "RING_TIP_R",
+     "THUMB_TIP_R"
+    ],
+    "hierarchy_matches_reference": true,
+    "bone_head_tail_roll_matches_reference": true,
+    "object_origin_matches_reference": true,
+    "RSSF_bind_zero_pose_max_delta_mm": 5.967e-05
+   },
+   "stage6a_r1a_harness": {
+    "sha256_before": "c4bb74ea116e7352064c26977a509ed1248aacbe734118e5f9c240fa24b1157b",
+    "sha256_after": "c4bb74ea116e7352064c26977a509ed1248aacbe734118e5f9c240fa24b1157b",
+    "unchanged": true,
+    "V": 3416,
+    "E": 6828,
+    "F": 3414,
+    "TRIS": 6828,
+    "uv_matches_reference": true,
+    "material_matches_reference": true,
+    "nail_assignment_matches_reference": true,
+    "nail_face_count": 124,
+    "bone_count": 21,
+    "deform_bone_count": 16,
+    "tip_helpers": [
+     "INDEX_TIP_R",
+     "LITTLE_TIP_R",
+     "MIDDLE_TIP_R",
+     "RING_TIP_R",
+     "THUMB_TIP_R"
+    ],
+    "hierarchy_matches_reference": true,
+    "bone_head_tail_roll_matches_reference": true,
+    "object_origin_matches_reference": true,
+    "RSSF_bind_zero_pose_max_delta_mm": 5.967e-05
+   }
+  }
+ },
+ "r1b_weight_reverification": {
+  "authorised_region_vertex_count": 323,
+  "changed_vertex_count": 319,
+  "authorised_but_unchanged_count": 4,
+  "reassigned_groups_actual": [
+   "THUMB_CMC_R",
+   "THUMB_IP_R",
+   "THUMB_MCP_R",
+   "WRIST_R"
+  ],
+  "reassigned_groups_expected": [
+   "WRIST_R",
+   "THUMB_CMC_R",
+   "THUMB_MCP_R",
+   "THUMB_IP_R"
+  ],
+  "only_expected_groups_reassigned": true,
+  "protected_weight_drift": {
+   "four_finger_group_drift": 0.0,
+   "first_web_drift": 0.0,
+   "nail_drift": 0.0,
+   "distal_cap_drift": 0.0,
+   "outside_authorised_drift": 0.0
+  },
+  "protected_weight_drift_zero": true,
+  "candidate_field_float32_mismatches_vs_shipped_r1b": 0,
+  "payload_encodes_accepted_candidate": true,
+  "max_influences": 4,
+  "max_influences_le_4": true,
+  "normalization": "PASS",
+  "zero_pose_bind": "PASS",
+  "accepted_params": {
+   "form": "centered",
+   "W_IP": 5.0,
+   "W_MCP": 1.0,
+   "W_BASE": 3.0,
+   "shift_IP": 0.0,
+   "shift_MCP": 0.0,
+   "profile": "quintic"
+  },
+  "weights_were_not_readjusted_in_this_round": true
+ },
+ "frozen_weighting_method": {
+  "authority_file": "stage6a_r1a/STAGE6A_R1A_THUMB_WEIGHT_CANDIDATE_RANKING.json",
+  "GLOBAL_LONGITUDINAL_COORDINATE": "APPROVED_JOINT_POLYLINE_ARC_LENGTH",
+  "FORBIDDEN_COORDINATE": "GLOBAL_SURFACE_GEODESIC_FROM_DISTAL_TIP (FORBIDDEN_FOR_LONGITUDINAL_WEIGHT_COORDINATE)",
+  "transition_form": "JOINT_CENTERED",
+  "profile": "QUINTIC",
+  "W_IP": "5.0 * MED",
+  "W_MCP": "1.0 * MED",
+  "W_BASE": "3.0 * MED",
+  "MED_mm": 3.888205,
+  "W_IP_half_width_mm": 19.441,
+  "W_IP_full_span_mm": 38.882,
+  "W_BASE_half_width_mm": 11.6646,
+  "R1A_form": "ONE_SIDED (ramp starts exactly AT the joint arc; the principal gradient was compressed into about one mesh edge, which is what R1B repairs)",
+  "per_vertex_free_parameters": 0,
+  "reassigned_groups": [
+   "WRIST_R",
+   "THUMB_CMC_R",
+   "THUMB_MCP_R",
+   "THUMB_IP_R"
+  ],
+  "not_to_be_re_researched": true
+ },
+ "final_th_mcp_45_min_edge_residual": {
+  "classification": "ACCEPTED_NON_BLOCKING_FOR_STAGE6A",
+  "TH_MCP_45_MIN_EDGE_RESIDUAL": "ACCEPTED_NON_BLOCKING_FOR_STAGE6A",
+  "TH_MCP_45_min_edge_ratio": {
+   "Stage6A_R1": 0.421283,
+   "Stage6A_R1A": 0.219223
+  },
+  "same_case_other_metrics": {
+   "min_face_area_ratio": [
+    0.193672,
+    0.297893
+   ],
+   "face_area_p05": [
+    0.523736,
+    0.580019
+   ],
+   "max_edge_stretch": [
+    3.016385,
+    3.016385
+   ],
+   "intra_thumb_pairs": [
+    79,
+    74
+   ]
+  },
+  "reasons": [
+   "it is the principal single residual among the six thumb cases",
+   "max edge stretch is unchanged on the same case and face-area statistics improve",
+   "Human Review inspected the same-camera before/after renders and reported no new unacceptable spike, collapse or teaching-shape break",
+   "none of the 375 bounded weight candidates could keep min_edge_ratio non-regressed on every restricted case",
+   "therefore no R1C was opened for a single min-edge number"
+  ],
+  "is": "ACCEPTED_DOCUMENTED_RESIDUAL",
+  "is_not": [
+   "METRIC_INVALID",
+   "GENERAL_EXCEPTION"
+  ],
+  "must_not_be_propagated_as_a_general_exemption_to_other_joints": true
+ },
+ "self_intersection_authority": {
+  "intra_target_digit_pairs": [
+   279,
+   259
+  ],
+  "target_vs_other_digit_pairs": [
+   404,
+   400
+  ],
+  "pairs_depth_gt_0_5mm": [
+   454,
+   450
+  ],
+  "total_new_pairs": [
+   909,
+   885
+  ],
+  "thumb_index_classification": "POSE_CONSTRAINT_DIAGNOSTIC"
+ },
+ "blend_reproducibility": {
+  "errata": "stage5b_r1b/STAGE5B_R1B_BLEND_REPRODUCIBILITY_ERRATA.md",
+  "check": "stage5b_r1b/_tmp/R1B_BLEND_REPRODUCIBILITY_CHECK.json",
+  "verdict": {
+   "BLEND_CONTAINER_BYTE_REPRODUCIBILITY": "NOT_GUARANTEED",
+   "REPRODUCIBLE_UNDER_FIXED_OUTPUT_PATH": true,
+   "SEMANTIC_PAYLOAD_REPRODUCIBILITY": "PASS"
+  },
+  "byte_differences": 36,
+  "total_bytes": 2296143,
+  "differing_bytes_inside_8byte_pointer_slots": 36
+ },
+ "stop_point": {
+  "stage6b_started": false,
+  "stage6b": "READY_TO_BEGIN",
+  "note": "STOP after freeze / errata / hash verification / provenance ledger / Stage6B binding obligations"
+ }
+}

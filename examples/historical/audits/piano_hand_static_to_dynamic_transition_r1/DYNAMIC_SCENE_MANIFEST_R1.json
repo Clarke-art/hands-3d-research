@@ -1,0 +1,114 @@
+{
+  "candidate_sha256": "664a0702637e7c3d7aef6b4ba260d8b464f87c9704aa2d4b56b8492d01492284",
+  "source_candidate_sha256": "18359b1c2c6e8abaa1a4444f342e7672a1f1fda35d96cc95146bc8d1161b551c",
+  "mapping": {
+    "L": {
+      "scene": "DYNAMIC_LEFT_OCTAVE_R1",
+      "rig": "LEFT_HAND_PRODUCTION_RIG.002",
+      "mesh": "LEFT_HAND_OFFICIAL_L1_MIRROR_PRODUCT_MESH.002",
+      "root": "STATIC_ROOT_L1.001",
+      "cameras": {
+        "TEACHING_TOP": "L1_TEACHING_TOP.001",
+        "SIDE_OBLIQUE": "L1_SIDE_OBLIQUE.001",
+        "REASONABLE_CLOSE": "L1_REASONABLE_CLOSE.001"
+      },
+      "key_pivots": {
+        "17": "DESIGN_ONLY_MOVING_KEY_L_38",
+        "29": "DESIGN_ONLY_MOVING_KEY_L_50"
+      },
+      "window": [
+        0.4,
+        1.8
+      ],
+      "source_scene": "STATIC_L1"
+    },
+    "R": {
+      "scene": "DYNAMIC_RIGHT_FSHARP_R1",
+      "rig": "RIGHT_HAND_PRODUCTION_RIG.002",
+      "mesh": "RIGHT_HAND_OFFICIAL_L1_PRODUCT_MESH.002",
+      "root": "STATIC_ROOT_R1.001",
+      "cameras": {
+        "TEACHING_TOP": "R1_TEACHING_TOP.001",
+        "SIDE_OBLIQUE": "R1_SIDE_OBLIQUE.001",
+        "REASONABLE_CLOSE": "R1_REASONABLE_CLOSE.001"
+      },
+      "key_pivots": {
+        "57": "DESIGN_ONLY_MOVING_KEY_R_78"
+      },
+      "window": [
+        1.025,
+        1.8
+      ],
+      "source_scene": "STATIC_R1"
+    }
+  },
+  "static_anchor_scene_identity": {
+    "L1": {
+      "source": "7e529bd583970b6d03004631add7cf029472690b74f00e53d9d829815e926223",
+      "saved": "7e529bd583970b6d03004631add7cf029472690b74f00e53d9d829815e926223",
+      "matches": true
+    },
+    "L2": {
+      "source": "749805b067b57360e3dc33a615c4fd51c118735d6a16b69c9ea0fdcbcd8536e4",
+      "saved": "749805b067b57360e3dc33a615c4fd51c118735d6a16b69c9ea0fdcbcd8536e4",
+      "matches": true
+    },
+    "R1": {
+      "source": "60350798cceea2a85911310c85f4bacdedc658fd4580478243250dc22e3cdbf1",
+      "saved": "60350798cceea2a85911310c85f4bacdedc658fd4580478243250dc22e3cdbf1",
+      "matches": true
+    },
+    "R2": {
+      "source": "cb946dbbd2fda23502df570ce4c80c979927fd7debe754558bbc8c9ba9f11e5a",
+      "saved": "cb946dbbd2fda23502df570ce4c80c979927fd7debe754558bbc8c9ba9f11e5a",
+      "matches": true
+    }
+  },
+  "immutable_hand_structure": {
+    "L": {
+      "source_normalized_intrinsic_sha256": "161366949976a6977f692c2727acd1da2530ccb9fc5a7d42a0cda0d29d42baec",
+      "copy_before_action_sha256": "161366949976a6977f692c2727acd1da2530ccb9fc5a7d42a0cda0d29d42baec",
+      "copy_after_save_reopen_reset_sha256": "161366949976a6977f692c2727acd1da2530ccb9fc5a7d42a0cda0d29d42baec",
+      "matches": true
+    },
+    "R": {
+      "source_normalized_intrinsic_sha256": "e43cc9333d42cee1c8b52cc5bc95edc5d8f0e67b281fc7811410b2ba2dc54805",
+      "copy_before_action_sha256": "e43cc9333d42cee1c8b52cc5bc95edc5d8f0e67b281fc7811410b2ba2dc54805",
+      "copy_after_save_reopen_reset_sha256": "e43cc9333d42cee1c8b52cc5bc95edc5d8f0e67b281fc7811410b2ba2dc54805",
+      "matches": true
+    }
+  },
+  "key_geometry_identity": {
+    "L": {
+      "unchanged_key_mesh_count": 88,
+      "actual_key_angle_parity_max_rad": 3.5622192834372512e-09,
+      "actual_moving_key_world_vertex_parity_max_mm": 1.7059104322433495e-05
+    },
+    "R": {
+      "unchanged_key_mesh_count": 88,
+      "actual_key_angle_parity_max_rad": 3.5622192834372512e-09,
+      "actual_moving_key_world_vertex_parity_max_mm": 1.4243638347052263e-05
+    }
+  },
+  "readback": {
+    "L": {
+      "FK_saved_reopened_max_error_mm": 0.0004821838070031139,
+      "skin_pad_drift_max_mm": 0.03526429296991521,
+      "bone_count": 21,
+      "vertices": 3300,
+      "samples": 180,
+      "root_motion_mm": 0
+    },
+    "R": {
+      "FK_saved_reopened_max_error_mm": 0.0003236225591431891,
+      "skin_pad_drift_max_mm": 0.026767877677093422,
+      "bone_count": 21,
+      "vertices": 3300,
+      "samples": 98,
+      "root_motion_mm": 0
+    }
+  },
+  "action_count": 5,
+  "save_reopen_verified": true,
+  "verification_reset_not_saved": true
+}

@@ -1,0 +1,33 @@
+{
+  "Q1_Q12": {
+    "Q1": "LITTLE：小指末节侧面，8个有限命中顶点；不是中间三指或掌面。",
+    "Q2": "MIDDLE + RING：中指7个、无名指2个末节侧面顶点。超过3mm的最深命中仅来自中指。",
+    "Q3": "E2观测命中0.720833–0.979167及1.220833–1.479167s；F♯2为0.716667–0.987500及1.216667–1.487500s。均集中两次D2下沉、持键及回弹前段。",
+    "Q4": "E2最大竖向3.083mm，8顶点，每次约0.2625s；F♯2最大3.406mm，9顶点，每次约0.2750s。持续时间为240Hz采样区间估计，不是精确穿越时刻。",
+    "Q5": "NO — 正常产品视角未确认明显大面积穿入；证据等级GEOMETRY_ONLY_CONFLICT。",
+    "Q6": "YES — 保持同一当前关节Action，恢复静态root后，两键所有已采样顶点穿入消失。",
+    "Q7": "YES — D2最大skin gap恢复7.689mm；D3也失接触，最大6.653mm。",
+    "Q8": "YES — 受控root干预支持当前路径中的ROOT_CONTACT_CLEARANCE_TRADEOFF。",
+    "Q9": "YES — 当前root下中指/无名指未避开F♯2；但同样姿态在静态root下清空，未证明闲置指关节独立致因。",
+    "Q10": "NO — 未发现评价实现错误；旧>3mm筛查与本轮全部正穿入的统计范围不同。",
+    "Q11": "YES — 有依据继续研究现有root路径的接触与净空协调；尚未证明合格解，也无证据要求改正式mesh/rig。",
+    "Q12": "ROOT_PATH_CONFLICT"
+  },
+  "states": {
+    "E2_PENETRATION_SOURCE": "LITTLE_DISTAL_SIDE / 8_VERTICES",
+    "FSHARP2_PENETRATION_SOURCE": "MIDDLE_7 + RING_2 / DISTAL_SIDES",
+    "CONFLICT_TIME_RANGE": "E2:0.720833–0.979167,1.220833–1.479167; F#2:0.716667–0.987500,1.216667–1.487500 (OBSERVED_SECONDS)",
+    "ROOT_COUNTERFACTUAL_RESULT": "BOTH_KEY_PENETRATIONS_REMOVED",
+    "D2_CONTACT_TRADEOFF": "PASS_2.969_MM → FAIL_7.689_MM",
+    "IDLE_FINGER_CONTRIBUTION": "MIDDLE_RING_CLEARANCE_INSUFFICIENT_UNDER_CURRENT_ROOT / INDEPENDENT_CAUSE_UNPROVEN",
+    "HUMAN_VISIBLE_SEVERITY": "GEOMETRY_ONLY_CONFLICT / HUMAN_PENDING",
+    "PRIMARY_CAUSE_CLASSIFICATION": "ROOT_PATH_CONFLICT",
+    "NEXT_RECOMMENDED_ROUTE": "ROOT_PATH_CONFLICT / HUMAN_DECISION_REQUIRED",
+    "NEW_ACTION_CANDIDATES": "0",
+    "HAND_BASELINES_UNCHANGED": "YES",
+    "PIANO_BASELINE_UNCHANGED": "YES"
+  },
+  "STOP": "HUMAN REVIEW",
+  "repair_executed": false,
+  "new_action_candidates": 0
+}

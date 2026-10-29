@@ -1,0 +1,13 @@
+{
+  "status": "CANDIDATE_READY_FOR_HUMAN_APPROVAL",
+  "vertices": 962,
+  "edges": 1881,
+  "finite_terminal_cap": 400000,
+  "pairwise_capacity": 1296,
+  "B": 387237776,
+  "INF": 387237777,
+  "formula": "B=|V|*400000+|E|*1296; INF=B+1",
+  "proof": "Disjoint complete hard sources admit a pin-respecting cut costing at most one finite terminal per vertex plus one P per original undirected edge, <=B. Any violated pin costs >=INF>B.",
+  "integer_type": "Python arbitrary precision; exact in signed64 and JS safe integers for this candidate",
+  "historical_G3_K2_INF_not_copied": true
+}

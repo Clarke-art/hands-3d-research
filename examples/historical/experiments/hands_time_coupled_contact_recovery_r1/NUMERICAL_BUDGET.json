@@ -1,0 +1,87 @@
+{
+  "limit_seconds": 600,
+  "stages": [
+    {
+      "name": "timeline",
+      "script": "audit_timeline.py",
+      "wall_seconds": 1.875,
+      "cap_seconds": 30.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "derivative_probe",
+      "script": "probe_derivatives.py",
+      "wall_seconds": 13.23399999999674,
+      "cap_seconds": 90.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "main_joint_solve",
+      "script": "solve_joint.py",
+      "wall_seconds": 173.25,
+      "cap_seconds": 225.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "targeted_initialization",
+      "script": "prepare_correction.py",
+      "wall_seconds": 3.3440000000009604,
+      "cap_seconds": 25.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "correction_joint_solve",
+      "script": "solve_correction.py",
+      "wall_seconds": 15.343999999997322,
+      "cap_seconds": 125.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "actual_coupled_nodes",
+      "script": "validate_nodes.py",
+      "wall_seconds": 4.375,
+      "cap_seconds": 65.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "adaptive_adjacency",
+      "script": "check_adjacency.py",
+      "wall_seconds": 11.0,
+      "cap_seconds": 145.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "accepted_derivative_guard",
+      "script": "final_guard.py",
+      "wall_seconds": 17.625,
+      "cap_seconds": 65.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "branch_diagnosis",
+      "script": "diagnose_branch.py",
+      "wall_seconds": 7.21900000000096,
+      "cap_seconds": 30.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "adaptive_derivative_validation",
+      "script": "validate_adaptive_guard.py",
+      "wall_seconds": 11.453000000001339,
+      "cap_seconds": 40.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    }
+  ],
+  "total_seconds": 258.7189999999973,
+  "under_budget": true
+}

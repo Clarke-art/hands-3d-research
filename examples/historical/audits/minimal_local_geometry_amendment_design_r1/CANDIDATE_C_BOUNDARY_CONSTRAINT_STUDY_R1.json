@@ -1,0 +1,62 @@
+{
+  "DESIGN_ONLY_NOT_PRODUCTION": true,
+  "study_pool": [
+    79,
+    80,
+    735,
+    738,
+    955,
+    956,
+    962,
+    2089,
+    2096,
+    2238,
+    2327,
+    2328,
+    2531,
+    2532,
+    2609,
+    3025,
+    3031,
+    3086,
+    3300,
+    3306,
+    3307,
+    3308,
+    3315,
+    3316,
+    3323,
+    3324,
+    3325,
+    3331,
+    3332,
+    3338,
+    3339,
+    3340,
+    3341,
+    3347
+  ],
+  "attempts": [
+    {
+      "constraint_mode": "all_positive",
+      "result": "FAIL_FIXED_BOUNDARY_INFEASIBLE_FOR_THIS_CONSTRAINT",
+      "face_id": 3316,
+      "triangle": [
+        3346,
+        3322,
+        3330
+      ],
+      "explanation": "All3 triangle vertices are fixed outside the34-point pool and its signed tangent orientation opposes this constrained target. This proves only that specified fixed-boundary constraint cannot be met."
+    },
+    {
+      "constraint_mode": "C_boundary",
+      "result": "FAIL_FEASIBILITY_PROJECTION_NOT_CONVERGED",
+      "iteration_limit": 4000,
+      "remaining_signed_area_deficit_mm2": 2.477875603846642,
+      "explanation": "Relaxing the fixed face3316 to its original per-triangle sign still did not converge. Nonconvergence is not a proof that every position-only method is impossible."
+    }
+  ],
+  "new_candidate_created": false,
+  "topology_edit_performed": false,
+  "retopo_required_proved": false
+}

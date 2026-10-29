@@ -1,0 +1,155 @@
+{
+ "review_id": "STAGE3_ROUTE_C_GEOMETRY_REVIEW_R1",
+ "gate": "GATE_2",
+ "date": "2026-09-28",
+ "reviewed_object": "production_spec/stage2_bootstrap/RIGHT_HAND_BOOTSTRAP_C1.blend",
+ "review_method": "READ_ONLY (no save, no geometry modification, no retopo/repose/rig)",
+ "runtime": "D:\\Blender\\blender.exe 5.1.2",
+
+ "stage2_provenance_verification": {
+  "receipt_read": "production_spec/stage2_bootstrap/BOOTSTRAP_RECEIPT.json",
+  "report_read": "production_spec/stage2_bootstrap/STAGE2_ROUTE_C_BOOTSTRAP_REPORT_R1.md",
+  "independent_verification_read": "production_spec/stage2_bootstrap/BOOTSTRAP_VERIFICATION_INDEPENDENT.json",
+  "STAGE2_ROUTE_C_BOOTSTRAP": "PASS",
+  "SOURCE_MASTER_BYTE_UNCHANGED": "YES",
+  "BOOTSTRAP_GEOMETRY_PARITY": "EXACT",
+  "GEOMETRY_MODIFIED": "NO",
+  "working_copy_sha256_recomputed": "8fa9a5498dc5b06dc4d8fba116ebe3cedc03e4a4645921ae10df3edab805ef83",
+  "working_copy_sha256_in_receipt": "8fa9a5498dc5b06dc4d8fba116ebe3cedc03e4a4645921ae10df3edab805ef83",
+  "sha256_match": true,
+  "result": "PASS"
+ },
+
+ "inherited_stage1c": {
+  "C1_GEOMETRY": "PASS",
+  "C1_TOPOLOGY": "CONDITIONAL_PASS",
+  "C1_RSSF_REPOSE": "MODERATE",
+  "C1_FOREARM": "PASS",
+  "C1_ASSET_QUALIFICATION": "CONDITIONAL_PASS",
+  "errata_reference": "docs/STAGE1C_C1_ASSET_QUALIFICATION_R1_ERRATA.md",
+  "ERRATA_ID": "C1_Y_AXIS_ANATOMICAL_LABEL_REVERSAL",
+  "source_frame_used": {"RADIAL": "+X", "DORSAL": "-Y", "PALMAR": "+Y", "DISTAL": "-Z"},
+  "historical_inverted_labels_used_as_current_fact": false
+ },
+
+ "measured_geometry": {
+  "vertex_count": 831, "edge_count": 1649, "face_count": 820,
+  "quad_count": 819, "ngon_count": 1, "triangle_count": 1658, "loop_count": 3298,
+  "boundary_edges": 0, "nonmanifold_edges": 0, "loose_verts": 0, "loose_edges": 0,
+  "degenerate_faces": 0, "signed_volume_m3": 0.000536925208,
+  "mesh_islands": 1,
+  "uv_layers": ["UVMap"],
+  "multires_total_levels": 1,
+  "material_count": 0,
+  "shape_keys": null,
+  "armature": "NONE",
+  "tip_z_cm": {"middle": 14.9, "ring": 15.99, "index": 16.43, "little": 18.79, "thumb": 24.21},
+  "distal_reach_order_most_to_least": ["middle", "ring", "index", "little", "thumb"],
+  "tip_pairwise_z_diff_mm": {"index-ring": 4.4, "middle-index": 14.9, "little-ring": 28.0},
+  "adjacent_web_min_gaps_mm": {"little-ring": 23.71, "ring-middle": 15.31, "middle-index": 18.56, "index-thumb": 52.83},
+  "fingertip_taper_radius_mm": {"at_4mm_depth": [2.64, 2.4, 1.97], "at_8mm_depth": [3.98, 4.07, 3.87], "at_14mm_depth": [5.56, 5.91, 6.15]},
+  "thumb_opposition_angle_vs_index_deg": 74.25,
+  "thumb_opposition_angle_vs_middle_deg": 89.0,
+  "thumb_index_web_angle_digit_only_deg": 36.29,
+  "thumb_index_web_angle_in_palm_plane_deg": 35.18,
+  "thumb_root_distance_to_wrist_centroid_cm": 5.2,
+  "thumb_tip_offset_vs_fingertips_along_PALMAR_mm": 7.53,
+  "wrist_narrowest_z": 0.343,
+  "wrist_section_span_cm": [5.51, 3.79],
+  "wrist_hull_area_m2": 0.00105221,
+  "hand_length_wrist_to_middle_tip_cm": 19.4,
+  "forearm_length_wrist_to_cut_cm": 8.86,
+  "forearm_to_hand_ratio": 0.457,
+  "total_asset_length_cm": 28.26,
+  "four_metacarpal_span_at_mcp_cm": 9.77,
+  "palm_thickness_at_mcp_cm": 3.7,
+  "forearm_cut_cap": {"z": 0.4316, "ngon_vertex_count": 22, "area_m2": 0.00118881},
+  "chirality": {
+   "D_distal": [0.0281, 0.1128, -0.9932],
+   "R_radial": [0.9849, 0.1666, 0.0468],
+   "DxR": [0.1707, -0.9796, -0.1064],
+   "triple_DxR_dot_DORSAL_minus_Y": 0.9796,
+   "verdict": "RIGHT_HAND"
+  }
+ },
+
+ "review_answers": {
+  "Q1_five_digits_and_separation": "PASS",
+  "Q2_finger_proportions": "PASS",
+  "Q3_thumb_two_phalanx_semantics_and_no_ape_hand": "PASS_WITH_NOTE",
+  "Q4_first_web_clarity": "PASS",
+  "Q5_palmar_arches": "PASS",
+  "Q6_fingertip_contact_point": "PASS",
+  "Q7_no_nail_geometry_still_accurate": "PASS (unchanged, Stage 4 CON-4)",
+  "Q8_adult_neutral_semi_realistic_usable_base": "PASS",
+  "Q9_anatomically_right_hand": "PASS",
+  "Q10_wrist_plus_short_forearm_supports_three_states": "PASS"
+ },
+
+ "forearm_review": {
+  "FOREARM_VISUAL_LENGTH": "KEEP_AS_IS",
+  "TARGET_FOREARM_LENGTH": "CURRENT_SOURCE_LENGTH",
+  "measured_forearm_length_cm": 8.86,
+  "measured_hand_length_cm": 19.4,
+  "ratio": 0.457,
+  "shorter_cut_proposed": false,
+  "cut_executed_this_round": false,
+  "reason": "0.089 m forearm reads the forearm->wrist->palm line clearly and gives enough lever to compare WRIST_HIGH / WRIST_NEUTRAL / WRIST_LOW, with no obviously redundant length."
+ },
+
+ "face_budget": {
+  "FACE_BUDGET_FEASIBILITY": "PASS",
+  "base_tris": 1658,
+  "official_L1_tris_est": 6596,
+  "projected_L2_tris_est": 26384,
+  "target_tris_single_hand": [8000, 20000],
+  "hard_ceiling_tris": 30000,
+  "note": "L1 alone (6.6k) sits just under the 8k floor; L1 + local MCP/CMC patch loops lands inside 8-20k. L2 (26.4k) exceeds the target but stays under the 30k ceiling. HR-10 remains open (needs web target device + keyboard-in-scene decision)."
+ },
+
+ "conditional_binding": {
+  "CON_1_TO_7_STAGE4_BINDING": "CONFIRMED",
+  "CON_1": "BOUND_TO_STAGE4 = YES",
+  "CON_2": "BOUND_TO_STAGE4 = YES",
+  "CON_3": "BOUND_TO_STAGE4 = YES",
+  "CON_4": "BOUND_TO_STAGE4 = YES",
+  "CON_5": "BOUND_TO_STAGE4 = YES",
+  "CON_6": "BOUND_TO_STAGE4 = YES",
+  "CON_7": "BOUND_TO_STAGE4 = YES",
+  "CON_9_STAGE4_BINDING": "CONFIRMED",
+  "CON_9": "BOUND_TO_STAGE4 = YES",
+  "CON_8_STAGE7_BINDING": "CONFIRMED",
+  "CON_8": "BOUND_TO_STAGE7 = YES"
+ },
+
+ "con9_frame_status": {
+  "SOURCE_FRAME_STATUS": "UNNORMALIZED_BY_DESIGN",
+  "Rx180_executed_in_stage3": false,
+  "SOURCE_TO_CANONICAL_TRANSFORM": "diag(1,-1,-1) = Rx(180°)",
+  "det": 1,
+  "scale_after_normalization": 1,
+  "HAND_CHIRALITY": "RIGHT",
+  "NO_NEGATIVE_SCALE": true,
+  "NO_REFLECTION": true,
+  "NO_RUNTIME_MIRROR": true,
+  "execution_stage": "STAGE4_CON9"
+ },
+
+ "review_renders": [
+  "production_spec/stage3_geometry_review/renders/REVIEW_dorsal.png",
+  "production_spec/stage3_geometry_review/renders/REVIEW_palmar.png",
+  "production_spec/stage3_geometry_review/renders/REVIEW_radial_oblique.png"
+ ],
+ "review_renders_note": "Camera placement follows the corrected frame: dorsal = -Y side, palmar = +Y side. Renders are additional evidence only; geometry identity is proven by the bootstrap mesh/UV signatures.",
+
+ "measurement_evidence": "production_spec/stage3_geometry_review/GEOMETRY_REVIEW_MEASUREMENTS.json",
+
+ "FINAL": {
+  "STAGE3_GEOMETRY_REVIEW": "PASS",
+  "GATE2": "PASS",
+  "RIGHT_HAND_ENGINEERING_CANDIDATE": "APPROVED",
+  "C1_ASSET_QUALIFICATION": "UNCHANGED_CONDITIONAL_PASS",
+  "STAGE3": "COMPLETE",
+  "STAGE4": "READY_FOR_BLENDER_ENGINEERING"
+ }
+}

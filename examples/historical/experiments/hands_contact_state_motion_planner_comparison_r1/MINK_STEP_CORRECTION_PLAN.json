@@ -1,0 +1,9 @@
+{
+  "reason": "Hard equality at P2 requires3mm first root-X step but initial carrier trust limit0.5mm makes linear QP infeasible by construction.",
+  "change": "Increase auxiliary local step limits to5mm/10deg/0.2 latent; anatomical bounds and all geometry constraints unchanged.",
+  "previous_results_retained": true,
+  "no_SLSQP_rerun": true,
+  "max_additional_runs": 2,
+  "scope": "Correct interface inconsistency once; failures remain failures",
+  "no_alternative_core_solver": true
+}

@@ -1,0 +1,136 @@
+{
+  "authority": "DESIGN_PROVISIONAL — STOP — HUMAN REVIEW",
+  "as_of_Asia_Shanghai": "2026-10-13",
+  "sources": [
+    {
+      "name": "FürElise",
+      "class_": "REAL_HUMAN_VIDEO_OBSERVATION_AND_3D_RECONSTRUCTION",
+      "code": "Public visualizer/data scripts; full motion generator still not public on official page",
+      "data": "59.94Hz motion.pkl: bilateral21x3 joints, MANO/global transforms, synchronized MIDI",
+      "code_license": "Full generation code not available",
+      "data_license": "CC BY-NC4.0 VERIFIED",
+      "weights_license": "UNVERIFIED_NOT_FETCHED",
+      "commercial_ready": false,
+      "rig_adapter_executed": false,
+      "source": "https://huggingface.co/datasets/rcwang/for_elise",
+      "files": [
+        "furelise_card.txt",
+        "furelise_tree.txt"
+      ]
+    },
+    {
+      "name": "PianoMotion10M",
+      "class_": "MONOCULAR_VIDEO_ESTIMATED_MANO_AND_GENERATIVE_MODEL",
+      "code": "Fixed master 86539e5a16d10ba462005f1f2bd9d72459ac2000; infer.py/PianoPose.py/show.py inspected",
+      "data": "JSON left/right MANO pose arrays with fps, audio and MIDI; loader resamples30Hz; no inspected hard assigned-fingering input",
+      "code_license": "Apache2.0 VERIFIED LICENSE",
+      "data_license": "CC BY-NC4.0 VERIFIED author statement in ICLR paper",
+      "weights_license": "HF card has no licence metadata or licence sibling; UNVERIFIED",
+      "commercial_ready": false,
+      "rig_adapter_executed": false,
+      "source": "https://github.com/agnJason/PianoMotion10M",
+      "files": [
+        "pianomotion__LICENSE",
+        "pianomotion__infer.py",
+        "pianomotion__datasets_PianoPose.py",
+        "pianomotion__datasets_show.py",
+        "pianomotion_model_metadata.txt",
+        "pianomotion_paper.txt"
+      ]
+    },
+    {
+      "name": "Tipiano",
+      "class_": "PAPER_AND_OFFICIAL_DEMO_OF_MIDI_FINGERING_CONDITIONED_GENERATOR",
+      "code": "Official bundle has disabled Code+Dataset(TBD); no generation source/weights obtained",
+      "data": "Paper outputs bilateral21-joint positions, annotations built on FürElise; raw annotation rights unverified",
+      "code_license": "UNVERIFIED_UI_LIB_LICENSE_IS_NOT_MODEL_LICENSE",
+      "data_license": "Annotation rights unverified; underlying FürElise NC",
+      "weights_license": "UNVERIFIED_NOT_AVAILABLE",
+      "commercial_ready": false,
+      "rig_adapter_executed": false,
+      "source": "https://tipiano.io/",
+      "files": [
+        "tipiano_official_bundle.txt",
+        "tipiano_paper.txt"
+      ]
+    },
+    {
+      "name": "PianoVAM",
+      "class_": "REAL_AUDIO_MIDI_VIDEO_WITH_ESTIMATED_LANDMARKS_AND_FINGERING",
+      "code": "Fixed ae4560fb5971590dd790fcefb14b90611585ddd9 README/ASDF inspected",
+      "data": "Synchronized video/audio/MIDI, MediaPipe hand landmarks, fingering labels; not calibrated optical skeletal mocap",
+      "code_license": "README states CC BY-NC4.0",
+      "data_license": "Official README CC BY-NC4.0; HF metadata CC BY-NC-SA4.0; conflict preserved, both NC",
+      "weights_license": "No actual transferable motion-generator weights verified",
+      "commercial_ready": false,
+      "rig_adapter_executed": false,
+      "source": "https://github.com/yonghyunk1m/PianoVAM-Code",
+      "files": [
+        "pianovam__README.md",
+        "pianovam__FingeringDetection_ASDF.py",
+        "pianovam_dataset_metadata.json"
+      ]
+    },
+    {
+      "name": "PianoMime",
+      "class_": "VIDEO_DEMONSTRATION_TO_ROBOT_POLICY",
+      "code": "Fixed c4abefac8d2941f5a08ca656b12f5e047cab7155 tutorial, IK controller and zarr headers inspected",
+      "data": "Tutorial homography/fingertip/fingering extraction; high-level Zarr state212/action184 robot arrays, not our human26 controls",
+      "code_license": "README claims MIT; no repository-level LICENSE found in recursive tree; robot asset LICENSE separate",
+      "data_license": "Downloaded YouTube/source demonstration and bundled derived data terms not independently cleared",
+      "weights_license": "Linked checkpoints, no separately verified grant",
+      "commercial_ready": false,
+      "rig_adapter_executed": false,
+      "source": "https://github.com/sNiper-Qian/pianomime",
+      "files": [
+        "pianomime_tree.json",
+        "pianomime__README.md",
+        "pianomime__tutorial_data_preprocessing.ipynb",
+        "pianomime__robopianist_controller_ik_controller.py",
+        "pianomime__dataset_hl.zarr_data_state_.zarray",
+        "pianomime__dataset_hl.zarr_data_action_.zarray"
+      ]
+    },
+    {
+      "name": "RoboPianist",
+      "class_": "SIMULATED_ROBOT_CONTROL_BENCHMARK_NOT_HUMAN_MOTION_DATA",
+      "code": "Fixed 0d9736c64eba5faafdf214ed7d38d648ffbd5c7f lookahead/goal/MIDI fields inspected; Apache2.0",
+      "data": "MuJoCo ShadowHand action/state; PIG must be obtained separately under its own terms",
+      "code_license": "Apache2.0 VERIFIED; hand/MIDI assets separate",
+      "data_license": "No human motion prior; PIG redistributability restricted",
+      "weights_license": "No frozen human Rig policy compatibility demonstrated",
+      "commercial_ready": false,
+      "rig_adapter_executed": false,
+      "source": "https://github.com/google-research/robopianist",
+      "files": [
+        "robopianist__LICENSE",
+        "robopianist__robopianist_suite_tasks_piano_with_shadow_hands.py",
+        "robopianist__docs_dataset.md"
+      ]
+    },
+    {
+      "name": "SKY-Piano",
+      "class_": "DIRECT_OPTICAL_HUMAN_MOCAP_WITH_PSEUDO_FINGERING",
+      "code": "Official linked github/joonhyungbae/skypiano returned404 via web and GitHubAPI",
+      "data": "Paper/official site:120Hz hand/body motion, flagged/imputed streams, MIDI and pseudo fingerings",
+      "code_license": "UNVERIFIED_REPO_NOT_ACCESSIBLE",
+      "data_license": "Official site only states per-modality terms; concrete motion commercial grant not obtained",
+      "weights_license": "UNVERIFIED",
+      "commercial_ready": false,
+      "rig_adapter_executed": false,
+      "source": "https://joonhyungbae.github.io/skypiano/",
+      "files": [
+        "skypiano_official_bundle.txt",
+        "skypiano_paper.txt"
+      ]
+    }
+  ],
+  "commercially_cleared_and_local_frozen_Rig_adapted_prior_found": false,
+  "metadata_source_index": "sources/SOURCE_INDEX.json",
+  "large_datasets_or_weights_downloaded": false,
+  "external_source_executed": false,
+  "model_training": false,
+  "paid_API_calls": false,
+  "our_candidate_evidence_class": "PROGRAMMATIC_GEOMETRY_HYPOTHESIS_NOT_HUMAN_MEASURED_RULE",
+  "licence_rule": "Code/data/weights/third-party models and recording rights checked separately; no scope inherited by naming or repo badges"
+}

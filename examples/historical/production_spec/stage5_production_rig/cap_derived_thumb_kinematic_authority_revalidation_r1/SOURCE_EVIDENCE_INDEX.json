@@ -1,0 +1,322 @@
+[
+  {
+    "path": "production_spec\\stage4_blender\\scripts\\stage4b_rssf_r2.py",
+    "sha256": "b0b0650fc47853dec1237c168c33e8543a87c8359fff8490cfd7e9b97f7a612d",
+    "lines": [
+      161,
+      195
+    ],
+    "role": "Approved axial locator method; reexecuted on RSSF, no stale numeric result consumed",
+    "source_excerpt": "161: \n162: def finger_axis(nm):\n163:     tip = W[TIPV[nm]]\n164:     L = FUNC_LEN[nm]\n165:     ids = DIGIT_V.get(nm, [])\n166:     bd = [i for i in ids if 0.25 * L <= G[nm][i] <= 0.55 * L]\n167:     c = (sum((W[i] for i in bd), Vector()) / len(bd)) if bd else tip\n168:     ax = (tip - c).normalized()\n169:     ref = W[nearest(canon(THUMB_ROOT_SEED))] if nm == \"thumb\" else W[NOTCH[FC[nm][0]]]\n170:     return ax, tip + ax * ((ref - tip).dot(ax))\n171: \n172: \n173: # =============================================================== 2. joint centres (3D)\n174: # Authority: the axial joint locator established by the T-01 final reconciliation\n175: # (MCP = the web commissure projected on the finger axis).  Every joint centre is the\n176: # centroid of that digit's own cross-section at the joint's axial level, so it sits on the\n177: # digit centreline -- never a guess, never a stale vertex index.\n178: AXIAL_FRAC = {\"MCP\": 0.0, \"PIP\": 0.46, \"DIP\": 0.77, \"THUMB_MCP\": 0.44, \"THUMB_IP\": 0.75}\n179: \n180: \n181: def joint_point(nm, frac, half=0.0030):\n182:     axis, anchor = finger_axis(nm)\n183:     A = (W[TIPV[nm]] - anchor).dot(axis)\n184:     tgt = A * frac\n185:     ids = DIGIT_V.get(nm, [])\n186:     sel = [i for i in ids if abs((W[i] - anchor).dot(axis) - tgt) <= half]\n187:     if len(sel) < 6:\n188:         sel = [i for i in ids if abs((W[i] - anchor).dot(axis) - tgt) <= half * 3]\n189:     c = sum((W[i] for i in sel), Vector()) / max(1, len(sel))\n190:     return c, len(sel), A\n191: \n192: \n193: def tip_point(nm):\n194:     axis, anchor = finger_axis(nm)\n195:     ids = DIGIT_V.get(nm, [])"
+  },
+  {
+    "path": "production_spec\\stage4_blender\\scripts\\stage4b_rssf_r2.py",
+    "sha256": "b0b0650fc47853dec1237c168c33e8543a87c8359fff8490cfd7e9b97f7a612d",
+    "lines": [
+      221,
+      227
+    ],
+    "role": "Original independent thumb joint locator",
+    "source_excerpt": "221: for jn, frac in ((\"MCP\", AXIAL_FRAC[\"THUMB_MCP\"]), (\"IP\", AXIAL_FRAC[\"THUMB_IP\"])):\n222:     p, n, A = joint_point(\"thumb\", frac)\n223:     JT[\"THUMB_%s\" % jn] = p\n224:     log(\"  THUMB_%-7s axial %.1f%% of %.1f mm  n=%3d  world=%s\"\n225:         % (jn, frac * 100, A * 1000, n, [round(float(x), 5) for x in p]))\n226: p, i = tip_point(\"thumb\")\n227: JT[\"THUMB_TIP\"] = p"
+  },
+  {
+    "path": "production_spec\\stage4_blender\\scripts\\stage4c_r2_frame.py",
+    "sha256": "fe67e456f1888b0c2c1f7e0f0953771823bd5a5fd958e00e37418711edfc426a",
+    "lines": [
+      18,
+      42
+    ],
+    "role": "Historical extraction provenance only; JSON numeric authority NOT reused",
+    "source_excerpt": "18:     raise SystemExit(\"no armature in the frozen provenance blend\")\n19: aw = arm.matrix_world\n20: bones = {}\n21: for b in arm.data.bones:\n22:     bones[b.name] = {\"head\": [float(x) for x in (aw @ b.head_local)],\n23:                      \"tail\": [float(x) for x in (aw @ b.tail_local)],\n24:                      \"parent\": b.parent.name if b.parent else None}\n25: out = {\n26:     \"source_blend\": bpy.data.filepath,\n27:     \"source_sha256\": SHA,\n28:     \"source_object\": arm.name,\n29:     \"source_flags\": {k: str(arm[k]) for k in arm.keys() if k != \"_RNA_UI\"},\n30:     \"note\": \"READ-ONLY extraction of the posed joint frame from the frozen Stage-4B R2 \"\n31:             \"provenance.  The R2 master does not contain this armature and does not depend \"\n32:             \"on it at runtime; this JSON is the measurement frame only.\",\n33:     \"bones\": bones,\n34: }\n35: json.dump(out, open(OUT, \"w\", encoding=\"utf-8\"), ensure_ascii=False, indent=1)\n36: print(\"WROTE\", OUT)\n37: print(\"source sha256:\", SHA)\n38: print(\"bones:\", len(bones))\n39: for n in (\"WRIST_R\", \"THUMB_CMC_R\", \"THUMB_IP_R\", \"INDEX_DIP_R\", \"MIDDLE_DIP_R\",\n40:           \"RING_DIP_R\", \"LITTLE_DIP_R\"):\n41:     print(\"  %-14s head %s\" % (n, [round(x, 6) for x in bones[n][\"head\"]]))"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_build.py",
+    "sha256": "63f01f7bba714c246ce283942a1ff5684c13748ddc6f65655a262a5bde2d506c",
+    "lines": [
+      89,
+      91
+    ],
+    "role": "H(n) historical value path",
+    "source_excerpt": "89: def T(n):\n90:     return Vector(jf[n][\"tail\"])\n91: "
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_build.py",
+    "sha256": "63f01f7bba714c246ce283942a1ff5684c13748ddc6f65655a262a5bde2d506c",
+    "lines": [
+      110,
+      146
+    ],
+    "role": "IP head inherits H(n); parent hierarchy",
+    "source_excerpt": "110:         elif D == \"THUMB\" and s == \"MCP\":\n111:             head = SEL[\"THUMB_MCP_R.head\"]\n112:             auth = \"STAGE5A_R2_THUMB_TUBE_INTERIOR_MEDIAL\"\n113:         elif D == \"INDEX\" and s == \"MCP\":\n114:             head = SEL[\"INDEX_MCP_R.head\"]\n115:             auth = \"STAGE5A_R2_INDEX_SECTION_INTERIOR_CENTRE\"\n116:         else:\n117:             head = H(n)\n118:             auth = \"Stage4B_R2 candidate joint frame + Stage5A R1 validation (FROZEN)\"\n119:         if s == segs[-1]:\n120:             tail = tip_landmark\n121:         else:\n122:             nxt = \"%s_%s_R\" % (D, segs[i + 1])\n123:             tail = SEL[\"THUMB_MCP_R.head\"] if (D == \"THUMB\" and segs[i + 1] == \"MCP\") else H(nxt)\n124:         BONES[n] = dict(head=head, tail=tail, parent=prev, connect=(prev != \"WRIST_R\"),\n125:                         deform=True, dorsal=d, authority=auth)\n126:         prev = n\n127:     n = \"%s_TIP_R\" % D\n128:     BONES[n] = dict(head=tip_landmark, tail=tip_landmark + distal_dir * TIP_FRACTION * distal_len,\n129:                     parent=prev, connect=True, deform=False, dorsal=d,\n130:                     authority=\"Stage5A R2 fingertip landmark + TIP_FRACTION %.2f\" % TIP_FRACTION)\n131: \n132: ORDER = [\"WRIST_R\"]\n133: for D in (\"THUMB\", \"INDEX\", \"MIDDLE\", \"RING\", \"LITTLE\"):\n134:     ORDER += [\"%s_%s_R\" % (D, s) for s in CHAIN[D]] + [\"%s_TIP_R\" % D]\n135: assert len(ORDER) == 21 and set(ORDER) == set(BONES)\n136: \n137: arm_data = bpy.data.armatures.new(\"RIGHT_HAND_PRODUCTION_RIG_DATA\")\n138: rig = bpy.data.objects.new(\"RIGHT_HAND_PRODUCTION_RIG\", arm_data)\n139: bpy.context.scene.collection.objects.link(rig)\n140: rig.location = ASSET_ORIGIN                       # object frame = the ASSET object origin (frozen)\n141: rig.rotation_euler = (0.0, 0.0, 0.0)\n142: rig.scale = (1.0, 1.0, 1.0)\n143: arm_data.display_type = 'OCTAHEDRAL'\n144: arm_data.show_names = True\n145: rig.show_in_front = True\n146: "
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_build.py",
+    "sha256": "63f01f7bba714c246ce283942a1ff5684c13748ddc6f65655a262a5bde2d506c",
+    "lines": [
+      185,
+      190
+    ],
+    "role": "World to armature local coordinates",
+    "source_excerpt": "185:          \"rig_object\": {\"name\": rig.name, \"location\": [float(x) for x in rig.location],\n186:                         \"rotation_euler\": [float(x) for x in rig.rotation_euler],\n187:                         \"scale\": [float(x) for x in rig.scale]},\n188:          \"TIP_FRACTION\": TIP_FRACTION,\n189:          \"dorsal_refs\": {k: [round(float(x), 9) for x in DORSAL[k]] for k in DORSAL},\n190:          \"bones\": {n: {\"head\": [round(float(x), 9) for x in BONES[n][\"head\"]],"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+    "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+    "lines": [
+      245,
+      260
+    ],
+    "role": "R2A three endpoint writes and align_roll; no IP-head assignment",
+    "source_excerpt": "245: ip_head = Vector(rig.data.bones[\"THUMB_IP_R\"].head_local)\n246: new_head_local = REP - ASSET_ORIGIN\n247: distal_dir = (REP - P).normalized()\n248: distal_len = (REP - P).length\n249: new_tip_tail_local = REP + distal_dir * TIP_FRACTION * distal_len - ASSET_ORIGIN\n250: \n251: bpy.context.view_layer.objects.active = rig\n252: rig.select_set(True)\n253: bpy.ops.object.mode_set(mode='EDIT')\n254: eb = rig.data.edit_bones\n255: e_ip = eb[\"THUMB_IP_R\"]; e_tip = eb[\"THUMB_TIP_R\"]\n256: e_ip.tail = REP - ASSET_ORIGIN\n257: e_tip.head = new_head_local\n258: e_tip.tail = new_tip_tail_local\n259: for n, dv in ((\"THUMB_IP_R\", DORSAL[\"thumb\"]), (\"THUMB_TIP_R\", DORSAL[\"thumb\"])):\n260:     eb[n].align_roll(dv)"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+    "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+    "lines": [
+      163,
+      190
+    ],
+    "role": "Contaminated REP generation, source inspected only; selector not executed",
+    "source_excerpt": "163: # thumb distal-cap landmark (identical method to s5a_r2a_audit.py -> must reproduce)\n164: D = \"THUMB\"\n165: P = Vector(jf[\"THUMB_IP_R\"][\"head\"]); T = Vector(jf[\"THUMB_TIP_R\"][\"head\"])\n166: u0 = (T - P).normalized()\n167: cand_v = [i for i in DV[D] if (V[i] - P).dot(u0) > 0.0]\n168: star = max(cand_v, key=lambda i: (V[i] - P).length)\n169: g = dij(star)\n170: ownf = set(OF[D])\n171: ok = [fi for fi in ownf\n172:       if min((g.get(v, 1e18) for v in me.polygons[fi].vertices), default=1e18) <= 9.0e-3]\n173: near_face = min(ownf, key=lambda fi: (FACE_C[fi] - V[star]).length)\n174: if near_face not in ok:\n175:     ok.append(near_face)\n176: cs = set(ok); capc = set(); stk = [near_face]\n177: while stk:\n178:     f = stk.pop()\n179:     if f in capc or f not in cs:\n180:         continue\n181:     capc.add(f)\n182:     for q in FADJ[f]:\n183:         if q in cs and q not in capc:\n184:             stk.append(q)\n185: capc = sorted(capc)\n186: area = sum(me.polygons[fi].area for fi in capc)\n187: cap_c = sum((FACE_C[fi] * me.polygons[fi].area for fi in capc), Vector()) / max(1e-18, area)\n188: REP, _n, _f = closest(cap_c)\n189: REP = Vector(REP)\n190: log(\"recomputed cap faces=%d star=v%d rep=%s\" % (len(capc), star, [round(float(x), 9) for x in REP]))"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_candidates.py",
+    "sha256": "8142a2951a8fe65f62a8df57784e575a45da075d496eb1442603b59945e38069",
+    "lines": [
+      1,
+      1
+    ],
+    "role": "Source identity; dorsal expression located separately in evidence index",
+    "source_excerpt": "1: # ====================================================================================="
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_candidates.py",
+    "sha256": "8142a2951a8fe65f62a8df57784e575a45da075d496eb1442603b59945e38069",
+    "lines": [
+      224,
+      235
+    ],
+    "role": "Independent nail-normal dorsal construction",
+    "source_excerpt": "224: \n225: \n226: # ------------------------------------------------------------------ dorsal references\n227: DIGITS = [\"thumb\", \"index\", \"middle\", \"ring\", \"little\"]\n228: DORSAL = {}\n229: for d in DIGITS:\n230:     acc = Vector((0.0, 0.0, 0.0))\n231:     for fi in nail[\"per_digit_faces\"][d]:\n232:         acc += me.polygons[fi].normal\n233:     DORSAL[d] = acc.normalized()\n234: PALM_PTS = [S4_ASSET_ORIGIN] + [Vector(jf[\"%s_MCP_R\" % f][\"head\"]) for f in FINGERS]\n235: PA = sum(PALM_PTS, Vector()) / len(PALM_PTS)"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a\\scripts\\stage5a_build.py",
+    "sha256": "9666742b392b855deefe8c68686843da2bb34a73bd03f43fea2626fbed12f9e6",
+    "lines": [
+      146,
+      192
+    ],
+    "role": "Deform IP, non-deform TIP; connected endpoint and 0.30 extension",
+    "source_excerpt": "146:                         connect=False, deform=True, dorsal=\"wrist\", digit=\"wrist\",\n147:                         authority=\"STAGE4C_R2_APPROVED_WRIST_ORIGIN + deterministic PALM_REFERENCE\")\n148: \n149: for D in (\"THUMB\", \"INDEX\", \"MIDDLE\", \"RING\", \"LITTLE\"):\n150:     d = D.lower()\n151:     segs = CHAIN[D]\n152:     tip_landmark = H(\"%s_TIP_R\" % D)              # the fingerTIP landmark from the frozen frame\n153:     distal_bone = \"%s_%s_R\" % (D, segs[-1])\n154:     distal_dir = (T(distal_bone) - H(distal_bone)).normalized()\n155:     distal_len = (T(distal_bone) - H(distal_bone)).length\n156:     tip_len = TIP_FRACTION * distal_len\n157:     prev = \"WRIST_R\"\n158:     for i, s in enumerate(segs):\n159:         n = \"%s_%s_R\" % (D, s)\n160:         head = H(n)\n161:         tail = H(\"%s_TIP_R\" % D) if i == len(segs) - 1 else H(\"%s_%s_R\" % (D, segs[i + 1]))\n162:         BONES[n] = dict(head=head, tail=tail, parent=prev, connect=(prev != \"WRIST_R\"),\n163:                         deform=True, dorsal=d, digit=d,\n164:                         authority=\"Stage4B_R2 candidate joint frame + Stage5A current-mesh validation\")\n165:         prev = n\n166:     n = \"%s_TIP_R\" % D\n167:     BONES[n] = dict(head=tip_landmark, tail=tip_landmark + distal_dir * tip_len,\n168:                     parent=prev, connect=True, deform=False, dorsal=d, digit=d,\n169:                     authority=\"fingertip landmark (Stage4B_R2 frame) + TIP_FRACTION %.2f rule\" % TIP_FRACTION)\n170: \n171: log(\"bone table entries: %d\" % len(BONES))\n172: for n in BONES:\n173:     b = BONES[n]\n174:     log(\"  %-15s L=%7.3f mm  parent=%-15s connect=%s deform=%s\"\n175:         % (n, (b[\"tail\"] - b[\"head\"]).length * MM, b[\"parent\"], str(b[\"connect\"]), str(b[\"deform\"])))\n176: \n177: # -------------------------------------------------------------------------------------\n178: # 4. build the armature\n179: # -------------------------------------------------------------------------------------\n180: arm_data = bpy.data.armatures.new(\"RIGHT_HAND_PRODUCTION_RIG_DATA\")\n181: rig = bpy.data.objects.new(\"RIGHT_HAND_PRODUCTION_RIG\", arm_data)\n182: bpy.context.scene.collection.objects.link(rig)\n183: rig.location = WRIST_APPROVED\n184: rig.rotation_euler = (0.0, 0.0, 0.0)\n185: rig.scale = (1.0, 1.0, 1.0)\n186: arm_data.display_type = 'OCTAHEDRAL'\n187: arm_data.show_names = True\n188: rig.show_in_front = True\n189: \n190: bpy.context.view_layer.objects.active = rig\n191: rig.select_set(True)\n192: bpy.ops.object.mode_set(mode='EDIT')"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a\\scripts\\stage5a_build.py",
+    "sha256": "9666742b392b855deefe8c68686843da2bb34a73bd03f43fea2626fbed12f9e6",
+    "lines": [
+      227,
+      249
+    ],
+    "role": "Local +Z projected dorsal; parent connectivity",
+    "source_excerpt": "227:     ok, loc, nor, idx = ob.closest_point_on_mesh(inv @ _V(p))\n228:     return (MW @ loc, (MW.to_3x3() @ nor).normalized()) if ok else (None, None)\n229: \n230: \n231: # -------------------------------------------------------------------------------------\n232: # 5. build-time measurements + evidence\n233: # -------------------------------------------------------------------------------------\n234: bones_json = {}\n235: band_check = {}\n236: for n in ORDER:\n237:     b = arm_data.bones[n]\n238:     _mm = b.matrix_local.to_3x3()\n239:     ydir = _mm.col[1].normalized()\n240:     zax = _mm.col[2].normalized()\n241:     xax = _mm.col[0].normalized()\n242:     ychk = (Vector(b.tail_local) - Vector(b.head_local)).normalized()\n243:     assert (ydir - ychk).length < 1e-5, \"bone Y axis mismatch on %s\" % n\n244:     bones_json[n] = {\n245:         \"head\": [round(float(x), 9) for x in b.head_local],\n246:         \"tail\": [round(float(x), 9) for x in b.tail_local],\n247:         \"parent\": b.parent.name if b.parent else None,\n248:         \"use_connect\": bool(b.use_connect),\n249:         \"use_deform\": bool(b.use_deform),"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+    "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+    "lines": [
+      6,
+      16
+    ],
+    "role": "Three slot contract and retained IP head",
+    "source_excerpt": "6: #                             stage4c_r2/..._STAGE4C_R2.blend\n7: #                             sha256 fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7\n8: # OUTPUT (new):              stage5a_r2a/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_R2A.blend\n9: #\n10: # ALLOWED CHANGES ONLY:\n11: #   THUMB_TIP_R.head   = the canonical thumb DISTAL-CAP landmark (recomputed here)\n12: #   THUMB_TIP_R.tail   = TIP helper tail  = head + distal_dir * 0.30 * distal_len\n13: #   THUMB_IP_R.tail    = the same landmark (connected representation)\n14: # THUMB_IP_R.head MUST NOT MOVE.  The other 20 joint heads MUST have 0 drift.\n15: # =====================================================================================\n16: import bpy, sys, os, json, math, hashlib, heapq, datetime"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2a\\scripts\\s5a_r2a_build.py",
+    "sha256": "41ff5517a47d4bc5c660aa550a84c8664ec756890961f00b37c72f549f9b42db",
+    "lines": [
+      245,
+      260
+    ],
+    "role": "R2A endpoint convention",
+    "source_excerpt": "245: ip_head = Vector(rig.data.bones[\"THUMB_IP_R\"].head_local)\n246: new_head_local = REP - ASSET_ORIGIN\n247: distal_dir = (REP - P).normalized()\n248: distal_len = (REP - P).length\n249: new_tip_tail_local = REP + distal_dir * TIP_FRACTION * distal_len - ASSET_ORIGIN\n250: \n251: bpy.context.view_layer.objects.active = rig\n252: rig.select_set(True)\n253: bpy.ops.object.mode_set(mode='EDIT')\n254: eb = rig.data.edit_bones\n255: e_ip = eb[\"THUMB_IP_R\"]; e_tip = eb[\"THUMB_TIP_R\"]\n256: e_ip.tail = REP - ASSET_ORIGIN\n257: e_tip.head = new_head_local\n258: e_tip.tail = new_tip_tail_local\n259: for n, dv in ((\"THUMB_IP_R\", DORSAL[\"thumb\"]), (\"THUMB_TIP_R\", DORSAL[\"thumb\"])):\n260:     eb[n].align_roll(dv)"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_build.py",
+    "sha256": "63f01f7bba714c246ce283942a1ff5684c13748ddc6f65655a262a5bde2d506c",
+    "lines": [
+      107,
+      146
+    ],
+    "role": "Hierarchy assembled from fixed CHAIN and prev; no cap selector value",
+    "source_excerpt": "107:         if D == \"THUMB\" and s == \"CMC\":\n108:             head = SEL[\"THUMB_CMC_R.head\"]\n109:             auth = \"STAGE5A_R2_THENAR_INTERIOR_MEDIAL\"\n110:         elif D == \"THUMB\" and s == \"MCP\":\n111:             head = SEL[\"THUMB_MCP_R.head\"]\n112:             auth = \"STAGE5A_R2_THUMB_TUBE_INTERIOR_MEDIAL\"\n113:         elif D == \"INDEX\" and s == \"MCP\":\n114:             head = SEL[\"INDEX_MCP_R.head\"]\n115:             auth = \"STAGE5A_R2_INDEX_SECTION_INTERIOR_CENTRE\"\n116:         else:\n117:             head = H(n)\n118:             auth = \"Stage4B_R2 candidate joint frame + Stage5A R1 validation (FROZEN)\"\n119:         if s == segs[-1]:\n120:             tail = tip_landmark\n121:         else:\n122:             nxt = \"%s_%s_R\" % (D, segs[i + 1])\n123:             tail = SEL[\"THUMB_MCP_R.head\"] if (D == \"THUMB\" and segs[i + 1] == \"MCP\") else H(nxt)\n124:         BONES[n] = dict(head=head, tail=tail, parent=prev, connect=(prev != \"WRIST_R\"),\n125:                         deform=True, dorsal=d, authority=auth)\n126:         prev = n\n127:     n = \"%s_TIP_R\" % D\n128:     BONES[n] = dict(head=tip_landmark, tail=tip_landmark + distal_dir * TIP_FRACTION * distal_len,\n129:                     parent=prev, connect=True, deform=False, dorsal=d,\n130:                     authority=\"Stage5A R2 fingertip landmark + TIP_FRACTION %.2f\" % TIP_FRACTION)\n131: \n132: ORDER = [\"WRIST_R\"]\n133: for D in (\"THUMB\", \"INDEX\", \"MIDDLE\", \"RING\", \"LITTLE\"):\n134:     ORDER += [\"%s_%s_R\" % (D, s) for s in CHAIN[D]] + [\"%s_TIP_R\" % D]\n135: assert len(ORDER) == 21 and set(ORDER) == set(BONES)\n136: \n137: arm_data = bpy.data.armatures.new(\"RIGHT_HAND_PRODUCTION_RIG_DATA\")\n138: rig = bpy.data.objects.new(\"RIGHT_HAND_PRODUCTION_RIG\", arm_data)\n139: bpy.context.scene.collection.objects.link(rig)\n140: rig.location = ASSET_ORIGIN                       # object frame = the ASSET object origin (frozen)\n141: rig.rotation_euler = (0.0, 0.0, 0.0)\n142: rig.scale = (1.0, 1.0, 1.0)\n143: arm_data.display_type = 'OCTAHEDRAL'\n144: arm_data.show_names = True\n145: rig.show_in_front = True\n146: "
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_build.py",
+    "sha256": "63f01f7bba714c246ce283942a1ff5684c13748ddc6f65655a262a5bde2d506c",
+    "lines": [
+      27,
+      34
+    ],
+    "role": "ASSET_ORIGIN from approved origin audit",
+    "source_excerpt": "27: cand = json.load(open(CAND, encoding=\"utf-8\"))\n28: SEL = {k: Vector(v) for k, v in cand[\"selected_candidates\"].items()}\n29: ASSET_ORIGIN = Vector(oa[\"WRIST_ORIGIN\"])\n30: LOG = []\n31: \n32: \n33: def log(m):\n34:     print(\"[S5A-R2-BUILD]\", m)"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5a_r2\\scripts\\stage5a_r2_candidates.py",
+    "sha256": "8142a2951a8fe65f62a8df57784e575a45da075d496eb1442603b59945e38069",
+    "lines": [
+      621,
+      706
+    ],
+    "role": "Pre-REP local section candidates independent of subsequent tip candidate branch; no new CMC cage judgment",
+    "source_excerpt": "621: # =====================================================================================\n622: # 3. THUMB chain requalification\n623: # =====================================================================================\n624: R1_CMC = Vector(jf[\"THUMB_CMC_R\"][\"head\"])\n625: R1_MCP = Vector(jf[\"THUMB_MCP_R\"][\"head\"])\n626: R1_IP = Vector(jf[\"THUMB_IP_R\"][\"head\"])\n627: R1_TIP = Vector(jf[\"THUMB_TIP_R\"][\"head\"])\n628: th_axis_mc = (R1_MCP - R1_CMC).normalized()\n629: th_axis_ip = (R1_TIP - R1_IP).normalized()\n630: \n631: # --- CMC ---\n632: anchor = V[cage[\"cmc_vertex\"]]\n633: R_CAGE_LOC = max(cage[\"locality\"][\"euclidean_radius_mm\"])\n634: loc_a, nor_a, _ = closest(R1_CMC)\n635: cmc_chord = medial_on_chord(R1_CMC, nor_a)\n636: cmc_plane = axial_section_medial(R1_CMC, th_axis_mc, \"thumb\", ball_scale=1.15,\n637:                                  region_centre=anchor, region_R=R_CAGE_LOC * 1e-3)\n638: # region constraint: the result must stay inside the approved CMC cage locality sphere\n639: cand_cmc = cmc_plane[\"point\"]\n640: in_cage = (cand_cmc - anchor).length * MM <= R_CAGE_LOC\n641: cmc_par, cmc_tot = parity(cand_cmc)\n642: loc_c, nor_c, _ = closest(cand_cmc)\n643: THUMB_CMC_CAND = cand_cmc\n644: REP[\"THUMB_CMC_EVIDENCE\"] = {\n645:     \"method\": (\"PRODUCTION CMC JOINT CENTRE: the Stage-4A approved CMC SURFACE cage anchor \"\n646:                \"(vertex %d) is kept as the region authority, not as the joint centre.  Along the \"\n647:                \"anchor's own local surface normal the interior chord is measured and the \"\n648:                \"maximum-clearance point of that chord is taken (unified medial rule).  Cross-checked \"\n649:                \"with the first-metacarpal axial section medial centre.  The result is clamped to the \"\n650:                \"approved CMC cage locality sphere (R = %.2f mm euclidean) and never claims a CMC \"\n651:                \"deformation verdict.\" % (cage[\"cmc_vertex\"], R_CAGE_LOC)),\n652:     \"CMC_SURFACE_ANCHOR\": [round(float(x), 9) for x in anchor],\n653:     \"CMC_SURFACE_ANCHOR_vertex\": cage[\"cmc_vertex\"],\n654:     \"R1_position\": [round(float(x), 9) for x in R1_CMC],\n655:     \"R1_surface_clearance_mm\": round((R1_CMC - loc_a).length * MM, 4),\n656:     \"CMC_PRODUCTION_CENTER\": [round(float(x), 9) for x in THUMB_CMC_CAND],\n657:     \"SHIFT_DISTANCE_MM\": round((THUMB_CMC_CAND - R1_CMC).length * MM, 4),\n658:     \"SURFACE_CLEARANCE_BEFORE_mm\": round((R1_CMC - loc_a).length * MM, 4),\n659:     \"SURFACE_CLEARANCE_AFTER_mm\": round((THUMB_CMC_CAND - loc_c).length * MM, 4),\n660:     \"DISTANCE_TO_APPROVED_CAGE_ANCHOR_mm\": round((THUMB_CMC_CAND - anchor).length * MM, 4),\n661:     \"CMC_APPROVED_CAGE_LOCALITY_RADIUS_mm\": R_CAGE_LOC,\n662:     \"CMC_INSIDE_APPROVED_REGION\": bool((THUMB_CMC_CAND - anchor).length * MM <= R_CAGE_LOC),\n663:     \"CAGE_GEODESIC_DISC_R_mm\": cage[\"disk\"][\"R_mm\"],\n664:     \"CAGE_AXIAL_SPAN_mm\": cage[\"locality\"][\"axial_span_mm\"],\n665:     \"ray_parity\": \"%d/%d\" % (cmc_par, cmc_tot), \"inside_mesh\": bool(cmc_par > cmc_tot / 2),\n666:     \"search_ball_mm\": round(cmc_plane[\"R_ball_mm\"], 3),\n667:     \"in_plane_offset_mm\": cmc_plane[\"in_plane_offset_mm\"],\n668:     \"nearest_face_owner_at_result\": cmc_plane[\"nearest_face_owner\"],\n669:     \"normal_chord\": None if cmc_chord is None else\n670:         {\"point\": [round(float(x), 9) for x in cmc_chord[\"point\"]],\n671:          \"chord_length_mm\": round(cmc_chord[\"chord_length_mm\"], 4),\n672:          \"clearance_mm\": round(cmc_chord[\"clearance_mm\"], 4)},\n673:     \"first_metacarpal_section_medial\": None if cmc_plane[\"point\"] is None else\n674:         {\"point\": [round(float(x), 9) for x in cmc_plane[\"point\"]],\n675:          \"clearance_mm\": round(cmc_plane[\"clearance_mm\"], 4) if cmc_plane[\"clearance_mm\"] else None,\n676:          \"in_plane_offset_mm\": cmc_plane[\"in_plane_offset_mm\"],\n677:          \"search_ball_mm\": round(cmc_plane[\"R_ball_mm\"], 3),\n678:          \"nearest_face_owner_at_result\": cmc_plane[\"nearest_face_owner\"]},\n679:     \"agreement_normal_chord_vs_section_mm\": None if (cmc_plane[\"point\"] is None or cmc_chord is None)\n680:         else round((cmc_plane[\"point\"] - cmc_chord[\"point\"]).length * MM, 3),\n681:     \"thenar_palm_junction_distance_mm\": round(d_poly(THUMB_CMC_CAND, ACHAIN[\"THUMB\"]) * MM, 3),\n682: }\n683: \n684: # --- MCP ---\n685: loc_m, nor_m, _ = closest(R1_MCP)\n686: mcp_chord = medial_on_chord(R1_MCP, nor_m)\n687: mcp_plane = axial_section_medial(R1_MCP, th_axis_mc, \"thumb\", ball_scale=1.15)\n688: THUMB_MCP_CAND = mcp_plane[\"point\"] if mcp_plane[\"point\"] is not None else mcp_chord[\"point\"]\n689: mcp_par, mcp_tot = parity(THUMB_MCP_CAND)\n690: loc_m2, nor_m2, _ = closest(THUMB_MCP_CAND)\n691: prox = R1_CMC\n692: ax_tip = (R1_TIP - prox).normalized()\n693: REP[\"THUMB_MCP_EVIDENCE\"] = {\n694:     \"method\": (\"approved T-01 THUMB_MCP axial zone is KEPT (the plane through the R1 landmark \"\n695:                \"normal to the thumb's first-metacarpal axis); within that plane the centre is the \"\n696:                \"maximum-clearance point (largest inscribed sphere centre) of the thumb \"\n697:                \"cross-section.\"),\n698:     \"R1_position\": [round(float(x), 9) for x in R1_MCP],\n699:     \"R1_surface_distance_mm\": round((R1_MCP - loc_m).length * MM, 4),\n700:     \"R2_position\": [round(float(x), 9) for x in THUMB_MCP_CAND],\n701:     \"shift_vector\": [round(float(THUMB_MCP_CAND[i] - R1_MCP[i]), 9) for i in range(3)],\n702:     \"shift_mm\": round((THUMB_MCP_CAND - R1_MCP).length * MM, 4),\n703:     \"ray_parity\": \"%d/%d\" % (mcp_par, mcp_tot), \"inside_mesh\": bool(mcp_par > mcp_tot / 2),\n704:     \"surface_clearance_mm\": round((THUMB_MCP_CAND - loc_m2).length * MM, 4),\n705:     \"T01_axial_delta_mm\": round(((THUMB_MCP_CAND - prox).dot(ax_tip)) * MM\n706:                                 - t01[\"OTHER_T01_JOINTS\"][\"THUMB_MCP\"][\"joint_axial_center_mm\"], 4),"
+  },
+  {
+    "path": "production_spec\\stage6_deformation\\stage6b_r1b\\scripts\\s6br1b_common.py",
+    "sha256": "809c1a1458a4b361a0e6473a84e237d4258daa7add80cd175c7cef03e0079e33",
+    "lines": [
+      140,
+      181
+    ],
+    "role": "approved_chain_seeds then cap override",
+    "source_excerpt": "140: def approved_chain_seeds(ref):\n141:     \"\"\"APPROVED ANATOMICAL CHAIN CONTEXT: one seed per digit, placed at the distal end of the\n142:     APPROVED joint polyline of that digit (the same frozen joint-frame chain that every\n143:     Stage5B / Stage6A / Stage6B script uses to build its arc coordinate), plus the approved\n144:     wrist origin vertex.\n145: \n146:     The seeds are deliberately taken from the approved CHAIN, not from any contested\n147:     semantic region, so that the partition is not self-fulfilling.\n148:     \"\"\"\n149:     V0 = ref[\"V0\"]\n150:     AC = ref[\"AC\"]\n151:     seeds = {}\n152:     for D in DIGITS5:\n153:         seeds[D] = nearest_vertex(V0, AC[D][-1])\n154:     seeds[\"wrist\"] = nearest_vertex(V0, AC[\"wrist\"][0])\n155:     return seeds\n156: \n157: \n158: def r2_partition(ctx, ref, margin_threshold_mm=None, max_sweeps=40,\n159:                  thumb_seed_mode=\"approved_distal_cap\"):\n160:     \"\"\"MULTI_SOURCE_GEODESIC_DIGIT_PARTITION (mesh-topology aware).\n161: \n162:     Two deterministic stages:\n163:       1. exact multi-source Dijkstra over the real mesh edge graph;\n164:       2. MESH_TOPOLOGY_AWARE disambiguation -- a label flip is only accepted where the\n165:          geodesic evidence is decisive.  A vertex whose nearest-source margin (2nd-nearest\n166:          minus nearest source distance) is below the mesh edge scale tau = one median edge\n167:          length carries NO usable evidence (the two candidate chains are effectively\n168:          equidistant, which is exactly the Stage6B R1A \"random flip\" signature), so it\n169:          inherits the majority label of its already-decisive neighbours.  Iterated to a\n170:          fixed point; deterministic.\n171:     \"\"\"\n172:     V0 = ref[\"V0\"]\n173:     EDGES = ref[\"EDGES\"]\n174:     adjw = mesh_graph(V0, EDGES)\n175:     adj = dict((k, [t[0] for t in v]) for k, v in adjw.items())\n176:     seeds = approved_chain_seeds(ref)\n177:     if thumb_seed_mode == \"approved_distal_cap\":\n178:         seeds[\"THUMB\"] = nearest_vertex(V0, sum(\n179:             (V0[i] for i in ref[\"cap\"][\"thumb_cap_vertex_ids\"]), Vector()) /\n180:             len(ref[\"cap\"][\"thumb_cap_vertex_ids\"]))\n181:     gs = dict((k, dijkstra_multi(adjw, [v])) for k, v in seeds.items())"
+  },
+  {
+    "path": "production_spec\\stage6_deformation\\stage6b_r1b\\scripts\\s6br1b_common.py",
+    "sha256": "809c1a1458a4b361a0e6473a84e237d4258daa7add80cd175c7cef03e0079e33",
+    "lines": [
+      263,
+      322
+    ],
+    "role": "Domain construction consumes corrected partition",
+    "source_excerpt": "263: def build_corrected_ownership(ctx, ref, part, probe):\n264:     \"\"\"OPERATIVE CORRECTED_DIGIT_OWNERSHIP_R2.\n265: \n266:     own_r1a outside the authorised correction domain; the R2 geodesic partition inside it.\n267:     The correction domain is the union of\n268:       (a) every endpoint of the 67 flagged edges whose R2 label differs from own_r1a,\n269:       (b) every vertex whose label change is inside the {THUMB, INDEX} transition family,\n270:     closed over the same-corrected-digit 1-ring and (only where the trusted-neighbour count is\n271:     insufficient) the 2-ring.\n272:     \"\"\"\n273:     NV = ref[\"NV\"]\n274:     own = ctx[\"own_r1a\"]\n275:     V0 = ref[\"V0\"]\n276:     EDGES = ref[\"EDGES\"]\n277:     adjw = mesh_graph(V0, EDGES)\n278:     adj = dict((k, [t[0] for t in v]) for k, v in adjw.items())\n279:     flagged = set()\n280:     for _k, a, b in probe[\"CLASS_A\"] + probe[\"CLASS_B\"]:\n281:         flagged.add(a)\n282:         flagged.add(b)\n283:     core = set()\n284:     for i in range(NV):\n285:         if own[i] == part[i]:\n286:             continue\n287:         fam = {own[i], part[i]}\n288:         if i in flagged or fam <= {\"THUMB\", \"INDEX\"}:\n289:             core.add(i)\n290:     # closure: same-corrected-digit 1-ring, then 2-ring only where a core vertex has fewer than\n291:     # 2 trusted same-digit neighbours inside/around the domain.\n292:     domain = set(core)\n293:     ring1 = set()\n294:     for i in core:\n295:         for u in adj.get(i, ()):\n296:             if u not in domain and part[u] == part[i]:\n297:                 ring1.add(u)\n298:     domain |= ring1\n299:     ring2 = set()\n300:     for i in sorted(domain):\n301:         cnt = sum(1 for u in adj.get(i, ())\n302:                   if u not in domain and part[u] == part[i])\n303:         if cnt < 2:\n304:             for u in adj.get(i, ()):\n305:                 if u not in domain and part[u] == part[i]:\n306:                     ring2.add(u)\n307:     domain |= ring2\n308:     # ---- cross-boundary continuity closure: the endpoints of the corrected THUMB|INDEX\n309:     # ownership boundary must be reconciled on BOTH sides, otherwise relocating the boundary\n310:     # would only move the weight discontinuity (round spec sections 13 / 14).\n311:     bnd = []\n312:     for k, (a, b) in enumerate(EDGES):\n313:         if part[a] != part[b] and {part[a], part[b]} == {\"THUMB\", \"INDEX\"}:\n314:             bnd.append(k)\n315:     bnd_v = set()\n316:     for k in bnd:\n317:         for v in EDGES[k]:\n318:             bnd_v.add(v)\n319:     boundary_added = sorted(v for v in bnd_v if v not in domain)\n320:     domain |= bnd_v\n321:     corr = [part[i] if i in domain else own[i] for i in range(NV)]\n322:     return {\"own_r1a\": own, \"r2\": part, \"core\": sorted(core), \"domain\": sorted(domain),"
+  },
+  {
+    "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+    "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+    "lines": [
+      117,
+      163
+    ],
+    "role": "LIVE_CHAIN and arc_of",
+    "source_excerpt": "117: def head(n):\n118:     return _MWo @ Vector(_rig.data.bones[n].head_local)\n119: \n120: \n121: def tail(n):\n122:     return _MWo @ Vector(_rig.data.bones[n].tail_local)\n123: \n124: \n125: LIVE_CHAIN = {\n126:     \"THUMB\": [head(\"THUMB_CMC_R\"), head(\"THUMB_MCP_R\"), head(\"THUMB_IP_R\"), tail(\"THUMB_IP_R\")],\n127:     \"INDEX\": [head(\"INDEX_MCP_R\"), head(\"INDEX_PIP_R\"), head(\"INDEX_DIP_R\"), tail(\"INDEX_DIP_R\")],\n128:     \"MIDDLE\": [head(\"MIDDLE_MCP_R\"), head(\"MIDDLE_PIP_R\"), head(\"MIDDLE_DIP_R\"), tail(\"MIDDLE_DIP_R\")],\n129:     \"RING\": [head(\"RING_MCP_R\"), head(\"RING_PIP_R\"), head(\"RING_DIP_R\"), tail(\"RING_DIP_R\")],\n130:     \"LITTLE\": [head(\"LITTLE_MCP_R\"), head(\"LITTLE_PIP_R\"), head(\"LITTLE_DIP_R\"), tail(\"LITTLE_DIP_R\")],\n131: }\n132: LIVE_XIJ = {}\n133: for _d, _pts in LIVE_CHAIN.items():\n134:     _a = [0.0]\n135:     _acc = 0.0\n136:     for _i in range(3):\n137:         _acc += (_pts[_i + 1] - _pts[_i]).length\n138:         _a.append(_acc * MM)\n139:     LIVE_XIJ[_d] = _a\n140: log(\"LIVE thumb XIJ = %s ; index XIJ = %s\"\n141:     % ([rr(x, 3) for x in LIVE_XIJ[\"THUMB\"]], [rr(x, 3) for x in LIVE_XIJ[\"INDEX\"]]))\n142: \n143: \n144: def arc_of(pts, v):\n145:     bd, bs, acc = 1e18, 0.0, 0.0\n146:     for i in range(len(pts) - 1):\n147:         a, b = pts[i], pts[i + 1]\n148:         ab = b - a\n149:         t = max(0.0, min(1.0, (v - a).dot(ab) / max(ab.length_squared, 1e-18)))\n150:         d = (v - (a + ab * t)).length\n151:         if d < bd:\n152:             bd, bs = d, (acc + t * ab.length) * MM\n153:         acc += ab.length\n154:     return bs, bd * MM\n155: \n156: \n157: sL = {}\n158: dL = {}\n159: for _d in LIVE_CHAIN:\n160:     sL[_d] = [0.0] * NV\n161:     dL[_d] = [0.0] * NV\n162:     for i in range(NV):\n163:         sL[_d][i], dL[_d][i] = arc_of(LIVE_CHAIN[_d], V0[i])"
+  },
+  {
+    "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+    "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+    "lines": [
+      195,
+      220
+    ],
+    "role": "Tube and metacarpal anchor predicate",
+    "source_excerpt": "195: sT_MCP = LIVE_XIJ[\"THUMB\"][1]\n196: sT_IP = LIVE_XIJ[\"THUMB\"][2]\n197: sI_PIP = LIVE_XIJ[\"INDEX\"][1]\n198: sI_DIP = LIVE_XIJ[\"INDEX\"][2]\n199: \n200: THUMB_STRONG = set()\n201: THUMB_STRONG |= CAP\n202: THUMB_STRONG |= NAIL_THUMB\n203: #  proxy phalanx tube: laterally inside the thumb tube, along the phalanges -> unambiguous thumb\n204: for i in range(NV):\n205:     if dL[\"THUMB\"][i] <= R_TT_THUMB and sL[\"THUMB\"][i] >= sT_MCP:\n206:         THUMB_STRONG.add(i)\n207: #  metacarpal corridor: tighter radius, clearly inside the thumb first metacarpal\n208: for i in range(NV):\n209:     if dL[\"THUMB\"][i] <= 0.85 * R_TT_THUMB and 0.30 * sT_MCP <= sL[\"THUMB\"][i] < sT_MCP:\n210:         THUMB_STRONG.add(i)\n211: \n212: INDEX_STRONG = set()\n213: INDEX_STRONG |= NAIL_INDEX\n214: for i in range(NV):\n215:     if dL[\"INDEX\"][i] <= R_TT_INDEX and sL[\"INDEX\"][i] >= sI_PIP:\n216:         INDEX_STRONG.add(i)\n217: \n218: # verbatim-approved FIRST_WEB stays a frozen anchor on the THUMB side of the web\n219: THUMB_STRONG |= WEB\n220: THUMB_STRONG -= INDEX_STRONG"
+  },
+  {
+    "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+    "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+    "lines": [
+      249,
+      269
+    ],
+    "role": "dijkstra sources -> dT",
+    "source_excerpt": "249: def dijkstra(sources):\n250:     dist = [1e18] * len(S)\n251:     pq = []\n252:     for v in sources:\n253:         if v in Sidx:\n254:             dist[Sidx[v]] = 0.0\n255:             heapq.heappush(pq, (0.0, Sidx[v]))\n256:     while pq:\n257:         d, u = heapq.heappop(pq)\n258:         if d > dist[u] + 1e-15:\n259:             continue\n260:         for w, el in ADJ.get(u, ()):\n261:             nd = d + el\n262:             if nd < dist[w] - 1e-15:\n263:                 dist[w] = nd\n264:                 heapq.heappush(pq, (nd, w))\n265:     return dist\n266: \n267: \n268: dT = dijkstra(THUMB_STRONG)\n269: dI = dijkstra(INDEX_STRONG)"
+  },
+  {
+    "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+    "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+    "lines": [
+      350,
+      370
+    ],
+    "role": "Graph capacities / hard pins",
+    "source_excerpt": "350: D = Dinic(NS + 2)\n351: for i in range(NS):\n352:     cap_to_index = min(CAP_MAX, int(round(dI[i] * SCALE)))      # cost of calling i INDEX\n353:     cap_to_thumb = min(CAP_MAX, int(round(dT[i] * SCALE)))      # cost of calling i THUMB\n354:     lab = None\n355:     if IDX2V[i] in THUMB_STRONG:\n356:         cap_to_thumb = 0\n357:         cap_to_index = INF\n358:     elif IDX2V[i] in INDEX_STRONG:\n359:         cap_to_thumb = INF\n360:         cap_to_index = 0\n361:     D.add(SRC, i, cap_to_index)\n362:     D.add(i, SNK, cap_to_thumb)\n363: for u in ADJ:\n364:     for w, _el in ADJ[u]:\n365:         if u < w:\n366:             D.add(u, w, P_FLIP)\n367:             D.add(w, u, P_FLIP)\n368: \n369: flow, seen = D.maxflow(SRC, SNK)\n370: CUT_LABEL = [\"THUMB\" if seen[i] else \"INDEX\" for i in range(NS)]"
+  },
+  {
+    "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+    "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+    "lines": [
+      375,
+      414
+    ],
+    "role": "anchor-bearing component closure",
+    "source_excerpt": "375: # 5. ambiguous band + deterministic connectivity closure (round sections 14 / 25)\n376: # =====================================================================================\n377: AMB_MARGIN_MM = TAU\n378: AMBIG_BEFORE = [IDX2V[i] for i in range(NS) if abs(dT[i] - dI[i]) * MM < AMB_MARGIN_MM]\n379: log(\"AMBIGUOUS_VERTEX_COUNT_BEFORE = %d (|dT-dI| < %.4f mm)\" % (len(AMBIG_BEFORE), AMB_MARGIN_MM))\n380: \n381: label = dict(zip(IDX2V, CUT_LABEL))\n382: CLOSURE_ROUNDS = 0\n383: for _it in range(20):\n384:     CLOSURE_ROUNDS += 1\n385:     comps = {}\n386:     for target in (\"THUMB\", \"INDEX\"):\n387:         region = [v for v in IDX2V if label[v] == target]\n388:         reg = set(region)\n389:         seen_v = set()\n390:         changed = False\n391:         for v in region:\n392:             if v in seen_v:\n393:                 continue\n394:             comp = []\n395:             dq = deque([v])\n396:             seen_v.add(v)\n397:             while dq:\n398:                 x = dq.popleft()\n399:                 comp.append(x)\n400:                 for w, _el in ADJ.get(Sidx[x], ()):\n401:                     wv = IDX2V[w]\n402:                     if wv in reg and wv not in seen_v:\n403:                         seen_v.add(wv)\n404:                         dq.append(wv)\n405:             strong = THUMB_STRONG if target == \"THUMB\" else INDEX_STRONG\n406:             if not any(c in strong for c in comp):\n407:                 other = \"INDEX\" if target == \"THUMB\" else \"THUMB\"\n408:                 for c in comp:\n409:                     label[c] = other\n410:                 changed = True\n411:         comps[target] = len([1 for c in []])\n412:     if not changed:\n413:         break\n414: log(\"connectivity closure converged after %d round(s)\" % CLOSURE_ROUNDS)"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+    "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87",
+    "lines": [
+      206,
+      217
+    ],
+    "role": "Live saved bone heads/tails -> seg_dist",
+    "source_excerpt": "206: BH = {}\n207: BT = {}\n208: for b in rig.data.bones:\n209:     BH[b.name] = rig.matrix_world @ b.head_local\n210:     BT[b.name] = rig.matrix_world @ b.tail_local\n211: \n212: \n213: def seg_dist(p, a, b):\n214:     ab = b - a\n215:     t = max(0.0, min(1.0, (p - a).dot(ab) / max(ab.length_squared, 1e-18)))\n216:     return (p - (a + ab * t)).length\n217: "
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+    "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87",
+    "lines": [
+      273,
+      284
+    ],
+    "role": "per-bone median scale",
+    "source_excerpt": "273: # ---------------------------------------------------------------- lateral scale per bone\n274: # L0(bone) = median distance from that bone's segment to the vertices of its own semantic\n275: # digit.  Data derived, per bone (the palm is wide, a finger shaft is narrow).\n276: BONE_DIGIT_VERTS = {}\n277: for b in DEFORM:\n278:     D = DIGIT_OF_BONE[b]\n279:     BONE_DIGIT_VERTS[b] = [i for i in range(NV) if OWN_V[i] == D] or list(range(NV))\n280: L0B = {}\n281: for b in DEFORM:\n282:     ds = sorted(seg_dist(V0[i], BH[b], BT[b]) for i in BONE_DIGIT_VERTS[b][::3])\n283:     L0B[b] = max(0.002, ds[len(ds) // 2])\n284: log(\"lateral scales (mm): \" + \", \".join(\"%s=%.2f\" % (b, L0B[b] * MM) for b in DEFORM))"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+    "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87",
+    "lines": [
+      330,
+      357
+    ],
+    "role": "raw mu and thumb distal guard",
+    "source_excerpt": "330:             xi, _perp = arc_of(D, v)\n331:             xi *= MM\n332:             xh = XIJ[D][idx]; xt = XIJ[D][idx + 1]\n333:             Lj = xt - xh\n334:             mj = 0.5 * (xh + xt)\n335:             tk = \"%s_%s\" % (D, segname)\n336:             tau_h = (JOINT_TAU[tk][\"tau_root_mm\"]\n337:                      if (JOINT_TAU[tk].get(\"tau_root_mm\") and idx == 0)\n338:                      else JOINT_TAU[tk][\"tau_interior_mm\"])\n339:             nxt = CHAIN[D][idx + 1] if idx + 1 < len(CHAIN[D]) else None\n340:             tau_t = (JOINT_TAU[\"%s_%s\" % (D, nxt)][\"tau_interior_mm\"] if nxt\n341:                      else JOINT_TAU[tk][\"tau_interior_mm\"])\n342:             kappa = 0.5 * Lj + 0.5 * (tau_h + tau_t)\n343:             lam = math.exp(-((xi - mj) / kappa) ** 2)\n344:         d = seg_dist(v, BH[b], BT[b]) * MM\n345:         mu = math.exp(-(d / (L0B[b] * MM)) ** 2)\n346:         raw[b] = lam * mu\n347:     # ---- FOREARM GUARD: proximal of the WRIST_R head, WRIST_R is ABSOLUTE\n348:     if (v - wH).dot(wU) < 0.0:\n349:         raw = {\"WRIST_R\": 1.0}\n350:     # ---- THUMB DISTAL OWNERSHIP GUARD (arc-length along the thumb chain + ownership,\n351:     #      NOT the straight bone chord)\n352:     elif own == \"THUMB\" and \"THUMB_IP_R\" in raw:\n353:         xi, _p = arc_of(\"THUMB\", v)\n354:         if (i in NAIL_THUMB_V or xi * MM <= XIJ[\"THUMB\"][2]\n355:                 + JOINT_TAU[\"THUMB_IP\"][\"tau_interior_mm\"]):\n356:             others = sum(vv for k, vv in raw.items() if k != \"THUMB_IP_R\")\n357:             raw[\"THUMB_IP_R\"] = max(raw[\"THUMB_IP_R\"], 2.0 * others)"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_bind.py",
+    "sha256": "92c864955e9f6a45cdddb5e4ac528a25a924a609bd0e9fbd70296681e637cc87",
+    "lines": [
+      225,
+      261
+    ],
+    "role": "Historical jf -> POLY -> arc_of",
+    "source_excerpt": "225: # longitudinal coordinate: ARC LENGTH along the chain polyline (robust + monotone).\n226: # NOTE: deliberately NOT the straight bone chord -- see the thumb distal guard below.\n227: POLY = {}\n228: for D in CHAIN:\n229:     pts = [Vector(jf[\"%s_%s_R\" % (D, s)][\"head\"]) for s in CHAIN[D]]\n230:     pts.append(Vector(jf[\"%s_TIP_R\" % D][\"head\"]))\n231:     POLY[D] = pts\n232:     log(\"chain %s arc: %s\" % (D, [round((pts[i + 1] - pts[i]).length * MM, 3)\n233:                                   for i in range(len(pts) - 1)]))\n234: \n235: \n236: XIJ = {}\n237: for D in CHAIN:\n238:     pts = POLY[D]\n239:     acc = 0.0\n240:     a = [0.0]\n241:     for k in range(len(pts) - 1):\n242:         acc += (pts[k + 1] - pts[k]).length\n243:         a.append(acc * MM)\n244:     XIJ[D] = [round(x, 4) for x in a]\n245:     log(\"chain %s joint arc (mm): %s\" % (D, XIJ[D]))\n246: \n247: \n248: def arc_of(D, v):\n249:     pts = POLY[D]\n250:     best = (1e9, None, None)\n251:     acc = 0.0\n252:     for i in range(len(pts) - 1):\n253:         a, b = pts[i], pts[i + 1]\n254:         ab = b - a\n255:         t = max(0.0, min(1.0, (v - a).dot(ab) / max(ab.length_squared, 1e-18)))\n256:         d = ((v - (a + ab * t))).length\n257:         if d < best[0]:\n258:             best = (d, acc + t * ab.length, i)\n259:         acc += ab.length\n260:     return best[1], best[0]      # arc length (mm-scale in m), perpendicular distance\n261: "
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\scripts\\r1a_common.py",
+    "sha256": "67857339f01898c37dfa9f2d8a60c527d3205b5d9a3419e6692b2d23df574a80",
+    "lines": [
+      250,
+      289
+    ],
+    "role": "thumb_frame",
+    "source_excerpt": "250: def thumb_frame(ref):\n251:     \"\"\"Thumb LOCAL FRAME for R1A.\n252: \n253:     longitudinal coordinate = ARC LENGTH along the approved thumb joint polyline\n254:       (CMC head -> CMC/MCP joint -> MCP/IP joint -> TIP), i.e. the projection of the\n255:       real mesh surface onto the approved KINEMATIC axis of the digit.  s grows from\n256:       the CMC head (0) towards the tip.\n257: \n258:     A geodesic-from-distal-most-vertex coordinate is ALSO measured, purely as a\n259:     diagnostic: on this mesh it is NOT usable as a digit coordinate because the\n260:     thumb nail plate / dorsal sheet is topologically far (150-180 mm) from the\n261:     distal-most vertex although it is only 8-30 mm away in space (surface crease).\n262:     \"\"\"\n263:     jf = ref[\"jf\"]\n264:     NV = ref[\"NV\"]\n265:     V0 = ref[\"V0\"]\n266:     dstar = int(ref[\"cap\"][\"thumb\"][\"distal_most_vertex\"])\n267:     GEO = ref[\"dij\"](dstar)\n268:     pts = chp(jf, \"THUMB\")\n269:     XIJ = chain_arc_table(jf, \"THUMB\")\n270:     ARC = [arc_of(pts, V0[i])[0] for i in range(NV)]        # mm\n271:     sg = {i: GEO[i] * MM for i in range(NV)}                # mm (diagnostic only)\n272: \n273:     def nearest_vert(P):\n274:         return min(range(NV), key=lambda i: (V0[i] - P).length)\n275: \n276:     geo_levels = {}\n277:     for name, key in ((\"IP\", \"THUMB_IP_R\"), (\"MCP\", \"THUMB_MCP_R\"),\n278:                       (\"CMC\", \"THUMB_CMC_R\"), (\"WRIST\", \"WRIST_R\"),\n279:                       (\"TIP\", \"THUMB_TIP_R\")):\n280:         geo_levels[name] = sg[nearest_vert(Vector(jf[key][\"head\"]))]\n281: \n282:     return {\"dstar\": dstar, \"arc_thumb_mm\": ARC, \"XIJ_thumb_arc_mm\": XIJ,\n283:             \"s_MCP_joint_mm\": XIJ[1], \"s_IP_joint_mm\": XIJ[2], \"s_TIP_mm\": XIJ[3],\n284:             \"geodesic_from_tip_mm\": sg,\n285:             \"geodesic_joint_levels_mm\": geo_levels,\n286:             \"geodesic_joint_levels_note\": (\"diagnostic only; NOT monotone along the digit on \"\n287:                                           \"this mesh - see R1A root-cause audit\")}\n288: \n289: "
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1d\\scripts\\s5b_r1d_build.py",
+    "sha256": "daeb1a10ca2ce17e8ee19d276cb240817811129e14bf5b19e999d5fd5881879b",
+    "lines": [
+      105,
+      173
+    ],
+    "role": "Live chain construction and arc projection",
+    "source_excerpt": "105: \n106: \n107: def arc_of(pts, v):\n108:     best_d, best_s = 1e18, 0.0\n109:     acc = 0.0\n110:     for i in range(len(pts) - 1):\n111:         a, b = pts[i], pts[i + 1]\n112:         ab = b - a\n113:         t = max(0.0, min(1.0, (v - a).dot(ab) / max(ab.length_squared, 1e-18)))\n114:         d = (v - (a + ab * t)).length\n115:         if d < best_d:\n116:             best_d, best_s = d, (acc + t * ab.length) * MM\n117:         acc += ab.length\n118:     return best_s, best_d * MM\n119: \n120: \n121: sL = [0.0] * NV\n122: dL = [0.0] * NV\n123: for i in range(NV):\n124:     sL[i], dL[i] = arc_of(LIVE_PTS, V0[i])\n125: \n126: # =====================================================================================\n127: # 2. corrected ownership (DIGIT_OWNERSHIP_AUTHORITY_R2, unchanged authority)\n128: # =====================================================================================\n129: probe = K.load_probe_sets()\n130: PART = K.r2_partition(ctx, ref)\n131: C = K.build_corrected_ownership(ctx, ref, PART[\"partition\"], probe)\n132: CORR = C[\"corrected\"]\n133: DOMAIN = set(C[\"domain\"])\n134: log(\"R2 partition: corrected-different vertices = %d ; correction domain = %d\"\n135:     % (sum(1 for i in range(NV) if CORR[i] != ctx[\"own_r1a\"][i]), len(DOMAIN)))\n136: \n137: ALLOW_THUMB = set(K.allowed_groups(\"THUMB\"))\n138: GENERIC_BIND = set([\"INDEX_MCP_R\", \"INDEX_PIP_R\", \"INDEX_DIP_R\"])\n139: \n140: # =====================================================================================\n141: # 3. read the frozen R1B master\n142: # =====================================================================================\n143: bpy.ops.wm.open_mainfile(filepath=K.R1B_MASTER)\n144: ob = bpy.data.objects[K.MESH_OBJ]\n145: rig = bpy.data.objects[K.RIG_OBJ]\n146: MW = ob.matrix_world.copy()\n147: L0 = [v.co.copy() for v in ob.data.vertices]\n148: TOPO0 = [tuple(p.vertices) for p in ob.data.polygons]\n149: MAT0 = [p.material_index for p in ob.data.polygons]\n150: UV0 = ([tuple(round(u, 9) for u in d.uv) for d in ob.data.uv_layers.active.data]\n151:        if ob.data.uv_layers.active else [])\n152: WOLD = K.read_weights(ob, NV)\n153: BONES0 = dict((b.name, (tuple(b.head_local), tuple(b.tail_local))) for b in rig.data.bones)\n154: RIGLOC0 = tuple(rig.location)\n155: OBLOC0 = tuple(ob.location)\n156: \n157: ADJ = {}\n158: for a, b in EDGES:\n159:     ADJ.setdefault(a, set()).add(b)\n160:     ADJ.setdefault(b, set()).add(a)\n161: ADJ = dict((k, sorted(v)) for k, v in ADJ.items())\n162: \n163: \n164: # =====================================================================================\n165: # 4. hard 0/1 flip predicate (round section 15)\n166: # =====================================================================================\n167: def hard_flip(W, a, b):\n168:     \"\"\"HARD_0_1_FLIP_EDGE: some group is >=0.95 on one end and <=0.05 on the other, AND\n169:     another major group flips the opposite way.\"\"\"\n170:     wa = W[a] if isinstance(W, list) else W\n171:     wb = W[b] if isinstance(W, list) else W\n172:     hi_a = set(g for g, v in wa.items() if v >= 0.95)\n173:     lo_b = set(g for g in wa if wb.get(g, 0.0) <= 0.05)"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1e\\scripts\\s5b_r1e_common.py",
+    "sha256": "54313d7e54c12f8817134a2d11019dc4d84f7cf46ee7214a0f8d00c0a886a057",
+    "lines": [
+      228,
+      242
+    ],
+    "role": "arc_of",
+    "source_excerpt": "228: def arc_of(pts, v):\n229:     bd, bs, acc = 1e18, 0.0, 0.0\n230:     for i in range(len(pts) - 1):\n231:         a, b = pts[i], pts[i + 1]\n232:         ab = b - a\n233:         t = max(0.0, min(1.0, (v - a).dot(ab) / max(ab.length_squared, 1e-18)))\n234:         d = (v - (a + ab * t)).length\n235:         if d < bd:\n236:             bd, bs = d, (acc + t * ab.length) * MM\n237:         acc += ab.length\n238:     return bs, bd * MM\n239: \n240: \n241: # =====================================================================================\n242: # hard 0/1 flip predicate -- round section 20"
+  },
+  {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1\\scripts\\s5b_r1_audit.py",
+    "sha256": "c12a97d59379424747bd095bc9783b633f5eb3615305a402816edc5224187066",
+    "lines": [
+      282,
+      322
+    ],
+    "role": "arc_of_ref and semantic guard validation",
+    "source_excerpt": "282: def arc_of_ref(D, v):\n283:     pts = [Vector(jf[\"%s_%s_R\" % (D, s)][\"head\"]) for s in CHAIN[D]]\n284:     pts.append(Vector(jf[\"%s_TIP_R\" % D][\"head\"]))\n285:     acc = 0.0; best = (1e9, 0.0)\n286:     for k in range(len(pts) - 1):\n287:         a, b = pts[k], pts[k + 1]; ab = b - a\n288:         t = max(0.0, min(1.0, (v - a).dot(ab) / max(ab.length_squared, 1e-18)))\n289:         d = (v - (a + ab * t)).length\n290:         if d < best[0]:\n291:             best = (d, (acc + t * ab.length) * MM)\n292:         acc += ab.length\n293:     return best[1]\n294: \n295: \n296: ELEN_A = sorted((V1[a] - V1[b]).length * MM for a, b in\n297:                 [(e.vertices[0], e.vertices[1]) for e in me.edges])\n298: MED_EDGE_A = ELEN_A[len(ELEN_A) // 2]\n299: W_WEB_A = 2.0 * MED_EDGE_A * 1e-3\n300: web_verts = [i for i in range(NV)\n301:              if d_poly(V1[i], AC[\"THUMB\"]) <= W_WEB_A\n302:              and d_poly(V1[i], AC[\"INDEX\"]) <= W_WEB_A]\n303: WEB = {\"web_definition\": (\"vertices lying BETWEEN the thumb and index chains: distance to \"\n304:                           \"both chain polylines <= 2 x mesh median edge length\"),\n305:        \"web_threshold_mm\": round(MED_EDGE_A * 2, 4),\n306:        \"web_vertex_count\": len(web_verts),\n307:        \"participating_groups\": sorted({b for i in web_verts for b in W[i]}),\n308:        \"whitelist\": sorted(WEB_OK),\n309:        \"violations\": [], \"group_weight_totals\": {}}\n310: for i in web_verts:\n311:     for b, w in W[i].items():\n312:         if b not in WEB_OK and b not in (\"THUMB_IP_R\", \"INDEX_PIP_R\", \"INDEX_DIP_R\"):\n313:             WEB[\"violations\"].append({\"vertex\": i, \"bone\": b, \"weight\": round(w, 6)})\n314:     for b, w in W[i].items():\n315:         WEB[\"group_weight_totals\"][b] = round(WEB[\"group_weight_totals\"].get(b, 0.0) + w, 6)\n316: # THUMB_IP must not dominate the web BASE: measure only near the thumb MCP / index MCP level\n317: WEB[\"THUMB_IP_total_in_thumb_owned_web\"] = round(\n318:     sum(W[i].get(\"THUMB_IP_R\", 0.0) for i in web_verts if OWN_V[i] == \"THUMB\"), 6)\n319: log(\"first web groups: %s\" % WEB[\"participating_groups\"])\n320: \n321: # ---------------------------------------------------------------- nail ownership\n322: NAILEXP = {\"THUMB\": \"THUMB_IP_R\", \"INDEX\": \"INDEX_DIP_R\", \"MIDDLE\": \"MIDDLE_DIP_R\","
+  }
+]

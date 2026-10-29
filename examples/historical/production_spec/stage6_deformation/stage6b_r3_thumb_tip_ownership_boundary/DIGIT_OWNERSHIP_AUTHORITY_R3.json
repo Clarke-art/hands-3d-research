@@ -1,0 +1,50 @@
+{
+ "stage": "DIGIT_OWNERSHIP_AUTHORITY_R3",
+ "generated_at": "2026-10-01T16:15:36.949268+08:00",
+ "status": "QUALIFIED_PENDING_HUMAN_REVIEW",
+ "supersedes": "DIGIT_OWNERSHIP_AUTHORITY_R2 (kept, never overwritten, as historical authority)",
+ "authority": "TOPOLOGY_AWARE_BINARY_SEGMENTATION = deterministic exact min-cut over the REAL mesh adjacency graph with LIVE-anatomy strong anchors",
+ "differences_from_R2": [
+  "R2 = independent per-vertex nearest-geodesic-source argmin (no pairwise term)",
+  "R3 = global min-cut: a THUMB|INDEX label flip costs a fixed penalty per mesh edge, so a fragmented (interleaved) boundary is strictly more expensive than a coherent one",
+  "R3 adds strong anchors pinned from LIVE anatomy and a connectivity closure that removes any label island not reachable from its own anchor set"
+ ],
+ "forbidden_and_not_used": [
+  "NEAREST_CHAIN_EUCLIDEAN_DISTANCE",
+  "GEODESIC_NEAREST_SEED_ARGMIN_ALONE",
+  "any animation / stretch / collision result as an ownership input",
+  "STAGE4B_R2_JOINT_FRAME.json"
+ ],
+ "longitudinal_coordinate_authority": "APPROVED_JOINT_POLYLINE_ARC_LENGTH on the LIVE R2A rig (unchanged; not to be confused with digit ownership)",
+ "preserved": {
+  "CLASS_A_6_edges": "ANATOMIC_FIRST_WEB_TRANSITION (preserved)",
+  "historic_CLASS_B_61_edges": "still same-digit under R3"
+ },
+ "gates": {
+  "TOPOLOGY_DELTA": 0,
+  "GEOMETRY_DELTA": 0,
+  "VERTEX_POSITION_DELTA": 0,
+  "UV_DELTA": 0,
+  "MATERIAL_DELTA": 0,
+  "BONE_DELTA": 0,
+  "WEIGHT_DELTA": 0,
+  "NAIL_FACE_DELTA": 0,
+  "BLEND_FILES_WRITTEN": 0,
+  "historic_CLASS_B_misclassified_edges": 0,
+  "CLASS_A_preserved": true,
+  "distal_cap_touching_boundary": 0,
+  "nail_touching_boundary": 0,
+  "thumb_tip_index_islands": 0,
+  "index_distal_thumb_islands": 0,
+  "index_shaft_thumb_islands": 0,
+  "distal_boundary_fragments": 0,
+  "distal_thumb_surface_touching_boundary": 0,
+  "DISTAL_BOUNDARY_FRAGMENTS_diagnostic_loose_lateral_band": 4,
+  "index_strong_anchor_touching_boundary": 0,
+  "manual_per_vertex_override_count": 0,
+  "thumb_index_anchor_conflicts": 0,
+  "deterministic_reproducibility": true,
+  "frozen_inputs_unchanged": true
+ },
+ "verdict": "QUALIFIED_PENDING_HUMAN_REVIEW"
+}

@@ -1,0 +1,1220 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+当前正式 lineage
+==================================================
+
+最新 Human-approved Stage4C geometry authority：
+
+production_spec/stage4_blender/
+stage4c_donor_transfer_palmar_root_r1/
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_PALMAR_ROOT_R1.blend
+
+SHA256：
+
+0c1831042151a40f87f3779b97ece94cfc29a7831babfa1dda64c9ac0f4ae9c6
+
+当前新 Stage5A derivative：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_palmar_donor_restoration_r1/
+RIGHT_HAND_STAGE5A_CORRECTED_RIG_DONOR_TRANSFER_PALMAR_ROOT_R1.blend
+
+SHA256：
+
+b7a4fe408ba979ee41f72b1a62e25b7ce292da42da561dc47bbc65b9475d6b8e
+
+当前新 Stage5B R2 derivative：
+
+production_spec/stage5_production_rig/
+geometry_propagation_after_palmar_donor_restoration_r1/
+RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_PALMAR_ROOT_GEOMETRY_R1.blend
+
+SHA256：
+
+90d3ebd1c1973f94020b66281781db481d5a366271a9d6aac6b921861e2b45aa
+
+R2 weight-vector authority：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+corrected rig authority：
+
+5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe
+
+==================================================
+当前阶段状态
+==================================================
+
+STAGE5_GEOMETRY_PROPAGATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+=
+PASS_GEOMETRY_PROPAGATED_WITH_RIG_AND_WEIGHTS_FROZEN
+
+已确认：
+
+3416 / 3416 geometry
+精确匹配最新 Stage4C
+
+相对上一版 Stage5
+仅 palmar16：
+
+3348–3363
+
+发生变化。
+
+outside16 = 0 drift
+
+normal69 = 0 drift
+
+dorsal54 = 0 unintended drift
+
+21 bones = unchanged
+
+joints = unchanged
+
+roll = unchanged
+
+rest matrices = unchanged
+
+weights = unchanged
+
+groups/order = unchanged
+
+modifier binding = unchanged
+
+save/reopen = PASS
+
+ZERO_EVAL_SMOKE = PASS
+
+注意：
+
+ZERO_EVAL_SMOKE
+仅证明文件引用/有限数值/evaluation 可用，
+
+不是正式：
+
+joint
+rest
+zero
+bind
+
+qualification。
+
+==================================================
+重要诊断
+==================================================
+
+只读 diagnostic 已观察：
+
+MIDDLE_MCP_R head：
+
+old raw surface nearest distance
+=
+6.136777810752392 mm
+
+new raw surface nearest distance
+=
+6.501595489680767 mm
+
+delta
+=
++0.36481767892837524 mm
+
+MIDDLE_MCP_R tail：
+delta = 0
+
+RING_MCP_R head / tail：
+delta = 0
+
+WRIST_R head / tail：
+delta = 0
+
+这些只是：
+
+DIAGNOSTIC_ONLY
+
+不得直接视为：
+
+joint failure
+joint relocation requirement
+rig failure。
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+
+本轮目标：
+
+在最新 dorsal54 + palmar16 geometry 上，
+
+fresh revalidate：
+
+1.
+joint / surface qualification
+
+2.
+joint region qualification
+
+3.
+rest rig integrity
+
+4.
+zero pose integrity
+
+5.
+armature-modifier bind-zero integrity
+
+6.
+Human-approved dorsal + palmar surface
+在 bind-zero 下是否保持
+
+本轮：
+
+READ-ONLY REQUALIFICATION
+
+禁止自动修复。
+
+==================================================
+一、禁止修改
+==================================================
+
+禁止：
+
+geometry write
+
+joint relocation
+
+bone head/tail edit
+
+roll edit
+
+rest matrix edit
+
+weight edit
+
+group edit
+
+modifier edit
+
+rebind
+
+skin rebuild
+
+R3 rerun
+
+true-cap recomputation
+
+Stage6 pose
+
+Full42
+
+Stage6B
+
+production promotion。
+
+如果任何 qualification FAIL：
+
+FAIL CLOSED。
+
+只报告最小 blocker。
+
+==================================================
+二、恢复当前正式 joint qualification semantics
+==================================================
+
+不要重新研究 anatomy。
+
+读取并恢复此前已经正式使用并成功通过：
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_DONOR_TRANSFER_R1
+
+及其依赖的：
+
+Stage5A R2 / R2A joint semantics
+
+corrected thumb kinematic authority
+
+current CMC region authority
+
+MCP/PIP/DIP region authority
+
+TIP helper semantics
+
+wrist authority
+
+zero/bind semantics。
+
+不得使用最早 Stage5A R1
+已经被 supersede 的旧失败规则。
+
+输出：
+
+CURRENT_JOINT_QUALIFICATION_SEMANTICS_AFTER_PALMAR_R1.json
+
+==================================================
+三、formal joint/helper inventory
+==================================================
+
+恢复当前正式：
+
+21 joint/helper inventory。
+
+必须区分：
+
+deform joint heads
+
+non-deform TIP helpers
+
+wrist
+
+thumb CMC
+
+MCP / PIP / DIP
+
+corrected thumb IP/TIP chain。
+
+不要假设所有21项都使用同一个 inside rule。
+
+输出：
+
+FORMAL_JOINT_HELPER_INVENTORY_R1.json
+
+==================================================
+四、Stage5A 与 Stage5B 角色
+==================================================
+
+A.
+new Stage5A derivative
+
+用于：
+
+bone/rest/joint-region
+rig structural qualification
+
+B.
+new Stage5B R2 derivative
+
+用于：
+
+实际 weight/group/modifier
+zero/bind evaluated mesh
+cross-check joint/surface relation。
+
+两份 asset 的：
+
+raw mesh coordinates
+bone payload
+
+必须一致。
+
+如不一致：
+
+FAIL_CLOSED_STAGE5_LINEAGE_MISMATCH
+
+STOP。
+
+==================================================
+五、joint-to-surface full revalidation
+==================================================
+
+对正式21项全部 fresh 计算。
+
+每项至少记录：
+
+name
+
+type
+
+world head / helper position
+
+tail（如适用）
+
+current authority semantics
+
+inside / outside
+（仅对正式要求 inside 的 joint）
+
+nearest surface distance
+
+signed relation
+如果历史正式方法使用
+
+nearest native face / feature
+
+old pre-palmar value
+
+new post-palmar value
+
+delta
+
+region qualification
+
+final status。
+
+不得因为：
+
+joint coordinates unchanged
+
+就直接继承旧 PASS。
+
+geometry 已改变，
+必须重新测。
+
+==================================================
+六、deform joint inside semantics
+==================================================
+
+对所有正式要求位于 mesh 内部的 deform joint：
+
+使用当前 frozen
+ray-parity / inside semantics。
+
+要求：
+
+所有 required-inside joints
+继续 PASS。
+
+如果任一：
+
+OUTSIDE
+
+则：
+
+FAIL_CLOSED_JOINT_SURFACE_REVALIDATION
+
+STOP。
+
+不得移动 joint。
+
+==================================================
+七、MIDDLE_MCP_R 专项
+==================================================
+
+这是本轮重点。
+
+必须独立报告：
+
+MIDDLE_MCP_R head
+
+MIDDLE_MCP_R tail
+
+包括：
+
+old raw nearest surface
+
+new raw nearest surface
+
+delta
+
+nearest face before
+
+nearest face after
+
+inside result
+
+formal MCP region result
+
+surface-side relation
+
+local palmar16 proximity
+
+是否仍满足当前正式 T-01 / MCP region semantics。
+
+注意：
+
++0.36481767892837524 mm
+不是自动 fail threshold。
+
+必须按正式 authority 判断。
+
+输出：
+
+MIDDLE_MCP_R_SURFACE_RELATION_REVALIDATION_R1.json
+
+==================================================
+八、其它 joint delta ranking
+==================================================
+
+对完整 joint/helper set：
+
+按：
+
+abs(new nearest surface distance - old)
+
+排序。
+
+输出：
+
+JOINT_SURFACE_DELTA_RANKING_AFTER_PALMAR_R1.json
+
+至少突出：
+
+MIDDLE_MCP_R
+
+RING_MCP_R
+
+INDEX_MCP_R
+
+WRIST_R
+
+以及离 palmar16 最近的其它 joint/head/helper。
+
+目的：
+
+确认没有被忽略的 secondary geometric effect。
+
+==================================================
+九、THUMB chain 不得重开
+==================================================
+
+THUMB_IP_R
+
+THUMB_TIP_R
+
+corrected chain
+
+继续 frozen。
+
+验证：
+
+head
+tail
+roll
+rest frame
+
+全部 unchanged，
+
+并且新 geometry 下
+现有正式 joint/surface semantics
+仍然 PASS。
+
+不得重新：
+
+kinematic anatomy research
+
+joint fitting。
+
+==================================================
+十、THUMB_CMC
+==================================================
+
+继续使用 frozen：
+
+CMC region authority。
+
+不重开：
+
+CMC topology
+CMC cage
+CMC anatomy。
+
+只验证：
+
+current fixed THUMB_CMC
+相对最新 geometry
+仍满足已有 region / surface semantics。
+
+==================================================
+十一、TIP helpers
+==================================================
+
+TIP helpers：
+
+non-deform。
+
+不要要求：
+
+inside deform-joint semantics。
+
+重新验证：
+
+surface relation
+
+own-digit apex relation
+
+digit identity
+
+corrected THUMB_TIP authority。
+
+TIP helper failure count
+必须单独报告。
+
+==================================================
+十二、joint payload 零漂移
+==================================================
+
+new Stage5A / Stage5B
+相对于其 propagation source：
+
+joint head delta = 0
+
+joint tail delta = 0
+
+roll delta = 0
+
+rest matrix delta = 0
+
+bone hierarchy delta = 0
+
+object / armature transform delta = 0。
+
+如果非零：
+
+FAIL_CLOSED_REST_RIG_INTEGRITY
+
+STOP。
+
+==================================================
+十三、rest-pose integrity
+==================================================
+
+验证完整21-bone rest payload：
+
+names
+
+order
+
+parents
+
+heads
+
+tails
+
+roll
+
+rest matrices
+
+local matrices
+
+use_deform
+
+inherit flags
+
+object transforms
+
+armature transforms。
+
+要求：
+
+REST_RIG_PAYLOAD_MATCH = PASS
+
+==================================================
+十四、zero-pose formal revalidation
+==================================================
+
+在 clean reopened new Stage5B R2 derivative
+的临时 unsaved evaluation session：
+
+恢复项目正式 zero procedure。
+
+所有 pose channels
+归零。
+
+检查：
+
+pose residue
+
+pose matrices
+
+NaN
+
+Inf
+
+missing bone
+
+missing group
+
+missing modifier target
+
+evaluation failure。
+
+输出：
+
+ZERO_POSE_REVALIDATION = PASS / FAIL
+
+不要保存 zero setters。
+
+==================================================
+十五、正式 zero/bind tolerance
+==================================================
+
+恢复此前已经正式使用的
+zero / bind semantics。
+
+此前 donor-transfer revalidation
+已恢复过既有：
+
+0.0001 mm
+
+级 raw→bind zero gate。
+
+但：
+
+必须从旧正式 authority
+重新读取其来源并确认仍适用。
+
+不要只因为提示词写了0.0001
+就硬编码。
+
+如果 authority 确认适用：
+
+继续使用。
+
+如果无法恢复：
+
+报告 raw numeric values
+并 FAIL CLOSED / unresolved semantics，
+不要发明新 threshold。
+
+==================================================
+十六、full 3416 raw→bind comparison
+==================================================
+
+在 actual new Stage5B R2：
+
+armature modifier ON
+
+all pose bones ZERO
+
+fresh depsgraph evaluate。
+
+比较：
+
+raw stored geometry
+vs
+evaluated ZERO mesh
+
+完整：
+
+3416 / 3416 vertices。
+
+输出：
+
+RAW_TO_BIND_MAX_DELTA_MM
+
+RAW_TO_BIND_MEAN_DELTA_MM
+
+RAW_TO_BIND_RMS_DELTA_MM
+
+RAW_TO_BIND_P95_DELTA_MM
+
+RAW_TO_BIND_OUT_OF_TOLERANCE_COUNT
+
+MAX_DELTA_VERTEX_ID。
+
+不得只检查 palmar16。
+
+==================================================
+十七、palmar16 bind-zero contour
+==================================================
+
+对 Human-approved palmar region：
+
+生成：
+
+LATEST_STAGE4C RAW
+
+NEW_STAGE5B RAW
+
+NEW_STAGE5B EVALUATED ZERO
+
+三列 matched evidence。
+
+至少：
+
+Human confirmed camera
+
+close solid
+
+alternate solid
+
+grazing
+
+flat/source-native
+
+wire
+如有必要。
+
+必须确认：
+
+hard shelf 不重新出现
+
+natural crease 保留
+
+normal69 不变
+
+无新 ridge
+
+无新 notch
+
+无新 collapse
+
+无新 boundary discontinuity。
+
+输出：
+
+PALMAR_ROOT_BIND_ZERO_VISUAL_R1.json
+
+==================================================
+十八、dorsal54 bind-zero regression
+==================================================
+
+同时快速确认此前 Human-approved
+dorsal MCP contour：
+
+在最新 Stage5B ZERO 下
+仍保持。
+
+不需要重新做完整 dorsal Human review。
+
+只做：
+
+regression sentinel。
+
+输出：
+
+DORSAL54_BIND_ZERO_REGRESSION = PASS / FAIL
+
+==================================================
+十九、normal69
+==================================================
+
+必须重新确认：
+
+normal69 raw coords
+=
+latest Stage4C
+
+evaluated ZERO
+没有异常局部 displacement beyond formal zero semantics。
+
+不得把 bind float noise
+误判为 geometry write。
+
+==================================================
+二十、modifier / bind contract
+==================================================
+
+验证：
+
+armature modifier target
+
+modifier order
+
+vertex-group binding
+
+mesh transform
+
+armature transform
+
+rest object relation
+
+group names/order
+
+deform bone mapping
+
+与 pre-palmar Stage5B derivative
+完全一致。
+
+不得：
+
+reparent
+rebind
+recompute inverse bind
+修改 modifier。
+
+==================================================
+二十一、weight payload只读复核
+==================================================
+
+完整 3416 weight-vector hash：
+
+必须仍为：
+
+1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55
+
+本轮只证明：
+
+weights unchanged
++
+zero/bind compatibility。
+
+不要运行：
+
+static skin continuity qualification。
+
+那是 NEXT。
+
+==================================================
+二十二、不要运行 MID MCP pose
+==================================================
+
+本轮禁止：
+
+MID_MCP_15
+MID_MCP_30
+MID_MCP_45
+
+任何非零 pose。
+
+MID_MCP_45：
+
+MANDATORY_TARGETED_REVALIDATION = YES
+
+必须继续保留到后续 targeted phase。
+
+不得因为：
+
+joint/rest/zero/bind PASS
+
+就关闭该要求。
+
+==================================================
+二十三、current9继续 HOLD
+==================================================
+
+current9：
+
+HOLD_NOT_CLOSED
+
+保持。
+
+本轮：
+
+不修改答案
+
+不生成 Human closure
+
+不扩展 acceptance。
+
+palmar16 / current9 overlap：
+
+只做 ID consistency recheck：
+
+direct
+1-ring
+2-ring
+
+应仍为：
+
+0 / 0 / 0。
+
+==================================================
+二十四、whole-hand integrity future gate
+==================================================
+
+继续：
+
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_REQUIRED = YES
+
+但本轮不执行。
+
+==================================================
+二十五、Pass criteria
+==================================================
+
+必须满足：
+
+STAGE5A_INPUT_HASH_VERIFIED = PASS
+
+STAGE5B_INPUT_HASH_VERIFIED = PASS
+
+FORMAL_JOINT_HELPER_COUNT = current authority count
+
+ALL_REQUIRED_INSIDE_JOINTS = PASS
+
+JOINT_REGION_FAILURE_COUNT = 0
+
+TIP_HELPER_FAILURE_COUNT = 0
+
+MIDDLE_MCP_R_REGION_STATUS = PASS
+
+CORRECTED_THUMB_CHAIN_PRESERVED = PASS
+
+BONE_PAYLOAD_DELTA = 0
+
+JOINT_PAYLOAD_DELTA = 0
+
+ROLL_DELTA = 0
+
+REST_MATRIX_DELTA = 0
+
+REST_RIG_PAYLOAD_MATCH = PASS
+
+ZERO_POSE_REVALIDATION = PASS
+
+BIND_ZERO = PASS
+
+RAW_TO_BIND full3416
+within recovered formal semantics
+
+PALMAR_ROOT_DENT_REAPPEARED = NO
+
+PALMAR_ROOT_NEW_VISIBLE_DEFECT = NONE
+
+NATURAL_CREASE_BIND_ZERO = PRESERVED
+
+DORSAL54_BIND_ZERO_REGRESSION = PASS
+
+MODIFIER_BINDING = PASS
+
+R2_WEIGHT_HASH_MATCH = PASS
+
+CURRENT9_OVERLAP = 0/0/0
+
+MID_MCP_45_MANDATORY_REVALIDATION = YES
+
+PROTECTED_HISTORY_DRIFT = 0
+
+==================================================
+二十六、成功 verdict
+==================================================
+
+如果全部 PASS：
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+=
+PASS_JOINT_REST_ZERO_BIND_REQUALIFIED
+
+并明确：
+
+JOINT_RELOCATION_REQUIRED = NO
+
+RIG_REBUILD_REQUIRED = NO
+
+WEIGHT_CHANGE_REQUIRED = NO
+
+STATIC_SKIN_REQUALIFICATION = NOT_RUN
+
+MID_MCP_45_MANDATORY_REVALIDATION = YES
+
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_REQUIRED = YES
+
+==================================================
+二十七、失败条件
+==================================================
+
+如果：
+
+MIDDLE_MCP_R 不再满足 formal region
+
+required inside joint outside
+
+TIP helper failure
+
+rest payload drift
+
+zero failure
+
+bind zero failure
+
+palmar shelf reappears
+
+new bind visible defect
+
+modifier contract drift
+
+weight hash drift
+
+则：
+
+FAIL_CLOSED_JOINT_SURFACE_REST_ZERO_BIND_AFTER_PALMAR
+
+只报告最小 blocker。
+
+禁止自动：
+
+移动 joint
+
+修改 bone
+
+改 weights
+
+rebind
+
+扩大 geometry scope。
+
+STOP。
+
+==================================================
+二十八、输出
+==================================================
+
+至少生成：
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_PALMAR_DONOR_RESTORATION_R1_REPORT.md
+
+JOINT_SURFACE_REST_ZERO_BIND_REVALIDATION_AFTER_PALMAR_DONOR_RESTORATION_R1_STATUS.json
+
+CURRENT_JOINT_QUALIFICATION_SEMANTICS_AFTER_PALMAR_R1.json
+
+FORMAL_JOINT_HELPER_INVENTORY_R1.json
+
+JOINT_SURFACE_REQUALIFICATION_AFTER_PALMAR_R1.json
+
+MIDDLE_MCP_R_SURFACE_RELATION_REVALIDATION_R1.json
+
+JOINT_SURFACE_DELTA_RANKING_AFTER_PALMAR_R1.json
+
+REST_RIG_PAYLOAD_AFTER_PALMAR_R1.json
+
+ZERO_POSE_REVALIDATION_AFTER_PALMAR_R1.json
+
+BIND_ZERO_GEOMETRY_REVALIDATION_AFTER_PALMAR_R1.json
+
+PALMAR_ROOT_BIND_ZERO_VISUAL_R1.json
+
+DORSAL54_BIND_ZERO_REGRESSION_R1.json
+
+MODIFIER_BIND_CONTRACT_AFTER_PALMAR_R1.json
+
+WEIGHT_HASH_READONLY_AFTER_PALMAR_R1.json
+
+CURRENT9_HOLD_AND_OVERLAP_RECHECK_R1.json
+
+PRODUCTION_READONLY_NO_DRIFT_VERIFICATION.json
+
+review.html
+
+==================================================
+二十九、最终必须明确
+==================================================
+
+FORMAL_JOINT_HELPER_COUNT = ?
+
+FORMAL_JOINT_HELPER_PASS_COUNT = ?
+
+REQUIRED_INSIDE_JOINT_FAILURE_COUNT = ?
+
+TIP_HELPER_FAILURE_COUNT = ?
+
+JOINT_REGION_FAILURE_COUNT = ?
+
+MAX_JOINT_SURFACE_DISTANCE_DELTA_MM = ?
+
+MAX_JOINT_SURFACE_DISTANCE_DELTA_JOINT = ?
+
+MIDDLE_MCP_R_HEAD_OLD_SURFACE_MM =
+6.136777810752392
+
+MIDDLE_MCP_R_HEAD_NEW_SURFACE_MM =
+?
+
+MIDDLE_MCP_R_HEAD_DELTA_MM =
+?
+
+MIDDLE_MCP_R_INSIDE_STATUS = ?
+
+MIDDLE_MCP_R_REGION_STATUS = ?
+
+CORRECTED_THUMB_CHAIN_PRESERVED = ?
+
+BONE_PAYLOAD_DELTA = ?
+
+JOINT_PAYLOAD_DELTA = ?
+
+ROLL_DELTA = ?
+
+REST_MATRIX_DELTA = ?
+
+REST_RIG_PAYLOAD_MATCH = ?
+
+ZERO_POSE_REVALIDATION = ?
+
+RAW_TO_BIND_MAX_DELTA_MM = ?
+
+RAW_TO_BIND_RMS_DELTA_MM = ?
+
+RAW_TO_BIND_OUT_OF_TOLERANCE_COUNT = ?
+
+BIND_ZERO = ?
+
+PALMAR_ROOT_DENT_REAPPEARED_AT_BIND_ZERO = ?
+
+PALMAR_ROOT_NATURAL_CREASE_BIND_ZERO = ?
+
+PALMAR_ROOT_NEW_BIND_VISIBLE_DEFECT = ?
+
+DORSAL54_BIND_ZERO_REGRESSION = ?
+
+MODIFIER_BINDING = ?
+
+R2_WEIGHT_HASH = ?
+
+R2_WEIGHT_HASH_MATCH = ?
+
+CURRENT9_DIRECT_OVERLAP = ?
+
+CURRENT9_1RING_OVERLAP = ?
+
+CURRENT9_2RING_OVERLAP = ?
+
+CURRENT9_HUMAN_RESPONSE =
+HOLD_NOT_CLOSED
+
+JOINT_RELOCATION_REQUIRED = ?
+
+RIG_REBUILD_REQUIRED = ?
+
+WEIGHT_CHANGE_REQUIRED = ?
+
+STATIC_SKIN_REQUALIFICATION =
+NOT_RUN
+
+MID_MCP_45_MANDATORY_REVALIDATION =
+YES
+
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_REQUIRED =
+YES
+
+PROTECTED_HISTORY_DRIFT = ?
+
+VERDICT = ?
+
+==================================================
+三十、NEXT
+==================================================
+
+如果 PASS：
+
+NEXT =
+STATIC_SKIN_COMPATIBILITY_REVALIDATION_AFTER_PALMAR_DONOR_RESTORATION_R1
+
+只记录，不执行。
+
+后续：
+
+static skin compatibility
+
+→
+geometry-dependent authority impact audit
+
+→
+palmar targeted deformation
+MID_MCP_15 / 30 / 45
+（45 mandatory）
+
+→
+fresh Full Stage6A42
+
+→
+Human visual review
+
+→
+current9 closure resume
+
+→
+WHOLE_HAND_SURFACE_INTEGRITY_BASELINE_R1
+
+→
+之后才考虑 Stage6B。
+
+STOP。

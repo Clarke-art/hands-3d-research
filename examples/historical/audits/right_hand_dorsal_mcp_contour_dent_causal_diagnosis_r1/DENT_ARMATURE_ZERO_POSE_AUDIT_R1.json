@@ -1,0 +1,101 @@
+{
+  "status": "PASS_ZERO_EFFECT_EXCLUDED_BEYOND_KNOWN_FLOAT_NOISE",
+  "ROI_max_raw_off_to_evaluated_bind_mm": 3.0163926520760446e-05,
+  "core_max_raw_off_to_evaluated_bind_mm": 4.656612873077393e-06,
+  "global_max_mm": 5.967009246215726e-05,
+  "OFF_ON_exact_equal": false,
+  "all_differences_within_existing_zero_gate_mm_0_0001": true,
+  "object_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.4087046384811401
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.022395038977265358
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.33584749698638916
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "armature_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      1.4087046384811401
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.022395038977265358
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.33584749698638916
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "parent_inverse": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "modifier": [
+    {
+      "name": "PRODUCTION_ARMATURE",
+      "type": "ARMATURE",
+      "show_viewport": true,
+      "show_render": true,
+      "object": "RIGHT_HAND_PRODUCTION_RIG",
+      "preserve_volume": false,
+      "bone_envelopes": false,
+      "vertex_groups": true
+    }
+  ],
+  "rest_zero_verified": true,
+  "raw_Stage4C_to_R2_raw_max_mm": 0.0,
+  "conclusion": "Not exactly identical due float32 evaluation, but known ~0.00006mm noise cannot explain a millimetre-scale static contour feature. No bind/weight/object transform edits performed."
+}

@@ -1,0 +1,8451 @@
+{
+ "stage": "STAGE6A_CASE_MATRIX",
+ "generated_at": "2026-09-30T08:35:33.569341+08:00",
+ "formal_case_count": 42,
+ "angles_deg": [
+  15.0,
+  30.0,
+  45.0
+ ],
+ "joints": [
+  "INDEX_MCP",
+  "INDEX_PIP",
+  "INDEX_DIP",
+  "MIDDLE_MCP",
+  "MIDDLE_PIP",
+  "MIDDLE_DIP",
+  "RING_MCP",
+  "RING_PIP",
+  "RING_DIP",
+  "LITTLE_MCP",
+  "LITTLE_PIP",
+  "LITTLE_DIP",
+  "THUMB_MCP",
+  "THUMB_IP"
+ ],
+ "note": "15/30/45 deg are DIAGNOSTIC / stress-test angles for technical deformation qualification - they are NOT teaching pose parameters and NOT STANDARD_HAND canonical angles.  CANONICAL_HAND_POSE remains RSSF.",
+ "cases": [
+  {
+   "case_id": "IDX_MCP_15",
+   "digit": "INDEX",
+   "joint": "MCP",
+   "angle_deg": 15.0,
+   "bone": "INDEX_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "INDEX_MCP",
+   "target_patch_vertex_count": 79,
+   "target_vertex_displacement_max_mm": 2.056746965,
+   "target_vertex_displacement_mean_mm": 0.950326977,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.34581527553644664,
+    "max_face_area_ratio": 1.6628730512568137,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.4456381103381743,
+    "max_edge_ratio": 2.288179590247605,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 13,
+    "new_self_intersection_samples": [
+     [
+      376,
+      1240
+     ],
+     [
+      377,
+      1054
+     ],
+     [
+      377,
+      1243
+     ],
+     [
+      378,
+      1240
+     ],
+     [
+      378,
+      1243
+     ],
+     [
+      379,
+      1240
+     ],
+     [
+      404,
+      1940
+     ],
+     [
+      409,
+      1935
+     ],
+     [
+      410,
+      1934
+     ],
+     [
+      410,
+      1935
+     ],
+     [
+      410,
+      1940
+     ],
+     [
+      411,
+      1940
+     ]
+    ],
+    "_newp": [
+     [
+      376,
+      1240
+     ],
+     [
+      377,
+      1054
+     ],
+     [
+      377,
+      1243
+     ],
+     [
+      378,
+      1240
+     ],
+     [
+      378,
+      1243
+     ],
+     [
+      379,
+      1240
+     ],
+     [
+      404,
+      1940
+     ],
+     [
+      409,
+      1935
+     ],
+     [
+      410,
+      1934
+     ],
+     [
+      410,
+      1935
+     ],
+     [
+      410,
+      1940
+     ],
+     [
+      411,
+      1940
+     ],
+     [
+      1210,
+      2518
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 1.521991603,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.458547831,
+    -0.043814138,
+    0.498761296
+   ]
+  },
+  {
+   "case_id": "IDX_MCP_30",
+   "digit": "INDEX",
+   "joint": "MCP",
+   "angle_deg": 30.0,
+   "bone": "INDEX_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "INDEX_MCP",
+   "target_patch_vertex_count": 79,
+   "target_vertex_displacement_max_mm": 4.078249925,
+   "target_vertex_displacement_mean_mm": 1.884400353,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.4367640249630177,
+    "max_face_area_ratio": 2.5011705580982415,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.4759380460907461,
+    "max_edge_ratio": 3.8329860594557488,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 38,
+    "new_self_intersection_samples": [
+     [
+      376,
+      1237
+     ],
+     [
+      376,
+      1240
+     ],
+     [
+      378,
+      1241
+     ],
+     [
+      378,
+      1242
+     ],
+     [
+      379,
+      1236
+     ],
+     [
+      379,
+      1237
+     ],
+     [
+      379,
+      1238
+     ],
+     [
+      379,
+      1239
+     ],
+     [
+      379,
+      1240
+     ],
+     [
+      379,
+      1241
+     ],
+     [
+      381,
+      1232
+     ],
+     [
+      381,
+      1233
+     ]
+    ],
+    "_newp": [
+     [
+      376,
+      1237
+     ],
+     [
+      376,
+      1240
+     ],
+     [
+      378,
+      1241
+     ],
+     [
+      378,
+      1242
+     ],
+     [
+      379,
+      1236
+     ],
+     [
+      379,
+      1237
+     ],
+     [
+      379,
+      1238
+     ],
+     [
+      379,
+      1239
+     ],
+     [
+      379,
+      1240
+     ],
+     [
+      379,
+      1241
+     ],
+     [
+      381,
+      1232
+     ],
+     [
+      381,
+      1233
+     ],
+     [
+      381,
+      1234
+     ],
+     [
+      381,
+      1235
+     ],
+     [
+      381,
+      1237
+     ],
+     [
+      382,
+      1234
+     ],
+     [
+      382,
+      1235
+     ],
+     [
+      382,
+      1237
+     ],
+     [
+      382,
+      1238
+     ],
+     [
+      404,
+      1940
+     ],
+     [
+      405,
+      1228
+     ],
+     [
+      405,
+      1231
+     ],
+     [
+      405,
+      1232
+     ],
+     [
+      405,
+      1233
+     ],
+     [
+      409,
+      1935
+     ],
+     [
+      410,
+      1935
+     ],
+     [
+      411,
+      1932
+     ],
+     [
+      411,
+      1933
+     ],
+     [
+      411,
+      1935
+     ],
+     [
+      411,
+      1940
+     ],
+     [
+      1053,
+      2896
+     ],
+     [
+      1053,
+      2899
+     ],
+     [
+      1054,
+      2899
+     ],
+     [
+      1055,
+      2899
+     ],
+     [
+      1210,
+      2518
+     ],
+     [
+      1232,
+      2742
+     ],
+     [
+      1242,
+      2899
+     ],
+     [
+      1941,
+      2742
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.017967043,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.45453012,
+    -0.046552993,
+    0.482610226
+   ]
+  },
+  {
+   "case_id": "IDX_MCP_45",
+   "digit": "INDEX",
+   "joint": "MCP",
+   "angle_deg": 45.0,
+   "bone": "INDEX_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "INDEX_MCP",
+   "target_patch_vertex_count": 79,
+   "target_vertex_displacement_max_mm": 6.029980245,
+   "target_vertex_displacement_mean_mm": 2.786226255,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.3873541183411871,
+    "max_face_area_ratio": 3.3511983717365816,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.489833411383439,
+    "max_edge_ratio": 5.359434660024577,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 46,
+    "new_self_intersection_samples": [
+     [
+      78,
+      2896
+     ],
+     [
+      79,
+      2896
+     ],
+     [
+      79,
+      2899
+     ],
+     [
+      376,
+      1236
+     ],
+     [
+      376,
+      1237
+     ],
+     [
+      376,
+      1240
+     ],
+     [
+      381,
+      1231
+     ],
+     [
+      381,
+      1233
+     ],
+     [
+      381,
+      1235
+     ],
+     [
+      381,
+      1237
+     ],
+     [
+      382,
+      1206
+     ],
+     [
+      382,
+      1233
+     ]
+    ],
+    "_newp": [
+     [
+      78,
+      2896
+     ],
+     [
+      79,
+      2896
+     ],
+     [
+      79,
+      2899
+     ],
+     [
+      376,
+      1236
+     ],
+     [
+      376,
+      1237
+     ],
+     [
+      376,
+      1240
+     ],
+     [
+      381,
+      1231
+     ],
+     [
+      381,
+      1233
+     ],
+     [
+      381,
+      1235
+     ],
+     [
+      381,
+      1237
+     ],
+     [
+      382,
+      1206
+     ],
+     [
+      382,
+      1233
+     ],
+     [
+      382,
+      1234
+     ],
+     [
+      405,
+      1228
+     ],
+     [
+      405,
+      1231
+     ],
+     [
+      405,
+      1232
+     ],
+     [
+      405,
+      1235
+     ],
+     [
+      408,
+      1935
+     ],
+     [
+      409,
+      1935
+     ],
+     [
+      411,
+      1932
+     ],
+     [
+      411,
+      1935
+     ],
+     [
+      446,
+      2897
+     ],
+     [
+      446,
+      2898
+     ],
+     [
+      1052,
+      2899
+     ],
+     [
+      1053,
+      2899
+     ],
+     [
+      1056,
+      2899
+     ],
+     [
+      1057,
+      2868
+     ],
+     [
+      1057,
+      2899
+     ],
+     [
+      1198,
+      2868
+     ],
+     [
+      1199,
+      2868
+     ],
+     [
+      1199,
+      2885
+     ],
+     [
+      1199,
+      2886
+     ],
+     [
+      1201,
+      2884
+     ],
+     [
+      1201,
+      2885
+     ],
+     [
+      1201,
+      2886
+     ],
+     [
+      1202,
+      2873
+     ],
+     [
+      1202,
+      2884
+     ],
+     [
+      1206,
+      2873
+     ],
+     [
+      1210,
+      2518
+     ],
+     [
+      1231,
+      2741
+     ],
+     [
+      1232,
+      2742
+     ],
+     [
+      1932,
+      2739
+     ],
+     [
+      1933,
+      2739
+     ],
+     [
+      1940,
+      2739
+     ],
+     [
+      1940,
+      2742
+     ],
+     [
+      1941,
+      2742
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 4.462275948,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.449203253,
+    -0.045093171,
+    0.466673076
+   ]
+  },
+  {
+   "case_id": "IDX_PIP_15",
+   "digit": "INDEX",
+   "joint": "PIP",
+   "angle_deg": 15.0,
+   "bone": "INDEX_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "INDEX_PIP",
+   "target_patch_vertex_count": 36,
+   "target_vertex_displacement_max_mm": 1.044565718,
+   "target_vertex_displacement_mean_mm": 0.598273544,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.8419558582138913,
+    "max_face_area_ratio": 1.1141408226121559,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8393946632958031,
+    "max_edge_ratio": 1.1157375254413806,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 0.001457356,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.458539963,
+    -0.038995147,
+    0.505264997
+   ]
+  },
+  {
+   "case_id": "IDX_PIP_30",
+   "digit": "INDEX",
+   "joint": "PIP",
+   "angle_deg": 30.0,
+   "bone": "INDEX_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "INDEX_PIP",
+   "target_patch_vertex_count": 36,
+   "target_vertex_displacement_max_mm": 2.071282411,
+   "target_vertex_displacement_mean_mm": 1.186315268,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.6724506878268889,
+    "max_face_area_ratio": 1.221683221606888,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.6652049232502243,
+    "max_edge_ratio": 1.2254971350940849,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 0.002894512,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.45585084,
+    -0.038515717,
+    0.496377558
+   ]
+  },
+  {
+   "case_id": "IDX_PIP_45",
+   "digit": "INDEX",
+   "joint": "PIP",
+   "angle_deg": 45.0,
+   "bone": "INDEX_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "INDEX_PIP",
+   "target_patch_vertex_count": 36,
+   "target_vertex_displacement_max_mm": 3.062520495,
+   "target_vertex_displacement_mean_mm": 1.754046374,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.4886255706862526,
+    "max_face_area_ratio": 1.317530230647512,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.4812474721935611,
+    "max_edge_ratio": 1.3241760597139605,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 0.004232758,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.453098655,
+    -0.035657622,
+    0.487968951
+   ]
+  },
+  {
+   "case_id": "IDX_DIP_15",
+   "digit": "INDEX",
+   "joint": "DIP",
+   "angle_deg": 15.0,
+   "bone": "INDEX_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "INDEX_DIP",
+   "target_patch_vertex_count": 49,
+   "target_vertex_displacement_max_mm": 1.736058042,
+   "target_vertex_displacement_mean_mm": 0.790137556,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.8039065342165046,
+    "max_face_area_ratio": 1.0843543017602864,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8006861435276488,
+    "max_edge_ratio": 1.0841090513284672,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.459867835,
+    -0.037454814,
+    0.510190725
+   ]
+  },
+  {
+   "case_id": "IDX_DIP_30",
+   "digit": "INDEX",
+   "joint": "DIP",
+   "angle_deg": 30.0,
+   "bone": "INDEX_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "INDEX_DIP",
+   "target_patch_vertex_count": 49,
+   "target_vertex_displacement_max_mm": 3.442417666,
+   "target_vertex_displacement_mean_mm": 1.566752829,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.5975221757270535,
+    "max_face_area_ratio": 1.1745576989968483,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.590777173982885,
+    "max_edge_ratio": 1.1744661859353756,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.458700895,
+    -0.03680139,
+    0.50640744
+   ]
+  },
+  {
+   "case_id": "IDX_DIP_45",
+   "digit": "INDEX",
+   "joint": "DIP",
+   "angle_deg": 45.0,
+   "bone": "INDEX_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "INDEX_DIP",
+   "target_patch_vertex_count": 49,
+   "target_vertex_displacement_max_mm": 5.089886316,
+   "target_vertex_displacement_mean_mm": 2.316567065,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.3892621202865131,
+    "max_face_area_ratio": 1.2644468905749637,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.37903003204102004,
+    "max_edge_ratio": 1.2642456648300262,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.457561493,
+    -0.035147525,
+    0.502933502
+   ]
+  },
+  {
+   "case_id": "MID_MCP_15",
+   "digit": "MIDDLE",
+   "joint": "MCP",
+   "angle_deg": 15.0,
+   "bone": "MIDDLE_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "MIDDLE_MCP",
+   "target_patch_vertex_count": 73,
+   "target_vertex_displacement_max_mm": 3.092009235,
+   "target_vertex_displacement_mean_mm": 0.808947106,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.4925878949071022e-07,
+    "min_face_area_ratio": 0.8824861034657163,
+    "max_face_area_ratio": 1.1937963200702721,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.9193072139100755,
+    "max_edge_ratio": 1.2027682916201479,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 1,
+    "new_self_intersection_samples": [
+     [
+      2421,
+      2783
+     ]
+    ],
+    "_newp": [
+     [
+      2421,
+      2783
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.427899718,
+    -0.054818317,
+    0.503680944
+   ]
+  },
+  {
+   "case_id": "MID_MCP_30",
+   "digit": "MIDDLE",
+   "joint": "MCP",
+   "angle_deg": 30.0,
+   "bone": "MIDDLE_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "MIDDLE_MCP",
+   "target_patch_vertex_count": 73,
+   "target_vertex_displacement_max_mm": 6.131109302,
+   "target_vertex_displacement_mean_mm": 1.604055941,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.2556135886750684e-07,
+    "min_face_area_ratio": 0.7423760752109214,
+    "max_face_area_ratio": 1.3834233190171465,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8474860359750288,
+    "max_edge_ratio": 1.3980570933873355,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 3,
+    "new_self_intersection_samples": [
+     [
+      1596,
+      2776
+     ],
+     [
+      2421,
+      2776
+     ],
+     [
+      2421,
+      2783
+     ]
+    ],
+    "_newp": [
+     [
+      1596,
+      2776
+     ],
+     [
+      2421,
+      2776
+     ],
+     [
+      2421,
+      2783
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.42923367,
+    -0.057654403,
+    0.485084116
+   ]
+  },
+  {
+   "case_id": "MID_MCP_45",
+   "digit": "MIDDLE",
+   "joint": "MCP",
+   "angle_deg": 45.0,
+   "bone": "MIDDLE_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "MIDDLE_MCP",
+   "target_patch_vertex_count": 73,
+   "target_vertex_displacement_max_mm": 9.065306986,
+   "target_vertex_displacement_mean_mm": 2.371716565,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.2449822676633348e-07,
+    "min_face_area_ratio": 0.662651169458782,
+    "max_face_area_ratio": 1.5580080375854122,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.7606599953682468,
+    "max_edge_ratio": 1.5777042877238694,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 3,
+    "new_self_intersection_samples": [
+     [
+      1596,
+      2776
+     ],
+     [
+      2421,
+      2776
+     ],
+     [
+      2421,
+      2783
+     ]
+    ],
+    "_newp": [
+     [
+      1596,
+      2776
+     ],
+     [
+      2421,
+      2776
+     ],
+     [
+      2421,
+      2783
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.429265857,
+    -0.0557454,
+    0.466321945
+   ]
+  },
+  {
+   "case_id": "MID_PIP_15",
+   "digit": "MIDDLE",
+   "joint": "PIP",
+   "angle_deg": 15.0,
+   "bone": "MIDDLE_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "MIDDLE_PIP",
+   "target_patch_vertex_count": 41,
+   "target_vertex_displacement_max_mm": 1.668842846,
+   "target_vertex_displacement_mean_mm": 0.747430066,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.8495802644930704,
+    "max_face_area_ratio": 1.0993724368142255,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8496257531844073,
+    "max_edge_ratio": 1.100340554851082,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.425845027,
+    -0.048613586,
+    0.509726346
+   ]
+  },
+  {
+   "case_id": "MID_PIP_30",
+   "digit": "MIDDLE",
+   "joint": "PIP",
+   "angle_deg": 30.0,
+   "bone": "MIDDLE_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "MIDDLE_PIP",
+   "target_patch_vertex_count": 41,
+   "target_vertex_displacement_max_mm": 3.309123574,
+   "target_vertex_displacement_mean_mm": 1.48206767,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.6903177955862733,
+    "max_face_area_ratio": 1.2029621733706888,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.6904640978281479,
+    "max_edge_ratio": 1.2043682352313192,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.425961375,
+    -0.046899609,
+    0.498666704
+   ]
+  },
+  {
+   "case_id": "MID_PIP_45",
+   "digit": "MIDDLE",
+   "joint": "PIP",
+   "angle_deg": 45.0,
+   "bone": "MIDDLE_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "MIDDLE_PIP",
+   "target_patch_vertex_count": 41,
+   "target_vertex_displacement_max_mm": 4.892770135,
+   "target_vertex_displacement_mean_mm": 2.191351854,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8248694903561396e-07,
+    "min_face_area_ratio": 0.5329569697567969,
+    "max_face_area_ratio": 1.3023836464791265,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.5304566713900467,
+    "max_edge_ratio": 1.3049633507861156,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.425696135,
+    -0.042405285,
+    0.48841992
+   ]
+  },
+  {
+   "case_id": "MID_DIP_15",
+   "digit": "MIDDLE",
+   "joint": "DIP",
+   "angle_deg": 15.0,
+   "bone": "MIDDLE_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "MIDDLE_DIP",
+   "target_patch_vertex_count": 42,
+   "target_vertex_displacement_max_mm": 1.341110478,
+   "target_vertex_displacement_mean_mm": 0.793008394,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.8193908629486107,
+    "max_face_area_ratio": 1.0887526190072523,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8154562647086463,
+    "max_edge_ratio": 1.0896763117980832,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.425475001,
+    -0.047080629,
+    0.516244709
+   ]
+  },
+  {
+   "case_id": "MID_DIP_30",
+   "digit": "MIDDLE",
+   "joint": "DIP",
+   "angle_deg": 30.0,
+   "bone": "MIDDLE_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "MIDDLE_DIP",
+   "target_patch_vertex_count": 42,
+   "target_vertex_displacement_max_mm": 2.659242974,
+   "target_vertex_displacement_mean_mm": 1.572448644,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.6241952858291219,
+    "max_face_area_ratio": 1.1786859356094814,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.6170667457216458,
+    "max_edge_ratio": 1.1816018711444107,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.425515652,
+    -0.04555393,
+    0.511889517
+   ]
+  },
+  {
+   "case_id": "MID_DIP_45",
+   "digit": "MIDDLE",
+   "joint": "DIP",
+   "angle_deg": 45.0,
+   "bone": "MIDDLE_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "MIDDLE_DIP",
+   "target_patch_vertex_count": 42,
+   "target_vertex_displacement_max_mm": 3.931903611,
+   "target_vertex_displacement_mean_mm": 2.324986066,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.4192609684886025,
+    "max_face_area_ratio": 1.2640715141431185,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.4083759599876868,
+    "max_edge_ratio": 1.2696986146759863,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.425474405,
+    -0.042954348,
+    0.50807631
+   ]
+  },
+  {
+   "case_id": "RNG_MCP_15",
+   "digit": "RING",
+   "joint": "MCP",
+   "angle_deg": 15.0,
+   "bone": "RING_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "RING_MCP",
+   "target_patch_vertex_count": 65,
+   "target_vertex_displacement_max_mm": 1.856920834,
+   "target_vertex_displacement_mean_mm": 0.746836414,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.876408084316968,
+    "max_face_area_ratio": 1.3323158084937596,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.9480171267863309,
+    "max_edge_ratio": 1.2584223453571692,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 1,
+    "new_self_intersection_samples": [
+     [
+      2185,
+      3358
+     ]
+    ],
+    "_newp": [
+     [
+      2185,
+      3358
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.395695686,
+    -0.053716324,
+    0.49649018
+   ]
+  },
+  {
+   "case_id": "RNG_MCP_30",
+   "digit": "RING",
+   "joint": "MCP",
+   "angle_deg": 30.0,
+   "bone": "RING_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "RING_MCP",
+   "target_patch_vertex_count": 65,
+   "target_vertex_displacement_max_mm": 3.682087814,
+   "target_vertex_displacement_mean_mm": 1.480893826,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.7832733733018611,
+    "max_face_area_ratio": 1.6167777060563147,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8948526987154783,
+    "max_edge_ratio": 1.4959403793244024,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 1,
+    "new_self_intersection_samples": [
+     [
+      2185,
+      3358
+     ]
+    ],
+    "_newp": [
+     [
+      2185,
+      3358
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.395445585,
+    -0.055995442,
+    0.479353726
+   ]
+  },
+  {
+   "case_id": "RNG_MCP_45",
+   "digit": "RING",
+   "joint": "MCP",
+   "angle_deg": 45.0,
+   "bone": "RING_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "RING_MCP",
+   "target_patch_vertex_count": 65,
+   "target_vertex_displacement_max_mm": 5.444250014,
+   "target_vertex_displacement_mean_mm": 2.189611372,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.7292040787857932,
+    "max_face_area_ratio": 1.833820048274987,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8442418649428137,
+    "max_edge_ratio": 1.8114787623047515,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 1,
+    "new_self_intersection_samples": [
+     [
+      2185,
+      3358
+     ]
+    ],
+    "_newp": [
+     [
+      2185,
+      3358
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.395577431,
+    -0.053777374,
+    0.462207913
+   ]
+  },
+  {
+   "case_id": "RNG_PIP_15",
+   "digit": "RING",
+   "joint": "PIP",
+   "angle_deg": 15.0,
+   "bone": "RING_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "RING_PIP",
+   "target_patch_vertex_count": 35,
+   "target_vertex_displacement_max_mm": 1.473980475,
+   "target_vertex_displacement_mean_mm": 0.697379844,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.849873481932202,
+    "max_face_area_ratio": 1.108510983918562,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8464603483108204,
+    "max_edge_ratio": 1.1103959551908353,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.396399617,
+    -0.047763698,
+    0.502361655
+   ]
+  },
+  {
+   "case_id": "RNG_PIP_30",
+   "digit": "RING",
+   "joint": "PIP",
+   "angle_deg": 30.0,
+   "bone": "RING_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "RING_PIP",
+   "target_patch_vertex_count": 35,
+   "target_vertex_displacement_max_mm": 2.922759429,
+   "target_vertex_displacement_mean_mm": 1.382824867,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.6934041018678371,
+    "max_face_area_ratio": 1.2154024899032887,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.6863925122726061,
+    "max_edge_ratio": 1.2208463789163282,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.396267653,
+    -0.045807473,
+    0.492443174
+   ]
+  },
+  {
+   "case_id": "RNG_PIP_45",
+   "digit": "RING",
+   "joint": "PIP",
+   "angle_deg": 45.0,
+   "bone": "RING_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "RING_PIP",
+   "target_patch_vertex_count": 35,
+   "target_vertex_displacement_max_mm": 4.321506004,
+   "target_vertex_displacement_mean_mm": 2.044605963,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.537090210496491,
+    "max_face_area_ratio": 1.3160366950312783,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.5297525705972681,
+    "max_edge_ratio": 1.3247275532227956,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.395923734,
+    -0.041359954,
+    0.483370066
+   ]
+  },
+  {
+   "case_id": "RNG_DIP_15",
+   "digit": "RING",
+   "joint": "DIP",
+   "angle_deg": 15.0,
+   "bone": "RING_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "RING_DIP",
+   "target_patch_vertex_count": 40,
+   "target_vertex_displacement_max_mm": 1.259796756,
+   "target_vertex_displacement_mean_mm": 0.786068713,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.7962514257982447,
+    "max_face_area_ratio": 1.0815925073704349,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.7933554564240168,
+    "max_edge_ratio": 1.0827737527616528,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.396262169,
+    -0.046522006,
+    0.508330703
+   ]
+  },
+  {
+   "case_id": "RNG_DIP_30",
+   "digit": "RING",
+   "joint": "DIP",
+   "angle_deg": 30.0,
+   "bone": "RING_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "RING_DIP",
+   "target_patch_vertex_count": 40,
+   "target_vertex_displacement_max_mm": 2.497993935,
+   "target_vertex_displacement_mean_mm": 1.558680676,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.5863155383848637,
+    "max_face_area_ratio": 1.1601418328509427,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.5805675074206111,
+    "max_edge_ratio": 1.1640683338166502,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.396091342,
+    -0.044909455,
+    0.504501104
+   ]
+  },
+  {
+   "case_id": "RNG_DIP_45",
+   "digit": "RING",
+   "joint": "DIP",
+   "angle_deg": 45.0,
+   "bone": "RING_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "RING_DIP",
+   "target_patch_vertex_count": 40,
+   "target_vertex_displacement_max_mm": 3.693454416,
+   "target_vertex_displacement_mean_mm": 2.304630007,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.38702016571067965,
+    "max_face_area_ratio": 1.2309314075859175,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.3779537386741837,
+    "max_edge_ratio": 1.2391678954723904,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.395809412,
+    -0.04236757,
+    0.501221597
+   ]
+  },
+  {
+   "case_id": "LTL_MCP_15",
+   "digit": "LITTLE",
+   "joint": "MCP",
+   "angle_deg": 15.0,
+   "bone": "LITTLE_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "LITTLE_MCP",
+   "target_patch_vertex_count": 153,
+   "target_vertex_displacement_max_mm": 3.186648996,
+   "target_vertex_displacement_mean_mm": 1.567104131,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.8993731750683741,
+    "max_face_area_ratio": 1.1729661295021883,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8875726273472976,
+    "max_edge_ratio": 1.180154269892174,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.363670349,
+    -0.044233546,
+    0.487275511
+   ]
+  },
+  {
+   "case_id": "LTL_MCP_30",
+   "digit": "LITTLE",
+   "joint": "MCP",
+   "angle_deg": 30.0,
+   "bone": "LITTLE_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "LITTLE_MCP",
+   "target_patch_vertex_count": 153,
+   "target_vertex_displacement_max_mm": 6.318786246,
+   "target_vertex_displacement_mean_mm": 3.107390136,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.8721745721739271,
+    "max_face_area_ratio": 1.3681151342257398,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.8243436559534911,
+    "max_edge_ratio": 1.3960031638127917,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.367968082,
+    -0.046839871,
+    0.475448728
+   ]
+  },
+  {
+   "case_id": "LTL_MCP_45",
+   "digit": "LITTLE",
+   "joint": "MCP",
+   "angle_deg": 45.0,
+   "bone": "LITTLE_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "LITTLE_MCP",
+   "target_patch_vertex_count": 153,
+   "target_vertex_displacement_max_mm": 9.342756067,
+   "target_vertex_displacement_mean_mm": 4.594509225,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.7895947669962284,
+    "max_face_area_ratio": 1.5763901829495461,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.7338506784128144,
+    "max_edge_ratio": 1.6262427350911115,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.372128248,
+    -0.046108693,
+    0.463312209
+   ]
+  },
+  {
+   "case_id": "LTL_PIP_15",
+   "digit": "LITTLE",
+   "joint": "PIP",
+   "angle_deg": 15.0,
+   "bone": "LITTLE_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "LITTLE_PIP",
+   "target_patch_vertex_count": 32,
+   "target_vertex_displacement_max_mm": 0.934180047,
+   "target_vertex_displacement_mean_mm": 0.536337165,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.859070450169762,
+    "max_face_area_ratio": 1.1016274430824984,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.858169224916249,
+    "max_edge_ratio": 1.104657820729897,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.362011194,
+    -0.039738089,
+    0.491303682
+   ]
+  },
+  {
+   "case_id": "LTL_PIP_30",
+   "digit": "LITTLE",
+   "joint": "PIP",
+   "angle_deg": 30.0,
+   "bone": "LITTLE_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "LITTLE_PIP",
+   "target_patch_vertex_count": 32,
+   "target_vertex_displacement_max_mm": 1.85236472,
+   "target_vertex_displacement_mean_mm": 1.063498485,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.7047331525881723,
+    "max_face_area_ratio": 1.1969235757751722,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.703691935565493,
+    "max_edge_ratio": 1.2048345396066473,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.364269018,
+    -0.039139777,
+    0.484448969
+   ]
+  },
+  {
+   "case_id": "LTL_PIP_45",
+   "digit": "LITTLE",
+   "joint": "PIP",
+   "angle_deg": 45.0,
+   "bone": "LITTLE_PIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "LITTLE_PIP",
+   "target_patch_vertex_count": 32,
+   "target_vertex_displacement_max_mm": 2.738861703,
+   "target_vertex_displacement_mean_mm": 1.572464163,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.5445000277651957,
+    "max_face_area_ratio": 1.283232864875106,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.5409520092096299,
+    "max_edge_ratio": 1.295500905723113,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.366147161,
+    -0.036713161,
+    0.477889478
+   ]
+  },
+  {
+   "case_id": "LTL_DIP_15",
+   "digit": "LITTLE",
+   "joint": "DIP",
+   "angle_deg": 15.0,
+   "bone": "LITTLE_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "LITTLE_DIP",
+   "target_patch_vertex_count": 46,
+   "target_vertex_displacement_max_mm": 1.138176661,
+   "target_vertex_displacement_mean_mm": 0.521586124,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.7952783495478539,
+    "max_face_area_ratio": 1.0790874498516883,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.795653074117936,
+    "max_edge_ratio": 1.079512441114874,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.360530138,
+    -0.038597204,
+    0.495129079
+   ]
+  },
+  {
+   "case_id": "LTL_DIP_30",
+   "digit": "LITTLE",
+   "joint": "DIP",
+   "angle_deg": 30.0,
+   "bone": "LITTLE_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "LITTLE_DIP",
+   "target_patch_vertex_count": 46,
+   "target_vertex_displacement_max_mm": 2.256860415,
+   "target_vertex_displacement_mean_mm": 1.034249389,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.5774810409902653,
+    "max_face_area_ratio": 1.1512333871224205,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.579279443721002,
+    "max_edge_ratio": 1.1490769916183037,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.36147356,
+    -0.037939817,
+    0.49232471
+   ]
+  },
+  {
+   "case_id": "LTL_DIP_45",
+   "digit": "LITTLE",
+   "joint": "DIP",
+   "angle_deg": 45.0,
+   "bone": "LITTLE_DIP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "LITTLE_DIP",
+   "target_patch_vertex_count": 46,
+   "target_vertex_displacement_max_mm": 3.336938895,
+   "target_vertex_displacement_mean_mm": 1.529206441,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.34910191753760933,
+    "max_face_area_ratio": 1.2150207164695381,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.35747996069976484,
+    "max_edge_ratio": 1.2191920180091445,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 0,
+    "new_self_intersection_samples": [],
+    "_newp": [],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "THUMB": {
+     "max_mm": 7.451e-06,
+     "mean_mm": 2.459e-06,
+     "vertex_count": 618
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "THUMB": {
+     "max_mm": 3.725e-06,
+     "vertex_count": 6
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "THUMB": {
+     "max_mm": 5.588e-06,
+     "vertex_count": 69
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.362293839,
+    -0.036539964,
+    0.489764512
+   ]
+  },
+  {
+   "case_id": "TH_MCP_15",
+   "digit": "THUMB",
+   "joint": "MCP",
+   "angle_deg": 15.0,
+   "bone": "THUMB_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "THUMB_MCP",
+   "target_patch_vertex_count": 104,
+   "target_vertex_displacement_max_mm": 5.392986942,
+   "target_vertex_displacement_mean_mm": 0.771822747,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.29996004281913113,
+    "max_face_area_ratio": 5.3310907485511265,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.46558171502282225,
+    "max_edge_ratio": 10.863710135434728,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 119,
+    "new_self_intersection_samples": [
+     [
+      65,
+      1232
+     ],
+     [
+      66,
+      1232
+     ],
+     [
+      66,
+      1235
+     ],
+     [
+      66,
+      1237
+     ],
+     [
+      66,
+      1941
+     ],
+     [
+      66,
+      1942
+     ],
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1237
+     ],
+     [
+      78,
+      1240
+     ],
+     [
+      79,
+      1240
+     ],
+     [
+      357,
+      434
+     ],
+     [
+      357,
+      2877
+     ]
+    ],
+    "_newp": [
+     [
+      65,
+      1232
+     ],
+     [
+      66,
+      1232
+     ],
+     [
+      66,
+      1235
+     ],
+     [
+      66,
+      1237
+     ],
+     [
+      66,
+      1941
+     ],
+     [
+      66,
+      1942
+     ],
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1237
+     ],
+     [
+      78,
+      1240
+     ],
+     [
+      79,
+      1240
+     ],
+     [
+      357,
+      434
+     ],
+     [
+      357,
+      2877
+     ],
+     [
+      358,
+      2877
+     ],
+     [
+      360,
+      432
+     ],
+     [
+      360,
+      435
+     ],
+     [
+      363,
+      435
+     ],
+     [
+      363,
+      2876
+     ],
+     [
+      363,
+      2877
+     ],
+     [
+      376,
+      1048
+     ],
+     [
+      376,
+      1051
+     ],
+     [
+      376,
+      1932
+     ],
+     [
+      376,
+      2897
+     ],
+     [
+      377,
+      1051
+     ],
+     [
+      377,
+      1934
+     ],
+     [
+      377,
+      2897
+     ],
+     [
+      378,
+      2898
+     ],
+     [
+      379,
+      444
+     ],
+     [
+      379,
+      2897
+     ],
+     [
+      381,
+      1932
+     ],
+     [
+      381,
+      1933
+     ],
+     [
+      382,
+      444
+     ],
+     [
+      384,
+      1046
+     ],
+     [
+      384,
+      1047
+     ],
+     [
+      384,
+      1936
+     ],
+     [
+      384,
+      1937
+     ],
+     [
+      384,
+      1938
+     ],
+     [
+      384,
+      1939
+     ],
+     [
+      384,
+      1946
+     ],
+     [
+      386,
+      1932
+     ],
+     [
+      386,
+      1933
+     ],
+     [
+      386,
+      1934
+     ],
+     [
+      387,
+      1046
+     ],
+     [
+      387,
+      1047
+     ],
+     [
+      387,
+      1936
+     ],
+     [
+      387,
+      1939
+     ],
+     [
+      388,
+      397
+     ],
+     [
+      389,
+      397
+     ],
+     [
+      389,
+      433
+     ],
+     [
+      389,
+      434
+     ],
+     [
+      394,
+      397
+     ],
+     [
+      394,
+      432
+     ],
+     [
+      394,
+      433
+     ],
+     [
+      395,
+      397
+     ],
+     [
+      405,
+      1044
+     ],
+     [
+      405,
+      1045
+     ],
+     [
+      405,
+      1047
+     ],
+     [
+      405,
+      1933
+     ],
+     [
+      405,
+      1936
+     ],
+     [
+      405,
+      1939
+     ],
+     [
+      406,
+      1045
+     ],
+     [
+      406,
+      1046
+     ],
+     [
+      406,
+      1047
+     ],
+     [
+      406,
+      1936
+     ],
+     [
+      406,
+      1939
+     ],
+     [
+      409,
+      1236
+     ],
+     [
+      409,
+      1237
+     ],
+     [
+      409,
+      1934
+     ],
+     [
+      410,
+      1044
+     ],
+     [
+      410,
+      1048
+     ],
+     [
+      410,
+      1237
+     ],
+     [
+      411,
+      1232
+     ],
+     [
+      411,
+      1235
+     ],
+     [
+      411,
+      1237
+     ],
+     [
+      412,
+      1236
+     ],
+     [
+      412,
+      1932
+     ],
+     [
+      412,
+      1934
+     ],
+     [
+      412,
+      1935
+     ],
+     [
+      412,
+      1943
+     ],
+     [
+      413,
+      1236
+     ],
+     [
+      413,
+      1934
+     ],
+     [
+      413,
+      1935
+     ],
+     [
+      444,
+      2873
+     ],
+     [
+      447,
+      2873
+     ],
+     [
+      447,
+      2884
+     ],
+     [
+      1041,
+      2760
+     ],
+     [
+      1042,
+      2760
+     ],
+     [
+      1042,
+      2762
+     ],
+     [
+      1042,
+      2763
+     ],
+     [
+      1043,
+      2763
+     ],
+     [
+      1044,
+      1932
+     ],
+     [
+      1044,
+      1933
+     ],
+     [
+      1044,
+      1936
+     ],
+     [
+      1044,
+      1939
+     ],
+     [
+      1045,
+      1232
+     ],
+     [
+      1045,
+      1941
+     ],
+     [
+      1045,
+      1945
+     ],
+     [
+      1045,
+      2763
+     ],
+     [
+      1046,
+      1939
+     ],
+     [
+      1046,
+      1945
+     ],
+     [
+      1046,
+      1946
+     ],
+     [
+      1046,
+      2762
+     ],
+     [
+      1046,
+      2763
+     ],
+     [
+      1047,
+      1933
+     ],
+     [
+      1047,
+      1939
+     ],
+     [
+      1047,
+      1946
+     ],
+     [
+      1048,
+      1934
+     ],
+     [
+      1048,
+      1935
+     ],
+     [
+      1051,
+      1240
+     ],
+     [
+      1051,
+      1934
+     ],
+     [
+      1051,
+      1935
+     ],
+     [
+      1210,
+      2518
+     ],
+     [
+      1213,
+      2444
+     ],
+     [
+      1221,
+      2760
+     ],
+     [
+      1222,
+      2760
+     ],
+     [
+      1231,
+      2739
+     ],
+     [
+      1935,
+      2896
+     ],
+     [
+      1937,
+      2762
+     ],
+     [
+      2884,
+      2898
+     ],
+     [
+      2885,
+      2898
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 0.453696329,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 0.204034996,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.442946792,
+    0.008055481,
+    0.494514853
+   ]
+  },
+  {
+   "case_id": "TH_MCP_30",
+   "digit": "THUMB",
+   "joint": "MCP",
+   "angle_deg": 30.0,
+   "bone": "THUMB_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "THUMB_MCP",
+   "target_patch_vertex_count": 104,
+   "target_vertex_displacement_max_mm": 10.69367322,
+   "target_vertex_displacement_mean_mm": 1.530436978,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.32481110630182625,
+    "max_face_area_ratio": 9.874888521436056,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.35623147351860107,
+    "max_edge_ratio": 21.578659772748583,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 171,
+    "new_self_intersection_samples": [
+     [
+      65,
+      404
+     ],
+     [
+      65,
+      405
+     ],
+     [
+      65,
+      1228
+     ],
+     [
+      65,
+      1232
+     ],
+     [
+      66,
+      405
+     ],
+     [
+      66,
+      410
+     ],
+     [
+      66,
+      1232
+     ],
+     [
+      66,
+      1235
+     ],
+     [
+      67,
+      1235
+     ],
+     [
+      67,
+      1237
+     ],
+     [
+      77,
+      1237
+     ],
+     [
+      78,
+      376
+     ]
+    ],
+    "_newp": [
+     [
+      65,
+      404
+     ],
+     [
+      65,
+      405
+     ],
+     [
+      65,
+      1228
+     ],
+     [
+      65,
+      1232
+     ],
+     [
+      66,
+      405
+     ],
+     [
+      66,
+      410
+     ],
+     [
+      66,
+      1232
+     ],
+     [
+      66,
+      1235
+     ],
+     [
+      67,
+      1235
+     ],
+     [
+      67,
+      1237
+     ],
+     [
+      77,
+      1237
+     ],
+     [
+      78,
+      376
+     ],
+     [
+      78,
+      410
+     ],
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1237
+     ],
+     [
+      78,
+      1934
+     ],
+     [
+      79,
+      1236
+     ],
+     [
+      79,
+      1240
+     ],
+     [
+      79,
+      1934
+     ],
+     [
+      358,
+      2877
+     ],
+     [
+      358,
+      2888
+     ],
+     [
+      359,
+      2888
+     ],
+     [
+      359,
+      2889
+     ],
+     [
+      360,
+      432
+     ],
+     [
+      360,
+      435
+     ],
+     [
+      363,
+      435
+     ],
+     [
+      363,
+      2876
+     ],
+     [
+      363,
+      2877
+     ],
+     [
+      376,
+      412
+     ],
+     [
+      376,
+      413
+     ],
+     [
+      376,
+      1048
+     ],
+     [
+      376,
+      1932
+     ],
+     [
+      377,
+      1048
+     ],
+     [
+      377,
+      1051
+     ],
+     [
+      381,
+      1932
+     ],
+     [
+      381,
+      1933
+     ],
+     [
+      384,
+      401
+     ],
+     [
+      384,
+      406
+     ],
+     [
+      384,
+      407
+     ],
+     [
+      384,
+      1938
+     ],
+     [
+      384,
+      1947
+     ],
+     [
+      386,
+      1932
+     ],
+     [
+      387,
+      405
+     ],
+     [
+      387,
+      1045
+     ],
+     [
+      387,
+      1046
+     ],
+     [
+      387,
+      1047
+     ],
+     [
+      387,
+      1932
+     ],
+     [
+      387,
+      1933
+     ],
+     [
+      387,
+      1936
+     ],
+     [
+      387,
+      1939
+     ],
+     [
+      388,
+      401
+     ],
+     [
+      388,
+      402
+     ],
+     [
+      388,
+      403
+     ],
+     [
+      391,
+      401
+     ],
+     [
+      394,
+      397
+     ],
+     [
+      394,
+      432
+     ],
+     [
+      394,
+      433
+     ],
+     [
+      395,
+      396
+     ],
+     [
+      395,
+      397
+     ],
+     [
+      395,
+      403
+     ],
+     [
+      404,
+      1043
+     ],
+     [
+      404,
+      1045
+     ],
+     [
+      404,
+      1046
+     ],
+     [
+      404,
+      2762
+     ],
+     [
+      404,
+      2763
+     ],
+     [
+      405,
+      415
+     ],
+     [
+      405,
+      1045
+     ],
+     [
+      405,
+      1046
+     ],
+     [
+      405,
+      1047
+     ],
+     [
+      405,
+      1933
+     ],
+     [
+      405,
+      1936
+     ],
+     [
+      405,
+      1939
+     ],
+     [
+      405,
+      2763
+     ],
+     [
+      407,
+      2762
+     ],
+     [
+      408,
+      1235
+     ],
+     [
+      408,
+      1237
+     ],
+     [
+      410,
+      412
+     ],
+     [
+      410,
+      415
+     ],
+     [
+      411,
+      1232
+     ],
+     [
+      411,
+      1235
+     ],
+     [
+      412,
+      1932
+     ],
+     [
+      412,
+      1935
+     ],
+     [
+      413,
+      1935
+     ],
+     [
+      414,
+      1235
+     ],
+     [
+      414,
+      1237
+     ],
+     [
+      415,
+      1235
+     ],
+     [
+      446,
+      2872
+     ],
+     [
+      446,
+      2873
+     ],
+     [
+      446,
+      2889
+     ],
+     [
+      447,
+      2873
+     ],
+     [
+      447,
+      2884
+     ],
+     [
+      1040,
+      1228
+     ],
+     [
+      1040,
+      1231
+     ],
+     [
+      1040,
+      2742
+     ],
+     [
+      1041,
+      1231
+     ],
+     [
+      1041,
+      2742
+     ],
+     [
+      1041,
+      2760
+     ],
+     [
+      1042,
+      1231
+     ],
+     [
+      1042,
+      2742
+     ],
+     [
+      1042,
+      2760
+     ],
+     [
+      1042,
+      2762
+     ],
+     [
+      1042,
+      2763
+     ],
+     [
+      1043,
+      1228
+     ],
+     [
+      1043,
+      1231
+     ],
+     [
+      1043,
+      2733
+     ],
+     [
+      1043,
+      2734
+     ],
+     [
+      1043,
+      2742
+     ],
+     [
+      1043,
+      2760
+     ],
+     [
+      1043,
+      2763
+     ],
+     [
+      1044,
+      1932
+     ],
+     [
+      1044,
+      1933
+     ],
+     [
+      1044,
+      1936
+     ],
+     [
+      1044,
+      1939
+     ],
+     [
+      1045,
+      1228
+     ],
+     [
+      1045,
+      1232
+     ],
+     [
+      1045,
+      2763
+     ],
+     [
+      1046,
+      1228
+     ],
+     [
+      1046,
+      1939
+     ],
+     [
+      1046,
+      1945
+     ],
+     [
+      1046,
+      1946
+     ],
+     [
+      1047,
+      1933
+     ],
+     [
+      1047,
+      1939
+     ],
+     [
+      1047,
+      1946
+     ],
+     [
+      1048,
+      1932
+     ],
+     [
+      1048,
+      1935
+     ],
+     [
+      1051,
+      1240
+     ],
+     [
+      1051,
+      1934
+     ],
+     [
+      1051,
+      1935
+     ],
+     [
+      1210,
+      1217
+     ],
+     [
+      1210,
+      1218
+     ],
+     [
+      1210,
+      1223
+     ],
+     [
+      1210,
+      2447
+     ],
+     [
+      1210,
+      2518
+     ],
+     [
+      1210,
+      2736
+     ],
+     [
+      1212,
+      2517
+     ],
+     [
+      1213,
+      1216
+     ],
+     [
+      1213,
+      2444
+     ],
+     [
+      1213,
+      2447
+     ],
+     [
+      1213,
+      2497
+     ],
+     [
+      1213,
+      2498
+     ],
+     [
+      1214,
+      1216
+     ],
+     [
+      1214,
+      1217
+     ],
+     [
+      1214,
+      2447
+     ],
+     [
+      1217,
+      2224
+     ],
+     [
+      1217,
+      2227
+     ],
+     [
+      1218,
+      1230
+     ],
+     [
+      1220,
+      2762
+     ],
+     [
+      1221,
+      2760
+     ],
+     [
+      1221,
+      2762
+     ],
+     [
+      1222,
+      1230
+     ],
+     [
+      1222,
+      2760
+     ],
+     [
+      1223,
+      1230
+     ],
+     [
+      1224,
+      2762
+     ],
+     [
+      1228,
+      2734
+     ],
+     [
+      1228,
+      2762
+     ],
+     [
+      1228,
+      2763
+     ],
+     [
+      1229,
+      2762
+     ],
+     [
+      1230,
+      2736
+     ],
+     [
+      1231,
+      2736
+     ],
+     [
+      1231,
+      2739
+     ],
+     [
+      1231,
+      2741
+     ],
+     [
+      1232,
+      2734
+     ],
+     [
+      1232,
+      2763
+     ],
+     [
+      1235,
+      2734
+     ],
+     [
+      1935,
+      2896
+     ],
+     [
+      1936,
+      1946
+     ],
+     [
+      1938,
+      2762
+     ],
+     [
+      1944,
+      2762
+     ],
+     [
+      1947,
+      2762
+     ],
+     [
+      2884,
+      2898
+     ],
+     [
+      2885,
+      2898
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 0.899568085,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 0.404617165,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.433766127,
+    -0.004081145,
+    0.492056042
+   ]
+  },
+  {
+   "case_id": "TH_MCP_45",
+   "digit": "THUMB",
+   "joint": "MCP",
+   "angle_deg": 45.0,
+   "bone": "THUMB_MCP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "THUMB_MCP",
+   "target_patch_vertex_count": 104,
+   "target_vertex_displacement_max_mm": 15.811325863,
+   "target_vertex_displacement_mean_mm": 2.262866025,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.19367201362517678,
+    "max_face_area_ratio": 14.25796741114492,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.4212833525055095,
+    "max_edge_ratio": 31.94005375723416,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 222,
+    "new_self_intersection_samples": [
+     [
+      64,
+      404
+     ],
+     [
+      64,
+      1228
+     ],
+     [
+      64,
+      1232
+     ],
+     [
+      65,
+      404
+     ],
+     [
+      65,
+      405
+     ],
+     [
+      66,
+      405
+     ],
+     [
+      66,
+      410
+     ],
+     [
+      67,
+      410
+     ],
+     [
+      67,
+      1232
+     ],
+     [
+      67,
+      1235
+     ],
+     [
+      67,
+      1237
+     ],
+     [
+      76,
+      1236
+     ]
+    ],
+    "_newp": [
+     [
+      64,
+      404
+     ],
+     [
+      64,
+      1228
+     ],
+     [
+      64,
+      1232
+     ],
+     [
+      65,
+      404
+     ],
+     [
+      65,
+      405
+     ],
+     [
+      66,
+      405
+     ],
+     [
+      66,
+      410
+     ],
+     [
+      67,
+      410
+     ],
+     [
+      67,
+      1232
+     ],
+     [
+      67,
+      1235
+     ],
+     [
+      67,
+      1237
+     ],
+     [
+      76,
+      1236
+     ],
+     [
+      76,
+      1240
+     ],
+     [
+      77,
+      410
+     ],
+     [
+      77,
+      1236
+     ],
+     [
+      77,
+      1237
+     ],
+     [
+      78,
+      376
+     ],
+     [
+      78,
+      377
+     ],
+     [
+      78,
+      410
+     ],
+     [
+      79,
+      377
+     ],
+     [
+      79,
+      1240
+     ],
+     [
+      79,
+      1934
+     ],
+     [
+      79,
+      1935
+     ],
+     [
+      358,
+      2888
+     ],
+     [
+      358,
+      2889
+     ],
+     [
+      359,
+      2872
+     ],
+     [
+      359,
+      2889
+     ],
+     [
+      360,
+      433
+     ],
+     [
+      360,
+      434
+     ],
+     [
+      363,
+      434
+     ],
+     [
+      363,
+      2877
+     ],
+     [
+      363,
+      2888
+     ],
+     [
+      376,
+      413
+     ],
+     [
+      376,
+      1932
+     ],
+     [
+      376,
+      1933
+     ],
+     [
+      377,
+      1051
+     ],
+     [
+      384,
+      404
+     ],
+     [
+      384,
+      407
+     ],
+     [
+      384,
+      1937
+     ],
+     [
+      384,
+      1938
+     ],
+     [
+      384,
+      1944
+     ],
+     [
+      384,
+      1947
+     ],
+     [
+      387,
+      1045
+     ],
+     [
+      387,
+      1046
+     ],
+     [
+      387,
+      1047
+     ],
+     [
+      387,
+      1932
+     ],
+     [
+      387,
+      1933
+     ],
+     [
+      387,
+      1936
+     ],
+     [
+      387,
+      1939
+     ],
+     [
+      388,
+      400
+     ],
+     [
+      388,
+      403
+     ],
+     [
+      391,
+      400
+     ],
+     [
+      391,
+      407
+     ],
+     [
+      394,
+      397
+     ],
+     [
+      394,
+      433
+     ],
+     [
+      395,
+      396
+     ],
+     [
+      395,
+      397
+     ],
+     [
+      395,
+      403
+     ],
+     [
+      404,
+      1040
+     ],
+     [
+      404,
+      1043
+     ],
+     [
+      404,
+      1045
+     ],
+     [
+      404,
+      1046
+     ],
+     [
+      404,
+      2733
+     ],
+     [
+      404,
+      2734
+     ],
+     [
+      404,
+      2760
+     ],
+     [
+      404,
+      2762
+     ],
+     [
+      404,
+      2763
+     ],
+     [
+      405,
+      415
+     ],
+     [
+      405,
+      1046
+     ],
+     [
+      405,
+      1047
+     ],
+     [
+      405,
+      1933
+     ],
+     [
+      405,
+      1936
+     ],
+     [
+      405,
+      1939
+     ],
+     [
+      405,
+      2734
+     ],
+     [
+      408,
+      1235
+     ],
+     [
+      410,
+      413
+     ],
+     [
+      410,
+      414
+     ],
+     [
+      410,
+      415
+     ],
+     [
+      410,
+      1933
+     ],
+     [
+      411,
+      1232
+     ],
+     [
+      411,
+      1235
+     ],
+     [
+      412,
+      1932
+     ],
+     [
+      412,
+      1935
+     ],
+     [
+      413,
+      1935
+     ],
+     [
+      415,
+      1932
+     ],
+     [
+      446,
+      2872
+     ],
+     [
+      446,
+      2873
+     ],
+     [
+      447,
+      2873
+     ],
+     [
+      447,
+      2884
+     ],
+     [
+      447,
+      2885
+     ],
+     [
+      1036,
+      1230
+     ],
+     [
+      1037,
+      1231
+     ],
+     [
+      1040,
+      1228
+     ],
+     [
+      1040,
+      1231
+     ],
+     [
+      1040,
+      2742
+     ],
+     [
+      1041,
+      1230
+     ],
+     [
+      1041,
+      1231
+     ],
+     [
+      1041,
+      2742
+     ],
+     [
+      1041,
+      2760
+     ],
+     [
+      1042,
+      1231
+     ],
+     [
+      1042,
+      2742
+     ],
+     [
+      1042,
+      2760
+     ],
+     [
+      1042,
+      2762
+     ],
+     [
+      1042,
+      2763
+     ],
+     [
+      1043,
+      1228
+     ],
+     [
+      1043,
+      1231
+     ],
+     [
+      1043,
+      2733
+     ],
+     [
+      1043,
+      2734
+     ],
+     [
+      1043,
+      2742
+     ],
+     [
+      1043,
+      2760
+     ],
+     [
+      1043,
+      2763
+     ],
+     [
+      1044,
+      1932
+     ],
+     [
+      1044,
+      1933
+     ],
+     [
+      1044,
+      1936
+     ],
+     [
+      1044,
+      1939
+     ],
+     [
+      1045,
+      1228
+     ],
+     [
+      1045,
+      1232
+     ],
+     [
+      1045,
+      2763
+     ],
+     [
+      1046,
+      1228
+     ],
+     [
+      1046,
+      1939
+     ],
+     [
+      1046,
+      1945
+     ],
+     [
+      1047,
+      1933
+     ],
+     [
+      1047,
+      1939
+     ],
+     [
+      1047,
+      1941
+     ],
+     [
+      1047,
+      1945
+     ],
+     [
+      1048,
+      1932
+     ],
+     [
+      1048,
+      1935
+     ],
+     [
+      1051,
+      1935
+     ],
+     [
+      1052,
+      1240
+     ],
+     [
+      1053,
+      1240
+     ],
+     [
+      1093,
+      3059
+     ],
+     [
+      1093,
+      3062
+     ],
+     [
+      1096,
+      1115
+     ],
+     [
+      1096,
+      3059
+     ],
+     [
+      1109,
+      3062
+     ],
+     [
+      1175,
+      1213
+     ],
+     [
+      1177,
+      2517
+     ],
+     [
+      1210,
+      1216
+     ],
+     [
+      1210,
+      1217
+     ],
+     [
+      1210,
+      1218
+     ],
+     [
+      1210,
+      1223
+     ],
+     [
+      1210,
+      2224
+     ],
+     [
+      1210,
+      2225
+     ],
+     [
+      1210,
+      2226
+     ],
+     [
+      1210,
+      2227
+     ],
+     [
+      1210,
+      2447
+     ],
+     [
+      1210,
+      2736
+     ],
+     [
+      1212,
+      2224
+     ],
+     [
+      1212,
+      2227
+     ],
+     [
+      1212,
+      2497
+     ],
+     [
+      1212,
+      2498
+     ],
+     [
+      1212,
+      2517
+     ],
+     [
+      1212,
+      2518
+     ],
+     [
+      1213,
+      1216
+     ],
+     [
+      1213,
+      1475
+     ],
+     [
+      1213,
+      2224
+     ],
+     [
+      1213,
+      2444
+     ],
+     [
+      1213,
+      2497
+     ],
+     [
+      1213,
+      2498
+     ],
+     [
+      1213,
+      2588
+     ],
+     [
+      1213,
+      2591
+     ],
+     [
+      1214,
+      1216
+     ],
+     [
+      1214,
+      1217
+     ],
+     [
+      1214,
+      2224
+     ],
+     [
+      1214,
+      2227
+     ],
+     [
+      1214,
+      2444
+     ],
+     [
+      1214,
+      2447
+     ],
+     [
+      1214,
+      2498
+     ],
+     [
+      1215,
+      2518
+     ],
+     [
+      1216,
+      2518
+     ],
+     [
+      1217,
+      2224
+     ],
+     [
+      1217,
+      2227
+     ],
+     [
+      1217,
+      2518
+     ],
+     [
+      1217,
+      2741
+     ],
+     [
+      1218,
+      1230
+     ],
+     [
+      1218,
+      2741
+     ],
+     [
+      1220,
+      2762
+     ],
+     [
+      1221,
+      2762
+     ],
+     [
+      1222,
+      1230
+     ],
+     [
+      1222,
+      2741
+     ],
+     [
+      1222,
+      2760
+     ],
+     [
+      1223,
+      1230
+     ],
+     [
+      1223,
+      2741
+     ],
+     [
+      1227,
+      2762
+     ],
+     [
+      1228,
+      2733
+     ],
+     [
+      1228,
+      2739
+     ],
+     [
+      1228,
+      2760
+     ],
+     [
+      1228,
+      2762
+     ],
+     [
+      1228,
+      2763
+     ],
+     [
+      1229,
+      2762
+     ],
+     [
+      1230,
+      2225
+     ],
+     [
+      1230,
+      2226
+     ],
+     [
+      1230,
+      2736
+     ],
+     [
+      1230,
+      2762
+     ],
+     [
+      1231,
+      2225
+     ],
+     [
+      1231,
+      2226
+     ],
+     [
+      1231,
+      2732
+     ],
+     [
+      1231,
+      2733
+     ],
+     [
+      1231,
+      2736
+     ],
+     [
+      1231,
+      2737
+     ],
+     [
+      1231,
+      2739
+     ],
+     [
+      1231,
+      2760
+     ],
+     [
+      1231,
+      2762
+     ],
+     [
+      1232,
+      2733
+     ],
+     [
+      1232,
+      2734
+     ],
+     [
+      1232,
+      2735
+     ],
+     [
+      1232,
+      2739
+     ],
+     [
+      1232,
+      2763
+     ],
+     [
+      1235,
+      2735
+     ],
+     [
+      1235,
+      2738
+     ],
+     [
+      1472,
+      2455
+     ],
+     [
+      1472,
+      2496
+     ],
+     [
+      1935,
+      2896
+     ],
+     [
+      1936,
+      1945
+     ],
+     [
+      1937,
+      2762
+     ],
+     [
+      1939,
+      1945
+     ],
+     [
+      1944,
+      2762
+     ],
+     [
+      2497,
+      2517
+     ],
+     [
+      2498,
+      2517
+     ],
+     [
+      2742,
+      2760
+     ],
+     [
+      2742,
+      2762
+     ],
+     [
+      2885,
+      2898
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.330085617,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 0.598292874,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.425901055,
+    -0.01578041,
+    0.485819399
+   ]
+  },
+  {
+   "case_id": "TH_IP_15",
+   "digit": "THUMB",
+   "joint": "IP",
+   "angle_deg": 15.0,
+   "bone": "THUMB_IP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -15.0,
+   "target_patch": "THUMB_IP",
+   "target_patch_vertex_count": 98,
+   "target_vertex_displacement_max_mm": 3.916106978,
+   "target_vertex_displacement_mean_mm": 1.045782373,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.0727175675343268,
+    "max_face_area_ratio": 2.6738639569223936,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.43530703639088536,
+    "max_edge_ratio": 4.339908724378581,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 18,
+    "new_self_intersection_samples": [
+     [
+      377,
+      1051
+     ],
+     [
+      377,
+      1240
+     ],
+     [
+      377,
+      1934
+     ],
+     [
+      409,
+      1236
+     ],
+     [
+      409,
+      1240
+     ],
+     [
+      410,
+      1235
+     ],
+     [
+      410,
+      1236
+     ],
+     [
+      410,
+      1237
+     ],
+     [
+      411,
+      1232
+     ],
+     [
+      411,
+      1235
+     ],
+     [
+      1044,
+      1936
+     ],
+     [
+      1045,
+      1936
+     ]
+    ],
+    "_newp": [
+     [
+      377,
+      1051
+     ],
+     [
+      377,
+      1240
+     ],
+     [
+      377,
+      1934
+     ],
+     [
+      409,
+      1236
+     ],
+     [
+      409,
+      1240
+     ],
+     [
+      410,
+      1235
+     ],
+     [
+      410,
+      1236
+     ],
+     [
+      410,
+      1237
+     ],
+     [
+      411,
+      1232
+     ],
+     [
+      411,
+      1235
+     ],
+     [
+      1044,
+      1936
+     ],
+     [
+      1045,
+      1936
+     ],
+     [
+      1048,
+      1932
+     ],
+     [
+      1048,
+      1933
+     ],
+     [
+      1048,
+      1934
+     ],
+     [
+      1048,
+      1935
+     ],
+     [
+      1177,
+      1475
+     ],
+     [
+      1210,
+      2518
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.447330832,
+    0.01377436,
+    0.49502492
+   ]
+  },
+  {
+   "case_id": "TH_IP_30",
+   "digit": "THUMB",
+   "joint": "IP",
+   "angle_deg": 30.0,
+   "bone": "THUMB_IP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -30.0,
+   "target_patch": "THUMB_IP",
+   "target_patch_vertex_count": 98,
+   "target_vertex_displacement_max_mm": 7.765213492,
+   "target_vertex_displacement_mean_mm": 2.073675424,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.05402693938977668,
+    "max_face_area_ratio": 4.41134078573879,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.07514962468843159,
+    "max_edge_ratio": 8.683227170789891,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 113,
+    "new_self_intersection_samples": [
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1240
+     ],
+     [
+      78,
+      1943
+     ],
+     [
+      356,
+      2888
+     ],
+     [
+      357,
+      367
+     ],
+     [
+      357,
+      2888
+     ],
+     [
+      358,
+      2877
+     ],
+     [
+      358,
+      2888
+     ],
+     [
+      359,
+      2888
+     ],
+     [
+      360,
+      432
+     ],
+     [
+      360,
+      435
+     ],
+     [
+      363,
+      435
+     ]
+    ],
+    "_newp": [
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1240
+     ],
+     [
+      78,
+      1943
+     ],
+     [
+      356,
+      2888
+     ],
+     [
+      357,
+      367
+     ],
+     [
+      357,
+      2888
+     ],
+     [
+      358,
+      2877
+     ],
+     [
+      358,
+      2888
+     ],
+     [
+      359,
+      2888
+     ],
+     [
+      360,
+      432
+     ],
+     [
+      360,
+      435
+     ],
+     [
+      363,
+      435
+     ],
+     [
+      363,
+      2876
+     ],
+     [
+      363,
+      2877
+     ],
+     [
+      364,
+      389
+     ],
+     [
+      367,
+      389
+     ],
+     [
+      376,
+      1048
+     ],
+     [
+      376,
+      1051
+     ],
+     [
+      376,
+      1932
+     ],
+     [
+      376,
+      2896
+     ],
+     [
+      376,
+      2897
+     ],
+     [
+      377,
+      1051
+     ],
+     [
+      377,
+      1934
+     ],
+     [
+      378,
+      2898
+     ],
+     [
+      379,
+      2897
+     ],
+     [
+      379,
+      2898
+     ],
+     [
+      381,
+      1932
+     ],
+     [
+      387,
+      1046
+     ],
+     [
+      387,
+      1047
+     ],
+     [
+      387,
+      1936
+     ],
+     [
+      387,
+      1939
+     ],
+     [
+      388,
+      397
+     ],
+     [
+      388,
+      433
+     ],
+     [
+      389,
+      433
+     ],
+     [
+      394,
+      397
+     ],
+     [
+      394,
+      398
+     ],
+     [
+      394,
+      432
+     ],
+     [
+      395,
+      397
+     ],
+     [
+      405,
+      1044
+     ],
+     [
+      405,
+      1047
+     ],
+     [
+      405,
+      1048
+     ],
+     [
+      405,
+      1932
+     ],
+     [
+      405,
+      1933
+     ],
+     [
+      405,
+      1936
+     ],
+     [
+      405,
+      1939
+     ],
+     [
+      409,
+      1236
+     ],
+     [
+      409,
+      1237
+     ],
+     [
+      409,
+      1240
+     ],
+     [
+      409,
+      1934
+     ],
+     [
+      410,
+      1048
+     ],
+     [
+      410,
+      1235
+     ],
+     [
+      410,
+      1237
+     ],
+     [
+      411,
+      1232
+     ],
+     [
+      411,
+      1235
+     ],
+     [
+      412,
+      1932
+     ],
+     [
+      412,
+      1933
+     ],
+     [
+      412,
+      1934
+     ],
+     [
+      412,
+      1935
+     ],
+     [
+      413,
+      1236
+     ],
+     [
+      413,
+      1240
+     ],
+     [
+      413,
+      1934
+     ],
+     [
+      413,
+      1935
+     ],
+     [
+      413,
+      1943
+     ],
+     [
+      1042,
+      2760
+     ],
+     [
+      1042,
+      2763
+     ],
+     [
+      1043,
+      2733
+     ],
+     [
+      1043,
+      2734
+     ],
+     [
+      1043,
+      2760
+     ],
+     [
+      1043,
+      2763
+     ],
+     [
+      1044,
+      1932
+     ],
+     [
+      1044,
+      1933
+     ],
+     [
+      1044,
+      1936
+     ],
+     [
+      1044,
+      1939
+     ],
+     [
+      1044,
+      1941
+     ],
+     [
+      1044,
+      1942
+     ],
+     [
+      1044,
+      1943
+     ],
+     [
+      1045,
+      1936
+     ],
+     [
+      1045,
+      1939
+     ],
+     [
+      1045,
+      1940
+     ],
+     [
+      1045,
+      1941
+     ],
+     [
+      1045,
+      1946
+     ],
+     [
+      1046,
+      1939
+     ],
+     [
+      1046,
+      1946
+     ],
+     [
+      1046,
+      2763
+     ],
+     [
+      1047,
+      1933
+     ],
+     [
+      1047,
+      1939
+     ],
+     [
+      1047,
+      1940
+     ],
+     [
+      1047,
+      1946
+     ],
+     [
+      1048,
+      1240
+     ],
+     [
+      1048,
+      1932
+     ],
+     [
+      1048,
+      1934
+     ],
+     [
+      1048,
+      1935
+     ],
+     [
+      1048,
+      1943
+     ],
+     [
+      1051,
+      1935
+     ],
+     [
+      1177,
+      1475
+     ],
+     [
+      1186,
+      1204
+     ],
+     [
+      1187,
+      1204
+     ],
+     [
+      1187,
+      1205
+     ],
+     [
+      1189,
+      1200
+     ],
+     [
+      1189,
+      1203
+     ],
+     [
+      1189,
+      1205
+     ],
+     [
+      1190,
+      1200
+     ],
+     [
+      1210,
+      2518
+     ],
+     [
+      1213,
+      2444
+     ],
+     [
+      1231,
+      2739
+     ],
+     [
+      1935,
+      2896
+     ],
+     [
+      1936,
+      1946
+     ],
+     [
+      1936,
+      2763
+     ],
+     [
+      1937,
+      2763
+     ],
+     [
+      1938,
+      2763
+     ],
+     [
+      1939,
+      2763
+     ],
+     [
+      2884,
+      2897
+     ],
+     [
+      2884,
+      2898
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.442084908,
+    0.00722521,
+    0.49490732
+   ]
+  },
+  {
+   "case_id": "TH_IP_45",
+   "digit": "THUMB",
+   "joint": "IP",
+   "angle_deg": 45.0,
+   "bone": "THUMB_IP_R",
+   "axis": "bone_local_X",
+   "sign": -1.0,
+   "applied_rotation_deg": -45.0,
+   "target_patch": "THUMB_IP",
+   "target_patch_vertex_count": 98,
+   "target_vertex_displacement_max_mm": 11.481410453,
+   "target_vertex_displacement_mean_mm": 3.066081339,
+   "hard_blockers": {
+    "nan_inf_vertices": 0,
+    "nan_inf_faces": 0,
+    "min_face_area_m2": 1.8178929995766023e-07,
+    "min_face_area_ratio": 0.019443368702767944,
+    "max_face_area_ratio": 6.097307385109912,
+    "collapsed_faces": 0,
+    "min_edge_ratio": 0.28620235726460636,
+    "max_edge_ratio": 12.916478175236389,
+    "degenerate_edges": 0,
+    "new_severe_self_intersection_pairs": 159,
+    "new_self_intersection_samples": [
+     [
+      65,
+      1228
+     ],
+     [
+      65,
+      1232
+     ],
+     [
+      66,
+      405
+     ],
+     [
+      66,
+      410
+     ],
+     [
+      66,
+      1232
+     ],
+     [
+      66,
+      1235
+     ],
+     [
+      66,
+      1237
+     ],
+     [
+      78,
+      376
+     ],
+     [
+      78,
+      410
+     ],
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1237
+     ],
+     [
+      78,
+      1934
+     ]
+    ],
+    "_newp": [
+     [
+      65,
+      1228
+     ],
+     [
+      65,
+      1232
+     ],
+     [
+      66,
+      405
+     ],
+     [
+      66,
+      410
+     ],
+     [
+      66,
+      1232
+     ],
+     [
+      66,
+      1235
+     ],
+     [
+      66,
+      1237
+     ],
+     [
+      78,
+      376
+     ],
+     [
+      78,
+      410
+     ],
+     [
+      78,
+      1236
+     ],
+     [
+      78,
+      1237
+     ],
+     [
+      78,
+      1934
+     ],
+     [
+      78,
+      1935
+     ],
+     [
+      79,
+      1236
+     ],
+     [
+      79,
+      1240
+     ],
+     [
+      79,
+      1934
+     ],
+     [
+      79,
+      1935
+     ],
+     [
+      358,
+      2877
+     ],
+     [
+      358,
+      2888
+     ],
+     [
+      359,
+      2888
+     ],
+     [
+      359,
+      2889
+     ],
+     [
+      360,
+      433
+     ],
+     [
+      360,
+      434
+     ],
+     [
+      363,
+      434
+     ],
+     [
+      363,
+      2876
+     ],
+     [
+      363,
+      2877
+     ],
+     [
+      365,
+      384
+     ],
+     [
+      365,
+      385
+     ],
+     [
+      365,
+      391
+     ],
+     [
+      376,
+      412
+     ],
+     [
+      376,
+      413
+     ],
+     [
+      376,
+      1048
+     ],
+     [
+      376,
+      1051
+     ],
+     [
+      376,
+      1932
+     ],
+     [
+      377,
+      1051
+     ],
+     [
+      380,
+      385
+     ],
+     [
+      380,
+      386
+     ],
+     [
+      381,
+      386
+     ],
+     [
+      381,
+      387
+     ],
+     [
+      387,
+      405
+     ],
+     [
+      387,
+      1046
+     ],
+     [
+      387,
+      1047
+     ],
+     [
+      387,
+      1933
+     ],
+     [
+      387,
+      1936
+     ],
+     [
+      387,
+      1939
+     ],
+     [
+      387,
+      1941
+     ],
+     [
+      388,
+      402
+     ],
+     [
+      391,
+      401
+     ],
+     [
+      391,
+      402
+     ],
+     [
+      394,
+      397
+     ],
+     [
+      394,
+      433
+     ],
+     [
+      395,
+      396
+     ],
+     [
+      395,
+      397
+     ],
+     [
+      395,
+      402
+     ],
+     [
+      405,
+      415
+     ],
+     [
+      405,
+      1044
+     ],
+     [
+      405,
+      1045
+     ],
+     [
+      405,
+      1046
+     ],
+     [
+      405,
+      1047
+     ],
+     [
+      405,
+      1933
+     ],
+     [
+      405,
+      1936
+     ],
+     [
+      405,
+      1939
+     ],
+     [
+      408,
+      1237
+     ],
+     [
+      409,
+      1237
+     ],
+     [
+      409,
+      1934
+     ],
+     [
+      410,
+      412
+     ],
+     [
+      410,
+      415
+     ],
+     [
+      410,
+      1932
+     ],
+     [
+      410,
+      1933
+     ],
+     [
+      411,
+      1232
+     ],
+     [
+      411,
+      1235
+     ],
+     [
+      411,
+      1237
+     ],
+     [
+      412,
+      1932
+     ],
+     [
+      412,
+      1933
+     ],
+     [
+      412,
+      1935
+     ],
+     [
+      413,
+      1237
+     ],
+     [
+      413,
+      1934
+     ],
+     [
+      413,
+      1935
+     ],
+     [
+      414,
+      1237
+     ],
+     [
+      415,
+      1235
+     ],
+     [
+      415,
+      1237
+     ],
+     [
+      415,
+      1933
+     ],
+     [
+      415,
+      1941
+     ],
+     [
+      415,
+      1942
+     ],
+     [
+      446,
+      2872
+     ],
+     [
+      446,
+      2873
+     ],
+     [
+      446,
+      2889
+     ],
+     [
+      447,
+      2873
+     ],
+     [
+      447,
+      2884
+     ],
+     [
+      1041,
+      2225
+     ],
+     [
+      1041,
+      2226
+     ],
+     [
+      1042,
+      2733
+     ],
+     [
+      1042,
+      2760
+     ],
+     [
+      1042,
+      2762
+     ],
+     [
+      1042,
+      2763
+     ],
+     [
+      1043,
+      1228
+     ],
+     [
+      1043,
+      2733
+     ],
+     [
+      1043,
+      2734
+     ],
+     [
+      1043,
+      2763
+     ],
+     [
+      1044,
+      1932
+     ],
+     [
+      1044,
+      1933
+     ],
+     [
+      1044,
+      1936
+     ],
+     [
+      1044,
+      1939
+     ],
+     [
+      1045,
+      1228
+     ],
+     [
+      1045,
+      1232
+     ],
+     [
+      1045,
+      1941
+     ],
+     [
+      1045,
+      1945
+     ],
+     [
+      1045,
+      2734
+     ],
+     [
+      1045,
+      2763
+     ],
+     [
+      1046,
+      1939
+     ],
+     [
+      1046,
+      1945
+     ],
+     [
+      1046,
+      1946
+     ],
+     [
+      1046,
+      2763
+     ],
+     [
+      1047,
+      1933
+     ],
+     [
+      1047,
+      1939
+     ],
+     [
+      1047,
+      1940
+     ],
+     [
+      1047,
+      1946
+     ],
+     [
+      1048,
+      1932
+     ],
+     [
+      1048,
+      1935
+     ],
+     [
+      1051,
+      1935
+     ],
+     [
+      1177,
+      1475
+     ],
+     [
+      1182,
+      1208
+     ],
+     [
+      1186,
+      1204
+     ],
+     [
+      1186,
+      1208
+     ],
+     [
+      1187,
+      1204
+     ],
+     [
+      1187,
+      1205
+     ],
+     [
+      1189,
+      1200
+     ],
+     [
+      1189,
+      1203
+     ],
+     [
+      1189,
+      1205
+     ],
+     [
+      1190,
+      1196
+     ],
+     [
+      1190,
+      1200
+     ],
+     [
+      1194,
+      1196
+     ],
+     [
+      1210,
+      2518
+     ],
+     [
+      1213,
+      2444
+     ],
+     [
+      1217,
+      2224
+     ],
+     [
+      1217,
+      2227
+     ],
+     [
+      1221,
+      2760
+     ],
+     [
+      1221,
+      2762
+     ],
+     [
+      1222,
+      2225
+     ],
+     [
+      1222,
+      2226
+     ],
+     [
+      1231,
+      2736
+     ],
+     [
+      1231,
+      2739
+     ],
+     [
+      1231,
+      2741
+     ],
+     [
+      1935,
+      2896
+     ],
+     [
+      1936,
+      1940
+     ],
+     [
+      1936,
+      1941
+     ],
+     [
+      1936,
+      1945
+     ],
+     [
+      1936,
+      1946
+     ],
+     [
+      1936,
+      2763
+     ],
+     [
+      1937,
+      2762
+     ],
+     [
+      1938,
+      2762
+     ],
+     [
+      1939,
+      2763
+     ],
+     [
+      1941,
+      2763
+     ],
+     [
+      1945,
+      2763
+     ],
+     [
+      1946,
+      2763
+     ],
+     [
+      1947,
+      2762
+     ],
+     [
+      1947,
+      2763
+     ],
+     [
+      2884,
+      2898
+     ],
+     [
+      2885,
+      2898
+     ]
+    ],
+    "topology": {
+     "V": 3416,
+     "E": 6828,
+     "F": 3414,
+     "TRIS": 6828
+    },
+    "topology_unchanged": true
+   },
+   "non_target_clean_vertex_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "mean_mm": 9.701e-06,
+     "vertex_count": 341
+    },
+    "MIDDLE": {
+     "max_mm": 3.0034e-05,
+     "mean_mm": 7.542e-06,
+     "vertex_count": 362
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "mean_mm": 9.946e-06,
+     "vertex_count": 385
+    },
+    "LITTLE": {
+     "max_mm": 3.0164e-05,
+     "mean_mm": 9.031e-06,
+     "vertex_count": 402
+    }
+   },
+   "non_target_sanctioned_cross_blend_displacement_mm": {
+    "INDEX": {
+     "max_mm": 1.863e-06,
+     "vertex_count": 24
+    },
+    "MIDDLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "RING": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    },
+    "LITTLE": {
+     "max_mm": 0.0,
+     "vertex_count": 0
+    }
+   },
+   "non_target_declared_shaft_band_displacement_mm": {
+    "INDEX": {
+     "max_mm": 5.967e-05,
+     "vertex_count": 81
+    },
+    "MIDDLE": {
+     "max_mm": 7.451e-06,
+     "vertex_count": 72
+    },
+    "RING": {
+     "max_mm": 3.1224e-05,
+     "vertex_count": 109
+    },
+    "LITTLE": {
+     "max_mm": 1.1176e-05,
+     "vertex_count": 64
+    }
+   },
+   "forearm_displacement_mm": {
+    "max_mm": 7.451e-06,
+    "mean_mm": 1.321e-06
+   },
+   "tip_landmark_world": [
+    1.437436938,
+    0.000601236,
+    0.49268353
+   ]
+  }
+ ]
+}

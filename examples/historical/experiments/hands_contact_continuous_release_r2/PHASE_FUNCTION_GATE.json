@@ -1,0 +1,36 @@
+{
+  "pass_": true,
+  "one_mechanism": "quintic add-on to original A2 release-follow target; no reset at role PREPARING label",
+  "boundaries": [
+    {
+      "time": 3.778568,
+      "value": 0.0,
+      "value_left": 0.0,
+      "value_right": 1.5624941329594343e-16,
+      "left_secant": 0.0,
+      "right_secant": 1.5624941329594343e-09
+    },
+    {
+      "time": 3.818568,
+      "value": 1.0,
+      "value_left": 1.0,
+      "value_right": 1.0,
+      "left_secant": 0.0,
+      "right_secant": 0.0
+    },
+    {
+      "time": 3.9178535,
+      "value": 0.0,
+      "value_left": 2.220446049250313e-16,
+      "value_right": 0.0,
+      "left_secant": -2.220446049250313e-09,
+      "right_secant": 0.0
+    }
+  ],
+  "off_extra_offset": 0.0,
+  "off_extra_velocity": 0.0,
+  "old_follow_seconds": 0.04,
+  "next_exit": 3.9178535,
+  "off_source": "Exact original contact left limit; release remains NOTE_OFF not continued MIDI hold",
+  "formula": "P_source(t) + smooth((t-OFF)/follow)*(1-smooth((t-OFF-follow)/(prepare_exit-OFF-follow)))*witness_displacement"
+}

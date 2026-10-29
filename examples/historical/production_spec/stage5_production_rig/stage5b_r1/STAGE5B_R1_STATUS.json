@@ -1,0 +1,76 @@
+{
+  "stage": "STAGE5B_R1_PRODUCTION_SKIN_WEIGHT_INITIAL_BINDING_AND_STATIC_AUDIT",
+  "generated_at": "2026-09-29T23:09:00+08:00",
+  "status": "READY_FOR_HUMAN_REVIEW",
+  "production_skin_weight_final": "NOT_YET_APPROVED",
+  "stage6": "NOT_STARTED",
+  "input_master": {
+    "path": "stage5_production_rig/stage5a_r2a/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_R2A.blend",
+    "sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+    "unchanged": true
+  },
+  "candidate": {
+    "path": "stage5_production_rig/stage5b_r1/RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1.blend",
+    "sha256": "8f4c6901fdae417e3855d388f9739ebea10863f0ebdbfedf0df8d79a751c308d",
+    "bytes": 2307647
+  },
+  "mesh_topology": {
+    "V": 3416, "E": 6828, "F": 3414, "TRIS": 6828,
+    "topology_delta_vs_r2a_master": 0,
+    "uv_delta": 0, "material_assignment_delta": 0, "nail_face_delta": 0
+  },
+  "binding": {
+    "parent": "RIGHT_HAND_PRODUCTION_RIG",
+    "armature_modifier": "PRODUCTION_ARMATURE",
+    "world_delta_mm": 0.0,
+    "zero_pose_bind": "PASS",
+    "max_vertex_delta_mm": 5.967e-05,
+    "mean_vertex_delta_mm": 5.893e-06
+  },
+  "deform_vertex_groups": 16,
+  "tip_helper_no_weight": 5,
+  "weight_method": "SEMANTIC REGION + BONE LOCAL DISTANCE + JOINT TRANSITION BLEND + GEODESIC/OWNERSHIP GUARD (deterministic)",
+  "static_gates": {
+    "G1_unweighted_vertices": 0,
+    "G2_negative_or_nan_weights": 0,
+    "G3_max_influences": 4,
+    "G3_distribution": {"1": 552, "4": 2864, "0": 0, "2": 0, "3": 0, ">4": 0},
+    "G4_worst_normalization_error": 4.4005e-08,
+    "G5_cross_digit_leak_entries": 0,
+    "G5_sanctioned_palm_fan_entries": 1193,
+    "G5_sanctioned_first_web_entries": 62,
+    "G6_finger_to_forearm_leak": 0,
+    "G7_pip_dip_to_palm_leak": 0,
+    "G8_zero_pose_bind": "PASS",
+    "G9_parent_bind_world_delta_mm": 0.0,
+    "G10_first_web_violations": 0,
+    "G11_nail_audit_thumb_correct_fraction": 0.9091,
+    "G11_nail_audit_four_fingers_correct_fraction": 1.0,
+    "G12_prune_max_before": 6, "G12_prune_max_after": 4,
+    "G12_prune_vertices": 1690, "G12_prune_discarded_weight": 0.298573,
+    "G13_topology_drift": 0
+  },
+  "all_static_gates_pass": true,
+  "renders": {
+    "dir": "stage5_production_rig/stage5b_r1/renders",
+    "count": 12,
+    "total_bytes": 9285581,
+    "files": [
+      "STAGE5B_R1_WEIGHT_WRIST.png",
+      "STAGE5B_R1_WEIGHT_THUMB_CMC.png",
+      "STAGE5B_R1_WEIGHT_THUMB_MCP.png",
+      "STAGE5B_R1_WEIGHT_THUMB_IP.png",
+      "STAGE5B_R1_WEIGHT_INDEX_MCP.png",
+      "STAGE5B_R1_WEIGHT_INDEX_PIP.png",
+      "STAGE5B_R1_WEIGHT_INDEX_DIP.png",
+      "STAGE5B_R1_WEIGHT_FIRST_WEB.png",
+      "STAGE5B_R1_WEIGHT_PALM_FAN.png",
+      "STAGE5B_R1_WEIGHT_CROSS_DIGIT_LEAK.png",
+      "STAGE5B_R1_BIND_OVERVIEW_DORSAL.png",
+      "STAGE5B_R1_BIND_OVERVIEW_PALMAR.png"
+    ]
+  },
+  "render_script_fix": "make_legend color_ramp element loop was infinite (static snapshot of elements list); changed to need = 5 - len(el) incremental add. Affects legend material construction only, not weights/geometry.",
+  "thumb_distal_gate_compliance": "THUMB_IP_TO_TIP_STRAIGHT_CHORD_CONTAINMENT = DIAGNOSTIC_ONLY honored; weight ownership follows distal mesh (THUMB_IP_R dominant at thumb distal, 20/22 nail correct).",
+  "next_step": "Human Review -> set PRODUCTION_SKIN_WEIGHT_FINAL=APPROVED -> proceed to Stage6 GATE3 deform test."
+}

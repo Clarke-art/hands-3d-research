@@ -1,0 +1,69 @@
+{
+  "candidate_count": 1,
+  "source_actions_used": false,
+  "scale": 1,
+  "root": "one bounded shared neutral palm placement per hand optimized over all home fingers; constant across excerpt, never per-note teleport",
+  "root_height_m": [
+    0.055,
+    0.085
+  ],
+  "root_yaw_deg": [
+    -12,
+    12
+  ],
+  "finger_DOF": "3 bounded palmar flexions plus base spread; no axial twist; no negative flexion",
+  "long_finger_flex_bounds_deg": [
+    [
+      0,
+      75
+    ],
+    [
+      0,
+      95
+    ],
+    [
+      0,
+      65
+    ]
+  ],
+  "thumb_flex_bounds_deg": [
+    [
+      0,
+      40
+    ],
+    [
+      0,
+      55
+    ],
+    [
+      0,
+      55
+    ]
+  ],
+  "base_spread_deg": {
+    "thumb": [
+      -35,
+      35
+    ],
+    "other": [
+      -28,
+      28
+    ]
+  },
+  "target_hover_m": 0.012,
+  "phases_seconds": {
+    "PREPARATION_before_on": 0.18,
+    "APPROACH_before_on": 0.1,
+    "CONTACT": 0,
+    "KEY_PRESS_after_on": 0.035,
+    "RELEASE_after_off": 0.07,
+    "NEXT_NOTE_TRANSITION": "return to home hover through same release curve"
+  },
+  "key_audio_clock": "same absolute timeline; NOTE_ON is first contact and key-down start; key reaches full travel 35ms later",
+  "optimizer": "one global home placement solve per hand (max200 evaluations), then one deterministic sequential local joint solve per finger and120Hz observation (max35 evaluations); no random restarts or tuning sweeps",
+  "contact_tolerance_mm": {
+    "vertical": 3,
+    "horizontal": 2
+  },
+  "skin_variant_count": 1
+}

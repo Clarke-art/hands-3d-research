@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "checks": {
+    "cap_frozen37_faces25_hash": true,
+    "cap_payload_matches_authority": true,
+    "fresh_R3_frozen_combined": true,
+    "fresh_R3_membership": true,
+    "old9_superseded_native_index": true,
+    "native_old9_9_of_9_INDEX_SURFACE": true,
+    "corrected_kinematics_applied": true,
+    "candidate_byte_hash": true,
+    "saved_weight_vector_hash": true,
+    "human_closure_complete": true,
+    "human_closure_sources_unchanged": true,
+    "cap37_preserved_all_THUMB": true,
+    "fresh_boundary_authoritative": true,
+    "FIRST_WEB_membership_preserved": true
+  },
+  "input_authorities": {
+    "cap37": {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_human_cap_authority_freeze_r1/THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+      "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256"
+    },
+    "fresh_R3": {
+      "path": "audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1.json",
+      "sha256": "470cc182b643e92f0f48f4bea119f0e0c3a45d1c182d3610345ac787f19c98e9"
+    },
+    "corrected_rig": {
+      "path": "production_spec/stage5_production_rig/human_thumb_kinematic_authority_correction_r1/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+      "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+    },
+    "R2_candidate": {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+      "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+    },
+    "targeted_human_closure": {
+      "path": "production_spec/stage5_production_rig/targeted_deformation_final_human_closure_r1/TARGETED_DEFORMATION_FINAL_HUMAN_CLOSURE_R1.json",
+      "sha256": "dae471886d0b267c407f9c9990812c67fdec23940c760040858e2b633c18f719"
+    }
+  },
+  "native_old9_classification_source": {
+    "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1/CURRENT_CAP9_NATIVE_BRANCH_CLASSIFICATION.json",
+    "sha256": "b3f84ea9f1a0025df8fcc8c17bb0d15d33e4209dc1610ee0d204a9e5496a1103"
+  },
+  "no_bound_numbers_computed": true,
+  "live_reopen_in_both_independent_runs": "PASS",
+  "live_reopen_checks": {
+    "mesh": true,
+    "rig": true,
+    "weights": true,
+    "group_order": true,
+    "weight_hash": true,
+    "corrected_all21bones": true
+  },
+  "live_reopen_timing": "Performed and asserted before path or pose-bound numeric evaluation in each run."
+}

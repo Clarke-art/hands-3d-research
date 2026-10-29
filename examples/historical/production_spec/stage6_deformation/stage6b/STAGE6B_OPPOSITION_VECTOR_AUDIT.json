@@ -1,0 +1,197 @@
+{
+ "stage": "STAGE6B_OPPOSITION_VECTOR_AUDIT",
+ "generated_at": "2026-09-30T20:33:28.689683+08:00",
+ "authority": "derived from the measured CMC local-axis Jacobian; no hand-tuned angle",
+ "target_direction": "T_OPPOSE = normalize(ULNAR + PALMAR)",
+ "solve": {
+  "form": "(J^T J + lambda I + mu (J^T ez ez^T J + J^T ey ey^T J)) r = J^T t  ;  r <- r/|r|",
+  "lambda": 2.1409e-11,
+  "mu": 1.0,
+  "lambda_note": "ridge = 1e-9 * trace(J^T J), scale-aware, numerically stabilising only",
+  "mu_note": "weight of the DISTAL(+Z) / DORSAL(+Y) avoidance term; mu = 1 gives that penalty the same weight as the T_OPPOSE alignment term",
+  "least_squares_reference_r_align": [
+   -0.960600078,
+   0.237946838,
+   -0.143627465
+  ],
+  "xz_only_solution": [
+   -0.897280753,
+   0.0,
+   -0.441460401
+  ]
+ },
+ "penalized_solution": {
+  "coefficients_local_XYZ": [
+   -0.261583656,
+   -0.963998139,
+   -0.047766149
+  ],
+  "achieved_tip_motion_direction": [
+   -0.88407582,
+   -0.429991245,
+   0.183077648
+  ],
+  "cos_with_T_OPPOSE": 0.929185737,
+  "tilt_from_T_OPPOSE_deg": 21.69176,
+  "distal_component": 0.183077653,
+  "dorsal_component": -0.42999125
+ },
+ "xz_only_cross_check": {
+  "coefficients_local_XYZ": [
+   -0.897280753,
+   0.0,
+   -0.441460401
+  ],
+  "cos_with_T_OPPOSE": 0.929184625,
+  "distal_component": 0.18308333,
+  "dorsal_component": -0.429990477
+ },
+ "axial_twist_qualification": {
+  "axis": "CMC local Y (longitudinal)",
+  "criterion": "pad proxy normal = -(approved thumb NAIL normal); take the sign of local Y that increases dot(pad_proxy_normal, T_OPPOSE)",
+  "probes": {
+   "3deg": {
+    "+1": {
+     "pad_alignment_with_T_OPPOSE": 0.977765143,
+     "alignment_change_vs_bind": -0.008932441,
+     "axis_change_deg": 3.01662,
+     "pad_normal": [
+      -0.544629,
+      -0.838139,
+      0.03002
+     ]
+    },
+    "-1": {
+     "pad_alignment_with_T_OPPOSE": 0.992788285,
+     "alignment_change_vs_bind": 0.006090701,
+     "axis_change_deg": 2.943574,
+     "pad_normal": [
+      -0.626105,
+      -0.77791,
+      0.053377
+     ]
+    }
+   },
+   "5deg": {
+    "+1": {
+     "pad_alignment_with_T_OPPOSE": 0.970476866,
+     "alignment_change_vs_bind": -0.016220719,
+     "axis_change_deg": 4.989944,
+     "pad_normal": [
+      -0.516383,
+      -0.856078,
+      0.021865
+     ]
+    },
+    "-1": {
+     "pad_alignment_with_T_OPPOSE": 0.995369881,
+     "alignment_change_vs_bind": 0.008672297,
+     "axis_change_deg": 4.871822,
+     "pad_normal": [
+      -0.651095,
+      -0.756571,
+      0.060632
+     ]
+    }
+   },
+   "7deg": {
+    "+1": {
+     "pad_alignment_with_T_OPPOSE": 0.962044239,
+     "alignment_change_vs_bind": -0.024653345,
+     "axis_change_deg": 6.964748,
+     "pad_normal": [
+      -0.48754,
+      -0.872996,
+      0.01351
+     ]
+    },
+    "-1": {
+     "pad_alignment_with_T_OPPOSE": 0.996911913,
+     "alignment_change_vs_bind": 0.010214329,
+     "axis_change_deg": 6.921836,
+     "pad_normal": [
+      -0.676945,
+      -0.732902,
+      0.067829
+     ]
+    }
+   }
+  },
+  "signs_across_magnitudes": [
+   "-1",
+   "-1",
+   "-1"
+  ],
+  "stable_across_magnitudes": true,
+  "delta_threshold": 0.0001,
+  "separation_threshold": 0.0001,
+  "CMC_AXIAL_TWIST_SIGN": "-1"
+ },
+ "CMC_OPPOSITION_UNIT_ROTATION": {
+  "authority": "DIRECTION from the X/Z-restricted regularized least-squares solve (local X/Z dominant, per spec section 10); local-Y coefficient MAGNITUDE from a documented share cap and SIGN from the axial-twist qualification (spec section 11); if the twist sign is UNRESOLVED the local-Y coefficient is forced to 0",
+  "coefficients_local_XYZ": [
+   -0.868788302,
+   -0.25,
+   -0.427442193
+  ],
+  "unit_quaternion_local": [
+   0.877582609653,
+   -0.416519254446,
+   -0.119856372476,
+   -0.204926684499
+  ],
+  "is_unit_vector": true,
+  "xz_share_of_magnitude": 0.968246,
+  "local_y_twist_share_of_magnitude": 0.25,
+  "Y_SHARE_CAP": 0.25,
+  "Y_SHARE_CAP_note": "diagnostic construction cap (not an anatomical parameter): the axial-twist component may carry at most 25% of the total rotation magnitude so that local X/Z stays dominant",
+  "solved_uncapped_y_ratio": 3.625293,
+  "solved_uncapped_y_ratio_note": "|r_pen.y| / |r_pen_xz| from the unrestricted solve; it is far above the cap, which is exactly why the spec requires the X/Z-dominant restriction",
+  "achieved_tip_motion_direction": [
+   -0.89346832,
+   -0.41115725,
+   0.180732056
+  ],
+  "cos_with_T_OPPOSE": 0.922509569,
+  "tilt_from_T_OPPOSE_deg": 22.704234,
+  "distal_component": 0.18073206,
+  "dorsal_component": -0.411157243,
+  "xz_only_variant": {
+   "coefficients_local_XYZ": [
+    -0.897280753,
+    0.0,
+    -0.441460401
+   ],
+   "cos_with_T_OPPOSE": 0.929184625,
+   "distal_component": 0.18308333,
+   "dorsal_component": -0.429990477,
+   "note": "reported for transparency; it reaches the same T_OPPOSE alignment as the adopted direction, so the X/Z restriction costs nothing"
+  },
+  "case_construction": "case pose quaternion = Quaternion(unit_direction, radians(total_magnitude)); total magnitudes are the diagnostic 10/20/30 deg levels, NOT teaching values",
+  "order_dependence": "NONE - a single exponential-map rotation, not an Euler sequence"
+ },
+ "log": [
+  "nail faces = 12 (vertices 22)",
+  "bind pad proxy normal = [-0.586645, -0.808756, 0.041965]",
+  "T_OPPOSE = [-0.707107, -0.707107, -0.0]",
+  "bind pad alignment with T_OPPOSE = 0.986698",
+  "probe X+5    tip disp 8.783313 mm  T_OPPOSE -8.392046 mm  pad_dalign -0.010345",
+  "probe X-5    tip disp 8.783299 mm  T_OPPOSE +8.573903 mm  pad_dalign +0.002672",
+  "probe Y+5    tip disp 2.150455 mm  T_OPPOSE +2.105630 mm  pad_dalign -0.016221",
+  "probe Y-5    tip disp 2.150416 mm  T_OPPOSE -2.096945 mm  pad_dalign +0.008672",
+  "probe Z+5    tip disp 9.032086 mm  T_OPPOSE -1.199480 mm  pad_dalign +0.001865",
+  "probe Z-5    tip disp 9.032031 mm  T_OPPOSE +1.337243 mm  pad_dalign -0.002080",
+  "Jacobian (m/rad):\n[[ 0.058625 -0.017131  0.082658]\n [ 0.078848 -0.016921 -0.062103]\n [-0.021382  0.005125  0.001665]]",
+  "r_pen  = [-0.261584, -0.963998, -0.047766]  cos(T_OPPOSE)=0.929186  distal=+0.183078 dorsal=-0.429991",
+  "r_xz   = [-0.897281, 0.0, -0.44146]  cos(T_OPPOSE)=0.929185  distal=+0.183083 dorsal=-0.429990",
+  "twist Y +-3 deg: d_align(+) = -0.008932  d_align(-) = +0.006091",
+  "twist Y +-5 deg: d_align(+) = -0.016221  d_align(-) = +0.008672",
+  "twist Y +-7 deg: d_align(+) = -0.024653  d_align(-) = +0.010214",
+  "twist signs across +-3/5/7 deg = ['-1', '-1', '-1'] -> stable=True ; adopted = -1",
+  "unit rotation XZ-only direction  = [-0.897280753, 0.0, -0.441460401]  cos(T_OPPOSE)=0.929185",
+  "CMC_OPPOSITION_UNIT_ROTATION (local X,Y,Z coefficients) = [-0.868788302, -0.25, -0.427442193]",
+  "  X/Z share of magnitude = 0.9682 ; local-Y (twist) share = 0.2500",
+  "achieved: cos(T_OPPOSE)=0.922510  distal=+0.180732  dorsal=-0.411157  tilt_deg=22.704",
+  "wrote STAGE6B_CMC_AXIS_PROBE_AUDIT.json"
+ ]
+}

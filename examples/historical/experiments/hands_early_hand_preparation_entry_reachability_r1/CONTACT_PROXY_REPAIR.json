@@ -1,0 +1,12 @@
+{
+  "reason": "Measured selected-polygon max-gap inequality jumps 1.735mm for a 1e-6 control perturbation despite unchanged true contact requirement",
+  "before_sha256": "5a4b00cd79d2f4da8c711040228a9d41e3b851c3c51081d34d44eb233b1368a0",
+  "after_sha256": "f141db17cf31f4d77e925f5ce861a6bc3cc6b8aec77f73519a68dea6238e2ca8",
+  "changes": [
+    "Crossing margin is max over all projected pulp triangles of min(-min_gap,max_gap): true existence of a crossing face, no selected-face polygon height jump",
+    "Clipped witness may lie on playable boundary; artificial 0.001mm witness inset removed. Original pad inset remains, actual pad-inside/area/crossing contract unchanged."
+  ],
+  "physical_acceptance_gates_unchanged": true,
+  "historical_module_unchanged": true,
+  "derivative_guard_not_disabled": true
+}

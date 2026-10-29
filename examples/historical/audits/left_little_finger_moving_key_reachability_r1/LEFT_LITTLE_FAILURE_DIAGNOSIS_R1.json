@@ -1,0 +1,44 @@
+{
+  "primary_failure_cause": "FIXED_ROOT_REACHABILITY_LIMIT",
+  "confidence": "SUPPORTED",
+  "scope": "Local available downward motion under the inherited engineering domain; not a global impossibility or physiological claim.",
+  "four_causes": {
+    "FIXED_ROOT_REACHABILITY_LIMIT": {
+      "evidence_level": "SUPPORTED",
+      "evidence": [
+        "Both events reproduce 7.689142mm skin gap at full depression; idle fingers and root fixed.",
+        "At full-down MCP/spread have 0.5deg engineering headroom; DIP is at 0deg and increasing it locally raises the pad.",
+        "PIP downward sensitivity only 0.1073mm/deg while lateral drift is +0.3582mm/deg; fixed pad is 1.0032mm from the right edge.",
+        "Even first-order use of all remaining LONG-domain headroom predicts only about 1.33mm downward relief; required relief to tolerance is 4.689mm. This is a local estimate, not a global bound."
+      ]
+    },
+    "FINGER_TRAJECTORY_PLANNING_FAILURE": {
+      "evidence_level": "UNPROVEN",
+      "evidence": [
+        "Old solver is only one bounded local fit. No independent global reachability certificate exists; nonlinear alternatives cannot be excluded."
+      ]
+    },
+    "CONSTRAINT_CONFLICT": {
+      "evidence_level": "UNPROVEN",
+      "evidence": [
+        "Bounded-downward versus lateral-placement tradeoff is supported locally, but no formal infeasibility certificate.",
+        "D2 failure already exists at 0.735 before D3 approach starts 0.830; thumb overlap is not necessary to cause the original failure.",
+        "Root follow can introduce a new thumb/palm conflict during 0.950–1.020 and 1.200–1.270, so these are mandatory probe checks."
+      ]
+    },
+    "CONTACT_TARGET_OR_EVALUATION_ERROR": {
+      "evidence_level": "NOT_REPRODUCED",
+      "evidence": [
+        "Actual mesh top planes and previous rotated-surface gaps agree within 0.0000014mm. Actual moving-key world vertices agree within 0.0000171mm.",
+        "Actual skin and fixed marker differ by only about 0.02mm, far below the failure gap.",
+        "Old pivot implementation bug is already repaired in the inherited saved file."
+      ]
+    }
+  },
+  "causal_hypothesis": "A small shared wrist follow-through can provide missing downward displacement while bounded thumb preparation/release coordination and a small forward translation preserve simultaneous D3 and front-edge palm clearance.",
+  "probe_decision": "ONE_DESIGN_ONLY_CANDIDATE_AUTHORIZED_AND_WARRANTED",
+  "root_translation_evidence": "At .950 several low palm vertices lie only 0.25–6.29mm behind the key front. Up to5mm toward the player is included to test clearance, not arbitrary relocation.",
+  "formal_mesh_rig_change_required": "NO_EVIDENCE",
+  "read_only_source_action_count_changed": false,
+  "static_approval_remains_valid": true
+}

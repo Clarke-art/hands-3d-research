@@ -1,0 +1,29 @@
+{
+  "task": "HANDS_ANATOMICAL_SCULPT_VISUAL_POC_R1",
+  "per_region": {
+    "A": {
+      "result": "VISUAL_DISTORTION",
+      "codex_visual_observation": "侧缘变化可见，但残留收腰／新的分段折点；未达到合理、自然的骨段皮肤轮廓。",
+      "selected_round": 2,
+      "substantive_rounds_executed": 2,
+      "candidate": "A_SCULPT_NOT_APPROVED.blend",
+      "source_round_file": "A_SCULPT_ROUND_2_NOT_APPROVED.blend",
+      "source_and_delivery_bytes_identical": true,
+      "human_approved": false
+    },
+    "B": {
+      "result": "VISUAL_NO_MEANINGFUL_IMPROVEMENT",
+      "codex_visual_observation": "局部填充存在，但未形成足够清楚、可信的第一指蹼自然形体改善；S仍独立保留。",
+      "selected_round": 2,
+      "substantive_rounds_executed": 2,
+      "candidate": "B_SCULPT_NOT_APPROVED.blend",
+      "source_round_file": "B_SCULPT_ROUND_2_NOT_APPROVED.blend",
+      "source_and_delivery_bytes_identical": true,
+      "human_approved": false
+    }
+  },
+  "no_success_inferred_from_displacement": true,
+  "further_sculpt_performed": false,
+  "A_B_combined": false,
+  "stop": "STOP — HUMAN REVIEW"
+}

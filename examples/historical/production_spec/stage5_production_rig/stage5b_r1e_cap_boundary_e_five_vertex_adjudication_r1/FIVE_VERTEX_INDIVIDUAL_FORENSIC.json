@@ -1,0 +1,744 @@
+{
+  "execution": "CAP_BOUNDARY_E_FIVE_VERTEX_ADJUDICATION_R1",
+  "region_identity": "ACCEPTED_UNCHANGED",
+  "E_baseline_authority": "SELECTED_HUMAN_BASELINE",
+  "boundary_authority_applied": false,
+  "production_authority_applied": false,
+  "native_mesh_sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039",
+  "native_mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+  "allowed_disputed_vertex_ids": [
+    297,
+    298,
+    1453,
+    2785,
+    2790
+  ],
+  "other_E_vertex_membership_frozen": true,
+  "other_candidates_reopened": false,
+  "seed_identity_reopened": false,
+  "R3_reopened": false,
+  "vertices": [
+    {
+      "vertex_id": 1453,
+      "baseline_membership": false,
+      "recommended_final_membership": false,
+      "decision": "REMOVE",
+      "decision_status": "ENGINEERING_ADJUDICATION_PENDING_HUMAN",
+      "reason": "The E edge v1382–v341 is already a smooth native boundary continuation (turns22.887/12.272deg), not a clear missing terminal corner. Legal support requires coupled face1220 with v2785; that addition creates concave corners at v1382/v341 and a long outward tab. Rounded skin evidence does not force this selected cap boundary to include it.",
+      "native_branch": "THUMB",
+      "branch_evidence_source": "Frozen independent native partition; inherited fact, branch identity is not reopened",
+      "native_branch_confirmed_for_this_vertex": true,
+      "geodesic_from_v284_mm": 14.550213563213628,
+      "seed_geodesic_path_vertex_ids": [
+        284,
+        1752,
+        505,
+        1754,
+        341,
+        1453
+      ],
+      "euclidean_tip_distance_mm": 10.813822069571268,
+      "native_world_XYZ_mm": [
+        1488.668441772461,
+        -7.242151536047459,
+        464.7541642189026
+      ],
+      "native_normal_area_weighted": [
+        -0.21258239052327238,
+        0.613198307147665,
+        0.7607868054525191
+      ],
+      "distance_to_IP_mm": 17.814252061537985,
+      "IP_to_tip_axis_projection_mm": 15.573533266375618,
+      "axial_depth_from_tip_mm": 6.490462975724016,
+      "circumferential_angle_deg": 231.6511554937336,
+      "radial_distance_to_axis_mm": 8.649429929949276,
+      "normal_tip_axis_component": 0.4087388934765867,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.1308293613220548,
+        "quadratic_principal_curvatures_per_mm": [
+          -0.2451403189642567,
+          -0.05237031745208112
+        ],
+        "quadratic_fit_rms_mm": 0.1907197874363752,
+        "quadratic_fit_rank": 6,
+        "proxy_not_anatomical_authority": true
+      },
+      "terminal_bulb_interpretation": "TIP_FACING_CURVED_BULB_SIDE_SUPPORT; not a claim that all rounded skin must be selected cap",
+      "distal_shaft_interpretation": "NO_CLEAR_SHAFT_SIGNAL_AT_THESE_FIVE; normal-axis component positive and axial depths6.92mm or less",
+      "nail_relation": "NAIL_ADJACENT",
+      "approved_nail_vertex_membership": false,
+      "one_ring_nail_ids": [],
+      "two_ring_nail_ids": [
+        1383,
+        1455
+      ],
+      "native_surface_geodesic_to_nail_mask_mm": 5.894697546847095,
+      "native_euclidean_distance_to_nail_vertices_mm": 5.255626463629207,
+      "nail_margin_support_reason": "No disputed point is on the approved distal nail margin edge v37–v879; nail proximity is not a KEEP rule.",
+      "one_ring": [
+        299,
+        341,
+        2785,
+        2786
+      ],
+      "two_ring_exact_hop_2": [
+        1339,
+        1381,
+        1382,
+        1383,
+        1385,
+        1454,
+        1455,
+        1754
+      ],
+      "native_incident_faces": [
+        {
+          "face_id": 1220,
+          "corner_vertex_ids": [
+            341,
+            1382,
+            2785,
+            1453
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 8.998365936314883,
+          "normal": [
+            -0.1019491912775226,
+            0.5706980368951361,
+            0.8148067949409217
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": true
+        },
+        {
+          "face_id": 1223,
+          "corner_vertex_ids": [
+            1453,
+            2785,
+            1383,
+            299
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 11.26225453323232,
+          "normal": [
+            -0.04284729240512862,
+            0.8858131859398539,
+            0.4620596380865085
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1224,
+          "corner_vertex_ids": [
+            341,
+            1453,
+            2786,
+            1454
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 7.499054896513611,
+          "normal": [
+            -0.26025077309125644,
+            0.2976017949161711,
+            0.9185329100081698
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1225,
+          "corner_vertex_ids": [
+            1453,
+            299,
+            1385,
+            2786
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 12.8551152421935,
+          "normal": [
+            -0.36896068828131795,
+            0.5228669245324477,
+            0.7684257867438834
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        }
+      ],
+      "ring_role": "Coupled outward tab if face1220 added",
+      "individual_variant_analysis_vertex_id": 1453
+    },
+    {
+      "vertex_id": 2785,
+      "baseline_membership": false,
+      "recommended_final_membership": false,
+      "decision": "REMOVE",
+      "decision_status": "ENGINEERING_ADJUDICATION_PENDING_HUMAN",
+      "reason": "Native rounded bulb-side evidence is retained, but legal addition is coupled to v1453 via face1220. The resulting corner turns115.272deg, with new concave endpoints and8.693155mm extra perimeter. It is not classified as shaft merely because g>9; it is excluded to preserve the selected circumferential boundary.",
+      "native_branch": "THUMB",
+      "branch_evidence_source": "Frozen independent native partition; inherited fact, branch identity is not reopened",
+      "native_branch_confirmed_for_this_vertex": true,
+      "geodesic_from_v284_mm": 13.276937321883043,
+      "seed_geodesic_path_vertex_ids": [
+        284,
+        1338,
+        2964,
+        1382,
+        2785
+      ],
+      "euclidean_tip_distance_mm": 10.961912694359397,
+      "native_world_XYZ_mm": [
+        1489.943504333496,
+        -5.631336010992527,
+        463.3471965789795
+      ],
+      "native_normal_area_weighted": [
+        0.07613072635454939,
+        0.8611303452241815,
+        0.5026516100032018
+      ],
+      "distance_to_IP_mm": 17.37562228796339,
+      "IP_to_tip_axis_projection_mm": 15.150669960478963,
+      "axial_depth_from_tip_mm": 6.913326281620671,
+      "circumferential_angle_deg": 215.2324848651629,
+      "radial_distance_to_axis_mm": 8.507023547787476,
+      "normal_tip_axis_component": 0.3692074845557931,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.13869044154016164,
+        "quadratic_principal_curvatures_per_mm": [
+          -0.2856726134038039,
+          -0.030694640294474586
+        ],
+        "quadratic_fit_rms_mm": 0.3162550088969137,
+        "quadratic_fit_rank": 6,
+        "proxy_not_anatomical_authority": true
+      },
+      "terminal_bulb_interpretation": "TIP_FACING_CURVED_BULB_SIDE_SUPPORT; not a claim that all rounded skin must be selected cap",
+      "distal_shaft_interpretation": "NO_CLEAR_SHAFT_SIGNAL_AT_THESE_FIVE; normal-axis component positive and axial depths6.92mm or less",
+      "nail_relation": "NAIL_ADJACENT",
+      "approved_nail_vertex_membership": false,
+      "one_ring_nail_ids": [
+        1383
+      ],
+      "two_ring_nail_ids": [
+        282,
+        2740,
+        2784
+      ],
+      "native_surface_geodesic_to_nail_mask_mm": 3.40470374562945,
+      "native_euclidean_distance_to_nail_vertices_mm": 3.3054487225348557,
+      "nail_margin_support_reason": "No disputed point is on the approved distal nail margin edge v37–v879; nail proximity is not a KEEP rule.",
+      "one_ring": [
+        1339,
+        1382,
+        1383,
+        1453
+      ],
+      "two_ring_exact_hop_2": [
+        282,
+        283,
+        299,
+        341,
+        2740,
+        2784,
+        2786,
+        2964
+      ],
+      "native_incident_faces": [
+        {
+          "face_id": 1220,
+          "corner_vertex_ids": [
+            341,
+            1382,
+            2785,
+            1453
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 8.998365936314883,
+          "normal": [
+            -0.1019491912775226,
+            0.5706980368951361,
+            0.8148067949409217
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": true
+        },
+        {
+          "face_id": 1221,
+          "corner_vertex_ids": [
+            1382,
+            283,
+            1339,
+            2785
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 9.634443102729858,
+          "normal": [
+            0.14847083775375228,
+            0.8745868958666688,
+            0.4615779153241668
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1222,
+          "corner_vertex_ids": [
+            2785,
+            1339,
+            282,
+            1383
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 6.704871029274935,
+          "normal": [
+            0.39014765551082076,
+            0.9202908468889934,
+            0.029147281721445248
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1223,
+          "corner_vertex_ids": [
+            1453,
+            2785,
+            1383,
+            299
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 11.26225453323232,
+          "normal": [
+            -0.04284729240512862,
+            0.8858131859398539,
+            0.4620596380865085
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        }
+      ],
+      "ring_role": "Coupled outward tab if face1220 added",
+      "individual_variant_analysis_vertex_id": 2785
+    },
+    {
+      "vertex_id": 2790,
+      "baseline_membership": false,
+      "recommended_final_membership": false,
+      "decision": "REMOVE",
+      "decision_status": "ENGINEERING_ADJUDICATION_PENDING_HUMAN",
+      "reason": "Native bulb-side geometry is compatible with THUMB, but no incident face can support KEEP within E plus these five vertices. The closest supporting face1243 also requires non-disputed v1342. A KEEP vertex without selected-face support is prohibited, so it remains excluded under the authorized scope.",
+      "native_branch": "THUMB",
+      "branch_evidence_source": "Frozen independent native partition; inherited fact, branch identity is not reopened",
+      "native_branch_confirmed_for_this_vertex": true,
+      "geodesic_from_v284_mm": 13.35450920422004,
+      "seed_geodesic_path_vertex_ids": [
+        284,
+        1752,
+        2963,
+        1450,
+        2790
+      ],
+      "euclidean_tip_distance_mm": 11.160403749322805,
+      "native_world_XYZ_mm": [
+        1495.2895641326904,
+        -21.065030246973038,
+        457.77130126953125
+      ],
+      "native_normal_area_weighted": [
+        0.5994550245994262,
+        -0.7977146609151083,
+        -0.06561244732209717
+      ],
+      "distance_to_IP_mm": 17.807112077421667,
+      "IP_to_tip_axis_projection_mm": 15.395183887066695,
+      "axial_depth_from_tip_mm": 6.668812355032939,
+      "circumferential_angle_deg": 17.921367449518755,
+      "radial_distance_to_axis_mm": 8.948829734733954,
+      "normal_tip_axis_component": 0.3875116815932773,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.14820427450725004,
+        "quadratic_principal_curvatures_per_mm": [
+          -0.2816559448959334,
+          -0.05926145266412473
+        ],
+        "quadratic_fit_rms_mm": 0.24345445129508533,
+        "quadratic_fit_rank": 6,
+        "proxy_not_anatomical_authority": true
+      },
+      "terminal_bulb_interpretation": "TIP_FACING_CURVED_BULB_SIDE_SUPPORT; not a claim that all rounded skin must be selected cap",
+      "distal_shaft_interpretation": "NO_CLEAR_SHAFT_SIGNAL_AT_THESE_FIVE; normal-axis component positive and axial depths6.92mm or less",
+      "nail_relation": "NOT_NAIL_RELATED",
+      "approved_nail_vertex_membership": false,
+      "one_ring_nail_ids": [],
+      "two_ring_nail_ids": [],
+      "native_surface_geodesic_to_nail_mask_mm": 14.583200764782596,
+      "native_euclidean_distance_to_nail_vertices_mm": 12.77746090483899,
+      "nail_margin_support_reason": "No disputed point is on the approved distal nail margin edge v37–v879; nail proximity is not a KEEP rule.",
+      "one_ring": [
+        1342,
+        1389,
+        1449,
+        1450
+      ],
+      "two_ring_exact_hop_2": [
+        285,
+        286,
+        301,
+        339,
+        2743,
+        2779,
+        2789,
+        2963
+      ],
+      "native_incident_faces": [
+        {
+          "face_id": 1240,
+          "corner_vertex_ids": [
+            339,
+            1449,
+            2790,
+            1450
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 7.974476811203046,
+          "normal": [
+            0.41608149154697566,
+            -0.8824014056488324,
+            0.21964505844887305
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1241,
+          "corner_vertex_ids": [
+            1449,
+            301,
+            1389,
+            2790
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 8.681713167203641,
+          "normal": [
+            0.4233949221213316,
+            -0.9057817586544273,
+            -0.017208881740668792
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1242,
+          "corner_vertex_ids": [
+            2790,
+            1389,
+            286,
+            1342
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 8.207687380160827,
+          "normal": [
+            0.7367456258592602,
+            -0.59075018152517,
+            -0.3289682443720456
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1243,
+          "corner_vertex_ids": [
+            1450,
+            2790,
+            1342,
+            285
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 8.528592653085528,
+          "normal": [
+            0.7234348430235281,
+            -0.6801704543646173,
+            -0.11836461003591205
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        }
+      ],
+      "ring_role": "No authorized face-supported addition",
+      "individual_variant_analysis_vertex_id": 2790
+    },
+    {
+      "vertex_id": 297,
+      "baseline_membership": true,
+      "recommended_final_membership": true,
+      "decision": "KEEP",
+      "decision_status": "ENGINEERING_ADJUDICATION_PENDING_HUMAN",
+      "reason": "Face1942 provides a rounded circumferential boundary completion at axial depth5.447803mm. Removing it preserves a disk/loop but introduces a concave notch at v2965 (interior279.457deg) and larger local turns. Its positive tip-facing normal and curved native surface support KEEP; no distance-threshold rule is used.",
+      "native_branch": "THUMB",
+      "branch_evidence_source": "Frozen independent native partition; inherited fact, branch identity is not reopened",
+      "native_branch_confirmed_for_this_vertex": true,
+      "geodesic_from_v284_mm": 13.284339870038787,
+      "seed_geodesic_path_vertex_ids": [
+        284,
+        1752,
+        505,
+        1755,
+        340,
+        1452,
+        297
+      ],
+      "euclidean_tip_distance_mm": 9.693511803540083,
+      "native_world_XYZ_mm": [
+        1491.068720817566,
+        -19.74482834339142,
+        462.88084983825684
+      ],
+      "native_normal_area_weighted": [
+        -0.14992279404546435,
+        -0.7414456823466277,
+        0.6540500408647223
+      ],
+      "distance_to_IP_mm": 18.449484885176762,
+      "IP_to_tip_axis_projection_mm": 16.616193267276543,
+      "axial_depth_from_tip_mm": 5.447802974823091,
+      "circumferential_angle_deg": 332.2041952395098,
+      "radial_distance_to_axis_mm": 8.017830993035433,
+      "normal_tip_axis_component": 0.47293932802463085,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.10543249526792133,
+        "quadratic_principal_curvatures_per_mm": [
+          -0.11346337122251521,
+          -0.04706214978453538
+        ],
+        "quadratic_fit_rms_mm": 0.02134848447070185,
+        "quadratic_fit_rank": 6,
+        "proxy_not_anatomical_authority": true
+      },
+      "terminal_bulb_interpretation": "TIP_FACING_CURVED_BULB_SIDE_SUPPORT; not a claim that all rounded skin must be selected cap",
+      "distal_shaft_interpretation": "NO_CLEAR_SHAFT_SIGNAL_AT_THESE_FIVE; normal-axis component positive and axial depths6.92mm or less",
+      "nail_relation": "NOT_NAIL_RELATED",
+      "approved_nail_vertex_membership": false,
+      "one_ring_nail_ids": [],
+      "two_ring_nail_ids": [],
+      "native_surface_geodesic_to_nail_mask_mm": 19.430119361765666,
+      "native_euclidean_distance_to_nail_vertices_mm": 12.558768241660859,
+      "nail_margin_support_reason": "No disputed point is on the approved distal nail margin edge v37–v879; nail proximity is not a KEEP rule.",
+      "one_ring": [
+        1378,
+        1379,
+        1452
+      ],
+      "two_ring_exact_hop_2": [
+        339,
+        340,
+        343,
+        2788,
+        2789,
+        2965
+      ],
+      "native_incident_faces": [
+        {
+          "face_id": 1235,
+          "corner_vertex_ids": [
+            1452,
+            2788,
+            1379,
+            297
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 5.034192660558679,
+          "normal": [
+            -0.2686912019074403,
+            -0.6878356159827919,
+            0.6743049780352421
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1237,
+          "corner_vertex_ids": [
+            1378,
+            297,
+            1379,
+            2789
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 4.846461653584299,
+          "normal": [
+            -0.08042444518722225,
+            -0.8288103031007468,
+            0.5537195951836775
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1942,
+          "corner_vertex_ids": [
+            2965,
+            1452,
+            297,
+            1378
+          ],
+          "selected_in_E_baseline": true,
+          "surface_area_mm2": 4.292809009943884,
+          "normal": [
+            -0.0846424215224917,
+            -0.683949413096574,
+            0.7246025536828178
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": true
+        }
+      ],
+      "ring_role": "Legal rounded edge completion in face1942/1944",
+      "individual_variant_analysis_vertex_id": 297
+    },
+    {
+      "vertex_id": 298,
+      "baseline_membership": true,
+      "recommended_final_membership": true,
+      "decision": "KEEP",
+      "decision_status": "ENGINEERING_ADJUDICATION_PENDING_HUMAN",
+      "reason": "Face1944 provides the corresponding rounded circumferential completion at axial depth5.344341mm. Removing it preserves a disk/loop but introduces a concave notch at v2966 (interior266.588deg). KEEP maintains the native rounded edge and does not rely on proximity to nail.",
+      "native_branch": "THUMB",
+      "branch_evidence_source": "Frozen independent native partition; inherited fact, branch identity is not reopened",
+      "native_branch_confirmed_for_this_vertex": true,
+      "geodesic_from_v284_mm": 13.367420259735667,
+      "seed_geodesic_path_vertex_ids": [
+        284,
+        1752,
+        505,
+        1755,
+        2966,
+        1380,
+        298
+      ],
+      "euclidean_tip_distance_mm": 9.21376447733871,
+      "native_world_XYZ_mm": [
+        1488.5549545288086,
+        -12.681265361607075,
+        465.76425433158875
+      ],
+      "native_normal_area_weighted": [
+        -0.3958501268791787,
+        -0.09497500821566646,
+        0.9133906200876886
+      ],
+      "distance_to_IP_mm": 18.326984462363068,
+      "IP_to_tip_axis_projection_mm": 16.71965553555146,
+      "axial_depth_from_tip_mm": 5.344340706548174,
+      "circumferential_angle_deg": 269.98755824395937,
+      "radial_distance_to_axis_mm": 7.5054299181459845,
+      "normal_tip_axis_component": 0.4689523515199138,
+      "curvature_proxy": {
+        "normal_variation_rad_per_mm": 0.10619698150921186,
+        "quadratic_principal_curvatures_per_mm": [
+          -0.11542148190586776,
+          -0.04800098831842991
+        ],
+        "quadratic_fit_rms_mm": 0.024272442890317998,
+        "quadratic_fit_rank": 6,
+        "proxy_not_anatomical_authority": true
+      },
+      "terminal_bulb_interpretation": "TIP_FACING_CURVED_BULB_SIDE_SUPPORT; not a claim that all rounded skin must be selected cap",
+      "distal_shaft_interpretation": "NO_CLEAR_SHAFT_SIGNAL_AT_THESE_FIVE; normal-axis component positive and axial depths6.92mm or less",
+      "nail_relation": "NOT_NAIL_RELATED",
+      "approved_nail_vertex_membership": false,
+      "one_ring_nail_ids": [],
+      "two_ring_nail_ids": [],
+      "native_surface_geodesic_to_nail_mask_mm": 11.228802867350723,
+      "native_euclidean_distance_to_nail_vertices_mm": 8.911422224924317,
+      "nail_margin_support_reason": "No disputed point is on the approved distal nail margin edge v37–v879; nail proximity is not a KEEP rule.",
+      "one_ring": [
+        1380,
+        1381,
+        1454
+      ],
+      "two_ring_exact_hop_2": [
+        340,
+        341,
+        342,
+        2786,
+        2787,
+        2966
+      ],
+      "native_incident_faces": [
+        {
+          "face_id": 1227,
+          "corner_vertex_ids": [
+            1454,
+            2786,
+            1381,
+            298
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 6.5664884852602565,
+          "normal": [
+            -0.3966972265164971,
+            0.02181227737430825,
+            0.9176903263246623
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1229,
+          "corner_vertex_ids": [
+            1380,
+            298,
+            1381,
+            2787
+          ],
+          "selected_in_E_baseline": false,
+          "surface_area_mm2": 5.769514008300887,
+          "normal": [
+            -0.42940832554307895,
+            -0.20119035389712225,
+            0.8804152040106076
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": false
+        },
+        {
+          "face_id": 1944,
+          "corner_vertex_ids": [
+            298,
+            1380,
+            2966,
+            1454
+          ],
+          "selected_in_E_baseline": true,
+          "surface_area_mm2": 4.199262842611034,
+          "normal": [
+            -0.33959185249437723,
+            -0.12933095601183042,
+            0.9316388128113293
+          ],
+          "nail_face": false,
+          "five_scope_corner_admissible": true
+        }
+      ],
+      "ring_role": "Legal rounded edge completion in face1942/1944",
+      "individual_variant_analysis_vertex_id": 298
+    }
+  ],
+  "five_vertex_decision_counts": {
+    "KEEP": 2,
+    "REMOVE": 3
+  },
+  "decisions": {
+    "1453": "REMOVE",
+    "2785": "REMOVE",
+    "2790": "REMOVE",
+    "297": "KEEP",
+    "298": "KEEP"
+  },
+  "distance_only_decision_rule": false,
+  "v1453_special_answer": "No clear boundary notch in the accepted E edge. Coupled addition restores some rounded skin but creates a face-sized tab and two concave boundary corners; it is not required for the selected cap edge.",
+  "v2785_v2790_special_answer": "Both retain curved tip-facing bulb-side evidence; exclusion is boundary/face-consistency adjudication, not native branch or region identity reversal.",
+  "v297_v298_special_answer": "Native centroid axial cut includes faces1942/1944 whose corners all exceed9mm; they supply smooth rounded replacements. Removal remains closed but creates an inward notch, so they are geometry completions rather than topology-closure necessities."
+}

@@ -1,0 +1,111 @@
+{
+  "type": "CONFIRMED_FLOAT32_FINITE_DIFFERENCE_IMPLEMENTATION_BUG",
+  "evidence": "DERIVATIVE_PRECISION_CHECK_R1.json",
+  "evidence_sha256": "aed31b246c856ea6a8aff5ba4905b6e705255d9355b4cacafa7ee3c53f80377e",
+  "original_script_sha256": "16eb00e02e68a02610d7fd2b579f9cd641ce63ad0559ec189791933200ebe69f",
+  "repaired_script_sha256": "ea382aaa8cdd32bd5a31694c7046727798c315289672c6a51a503e54d9571bf7",
+  "policy_sha256_unchanged": true,
+  "original_attempt": "Interrupted before fit result or saved candidate, not a competing candidate",
+  "bug": "Relative differences around zero produced zero evaluated vertex displacements in shared lateral root and all three idle flexion channels; absolute 0.02mm /0.03deg steps produced measurable geometry changes.",
+  "repair": "Bounds-aware absolute finite-difference Jacobian; 0.02mm XYZ,0.03deg pitch/active/idle offsets,0.003 thumb blend coefficient.",
+  "absolute_difference_steps": [
+    0.02,
+    0.02,
+    0.02,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.003,
+    0.003,
+    0.003,
+    0.003,
+    0.003,
+    0.003,
+    0.003,
+    0.003,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03,
+    0.03
+  ],
+  "engineering_ranges_weights_seed_max_nfev_unchanged": true,
+  "motion_retuning": false,
+  "parameter_sweep": false,
+  "candidate_count": 1,
+  "second_confirmed_implementation_bug": {
+    "type": "UNEVALUATED_OTHER_SCENE_ROOT_RETURNS_IDENTITY",
+    "invalid_first_root_matrix": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "expected_source_first_root_matrix": [
+      [
+        -0.9808738231658936,
+        -0.19377854466438293,
+        -0.01834278367459774,
+        1.1622332334518433
+      ],
+      [
+        0.05620864778757095,
+        -0.372214138507843,
+        0.9264429211616516,
+        -0.49388983845710754
+      ],
+      [
+        -0.18635232746601105,
+        0.9076926708221436,
+        0.37598705291748047,
+        0.12437738478183746
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "max_matrix_error": 1.9808738231658936,
+    "repair": "Use evaluated source dynamic scene frame1 root, then assert equality against inherited source motion. Never read uninitialized other-scene matrix_world.",
+    "wrong_coordinate_attempt_cost": 22335107459.213234,
+    "invalid_output_not_a_product_motion_candidate": true,
+    "output_path_reused_after_implementation_repair": true
+  },
+  "bind_initialization_bug_confirmed": true,
+  "invalid_coordinate_result_sha256": "533aaa3d613a87e30d3bf29aa7f01b864b81e95ff754e278711f94f3fd5a1d0d",
+  "invalid_coordinate_blend_sha256": "b6fcd3b58f5433fbfea1d234b4996a2338e40efce3a5c4849514a99776267715",
+  "previous_repaired_script_sha256": "b6c371dcd6946de33f68d7cbb4db9f9ef25e82cd8631dfe387af0f7516c8a329",
+  "implementation_invalid_attempts": 2
+}

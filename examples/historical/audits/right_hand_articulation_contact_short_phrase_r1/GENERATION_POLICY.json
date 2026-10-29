@@ -1,0 +1,140 @@
+{
+  "phase": "RIGHT_HAND_ARTICULATION_CONTACT_SHORT_PHRASE_R1",
+  "candidate_count": 1,
+  "one_seed": true,
+  "restarts": 0,
+  "scope": "One new right-hand whole-phrase fit, combined with exactly unchanged previous left arrays and key/audio timelines",
+  "phase_seconds": {
+    "prepare_total": 0.06,
+    "lift": 0.02,
+    "descent_to_NOTE_ON": 0.039999999999999994,
+    "key_press": 0.035,
+    "key_return": 0.07,
+    "recovery_after_key_return": 0.05
+  },
+  "same_phase_rule_for_all_digits_notes": true,
+  "natural_lift": "3deg base flexion reduction from bounded current idle posture during20ms prepare; existing curved rest remains. Not a global amplitude multiplier.",
+  "joint_domain_deg": [
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        -35.0
+      ],
+      [
+        25.0,
+        25.0,
+        18.0,
+        35.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        -25.0
+      ],
+      [
+        32.0,
+        32.0,
+        20.0,
+        25.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        -25.0
+      ],
+      [
+        32.0,
+        32.0,
+        20.0,
+        25.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        -25.0
+      ],
+      [
+        32.0,
+        32.0,
+        20.0,
+        25.0
+      ]
+    ],
+    [
+      [
+        0.0,
+        0.0,
+        0.0,
+        -25.0
+      ],
+      [
+        32.0,
+        32.0,
+        20.0,
+        25.0
+      ]
+    ]
+  ],
+  "contact_pressure_neighborhood": "All digits±16deg base flexion and±12deg other increments around approvedR1, intersect inherited static engineering domain; not an anatomical bound",
+  "idle_flexion_delta_bounds_deg": [
+    -4,
+    4
+  ],
+  "common_root_amp_bounds": {
+    "xyz_mm_lower": [
+      -2,
+      -3,
+      -5
+    ],
+    "xyz_mm_upper": [
+      2,
+      3,
+      0
+    ],
+    "world_X_pitch_deg": [
+      -2,
+      0.5
+    ]
+  },
+  "common_root_envelope": "One60ms prepare and120ms release stance; sustained during adjacent notes. No per-pitch/per-note palm controls.",
+  "pressure": "Existing Bernstein endpoint coefficients fit against transported real-key playable targets for every source event; strictNOTE_ON/KEY_PRESS/HOLD targets; naturalrelease not adhesion-forced",
+  "parameter_count": 59,
+  "weights": {
+    "fixed_contact_mm": 12,
+    "skin_contact_mm": 8,
+    "existing_skin_clearance_mm": 2,
+    "idle_deg": 0.7,
+    "root_xyz_mm": 0.3,
+    "root_pitch_deg": 0.5,
+    "joint_anchor_rad": 2
+  },
+  "solver": "One bounded scipy least_squares; existingFK/skin/keyplane and shared residual, no reconstruction of solver architecture",
+  "max_nfev": 50,
+  "no_per_frame_IK": true,
+  "post_smoothing": false,
+  "no_post_failure_repair_or_second_candidate": true,
+  "target_gap_mm": 0.5,
+  "playable_target": "Nearest playable point to approved prepared-pad XY, 1mm inner inset; optional approved active reference if that digit has one, chosen generically from task metadata, not hardcoded pitch",
+  "geometry_reporting": "Finite contact neighborhood, neighbor screen and limits; no vertex-forensic labels",
+  "previous_candidate_sha256": "5fff701d98d9a30c953534d428249545de3b821bfca70afbe5f937ef0d808c9f",
+  "previous_motion_sha256": "2fc04db51720769a90e6bbd32050a81ccd06a44cc0d15c42b84e1b50c2de4de4",
+  "frozen_file_count": 3633,
+  "generator_scripts_sha256": {
+    "00_diagnose.py": "ed31623e87f205b05576c2dd9c4b65f79116cb83581d26d0a32b4f59e7c8839e",
+    "01_lock.py": "b23661f55ee876a299af487547c4ac469826679a67f52f34d43849f2daa5fcc9",
+    "02_generate.py": "0dc6e9db1110ecb98e121ff57066289dc285938044665a3bc9442617f482e474",
+    "articulation_common.py": "59ed8b07e8a18f80ae87f2bee9d0bd524b78c721162259957aa743142950f62f",
+    "right_motion.py": "c47d7151201ee163a1efa7f190f7f982f3c9e414a74bf739fe6ac43db4a0c4b6"
+  }
+}

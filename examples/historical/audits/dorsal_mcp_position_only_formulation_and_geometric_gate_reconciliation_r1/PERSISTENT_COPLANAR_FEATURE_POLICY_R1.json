@@ -1,0 +1,359 @@
+{
+  "native_shared_vertex": "Exclude only identical shared point; any off-point contact remains hard.",
+  "native_shared_edge": "Exclude only actual segment, with exact on-segment predicate; exclude no surrounding strip or expanded triangle.",
+  "internal_fan_diagonal": "Legal only within its native face; coplanar area overlap still illegal.",
+  "persistent_coplanar": "Certify common plane, choose nonsingular dominant-axis chart, enumerate continuous2D orientation/edge events. Test finite clipped polygons after subtracting shared simplex. A pair-wide gap floor is never meaningful for adjacency.",
+  "moving_common_plane": "Use an adaptive chart atlas with explicit plane projection singularity events; fixed-plane proof above is not automatically a proof for arbitrary rotating common planes.",
+  "nonrational_event_roots": "Require certified algebraic-root intervals and finite-feature sign tests. If unresolved, fail closed rather than endpoint-only PASS.",
+  "negative_persistent_tunnel_control": {
+    "status": "CERTIFIED_COLLISION",
+    "safe": false,
+    "collision_detected": true,
+    "exact_rational_event_fractions": [
+      "0",
+      "1/4",
+      "1/2",
+      "3/4",
+      "1"
+    ],
+    "identically_zero_2D_feature_polynomial_count": 4,
+    "event_partition_tests": [
+      {
+        "fraction_exact": "0",
+        "fraction": 0.0,
+        "classification": "DISJOINT",
+        "illegal": false,
+        "exact_intersection_point_count": 0,
+        "illegal_point_count": 0,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 0.0,
+        "points_world_mm": [],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "1/8",
+        "fraction": 0.125,
+        "classification": "DISJOINT",
+        "illegal": false,
+        "exact_intersection_point_count": 0,
+        "illegal_point_count": 0,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 0.0,
+        "points_world_mm": [],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "1/4",
+        "fraction": 0.25,
+        "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+        "illegal": true,
+        "exact_intersection_point_count": 1,
+        "illegal_point_count": 1,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 0.0,
+        "points_world_mm": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "illegal_points_world_mm": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "3/8",
+        "fraction": 0.375,
+        "classification": "COPLANAR_POSITIVE_AREA_OVERLAP",
+        "illegal": true,
+        "exact_intersection_point_count": 3,
+        "illegal_point_count": 3,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.125,
+        "intersection_segment_mm": 0.7071067811865476,
+        "points_world_mm": [
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.0
+          ]
+        ],
+        "illegal_points_world_mm": [
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.5,
+            0.0
+          ]
+        ],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "1/2",
+        "fraction": 0.5,
+        "classification": "COPLANAR_POSITIVE_AREA_OVERLAP",
+        "illegal": true,
+        "exact_intersection_point_count": 3,
+        "illegal_point_count": 3,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.5,
+        "intersection_segment_mm": 1.4142135623730951,
+        "points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "illegal_points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "5/8",
+        "fraction": 0.625,
+        "classification": "COPLANAR_POSITIVE_AREA_OVERLAP",
+        "illegal": true,
+        "exact_intersection_point_count": 3,
+        "illegal_point_count": 3,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.125,
+        "intersection_segment_mm": 0.7071067811865476,
+        "points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ]
+        ],
+        "illegal_points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.5,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.5,
+            0.0
+          ]
+        ],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "3/4",
+        "fraction": 0.75,
+        "classification": "OFF_LEGAL_FEATURE_EXACT_CONTACT",
+        "illegal": true,
+        "exact_intersection_point_count": 1,
+        "illegal_point_count": 1,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 0.0,
+        "points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "illegal_points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "7/8",
+        "fraction": 0.875,
+        "classification": "DISJOINT",
+        "illegal": false,
+        "exact_intersection_point_count": 0,
+        "illegal_point_count": 0,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 0.0,
+        "points_world_mm": [],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "1",
+        "fraction": 1.0,
+        "classification": "DISJOINT",
+        "illegal": false,
+        "exact_intersection_point_count": 0,
+        "illegal_point_count": 0,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 0.0,
+        "points_world_mm": [],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      }
+    ],
+    "completeness": "For this fixed common-plane path, finite triangle contact combinatorics can change only at the enumerated 2D orientation roots. Exact rational event and open-interval tests certify all intervals. No positive shared-feature gap is imposed."
+  },
+  "positive_persistent_shared_edge_control": {
+    "status": "CERTIFIED_LEGAL",
+    "safe": true,
+    "collision_detected": false,
+    "exact_rational_event_fractions": [
+      "0",
+      "1"
+    ],
+    "identically_zero_2D_feature_polynomial_count": 0,
+    "event_partition_tests": [
+      {
+        "fraction_exact": "0",
+        "fraction": 0.0,
+        "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+        "illegal": false,
+        "exact_intersection_point_count": 2,
+        "illegal_point_count": 0,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 1.0,
+        "points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "1/2",
+        "fraction": 0.5,
+        "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+        "illegal": false,
+        "exact_intersection_point_count": 2,
+        "illegal_point_count": 0,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 1.0,
+        "points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      },
+      {
+        "fraction_exact": "1",
+        "fraction": 1.0,
+        "classification": "LEGAL_SHARED_TOPOLOGY_CONTACT",
+        "illegal": false,
+        "exact_intersection_point_count": 2,
+        "illegal_point_count": 0,
+        "coplanar": true,
+        "coplanar_overlap_area_mm2": 0.0,
+        "intersection_segment_mm": 1.0,
+        "points_world_mm": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "illegal_points_world_mm": [],
+        "predicate": "Exact rational predicates on stored binary64 coordinates; no distance clearance or barycentric extension tolerance."
+      }
+    ],
+    "completeness": "For this fixed common-plane path, finite triangle contact combinatorics can change only at the enumerated 2D orientation roots. Exact rational event and open-interval tests certify all intervals. No positive shared-feature gap is imposed."
+  },
+  "no_legal_shared_contact_in_collision_active_set": true
+}

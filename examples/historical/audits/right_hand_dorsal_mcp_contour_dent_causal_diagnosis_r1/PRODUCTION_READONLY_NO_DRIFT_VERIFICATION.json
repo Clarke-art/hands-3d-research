@@ -1,0 +1,29 @@
+{
+  "status": "PASS_ALL_PREEXISTING_WORKSPACE_FILES_HASH_IDENTICAL",
+  "before_file_count": 2790,
+  "after_file_count": 2790,
+  "changed": [],
+  "missing": [],
+  "added_outside_diagnosis": [],
+  "PRODUCTION_DRIFT": 0,
+  "baseline": "HISTORICAL_HASHES_BEFORE.json",
+  "scope": "Every preexisting workspace file, excluding only this new diagnosis directory; all frozen assets, Human receipts and prior Stage6A evidence covered.",
+  "baseline_inventory_sha256": "9eed6907a0e5d43279807f39d22296f096ec9086fa9bde1323b742ede9b34a26",
+  "after_inventory_sha256": "9eed6907a0e5d43279807f39d22296f096ec9086fa9bde1323b742ede9b34a26",
+  "candidate": {
+    "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+    "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+  },
+  "corrected_rig": {
+    "path": "production_spec/stage5_production_rig/human_thumb_kinematic_authority_correction_r1/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_THUMB_KINEMATIC_CORRECTED_R1.blend",
+    "sha256": "5d5f86bb59135715a77515468c2b76fe81e2a44e2e8c5d6c17fcc3d56d2147fe"
+  },
+  "cap_authority": {
+    "path": "production_spec/stage5_production_rig/stage5b_r1e_human_cap_authority_freeze_r1/THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1.json",
+    "sha256": "59f56d24563004fd46705e837606625e99a98566020df297ef4bccbcc9ffe256"
+  },
+  "fresh_R3_authority": {
+    "path": "audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1.json",
+    "sha256": "470cc182b643e92f0f48f4bea119f0e0c3a45d1c182d3610345ac787f19c98e9"
+  }
+}

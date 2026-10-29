@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "rows": [
+    {
+      "state": "SOURCE",
+      "NaN_Inf": 0,
+      "collapsed_faces": 0,
+      "degenerate_edges": 0,
+      "status": "PASS"
+    },
+    {
+      "state": "SOURCE_RSSF_DISPLAY",
+      "NaN_Inf": 0,
+      "collapsed_faces": 0,
+      "degenerate_edges": 0,
+      "status": "PASS"
+    },
+    {
+      "state": "ZERO",
+      "NaN_Inf": 0,
+      "collapsed_faces": 0,
+      "degenerate_edges": 0,
+      "status": "PASS"
+    },
+    {
+      "state": "FULL_OPP_L1",
+      "NaN_Inf": 0,
+      "collapsed_faces": 0,
+      "degenerate_edges": 0,
+      "status": "PASS"
+    }
+  ],
+  "threshold_source": {
+    "path": "production_spec/stage6_deformation/whole_hand_surface_integrity_baseline_r1/MINIMUM_MACHINE_SAFETY_R1.json",
+    "sha256": "ad108b9ce8b039dc846052510a26f34065b88aac9393aa2f8ba909d31a7bc77d"
+  },
+  "thresholds_used": {
+    "collapse_area_m2_le": 1e-12,
+    "collapse_ratio_le": 1e-06,
+    "degenerate_edge_m_le": 1e-12,
+    "zero_mm": 0.0001
+  },
+  "ZERO_RESTORE": "PASS",
+  "zero_raw_error_mm": 5.9670092462157264e-05,
+  "pre_zero_error_mm": 0.0,
+  "post_zero_error_mm": 0.0,
+  "all_21_channels_zero_at_end": true,
+  "hidden_crossing_census": false,
+  "weight_diagnosis": false,
+  "full_stage6b_forensic": false,
+  "volume_numeric_audit": false
+}

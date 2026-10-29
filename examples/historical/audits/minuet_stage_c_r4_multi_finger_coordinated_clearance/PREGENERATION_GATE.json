@@ -1,0 +1,181 @@
+{
+  "status": "FAIL_CLOSED",
+  "stage": "FINITE_STATIC_FEASIBILITY",
+  "reason": "Late D5 to E5 handoff remains visibly intersecting in actual Blender skin after simultaneous joint preflight; do not generate a trajectory from a failed anchor.",
+  "late_case": {
+    "video_sec": 3.825,
+    "music_sec": 3.475,
+    "delta_applied_deg": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.7917931557166455,
+        6.379068954651014,
+        -8.996911449540855,
+        -6.935981619485076
+      ],
+      [
+        2.2928769868812795,
+        -3.918951036124984,
+        14.021193244440472,
+        -4.756347677531148
+      ]
+    ],
+    "pairs": [
+      {
+        "digits": [
+          "INDEX",
+          "MIDDLE"
+        ],
+        "before_face_pairs": 0,
+        "after_face_pairs": 0
+      },
+      {
+        "digits": [
+          "MIDDLE",
+          "RING"
+        ],
+        "before_face_pairs": 93,
+        "after_face_pairs": 92
+      },
+      {
+        "digits": [
+          "RING",
+          "LITTLE"
+        ],
+        "before_face_pairs": 0,
+        "after_face_pairs": 0
+      }
+    ],
+    "black_before": [
+      {
+        "digit": "MIDDLE",
+        "midi": 75,
+        "note": "D#5",
+        "triangle_pairs": 10,
+        "inside_vertices": 1,
+        "deepest_vertex": 26,
+        "depth_mm": 0.7272772490978241,
+        "nearest_actual_surface_mm": 0.7272772490978241,
+        "point_world_m": [
+          0.20809489488601685,
+          0.050148654729127884,
+          0.001152102486230433
+        ],
+        "key_object": "R1_GP_V11D_KEY_RENDER_075.001",
+        "key_surface_point_world_m": [
+          0.20809489488601685,
+          0.04942137748003006,
+          0.0011521023698151112
+        ],
+        "patch_face_examples": [
+          [
+            865,
+            2491,
+            866,
+            26
+          ],
+          [
+            865,
+            2491,
+            866,
+            26
+          ],
+          [
+            26,
+            866,
+            2644,
+            1169
+          ]
+        ]
+      }
+    ],
+    "black_after": [],
+    "contacts": [
+      {
+        "note_id": "R11",
+        "finger": 3,
+        "note": "E5",
+        "skin": {
+          "gap_mm": 0.7518109010293141,
+          "horizontal_mm": 0.0
+        }
+      }
+    ]
+  },
+  "numerical_termination": {
+    "video_sec": 3.825,
+    "music_sec": 3.475,
+    "delta_deg": [
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        -2.7917931557166455,
+        6.379068954651014,
+        -8.996911449540855,
+        -6.935981619485076
+      ],
+      [
+        2.2928769868812795,
+        -3.918951036124984,
+        14.021193244440472,
+        -4.756347677531148
+      ]
+    ],
+    "actual_degrees": [
+      [
+        8.463417161607975,
+        11.399332800560332,
+        6.647068396341571,
+        -12.024344111788292
+      ],
+      [
+        12.41117637488473,
+        14.00078699613858,
+        0.0033018718220798604,
+        -23.28083914404969
+      ],
+      [
+        12.414372981146943,
+        0.010163392086715017,
+        17.450450121055145,
+        13.080343048656772
+      ]
+    ],
+    "success": true,
+    "nfev": 27,
+    "cost": 21687.933398994042,
+    "message": "`xtol` termination condition is satisfied.",
+    "max_black_constraint_residual_mm": 0.0,
+    "max_pair_constraint_residual_mm": 7.63360808765256,
+    "contacts": [
+      {
+        "t": 3.825,
+        "note": "R11",
+        "gap_mm": 0.7518280530149133,
+        "horizontal_margin_violation_mm": 0.0,
+        "pad_movement_mm": 7.054020619724279
+      }
+    ]
+  },
+  "formal_dynamic_solve_attempts": 0,
+  "new_dynamic_candidates": 0,
+  "root_enabled": false,
+  "does_not_prove_global_fixed_root_infeasibility": true,
+  "does_not_prove_frozen_rig_infeasibility": true,
+  "static_batches": {
+    "valid_batch": 1,
+    "poses": 13,
+    "invalid_development_batch": 1,
+    "reason": "An early development check incorrectly applied stationary white-key height to active sinking fingers. Entire result retained as invalid; corrected to actual moving target surface before the one valid feasibility batch. No weights, angle limits, root variables or candidate were changed after valid batch failure."
+  },
+  "stop": "STOP — HUMAN REVIEW"
+}

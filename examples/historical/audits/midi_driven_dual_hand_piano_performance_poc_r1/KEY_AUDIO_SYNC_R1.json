@@ -1,0 +1,646 @@
+{
+  "source": "Existing frozen Grand VCSL Kawai sample manifest and Ogg files, CC0",
+  "offline_adapter": "Same velocity layer threshold, pitchRatio, amplitude law, 0.72 master and exponential NOTE_OFF release; deterministic PCM renderer replaces interactive browser clock. No oscillator.",
+  "shared_clock": "PERFORMANCE_TIMELINE_R1.json time at48kHz; key-down begins NOTE_ON; fingers target surface at NOTE_ON",
+  "sample_preroll_policy": "Remove leading audio before first sample exceeding max(0.0002,1% file peak), per asset once, so native recording silence does not create schedule delay. No MIDI times changed.",
+  "audio_clock_quantization_max_ms": 0.0,
+  "audible_onset_delay_max_ms": 0.0,
+  "video_sampling_quantization_max_ms": 8.333333333333334,
+  "key_down_start_vs_note_on_ms": 0,
+  "key_full_travel_after_note_on_ms": 35,
+  "polyphony_peak_held": 2,
+  "voices_scheduled": 18,
+  "note_on_count": 18,
+  "all_notes_have_voice": true,
+  "wave_peak": 0.3571611237726534,
+  "wave_rms": 0.05622623554720317,
+  "common_mix_gain": 1,
+  "clipping_samples": 0,
+  "pitch_checks": {
+    "81": {
+      "expected_hz": 880.0,
+      "measured_pitch_hz": 878.9764242235552,
+      "cents": -2.0148643399628834,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 878.9764242235552,
+          "fundamental_equivalent_hz": 878.9764242235552,
+          "amplitude": 88.32187660733169
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 1757.6694188166593,
+          "fundamental_equivalent_hz": 878.8347094083297,
+          "amplitude": 6.471410665820035
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 2665.015455572232,
+          "fundamental_equivalent_hz": 888.338485190744,
+          "amplitude": 5.3941089308397405
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 3587.316614439057,
+          "fundamental_equivalent_hz": 896.8291536097643,
+          "amplitude": 0.8794104539031713
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 4533.779197247981,
+          "fundamental_equivalent_hz": 906.7558394495961,
+          "amplitude": 2.156328425182127
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 5293.8809383595435,
+          "fundamental_equivalent_hz": 882.3134897265905,
+          "amplitude": 0.09800651118944548
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    },
+    "38": {
+      "expected_hz": 73.41619197935188,
+      "measured_pitch_hz": 72.97757942308564,
+      "cents": -10.373983218283817,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 71.099461761733,
+          "fundamental_equivalent_hz": 71.099461761733,
+          "amplitude": 0.8424190188909768
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 145.45818682307686,
+          "fundamental_equivalent_hz": 72.72909341153843,
+          "amplitude": 86.10789247930775
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 218.1953686743901,
+          "fundamental_equivalent_hz": 72.73178955813003,
+          "amplitude": 2.180605163825241
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 291.6911725191443,
+          "fundamental_equivalent_hz": 72.92279312978607,
+          "amplitude": 15.213020862544157
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 364.8878971154282,
+          "fundamental_equivalent_hz": 72.97757942308564,
+          "amplitude": 30.169875369668116
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 438.00606719387605,
+          "fundamental_equivalent_hz": 73.00101119897934,
+          "amplitude": 28.91918123194356
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    },
+    "50": {
+      "expected_hz": 146.8323839587038,
+      "measured_pitch_hz": 146.45330123700617,
+      "cents": -4.475372060868075,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 146.17167968475022,
+          "fundamental_equivalent_hz": 146.17167968475022,
+          "amplitude": 94.03082638485914
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 292.9661478872306,
+          "fundamental_equivalent_hz": 146.4830739436153,
+          "amplitude": 61.24985166397269
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 439.35990371101855,
+          "fundamental_equivalent_hz": 146.45330123700617,
+          "amplitude": 43.695352176033026
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 586.6126808410071,
+          "fundamental_equivalent_hz": 146.65317021025177,
+          "amplitude": 10.849696409273934
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 733.9598318373726,
+          "fundamental_equivalent_hz": 146.79196636747452,
+          "amplitude": 8.99071669642507
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 881.7005804833503,
+          "fundamental_equivalent_hz": 146.95009674722505,
+          "amplitude": 17.36274961761643
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    },
+    "79": {
+      "expected_hz": 783.9908719634985,
+      "measured_pitch_hz": 786.369796216471,
+      "cents": 5.245263589236777,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 783.8375206283409,
+          "fundamental_equivalent_hz": 783.8375206283409,
+          "amplitude": 49.755475057090244
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 1572.739592432942,
+          "fundamental_equivalent_hz": 786.369796216471,
+          "amplitude": 2.4290459377201215
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 2372.5491636519205,
+          "fundamental_equivalent_hz": 790.8497212173069,
+          "amplitude": 2.584615152991632
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 3198.8507112207467,
+          "fundamental_equivalent_hz": 799.7126778051867,
+          "amplitude": 0.5705060368899537
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 4036.709628206824,
+          "fundamental_equivalent_hz": 807.3419256413648,
+          "amplitude": 1.7744229515508678
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 4715.805057505698,
+          "fundamental_equivalent_hz": 785.967509584283,
+          "amplitude": 0.05806945897773486
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    },
+    "78": {
+      "expected_hz": 739.9888454232688,
+      "measured_pitch_hz": 741.576113286974,
+      "cents": 3.7095008299468906,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 739.1393417916057,
+          "fundamental_equivalent_hz": 739.1393417916057,
+          "amplitude": 81.64971415382861
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 1483.152226573948,
+          "fundamental_equivalent_hz": 741.576113286974,
+          "amplitude": 9.932078386946946
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 2226.8615681261717,
+          "fundamental_equivalent_hz": 742.2871893753905,
+          "amplitude": 11.055810229575394
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 2971.5922355103144,
+          "fundamental_equivalent_hz": 742.8980588775786,
+          "amplitude": 7.994984344331938
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 3725.7286433779755,
+          "fundamental_equivalent_hz": 745.1457286755951,
+          "amplitude": 1.363697809633953
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 4495.64322675165,
+          "fundamental_equivalent_hz": 749.273871125275,
+          "amplitude": 4.317923695720789
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    },
+    "76": {
+      "expected_hz": 659.2551138257398,
+      "measured_pitch_hz": 660.5017420919538,
+      "cents": 3.270611451203988,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 658.5538879821339,
+          "fundamental_equivalent_hz": 658.5538879821339,
+          "amplitude": 90.75533690427616
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 1321.0034841839076,
+          "fundamental_equivalent_hz": 660.5017420919538,
+          "amplitude": 11.85666464218158
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 1984.7679252138312,
+          "fundamental_equivalent_hz": 661.5893084046104,
+          "amplitude": 10.446219644464922
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 2647.0778405110186,
+          "fundamental_equivalent_hz": 661.7694601277547,
+          "amplitude": 7.181631128452705
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 3319.652809142804,
+          "fundamental_equivalent_hz": 663.9305618285608,
+          "amplitude": 1.5141708594755758
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 4004.341404278258,
+          "fundamental_equivalent_hz": 667.3902340463763,
+          "amplitude": 5.214857959253754
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    },
+    "74": {
+      "expected_hz": 587.3295358348151,
+      "measured_pitch_hz": 588.0740718795497,
+      "cents": 2.193231865777072,
+      "partials": [
+        {
+          "harmonic": 1,
+          "peak_hz": 586.7753409905279,
+          "fundamental_equivalent_hz": 586.7753409905279,
+          "amplitude": 99.31634480830714
+        },
+        {
+          "harmonic": 2,
+          "peak_hz": 1176.1481437590994,
+          "fundamental_equivalent_hz": 588.0740718795497,
+          "amplitude": 14.882664028136336
+        },
+        {
+          "harmonic": 3,
+          "peak_hz": 1768.6443033845703,
+          "fundamental_equivalent_hz": 589.5481011281901,
+          "amplitude": 10.75749731303681
+        },
+        {
+          "harmonic": 4,
+          "peak_hz": 2357.067537480965,
+          "fundamental_equivalent_hz": 589.2668843702412,
+          "amplitude": 5.911661219794573
+        },
+        {
+          "harmonic": 5,
+          "peak_hz": 2957.6171494482996,
+          "fundamental_equivalent_hz": 591.52342988966,
+          "amplitude": 1.632930071117014
+        },
+        {
+          "harmonic": 6,
+          "peak_hz": 3567.1774806718913,
+          "fundamental_equivalent_hz": 594.5295801119819,
+          "amplitude": 5.686935446110238
+        }
+      ],
+      "method": "20–320ms windowed FFT, first6 harmonic neighborhoods +/-4%; median f/n of3 strongest partials. Single fundamental peak is unreliable for this weak-fundamental bass sample. Not blind transcription; rootMidi/pitchRatio separately checked."
+    }
+  },
+  "pitch_within25cents": true,
+  "voices": [
+    {
+      "note_id": "n00",
+      "midi_note": 81,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_84",
+      "source_sha256": "d2be8efb05f74a080f9acff34443a67cf9dd7aae452369b1eb768a8ea1084b61",
+      "root_midi": 84,
+      "pitch_ratio": 0.840896415,
+      "scheduled_on_sec": 0.7,
+      "timeline_on_sec": 0.7,
+      "note_off_sec": 1.2,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 49,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.0208333333333333
+    },
+    {
+      "note_id": "n01",
+      "midi_note": 38,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_36",
+      "source_sha256": "f53abb37110697f528e2d643569fb0bd46cccaac994413564006e75f8d447553",
+      "root_midi": 36,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 0.7,
+      "timeline_on_sec": 0.7,
+      "note_off_sec": 0.95,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 79,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.6458333333333333
+    },
+    {
+      "note_id": "n02",
+      "midi_note": 50,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_48",
+      "source_sha256": "29d1f3eebf319fc04fdc7d3a9f2aa62bc8b7dbaa0bca5d7de5e570ad4b058bdb",
+      "root_midi": 48,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 0.95,
+      "timeline_on_sec": 0.95,
+      "note_off_sec": 1.2,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 65,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.3541666666666667
+    },
+    {
+      "note_id": "n03",
+      "midi_note": 79,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_84",
+      "source_sha256": "d2be8efb05f74a080f9acff34443a67cf9dd7aae452369b1eb768a8ea1084b61",
+      "root_midi": 84,
+      "pitch_ratio": 0.749153538,
+      "scheduled_on_sec": 1.2,
+      "timeline_on_sec": 1.2,
+      "note_off_sec": 1.325,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 49,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.0208333333333333
+    },
+    {
+      "note_id": "n04",
+      "midi_note": 38,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_36",
+      "source_sha256": "f53abb37110697f528e2d643569fb0bd46cccaac994413564006e75f8d447553",
+      "root_midi": 36,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 1.2,
+      "timeline_on_sec": 1.2,
+      "note_off_sec": 1.45,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 79,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.6458333333333333
+    },
+    {
+      "note_id": "n05",
+      "midi_note": 78,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_72",
+      "source_sha256": "13ac05b7e5c279e930b13ce1b3f0665a2fd11e83a7d27fce19ce399330cfa509",
+      "root_midi": 72,
+      "pitch_ratio": 1.414213562,
+      "scheduled_on_sec": 1.325,
+      "timeline_on_sec": 1.325,
+      "note_off_sec": 1.45,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 66,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.375
+    },
+    {
+      "note_id": "n06",
+      "midi_note": 76,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_72",
+      "source_sha256": "13ac05b7e5c279e930b13ce1b3f0665a2fd11e83a7d27fce19ce399330cfa509",
+      "root_midi": 72,
+      "pitch_ratio": 1.25992105,
+      "scheduled_on_sec": 1.45,
+      "timeline_on_sec": 1.45,
+      "note_off_sec": 1.575,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 66,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.375
+    },
+    {
+      "note_id": "n07",
+      "midi_note": 50,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_48",
+      "source_sha256": "29d1f3eebf319fc04fdc7d3a9f2aa62bc8b7dbaa0bca5d7de5e570ad4b058bdb",
+      "root_midi": 48,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 1.45,
+      "timeline_on_sec": 1.45,
+      "note_off_sec": 1.7,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 65,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.3541666666666667
+    },
+    {
+      "note_id": "n08",
+      "midi_note": 74,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_72",
+      "source_sha256": "13ac05b7e5c279e930b13ce1b3f0665a2fd11e83a7d27fce19ce399330cfa509",
+      "root_midi": 72,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 1.575,
+      "timeline_on_sec": 1.575,
+      "note_off_sec": 1.7,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 66,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.375
+    },
+    {
+      "note_id": "n09",
+      "midi_note": 81,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_84",
+      "source_sha256": "d2be8efb05f74a080f9acff34443a67cf9dd7aae452369b1eb768a8ea1084b61",
+      "root_midi": 84,
+      "pitch_ratio": 0.840896415,
+      "scheduled_on_sec": 1.7,
+      "timeline_on_sec": 1.7,
+      "note_off_sec": 2.2,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 49,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.0208333333333333
+    },
+    {
+      "note_id": "n10",
+      "midi_note": 38,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_36",
+      "source_sha256": "f53abb37110697f528e2d643569fb0bd46cccaac994413564006e75f8d447553",
+      "root_midi": 36,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 1.7,
+      "timeline_on_sec": 1.7,
+      "note_off_sec": 1.95,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 79,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.6458333333333333
+    },
+    {
+      "note_id": "n11",
+      "midi_note": 50,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_48",
+      "source_sha256": "29d1f3eebf319fc04fdc7d3a9f2aa62bc8b7dbaa0bca5d7de5e570ad4b058bdb",
+      "root_midi": 48,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 1.95,
+      "timeline_on_sec": 1.95,
+      "note_off_sec": 2.2,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 65,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.3541666666666667
+    },
+    {
+      "note_id": "n12",
+      "midi_note": 79,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_84",
+      "source_sha256": "d2be8efb05f74a080f9acff34443a67cf9dd7aae452369b1eb768a8ea1084b61",
+      "root_midi": 84,
+      "pitch_ratio": 0.749153538,
+      "scheduled_on_sec": 2.2,
+      "timeline_on_sec": 2.2,
+      "note_off_sec": 2.325,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 49,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.0208333333333333
+    },
+    {
+      "note_id": "n13",
+      "midi_note": 38,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_36",
+      "source_sha256": "f53abb37110697f528e2d643569fb0bd46cccaac994413564006e75f8d447553",
+      "root_midi": 36,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 2.2,
+      "timeline_on_sec": 2.2,
+      "note_off_sec": 2.45,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 79,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.6458333333333333
+    },
+    {
+      "note_id": "n14",
+      "midi_note": 78,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_72",
+      "source_sha256": "13ac05b7e5c279e930b13ce1b3f0665a2fd11e83a7d27fce19ce399330cfa509",
+      "root_midi": 72,
+      "pitch_ratio": 1.414213562,
+      "scheduled_on_sec": 2.325,
+      "timeline_on_sec": 2.325,
+      "note_off_sec": 2.45,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 66,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.375
+    },
+    {
+      "note_id": "n15",
+      "midi_note": 76,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_72",
+      "source_sha256": "13ac05b7e5c279e930b13ce1b3f0665a2fd11e83a7d27fce19ce399330cfa509",
+      "root_midi": 72,
+      "pitch_ratio": 1.25992105,
+      "scheduled_on_sec": 2.45,
+      "timeline_on_sec": 2.45,
+      "note_off_sec": 2.575,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 66,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.375
+    },
+    {
+      "note_id": "n16",
+      "midi_note": 50,
+      "velocity": 90,
+      "hand": "L",
+      "asset_id": "FULL_V4_48",
+      "source_sha256": "29d1f3eebf319fc04fdc7d3a9f2aa62bc8b7dbaa0bca5d7de5e570ad4b058bdb",
+      "root_midi": 48,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 2.45,
+      "timeline_on_sec": 2.45,
+      "note_off_sec": 2.7,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 65,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.3541666666666667
+    },
+    {
+      "note_id": "n17",
+      "midi_note": 74,
+      "velocity": 90,
+      "hand": "R",
+      "asset_id": "FULL_V4_72",
+      "source_sha256": "13ac05b7e5c279e930b13ce1b3f0665a2fd11e83a7d27fce19ce399330cfa509",
+      "root_midi": 72,
+      "pitch_ratio": 1.122462048,
+      "scheduled_on_sec": 2.575,
+      "timeline_on_sec": 2.575,
+      "note_off_sec": 2.7,
+      "release_sec": 0.24,
+      "sample_attack_preroll_trimmed_samples_48k": 66,
+      "audible_onset_delay_ms": 0.0,
+      "source_preroll_ms": 1.375
+    }
+  ],
+  "hand_contact_sync": "NOT_VALIDATED; planned clock shared but actual geometric contact can fail",
+  "audio_status": "PASS",
+  "mp4_audio_track": true,
+  "mp4_audio_rms": 0.05607225000858307,
+  "decoded_aac_vs_pcm_lag_samples": 0,
+  "decoded_aac_vs_pcm_lag_ms": 0.0,
+  "mux_note": "AAC priming handled by container; decoded cross-correlation compares final delivery to same-clock PCM.",
+  "PRODUCT_DEMO_PASS": false
+}

@@ -1,0 +1,30 @@
+{
+  "stage": "02_generate_once.py final interpolation guard before np.savez",
+  "exception": "AssertionError: Bound exceeded: stop, no refit",
+  "failed_assertion": "np.all(q >= co.state_low[6:] - 1e-7) and np.all(q <= co.state_high[6:] + 1e-7)",
+  "CONFIRMED": [
+    "First dynamic solve ran; corrected sampled q failed original joint-domain guard before any motion.npz or blend save.",
+    "No second dynamic solve or per-note correction occurred."
+  ],
+  "SUPPORTED": [
+    "Support-knot bounds do not by themselves guarantee the sum of R2 reference q and separately interpolated tapered correction stays in domain between knots."
+  ],
+  "UNKNOWN": [
+    "Exact violating sample, finger, amount, final solver nfev and numerical convergence were not saved before the assertion; they are not reconstructed by rerunning."
+  ],
+  "R2_joint_bound_excess_deg": 0.0,
+  "last_visible_progress": {
+    "residual_calls": 3303,
+    "elapsed_sec": 240.5,
+    "contact_weighted_RMS": 0.7916
+  },
+  "skin_marker_model_parity_max_mm": 0.07972896653122975,
+  "actual_nfev": null,
+  "solver_converged": null,
+  "solver_limit_reached": null,
+  "failed_bake_guard_not_proof_of_anatomical_unreachability": true,
+  "saved_dynamic_candidates": 0,
+  "dynamic_generation_attempts": 1,
+  "second_attempt": false,
+  "no_parameter_change_after_generation": true
+}

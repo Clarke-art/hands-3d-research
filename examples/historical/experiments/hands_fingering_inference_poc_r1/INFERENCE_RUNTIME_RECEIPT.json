@@ -1,0 +1,44 @@
+{
+  "task": "PIANO_AUTOMATIC_FINGERING_INFERENCE_POC_R1",
+  "started_utc": "2026-10-11T14:06:20.840Z",
+  "node": "v24.18.0",
+  "platform": "win32",
+  "arch": "x64",
+  "os": "Windows 11 Pro",
+  "cpu": "Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz",
+  "logical_cpu_count": 12,
+  "onnxruntime_node": "1.23.2",
+  "onnxruntime_common": "1.23.2",
+  "official_predict_calls": 1,
+  "python_fallback": false,
+  "model_load_ms": 144.1841,
+  "execution_providers_requested": [
+    "cpu"
+  ],
+  "session_metadata": {
+    "left": {
+      "inputNames": [
+        "tokens"
+      ],
+      "outputNames": [
+        "logits"
+      ]
+    },
+    "right": {
+      "inputNames": [
+        "tokens"
+      ],
+      "outputNames": [
+        "logits"
+      ]
+    }
+  },
+  "predict_ms": 146.1515,
+  "raw_output_sha256": "aba30e671d4813b679e7c8ab115b3496a80f822731a1c81b6c2ff0a5e9674ebb",
+  "input_unchanged": true,
+  "output_count": 23,
+  "onnx_session_run_count": 23,
+  "invalid_finger_count": 0,
+  "exception": null,
+  "finished_utc": "2026-10-11T14:06:21.192Z"
+}

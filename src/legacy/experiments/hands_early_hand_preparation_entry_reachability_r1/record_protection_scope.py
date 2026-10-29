@@ -1,0 +1,9 @@
+import sys,json
+from pathlib import Path
+sys.dont_write_bytecode=True;O=Path(__file__).resolve().parent
+read=lambda p:json.loads(p.read_text(encoding='utf8'))
+c=read(O/'PROTECTION_CHECK.json');b=read(O/'PROTECTED_FILES_BEFORE.json');a=read(O/'PROTECTED_FILES_AFTER.json');old=read(O.parent/'hands_time_coupled_contact_recovery_r1/PROTECTED_FILES_BEFORE.json')
+bad=[s for s,h in old.items() if b.get(s)!=h or a.get(s)!=h];assert not bad
+assert all('/piano_project_storage_cleanup_audit_r1/' in s.replace('\\','/') for s in [r['path'] for r in c['hash_mismatches']]+c['new_files_in_protected_roots'])
+result=dict(global_protection_status='FAIL_CONCURRENT_AUDIT_CHANGES_PRESERVED',expanded_before_count=len(b),expanded_after_rehashed_count=len(a),inherited_frozen_protection_count=len(old),inherited_frozen_protection_status='PASS',inherited_mismatches=bad,changed_files=c['hash_mismatches'],new_files=c['new_files_in_protected_roots'],deleted_files=c['deleted_files'],change_location=str(O.parent/'piano/piano_project_storage_cleanup_audit_r1'),concurrent_task_evidence=dict(thread_id='01a134cb-0aed-7630-8247-cb0f20f5f998',turn_id='01a1353e-809b-7db0-ab33-b92bd476e3ed',task='PIANO_PROJECT_STORAGE_CLEANUP_AUDIT_R1',started_unix=1791894651,completed_unix=1791895859,evidence='Read-only read_thread showed user-authorized storage audit and fileChange/commandExecution records writing this exact audit directory during our hash interval. No messaging or modifications of that chat.'),our_protected_write_operations=0,concurrent_changes_reverted=False,global_PASS_not_claimed=True,science_inputs_and_all_Hands_history_unchanged=True)
+(O/'PROTECTION_SCOPE_AUDIT.json').write_text(json.dumps(result,ensure_ascii=False,indent=2),encoding='utf8');print('PROTECTION_SCOPE: inherited',len(old),'PASS; expanded',len(b),'FAIL with confirmed concurrent audit',flush=True)

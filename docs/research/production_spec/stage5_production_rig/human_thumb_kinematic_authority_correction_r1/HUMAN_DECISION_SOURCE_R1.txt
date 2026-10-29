@@ -1,0 +1,49 @@
+Human Review 已完成。
+
+我批准本轮 corrected thumb distal kinematic candidate：
+
+THUMB_IP_R.head = KEEP CURRENT / REVALIDATED_UNCHANGED
+
+THUMB_IP_R.tail = APPROVE CORRECTED CANDIDATE
+THUMB_IP_R.roll = APPROVE CORRECTED CANDIDATE
+
+THUMB_TIP_R.head = APPROVE CORRECTED CANDIDATE
+THUMB_TIP_R.tail = APPROVE CORRECTED CANDIDATE
+THUMB_TIP_R.roll = APPROVE CORRECTED CANDIDATE
+
+总体裁决：
+
+THUMB_KINEMATIC_AUTHORITY_CORRECTION = HUMAN_APPROVED
+
+批准范围仅限：
+thumb distal IP/TIP kinematic authority。
+
+本次批准不自动批准：
+R2
+R3
+skin weights
+Stage5B
+Stage6A
+Stage6B
+strict-bound results。
+
+请将本条 Human decision 作为正式 authority input，
+生成对应 Human approval / correction authority 记录，
+执行 HUMAN_THUMB_KINEMATIC_AUTHORITY_CORRECTION。
+
+如需要修改 production rig，
+只允许修改上述 5 个 CHANGE_REQUIRED slot；
+THUMB_IP_R.head 必须保持不变。
+
+完成后：
+- 验证 hierarchy / origin / unrelated bones 无漂移
+- 输出 before/after slot values 与 hashes
+- 不运行 R2/R3
+- 不重建 skin
+- 不运行 Stage6
+- 不创建 R1F
+
+完成后 STOP。
+
+NEXT 应为：
+CAP_DERIVED_R2_R3_INPUT_RECONCILIATION_R1

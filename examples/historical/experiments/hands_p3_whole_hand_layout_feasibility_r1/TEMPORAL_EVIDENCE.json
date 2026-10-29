@@ -1,0 +1,264 @@
+{
+  "clock": {
+    "R08_hold_sec": 0.4285709999999998,
+    "R08_press_sec": 0.035,
+    "R08_after_press_available_sec": 0.3935709999999998,
+    "C1_prepare_sec": 0.18,
+    "C1_near_approach_sec": 0.075,
+    "C1_release_follow_sec": 0.04,
+    "R08_OFF_to_R09_ON_sec": 0.0,
+    "R09_OFF_to_R10_ON_sec": 0.0,
+    "R09_hold_sec": 0.2142854999999999,
+    "R10_R11_R12_hold_sec": [
+      0.2142854999999999,
+      0.21428550000000035,
+      0.21428549999999946
+    ],
+    "R13_hold_sec": 0.4285709999999998,
+    "R13_OFF_to_R14_ON_sec": 0.0
+  },
+  "source_root_low": [
+    -154.58614885739144,
+    -30.0,
+    -16.0,
+    -8.0,
+    -8.0,
+    -12.0
+  ],
+  "source_root_high": [
+    33.938387804875696,
+    35.0,
+    12.0,
+    8.0,
+    8.0,
+    12.0
+  ],
+  "initial_seed_root_parameter": [
+    -63.21088311221162,
+    -12.28421292936091,
+    -14.055084854442859,
+    2.098582896489381,
+    4.822731198250178,
+    0.6588214884989285
+  ],
+  "root_xyz_mm": [
+    160.46870983975793,
+    -136.62386150705575,
+    28.162162456949886
+  ],
+  "source_phase_roots_A2_parameters": [
+    [
+      -80.55389626186943,
+      -0.38051719241995186,
+      -15.430659824775407,
+      3.6614730540949645,
+      3.0578195727976594,
+      -1.7639969293973965
+    ],
+    [
+      -64.02918975866278,
+      -8.95789794749434,
+      -13.357823950402102,
+      2.9398380091474934,
+      4.5242726233147454,
+      3.775539951967121
+    ],
+    [
+      -53.63017133392795,
+      -13.886823316534944,
+      -14.317765402112686,
+      4.459133812789371,
+      7.22790790878428,
+      6.819754462242722
+    ],
+    [
+      -62.39257646576046,
+      -13.399301337460964,
+      -13.792404306773031,
+      1.9346687863274146,
+      6.2397626330995815,
+      3.4546312263239396
+    ],
+    [
+      -69.26797766207504,
+      -12.516529446945215,
+      -12.947259647701731,
+      0.5681091927692538,
+      3.219119725223316,
+      1.3357221832901174
+    ],
+    [
+      -76.40032066684296,
+      -13.629745766653114,
+      -15.639232540615716,
+      0.9704107264493472,
+      3.4246263497683467,
+      -1.3809349777369155
+    ],
+    [
+      -71.35377077735217,
+      -13.988414844891647,
+      -15.997695520687964,
+      1.2541600449759474,
+      5.121189773185611,
+      -0.01807920629226044
+    ],
+    [
+      -54.00095684437384,
+      -12.051896411776605,
+      -11.804668978346665,
+      -0.20580594999563456,
+      2.5969932156606235,
+      -1.306167914470254
+    ],
+    [
+      -16.41034037103481,
+      1.0189870904654397,
+      -3.3384823803829025,
+      2.262497006651347,
+      6.049959464977308,
+      2.8504614417395433
+    ],
+    [
+      -34.307533822182826,
+      4.347214136018393,
+      -14.366518854711227,
+      4.568383816130027,
+      7.296052922234136,
+      -0.7699141229829043
+    ]
+  ],
+  "initial_seed_vs_C1_root_translation_mm": [
+    21.080092120431434,
+    3.495735958924799,
+    9.717376153146779,
+    1.4078526185753137,
+    6.161951155195786,
+    13.352200025290138,
+    8.543105986501981,
+    9.483727349451618,
+    49.82079385380419,
+    33.3482376977999
+  ],
+  "initial_seed_max_joint_change_from_source_deg": 7.359640674171517e-08,
+  "phase_endpoint_checks": [
+    {
+      "start": "R08_DEPRESSED",
+      "end": "R08_PREP_START",
+      "available_sec": 0.2135709999999995,
+      "same_initial_seed_added_joint_delta_deg": 0.0,
+      "conditional_min_sec_at180_added_deg_s": 0.0,
+      "source_C1_root_endpoint_translation_mm": 18.73323341542323,
+      "source_C1_root_endpoint_mean_speed_mm_s": 87.71431240862884,
+      "source_C1_max_root_rotation_component_delta_deg": 5.539536881364517
+    },
+    {
+      "start": "R08_PREP_START",
+      "end": "R08_THUMB_NEAR",
+      "available_sec": 0.10499999999999998,
+      "same_initial_seed_added_joint_delta_deg": 0.0,
+      "conditional_min_sec_at180_added_deg_s": 0.0,
+      "source_C1_root_endpoint_translation_mm": 11.547959866671638,
+      "source_C1_root_endpoint_mean_speed_mm_s": 109.98057015877752,
+      "source_C1_max_root_rotation_component_delta_deg": 3.044214510275601
+    },
+    {
+      "start": "R08_THUMB_NEAR",
+      "end": "R09_ON_HANDOFF",
+      "available_sec": 0.07500000000000018,
+      "same_initial_seed_added_joint_delta_deg": 0.0,
+      "conditional_min_sec_at180_added_deg_s": 0.0,
+      "source_C1_root_endpoint_translation_mm": 8.791667967737492,
+      "source_C1_root_endpoint_mean_speed_mm_s": 117.22223956983295,
+      "source_C1_max_root_rotation_component_delta_deg": 3.3651232359187824
+    },
+    {
+      "start": "R09_ON_HANDOFF",
+      "end": "R09_DEPRESSED",
+      "available_sec": 0.03500000000000014,
+      "same_initial_seed_added_joint_delta_deg": 0.0,
+      "conditional_min_sec_at180_added_deg_s": 0.0,
+      "source_C1_root_endpoint_translation_mm": 6.9831724392088015,
+      "source_C1_root_endpoint_mean_speed_mm_s": 199.51921254882208,
+      "source_C1_max_root_rotation_component_delta_deg": 3.0206429078762653
+    },
+    {
+      "start": "R09_DEPRESSED",
+      "end": "R10_ON_HANDOFF",
+      "available_sec": 0.17928549999999976,
+      "same_initial_seed_added_joint_delta_deg": 7.359640674171517e-08,
+      "conditional_min_sec_at180_added_deg_s": 4.0886892634286204e-10,
+      "source_C1_root_endpoint_translation_mm": 7.704303042346501,
+      "source_C1_root_endpoint_mean_speed_mm_s": 42.97225956558958,
+      "source_C1_max_root_rotation_component_delta_deg": 2.716657161027033
+    },
+    {
+      "start": "R10_ON_HANDOFF",
+      "end": "R10_DEPRESSED",
+      "available_sec": 0.03500000000000014,
+      "same_initial_seed_added_joint_delta_deg": 7.359640674171517e-08,
+      "conditional_min_sec_at180_added_deg_s": 4.0886892634286204e-10,
+      "source_C1_root_endpoint_translation_mm": 5.071962638159539,
+      "source_C1_root_endpoint_mean_speed_mm_s": 144.9132182331291,
+      "source_C1_max_root_rotation_component_delta_deg": 1.6965634234172642
+    },
+    {
+      "start": "R10_DEPRESSED",
+      "end": "R11_DEPRESSED",
+      "available_sec": 0.2142854999999999,
+      "same_initial_seed_added_joint_delta_deg": 3.8411823797187606e-08,
+      "conditional_min_sec_at180_added_deg_s": 2.133990210954867e-10,
+      "source_C1_root_endpoint_translation_mm": 17.956940903704613,
+      "source_C1_root_endpoint_mean_speed_mm_s": 83.79914134976292,
+      "source_C1_max_root_rotation_component_delta_deg": 2.5241965575249874
+    },
+    {
+      "start": "R11_DEPRESSED",
+      "end": "R12_DEPRESSED",
+      "available_sec": 0.2142854999999999,
+      "same_initial_seed_added_joint_delta_deg": 3.8411823797187606e-08,
+      "conditional_min_sec_at180_added_deg_s": 2.133990210954867e-10,
+      "source_C1_root_endpoint_translation_mm": 40.68880383946414,
+      "source_C1_root_endpoint_mean_speed_mm_s": 189.88127446544055,
+      "source_C1_max_root_rotation_component_delta_deg": 4.156629356209797
+    },
+    {
+      "start": "R12_DEPRESSED",
+      "end": "R13_DEPRESSED",
+      "available_sec": 0.2142854999999999,
+      "same_initial_seed_added_joint_delta_deg": 0.0,
+      "conditional_min_sec_at180_added_deg_s": 0.0,
+      "source_C1_root_endpoint_translation_mm": 21.28389572361417,
+      "source_C1_root_endpoint_mean_speed_mm_s": 99.32494603514553,
+      "source_C1_max_root_rotation_component_delta_deg": 3.6203755647224476
+    }
+  ],
+  "boundary_context": [
+    {
+      "event": "R07",
+      "time": 2.527855,
+      "C1_root_xyz_mm": [
+        138.7372921070377,
+        -122.38935795941178,
+        33.93785466579707
+      ],
+      "initial_seed_translation_distance_mm": 26.612670448739543,
+      "initial_seed_max_rotation_component_distance_deg": 6.490151922326949
+    },
+    {
+      "event": "R14",
+      "time": 4.67071,
+      "C1_root_xyz_mm": [
+        168.08247866569735,
+        -114.66640538212405,
+        31.843058981146957
+      ],
+      "initial_seed_translation_distance_mm": 23.52973341189806,
+      "initial_seed_max_rotation_component_distance_deg": 3.770365832494482
+    }
+  ],
+  "hard_added_joint_velocity_deg_sec": 180,
+  "root_hard_velocity_limit": "NOT_REGISTERED_IN_A2_POLICY; soft regularizers and observed reference speeds are not hard caps",
+  "valid_path_endpoint_lower_bound_available": false,
+  "reason": "No accepted terminal layout or legal preparation interval was retained; same initial seed violates contacts and geometry"
+}

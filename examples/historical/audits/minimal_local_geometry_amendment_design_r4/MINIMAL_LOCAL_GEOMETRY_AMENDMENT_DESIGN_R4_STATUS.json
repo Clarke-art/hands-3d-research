@@ -1,0 +1,63 @@
+{
+  "phase": "MINIMAL_LOCAL_GEOMETRY_AMENDMENT_DESIGN_R4_WITH_RECONCILED_GATES",
+  "status": "FAIL_CLOSED_R4_GEOMETRY_DESIGN",
+  "failure_primary": "A_NONLINEAR_SOLVER_NONCONVERGENCE",
+  "failure_secondary": [
+    "E_TARGET_CONTOUR_CONFLICT",
+    "F_NUMERICAL_CCD_UNRESOLVED",
+    "C_BASELINE_CONTACT_COMPONENT_CONFLICT"
+  ],
+  "failure_interpretation": "The implemented coupled nonlinear strategy did not converge to a qualifying shallow continuous valley. Rejected local directions are not a proof of empty feasible region or required topology change.",
+  "candidate_count": 0,
+  "recommendation": "NONE",
+  "RECOMMENDED_WRITE_VERTEX_COUNT": 0,
+  "PRODUCTION_WRITE_COUNT": 0,
+  "POSITION_ONLY_ROUTE": "OPEN_NOT_QUALIFIED",
+  "TOPOLOGY_EVIDENCE": "NOT_FOUND",
+  "TOPOLOGY_CHANGE_REQUIRED": "NOT_PROVED",
+  "RET0PO": "NO",
+  "PRODUCTION_DRIFT": 0,
+  "NEGATIVE_CONTROL_TOTAL": 16,
+  "NEGATIVE_CONTROLS_PASS": 16,
+  "continuous_accepted_step_count": 43,
+  "every_accepted_step_certified": true,
+  "SUPPORT": "S4_111_COUPLED_XYZ",
+  "FEATURE_REIDENTIFICATION": "EVERY_NONLINEAR_ITERATION",
+  "VISUAL_STATUS": "FAIL_TARGET_CONTOUR",
+  "BOUNDARY_STATUS": "NO_NEW_SCREEN_FOLD_DIAGNOSTIC_ONLY",
+  "SMOKE_STATUS": "NOT_RUN_NO_QUALIFIED_CANDIDATE",
+  "NEXT": "STOP_HUMAN_REVIEW_NO_APPLY",
+  "STOP": true,
+  "diagnostic_statistics": {
+    "actual_nonzero_diagnostic_vertices": 111,
+    "max_displacement_mm": 0.34739352810113855,
+    "mean_displacement_mm": 0.02456542570480502,
+    "RMS_displacement_mm": 0.059682287264569485,
+    "P95_displacement_mm": 0.1334101072840348,
+    "boundary_max_displacement_gradient": 0.004961385534630951
+  },
+  "diagnostic_final_metrics": {
+    "dent_depth_mm": 1.4016733827951917,
+    "edge6676_angle_deg": 168.9020471439494,
+    "reference_surrounding_continuity_loss_mm2": 5.588915846940221,
+    "boundary_normal_progression_loss_deg2": 0.000599987586832502
+  },
+  "diagnostic_gate_counts": {
+    "new_true_contact_components": 0,
+    "old_contact_component_worsening": 0,
+    "new_feature_identity_expansions": 0,
+    "new_true_intrinsic_self_intersections": 0,
+    "new_off_shared_feature_contact_components": 0,
+    "new_positive_area_coplanar_overlaps": 0,
+    "new_true_material_path_reversals": 0,
+    "new_degenerate_faces": 0,
+    "new_projection_flags": 0,
+    "projected_flag_regressions": 0
+  },
+  "position_only_global_infeasibility_proved": false,
+  "PRODUCTION_READONLY_VERIFICATION": "PASS",
+  "HISTORICAL_FILE_COUNT_VERIFIED": 3326,
+  "COORDINATE_CHAIN_VERIFIED": true,
+  "VISUAL_REVIEW_OBSERVATION": "Final ordinary close view retains a sharp/deep central contour notch; native sections show only limited improvement. No qualified Human candidate.",
+  "conflict_scope": "Rejected local trial directions only; no global infeasibility or topology necessity proof."
+}

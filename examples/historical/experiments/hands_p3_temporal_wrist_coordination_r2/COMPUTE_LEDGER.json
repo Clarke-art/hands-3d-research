@@ -1,0 +1,63 @@
+{
+  "limit_seconds": 180,
+  "used_seconds": 93.7801164999837,
+  "stages": [
+    {
+      "name": "gate1",
+      "status": "RETURNED",
+      "returncode": 0,
+      "elapsed_seconds": 2.144679500008351,
+      "cap_seconds": 20,
+      "log": "gate1.log"
+    },
+    {
+      "name": "prepare",
+      "status": "RETURNED",
+      "returncode": 0,
+      "elapsed_seconds": 2.2148732999921776,
+      "cap_seconds": 20,
+      "log": "prepare.log"
+    },
+    {
+      "name": "source_probe",
+      "status": "RETURNED",
+      "returncode": 0,
+      "elapsed_seconds": 4.739999599987641,
+      "cap_seconds": 20,
+      "log": "source_probe.log"
+    },
+    {
+      "name": "input_gate",
+      "status": "RETURNED",
+      "returncode": 1,
+      "elapsed_seconds": 2.9440345000039088,
+      "cap_seconds": 20,
+      "log": "input_gate.log"
+    },
+    {
+      "name": "input_gate",
+      "status": "RETURNED",
+      "returncode": 0,
+      "elapsed_seconds": 3.2503255999909015,
+      "cap_seconds": 20,
+      "log": "input_gate_preformal_repair_1.log"
+    },
+    {
+      "name": "solve",
+      "status": "RETURNED",
+      "returncode": 1,
+      "elapsed_seconds": 77.70420770000783,
+      "cap_seconds": 85,
+      "log": "solve.log"
+    },
+    {
+      "name": "reports",
+      "status": "RETURNED",
+      "returncode": 0,
+      "elapsed_seconds": 0.7819962999928975,
+      "cap_seconds": 20,
+      "log": "reports.log"
+    }
+  ],
+  "remaining_seconds": 86.2198835000163
+}

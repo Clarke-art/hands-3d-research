@@ -1,0 +1,62 @@
+{
+  "phase": "PIANO_KEYBOARD_LOW_DOF_ROOT_POSE_VALIDATION_R1",
+  "model_order": [
+    "A",
+    "B_ONLY_IF_GATE_PASSES"
+  ],
+  "MODEL_A": {
+    "DOF": [
+      "XYZ",
+      "YAW"
+    ],
+    "yaw_axis": "canonical keyboard +Z",
+    "pitch_roll": 0
+  },
+  "MODEL_B": {
+    "DOF": [
+      "XYZ",
+      "YAW",
+      "PITCH",
+      "ROLL"
+    ],
+    "rotation_order": "Rz(yaw) @ Rx(pitch) @ Ry(roll)",
+    "pitch_axis": "canonical X, raise/lower longitudinal approach",
+    "roll_axis": "canonical Y, bank across keyboard",
+    "gate_required": true
+  },
+  "bounds_degrees": {
+    "YAW": [
+      -60,
+      60
+    ],
+    "PITCH": [
+      -25,
+      25
+    ],
+    "ROLL": [
+      -35,
+      35
+    ]
+  },
+  "evidence": {
+    "source_heading_abs_max_deg": 49.3878429272293,
+    "source_longitudinal_elevation_abs_max_deg": 15.06798602617194,
+    "source_bank_abs_max_deg": 19.175066143923193,
+    "white_key_width_m": 0.02308904948870001,
+    "black_top_above_white_m": 0.015444180037799607,
+    "canonical_palm_width_m": 0.07844528701752287,
+    "wrist_to_middle_mcp_m": 0.12344412967200158,
+    "one_key_steering_margin_deg": 10.594218880849285
+  },
+  "bound_derivation": "Yaw = round up5deg(max approved source wrist heading + atan(one white width/palm length)); pitch/roll similarly observed source inclination plus geometric black-key step over palm length/width. These are conservative audit search caps allowing source-heading compensation, NOT measured human range-of-motion limits. No result-driven expansion.",
+  "anatomical_orientation_prior": {
+    "desired_total_heading": "rear-facing within atan(palm_width/palm_length) before penalty",
+    "heading_soft_corridor_deg": 32.434815365614654,
+    "penalty": "outside corridor, palm-length times angular exceedance is a spatial residual; cannot obtain pass by sideways/twisted placement"
+  },
+  "scale": 1,
+  "finger_corrections": false,
+  "point_target_locations": "exact previous white front+25mm / black front+15mm and approved dynamic key surfaces",
+  "fingering_permutations_in_solver": false,
+  "source_pose_claim": "PRODUCT_SPATIALIZATION_LAYER, NOT measured wrist-world mocap"
+}

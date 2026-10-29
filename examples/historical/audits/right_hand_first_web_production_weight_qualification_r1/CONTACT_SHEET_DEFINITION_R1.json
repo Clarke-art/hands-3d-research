@@ -1,0 +1,83 @@
+{
+  "purpose": "Few temporal scan sheets across entire 7 seconds, not 421 individual reports",
+  "sheets": [
+    {
+      "segment": "EARLY",
+      "view": "REASONABLE_CLOSE_VIEW",
+      "frames": [
+        1,
+        7,
+        13,
+        19,
+        25,
+        31,
+        37,
+        43,
+        49,
+        55,
+        61,
+        67
+      ],
+      "path": "contact_sheets/EARLY_R1.png"
+    },
+    {
+      "segment": "MID",
+      "view": "REASONABLE_CLOSE_VIEW",
+      "frames": [
+        73,
+        78,
+        83,
+        88,
+        93,
+        98,
+        103,
+        108,
+        110,
+        112,
+        114,
+        116
+      ],
+      "path": "contact_sheets/MID_R1.png"
+    },
+    {
+      "segment": "PROBLEM_ZONE",
+      "view": "REASONABLE_CLOSE_VIEW",
+      "frames": [
+        119,
+        124,
+        127,
+        130,
+        136,
+        142,
+        148,
+        154,
+        160,
+        164,
+        168,
+        172
+      ],
+      "path": "contact_sheets/PROBLEM_ZONE_R1.png"
+    },
+    {
+      "segment": "LATE",
+      "view": "REASONABLE_CLOSE_VIEW",
+      "frames": [
+        176,
+        179,
+        182,
+        185,
+        188,
+        191,
+        194,
+        197,
+        200,
+        203,
+        205,
+        210
+      ],
+      "path": "contact_sheets/LATE_R1.png"
+    }
+  ],
+  "followup_policy": "Only expand adjacent frames if suspicious visible interval is found; no repair allowed",
+  "candidate_motion_frame_intermediates": "_tmp/motion_frames/; only video source frames, no individual per-frame diagnosis reports"
+}

@@ -1,0 +1,318 @@
+{
+  "phase": "PIANO_HAND_STATIC_TO_DYNAMIC_TRANSITION_R1",
+  "planner": "CONTACT_AWARE_TEMPORAL_MOTION_PLANNER_R1",
+  "date": "2026-10-09",
+  "DESIGN_ONLY": true,
+  "candidate_count": 1,
+  "scheme": "Bounded degree-three Bernstein joint curves over real key depression, optimized jointly over each complete micro-sequence. Exact inherited digit anchors at unpressed contact; per-digit quintic approach/recovery and inherited quintic key return. No independent per-frame IK, no branch switches, no post-hoc smoothing.",
+  "events": {
+    "L": [
+      {
+        "track": 2,
+        "channel": 1,
+        "midi_note": 38,
+        "on_tick": 0,
+        "off_tick": 192,
+        "velocity": 90,
+        "note_id": "n01",
+        "measure": 1,
+        "time": 0.7,
+        "note_on": 0.7,
+        "note_off": 0.95,
+        "hand": "L",
+        "finger": 5,
+        "key_index": 17,
+        "fingering_authority": "DESIGNED_PROVISIONAL_NOT_GROUND_TRUTH"
+      },
+      {
+        "track": 2,
+        "channel": 1,
+        "midi_note": 50,
+        "on_tick": 192,
+        "off_tick": 384,
+        "velocity": 90,
+        "note_id": "n02",
+        "measure": 1,
+        "time": 0.95,
+        "note_on": 0.95,
+        "note_off": 1.2,
+        "hand": "L",
+        "finger": 1,
+        "key_index": 29,
+        "fingering_authority": "DESIGNED_PROVISIONAL_NOT_GROUND_TRUTH"
+      },
+      {
+        "track": 2,
+        "channel": 1,
+        "midi_note": 38,
+        "on_tick": 384,
+        "off_tick": 576,
+        "velocity": 90,
+        "note_id": "n04",
+        "measure": 1,
+        "time": 1.2,
+        "note_on": 1.2,
+        "note_off": 1.45,
+        "hand": "L",
+        "finger": 5,
+        "key_index": 17,
+        "fingering_authority": "DESIGNED_PROVISIONAL_NOT_GROUND_TRUTH"
+      }
+    ],
+    "R": [
+      {
+        "track": 1,
+        "channel": 0,
+        "midi_note": 78,
+        "on_tick": 480,
+        "off_tick": 576,
+        "velocity": 90,
+        "note_id": "n05",
+        "measure": 1,
+        "time": 1.325,
+        "note_on": 1.325,
+        "note_off": 1.45,
+        "hand": "R",
+        "finger": 3,
+        "key_index": 57,
+        "fingering_authority": "DESIGNED_PROVISIONAL_NOT_GROUND_TRUTH"
+      }
+    ]
+  },
+  "windows_original_timeline_seconds": {
+    "L": [
+      0.4,
+      1.8
+    ],
+    "R": [
+      1.025,
+      1.8
+    ]
+  },
+  "planning_hz": 120,
+  "video_fps": 60,
+  "joint_bounds_deg": {
+    "THUMB": [
+      [
+        0,
+        0,
+        0,
+        -35
+      ],
+      [
+        25,
+        25,
+        18,
+        35
+      ]
+    ],
+    "LONG": [
+      [
+        0,
+        0,
+        0,
+        -25
+      ],
+      [
+        32,
+        32,
+        20,
+        25
+      ]
+    ],
+    "meaning": "Flexion1/2/3 then base spread. Increment from already curved RSSF rest; not global anatomical joint angles.",
+    "LEFT_IDLE_INDEX": [
+      [
+        3,
+        5,
+        2,
+        0
+      ],
+      [
+        18,
+        24,
+        14,
+        10
+      ]
+    ],
+    "LEFT_IDLE_MIDDLE": [
+      [
+        3,
+        5,
+        2,
+        -4
+      ],
+      [
+        18,
+        24,
+        14,
+        4
+      ]
+    ],
+    "LEFT_IDLE_RING": [
+      [
+        3,
+        5,
+        2,
+        -10
+      ],
+      [
+        18,
+        24,
+        14,
+        0
+      ]
+    ]
+  },
+  "root_policy": {
+    "shared_root": "Exact Human-approved root matrix throughout each sequence; constant root is continuous and avoids transporting hand per note.",
+    "translation_delta_max_mm": 0,
+    "orientation_delta_max_deg": 0,
+    "original_absolute_bounds": {
+      "L": {
+        "xyz_mm": [
+          [
+            -248,
+            -125,
+            42
+          ],
+          [
+            -208,
+            -70,
+            68
+          ]
+        ],
+        "seed_xyz_mm": [
+          -221.4,
+          -95,
+          60
+        ]
+      },
+      "R": {
+        "xyz_mm": [
+          [
+            222,
+            -145,
+            42
+          ],
+          [
+            264,
+            -95,
+            65
+          ]
+        ],
+        "seed_xyz_mm": [
+          236,
+          -135,
+          48
+        ]
+      },
+      "yaw_pitch_roll_deg": [
+        [
+          -12,
+          -6,
+          -6
+        ],
+        [
+          12,
+          10,
+          6
+        ]
+      ],
+      "seed_yaw_pitch_roll_deg": {
+        "L": [
+          5,
+          0,
+          0
+        ],
+        "R": [
+          -2,
+          1,
+          2
+        ]
+      },
+      "pair_root_difference_mm": 0,
+      "pair_orientation_difference_deg": 0,
+      "interpretation": "Common root can differ from R1. Left maximum root height reduced70→68mm; right65mm cap. Root bounds decided before solve."
+    }
+  },
+  "temporal_limits": {
+    "joint_velocity_deg_sec": 850,
+    "joint_acceleration_deg_sec2": 90000,
+    "root_velocity_mm_sec": 0,
+    "root_acceleration_mm_sec2": 0,
+    "root_angular_velocity_deg_sec": 0,
+    "root_angular_acceleration_deg_sec2": 0,
+    "max_dynamic_change_from_contact_anchor_deg": 12,
+    "max_continuous_near_bound_sec": 0.05,
+    "near_bound_epsilon_deg": 0.25,
+    "meaning": "A priori engineering constraints for original 35ms key descent; not physiological limits."
+  },
+  "stages": {
+    "PREPARATION": "Inherited nonplaying digit posture",
+    "APPROACH": "120ms quintic preparation-to-approved contact, ends at unchanged NOTE_ON",
+    "CONTACT": "Exact approved active digit anchor at NOTE_ON with static key surface; preceding finger may still be releasing",
+    "KEY_PRESS": "Inherited 35ms key descent, active digit follows transformed registered contact point",
+    "HOLD": "Full down-key surface tracking until unchanged NOTE_OFF",
+    "RELEASE": "Inherited70ms key rebound tracked to unpressed contact",
+    "RECOVERY": "Quintic lift to inherited preparation digit; end=min(off+220ms,next same-digit on-120ms). Minimum60ms in these events, computed before generation."
+  },
+  "anchor_overlap": "Left NOTE_OFF coincides with next NOTE_ON. Preserve source full static scenes and per-digit anchors; a releasing digit and arriving digit can coexist, so dynamic whole-hand NOTE_ON is not falsely equated to a static full-hand endpoint.",
+  "idle_reference": "Left index/middle/ring use exact approved L1 values; right other four use exact approved R1 values. No new home-key IK.",
+  "contact": {
+    "vertical_tolerance_mm": 3,
+    "horizontal_tolerance_mm": 2,
+    "strict_playable_region": true,
+    "registered_contact_gap": "Preserve original approved gap approximately0.5mm relative to rotated key top",
+    "marker_source_sha256": "169dd4b717815f379657456bb25a869cfb42c80eac42de9762ff666820855755",
+    "actual_moving_geometry_required": true
+  },
+  "clearance": {
+    "neighbor_nominal_margin_mm": 2,
+    "palm_nominal_margin_mm": 5,
+    "screen_depth_mm": 3,
+    "scope": "All3300 evaluated vertices against all88 actual key pieces, in inverse-current-key frame at120Hz. Not full triangle collision certification; inspect normal views.",
+    "no_idle_pad_wrong_key_contact": true,
+    "no_new_penetration_allowed": true
+  },
+  "optimization": {
+    "method": "One deterministic bounded scipy least_squares per hand over all Bernstein coefficients, forming one candidate with two sequences",
+    "one_seed": "Contact anchor repeated three times, clipped strictly inside already locked control bounds",
+    "degree": 3,
+    "control_points_per_digit": 3,
+    "max_nfev": 100,
+    "xtol": 1e-08,
+    "ftol": 1e-07,
+    "gtol": 1e-07,
+    "trajectory_samples": "120Hz plus exact event/phase boundaries",
+    "skin_collocation": "Predeclared approach and recovery quarter points, press fractions0,.25,.5,.75,1 and release quarters",
+    "weights": {
+      "pad_target_mm": 10,
+      "skin_pad_target_mm": 6,
+      "joint_anchor_rad": 1,
+      "neighbor_mm": 2,
+      "palm_mm": 2,
+      "velocity_over_deg_sec": 0.05,
+      "acceleration_over_deg_sec2": 0.0005,
+      "coefficient_curvature_rad": 10
+    },
+    "left_bound_relief": "Contact anchors unchanged at original limits. All pressure control points for L1 little MCP/spread <=upper-.5deg and L2 thumb IP<=upper-.5deg; near-bound dwell independently measured. No range expansion."
+  },
+  "failure_rule": "Keep sole finite bounded candidate, report PARTIAL or FAIL_CLOSED on contact, temporal, bounds, visible or anchor conflicts. No parameter sweep, retuning or second candidate. Fix genuine implementation errors only.",
+  "audio": "No engine development. Use inherited legal samples and original velocity/event times for isolated excerpt if available.",
+  "prohibited": [
+    "mesh",
+    "topology",
+    "rig/rest",
+    "weights",
+    "correctives/drivers",
+    "scales",
+    "helpers",
+    "keyboard geometry",
+    "production pointer",
+    "MIDI/fingering edits",
+    "full Musette regeneration",
+    "promotion",
+    "formal Web integration"
+  ]
+}

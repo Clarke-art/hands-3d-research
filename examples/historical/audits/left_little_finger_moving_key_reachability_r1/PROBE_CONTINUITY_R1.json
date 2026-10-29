@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "checks": {
+    "joint_bounds": true,
+    "joint_velocity": true,
+    "joint_acceleration": true,
+    "root_velocity": true,
+    "root_acceleration": true,
+    "root_angular_velocity": true,
+    "root_angular_acceleration": true
+  },
+  "joint_velocity_max_deg_sec": 418.0277773359596,
+  "joint_acceleration_max_deg_sec2": 34978.81172338157,
+  "root_velocity_max_mm_sec": 167.950863806846,
+  "root_acceleration_max_mm_sec2": 13744.741623696971,
+  "root_angular_velocity_max_deg_sec": 29.465202695832446,
+  "root_angular_acceleration_max_deg_sec2": 2411.1866005710153,
+  "root_xyz_min_mm": [
+    -220.75432790050664,
+    -94.60281402809196,
+    42.100555292657894
+  ],
+  "root_xyz_max_mm": [
+    -220.75365034654394,
+    -94.60101644601244,
+    45.60061551327532
+  ],
+  "root_pitch_delta_range_deg": [
+    -0.6140844095259214,
+    -2.4749481909333693e-05
+  ],
+  "idle_joint_delta_deg": 0.0,
+  "active_near_bound_dwell": [
+    {
+      "note_id": "n01",
+      "longest_near_bound_sec": 0.2916666666666667,
+      "not_sole_pass_gate": true
+    },
+    {
+      "note_id": "n02",
+      "longest_near_bound_sec": 0.025,
+      "not_sole_pass_gate": true
+    },
+    {
+      "note_id": "n04",
+      "longest_near_bound_sec": 0.2916666666666667,
+      "not_sole_pass_gate": true
+    }
+  ],
+  "root_shared_count": 1,
+  "analytic_curve": "C2 phase curves sampled120Hz. Saved quaternion channels are piecewise-linear approximations.",
+  "physiological_certification": false
+}

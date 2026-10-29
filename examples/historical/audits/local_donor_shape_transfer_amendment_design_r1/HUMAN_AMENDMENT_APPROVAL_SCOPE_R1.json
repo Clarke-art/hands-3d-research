@@ -1,0 +1,107 @@
+{
+  "status": "NOT_HUMAN_APPROVED",
+  "phase": "LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_DESIGN_R1",
+  "candidate": {
+    "path": "audits/local_donor_shape_transfer_amendment_design_r1/RIGHT_HAND_ENGINEERING_STAGE4C_R2_DONOR_TRANSFER_CANDIDATE_R1.blend",
+    "sha256": "9788ef1582344b12d17c8c201b59f6f1b5c59eb22648a0753bba1725481ed8e8"
+  },
+  "source_stage4c": {
+    "path": "production_spec/stage4_blender/stage4c_r2/RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend",
+    "sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+  },
+  "official_L1_donor": {
+    "path": "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend",
+    "sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137"
+  },
+  "donor_object": "Hand  - Realistic",
+  "donor_layer": "Official stored Multires L1",
+  "write_set_count": 54,
+  "vertex_ids": [
+    738,
+    2237,
+    2238,
+    2276,
+    2328,
+    2330,
+    3300,
+    3301,
+    3302,
+    3303,
+    3304,
+    3305,
+    3306,
+    3307,
+    3308,
+    3309,
+    3310,
+    3311,
+    3312,
+    3313,
+    3314,
+    3315,
+    3316,
+    3317,
+    3318,
+    3319,
+    3320,
+    3321,
+    3322,
+    3323,
+    3324,
+    3325,
+    3326,
+    3327,
+    3328,
+    3329,
+    3330,
+    3331,
+    3332,
+    3333,
+    3334,
+    3335,
+    3336,
+    3337,
+    3338,
+    3339,
+    3340,
+    3341,
+    3342,
+    3343,
+    3344,
+    3345,
+    3346,
+    3347
+  ],
+  "vertex_id_set_sha256": "a5029a848ee79cd8b17d9646b444c8b64190c68235ec23b176e0308a0ea19dc8",
+  "exact54_stored_local_coordinates_sha256": "f266c3bb16be5df05cf9709c81a108dcac9abb6c6daf94c02fab222cd06ad677",
+  "write_set_evidence": {
+    "path": "audits/local_donor_shape_transfer_amendment_design_r1/FORMAL_DONOR_TRANSFER_WRITE_SET_R1.json",
+    "sha256": "4fee1ead1edef89682714447cd26918d31e7dfa99eb4b77baf2cdce5634af429"
+  },
+  "coordinate_evidence": {
+    "path": "audits/local_donor_shape_transfer_amendment_design_r1/FORMAL_DONOR_TRANSFER_COORDINATES_R1.json",
+    "sha256": "e4407d1a9810121d81146d53fa5bf524175e6a07ff556e0cd13b49024686b2d3"
+  },
+  "approval_scope": [
+    "donor source identity",
+    "exact54 vertex write set",
+    "exact54 formal target coordinates",
+    "frozen Stage4C_R2 to independent derived candidate lineage",
+    "current topology preservation",
+    "visible contour result",
+    "downstream revalidation blast radius"
+  ],
+  "scope_exclusions": [
+    "production application/promotion",
+    "historical overwrite",
+    "Stage6A PASS",
+    "Stage6B PASS",
+    "9 independent severe crossing adjudication"
+  ],
+  "downstream_plan": {
+    "path": "audits/local_donor_shape_transfer_amendment_design_r1/FORMAL_DONOR_TRANSFER_DOWNSTREAM_PLAN_R1.json",
+    "sha256": "a1ea6f6c382e87f98740d6c7d7894afe12e37645a745b0cd3b9405412f853bd5"
+  },
+  "NEXT": "HUMAN_APPROVE_LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_R1",
+  "STOP": "HUMAN REVIEW"
+}

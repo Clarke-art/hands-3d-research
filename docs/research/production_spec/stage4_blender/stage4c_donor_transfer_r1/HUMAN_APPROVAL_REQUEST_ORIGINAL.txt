@@ -1,0 +1,967 @@
+继续当前钢琴教学 3D 手项目。
+
+工作区：
+
+<HANDS_ROOT>
+
+==================================================
+当前 Human 决定
+==================================================
+
+Human 已审阅并批准：
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_DESIGN_R1
+
+正式批准范围仅限：
+
+HUMAN_APPROVE_LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_R1
+=
+APPROVED
+
+DONOR_SOURCE =
+Blender Human Base Meshes v1.4.1 /
+Hand  - Realistic /
+official Multires L1
+
+DONOR_SOURCE_HASH =
+3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137
+
+SOURCE_STAGE4C_HASH =
+fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7
+
+APPROVED_FORMAL_CANDIDATE_HASH =
+9788ef1582344b12d17c8c201b59f6f1b5c59eb22648a0753bba1725481ed8e8
+
+APPROVED_WRITE_SET_COUNT =
+54
+
+VISIBLE_DENT_HUMAN_REVIEW =
+PASS_ABSENT
+
+NATURAL_DORSAL_MCP_VALLEY =
+PASS
+
+NEW_VISIBLE_CONTOUR_DEFECT =
+NONE_OBSERVED
+
+TOPOLOGY_CHANGE_APPROVED =
+NO
+
+RET0PO_APPROVED =
+NO
+
+WEIGHT_CHANGE_APPROVED =
+NO
+
+BONE_JOINT_CHANGE_APPROVED =
+NO
+
+PRODUCTION_PROMOTION_APPROVED =
+NO
+
+==================================================
+本轮正式任务
+==================================================
+
+执行：
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPLICATION_R1
+
+本轮目的：
+
+把已经 Human 批准的
+54-point donor-shape-transfer
+
+正式应用到：
+
+一个新的、独立的 Stage4C geometry revision。
+
+注意：
+
+这是 geometry amendment application，
+
+不是：
+
+production master freeze
+
+Stage5 rebuild
+
+Stage6A PASS
+
+Stage6B
+
+retopo
+
+skin rebuild。
+
+==================================================
+一、绝对禁止覆盖历史
+==================================================
+
+以下全部保持 byte-frozen：
+
+official source
+
+Stage2 bootstrap
+
+Stage4A historical assets
+
+Stage4B RSSF historical assets
+
+Stage4C_R2
+
+current Stage5A
+
+current R2 production candidate
+
+cap37 authority
+
+fresh R3
+
+FIRST_WEB21
+
+Human receipts
+
+true-cap authority
+
+Stage6A evidence。
+
+尤其不得覆盖：
+
+production_spec/stage4_blender/stage4c_r2/
+RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend
+
+==================================================
+二、新建独立 Stage4C revision
+==================================================
+
+从 frozen：
+
+RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend
+
+创建新的 derived Stage4C revision。
+
+建议独立目录：
+
+production_spec/stage4_blender/
+stage4c_donor_transfer_r1/
+
+资产名可按项目现有命名规范最终确定，例如：
+
+RIGHT_HAND_ENGINEERING_STAGE4C_DONOR_TRANSFER_R1.blend
+
+或等价明确名称。
+
+必须满足：
+
+NEW_DERIVED_ASSET = YES
+
+SOURCE_HISTORY_PRESERVED = YES
+
+不得把原 formal candidate 文件
+直接改名冒充 application artifact。
+
+==================================================
+三、application 唯一合法 authority
+==================================================
+
+本轮不得重新计算 donor shape。
+
+不得重新运行：
+
+ancestry solve
+
+fairing
+
+optimizer
+
+surface fitting
+
+manual adjustment。
+
+application 的唯一 coordinate authority 是：
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_DESIGN_R1
+
+中的：
+
+FORMAL_DONOR_TRANSFER_COORDINATES_R1.json
+
+并绑定：
+
+FORMAL_CANDIDATE_HASH =
+9788ef1582344b12d17c8c201b59f6f1b5c59eb22648a0753bba1725481ed8e8
+
+如果：
+
+source hash
+candidate hash
+write-set hash
+coordinate payload hash
+
+任一与 Human-approved receipt 不一致：
+
+FAIL CLOSED
+
+STOP。
+
+==================================================
+四、批准的54点 write set
+==================================================
+
+正式 write IDs：
+
+738
+2237
+2238
+2276
+2328
+2330
+3300
+3301
+3302
+3303
+3304
+3305
+3306
+3307
+3308
+3309
+3310
+3311
+3312
+3313
+3314
+3315
+3316
+3317
+3318
+3319
+3320
+3321
+3322
+3323
+3324
+3325
+3326
+3327
+3328
+3329
+3330
+3331
+3332
+3333
+3334
+3335
+3336
+3337
+3338
+3339
+3340
+3341
+3342
+3343
+3344
+3345
+3346
+3347
+
+只允许这些 vertex positions
+写入批准 target coordinates。
+
+ID ∉ 54：
+
+vertex position delta
+必须 exact zero。
+
+不得扩成：
+
+55
+56
+52 ROI
+111 S4
+或任何其它集合。
+
+==================================================
+五、不得重新“改善”批准结果
+==================================================
+
+禁止：
+
+smooth
+relax
+fair
+sculpt
+normal correction
+boundary touch-up
+visual polish
+contact cleanup
+crossing cleanup。
+
+即使 Codex 认为某个点还能更自然，
+
+也不得修改。
+
+Human 已批准的是：
+
+精确54点
++
+精确 formal target coordinates。
+
+==================================================
+六、Application procedure
+==================================================
+
+必须采用：
+
+frozen Stage4C_R2
++
+approved54 target positions
+
+生成新的 revision。
+
+顺序：
+
+1.
+clean reopen frozen Stage4C_R2
+
+2.
+verify source SHA256
+
+3.
+verify V/E/F and topology signature
+
+4.
+verify approved coordinate authority
+
+5.
+apply exact54 target positions
+
+6.
+save new derived blend
+
+7.
+factory-clean reopen new blend
+
+8.
+重新读取实际 native stored coordinates
+
+9.
+验证 save/reopen serialization
+
+不得从 temporary probe
+或内存残留 scene 开始。
+
+==================================================
+七、精确 write verification
+==================================================
+
+Application 后必须报告：
+
+APPROVED_WRITE_COUNT = 54
+
+ACTUAL_CHANGED_VERTEX_COUNT = ?
+
+要求：
+
+= 54
+
+OUTSIDE54_POSITION_DRIFT_COUNT = 0
+
+对54点逐个验证：
+
+actual saved coordinate
+vs
+approved target coordinate
+
+报告：
+
+max absolute coordinate delta
+
+max Euclidean delta
+
+mean / RMS delta。
+
+允许仅：
+
+Blender native float storage
+所产生的、与批准 candidate 一致的
+已知序列化结果。
+
+目标是：
+
+APPLICATION_MESH_PAYLOAD
+与 approved formal candidate
+在 geometry 层精确一致。
+
+==================================================
+八、Formal candidate equivalence
+==================================================
+
+将新 application artifact
+与：
+
+RIGHT_HAND_ENGINEERING_STAGE4C_R2_DONOR_TRANSFER_CANDIDATE_R1.blend
+
+比较。
+
+忽略：
+
+合法的新 revision metadata / provenance props
+
+其它实际 mesh payload 必须验证。
+
+至少：
+
+vertex positions
+edges
+faces
+UV
+materials
+smooth flags
+custom normals state
+
+应与 Human-approved formal candidate
+完全一致。
+
+输出：
+
+APPROVED_CANDIDATE_TO_APPLICATION_GEOMETRY_EQUIVALENCE
+=
+PASS / FAIL
+
+==================================================
+九、Topology / payload protection
+==================================================
+
+应用后必须保持：
+
+V = 3416
+E = 6828
+F = 3414
+
+vertex IDs unchanged
+
+edge IDs unchanged
+
+face IDs unchanged
+
+native face cycles unchanged
+
+manifold incidence unchanged
+
+UV coordinates unchanged
+
+UV connectivity unchanged
+
+materials unchanged
+
+material assignments unchanged
+
+smooth/sharp flags unchanged
+
+custom normal state unchanged。
+
+Stage4C 本身没有 production rig payload，
+不得凭空加入：
+
+vertex groups
+armature
+weights
+bones。
+
+==================================================
+十、Authority intersection recheck
+==================================================
+
+重新确认54点与以下冻结集合的关系
+仍与 design report 一致：
+
+cap37
+FIRST_WEB21
+fresh R3 protected domain
+historical317 weight universe
+thumb nail
+old cap9
+CMC protected context
+
+不得因此重新研究这些 authority。
+
+这里只做：
+
+membership/intersection consistency check。
+
+==================================================
+十一、重新运行 static true3D structural gate
+==================================================
+
+新 application artifact 必须重新通过：
+
+new nonadjacent exact intersection = 0
+
+new off-shared crossing = 0
+
+new illegal coplanar overlap = 0
+
+new true self-intersection = 0
+
+new structural bow-tie = 0
+
+face reversal = 0
+
+degenerate = 0
+
+new true contact component = 0
+
+baseline contact worsening = 0
+
+baseline feature expansion = 0
+
+sharp transition migration = 0。
+
+继续采用 reconciled gate semantics。
+
+不得恢复：
+
+absolute projected bowtie zero。
+
+==================================================
+十二、关键 contour regression
+==================================================
+
+重新核验：
+
+edge6675
+edge6602
+edge6676
+
+expected approximately：
+
+6675：
+30.432284°
+
+6602：
+29.307175°
+
+6676：
+1.377821°
+
+不要把这些值作为人体 threshold。
+
+这里只用于证明：
+
+application
+和 Human-approved candidate
+是同一个几何结果。
+
+如果明显不一致：
+
+FAIL CLOSED。
+
+==================================================
+十三、Human contour application evidence
+==================================================
+
+生成新的 application review evidence。
+
+至少：
+
+SOURCE_STAGE4C_R2
+
+APPROVED_FORMAL_CANDIDATE
+
+APPLIED_NEW_STAGE4C_REVISION
+
+三列 matched。
+
+视图：
+
+Human 原始 dent 机位
+
+close solid
+
+full dorsal
+
+grazing
+
+side
+
+silhouette
+
+wire
+
+0 / 60 / 120 sections。
+
+目的不是重新挑 candidate，
+
+而是确认：
+
+APPROVED_DESIGN_WAS_APPLIED_EXACTLY。
+
+==================================================
+十四、save / reopen gate
+==================================================
+
+新 Stage4C revision 保存并 clean reopen 后：
+
+54点实际坐标不漂移
+
+54外不漂移
+
+topology不漂移
+
+UV/material不漂移。
+
+输出：
+
+SAVE_REOPEN = PASS
+
+SERIALIZATION_GEOMETRY_DRIFT = 0
+或严格记录实际 float semantics。
+
+==================================================
+十五、本轮允许的 metadata
+==================================================
+
+新 derived asset 可以增加：
+
+source Stage4C hash
+
+approved candidate hash
+
+Human approval receipt hash
+
+donor source hash
+
+write-set hash
+
+target-coordinate hash
+
+application phase name
+
+derived lineage
+
+DO_NOT_PROMOTE_UNTIL_DOWNSTREAM_REQUALIFIED
+
+等 provenance metadata。
+
+但：
+
+这些 metadata 不得伪装成
+production-ready 状态。
+
+==================================================
+十六、Human approval receipt
+==================================================
+
+新增独立：
+
+HUMAN_LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPROVAL_R1.md
+
+HUMAN_LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPROVAL_R1.json
+
+记录：
+
+Human approved donor identity
+
+approved54 IDs
+
+approved target payload
+
+approved formal candidate hash
+
+visual dent PASS
+
+topology/weight/bone changes not approved
+
+downstream revalidation required。
+
+不要改写旧 design report。
+
+==================================================
+十七、原 Full Stage6A 状态必须保留
+==================================================
+
+继续：
+
+FULL_STAGE6A_REQUALIFICATION_R1
+=
+FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION
+
+MACHINE_HARD_BLOCKER_COUNT =
+9
+
+原9对 severe exact crossings：
+
+仍未 Human adjudicate
+
+仍未重分类
+
+仍未修复。
+
+geometry amendment application
+不自动改变这些状态。
+
+==================================================
+十八、本轮不要传播到Stage5
+==================================================
+
+这是非常重要的 STOP 边界。
+
+本轮成功后：
+
+不要自动：
+
+把新 geometry 写进 Stage5A
+
+修改 R2 production candidate
+
+重新绑定 weights
+
+重算 bones
+
+重算 R3
+
+重算 true-cap
+
+跑 targeted deformation
+
+跑 Full42
+
+跑 Stage6B。
+
+先完成：
+
+NEW_STAGE4C_APPLICATION
++
+local validation
++
+save/reopen
++
+approval receipt。
+
+然后 STOP。
+
+==================================================
+十九、成功 verdict
+==================================================
+
+只有满足：
+
+SOURCE_HASH_VERIFIED = PASS
+
+HUMAN_APPROVAL_BOUND = PASS
+
+APPROVED_WRITE_SET = 54/54
+
+ACTUAL_CHANGED_VERTICES = 54
+
+OUTSIDE54_DRIFT = 0
+
+APPROVED_CANDIDATE_GEOMETRY_EQUIVALENCE = PASS
+
+TOPOLOGY_PRESERVED = PASS
+
+UV_MATERIAL_PRESERVED = PASS
+
+STRUCTURAL_GATE = PASS
+
+CONTACT_NO_REGRESSION = PASS
+
+CONTOUR_APPLICATION_EQUIVALENCE = PASS
+
+SAVE_REOPEN = PASS
+
+PROTECTED_HISTORY_DRIFT = 0
+
+才能输出：
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPLICATION_R1
+=
+PASS_APPLIED_TO_NEW_STAGE4C_DERIVED_REVISION
+
+注意：
+
+APPLIED
+仅表示：
+
+新 Stage4C 派生版本已经创建。
+
+不表示：
+
+production promoted。
+
+==================================================
+二十、失败条件
+==================================================
+
+以下任一情况：
+
+hash mismatch
+
+write set mismatch
+
+coordinate mismatch
+
+outside54 drift
+
+topology drift
+
+UV/material drift
+
+new structural defect
+
+candidate/application contour mismatch
+
+save/reopen drift
+
+都必须：
+
+FAIL_CLOSED_DONOR_TRANSFER_APPLICATION
+
+STOP。
+
+禁止自动重算 target
+
+禁止扩 scope
+
+禁止优化。
+
+==================================================
+二十一、输出
+==================================================
+
+至少新增：
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPLICATION_R1_REPORT.md
+
+LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPLICATION_R1_STATUS.json
+
+HUMAN_LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPROVAL_R1.md
+
+HUMAN_LOCAL_DONOR_SHAPE_TRANSFER_AMENDMENT_APPROVAL_R1.json
+
+APPLICATION_WRITE_VERIFICATION_R1.json
+
+APPLICATION_GEOMETRY_EQUIVALENCE_R1.json
+
+APPLICATION_STRUCTURE_AUDIT_R1.json
+
+APPLICATION_CONTACT_AUDIT_R1.json
+
+APPLICATION_BOUNDARY_CONTOUR_AUDIT_R1.json
+
+APPLICATION_SAVE_REOPEN_AUDIT_R1.json
+
+APPLICATION_PROTECTED_HISTORY_HASH_AUDIT_R1.json
+
+review.html
+
+以及新的 derived Stage4C .blend。
+
+==================================================
+二十二、最终字段
+==================================================
+
+必须明确：
+
+HUMAN_AMENDMENT_APPROVAL = ?
+
+SOURCE_STAGE4C_HASH = ?
+
+APPROVED_FORMAL_CANDIDATE_HASH = ?
+
+DONOR_SOURCE_HASH = ?
+
+APPROVED_WRITE_SET_COUNT = 54
+
+ACTUAL_CHANGED_VERTEX_COUNT = ?
+
+OUTSIDE54_POSITION_DRIFT = ?
+
+MAX_COORD_DELTA_VS_APPROVED_TARGET_MM = ?
+
+APPLICATION_ASSET_PATH = ?
+
+APPLICATION_ASSET_SHA256 = ?
+
+APPROVED_CANDIDATE_TO_APPLICATION_GEOMETRY_EQUIVALENCE = ?
+
+TOPOLOGY_DRIFT = ?
+
+UV_DRIFT = ?
+
+MATERIAL_DRIFT = ?
+
+NEW_TRUE3D_CONTACT_COUNT = ?
+
+NEW_SELF_INTERSECTION_COUNT = ?
+
+FACE_REVERSAL_COUNT = ?
+
+DEGENERATE_COUNT = ?
+
+BASELINE_CONTACT_WORSENING_COUNT = ?
+
+EDGE6675_DIHEDRAL = ?
+
+EDGE6602_DIHEDRAL = ?
+
+EDGE6676_DIHEDRAL = ?
+
+VISIBLE_DENT_APPLICATION_STATUS = ?
+
+SAVE_REOPEN = ?
+
+PROTECTED_HISTORY_DRIFT = ?
+
+FULL_STAGE6A_STATUS_RETAINED = ?
+
+PRODUCTION_PROMOTION = NO
+
+APPLICATION_VERDICT = ?
+
+==================================================
+二十三、NEXT
+==================================================
+
+如果成功：
+
+NEXT =
+STAGE5_GEOMETRY_PROPAGATION_AFTER_DONOR_TRANSFER_R1
+
+只记录。
+
+不得执行。
+
+后续推荐顺序保持：
+
+new Stage4C geometry
+
+→
+Stage5 geometry propagation
+
+→
+joint-to-surface / rest / zero / bind validation
+
+→
+static skin compatibility
+
+→
+geometry-dependent true-cap paths/bounds revalidation
+
+→
+targeted deformation revalidation
+
+→
+Full42 Stage6A requalification
+
+→
+Human contour / deformation review
+
+→
+只有全部关闭后才能考虑 Stage6B。
+
+本轮完成后：
+
+STOP。

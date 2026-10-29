@@ -1,0 +1,158 @@
+{
+  "status": "RESOLVED_TOPOLOGICAL_SIDE_IDENTITY",
+  "sides": [
+    {
+      "frontier": "LEFT",
+      "column_provenance": 4,
+      "R00_vertex": 1399,
+      "existing_frontier_edge_ids": [
+        1136,
+        1140,
+        1141,
+        1061,
+        1060,
+        1169,
+        1168,
+        3059
+      ],
+      "R00_sector_end_edge": 4475,
+      "first_continuation_face": 1177,
+      "face_vertex_ids": [
+        1397,
+        304,
+        1399,
+        2774
+      ],
+      "boundary_continuation_edge": 1137,
+      "incident_face_ids": [
+        1175,
+        1177
+      ],
+      "nail_overlap": [
+        304
+      ],
+      "cap_overlap": [],
+      "identity": "NAIL_FACING_SIDE",
+      "states": {
+        "NATIVE": {
+          "nail_distance_min_vertex_mm": 0.0,
+          "cap_distance_min_vertex_mm": 14.356563859806652,
+          "mean_normal": [
+            -0.44550239817387693,
+            0.746881869843822,
+            0.49365482446738074
+          ],
+          "frontier_local_tangent": [
+            0.5591289134085343,
+            -0.18110409630296975,
+            0.8090588139887459
+          ],
+          "frontier_vertex_world_m": [
+            1.4787113666534424,
+            -0.0024830950424075127,
+            0.4525507688522339
+          ]
+        },
+        "RSSF": {
+          "nail_distance_min_vertex_mm": 0.0,
+          "cap_distance_min_vertex_mm": 14.251506542955777,
+          "mean_normal": [
+            -0.5882173764479705,
+            0.8010558280494594,
+            -0.11094989135939465
+          ],
+          "frontier_local_tangent": [
+            -0.06794693886746776,
+            0.10691242541968721,
+            0.9919440240202168
+          ],
+          "frontier_vertex_world_m": [
+            1.4457752704620361,
+            0.015119502320885658,
+            0.4615646004676819
+          ]
+        }
+      }
+    },
+    {
+      "frontier": "RIGHT",
+      "column_provenance": 6,
+      "R00_vertex": 1396,
+      "existing_frontier_edge_ids": [
+        1131,
+        1147,
+        1146,
+        1197,
+        1196,
+        3072,
+        3073,
+        1182
+      ],
+      "R00_sector_end_edge": 4477,
+      "first_continuation_face": 1176,
+      "face_vertex_ids": [
+        303,
+        1397,
+        2774,
+        1396
+      ],
+      "boundary_continuation_edge": 1130,
+      "incident_face_ids": [
+        1176,
+        1180
+      ],
+      "nail_overlap": [],
+      "cap_overlap": [],
+      "identity": "NON_NAIL_SIDE",
+      "states": {
+        "NATIVE": {
+          "nail_distance_min_vertex_mm": 4.4544765364243055,
+          "cap_distance_min_vertex_mm": 13.910409075487697,
+          "mean_normal": [
+            -0.7164707952210558,
+            0.2646228134927522,
+            0.645479950249803
+          ],
+          "frontier_local_tangent": [
+            0.6617483542700806,
+            -0.17309875809523637,
+            0.7294696262125838
+          ],
+          "frontier_vertex_world_m": [
+            1.4745538234710693,
+            -0.009478221647441387,
+            0.45495370030403137
+          ]
+        },
+        "RSSF": {
+          "nail_distance_min_vertex_mm": 4.402282095422901,
+          "cap_distance_min_vertex_mm": 13.798752102127192,
+          "mean_normal": [
+            -0.9293180698080283,
+            0.3681678695872966,
+            -0.028641664264353817
+          ],
+          "frontier_local_tangent": [
+            0.06169743686815007,
+            0.10172063138407886,
+            0.9928979501614075
+          ],
+          "frontier_vertex_world_m": [
+            1.4404172897338867,
+            0.008715588599443436,
+            0.4628652334213257
+          ]
+        }
+      }
+    }
+  ],
+  "nail_side_hard_constraint": {
+    "status": "RESOLVED",
+    "side": "LEFT",
+    "stop_before_face": 1177,
+    "excluded_nail_vertex": 304,
+    "mechanism": "AUTHORITY_CONFLICT_TERMINATION",
+    "constraint_does_not_stop_other_side": true
+  },
+  "asymmetric_taper_allowed": true
+}

@@ -1,0 +1,89 @@
+{
+  "authority": "DESIGN_PROVISIONAL \u2014 STOP \u2014 HUMAN REVIEW",
+  "frozen_Rig_has_hand_joint_controls": 20,
+  "implemented_family_latents": 12,
+  "source_mapping": "rig_model.py:state(z)",
+  "support": [
+    {
+      "finger": 1,
+      "digit": "THUMB",
+      "reference_difference_deg": [
+        0.0,
+        6.38657776552698e-07,
+        0.0,
+        0.0
+      ],
+      "current_control_support": "4 independent thumb engineering controls"
+    },
+    {
+      "finger": 2,
+      "digit": "INDEX",
+      "reference_difference_deg": [
+        0.0,
+        0.0,
+        0.0,
+        7.009501601373813e-08
+      ],
+      "current_control_support": "lambda reference interpolation only; no independent digit flex controls"
+    },
+    {
+      "finger": 3,
+      "digit": "MIDDLE",
+      "reference_difference_deg": [
+        4.401420590039713,
+        3.2861359206696,
+        1.2725284906073426,
+        -0.46387965461626557
+      ],
+      "current_control_support": "lambda reference interpolation plus alpha preparing flex"
+    },
+    {
+      "finger": 4,
+      "digit": "RING",
+      "reference_difference_deg": [
+        1.7763568394002505e-15,
+        0.0,
+        -5.284128690163925e-11,
+        -1.0757803536876054e-08
+      ],
+      "current_control_support": "lambda reference interpolation only; no independent digit flex controls"
+    },
+    {
+      "finger": 5,
+      "digit": "LITTLE",
+      "reference_difference_deg": [
+        0.0,
+        0.0,
+        2.1339573308409854e-07,
+        0.0
+      ],
+      "current_control_support": "lambda reference interpolation only; no independent digit flex controls"
+    }
+  ],
+  "passive_INDEX_flex_reference_difference": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "passive_INDEX_flex_can_be_independently_lifted": false,
+  "worst_actual_preview_failure": [
+    {
+      "midi": 72,
+      "role": "NON_TARGET_KEY",
+      "depth_mm": 5.353383154259825,
+      "digits": [
+        "INDEX"
+      ]
+    },
+    {
+      "midi": 74,
+      "role": "NON_TARGET_KEY",
+      "depth_mm": 4.72148823796382,
+      "digits": [
+        "MIDDLE"
+      ]
+    }
+  ],
+  "conclusion": "The interface cannot independently prepare INDEX within this reference family. Different palm routes may still avoid the collision; no proof of all-path or human/fingering impossibility.",
+  "domain_or_reference_family_not_expanded": true
+}

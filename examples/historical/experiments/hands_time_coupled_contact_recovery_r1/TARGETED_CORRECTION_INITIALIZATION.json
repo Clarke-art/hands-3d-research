@@ -1,0 +1,236 @@
+{
+  "method": "Shared existing earliest recovered posture; analytic root-Z transport against original moving-key normal at each time; every node checked in the joint hard-constraint function",
+  "reason": "Primary disconnected initialization starts with large motion infeasibility; no change to hard constraints, original objective or keys",
+  "initial_states": [
+    [
+      -21.386846528981017,
+      -23.51706570869469,
+      11.819088765606537,
+      -4.17401611258733,
+      7.386713086338828,
+      -0.6346120784728106,
+      12.20350454026924,
+      1.2008313677848117,
+      0.30280974619557655,
+      5.561980553053285,
+      0.7266038038575304,
+      1.0
+    ],
+    [
+      -21.386846528981017,
+      -23.51706570869469,
+      11.429178284139907,
+      -4.17401611258733,
+      7.386713086338828,
+      -0.6346120784728106,
+      12.20350454026924,
+      1.2008313677848117,
+      0.30280974619557655,
+      5.561980553053285,
+      0.7266038038575304,
+      1.0
+    ],
+    [
+      -21.386846528981017,
+      -23.51706570869469,
+      11.039444224903027,
+      -4.17401611258733,
+      7.386713086338828,
+      -0.6346120784728106,
+      12.20350454026924,
+      1.2008313677848117,
+      0.30280974619557655,
+      5.561980553053285,
+      0.7266038038575304,
+      1.0
+    ]
+  ],
+  "max_violation": 0.0,
+  "row_violations": [
+    {
+      "name": "contact_0",
+      "start": 0,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_0",
+      "start": 1,
+      "count": 302,
+      "max_violation": 0.0
+    },
+    {
+      "name": "contact_1",
+      "start": 303,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_1",
+      "start": 304,
+      "count": 289,
+      "max_violation": 0.0
+    },
+    {
+      "name": "contact_2",
+      "start": 593,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "geometry_2",
+      "start": 594,
+      "count": 303,
+      "max_violation": 0.0
+    },
+    {
+      "name": "wrist_secant_1",
+      "start": 897,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "latent_rate_1",
+      "start": 898,
+      "count": 12,
+      "max_violation": 0.0
+    },
+    {
+      "name": "mapped_joint_rate_1",
+      "start": 910,
+      "count": 20,
+      "max_violation": 0.0
+    },
+    {
+      "name": "wrist_secant_2",
+      "start": 930,
+      "count": 1,
+      "max_violation": 0.0
+    },
+    {
+      "name": "latent_rate_2",
+      "start": 931,
+      "count": 12,
+      "max_violation": 0.0
+    },
+    {
+      "name": "mapped_joint_rate_2",
+      "start": 943,
+      "count": 20,
+      "max_violation": 0.0
+    }
+  ],
+  "domain_pass": true,
+  "segments": [
+    {
+      "wrist_speed_mm_s": 374.314062088302,
+      "latent_rates": [
+        0.0,
+        0.0,
+        -374.31406208830185,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "wrist_speed_mm_s": 374.1446967476312,
+      "latent_rates": [
+        0.0,
+        0.0,
+        -374.1446967476352,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "traces": [
+    [
+      {
+        "gap_residual_mm": -1.002288356477532e-11,
+        "root_z": 11.819088765596508,
+        "face": [
+          [
+            3738,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "gap_residual_mm": -1.3860440573054689e-15,
+        "root_z": 11.819088765606535,
+        "face": [
+          [
+            3738,
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "gap_residual_mm": 0.3896663670516294,
+        "root_z": 11.819088765596508,
+        "face": [
+          [
+            3738,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "gap_residual_mm": -1.3860440573054689e-15,
+        "root_z": 11.429178284139905,
+        "face": [
+          [
+            3738,
+            0,
+            1
+          ]
+        ]
+      }
+    ],
+    [
+      {
+        "gap_residual_mm": 0.7790231317182758,
+        "root_z": 11.819088765596508,
+        "face": [
+          [
+            3738,
+            0,
+            1
+          ]
+        ]
+      },
+      {
+        "gap_residual_mm": 3.4867941867133823e-16,
+        "root_z": 11.039444224903027,
+        "face": [
+          [
+            3738,
+            0,
+            1
+          ]
+        ]
+      }
+    ]
+  ],
+  "per_node_optimization_count": 0,
+  "scope": "Coupled initialization only, not yet accepted geometry"
+}

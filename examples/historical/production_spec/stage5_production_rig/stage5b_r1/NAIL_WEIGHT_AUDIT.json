@@ -1,0 +1,63 @@
+{
+ "stage": "STAGE5B_R1_NAIL_WEIGHT_AUDIT",
+ "generated_at": "2026-09-29T23:03:50.891042+08:00",
+ "nail_vertex_count": 189,
+ "per_digit": {
+  "thumb": {
+   "vertices": 22,
+   "expected_dominant": "THUMB_IP_R",
+   "dominant_correct": 20,
+   "dominant_correct_fraction": 0.9091
+  },
+  "index": {
+   "vertices": 43,
+   "expected_dominant": "INDEX_DIP_R",
+   "dominant_correct": 43,
+   "dominant_correct_fraction": 1.0
+  },
+  "middle": {
+   "vertices": 50,
+   "expected_dominant": "MIDDLE_DIP_R",
+   "dominant_correct": 50,
+   "dominant_correct_fraction": 1.0
+  },
+  "ring": {
+   "vertices": 38,
+   "expected_dominant": "RING_DIP_R",
+   "dominant_correct": 38,
+   "dominant_correct_fraction": 1.0
+  },
+  "little": {
+   "vertices": 36,
+   "expected_dominant": "LITTLE_DIP_R",
+   "dominant_correct": 36,
+   "dominant_correct_fraction": 1.0
+  }
+ },
+ "violations": [
+  {
+   "vertex": 1383,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant": "WRIST_R",
+   "weights": {
+    "WRIST_R": 0.5038,
+    "INDEX_MCP_R": 0.4962,
+    "INDEX_PIP_R": 0.0,
+    "INDEX_DIP_R": 0.0
+   }
+  },
+  {
+   "vertex": 2740,
+   "digit": "THUMB",
+   "expected": "THUMB_IP_R",
+   "dominant": "INDEX_MCP_R",
+   "weights": {
+    "INDEX_MCP_R": 0.5354,
+    "WRIST_R": 0.4167,
+    "THUMB_MCP_R": 0.0479,
+    "THUMB_CMC_R": 0.0
+   }
+  }
+ ]
+}

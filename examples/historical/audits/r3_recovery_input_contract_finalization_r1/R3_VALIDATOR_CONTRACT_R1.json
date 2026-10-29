@@ -1,0 +1,214 @@
+{
+  "status": "DEFINED_FOR_FRESH_R3_RECOMPUTE",
+  "checks": [
+    {
+      "name": "hard_source_preservation",
+      "rule": "All unique THUMB/INDEX sources retain their fixed labels before/after closure; conflict or mutation FAIL_CLOSED."
+    },
+    {
+      "name": "graph_connectivity_and_reachability",
+      "rule": "Exact candidate IDs/hashes; one component, complete hard sets, no unreachable mm source fields."
+    },
+    {
+      "name": "label_components_and_islands",
+      "rule": "Compute induced same-label components on final graph. After closure every component must contain own-digit authority source; enumerate all unsupported islands, no second-largest identity heuristic."
+    },
+    {
+      "name": "sheet_split",
+      "rule": "Derive fresh unlike-label cut-edge set, remove those edges from full frozen face dual adjacency; enumerate components by stable face IDs. Identify sheets by independent marker/nail/cap overlap. If marker identities collide or nail/cap references cannot consistently identify counterparts, fail revalidation; do not guess by size."
+    },
+    {
+      "name": "ambiguous_band",
+      "rule": "abs(dT_mm-dI_mm)<TAU_mm on finite fresh fields; explicitly report FIRST_WEB21 and conservative band intersections; no hard pin from ambiguity. Re-evaluate after closure, without historical targets."
+    },
+    {
+      "name": "CLASS_A_six_edge_geometry",
+      "rule": "Keep the six frozen edge IDs/endpoints and original polygons/coordinates. No topology edit or erroneous-edge reclassification; fresh labels are evaluated/reported, no requirement to reproduce historical THUMB labels."
+    },
+    {
+      "name": "INDEX_sheet_identity",
+      "rule": "Independent native INDEX tip v233 plus approved INDEX nail faces/vertices must consistently identify the INDEX counterpart; never second-largest component."
+    },
+    {
+      "name": "THUMB_sheet_identity",
+      "rule": "Independent native THUMB tip v284 plus cap37 and approved thumb nail identify the THUMB counterpart."
+    },
+    {
+      "name": "wrappers_and_deformation_followup",
+      "rule": "Separate cap/nail buckets, frozen FIRST_WEB context and CMC geometry remain unchanged. Future skin weights, targeted deformation and full Stage6 needed after successful fresh R3; not executed or approved by this input candidate."
+    },
+    {
+      "name": "deterministic_reproducibility",
+      "rule": "Same frozen candidate and metric yields identical fields/cut/closure under sorted IDs and declared tie rules; historical diff not a success metric."
+    }
+  ],
+  "CLASS_A_edges": [
+    {
+      "edge_id": 1417,
+      "vertex_ids": [
+        1539,
+        621
+      ],
+      "in_solver_graph": true
+    },
+    {
+      "edge_id": 1441,
+      "vertex_ids": [
+        1551,
+        617
+      ],
+      "in_solver_graph": true
+    },
+    {
+      "edge_id": 1699,
+      "vertex_ids": [
+        1680,
+        612
+      ],
+      "in_solver_graph": true
+    },
+    {
+      "edge_id": 2346,
+      "vertex_ids": [
+        617,
+        2004
+      ],
+      "in_solver_graph": true
+    },
+    {
+      "edge_id": 4963,
+      "vertex_ids": [
+        1996,
+        2896
+      ],
+      "in_solver_graph": true
+    },
+    {
+      "edge_id": 5753,
+      "vertex_ids": [
+        2004,
+        3093
+      ],
+      "in_solver_graph": true
+    }
+  ],
+  "INDEX_identity": {
+    "tip": 233,
+    "nail_faces": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      788,
+      789,
+      790,
+      791,
+      792,
+      793,
+      794,
+      805,
+      808,
+      809,
+      810,
+      811,
+      825
+    ]
+  },
+  "THUMB_identity": {
+    "tip": 284,
+    "cap_vertices": [
+      36,
+      37,
+      44,
+      283,
+      284,
+      285,
+      297,
+      298,
+      339,
+      340,
+      341,
+      505,
+      879,
+      880,
+      890,
+      1338,
+      1340,
+      1341,
+      1343,
+      1344,
+      1378,
+      1380,
+      1382,
+      1450,
+      1452,
+      1454,
+      1752,
+      1753,
+      1754,
+      1755,
+      2499,
+      2741,
+      2742,
+      2963,
+      2964,
+      2965,
+      2966
+    ],
+    "cap_faces": [
+      78,
+      1044,
+      1045,
+      1046,
+      1047,
+      1048,
+      1049,
+      1050,
+      1051,
+      1932,
+      1933,
+      1934,
+      1935,
+      1936,
+      1937,
+      1938,
+      1939,
+      1940,
+      1941,
+      1942,
+      1943,
+      1944,
+      1945,
+      1946,
+      1947
+    ],
+    "nail_faces": [
+      64,
+      65,
+      68,
+      71,
+      1036,
+      1037,
+      1038,
+      1039,
+      1040,
+      1216,
+      1218,
+      1219
+    ]
+  },
+  "validators_executed_on_new_R3_result": false,
+  "future_failures_do_not_reopen_generic_anatomy": true
+}

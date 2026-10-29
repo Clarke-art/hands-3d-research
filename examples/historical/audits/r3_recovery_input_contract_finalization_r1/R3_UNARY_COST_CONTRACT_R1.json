@@ -1,0 +1,29 @@
+{
+  "status": "CANDIDATE_READY_FOR_HUMAN_APPROVAL",
+  "dT": "Final graph edge-geodesic distance in mm to nearest unique THUMB hard source",
+  "dI": "Final graph edge-geodesic distance in mm to nearest unique INDEX hard source",
+  "edge_metric": "norm(RSSF_world_m[u]-RSSF_world_m[v])*1000, exactly once",
+  "unreachable_source": "FAIL_CLOSED before applying finite cap",
+  "source_reachability_static_gate": "One connected graph with both nonempty complete hard-source sets and finite positive edges; no Dijkstra field computed this run.",
+  "neutral_vertices": "Not sources; participate and receive dT/dI",
+  "outside_graph": "NO_SOLVE_UNASSIGNED_OUTSIDE_GRAPH; never inject R2 labels",
+  "finite_formula": "min(400000, int(round(distance_mm*1000)))",
+  "label_costs": {
+    "assign_THUMB": "dT capacity",
+    "assign_INDEX": "dI capacity"
+  },
+  "terminal_encoding": {
+    "SRC_THUMB_to_v": "cost_of_assigning_INDEX",
+    "v_to_SNK_INDEX": "cost_of_assigning_THUMB"
+  },
+  "THUMB_hard_pin": {
+    "SRC_to_v": 387237777,
+    "v_to_SNK": 0
+  },
+  "INDEX_hard_pin": {
+    "SRC_to_v": 0,
+    "v_to_SNK": 387237777
+  },
+  "single_INF_constraint_per_unique_vertex": true,
+  "edge_geodesic_fields_computed_this_run": false
+}

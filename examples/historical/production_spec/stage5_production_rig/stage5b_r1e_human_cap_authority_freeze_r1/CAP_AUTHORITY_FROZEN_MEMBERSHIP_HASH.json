@@ -1,0 +1,30 @@
+{
+  "authority_id": "THUMB_DISTAL_CAP_CANONICAL_AUTHORITY_R1",
+  "algorithm": "SHA-256",
+  "serialization": "UTF-8 JSON; keys lexicographically sorted; separators comma/colon without spaces; ensure_ascii=false; allow_nan=false; no BOM or trailing newline; all payload numbers are integers",
+  "id_ordering": {
+    "vertex_ids": "ascending numeric unique",
+    "face_ids": "ascending numeric unique",
+    "boundary_edge_ids": "ascending numeric unique; boundary_edges paired by matching edge ID",
+    "boundary_vertex_ids": "ascending numeric unique",
+    "boundary_edge_endpoints": "native unordered edge endpoints ascending, copied from E_FINAL",
+    "boundary_loop": "Exact previous topology-audit ordering, start/end v36; first vertex repeated once; direction not reselected"
+  },
+  "vertex_membership_hash": "3658481ff79d9cb4c03b404248a6e8e9f8b2a12e4a776c9f169cbe260e779cba",
+  "face_membership_hash": "5cf21d32c79a041de60681acd5727f104e625fe1fe39280589b7bd2c1920dd21",
+  "boundary_hash": "6847d081e19f72641444894374f7890e55e781785d678d415c7d3565206d5fca",
+  "combined_authority_hash": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+  "hash_payload_definitions": {
+    "vertex": "canonical {vertex_ids} object",
+    "face": "canonical {face_ids} object",
+    "boundary": "canonical {boundary_edge_ids,boundary_edges,boundary_vertex_ids,boundary_loop} object",
+    "combined": "canonical full authority object excluding combined_authority_hash only"
+  },
+  "canonical_payload_file": "CAP_AUTHORITY_CANONICAL_PAYLOAD.json",
+  "canonical_payload_file_sha256": "c81dd96d6925ed402cdf0ba44c148d7a78c2c60640fe23fb6247fb729f346cc8",
+  "source_candidate_file_sha256": "f72a7a9c5cc124c7c2e13eb29340e524aa5d226eb473e6d205b38de80b66d541",
+  "source_human_response_file_sha256": "8e41e5bc79bb06239cba7346f4017c972e024a1629bc237683a06d02ca5efe4f",
+  "all_future_stage5_stage6_rebuilds_must_verify": true,
+  "mismatch_policy": "FAIL_CLOSED; no selector regeneration, inferred weight inheritance or implicit remapping",
+  "id_mapping_scope": "Frozen native topology/vertex/face/edge IDs; any changed ID mapping requires separately approved authority reconciliation"
+}

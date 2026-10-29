@@ -1,0 +1,1711 @@
+{
+  "inputs_unchanged": {
+    "production_spec/right_hand_product_baseline_r1/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+    "audits/pianovam_retarget_local_axis_mapping_correction_r1/RIGHT_HAND_PIANO_AXIS_CORRECTED_TEST_R1.blend": "a5190adc13d39318096490f8fd2c9956d0daff457d25753fa3c216eee2027bbd",
+    "audits/pianovam_retarget_local_axis_mapping_correction_r1/mapping_core.py": "4103092136a4e85864ea990f3a7f8d035cc0392d77260295766cbca92d8f142d",
+    "references/piano_motion/pianovam_sample_r1/Handskeleton/2024-03-04_03-46-36.json": "02d336c7a114b5d92be9472acfab4ba746b4e5b106cba35575fe86fd1c294035",
+    "references/piano_motion/pianovam_sample_r1/MIDI/2024-03-04_03-46-36.mid": "532ad501509b8cc8bf93e2486d0b3c671a41f13eb55f4a9f7efb8777b4791018",
+    "references/piano_motion/pianovam_sample_r1/Fingering/2024-03-04_03-46-36.tsv": "9a74ad42bb31ae9a9fa4810d2b6507d2b2f452a6c69806a7209ecee16e80feae",
+    "references/piano_motion/pianovam_sample_r1/Video/2024-03-04_03-46-36.mp4": "b005620ad3002c50f417e37abf9d2110620c59e1565d5952dd465d0dbd665076"
+  },
+  "conditions": {
+    "BASELINE": [
+      {
+        "case": "ZERO",
+        "source_frame": null,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "BASELINE",
+            "pose": "ZERO",
+            "view": "PALMAR_FULL",
+            "path": "baseline_selected/BASELINE__ZERO__PALMAR_FULL.png",
+            "camera": {
+              "center": [
+                1.4109452962875366,
+                0.01410907506942749,
+                0.4163133502006531
+              ],
+              "direction": [
+                -0.6312891244888306,
+                -0.7753188014030457,
+                0.018838699907064438
+              ],
+              "ortho_scale_m": 0.325543663029305,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "BASELINE",
+            "pose": "ZERO",
+            "view": "THENAR_CLOSE",
+            "path": "baseline_selected/BASELINE__ZERO__THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4450702667236328,
+                0.017767906188964844,
+                0.408737450838089
+              ],
+              "direction": [
+                -0.3818395435810089,
+                -0.9240524768829346,
+                0.018044201657176018
+              ],
+              "ortho_scale_m": 0.135,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "BASELINE",
+            "pose": "ZERO",
+            "view": "DORSAL_FULL",
+            "path": "baseline_selected/BASELINE__ZERO__DORSAL_FULL.png",
+            "camera": {
+              "center": [
+                1.4109452962875366,
+                0.01410907506942749,
+                0.4163133502006531
+              ],
+              "direction": [
+                0.6312891244888306,
+                0.7753188014030457,
+                -0.018838699907064438
+              ],
+              "ortho_scale_m": 0.325543663029305,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "BASELINE",
+            "pose": "ZERO",
+            "view": "FIRST_WEB_CLOSE",
+            "path": "baseline_selected/BASELINE__ZERO__FIRST_WEB_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4450702667236328,
+                0.017767906188964844,
+                0.408737450838089
+              ],
+              "direction": [
+                -0.3818395435810089,
+                -0.9240524768829346,
+                0.018044201657176018
+              ],
+              "ortho_scale_m": 0.07,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 130,
+        "source_frame": 948,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "BASELINE",
+            "pose": "F130",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "baseline_selected/BASELINE__F130__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.3989397287368774,
+                0.021307673305273056,
+                0.4352278709411621
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "BASELINE",
+            "pose": "F130",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "baseline_selected/BASELINE__F130__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.3999301195144653,
+                0.016326354816555977,
+                0.448274165391922
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 76,
+        "source_frame": 840,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "BASELINE",
+            "pose": "F076",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "baseline_selected/BASELINE__F076__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.3996909856796265,
+                0.018192104995250702,
+                0.4339849054813385
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "BASELINE",
+            "pose": "F076",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "baseline_selected/BASELINE__F076__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.4008209705352783,
+                0.012632596306502819,
+                0.4467839300632477
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 205,
+        "source_frame": 1098,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "BASELINE",
+            "pose": "F205",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "baseline_selected/BASELINE__F205__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.388014554977417,
+                0.02136951871216297,
+                0.43598195910453796
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "BASELINE",
+            "pose": "F205",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "baseline_selected/BASELINE__F205__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.3869658708572388,
+                0.016446484252810478,
+                0.4490458071231842
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 61,
+        "source_frame": 810,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "BASELINE",
+            "pose": "F061",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "baseline_selected/BASELINE__F061__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4035297632217407,
+                0.025956040248274803,
+                0.4348507225513458
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "BASELINE",
+            "pose": "F061",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "baseline_selected/BASELINE__F061__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.4054166078567505,
+                0.02176758088171482,
+                0.4480755925178528
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      }
+    ],
+    "A": [
+      {
+        "case": "ZERO",
+        "source_frame": null,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "A",
+            "pose": "ZERO",
+            "view": "PALMAR_FULL",
+            "path": "a_selected/A__ZERO__PALMAR_FULL.png",
+            "camera": {
+              "center": [
+                1.4109452962875366,
+                0.01410907506942749,
+                0.4163133502006531
+              ],
+              "direction": [
+                -0.6312891244888306,
+                -0.7753188014030457,
+                0.018838699907064438
+              ],
+              "ortho_scale_m": 0.325543663029305,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "A",
+            "pose": "ZERO",
+            "view": "THENAR_CLOSE",
+            "path": "a_selected/A__ZERO__THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4450702667236328,
+                0.017767906188964844,
+                0.408737450838089
+              ],
+              "direction": [
+                -0.3818395435810089,
+                -0.9240524768829346,
+                0.018044201657176018
+              ],
+              "ortho_scale_m": 0.135,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "A",
+            "pose": "ZERO",
+            "view": "DORSAL_FULL",
+            "path": "a_selected/A__ZERO__DORSAL_FULL.png",
+            "camera": {
+              "center": [
+                1.4109452962875366,
+                0.01410907506942749,
+                0.4163133502006531
+              ],
+              "direction": [
+                0.6312891244888306,
+                0.7753188014030457,
+                -0.018838699907064438
+              ],
+              "ortho_scale_m": 0.325543663029305,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "A",
+            "pose": "ZERO",
+            "view": "FIRST_WEB_CLOSE",
+            "path": "a_selected/A__ZERO__FIRST_WEB_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4450702667236328,
+                0.017767906188964844,
+                0.408737450838089
+              ],
+              "direction": [
+                -0.3818395435810089,
+                -0.9240524768829346,
+                0.018044201657176018
+              ],
+              "ortho_scale_m": 0.07,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS",
+        "ZERO_existing_vertices_vs_baseline_max_mm": 0.16935355330341254
+      },
+      {
+        "case": 130,
+        "source_frame": 948,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "A",
+            "pose": "F130",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "a_selected/A__F130__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.3989397287368774,
+                0.021307673305273056,
+                0.4352278709411621
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "A",
+            "pose": "F130",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "a_selected/A__F130__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.3999301195144653,
+                0.016326354816555977,
+                0.448274165391922
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 76,
+        "source_frame": 840,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "A",
+            "pose": "F076",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "a_selected/A__F076__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.3996909856796265,
+                0.018192104995250702,
+                0.4339849054813385
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "A",
+            "pose": "F076",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "a_selected/A__F076__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.4008209705352783,
+                0.012632596306502819,
+                0.4467839300632477
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 205,
+        "source_frame": 1098,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "A",
+            "pose": "F205",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "a_selected/A__F205__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.388014554977417,
+                0.02136951871216297,
+                0.43598195910453796
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "A",
+            "pose": "F205",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "a_selected/A__F205__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.3869658708572388,
+                0.016446484252810478,
+                0.4490458071231842
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 61,
+        "source_frame": 810,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "A",
+            "pose": "F061",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "a_selected/A__F061__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4035297632217407,
+                0.025956040248274803,
+                0.4348507225513458
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "A",
+            "pose": "F061",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "a_selected/A__F061__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.4054166078567505,
+                0.02176758088171482,
+                0.4480755925178528
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      }
+    ],
+    "B": [
+      {
+        "case": "ZERO",
+        "source_frame": null,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "B",
+            "pose": "ZERO",
+            "view": "PALMAR_FULL",
+            "path": "b_selected/B__ZERO__PALMAR_FULL.png",
+            "camera": {
+              "center": [
+                1.4109452962875366,
+                0.01410907506942749,
+                0.4163133502006531
+              ],
+              "direction": [
+                -0.6312891244888306,
+                -0.7753188014030457,
+                0.018838699907064438
+              ],
+              "ortho_scale_m": 0.325543663029305,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "B",
+            "pose": "ZERO",
+            "view": "THENAR_CLOSE",
+            "path": "b_selected/B__ZERO__THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4450702667236328,
+                0.017767906188964844,
+                0.408737450838089
+              ],
+              "direction": [
+                -0.3818395435810089,
+                -0.9240524768829346,
+                0.018044201657176018
+              ],
+              "ortho_scale_m": 0.135,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "B",
+            "pose": "ZERO",
+            "view": "DORSAL_FULL",
+            "path": "b_selected/B__ZERO__DORSAL_FULL.png",
+            "camera": {
+              "center": [
+                1.4109452962875366,
+                0.01410907506942749,
+                0.4163133502006531
+              ],
+              "direction": [
+                0.6312891244888306,
+                0.7753188014030457,
+                -0.018838699907064438
+              ],
+              "ortho_scale_m": 0.325543663029305,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "B",
+            "pose": "ZERO",
+            "view": "FIRST_WEB_CLOSE",
+            "path": "b_selected/B__ZERO__FIRST_WEB_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4450702667236328,
+                0.017767906188964844,
+                0.408737450838089
+              ],
+              "direction": [
+                -0.3818395435810089,
+                -0.9240524768829346,
+                0.018044201657176018
+              ],
+              "ortho_scale_m": 0.07,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS",
+        "ZERO_existing_vertices_vs_baseline_max_mm": 0.00012038222426218186
+      },
+      {
+        "case": 130,
+        "source_frame": 948,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "B",
+            "pose": "F130",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "b_selected/B__F130__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.3989397287368774,
+                0.021307673305273056,
+                0.4352278709411621
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "B",
+            "pose": "F130",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "b_selected/B__F130__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.3999301195144653,
+                0.016326354816555977,
+                0.448274165391922
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 76,
+        "source_frame": 840,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "B",
+            "pose": "F076",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "b_selected/B__F076__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.3996909856796265,
+                0.018192104995250702,
+                0.4339849054813385
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "B",
+            "pose": "F076",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "b_selected/B__F076__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.4008209705352783,
+                0.012632596306502819,
+                0.4467839300632477
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 205,
+        "source_frame": 1098,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "B",
+            "pose": "F205",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "b_selected/B__F205__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.388014554977417,
+                0.02136951871216297,
+                0.43598195910453796
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "B",
+            "pose": "F205",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "b_selected/B__F205__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.3869658708572388,
+                0.016446484252810478,
+                0.4490458071231842
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 61,
+        "source_frame": 810,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "B",
+            "pose": "F061",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "b_selected/B__F061__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4035297632217407,
+                0.025956040248274803,
+                0.4348507225513458
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "B",
+            "pose": "F061",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "b_selected/B__F061__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.4054166078567505,
+                0.02176758088171482,
+                0.4480755925178528
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      }
+    ],
+    "C": [
+      {
+        "case": "ZERO",
+        "source_frame": null,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "C",
+            "pose": "ZERO",
+            "view": "PALMAR_FULL",
+            "path": "c_selected/C__ZERO__PALMAR_FULL.png",
+            "camera": {
+              "center": [
+                1.4109452962875366,
+                0.01410907506942749,
+                0.4163133502006531
+              ],
+              "direction": [
+                -0.6312891244888306,
+                -0.7753188014030457,
+                0.018838699907064438
+              ],
+              "ortho_scale_m": 0.325543663029305,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "C",
+            "pose": "ZERO",
+            "view": "THENAR_CLOSE",
+            "path": "c_selected/C__ZERO__THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4450702667236328,
+                0.017767906188964844,
+                0.408737450838089
+              ],
+              "direction": [
+                -0.3818395435810089,
+                -0.9240524768829346,
+                0.018044201657176018
+              ],
+              "ortho_scale_m": 0.135,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "C",
+            "pose": "ZERO",
+            "view": "DORSAL_FULL",
+            "path": "c_selected/C__ZERO__DORSAL_FULL.png",
+            "camera": {
+              "center": [
+                1.4109452962875366,
+                0.01410907506942749,
+                0.4163133502006531
+              ],
+              "direction": [
+                0.6312891244888306,
+                0.7753188014030457,
+                -0.018838699907064438
+              ],
+              "ortho_scale_m": 0.325543663029305,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "C",
+            "pose": "ZERO",
+            "view": "FIRST_WEB_CLOSE",
+            "path": "c_selected/C__ZERO__FIRST_WEB_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4450702667236328,
+                0.017767906188964844,
+                0.408737450838089
+              ],
+              "direction": [
+                -0.3818395435810089,
+                -0.9240524768829346,
+                0.018044201657176018
+              ],
+              "ortho_scale_m": 0.07,
+              "resolution": [
+                1200,
+                1100
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS",
+        "ZERO_existing_vertices_vs_baseline_max_mm": 0.0
+      },
+      {
+        "case": 130,
+        "source_frame": 948,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "C",
+            "pose": "F130",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "c_selected/C__F130__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.3989397287368774,
+                0.021307673305273056,
+                0.4352278709411621
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "C",
+            "pose": "F130",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "c_selected/C__F130__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.3999301195144653,
+                0.016326354816555977,
+                0.448274165391922
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 76,
+        "source_frame": 840,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "C",
+            "pose": "F076",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "c_selected/C__F076__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.3996909856796265,
+                0.018192104995250702,
+                0.4339849054813385
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "C",
+            "pose": "F076",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "c_selected/C__F076__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.4008209705352783,
+                0.012632596306502819,
+                0.4467839300632477
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 205,
+        "source_frame": 1098,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "C",
+            "pose": "F205",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "c_selected/C__F205__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.388014554977417,
+                0.02136951871216297,
+                0.43598195910453796
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "C",
+            "pose": "F205",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "c_selected/C__F205__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.3869658708572388,
+                0.016446484252810478,
+                0.4490458071231842
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      },
+      {
+        "case": 61,
+        "source_frame": 810,
+        "minimum": {
+          "NaN_Inf": 0,
+          "collapsed_faces": 0,
+          "degenerate_edges": 0
+        },
+        "approved_corrective_natural_values": {
+          "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+        },
+        "renders": [
+          {
+            "asset": "C",
+            "pose": "F061",
+            "view": "PALMAR_THENAR_CLOSE",
+            "path": "c_selected/C__F061__PALMAR_THENAR_CLOSE.png",
+            "camera": {
+              "center": [
+                1.4035297632217407,
+                0.025956040248274803,
+                0.4348507225513458
+              ],
+              "direction": [
+                -0.38183954,
+                -0.92405248,
+                0.0180442
+              ],
+              "ortho_scale_m": 0.11,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          },
+          {
+            "asset": "C",
+            "pose": "F061",
+            "view": "FIRST_WEB_OBLIQUE",
+            "path": "c_selected/C__F061__FIRST_WEB_OBLIQUE.png",
+            "camera": {
+              "center": [
+                1.4054166078567505,
+                0.02176758088171482,
+                0.4480755925178528
+              ],
+              "direction": [
+                0.1998003125190735,
+                -0.9390614628791809,
+                0.2797204256057739
+              ],
+              "ortho_scale_m": 0.072,
+              "resolution": [
+                960,
+                880
+              ]
+            },
+            "same_camera_current_candidate": true,
+            "all_native_faces_present": true,
+            "display_only_smooth_shading": true,
+            "neutral_material": true,
+            "cavity": false
+          }
+        ],
+        "original_21_joint_pose_exact": true,
+        "ZERO_restore_max_mm": 0.0,
+        "ZERO_restore": "PASS"
+      }
+    ]
+  },
+  "full_motion_ran": false,
+  "next_gate": "Ordinary visible keyframe decision before any full motion/regression",
+  "forbidden_forensics_ran": false
+}

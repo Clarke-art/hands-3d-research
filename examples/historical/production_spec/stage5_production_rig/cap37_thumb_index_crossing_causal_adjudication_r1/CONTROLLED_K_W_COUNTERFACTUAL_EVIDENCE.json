@@ -1,0 +1,360 @@
+{
+  "validity": {
+    "status": "IDENTIFIABLE_MECHANICAL_LBS_COUNTERFACTUAL_ONLY",
+    "same_vertex_positions_topology_and_world_bind_mapping": true,
+    "same_group_order_and_bone_group_names": true,
+    "same_joint_head_parent_driver_meaning": true,
+    "kinematic_slot_differences": [
+      [
+        "THUMB_IP_R",
+        "tail_local_m"
+      ],
+      [
+        "THUMB_IP_R",
+        "matrix_local"
+      ],
+      [
+        "THUMB_TIP_R",
+        "head_local_m"
+      ],
+      [
+        "THUMB_TIP_R",
+        "tail_local_m"
+      ],
+      [
+        "THUMB_TIP_R",
+        "matrix_local"
+      ]
+    ],
+    "skin_is_saved_scalar_vertex_group_field_not_recomputed_arc_profile": true,
+    "modifier_model": "Single normalized linear armature skinning; preserve_volume false, envelopes false, no corrective/shapekey modifier",
+    "counterfactual_semantic_limit": "K_ONLY/W_ONLY are numerical interventions on the Blender skinning mechanism, not anatomically approved skins/rigs and not production candidates. W_ONLY asks what saved corrected vectors would do under historical compatible local-X frames, not whether that skin would have been authorized in that state.",
+    "actual_modifier_kernel_max_error_mm": {
+      "HISTORICAL_R1B_DONOR": {
+        "TH_IP_30": 0.00017382072744476945,
+        "IDX_MCP_45": 0.00014396190652711803
+      },
+      "CORRECTED_R1": {
+        "TH_IP_30": 0.0001497587537300217,
+        "IDX_MCP_45": 0.00013957190556610044
+      },
+      "R2": {
+        "TH_IP_30": 0.0001497587537300217,
+        "IDX_MCP_45": 0.00013610795540654948
+      }
+    },
+    "actual_vs_kernel_predicate_matches": {
+      "HISTORICAL_R1B_DONOR": {
+        "TH_IP_30": {
+          "PAIR_1225_2740": true
+        },
+        "IDX_MCP_45": {
+          "PAIR_1041_2735": true,
+          "PAIR_1226_2742": true
+        }
+      },
+      "CORRECTED_R1": {
+        "TH_IP_30": {
+          "PAIR_1225_2740": true
+        },
+        "IDX_MCP_45": {
+          "PAIR_1041_2735": true,
+          "PAIR_1226_2742": true
+        }
+      },
+      "R2": {
+        "TH_IP_30": {
+          "PAIR_1225_2740": true
+        },
+        "IDX_MCP_45": {
+          "PAIR_1041_2735": true,
+          "PAIR_1226_2742": true
+        }
+      }
+    },
+    "no_bone_or_weight_or_geometry_assignments": true,
+    "counterfactual_production_saves": 0
+  },
+  "terminal_pose_2x2": {
+    "TH_IP_30": {
+      "BASE": {
+        "PAIR_1225_2740": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.5011755167506635,
+          "minimum_triangle_distance_mm": 5.181870338894437,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "K_ONLY": {
+        "PAIR_1225_2740": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.5011755167506635,
+          "minimum_triangle_distance_mm": 5.181870338894437,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "W_ONLY": {
+        "PAIR_1225_2740": {
+          "intersect": true,
+          "depth_mm": 2.2487273381557316,
+          "seg_mm": 0.7194019781439166,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT",
+          "Stage6A_centroid_plane_proxy_mm": 0.28019564342685044,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "FULL": {
+        "PAIR_1225_2740": {
+          "intersect": true,
+          "depth_mm": 5.500157392816618,
+          "seg_mm": 0.9298533924815149,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.24085203767754138,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "R2_W_ONLY": {
+        "PAIR_1225_2740": {
+          "intersect": true,
+          "depth_mm": 2.2487273381557316,
+          "seg_mm": 0.7194019781439166,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_B_SURFACE_CONTACT_OR_NEAR_CONTACT",
+          "Stage6A_centroid_plane_proxy_mm": 0.28019564342685044,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "R2_FULL": {
+        "PAIR_1225_2740": {
+          "intersect": true,
+          "depth_mm": 5.500157392816618,
+          "seg_mm": 0.9298533924815149,
+          "local_edge_mm": 4.372096336400464,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.24085203767754138,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      }
+    },
+    "IDX_MCP_45": {
+      "BASE": {
+        "PAIR_1041_2735": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.379485878511332,
+          "minimum_triangle_distance_mm": 2.823179006576538,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "PAIR_1226_2742": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.5337615041062236,
+          "minimum_triangle_distance_mm": 2.749680280685425,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "K_ONLY": {
+        "PAIR_1041_2735": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.37962761416565627,
+          "minimum_triangle_distance_mm": 2.82317852973938,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "PAIR_1226_2742": {
+          "intersect": false,
+          "depth_mm": 0.0,
+          "seg_mm": 0.0,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_C_PROXY_OVER_ESTIMATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.53376255184412,
+          "minimum_triangle_distance_mm": 2.749680757522583,
+          "contact_at_existing_numeric_precision": false,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "W_ONLY": {
+        "PAIR_1041_2735": {
+          "intersect": true,
+          "depth_mm": 3.710793571372051,
+          "seg_mm": 0.6206400947904162,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7785113666614052,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "PAIR_1226_2742": {
+          "intersect": true,
+          "depth_mm": 4.628599155694246,
+          "seg_mm": 0.3402243252794603,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.079205860150978,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "FULL": {
+        "PAIR_1041_2735": {
+          "intersect": true,
+          "depth_mm": 3.7107924654264934,
+          "seg_mm": 0.6206429912660737,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7791737298248336,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "PAIR_1226_2742": {
+          "intersect": true,
+          "depth_mm": 4.628596012480557,
+          "seg_mm": 0.3402243252794603,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.0792236716952175,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "R2_W_ONLY": {
+        "PAIR_1041_2735": {
+          "intersect": true,
+          "depth_mm": 3.7091870181029662,
+          "seg_mm": 0.5926054393788063,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7735985782346688,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "PAIR_1226_2742": {
+          "intersect": true,
+          "depth_mm": 4.626255948096514,
+          "seg_mm": 0.3502943015910081,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.0758189600892365,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      },
+      "R2_FULL": {
+        "PAIR_1041_2735": {
+          "intersect": true,
+          "depth_mm": 3.7091858976054937,
+          "seg_mm": 0.5926089285018157,
+          "local_edge_mm": 3.619188231230516,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 0.7742562520434149,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        },
+        "PAIR_1226_2742": {
+          "intersect": true,
+          "depth_mm": 4.626252804882824,
+          "seg_mm": 0.35029502167811993,
+          "local_edge_mm": 4.166125196808419,
+          "tri_pairs": 4,
+          "V2_class": "CASE_A_VISIBLE_GEOMETRIC_INTERPENETRATION",
+          "Stage6A_centroid_plane_proxy_mm": 1.0758368007373065,
+          "minimum_triangle_distance_mm": 0.0,
+          "contact_at_existing_numeric_precision": true,
+          "geometric_contact_tolerance_is_new_severity_gate": false,
+          "shared_vertices": []
+        }
+      }
+    }
+  },
+  "actual_candidate_inputs": {
+    "HISTORICAL_R1B_DONOR": {
+      "weight_vector_sha256": "a9ebdd0c93891246a7b7c1b826acdfa4d5dcf7d81c763bb84159efec24f59107",
+      "rig_snapshot_sha256": "88cdb7489ea016f352148d4a90e5902ebc45792bed1109b9158f12f8253f4de3",
+      "mesh_snapshot_sha256": "7e989545864991b7594b210c4b1599fd5649e15b9372f2fa6dbab8b16b2a24ba"
+    },
+    "CORRECTED_R1": {
+      "weight_vector_sha256": "72e4e0396ad553afd8de637083699da2504668c3dc0bade2afa5866ddc6c10f6",
+      "rig_snapshot_sha256": "ec2d81cf46d3bc1ed288ed00e13604cc300b92828b714918d132c213bcea0c49",
+      "mesh_snapshot_sha256": "3621da126b86ebf68c28d79f3cbbc7c57da9fb48a598cc6cc6d9b45744ad4b3f"
+    },
+    "R2": {
+      "weight_vector_sha256": "1d9437a10354cdd98a2b5cb5e43be8cfabc519e232235483a615e76898129f55",
+      "rig_snapshot_sha256": "ec2d81cf46d3bc1ed288ed00e13604cc300b92828b714918d132c213bcea0c49",
+      "mesh_snapshot_sha256": "3621da126b86ebf68c28d79f3cbbc7c57da9fb48a598cc6cc6d9b45744ad4b3f"
+    }
+  },
+  "limitations": "Mechanical cause of a crossing can be identifiable while cause of an unacceptable teaching/skin defect is not; those are different outcomes."
+}

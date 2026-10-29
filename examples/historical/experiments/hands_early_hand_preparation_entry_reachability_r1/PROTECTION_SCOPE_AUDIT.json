@@ -1,0 +1,56 @@
+{
+  "global_protection_status": "FAIL_CONCURRENT_AUDIT_CHANGES_PRESERVED",
+  "expanded_before_count": 85850,
+  "expanded_after_rehashed_count": 85850,
+  "inherited_frozen_protection_count": 9277,
+  "inherited_frozen_protection_status": "PASS",
+  "inherited_mismatches": [],
+  "changed_files": [
+    {
+      "path": "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\ANALYSIS_SUMMARY.json",
+      "before": "b6e539cafcfd4468af1bf4d368eea16c1e60181bd600551ae49e0917b542ec80",
+      "after": "fbd8bec83a765065a65c0cc7bcd3f9a1eeb9ed8b3d5ca40e175452ed60dea4f0"
+    },
+    {
+      "path": "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\TOP_LARGEST_FILES.csv",
+      "before": "84bf24166e447517af0729deea0a90461fa095af39196eff1a1b68f89ccefe6b",
+      "after": "bdcd3c4bae5fa69c71b6f39462e7a41a81050972ab6f4a0745fdb59b89fbb318"
+    },
+    {
+      "path": "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\analyze_inventory.py",
+      "before": "09ce47d603b76b51b1db4df466d8c8c32171b80d06e66020829663b142a485d4",
+      "after": "f41b07390b85b5094890c0cd5832d97f5f0ed4b20c1ee1ee748e71695b0d9c0d"
+    }
+  ],
+  "new_files": [
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\ANCHOR_HASH_SPOTCHECK.json",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\CLEANUP_CANDIDATES.csv",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\DIRECTORY_USAGE.csv",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\FILE_DISPOSITION.csv",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\HUMAN_REVIEW.md",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\MECHANICAL_ROUND_USAGE.csv",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\NTFS_ALLOCATION.csv",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\NTFS_ALLOCATION_SUMMARY.json",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\PATH_REFERENCE_INDEX.csv",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\SAFE_CLEANUP_PLAN.md",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\STORAGE_BUDGET_POLICY.md",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\STORAGE_USAGE_REPORT.md",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\actual_allocation.py",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\build_reports.py",
+    "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1\\verify_anchors.py"
+  ],
+  "deleted_files": [],
+  "change_location": "D:\\codex one\\3D interactive components\\piano\\piano_project_storage_cleanup_audit_r1",
+  "concurrent_task_evidence": {
+    "thread_id": "01a134cb-0aed-7630-8247-cb0f20f5f998",
+    "turn_id": "01a1353e-809b-7db0-ab33-b92bd476e3ed",
+    "task": "PIANO_PROJECT_STORAGE_CLEANUP_AUDIT_R1",
+    "started_unix": 1791894651,
+    "completed_unix": 1791895859,
+    "evidence": "Read-only read_thread showed user-authorized storage audit and fileChange/commandExecution records writing this exact audit directory during our hash interval. No messaging or modifications of that chat."
+  },
+  "our_protected_write_operations": 0,
+  "concurrent_changes_reverted": false,
+  "global_PASS_not_claimed": true,
+  "science_inputs_and_all_Hands_history_unchanged": true
+}

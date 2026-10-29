@@ -1,0 +1,20 @@
+{
+  "locked_before_candidate_generation": true,
+  "scope": "C1 original right16; left7 unchanged; no new trajectories",
+  "generator": "Unmodified local PianoPlayer 3.0.2 Hand.generate",
+  "configurations_in_fixed_order": [
+    {"id":"P1","size":"M","preserve_posture_memory":false,"anchors":"none","reason":"Reproduce verified full-context native default, including its historical failed-motion counterexample"},
+    {"id":"P2","size":"M","preserve_posture_memory":true,"anchors":"none","reason":"Native default posture memory tests sequence reposition sensitivity without changing the frozen hand size"},
+    {"id":"P3","size":"M","preserve_posture_memory":false,"anchors":"approved prefix before the note immediately preceding original B02 releasing note","reason":"Native fingering hints preserve earlier C1 layout and allow one context-aware tail proposal; not manual note stitching"}
+  ],
+  "max_distinct_alternatives":3,
+  "hand_size_caveat":"M is the verified author preset, not measured equality with frozen Rig; no size tuning",
+  "ranking":"No weighted aggregate or forced winner. First exact-event and overlap legality; then B02 structural change; then whole-context direct reach bounds and known historical failures; then geometry-supported reconfiguration/temporal/black-key risk. Author cost is secondary descriptive evidence only. Unknowns never count as safe.",
+  "promising_threshold":"An alternative must lower the original B02 structural risk without a demonstrated new hard reach/occupancy contradiction, and provide frozen-Rig static evidence supporting the changed contacts. Unresolved new high-risk transfers can prevent recommendation. Static support cannot certify a continuous trajectory.",
+  "static_samples":"Fixed 5 fractions [0,.25,.5,.75,1] per legal angle (625 per digit), plus existing legal digit poses from original C1 reference; never optimized or enlarged after results",
+  "geometry_phases":"Every right-hand onset, onset+35ms or hold midpoint if shorter, and hold midpoint; no new time curves",
+  "contact_limits":"Existing diagnostic contract: horizontal marker miss <=0.03mm, abs vertical gap <=3mm. Used for static sampled marker evidence, not a full skin contact approval.",
+  "reach_bound":"MCP fixed-world center and maximal rigid chain length; distance to moving legal surface farther than chain radius+3mm is a necessary fixed-root marker-reach conflict. Conservative singular-value scale bound. Failure to find sampled pose is UNKNOWN, never impossibility.",
+  "risk_categories":["PROVEN_EVENT_FACT","NECESSARY_FIXED_ROOT_GEOMETRY_BOUND","RIG_SUPPORTED_PREDICTION","UNKNOWN_NEW_TRAJECTORY"],
+  "stop":"One run of three native configurations, deduplicate; no custom search, no retries to improve ranking, no motion generation. Preserve historical protection FAIL."
+}

@@ -1,0 +1,5857 @@
+{
+  "termination": {
+    "success": true,
+    "status": 2,
+    "message": "`ftol` termination condition is satisfied.",
+    "nfev": 20,
+    "cost": 68505.47220059406,
+    "optimality": 169.5003058041761,
+    "numerical_termination_only": true
+  },
+  "residual_calls": 277,
+  "solver_core_seconds": 93.42486430000281,
+  "evaluation_samples": 53,
+  "dense_samples": 197,
+  "certificate": {
+    "domain_min_deg": [
+      [
+        -1.1244103182141867,
+        5.887051627909721,
+        6.0179557433701625,
+        -20.75477632392283
+      ],
+      [
+        1.9474071407399907,
+        -0.38120918235075757,
+        -0.25681879609317937,
+        -10.001282491231386
+      ]
+    ],
+    "domain_max_deg": [
+      [
+        25.931476418564635,
+        28.287020394549874,
+        24.703699546162113,
+        2.385966970461946
+      ],
+      [
+        23.507612342860313,
+        5.5808176059506645,
+        8.242699952616931,
+        16.893513501797106
+      ]
+    ],
+    "max_domain_violation_deg": 1.1244103182141867,
+    "correction_velocity_max_deg_sec": 186.54849056556858,
+    "domain_pass": false,
+    "correction_velocity_pass": false,
+    "boundary_delta_max_deg": 0.0,
+    "boundary_delta_velocity_exact_zero": true,
+    "scope": "Exact polynomial numerical-domain and added-velocity extrema, not a continuous geometric collision certificate"
+  },
+  "contacts": [
+    {
+      "k": 0,
+      "t": 3.3842825,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.8236737373449895,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 1,
+      "t": 3.3875,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.8052428545761108,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 2,
+      "t": 3.3916666666666666,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.787589812585067,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 3,
+      "t": 3.3958333333333335,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.724436277078933,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 4,
+      "t": 3.4,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6592407354287685,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 5,
+      "t": 3.404166666666667,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5968164663082283,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 6,
+      "t": 3.408333333333333,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5436497278831065,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 7,
+      "t": 3.4125,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5188164463659478,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 8,
+      "t": 3.4166666666666665,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5023576603285317,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 9,
+      "t": 3.4208333333333334,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5255998158237644,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 10,
+      "t": 3.425,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5553949014061346,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 11,
+      "t": 3.4291666666666667,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5605711235917404,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 12,
+      "t": 3.433333333333333,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5752446161772699,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 13,
+      "t": 3.4375,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5663521295893073,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 14,
+      "t": 3.441666666666667,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5672240408367402,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 15,
+      "t": 3.4458333333333333,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5544850271654544,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 16,
+      "t": 3.45,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5504780035084714,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 17,
+      "t": 3.4541666666666666,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5424168521915436,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 18,
+      "t": 3.4583333333333335,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5405352745639914,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 19,
+      "t": 3.4625,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5437950469766619,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 20,
+      "t": 3.466666666666667,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.549978548054754,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 21,
+      "t": 3.470833333333333,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5663188439451098,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 22,
+      "t": 3.475,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5903941952436748,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 23,
+      "t": 3.4791666666666665,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6164658812643863,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 24,
+      "t": 3.4833333333333334,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6428899817525117,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 25,
+      "t": 3.4875,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6504682519930494,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 26,
+      "t": 3.4916666666666667,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6587393138644243,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 27,
+      "t": 3.495833333333333,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6893193802106156,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 28,
+      "t": 3.5,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.7197352293757833,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 29,
+      "t": 3.504166666666667,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6975540905147221,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 30,
+      "t": 3.5083333333333333,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6757217530257762,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 31,
+      "t": 3.5125,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.6340797408454919,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 32,
+      "t": 3.5166666666666666,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5935003118801818,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 33,
+      "t": 3.5208333333333335,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5713851081496376,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 34,
+      "t": 3.525,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.54608387879611,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 35,
+      "t": 3.529166666666667,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.49451515848127253,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 36,
+      "t": 3.533333333333333,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.4496724753533436,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 37,
+      "t": 3.5375,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.40405338432816984,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 38,
+      "t": 3.5416666666666665,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.36847963866117067,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 39,
+      "t": 3.5458333333333334,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.3668379678276169,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 40,
+      "t": 3.55,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.37583394986652663,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 41,
+      "t": 3.5541666666666667,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.453454555785481,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 42,
+      "t": 3.558333333333333,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.5393829078416402,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 43,
+      "t": 3.5625,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.7673078033819254,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 44,
+      "t": 3.5642825,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.681118257427728,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 44,
+      "t": 3.5642825,
+      "event": "R09",
+      "finger": 3,
+      "gap_mm": 0.8898912792702774,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 45,
+      "t": 3.566666666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.056448054613676,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 46,
+      "t": 3.5708333333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.2403641542627801,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 47,
+      "t": 3.575,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.4134711716188086,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 48,
+      "t": 3.5791666666666666,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.821571496992678,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 49,
+      "t": 3.5833333333333335,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.1700694434783027,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 50,
+      "t": 3.5875,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": 0.24657567571693978,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 51,
+      "t": 3.591666666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": 0.6758697137483963,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 52,
+      "t": 3.595833333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": 0.3821321109827599,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 53,
+      "t": 3.5985679999999998,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": 0.1923388679556487,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 54,
+      "t": 3.6,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": 0.08602697411016541,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 55,
+      "t": 3.6041666666666665,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.0128445399400974,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 56,
+      "t": 3.6083333333333334,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.11763475053956972,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 57,
+      "t": 3.6125,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.20552712918531385,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 58,
+      "t": 3.6166666666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.2884326448112684,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 59,
+      "t": 3.620833333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.3594780576057376,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 60,
+      "t": 3.625,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.42750540072386184,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 61,
+      "t": 3.629166666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.4950973507479669,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 62,
+      "t": 3.6333333333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.5601981328306175,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 63,
+      "t": 3.6375,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.5945438789455407,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 64,
+      "t": 3.6416666666666666,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.6167335217311213,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 65,
+      "t": 3.6458333333333335,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.644625123616042,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 66,
+      "t": 3.65,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.6715125637297772,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 67,
+      "t": 3.654166666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.7343274398901658,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 68,
+      "t": 3.658333333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.7982709356632224,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 69,
+      "t": 3.6625,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8273594416638718,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 70,
+      "t": 3.6666666666666665,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8587360094999794,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 71,
+      "t": 3.6708333333333334,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8672374327634984,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 72,
+      "t": 3.675,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8787945523807075,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 73,
+      "t": 3.6791666666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8771773413918693,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 74,
+      "t": 3.683333333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8792427317033269,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 75,
+      "t": 3.6875,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8766083307108605,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 76,
+      "t": 3.691666666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8776323065070694,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 77,
+      "t": 3.6958333333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8815935068282945,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 78,
+      "t": 3.7,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8880035972644115,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 79,
+      "t": 3.7041666666666666,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8951780917852754,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 80,
+      "t": 3.7083333333333335,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8691306530554682,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 81,
+      "t": 3.7125,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8229938863534065,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 82,
+      "t": 3.716666666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.800582182783286,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 83,
+      "t": 3.720833333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8315056344983268,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 84,
+      "t": 3.725,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.8626210339638117,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 85,
+      "t": 3.7291666666666665,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.923765799861885,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 86,
+      "t": 3.7333333333333334,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.9851164495229771,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 87,
+      "t": 3.7375,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.0653783989293049,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 88,
+      "t": 3.7416666666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.139939172020654,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 89,
+      "t": 3.745833333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.1973670942033041,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 90,
+      "t": 3.75,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.2540264421995928,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 91,
+      "t": 3.754166666666667,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.2829824655580107,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 92,
+      "t": 3.7583333333333333,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.3104623708619538,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 93,
+      "t": 3.7625,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.2906502370898396,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 94,
+      "t": 3.7666666666666666,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.2690256272636784,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 95,
+      "t": 3.7708333333333335,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.180700501993906,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 96,
+      "t": 3.775,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -1.0910624856443043,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 97,
+      "t": 3.778568,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.2473911004052245,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 97,
+      "t": 3.778568,
+      "event": "R10",
+      "finger": 4,
+      "gap_mm": -0.9637698095290216,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 98,
+      "t": 3.779166666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.158465306497011,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 99,
+      "t": 3.783333333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.539007540412634,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 100,
+      "t": 3.7875,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.5071438537623036,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 101,
+      "t": 3.7916666666666665,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.4786809196219695,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 102,
+      "t": 3.7958333333333334,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.079548656050833,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 103,
+      "t": 3.8,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.7256887443802635,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 104,
+      "t": 3.8041666666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.847558205640204,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 105,
+      "t": 3.808333333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.975854107707212,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 106,
+      "t": 3.8125,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.5004087792862295,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 107,
+      "t": 3.8128535,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.4603028260323523,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 108,
+      "t": 3.816666666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.251444357882688,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 109,
+      "t": 3.818568,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.243335878784528,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 110,
+      "t": 3.8208333333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.171761124453696,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 111,
+      "t": 3.825,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 3.039078990606108,
+      "horizontal_mm": 0.0,
+      "pass_": false
+    },
+    {
+      "k": 112,
+      "t": 3.8291666666666666,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.913374404097328,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 113,
+      "t": 3.8333333333333335,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.806101340780128,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 114,
+      "t": 3.8375,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.719268809644876,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 115,
+      "t": 3.841666666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.6341337345805735,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 116,
+      "t": 3.845833333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.5463659984432083,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 117,
+      "t": 3.85,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.4558956980142397,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 118,
+      "t": 3.8541666666666665,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.333615496265141,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 119,
+      "t": 3.8583333333333334,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.2148904845166393,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 120,
+      "t": 3.8625,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 2.0766688999463714,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 121,
+      "t": 3.8666666666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.9428189588004132,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 122,
+      "t": 3.870833333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.812035629036306,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 123,
+      "t": 3.875,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.6862261544041068,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 124,
+      "t": 3.879166666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.579468882868869,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 125,
+      "t": 3.8833333333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.4779706061681561,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 126,
+      "t": 3.8875,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.4032741950332706,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 127,
+      "t": 3.8916666666666666,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.33374834952622,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 128,
+      "t": 3.8958333333333335,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.29119907011821,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 129,
+      "t": 3.9,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.253323204976443,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 130,
+      "t": 3.904166666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.2363788603904464,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 131,
+      "t": 3.908333333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.2228992792762094,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 132,
+      "t": 3.9125,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.2200141746260726,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 133,
+      "t": 3.9166666666666665,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.219689954109725,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 134,
+      "t": 3.9208333333333334,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.2082410701267263,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 135,
+      "t": 3.925,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.1931892096615044,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 136,
+      "t": 3.9291666666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.1610349755315568,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 137,
+      "t": 3.933333333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.1096022622142447,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 138,
+      "t": 3.9375,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 1.0214476506214059,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 139,
+      "t": 3.941666666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.9374069136626492,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 140,
+      "t": 3.9458333333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.8586084405144534,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 141,
+      "t": 3.95,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.7892683903287114,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 142,
+      "t": 3.9541666666666666,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.7042573545900985,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 143,
+      "t": 3.9583333333333335,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.6269075010281577,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 144,
+      "t": 3.9625,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.5393752324917325,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 145,
+      "t": 3.966666666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.4620217796880243,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 146,
+      "t": 3.970833333333333,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.40672360140939584,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 147,
+      "t": 3.975,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.36264524187530467,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 148,
+      "t": 3.9791666666666665,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.37433021681575906,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 149,
+      "t": 3.9833333333333334,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.3965222343177475,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 150,
+      "t": 3.9875,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.5091254109907373,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 151,
+      "t": 3.9916666666666667,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.6302028291715404,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 152,
+      "t": 3.9928535000000003,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -1.5087217498618108,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 152,
+      "t": 3.9928535000000003,
+      "event": "R11",
+      "finger": 3,
+      "gap_mm": 0.6837159398049107,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 153,
+      "t": 3.995833333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -1.7824363543366573,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 154,
+      "t": 4.0,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -2.1583917504767025,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 155,
+      "t": 4.004166666666666,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -1.8762610979669667,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 156,
+      "t": 4.008333333333334,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -1.5856701943750602,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 157,
+      "t": 4.0125,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.9977899195987173,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 158,
+      "t": 4.016666666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.437328363218038,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 159,
+      "t": 4.020833333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.3533323499480389,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 160,
+      "t": 4.025,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.26770808831395354,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 161,
+      "t": 4.029166666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.3846532351871306,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 162,
+      "t": 4.033333333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.355230931723469,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 163,
+      "t": 4.0375,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.3692980223930376,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 164,
+      "t": 4.041666666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.37979563958804446,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 165,
+      "t": 4.045833333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.3849654544527941,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 166,
+      "t": 4.05,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.3816201528246601,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 167,
+      "t": 4.054166666666666,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.368034129382671,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 168,
+      "t": 4.058333333333334,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.3460413736711115,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 169,
+      "t": 4.0625,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.3093586745442599,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 170,
+      "t": 4.066666666666666,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.2660580579888494,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 171,
+      "t": 4.070833333333334,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.22884647115073953,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 172,
+      "t": 4.075,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.18311209496778108,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 173,
+      "t": 4.079166666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.144713158620028,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 174,
+      "t": 4.083333333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.09545752296589126,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 175,
+      "t": 4.0875,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": -0.05033148930770441,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 176,
+      "t": 4.091666666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.0057243639161735915,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 177,
+      "t": 4.095833333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.06002038519424373,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 178,
+      "t": 4.1,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.1224659223681649,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 179,
+      "t": 4.104166666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.1951016341155531,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 180,
+      "t": 4.108333333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.27407982414214166,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 181,
+      "t": 4.1125,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.351608170845499,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 182,
+      "t": 4.116666666666666,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.43495770021616775,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 183,
+      "t": 4.120833333333334,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.48287180029164994,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 184,
+      "t": 4.125,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.5342501316205426,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 185,
+      "t": 4.129166666666666,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.5227948925472219,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 186,
+      "t": 4.133333333333334,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.5069496668270775,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 187,
+      "t": 4.1375,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.5756947255377235,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 188,
+      "t": 4.141666666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.6435357564685048,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 189,
+      "t": 4.145833333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.6780891484715109,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 190,
+      "t": 4.15,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.698309255125781,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 191,
+      "t": 4.154166666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.6799265163207179,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 192,
+      "t": 4.158333333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.6573890114013551,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 193,
+      "t": 4.1625,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.6342967098342238,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 194,
+      "t": 4.166666666666667,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.5993660199803426,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 195,
+      "t": 4.170833333333333,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.5375844543982471,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    },
+    {
+      "k": 196,
+      "t": 4.1728535,
+      "event": "R12",
+      "finger": 4,
+      "gap_mm": 0.5052427832538484,
+      "horizontal_mm": 0.0,
+      "pass_": true
+    }
+  ],
+  "key_regressions": [
+    {
+      "t": 3.5708333333333333,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 0.5625108865783989,
+      "source_depth_mm": 0.5159254205171103,
+      "world_m": [
+        0.1746349061655097,
+        0.05091579957171066,
+        0.0005625110865783989
+      ]
+    },
+    {
+      "t": 3.5791666666666666,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 1.052709755125408,
+      "source_depth_mm": 0.6520084935364877,
+      "world_m": [
+        0.17701895233399578,
+        0.05084056301022,
+        0.0010527099551254082
+      ]
+    },
+    {
+      "t": 3.5833333333333335,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 1.7630580770687407,
+      "source_depth_mm": 1.059589514699105,
+      "world_m": [
+        0.17692718658040563,
+        0.05124110426122375,
+        0.0017630582770687409
+      ]
+    },
+    {
+      "t": 3.5875,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 2.3834350896866017,
+      "source_depth_mm": 1.770413310372326,
+      "world_m": [
+        0.1768727545468236,
+        0.0518048124896866,
+        0.002814432992627236
+      ]
+    },
+    {
+      "t": 3.591666666666667,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 1.407406229271123,
+      "source_depth_mm": 0.6540899256614816,
+      "world_m": [
+        0.1790634131199007,
+        0.050828783629271124,
+        0.0035274262487027253
+      ]
+    },
+    {
+      "t": 3.595833333333333,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 2.4118669958072156,
+      "source_depth_mm": 0.776809734807221,
+      "world_m": [
+        0.17652557483227493,
+        0.05233455312592106,
+        0.0024118671958072158
+      ]
+    },
+    {
+      "t": 3.5985679999999998,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 2.1848219335518113,
+      "source_depth_mm": 0.41127453494401156,
+      "world_m": [
+        0.1764300505564529,
+        0.0516369876379531,
+        0.0021848221335518114
+      ]
+    },
+    {
+      "t": 3.6,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 2.372054061986227,
+      "source_depth_mm": 0.7631878480390429,
+      "world_m": [
+        0.17663459798000303,
+        0.05179343146198623,
+        0.0025821464604098843
+      ]
+    },
+    {
+      "t": 3.6041666666666665,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 1.7914472844923965,
+      "source_depth_mm": 0.8271524469379496,
+      "world_m": [
+        0.18075400354584747,
+        0.0512128246844924,
+        0.009355986664899563
+      ]
+    },
+    {
+      "t": 3.6083333333333334,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 3.0066311371250434,
+      "source_depth_mm": 1.9724079617555457,
+      "world_m": [
+        0.18216909006287496,
+        0.05265082192211934,
+        0.00844445289766127
+      ]
+    },
+    {
+      "t": 3.6125,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 4.267191031878087,
+      "source_depth_mm": 3.1510190434886622,
+      "world_m": [
+        0.18090853016812192,
+        0.054118697675121896,
+        0.007302133085059503
+      ]
+    },
+    {
+      "t": 3.6166666666666667,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 5.010527059074982,
+      "source_depth_mm": 3.8569139854031933,
+      "world_m": [
+        0.18016519414092502,
+        0.05497478825720459,
+        0.00902952299804377
+      ]
+    },
+    {
+      "t": 3.620833333333333,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 3.1266537629583704,
+      "source_depth_mm": 1.9482794515350566,
+      "world_m": [
+        0.18204906743704163,
+        0.055250414009539006,
+        0.010036012011046591
+      ]
+    },
+    {
+      "t": 3.625,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 3.16575762503854,
+      "source_depth_mm": 1.968734501829078,
+      "world_m": [
+        0.18200996357496146,
+        0.05566062128093885,
+        0.012093700510531769
+      ]
+    },
+    {
+      "t": 3.629166666666667,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 2.4810495419173852,
+      "source_depth_mm": 1.2809564260103101,
+      "world_m": [
+        0.18269467165808262,
+        0.054843434280336556,
+        0.011988858188871021
+      ]
+    },
+    {
+      "t": 3.6333333333333333,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 1.6383646874431335,
+      "source_depth_mm": 0.49172324458265915,
+      "world_m": [
+        0.18353735651255687,
+        0.05183653778833108,
+        0.01072160824925028
+      ]
+    },
+    {
+      "t": 3.6375,
+      "digit": "MIDDLE",
+      "midi": 73,
+      "component": "GP_V11D_KEY_RENDER_073",
+      "depth_mm": 1.6091881981796439,
+      "source_depth_mm": 0.7954937685783203,
+      "world_m": [
+        0.1832639432554386,
+        0.051030565598179645,
+        0.013258887880979564
+      ]
+    },
+    {
+      "t": 3.8333333333333335,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.5966777747608439,
+      "source_depth_mm": -0.06700788623906218,
+      "world_m": [
+        0.20225134492191477,
+        0.04569162906980773,
+        -0.0010288654620222437
+      ]
+    },
+    {
+      "t": 3.8375,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7924731131865037,
+      "source_depth_mm": -0.050661162748905086,
+      "world_m": [
+        0.2022598866868135,
+        0.045680592752585625,
+        -0.001115596920465034
+      ]
+    },
+    {
+      "t": 3.841666666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7786143422330027,
+      "source_depth_mm": -0.039659872061587054,
+      "world_m": [
+        0.202273745457767,
+        0.045651212110567996,
+        -0.001202521300889603
+      ]
+    },
+    {
+      "t": 3.845833333333333,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7527664621000685,
+      "source_depth_mm": -0.04328321292448867,
+      "world_m": [
+        0.20229959333789993,
+        0.045649320802145454,
+        -0.001289583439266051
+      ]
+    },
+    {
+      "t": 3.85,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7165570322870962,
+      "source_depth_mm": -0.05809372997148121,
+      "world_m": [
+        0.2023358027677129,
+        0.04564353541524657,
+        -0.00137998935969752
+      ]
+    },
+    {
+      "t": 3.8541666666666665,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7484771118921596,
+      "source_depth_mm": -0.009186964308655066,
+      "world_m": [
+        0.20230388268810784,
+        0.045703868628768074,
+        -0.0014961511444164244
+      ]
+    },
+    {
+      "t": 3.8583333333333334,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.8213596833391927,
+      "source_depth_mm": 0.5334158833154301,
+      "world_m": [
+        0.20171328542755051,
+        0.04781492720929448,
+        -0.0008213597833391928
+      ]
+    },
+    {
+      "t": 3.8625,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.8728881687800338,
+      "source_depth_mm": 0.1445381084936581,
+      "world_m": [
+        0.20217947163121996,
+        0.04579499721900715,
+        -0.0017450120034399608
+      ]
+    },
+    {
+      "t": 3.8666666666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9550814966749754,
+      "source_depth_mm": 0.23908181725704192,
+      "world_m": [
+        0.20209727830332502,
+        0.045810845675906986,
+        -0.0018786090493209673
+      ]
+    },
+    {
+      "t": 3.870833333333333,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.0812938257580285,
+      "source_depth_mm": 0.3742685094451914,
+      "world_m": [
+        0.20197106597424197,
+        0.045825278619654464,
+        -0.0020101605823979463
+      ]
+    },
+    {
+      "t": 3.875,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.170766095657666,
+      "source_depth_mm": 0.47271400939249975,
+      "world_m": [
+        0.20188159370434233,
+        0.04578287331849473,
+        -0.0021430867462522984
+      ]
+    },
+    {
+      "t": 3.879166666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.266765589611002,
+      "source_depth_mm": 0.5755462240661646,
+      "world_m": [
+        0.201785594210389,
+        0.045721024681022016,
+        -0.0022597601307045023
+      ]
+    },
+    {
+      "t": 3.8833333333333333,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.3196770949461534,
+      "source_depth_mm": 0.6354139331516684,
+      "world_m": [
+        0.20173268270505385,
+        0.04560117807587993,
+        -0.0023777201702948614
+      ]
+    },
+    {
+      "t": 3.8875,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.3575560070268888,
+      "source_depth_mm": 0.679446078586804,
+      "world_m": [
+        0.2016948037929731,
+        0.0454646959247641,
+        -0.0024710453404198085
+      ]
+    },
+    {
+      "t": 3.8916666666666666,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.3509520706271594,
+      "source_depth_mm": 0.6792308406466663,
+      "world_m": [
+        0.20170140772937284,
+        0.04527663111804159,
+        -0.002565066642697733
+      ]
+    },
+    {
+      "t": 3.8958333333333335,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.3254199242538067,
+      "source_depth_mm": 0.6606125981782618,
+      "world_m": [
+        0.2017269398757462,
+        0.04509184311692516,
+        -0.002631571969270441
+      ]
+    },
+    {
+      "t": 3.9,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.2723607867473907,
+      "source_depth_mm": 1.5746446949407022,
+      "world_m": [
+        0.2007799990132526,
+        0.04689296613014993,
+        -0.0022818416539127084
+      ]
+    },
+    {
+      "t": 3.904166666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.2342457312589383,
+      "source_depth_mm": 1.5475945720661854,
+      "world_m": [
+        0.20081811406874106,
+        0.046692593423024786,
+        -0.002352340532009556
+      ]
+    },
+    {
+      "t": 3.908333333333333,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.170605900139594,
+      "source_depth_mm": 1.495220918562773,
+      "world_m": [
+        0.2008817538998604,
+        0.04646739082576612,
+        -0.002422547029889144
+      ]
+    },
+    {
+      "t": 3.9125,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.112127504357159,
+      "source_depth_mm": 1.4505354447395813,
+      "world_m": [
+        0.20094023229564284,
+        0.046316078498264246,
+        -0.002461743251220505
+      ]
+    },
+    {
+      "t": 3.9166666666666665,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.041569927936332,
+      "source_depth_mm": 1.3938929738035177,
+      "world_m": [
+        0.20101078987206367,
+        0.046153764376545614,
+        -0.0024998065935551983
+      ]
+    },
+    {
+      "t": 3.9208333333333334,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.041238798509343,
+      "source_depth_mm": 1.4093338562039814,
+      "world_m": [
+        0.20101112100149066,
+        0.04607967556757897,
+        -0.0025272439140556213
+      ]
+    },
+    {
+      "t": 3.925,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.0608751146349027,
+      "source_depth_mm": 1.4448239179329636,
+      "world_m": [
+        0.2009914846853651,
+        0.04601464187276305,
+        -0.0025560506539478167
+      ]
+    },
+    {
+      "t": 3.9291666666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.092447541515136,
+      "source_depth_mm": 1.4926993209769257,
+      "world_m": [
+        0.20095991225848486,
+        0.045959946494391835,
+        -0.0025984544640310636
+      ]
+    },
+    {
+      "t": 3.933333333333333,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.1048593806878015,
+      "source_depth_mm": 1.5215273888446734,
+      "world_m": [
+        0.2009475004193122,
+        0.04590474207219675,
+        -0.0026590533581097864
+      ]
+    },
+    {
+      "t": 3.9375,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.1268233981030784,
+      "source_depth_mm": 1.5597411007255146,
+      "world_m": [
+        0.20092553640189692,
+        0.045867993932988016,
+        -0.0027510668691987927
+      ]
+    },
+    {
+      "t": 3.941666666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.1452005467117177,
+      "source_depth_mm": 1.594350242420689,
+      "world_m": [
+        0.20090715925328828,
+        0.04582840616143047,
+        -0.002839433090936705
+      ]
+    },
+    {
+      "t": 3.9458333333333333,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.1429032096955405,
+      "source_depth_mm": 1.60878998781408,
+      "world_m": [
+        0.20090945659030446,
+        0.04578845986091451,
+        -0.0029214380414228636
+      ]
+    },
+    {
+      "t": 3.95,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.129233623615362,
+      "source_depth_mm": 1.6119848391531189,
+      "world_m": [
+        0.20092312617638464,
+        0.04574164287178728,
+        -0.002994794416524005
+      ]
+    },
+    {
+      "t": 3.9541666666666666,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.115336278060348,
+      "source_depth_mm": 1.6150528930427288,
+      "world_m": [
+        0.20093702352193965,
+        0.0456796669243158,
+        -0.0030832307325794894
+      ]
+    },
+    {
+      "t": 3.9583333333333335,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.0941750783953497,
+      "source_depth_mm": 1.6106328705151884,
+      "world_m": [
+        0.20095818472160465,
+        0.045614976496526904,
+        -0.003164537711443982
+      ]
+    },
+    {
+      "t": 3.9625,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.088715994567031,
+      "source_depth_mm": 1.6217196680916313,
+      "world_m": [
+        0.20096364380543297,
+        0.04554197796755366,
+        -0.003253763411494748
+      ]
+    },
+    {
+      "t": 3.966666666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.070654654137999,
+      "source_depth_mm": 1.6199022600178192,
+      "world_m": [
+        0.200981705145862,
+        0.04546610917565552,
+        -0.0033333934208364946
+      ]
+    },
+    {
+      "t": 3.970833333333333,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.0691181117730997,
+      "source_depth_mm": 1.6343516963246152,
+      "world_m": [
+        0.2009832416882269,
+        0.04539271190700167,
+        -0.003387930807279116
+      ]
+    },
+    {
+      "t": 3.975,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.051185100374803,
+      "source_depth_mm": 1.6320409516017154,
+      "world_m": [
+        0.2010011746996252,
+        0.0453168438940571,
+        -0.0034318378644355163
+      ]
+    },
+    {
+      "t": 3.9791666666666665,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.048481791295326,
+      "source_depth_mm": 1.644678737232591,
+      "world_m": [
+        0.20100387800870467,
+        0.045254680158913096,
+        -0.003416084421490606
+      ]
+    },
+    {
+      "t": 3.9833333333333334,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.0267235521742313,
+      "source_depth_mm": 1.6378526158335738,
+      "world_m": [
+        0.20102563624782577,
+        0.045190803032241544,
+        -0.003390389266422822
+      ]
+    },
+    {
+      "t": 3.9875,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 2.016547119068041,
+      "source_depth_mm": 1.6423403785170432,
+      "world_m": [
+        0.20103581268093196,
+        0.04515297278979069,
+        -0.0032693789933773143
+      ]
+    },
+    {
+      "t": 3.9916666666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.985967083065282,
+      "source_depth_mm": 1.6259862946652326,
+      "world_m": [
+        0.20106639271693472,
+        0.045113563260502976,
+        -0.003140488433687305
+      ]
+    },
+    {
+      "t": 3.9928535000000003,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.9779019852046165,
+      "source_depth_mm": 1.6219248951847287,
+      "world_m": [
+        0.20107445781479538,
+        0.04510809002663152,
+        -0.0030838339753355704
+      ]
+    },
+    {
+      "t": 3.995833333333333,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.9845577333336972,
+      "source_depth_mm": 1.6384972551068688,
+      "world_m": [
+        0.2010678020666663,
+        0.04509017149040917,
+        -0.0028933600076969657
+      ]
+    },
+    {
+      "t": 4.0,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.9679085554597797,
+      "source_depth_mm": 1.635303409624339,
+      "world_m": [
+        0.20108445124454022,
+        0.04506192203586468,
+        -0.002622387429240036
+      ]
+    },
+    {
+      "t": 4.004166666666666,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.9820999962154306,
+      "source_depth_mm": 1.6624526940373918,
+      "world_m": [
+        0.20107025980378457,
+        0.04509999270055032,
+        -0.002234831833282158
+      ]
+    },
+    {
+      "t": 4.008333333333334,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7493144352075098,
+      "source_depth_mm": 0.47623837468677155,
+      "world_m": [
+        0.2023030453647925,
+        0.04804602674882663,
+        -0.003809902393138942
+      ]
+    },
+    {
+      "t": 4.0125,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7433083450349709,
+      "source_depth_mm": 0.4834661165759868,
+      "world_m": [
+        0.20230905145496503,
+        0.048246061594304446,
+        -0.0033002065898559696
+      ]
+    },
+    {
+      "t": 4.016666666666667,
+      "digit": "MIDDLE",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.717342717809516,
+      "source_depth_mm": 0.47012814245769863,
+      "world_m": [
+        0.20233501708219048,
+        0.04850030742402078,
+        -0.002722392998458112
+      ]
+    },
+    {
+      "t": 3.5625,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.5488228791932863,
+      "source_depth_mm": -0.19137381435840045,
+      "world_m": [
+        0.2006795243109858,
+        0.034056436398267054,
+        -0.0005488229791932864
+      ]
+    },
+    {
+      "t": 3.5642825,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7938891121489016,
+      "source_depth_mm": 0.04266463576464147,
+      "world_m": [
+        0.20069213675896624,
+        0.03398383993442,
+        -0.0007938892121489016
+      ]
+    },
+    {
+      "t": 3.566666666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.172094731656251,
+      "source_depth_mm": 0.4065187970751518,
+      "world_m": [
+        0.2006949842789265,
+        0.03386645173577085,
+        -0.001192039731526262
+      ]
+    },
+    {
+      "t": 3.5708333333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.3591660135241348,
+      "source_depth_mm": 0.5712201010347728,
+      "world_m": [
+        0.20066660923590574,
+        0.0336292956015799,
+        -0.0019710177805851714
+      ]
+    },
+    {
+      "t": 3.575,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.5354013197018483,
+      "source_depth_mm": 0.7256091996595544,
+      "world_m": [
+        0.2006576586113049,
+        0.03338033132134133,
+        -0.0027421882999550395
+      ]
+    },
+    {
+      "t": 3.5791666666666666,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9430147654866916,
+      "source_depth_mm": 0.11641120265831538,
+      "world_m": [
+        0.20058403165981198,
+        0.03316326964915628,
+        -0.003574848084829607
+      ]
+    },
+    {
+      "t": 3.625,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.5757967483304752,
+      "source_depth_mm": -0.462017039671156,
+      "world_m": [
+        0.20048912896964866,
+        0.0323541206487612,
+        -0.007678595696206325
+      ]
+    },
+    {
+      "t": 3.629166666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.6447645562959003,
+      "source_depth_mm": -0.41587730045168153,
+      "world_m": [
+        0.2004558523078075,
+        0.032385068724298804,
+        -0.007745122944601113
+      ]
+    },
+    {
+      "t": 3.6333333333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7111878425847986,
+      "source_depth_mm": -0.3720281846228104,
+      "world_m": [
+        0.20042841438641879,
+        0.03240323963990366,
+        -0.0078102119959149174
+      ]
+    },
+    {
+      "t": 3.6375,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7478495575213256,
+      "source_depth_mm": -0.3839281269668042,
+      "world_m": [
+        0.20092182403110925,
+        0.0339373838819379,
+        -0.007713014515433214
+      ]
+    },
+    {
+      "t": 3.6416666666666666,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.7769832042871512,
+      "source_depth_mm": -0.3783522551973482,
+      "world_m": [
+        0.20094391833218506,
+        0.033920849070996684,
+        -0.007743703303487837
+      ]
+    },
+    {
+      "t": 3.6458333333333335,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.8089089156864226,
+      "source_depth_mm": -0.3710209041320505,
+      "world_m": [
+        0.20094333731516256,
+        0.03390524799558814,
+        -0.007777113229821775
+      ]
+    },
+    {
+      "t": 3.65,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.8398510358584468,
+      "source_depth_mm": -0.36442424513899835,
+      "world_m": [
+        0.20095063988036244,
+        0.03388159556750825,
+        -0.007810239060009716
+      ]
+    },
+    {
+      "t": 3.654166666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9037632411739677,
+      "source_depth_mm": -0.3257993938763485,
+      "world_m": [
+        0.2009189399083855,
+        0.03386118649955172,
+        -0.007876177212191748
+      ]
+    },
+    {
+      "t": 3.658333333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.968862036714212,
+      "source_depth_mm": -0.2857194524047983,
+      "world_m": [
+        0.20089751486160967,
+        0.033834370618874066,
+        -0.00794386607092612
+      ]
+    },
+    {
+      "t": 3.6625,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9968796161512156,
+      "source_depth_mm": -0.28318250211935503,
+      "world_m": [
+        0.2008949702439078,
+        0.03380296288299611,
+        -0.007974733607911011
+      ]
+    },
+    {
+      "t": 3.6666666666666665,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.027274446567116,
+      "source_depth_mm": -0.27793572021805224,
+      "world_m": [
+        0.20091080038613662,
+        0.033764932881128584,
+        -0.008008565863983685
+      ]
+    },
+    {
+      "t": 3.6708333333333334,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.0332874504899479,
+      "source_depth_mm": -0.29734273912706455,
+      "world_m": [
+        0.20092147696601725,
+        0.03372845070779951,
+        -0.008017788271419246
+      ]
+    },
+    {
+      "t": 3.675,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.0424601524448431,
+      "source_depth_mm": -0.3132008571854806,
+      "world_m": [
+        0.20095699929377098,
+        0.03368504204845213,
+        -0.008030787395870265
+      ]
+    },
+    {
+      "t": 3.6791666666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.037619289690377,
+      "source_depth_mm": -0.3432095972207079,
+      "world_m": [
+        0.2009677792116895,
+        0.033649766740162956,
+        -0.008029009200261672
+      ]
+    },
+    {
+      "t": 3.683333333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.036564397296612,
+      "source_depth_mm": -0.36900530624884126,
+      "world_m": [
+        0.20100334040566925,
+        0.033608248311824074,
+        -0.008031576690251396
+      ]
+    },
+    {
+      "t": 3.6875,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.0305876314277338,
+      "source_depth_mm": -0.3998001569351394,
+      "world_m": [
+        0.20099899518556086,
+        0.03358222692891699,
+        -0.008027849989077962
+      ]
+    },
+    {
+      "t": 3.691666666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.0283560870361428,
+      "source_depth_mm": -0.42641251831450383,
+      "world_m": [
+        0.2010141794046767,
+        0.033550863671594766,
+        -0.008028349350795883
+      ]
+    },
+    {
+      "t": 3.6958333333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.0294119506240245,
+      "source_depth_mm": -0.44983925989673695,
+      "world_m": [
+        0.2009784675693762,
+        0.033542690816692367,
+        -0.008030123086742946
+      ]
+    },
+    {
+      "t": 3.7,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.032973789015609,
+      "source_depth_mm": -0.4703438267780507,
+      "world_m": [
+        0.20095368666337143,
+        0.03353034059304838,
+        -0.008034777207815702
+      ]
+    },
+    {
+      "t": 3.7041666666666666,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.037884890649265,
+      "source_depth_mm": -0.48961970683958744,
+      "world_m": [
+        0.20089228295291117,
+        0.03353845874074268,
+        -0.00803899793328322
+      ]
+    },
+    {
+      "t": 3.7083333333333335,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.009685104856968,
+      "source_depth_mm": -0.542228924415637,
+      "world_m": [
+        0.20085949642871093,
+        0.0335471728046397,
+        -0.00800992965944547
+      ]
+    },
+    {
+      "t": 3.7125,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9616324916231277,
+      "source_depth_mm": -0.614802801505891,
+      "world_m": [
+        0.2008700626126061,
+        0.03355165337518107,
+        -0.00796130274472523
+      ]
+    },
+    {
+      "t": 3.716666666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9376374682912437,
+      "source_depth_mm": -0.6628458001151868,
+      "world_m": [
+        0.20087684803358563,
+        0.033555624848458865,
+        -0.007936869480325126
+      ]
+    },
+    {
+      "t": 3.720833333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9679021233944934,
+      "source_depth_mm": -0.6561305278813099,
+      "world_m": [
+        0.20088861924643608,
+        0.03355882618805761,
+        -0.007966969742238483
+      ]
+    },
+    {
+      "t": 3.725,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9983822360361181,
+      "source_depth_mm": -0.6487929832476803,
+      "world_m": [
+        0.2009013955714951,
+        0.03355810554646388,
+        -0.007997628844751248
+      ]
+    },
+    {
+      "t": 3.7291666666666665,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.059793265937034,
+      "source_depth_mm": -0.6100104006667929,
+      "world_m": [
+        0.20091442630884138,
+        0.03356006837415815,
+        -0.008059102240998317
+      ]
+    },
+    {
+      "t": 3.7333333333333334,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.1214352871630537,
+      "source_depth_mm": -0.5705568169061507,
+      "world_m": [
+        0.2009285307432267,
+        0.03355744451861997,
+        -0.008121208128716473
+      ]
+    },
+    {
+      "t": 3.7375,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.2030701161823694,
+      "source_depth_mm": -0.5104765463103093,
+      "world_m": [
+        0.20094143935171616,
+        0.03355736388604713,
+        -0.008203160806119103
+      ]
+    },
+    {
+      "t": 3.7416666666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.2795642569685333,
+      "source_depth_mm": -0.4550551235340404,
+      "world_m": [
+        0.20095361949038382,
+        0.033552847864678714,
+        -0.008280340629307714
+      ]
+    },
+    {
+      "t": 3.745833333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.341962596745932,
+      "source_depth_mm": -0.4125274621532251,
+      "world_m": [
+        0.20095188263798947,
+        0.03353023511473985,
+        -0.008344951631352349
+      ]
+    },
+    {
+      "t": 3.75,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.4036370626526284,
+      "source_depth_mm": -0.37019542490332497,
+      "world_m": [
+        0.20094970668352952,
+        0.033500545643782464,
+        -0.008409454114887749
+      ]
+    },
+    {
+      "t": 3.754166666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.4397485108563752,
+      "source_depth_mm": -0.352498786830514,
+      "world_m": [
+        0.20094102146003268,
+        0.03345955542473644,
+        -0.008449283311576905
+      ]
+    },
+    {
+      "t": 3.7583333333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.4744407022428057,
+      "source_depth_mm": -0.3356432078118775,
+      "world_m": [
+        0.20093232594513633,
+        0.033409139195849535,
+        -0.00848851115632221
+      ]
+    },
+    {
+      "t": 3.7625,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.4616953185165102,
+      "source_depth_mm": -0.36638698409749293,
+      "world_m": [
+        0.20093060880234392,
+        0.03337264425954545,
+        -0.008478904872692594
+      ]
+    },
+    {
+      "t": 3.7666666666666666,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.4471973012283343,
+      "source_depth_mm": -0.3982812860438924,
+      "world_m": [
+        0.20092876113703273,
+        0.0333260928086766,
+        -0.008468417662122862
+      ]
+    },
+    {
+      "t": 3.7708333333333335,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.363550664778133,
+      "source_depth_mm": -0.5006382981580918,
+      "world_m": [
+        0.20094615351606926,
+        0.03332037420158129,
+        -0.008384952048411776
+      ]
+    },
+    {
+      "t": 3.775,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.278645962743487,
+      "source_depth_mm": -0.6036437986298615,
+      "world_m": [
+        0.20096207120313547,
+        0.03330534729892709,
+        -0.008301036606014556
+      ]
+    },
+    {
+      "t": 3.778568,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.1527720405112378,
+      "source_depth_mm": -0.7462953861764603,
+      "world_m": [
+        0.20099288060473586,
+        0.033330172601463204,
+        -0.008172515099139077
+      ]
+    },
+    {
+      "t": 3.779166666666667,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 1.1293094029838249,
+      "source_depth_mm": -0.7728162633746897,
+      "world_m": [
+        0.20099494930500206,
+        0.03333534736093313,
+        -0.008146011303823475
+      ]
+    },
+    {
+      "t": 3.783333333333333,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.9653870495653877,
+      "source_depth_mm": -0.9576732804324668,
+      "world_m": [
+        0.20101016573624508,
+        0.03336566730093615,
+        -0.007961427623934425
+      ]
+    },
+    {
+      "t": 3.7875,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.8264072612114595,
+      "source_depth_mm": -1.1230524622387992,
+      "world_m": [
+        0.20103454770564322,
+        0.03346294259271465,
+        -0.007653851434314574
+      ]
+    },
+    {
+      "t": 3.7916666666666665,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.6849253620401954,
+      "source_depth_mm": -1.2902663903364737,
+      "world_m": [
+        0.20105372043552694,
+        0.03355145440361185,
+        -0.007344928834659981
+      ]
+    },
+    {
+      "t": 3.7958333333333334,
+      "digit": "RING",
+      "midi": 74,
+      "component": "GP_V11D_KEY_RENDER_074_FRONT",
+      "depth_mm": 0.5245895648994781,
+      "source_depth_mm": -1.4837452409270615,
+      "world_m": [
+        0.20118944306051367,
+        0.03383295001604947,
+        -0.006798449996574307
+      ]
+    },
+    {
+      "t": 3.6458333333333335,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.9233026011703782,
+      "source_depth_mm": 0.5237503970411881,
+      "world_m": [
+        0.19876325180117038,
+        0.051095780102024424,
+        0.013599427838085543
+      ]
+    },
+    {
+      "t": 3.65,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.366571351535754,
+      "source_depth_mm": 0.2976305884066707,
+      "world_m": [
+        0.20033024729325222,
+        0.05090363814165888,
+        0.014077608648464246
+      ]
+    },
+    {
+      "t": 3.654166666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.6891728094304004,
+      "source_depth_mm": 0.5811664537278203,
+      "world_m": [
+        0.1995291220094304,
+        0.051129649363984675,
+        0.012383940259458992
+      ]
+    },
+    {
+      "t": 3.658333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4552146492468818,
+      "source_depth_mm": 0.28545054547021026,
+      "world_m": [
+        0.2008690010627745,
+        0.05087659204924688,
+        0.01247689669667107
+      ]
+    },
+    {
+      "t": 3.6625,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.7100913567248115,
+      "source_depth_mm": 0.9401973523237226,
+      "world_m": [
+        0.2028363113335574,
+        0.05161324954293278,
+        0.013734088643275189
+      ]
+    },
+    {
+      "t": 3.6666666666666665,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.519363924554839,
+      "source_depth_mm": 1.3430568175176392,
+      "world_m": [
+        0.20126516904402214,
+        0.05194074132455484,
+        0.01272314063850044
+      ]
+    },
+    {
+      "t": 3.6708333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.2387334279983726,
+      "source_depth_mm": 1.016899468890685,
+      "world_m": [
+        0.20262744988753267,
+        0.05166011082799837,
+        0.012856355244182605
+      ]
+    },
+    {
+      "t": 3.675,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.937718132477527,
+      "source_depth_mm": 0.6701075499702878,
+      "world_m": [
+        0.20401103036171264,
+        0.05135909553247753,
+        0.012995408972264755
+      ]
+    },
+    {
+      "t": 3.6791666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.6653802103238844,
+      "source_depth_mm": 0.3540048867722509,
+      "world_m": [
+        0.20521805494081646,
+        0.051086757610323885,
+        0.013132276760576933
+      ]
+    },
+    {
+      "t": 3.683333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.3763604143885653,
+      "source_depth_mm": 0.021128617979503106,
+      "world_m": [
+        0.20644686738571294,
+        0.050797737814388566,
+        0.0132736816662134
+      ]
+    },
+    {
+      "t": 3.6875,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.160475877427368,
+      "source_depth_mm": -0.23425349750164776,
+      "world_m": [
+        0.20739694453915902,
+        0.05058185327742737,
+        0.013392636207957886
+      ]
+    },
+    {
+      "t": 3.691666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.3784261237943223,
+      "source_depth_mm": 0.7051529523896747,
+      "world_m": [
+        0.20591766669349543,
+        0.05147722550318634,
+        0.014065753876205678
+      ]
+    },
+    {
+      "t": 3.6958333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.3125819486231298,
+      "source_depth_mm": 0.5809666384312893,
+      "world_m": [
+        0.20651499618282432,
+        0.05138494734894583,
+        0.01413159805137687
+      ]
+    },
+    {
+      "t": 3.7,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.2470780587887902,
+      "source_depth_mm": 0.45194059669059067,
+      "world_m": [
+        0.20712311028849206,
+        0.051287632603674305,
+        0.01419710194121121
+      ]
+    },
+    {
+      "t": 3.7041666666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.2493728969140399,
+      "source_depth_mm": 0.28749042315004414,
+      "world_m": [
+        0.20738373363291762,
+        0.05129314504271287,
+        0.01419480710308596
+      ]
+    },
+    {
+      "t": 3.7083333333333335,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.378772334642812,
+      "source_depth_mm": 0.14768231642239837,
+      "world_m": [
+        0.20751509224283726,
+        0.051290237202433975,
+        0.014065407665357188
+      ]
+    },
+    {
+      "t": 3.7125,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5124720449873064,
+      "source_depth_mm": 0.058950189146617094,
+      "world_m": [
+        0.2076017285550127,
+        0.051239975242678204,
+        0.013762825828501746
+      ]
+    },
+    {
+      "t": 3.716666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4367117290421672,
+      "source_depth_mm": -0.017746359646214627,
+      "world_m": [
+        0.20767748887095783,
+        0.0511935599509743,
+        0.013424572437462146
+      ]
+    },
+    {
+      "t": 3.720833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.453613495941336,
+      "source_depth_mm": -0.0010487790962077082,
+      "world_m": [
+        0.20766058710405866,
+        0.051173735372961215,
+        0.012954500349435683
+      ]
+    },
+    {
+      "t": 3.725,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.9219261908451062,
+      "source_depth_mm": 0.725262394391267,
+      "world_m": [
+        0.205053365092553,
+        0.05164573132403505,
+        0.013522253809154894
+      ]
+    },
+    {
+      "t": 3.7291666666666665,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.2064551415880915,
+      "source_depth_mm": 0.6774410888946356,
+      "world_m": [
+        0.20499873142167302,
+        0.05162783254158809,
+        0.012970537427529627
+      ]
+    },
+    {
+      "t": 3.7333333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.1800642988757044,
+      "source_depth_mm": 0.621553110510674,
+      "world_m": [
+        0.2049467294274332,
+        0.051601441698875705,
+        0.01241628753978613
+      ]
+    },
+    {
+      "t": 3.7375,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.159717388214376,
+      "source_depth_mm": 0.5716935897040685,
+      "world_m": [
+        0.20491436136696795,
+        0.05158109478821438,
+        0.011831989874986848
+      ]
+    },
+    {
+      "t": 3.7416666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.141428552886203,
+      "source_depth_mm": 0.5243616633829538,
+      "world_m": [
+        0.2048850998344871,
+        0.051562805952886204,
+        0.011239832157519336
+      ]
+    },
+    {
+      "t": 3.745833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.296898933740043,
+      "source_depth_mm": 1.6216713426971605,
+      "world_m": [
+        0.20568674895538663,
+        0.052718276333740044,
+        0.011990410044772748
+      ]
+    },
+    {
+      "t": 3.75,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.323651031265938,
+      "source_depth_mm": 1.6236517313925267,
+      "world_m": [
+        0.205650724337616,
+        0.05274502843126594,
+        0.01142806980264599
+      ]
+    },
+    {
+      "t": 3.754166666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.387615944419574,
+      "source_depth_mm": 1.6646851383933168,
+      "world_m": [
+        0.20561092691799554,
+        0.052808993344419575,
+        0.010900252220684359
+      ]
+    },
+    {
+      "t": 3.7583333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.4380016247747767,
+      "source_depth_mm": 1.6931125908114728,
+      "world_m": [
+        0.2055720563501342,
+        0.05285937902477478,
+        0.01037082371983411
+      ]
+    },
+    {
+      "t": 3.7625,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.4875829177286253,
+      "source_depth_mm": 1.7215656096955732,
+      "world_m": [
+        0.20553215472883646,
+        0.052908960317728626,
+        0.009834798146081014
+      ]
+    },
+    {
+      "t": 3.7666666666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.522464347982722,
+      "source_depth_mm": 1.736444011432213,
+      "world_m": [
+        0.20549354336687142,
+        0.05294384174798272,
+        0.009297519101963636
+      ]
+    },
+    {
+      "t": 3.7708333333333335,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.518719764869581,
+      "source_depth_mm": 1.7124297287535937,
+      "world_m": [
+        0.20545815073381335,
+        0.05294009716486958,
+        0.008713419839853742
+      ]
+    },
+    {
+      "t": 3.775,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.500081868080783,
+      "source_depth_mm": 1.6747810303899477,
+      "world_m": [
+        0.2054240432532375,
+        0.052921459268080784,
+        0.008127933784648766
+      ]
+    },
+    {
+      "t": 3.778568,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.4394774217790456,
+      "source_depth_mm": 1.5974147523186364,
+      "world_m": [
+        0.205400174661442,
+        0.052860854821779046,
+        0.007578167626033083
+      ]
+    },
+    {
+      "t": 3.779166666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.4192852994145637,
+      "source_depth_mm": 1.5741403108643013,
+      "world_m": [
+        0.2053948972731563,
+        0.052840662699414565,
+        0.00747142946224455
+      ]
+    },
+    {
+      "t": 3.783333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.2690962158495527,
+      "source_depth_mm": 1.4033107394259767,
+      "world_m": [
+        0.20536173066141084,
+        0.05269047361584955,
+        0.006727974327265296
+      ]
+    },
+    {
+      "t": 3.7875,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.056499373848186,
+      "source_depth_mm": 1.1692296781297893,
+      "world_m": [
+        0.2053111948915718,
+        0.05247787677384819,
+        0.005900867663928444
+      ]
+    },
+    {
+      "t": 3.7916666666666665,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.8275081413726353,
+      "source_depth_mm": 0.9202759766340982,
+      "world_m": [
+        0.20526176559311393,
+        0.052248885541372636,
+        0.005074187368456329
+      ]
+    },
+    {
+      "t": 3.7958333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.649827678190074,
+      "source_depth_mm": 0.7255537439246549,
+      "world_m": [
+        0.20520619333788015,
+        0.052071205078190075,
+        0.004342795077628525
+      ]
+    },
+    {
+      "t": 3.8,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.500696412087354,
+      "source_depth_mm": 0.5611191623657517,
+      "world_m": [
+        0.2051202039393325,
+        0.051922073812087355,
+        0.0036402027858088992
+      ]
+    },
+    {
+      "t": 3.8041666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.9458407817777585,
+      "source_depth_mm": 1.0448080464574736,
+      "world_m": [
+        0.20616835981822224,
+        0.0525144877493966,
+        0.004029700934444658
+      ]
+    },
+    {
+      "t": 3.808333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.929812908085215,
+      "source_depth_mm": 0.319493951729216,
+      "world_m": [
+        0.20604563598670222,
+        0.052351190308085216,
+        0.0032719194830100884
+      ]
+    },
+    {
+      "t": 3.8125,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.599413837775305,
+      "source_depth_mm": -0.3194210788996336,
+      "world_m": [
+        0.2059976878521732,
+        0.05221321100197229,
+        0.002599414037775305
+      ]
+    },
+    {
+      "t": 3.8128535,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.5424863852856636,
+      "source_depth_mm": -0.37341967966562567,
+      "world_m": [
+        0.2059935594228146,
+        0.052200729785832234,
+        0.0025424865852856637
+      ]
+    },
+    {
+      "t": 3.816666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.3258554810343943,
+      "source_depth_mm": 0.4929610274609572,
+      "world_m": [
+        0.2067883451189656,
+        0.051857336820613664,
+        0.004248526916295792
+      ]
+    },
+    {
+      "t": 3.818568,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.2557925735935567,
+      "source_depth_mm": -0.6171752023178926,
+      "world_m": [
+        0.2061278001285627,
+        0.05225102518022284,
+        0.002255792773593557
+      ]
+    },
+    {
+      "t": 3.8208333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.1673757679266545,
+      "source_depth_mm": -0.6880101272669185,
+      "world_m": [
+        0.2061513207842287,
+        0.05230077180041248,
+        0.0021673759679266547
+      ]
+    },
+    {
+      "t": 3.825,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.0022574530030477,
+      "source_depth_mm": -0.8196090993442365,
+      "world_m": [
+        0.20619011106906981,
+        0.05238517183440616,
+        0.002002257653003048
+      ]
+    },
+    {
+      "t": 3.8291666666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.180240105694536,
+      "source_depth_mm": 0.8392632816655796,
+      "world_m": [
+        0.20693396049430546,
+        0.05216842654538567,
+        0.0038118930425946607
+      ]
+    },
+    {
+      "t": 3.8333333333333335,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.1807078294553692,
+      "source_depth_mm": 0.9069068144248625,
+      "world_m": [
+        0.20693349277054462,
+        0.052244208903830636,
+        0.0036606019536712386
+      ]
+    },
+    {
+      "t": 3.8375,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.2180263389795227,
+      "source_depth_mm": 0.8073600105856947,
+      "world_m": [
+        0.20689617426102047,
+        0.052302124839033515,
+        0.0035237877078416746
+      ]
+    },
+    {
+      "t": 3.841666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.250880079680356,
+      "source_depth_mm": 0.7084692826667848,
+      "world_m": [
+        0.20686332052031964,
+        0.052341094198753324,
+        0.0033864621590715127
+      ]
+    },
+    {
+      "t": 3.845833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.2815033912147173,
+      "source_depth_mm": 0.598851021692398,
+      "world_m": [
+        0.20683269720878528,
+        0.052421007754272386,
+        0.003236358138542006
+      ]
+    },
+    {
+      "t": 3.85,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.306172690778957,
+      "source_depth_mm": 0.4825262490831427,
+      "world_m": [
+        0.20680802790922104,
+        0.05250100289384019,
+        0.0030780312846869773
+      ]
+    },
+    {
+      "t": 3.8541666666666665,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.4275302238639105,
+      "source_depth_mm": 0.3122570619360109,
+      "world_m": [
+        0.20668667037613608,
+        0.0526837318140001,
+        0.002860425269367306
+      ]
+    },
+    {
+      "t": 3.8583333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.536821443003517,
+      "source_depth_mm": 0.14181383816732054,
+      "world_m": [
+        0.20657737915699648,
+        0.05283183936481228,
+        0.002641527770183616
+      ]
+    },
+    {
+      "t": 3.8625,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.3716816665376337,
+      "source_depth_mm": -0.0739748875151881,
+      "world_m": [
+        0.20634459951604667,
+        0.05304921067665236,
+        0.002371681866537634
+      ]
+    },
+    {
+      "t": 3.8666666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.4171109567384317,
+      "source_depth_mm": 0.5427228450523179,
+      "world_m": [
+        0.20384044765925569,
+        0.05183848835673843,
+        0.0027909729975151287
+      ]
+    },
+    {
+      "t": 3.870833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.534458650186494,
+      "source_depth_mm": 0.3504191394467947,
+      "world_m": [
+        0.2035944211116485,
+        0.05198052270851572,
+        0.002534458850186494
+      ]
+    },
+    {
+      "t": 3.875,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.9294431780309758,
+      "source_depth_mm": 0.8482990376119824,
+      "world_m": [
+        0.20475796371942234,
+        0.05235082057803098,
+        0.003019005152655685
+      ]
+    },
+    {
+      "t": 3.879166666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.7546234377838927,
+      "source_depth_mm": 0.6467831206774687,
+      "world_m": [
+        0.20452072184081493,
+        0.052461441233690564,
+        0.002754623637783893
+      ]
+    },
+    {
+      "t": 3.8833333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.6629446393522658,
+      "source_depth_mm": 0.6299912720062638,
+      "world_m": [
+        0.20645125596064773,
+        0.05264324291569489,
+        0.0027315777592051282
+      ]
+    },
+    {
+      "t": 3.8875,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.480257322552931,
+      "source_depth_mm": 0.4382636299864072,
+      "world_m": [
+        0.20626054570277552,
+        0.052717216459029825,
+        0.002480257522552931
+      ]
+    },
+    {
+      "t": 3.8916666666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.2243203999650794,
+      "source_depth_mm": 0.2424499391981582,
+      "world_m": [
+        0.20610720825951745,
+        0.05273391845935527,
+        0.0022243205999650795
+      ]
+    },
+    {
+      "t": 3.8958333333333335,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.0111550941830534,
+      "source_depth_mm": 0.08626140627761558,
+      "world_m": [
+        0.20598454377536113,
+        0.052725872241092264,
+        0.0020111552941830535
+      ]
+    },
+    {
+      "t": 3.9,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.7948142749731497,
+      "source_depth_mm": -0.07276540019794397,
+      "world_m": [
+        0.20589492404300325,
+        0.05267380888647322,
+        0.0017948144749731498
+      ]
+    },
+    {
+      "t": 3.904166666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.633000724733896,
+      "source_depth_mm": -0.18248446504452376,
+      "world_m": [
+        0.2058409384946296,
+        0.052616088063209165,
+        0.0016330009247338961
+      ]
+    },
+    {
+      "t": 3.908333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.7087962933016385,
+      "source_depth_mm": 0.6506233904148493,
+      "world_m": [
+        0.2057921518800654,
+        0.05113017369330164,
+        0.004209997069545723
+      ]
+    },
+    {
+      "t": 3.9125,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.6713626865005535,
+      "source_depth_mm": 0.6542243683400271,
+      "world_m": [
+        0.205804776931527,
+        0.051092740086500554,
+        0.004122956958015456
+      ]
+    },
+    {
+      "t": 3.9166666666666665,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.6228954450564146,
+      "source_depth_mm": 0.6464013495827912,
+      "world_m": [
+        0.20582783667451165,
+        0.051044272845056415,
+        0.0040357284087546574
+      ]
+    },
+    {
+      "t": 3.9208333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.6014521122866485,
+      "source_depth_mm": 0.6658111018432376,
+      "world_m": [
+        0.20580630837881486,
+        0.05102282951228665,
+        0.003983897590095098
+      ]
+    },
+    {
+      "t": 3.925,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.583352795771785,
+      "source_depth_mm": 0.6883130589559681,
+      "world_m": [
+        0.20576684971250447,
+        0.051004730195771786,
+        0.0039330391197813785
+      ]
+    },
+    {
+      "t": 3.9291666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5662847298809277,
+      "source_depth_mm": 0.7113040155164105,
+      "world_m": [
+        0.20572101241889573,
+        0.05098766212988093,
+        0.003871349779660027
+      ]
+    },
+    {
+      "t": 3.933333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5479359071545948,
+      "source_depth_mm": 0.7323914519980699,
+      "world_m": [
+        0.20569665169132345,
+        0.050969313307154596,
+        0.0037902193946987017
+      ]
+    },
+    {
+      "t": 3.9375,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5439507761973656,
+      "source_depth_mm": 0.7674401327327427,
+      "world_m": [
+        0.20566725567552857,
+        0.050965328176197366,
+        0.0036774611416924285
+      ]
+    },
+    {
+      "t": 3.941666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5380377660428532,
+      "source_depth_mm": 0.7998811937562564,
+      "world_m": [
+        0.2056413983983152,
+        0.050959415166042854,
+        0.003567555027035041
+      ]
+    },
+    {
+      "t": 3.9458333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5341857649775124,
+      "source_depth_mm": 0.8331923085521318,
+      "world_m": [
+        0.205640406433222,
+        0.05095556316497751,
+        0.0034591130703294226
+      ]
+    },
+    {
+      "t": 3.95,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5264400835944478,
+      "source_depth_mm": 0.8615624750587179,
+      "world_m": [
+        0.20565178403596662,
+        0.05094781748359445,
+        0.0033561132205085498
+      ]
+    },
+    {
+      "t": 3.9541666666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5107346974726141,
+      "source_depth_mm": 0.8805926653291039,
+      "world_m": [
+        0.20566690211210892,
+        0.050932112097472615,
+        0.0032296153088061663
+      ]
+    },
+    {
+      "t": 3.9583333333333335,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4933270214658387,
+      "source_depth_mm": 0.8970026209443525,
+      "world_m": [
+        0.20568906977264811,
+        0.05091470442146584,
+        0.0031091569885502435
+      ]
+    },
+    {
+      "t": 3.9625,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4735272156382804,
+      "source_depth_mm": 0.9097668638875165,
+      "world_m": [
+        0.2056989022810647,
+        0.05089490461563828,
+        0.0029731013263530337
+      ]
+    },
+    {
+      "t": 3.966666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4518976174802898,
+      "source_depth_mm": 0.9196683655076852,
+      "world_m": [
+        0.20572097987811966,
+        0.05087327501748029,
+        0.002845378593063441
+      ]
+    },
+    {
+      "t": 3.970833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.436057949078272,
+      "source_depth_mm": 0.9342286017840138,
+      "world_m": [
+        0.20572911122220283,
+        0.05085743534907827,
+        0.0027374173953554903
+      ]
+    },
+    {
+      "t": 3.975,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4188245042499812,
+      "source_depth_mm": 0.9462530884582696,
+      "world_m": [
+        0.205753153269566,
+        0.05084020190424998,
+        0.002638669106080904
+      ]
+    },
+    {
+      "t": 3.9791666666666665,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.416045420978139,
+      "source_depth_mm": 0.97171198227438,
+      "world_m": [
+        0.20576387783269268,
+        0.05083742282097814,
+        0.0025966928751942064
+      ]
+    },
+    {
+      "t": 3.9833333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4126796541566664,
+      "source_depth_mm": 0.9953375919592098,
+      "world_m": [
+        0.20579307048157913,
+        0.05083405705415667,
+        0.0025631195168853704
+      ]
+    },
+    {
+      "t": 3.9875,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4335844180603727,
+      "source_depth_mm": 1.0423093807846104,
+      "world_m": [
+        0.20581207965667758,
+        0.050854961818060374,
+        0.00262453187968692
+      ]
+    },
+    {
+      "t": 3.9916666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4541074341603775,
+      "source_depth_mm": 1.0875510913278195,
+      "world_m": [
+        0.2058508388650806,
+        0.05087548483416038,
+        0.002692203608466004
+      ]
+    },
+    {
+      "t": 3.9928535000000003,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4651548352726183,
+      "source_depth_mm": 1.1054674616861258,
+      "world_m": [
+        0.20586140130489117,
+        0.05088653223527262,
+        0.0027316413625593228
+      ]
+    },
+    {
+      "t": 3.995833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.4931017335105476,
+      "source_depth_mm": 1.1500892104777325,
+      "world_m": [
+        0.205862173309741,
+        0.05091447913351055,
+        0.002873398127179072
+      ]
+    },
+    {
+      "t": 4.0,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.845972699913232,
+      "source_depth_mm": 0.501337763032371,
+      "world_m": [
+        0.20373935948977073,
+        0.05026735009991323,
+        0.002800631729115488
+      ]
+    },
+    {
+      "t": 4.004166666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.9349277536830556,
+      "source_depth_mm": 0.6119289090048206,
+      "world_m": [
+        0.20373990350736393,
+        0.050356305153683056,
+        0.0031359543391499822
+      ]
+    },
+    {
+      "t": 4.008333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.0197353604982293,
+      "source_depth_mm": 0.7171913470216049,
+      "world_m": [
+        0.2037777840643522,
+        0.05044111276049823,
+        0.0034720618978060225
+      ]
+    },
+    {
+      "t": 4.0125,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.2611292327150578,
+      "source_depth_mm": 0.48693356216280004,
+      "world_m": [
+        0.20566755037495854,
+        0.052337703296899685,
+        0.001261129432715058
+      ]
+    },
+    {
+      "t": 4.016666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.8048446450518338,
+      "source_depth_mm": 1.06629052038672,
+      "world_m": [
+        0.20571320216258204,
+        0.052616390560909165,
+        0.001804844845051834
+      ]
+    },
+    {
+      "t": 4.020833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.5831304218734306,
+      "source_depth_mm": 1.8781669035652535,
+      "world_m": [
+        0.20577838677026827,
+        0.053070642916559385,
+        0.0025831306218734307
+      ]
+    },
+    {
+      "t": 4.025,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.5326320812428404,
+      "source_depth_mm": 0.8568341728551087,
+      "world_m": [
+        0.2042105169353361,
+        0.05368783585090775,
+        0.0015326322812428406
+      ]
+    },
+    {
+      "t": 4.029166666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.9315284957575227,
+      "source_depth_mm": 1.2319698305991054,
+      "world_m": [
+        0.20578133829580092,
+        0.05477336533505395,
+        0.0019315286957575228
+      ]
+    },
+    {
+      "t": 4.033333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.971485881942587,
+      "source_depth_mm": 2.30365513163851,
+      "world_m": [
+        0.20606972435216764,
+        0.055459645828841,
+        0.002971486081942587
+      ]
+    },
+    {
+      "t": 4.0375,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.464864760585237,
+      "source_depth_mm": 0.8524141026950636,
+      "world_m": [
+        0.2016694466830795,
+        0.05088624216058524,
+        0.0036800964212503895
+      ]
+    },
+    {
+      "t": 4.041666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.2737123324738304,
+      "source_depth_mm": 1.6904390245569765,
+      "world_m": [
+        0.2020361448745398,
+        0.05169508973247383,
+        0.004492751212910151
+      ]
+    },
+    {
+      "t": 4.045833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.6421214002139903,
+      "source_depth_mm": 0.9332131762451388,
+      "world_m": [
+        0.20441117499968997,
+        0.05106349880021399,
+        0.0029683367806590533
+      ]
+    },
+    {
+      "t": 4.05,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.454367364416586,
+      "source_depth_mm": 1.7798627395733888,
+      "world_m": [
+        0.20485818821715296,
+        0.05187574476441659,
+        0.0037109613879870995
+      ]
+    },
+    {
+      "t": 4.054166666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 3.2172010782017466,
+      "source_depth_mm": 2.576792286812811,
+      "world_m": [
+        0.20530448504536536,
+        0.05263857847820175,
+        0.0042817885412009815
+      ]
+    },
+    {
+      "t": 4.058333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.0178443039715264,
+      "source_depth_mm": 1.4237328097410282,
+      "world_m": [
+        0.2065808642164355,
+        0.05143922170397153,
+        0.004893138121456642
+      ]
+    },
+    {
+      "t": 4.0625,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.2538279232565328,
+      "source_depth_mm": 0.7191298483898088,
+      "world_m": [
+        0.207758472821157,
+        0.050675205323256534,
+        0.005576763653408978
+      ]
+    },
+    {
+      "t": 4.066666666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.4052012578566693,
+      "source_depth_mm": 1.9877756809019917,
+      "world_m": [
+        0.20604064738811534,
+        0.05182657865785667,
+        0.007510623475765643
+      ]
+    },
+    {
+      "t": 4.070833333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.3675792770782291,
+      "source_depth_mm": 1.0102305679896215,
+      "world_m": [
+        0.20774662132292177,
+        0.050827661801655766,
+        0.007468816022266289
+      ]
+    },
+    {
+      "t": 4.075,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.2185344260997304,
+      "source_depth_mm": 0.9889317285299553,
+      "world_m": [
+        0.20538309209377448,
+        0.050699462520450544,
+        0.01422564557390027
+      ]
+    },
+    {
+      "t": 4.079166666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.0610492966336686,
+      "source_depth_mm": 0.8416524005603592,
+      "world_m": [
+        0.20540342514308252,
+        0.05131563365467606,
+        0.014383130703366331
+      ]
+    },
+    {
+      "t": 4.083333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.8895937532725477,
+      "source_depth_mm": 0.681094319479018,
+      "world_m": [
+        0.20547931890550797,
+        0.05191158196630907,
+        0.014554586246727452
+      ]
+    },
+    {
+      "t": 4.0875,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.7557696617078429,
+      "source_depth_mm": 0.5588489559582837,
+      "world_m": [
+        0.2054709742464247,
+        0.052478073057940056,
+        0.014688410338292157
+      ]
+    },
+    {
+      "t": 4.091666666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.3070883430024975,
+      "source_depth_mm": 1.0731417961741523,
+      "world_m": [
+        0.20740830419637546,
+        0.051020036893956955,
+        0.014137091656997502
+      ]
+    },
+    {
+      "t": 4.095833333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.1754093043402618,
+      "source_depth_mm": 0.958093024309296,
+      "world_m": [
+        0.20743102030017235,
+        0.05149694567290164,
+        0.014268770695659738
+      ]
+    },
+    {
+      "t": 4.1,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 1.0325050974226129,
+      "source_depth_mm": 0.8320151967943483,
+      "world_m": [
+        0.20749287398888172,
+        0.05195873873834844,
+        0.014411674902577387
+      ]
+    },
+    {
+      "t": 4.104166666666667,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.9117445802582484,
+      "source_depth_mm": 0.7281432233331702,
+      "world_m": [
+        0.20757774498521142,
+        0.05238715485569101,
+        0.014532435419741752
+      ]
+    },
+    {
+      "t": 4.108333333333333,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.781557427422112,
+      "source_depth_mm": 0.6148084152165205,
+      "world_m": [
+        0.20769314900843994,
+        0.05280410160378812,
+        0.014662622572577888
+      ]
+    },
+    {
+      "t": 4.1125,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.7004090434822012,
+      "source_depth_mm": 0.550375535106921,
+      "world_m": [
+        0.20778991375414413,
+        0.05320254884361553,
+        0.014743770956517799
+      ]
+    },
+    {
+      "t": 4.116666666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.6105246104986788,
+      "source_depth_mm": 0.4769269620023813,
+      "world_m": [
+        0.20791472924687793,
+        0.05359048035356517,
+        0.014833655389501321
+      ]
+    },
+    {
+      "t": 4.120833333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 0.5640258131416036,
+      "source_depth_mm": 0.446499533071491,
+      "world_m": [
+        0.2079963399396969,
+        0.053925947042772315,
+        0.014880154186858396
+      ]
+    },
+    {
+      "t": 4.125,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.6471069511641283,
+      "source_depth_mm": 2.6130840736281176,
+      "world_m": [
+        0.2058523880931138,
+        0.060076401685585146,
+        0.012797073048835872
+      ]
+    },
+    {
+      "t": 4.129166666666666,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.597684171233487,
+      "source_depth_mm": 2.5685304130016724,
+      "world_m": [
+        0.2059336147567954,
+        0.06035112878002269,
+        0.012846495828766513
+      ]
+    },
+    {
+      "t": 4.133333333333334,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.5476380511062198,
+      "source_depth_mm": 2.5231437419127296,
+      "world_m": [
+        0.20601175061701626,
+        0.060607466965525325,
+        0.01289654194889378
+      ]
+    },
+    {
+      "t": 4.1375,
+      "digit": "MIDDLE",
+      "midi": 75,
+      "component": "GP_V11D_KEY_RENDER_075",
+      "depth_mm": 2.4840086642455557,
+      "source_depth_mm": 2.4638947579192756,
+      "world_m": [
+        0.20606667471978812,
+        0.060816442527023784,
+        0.012960171335754445
+      ]
+    },
+    {
+      "t": 3.5708333333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 0.6682071776204583,
+      "source_depth_mm": -0.1259048238720279,
+      "world_m": [
+        0.20493322019751692,
+        0.031875701371935405,
+        -0.0006682072776204584
+      ]
+    },
+    {
+      "t": 3.575,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.1202667889642164,
+      "source_depth_mm": 0.2660207171292866,
+      "world_m": [
+        0.20502338540264842,
+        0.03552349524742282,
+        -0.0011202668889642164
+      ]
+    },
+    {
+      "t": 3.5791666666666666,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 0.9500324827841438,
+      "source_depth_mm": 0.09041334951754572,
+      "world_m": [
+        0.2067277604090061,
+        0.032272494623849624,
+        -0.0009500325827841438
+      ]
+    },
+    {
+      "t": 3.5833333333333335,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.8189442386990577,
+      "source_depth_mm": 0.9351433424037519,
+      "world_m": [
+        0.20666545016956328,
+        0.032082659311556294,
+        -0.0018189443386990578
+      ]
+    },
+    {
+      "t": 3.5875,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.8283141362284983,
+      "source_depth_mm": 0.9073067745752421,
+      "world_m": [
+        0.2057301042362285,
+        0.03594525905396806,
+        -0.0018502416850260661
+      ]
+    },
+    {
+      "t": 3.591666666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.4516307071197414,
+      "source_depth_mm": 0.5078289255675077,
+      "world_m": [
+        0.20726838804465775,
+        0.032644786466955567,
+        -0.0014516308071197415
+      ]
+    },
+    {
+      "t": 3.595833333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.9909961542759007,
+      "source_depth_mm": 0.9939001850609113,
+      "world_m": [
+        0.20591171367730454,
+        0.035998097400381734,
+        -0.0019909962542759008
+      ]
+    },
+    {
+      "t": 3.5985679999999998,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.525231373245626,
+      "source_depth_mm": 1.5422740899701608,
+      "world_m": [
+        0.20724044685939602,
+        0.03241128960321027,
+        -0.002525231473245626
+      ]
+    },
+    {
+      "t": 3.6,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.704196243056742,
+      "source_depth_mm": 1.7130339338131766,
+      "world_m": [
+        0.20727034052694981,
+        0.03236691403686598,
+        -0.0027041963430567417
+      ]
+    },
+    {
+      "t": 3.6041666666666665,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.8475836129052774,
+      "source_depth_mm": 1.8310375174791587,
+      "world_m": [
+        0.20748901397639807,
+        0.032396334788413084,
+        -0.0028475837129052772
+      ]
+    },
+    {
+      "t": 3.6083333333333334,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.982308533669273,
+      "source_depth_mm": 1.9396729230787362,
+      "world_m": [
+        0.20768480979017,
+        0.03242942559668449,
+        -0.002982308633669273
+      ]
+    },
+    {
+      "t": 3.6125,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.6135085963453004,
+      "source_depth_mm": 0.5142378330552726,
+      "world_m": [
+        0.20640537128287884,
+        0.03573706588070524,
+        -0.0016135086963453005
+      ]
+    },
+    {
+      "t": 3.6166666666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.7278859043508092,
+      "source_depth_mm": 0.6013116107810383,
+      "world_m": [
+        0.20644689155884688,
+        0.03583879161606096,
+        -0.0017278860043508093
+      ]
+    },
+    {
+      "t": 3.620833333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.822653200275645,
+      "source_depth_mm": 0.6683042585368753,
+      "world_m": [
+        0.206392476720066,
+        0.035979862317012556,
+        -0.001822653300275645
+      ]
+    },
+    {
+      "t": 3.625,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.9156326726424504,
+      "source_depth_mm": 0.7336873371078327,
+      "world_m": [
+        0.2063429878483567,
+        0.036106417266251745,
+        -0.0019156327726424505
+      ]
+    },
+    {
+      "t": 3.629166666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.005910683496323,
+      "source_depth_mm": 0.7960132403652203,
+      "world_m": [
+        0.20628132096304963,
+        0.03621703738655291,
+        -0.002005910783496323
+      ]
+    },
+    {
+      "t": 3.6333333333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.0948095398918927,
+      "source_depth_mm": 0.8571519340694416,
+      "world_m": [
+        0.20622430595102736,
+        0.036314753443074776,
+        -0.0020948096398918925
+      ]
+    },
+    {
+      "t": 3.6375,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.1504021475069552,
+      "source_depth_mm": 0.8845760286654929,
+      "world_m": [
+        0.20621749090951602,
+        0.03637668957537554,
+        -0.002150402247506955
+      ]
+    },
+    {
+      "t": 3.6416666666666666,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.193551780383893,
+      "source_depth_mm": 0.8996508219302839,
+      "world_m": [
+        0.20622090142791372,
+        0.036428055241180535,
+        -0.0021935518803838927
+      ]
+    },
+    {
+      "t": 3.6458333333333335,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.231603417423464,
+      "source_depth_mm": 0.908770097373232,
+      "world_m": [
+        0.20619562355027843,
+        0.036473806823586696,
+        -0.002231603517423464
+      ]
+    },
+    {
+      "t": 3.65,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.2694461954797602,
+      "source_depth_mm": 0.917894667890448,
+      "world_m": [
+        0.20617748146840698,
+        0.03651147543540345,
+        -0.00226944629547976
+      ]
+    },
+    {
+      "t": 3.654166666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.703866022401922,
+      "source_depth_mm": 2.362039890304543,
+      "world_m": [
+        0.20774196229409858,
+        0.03342318174398351,
+        -0.003703866122401922
+      ]
+    },
+    {
+      "t": 3.658333333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.757570346280223,
+      "source_depth_mm": 2.3873648956574485,
+      "world_m": [
+        0.2077157387946249,
+        0.033459855149976514,
+        -0.003757570446280223
+      ]
+    },
+    {
+      "t": 3.6625,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.7658025682952374,
+      "source_depth_mm": 2.3668031903600424,
+      "world_m": [
+        0.20770235463310227,
+        0.03349031156727322,
+        -0.0037658026682952372
+      ]
+    },
+    {
+      "t": 3.6666666666666665,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.777014510248042,
+      "source_depth_mm": 2.349533670715895,
+      "world_m": [
+        0.20770670379819456,
+        0.03351424942150294,
+        -0.0037770146102480417
+      ]
+    },
+    {
+      "t": 3.6708333333333334,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.7586173347917224,
+      "source_depth_mm": 2.3024556133062286,
+      "world_m": [
+        0.2077020235671787,
+        0.03353687855705911,
+        -0.0037586174347917223
+      ]
+    },
+    {
+      "t": 3.675,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.744058219401278,
+      "source_depth_mm": 2.2595926894307756,
+      "world_m": [
+        0.2077215627411626,
+        0.0335526735970465,
+        -0.0037440583194012778
+      ]
+    },
+    {
+      "t": 3.6791666666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.71334371330668,
+      "source_depth_mm": 2.200540302628848,
+      "world_m": [
+        0.20771476306436432,
+        0.03357247364220817,
+        -0.00371334381330668
+      ]
+    },
+    {
+      "t": 3.683333333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.6870648636296384,
+      "source_depth_mm": 2.1463480155736265,
+      "world_m": [
+        0.20773218099303636,
+        0.0335860968272087,
+        -0.003687064963629638
+      ]
+    },
+    {
+      "t": 3.6875,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.656671460289815,
+      "source_depth_mm": 2.0881017224448435,
+      "world_m": [
+        0.20771051283341668,
+        0.0336097777459603,
+        -0.0036566715602898148
+      ]
+    },
+    {
+      "t": 3.691666666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.630595184246807,
+      "source_depth_mm": 2.034617994852059,
+      "world_m": [
+        0.20770791328500327,
+        0.03362814369621825,
+        -0.003630595284246807
+      ]
+    },
+    {
+      "t": 3.6958333333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.611457197037102,
+      "source_depth_mm": 1.988146742400229,
+      "world_m": [
+        0.2076577717000816,
+        0.033662922438274734,
+        -0.0036114572970371017
+      ]
+    },
+    {
+      "t": 3.7,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.5952668593569133,
+      "source_depth_mm": 1.9450590972590136,
+      "world_m": [
+        0.2076182308959118,
+        0.033693501374101875,
+        -0.003595266959356913
+      ]
+    },
+    {
+      "t": 3.7041666666666666,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.585098187338551,
+      "source_depth_mm": 1.9080515022624283,
+      "world_m": [
+        0.20754622408329237,
+        0.033737903731485774,
+        -0.0035850982873385506
+      ]
+    },
+    {
+      "t": 3.7083333333333335,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.5441732345412675,
+      "source_depth_mm": 1.8402242377413363,
+      "world_m": [
+        0.2075045292794906,
+        0.033776835654846016,
+        -0.0035441733345412674
+      ]
+    },
+    {
+      "t": 3.7125,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.4851421992782656,
+      "source_depth_mm": 1.7542975297655332,
+      "world_m": [
+        0.20750715783687412,
+        0.03380819203628693,
+        -0.0034851422992782655
+      ]
+    },
+    {
+      "t": 3.716666666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.4506617868734297,
+      "source_depth_mm": 1.6934040083715989,
+      "world_m": [
+        0.20750603171833437,
+        0.03384104282798106,
+        -0.0034506618868734296
+      ]
+    },
+    {
+      "t": 3.720833333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.4710983994654194,
+      "source_depth_mm": 1.6879064439340812,
+      "world_m": [
+        0.20750981305744287,
+        0.0338777239064737,
+        -0.0034710984994654193
+      ]
+    },
+    {
+      "t": 3.725,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.4921805809868895,
+      "source_depth_mm": 1.6835057316765905,
+      "world_m": [
+        0.20751446847562915,
+        0.033910401735820384,
+        -0.0034921806809868894
+      ]
+    },
+    {
+      "t": 3.7291666666666665,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.545446888135803,
+      "source_depth_mm": 1.711801488188233,
+      "world_m": [
+        0.20751994105507454,
+        0.033949490968576024,
+        -0.003545446988135803
+      ]
+    },
+    {
+      "t": 3.7333333333333334,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.5994522678670178,
+      "source_depth_mm": 1.7413263174481746,
+      "world_m": [
+        0.20752633407099852,
+        0.033983910772036885,
+        -0.0035994523678670176
+      ]
+    },
+    {
+      "t": 3.7375,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.6303178988656706,
+      "source_depth_mm": 1.7929292895391773,
+      "world_m": [
+        0.20753210799886568,
+        0.03402620225302633,
+        -0.003674927941763828
+      ]
+    },
+    {
+      "t": 3.7416666666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.2278590522982293,
+      "source_depth_mm": 1.4144800398593975,
+      "world_m": [
+        0.208207136798487,
+        0.029976707300970906,
+        -0.003227859152298229
+      ]
+    },
+    {
+      "t": 3.745833333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.271083142419315,
+      "source_depth_mm": 1.4362309757514706,
+      "world_m": [
+        0.20822853347853898,
+        0.030031705820996124,
+        -0.003271083242419315
+      ]
+    },
+    {
+      "t": 3.75,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.314444213244347,
+      "source_depth_mm": 1.4586799408271094,
+      "world_m": [
+        0.20824880432304527,
+        0.030079844227270724,
+        -0.003314444313244347
+      ]
+    },
+    {
+      "t": 3.754166666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.3277307853897904,
+      "source_depth_mm": 1.4517798243813356,
+      "world_m": [
+        0.2082666123633634,
+        0.030135763758944223,
+        -0.0033277308853897902
+      ]
+    },
+    {
+      "t": 3.7583333333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.340775328622711,
+      "source_depth_mm": 1.4452557007566618,
+      "world_m": [
+        0.20828334966887296,
+        0.03018261404534517,
+        -0.003340775428622711
+      ]
+    },
+    {
+      "t": 3.7625,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.3043145838539485,
+      "source_depth_mm": 1.3891961024735748,
+      "world_m": [
+        0.20830750309725587,
+        0.03024884721494958,
+        -0.0033043146838539483
+      ]
+    },
+    {
+      "t": 3.7666666666666666,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.267341475349858,
+      "source_depth_mm": 1.3332785514392291,
+      "world_m": [
+        0.20833032650767902,
+        0.030305403955664167,
+        -0.003267341575349858
+      ]
+    },
+    {
+      "t": 3.7708333333333335,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.16110197085607,
+      "source_depth_mm": 1.2072562692781534,
+      "world_m": [
+        0.20837007769534788,
+        0.03039432758941718,
+        -0.00316110207085607
+      ]
+    },
+    {
+      "t": 3.775,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.054679820202641,
+      "source_depth_mm": 1.0817288205486413,
+      "world_m": [
+        0.20840731819603575,
+        0.03047424107421226,
+        -0.003054679920202641
+      ]
+    },
+    {
+      "t": 3.778568,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.547573995331205,
+      "source_depth_mm": 1.4982235684887295,
+      "world_m": [
+        0.2074493640953312,
+        0.034561373290992514,
+        -0.003587315657185064
+      ]
+    },
+    {
+      "t": 3.779166666666667,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.5416529493952176,
+      "source_depth_mm": 1.4497137682973282,
+      "world_m": [
+        0.20744869782975095,
+        0.034576128922625626,
+        -0.0035594202793839402
+      ]
+    },
+    {
+      "t": 3.783333333333333,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 3.2240253418653033,
+      "source_depth_mm": 1.1126949238804968,
+      "world_m": [
+        0.2074445312179467,
+        0.03467304425156237,
+        -0.0033652662034862058
+      ]
+    },
+    {
+      "t": 3.7875,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.9373624017196005,
+      "source_depth_mm": 0.9631602813386457,
+      "world_m": [
+        0.207259402644004,
+        0.029401420990525118,
+        -0.0040248330108347274
+      ]
+    },
+    {
+      "t": 3.7916666666666665,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 2.755750067964458,
+      "source_depth_mm": 0.6667498659036274,
+      "world_m": [
+        0.2069774627789489,
+        0.03358365984505107,
+        -0.004679036924982394
+      ]
+    },
+    {
+      "t": 3.7958333333333334,
+      "digit": "RING",
+      "midi": 76,
+      "component": "GP_V11D_KEY_RENDER_076_FRONT",
+      "depth_mm": 1.8247224413416585,
+      "source_depth_mm": -0.17227760464334468,
+      "world_m": [
+        0.20572651254134167,
+        0.03226814947310097,
+        -0.00534303991161067
+      ]
+    },
+    {
+      "t": 3.9875,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 0.9380202287900523,
+      "source_depth_mm": -0.9425604140258799,
+      "world_m": [
+        0.2503404796939346,
+        0.050917224861474986,
+        0.014506159771209948
+      ]
+    },
+    {
+      "t": 3.9916666666666667,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 1.4832815554723586,
+      "source_depth_mm": -0.3462117322679276,
+      "world_m": [
+        0.2503137332096872,
+        0.05090465895547236,
+        0.01395569165085564
+      ]
+    },
+    {
+      "t": 3.9928535000000003,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 1.5087217120622036,
+      "source_depth_mm": -0.30694572237302714,
+      "world_m": [
+        0.24913250669933418,
+        0.05127511114213734,
+        0.013935458287937796
+      ]
+    },
+    {
+      "t": 3.995833333333333,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 1.78243631653705,
+      "source_depth_mm": 0.003371526060920796,
+      "world_m": [
+        0.2491031414547733,
+        0.051224996139940915,
+        0.013521592466747778
+      ]
+    },
+    {
+      "t": 4.0,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 1.9079123164884217,
+      "source_depth_mm": 0.14209004348617915,
+      "world_m": [
+        0.2508331578432552,
+        0.05223367453774064,
+        0.013205563347399418
+      ]
+    },
+    {
+      "t": 4.004166666666666,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 1.7085250307890474,
+      "source_depth_mm": 0.21560747311005246,
+      "world_m": [
+        0.24902261484019994,
+        0.05102666416957358,
+        0.012318024431696384
+      ]
+    },
+    {
+      "t": 4.008333333333334,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 1.5856701565754532,
+      "source_depth_mm": -0.007761440476034345,
+      "world_m": [
+        0.24899061195339556,
+        0.05089469903113941,
+        0.01169221032135448
+      ]
+    },
+    {
+      "t": 4.0125,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 1.138191521417772,
+      "source_depth_mm": -0.3861499316208505,
+      "world_m": [
+        0.2500867016815689,
+        0.05038707501455009,
+        0.010941665529730082
+      ]
+    },
+    {
+      "t": 4.016666666666667,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 0.5788052650267991,
+      "source_depth_mm": -0.8723674780758538,
+      "world_m": [
+        0.2500089339915925,
+        0.05025020580163486,
+        0.010356579803329324
+      ]
+    },
+    {
+      "t": 4.029166666666667,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 0.5415171257322839,
+      "source_depth_mm": -0.7273827633072198,
+      "world_m": [
+        0.24978835747580153,
+        0.05001895347856622,
+        0.009316558569221867
+      ]
+    },
+    {
+      "t": 4.0375,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 0.5320657188426624,
+      "source_depth_mm": -0.6257814687090478,
+      "world_m": [
+        0.24971015073015246,
+        0.05014418872317683,
+        0.00933698454666615
+      ]
+    },
+    {
+      "t": 4.041666666666667,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 0.5430909901543938,
+      "source_depth_mm": -0.5580332170421389,
+      "world_m": [
+        0.24964215577946325,
+        0.050204230030050256,
+        0.009331161565962143
+      ]
+    },
+    {
+      "t": 4.045833333333333,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 0.5476527116852463,
+      "source_depth_mm": -0.49689251977854015,
+      "world_m": [
+        0.2496013463039446,
+        0.05025667261422495,
+        0.009331163038277301
+      ]
+    },
+    {
+      "t": 4.05,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 0.5437109744633912,
+      "source_depth_mm": -0.4446563810077877,
+      "world_m": [
+        0.24956753529313236,
+        0.05030449219247202,
+        0.009339296551001408
+      ]
+    },
+    {
+      "t": 4.054166666666666,
+      "digit": "RING",
+      "midi": 78,
+      "component": "GP_V11D_KEY_RENDER_078",
+      "depth_mm": 0.5282738319030718,
+      "source_depth_mm": -0.40539362475245333,
+      "world_m": [
+        0.24958350959787645,
+        0.05037533941853567,
+        0.009360980569241728
+      ]
+    }
+  ],
+  "envelope_min_gap_mm": -18.867447477270634,
+  "proxy_collision_samples": 104,
+  "preflight_pass": false,
+  "boundary_proxy_gap_mm": [
+    -3.2276087734000383,
+    5.678658535419439
+  ],
+  "candidate_count": 0,
+  "geometry_status": "NUMERICAL_PREFLIGHT_ONLY_ACTUAL_BLENDER_REQUIRED",
+  "limitations": "Dense discrete envelope/key samples; no continuous geometric proof; conservative proxy can reject actual separated skin"
+}

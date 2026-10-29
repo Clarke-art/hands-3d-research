@@ -1,0 +1,1905 @@
+{
+  "authority_id": "OLD_CAP9_SKIN_CORRECTION_AUTHORITY_R1",
+  "status": "RESOLVED",
+  "proposal_status": "PENDING_HUMAN_APPROVAL",
+  "vertex_ids": [
+    151,
+    158,
+    1061,
+    1074,
+    1076,
+    2189,
+    2192,
+    2569,
+    2577
+  ],
+  "fresh_side": "9/9 INDEX",
+  "hard_role": 0,
+  "retired_protections": [
+    "THUMB_DISTAL_CAP_PROTECTION",
+    "THUMB_IP_ONE_HOT",
+    "THUMB_CAP_OWNERSHIP_OVERRIDE"
+  ],
+  "allowed_deform_groups": [
+    "INDEX_DIP_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "WRIST_R"
+  ],
+  "forbidden_groups": [
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "THUMB_IP_R",
+    "MIDDLE_MCP_R",
+    "MIDDLE_PIP_R",
+    "MIDDLE_DIP_R",
+    "RING_MCP_R",
+    "RING_PIP_R",
+    "RING_DIP_R",
+    "LITTLE_MCP_R",
+    "LITTLE_PIP_R",
+    "LITTLE_DIP_R",
+    "THUMB_TIP_R",
+    "INDEX_TIP_R",
+    "MIDDLE_TIP_R",
+    "RING_TIP_R",
+    "LITTLE_TIP_R"
+  ],
+  "deterministic_future_reconstruction": {
+    "domain": "old cap9 + INDEX-compatible 2-ring engineering patch, with coherent INDEX pins; shared first-web points keep wrapper constraints",
+    "Dirichlet_pins": "Historical clean native-INDEX + frozen-R3 INDEX-exclusive/source-backed vectors; numerical <=1e-6 thumb residue must be removed inside candidate phase and normalized, never imported as thumb authority",
+    "objective": "Unique convex simplex-constrained harmonic interpolation: sum_edges (MED/edge_length_mm)*||w_u-w_v||^2 + 0.01*sum_unknown ||w_i - normalized_inverse_distance_INDEX_chain_and_WRIST_prior_i||^2",
+    "prior": "p_g proportional 1/(distance_mm_to_allowed_saved_bone_segment+MED)^2. Geometry regularizer only; no forced dominant driver.",
+    "constraints": "Nonnegative, sum=1, allowed 4 groups, Dirichlet anchors; shared outer interface handled simultaneously by wrapper; stable sorted vertex/bone IDs and fixed objective",
+    "not_executed": true,
+    "no_manual_vertex_ratios": true
+  },
+  "per_vertex_evidence": [
+    {
+      "vertex_id": 151,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1446.4020729064941,
+        23.106584325432777,
+        488.3943796157837
+      ],
+      "RSSF_position_mm": [
+        1448.7340087890625,
+        19.995344161987305,
+        494.7286071777344
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 10.497701619124282,
+        "mu_raw": 0.24777163590742862,
+        "mu_clamped": 0.24777163590742862,
+        "arc_mm": 7.806706401819903,
+        "normalized_longitudinal": 0.11600556713981777
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        10.497701619124282,
+        25.921753642360727,
+        46.307181360329565
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.00690882233902812,
+          "THUMB_CMC_R": 2.728196157875118e-08,
+          "THUMB_MCP_R": 0.001005548401735723,
+          "THUMB_IP_R": 0.9920855760574341
+        },
+        "R1A": {
+          "THUMB_IP_R": 1.0
+        },
+        "R1B": {
+          "THUMB_IP_R": 1.0
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 152,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.013637427240610123,
+            "INDEX_MCP_R": 0.9863558411598206,
+            "INDEX_PIP_R": 6.734968337696046e-06,
+            "INDEX_DIP_R": 2.2680010200080113e-14
+          },
+          "vector_sha256": "4e14d507aaadd95a441225d10540bb66ae4ec9aca0d9a030b5822e281cf173a3",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.306238778825582,
+            "mu_raw": 0.21526040620271464,
+            "mu_clamped": 0.21526040620271464,
+            "arc_mm": 6.78235337554512,
+            "normalized_longitudinal": 0.10078395540651461
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 650,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.17136749625205994,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 4.048636981224263e-09,
+            "INDEX_DIP_R": 2.7811350232984256e-19
+          },
+          "vector_sha256": "cfd6a965c604e39dcbfb7be94851b7066635b4b650a45ac7fb581754f28448c1",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.03231089045354,
+            "mu_raw": -0.0434588322623494,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 694,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 6.0216509154997766e-05,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0036859093233942986,
+            "INDEX_DIP_R": 1.6190103702129477e-09
+          },
+          "vector_sha256": "e684084ab7a74ea9483666a4ceb5fd7cf9c5506bd04d183d94922c2610aeb304",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.758828973870799,
+            "mu_raw": 0.5316695215799406,
+            "mu_clamped": 0.5316695215799406,
+            "arc_mm": 16.751666681174807,
+            "normalized_longitudinal": 0.24892528216942458
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 1063,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "vector_sha256": "6b8e9a64c66608710d4380e78d9bee52556e2010a333d9e6660a82818a58e95f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.47997280771249,
+            "mu_raw": 0.22168747384751528,
+            "mu_clamped": 0.22168747384751528,
+            "arc_mm": 6.9848552880172186,
+            "normalized_longitudinal": 0.10379307961256226
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2570,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.0008790952851995826,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 0.0001795540447346866,
+            "INDEX_DIP_R": 6.222078408057996e-12
+          },
+          "vector_sha256": "b864bd4a4d9fb0cc53a29e504724727e7674ea84dbc6ef8a1ae8575e795955bc",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 10.739519790328698,
+            "mu_raw": 0.36107480875735687,
+            "mu_clamped": 0.36107480875735687,
+            "arc_mm": 11.376625136038996,
+            "normalized_longitudinal": 0.16905360380091267
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2578,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.048278842121362686,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 1.6312286277297972e-07,
+            "INDEX_DIP_R": 6.197329131731399e-17
+          },
+          "vector_sha256": "690fac464d05e57ff6964b6a1dc086997f722c2165c0e637920c9b38919b6736",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 7.93148061978923,
+            "mu_raw": 0.07734686885739588,
+            "mu_clamped": 0.07734686885739588,
+            "arc_mm": 2.4370194516347103,
+            "normalized_longitudinal": 0.03621345661875376
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 6,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          2.7811350232984256e-19,
+          1.6190103702129477e-09
+        ],
+        "INDEX_MCP_R": [
+          0.8286324739456177,
+          0.9989413619041443
+        ],
+        "INDEX_PIP_R": [
+          4.048636981224263e-09,
+          0.0036859093233942986
+        ],
+        "WRIST_R": [
+          6.0216509154997766e-05,
+          0.17136749625205994
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    },
+    {
+      "vertex_id": 158,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1454.465389251709,
+        20.554373040795326,
+        486.4955544471741
+      ],
+      "RSSF_position_mm": [
+        1456.2735595703125,
+        18.35121726989746,
+        490.8951416015625
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 12.473976882026921,
+        "mu_raw": 0.3039793850649926,
+        "mu_clamped": 0.3039793850649926,
+        "arc_mm": 9.577681491737716,
+        "normalized_longitudinal": 0.14232178285513053
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        12.473976882026921,
+        25.229435190693096,
+        45.25550520390042
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.016601871699094772,
+          "THUMB_CMC_R": 9.49730676325089e-08,
+          "THUMB_MCP_R": 0.0017647277563810349,
+          "THUMB_IP_R": 0.9816333055496216
+        },
+        "R1A": {
+          "THUMB_IP_R": 1.0
+        },
+        "R1B": {
+          "THUMB_IP_R": 1.0
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 656,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.25825029611587524,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "INDEX_DIP_R": 4.562352408651672e-19
+          },
+          "vector_sha256": "ec370257dd91a7ff57a07be54f5ccc1dcbc5dc586b26751fbaeccfbdcc817a17",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.706999603868017,
+            "mu_raw": 0.020095234543902,
+            "mu_clamped": 0.020095234543902,
+            "arc_mm": 0.6331539749713891,
+            "normalized_longitudinal": 0.009408498561731928
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 703,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00037366850301623344,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "INDEX_DIP_R": 2.188109249345871e-09
+          },
+          "vector_sha256": "efab7cbf9208877775bb28cd8bd3d12a9595b183077df3dc3274c4dffd79b8a4",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.220466233902775,
+            "mu_raw": 0.5837224005625403,
+            "mu_clamped": 0.5837224005625403,
+            "arc_mm": 18.39173150174386,
+            "normalized_longitudinal": 0.2732962063291731
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 2,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          4.562352408651672e-19,
+          2.188109249345871e-09
+        ],
+        "INDEX_MCP_R": [
+          0.7417497038841248,
+          0.9944908022880554
+        ],
+        "INDEX_PIP_R": [
+          7.700253767950471e-09,
+          0.005135534796863794
+        ],
+        "WRIST_R": [
+          0.00037366850301623344,
+          0.25825029611587524
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    },
+    {
+      "vertex_id": 1061,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1445.2531337738037,
+        23.343315348029137,
+        484.00741815567017
+      ],
+      "RSSF_position_mm": [
+        1447.107666015625,
+        22.082916259765625,
+        490.5856018066406
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 9.13279413403022,
+        "mu_raw": 0.10039365434670534,
+        "mu_clamped": 0.10039365434670534,
+        "arc_mm": 3.16316991337676,
+        "normalized_longitudinal": 0.047003858077119036
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        9.13279413403022,
+        29.779497827016318,
+        50.12462622152506
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.04263128712773323,
+          "INDEX_MCP_R": 0.9573684930801392,
+          "INDEX_PIP_R": 2.4493149908266787e-07,
+          "INDEX_DIP_R": 9.969651904566e-17
+        },
+        "R1A": {
+          "THUMB_IP_R": 0.9999997615814209,
+          "INDEX_PIP_R": 2.4493149908266787e-07,
+          "INDEX_DIP_R": 9.969651904566e-17
+        },
+        "R1B": {
+          "THUMB_IP_R": 0.9999997615814209,
+          "INDEX_PIP_R": 2.4493149908266787e-07,
+          "INDEX_DIP_R": 9.969651904566e-17
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 650,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.17136749625205994,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 4.048636981224263e-09,
+            "INDEX_DIP_R": 2.7811350232984256e-19
+          },
+          "vector_sha256": "cfd6a965c604e39dcbfb7be94851b7066635b4b650a45ac7fb581754f28448c1",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.03231089045354,
+            "mu_raw": -0.0434588322623494,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 1062,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.07498855888843536,
+            "INDEX_MCP_R": 0.9250112771987915,
+            "INDEX_PIP_R": 1.6091925658656692e-07,
+            "INDEX_DIP_R": 6.358559206263295e-17
+          },
+          "vector_sha256": "b8b56d4ec30f9141f882a08c42a82c6f67d6dabcce09bddccebca36390fd1be2",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 7.007460362260187,
+            "mu_raw": 0.07655092583998198,
+            "mu_clamped": 0.07655092583998198,
+            "arc_mm": 2.411941143430577,
+            "normalized_longitudinal": 0.03584079967274008
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 1063,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "vector_sha256": "6b8e9a64c66608710d4380e78d9bee52556e2010a333d9e6660a82818a58e95f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.47997280771249,
+            "mu_raw": 0.22168747384751528,
+            "mu_clamped": 0.22168747384751528,
+            "arc_mm": 6.9848552880172186,
+            "normalized_longitudinal": 0.10379307961256226
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2059,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.3499974012374878,
+            "INDEX_MCP_R": 0.6500025987625122,
+            "INDEX_PIP_R": 3.6290823124396354e-10,
+            "INDEX_DIP_R": 9.110933681821014e-20
+          },
+          "vector_sha256": "df65a409910cb8c11661eeaad3afe6e17de9b5e95cbea9e371b4bf3c86477b5f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.946595804227544,
+            "mu_raw": -0.18016690535519697,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2071,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.19242794811725616,
+            "INDEX_MCP_R": 0.807572066783905,
+            "INDEX_PIP_R": 2.9865787620764195e-09,
+            "INDEX_DIP_R": 2.4380135258750113e-19
+          },
+          "vector_sha256": "404f8061c159c2e1840315bf257e7f90dfc647ab645d42f366205287c64d098c",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 6.689363899072054,
+            "mu_raw": -0.06543849523111572,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2072,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "vector_sha256": "65e37085a7d7793d2ab75b109c1585b01a08a8ab6556ab57147c480b320a6775",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.846791951449033,
+            "mu_raw": -0.013504413266471019,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2578,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.048278842121362686,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 1.6312286277297972e-07,
+            "INDEX_DIP_R": 6.197329131731399e-17
+          },
+          "vector_sha256": "690fac464d05e57ff6964b6a1dc086997f722c2165c0e637920c9b38919b6736",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 7.93148061978923,
+            "mu_raw": 0.07734686885739588,
+            "mu_clamped": 0.07734686885739588,
+            "arc_mm": 2.4370194516347103,
+            "normalized_longitudinal": 0.03621345661875376
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 7,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          9.110933681821014e-20,
+          2.7890612996211983e-14
+        ],
+        "INDEX_MCP_R": [
+          0.6500025987625122,
+          0.9927340745925903
+        ],
+        "INDEX_PIP_R": [
+          3.6290823124396354e-10,
+          7.544369054812705e-06
+        ],
+        "WRIST_R": [
+          0.007258357014507055,
+          0.3499974012374878
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    },
+    {
+      "vertex_id": 1074,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1453.235387802124,
+        20.85893787443638,
+        482.2258651256561
+      ],
+      "RSSF_position_mm": [
+        1454.5970458984375,
+        20.395320892333984,
+        486.94989013671875
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 12.004103310639898,
+        "mu_raw": 0.16079568633174082,
+        "mu_clamped": 0.16079568633174082,
+        "arc_mm": 5.066297073406822,
+        "normalized_longitudinal": 0.07528381817488974
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        12.004103310639898,
+        29.038673932707237,
+        49.028375373085446
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.07151659578084946,
+          "THUMB_CMC_R": 2.0920627719078766e-07,
+          "THUMB_MCP_R": 0.002440329408273101,
+          "THUMB_IP_R": 0.9260428547859192
+        },
+        "R1A": {
+          "THUMB_IP_R": 1.0
+        },
+        "R1B": {
+          "THUMB_IP_R": 1.0
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 656,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.25825029611587524,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "INDEX_DIP_R": 4.562352408651672e-19
+          },
+          "vector_sha256": "ec370257dd91a7ff57a07be54f5ccc1dcbc5dc586b26751fbaeccfbdcc817a17",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.706999603868017,
+            "mu_raw": 0.020095234543902,
+            "mu_clamped": 0.020095234543902,
+            "arc_mm": 0.6331539749713891,
+            "normalized_longitudinal": 0.009408498561731928
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2065,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.39454707503318787,
+            "INDEX_MCP_R": 0.6054528951644897,
+            "INDEX_PIP_R": 8.272839635559137e-10,
+            "INDEX_DIP_R": 1.5926417899352647e-19
+          },
+          "vector_sha256": "7384a0ad7212401d54550ecde912d27d3a3c6232d720e0e85b2e2aec66a608df",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.904240049927925,
+            "mu_raw": -0.10991080526185525,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2072,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "vector_sha256": "65e37085a7d7793d2ab75b109c1585b01a08a8ab6556ab57147c480b320a6775",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.846791951449033,
+            "mu_raw": -0.013504413266471019,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 3,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          1.5926417899352647e-19,
+          4.562352408651672e-19
+        ],
+        "INDEX_MCP_R": [
+          0.6054528951644897,
+          0.8039677739143372
+        ],
+        "INDEX_PIP_R": [
+          8.272839635559137e-10,
+          7.700253767950471e-09
+        ],
+        "WRIST_R": [
+          0.19603221118450165,
+          0.39454707503318787
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    },
+    {
+      "vertex_id": 1076,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1450.6046772003174,
+        22.624365985393524,
+        487.5791072845459
+      ],
+      "RSSF_position_mm": [
+        1452.7783203125,
+        19.757091522216797,
+        493.2789001464844
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 11.47843688655923,
+        "mu_raw": 0.27638194209277556,
+        "mu_clamped": 0.27638194209277556,
+        "arc_mm": 8.708150425616974,
+        "normalized_longitudinal": 0.1294007840011821
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        11.47843688655923,
+        25.525918342399102,
+        45.8904588485375
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.008776223286986351,
+          "THUMB_CMC_R": 4.411650067481787e-08,
+          "THUMB_MCP_R": 0.001241998397745192,
+          "THUMB_IP_R": 0.9899817109107971
+        },
+        "R1A": {
+          "THUMB_IP_R": 1.0
+        },
+        "R1B": {
+          "THUMB_IP_R": 1.0
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 1063,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "vector_sha256": "6b8e9a64c66608710d4380e78d9bee52556e2010a333d9e6660a82818a58e95f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.47997280771249,
+            "mu_raw": 0.22168747384751528,
+            "mu_clamped": 0.22168747384751528,
+            "arc_mm": 6.9848552880172186,
+            "normalized_longitudinal": 0.10379307961256226
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2072,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "vector_sha256": "65e37085a7d7793d2ab75b109c1585b01a08a8ab6556ab57147c480b320a6775",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.846791951449033,
+            "mu_raw": -0.013504413266471019,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2175,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "vector_sha256": "4b93118e08ff98b951e1d3ff21e396565879c3a9c474c8dc29f28b3f115a760d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.107333246556625,
+            "mu_raw": 0.5610544608674828,
+            "mu_clamped": 0.5610544608674828,
+            "arc_mm": 17.67751758744582,
+            "normalized_longitudinal": 0.26268317877020425
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 3,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          3.4698510296828463e-19,
+          2.2385233666710747e-09
+        ],
+        "INDEX_MCP_R": [
+          0.8039677739143372,
+          0.9951661229133606
+        ],
+        "INDEX_PIP_R": [
+          5.642632583402474e-09,
+          0.004726187791675329
+        ],
+        "WRIST_R": [
+          0.00010768482752609998,
+          0.19603221118450165
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    },
+    {
+      "vertex_id": 2189,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1447.4420547485352,
+        23.056065663695335,
+        492.43640899658203
+      ],
+      "RSSF_position_mm": [
+        1450.2578125,
+        18.083784103393555,
+        498.6672668457031
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 11.90203661303316,
+        "mu_raw": 0.386049791628646,
+        "mu_clamped": 0.386049791628646,
+        "arc_mm": 12.16352860040277,
+        "normalized_longitudinal": 0.1807467786136002
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        11.90203661303316,
+        22.712423870311067,
+        42.95892613009904
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.0006826099706813693,
+          "INDEX_MCP_R": 0.9990725517272949,
+          "INDEX_PIP_R": 0.00024480887805111706,
+          "INDEX_DIP_R": 1.0234143393850204e-11
+        },
+        "R1A": {
+          "THUMB_IP_R": 0.9997552037239075,
+          "INDEX_PIP_R": 0.00024480887805111706,
+          "INDEX_DIP_R": 1.0234143393850204e-11
+        },
+        "R1B": {
+          "THUMB_IP_R": 0.9997552037239075,
+          "INDEX_PIP_R": 0.00024480887805111706,
+          "INDEX_DIP_R": 1.0234143393850204e-11
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 694,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 6.0216509154997766e-05,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0036859093233942986,
+            "INDEX_DIP_R": 1.6190103702129477e-09
+          },
+          "vector_sha256": "e684084ab7a74ea9483666a4ceb5fd7cf9c5506bd04d183d94922c2610aeb304",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.758828973870799,
+            "mu_raw": 0.5316695215799406,
+            "mu_clamped": 0.5316695215799406,
+            "arc_mm": 16.751666681174807,
+            "normalized_longitudinal": 0.24892528216942458
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 1063,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.007258357014507055,
+            "INDEX_MCP_R": 0.9927340745925903,
+            "INDEX_PIP_R": 7.544369054812705e-06,
+            "INDEX_DIP_R": 2.7890612996211983e-14
+          },
+          "vector_sha256": "6b8e9a64c66608710d4380e78d9bee52556e2010a333d9e6660a82818a58e95f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.47997280771249,
+            "mu_raw": 0.22168747384751528,
+            "mu_clamped": 0.22168747384751528,
+            "arc_mm": 6.9848552880172186,
+            "normalized_longitudinal": 0.10379307961256226
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2153,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 5.69666326555307e-06,
+            "INDEX_MCP_R": 0.9621217846870422,
+            "INDEX_PIP_R": 0.03787236660718918,
+            "INDEX_DIP_R": 1.6785701006938325e-07
+          },
+          "vector_sha256": "3e97ce577c4976fccfbbd72142c1aea753d1f833017d1db3814269e035c4c379",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.32435177253851,
+            "mu_raw": 0.6864684018367455,
+            "mu_clamped": 0.6864684018367455,
+            "arc_mm": 21.62901838073276,
+            "normalized_longitudinal": 0.3214014226728864
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2154,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 7.987602293724194e-05,
+            "INDEX_MCP_R": 0.9968734979629517,
+            "INDEX_PIP_R": 0.003046622732654214,
+            "INDEX_DIP_R": 1.1141868538899757e-09
+          },
+          "vector_sha256": "a47fe943d0ab0aa9910af596e45be6f445676f28606b18ddb326218fe27be7be",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.63920645288385,
+            "mu_raw": 0.509490516948225,
+            "mu_clamped": 0.509490516948225,
+            "arc_mm": 16.05285797044289,
+            "normalized_longitudinal": 0.23854117181120707
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2175,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "vector_sha256": "4b93118e08ff98b951e1d3ff21e396565879c3a9c474c8dc29f28b3f115a760d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.107333246556625,
+            "mu_raw": 0.5610544608674828,
+            "mu_clamped": 0.5610544608674828,
+            "arc_mm": 17.67751758744582,
+            "normalized_longitudinal": 0.26268317877020425
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2183,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.0018816824303939939,
+            "INDEX_MCP_R": 0.997954249382019,
+            "INDEX_PIP_R": 0.0001640751288505271,
+            "INDEX_DIP_R": 4.872674312650371e-12
+          },
+          "vector_sha256": "271505e0c4f59e28afa56aa4c1c064b6107f361bd8b2bcff6c230946e5ac4ce9",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.441501464755552,
+            "mu_raw": 0.35416137307969175,
+            "mu_clamped": 0.35416137307969175,
+            "arc_mm": 11.158798901144367,
+            "normalized_longitudinal": 0.1658167642662541
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2570,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.0008790952851995826,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 0.0001795540447346866,
+            "INDEX_DIP_R": 6.222078408057996e-12
+          },
+          "vector_sha256": "b864bd4a4d9fb0cc53a29e504724727e7674ea84dbc6ef8a1ae8575e795955bc",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 10.739519790328698,
+            "mu_raw": 0.36107480875735687,
+            "mu_clamped": 0.36107480875735687,
+            "arc_mm": 11.376625136038996,
+            "normalized_longitudinal": 0.16905360380091267
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 7,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          2.7890612996211983e-14,
+          1.6785701006938325e-07
+        ],
+        "INDEX_MCP_R": [
+          0.9621217846870422,
+          0.9989413619041443
+        ],
+        "INDEX_PIP_R": [
+          7.544369054812705e-06,
+          0.03787236660718918
+        ],
+        "WRIST_R": [
+          5.69666326555307e-06,
+          0.007258357014507055
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    },
+    {
+      "vertex_id": 2192,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1455.761194229126,
+        20.321829244494438,
+        490.5177354812622
+      ],
+      "RSSF_position_mm": [
+        1458.0062255859375,
+        16.356155395507812,
+        494.6153259277344
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 13.128816728476451,
+        "mu_raw": 0.4423863080045064,
+        "mu_clamped": 0.4423863080045064,
+        "arc_mm": 13.938560845062035,
+        "normalized_longitudinal": 0.20712328256219997
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        13.128816728476451,
+        21.93260925953514,
+        41.81379557878
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.002692669164389372,
+          "THUMB_CMC_R": 4.007321763310756e-08,
+          "THUMB_MCP_R": 0.0011532324133440852,
+          "THUMB_IP_R": 0.9961540699005127
+        },
+        "R1A": {
+          "THUMB_IP_R": 1.0
+        },
+        "R1B": {
+          "THUMB_IP_R": 1.0
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 703,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.00037366850301623344,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "INDEX_DIP_R": 2.188109249345871e-09
+          },
+          "vector_sha256": "efab7cbf9208877775bb28cd8bd3d12a9595b183077df3dc3274c4dffd79b8a4",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.220466233902775,
+            "mu_raw": 0.5837224005625403,
+            "mu_clamped": 0.5837224005625403,
+            "arc_mm": 18.39173150174386,
+            "normalized_longitudinal": 0.2732962063291731
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2168,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.0014842695090919733,
+            "INDEX_MCP_R": 0.9936254024505615,
+            "INDEX_PIP_R": 0.0048903184942901134,
+            "INDEX_DIP_R": 1.6461763063801982e-09
+          },
+          "vector_sha256": "805bb7ede408358778c884fbef8dc006004027cf9106bf52ea4f765d41e2495f",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.993868545078211,
+            "mu_raw": 0.5960263953305039,
+            "mu_clamped": 0.5960263953305039,
+            "arc_mm": 18.779401681872578,
+            "normalized_longitudinal": 0.279056881419829
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2169,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 4.752203312818892e-05,
+            "INDEX_MCP_R": 0.9615041017532349,
+            "INDEX_PIP_R": 0.03844821825623512,
+            "INDEX_DIP_R": 1.345846669664752e-07
+          },
+          "vector_sha256": "615b471b3bdd914646d0e90eaafd70d39de3dd70743f7337d4a9f351f3b6e85a",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.541179076013318,
+            "mu_raw": 0.71944746048952,
+            "mu_clamped": 0.71944746048952,
+            "arc_mm": 22.6681116061042,
+            "normalized_longitudinal": 0.336842069818558
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2175,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "vector_sha256": "4b93118e08ff98b951e1d3ff21e396565879c3a9c474c8dc29f28b3f115a760d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.107333246556625,
+            "mu_raw": 0.5610544608674828,
+            "mu_clamped": 0.5610544608674828,
+            "arc_mm": 17.67751758744582,
+            "normalized_longitudinal": 0.26268317877020425
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 4,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          1.6461763063801982e-09,
+          1.345846669664752e-07
+        ],
+        "INDEX_MCP_R": [
+          0.9615041017532349,
+          0.9951661229133606
+        ],
+        "INDEX_PIP_R": [
+          0.004726187791675329,
+          0.03844821825623512
+        ],
+        "WRIST_R": [
+          4.752203312818892e-05,
+          0.0014842695090919733
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    },
+    {
+      "vertex_id": 2569,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1451.7061710357666,
+        22.55837619304657,
+        491.5958642959595
+      ],
+      "RSSF_position_mm": [
+        1454.3560791015625,
+        17.86090087890625,
+        497.1697692871094
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 12.555938654512964,
+        "mu_raw": 0.41408544302453537,
+        "mu_clamped": 0.41408544302453537,
+        "arc_mm": 13.046866591976805,
+        "normalized_longitudinal": 0.19387294468343025
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        12.555938654512964,
+        22.3260560296412,
+        42.55458724349715
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.001069252728484571,
+          "THUMB_CMC_R": 1.7376597938323357e-08,
+          "THUMB_MCP_R": 0.0007794200209900737,
+          "THUMB_IP_R": 0.9981513023376465
+        },
+        "R1A": {
+          "THUMB_IP_R": 1.0
+        },
+        "R1B": {
+          "THUMB_IP_R": 1.0
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 694,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 6.0216509154997766e-05,
+            "INDEX_MCP_R": 0.9962538480758667,
+            "INDEX_PIP_R": 0.0036859093233942986,
+            "INDEX_DIP_R": 1.6190103702129477e-09
+          },
+          "vector_sha256": "e684084ab7a74ea9483666a4ceb5fd7cf9c5506bd04d183d94922c2610aeb304",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.758828973870799,
+            "mu_raw": 0.5316695215799406,
+            "mu_clamped": 0.5316695215799406,
+            "arc_mm": 16.751666681174807,
+            "normalized_longitudinal": 0.24892528216942458
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 703,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.00037366850301623344,
+            "INDEX_MCP_R": 0.9944908022880554,
+            "INDEX_PIP_R": 0.005135534796863794,
+            "INDEX_DIP_R": 2.188109249345871e-09
+          },
+          "vector_sha256": "efab7cbf9208877775bb28cd8bd3d12a9595b183077df3dc3274c4dffd79b8a4",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.220466233902775,
+            "mu_raw": 0.5837224005625403,
+            "mu_clamped": 0.5837224005625403,
+            "arc_mm": 18.39173150174386,
+            "normalized_longitudinal": 0.2732962063291731
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2175,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.00010768482752609998,
+            "INDEX_MCP_R": 0.9951661229133606,
+            "INDEX_PIP_R": 0.004726187791675329,
+            "INDEX_DIP_R": 2.2385233666710747e-09
+          },
+          "vector_sha256": "4b93118e08ff98b951e1d3ff21e396565879c3a9c474c8dc29f28b3f115a760d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 13.107333246556625,
+            "mu_raw": 0.5610544608674828,
+            "mu_clamped": 0.5610544608674828,
+            "arc_mm": 17.67751758744582,
+            "normalized_longitudinal": 0.26268317877020425
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2570,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.0008790952851995826,
+            "INDEX_MCP_R": 0.9989413619041443,
+            "INDEX_PIP_R": 0.0001795540447346866,
+            "INDEX_DIP_R": 6.222078408057996e-12
+          },
+          "vector_sha256": "b864bd4a4d9fb0cc53a29e504724727e7674ea84dbc6ef8a1ae8575e795955bc",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 10.739519790328698,
+            "mu_raw": 0.36107480875735687,
+            "mu_clamped": 0.36107480875735687,
+            "arc_mm": 11.376625136038996,
+            "normalized_longitudinal": 0.16905360380091267
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 3203,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 1.202680778078502e-05,
+            "INDEX_MCP_R": 0.9592926502227783,
+            "INDEX_PIP_R": 0.040695175528526306,
+            "INDEX_DIP_R": 1.735136407887694e-07
+          },
+          "vector_sha256": "9e09a871c348b7f0fff172e9c4e8ff63210a9e3697860d777de5b94790e637d3",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 12.500208522281685,
+            "mu_raw": 0.7067868801521138,
+            "mu_clamped": 0.7067868801521138,
+            "arc_mm": 22.26920624630058,
+            "normalized_longitudinal": 0.33091444296578637
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 5,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          6.222078408057996e-12,
+          1.735136407887694e-07
+        ],
+        "INDEX_MCP_R": [
+          0.9592926502227783,
+          0.9989413619041443
+        ],
+        "INDEX_PIP_R": [
+          0.0001795540447346866,
+          0.040695175528526306
+        ],
+        "WRIST_R": [
+          1.202680778078502e-05,
+          0.0008790952851995826
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    },
+    {
+      "vertex_id": 2577,
+      "native_branch": "INDEX_SURFACE",
+      "fresh_R3_side": "INDEX",
+      "hard_role": 0,
+      "native_position_mm": [
+        1449.448823928833,
+        22.879652678966522,
+        483.21688175201416
+      ],
+      "RSSF_position_mm": [
+        1451.14892578125,
+        21.8353214263916,
+        489.1701965332031
+      ],
+      "INDEX_chain_projection": {
+        "nearest_segment": 0,
+        "distance_mm": 10.546244662887462,
+        "mu_raw": 0.12984269163227088,
+        "mu_clamped": 0.12984269163227088,
+        "arc_mm": 4.091040398078051,
+        "normalized_longitudinal": 0.060791765072696353
+      },
+      "distances_to_INDEX_deform_segments_mm": [
+        10.546244662887462,
+        29.37506997812741,
+        49.695594102077415
+      ],
+      "history": {
+        "R1": {
+          "WRIST_R": 0.05042620375752449,
+          "THUMB_CMC_R": 1.0400331262871987e-07,
+          "THUMB_MCP_R": 0.001797376200556755,
+          "THUMB_IP_R": 0.9477763175964355
+        },
+        "R1A": {
+          "THUMB_IP_R": 1.0
+        },
+        "R1B": {
+          "THUMB_IP_R": 1.0
+        }
+      },
+      "clean_INDEX_witnesses": [
+        {
+          "vertex_id": 650,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.17136749625205994,
+            "INDEX_MCP_R": 0.8286324739456177,
+            "INDEX_PIP_R": 4.048636981224263e-09,
+            "INDEX_DIP_R": 2.7811350232984256e-19
+          },
+          "vector_sha256": "cfd6a965c604e39dcbfb7be94851b7066635b4b650a45ac7fb581754f28448c1",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 8.03231089045354,
+            "mu_raw": -0.0434588322623494,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 656,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.25825029611587524,
+            "INDEX_MCP_R": 0.7417497038841248,
+            "INDEX_PIP_R": 7.700253767950471e-09,
+            "INDEX_DIP_R": 4.562352408651672e-19
+          },
+          "vector_sha256": "ec370257dd91a7ff57a07be54f5ccc1dcbc5dc586b26751fbaeccfbdcc817a17",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 11.706999603868017,
+            "mu_raw": 0.020095234543902,
+            "mu_clamped": 0.020095234543902,
+            "arc_mm": 0.6331539749713891,
+            "normalized_longitudinal": 0.009408498561731928
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2072,
+          "hops": 1,
+          "vector": {
+            "WRIST_R": 0.19603221118450165,
+            "INDEX_MCP_R": 0.8039677739143372,
+            "INDEX_PIP_R": 5.642632583402474e-09,
+            "INDEX_DIP_R": 3.4698510296828463e-19
+          },
+          "vector_sha256": "65e37085a7d7793d2ab75b109c1585b01a08a8ab6556ab57147c480b320a6775",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 9.846791951449033,
+            "mu_raw": -0.013504413266471019,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 2578,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.048278842121362686,
+            "INDEX_MCP_R": 0.9517210125923157,
+            "INDEX_PIP_R": 1.6312286277297972e-07,
+            "INDEX_DIP_R": 6.197329131731399e-17
+          },
+          "vector_sha256": "690fac464d05e57ff6964b6a1dc086997f722c2165c0e637920c9b38919b6736",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 7.93148061978923,
+            "mu_raw": 0.07734686885739588,
+            "mu_clamped": 0.07734686885739588,
+            "arc_mm": 2.4370194516347103,
+            "normalized_longitudinal": 0.03621345661875376
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        },
+        {
+          "vertex_id": 3169,
+          "hops": 2,
+          "vector": {
+            "WRIST_R": 0.3573540151119232,
+            "INDEX_MCP_R": 0.6426459550857544,
+            "INDEX_PIP_R": 5.32948796205801e-10,
+            "INDEX_DIP_R": 1.157034262198062e-19
+          },
+          "vector_sha256": "c8c671c0b53b156b01e51f0d2aa48c86a2e7fab05cf572d5e151671a8f4d2d3d",
+          "fresh_side": "INDEX",
+          "native_branch": "INDEX",
+          "INDEX_projection": {
+            "nearest_segment": 0,
+            "distance_mm": 10.457181138062927,
+            "mu_raw": -0.1486915028913512,
+            "mu_clamped": 0.0,
+            "arc_mm": 0.0,
+            "normalized_longitudinal": 0.0
+          },
+          "index_source_backed": false,
+          "support_type": "NATIVE_AND_FROZEN_R3_INDEX_EXCLUSIVE"
+        }
+      ],
+      "witness_count": 5,
+      "support_ranges": {
+        "INDEX_DIP_R": [
+          1.157034262198062e-19,
+          6.197329131731399e-17
+        ],
+        "INDEX_MCP_R": [
+          0.6426459550857544,
+          0.9517210125923157
+        ],
+        "INDEX_PIP_R": [
+          5.32948796205801e-10,
+          1.6312286277297972e-07
+        ],
+        "WRIST_R": [
+          0.048278842121362686,
+          0.3573540151119232
+        ]
+      },
+      "one_hot_MCP_independently_supported": false,
+      "classification": "REBUILD_REQUIRED",
+      "validation": "DEFORMATION_VALIDATION_REQUIRED"
+    }
+  ],
+  "INDEX_MCP_one_hot_as_blanket_rule": false,
+  "continuity_gate": {
+    "status": "RESOLVED",
+    "patch_vertex_ids": [
+      151,
+      152,
+      157,
+      158,
+      650,
+      656,
+      694,
+      703,
+      1061,
+      1062,
+      1063,
+      1074,
+      1075,
+      1076,
+      2058,
+      2059,
+      2065,
+      2071,
+      2072,
+      2073,
+      2153,
+      2154,
+      2168,
+      2169,
+      2175,
+      2178,
+      2183,
+      2189,
+      2192,
+      2569,
+      2570,
+      2576,
+      2577,
+      2578,
+      2591,
+      3169,
+      3203
+    ],
+    "historical_top_edge_jumps": [
+      {
+        "edge_id": 464,
+        "vertex_ids": [
+          151,
+          1063
+        ],
+        "L_inf": 1.0,
+        "L1": 1.9999999759761802,
+        "IP_jump": 1.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 486,
+        "vertex_ids": [
+          656,
+          1074
+        ],
+        "L_inf": 1.0,
+        "L1": 2.0000000077002538,
+        "IP_jump": 1.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 2722,
+        "vertex_ids": [
+          703,
+          2192
+        ],
+        "L_inf": 1.0,
+        "L1": 2.0000000077760447,
+        "IP_jump": 1.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 3656,
+        "vertex_ids": [
+          2175,
+          2569
+        ],
+        "L_inf": 1.0,
+        "L1": 1.9999999977710854,
+        "IP_jump": 1.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 3689,
+        "vertex_ids": [
+          2072,
+          2577
+        ],
+        "L_inf": 1.0,
+        "L1": 1.9999999907414714,
+        "IP_jump": 1.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 460,
+        "vertex_ids": [
+          650,
+          1061
+        ],
+        "L_inf": 0.9999997615814209,
+        "L1": 1.9999999726619606,
+        "IP_jump": 0.9999997615814209,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 3692,
+        "vertex_ids": [
+          1061,
+          2578
+        ],
+        "L_inf": 0.9999997615814209,
+        "L1": 1.9999996981037356,
+        "IP_jump": 0.9999997615814209,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 2716,
+        "vertex_ids": [
+          694,
+          2189
+        ],
+        "L_inf": 0.9997552037239075,
+        "L1": 1.9995103703630486,
+        "IP_jump": 0.9997552037239075,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 3661,
+        "vertex_ids": [
+          2189,
+          2570
+        ],
+        "L_inf": 0.9997552037239075,
+        "L1": 1.99964091575058,
+        "IP_jump": 0.9997552037239075,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 2717,
+        "vertex_ids": [
+          2189,
+          151
+        ],
+        "L_inf": 0.00024480887805111706,
+        "L1": 0.0004896051643777898,
+        "IP_jump": 0.0002447962760925293,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 3655,
+        "vertex_ids": [
+          2189,
+          2569
+        ],
+        "L_inf": 0.00024480887805111706,
+        "L1": 0.0004896051643777898,
+        "IP_jump": 0.0002447962760925293,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 461,
+        "vertex_ids": [
+          1061,
+          151
+        ],
+        "L_inf": 2.4493149908266787e-07,
+        "L1": 4.833500782839269e-07,
+        "IP_jump": 2.384185791015625e-07,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 3686,
+        "vertex_ids": [
+          1061,
+          2577
+        ],
+        "L_inf": 2.4493149908266787e-07,
+        "L1": 4.833500782839269e-07,
+        "IP_jump": 2.384185791015625e-07,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 487,
+        "vertex_ids": [
+          1074,
+          158
+        ],
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "IP_jump": 0.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 489,
+        "vertex_ids": [
+          1075,
+          158
+        ],
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "IP_jump": 0.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 490,
+        "vertex_ids": [
+          158,
+          1076
+        ],
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "IP_jump": 0.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 491,
+        "vertex_ids": [
+          1076,
+          151
+        ],
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "IP_jump": 0.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 2723,
+        "vertex_ids": [
+          2192,
+          158
+        ],
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "IP_jump": 0.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 3654,
+        "vertex_ids": [
+          1076,
+          2569
+        ],
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "IP_jump": 0.0,
+        "MCP_jump": 0
+      },
+      {
+        "edge_id": 3657,
+        "vertex_ids": [
+          2192,
+          2569
+        ],
+        "L_inf": 0.0,
+        "L1": 0.0,
+        "IP_jump": 0.0,
+        "MCP_jump": 0
+      }
+    ],
+    "candidate_validation": "DEFORMATION_VALIDATION_REQUIRED",
+    "acceptance": "INDEX-native 1/2-ring continuity contract, convex anchor range + geometric prior, no crater/spike, check all patch-to-retained crossing edges; harmonic field alone is not deformation qualification."
+  },
+  "weights_generated": 0,
+  "weights_written": 0
+}

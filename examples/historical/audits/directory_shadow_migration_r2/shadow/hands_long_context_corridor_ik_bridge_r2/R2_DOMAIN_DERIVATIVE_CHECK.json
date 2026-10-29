@@ -1,0 +1,365 @@
+{
+  "status": "REJECTED",
+  "raw_shared_failure": {
+    "candidate": "candidate_front",
+    "time": 2.571869374418717,
+    "initial_node_before_IPOPT_push": [
+      -102.91126203895821,
+      -4.9531957138858145,
+      -1.560907090295803,
+      -1.0169042597567688,
+      -2.4850242175535757,
+      -11.645043260282318,
+      9.725522090371742,
+      3.066249772544698,
+      0.14290863152918834,
+      -13.03698172321002,
+      0.11003593713382812,
+      0.0
+    ],
+    "tested_trial": [
+      -102.91126203895821,
+      -4.9531957138858145,
+      -1.560907090295803,
+      -1.0169042597567688,
+      -2.4850242175535757,
+      -11.645043322157319,
+      9.725522090371742,
+      3.066249772544698,
+      0.14290856965418833,
+      -13.03698172321002,
+      0.11003593713382812,
+      4.331249999999966e-07
+    ],
+    "IPOPT_push_rule": "Reconstructed .99e-6 interior push from captured raw log; fixed start left exact",
+    "steps": [
+      {
+        "h": 1e-05,
+        "max_difference": 0.24846703894354505,
+        "row": 148,
+        "column": 11,
+        "row_kind": "self_separator",
+        "base": 7.682760272909782,
+        "plus": 7.682753715663008,
+        "minus": 7.682766107503035
+      },
+      {
+        "h": 1e-06,
+        "max_difference": 0.3613261236878893,
+        "row": 148,
+        "column": 11,
+        "row_kind": "self_separator",
+        "base": 7.682760272909782,
+        "plus": 7.682759617184862,
+        "minus": 7.68276092863409
+      }
+    ],
+    "guard": "STRICT_GUARD_REJECTED",
+    "all_node_contacts": "R07",
+    "full_exact_IPOPT_trial_not_claimed": true
+  },
+  "guard_records": [
+    {
+      "status": "FAIL_CLOSED_DOMAIN_AWARE_DIFFERENCE_UNVERIFIED",
+      "steps": [
+        {
+          "h": 1e-05,
+          "max_abs_difference": 0.19718594663764533
+        },
+        {
+          "h": 1e-06,
+          "max_abs_difference": 0.01997117848873134
+        }
+      ],
+      "branch_checks": [
+        {
+          "h": 0.0001,
+          "column_modes": [
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "VERIFIED_FORWARD_SECOND_ORDER"
+          ],
+          "changed_columns": [
+            [
+              1,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                2
+              ]
+            ],
+            [
+              4,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              5,
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            [
+              6,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              7,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              8,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              9,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              10,
+              [
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "h": 1e-05,
+          "column_modes": [
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "VERIFIED_FORWARD_SECOND_ORDER"
+          ],
+          "changed_columns": [
+            [
+              1,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              2,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                2
+              ]
+            ],
+            [
+              4,
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            [
+              5,
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            [
+              6,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              7,
+              [
+                0
+              ]
+            ],
+            [
+              8,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              9,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              10,
+              [
+                2
+              ]
+            ]
+          ]
+        },
+        {
+          "h": 1e-06,
+          "column_modes": [
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN",
+            "CENTRAL_INSIDE_DOMAIN"
+          ],
+          "changed_columns": [
+            [
+              0,
+              [
+                2
+              ]
+            ],
+            [
+              1,
+              [
+                0
+              ]
+            ],
+            [
+              2,
+              [
+                1
+              ]
+            ],
+            [
+              3,
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            [
+              4,
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            [
+              5,
+              [
+                0,
+                1,
+                2
+              ]
+            ],
+            [
+              6,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              7,
+              [
+                0,
+                1
+              ]
+            ],
+            [
+              8,
+              [
+                0
+              ]
+            ],
+            [
+              9,
+              [
+                0,
+                1
+              ]
+            ]
+          ]
+        }
+      ],
+      "center": [
+        -102.91126203895821,
+        -4.9531957138858145,
+        -1.560907090295803,
+        -1.0169042597567688,
+        -2.4850242175535757,
+        -11.645043322157319,
+        9.725522090371742,
+        3.066249772544698,
+        0.14290856965418833,
+        -13.03698172321002,
+        0.11003593713382812,
+        4.331249999999966e-07
+      ],
+      "center_outside_domain": false,
+      "physical_domain_gate_not_relaxed": true,
+      "in_solver": true,
+      "seconds": 3.4839999999967404
+    }
+  ],
+  "jacobian_shape": null,
+  "method": "Same multi-scale1e-3 consistency gate; only legitimate one-sided stencils close to authorized boundaries; no collision/contact/rate limits changed",
+  "meaning": "A local derivative repair, not a path feasibility or global derivative PASS"
+}

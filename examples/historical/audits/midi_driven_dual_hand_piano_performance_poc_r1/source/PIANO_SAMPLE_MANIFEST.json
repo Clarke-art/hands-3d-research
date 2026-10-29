@@ -1,0 +1,2147 @@
+{
+  "schemaVersion": "V1_1D_PIANO_SAMPLE_MANIFEST_1.0",
+  "status": "PASS",
+  "createdUTC": "2026-09-22T22:39:14.104Z",
+  "authority": {
+    "library": "Versilian Community Sample Library (VCSL) — Grand Piano, Kawai",
+    "publisher": "Versilian Studios LLC",
+    "source": "https://github.com/sgossner/VCSL/tree/master/Chordophones/Zithers/Grand%20Piano%2C%20Kawai",
+    "license": "CC0-1.0",
+    "redistribution": "PERMITTED",
+    "commercialUse": "PERMITTED",
+    "attributionRequired": false,
+    "originalFormat": "WAV PCM",
+    "originalSampleRateHz": 44100,
+    "originalBitDepth": 16,
+    "sourceNoteNaming": "sampler convention C3 = MIDI 60; therefore A#-1 = MIDI 22 and C0 = MIDI 24",
+    "roundRobin": 1,
+    "sourceVelocityLayersAvailable": 4,
+    "productVelocityLayers": 2,
+    "releaseSamplesAvailableInSource": true,
+    "productReleaseSamplePolicy": "not bundled; voice gain release envelope is used",
+    "loops": false
+  },
+  "readiness": {
+    "PLAYABLE": {
+      "layerIds": [
+        "PLAYABLE_V2"
+      ],
+      "assets": 9,
+      "coverage": [
+        21,
+        108
+      ]
+    },
+    "FULL_QUALITY": {
+      "layerIds": [
+        "PLAYABLE_V2",
+        "FULL_V4"
+      ],
+      "assets": 18,
+      "coverage": [
+        21,
+        108
+      ]
+    }
+  },
+  "layers": [
+    {
+      "id": "PLAYABLE_V2",
+      "sourceVelocityLayer": 2,
+      "velocity": [
+        1,
+        79
+      ],
+      "readiness": "PLAYABLE",
+      "required": true
+    },
+    {
+      "id": "FULL_V4",
+      "sourceVelocityLayer": 4,
+      "velocity": [
+        80,
+        127
+      ],
+      "readiness": "FULL_QUALITY",
+      "required": false
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "PLAYABLE_V2_22",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 22,
+      "sourceNoteLabel": "A#-1",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_A%23-1_v2_rr1_Player.ogg",
+      "bytes": 178481,
+      "sha256": "b986c1e551caa19b59ae221ef62ca93372eac2e53534fd8c84b49a9c38fe026f",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_A#-1_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "PLAYABLE_V2_24",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 24,
+      "sourceNoteLabel": "C0",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C0_v2_rr1_Player.ogg",
+      "bytes": 249031,
+      "sha256": "759b53a4d6742139f810c391d24c9539436cd92bf20a583af3088ceb5747b19f",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C0_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "PLAYABLE_V2_36",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 36,
+      "sourceNoteLabel": "C1",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C1_v2_rr1_Player.ogg",
+      "bytes": 364839,
+      "sha256": "a6b1af41dc115f5176fb1885e91ed7a11af7762d40f636d621ee6593e6ebca20",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C1_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "PLAYABLE_V2_48",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 48,
+      "sourceNoteLabel": "C2",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C2_v2_rr1_Player.ogg",
+      "bytes": 285594,
+      "sha256": "f989dfda938f32098a1aaddd173594844a5315717f641850ac19d23824cbb2bb",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C2_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "PLAYABLE_V2_60",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 60,
+      "sourceNoteLabel": "C3",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C3_v2_rr1_Player.ogg",
+      "bytes": 179564,
+      "sha256": "90faa00d55f05232a1f80bd3ecf3d85f90cc5ac1bf06d14f33a3a7efe7013c93",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C3_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "PLAYABLE_V2_72",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 72,
+      "sourceNoteLabel": "C4",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C4_v2_rr1_Player.ogg",
+      "bytes": 106987,
+      "sha256": "159977da09af353ed53726d0e2b172f39c113cb8c931be9192d1b98ecbcc6273",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C4_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "PLAYABLE_V2_84",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 84,
+      "sourceNoteLabel": "C5",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C5_v2_rr1_Player.ogg",
+      "bytes": 60024,
+      "sha256": "77cf7eeb29991afdc829da783e2b3d7be21fe5a50b7e331e2cc7c1ade380f9d5",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C5_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "PLAYABLE_V2_96",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 96,
+      "sourceNoteLabel": "C6",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C6_v2_rr1_Player.ogg",
+      "bytes": 30599,
+      "sha256": "e1e4261238b466e86536ce2e8c66cae72bdff040f88a2715b726c0685f5e1961",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C6_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "PLAYABLE_V2_108",
+      "layerId": "PLAYABLE_V2",
+      "rootMidi": 108,
+      "sourceNoteLabel": "C7",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C7_v2_rr1_Player.ogg",
+      "bytes": 17837,
+      "sha256": "8f5d25cb925de1d61b46317293308804daccf9c6d21214dd7fcc75c05938f6f6",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C7_v2_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_22",
+      "layerId": "FULL_V4",
+      "rootMidi": 22,
+      "sourceNoteLabel": "A#-1",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_A%23-1_v4_rr1_Player.ogg",
+      "bytes": 282105,
+      "sha256": "6f13d1b78c667b2ebdffb0c57c3988da2f10a7cb5d997796238056f5fb6d941e",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_A#-1_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_24",
+      "layerId": "FULL_V4",
+      "rootMidi": 24,
+      "sourceNoteLabel": "C0",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C0_v4_rr1_Player.ogg",
+      "bytes": 364925,
+      "sha256": "ac999049601dd823e548dd203982e728ac59e9ced8db0ca1da3589aa88ffd113",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C0_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_36",
+      "layerId": "FULL_V4",
+      "rootMidi": 36,
+      "sourceNoteLabel": "C1",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C1_v4_rr1_Player.ogg",
+      "bytes": 485028,
+      "sha256": "f53abb37110697f528e2d643569fb0bd46cccaac994413564006e75f8d447553",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C1_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_48",
+      "layerId": "FULL_V4",
+      "rootMidi": 48,
+      "sourceNoteLabel": "C2",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C2_v4_rr1_Player.ogg",
+      "bytes": 433433,
+      "sha256": "29d1f3eebf319fc04fdc7d3a9f2aa62bc8b7dbaa0bca5d7de5e570ad4b058bdb",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C2_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_60",
+      "layerId": "FULL_V4",
+      "rootMidi": 60,
+      "sourceNoteLabel": "C3",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C3_v4_rr1_Player.ogg",
+      "bytes": 307650,
+      "sha256": "e01adfba9273d0de5b7916e4046d2ecfb59d0b049c80b38069f1f66e5036cc6e",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C3_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_72",
+      "layerId": "FULL_V4",
+      "rootMidi": 72,
+      "sourceNoteLabel": "C4",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C4_v4_rr1_Player.ogg",
+      "bytes": 223619,
+      "sha256": "13ac05b7e5c279e930b13ce1b3f0665a2fd11e83a7d27fce19ce399330cfa509",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C4_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_84",
+      "layerId": "FULL_V4",
+      "rootMidi": 84,
+      "sourceNoteLabel": "C5",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C5_v4_rr1_Player.ogg",
+      "bytes": 112367,
+      "sha256": "d2be8efb05f74a080f9acff34443a67cf9dd7aae452369b1eb768a8ea1084b61",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C5_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_96",
+      "layerId": "FULL_V4",
+      "rootMidi": 96,
+      "sourceNoteLabel": "C6",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C6_v4_rr1_Player.ogg",
+      "bytes": 56096,
+      "sha256": "f6e25b6f2225a7bb858b4245ec3e943ac5ea6977796955b850929d324480944a",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C6_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    },
+    {
+      "assetId": "FULL_V4_108",
+      "layerId": "FULL_V4",
+      "rootMidi": 108,
+      "sourceNoteLabel": "C7",
+      "url": "./assets/audio/vcsl-kawai-grand/GPiano_sus_C7_v4_rr1_Player.ogg",
+      "bytes": 36696,
+      "sha256": "2bd11360e210e0fef366dc0f89426268d966b50a8a0fa16273feb0bda9d6d071",
+      "sourceFile": "Chordophones/Zithers/Grand Piano, Kawai/Sustains/GPiano_sus_C7_v4_rr1_Player.wav",
+      "sourceRepository": "https://github.com/sgossner/VCSL",
+      "transcoding": "WAV source -> Ogg Vorbis q4; no synthesis, pitch correction, or content substitution"
+    }
+  ],
+  "notes": [
+    {
+      "midi": 21,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_22",
+          "rootMidi": 22,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_22",
+          "rootMidi": 22,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 22,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_22",
+          "rootMidi": 22,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_22",
+          "rootMidi": 22,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 23,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_22",
+          "rootMidi": 22,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_22",
+          "rootMidi": 22,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 24,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_24",
+          "rootMidi": 24,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_24",
+          "rootMidi": 24,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 25,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 26,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 27,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 28,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 29,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 30,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_24",
+          "rootMidi": 24,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 31,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 32,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 33,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 34,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 35,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 36,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 37,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 38,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 39,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 40,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 41,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 42,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_36",
+          "rootMidi": 36,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 43,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 44,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 45,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 46,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 47,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 48,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 49,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 50,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 51,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 52,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 53,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 54,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_48",
+          "rootMidi": 48,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 55,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 56,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 57,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 58,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 59,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 60,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 61,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 62,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 63,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 64,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 65,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 66,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_60",
+          "rootMidi": 60,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 67,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 68,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 69,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 70,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 71,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 72,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 73,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 74,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 75,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 76,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 77,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 78,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_72",
+          "rootMidi": 72,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 79,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 80,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 81,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 82,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 83,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 84,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 85,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 86,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 87,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 88,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 89,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 90,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_84",
+          "rootMidi": 84,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 91,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 92,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 93,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 94,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 95,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 96,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 97,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.059463094,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 98,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.122462048,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 99,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.189207115,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 100,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.25992105,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 101,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.334839854,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 102,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_96",
+          "rootMidi": 96,
+          "pitchRatio": 1.414213562,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 103,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.749153538,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 104,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.793700526,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 105,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.840896415,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 106,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.890898718,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 107,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_108",
+          "rootMidi": 108,
+          "pitchRatio": 0.943874313,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    },
+    {
+      "midi": 108,
+      "layers": [
+        {
+          "layerId": "PLAYABLE_V2",
+          "assetId": "PLAYABLE_V2_108",
+          "rootMidi": 108,
+          "pitchRatio": 1,
+          "velocityMin": 1,
+          "velocityMax": 79
+        },
+        {
+          "layerId": "FULL_V4",
+          "assetId": "FULL_V4_108",
+          "rootMidi": 108,
+          "pitchRatio": 1,
+          "velocityMin": 80,
+          "velocityMax": 127
+        }
+      ]
+    }
+  ],
+  "validation": {
+    "noteCount": 88,
+    "midiMin": 21,
+    "midiMax": 108,
+    "silentUnmappedNotes": [],
+    "oscillatorFallback": false,
+    "allAssetsPresent": true,
+    "playableBytes": 1472956,
+    "fullQualityBytes": 3774875
+  }
+}

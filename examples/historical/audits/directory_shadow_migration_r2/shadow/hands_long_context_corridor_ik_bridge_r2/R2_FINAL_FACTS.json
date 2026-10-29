@@ -1,0 +1,196 @@
+{
+  "authority": "DESIGN_PROVISIONAL \u2014 STOP \u2014 HUMAN REVIEW",
+  "result": "PARTIAL_EVIDENCE_ONLY",
+  "technical_continuous_bridge_PASS": false,
+  "unique_actual_samples": 103,
+  "passing_samples": 17,
+  "failed_samples": 86,
+  "first_failures": {
+    "all_required_contacts": {
+      "first_failure_time": 2.7066409360467922,
+      "previous_sample_time": 2.705731456589484,
+      "first_id": "r2_adaptive_9"
+    },
+    "target_depth": {
+      "first_failure_time": 2.9239796250000003,
+      "previous_sample_time": 2.923426,
+      "first_id": "r2_adaptive_21"
+    },
+    "non_target_or_wrong_region_depth": {
+      "first_failure_time": 2.7247300000000005,
+      "previous_sample_time": 2.7236883333333335,
+      "first_id": "r2_adaptive_18"
+    },
+    "authorized_domain": {
+      "first_failure_time": 2.6163384885660883,
+      "previous_sample_time": 2.615883748837434,
+      "first_id": "r2_adaptive_0"
+    }
+  },
+  "failure_sample_runs": {
+    "all_required_contacts": [
+      {
+        "first_failed_sample": 2.7066409360467922,
+        "last_failed_sample": 2.794521666666667,
+        "not_exact_continuous_extent": true
+      },
+      {
+        "first_failed_sample": 2.894521666666667,
+        "last_failed_sample": 2.9214260000000003,
+        "not_exact_continuous_extent": true
+      },
+      {
+        "first_failed_sample": 2.922426,
+        "last_failed_sample": 2.956427,
+        "not_exact_continuous_extent": true
+      }
+    ],
+    "target_depth": [
+      {
+        "first_failed_sample": 2.9239796250000003,
+        "last_failed_sample": 2.9361883333333334,
+        "not_exact_continuous_extent": true
+      }
+    ],
+    "non_target_or_wrong_region_depth": [
+      {
+        "first_failed_sample": 2.7247300000000005,
+        "last_failed_sample": 2.9111883333333335,
+        "not_exact_continuous_extent": true
+      },
+      {
+        "first_failed_sample": 2.923426,
+        "last_failed_sample": 2.956427,
+        "not_exact_continuous_extent": true
+      }
+    ],
+    "self_surfaces": [],
+    "natural_family": [],
+    "authorized_axes": [],
+    "authorized_domain": [
+      {
+        "first_failed_sample": 2.6163384885660883,
+        "last_failed_sample": 2.702855,
+        "not_exact_continuous_extent": true
+      },
+      {
+        "first_failed_sample": 2.705731456589484,
+        "last_failed_sample": 2.794521666666667,
+        "not_exact_continuous_extent": true
+      }
+    ]
+  },
+  "target_max_depth_mm": 0.7520944119753067,
+  "wrong_region_max_depth_mm": 5.353383154259825,
+  "worst_wrong_time": 2.956426,
+  "worst_keys": [
+    {
+      "midi": 72,
+      "role": "NON_TARGET_KEY",
+      "depth_mm": 5.353383154259825,
+      "digits": [
+        "INDEX"
+      ]
+    },
+    {
+      "midi": 74,
+      "role": "NON_TARGET_KEY",
+      "depth_mm": 4.72148823796382,
+      "digits": [
+        "MIDDLE"
+      ]
+    }
+  ],
+  "self_crossings_max": 0,
+  "event_gates": {
+    "all_required_contacts": false,
+    "target_depth": true,
+    "non_target_or_wrong_region_depth": true,
+    "self_surfaces": true,
+    "natural_family": true,
+    "authorized_axes": true,
+    "authorized_domain": true
+  },
+  "event_contacts": [
+    {
+      "midi": 67,
+      "finger": 1,
+      "contact_gate": false,
+      "metrics": {
+        "pad_gap_mm": 1.4565934893018033,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": 0.026852864422355623,
+        "pulp_min_vertex_gap_mm": 1.1610685717341198,
+        "pulp_closest_vertex": 1753,
+        "pulp_contact_position_world_m": [
+          0.1002906933426857,
+          0.0011682340409606695,
+          -0.008659027516841888
+        ],
+        "true_pulp_surface_contact_distance_mm": 0.026852864422355623,
+        "near_contact_projected_area_mm2": 0.021722016233463634,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 0,
+        "top_surface_crossing_triangle_ids": [],
+        "inside_playable_patch_vertices": 34,
+        "hover_only": true
+      }
+    },
+    {
+      "midi": 76,
+      "finger": 3,
+      "contact_gate": true,
+      "metrics": {
+        "pad_gap_mm": 0.5680238457482206,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": -0.005012334984136165,
+        "pulp_min_vertex_gap_mm": 0.0006204566072571447,
+        "pulp_closest_vertex": 1738,
+        "pulp_contact_position_world_m": [
+          0.20390179007596443,
+          0.041854141573070894,
+          -7.935724126439947e-11
+        ],
+        "true_pulp_surface_contact_distance_mm": 0.0,
+        "near_contact_projected_area_mm2": 0.7324221382000798,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 2,
+        "top_surface_crossing_triangle_ids": [
+          3761,
+          3766
+        ],
+        "inside_playable_patch_vertices": 61,
+        "hover_only": false
+      }
+    }
+  ],
+  "scope_end_gates": {
+    "all_required_contacts": false,
+    "target_depth": true,
+    "non_target_or_wrong_region_depth": false,
+    "self_surfaces": true,
+    "natural_family": true,
+    "authorized_axes": true,
+    "authorized_domain": true
+  },
+  "kinematic_dense_peak_wrist_mm_s": 252.98558166615004,
+  "kinematic_dense_peak_joint_deg_s": 160.60288542100628,
+  "actual_secant_peak_wrist_mm_s": 249.00494558906175,
+  "actual_secant_peak_joint_deg_s": 159.65493865804413,
+  "maximum_skin_parity_mm": 0.0009531599220957278,
+  "maximum_wrist_parity_mm": 0.0006664107686762025,
+  "native_identity_all": true,
+  "original_KeyActions_all": true,
+  "geometry_sample_min_step_seconds": 1.000000000139778e-06,
+  "adaptive_point_count": 28,
+  "C1_latent_curve_defined": true,
+  "continuous_geometry_certificate": false,
+  "continuous_domain_violations_proven": true,
+  "optimizer_calls": 1,
+  "accepted_optimizer_iterations": 0,
+  "second_optimizer_called": false,
+  "second_preview_only": true,
+  "other_hand_key_Actions": "Preserved and reevaluated as part of full88 source key angles; no new left-hand motion; left skin contact not independently certified",
+  "numerical_wall_seconds": 95.4849999999933,
+  "Human_naturalness": "REVIEW_PENDING_NO_TECHNICALLY_ELIGIBLE_PATH"
+}

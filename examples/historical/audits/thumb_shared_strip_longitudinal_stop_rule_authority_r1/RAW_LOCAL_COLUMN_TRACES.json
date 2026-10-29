@@ -1,0 +1,2703 @@
+{
+  "distal_non_nail": {
+    "rows": [
+      {
+        "row_id": "D01",
+        "face_ids": [
+          1176
+        ],
+        "vertex_ids": [
+          303,
+          1396,
+          1397,
+          2774
+        ],
+        "incoming_edge_ids": [
+          4477
+        ],
+        "outgoing_edge_ids": [
+          1133
+        ],
+        "outgoing_vertex_ids": [
+          303,
+          1397
+        ],
+        "records": [
+          {
+            "incoming_edge": 4477,
+            "candidate_face_ids": [
+              1176
+            ],
+            "unique_quad": true,
+            "face_id": 1176,
+            "vertex_ids": [
+              303,
+              1397,
+              2774,
+              1396
+            ],
+            "outgoing_edge": 1133
+          }
+        ],
+        "valences": {
+          "303": 4,
+          "1397": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "D02",
+        "face_ids": [
+          1213
+        ],
+        "vertex_ids": [
+          303,
+          1384,
+          1397,
+          2783
+        ],
+        "incoming_edge_ids": [
+          1133
+        ],
+        "outgoing_edge_ids": [
+          4511
+        ],
+        "outgoing_vertex_ids": [
+          1384,
+          2783
+        ],
+        "records": [
+          {
+            "incoming_edge": 1133,
+            "candidate_face_ids": [
+              1213
+            ],
+            "unique_quad": true,
+            "face_id": 1213,
+            "vertex_ids": [
+              1397,
+              303,
+              1384,
+              2783
+            ],
+            "outgoing_edge": 4511
+          }
+        ],
+        "valences": {
+          "1384": 4,
+          "2783": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "D03",
+        "face_ids": [
+          1214
+        ],
+        "vertex_ids": [
+          342,
+          1384,
+          1385,
+          2783
+        ],
+        "incoming_edge_ids": [
+          4511
+        ],
+        "outgoing_edge_ids": [
+          1109
+        ],
+        "outgoing_vertex_ids": [
+          342,
+          1385
+        ],
+        "records": [
+          {
+            "incoming_edge": 4511,
+            "candidate_face_ids": [
+              1214
+            ],
+            "unique_quad": true,
+            "face_id": 1214,
+            "vertex_ids": [
+              2783,
+              1384,
+              342,
+              1385
+            ],
+            "outgoing_edge": 1109
+          }
+        ],
+        "valences": {
+          "342": 4,
+          "1385": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "D04",
+        "face_ids": [
+          1226
+        ],
+        "vertex_ids": [
+          342,
+          1381,
+          1385,
+          2786
+        ],
+        "incoming_edge_ids": [
+          1109
+        ],
+        "outgoing_edge_ids": [
+          4524
+        ],
+        "outgoing_vertex_ids": [
+          1381,
+          2786
+        ],
+        "records": [
+          {
+            "incoming_edge": 1109,
+            "candidate_face_ids": [
+              1226
+            ],
+            "unique_quad": true,
+            "face_id": 1226,
+            "vertex_ids": [
+              2786,
+              1385,
+              342,
+              1381
+            ],
+            "outgoing_edge": 4524
+          }
+        ],
+        "valences": {
+          "1381": 4,
+          "2786": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "D05",
+        "face_ids": [
+          1227
+        ],
+        "vertex_ids": [
+          298,
+          1381,
+          1454,
+          2786
+        ],
+        "incoming_edge_ids": [
+          4524
+        ],
+        "outgoing_edge_ids": [
+          1246
+        ],
+        "outgoing_vertex_ids": [
+          298,
+          1454
+        ],
+        "records": [
+          {
+            "incoming_edge": 4524,
+            "candidate_face_ids": [
+              1227
+            ],
+            "unique_quad": true,
+            "face_id": 1227,
+            "vertex_ids": [
+              1454,
+              2786,
+              1381,
+              298
+            ],
+            "outgoing_edge": 1246
+          }
+        ],
+        "valences": {
+          "298": 3,
+          "1454": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [
+          298,
+          1454
+        ],
+        "event_types": [
+          "FROZEN_CAP_CONFLICT",
+          "OUTGOING_ROW_NONREGULAR_VALENCE"
+        ]
+      }
+    ],
+    "first_structural_or_authority_event": {
+      "type": [
+        "FROZEN_CAP_CONFLICT",
+        "OUTGOING_ROW_NONREGULAR_VALENCE"
+      ],
+      "row": 5,
+      "face_ids": [
+        1227
+      ],
+      "row_id": "D05",
+      "following_row_negative_control": [
+        {
+          "incoming_edge": 1246,
+          "candidate_face_ids": [
+            1944
+          ],
+          "unique_quad": true,
+          "face_id": 1944,
+          "vertex_ids": [
+            298,
+            1380,
+            2966,
+            1454
+          ],
+          "outgoing_edge": 5242
+        }
+      ]
+    },
+    "event_is_automatically_shared_role_stop": false,
+    "trace_rule": "Unique outward incident quad; continue through its opposite edge; stop audit traversal at first fixed-anchor conflict/nonregular valence/lost correspondence/revisit. No angular or distance threshold."
+  },
+  "proximal": {
+    "rows": [
+      {
+        "row_id": "P01",
+        "face_ids": [
+          3032,
+          3033
+        ],
+        "vertex_ids": [
+          310,
+          317,
+          1422,
+          1423,
+          2360,
+          3238
+        ],
+        "incoming_edge_ids": [
+          6333,
+          6331
+        ],
+        "outgoing_edge_ids": [
+          1184,
+          1185
+        ],
+        "outgoing_vertex_ids": [
+          310,
+          317,
+          1423
+        ],
+        "records": [
+          {
+            "incoming_edge": 6333,
+            "candidate_face_ids": [
+              3032
+            ],
+            "unique_quad": true,
+            "face_id": 3032,
+            "vertex_ids": [
+              310,
+              1423,
+              3238,
+              2360
+            ],
+            "outgoing_edge": 1184
+          },
+          {
+            "incoming_edge": 6331,
+            "candidate_face_ids": [
+              3033
+            ],
+            "unique_quad": true,
+            "face_id": 3033,
+            "vertex_ids": [
+              1423,
+              317,
+              1422,
+              3238
+            ],
+            "outgoing_edge": 1185
+          }
+        ],
+        "valences": {
+          "310": 4,
+          "317": 4,
+          "1423": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P02",
+        "face_ids": [
+          1372,
+          1375
+        ],
+        "vertex_ids": [
+          310,
+          317,
+          1423,
+          1442,
+          1521,
+          2823
+        ],
+        "incoming_edge_ids": [
+          1184,
+          1185
+        ],
+        "outgoing_edge_ids": [
+          4670,
+          4672
+        ],
+        "outgoing_vertex_ids": [
+          1442,
+          1521,
+          2823
+        ],
+        "records": [
+          {
+            "incoming_edge": 1184,
+            "candidate_face_ids": [
+              1372
+            ],
+            "unique_quad": true,
+            "face_id": 1372,
+            "vertex_ids": [
+              310,
+              1442,
+              2823,
+              1423
+            ],
+            "outgoing_edge": 4670
+          },
+          {
+            "incoming_edge": 1185,
+            "candidate_face_ids": [
+              1375
+            ],
+            "unique_quad": true,
+            "face_id": 1375,
+            "vertex_ids": [
+              1423,
+              2823,
+              1521,
+              317
+            ],
+            "outgoing_edge": 4672
+          }
+        ],
+        "valences": {
+          "1442": 4,
+          "1521": 4,
+          "2823": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P03",
+        "face_ids": [
+          1373,
+          1374
+        ],
+        "vertex_ids": [
+          293,
+          386,
+          1442,
+          1518,
+          1521,
+          2823
+        ],
+        "incoming_edge_ids": [
+          4670,
+          4672
+        ],
+        "outgoing_edge_ids": [
+          1375,
+          1374
+        ],
+        "outgoing_vertex_ids": [
+          293,
+          386,
+          1518
+        ],
+        "records": [
+          {
+            "incoming_edge": 4670,
+            "candidate_face_ids": [
+              1373
+            ],
+            "unique_quad": true,
+            "face_id": 1373,
+            "vertex_ids": [
+              1442,
+              293,
+              1518,
+              2823
+            ],
+            "outgoing_edge": 1375
+          },
+          {
+            "incoming_edge": 4672,
+            "candidate_face_ids": [
+              1374
+            ],
+            "unique_quad": true,
+            "face_id": 1374,
+            "vertex_ids": [
+              2823,
+              1518,
+              386,
+              1521
+            ],
+            "outgoing_edge": 1374
+          }
+        ],
+        "valences": {
+          "293": 4,
+          "386": 4,
+          "1518": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P04",
+        "face_ids": [
+          1368,
+          1371
+        ],
+        "vertex_ids": [
+          293,
+          386,
+          1444,
+          1518,
+          1520,
+          2822
+        ],
+        "incoming_edge_ids": [
+          1375,
+          1374
+        ],
+        "outgoing_edge_ids": [
+          4666,
+          4668
+        ],
+        "outgoing_vertex_ids": [
+          1444,
+          1520,
+          2822
+        ],
+        "records": [
+          {
+            "incoming_edge": 1375,
+            "candidate_face_ids": [
+              1368
+            ],
+            "unique_quad": true,
+            "face_id": 1368,
+            "vertex_ids": [
+              293,
+              1444,
+              2822,
+              1518
+            ],
+            "outgoing_edge": 4666
+          },
+          {
+            "incoming_edge": 1374,
+            "candidate_face_ids": [
+              1371
+            ],
+            "unique_quad": true,
+            "face_id": 1371,
+            "vertex_ids": [
+              1518,
+              2822,
+              1520,
+              386
+            ],
+            "outgoing_edge": 4668
+          }
+        ],
+        "valences": {
+          "1444": 4,
+          "1520": 4,
+          "2822": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P05",
+        "face_ids": [
+          1369,
+          1370
+        ],
+        "vertex_ids": [
+          294,
+          385,
+          1444,
+          1519,
+          1520,
+          2822
+        ],
+        "incoming_edge_ids": [
+          4666,
+          4668
+        ],
+        "outgoing_edge_ids": [
+          1376,
+          1377
+        ],
+        "outgoing_vertex_ids": [
+          294,
+          385,
+          1519
+        ],
+        "records": [
+          {
+            "incoming_edge": 4666,
+            "candidate_face_ids": [
+              1369
+            ],
+            "unique_quad": true,
+            "face_id": 1369,
+            "vertex_ids": [
+              1444,
+              294,
+              1519,
+              2822
+            ],
+            "outgoing_edge": 1376
+          },
+          {
+            "incoming_edge": 4668,
+            "candidate_face_ids": [
+              1370
+            ],
+            "unique_quad": true,
+            "face_id": 1370,
+            "vertex_ids": [
+              2822,
+              1519,
+              385,
+              1520
+            ],
+            "outgoing_edge": 1377
+          }
+        ],
+        "valences": {
+          "294": 4,
+          "385": 4,
+          "1519": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P06",
+        "face_ids": [
+          1378,
+          1377
+        ],
+        "vertex_ids": [
+          294,
+          385,
+          1445,
+          1519,
+          1523,
+          2824
+        ],
+        "incoming_edge_ids": [
+          1376,
+          1377
+        ],
+        "outgoing_edge_ids": [
+          4676,
+          4674
+        ],
+        "outgoing_vertex_ids": [
+          1445,
+          1523,
+          2824
+        ],
+        "records": [
+          {
+            "incoming_edge": 1376,
+            "candidate_face_ids": [
+              1378
+            ],
+            "unique_quad": true,
+            "face_id": 1378,
+            "vertex_ids": [
+              2824,
+              1519,
+              294,
+              1445
+            ],
+            "outgoing_edge": 4676
+          },
+          {
+            "incoming_edge": 1377,
+            "candidate_face_ids": [
+              1377
+            ],
+            "unique_quad": true,
+            "face_id": 1377,
+            "vertex_ids": [
+              1523,
+              385,
+              1519,
+              2824
+            ],
+            "outgoing_edge": 4674
+          }
+        ],
+        "valences": {
+          "1445": 4,
+          "1523": 4,
+          "2824": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P07",
+        "face_ids": [
+          1379,
+          1376
+        ],
+        "vertex_ids": [
+          295,
+          387,
+          1445,
+          1523,
+          1524,
+          2824
+        ],
+        "incoming_edge_ids": [
+          4676,
+          4674
+        ],
+        "outgoing_edge_ids": [
+          1387,
+          1386
+        ],
+        "outgoing_vertex_ids": [
+          295,
+          387,
+          1524
+        ],
+        "records": [
+          {
+            "incoming_edge": 4676,
+            "candidate_face_ids": [
+              1379
+            ],
+            "unique_quad": true,
+            "face_id": 1379,
+            "vertex_ids": [
+              1524,
+              2824,
+              1445,
+              295
+            ],
+            "outgoing_edge": 1387
+          },
+          {
+            "incoming_edge": 4674,
+            "candidate_face_ids": [
+              1376
+            ],
+            "unique_quad": true,
+            "face_id": 1376,
+            "vertex_ids": [
+              387,
+              1523,
+              2824,
+              1524
+            ],
+            "outgoing_edge": 1386
+          }
+        ],
+        "valences": {
+          "295": 4,
+          "387": 4,
+          "1524": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P08",
+        "face_ids": [
+          2673,
+          2672
+        ],
+        "vertex_ids": [
+          295,
+          387,
+          1522,
+          1524,
+          2017,
+          3148
+        ],
+        "incoming_edge_ids": [
+          1387,
+          1386
+        ],
+        "outgoing_edge_ids": [
+          5971,
+          5973
+        ],
+        "outgoing_vertex_ids": [
+          1522,
+          2017,
+          3148
+        ],
+        "records": [
+          {
+            "incoming_edge": 1387,
+            "candidate_face_ids": [
+              2673
+            ],
+            "unique_quad": true,
+            "face_id": 2673,
+            "vertex_ids": [
+              1524,
+              295,
+              2017,
+              3148
+            ],
+            "outgoing_edge": 5971
+          },
+          {
+            "incoming_edge": 1386,
+            "candidate_face_ids": [
+              2672
+            ],
+            "unique_quad": true,
+            "face_id": 2672,
+            "vertex_ids": [
+              387,
+              1524,
+              3148,
+              1522
+            ],
+            "outgoing_edge": 5973
+          }
+        ],
+        "valences": {
+          "1522": 4,
+          "2017": 4,
+          "3148": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P09",
+        "face_ids": [
+          2674,
+          2675
+        ],
+        "vertex_ids": [
+          628,
+          642,
+          1522,
+          2017,
+          2044,
+          3148
+        ],
+        "incoming_edge_ids": [
+          5971,
+          5973
+        ],
+        "outgoing_edge_ids": [
+          2426,
+          2427
+        ],
+        "outgoing_vertex_ids": [
+          628,
+          642,
+          2044
+        ],
+        "records": [
+          {
+            "incoming_edge": 5971,
+            "candidate_face_ids": [
+              2674
+            ],
+            "unique_quad": true,
+            "face_id": 2674,
+            "vertex_ids": [
+              3148,
+              2017,
+              628,
+              2044
+            ],
+            "outgoing_edge": 2426
+          },
+          {
+            "incoming_edge": 5973,
+            "candidate_face_ids": [
+              2675
+            ],
+            "unique_quad": true,
+            "face_id": 2675,
+            "vertex_ids": [
+              1522,
+              3148,
+              2044,
+              642
+            ],
+            "outgoing_edge": 2427
+          }
+        ],
+        "valences": {
+          "628": 4,
+          "642": 4,
+          "2044": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P10",
+        "face_ids": [
+          1380,
+          1383
+        ],
+        "vertex_ids": [
+          628,
+          642,
+          1447,
+          2031,
+          2044,
+          2825
+        ],
+        "incoming_edge_ids": [
+          2426,
+          2427
+        ],
+        "outgoing_edge_ids": [
+          4678,
+          4680
+        ],
+        "outgoing_vertex_ids": [
+          1447,
+          2031,
+          2825
+        ],
+        "records": [
+          {
+            "incoming_edge": 2426,
+            "candidate_face_ids": [
+              1380
+            ],
+            "unique_quad": true,
+            "face_id": 1380,
+            "vertex_ids": [
+              628,
+              1447,
+              2825,
+              2044
+            ],
+            "outgoing_edge": 4678
+          },
+          {
+            "incoming_edge": 2427,
+            "candidate_face_ids": [
+              1383
+            ],
+            "unique_quad": true,
+            "face_id": 1383,
+            "vertex_ids": [
+              2044,
+              2825,
+              2031,
+              642
+            ],
+            "outgoing_edge": 4680
+          }
+        ],
+        "valences": {
+          "1447": 4,
+          "2031": 4,
+          "2825": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P11",
+        "face_ids": [
+          1381,
+          1382
+        ],
+        "vertex_ids": [
+          338,
+          388,
+          1447,
+          1525,
+          2031,
+          2825
+        ],
+        "incoming_edge_ids": [
+          4678,
+          4680
+        ],
+        "outgoing_edge_ids": [
+          1388,
+          1389
+        ],
+        "outgoing_vertex_ids": [
+          338,
+          388,
+          1525
+        ],
+        "records": [
+          {
+            "incoming_edge": 4678,
+            "candidate_face_ids": [
+              1381
+            ],
+            "unique_quad": true,
+            "face_id": 1381,
+            "vertex_ids": [
+              1447,
+              338,
+              1525,
+              2825
+            ],
+            "outgoing_edge": 1388
+          },
+          {
+            "incoming_edge": 4680,
+            "candidate_face_ids": [
+              1382
+            ],
+            "unique_quad": true,
+            "face_id": 1382,
+            "vertex_ids": [
+              2825,
+              1525,
+              388,
+              2031
+            ],
+            "outgoing_edge": 1389
+          }
+        ],
+        "valences": {
+          "338": 4,
+          "388": 4,
+          "1525": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P12",
+        "face_ids": [
+          1648,
+          1651
+        ],
+        "vertex_ids": [
+          338,
+          388,
+          1525,
+          1550,
+          1875,
+          2892
+        ],
+        "incoming_edge_ids": [
+          1388,
+          1389
+        ],
+        "outgoing_edge_ids": [
+          4946,
+          4948
+        ],
+        "outgoing_vertex_ids": [
+          1550,
+          1875,
+          2892
+        ],
+        "records": [
+          {
+            "incoming_edge": 1388,
+            "candidate_face_ids": [
+              1648
+            ],
+            "unique_quad": true,
+            "face_id": 1648,
+            "vertex_ids": [
+              338,
+              1550,
+              2892,
+              1525
+            ],
+            "outgoing_edge": 4946
+          },
+          {
+            "incoming_edge": 1389,
+            "candidate_face_ids": [
+              1651
+            ],
+            "unique_quad": true,
+            "face_id": 1651,
+            "vertex_ids": [
+              1525,
+              2892,
+              1875,
+              388
+            ],
+            "outgoing_edge": 4948
+          }
+        ],
+        "valences": {
+          "1550": 4,
+          "1875": 4,
+          "2892": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P13",
+        "face_ids": [
+          1649,
+          1650
+        ],
+        "vertex_ids": [
+          473,
+          618,
+          1550,
+          1875,
+          1997,
+          2892
+        ],
+        "incoming_edge_ids": [
+          4946,
+          4948
+        ],
+        "outgoing_edge_ids": [
+          2332,
+          2333
+        ],
+        "outgoing_vertex_ids": [
+          473,
+          618,
+          1997
+        ],
+        "records": [
+          {
+            "incoming_edge": 4946,
+            "candidate_face_ids": [
+              1649
+            ],
+            "unique_quad": true,
+            "face_id": 1649,
+            "vertex_ids": [
+              1550,
+              618,
+              1997,
+              2892
+            ],
+            "outgoing_edge": 2332
+          },
+          {
+            "incoming_edge": 4948,
+            "candidate_face_ids": [
+              1650
+            ],
+            "unique_quad": true,
+            "face_id": 1650,
+            "vertex_ids": [
+              2892,
+              1997,
+              473,
+              1875
+            ],
+            "outgoing_edge": 2333
+          }
+        ],
+        "valences": {
+          "473": 4,
+          "618": 4,
+          "1997": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P14",
+        "face_ids": [
+          2496,
+          2499
+        ],
+        "vertex_ids": [
+          473,
+          618,
+          1678,
+          1934,
+          1997,
+          3104
+        ],
+        "incoming_edge_ids": [
+          2332,
+          2333
+        ],
+        "outgoing_edge_ids": [
+          5794,
+          5796
+        ],
+        "outgoing_vertex_ids": [
+          1678,
+          1934,
+          3104
+        ],
+        "records": [
+          {
+            "incoming_edge": 2332,
+            "candidate_face_ids": [
+              2496
+            ],
+            "unique_quad": true,
+            "face_id": 2496,
+            "vertex_ids": [
+              618,
+              1934,
+              3104,
+              1997
+            ],
+            "outgoing_edge": 5794
+          },
+          {
+            "incoming_edge": 2333,
+            "candidate_face_ids": [
+              2499
+            ],
+            "unique_quad": true,
+            "face_id": 2499,
+            "vertex_ids": [
+              1997,
+              3104,
+              1678,
+              473
+            ],
+            "outgoing_edge": 5796
+          }
+        ],
+        "valences": {
+          "1678": 4,
+          "1934": 4,
+          "3104": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P15",
+        "face_ids": [
+          2497,
+          2498
+        ],
+        "vertex_ids": [
+          593,
+          596,
+          1678,
+          1934,
+          1964,
+          3104
+        ],
+        "incoming_edge_ids": [
+          5794,
+          5796
+        ],
+        "outgoing_edge_ids": [
+          2266,
+          2267
+        ],
+        "outgoing_vertex_ids": [
+          593,
+          596,
+          1964
+        ],
+        "records": [
+          {
+            "incoming_edge": 5794,
+            "candidate_face_ids": [
+              2497
+            ],
+            "unique_quad": true,
+            "face_id": 2497,
+            "vertex_ids": [
+              1934,
+              593,
+              1964,
+              3104
+            ],
+            "outgoing_edge": 2266
+          },
+          {
+            "incoming_edge": 5796,
+            "candidate_face_ids": [
+              2498
+            ],
+            "unique_quad": true,
+            "face_id": 2498,
+            "vertex_ids": [
+              3104,
+              1964,
+              596,
+              1678
+            ],
+            "outgoing_edge": 2267
+          }
+        ],
+        "valences": {
+          "593": 4,
+          "596": 4,
+          "1964": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P16",
+        "face_ids": [
+          2224,
+          2227
+        ],
+        "vertex_ids": [
+          593,
+          596,
+          1876,
+          1943,
+          1964,
+          3036
+        ],
+        "incoming_edge_ids": [
+          2266,
+          2267
+        ],
+        "outgoing_edge_ids": [
+          5522,
+          5524
+        ],
+        "outgoing_vertex_ids": [
+          1876,
+          1943,
+          3036
+        ],
+        "records": [
+          {
+            "incoming_edge": 2266,
+            "candidate_face_ids": [
+              2224
+            ],
+            "unique_quad": true,
+            "face_id": 2224,
+            "vertex_ids": [
+              593,
+              1876,
+              3036,
+              1964
+            ],
+            "outgoing_edge": 5522
+          },
+          {
+            "incoming_edge": 2267,
+            "candidate_face_ids": [
+              2227
+            ],
+            "unique_quad": true,
+            "face_id": 2227,
+            "vertex_ids": [
+              1964,
+              3036,
+              1943,
+              596
+            ],
+            "outgoing_edge": 5524
+          }
+        ],
+        "valences": {
+          "1876": 4,
+          "1943": 4,
+          "3036": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P17",
+        "face_ids": [
+          2225,
+          2226
+        ],
+        "vertex_ids": [
+          143,
+          150,
+          1055,
+          1876,
+          1943,
+          3036
+        ],
+        "incoming_edge_ids": [
+          5522,
+          5524
+        ],
+        "outgoing_edge_ids": [
+          449,
+          448
+        ],
+        "outgoing_vertex_ids": [
+          143,
+          150,
+          1055
+        ],
+        "records": [
+          {
+            "incoming_edge": 5522,
+            "candidate_face_ids": [
+              2225
+            ],
+            "unique_quad": true,
+            "face_id": 2225,
+            "vertex_ids": [
+              1876,
+              143,
+              1055,
+              3036
+            ],
+            "outgoing_edge": 449
+          },
+          {
+            "incoming_edge": 5524,
+            "candidate_face_ids": [
+              2226
+            ],
+            "unique_quad": true,
+            "face_id": 2226,
+            "vertex_ids": [
+              3036,
+              1055,
+              150,
+              1943
+            ],
+            "outgoing_edge": 448
+          }
+        ],
+        "valences": {
+          "143": 4,
+          "150": 4,
+          "1055": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P18",
+        "face_ids": [
+          2733,
+          2732
+        ],
+        "vertex_ids": [
+          143,
+          150,
+          1055,
+          1056,
+          2064,
+          3163
+        ],
+        "incoming_edge_ids": [
+          449,
+          448
+        ],
+        "outgoing_edge_ids": [
+          6031,
+          6033
+        ],
+        "outgoing_vertex_ids": [
+          1056,
+          2064,
+          3163
+        ],
+        "records": [
+          {
+            "incoming_edge": 449,
+            "candidate_face_ids": [
+              2733
+            ],
+            "unique_quad": true,
+            "face_id": 2733,
+            "vertex_ids": [
+              1055,
+              143,
+              1056,
+              3163
+            ],
+            "outgoing_edge": 6031
+          },
+          {
+            "incoming_edge": 448,
+            "candidate_face_ids": [
+              2732
+            ],
+            "unique_quad": true,
+            "face_id": 2732,
+            "vertex_ids": [
+              150,
+              1055,
+              3163,
+              2064
+            ],
+            "outgoing_edge": 6033
+          }
+        ],
+        "valences": {
+          "1056": 4,
+          "2064": 4,
+          "3163": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P19",
+        "face_ids": [
+          2734,
+          2735
+        ],
+        "vertex_ids": [
+          649,
+          655,
+          1056,
+          2064,
+          2066,
+          3163
+        ],
+        "incoming_edge_ids": [
+          6031,
+          6033
+        ],
+        "outgoing_edge_ids": [
+          2470,
+          2471
+        ],
+        "outgoing_vertex_ids": [
+          649,
+          655,
+          2066
+        ],
+        "records": [
+          {
+            "incoming_edge": 6031,
+            "candidate_face_ids": [
+              2734
+            ],
+            "unique_quad": true,
+            "face_id": 2734,
+            "vertex_ids": [
+              3163,
+              1056,
+              649,
+              2066
+            ],
+            "outgoing_edge": 2470
+          },
+          {
+            "incoming_edge": 6033,
+            "candidate_face_ids": [
+              2735
+            ],
+            "unique_quad": true,
+            "face_id": 2735,
+            "vertex_ids": [
+              2064,
+              3163,
+              2066,
+              655
+            ],
+            "outgoing_edge": 2471
+          }
+        ],
+        "valences": {
+          "649": 4,
+          "655": 4,
+          "2066": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P20",
+        "face_ids": [
+          415,
+          414
+        ],
+        "vertex_ids": [
+          649,
+          655,
+          1070,
+          2058,
+          2066,
+          2583
+        ],
+        "incoming_edge_ids": [
+          2470,
+          2471
+        ],
+        "outgoing_edge_ids": [
+          3713,
+          3711
+        ],
+        "outgoing_vertex_ids": [
+          1070,
+          2058,
+          2583
+        ],
+        "records": [
+          {
+            "incoming_edge": 2470,
+            "candidate_face_ids": [
+              415
+            ],
+            "unique_quad": true,
+            "face_id": 415,
+            "vertex_ids": [
+              2058,
+              2583,
+              2066,
+              649
+            ],
+            "outgoing_edge": 3713
+          },
+          {
+            "incoming_edge": 2471,
+            "candidate_face_ids": [
+              414
+            ],
+            "unique_quad": true,
+            "face_id": 414,
+            "vertex_ids": [
+              2583,
+              1070,
+              655,
+              2066
+            ],
+            "outgoing_edge": 3711
+          }
+        ],
+        "valences": {
+          "1070": 4,
+          "2058": 4,
+          "2583": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P21",
+        "face_ids": [
+          412,
+          413
+        ],
+        "vertex_ids": [
+          156,
+          157,
+          1070,
+          1073,
+          2058,
+          2583
+        ],
+        "incoming_edge_ids": [
+          3713,
+          3711
+        ],
+        "outgoing_edge_ids": [
+          485,
+          484
+        ],
+        "outgoing_vertex_ids": [
+          156,
+          157,
+          1073
+        ],
+        "records": [
+          {
+            "incoming_edge": 3713,
+            "candidate_face_ids": [
+              412
+            ],
+            "unique_quad": true,
+            "face_id": 412,
+            "vertex_ids": [
+              157,
+              1073,
+              2583,
+              2058
+            ],
+            "outgoing_edge": 485
+          },
+          {
+            "incoming_edge": 3711,
+            "candidate_face_ids": [
+              413
+            ],
+            "unique_quad": true,
+            "face_id": 413,
+            "vertex_ids": [
+              1073,
+              156,
+              1070,
+              2583
+            ],
+            "outgoing_edge": 484
+          }
+        ],
+        "valences": {
+          "156": 4,
+          "157": 4,
+          "1073": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P22",
+        "face_ids": [
+          2897,
+          2896
+        ],
+        "vertex_ids": [
+          156,
+          157,
+          1073,
+          2177,
+          2178,
+          3204
+        ],
+        "incoming_edge_ids": [
+          485,
+          484
+        ],
+        "outgoing_edge_ids": [
+          6195,
+          6197
+        ],
+        "outgoing_vertex_ids": [
+          2177,
+          2178,
+          3204
+        ],
+        "records": [
+          {
+            "incoming_edge": 485,
+            "candidate_face_ids": [
+              2897
+            ],
+            "unique_quad": true,
+            "face_id": 2897,
+            "vertex_ids": [
+              1073,
+              157,
+              2178,
+              3204
+            ],
+            "outgoing_edge": 6195
+          },
+          {
+            "incoming_edge": 484,
+            "candidate_face_ids": [
+              2896
+            ],
+            "unique_quad": true,
+            "face_id": 2896,
+            "vertex_ids": [
+              156,
+              1073,
+              3204,
+              2177
+            ],
+            "outgoing_edge": 6197
+          }
+        ],
+        "valences": {
+          "2177": 4,
+          "2178": 4,
+          "3204": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P23",
+        "face_ids": [
+          2898,
+          2899
+        ],
+        "vertex_ids": [
+          690,
+          695,
+          2158,
+          2177,
+          2178,
+          3204
+        ],
+        "incoming_edge_ids": [
+          6195,
+          6197
+        ],
+        "outgoing_edge_ids": [
+          2655,
+          2654
+        ],
+        "outgoing_vertex_ids": [
+          690,
+          695,
+          2158
+        ],
+        "records": [
+          {
+            "incoming_edge": 6195,
+            "candidate_face_ids": [
+              2898
+            ],
+            "unique_quad": true,
+            "face_id": 2898,
+            "vertex_ids": [
+              3204,
+              2178,
+              695,
+              2158
+            ],
+            "outgoing_edge": 2655
+          },
+          {
+            "incoming_edge": 6197,
+            "candidate_face_ids": [
+              2899
+            ],
+            "unique_quad": true,
+            "face_id": 2899,
+            "vertex_ids": [
+              2177,
+              3204,
+              2158,
+              690
+            ],
+            "outgoing_edge": 2654
+          }
+        ],
+        "valences": {
+          "690": 4,
+          "695": 4,
+          "2158": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P24",
+        "face_ids": [
+          2869,
+          2868
+        ],
+        "vertex_ids": [
+          690,
+          695,
+          2157,
+          2158,
+          2159,
+          3197
+        ],
+        "incoming_edge_ids": [
+          2655,
+          2654
+        ],
+        "outgoing_edge_ids": [
+          6167,
+          6169
+        ],
+        "outgoing_vertex_ids": [
+          2157,
+          2159,
+          3197
+        ],
+        "records": [
+          {
+            "incoming_edge": 2655,
+            "candidate_face_ids": [
+              2869
+            ],
+            "unique_quad": true,
+            "face_id": 2869,
+            "vertex_ids": [
+              2158,
+              695,
+              2159,
+              3197
+            ],
+            "outgoing_edge": 6167
+          },
+          {
+            "incoming_edge": 2654,
+            "candidate_face_ids": [
+              2868
+            ],
+            "unique_quad": true,
+            "face_id": 2868,
+            "vertex_ids": [
+              690,
+              2158,
+              3197,
+              2157
+            ],
+            "outgoing_edge": 6169
+          }
+        ],
+        "valences": {
+          "2157": 4,
+          "2159": 4,
+          "3197": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P25",
+        "face_ids": [
+          2870,
+          2871
+        ],
+        "vertex_ids": [
+          689,
+          696,
+          2157,
+          2159,
+          2160,
+          3197
+        ],
+        "incoming_edge_ids": [
+          6167,
+          6169
+        ],
+        "outgoing_edge_ids": [
+          2658,
+          2659
+        ],
+        "outgoing_vertex_ids": [
+          689,
+          696,
+          2160
+        ],
+        "records": [
+          {
+            "incoming_edge": 6167,
+            "candidate_face_ids": [
+              2870
+            ],
+            "unique_quad": true,
+            "face_id": 2870,
+            "vertex_ids": [
+              3197,
+              2159,
+              696,
+              2160
+            ],
+            "outgoing_edge": 2658
+          },
+          {
+            "incoming_edge": 6169,
+            "candidate_face_ids": [
+              2871
+            ],
+            "unique_quad": true,
+            "face_id": 2871,
+            "vertex_ids": [
+              2157,
+              3197,
+              2160,
+              689
+            ],
+            "outgoing_edge": 2659
+          }
+        ],
+        "valences": {
+          "689": 4,
+          "696": 4,
+          "2160": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P26",
+        "face_ids": [
+          372,
+          375
+        ],
+        "vertex_ids": [
+          689,
+          696,
+          2160,
+          2180,
+          2181,
+          2573
+        ],
+        "incoming_edge_ids": [
+          2658,
+          2659
+        ],
+        "outgoing_edge_ids": [
+          3670,
+          3672
+        ],
+        "outgoing_vertex_ids": [
+          2180,
+          2181,
+          2573
+        ],
+        "records": [
+          {
+            "incoming_edge": 2658,
+            "candidate_face_ids": [
+              372
+            ],
+            "unique_quad": true,
+            "face_id": 372,
+            "vertex_ids": [
+              696,
+              2181,
+              2573,
+              2160
+            ],
+            "outgoing_edge": 3670
+          },
+          {
+            "incoming_edge": 2659,
+            "candidate_face_ids": [
+              375
+            ],
+            "unique_quad": true,
+            "face_id": 375,
+            "vertex_ids": [
+              2160,
+              2573,
+              2180,
+              689
+            ],
+            "outgoing_edge": 3672
+          }
+        ],
+        "valences": {
+          "2180": 4,
+          "2181": 4,
+          "2573": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P27",
+        "face_ids": [
+          373,
+          374
+        ],
+        "vertex_ids": [
+          164,
+          165,
+          1087,
+          2180,
+          2181,
+          2573
+        ],
+        "incoming_edge_ids": [
+          3670,
+          3672
+        ],
+        "outgoing_edge_ids": [
+          513,
+          512
+        ],
+        "outgoing_vertex_ids": [
+          164,
+          165,
+          1087
+        ],
+        "records": [
+          {
+            "incoming_edge": 3670,
+            "candidate_face_ids": [
+              373
+            ],
+            "unique_quad": true,
+            "face_id": 373,
+            "vertex_ids": [
+              2181,
+              165,
+              1087,
+              2573
+            ],
+            "outgoing_edge": 513
+          },
+          {
+            "incoming_edge": 3672,
+            "candidate_face_ids": [
+              374
+            ],
+            "unique_quad": true,
+            "face_id": 374,
+            "vertex_ids": [
+              2573,
+              1087,
+              164,
+              2180
+            ],
+            "outgoing_edge": 512
+          }
+        ],
+        "valences": {
+          "164": 4,
+          "165": 4,
+          "1087": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P28",
+        "face_ids": [
+          469,
+          468
+        ],
+        "vertex_ids": [
+          164,
+          165,
+          1046,
+          1047,
+          1087,
+          2597
+        ],
+        "incoming_edge_ids": [
+          513,
+          512
+        ],
+        "outgoing_edge_ids": [
+          3767,
+          3769
+        ],
+        "outgoing_vertex_ids": [
+          1046,
+          1047,
+          2597
+        ],
+        "records": [
+          {
+            "incoming_edge": 513,
+            "candidate_face_ids": [
+              469
+            ],
+            "unique_quad": true,
+            "face_id": 469,
+            "vertex_ids": [
+              1087,
+              165,
+              1047,
+              2597
+            ],
+            "outgoing_edge": 3767
+          },
+          {
+            "incoming_edge": 512,
+            "candidate_face_ids": [
+              468
+            ],
+            "unique_quad": true,
+            "face_id": 468,
+            "vertex_ids": [
+              164,
+              1087,
+              2597,
+              1046
+            ],
+            "outgoing_edge": 3769
+          }
+        ],
+        "valences": {
+          "1046": 4,
+          "1047": 4,
+          "2597": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P29",
+        "face_ids": [
+          470,
+          471
+        ],
+        "vertex_ids": [
+          130,
+          131,
+          1038,
+          1046,
+          1047,
+          2597
+        ],
+        "incoming_edge_ids": [
+          3767,
+          3769
+        ],
+        "outgoing_edge_ids": [
+          415,
+          414
+        ],
+        "outgoing_vertex_ids": [
+          130,
+          131,
+          1038
+        ],
+        "records": [
+          {
+            "incoming_edge": 3767,
+            "candidate_face_ids": [
+              470
+            ],
+            "unique_quad": true,
+            "face_id": 470,
+            "vertex_ids": [
+              2597,
+              1047,
+              130,
+              1038
+            ],
+            "outgoing_edge": 415
+          },
+          {
+            "incoming_edge": 3769,
+            "candidate_face_ids": [
+              471
+            ],
+            "unique_quad": true,
+            "face_id": 471,
+            "vertex_ids": [
+              1046,
+              2597,
+              1038,
+              131
+            ],
+            "outgoing_edge": 414
+          }
+        ],
+        "valences": {
+          "130": 4,
+          "131": 4,
+          "1038": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P30",
+        "face_ids": [
+          829,
+          828
+        ],
+        "vertex_ids": [
+          130,
+          131,
+          1038,
+          1236,
+          1238,
+          2687
+        ],
+        "incoming_edge_ids": [
+          415,
+          414
+        ],
+        "outgoing_edge_ids": [
+          4127,
+          4129
+        ],
+        "outgoing_vertex_ids": [
+          1236,
+          1238,
+          2687
+        ],
+        "records": [
+          {
+            "incoming_edge": 415,
+            "candidate_face_ids": [
+              829
+            ],
+            "unique_quad": true,
+            "face_id": 829,
+            "vertex_ids": [
+              1038,
+              130,
+              1236,
+              2687
+            ],
+            "outgoing_edge": 4127
+          },
+          {
+            "incoming_edge": 414,
+            "candidate_face_ids": [
+              828
+            ],
+            "unique_quad": true,
+            "face_id": 828,
+            "vertex_ids": [
+              131,
+              1038,
+              2687,
+              1238
+            ],
+            "outgoing_edge": 4129
+          }
+        ],
+        "valences": {
+          "1236": 4,
+          "1238": 4,
+          "2687": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P31",
+        "face_ids": [
+          830,
+          831
+        ],
+        "vertex_ids": [
+          236,
+          238,
+          1236,
+          1238,
+          1241,
+          2687
+        ],
+        "incoming_edge_ids": [
+          4127,
+          4129
+        ],
+        "outgoing_edge_ids": [
+          820,
+          821
+        ],
+        "outgoing_vertex_ids": [
+          236,
+          238,
+          1241
+        ],
+        "records": [
+          {
+            "incoming_edge": 4127,
+            "candidate_face_ids": [
+              830
+            ],
+            "unique_quad": true,
+            "face_id": 830,
+            "vertex_ids": [
+              2687,
+              1236,
+              236,
+              1241
+            ],
+            "outgoing_edge": 820
+          },
+          {
+            "incoming_edge": 4129,
+            "candidate_face_ids": [
+              831
+            ],
+            "unique_quad": true,
+            "face_id": 831,
+            "vertex_ids": [
+              1238,
+              2687,
+              1241,
+              238
+            ],
+            "outgoing_edge": 821
+          }
+        ],
+        "valences": {
+          "236": 4,
+          "238": 4,
+          "1241": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P32",
+        "face_ids": [
+          832,
+          835
+        ],
+        "vertex_ids": [
+          236,
+          238,
+          1239,
+          1241,
+          1243,
+          2688
+        ],
+        "incoming_edge_ids": [
+          820,
+          821
+        ],
+        "outgoing_edge_ids": [
+          4130,
+          4132
+        ],
+        "outgoing_vertex_ids": [
+          1239,
+          1243,
+          2688
+        ],
+        "records": [
+          {
+            "incoming_edge": 820,
+            "candidate_face_ids": [
+              832
+            ],
+            "unique_quad": true,
+            "face_id": 832,
+            "vertex_ids": [
+              236,
+              1239,
+              2688,
+              1241
+            ],
+            "outgoing_edge": 4130
+          },
+          {
+            "incoming_edge": 821,
+            "candidate_face_ids": [
+              835
+            ],
+            "unique_quad": true,
+            "face_id": 835,
+            "vertex_ids": [
+              1241,
+              2688,
+              1243,
+              238
+            ],
+            "outgoing_edge": 4132
+          }
+        ],
+        "valences": {
+          "1239": 4,
+          "1243": 4,
+          "2688": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P33",
+        "face_ids": [
+          833,
+          834
+        ],
+        "vertex_ids": [
+          237,
+          239,
+          1239,
+          1243,
+          1244,
+          2688
+        ],
+        "incoming_edge_ids": [
+          4130,
+          4132
+        ],
+        "outgoing_edge_ids": [
+          827,
+          826
+        ],
+        "outgoing_vertex_ids": [
+          237,
+          239,
+          1244
+        ],
+        "records": [
+          {
+            "incoming_edge": 4130,
+            "candidate_face_ids": [
+              833
+            ],
+            "unique_quad": true,
+            "face_id": 833,
+            "vertex_ids": [
+              1239,
+              237,
+              1244,
+              2688
+            ],
+            "outgoing_edge": 827
+          },
+          {
+            "incoming_edge": 4132,
+            "candidate_face_ids": [
+              834
+            ],
+            "unique_quad": true,
+            "face_id": 834,
+            "vertex_ids": [
+              2688,
+              1244,
+              239,
+              1243
+            ],
+            "outgoing_edge": 826
+          }
+        ],
+        "valences": {
+          "237": 4,
+          "239": 4,
+          "1244": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P34",
+        "face_ids": [
+          872,
+          875
+        ],
+        "vertex_ids": [
+          237,
+          239,
+          1244,
+          1259,
+          1262,
+          2698
+        ],
+        "incoming_edge_ids": [
+          827,
+          826
+        ],
+        "outgoing_edge_ids": [
+          4170,
+          4172
+        ],
+        "outgoing_vertex_ids": [
+          1259,
+          1262,
+          2698
+        ],
+        "records": [
+          {
+            "incoming_edge": 827,
+            "candidate_face_ids": [
+              872
+            ],
+            "unique_quad": true,
+            "face_id": 872,
+            "vertex_ids": [
+              237,
+              1259,
+              2698,
+              1244
+            ],
+            "outgoing_edge": 4170
+          },
+          {
+            "incoming_edge": 826,
+            "candidate_face_ids": [
+              875
+            ],
+            "unique_quad": true,
+            "face_id": 875,
+            "vertex_ids": [
+              1244,
+              2698,
+              1262,
+              239
+            ],
+            "outgoing_edge": 4172
+          }
+        ],
+        "valences": {
+          "1259": 4,
+          "1262": 4,
+          "2698": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": []
+      },
+      {
+        "row_id": "P35",
+        "face_ids": [
+          873,
+          874
+        ],
+        "vertex_ids": [
+          246,
+          247,
+          1259,
+          1261,
+          1262,
+          2698
+        ],
+        "incoming_edge_ids": [
+          4170,
+          4172
+        ],
+        "outgoing_edge_ids": [
+          860,
+          861
+        ],
+        "outgoing_vertex_ids": [
+          246,
+          247,
+          1261
+        ],
+        "records": [
+          {
+            "incoming_edge": 4170,
+            "candidate_face_ids": [
+              873
+            ],
+            "unique_quad": true,
+            "face_id": 873,
+            "vertex_ids": [
+              1259,
+              246,
+              1261,
+              2698
+            ],
+            "outgoing_edge": 860
+          },
+          {
+            "incoming_edge": 4172,
+            "candidate_face_ids": [
+              874
+            ],
+            "unique_quad": true,
+            "face_id": 874,
+            "vertex_ids": [
+              2698,
+              1261,
+              247,
+              1262
+            ],
+            "outgoing_edge": 861
+          }
+        ],
+        "valences": {
+          "246": 4,
+          "247": 3,
+          "1261": 4
+        },
+        "nail_overlap": [],
+        "cap_overlap": [],
+        "event_types": [
+          "OUTGOING_ROW_NONREGULAR_VALENCE"
+        ]
+      }
+    ],
+    "first_structural_or_authority_event": {
+      "type": [
+        "OUTGOING_ROW_NONREGULAR_VALENCE"
+      ],
+      "row": 35,
+      "face_ids": [
+        873,
+        874
+      ],
+      "row_id": "P35",
+      "following_row_negative_control": [
+        {
+          "incoming_edge": 860,
+          "candidate_face_ids": [
+            1923
+          ],
+          "unique_quad": true,
+          "face_id": 1923,
+          "vertex_ids": [
+            1749,
+            2960,
+            1261,
+            246
+          ],
+          "outgoing_edge": 5221
+        },
+        {
+          "incoming_edge": 861,
+          "candidate_face_ids": [
+            1922
+          ],
+          "unique_quad": true,
+          "face_id": 1922,
+          "vertex_ids": [
+            2960,
+            1260,
+            247,
+            1261
+          ],
+          "outgoing_edge": 5219
+        }
+      ]
+    },
+    "event_is_automatically_shared_role_stop": false,
+    "trace_rule": "Unique outward incident quad; continue through its opposite edge; stop audit traversal at first fixed-anchor conflict/nonregular valence/lost correspondence/revisit. No angular or distance threshold."
+  }
+}

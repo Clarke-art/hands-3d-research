@@ -1,0 +1,34 @@
+{
+  "authority": "CODEX_PRELIMINARY; FINAL_HUMAN_REQUIRED",
+  "screened_final_render_count": 36,
+  "screen_method": "All five ordinary-render sheets plus individual target close images",
+  "cases": {
+    "ZERO": {
+      "status": "PRESERVED_ACCEPTED_STATIC_BASIS",
+      "note": "已接受的 ZERO 静态形状保持，native positions 和 Basis 坐标逐点不变，corrective 值均为 0。"
+    },
+    "FULL_OPP_L1": {
+      "status": "NO_VISIBLE_REGRESSION",
+      "note": "局部权重变化后未见明显回退；两项 corrective 在 L1 精确为 0。"
+    },
+    "FULL_OPP_L2": {
+      "status": "IMPROVED_BUT_VISIBLE_ISSUE_REMAINS",
+      "note": "虎口 floor 的过渡比基线柔和，但仍有角状边缘，尚不判自然度通过。"
+    },
+    "FULL_OPP_L3": {
+      "status": "VISIBLE_ISSUE_STILL_PRESENT",
+      "note": "硬折角减弱但仍清楚可见，未达到 Human 要求，停止本轮微调。"
+    }
+  },
+  "new_visible_defects": 0,
+  "residual_known_issue_case_count": 2,
+  "obvious_self_intersection_penetration": 0,
+  "gross_tearing": 0,
+  "gross_contamination": 0,
+  "obvious_flap": 0,
+  "dorsal54_regression": "NO",
+  "palmar16_regression": "NO",
+  "VERDICT": "VISIBLE_ISSUE_STILL_PRESENT",
+  "remaining_route": "MORE_TARGETED_POSE_CORRECTIVE_SUPPORT_REQUIRED; WEIGHT_ONLY_ATTEMPT_INSUFFICIENT",
+  "research_branch_opened": false
+}

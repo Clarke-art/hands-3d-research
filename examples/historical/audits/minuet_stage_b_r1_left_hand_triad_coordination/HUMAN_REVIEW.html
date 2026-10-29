@@ -1,0 +1,17 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Stage B R1 · 左手三音和弦</title>
+<style>body{margin:0;background:#ece9df;color:#283d31;font:16px/1.65 system-ui,"Microsoft YaHei",sans-serif}main{max-width:1200px;margin:30px auto;padding:0 24px}h1{font-size:30px}video,img{width:100%;border-radius:10px}video{background:#18221b}.status{background:#dce3d1;padding:16px;border-left:5px solid #537344}button,select{font:inherit;padding:8px 14px;margin:5px;border:1px solid #a8bba6;border-radius:8px}button{background:#31523c;color:white;cursor:pointer}table{border-collapse:collapse;width:100%}td,th{padding:9px;border-bottom:1px solid #b4c2af;text-align:left}a{color:#315b40}small{color:#52664f}</style>
+<main><h1>左手三指同时触键 · G3 + B3 + D4</h1>
+<div class="status"><strong>DESIGN_ONLY · LEFT_HAND_NATURALNESS = HUMAN_PENDING</strong><br>只有一份新动态候选，一次真实原MIDI和弦。技术触键与同步检查通过，整体自然度仍需Human原速审核。</div>
+<p>仅演示开头左手三音，不是完整小节或双手演奏。原共同持键0.857142秒；呈现添加0.35秒准备及释放回位，总计约1.666667秒。音频只有原三个左手voice，无重奏。</p>
+<table><tr><th>目标</th><th>原MIDI / 键index</th><th>DESIGN_PROVISIONAL指法</th><th>原始事件</th></tr><tr><td>G3</td><td>55 / 34</td><td>左小指5</td><td>tick0→768</td></tr><tr><td>B3</td><td>59 / 38</td><td>左中指3</td><td>tick0→768</td></tr><tr><td>D4</td><td>62 / 41</td><td>左拇指1</td><td>tick0→768</td></tr></table>
+<nav><select id="view"><option value="teaching">正常教学 · 整只左手</option><option value="overhead">俯视 · 三指/三键</option><option value="side_oblique">侧斜 · 下压/释放</option></select><button id="play">从头1×原速带声播放</button><button id="pause">暂停</button><button id="slow">辅助0.5×</button><span id="clock">0.000 / 1.667s · 1×</span></nav>
+<video id="chord" controls playsinline preload="auto" src="normal_speed_teaching.mp4" poster="review_poster.jpg"></video>
+<p><small>三个视角为同一候选、同一时钟。默认1×作为主要审核依据；0.5×仅辅助。完整左手与腕端均在画面内，未只裁取指尖。音名标签不是触键证明，请结合实际手指、键运动与侧视检查。</small></p>
+<p>审核重点：三指是否共同主动演奏；掌腕是否稳定协调；小指与中指曲度是否自然；拇指是否异常外展；食指、无名指是否放松；持键与释放是否连续。明显悬空、钩爪或手型崩坏不能以轻微工程WARN掩盖。</p>
+<p><a href="LEFT_TRIAD_MIDI_AND_FINGERING.md">原MIDI与指法</a> · <a href="LEFT_HAND_MULTI_CONTACT_FEASIBILITY.md">实际左手可达证据</a> · <a href="LEFT_TRIAD_COORDINATED_PLANNING_DESIGN.md">通用联合设计</a> · <a href="IMPLEMENTATION_REPORT.md">实现与Q1–Q12</a> · <a href="TRIAD_CONTACT_AND_NATURALNESS_REVIEW.md">触键/自然度记录</a> · <a href="ENGINEERING_DIAGNOSTICS.json">有限诊断</a> · <a href="FINAL_STATUS.json">最终状态</a> · <a href="STAGE_B_LEFT_TRIAD_DESIGN_ONLY_R1.blend">唯一候选blend</a></p>
+<details><summary>同一候选的准备—下压—持键—释放阶段表（辅助）</summary><img src="phase_sheet_teaching.jpg"><img src="phase_sheet_side_oblique.jpg"><img src="phase_sheet_overhead.jpg"></details>
+<p><small>Stage A R2已按最新Human决定批准且保留工程WARN。本轮不重新审核、不修改其候选、代码、视频或报告。单个和弦的技术结果不代表整个Stage B或长段伴奏通过。</small></p>
+</main><script>
+const v=document.getElementById('chord');document.getElementById('play').onclick=()=>{v.currentTime=0;v.playbackRate=1;v.play()};document.getElementById('pause').onclick=()=>v.pause();document.getElementById('slow').onclick=()=>{v.playbackRate=.5;v.play()};
+document.getElementById('view').onchange=e=>{const t=v.currentTime;v.pause();v.src='normal_speed_'+e.target.value+'.mp4';v.addEventListener('loadedmetadata',()=>{v.currentTime=t;v.playbackRate=1},{once:true})};v.ontimeupdate=()=>document.getElementById('clock').textContent=v.currentTime.toFixed(3)+' / 1.667s · '+v.playbackRate+'×';
+</script></html>

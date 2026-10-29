@@ -1,0 +1,2221 @@
+{
+  "review": "NARROW_ANATOMICAL_EVIDENCE_REVIEW",
+  "generated_at": "2026-10-01T20:10:01.279160+08:00",
+  "read_only": true,
+  "body_vertex_ids": [
+    2153,
+    2155,
+    2157,
+    2159,
+    2161,
+    2163,
+    2166,
+    2169,
+    3196,
+    3197,
+    3198,
+    3199,
+    3200,
+    3201,
+    3202,
+    3203
+  ],
+  "index_side_vertex_ids": [
+    689,
+    692,
+    693,
+    696,
+    698,
+    699,
+    702,
+    704,
+    2156,
+    2160,
+    2164,
+    2167,
+    2170,
+    2172,
+    2174,
+    2176
+  ],
+  "C0": [
+    689,
+    692,
+    693,
+    696,
+    698,
+    699,
+    702,
+    704,
+    2153,
+    2155,
+    2156,
+    2157,
+    2159,
+    2160,
+    2161,
+    2163,
+    2164,
+    2166,
+    2167,
+    2169,
+    2170,
+    2172,
+    2174,
+    2176,
+    3196,
+    3197,
+    3198,
+    3199,
+    3200,
+    3201,
+    3202,
+    3203
+  ],
+  "C1": [
+    690,
+    691,
+    694,
+    695,
+    697,
+    700,
+    701,
+    703,
+    2154,
+    2158,
+    2162,
+    2165,
+    2168,
+    2171,
+    2173,
+    2175,
+    2179,
+    2180,
+    2181,
+    2185,
+    2186,
+    2188,
+    2190,
+    2191,
+    2568,
+    2573,
+    2584,
+    2585,
+    2586,
+    2587,
+    2589,
+    2590
+  ],
+  "C2": [
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    1079,
+    1080,
+    1082,
+    1084,
+    1085,
+    1087,
+    1089,
+    1090,
+    2177,
+    2178,
+    2182,
+    2183,
+    2184,
+    2187,
+    2189,
+    2192,
+    2569,
+    2570,
+    2571,
+    2574,
+    2575,
+    2588,
+    2591,
+    3204
+  ],
+  "R3_cut_set": [
+    {
+      "edge_id": 2644,
+      "vertices": [
+        693,
+        2153
+      ]
+    },
+    {
+      "edge_id": 2649,
+      "vertices": [
+        2155,
+        702
+      ]
+    },
+    {
+      "edge_id": 2652,
+      "vertices": [
+        689,
+        2157
+      ]
+    },
+    {
+      "edge_id": 2657,
+      "vertices": [
+        2159,
+        696
+      ]
+    },
+    {
+      "edge_id": 2660,
+      "vertices": [
+        699,
+        2161
+      ]
+    },
+    {
+      "edge_id": 2665,
+      "vertices": [
+        2163,
+        698
+      ]
+    },
+    {
+      "edge_id": 2671,
+      "vertices": [
+        2166,
+        692
+      ]
+    },
+    {
+      "edge_id": 2677,
+      "vertices": [
+        2169,
+        704
+      ]
+    },
+    {
+      "edge_id": 6164,
+      "vertices": [
+        2156,
+        3196
+      ]
+    },
+    {
+      "edge_id": 6168,
+      "vertices": [
+        2160,
+        3197
+      ]
+    },
+    {
+      "edge_id": 6172,
+      "vertices": [
+        2164,
+        3198
+      ]
+    },
+    {
+      "edge_id": 6176,
+      "vertices": [
+        2167,
+        3199
+      ]
+    },
+    {
+      "edge_id": 6180,
+      "vertices": [
+        2170,
+        3200
+      ]
+    },
+    {
+      "edge_id": 6184,
+      "vertices": [
+        2172,
+        3201
+      ]
+    },
+    {
+      "edge_id": 6188,
+      "vertices": [
+        2174,
+        3202
+      ]
+    },
+    {
+      "edge_id": 6192,
+      "vertices": [
+        2176,
+        3203
+      ]
+    }
+  ],
+  "cluster_count": 4,
+  "cluster_counts": {
+    "DORSAL": 4,
+    "PALMAR": 5,
+    "RADIAL": 3,
+    "ULNAR": 4
+  },
+  "clustering_method": {
+    "geometry_basis": "Identical vertex and polygon ordering in the pre-RSSF Stage4A R2 and current static R1B asset. PCA plane fitted to exact 16 pre-RSSF body vertices. The smallest eigenvector points distally; canonical +Y projected into plane is dorsal; dorsal cross distal is radial. Select largest signed area-weighted vertex-normal dot product among dorsal/palmar/radial/ulnar. No weight, R3 name, or nearest bone selects the sector.",
+    "tie_rule": "CNAMES order DORSAL, PALMAR, RADIAL, ULNAR; no equal scores occurred",
+    "PCA_eigenvalues_m2": [
+      5.0180782769368e-08,
+      4.450085051686266e-05,
+      5.2581442213579716e-05
+    ],
+    "pre_frame": {
+      "distal": [
+        0.20305036201351317,
+        -0.11839065288769768,
+        0.9719846726132085
+      ],
+      "dorsal": [
+        0.02420952822096661,
+        0.9929670957835535,
+        0.1158889357725471
+      ],
+      "radial": [
+        0.978868964279438,
+        3.469446951953614e-18,
+        -0.20448851011854072
+      ]
+    },
+    "current_live_index_frame": {
+      "distal": [
+        0.4079705151546265,
+        -0.6649696951143372,
+        0.6256000026726456
+      ],
+      "dorsal": [
+        0.36323310030592615,
+        0.7468703398713497,
+        0.5569976752757589
+      ],
+      "radial": [
+        0.8376286609271519,
+        0.0,
+        -0.5462400812768926
+      ]
+    },
+    "frame_crosscheck": "Current frame uses live MCP→PIP geometry and projected canonical dorsal. Sector changes near an angular border are recorded; source/pre-RSSF sector is the primary assignment. Static mesh shape changed historically, so this is not a posed-motion experiment.",
+    "canonical_authority": "stage4a_r2/R2_AUDIT.json frame; docs/CANONICAL_HAND_POSE_SPEC_R1.md (Stage2 source axes differ).",
+    "anatomy_step": "PCA/normal sectors are geometric clusters. Literature-based candidate tissue roles are assigned separately; none is a histological segmentation.",
+    "weights_used_for_clustering": false,
+    "neighbor_context": "C0/C1/C2 topology and approved WEB, frozen CAP, historical THENAR proxy checked. No direct web edge on any body vertex. The geodesic distance is descriptive and never used to reject a real commissure extension."
+  },
+  "clusters": [
+    {
+      "cluster": "DORSAL",
+      "vertex_ids": [
+        2153,
+        2169,
+        3196,
+        3203
+      ],
+      "vertex_count": 4,
+      "proposed_anatomical_identity": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "identity_status": "CANDIDATE_REGIONAL_CORRESPONDENCE",
+      "supporting_sources": [
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": "MEDIUM for regional identity; UNRESOLVED for driver authority",
+      "conflicting_evidence": [
+        "A dorsal first-web flap exists, but a circumferential phalangeal ring is not its demonstrated MCP donor footprint.",
+        "Dorsal PIP attachments cannot be mapped exactly to a ring proximal to PIP."
+      ],
+      "registered_human_tissue_boundary": false,
+      "allowed_new_thumb_groups": [],
+      "CMC_verdict": "UNRESOLVED",
+      "MCP_verdict": "UNRESOLVED"
+    },
+    {
+      "cluster": "PALMAR",
+      "vertex_ids": [
+        2157,
+        2161,
+        2163,
+        3198,
+        3201
+      ],
+      "vertex_count": 5,
+      "proposed_anatomical_identity": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "identity_status": "CANDIDATE_REGIONAL_CORRESPONDENCE",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": "MEDIUM for regional identity; UNRESOLVED for driver authority",
+      "conflicting_evidence": [
+        "Volar digital surface and thenar skin are both soft tissues; continuity alone does not equate their drivers.",
+        "S5 studied other long fingers and cannot prove the index-specific fascial insertion."
+      ],
+      "registered_human_tissue_boundary": false,
+      "allowed_new_thumb_groups": [],
+      "CMC_verdict": "UNRESOLVED",
+      "MCP_verdict": "UNRESOLVED"
+    },
+    {
+      "cluster": "RADIAL",
+      "vertex_ids": [
+        2159,
+        3197,
+        3200
+      ],
+      "vertex_count": 3,
+      "proposed_anatomical_identity": "Radial index proximal-phalanx lateral integument; possible commissure-facing extension remains unregistered",
+      "identity_status": "CANDIDATE_REGIONAL_CORRESPONDENCE",
+      "supporting_sources": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": "MEDIUM for regional identity; UNRESOLVED for driver authority",
+      "conflicting_evidence": [
+        "S3 donor corridor reaches radiodorsal index MCP; the present ring lies farther along the proximal phalanx.",
+        "No human commissure margin/skin crease registration exists, so some radial extension cannot be categorically excluded."
+      ],
+      "registered_human_tissue_boundary": false,
+      "allowed_new_thumb_groups": [],
+      "CMC_verdict": "UNRESOLVED",
+      "MCP_verdict": "UNRESOLVED"
+    },
+    {
+      "cluster": "ULNAR",
+      "vertex_ids": [
+        2155,
+        2166,
+        3199,
+        3202
+      ],
+      "vertex_count": 4,
+      "proposed_anatomical_identity": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "identity_status": "CANDIDATE_REGIONAL_CORRESPONDENCE",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": "MEDIUM for regional identity; UNRESOLVED for driver authority",
+      "conflicting_evidence": [
+        "General fascial continuity does not imply thumb opposition drive on the far side of the index tube.",
+        "S4/S5 long-finger homology does not prove a model-specific thumb coupling is zero."
+      ],
+      "registered_human_tissue_boundary": false,
+      "allowed_new_thumb_groups": [],
+      "CMC_verdict": "UNRESOLVED",
+      "MCP_verdict": "UNRESOLVED"
+    }
+  ],
+  "vertices": [
+    {
+      "vertex_id": 2153,
+      "R3_ownership": "THUMB",
+      "cluster": "DORSAL",
+      "model_surface_location": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "candidate_real_anatomical_structure": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "bind_world_mm": [
+        1453.1208276748657,
+        11.929879896342754,
+        505.3892731666565
+      ],
+      "pre_RSSF_world_mm": [
+        1449.5766162872314,
+        21.110838279128075,
+        500.9484887123108
+      ],
+      "surface_normal_bind": [
+        0.09412344264297073,
+        0.5963263998966372,
+        0.7972048684819677
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.04306621920935931,
+        0.9218636865391696,
+        0.38511380682004
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": 0.9589681239054888,
+        "PALMAR": -0.9589681239054888,
+        "RADIAL": -0.12090753397560626,
+        "ULNAR": 0.12090753397560626
+      },
+      "cluster_margin": 0.8380605899298825,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "DORSAL",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": -2.899650413402278,
+        "dorsal": 11.978371797358875,
+        "distal": 21.62903996033644
+      },
+      "MCP_to_PIP_axial_fraction": 0.6864680716768734,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 114.73186964698417,
+        "THUMB_MCP_R": 69.30640373249125,
+        "THUMB_IP_R": 41.85398788437629,
+        "INDEX_MCP_R": 24.8938693866891,
+        "INDEX_PIP_R": 15.794859052905018
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 2848,
+          "euclidean_mm": 44.26551722756154,
+          "edge_graph_distance": 13,
+          "surface_edge_geodesic_mm": 61.32475541993091,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2189,
+          "euclidean_mm": 9.552639660467742,
+          "edge_graph_distance": 2,
+          "surface_edge_geodesic_mm": 9.645385229173243,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 1447,
+          "euclidean_mm": 73.37572048917396,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 86.2246877179076,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        693,
+        694,
+        3196,
+        3203
+      ],
+      "incident_face_ids": [
+        2864,
+        2867,
+        2893,
+        2894
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "A dorsal first-web flap exists, but a circumferential phalangeal ring is not its demonstrated MCP donor footprint.",
+        "Dorsal PIP attachments cannot be mapped exactly to a ring proximal to PIP."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 2155,
+      "R3_ownership": "THUMB",
+      "cluster": "ULNAR",
+      "model_surface_location": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "candidate_real_anatomical_structure": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "bind_world_mm": [
+        1445.6979036331177,
+        8.766839280724525,
+        504.24695014953613
+      ],
+      "pre_RSSF_world_mm": [
+        1442.64817237854,
+        16.79660752415657,
+        501.2855529785156
+      ],
+      "surface_normal_bind": [
+        -0.6840297023287318,
+        0.22328116780575888,
+        0.6944414204490997
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.7839287850943436,
+        0.46086583717220475,
+        0.41600281252422955
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": 0.48685618905858996,
+        "PALMAR": -0.48685618905858996,
+        "RADIAL": -0.8524313532723405,
+        "ULNAR": 0.8524313532723405
+      },
+      "cluster_margin": 0.3655751642137506,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "ULNAR",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": -8.493321720939365,
+        "dorsal": 6.283467599775634,
+        "distal": 19.989394686309222
+      },
+      "MCP_to_PIP_axial_fraction": 0.6344285853400026,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 112.78776272019246,
+        "THUMB_MCP_R": 68.27488016572192,
+        "THUMB_IP_R": 40.66139109121429,
+        "INDEX_MCP_R": 22.609608109338335,
+        "INDEX_PIP_R": 15.629784656332953
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 2848,
+          "euclidean_mm": 41.34387109538217,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 53.21990576053877,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2189,
+          "euclidean_mm": 11.77840224501148,
+          "edge_graph_distance": 4,
+          "surface_edge_geodesic_mm": 17.805553497334174,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 646,
+          "euclidean_mm": 71.22343688794278,
+          "edge_graph_distance": 14,
+          "surface_edge_geodesic_mm": 80.00453155813227,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        701,
+        702,
+        3196,
+        3199
+      ],
+      "incident_face_ids": [
+        2865,
+        2866,
+        2876,
+        2879
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "General fascial continuity does not imply thumb opposition drive on the far side of the index tube.",
+        "S4/S5 long-finger homology does not prove a model-specific thumb coupling is zero."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 2157,
+      "R3_ownership": "THUMB",
+      "cluster": "PALMAR",
+      "model_surface_location": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "candidate_real_anatomical_structure": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "bind_world_mm": [
+        1458.6601257324219,
+        0.9879749268293381,
+        492.1233355998993
+      ],
+      "pre_RSSF_world_mm": [
+        1457.723617553711,
+        5.105212796479464,
+        496.91325426101685
+      ],
+      "surface_normal_bind": [
+        0.4972702218238037,
+        -0.5171116405504925,
+        -0.6966475993603102
+      ],
+      "surface_normal_pre_RSSF": [
+        0.588120198794016,
+        -0.7501106327478809,
+        -0.30240481214600556
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": -0.7656424358181003,
+        "PALMAR": 0.7656424358181003,
+        "RADIAL": 0.6375309193537295,
+        "ULNAR": -0.6375309193537295
+      },
+      "cluster_margin": 0.1281115164643708,
+      "sector_boundary_caution": true,
+      "current_live_index_frame_sector": "RADIAL",
+      "current_vs_pre_sector_agree": false,
+      "local_index_coordinates_mm": {
+        "radial": 8.986611215704492,
+        "dorsal": -1.5708524641340231,
+        "distal": 22.865774876801574
+      },
+      "MCP_to_PIP_axial_fraction": 0.7257198847410754,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 101.87007948240243,
+        "THUMB_MCP_R": 55.444097491847906,
+        "THUMB_IP_R": 29.632697850924757,
+        "INDEX_MCP_R": 24.61849750335856,
+        "INDEX_PIP_R": 12.566219704503169
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1396,
+          "euclidean_mm": 35.33487825696413,
+          "edge_graph_distance": 12,
+          "surface_edge_geodesic_mm": 45.91183607713821,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2192,
+          "euclidean_mm": 15.582633675939734,
+          "edge_graph_distance": 6,
+          "surface_edge_geodesic_mm": 23.325425950435285,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 646,
+          "euclidean_mm": 65.75722535793619,
+          "edge_graph_distance": 16,
+          "surface_edge_geodesic_mm": 74.90652335935916,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        689,
+        690,
+        3197,
+        3201
+      ],
+      "incident_face_ids": [
+        2868,
+        2871,
+        2885,
+        2886
+      ],
+      "neighbor_semantic_context": {
+        "INDEX_ROOT": 1,
+        "THUMB_DISTAL": 3
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "MEDIUM",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "Volar digital surface and thenar skin are both soft tissues; continuity alone does not equate their drivers.",
+        "S5 studied other long fingers and cannot prove the index-specific fascial insertion."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 2159,
+      "R3_ownership": "THUMB",
+      "cluster": "RADIAL",
+      "model_surface_location": "Radial index proximal-phalanx lateral integument; possible commissure-facing extension remains unregistered",
+      "candidate_real_anatomical_structure": "Radial index proximal-phalanx lateral integument; possible commissure-facing extension remains unregistered",
+      "bind_world_mm": [
+        1462.7083539962769,
+        6.256969645619392,
+        495.20254135131836
+      ],
+      "pre_RSSF_world_mm": [
+        1460.9341621398926,
+        11.679010465741158,
+        496.7137575149536
+      ],
+      "surface_normal_bind": [
+        0.9568373992286694,
+        0.07769094808551079,
+        -0.28004697467191175
+      ],
+      "surface_normal_pre_RSSF": [
+        0.9815927200297236,
+        0.033627151816217525,
+        -0.1880025176570186
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": 0.03536714024164575,
+        "PALMAR": -0.03536714024164575,
+        "RADIAL": 0.9992950039339503,
+        "ULNAR": -0.9992950039339503
+      },
+      "cluster_margin": 0.9639278636923045,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "RADIAL",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": 10.695537635561362,
+        "dorsal": 5.549964360531339,
+        "distal": 22.93996196167453
+      },
+      "MCP_to_PIP_axial_fraction": 0.728074453653494,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 105.78411114886873,
+        "THUMB_MCP_R": 59.15564313726066,
+        "THUMB_IP_R": 33.375243990031365,
+        "INDEX_MCP_R": 25.912130065279307,
+        "INDEX_PIP_R": 14.785229517710388
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1399,
+          "euclidean_mm": 38.68830405030387,
+          "edge_graph_distance": 11,
+          "surface_edge_geodesic_mm": 44.75935869225228,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2192,
+          "euclidean_mm": 11.155628416647863,
+          "edge_graph_distance": 4,
+          "surface_edge_geodesic_mm": 16.41137989167495,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 1447,
+          "euclidean_mm": 68.67499351415863,
+          "edge_graph_distance": 14,
+          "surface_edge_geodesic_mm": 72.77652655398265,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        695,
+        696,
+        3197,
+        3200
+      ],
+      "incident_face_ids": [
+        2869,
+        2870,
+        2880,
+        2883
+      ],
+      "neighbor_semantic_context": {
+        "INDEX_ROOT": 1,
+        "THUMB_DISTAL": 3
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "S3 donor corridor reaches radiodorsal index MCP; the present ring lies farther along the proximal phalanx.",
+        "No human commissure margin/skin crease registration exists, so some radial extension cannot be categorically excluded."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 2161,
+      "R3_ownership": "THUMB",
+      "cluster": "PALMAR",
+      "model_surface_location": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "candidate_real_anatomical_structure": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "bind_world_mm": [
+        1446.7400312423706,
+        -0.542348250746727,
+        495.512992143631
+      ],
+      "pre_RSSF_world_mm": [
+        1445.5301761627197,
+        4.347354173660278,
+        499.4882345199585
+      ],
+      "surface_normal_bind": [
+        -0.5715082308730647,
+        -0.7159396744553765,
+        -0.4010096315365373
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.4619843089917524,
+        -0.8840350028101892,
+        -0.07108172797422523
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": -0.8972396772854253,
+        "PALMAR": 0.8972396772854253,
+        "RADIAL": -0.43768670540600785,
+        "ULNAR": 0.43768670540600785
+      },
+      "cluster_margin": 0.45955297187941746,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "PALMAR",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": -2.849567836071023,
+        "dorsal": -5.155547518602358,
+        "distal": 21.14091546664059
+      },
+      "MCP_to_PIP_axial_fraction": 0.6709758500831219,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 103.87803509872663,
+        "THUMB_MCP_R": 59.131719076967705,
+        "THUMB_IP_R": 32.472438992529746,
+        "INDEX_MCP_R": 21.94625284271966,
+        "INDEX_PIP_R": 11.92351573962189
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1396,
+          "euclidean_mm": 34.51901801174355,
+          "edge_graph_distance": 11,
+          "surface_edge_geodesic_mm": 39.05593289736232,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2189,
+          "euclidean_mm": 19.21605687096589,
+          "edge_graph_distance": 8,
+          "surface_edge_geodesic_mm": 30.981807870555425,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 646,
+          "euclidean_mm": 64.1954618186009,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 70.67525970584236,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        699,
+        700,
+        3198,
+        3202
+      ],
+      "incident_face_ids": [
+        2872,
+        2875,
+        2889,
+        2890
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "Volar digital surface and thenar skin are both soft tissues; continuity alone does not equate their drivers.",
+        "S5 studied other long fingers and cannot prove the index-specific fascial insertion."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 2163,
+      "R3_ownership": "THUMB",
+      "cluster": "PALMAR",
+      "model_surface_location": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "candidate_real_anatomical_structure": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "bind_world_mm": [
+        1452.4599313735962,
+        -1.1274013668298721,
+        492.98009276390076
+      ],
+      "pre_RSSF_world_mm": [
+        1451.5745639801025,
+        3.2796263694763184,
+        498.25018644332886
+      ],
+      "surface_normal_bind": [
+        -0.15822492850847086,
+        -0.7505333231605165,
+        -0.6416109435040217
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.062732277142579,
+        -0.9737359025800528,
+        -0.21886766191266493
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": -0.9937707704930254,
+        "PALMAR": 0.9937707704930254,
+        "RADIAL": -0.016650757055797636,
+        "ULNAR": 0.016650757055797636
+      },
+      "cluster_margin": 0.9771200134372278,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "PALMAR",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": 3.325155614534534,
+        "dorsal": -4.925668346365971,
+        "distal": 22.27892680330844
+      },
+      "MCP_to_PIP_axial_fraction": 0.7070943486046184,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 101.85152271112975,
+        "THUMB_MCP_R": 56.19306288493572,
+        "THUMB_IP_R": 29.915954183028678,
+        "INDEX_MCP_R": 23.057958453133644,
+        "INDEX_PIP_R": 10.976765888896466
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1396,
+          "euclidean_mm": 33.89416501939092,
+          "edge_graph_distance": 11,
+          "surface_edge_geodesic_mm": 39.18810346997995,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2192,
+          "euclidean_mm": 18.414953197476734,
+          "edge_graph_distance": 8,
+          "surface_edge_geodesic_mm": 29.930077624109227,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 646,
+          "euclidean_mm": 64.07064560567287,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 68.40463946534265,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        697,
+        698,
+        3198,
+        3201
+      ],
+      "incident_face_ids": [
+        2873,
+        2874,
+        2884,
+        2887
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "Volar digital surface and thenar skin are both soft tissues; continuity alone does not equate their drivers.",
+        "S5 studied other long fingers and cannot prove the index-specific fascial insertion."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 2166,
+      "R3_ownership": "THUMB",
+      "cluster": "ULNAR",
+      "model_surface_location": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "candidate_real_anatomical_structure": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "bind_world_mm": [
+        1443.747639656067,
+        3.450075164437294,
+        499.88269805908203
+      ],
+      "pre_RSSF_world_mm": [
+        1441.706895828247,
+        9.619871154427528,
+        500.58162212371826
+      ],
+      "surface_normal_bind": [
+        -0.9205651509423328,
+        -0.27953729064847566,
+        0.27279792155995186
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.9378245473851654,
+        -0.20094211100759635,
+        0.28303248284538024
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": -0.18943286100805296,
+        "PALMAR": 0.18943286100805296,
+        "RADIAL": -0.9758842341069529,
+        "ULNAR": 0.9758842341069529
+      },
+      "cluster_margin": 0.7864513730989,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "ULNAR",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": -7.742989307888375,
+        "dorsal": -0.8267445222710328,
+        "distal": 19.998955380854486
+      },
+      "MCP_to_PIP_axial_fraction": 0.6347320251394766,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 108.12884093926142,
+        "THUMB_MCP_R": 63.87676421888649,
+        "THUMB_IP_R": 36.67765008765077,
+        "INDEX_MCP_R": 21.461491240186167,
+        "INDEX_PIP_R": 13.895644084795302
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1396,
+          "euclidean_mm": 37.5381079777063,
+          "edge_graph_distance": 13,
+          "surface_edge_geodesic_mm": 45.935409914387144,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2189,
+          "euclidean_mm": 16.062522360083566,
+          "edge_graph_distance": 6,
+          "surface_edge_geodesic_mm": 24.378177069221472,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 2850,
+          "euclidean_mm": 66.60188490776183,
+          "edge_graph_distance": 16,
+          "surface_edge_geodesic_mm": 77.55473672286719,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        691,
+        692,
+        3199,
+        3202
+      ],
+      "incident_face_ids": [
+        2877,
+        2878,
+        2888,
+        2891
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "General fascial continuity does not imply thumb opposition drive on the far side of the index tube.",
+        "S4/S5 long-finger homology does not prove a model-specific thumb coupling is zero."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 2169,
+      "R3_ownership": "THUMB",
+      "cluster": "DORSAL",
+      "model_surface_location": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "candidate_real_anatomical_structure": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "bind_world_mm": [
+        1460.274577140808,
+        10.737184435129166,
+        501.11740827560425
+      ],
+      "pre_RSSF_world_mm": [
+        1457.345724105835,
+        18.579978495836258,
+        498.7206757068634
+      ],
+      "surface_normal_bind": [
+        0.7361968100693644,
+        0.5442388385477511,
+        0.4022665080017063
+      ],
+      "surface_normal_pre_RSSF": [
+        0.6570357898283937,
+        0.7425706666482487,
+        0.1299722120999506
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": 0.7683171061120714,
+        "PALMAR": -0.7683171061120714,
+        "RADIAL": 0.6165741190747124,
+        "ULNAR": -0.6165741190747124
+      },
+      "cluster_margin": 0.151742987037359,
+      "sector_boundary_caution": true,
+      "current_live_index_frame_sector": "DORSAL",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": 5.425998997655652,
+        "dorsal": 11.306642716797148,
+        "distal": 22.668186465192072
+      },
+      "MCP_to_PIP_axial_fraction": 0.7194487725626336,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 111.41485345127117,
+        "THUMB_MCP_R": 65.19661508544365,
+        "THUMB_IP_R": 38.56795951861423,
+        "INDEX_MCP_R": 25.906144295679724,
+        "INDEX_PIP_R": 15.343366289659077
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1399,
+          "euclidean_mm": 42.3539751346594,
+          "edge_graph_distance": 13,
+          "surface_edge_geodesic_mm": 52.7579336361058,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2192,
+          "euclidean_mm": 8.887929018212127,
+          "edge_graph_distance": 2,
+          "surface_edge_geodesic_mm": 8.928048570762801,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 1447,
+          "euclidean_mm": 71.93659551622576,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 80.07210752599684,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        703,
+        704,
+        3200,
+        3203
+      ],
+      "incident_face_ids": [
+        2881,
+        2882,
+        2892,
+        2895
+      ],
+      "neighbor_semantic_context": {
+        "INDEX_ROOT": 1,
+        "THUMB_DISTAL": 3
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "MEDIUM",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "A dorsal first-web flap exists, but a circumferential phalangeal ring is not its demonstrated MCP donor footprint.",
+        "Dorsal PIP attachments cannot be mapped exactly to a ring proximal to PIP."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 3196,
+      "R3_ownership": "THUMB",
+      "cluster": "DORSAL",
+      "model_surface_location": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "candidate_real_anatomical_structure": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "bind_world_mm": [
+        1448.7720727920532,
+        10.800924152135849,
+        505.49519062042236
+      ],
+      "pre_RSSF_world_mm": [
+        1445.3544616699219,
+        19.62956041097641,
+        501.3536214828491
+      ],
+      "surface_normal_bind": [
+        -0.3241587132094828,
+        0.47119868301330003,
+        0.8203005118716579
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.45935965181787936,
+        0.7768018246319632,
+        0.43077562086335547
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": 0.81013989960852,
+        "PALMAR": -0.81013989960852,
+        "RADIAL": -0.5377415715124678,
+        "ULNAR": 0.5377415715124678
+      },
+      "cluster_margin": 0.27239832809605213,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "ULNAR",
+      "current_vs_pre_sector_agree": false,
+      "local_index_coordinates_mm": {
+        "radial": -6.600148501146635,
+        "dorsal": 9.61457229394755,
+        "distal": 20.671859506896077
+      },
+      "MCP_to_PIP_axial_fraction": 0.6560888305582223,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 114.3553351297262,
+        "THUMB_MCP_R": 69.44637056388314,
+        "THUMB_IP_R": 41.808646894259,
+        "INDEX_MCP_R": 23.7345262456528,
+        "INDEX_PIP_R": 15.919098979357397
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 2848,
+          "euclidean_mm": 43.0994660319265,
+          "edge_graph_distance": 14,
+          "surface_edge_geodesic_mm": 57.11170759966332,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2189,
+          "euclidean_mm": 10.092961874333785,
+          "edge_graph_distance": 3,
+          "surface_edge_geodesic_mm": 14.128309014311215,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 1447,
+          "euclidean_mm": 72.61885362022561,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 83.20171054752383,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        2153,
+        2154,
+        2155,
+        2156
+      ],
+      "incident_face_ids": [
+        2864,
+        2865,
+        2866,
+        2867
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "MEDIUM",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "A dorsal first-web flap exists, but a circumferential phalangeal ring is not its demonstrated MCP donor footprint.",
+        "Dorsal PIP attachments cannot be mapped exactly to a ring proximal to PIP."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 3197,
+      "R3_ownership": "THUMB",
+      "cluster": "RADIAL",
+      "model_surface_location": "Radial index proximal-phalanx lateral integument; possible commissure-facing extension remains unregistered",
+      "candidate_real_anatomical_structure": "Radial index proximal-phalanx lateral integument; possible commissure-facing extension remains unregistered",
+      "bind_world_mm": [
+        1461.3041877746582,
+        3.4031737595796585,
+        493.1797683238983
+      ],
+      "pre_RSSF_world_mm": [
+        1460.0334167480469,
+        7.975450716912746,
+        496.61487340927124
+      ],
+      "surface_normal_bind": [
+        0.7844900841905933,
+        -0.2622449099684776,
+        -0.5619634463221437
+      ],
+      "surface_normal_pre_RSSF": [
+        0.8625726998039175,
+        -0.4221413987315721,
+        -0.27886372483694005
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": -0.43060726088687923,
+        "PALMAR": 0.43060726088687923,
+        "RADIAL": 0.9013700728907919,
+        "ULNAR": -0.9013700728907919
+      },
+      "cluster_margin": 0.4707628120039126,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "RADIAL",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": 10.624287466530426,
+        "dorsal": 1.7818293332945097,
+        "distal": 22.999344513776297
+      },
+      "MCP_to_PIP_axial_fraction": 0.7299591524707927,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 103.42251205753259,
+        "THUMB_MCP_R": 56.801372591448335,
+        "THUMB_IP_R": 31.110687149516938,
+        "INDEX_MCP_R": 25.39724882753713,
+        "INDEX_PIP_R": 13.727445443090998
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1399,
+          "euclidean_mm": 37.12059356254247,
+          "edge_graph_distance": 11,
+          "surface_edge_geodesic_mm": 43.295148118084214,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2192,
+          "euclidean_mm": 13.443096283997459,
+          "edge_graph_distance": 5,
+          "surface_edge_geodesic_mm": 20.112206242862122,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 1447,
+          "euclidean_mm": 67.15663865361886,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 73.54023414208174,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        2157,
+        2158,
+        2159,
+        2160
+      ],
+      "incident_face_ids": [
+        2868,
+        2869,
+        2870,
+        2871
+      ],
+      "neighbor_semantic_context": {
+        "INDEX_ROOT": 1,
+        "THUMB_DISTAL": 3
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "S3 donor corridor reaches radiodorsal index MCP; the present ring lies farther along the proximal phalanx.",
+        "No human commissure margin/skin crease registration exists, so some radial extension cannot be categorically excluded."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 3198,
+      "R3_ownership": "THUMB",
+      "cluster": "PALMAR",
+      "model_surface_location": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "candidate_real_anatomical_structure": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "bind_world_mm": [
+        1449.5112895965576,
+        -1.0388661175966263,
+        494.2886233329773
+      ],
+      "pre_RSSF_world_mm": [
+        1448.4641551971436,
+        3.712553530931473,
+        499.0161061286926
+      ],
+      "surface_normal_bind": [
+        -0.3292324821831818,
+        -0.7465545087109389,
+        -0.5781542512157716
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.2050263816681833,
+        -0.960223983707715,
+        -0.18956287593444637
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": -0.9804026523310289,
+        "PALMAR": 0.9804026523310289,
+        "RADIAL": -0.16193053179987463,
+        "ULNAR": 0.16193053179987463
+      },
+      "cluster_margin": 0.8184721205311543,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "PALMAR",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": 0.14051690687418883,
+        "dorsal": -5.201739804042943,
+        "distal": 21.835711368345578
+      },
+      "MCP_to_PIP_axial_fraction": 0.6930274623473307,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 102.86052186674537,
+        "THUMB_MCP_R": 57.65310214098874,
+        "THUMB_IP_R": 31.152910141076664,
+        "INDEX_MCP_R": 22.447185412692132,
+        "INDEX_PIP_R": 10.982963398237283
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1396,
+          "euclidean_mm": 34.13619272661689,
+          "edge_graph_distance": 10,
+          "surface_edge_geodesic_mm": 35.98583813624272,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2192,
+          "euclidean_mm": 19.361251690493738,
+          "edge_graph_distance": 9,
+          "surface_edge_geodesic_mm": 33.15724032063721,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 646,
+          "euclidean_mm": 64.10012246676641,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 68.7346570320861,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        2161,
+        2162,
+        2163,
+        2164
+      ],
+      "incident_face_ids": [
+        2872,
+        2873,
+        2874,
+        2875
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "Volar digital surface and thenar skin are both soft tissues; continuity alone does not equate their drivers.",
+        "S5 studied other long fingers and cannot prove the index-specific fascial insertion."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 3199,
+      "R3_ownership": "THUMB",
+      "cluster": "ULNAR",
+      "model_surface_location": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "candidate_real_anatomical_structure": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "bind_world_mm": [
+        1444.0257549285889,
+        6.0947127640247345,
+        502.1888017654419
+      ],
+      "pre_RSSF_world_mm": [
+        1441.4770603179932,
+        13.167614117264748,
+        501.0035037994385
+      ],
+      "surface_normal_bind": [
+        -0.872828723018739,
+        -0.050366848030205635,
+        0.48542064324972783
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.927868276991904,
+        0.10469646244125971,
+        0.3579093618562685
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": 0.1229746240604888,
+        "PALMAR": -0.1229746240604888,
+        "RADIAL": -0.9814498114502778,
+        "ULNAR": 0.9814498114502778
+      },
+      "cluster_margin": 0.858475187389789,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "ULNAR",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": -8.769718260577362,
+        "dorsal": 2.533971936637229,
+        "distal": 19.7965128384342
+      },
+      "MCP_to_PIP_axial_fraction": 0.6283068513002557,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 110.5262480815156,
+        "THUMB_MCP_R": 66.23917742568034,
+        "THUMB_IP_R": 38.79454229876216,
+        "INDEX_MCP_R": 21.799791116151987,
+        "INDEX_PIP_R": 14.848609854540381
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 2848,
+          "euclidean_mm": 39.39282782758316,
+          "edge_graph_distance": 14,
+          "surface_edge_geodesic_mm": 49.45529207753526,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2189,
+          "euclidean_mm": 13.963421736868808,
+          "edge_graph_distance": 5,
+          "surface_edge_geodesic_mm": 21.319791187522465,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 2850,
+          "euclidean_mm": 68.7758689865132,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 80.45581872614947,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        2155,
+        2165,
+        2166,
+        2167
+      ],
+      "incident_face_ids": [
+        2876,
+        2877,
+        2878,
+        2879
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "General fascial continuity does not imply thumb opposition drive on the far side of the index tube.",
+        "S4/S5 long-finger homology does not prove a model-specific thumb coupling is zero."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 3200,
+      "R3_ownership": "THUMB",
+      "cluster": "RADIAL",
+      "model_surface_location": "Radial index proximal-phalanx lateral integument; possible commissure-facing extension remains unregistered",
+      "candidate_real_anatomical_structure": "Radial index proximal-phalanx lateral integument; possible commissure-facing extension remains unregistered",
+      "bind_world_mm": [
+        1462.2962474822998,
+        8.817723952233791,
+        498.18551540374756
+      ],
+      "pre_RSSF_world_mm": [
+        1459.909200668335,
+        15.513378195464611,
+        497.6164698600769
+      ],
+      "surface_normal_bind": [
+        0.9206170517919587,
+        0.38086140683177716,
+        0.08607457659495912
+      ],
+      "surface_normal_pre_RSSF": [
+        0.8848330140187882,
+        0.4644973999663079,
+        -0.03623123965539261
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": 0.4784532242619037,
+        "PALMAR": -0.4784532242619037,
+        "RADIAL": 0.8735444482097038,
+        "ULNAR": -0.8735444482097038
+      },
+      "cluster_margin": 0.3950912239478001,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "RADIAL",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": 8.720925419253621,
+        "dorsal": 8.974334685722281,
+        "distal": 22.935159219508773
+      },
+      "MCP_to_PIP_axial_fraction": 0.7279220229788392,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 108.76823969111418,
+        "THUMB_MCP_R": 62.2900833380741,
+        "THUMB_IP_R": 36.146623475393504,
+        "INDEX_MCP_R": 26.126897091766562,
+        "INDEX_PIP_R": 15.168451663645794
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1399,
+          "euclidean_mm": 40.66628213970693,
+          "edge_graph_distance": 12,
+          "surface_edge_geodesic_mm": 48.71225998056854,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2192,
+          "euclidean_mm": 9.37967145324662,
+          "edge_graph_distance": 3,
+          "surface_edge_geodesic_mm": 12.841559870303325,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 1447,
+          "euclidean_mm": 70.49603865766878,
+          "edge_graph_distance": 14,
+          "surface_edge_geodesic_mm": 76.02643387045958,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        2159,
+        2168,
+        2169,
+        2170
+      ],
+      "incident_face_ids": [
+        2880,
+        2881,
+        2882,
+        2883
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S3",
+        "S4",
+        "S7"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "S3 donor corridor reaches radiodorsal index MCP; the present ring lies farther along the proximal phalanx.",
+        "No human commissure margin/skin crease registration exists, so some radial extension cannot be categorically excluded."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 3201,
+      "R3_ownership": "THUMB",
+      "cluster": "PALMAR",
+      "model_surface_location": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "candidate_real_anatomical_structure": "Volar index proximal-phalanx skin/fat with local fascial tether and adaptation candidate; not proven thenar anchor",
+      "bind_world_mm": [
+        1455.6044340133667,
+        -0.559566542506218,
+        492.0800030231476
+      ],
+      "pre_RSSF_world_mm": [
+        1454.7922611236572,
+        3.535869065672159,
+        497.4774718284607
+      ],
+      "surface_normal_bind": [
+        0.15568026653343794,
+        -0.6865104591461324,
+        -0.7102584347229143
+      ],
+      "surface_normal_pre_RSSF": [
+        0.24005751173389223,
+        -0.9322530814530606,
+        -0.2706964779626902
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": -0.9512556824692103,
+        "PALMAR": 0.9512556824692103,
+        "RADIAL": 0.29033916735138104,
+        "ULNAR": -0.29033916735138104
+      },
+      "cluster_margin": 0.6609165151178293,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "PALMAR",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": 6.45074624311291,
+        "dorsal": -3.860729808507644,
+        "distal": 22.621102070934086
+      },
+      "MCP_to_PIP_axial_fraction": 0.7179543958639163,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 101.35434185322342,
+        "THUMB_MCP_R": 55.268291892746696,
+        "THUMB_IP_R": 29.251245267957632,
+        "INDEX_MCP_R": 23.837609373654757,
+        "INDEX_PIP_R": 11.639984569439513
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1396,
+          "euclidean_mm": 34.20790284657207,
+          "edge_graph_distance": 12,
+          "surface_edge_geodesic_mm": 42.49028823290222,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2192,
+          "euclidean_mm": 17.27247058022997,
+          "edge_graph_distance": 7,
+          "surface_edge_geodesic_mm": 26.610364567134653,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 646,
+          "euclidean_mm": 64.52806539255334,
+          "edge_graph_distance": 16,
+          "surface_edge_geodesic_mm": 71.70682422826494,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        2157,
+        2163,
+        2171,
+        2172
+      ],
+      "incident_face_ids": [
+        2884,
+        2885,
+        2886,
+        2887
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "Volar digital surface and thenar skin are both soft tissues; continuity alone does not equate their drivers.",
+        "S5 studied other long fingers and cannot prove the index-specific fascial insertion."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 3202,
+      "R3_ownership": "THUMB",
+      "cluster": "ULNAR",
+      "model_surface_location": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "candidate_real_anatomical_structure": "Ulnar index proximal-phalanx lateral integument; local digital cutaneous anchoring candidate",
+      "bind_world_mm": [
+        1444.4102048873901,
+        1.050041988492012,
+        497.74932861328125
+      ],
+      "pre_RSSF_world_mm": [
+        1442.8162574768066,
+        6.532240658998489,
+        500.23454427719116
+      ],
+      "surface_normal_bind": [
+        -0.8368729784103885,
+        -0.5448684895775581,
+        -0.05255422982021186
+      ],
+      "surface_normal_pre_RSSF": [
+        -0.7964224762553486,
+        -0.5899406346189162,
+        0.13297100037500345
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": -0.5896627833348976,
+        "PALMAR": 0.5896627833348976,
+        "RADIAL": -0.8067842862165947,
+        "ULNAR": 0.8067842862165947
+      },
+      "cluster_margin": 0.21712150288169707,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "PALMAR",
+      "current_vs_pre_sector_agree": false,
+      "local_index_coordinates_mm": {
+        "radial": -6.022673780930342,
+        "dorsal": -3.5668743147787128,
+        "distal": 20.530575857878894
+      },
+      "MCP_to_PIP_axial_fraction": 0.6516047335165528,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 105.99326789915065,
+        "THUMB_MCP_R": 61.63841609755613,
+        "THUMB_IP_R": 34.7322226034462,
+        "INDEX_MCP_R": 21.69100589887554,
+        "INDEX_PIP_R": 13.0189386220513
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1396,
+          "euclidean_mm": 35.938893606080356,
+          "edge_graph_distance": 12,
+          "surface_edge_geodesic_mm": 42.65662704208945,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2189,
+          "euclidean_mm": 18.032889987899576,
+          "edge_graph_distance": 7,
+          "surface_edge_geodesic_mm": 27.48716470275119,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 2850,
+          "euclidean_mm": 65.0680278521905,
+          "edge_graph_distance": 16,
+          "surface_edge_geodesic_mm": 74.2759538505695,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        2161,
+        2166,
+        2173,
+        2174
+      ],
+      "incident_face_ids": [
+        2888,
+        2889,
+        2890,
+        2891
+      ],
+      "neighbor_semantic_context": {
+        "THUMB_DISTAL": 3,
+        "INDEX_ROOT": 1
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S5"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "MEDIUM",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "General fascial continuity does not imply thumb opposition drive on the far side of the index tube.",
+        "S4/S5 long-finger homology does not prove a model-specific thumb coupling is zero."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    },
+    {
+      "vertex_id": 3203,
+      "R3_ownership": "THUMB",
+      "cluster": "DORSAL",
+      "model_surface_location": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "candidate_real_anatomical_structure": "Dorsal index proximal-phalanx integument; local digital gliding/wrinkle apparatus candidate, not a registered PIP crease",
+      "bind_world_mm": [
+        1457.1099281311035,
+        11.838746257126331,
+        503.71432304382324
+      ],
+      "pre_RSSF_world_mm": [
+        1453.7625312805176,
+        20.601965487003326,
+        499.94558095932007
+      ],
+      "surface_normal_bind": [
+        0.470892305063217,
+        0.6078565011771186,
+        0.6393519461211967
+      ],
+      "surface_normal_pre_RSSF": [
+        0.3580344956843401,
+        0.8917687848233415,
+        0.2766942975826588
+      ],
+      "pre_intrinsic_direction_scores": {
+        "DORSAL": 0.9262307142849985,
+        "PALMAR": -0.9262307142849985,
+        "RADIAL": 0.29388805129586687,
+        "ULNAR": -0.29388805129586687
+      },
+      "cluster_margin": 0.6323426629891316,
+      "sector_boundary_caution": false,
+      "current_live_index_frame_sector": "DORSAL",
+      "current_vs_pre_sector_agree": true,
+      "local_index_coordinates_mm": {
+        "radial": 1.3566593512912526,
+        "dorsal": 12.426336786793662,
+        "distal": 22.2692276354347
+      },
+      "MCP_to_PIP_axial_fraction": 0.7067865139027839,
+      "distance_to_joint_mm": {
+        "THUMB_CMC_R": 113.56606810006517,
+        "THUMB_MCP_R": 67.69924094200076,
+        "THUMB_IP_R": 40.60553828408551,
+        "INDEX_MCP_R": 25.537675501366127,
+        "INDEX_PIP_R": 15.543616329195078
+      },
+      "closest_skeletal_landmark": "INDEX_PIP_R",
+      "closest_anatomical_landmark": "Actual crease/commissure/fascial attachment UNREGISTERED; skeletal distances are descriptive only",
+      "model_region_distances": {
+        "first_web": {
+          "closest_model_vertex": 1399,
+          "euclidean_mm": 43.770274594415355,
+          "edge_graph_distance": 13,
+          "surface_edge_geodesic_mm": 56.99732134138823,
+          "human_registration": "NOT_ESTABLISHED"
+        },
+        "distal_cap": {
+          "closest_model_vertex": 2569,
+          "euclidean_mm": 9.310280443222949,
+          "edge_graph_distance": 2,
+          "surface_edge_geodesic_mm": 9.388012075506282,
+          "human_registration": "PROJECT_AUTHORITY_ONLY"
+        },
+        "thenar_proxy": {
+          "closest_model_vertex": 1447,
+          "euclidean_mm": 73.01268844416933,
+          "edge_graph_distance": 15,
+          "surface_edge_geodesic_mm": 84.31149523127928,
+          "human_registration": "NOT_ESTABLISHED"
+        }
+      },
+      "first_web_direct_neighbors": [],
+      "one_ring_vertices": [
+        2153,
+        2169,
+        2175,
+        2176
+      ],
+      "incident_face_ids": [
+        2892,
+        2893,
+        2894,
+        2895
+      ],
+      "neighbor_semantic_context": {
+        "INDEX_ROOT": 1,
+        "THUMB_DISTAL": 3
+      },
+      "historical_semantic": "THUMB_DISTAL",
+      "supporting_sources": [
+        "S4",
+        "S6",
+        "S8"
+      ],
+      "evidence_level": "LEVEL_B",
+      "confidence": {
+        "model_location": "HIGH",
+        "circumferential_sector": "HIGH",
+        "human_regional_identity": "MEDIUM",
+        "exact_tissue_insertion": "UNRESOLVED",
+        "thumb_CMC_coupling": "UNRESOLVED",
+        "thumb_MCP_coupling": "UNRESOLVED"
+      },
+      "conflicting_evidence": [
+        "A dorsal first-web flap exists, but a circumferential phalangeal ring is not its demonstrated MCP donor footprint.",
+        "Dorsal PIP attachments cannot be mapped exactly to a ring proximal to PIP."
+      ],
+      "thumb_CMC_authority": "UNRESOLVED — NO NEW AUTHORITY",
+      "thumb_MCP_authority": "UNRESOLVED — NO NEW AUTHORITY"
+    }
+  ]
+}

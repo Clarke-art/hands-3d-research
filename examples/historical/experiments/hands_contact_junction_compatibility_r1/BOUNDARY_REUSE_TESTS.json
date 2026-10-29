@@ -1,0 +1,190 @@
+{
+  "status": "RULE_REUSE_PASS",
+  "tests": [
+    {
+      "time": 2.9214260000000003,
+      "hand": "R",
+      "left_notes": [
+        "R07"
+      ],
+      "right_notes": [
+        "R08"
+      ],
+      "geometric_contacts": [
+        {
+          "hand": "R",
+          "finger": 1,
+          "midi": 67,
+          "note_ids": [
+            "R07"
+          ],
+          "sides": [
+            "left"
+          ]
+        },
+        {
+          "hand": "R",
+          "finger": 3,
+          "midi": 76,
+          "note_ids": [
+            "R08"
+          ],
+          "sides": [
+            "right"
+          ]
+        }
+      ],
+      "force_constraints": "NOT_INFERRED",
+      "same_finger_same_key_deduplicated": true,
+      "geometric_joint_feasibility": "UNTESTED",
+      "velocity_compatibility": "UNTESTED",
+      "case": "main_event",
+      "rule_test_pass": true
+    },
+    {
+      "time": 2.492855,
+      "hand": "R",
+      "left_notes": [
+        "R06"
+      ],
+      "right_notes": [
+        "R07"
+      ],
+      "geometric_contacts": [
+        {
+          "hand": "R",
+          "finger": 1,
+          "midi": 67,
+          "note_ids": [
+            "R06",
+            "R07"
+          ],
+          "sides": [
+            "left",
+            "right"
+          ]
+        }
+      ],
+      "force_constraints": "NOT_INFERRED",
+      "same_finger_same_key_deduplicated": true,
+      "geometric_joint_feasibility": "UNTESTED",
+      "velocity_compatibility": "UNTESTED",
+      "case": "same_finger_repeated_note",
+      "rule_test_pass": true
+    },
+    {
+      "time": 0.35,
+      "hand": "L",
+      "left_notes": [],
+      "right_notes": [
+        "L00",
+        "L01",
+        "L02"
+      ],
+      "geometric_contacts": [
+        {
+          "hand": "L",
+          "finger": 5,
+          "midi": 55,
+          "note_ids": [
+            "L00"
+          ],
+          "sides": [
+            "right"
+          ]
+        },
+        {
+          "hand": "L",
+          "finger": 3,
+          "midi": 59,
+          "note_ids": [
+            "L01"
+          ],
+          "sides": [
+            "right"
+          ]
+        },
+        {
+          "hand": "L",
+          "finger": 1,
+          "midi": 62,
+          "note_ids": [
+            "L02"
+          ],
+          "sides": [
+            "right"
+          ]
+        }
+      ],
+      "force_constraints": "NOT_INFERRED",
+      "same_finger_same_key_deduplicated": true,
+      "geometric_joint_feasibility": "UNTESTED",
+      "velocity_compatibility": "UNTESTED",
+      "case": "same_hand_chord_onset",
+      "rule_test_pass": true
+    },
+    {
+      "time": 0.7,
+      "hand": "L",
+      "left_notes": [
+        "L00",
+        "L01",
+        "L02"
+      ],
+      "right_notes": [
+        "L00",
+        "L01",
+        "L02"
+      ],
+      "geometric_contacts": [
+        {
+          "hand": "L",
+          "finger": 5,
+          "midi": 55,
+          "note_ids": [
+            "L00",
+            "L00"
+          ],
+          "sides": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "hand": "L",
+          "finger": 3,
+          "midi": 59,
+          "note_ids": [
+            "L01",
+            "L01"
+          ],
+          "sides": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "hand": "L",
+          "finger": 1,
+          "midi": 62,
+          "note_ids": [
+            "L02",
+            "L02"
+          ],
+          "sides": [
+            "left",
+            "right"
+          ]
+        }
+      ],
+      "force_constraints": "NOT_INFERRED",
+      "same_finger_same_key_deduplicated": true,
+      "geometric_joint_feasibility": "UNTESTED",
+      "velocity_compatibility": "UNTESTED",
+      "case": "chord_hold_interior",
+      "rule_test_pass": true
+    }
+  ],
+  "source": "previous verified contact state sequence, unchanged",
+  "not_other_motion_verification": true
+}

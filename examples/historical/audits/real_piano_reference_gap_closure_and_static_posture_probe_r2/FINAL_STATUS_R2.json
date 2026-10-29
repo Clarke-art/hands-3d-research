@@ -1,0 +1,79 @@
+{
+  "Q1_Q12": {
+    "Q1": {
+      "question": "真实左手八度参考有效补充？",
+      "answer": "PARTIAL",
+      "reason": "左手静态图重新核验；新增对侧八度图片/文字，左手三闲置指与侧面仍缺证据。"
+    },
+    "Q2": {
+      "question": "右手含 F# 真人五指参考有效补充？",
+      "answer": "PARTIAL",
+      "reason": "官方指序文字重新核验；实际影像未播放，未新增黑键姿态观察。"
+    },
+    "Q3": {
+      "question": "建立有证据边界的自然姿态约束？",
+      "answer": "YES",
+      "reason": "八类约束逐项区分四种依据；定性合同成立，执行门槛未满足。"
+    },
+    "Q4": {
+      "question": "执行唯一静态候选？",
+      "answer": "NO",
+      "reason": "关键黑键五指可见关系尚未取得，不启动求解。"
+    },
+    "Q5": {
+      "question": "LEFT L1 小指 D2 自然触键？",
+      "answer": "NOT_RUN",
+      "reason": "未测试。"
+    },
+    "Q6": {
+      "question": "LEFT L2 拇指 D3 自然触键？",
+      "answer": "NOT_RUN",
+      "reason": "未测试。"
+    },
+    "Q7": {
+      "question": "左手中间三指自然？",
+      "answer": "NOT_RUN",
+      "reason": "未测试。"
+    },
+    "Q8": {
+      "question": "左手掌腕/键盘净空合理？",
+      "answer": "NOT_RUN",
+      "reason": "未测试。"
+    },
+    "Q9": {
+      "question": "RIGHT R1 五指准备自然？",
+      "answer": "NOT_RUN",
+      "reason": "未测试。"
+    },
+    "Q10": {
+      "question": "RIGHT R2 中指 F#5 触键自然？",
+      "answer": "NOT_RUN",
+      "reason": "未测试。"
+    },
+    "Q11": {
+      "question": "发现必须修改正式 mesh/rig 的证据？",
+      "answer": "NO",
+      "reason": "没有新候选或硬几何不可达证明；此 NO 不证明当前模型自然可达。"
+    },
+    "Q12": {
+      "question": "可进入下一轮动态规划器设计？",
+      "answer": "NO",
+      "reason": "静态与 Human 门槛均未通过。"
+    }
+  },
+  "REAL_REFERENCE_STATUS": "PARTIAL_STATIC_AND_TEXT / BLACK_KEY_VISUAL_UNVERIFIED",
+  "STATIC_PROBE": "NOT_RUN",
+  "LEFT_OCTAVE_FEASIBILITY": "UNKNOWN_NOT_RUN",
+  "RIGHT_FIVE_FINGER_FEASIBILITY": "UNKNOWN_NOT_RUN",
+  "FSHARP_CONTACT": "NOT_RUN",
+  "LEFT_IDLE_FINGERS": "NOT_RUN",
+  "PALM_WRIST_CLEARANCE": "NOT_RUN",
+  "NEXT_MOTION_PLANNER_READY": "NO",
+  "FINAL_STATUS": "REFERENCE_EVIDENCE_INSUFFICIENT",
+  "HAND_BASELINES_UNCHANGED": true,
+  "PIANO_BASELINE_UNCHANGED": true,
+  "stop": "STOP — HUMAN REVIEW",
+  "new_static_candidate_count": 0,
+  "observed_video_timestamps": [],
+  "failure_class": "REFERENCE_EVIDENCE_LIMIT"
+}

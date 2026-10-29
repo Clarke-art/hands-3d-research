@@ -1,0 +1,75 @@
+{
+ "review": "R1E_ENDPOINT_WEIGHT_AUTHORITY_REVIEW",
+ "generated_at": "2026-10-01T19:19:16.745488+08:00",
+ "read_only": true,
+ "edge_id": 5879,
+ "vertices": [
+  1551,
+  3125
+ ],
+ "R3": [
+  "THUMB",
+  "THUMB"
+ ],
+ "historical_semantics": [
+  "THUMB_DISTAL",
+  "FIRST_WEB"
+ ],
+ "true_tissue_label_caution": "THUMB_DISTAL is a longitudinal projection proxy here, not anatomical proof; first-web adjacency plus MCP historical drive defines the local continuity role.",
+ "weights_R1B": [
+  {
+   "THUMB_MCP_R": 0.9684315323829651,
+   "THUMB_IP_R": 0.03156847879290581
+  },
+  {
+   "THUMB_MCP_R": 1.0
+  }
+ ],
+ "weights_R1E": [
+  {
+   "WRIST_R": 0.9399999976158142,
+   "THUMB_MCP_R": 0.059979524463415146,
+   "THUMB_IP_R": 2.0475254132179543e-05
+  },
+  {
+   "THUMB_MCP_R": 1.0
+  }
+ ],
+ "ratios": {
+  "TH_IP_30": {
+   "R1E_ratio": 1.0000235798580017,
+   "R1B_ratio_analytical_LBS": 1.0398449396036327
+  },
+  "TH_IP_45": {
+   "R1E_ratio": 1.0000321359148008,
+   "R1B_ratio_analytical_LBS": 1.0512510826355104
+  },
+  "TH_MCP_45": {
+   "R1E_ratio": 6.156020549108869,
+   "R1B_ratio_analytical_LBS": 1.0000002883588694
+  },
+  "CMC_OPP_30": {
+   "R1E_ratio": 7.2508196031114425,
+   "R1B_ratio_analytical_LBS": 1.000000023844701
+  },
+  "CMC_MCP_L3": {
+   "R1E_ratio": 11.041286717387363,
+   "R1B_ratio_analytical_LBS": 0.9999997980097776
+  },
+  "FULL_OPP_L3": {
+   "R1E_ratio": 11.041254237618851,
+   "R1B_ratio_analytical_LBS": 1.0224575501909894
+  }
+ },
+ "first_web_neighbor": true,
+ "graph_to_exact_collar": [
+  12,
+  12
+ ],
+ "FIELD_A_group_jump_MCP": 0.03156846761703491,
+ "FIELD_B_group_jump_MCP": 0.9400204755365849,
+ "verdict": "WEIGHT_TRANSITION_PARTITIONING_DEFECT",
+ "binding_evidence": true,
+ "mesh_limit": false,
+ "does_not_prove_exact_collar_thumb_authority": true
+}

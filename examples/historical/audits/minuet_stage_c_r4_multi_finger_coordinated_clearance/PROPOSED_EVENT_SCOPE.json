@@ -1,0 +1,100 @@
+{
+  "baseline": "Stage C R1",
+  "baseline_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+  "video_to_music_offset_sec": -0.35,
+  "windows_video_sec": {
+    "INDEX": [
+      [
+        0,
+        0.9928564999999999
+      ],
+      [
+        1.2071419999999997,
+        3.349997
+      ],
+      [
+        3.5642825,
+        5.933333333333334
+      ]
+    ],
+    "MIDDLE": [
+      [
+        0.7785709999999999,
+        2.064284
+      ],
+      [
+        2.741426,
+        4.6357099999999996
+      ]
+    ],
+    "RING": [
+      [
+        0.35,
+        3.349997
+      ],
+      [
+        3.3842825,
+        5.933333333333334
+      ]
+    ]
+  },
+  "windows_music_sec": {
+    "INDEX": [
+      [
+        -0.35,
+        0.6428564999999999
+      ],
+      [
+        0.8571419999999997,
+        2.999997
+      ],
+      [
+        3.2142825,
+        5.583333333333334
+      ]
+    ],
+    "MIDDLE": [
+      [
+        0.4285709999999999,
+        1.7142839999999997
+      ],
+      [
+        2.391426,
+        4.28571
+      ]
+    ],
+    "RING": [
+      [
+        0.0,
+        2.999997
+      ],
+      [
+        3.0342824999999998,
+        5.583333333333334
+      ]
+    ]
+  },
+  "digits": [
+    "INDEX",
+    "MIDDLE",
+    "RING"
+  ],
+  "dofs": [
+    "MCP flexion",
+    "PIP flexion",
+    "DIP flexion",
+    "MCP spread"
+  ],
+  "fixed": [
+    "right root",
+    "thumb",
+    "little",
+    "entire left hand",
+    "keyboard",
+    "music"
+  ],
+  "window_reason": "Music-event anchored supports for confirmed pair/black-key conflicts. INDEX A4 active and the clean R09 phase are retained; middle early/late windows separated by a clean interval; ring windows separated around middle C5.",
+  "outer_clip_boundaries": "Source already penetrates at video start and end. These are presentation-domain edges, not artificial zero-offset seams inside the phrase. Interior support boundaries require zero correction and velocity.",
+  "status": "PROPOSED_PENDING_STATIC_GEOMETRY_GATE",
+  "formal_dynamic_attempts": 0
+}

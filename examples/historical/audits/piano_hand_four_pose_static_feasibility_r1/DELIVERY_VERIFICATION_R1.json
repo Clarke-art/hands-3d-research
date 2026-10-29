@@ -1,0 +1,108 @@
+{
+  "status": "PASS_DELIVERY_PROTECTION_AND_DECLARED_RESULTS_NOT_HUMAN_APPROVAL",
+  "required_outputs": {
+    "PIANO_HAND_FOUR_POSE_STATIC_FEASIBILITY_R1_REPORT.md": "644388ac5dacdf6bbae45530f17953cf9a9a5253e0d4d1d556604928161d0da4",
+    "review.html": "134c0e16464df2da41df4d8c12b79d57a1d33c1a4e5ef9feae0b616454af4bc7",
+    "STATIC_POSTURE_POLICY_R1.json": "d289ec7eb9089bfde1bd18958e0dcc321e5c0cd24c89e2e9c0a627e4344cec61",
+    "STATIC_POSTURE_CANDIDATE_R1.blend": "c60cdd3b36a786ec8b168473c24b2320ca499e45828cc17deb79191fc145a199",
+    "STATIC_POSTURE_RESULTS_R1.json": "d87be42d9cfa5139fbcfa846f240f1d66decd52be1a25f9fe890e32d0155c155",
+    "HAND_KEYBOARD_CLEARANCE_R1.json": "a78110de169b2da53901272fd4880fd461153267b6328a3c26e3015d703b5efb",
+    "LEFT_OCTAVE_POSE_COMPARISON_R1.json": "ddbdc428df79df9285e7fa946bd47cae10fe5373c0e86cbe708430af92cab018",
+    "RIGHT_FSHARP_POSTURE_R1.json": "ea6ababc93a9abb7a8c82cee1d4b513132853065c752dbe0afad68dd74d7a1c9",
+    "FINAL_ASSET_PROTECTION_R1.json": "104ff1a77d42d3932df31128d691ba173bb179a585d1f02cb11b0c722b818a92",
+    "EVIDENCE_LEFT_L1_L2_R1.png": "a46cd70506ee740230da352a099e6feb49e833ba78c0f302f2fd4b09f49c06ab",
+    "EVIDENCE_RIGHT_R1_R2_R1.png": "d0f91a2ee1d17ffa35a837a5e5dc3ea90691d1e97e9f8c666f597885f69feeb5",
+    "EVIDENCE_SIDE_CLEARANCE_R1.png": "a79667755b7ae6c31c3fe7d0e7dc141e4c937df916886744049898593495e8d7"
+  },
+  "protected_files_checked": 608,
+  "changed_files": [],
+  "one_candidate_verified": true,
+  "four_static_scenes_verified": true,
+  "continuous_action_count": 0,
+  "key_geometry": {
+    "L1": {
+      "keys": 88,
+      "pieces": 139,
+      "max_original_vertex_delta_mm": 2.2439679982015397e-05,
+      "triangle_order_unchanged": true,
+      "key_transform_static": true
+    },
+    "L2": {
+      "keys": 88,
+      "pieces": 139,
+      "max_original_vertex_delta_mm": 2.2439679982015397e-05,
+      "triangle_order_unchanged": true,
+      "key_transform_static": true
+    },
+    "R1": {
+      "keys": 88,
+      "pieces": 139,
+      "max_original_vertex_delta_mm": 2.2439679982015397e-05,
+      "triangle_order_unchanged": true,
+      "key_transform_static": true
+    },
+    "R2": {
+      "keys": 88,
+      "pieces": 139,
+      "max_original_vertex_delta_mm": 2.2439679982015397e-05,
+      "triangle_order_unchanged": true,
+      "key_transform_static": true
+    }
+  },
+  "rig_pose_roundtrip": {
+    "L1": {
+      "bones": 21,
+      "joint_basis_max_difference": 7.06238202363707e-08,
+      "no_bound_action": true,
+      "intrinsic_matches": true
+    },
+    "L2": {
+      "bones": 21,
+      "joint_basis_max_difference": 6.807780256190554e-08,
+      "no_bound_action": true,
+      "intrinsic_matches": true
+    },
+    "R1": {
+      "bones": 21,
+      "joint_basis_max_difference": 4.278988119388316e-08,
+      "no_bound_action": true,
+      "intrinsic_matches": true
+    },
+    "R2": {
+      "bones": 21,
+      "joint_basis_max_difference": 4.361097571958794e-08,
+      "no_bound_action": true,
+      "intrinsic_matches": true
+    }
+  },
+  "policy_and_script_prelock_matched": true,
+  "one_initialization_no_restart_no_sweep": true,
+  "tolerances_mm": {
+    "vertical": 3,
+    "horizontal": 2,
+    "strict_actual_region": true
+  },
+  "pose_classes": {
+    "L1": "PASS_CANDIDATE",
+    "L2": "PASS_CANDIDATE",
+    "R1": "FAIL_CLEARANCE",
+    "R2": "FAIL_CLEARANCE"
+  },
+  "render_count": 12,
+  "ui": {
+    "states": 12,
+    "question_rows": 13,
+    "desktop": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "mobile": {
+      "width": 390,
+      "scroll": 390
+    },
+    "status": "PASS_DELIVERY_UI_NOT_HUMAN_APPROVAL"
+  },
+  "FINAL_STATUS": "STATIC_FEASIBILITY_PARTIAL",
+  "dynamic_transition_proven": false,
+  "human_approval": false
+}

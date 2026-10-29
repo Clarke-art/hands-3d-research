@@ -1,0 +1,91 @@
+{
+  "candidate_limit": 1,
+  "no_restarts": true,
+  "no_post_render_refingering": true,
+  "joint_bounds_deg": {
+    "THUMB": [
+      [
+        0,
+        0,
+        0,
+        -35
+      ],
+      [
+        25,
+        25,
+        18,
+        35
+      ]
+    ],
+    "LONG": [
+      [
+        0,
+        0,
+        0,
+        -25
+      ],
+      [
+        32,
+        32,
+        20,
+        25
+      ]
+    ],
+    "meaning": "Flexion1/2/3 then base spread. Increment from already curved RSSF rest; not global anatomical joint angles.",
+    "LEFT_IDLE_INDEX": [
+      [
+        3,
+        5,
+        2,
+        0
+      ],
+      [
+        18,
+        24,
+        14,
+        10
+      ]
+    ],
+    "LEFT_IDLE_MIDDLE": [
+      [
+        3,
+        5,
+        2,
+        -4
+      ],
+      [
+        18,
+        24,
+        14,
+        4
+      ]
+    ],
+    "LEFT_IDLE_RING": [
+      [
+        3,
+        5,
+        2,
+        -10
+      ],
+      [
+        18,
+        24,
+        14,
+        0
+      ]
+    ]
+  },
+  "prepare_sec": 0.1,
+  "key_press_sec": 0.035,
+  "key_release_sec": 0.07,
+  "recovery_sec": 0.08,
+  "root_transition_before_sec": 0.2,
+  "root_transition_after_sec": 0.08,
+  "joint_solver_max_nfev": 35,
+  "contact_weight_mm": 6,
+  "joint_prior_weight_rad": 3,
+  "joint_temporal_weight_rad": 1,
+  "contact_surface_gap_mm": 0.5,
+  "collision_diagnostics": "Finite pad/skin neighborhood checks after readback; no vertex-forensic repair.",
+  "failure_policy": "Render the one finite candidate even with contact WARN/FAIL; block PASS, no parameter retries."
+}

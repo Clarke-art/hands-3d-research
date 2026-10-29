@@ -1,0 +1,191 @@
+{
+  "phase": "LEFT_LITTLE_FINGER_MOVING_KEY_REACHABILITY_R1",
+  "DESIGN_ONLY": true,
+  "candidate_count": 1,
+  "hypothesis": "A small shared wrist follow-through can provide missing downward displacement while bounded thumb preparation/release coordination and a small forward translation preserve simultaneous D3 and front-edge palm clearance.",
+  "root_parameters": {
+    "height_delta_mm": [
+      -3.5,
+      0
+    ],
+    "world_x_pitch_delta_deg": [
+      -2,
+      0
+    ],
+    "fore_aft_delta_mm": [
+      -5,
+      0
+    ],
+    "x_yaw_roll": "FIXED",
+    "pivot": "approved semantic wrist origin, not native-transform Empty origin",
+    "curve": "All three offsets multiplied by original D2 depression fraction. Original quintic35ms down/70ms return. One shared root; no NOTE_ON teleport.",
+    "absolute_z_min_mm": 42.1006263087
+  },
+  "joint_policy": {
+    "little": "Exact inherited full trajectory, no new little solve.",
+    "idle_three": "Exact inherited L1 rotations; passive shared-root motion only.",
+    "thumb": "Convex blend of old thumb rotations toward approved L1 thumb preparation, per-joint blend coefficient between0 and1. Coefficient linear in original D3 key depression, multiplied by D2 key depression. Eight coefficients over entire sequence, no per-frame IK.",
+    "hard_bounds_deg": {
+      "THUMB": [
+        [
+          0,
+          0,
+          0,
+          -35
+        ],
+        [
+          25,
+          25,
+          18,
+          35
+        ]
+      ],
+      "LONG": [
+        [
+          0,
+          0,
+          0,
+          -25
+        ],
+        [
+          32,
+          32,
+          20,
+          25
+        ]
+      ],
+      "meaning": "Flexion1/2/3 then base spread. Increment from already curved RSSF rest; not global anatomical joint angles.",
+      "LEFT_IDLE_INDEX": [
+        [
+          3,
+          5,
+          2,
+          0
+        ],
+        [
+          18,
+          24,
+          14,
+          10
+        ]
+      ],
+      "LEFT_IDLE_MIDDLE": [
+        [
+          3,
+          5,
+          2,
+          -4
+        ],
+        [
+          18,
+          24,
+          14,
+          4
+        ]
+      ],
+      "LEFT_IDLE_RING": [
+        [
+          3,
+          5,
+          2,
+          -10
+        ],
+        [
+          18,
+          24,
+          14,
+          0
+        ]
+      ]
+    },
+    "active_anchor_max_delta_deg": 12,
+    "right": "PRESERVE_ALL_ACTIONS_ROOT_TRAJECTORIES"
+  },
+  "continuity": {
+    "joint_velocity_deg_sec": 850,
+    "joint_acceleration_deg_sec2": 90000,
+    "root_velocity_mm_sec": 450,
+    "root_acceleration_mm_sec2": 45000,
+    "root_angular_velocity_deg_sec": 150,
+    "root_angular_acceleration_deg_sec2": 15000,
+    "near_bound_epsilon_deg": 0.25,
+    "near_bound_dwell": "MEASURE_ONLY; no independent .05s rejection. No contortion to meet old dwell threshold."
+  },
+  "contact": {
+    "vertical_tolerance_mm": 3,
+    "horizontal_tolerance_mm": 2,
+    "strict_actual_playable_region": true,
+    "both_fixed_and_evaluated_skin": true,
+    "target": "Inherited registered static contact point transported with actual key",
+    "all_contact_phases_required": true
+  },
+  "clearance": {
+    "all_3300_evaluated_vertices": true,
+    "all_88_keys_final": true,
+    "deep_screen_mm": 3,
+    "planning_margins_mm": {
+      "neighbor": 2,
+      "palm": 5
+    },
+    "new_visible_penetration": "FAIL"
+  },
+  "solver": {
+    "method": "One deterministic bounded least_squares in Blender, all geometry from dependency graph; no manual skinning",
+    "seed": [
+      -3,
+      -1.5,
+      -4,
+      0.15,
+      0.65,
+      0.5,
+      0.3,
+      0.7,
+      0.1,
+      0.5,
+      0.3
+    ],
+    "bounds_lower": [
+      -3.5,
+      -2,
+      -5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "bounds_upper": [
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "max_nfev": 60,
+    "diff_step": 0.002,
+    "xtol": 1e-06,
+    "ftol": 1e-06,
+    "gtol": 1e-06,
+    "weights": {
+      "fixed_pad_mm": 10,
+      "skin_pad_mm": 6,
+      "skin_clearance_mm": 2
+    },
+    "collocation": "All original120Hz contact samples, plus preparation/recovery quarter points. Duplicate invariant joint/key states reused only within same residual call.",
+    "restarts": 0,
+    "post_failure_changes": "PROHIBITED"
+  },
+  "scope": "Only left full micro sequence 0.4–1.8 seconds. Static scenes retained. No production promotion or full Musette.",
+  "source_dynamic_sha256": "664a0702637e7c3d7aef6b4ba260d8b464f87c9704aa2d4b56b8492d01492284",
+  "timing_preserved": true,
+  "naturalness": "Human-visible precheck and Human approval still required."
+}

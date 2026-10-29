@@ -1,0 +1,109 @@
+{
+ "stage": "STAGE6A_DEFORMATION_GATE_AMENDMENT_R2",
+ "generated_at": "2026-10-01T08:30:38.314315+08:00",
+ "status": "PROPOSED_AND_APPLIED_IN_STAGE6A_R1C_VALIDATOR",
+ "validator_defect_found": {
+  "evidence_case": "STAGE6A_R1B / TH_IP_45",
+  "recorded_max_edge_ratio": 7.8354989592901365,
+  "recorded_new_severe_self_intersection_pairs": 78,
+  "case_was_counted_as": "PASS",
+  "reason": "the Stage6A hard-blocker set only covered NaN / collapse / degeneration / topology, so a 7.8x edge stretch and 78 new severe self-intersection pairs were recorded but never gated"
+ },
+ "observed_in_stage6a_r1b": {
+  "cases_total": 42,
+  "cases_with_max_edge_ratio_over_5": 7,
+  "max_max_edge_ratio": 17.675703383658757,
+  "max_new_severe_self_intersection_pairs": 101,
+  "top_cases": [
+   {
+    "case_id": "TH_MCP_45",
+    "max_edge_ratio": 17.675703383658757,
+    "min_edge_ratio": 0.2192227673013356,
+    "new_severe_self_intersection_pairs": 101,
+    "blockers": []
+   },
+   {
+    "case_id": "TH_MCP_30",
+    "max_edge_ratio": 12.256680470112371,
+    "min_edge_ratio": 0.42797287461450584,
+    "new_severe_self_intersection_pairs": 77,
+    "blockers": []
+   },
+   {
+    "case_id": "IDX_MCP_45",
+    "max_edge_ratio": 8.159135932607295,
+    "min_edge_ratio": 0.7193342282374873,
+    "new_severe_self_intersection_pairs": 2,
+    "blockers": []
+   },
+   {
+    "case_id": "TH_IP_45",
+    "max_edge_ratio": 7.8354989592901365,
+    "min_edge_ratio": 0.44521747042916954,
+    "new_severe_self_intersection_pairs": 78,
+    "blockers": []
+   },
+   {
+    "case_id": "TH_MCP_15",
+    "max_edge_ratio": 6.633444143727447,
+    "min_edge_ratio": 0.5909905772363621,
+    "new_severe_self_intersection_pairs": 57,
+    "blockers": []
+   },
+   {
+    "case_id": "IDX_MCP_30",
+    "max_edge_ratio": 5.858763550229933,
+    "min_edge_ratio": 0.7995780004714421,
+    "new_severe_self_intersection_pairs": 0,
+    "blockers": []
+   },
+   {
+    "case_id": "TH_IP_30",
+    "max_edge_ratio": 5.182706805751737,
+    "min_edge_ratio": 0.5995834251685627,
+    "new_severe_self_intersection_pairs": 68,
+    "blockers": []
+   },
+   {
+    "case_id": "IDX_MCP_15",
+    "max_edge_ratio": 3.458325379188207,
+    "min_edge_ratio": 0.8966155796134753,
+    "new_severe_self_intersection_pairs": 0,
+    "blockers": []
+   }
+  ]
+ },
+ "amendments": [
+  {
+   "name": "SEVERE_EDGE_STRETCH",
+   "definition": "for every mesh edge with BIND length >= 3.0 mm, if posed_length / bind_length > 5.0 the edge is recorded as SEVERE_EDGE_STRETCH_EDGE",
+   "gate": "SEVERE_EDGE_STRETCH_EDGE_COUNT == 0 over the thumb distal correction domain",
+   "always_reported_in_cases": [
+    "TH_IP_45",
+    "TH_MCP_45",
+    "CMC_OPP_30",
+    "CMC_MCP_L3",
+    "FULL_OPP_L3"
+   ],
+   "no_scope_reduction_allowed": "the edge set must not be trimmed to pass the gate"
+  },
+  {
+   "name": "SEVERE_SELF_INTERSECTION",
+   "definition": "reuse the existing new_severe_self_intersection_pairs predicate, restricted to the thumb distal correction domain",
+   "gate": "NEW_SEVERE_DISTAL_SELF_INTERSECTION_PAIRS == 0"
+  }
+ ],
+ "not_gated": [
+  "global max_edge_ratio",
+  "global edges_over_2x",
+  "global edges_over_5x",
+  "global new self-intersection pairs"
+ ],
+ "not_gated_rationale": "physiological surface contact is expected and must not be turned into an automatic blocker; the hard gates focus on same-surface deformation failure and new severe local self-intersection only",
+ "per_case_recording_added": [
+  "max_edge_stretch",
+  "severe_edge_count",
+  "new_severe_self_intersection_count",
+  "affected_semantic_region"
+ ]
+}

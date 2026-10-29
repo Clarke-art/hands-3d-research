@@ -1,0 +1,67 @@
+{
+  "authority": "Direct Human final production approval and R2 promotion request, 2026-10-07",
+  "route": "PRODUCT_VISIBLE_QUALITY_FIRST",
+  "RIGHT_HAND_PRODUCT_BASELINE_STATUS": "HUMAN_APPROVED_FROZEN",
+  "asset": {
+    "path": "production_spec/right_hand_product_baseline_r2/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R2.blend",
+    "sha256": "c946fed318fa88c238d9aacc30cfb4e52f268848f0ad65a4dcbf594754d791f0",
+    "status": "HUMAN_APPROVED_FROZEN"
+  },
+  "source": {
+    "path": "audits/right_hand_first_web_full_static_weight_field_causal_probe_r1/RIGHT_HAND_FIRST_WEB_FULL_STATIC_WEIGHT_PROBE_R1.blend",
+    "sha256": "0f6b24fc8d74a0fe37fb4a142169633d525db3c2ea58a440005060c137cc374d"
+  },
+  "mesh": "Official L1, 3300 vertices, 3298 faces",
+  "bone_count": 21,
+  "approved_weight_and_first_web_corrective_preserved": true,
+  "legacy_engineering_mesh_role": "LEGACY_ENGINEERING_REFERENCE_ONLY",
+  "legacy_vertex_count": 3416,
+  "legacy_primary_reference": {
+    "path": "production_spec/stage5_production_rig/geometry_propagation_after_palmar_donor_restoration_r1/RIGHT_HAND_STAGE5B_R2_DONOR_TRANSFER_PALMAR_ROOT_GEOMETRY_R1.blend",
+    "sha256": "90d3ebd1c1973f94020b66281781db481d5a366271a9d6aac6b921861e2b45aa"
+  },
+  "historical_assets_deleted_or_overwritten": false,
+  "motion_gate": "PASS_HUMAN_APPROVED_PRODUCTION_WEIGHT_QUALIFICATION_R1",
+  "left_hand_and_Web_gate": "WAIT_FOR_NEXT_HUMAN_STAGE_AUTHORIZATION",
+  "report": "audits/right_hand_product_baseline_r2_promotion_r1/RIGHT_HAND_PRODUCT_BASELINE_R2_PROMOTION_R1_REPORT.md",
+  "status": "production_spec/right_hand_product_baseline_r2/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R2_STATUS.json",
+  "CURRENT_PRODUCTION_BASELINE": "R2",
+  "PREVIOUS_PRODUCTION_BASELINE": "R1",
+  "RIGHT_HAND_PRODUCT_BASELINE_R2": "HUMAN_APPROVED_FROZEN",
+  "RIGHT_HAND_PRODUCT_BASELINE_R1": "HISTORICAL_FROZEN_FALLBACK",
+  "historical_frozen_fallback": {
+    "path": "production_spec/right_hand_product_baseline_r1/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend",
+    "sha256": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+    "status": "HISTORICAL_FROZEN_FALLBACK",
+    "permanent_retention": true,
+    "rollback_available": true
+  },
+  "deform_bone_count": 16,
+  "non_deform_TIP": [
+    "THUMB_TIP_R",
+    "INDEX_TIP_R",
+    "MIDDLE_TIP_R",
+    "RING_TIP_R",
+    "LITTLE_TIP_R"
+  ],
+  "WEIGHT_FIELD_IDENTITY": "EXACT_MATCH_APPROVED_FULL_VECTOR_STATIC_FIELD",
+  "weight_field_sha256": "ad4c82d2d108084aaf41c618dca625b8704b51ee42174f7c54ae1121884243cc",
+  "FIRST_WEB_HUMAN_VISIBLE_BLOCKER": "CLOSED",
+  "RIGHT_HAND_DEFORMATION": "CLOSED",
+  "RIGHT_HAND_DEFORMATION_CLOSED": "YES",
+  "STATIC_WEIGHT_FIELD_PROBLEM": "RESOLVED_IN_R2",
+  "RIGHT_HAND_READY_FOR_LEFT_HAND_STAGE": "YES",
+  "HUMAN_PRODUCTION_APPROVAL": "APPROVED",
+  "PRODUCTION_PROMOTION": "COMPLETE",
+  "LEFT_HAND_STARTED": false,
+  "WEB_EXPORT_STARTED": false,
+  "PIANOVAM_RUNTIME_DEPENDENCY": false,
+  "qualification_evidence": {
+    "phase": "RIGHT_HAND_FIRST_WEB_PRODUCTION_WEIGHT_QUALIFICATION_R1",
+    "status": "HUMAN_APPROVED",
+    "report": "audits/right_hand_first_web_production_weight_qualification_r1/RIGHT_HAND_FIRST_WEB_PRODUCTION_WEIGHT_QUALIFICATION_R1_REPORT.md",
+    "video": "audits/right_hand_first_web_production_weight_qualification_r1/product_7s_matched_reasonable_close_view.mp4"
+  },
+  "promotion_record": "audits/right_hand_product_baseline_r2_promotion_r1/PROMOTION_IDENTITY_R1.json",
+  "human_approval_record": "audits/right_hand_product_baseline_r2_promotion_r1/HUMAN_APPROVAL_BIND_R1.json"
+}

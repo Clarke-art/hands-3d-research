@@ -1,0 +1,189 @@
+{
+ "stage": "STAGE5A_R2A_THUMB_TIP_AUTHORITY_RECONCILIATION_R1",
+ "generated_at": "2026-09-29T21:09:00+08:00",
+ "read_only_audit": true,
+ "runtime": {"blender": "5.1.2", "executable": "D:\\Blender\\blender.exe"},
+
+ "branch": "BRANCH_B",
+ "branch_reason": ("the current R2 THUMB_TIP does NOT satisfy the canonical distal-cap semantic: "
+                   "it is not on the thumb distal-cap patch, it sits 12.6942 mm from the thumb's "
+                   "distal-most vertex while the four already-accepted fingertip landmarks sit "
+                   "0.3983-2.9819 mm from theirs, and 6.7540 mm from the cap representative while "
+                   "the four sit 1.1297-4.2591 mm from theirs."),
+
+ "CANONICAL_THUMB_TIP_SEMANTIC": {
+  "THUMB_TIP_R": "STABLE DISTAL-CAP SURFACE LANDMARK",
+  "not": ["the farthest single vertex", "any apex vertex", "the nail centre",
+          "the anatomical bone end", "a point tuned to any mm threshold"],
+  "definition": ("a stable surface landmark of the thumb DISTAL-CAP PATCH that represents the "
+                 "fingertip centre"),
+  "APEX_VERTEX_DISTANCE": "DIAGNOSTIC_ONLY",
+  "FIVE_MM_GATE_REMOVED": true,
+  "EIGHT_MM_GATE_REMOVED": true,
+  "SINGLE_CANONICAL_THUMB_TIP_RULE": "PASS"
+ },
+
+ "DISTAL_CAP_METHOD": {
+  "longitudinal_axis": ("axis-free.  D* = the digit's distal-most surface vertex (the digit's "
+                        "face-vertices distal of the approved distal joint, farthest from that "
+                        "joint); distances are mesh-GEODESIC on the surface graph."),
+  "cap_extent": ("DISTAL_CAP_PATCH = the connected digit-owned face region containing the face "
+                 "nearest D*, restricted to faces whose nearest vertex has mesh-geodesic "
+                 "distance <= 9.0 mm from D*."),
+  "cap_extent_calibration": ("the 9.0 mm radius is DECLARED and CALIBRATED on the four "
+                             "already-accepted fingertip landmarks: at this radius the patch "
+                             "representative reproduces them (see "
+                             "FOUR_FINGER_TIP_REFERENCE.json).  No percentage of vertices and "
+                             "no fixed vertex count is used."),
+  "cap_representative": ("the patch's AREA-WEIGHTED CENTROID projected back onto the real "
+                         "surface; cross-checked against the patch's geodesic 1-median."),
+  "sensitivity": ("re-run at 7 / 9 / 12 mm -- the verdict (R2 point NOT on the cap) is stable "
+                  "at all three radii; see THUMB_DISTAL_CAP_AUDIT.json SENSITIVITY_MATRIX.")
+ },
+
+ "thumb_distal_cap": {
+  "distal_most_vertex": 2189,
+  "distal_most_vertex_world": [1.450257778, 0.018083785, 0.49866727],
+  "distal_most_vertex_dist_from_IP_mm": 36.6751,
+  "n_faces": 4, "n_verts": 9,
+  "cap_face_ids": [356, 357, 389, 390],
+  "cap_vertex_ids": [151, 158, 1061, 1074, 1076, 2189, 2192, 2569, 2577],
+  "cap_area_mm2": 83.2058,
+  "cap_centroid_world": [1.452646017, 0.019510806, 0.49294889],
+  "n_nail_faces_inside": 0,
+  "max_geodesic_in_patch_mm": 18.1458,
+  "coarseness_note": ("the thumb terminal shell carries only 4 quad faces inside the 9 mm "
+                      "geodesic radius, versus 48-51 faces on each finger -- the thumb cap is "
+                      "roughly 12x coarser tessellated, which is a property of the base mesh "
+                      "and the reason a vertex-based apex is quantised by several mm.")
+ },
+
+ "current_R2_THUMB_TIP": {
+  "point_world": [1.456466794, 0.018134484, 0.48759535],
+  "on_distal_cap_patch": false,
+  "nearest_face": 385,
+  "surface_distance_mm": 0.0022,
+  "owner": "THUMB",
+  "ray_parity": "64/64",
+  "ip_to_tip_interior": "20/20",
+  "dist_to_cap_representative_mm": 6.754,
+  "dist_to_distal_most_vertex_mm": 12.6942,
+  "geodesic_from_distal_most_vertex_mm": 17.5928
+ },
+
+ "four_finger_reference_envelope": {
+  "all_four_landmarks_inside_their_cap_patch": true,
+  "dist_to_cap_representative_mm": {"min": 1.1297, "max": 4.2591, "mean": 2.7768},
+  "dist_to_distal_most_vertex_mm": {"min": 0.3983, "max": 2.9819, "mean": 1.0721},
+  "surface_distance_mm": {"min": 0.2135, "max": 0.254},
+  "interior_fraction": {"min": 1.0, "max": 1.0},
+  "cap_n_faces": {"index": 49, "middle": 48, "ring": 51, "little": 51},
+  "note": "read-only self-calibration only; the four fingers were NOT re-validated and NOT moved."
+ },
+
+ "NEW_THUMB_TIP_R": {
+  "point_world": [1.45281744, 0.019802358, 0.493028343],
+  "derivation": "the thumb distal-cap patch's area-weighted centroid, projected onto the surface",
+  "shift_from_R2_mm": 6.754,
+  "dist_to_distal_most_vertex_mm": 6.4267,
+  "dist_to_cap_centroid_mm": 0.3474,
+  "geodesic_from_distal_most_vertex_mm": 8.9385,
+  "crosscheck_geodesic_1median": {"vertex": 1076, "world": [1.452778339, 0.019757092, 0.493278891],
+                                  "dist_to_star_mm": 6.1796, "agreement_with_rep_mm": 0.347}
+ },
+
+ "gates": {
+  "THUMB_DISTAL_CAP_IDENTIFIED": "PASS",
+  "THUMB_TIP_ON_DISTAL_CAP_PATCH": "PASS",
+  "THUMB_TIP_SURFACE_DISTANCE": "PASS",
+  "THUMB_TIP_OWNER": "PASS",
+  "THUMB_IP_TO_TIP_INTERIOR": "RESIDUAL_FAIL",
+  "THUMB_TIP_STABLE_CAP_LANDMARK": "PASS_WITH_NOTE",
+  "THUMB_TIP_NOT_SINGLE_VERTEX_ARTIFACT": "PASS",
+  "THUMB_TIP_APEX_VERTEX_DISTANCE": "DIAGNOSTIC_ONLY",
+  "FIVE_MM_GATE_REMOVED": "YES",
+  "EIGHT_MM_GATE_REMOVED": "YES",
+  "SINGLE_CANONICAL_THUMB_TIP_RULE": "PASS",
+  "INDEX_MCP_NUMERIC_AUTHORITY_RECONCILED": "PASS",
+  "STAGE5A_R1_OBJECT_FRAME_OFFSET": "CLOSED_BY_R2_SUPERSESSION",
+  "R2_OBJECT_FRAME": "PASS",
+  "FROZEN_JOINT_DRIFT": 0,
+  "MESH_VERTEX_DELTA": 0,
+  "MESH_TOPOLOGY_DELTA": 0,
+  "UV_DELTA": 0,
+  "MATERIAL_ASSIGNMENT_DELTA": 0,
+  "PRODUCTION_SKIN_WEIGHT": "NOT_STARTED",
+  "STAGE5B": "NOT_STARTED"
+ },
+
+ "RESIDUAL_THUMB_IP_TO_TIP_INTERIOR": {
+  "value": "14/20 (failing t = 0.37, 0.41, 0.45, 0.49, 0.53, 0.57)",
+  "what": ("after the requalification the straight chord THUMB_IP_R.head -> THUMB_TIP_R.head is "
+           "outside the mesh for 6 of the 20 interior samples."),
+  "cause": ("the frozen THUMB_IP_R.head cannot see the thumb distal cap through a straight "
+            "interior chord.  The thumb distal phalanx is curved, so EVERY point of the distal "
+            "cap fails a strict 20/20 interior test; the only fully interior cap sample "
+            "(vertex 1074, 27.280 mm from IP) still sits 12.71 mm from the distal-most vertex, "
+            "i.e. no better than the rejected R2 point."),
+  "reference": ("the four accepted finger DIP->TIP segments are 20/20 interior "
+                "(FOUR_FINGER_TIP_REFERENCE.json)."),
+  "not_fixed_because": ("fixing it requires moving THUMB_IP_R.head, which this round is "
+                        "forbidden to do (brief section 18)."),
+  "status": "OPEN -- declared for Human Review; not silently passed."
+ },
+
+ "index_mcp": {
+  "authoritative_axial_delta_mm": -1.5157,
+  "authoritative_source": "stage5a_r2/STAGE5A_R2_STATUS.json  gates.INDEX_MCP_T01_AXIAL_REGION.measured_axial_mm",
+  "report_value_status": "STALE -- construction statement on the index proximal-phalanx axis, not a measurement",
+  "zone_half_width_mm": 9.364,
+  "geometry_pass_unchanged": true,
+  "errata": "stage5a_r2a/STAGE5A_R2_INDEX_MCP_NUMERIC_ERRATA.md"
+ },
+
+ "r1_object_frame": {
+  "finding": "STAGE5A_R1_OBJECT_FRAME_OFFSET",
+  "offset_mm": 1448.359,
+  "status": "CLOSED_BY_R2_SUPERSESSION",
+  "errata": "stage5a_r2a/STAGE5A_R1_OBJECT_FRAME_ERRATA.md"
+ },
+
+ "r2_object_frame_audit": {
+  "result": "PASS",
+  "max_delta_vs_joint_table_mm": 2.33e-07,
+  "detail": "stage5a_r2a/R2_OBJECT_FRAME_AUDIT.json"
+ },
+
+ "artifacts": {
+  "R2A_blend": "stage5a_r2a/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_R2A.blend",
+  "R2A_sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+  "allowed_changes_only": ["THUMB_TIP_R.head", "THUMB_TIP_R.tail", "THUMB_IP_R.tail"],
+  "report": "stage5a_r2a/STAGE5A_R2A_AUTHORITY_RECONCILIATION_REPORT.md",
+  "thumb_cap_audit": "stage5a_r2a/THUMB_DISTAL_CAP_AUDIT.json",
+  "four_finger_reference": "stage5a_r2a/FOUR_FINGER_TIP_REFERENCE.json",
+  "r2_object_frame_audit": "stage5a_r2a/R2_OBJECT_FRAME_AUDIT.json",
+  "renders": ["stage5a_r2a/renders/STAGE5A_R2A_THUMB_DISTAL_CAP_AUTHORITY.png",
+              "stage5a_r2a/renders/STAGE5A_R2A_THUMB_TIP_SIDE.png",
+              "stage5a_r2a/renders/STAGE5A_R2A_THUMB_TIP_DORSAL.png"]
+ },
+
+ "frozen_inputs_unchanged": {
+  "stage4c_master_sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7",
+  "stage5a_r1_sha256": "dd5f7265ea373579e9f77ecea2f74f0b2d0642a2bbb10795f1ddf5c17eb1486d",
+  "stage5a_r2_sha256": "615367d7fab3e75431fa7171e7e82f3a655c62e29ad7ddca5509b093e9f68c81",
+  "verified_after_execution": true
+ },
+
+ "VERDICT": {
+  "STAGE5A_R2A": "READY_FOR_HUMAN_REVIEW",
+  "THUMB_TIP_AUTHORITY": "RECONCILED_WITH_R2A_POINT",
+  "ACTIVE_PRODUCTION_RIG_CANDIDATE": "STAGE5A_R2A",
+  "OPEN_ITEM": "THUMB_IP_TO_TIP_INTERIOR residual -- Human Review decision required",
+  "PRODUCTION_SKIN_WEIGHT": "NOT_STARTED",
+  "STAGE5B": "NOT_STARTED"
+ },
+ "not_done_this_round": ["Stage5B", "skin weights", "vertex groups", "mesh parenting",
+                          "armature modifier", "IK", "constraints", "animation", "GLB", "Three.js",
+                          "left hand", "thumb mesh", "T-01 topology", "RSSF", "nails", "UV",
+                          "THUMB_IP_R.head", "CMC / Thumb MCP / Index MCP geometry"]
+}

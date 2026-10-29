@@ -1,0 +1,92 @@
+{
+ "stage": "STAGE4A_CMC_LOCALITY_REFINEMENT_R1",
+ "cmc_rotation_center": [
+  1.448897,
+  0.011107,
+  0.393934
+ ],
+ "first_metacarpal_axis": [
+  0.617098,
+  -0.075968,
+  0.78321
+ ],
+ "thumb_geodesic_length_mm": 98.95,
+ "deformation_window_mm": {
+  "primary": 12.0,
+  "secondary": 18.0
+ },
+ "thresholds": {
+  "local_pass_axial_span_mm": 40.0,
+  "note": "reviewer: a 40-60+ mm axial span may not be judged PASS"
+ },
+ "loops": [
+  {
+   "loop": 1,
+   "label": "CON2_CMC@-1mm",
+   "target_offset_mm": -1.0,
+   "vertex_count": 60,
+   "closed_topological_loop": true,
+   "ACTUAL_AXIAL_MIN_mm": -48.81,
+   "ACTUAL_AXIAL_MAX_mm": 17.83,
+   "ACTUAL_AXIAL_SPAN_mm": 66.64,
+   "AXIAL_MEDIAN_mm": -1.01,
+   "AXIAL_MEAN_mm": -15.31,
+   "AXIAL_STDDEV_mm": 20.33,
+   "largest_axial_outlier_mm": 48.81,
+   "frac_within_pm12mm": 0.4167,
+   "frac_within_pm18mm": 0.55,
+   "surface_dev_vs_L1_max_mm": 3.973,
+   "surface_dev_vs_L1_p95_mm": 2.572,
+   "locality": "HELICAL_NON_LOCAL"
+  },
+  {
+   "loop": 2,
+   "label": "CON2_CMC@+1mm",
+   "target_offset_mm": 1.0,
+   "vertex_count": 60,
+   "closed_topological_loop": true,
+   "ACTUAL_AXIAL_MIN_mm": -49.77,
+   "ACTUAL_AXIAL_MAX_mm": 17.28,
+   "ACTUAL_AXIAL_SPAN_mm": 67.06,
+   "AXIAL_MEDIAN_mm": 0.99,
+   "AXIAL_MEAN_mm": -15.71,
+   "AXIAL_STDDEV_mm": 20.49,
+   "largest_axial_outlier_mm": 49.77,
+   "frac_within_pm12mm": 0.4667,
+   "frac_within_pm18mm": 0.5333,
+   "surface_dev_vs_L1_max_mm": 4.67,
+   "surface_dev_vs_L1_p95_mm": 3.353,
+   "locality": "HELICAL_NON_LOCAL"
+  },
+  {
+   "loop": 3,
+   "label": "CON2_CMC@+3mm",
+   "target_offset_mm": 3.0,
+   "vertex_count": 60,
+   "closed_topological_loop": true,
+   "ACTUAL_AXIAL_MIN_mm": -47.85,
+   "ACTUAL_AXIAL_MAX_mm": 18.42,
+   "ACTUAL_AXIAL_SPAN_mm": 66.27,
+   "AXIAL_MEDIAN_mm": 2.99,
+   "AXIAL_MEAN_mm": -14.03,
+   "AXIAL_STDDEV_mm": 20.18,
+   "largest_axial_outlier_mm": 47.85,
+   "frac_within_pm12mm": 0.4833,
+   "frac_within_pm18mm": 0.5167,
+   "surface_dev_vs_L1_max_mm": 5.286,
+   "surface_dev_vs_L1_p95_mm": 3.789,
+   "locality": "HELICAL_NON_LOCAL"
+  }
+ ],
+ "worst_axial_span_mm": 67.06,
+ "mean_axial_span_mm": 66.66,
+ "all_closed": true,
+ "max_surface_deviation_mm": 5.286,
+ "p95_surface_deviation_mm": 3.789,
+ "verdict": "NEEDS_REVISION",
+ "reference_surface": {
+  "source": "official MULTIRES L1, canonical frame",
+  "verts": 3300,
+  "faces": 3298
+ }
+}

@@ -1,0 +1,133 @@
+{
+  "cases": [
+    {
+      "id": "original_failure",
+      "chart": {
+        "event_time": 2.938092666667,
+        "contacts": [
+          {
+            "signed_min_gap_mm": 2.61554391958331,
+            "face": 3738,
+            "surface": 0,
+            "clip_signature": [
+              "v",
+              501
+            ],
+            "tied_candidates": 5,
+            "status": "BRANCH_LOCAL_ONLY"
+          }
+        ],
+        "jacobian": [
+          [
+            0.0,
+            -0.03991801000066954,
+            0.9992029586012976,
+            3.0261034970923593,
+            -0.49395661982098077,
+            -0.044092540635967584,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.004078278246407595,
+            -15.24822031404867
+          ]
+        ],
+        "gap": [
+          2.61554391958331
+        ],
+        "signature": [
+          [
+            3738,
+            "('v', 501)"
+          ]
+        ]
+      },
+      "checks": [
+        {
+          "step": 0.001,
+          "max_abs_error": 2.8205917601553665e-09,
+          "relative_frobenius": 1.8126531262009674e-10,
+          "face_or_clip_switch_variables": []
+        },
+        {
+          "step": 0.0001,
+          "max_abs_error": 1.601568655473784e-09,
+          "relative_frobenius": 1.4045338897731238e-10,
+          "face_or_clip_switch_variables": []
+        },
+        {
+          "step": 1e-05,
+          "max_abs_error": 1.829932294583614e-08,
+          "relative_frobenius": 1.1752076601246812e-09,
+          "face_or_clip_switch_variables": []
+        }
+      ]
+    },
+    {
+      "id": "recovered",
+      "chart": {
+        "event_time": 2.938092666667,
+        "contacts": [
+          {
+            "signed_min_gap_mm": -0.0050000000018124375,
+            "face": 3738,
+            "surface": 0,
+            "clip_signature": [
+              "v",
+              501
+            ],
+            "tied_candidates": 5,
+            "status": "BRANCH_LOCAL_ONLY"
+          }
+        ],
+        "jacobian": [
+          [
+            0.0,
+            -0.03991801000066954,
+            0.9992029586012976,
+            3.002541379013229,
+            -0.2994173941851894,
+            -0.006279676373691175,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            -0.08804213489485502,
+            -12.856755444113018
+          ]
+        ],
+        "gap": [
+          -0.0050000000018124375
+        ],
+        "signature": [
+          [
+            3738,
+            "('v', 501)"
+          ]
+        ]
+      },
+      "checks": [
+        {
+          "step": 0.001,
+          "max_abs_error": 1.7339036872954239e-09,
+          "relative_frobenius": 1.3173904046598433e-10,
+          "face_or_clip_switch_variables": []
+        },
+        {
+          "step": 0.0001,
+          "max_abs_error": 3.3732163728927844e-09,
+          "relative_frobenius": 2.8545863889458835e-10,
+          "face_or_clip_switch_variables": []
+        },
+        {
+          "step": 1e-05,
+          "max_abs_error": 2.342826022072586e-08,
+          "relative_frobenius": 2.4843227726439357e-09,
+          "face_or_clip_switch_variables": []
+        }
+      ]
+    }
+  ],
+  "scope": "Clipped face lower envelope; full crossing/area acceptance remains independent"
+}

@@ -1,0 +1,1258 @@
+{
+  "execution": "THUMB_DISTAL_CAP_BOUNDARY_REVIEW_R1",
+  "mesh_state": "NATIVE_PRE_RSSF_STAGE4A_R2",
+  "native_mesh_sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039",
+  "seed_vertex_id": 284,
+  "region_identity": "ACCEPTED_BY_HUMAN_UNCHANGED",
+  "boundary_authority": "UNRESOLVED_PENDING_HUMAN",
+  "production_authority_applied": false,
+  "geometric_proxies_are_not_anatomical_authority": true,
+  "candidate": "E",
+  "name": "AXIAL_CIRCUMFERENTIAL_BOUNDARY",
+  "rule": "Sweep all unique native thumb face-centroid axial depths from1 to15 mm, retain seed-connected distal sublevel patch, preserve all20 core ball vertices, require one manifold disk/closed loop and absolute projected angular winding1 about the IP-tip axis with maximum angular gap <=60 degrees. Minimize RMS boundary geodesic offset from9 mm; break ties by patch area, cut depth and face IDs. Twelve-sector coverage is a descriptive metric, not a bin-orientation-dependent selection gate.",
+  "axis_origin_world_mm": [
+    1483.9419489321501,
+    -11.35163952636978,
+    448.0772355328436
+  ],
+  "axis_unit": [
+    0.6254420158152943,
+    -0.07962188330745958,
+    0.7761975525286552
+  ],
+  "circumferential_zero_unit_dorsal": [
+    -0.049957479302738264,
+    -0.9968251379748472,
+    -0.06199914969693687
+  ],
+  "circumferential_positive_unit": [
+    0.7786697214574467,
+    6.93889390390723e-18,
+    -0.6274340322977249
+  ],
+  "centroid_depth_cut_mm": 4.904543358985304,
+  "sweep": [
+    {
+      "centroid_depth_cut_mm": 1.1407629768217191,
+      "face_count": 5,
+      "vertex_count": 11,
+      "single_disk": true,
+      "angular_sector_count": 7,
+      "max_angular_gap_deg": 64.8233134768171,
+      "boundary_geodesic_rms_offset_from9_mm": 4.802490721165962,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 1.2011599416146765,
+      "face_count": 6,
+      "vertex_count": 12,
+      "single_disk": true,
+      "angular_sector_count": 8,
+      "max_angular_gap_deg": 64.22520691589233,
+      "boundary_geodesic_rms_offset_from9_mm": 4.247178663526707,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 1.9220118468408707,
+      "face_count": 7,
+      "vertex_count": 14,
+      "single_disk": true,
+      "angular_sector_count": 9,
+      "max_angular_gap_deg": 61.26765484861369,
+      "boundary_geodesic_rms_offset_from9_mm": 4.030510919451614,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 1.951922656792167,
+      "face_count": 8,
+      "vertex_count": 15,
+      "single_disk": true,
+      "angular_sector_count": 10,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 3.4778843931876855,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 2.1209571628882387,
+      "face_count": 9,
+      "vertex_count": 17,
+      "single_disk": true,
+      "angular_sector_count": 10,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 3.2371192781143474,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 2.1367904759223,
+      "face_count": 10,
+      "vertex_count": 19,
+      "single_disk": true,
+      "angular_sector_count": 10,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 3.0459611897360594,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 2.364678384211391,
+      "face_count": 11,
+      "vertex_count": 20,
+      "single_disk": true,
+      "angular_sector_count": 10,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 2.769404388082654,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 2.4156809652393427,
+      "face_count": 12,
+      "vertex_count": 21,
+      "single_disk": true,
+      "angular_sector_count": 10,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 2.4649272538076676,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 2.42035234518551,
+      "face_count": 13,
+      "vertex_count": 23,
+      "single_disk": true,
+      "angular_sector_count": 10,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 2.384442948963635,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 2.4343121412976743,
+      "face_count": 14,
+      "vertex_count": 24,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 2.1280659012889163,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 2.4566876285109203,
+      "face_count": 15,
+      "vertex_count": 25,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 2.0058989999879264,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 2.4903501168383713,
+      "face_count": 16,
+      "vertex_count": 26,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 1.9061218769312118,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 3.266685421489992,
+      "face_count": 17,
+      "vertex_count": 27,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 2.0148582510150583,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 3.38724718725814,
+      "face_count": 18,
+      "vertex_count": 28,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 1.8362855957167654,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 3.412520069877992,
+      "face_count": 19,
+      "vertex_count": 29,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 1.957843900278157,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 3.47038936205767,
+      "face_count": 20,
+      "vertex_count": 30,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 1.7482253940943309,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 4.092315676504381,
+      "face_count": 21,
+      "vertex_count": 32,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 1.7591305393729266,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 4.134329914812632,
+      "face_count": 22,
+      "vertex_count": 33,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 1.772725864206241,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 4.460384928639204,
+      "face_count": 23,
+      "vertex_count": 34,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 2.021083570129942,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 4.6254205198175455,
+      "face_count": 24,
+      "vertex_count": 35,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 47.527705313655986,
+      "boundary_geodesic_rms_offset_from9_mm": 2.234613804734949,
+      "admissible": false
+    },
+    {
+      "centroid_depth_cut_mm": 4.904543358985304,
+      "face_count": 25,
+      "vertex_count": 37,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 43.01187903247762,
+      "boundary_geodesic_rms_offset_from9_mm": 2.1850344664556527,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.022243961057928,
+      "face_count": 26,
+      "vertex_count": 39,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 43.01187903247762,
+      "boundary_geodesic_rms_offset_from9_mm": 2.534210323123175,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.051179192399541,
+      "face_count": 27,
+      "vertex_count": 40,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 2.478698905702479,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.078752677872476,
+      "face_count": 28,
+      "vertex_count": 42,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 2.581703620820162,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.103194693648298,
+      "face_count": 29,
+      "vertex_count": 43,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 2.8127160119011982,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.24161173029319,
+      "face_count": 30,
+      "vertex_count": 44,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.049853085215518,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.319663744533699,
+      "face_count": 31,
+      "vertex_count": 45,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.1143982307152496,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.454979307933186,
+      "face_count": 32,
+      "vertex_count": 46,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.178369338785306,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.482202954391379,
+      "face_count": 33,
+      "vertex_count": 47,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.2535038290218994,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.518818367568244,
+      "face_count": 34,
+      "vertex_count": 48,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.433708831719526,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.794788350796182,
+      "face_count": 35,
+      "vertex_count": 48,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.5659419769717373,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.878784834930482,
+      "face_count": 36,
+      "vertex_count": 49,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.6745700421110814,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.901687344253734,
+      "face_count": 37,
+      "vertex_count": 50,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.8726054445742526,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 5.921168076237212,
+      "face_count": 38,
+      "vertex_count": 51,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 3.9564013958685615,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 6.098773816234349,
+      "face_count": 39,
+      "vertex_count": 52,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 4.12044966772893,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 6.299719786789186,
+      "face_count": 40,
+      "vertex_count": 52,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 4.2894492400977065,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 6.31339427806655,
+      "face_count": 41,
+      "vertex_count": 53,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 4.347753848765775,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 6.3453310638966585,
+      "face_count": 42,
+      "vertex_count": 54,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 4.366305807001068,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 6.397097619483233,
+      "face_count": 43,
+      "vertex_count": 55,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 4.410196505504983,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 6.398496150792074,
+      "face_count": 44,
+      "vertex_count": 55,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 4.5931367536242,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.44760455929822,
+      "face_count": 45,
+      "vertex_count": 57,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 5.122867201962658,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.466216246026338,
+      "face_count": 46,
+      "vertex_count": 59,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 5.694953433813196,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.53629863986956,
+      "face_count": 47,
+      "vertex_count": 60,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 5.908364621337647,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.568749939822556,
+      "face_count": 48,
+      "vertex_count": 61,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.25072666148566,
+      "boundary_geodesic_rms_offset_from9_mm": 5.976592960887929,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.591480630654415,
+      "face_count": 49,
+      "vertex_count": 63,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.13806671355616,
+      "boundary_geodesic_rms_offset_from9_mm": 5.9166853757700935,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.687301483940704,
+      "face_count": 50,
+      "vertex_count": 64,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.13806671355616,
+      "boundary_geodesic_rms_offset_from9_mm": 6.060871531463895,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.729605245483178,
+      "face_count": 51,
+      "vertex_count": 65,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.13806671355616,
+      "boundary_geodesic_rms_offset_from9_mm": 6.207332744076705,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.753053292471398,
+      "face_count": 52,
+      "vertex_count": 66,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.13806671355616,
+      "boundary_geodesic_rms_offset_from9_mm": 6.329545304627702,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.787017697605906,
+      "face_count": 53,
+      "vertex_count": 67,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.13806671355616,
+      "boundary_geodesic_rms_offset_from9_mm": 6.5335648357879785,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.804696793425194,
+      "face_count": 54,
+      "vertex_count": 68,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.13806671355616,
+      "boundary_geodesic_rms_offset_from9_mm": 6.7114430489322165,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.80923319388352,
+      "face_count": 55,
+      "vertex_count": 68,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.13806671355616,
+      "boundary_geodesic_rms_offset_from9_mm": 6.909826336263318,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 8.843640851701306,
+      "face_count": 56,
+      "vertex_count": 69,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 7.051583409334426,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 9.117736979407804,
+      "face_count": 57,
+      "vertex_count": 70,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 7.147379855866212,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 9.178344273350827,
+      "face_count": 58,
+      "vertex_count": 71,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 7.256751097707145,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 9.341640742155018,
+      "face_count": 59,
+      "vertex_count": 72,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 7.308113041867534,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 9.358060118070219,
+      "face_count": 60,
+      "vertex_count": 72,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 7.511414461472167,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 9.422998452023462,
+      "face_count": 61,
+      "vertex_count": 73,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 7.6969433786124295,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 9.47459630705693,
+      "face_count": 62,
+      "vertex_count": 74,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 7.804862639480277,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 9.916914009786531,
+      "face_count": 63,
+      "vertex_count": 75,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 7.948268667930137,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 9.99282766239185,
+      "face_count": 64,
+      "vertex_count": 75,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 8.25232975345779,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.128426437545953,
+      "face_count": 65,
+      "vertex_count": 77,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 8.749698987891884,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.136850581739058,
+      "face_count": 66,
+      "vertex_count": 79,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 8.8851111656923,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.142188210711012,
+      "face_count": 67,
+      "vertex_count": 80,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 9.0991918416303,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.148256201025976,
+      "face_count": 68,
+      "vertex_count": 81,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 9.192755584855,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.219599164600574,
+      "face_count": 69,
+      "vertex_count": 82,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 9.268092023175281,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.241567808098976,
+      "face_count": 70,
+      "vertex_count": 82,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 9.478211362384272,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.320967308088221,
+      "face_count": 71,
+      "vertex_count": 83,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 9.705695908024303,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.38235131582186,
+      "face_count": 72,
+      "vertex_count": 84,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 9.760308450506674,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.384163040326335,
+      "face_count": 73,
+      "vertex_count": 86,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 10.210275968762206,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.537565345657807,
+      "face_count": 74,
+      "vertex_count": 87,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 10.418099910906248,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.596001719267202,
+      "face_count": 75,
+      "vertex_count": 88,
+      "single_disk": true,
+      "angular_sector_count": 11,
+      "max_angular_gap_deg": 42.387961172572204,
+      "boundary_geodesic_rms_offset_from9_mm": 10.528590415015596,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.739903834911884,
+      "face_count": 76,
+      "vertex_count": 89,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 10.714519754024565,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.797119669197256,
+      "face_count": 77,
+      "vertex_count": 90,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 10.830583426699128,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.815037523639642,
+      "face_count": 78,
+      "vertex_count": 91,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 10.896863153178533,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.823633364592371,
+      "face_count": 79,
+      "vertex_count": 92,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 11.033080922121092,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 12.890166241973633,
+      "face_count": 80,
+      "vertex_count": 92,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 11.269141666075917,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 13.164234411684948,
+      "face_count": 81,
+      "vertex_count": 93,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 11.451696093086284,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 13.579567642183276,
+      "face_count": 82,
+      "vertex_count": 94,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 11.55554750866404,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 13.623416426311067,
+      "face_count": 83,
+      "vertex_count": 95,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 11.698107399416841,
+      "admissible": true
+    },
+    {
+      "centroid_depth_cut_mm": 13.885835535280123,
+      "face_count": 84,
+      "vertex_count": 95,
+      "single_disk": true,
+      "angular_sector_count": 12,
+      "max_angular_gap_deg": 38.38809820969453,
+      "boundary_geodesic_rms_offset_from9_mm": 12.013782784170436,
+      "admissible": true
+    }
+  ],
+  "limitation": "Existing-face centroid cut approximates a circumferential ring; it is a staircase of native edges, not retopology or a continuous mathematical plane intersection.",
+  "status": "VIABLE_TOPOLOGICAL_REVIEW_CANDIDATE",
+  "face_ids": [
+    78,
+    1044,
+    1045,
+    1046,
+    1047,
+    1048,
+    1049,
+    1050,
+    1051,
+    1932,
+    1933,
+    1934,
+    1935,
+    1936,
+    1937,
+    1938,
+    1939,
+    1940,
+    1941,
+    1942,
+    1943,
+    1944,
+    1945,
+    1946,
+    1947
+  ],
+  "vertex_ids": [
+    36,
+    37,
+    44,
+    283,
+    284,
+    285,
+    297,
+    298,
+    339,
+    340,
+    341,
+    505,
+    879,
+    880,
+    890,
+    1338,
+    1340,
+    1341,
+    1343,
+    1344,
+    1378,
+    1380,
+    1382,
+    1450,
+    1452,
+    1454,
+    1752,
+    1753,
+    1754,
+    1755,
+    2499,
+    2741,
+    2742,
+    2963,
+    2964,
+    2965,
+    2966
+  ],
+  "metrics": {
+    "faces": [
+      78,
+      1044,
+      1045,
+      1046,
+      1047,
+      1048,
+      1049,
+      1050,
+      1051,
+      1932,
+      1933,
+      1934,
+      1935,
+      1936,
+      1937,
+      1938,
+      1939,
+      1940,
+      1941,
+      1942,
+      1943,
+      1944,
+      1945,
+      1946,
+      1947
+    ],
+    "vertices": [
+      36,
+      37,
+      44,
+      283,
+      284,
+      285,
+      297,
+      298,
+      339,
+      340,
+      341,
+      505,
+      879,
+      880,
+      890,
+      1338,
+      1340,
+      1341,
+      1343,
+      1344,
+      1378,
+      1380,
+      1382,
+      1450,
+      1452,
+      1454,
+      1752,
+      1753,
+      1754,
+      1755,
+      2499,
+      2741,
+      2742,
+      2963,
+      2964,
+      2965,
+      2966
+    ],
+    "boundary_edges": [
+      [
+        36,
+        879
+      ],
+      [
+        36,
+        880
+      ],
+      [
+        37,
+        879
+      ],
+      [
+        37,
+        1340
+      ],
+      [
+        44,
+        890
+      ],
+      [
+        44,
+        1344
+      ],
+      [
+        283,
+        1340
+      ],
+      [
+        283,
+        1382
+      ],
+      [
+        285,
+        1344
+      ],
+      [
+        285,
+        1450
+      ],
+      [
+        297,
+        1378
+      ],
+      [
+        297,
+        1452
+      ],
+      [
+        298,
+        1380
+      ],
+      [
+        298,
+        1454
+      ],
+      [
+        339,
+        1378
+      ],
+      [
+        339,
+        1450
+      ],
+      [
+        340,
+        1380
+      ],
+      [
+        340,
+        1452
+      ],
+      [
+        341,
+        1382
+      ],
+      [
+        341,
+        1454
+      ],
+      [
+        880,
+        2499
+      ],
+      [
+        890,
+        2499
+      ]
+    ],
+    "boundary_vertices": [
+      36,
+      37,
+      44,
+      283,
+      285,
+      297,
+      298,
+      339,
+      340,
+      341,
+      879,
+      880,
+      890,
+      1340,
+      1344,
+      1378,
+      1380,
+      1382,
+      1450,
+      1452,
+      1454,
+      2499
+    ],
+    "boundary_loops": [
+      [
+        36,
+        879,
+        37,
+        1340,
+        283,
+        1382,
+        341,
+        1454,
+        298,
+        1380,
+        340,
+        1452,
+        297,
+        1378,
+        339,
+        1450,
+        285,
+        1344,
+        44,
+        890,
+        2499,
+        880,
+        36
+      ]
+    ],
+    "open_boundary_paths": [],
+    "connected_components": [
+      [
+        78,
+        1044,
+        1045,
+        1046,
+        1047,
+        1048,
+        1049,
+        1050,
+        1051,
+        1932,
+        1933,
+        1934,
+        1935,
+        1936,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1942,
+        1943,
+        1944,
+        1945,
+        1946,
+        1947
+      ]
+    ],
+    "boundary_angular_winding_numbers": [
+      1.0
+    ],
+    "component_count": 1,
+    "closed_loop_count": 1,
+    "boundary_degrees_not_two": [],
+    "nonmanifold_edges": [],
+    "nonmanifold_vertex_links": [],
+    "euler_characteristic": 1,
+    "single_disk": true,
+    "max_angular_gap_deg": 43.01187903247762,
+    "occupied_30deg_sectors": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11
+    ],
+    "surface_area_mm2": 182.0661591174464,
+    "boundary_perimeter_mm": 48.760464315786066,
+    "vertex_count": 37,
+    "face_count": 25,
+    "boundary_edge_count": 22,
+    "boundary_vertex_count": 22,
+    "seed_included": true,
+    "max_geodesic_mm": 13.367420259735667,
+    "median_geodesic_mm": 8.818121035786918,
+    "axial_min_mm_from_IP": 15.373176599014661,
+    "axial_max_mm_from_IP": 22.063996242099634,
+    "depth_from_tip_min_mm": 0.0,
+    "depth_from_tip_max_mm": 6.690819643084973,
+    "boundary_geodesic_median_mm": 9.820370842354325,
+    "boundary_geodesic_rms_offset_from_9mm": 2.1850344664556527,
+    "boundary_axial_spread_mm": 3.7674920372770817,
+    "circumferential_completeness": {
+      "occupied_30deg_sector_count": 12,
+      "max_angular_gap_deg": 43.01187903247762,
+      "complete_12_sectors": true,
+      "boundary_angular_winding_numbers": [
+        1.0
+      ],
+      "interpretation": "Projected boundary angular coverage about engineering IP-to-tip centerline; not uniform shaft rings or anatomical proof"
+    },
+    "core_9mm_vertex_count_covered": 20,
+    "missing_core_9mm_vertices": [],
+    "bulb_coverage": {
+      "rounded_tip_proxy_face_count": 24,
+      "rounded_tip_proxy_area_coverage_fraction": 0.8094939082713708,
+      "rounded_tip_proxy_vertex_count_covered": 30,
+      "rounded_tip_proxy_vertex_count_total": 36,
+      "definition": "Depth <= 2*local median edge + 0.5 mm; normal axial component >=0.35; normal variation >=0.07 rad/mm. Proxy only."
+    },
+    "proximal_shaft_intrusion": {
+      "flagged_vertex_ids": [],
+      "count": 0,
+      "definition": "Depth > global transition lower knee 9.5 mm AND normal axial component <0.15 AND normal variation <0.08 rad/mm",
+      "scope": "Local distal-shaft continuation relative to rounded tip; not middle/proximal thumb region identity contradiction"
+    },
+    "thumb_nail_coverage": {
+      "selected_approved_nail_face_ids": [],
+      "total_approved_nail_face_count": 12,
+      "selected_nail_face_count": 0,
+      "selected_nail_vertex_ids": [
+        37,
+        879
+      ],
+      "nail_area_fraction": 0.0,
+      "nail_distal_edge_proxy_vertex_ids": [
+        37,
+        879
+      ],
+      "nail_distal_edge_proxy_ids_covered": [
+        37,
+        879
+      ],
+      "approved_nail_face_depths_mm": {
+        "64": 9.422998452023462,
+        "65": 5.878784834930482,
+        "68": 13.164234411684948,
+        "71": 16.02301138977232,
+        "1036": 13.885835535280123,
+        "1037": 13.623416426311067,
+        "1038": 16.407657150282073,
+        "1039": 17.266128800899924,
+        "1040": 9.916914009786531,
+        "1216": 16.88710290634011,
+        "1218": 13.579567642183276,
+        "1219": 17.476742545510202
+      },
+      "whole_nail_inside_cap_required": false,
+      "approved_nail_native_depth_range_mm": [
+        3.7372475497970896,
+        19.631122155232163
+      ],
+      "cap_nail_intersection_face_components": [],
+      "approved_nail_edges_coincident_with_cap_boundary": [
+        [
+          37,
+          879
+        ]
+      ],
+      "nail_compatibility": "ENGINEERING_COMPATIBLE_DISTAL_MARGIN_CONTACT",
+      "nail_compatibility_scope": "Native mask relationship only; final anatomical cap boundary remains unresolved",
+      "reason": "Cap may intersect the terminal nail edge; approved proximal nail extends onto the distal shaft and need not be in terminal cap. No nail authority change."
+    }
+  },
+  "human_readable_anatomical_interpretation": "Closed existing-edge circumferential cut selected near the inherited9 mm region; more consistent axis depth than min-corner A, but a planar centroid prior may under-cover the asymmetric bulb.",
+  "recommended_for_human_review_only": true,
+  "membership_authority_applied": false
+}

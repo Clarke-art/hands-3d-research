@@ -1,0 +1,196 @@
+{
+ "stage": "STAGE5A_THUMB_DISTAL_CHORD_GATE_AMENDMENT_AND_FREEZE_R1",
+ "generated_at": "2026-09-29T22:45:00+08:00",
+ "round_nature": "READ_ONLY_DOCUMENTATION_AND_FREEZE",
+ "human_review_of_r2b": "ACCEPT_STRUCTURAL_NO_SOLUTION",
+
+ "STAGE5A_HUMAN_REVIEW": "APPROVED",
+ "PRODUCTION_RIG_SKELETON": "APPROVED",
+ "STAGE5A": "FINAL_APPROVED",
+ "STAGE5A_PRODUCTION_RIG_SKELETON": "FINAL_APPROVED",
+ "STAGE5A_FREEZE": "PASS",
+ "STAGE5B": "READY_TO_BEGIN",
+
+ "ACTIVE_MASTER": "stage5a_r2a/RIGHT_HAND_STAGE5A_PRODUCTION_RIG_R2A.blend",
+ "ACTIVE_MASTER_SHA256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+ "STAGE5A_MASTER": "RIGHT_HAND_STAGE5A_PRODUCTION_RIG_R2A.blend",
+ "PRODUCTION_RIG_OBJECT": "RIGHT_HAND_PRODUCTION_RIG",
+ "PRODUCTION_BONE_COUNT": 21,
+ "TIP_HELPER_DEFORM_FALSE_COUNT": 5,
+ "TIP_HELPER_DEFORM_FALSE_BONES": ["INDEX_TIP_R", "MIDDLE_TIP_R", "RING_TIP_R",
+                                    "LITTLE_TIP_R", "THUMB_TIP_R"],
+ "DEFORM_TRUE_COUNT": 16,
+ "NEW_HELPER_DEFORM_BONE_ADDED": false,
+ "PRODUCTION_SKIN_WEIGHT": "NOT_STARTED",
+ "CMC_DEFORMATION_FINAL": "PENDING_STAGE6",
+
+ "MODIFICATIONS_THIS_ROUND": {
+  "new_blend_created": false,
+  "joint_moved": false,
+  "bone_added": false,
+  "roll_changed": false,
+  "mesh_modified": false,
+  "geometry_or_skeleton_work": false,
+  "r2b_blend_created": false,
+  "r2c_or_r2d_created": false
+ },
+
+ "KEY_POSITIONS": {
+  "PRODUCTION_WRIST_R": {
+    "bone_name_in_rig": "WRIST_R",
+    "note": "semantic name of the wrist joint centre DECOUPLED from the asset object origin (separation 23.593 mm)",
+    "status": "APPROVED",
+    "world_position": [1.406007767, 0.016420959, 0.358511657]},
+  "THUMB_CMC_R": {"status": "APPROVED",
+                  "world_position": [1.440895081, 0.001219887, 0.3918145]},
+  "THUMB_MCP_R": {"status": "APPROVED",
+                  "world_position": [1.454060912, 0.001536574, 0.436873049]},
+  "THUMB_IP_R": {"status": "APPROVED",
+                 "world_position": [1.450860858, 0.006127121, 0.464001149]},
+  "THUMB_TIP_R": {"status": "APPROVED_AS_STABLE_DISTAL_CAP_SURFACE_LANDMARK",
+                  "world_position": [1.45281744, 0.019802358, 0.493028343]},
+  "INDEX_MCP_R": {"status": "APPROVED",
+                  "world_position": [1.442374706, 0.017366245, 0.483602315]},
+  "OTHER_JOINTS": {"status": "CARRY_FORWARD_APPROVED", "drift": 0}
+ },
+
+ "SCIENTIFIC_SEMANTICS": {
+  "statement": ("SCIENTIFIC_JOINT_PLACEMENT != "
+                "STRAIGHT_BONE_DISPLAY_GEOMETRY_FULLY_INSIDE_SOFT_TISSUE"),
+  "production_bone_is": "KINEMATIC_CONTROL_AXIS",
+  "production_bone_is_not": ["solid bone volume", "soft-tissue centreline solid",
+                             "rigid cylinder that must be fully contained in the skin volume"],
+  "consequence": ("a straight chord leaving the volume locally in a strongly curved RSSF "
+                  "soft-tissue mesh does NOT by itself constitute a joint placement FAIL, "
+                  "provided IP joint authority, TIP distal-cap authority, chain hierarchy, "
+                  "local frame/roll and the later STAGE6 deformation all PASS")
+ },
+
+ "THUMB_DISTAL_CHORD_EXCEPTION": {
+  "name": "THUMB_DISTAL_STRAIGHT_CHORD_EXCEPTION_ONLY",
+  "scope": "THUMB_IP_R -> THUMB_TIP_R ONLY",
+  "approval": "APPROVED_DIAGNOSTIC_ONLY",
+  "gate_name": "THUMB_IP_TO_TIP_STRAIGHT_CHORD_CONTAINMENT",
+  "gate_value": "STRUCTURALLY_INCOMPATIBLE_WITH_CURRENT_MESH_AND_21_BONE_ABSTRACTION",
+  "GATE_CLASSIFICATION": "DIAGNOSTIC_ONLY_AFTER_R2B_FEASIBILITY_PROOF",
+  "not_written_as": ["PASS", "WAIVED"],
+  "must_not_be_generalised_to": "ALL_BONES_FULL_CONTAINMENT = DIAGNOSTIC_ONLY",
+  "four_finger_gate_status": "UNCHANGED_AND_STILL_IN_FORCE",
+  "four_finger_DIP_to_TIP": "20/20 and 40/40 for INDEX, MIDDLE, RING, LITTLE",
+  "retained_data": {
+    "R2A_current_IP": {"MCP_TO_IP_strict": "40/40", "IP_TO_TIP_strict": "31/40"},
+    "best_in_zone": {"MCP_TO_IP_strict": "40/40", "IP_TO_TIP_strict": "36/40"},
+    "IP_TO_TIP_40_40_candidate": {"MCP_TO_IP_strict": "20/40", "IP_TO_TIP_strict": "40/40"},
+    "full_simultaneous_40_40": "NONE"},
+  "supporting_search": {
+    "T01_approved_axial_centre_mm": 65.986,
+    "T01_zone_half_width_mm": 8.653,
+    "T01_zone_mm": [57.333, 74.639],
+    "candidates_inside_and_THUMB_owned": 501,
+    "candidates_clearance_ge_3mm": 259,
+    "strict_feasible": 0,
+    "extended_diagnostic_band_axial_mm": [35.0, 100.0],
+    "extended_band_full_40_40_positions": 0}
+ },
+
+ "STAGE6_BINDING_DEFORMATION_TESTS": {
+  "authority_note": ("thumb distal functional acceptance is transferred to Stage6; if Stage6 "
+                     "FAILs this exception MUST NOT be cited to hide deformation problems -- "
+                     "return to Skin Weight / rig mechanics / or topology if necessary"),
+  "tests": ["STAGE6_DEFORM_TEST_THUMB_FLEX", "STAGE6_DEFORM_TEST_THUMB_OPPOSE"],
+  "minimum_checks": ["THUMB_IP flexion deformation",
+                     "distal phalanx volume preservation",
+                     "fingertip positional stability",
+                     "nail / distal-cap distortion",
+                     "pinching", "collapse", "candy-wrapper distortion",
+                     "abnormal skin inversion", "web-space contamination",
+                     "thenar contamination",
+                     "CMC/MCP/IP combined opposition deformation"]
+ },
+
+ "DISTAL_CAP_METHOD_AUTHORITY": {
+  "CANONICAL_DISTAL_CAP_METHOD": "GEODESIC_CONNECTED_CAP_FROM_DISTAL_MOST_SURFACE_REGION",
+  "chain": ["D*", "mesh geodesic", "connected digit-owned cap", "9.0 mm calibrated radius",
+            "area-weighted centroid projected to surface", "geodesic 1-median cross-check"],
+  "SUPERSEDED_DIAGNOSTIC_METHOD": "fitted medial distal axis + 0.5 mm slab transition",
+  "errata": "stage5a_r2b/STAGE5A_R2A_DISTAL_CAP_METHOD_ERRATA.md"
+ },
+
+ "ERRATA_THIS_ROUND": {
+  "gate_amendment": "stage5a_freeze/STAGE5A_THUMB_DISTAL_CHORD_GATE_AMENDMENT_R1.md",
+  "diagnosis_wording": "stage5a_r2b/STAGE5A_R2B_STRUCTURAL_DIAGNOSIS_WORDING_ERRATA.md",
+  "zone_classification": "stage5a_r2b/STAGE5A_R2B_FEASIBILITY_ZONE_CLASSIFICATION_ERRATA.md",
+  "diagnosis_conclusion_nature": "EMPIRICAL_ENGINEERING_INCOMPATIBILITY_FINDING",
+  "diagnosis_conclusion_is_not": "FORMAL_MATHEMATICAL_IMPOSSIBILITY_PROOF",
+  "curvature_measure": {"centreline_sagitta_mm": 6.7968,
+                        "mean_section_radius_mm": 7.9575,
+                        "ratio": 0.8541,
+                        "reading": "6.7968 < 7.9575 -> STRONG CURVATURE = CONTRIBUTING PRIMARY FACTOR"},
+  "zone_classification_canonical": ("CANONICAL_ZONE_MEMBERSHIP = CANDIDATE_PROJECTED_AXIAL "
+                                    "WITHIN [57.333, 74.639] mm (not SOURCE_SLAB_LEVEL_IN_ZONE)"),
+  "zone_classification_impact": {"candidates_total": 501,
+                                 "below_lower_bound": 8, "above_upper_bound": 6,
+                                 "min_axial_mm": 57.1757, "max_axial_mm": 74.6767,
+                                 "all_non_feasible": true,
+                                 "effect": "searched set was a slight SUPERSET -> no-solution conclusion unchanged",
+                                 "rerun_required": false}
+ },
+
+ "HISTORICAL_PROVENANCE": {
+  "STAGE5A_R1": "FAIL_CLOSED_PROVENANCE_ONLY",
+  "STAGE5A_R1_OBJECT_FRAME_OFFSET": "CLOSED_BY_R2_SUPERSESSION",
+  "STAGE5A_R1_offset_mm": 1448.359,
+  "STAGE5A_R1_executable": false,
+  "STAGE5A_R2": "SUPERSEDED_BY_R2A_FOR_THUMB_TIP",
+  "STAGE5A_R2A": "APPROVED_PRODUCTION_RIG_SKELETON_MASTER",
+  "STAGE5A_R2B": "READ_ONLY_FEASIBILITY_DIAGNOSIS",
+  "STAGE5A_R2B_new_blend": "NONE"
+ },
+
+ "FROZEN_INPUTS_BEFORE_AFTER": {
+  "stage4c_master_sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7",
+  "stage5a_r1_sha256": "dd5f7265ea373579e9f77ecea2f74f0b2d0642a2bbb10795f1ddf5c17eb1486d",
+  "stage5a_r2_sha256": "615367d7fab3e75431fa7171e7e82f3a655c62e29ad7ddca5509b093e9f68c81",
+  "stage5a_r2a_sha256": "c4fafc56c591411bb5ddf07bde44b5fcd6e6a9aa5e0d43b22f9734c0884c2845",
+  "all_before_equal_after": true
+ },
+
+ "INTEGRITY_VERIFICATION": {
+  "source": "stage5a_freeze/STAGE5A_FREEZE_VERIFICATION_R1.json",
+  "read_only": true,
+  "mesh_vertex_delta_vs_stage4c_mm": 9.31e-07,
+  "MESH_VERTEX_DELTA": 0,
+  "MESH_TOPOLOGY_DELTA": 0,
+  "UV_DELTA": 0,
+  "MATERIAL_ASSIGNMENT_DELTA": 0,
+  "NO_NEW_BLEND": true,
+  "NO_NEW_BONE": true,
+  "NO_JOINT_MOVE": true,
+  "NO_ROLL_CHANGE": true,
+  "BONE_LOCAL_FRAME_ORTHONORMAL": "PASS",
+  "BONE_ROLL_180_FLIPS": 0,
+  "THUMB_CHAIN_ROLL_CONTINUITY": "PASS",
+  "roll_continuity_thumb_deg": [47.2079, 7.5513, 18.4382, 0.014],
+  "roll_continuity_max_deg": 47.2079,
+  "mesh_parent": null,
+  "armature_modifier": [],
+  "vertex_groups": []
+ },
+
+ "NOT_DONE_THIS_ROUND": ["R2C/R2D", "THUMB_IP move", "THUMB_TIP move", "CMC/MCP move",
+                          "wrist move", "four-finger move", "helper deform bone",
+                          "Skin Weight", "automatic weights", "vertex groups", "mesh parenting",
+                          "Armature modifier", "IK", "controllers", "constraints", "animation",
+                          "MediaPipe", "left hand", "GLB", "Three.js", "Stage6", "Retopo",
+                          "CMC cage", "RSSF", "nails", "UV", "Stage5B start"],
+
+ "STOP_POINT": "STOPPED -- STAGE5B = READY_TO_BEGIN only; awaiting next instruction",
+
+ "VERDICT": {
+  "STAGE5A": "FINAL_APPROVED",
+  "STAGE5A_PRODUCTION_RIG_SKELETON": "FINAL_APPROVED",
+  "STAGE5A_MASTER": "RIGHT_HAND_STAGE5A_PRODUCTION_RIG_R2A.blend",
+  "STAGE5A_FREEZE": "PASS",
+  "STAGE5B": "READY_TO_BEGIN"
+ }
+}

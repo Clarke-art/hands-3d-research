@@ -1,0 +1,55 @@
+{
+  "assets": {
+    "HISTORICAL_R1B_DONOR": {
+      "path": "production_spec/stage5_production_rig/stage5b_r1b/RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1B.blend",
+      "sha256": "cec5804f1319bf2408fded21a3d0cf8c9f01bf778ae0659c18cf17950b117d10"
+    },
+    "CORRECTED_R1": {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_after_approval_r1/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R1.blend",
+      "sha256": "290d2734f80edb25872962bf378dbc4c122d6fafe3fd118b22a6e550ddfcb84a"
+    },
+    "R2": {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+      "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+    }
+  },
+  "three_pairs": [
+    {
+      "id": "PAIR_1225_2740",
+      "faces": [
+        1225,
+        2740
+      ],
+      "pose": "TH_IP_30",
+      "bone": "THUMB_IP_R",
+      "max_angle": 30.0
+    },
+    {
+      "id": "PAIR_1041_2735",
+      "faces": [
+        1041,
+        2735
+      ],
+      "pose": "IDX_MCP_45",
+      "bone": "INDEX_MCP_R",
+      "max_angle": 45.0
+    },
+    {
+      "id": "PAIR_1226_2742",
+      "faces": [
+        1226,
+        2742
+      ],
+      "pose": "IDX_MCP_45",
+      "bone": "INDEX_MCP_R",
+      "max_angle": 45.0
+    }
+  ],
+  "onset_step_deg": 0.5,
+  "bracket_resolution_deg": 0.03125,
+  "onset_contact_geometry_precision_m": 1e-06,
+  "precision_source": "Existing V2 poke footprint cp tolerance, used only to state near-zero geometric contact at numeric precision, not an anatomical allowance or new ClassA gate",
+  "production_permission": "Read-only; mathematical LBS slot/weight counterfactuals allowed only if compatible and actual output validated; no blend candidate saved",
+  "scope_expansion": false,
+  "remediation_authority_created": false
+}

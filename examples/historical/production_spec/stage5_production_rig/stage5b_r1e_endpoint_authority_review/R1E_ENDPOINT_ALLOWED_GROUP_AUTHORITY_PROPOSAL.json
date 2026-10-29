@@ -1,0 +1,91 @@
+{
+ "review": "R1E_ENDPOINT_WEIGHT_AUTHORITY_REVIEW",
+ "generated_at": "2026-10-01T19:19:16.745488+08:00",
+ "read_only": true,
+ "name": "ENDPOINT_WEIGHT_ALLOWED_GROUP_AUTHORITY_R1",
+ "status": "UNRESOLVED",
+ "human_review_branch": "C",
+ "regional_rules": {
+  "INDEX_ROOT_DOMINANT_TISSUE": {
+   "candidate_allowed": [
+    "WRIST_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R"
+   ],
+   "thumb_base_extension": "UNRESOLVED_FOR_EXACT_COLLAR",
+   "basis": "index proximal-tube location and full R1B history; PIP transition exists, while DIP residue has no root role"
+  },
+  "COLLAR_THUMB_SIDE_ANATOMY_UNRESOLVED": {
+   "candidate_allowed": null,
+   "observed_historical_groups": [
+    "WRIST_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R"
+   ],
+   "thumb_base_extension": "UNRESOLVED",
+   "basis": "frozen THUMB ownership does not establish distal/base tissue identity; no invented mapping or new approval"
+  },
+  "FIRST_WEB_ADJACENT_ROLE_REVIEW": {
+   "candidate_allowed": [
+    "WRIST_R",
+    "INDEX_MCP_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R"
+   ],
+   "thumb_base_extension": "SUPPORTED_AS_LOCAL_ROLE_CANDIDATE_PENDING_HUMAN_REVIEW",
+   "basis": "direct adjacency to approved mixed first-web and measured neighboring thumb-base fields; local boundary continuity, not collar transfer"
+  },
+  "PALM_ANCHOR_TISSUE": {
+   "candidate_allowed": [
+    "WRIST_R"
+   ],
+   "conditional_groups": [
+    "THUMB_CMC_R"
+   ],
+   "thumb_base_extension": "CMC_ONLY_IF_LOCAL_EXISTING_PRECEDENT_AND_CONTINUOUS_ROLE",
+   "basis": "historical wrist anchor; remote MCP/thumb drag not justified"
+  },
+  "INDEX_SHAFT_PROTECTED": {
+   "candidate_allowed": [
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "INDEX_DIP_R"
+   ],
+   "thumb_base_extension": "NO",
+   "basis": "preserve existing index chain shaft field; DIP allowance here does not apply to collar"
+  },
+  "APPROVED_DISTAL_CAP_FROZEN": {
+   "candidate_allowed": [
+    "THUMB_IP_R"
+   ],
+   "constraint": "THUMB_IP_R=1.0; immutable"
+  },
+  "APPROVED_NAIL_FROZEN": {
+   "candidate_allowed": "EXISTING_FROZEN_VECTOR",
+   "constraint": "immutable"
+  },
+  "APPROVED_FIRST_WEB_FROZEN": {
+   "candidate_allowed": [
+    "WRIST_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "INDEX_MCP_R"
+   ],
+   "constraint": "existing vector immutable; THUMB_IP_R=0"
+  }
+ },
+ "envelope": [
+  "Keep all existing first-web, cap, nails and CMC-cage fields frozen.",
+  "Where tissue identity is verified as shared web/base, thumb-base influence follows adjacency and regional role, decaying toward independent index tube and toward wrist on palm anchors.",
+  "The 10–16-edge remote exact collar is outside this locally evidenced envelope until its body-side tissue identity and anatomical correspondence are reviewed.",
+  "Maintain an INDEX_MCP deformation degree of freedom on index-root tissue; never bind the entire collar to thumb groups.",
+  "Each collar pair needs dynamically compatible local deformation; do not impose identical vectors solely from digit ownership.",
+  "No numerical percentages or per-vertex assignments are approved; sensitivity fractions have no authority."
+ ],
+ "THUMB_IP_collar_allowed": false,
+ "INDEX_DIP_collar_allowed": false,
+ "mixed_CMC_exact_collar_supported": "UNRESOLVED",
+ "mixed_MCP_exact_collar_supported": "UNRESOLVED",
+ "local_web_thumb_base_role_supported": true,
+ "no_production_authority_granted": true
+}

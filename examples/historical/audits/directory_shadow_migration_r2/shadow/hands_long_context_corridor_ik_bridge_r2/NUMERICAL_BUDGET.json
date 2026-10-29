@@ -1,0 +1,79 @@
+{
+  "limit_seconds": 600,
+  "stages": [
+    {
+      "name": "high_level_schedule",
+      "script": "corridor_planner.py",
+      "wall_seconds": 2.0789999999979045,
+      "cap_seconds": 40.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "high_level_schedule_compiled",
+      "script": "corridor_planner.py",
+      "wall_seconds": 9.359000000004016,
+      "cap_seconds": 40.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "candidate_front_bridge",
+      "script": "solve_candidate_front.py",
+      "wall_seconds": 1.8279999999940628,
+      "cap_seconds": 210.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "candidate_front_bridge_execution",
+      "script": "solve_candidate_front.py",
+      "wall_seconds": 58.84399999999732,
+      "cap_seconds": 210.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "intent_and_shared_derivative_audit",
+      "script": "audit_intent_and_shared_derivative.py",
+      "wall_seconds": 10.078000000001339,
+      "cap_seconds": 70.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "legitimate_domain_derivative_check",
+      "script": "domain_derivative_guard.py",
+      "wall_seconds": 7.312999999994645,
+      "cap_seconds": 30.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "c1_curve_sampling_audit",
+      "script": "sample_r2_curve.py",
+      "wall_seconds": 1.8280000000013388,
+      "cap_seconds": 30.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "c1_curve_sampling_diagnostic",
+      "script": "sample_r2_curve.py",
+      "wall_seconds": 1.764999999999418,
+      "cap_seconds": 30.0,
+      "exit_code": 1,
+      "status": "COMPLETED"
+    },
+    {
+      "name": "c1_curve_sampling_final_diagnostic",
+      "script": "sample_r2_curve.py",
+      "wall_seconds": 2.3910000000032596,
+      "cap_seconds": 30.0,
+      "exit_code": 0,
+      "status": "COMPLETED"
+    }
+  ],
+  "total_seconds": 95.4849999999933,
+  "under_budget": true
+}

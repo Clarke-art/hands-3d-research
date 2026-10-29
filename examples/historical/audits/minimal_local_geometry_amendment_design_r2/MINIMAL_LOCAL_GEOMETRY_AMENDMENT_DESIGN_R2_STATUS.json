@@ -1,0 +1,344 @@
+{
+  "phase": "MINIMAL_LOCAL_GEOMETRY_AMENDMENT_DESIGN_R2",
+  "requested_execution": "MINIMAL_LOCAL_GEOMETRY_AMENDMENT_DESIGN_R2_TRANSITION_EXPANSION",
+  "status": "FAIL_CLOSED_R2_POSITION_ONLY_GEOMETRY_DESIGN",
+  "ROOT_CAUSE_CLASS": "BASE_GEOMETRY_CONTOUR_DEFECT",
+  "SUPPORT_DEPTHS_TESTED": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "FIRST_STRUCTURALLY_FEASIBLE_SUPPORT_DEPTH": null,
+  "PROTECTION_BOUNDARY_REACHED": false,
+  "POSITION_ONLY_LOCAL_SUPPORT_EXHAUSTED": true,
+  "support_exhaustion_meaning": "Tested S1-S5 formulations produced no joint-gate solution; not a mathematical impossibility proof for every position-only formulation.",
+  "R2_CANDIDATE_COUNT": 0,
+  "candidates": {},
+  "failed_trial_evidence": [
+    {
+      "support_depth": 1,
+      "pool_vertex_count": 31,
+      "attempt_count": 76,
+      "feasible_attempt_count": 0,
+      "selected_final_failure_witness": "CORE_HINGE_S1_metric0.1",
+      "failures": [
+        "new_quad_bowties"
+      ],
+      "new_bowtie_face_ids": [
+        3312
+      ],
+      "new_reference_reversed_face_ids": [],
+      "new_contact_pairs": null,
+      "contact_gate": "NOT_RUN_AFTER_EARLIER_REJECTION",
+      "not_Human_candidate": true,
+      "diagnostic_trial_metrics": {
+        "SUPPORT_DEPTH": 1,
+        "SUPPORT_POOL_VERTEX_COUNT": 31,
+        "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 31,
+        "MAX_DISPLACEMENT_MM": 2.0427928967992472,
+        "RMS_DISPLACEMENT_MM": 1.015768032240596,
+        "MAX_BOUNDARY_DISPLACEMENT_MM": 2.0427928967992472,
+        "MAX_BOUNDARY_DIHEDRAL_DEG": 163.9858432050516,
+        "EDGE6675_DIHEDRAL_DEG": 37.93586793899179,
+        "EDGE6602_DIHEDRAL_DEG": 26.23459367368885,
+        "EDGE6676_DIHEDRAL_DEG": 30.629338678915897,
+        "NEW_CONTACT_COUNT": null,
+        "BOW_TIE_COUNT": 1,
+        "FACE_REVERSAL_COUNT": 0,
+        "SELF_INTERSECTION_COUNT": null,
+        "self_intersection_count_semantics": "Introduced incident-to-whole-mesh exact intersections, not unchanged historical/global total.",
+        "VISIBLE_DENT_STATUS": "STRUCTURAL_REJECTION",
+        "BOUNDARY_FOLD_STATUS": "NO_NEW_SCREENED_BOUNDARY_FOLD",
+        "NEW_VISIBLE_DEFECT": "NEW_STRUCTURAL_DEFECT_VISIBLE_SEVERITY_NOT_ADJUDICATED",
+        "BIND_PREVIEW": "NOT_RUN",
+        "IDX15_PREVIEW": "NOT_RUN",
+        "IDX30_PREVIEW": "NOT_RUN",
+        "IDX45_PREVIEW": "NOT_RUN"
+      }
+    },
+    {
+      "support_depth": 2,
+      "pool_vertex_count": 52,
+      "attempt_count": 76,
+      "feasible_attempt_count": 0,
+      "selected_final_failure_witness": "CORE_HINGE_S2_metric0.1",
+      "failures": [
+        "new_reference_reversed_faces"
+      ],
+      "new_bowtie_face_ids": [],
+      "new_reference_reversed_face_ids": [
+        3343
+      ],
+      "new_contact_pairs": null,
+      "contact_gate": "NOT_RUN_AFTER_EARLIER_REJECTION",
+      "not_Human_candidate": true,
+      "diagnostic_trial_metrics": {
+        "SUPPORT_DEPTH": 2,
+        "SUPPORT_POOL_VERTEX_COUNT": 52,
+        "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 52,
+        "MAX_DISPLACEMENT_MM": 2.5632796192555647,
+        "RMS_DISPLACEMENT_MM": 0.8877501430159539,
+        "MAX_BOUNDARY_DISPLACEMENT_MM": 1.5531858541118084,
+        "MAX_BOUNDARY_DIHEDRAL_DEG": 172.875368606915,
+        "EDGE6675_DIHEDRAL_DEG": 37.92920312132355,
+        "EDGE6602_DIHEDRAL_DEG": 26.93801372066567,
+        "EDGE6676_DIHEDRAL_DEG": 30.000010143453213,
+        "NEW_CONTACT_COUNT": null,
+        "BOW_TIE_COUNT": 0,
+        "FACE_REVERSAL_COUNT": 1,
+        "SELF_INTERSECTION_COUNT": null,
+        "self_intersection_count_semantics": "Introduced incident-to-whole-mesh exact intersections, not unchanged historical/global total.",
+        "VISIBLE_DENT_STATUS": "STRUCTURAL_REJECTION",
+        "BOUNDARY_FOLD_STATUS": "NO_NEW_SCREENED_BOUNDARY_FOLD",
+        "NEW_VISIBLE_DEFECT": "NEW_STRUCTURAL_DEFECT_VISIBLE_SEVERITY_NOT_ADJUDICATED",
+        "BIND_PREVIEW": "NOT_RUN",
+        "IDX15_PREVIEW": "NOT_RUN",
+        "IDX30_PREVIEW": "NOT_RUN",
+        "IDX45_PREVIEW": "NOT_RUN"
+      }
+    },
+    {
+      "support_depth": 3,
+      "pool_vertex_count": 78,
+      "attempt_count": 76,
+      "feasible_attempt_count": 0,
+      "selected_final_failure_witness": "CORE_HINGE_S3_metric1.0",
+      "failures": [
+        "new_exact_contact_or_self_intersection"
+      ],
+      "new_bowtie_face_ids": [],
+      "new_reference_reversed_face_ids": [],
+      "new_contact_pairs": [
+        {
+          "face_ids": [
+            204,
+            207
+          ],
+          "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+          "segment_mm": 0.452220802916404,
+          "away_from_shared_contact_mm": 0.452220802916404,
+          "shared_vertex_ids": []
+        }
+      ],
+      "contact_gate": "FAIL_NEW_CONTACT",
+      "not_Human_candidate": true,
+      "diagnostic_trial_metrics": {
+        "SUPPORT_DEPTH": 3,
+        "SUPPORT_POOL_VERTEX_COUNT": 78,
+        "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 78,
+        "MAX_DISPLACEMENT_MM": 2.6520046689052608,
+        "RMS_DISPLACEMENT_MM": 0.6840586033497644,
+        "MAX_BOUNDARY_DISPLACEMENT_MM": 0.4086764045094036,
+        "MAX_BOUNDARY_DIHEDRAL_DEG": 173.47817986865016,
+        "EDGE6675_DIHEDRAL_DEG": 37.929206153090604,
+        "EDGE6602_DIHEDRAL_DEG": 25.507520501212717,
+        "EDGE6676_DIHEDRAL_DEG": 30.0000007272411,
+        "NEW_CONTACT_COUNT": 1,
+        "BOW_TIE_COUNT": 0,
+        "FACE_REVERSAL_COUNT": 0,
+        "SELF_INTERSECTION_COUNT": 1,
+        "self_intersection_count_semantics": "Introduced incident-to-whole-mesh exact intersections, not unchanged historical/global total.",
+        "VISIBLE_DENT_STATUS": "REDUCED_BUT_DESIGN_REJECTED",
+        "BOUNDARY_FOLD_STATUS": "NO_NEW_SCREENED_BOUNDARY_FOLD",
+        "NEW_VISIBLE_DEFECT": "NEW_STRUCTURAL_DEFECT_VISIBLE_SEVERITY_NOT_ADJUDICATED",
+        "BIND_PREVIEW": "NOT_RUN",
+        "IDX15_PREVIEW": "NOT_RUN",
+        "IDX30_PREVIEW": "NOT_RUN",
+        "IDX45_PREVIEW": "NOT_RUN"
+      }
+    },
+    {
+      "support_depth": 4,
+      "pool_vertex_count": 111,
+      "attempt_count": 76,
+      "feasible_attempt_count": 0,
+      "selected_final_failure_witness": "CORE_HINGE_S4_metric1.0",
+      "failures": [
+        "new_exact_contact_or_self_intersection"
+      ],
+      "new_bowtie_face_ids": [],
+      "new_reference_reversed_face_ids": [],
+      "new_contact_pairs": [
+        {
+          "face_ids": [
+            204,
+            207
+          ],
+          "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+          "segment_mm": 0.4563929897166157,
+          "away_from_shared_contact_mm": 0.4563929897166157,
+          "shared_vertex_ids": []
+        }
+      ],
+      "contact_gate": "FAIL_NEW_CONTACT",
+      "not_Human_candidate": true,
+      "diagnostic_trial_metrics": {
+        "SUPPORT_DEPTH": 4,
+        "SUPPORT_POOL_VERTEX_COUNT": 111,
+        "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 111,
+        "MAX_DISPLACEMENT_MM": 2.652968348032992,
+        "RMS_DISPLACEMENT_MM": 0.5800446517057459,
+        "MAX_BOUNDARY_DISPLACEMENT_MM": 0.30017500817401993,
+        "MAX_BOUNDARY_DIHEDRAL_DEG": 178.01610220632324,
+        "EDGE6675_DIHEDRAL_DEG": 37.929205281247754,
+        "EDGE6602_DIHEDRAL_DEG": 25.844841309957246,
+        "EDGE6676_DIHEDRAL_DEG": 30.000000645677456,
+        "NEW_CONTACT_COUNT": 1,
+        "BOW_TIE_COUNT": 0,
+        "FACE_REVERSAL_COUNT": 0,
+        "SELF_INTERSECTION_COUNT": 1,
+        "self_intersection_count_semantics": "Introduced incident-to-whole-mesh exact intersections, not unchanged historical/global total.",
+        "VISIBLE_DENT_STATUS": "REDUCED_BUT_DESIGN_REJECTED",
+        "BOUNDARY_FOLD_STATUS": "NO_NEW_SCREENED_BOUNDARY_FOLD",
+        "NEW_VISIBLE_DEFECT": "NEW_STRUCTURAL_DEFECT_VISIBLE_SEVERITY_NOT_ADJUDICATED",
+        "BIND_PREVIEW": "NOT_RUN",
+        "IDX15_PREVIEW": "NOT_RUN",
+        "IDX30_PREVIEW": "NOT_RUN",
+        "IDX45_PREVIEW": "NOT_RUN"
+      }
+    },
+    {
+      "support_depth": 5,
+      "pool_vertex_count": 151,
+      "attempt_count": 76,
+      "feasible_attempt_count": 0,
+      "selected_final_failure_witness": "CORE_HINGE_S5_metric1.0",
+      "failures": [
+        "new_exact_contact_or_self_intersection"
+      ],
+      "new_bowtie_face_ids": [],
+      "new_reference_reversed_face_ids": [],
+      "new_contact_pairs": [
+        {
+          "face_ids": [
+            204,
+            207
+          ],
+          "kind": "SEGMENT_CROSSING_AWAY_FROM_SHARED_TOPOLOGY",
+          "segment_mm": 0.45518714256829945,
+          "away_from_shared_contact_mm": 0.45518714256829945,
+          "shared_vertex_ids": []
+        }
+      ],
+      "contact_gate": "FAIL_NEW_CONTACT",
+      "not_Human_candidate": true,
+      "diagnostic_trial_metrics": {
+        "SUPPORT_DEPTH": 5,
+        "SUPPORT_POOL_VERTEX_COUNT": 151,
+        "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 151,
+        "MAX_DISPLACEMENT_MM": 2.652874371134679,
+        "RMS_DISPLACEMENT_MM": 0.5000522763950646,
+        "MAX_BOUNDARY_DISPLACEMENT_MM": 0.17335996096246256,
+        "MAX_BOUNDARY_DIHEDRAL_DEG": 178.23846213697004,
+        "EDGE6675_DIHEDRAL_DEG": 37.92920529449978,
+        "EDGE6602_DIHEDRAL_DEG": 25.950652835451134,
+        "EDGE6676_DIHEDRAL_DEG": 30.000000646687603,
+        "NEW_CONTACT_COUNT": 1,
+        "BOW_TIE_COUNT": 0,
+        "FACE_REVERSAL_COUNT": 0,
+        "SELF_INTERSECTION_COUNT": 1,
+        "self_intersection_count_semantics": "Introduced incident-to-whole-mesh exact intersections, not unchanged historical/global total.",
+        "VISIBLE_DENT_STATUS": "REDUCED_BUT_DESIGN_REJECTED",
+        "BOUNDARY_FOLD_STATUS": "NO_NEW_SCREENED_BOUNDARY_FOLD",
+        "NEW_VISIBLE_DEFECT": "NEW_STRUCTURAL_DEFECT_VISIBLE_SEVERITY_NOT_ADJUDICATED",
+        "BIND_PREVIEW": "NOT_RUN",
+        "IDX15_PREVIEW": "NOT_RUN",
+        "IDX30_PREVIEW": "NOT_RUN",
+        "IDX45_PREVIEW": "NOT_RUN"
+      },
+      "layer_displacement_falloff": [
+        {
+          "ring_depth": 0,
+          "vertex_count": 15,
+          "max_displacement_mm": 2.652874371134679,
+          "mean_displacement_mm": 1.0035079440212724,
+          "RMS_displacement_mm": 1.2080190706564282
+        },
+        {
+          "ring_depth": 1,
+          "vertex_count": 16,
+          "max_displacement_mm": 2.472838136980488,
+          "mean_displacement_mm": 0.6076565669428741,
+          "RMS_displacement_mm": 0.8362211653838509
+        },
+        {
+          "ring_depth": 2,
+          "vertex_count": 21,
+          "max_displacement_mm": 1.3945368534572513,
+          "mean_displacement_mm": 0.31620132687762614,
+          "RMS_displacement_mm": 0.4308403001073815
+        },
+        {
+          "ring_depth": 3,
+          "vertex_count": 26,
+          "max_displacement_mm": 0.35339901686310626,
+          "mean_displacement_mm": 0.12929129500758918,
+          "RMS_displacement_mm": 0.15676721481976155
+        },
+        {
+          "ring_depth": 4,
+          "vertex_count": 33,
+          "max_displacement_mm": 0.17335996096246256,
+          "mean_displacement_mm": 0.04953608966023159,
+          "RMS_displacement_mm": 0.062411952985940544
+        },
+        {
+          "ring_depth": 5,
+          "vertex_count": 40,
+          "max_displacement_mm": 0.06440277003503093,
+          "mean_displacement_mm": 0.013743803465904139,
+          "RMS_displacement_mm": 0.018960954992804913
+        }
+      ]
+    }
+  ],
+  "RECOMMENDED_CANDIDATE": "NONE",
+  "RECOMMENDED_ACTUAL_WRITE_VERTEX_COUNT": 0,
+  "TOPOLOGY_CHANGE_REQUIRED": "NOT_PROVED_NO_RECOMMENDATION",
+  "RET0PO_REQUIRED": "NO",
+  "POSITION_ONLY_INSUFFICIENT": "NOT_PROVED_GLOBALLY",
+  "failure_class": "D_OPTIMIZER_FORMULATION_INSUFFICIENCY",
+  "failure_class_evidence": "Angle/height constraint projection can converge at S3-S5, but introduces exact native face intersections. The tested solver has not found a joint collision/shape feasible solution.",
+  "topology_distribution_limitation_proved": false,
+  "protected_boundary_conflict": false,
+  "target_surface_conflict_proved": false,
+  "PRODUCTION_DRIFT": 0,
+  "production_blend_saves": 0,
+  "production_master_generated": false,
+  "formal_application_executed": false,
+  "Full42_executed": false,
+  "Stage6B_executed": false,
+  "FullStage6A_status": "FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION",
+  "old9_independent_crossings_unchanged": true,
+  "NEXT": "STOP_HUMAN_REVIEW_NO_APPLICATION",
+  "STOP": "HUMAN REVIEW",
+  "visual_inspection": {
+    "status": "MODEL_INSPECTED_STATIC_FAILURE_EVIDENCE_NOT_HUMAN_APPROVAL",
+    "files_inspected": [
+      "COMPARE_RSSF_RAW_CLOSE.png",
+      "COMPARE_RSSF_RAW_GRAZING.png",
+      "COMPARE_RSSF_RAW_BOUNDARY_6675.png",
+      "COMPARE_RSSF_RAW_BOUNDARY_6602.png",
+      "COMPARE_RSSF_RAW_DORSAL_WHOLE.png",
+      "COMPARE_RSSF_RAW_ANGLE_2.png",
+      "COMPARE_RSSF_RAW_SECTIONS.png",
+      "EDGE6675_FORENSIC.png",
+      "EDGE6602_FORENSIC.png",
+      "NEW_CONTACT_204_207_FORENSIC.png",
+      "CENTRAL_SECTION_ZOOM.png"
+    ],
+    "failed_S5": {
+      "central_notch": "REDUCED_IN_ORDINARY_SOLID_BUT_CONTINUITY_NOT_ACCEPTED",
+      "boundary": "Some boundary facets are occluded in whole-surface views; angles and isolated forensic evidence remain necessary.",
+      "natural_shallow_continuous_valley": "NOT_ESTABLISHED_AS_COMPLETE_PASS",
+      "new_visible_defect": "NEW_EXACT_CONTACT_AND_REDISTRIBUTED_SECTION_RIDGE; HUMAN_VISIBLE_SEVERITY_NOT_ADJUDICATED",
+      "bind_preview": "NOT_RUN_NO_STRUCTURALLY_FEASIBLE_CANDIDATE",
+      "section_contour": "120 degree central section shows a redistributed ridge/slope change; natural continuous shallow valley not established."
+    },
+    "Human_approval": false,
+    "candidates": {}
+  },
+  "historical_files_unchanged": 3009
+}

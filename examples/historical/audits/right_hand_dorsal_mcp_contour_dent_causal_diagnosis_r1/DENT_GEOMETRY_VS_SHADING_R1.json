@@ -1,0 +1,38 @@
+{
+  "status": "TRUE_GEOMETRY_DEFECT_CONFIRMED",
+  "ROOT_CAUSE_CLASS": "BASE_GEOMETRY_CONTOUR_DEFECT",
+  "SHADING_CAUSAL": "VISUAL_EMPHASIS_ONLY_NOT_ROOT_CAUSE",
+  "actual_production_ROI_smooth_faces": 0,
+  "actual_production_custom_normals": false,
+  "display_modes": [
+    "CURRENT",
+    "FLAT",
+    "WIRE",
+    "NORMALS",
+    "GRAZING",
+    "SILHOUETTE",
+    "ANGLE_2",
+    "ANGLE_3",
+    "SMOOTH_RESET_COUNTERFACTUAL"
+  ],
+  "evidence": "Visible folded surface in current/flat, native wire and three actual mesh sections. Largest crease has opposite directed edge traversal in its two incident faces; it is a geometry fold, not a simple normal/winding inversion.",
+  "sharpest_native_edge": {
+    "edge_id": 6676,
+    "vertices": [
+      3340,
+      3332
+    ],
+    "faces": [
+      3329,
+      3330
+    ],
+    "unsigned_angle_deg": 178.22763363002085
+  },
+  "prior_review_shading": "Existing Stage6A renderer explicitly smoothed its display clone. That can emphasize the crater appearance; native R2 ROI polygons are all flat. Historical render source is unchanged.",
+  "material_interpretation": "R2 production material/UV/current flags held fixed for cross-stage geometry comparison. Not a reconstruction of each historical stage illumination or material appearance.",
+  "counterfactual_scope": "Smooth normal reset uses diagnostic display copies only; not saved as production or offered as a repair candidate.",
+  "silhouette_limit": "Multiple views and grazing illumination support the fold; no silhouette-derived anatomical acceptance threshold is created.",
+  "render_manifest": "DENT_RENDER_MANIFEST_R1.json",
+  "cross_sections": "DENT_CROSS_SECTIONS_R1.json",
+  "geometry_metrics": "DENT_LOCAL_GEOMETRY_METRICS_R1.json"
+}

@@ -1,0 +1,538 @@
+{
+  "authority_id": "FIRST_WEB_SKIN_WEIGHT_WRAPPER_R2",
+  "status": "RESOLVED",
+  "proposal_status": "PENDING_HUMAN_APPROVAL",
+  "FIRST_WEB_WEIGHT_SEMANTICS": "RETAINED_AND_STATICALLY_REVALIDATED_AS_SHARED_DEFORMATION_INTERFACE",
+  "OLD_FIRST_WEB_SELECTOR": "RETIRED_FOR_FUTURE_USE; do not rerun cap/ownership-dependent selector or legacy exclusions",
+  "membership": {
+    "vertex_ids": [
+      296,
+      346,
+      526,
+      618,
+      1396,
+      1399,
+      1402,
+      1448,
+      1459,
+      1460,
+      1550,
+      1677,
+      1997,
+      2014,
+      2015,
+      2016,
+      2774,
+      2848,
+      2858,
+      3125,
+      3161
+    ],
+    "count": 21,
+    "reference": {
+      "path": "production_spec\\stage5_production_rig\\stage5b_r1a\\FIRST_WEB_REGION_AUDIT_R1A.json",
+      "sha256": "ab01e023b437c456eaf46af39c01682d4a97050a5dd514e17c00f77ec5018208",
+      "usage": "AUTHORITY_OR_FROZEN_INPUT"
+    },
+    "unchanged": true
+  },
+  "R3_side_information": "7 THUMB / 14 INDEX, context/guard only, not bone ratios; wrapper exception has priority for the exact 21 frozen points",
+  "allowed_deform_groups": [
+    "INDEX_MCP_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "WRIST_R"
+  ],
+  "forbidden_groups": [
+    "THUMB_IP_R",
+    "INDEX_PIP_R",
+    "INDEX_DIP_R",
+    "MIDDLE_MCP_R",
+    "MIDDLE_PIP_R",
+    "MIDDLE_DIP_R",
+    "RING_MCP_R",
+    "RING_PIP_R",
+    "RING_DIP_R",
+    "LITTLE_MCP_R",
+    "LITTLE_PIP_R",
+    "LITTLE_DIP_R",
+    "THUMB_TIP_R",
+    "INDEX_TIP_R",
+    "MIDDLE_TIP_R",
+    "RING_TIP_R",
+    "LITTLE_TIP_R"
+  ],
+  "THUMB_IP_allowed": false,
+  "THUMB_IP_required_weight": 0,
+  "normalization": {
+    "sum": 1,
+    "nonnegative": true,
+    "max_influences": 4,
+    "normalization_tolerance": 1e-05,
+    "forbidden_weight": 0
+  },
+  "continuity_scope": [
+    296,
+    303,
+    304,
+    305,
+    306,
+    338,
+    346,
+    415,
+    473,
+    525,
+    526,
+    572,
+    593,
+    602,
+    612,
+    613,
+    617,
+    618,
+    621,
+    625,
+    627,
+    629,
+    1352,
+    1384,
+    1395,
+    1396,
+    1397,
+    1398,
+    1399,
+    1400,
+    1401,
+    1402,
+    1403,
+    1404,
+    1407,
+    1438,
+    1446,
+    1447,
+    1448,
+    1455,
+    1459,
+    1460,
+    1465,
+    1525,
+    1539,
+    1550,
+    1551,
+    1565,
+    1567,
+    1577,
+    1676,
+    1677,
+    1678,
+    1680,
+    1681,
+    1875,
+    1934,
+    1955,
+    1964,
+    1968,
+    1978,
+    1994,
+    1996,
+    1997,
+    2004,
+    2006,
+    2012,
+    2014,
+    2015,
+    2016,
+    2018,
+    2037,
+    2055,
+    2056,
+    2057,
+    2771,
+    2773,
+    2774,
+    2775,
+    2783,
+    2797,
+    2848,
+    2858,
+    2891,
+    2892,
+    2896,
+    2933,
+    3093,
+    3104,
+    3107,
+    3109,
+    3125,
+    3127,
+    3137,
+    3138,
+    3160,
+    3161,
+    3162
+  ],
+  "scope_type": "Engineering 2-ring test neighborhood; not expanded anatomical FIRST_WEB membership",
+  "three_way_contexts": {
+    "thumb_side_ids": [
+      303,
+      304,
+      305,
+      306,
+      627,
+      629,
+      1352,
+      1384,
+      1395,
+      1397,
+      1398,
+      1400,
+      1401,
+      1403,
+      1404,
+      1407,
+      1438,
+      1446,
+      1447,
+      1455,
+      2018,
+      2037,
+      2055,
+      2056,
+      2057,
+      2771,
+      2773,
+      2775,
+      2783,
+      2797,
+      3160,
+      3162
+    ],
+    "index_side_ids": [
+      338,
+      415,
+      473,
+      525,
+      572,
+      593,
+      602,
+      612,
+      613,
+      617,
+      621,
+      625,
+      1465,
+      1525,
+      1539,
+      1551,
+      1565,
+      1567,
+      1577,
+      1676,
+      1678,
+      1680,
+      1681,
+      1875,
+      1934,
+      1955,
+      1964,
+      1968,
+      1978,
+      1994,
+      1996,
+      2004,
+      2006,
+      2012,
+      2891,
+      2892,
+      2896,
+      2933,
+      3093,
+      3104,
+      3107,
+      3109,
+      3127,
+      3137,
+      3138
+    ],
+    "palm_wrist_context_ids": [
+      338,
+      525,
+      572,
+      593,
+      612,
+      613,
+      617,
+      621,
+      627,
+      629,
+      1446,
+      1447,
+      1465,
+      1539,
+      1565,
+      1577,
+      1676,
+      1681,
+      1968,
+      1996,
+      2012,
+      2018,
+      2037,
+      2055,
+      2056,
+      2057,
+      2783,
+      2797,
+      2891,
+      2933,
+      3093,
+      3107,
+      3109,
+      3160,
+      3162
+    ],
+    "outside_bounded_domain_ids": [],
+    "palm_wrist_context_rule": "Existing WRIST carrier >=0.05 or frozen native wrist context; overlapping deformation support context, not anatomical membership. Palm/wrist continuity remains required even when all neighbors have bounded THUMB/INDEX side labels."
+  },
+  "deterministic_future_field": "Jointly optimize the patch with corrected thumb CMC/MCP and unchanged INDEX_MCP/WRIST bone-distance priors; same positive-edge quadratic objective and simplex constraints as old cap9. Exact 21 web points permit the four shared groups only; neighboring points retain their own approved support. Keep valid R1B vectors as retention priors, never as forced old selector clamps.",
+  "prior_strength": 0.01,
+  "edge_coefficient": "MED/edge_length_mm",
+  "constraints": "All three interfaces contribute edges simultaneously; every component has positive geometry-prior term and fixed valid outer pins; no thumb-only or index-only optimization",
+  "protection_rules": [
+    "Frozen FIRST_WEB21 exact IDs unchanged",
+    "IP=0 and TIP=0 absolute",
+    "No R3-label-to-weight ratio mapping",
+    "No cap/old cap exclusion used to reconstruct membership",
+    "Preserve CMC geometry, use locality context only",
+    "Outer safe vectors byte-retained after acceptance"
+  ],
+  "R1B_wrapper_group_violations": [],
+  "historical_top_crossing_edge_jumps": [
+    {
+      "edge_id": 2367,
+      "vertex_ids": [
+        2014,
+        525
+      ],
+      "L_inf": 1.0,
+      "L1": 2.000000013038516,
+      "IP_jump": 0,
+      "MCP_jump": 1.0
+    },
+    {
+      "edge_id": 2370,
+      "vertex_ids": [
+        296,
+        2016
+      ],
+      "L_inf": 1.0,
+      "L1": 2.000000014901161,
+      "IP_jump": 0,
+      "MCP_jump": 1.0
+    },
+    {
+      "edge_id": 6022,
+      "vertex_ids": [
+        1460,
+        3161
+      ],
+      "L_inf": 1.0,
+      "L1": 1.999999988824129,
+      "IP_jump": 0,
+      "MCP_jump": 1.0
+    },
+    {
+      "edge_id": 1257,
+      "vertex_ids": [
+        1459,
+        346
+      ],
+      "L_inf": 0.977958032861352,
+      "L1": 1.9559160564094782,
+      "IP_jump": 0,
+      "MCP_jump": 0.9779580235481262
+    },
+    {
+      "edge_id": 1269,
+      "vertex_ids": [
+        1465,
+        346
+      ],
+      "L_inf": 0.9779580235481262,
+      "L1": 1.9559160405333387,
+      "IP_jump": 0,
+      "MCP_jump": 0.9779580235481262
+    },
+    {
+      "edge_id": 1137,
+      "vertex_ids": [
+        1399,
+        304
+      ],
+      "L_inf": 0.9242768436670303,
+      "L1": 1.8485536724328995,
+      "IP_jump": 0.9242768287658691,
+      "MCP_jump": 0.9242768436670303
+    },
+    {
+      "edge_id": 4812,
+      "vertex_ids": [
+        1681,
+        2858
+      ],
+      "L_inf": 0.879173755645752,
+      "L1": 1.9518190141534433,
+      "IP_jump": 0,
+      "MCP_jump": 0.7379348874092102
+    },
+    {
+      "edge_id": 4811,
+      "vertex_ids": [
+        1968,
+        2858
+      ],
+      "L_inf": 0.8702372908592224,
+      "L1": 2.0000000006454237,
+      "IP_jump": 0,
+      "MCP_jump": 0.7379348874092102
+    },
+    {
+      "edge_id": 2206,
+      "vertex_ids": [
+        618,
+        1934
+      ],
+      "L_inf": 0.7046630382537842,
+      "L1": 1.4093260616064072,
+      "IP_jump": 0.7046630382537842,
+      "MCP_jump": 0.636609673500061
+    },
+    {
+      "edge_id": 4773,
+      "vertex_ids": [
+        1978,
+        2848
+      ],
+      "L_inf": 0.6908607482910156,
+      "L1": 1.3817215001909062,
+      "IP_jump": 0.6908607482910156,
+      "MCP_jump": 0.6898402869701385
+    },
+    {
+      "edge_id": 4474,
+      "vertex_ids": [
+        1397,
+        2774
+      ],
+      "L_inf": 0.6711341440677643,
+      "L1": 1.3422682583332062,
+      "IP_jump": 0.6711341142654419,
+      "MCP_jump": 0.6711341440677643
+    },
+    {
+      "edge_id": 1130,
+      "vertex_ids": [
+        303,
+        1396
+      ],
+      "L_inf": 0.655587911605835,
+      "L1": 1.31117582321167,
+      "IP_jump": 0.655587911605835,
+      "MCP_jump": 0.655587911605835
+    },
+    {
+      "edge_id": 6028,
+      "vertex_ids": [
+        1448,
+        3162
+      ],
+      "L_inf": 0.6220612227916718,
+      "L1": 1.2441224455833435,
+      "IP_jump": 0,
+      "MCP_jump": 0.6220612227916718
+    },
+    {
+      "edge_id": 5797,
+      "vertex_ids": [
+        1997,
+        3104
+      ],
+      "L_inf": 0.6099042296409607,
+      "L1": 1.219808429479599,
+      "IP_jump": 0.6099042296409607,
+      "MCP_jump": 0.6099041998386383
+    },
+    {
+      "edge_id": 6027,
+      "vertex_ids": [
+        2016,
+        3162
+      ],
+      "L_inf": 0.47258591651916504,
+      "L1": 0.9451718181371689,
+      "IP_jump": 0,
+      "MCP_jump": 0.37793877720832825
+    },
+    {
+      "edge_id": 4478,
+      "vertex_ids": [
+        1396,
+        2775
+      ],
+      "L_inf": 0.34779441356658936,
+      "L1": 0.6955888271331787,
+      "IP_jump": 0.34779441356658936,
+      "MCP_jump": 0.34779441356658936
+    },
+    {
+      "edge_id": 4472,
+      "vertex_ids": [
+        1399,
+        2773
+      ],
+      "L_inf": 0.3425915539264679,
+      "L1": 0.6851830780506134,
+      "IP_jump": 0.3425915539264679,
+      "MCP_jump": 0.3425915241241455
+    },
+    {
+      "edge_id": 4772,
+      "vertex_ids": [
+        1994,
+        2848
+      ],
+      "L_inf": 0.3258381485939026,
+      "L1": 0.6516762709943578,
+      "IP_jump": 0.3258381485939026,
+      "MCP_jump": 0.3248176574707031
+    },
+    {
+      "edge_id": 1698,
+      "vertex_ids": [
+        526,
+        1680
+      ],
+      "L_inf": 0.29547297954559326,
+      "L1": 0.5909459590911865,
+      "IP_jump": 0.29547297954559326,
+      "MCP_jump": 0.29547297954559326
+    },
+    {
+      "edge_id": 4770,
+      "vertex_ids": [
+        1680,
+        2848
+      ],
+      "L_inf": 0.29547297954559326,
+      "L1": 0.5909459328977391,
+      "IP_jump": 0.29547297954559326,
+      "MCP_jump": 0.2944524884223938
+    }
+  ],
+  "FIRST_WEB21_classification_counts": {
+    "TARGETED_REVALIDATION": 20,
+    "REBUILD_REQUIRED": 1
+  },
+  "continuity_gate": "DEFORMATION_VALIDATION_REQUIRED: static three-way seam checks then thumb/index/wrist targeted deformation. Semantic resolution does not claim candidate field already passed.",
+  "weights_generated": 0
+}

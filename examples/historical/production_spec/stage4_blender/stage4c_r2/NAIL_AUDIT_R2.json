@@ -1,0 +1,693 @@
+{
+ "stage": "STAGE4C_R2_CON_4_NAILS",
+ "generated_at": "2026-09-29T08:08:48.671910+08:00",
+ "revision_of": "STAGE4C_R1 (provenance, unmodified: sha256 66fa45325273f38f597f6af78bec603c471a697d6f1798b96eecc231e64bcdb6)",
+ "approach_unchanged": "per-face MATERIAL semantic (slot 1 = NAIL_BED); zero added geometry, zero added tris.  R1's overall approach is retained -- the failure was in the SELECTOR, not in material-only vs a nail mesh.",
+ "why_material_only_still_stands": "the R1 hypothesis was re-tested rather than abandoned: once the selector gates on digit ownership, the distal phalanx domain and the dorsal facing, material-only produces a clean per-digit plate on every digit with 0 overlap and 0 leakage.  There is therefore no evidence that material-only cannot form a reasonable teaching semantic on this topology, which is the condition the brief sets for switching to a separate nail mesh.",
+ "r1_defect": {
+  "summary": "R1 had no digit-ownership gate and no distal-phalanx spatial domain gate; it relied on a face-normal cone plus the axial position along the distal bone.  Both are insufficient on this asset.",
+  "measured_causes": [
+   "adjacent finger nail normals are nearly parallel (index-middle 13.07 deg, middle-ring 11.80 deg, ring-little 15.24 deg, index-ring 24.32 deg), so R1's 63.3 deg cone puts 838 faces inside more than one digit's cone",
+   "with no ownership gate the sets overlap: 204 instances over only 155 unique faces = 49 duplicate assignments across 6 of the 10 digit pairs",
+   "the axial test constrains only ONE coordinate, so faces at the finger ROOT still qualify: R1's union reaches 64.82 mm from the nearest distal bone, with 46 faces beyond 12 mm (p90 = 43.55 mm) -- that is the pale band at the finger roots",
+   "36 of R1's union faces are in fact owned by a different digit"
+  ],
+  "diagnosis_file": "stage4c_r2/_tmp/R1_SELECTOR_DIAGNOSIS.json",
+  "r1_selector_reproduced_exactly": {
+   "thumb": true,
+   "index": true,
+   "middle": true,
+   "ring": true,
+   "little": true
+  }
+ },
+ "r2_selector": {
+  "gates": {
+   "A_digit_ownership": "the face must belong to the owning digit.  Ownership is decided on the digit's FULL bone chain (meta+prox+distal), which is strictly stronger than the distal-segment-only test the brief names.  It has to be stronger: in this opposed RSSF pose the thumb's distal phalanx sits only ~9 mm from the INDEX knuckle, so a distal-segment rule alone would hand index-knuckle faces to the thumb.  The brief's literal distal-segment comparison is ALSO enforced as a gate.",
+   "B_distal_domain": "axial inside [0.18, 0.80] of the owning distal bone AND radial offset inside the digit's own measured surface envelope AND on the dorsal side AND in the outer 75% of that envelope",
+   "C_dorsal_facing": "face normal inside a 0.60 cone (53.1 deg) of the owning digit's nail normal -- tightened from R1's 0.45 because the neighbours' nail normals are only ~13 deg apart",
+   "web_guard": ">= 4 mm from every other digit's distal bone"
+  },
+  "disjointness_is_structural": "every face has exactly one owner, so the five sets cannot intersect; the 10 pairwise intersections are still computed and reported as evidence",
+  "envelope_radii_mm": {
+   "thumb": 11.14,
+   "index": 7.64,
+   "middle": 7.8,
+   "ring": 7.15,
+   "little": 6.75
+  },
+  "specks": {
+   "thumb": {
+    "islands_before": 1,
+    "island_sizes_before": [
+     12
+    ],
+    "dropped_as_specks": []
+   },
+   "index": {
+    "islands_before": 1,
+    "island_sizes_before": [
+     29
+    ],
+    "dropped_as_specks": []
+   },
+   "middle": {
+    "islands_before": 1,
+    "island_sizes_before": [
+     35
+    ],
+    "dropped_as_specks": []
+   },
+   "ring": {
+    "islands_before": 1,
+    "island_sizes_before": [
+     25
+    ],
+    "dropped_as_specks": []
+   },
+   "little": {
+    "islands_before": 1,
+    "island_sizes_before": [
+     23
+    ],
+    "dropped_as_specks": []
+   }
+  }
+ },
+ "gates_result": {
+  "NAIL_FACE_SET_DISJOINT": true,
+  "NAIL_FACE_OVERLAP_COUNT_TOTAL": 0,
+  "NAIL_FACE_OWNER_DISTANCE_TEST": true,
+  "NAIL_FACE_OWNER_DISTANCE_VIOLATIONS": 0,
+  "NAIL_DISTAL_DOMAIN_TEST": true,
+  "NAIL_DISTAL_DOMAIN_VIOLATIONS": 0,
+  "NAIL_PALMAR_LEAKAGE": 0,
+  "NAIL_WEBSPACE_LEAKAGE": 0,
+  "NAIL_FACES_FURTHER_THAN_12MM_FROM_ANY_DISTAL_BONE": 0,
+  "NAIL_CONNECTED_COMPONENTS_PER_DIGIT": {
+   "thumb": [
+    12
+   ],
+   "index": [
+    29
+   ],
+   "middle": [
+    35
+   ],
+   "ring": [
+    25
+   ],
+   "little": [
+    23
+   ]
+  },
+  "one_connected_component_per_digit": true
+ },
+ "pairwise_intersections": [
+  {
+   "pair": "thumb x index",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "thumb x middle",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "thumb x ring",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "thumb x little",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "index x middle",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "index x ring",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "index x little",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "middle x ring",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "middle x little",
+   "intersection_count": 0,
+   "faces": []
+  },
+  {
+   "pair": "ring x little",
+   "intersection_count": 0,
+   "faces": []
+  }
+ ],
+ "per_digit_faces": {
+  "thumb": [
+   64,
+   65,
+   68,
+   71,
+   1036,
+   1037,
+   1038,
+   1039,
+   1040,
+   1216,
+   1218,
+   1219
+  ],
+  "index": [
+   48,
+   49,
+   50,
+   51,
+   52,
+   53,
+   54,
+   55,
+   56,
+   57,
+   58,
+   59,
+   60,
+   61,
+   62,
+   63,
+   788,
+   789,
+   790,
+   791,
+   792,
+   793,
+   794,
+   805,
+   808,
+   809,
+   810,
+   811,
+   825
+  ],
+  "middle": [
+   32,
+   33,
+   34,
+   35,
+   36,
+   37,
+   38,
+   39,
+   40,
+   41,
+   42,
+   43,
+   44,
+   45,
+   46,
+   47,
+   644,
+   645,
+   646,
+   647,
+   648,
+   649,
+   650,
+   651,
+   660,
+   662,
+   663,
+   664,
+   665,
+   666,
+   667,
+   916,
+   917,
+   936,
+   939
+  ],
+  "ring": [
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   26,
+   27,
+   28,
+   29,
+   30,
+   31,
+   85,
+   86,
+   88,
+   89,
+   90,
+   91,
+   94,
+   98,
+   101,
+   102,
+   103,
+   104,
+   105
+  ],
+  "little": [
+   0,
+   1,
+   2,
+   3,
+   5,
+   6,
+   9,
+   10,
+   12,
+   13,
+   14,
+   15,
+   756,
+   759,
+   760,
+   771,
+   772,
+   773,
+   774,
+   775,
+   776,
+   777,
+   990
+  ]
+ },
+ "per_digit_stats": {
+  "thumb": {
+   "faces": 12,
+   "centroid_world": [
+    1.451494,
+    0.013772,
+    0.470876
+   ],
+   "bbox_world": [
+    [
+     1.447451,
+     0.011412,
+     0.466713
+    ],
+    [
+     1.453796,
+     0.015736,
+     0.478762
+    ]
+   ],
+   "distal_bone": "THUMB_IP_R",
+   "axial_frac_min_max": [
+    0.199,
+    0.728
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 4.81,
+    "max": 9.45,
+    "mean": 6.37
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 48.84,
+    "mean": 54.41
+   },
+   "bbox_extent_mm": [
+    6.35,
+    4.32,
+    12.05
+   ]
+  },
+  "index": {
+   "faces": 29,
+   "centroid_world": [
+    1.46179,
+    -0.028339,
+    0.515141
+   ],
+   "bbox_world": [
+    [
+     1.455366,
+     -0.033267,
+     0.511937
+    ],
+    [
+     1.467551,
+     -0.024034,
+     0.516446
+    ]
+   ],
+   "distal_bone": "INDEX_DIP_R",
+   "axial_frac_min_max": [
+    0.182,
+    0.789
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 3.09,
+    "max": 7.8,
+    "mean": 5.12
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 31.41,
+    "mean": 37.84
+   },
+   "bbox_extent_mm": [
+    12.19,
+    9.23,
+    4.51
+   ]
+  },
+  "middle": {
+   "faces": 35,
+   "centroid_world": [
+    1.425266,
+    -0.03788,
+    0.52497
+   ],
+   "bbox_world": [
+    [
+     1.418487,
+     -0.043349,
+     0.522702
+    ],
+    [
+     1.43275,
+     -0.032712,
+     0.526477
+    ]
+   ],
+   "distal_bone": "MIDDLE_DIP_R",
+   "axial_frac_min_max": [
+    0.194,
+    0.763
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 5.72,
+    "max": 8.35,
+    "mean": 6.47
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 25.65,
+    "mean": 30.77
+   },
+   "bbox_extent_mm": [
+    14.26,
+    10.64,
+    3.78
+   ]
+  },
+  "ring": {
+   "faces": 25,
+   "centroid_world": [
+    1.395213,
+    -0.039487,
+    0.517081
+   ],
+   "bbox_world": [
+    [
+     1.388765,
+     -0.044365,
+     0.515209
+    ],
+    [
+     1.400911,
+     -0.03576,
+     0.518647
+    ]
+   ],
+   "distal_bone": "RING_DIP_R",
+   "axial_frac_min_max": [
+    0.288,
+    0.798
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 5.65,
+    "max": 6.96,
+    "mean": 6.17
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 24.13,
+    "mean": 29.66
+   },
+   "bbox_extent_mm": [
+    12.15,
+    8.6,
+    3.44
+   ]
+  },
+  "little": {
+   "faces": 23,
+   "centroid_world": [
+    1.359967,
+    -0.031422,
+    0.500157
+   ],
+   "bbox_world": [
+    [
+     1.355552,
+     -0.035438,
+     0.497116
+    ],
+    [
+     1.365375,
+     -0.028628,
+     0.50158
+    ]
+   ],
+   "distal_bone": "LITTLE_DIP_R",
+   "axial_frac_min_max": [
+    0.193,
+    0.794
+   ],
+   "nearest_owning_bone_distance_mm": {
+    "min": 3.25,
+    "max": 6.79,
+    "mean": 4.55
+   },
+   "nearest_competing_digit_distance_mm": {
+    "min": 31.84,
+    "mean": 36.74
+   },
+   "bbox_extent_mm": [
+    9.82,
+    6.81,
+    4.46
+   ]
+  }
+ },
+ "r1_vs_r2": {
+  "r1_instances": 204,
+  "r1_union": 155,
+  "r1_per_digit": {
+   "thumb": 46,
+   "index": 47,
+   "middle": 36,
+   "ring": 44,
+   "little": 31
+  },
+  "r2_per_digit": {
+   "thumb": 12,
+   "index": 29,
+   "middle": 35,
+   "ring": 25,
+   "little": 23
+  },
+  "r2_instances": 124,
+  "r2_union": 124
+ },
+ "r1_vs_r2_face_delta": {
+  "faces_in_r1_not_in_r2": {
+   "count": 85,
+   "faces": [
+    25,
+    80,
+    81,
+    82,
+    83,
+    84,
+    87,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    118,
+    119,
+    121,
+    124,
+    636,
+    637,
+    638,
+    639,
+    640,
+    641,
+    642,
+    643,
+    661,
+    692,
+    693,
+    697,
+    698,
+    781,
+    786,
+    824,
+    892,
+    893,
+    915,
+    937,
+    941,
+    2205
+   ]
+  },
+  "faces_in_r2_not_in_r1": {
+   "count": 54,
+   "faces": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    9,
+    10,
+    12,
+    13,
+    14,
+    15,
+    18,
+    27,
+    28,
+    64,
+    65,
+    68,
+    71,
+    85,
+    86,
+    88,
+    89,
+    90,
+    91,
+    94,
+    98,
+    101,
+    102,
+    103,
+    104,
+    105,
+    651,
+    756,
+    759,
+    760,
+    771,
+    772,
+    773,
+    774
+   ]
+  },
+  "faces_retained": {
+   "count": 70,
+   "faces": [
+    19,
+    20,
+    21,
+    22,
+    23,
+    26,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62
+   ]
+  }
+ },
+ "materials": [
+  {
+   "slot": 0,
+   "name": "HAND_SKIN",
+   "faces": 3290,
+   "diffuse_color": [
+    0.84,
+    0.66,
+    0.58,
+    1.0
+   ]
+  },
+  {
+   "slot": 1,
+   "name": "NAIL_BED",
+   "faces": 124,
+   "diffuse_color": [
+    0.95,
+    0.9,
+    0.89,
+    1.0
+   ]
+  }
+ ],
+ "freeze": {
+  "vertex_position_max_delta_m": 0.0,
+  "uv_max_delta": 0.0,
+  "origin_delta_m": 0.0,
+  "TOPOLOGY_SIGNATURE_PRE": "5a39668418eea1716a0fd9bc20b3d0aeda67e6a49a343b74eb3e17c339f90c1d",
+  "TOPOLOGY_SIGNATURE_POST": "5a39668418eea1716a0fd9bc20b3d0aeda67e6a49a343b74eb3e17c339f90c1d",
+  "TOPOLOGY_SIGNATURE_MATCH": true,
+  "V": 3416,
+  "E": 6828,
+  "F": 3414,
+  "TOTAL_RIGHT_HAND_TRIS": 6828,
+  "armatures": [],
+  "vertex_groups": []
+ },
+ "r1_authority_correction": {
+  "stale_field": "stage4c/NAIL_AUDIT.json -> nail_side_identifiable_on_all_five_digits",
+  "why_invalid": "R1's per-digit face sets overlap (204 instances / 155 unique), so a face could be counted as the nail of more than one digit.  A boolean that ignores overlap cannot be a Human Review authority.",
+  "replacement": "NAIL_AUDIT_R2.json -> gates_result (disjointness, overlap count, ownership test, distal-domain test, leakage, components)",
+  "r1_file_untouched": true
+ },
+ "VERDICT": "PASS_PENDING_HUMAN_REVIEW"
+}

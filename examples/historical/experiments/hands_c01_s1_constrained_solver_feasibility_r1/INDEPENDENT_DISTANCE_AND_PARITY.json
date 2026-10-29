@@ -1,0 +1,185 @@
+{
+  "attempts": [
+    {
+      "attempt": 1,
+      "proxy_actual_max_vertex_difference_mm": 0.0007276300530569647,
+      "contact_raw_boolean": false,
+      "contact_raw_original": {
+        "pad_gap_mm": 2.2126351459536773,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": 0.055310887744933084,
+        "pulp_min_vertex_gap_mm": 1.8901571884289115,
+        "pulp_closest_vertex": 1753,
+        "pulp_contact_position_world_m": [
+          0.10195592045783997,
+          0.0014117001555860043,
+          -0.007905897684395313
+        ],
+        "true_pulp_surface_contact_distance_mm": 0.055310887744933084,
+        "near_contact_projected_area_mm2": 0.0,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 0,
+        "top_surface_crossing_triangle_ids": [],
+        "inside_playable_patch_vertices": 32,
+        "hover_only": true
+      },
+      "complete_pulp_to_playable_top_euclidean_distance": {
+        "distance_mm": 0.04534072881312548,
+        "pulp_triangle_id": 3869,
+        "playable_top_triangle_index": 0,
+        "witness_points_world_m": [
+          [
+            0.09908295456534603,
+            -0.0008699685169331996,
+            -0.009965232725175464
+          ],
+          [
+            0.09908295456534605,
+            -0.0008408648830847826,
+            -0.009999999953798445
+          ]
+        ],
+        "method": "Exhaustive all frozen pulp triangles x complete playable top rectangles triangulated exactly; all point-face and edge-edge features for disjoint triangles",
+        "pairs": 568,
+        "crossing": false
+      },
+      "state_change_from_previous_repair": [
+        -0.9999999999998295,
+        -0.07516868886199202,
+        0.0,
+        -0.24731463055095168,
+        -1.787573564615391,
+        1.6059146637647927,
+        -1.264368970470315,
+        -0.015130696968233208,
+        -0.02938295538888227,
+        -2.2315940302266295,
+        -1.771845052232889,
+        -1.0333304912455876,
+        -0.459639660512174,
+        -2.3797918144239176,
+        -2.9925711472802456,
+        1.6663246360280892,
+        1.515770900262888,
+        -0.0008869877235007095,
+        2.9999999999999893,
+        2.999999929923261,
+        1.1889944263769978,
+        1.966303175941932,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_control_delta_mm_or_deg": 2.9999999999999893,
+      "root_z_delta_from_seed_mm": 0.0
+    },
+    {
+      "attempt": 2,
+      "proxy_actual_max_vertex_difference_mm": 0.0005319469144056837,
+      "contact_raw_boolean": true,
+      "contact_raw_original": {
+        "pad_gap_mm": 0.9038357484272772,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": -0.004994463439719317,
+        "pulp_min_vertex_gap_mm": 0.48610720415044967,
+        "pulp_closest_vertex": 1753,
+        "pulp_contact_position_world_m": [
+          0.10082606021362964,
+          -0.0008408648830847826,
+          -0.009999999953798447
+        ],
+        "true_pulp_surface_contact_distance_mm": 0.0,
+        "near_contact_projected_area_mm2": 0.051675367632171156,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 2,
+        "top_surface_crossing_triangle_ids": [
+          3869,
+          3870
+        ],
+        "inside_playable_patch_vertices": 21,
+        "hover_only": false
+      },
+      "complete_pulp_to_playable_top_euclidean_distance": {
+        "distance_mm": 0.0,
+        "method": "Original independently verified pulp/playable-top intersection; exact zero",
+        "crossing": true
+      },
+      "state_change_from_previous_repair": [
+        0.0,
+        0.0013661390066221912,
+        0.0,
+        -0.003332564836399321,
+        -0.0012652905494485722,
+        -0.00037575187862870507,
+        0.0022961640433578623,
+        0.0010229547316278342,
+        0.00033380946808337503,
+        -5.3181933250101565e-05,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_control_delta_mm_or_deg": 0.003332564836399321,
+      "root_z_delta_from_seed_mm": 0.0
+    }
+  ],
+  "S2_readonly_distance_regression": {
+    "distance_mm": 0.11774766739016501,
+    "triangle_ids": [
+      593,
+      286
+    ],
+    "witness_points_world_m": [
+      [
+        0.21647421045572482,
+        0.01777377972100668,
+        0.020888946423826223
+      ],
+      [
+        0.2165857608330919,
+        0.017774902755062792,
+        0.020926626196643983
+      ]
+    ],
+    "exact_feature_candidates": 370,
+    "aabb_pruning_upper_mm": 0.13770581968052537,
+    "method": "All nonadjacent triangle pairs with AABB lower bound <= sampled upper; exact point-face and all edge-edge feature minima for disjoint triangles"
+  },
+  "previous_second_repair_hover_true_distance_supplement": {
+    "distance_mm": 0.00426022602921184,
+    "pulp_triangle_id": 3870,
+    "playable_top_triangle_index": 0,
+    "witness_points_world_m": [
+      [
+        0.10075097821719947,
+        -0.0008432086102372527,
+        -0.009996442360671801
+      ],
+      [
+        0.10075097821719947,
+        -0.0008408648830847826,
+        -0.009999999953798445
+      ]
+    ],
+    "method": "Exhaustive all frozen pulp triangles x complete playable top rectangles triangulated exactly; all point-face and edge-edge features for disjoint triangles",
+    "pairs": 568,
+    "crossing": false
+  },
+  "no_extra_solve": true,
+  "no_geometry_change": true,
+  "distance_precision": "Float64 exact feature enumeration on float32 Blender-evaluated geometry; original exclusions and full frozen pulp patches unchanged; floating arithmetic, not a formal exact-arithmetic proof"
+}

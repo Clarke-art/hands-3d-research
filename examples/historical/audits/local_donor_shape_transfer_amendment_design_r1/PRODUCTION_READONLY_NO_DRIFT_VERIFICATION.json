@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "scope": "Every pre-existing workspace file, including all production/historical/reference/prior-audit files; only this round independent audit directory excluded. No pre-existing file may be modified/deleted and no new file allowed elsewhere.",
+  "protected_preexisting_file_count": 3668,
+  "protected_after_count": 3668,
+  "changed_files": [],
+  "deleted_files": [],
+  "new_files_outside_current_audit": [],
+  "PRODUCTION_DRIFT": 0,
+  "all_preexisting_files_byte_identical": true,
+  "before_inventory": {
+    "path": "audits/local_donor_shape_transfer_amendment_design_r1/FROZEN_HASHES_BEFORE.json",
+    "sha256": "f7c45d8de7b78afcc75ec38b3885e9200a783685d43f1943d13055dcb52d2180"
+  },
+  "after_inventory": {
+    "path": "audits/local_donor_shape_transfer_amendment_design_r1/FROZEN_HASHES_AFTER.json",
+    "sha256": "f7c45d8de7b78afcc75ec38b3885e9200a783685d43f1943d13055dcb52d2180"
+  },
+  "production_source_stage4c": {
+    "path": "production_spec/stage4_blender/stage4c_r2/RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend",
+    "sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+  },
+  "production_current_R2_rig": {
+    "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+    "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+  },
+  "official_donor_master": {
+    "path": "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend",
+    "sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137"
+  }
+}

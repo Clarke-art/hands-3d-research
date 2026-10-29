@@ -1,0 +1,33 @@
+{
+ "stage": "WEIGHT_PRUNE_WORST_CASE_AUDIT_R1A",
+ "generated_at": "2026-09-30T06:58:56.163172+08:00",
+ "worst_case_rule": "keep the 4 largest influences, renormalise",
+ "R1_reported_worst_discarded_weight_per_vertex": 0.095368,
+ "worst_vertex_R1": 778,
+ "worst_vertex_world_mm": [
+  1444.013357,
+  4.282406,
+  433.988035
+ ],
+ "worst_vertex_influences_before": 4,
+ "worst_vertex_influences_after": 1,
+ "worst_vertex_bones_before": {
+  "THUMB_IP_R": 0.666667,
+  "THUMB_CMC_R": 0.141498,
+  "THUMB_MCP_R": 0.096467,
+  "WRIST_R": 0.095368
+ },
+ "worst_vertex_bones_after": {
+  "THUMB_CMC_R": 1.0
+ },
+ "worst_vertex_discarded_bones": [],
+ "worst_vertex_discarded_total_weight": 0.0,
+ "worst_vertex_semantic_region": "THUMB_OWNED",
+ "worst_vertex_in_authorised_region": true,
+ "R1A_prune_vertices_pruned": 0,
+ "R1A_worst_discarded_weight_per_vertex": 0.0,
+ "note": "the R1A construction emits at most 4 influences per changed vertex by design, so no pruning happens on any modified vertex; the R1 worst-case vertex is reported above. Pruning is not a blocker as long as the discarded influence does not change the semantic ownership and the <=4 final influences stay plausible.",
+ "R1A_worst_discarded_weight_per_vertex_recomputed_all_mesh": 0.0,
+ "R1A_worst_vertex_recomputed": null,
+ "WEIGHT_PRUNE_WORST_CASE": "PASS"
+}

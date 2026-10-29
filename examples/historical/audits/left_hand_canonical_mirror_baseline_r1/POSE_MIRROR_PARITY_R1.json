@@ -1,0 +1,434 @@
+{
+  "status": "PASS",
+  "cases_count": 6,
+  "ZERO_RSSF_is_one_of_six_approved_cases": true,
+  "no_invented_seventh_pose": true,
+  "right_opposition_axis": [
+    -0.8687883019447327,
+    -0.25,
+    -0.42744219303131104
+  ],
+  "left_opposition_axis": [
+    -0.8687883019447327,
+    0.25,
+    0.42744219303131104
+  ],
+  "pose_rule": "H-conjugation, not mechanical angle-name copying",
+  "poses": [
+    {
+      "pose": "ZERO",
+      "source_definition": {
+        "case_id": "ZERO"
+      },
+      "right_to_left_basis": {},
+      "evaluated_mirror_max_error_mm": 0.0007221900655923168,
+      "bone_pose_matrix_max_error": 2.5600194931030273e-05,
+      "right_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "left_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "status": "PASS",
+      "human_visible_result": "AGENT_VISIBLE_PASS / HUMAN_REVIEW_PENDING",
+      "visible_findings": "掌侧、背侧身份清楚；拇指、掌体积、指链和腕部自然镜像，未观察到 inside-out 或翻面。"
+    },
+    {
+      "pose": "INDEX_MCP_45",
+      "source_definition": {
+        "case_id": "INDEX_MCP_45",
+        "bone": "INDEX_MCP_R",
+        "applied_rotation_deg": -45.0,
+        "axis": "bone_local_X",
+        "source_case_id": "IDX_MCP_45"
+      },
+      "right_to_left_basis": {
+        "INDEX_MCP_R": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.7071067690849304,
+            0.7071068286895752,
+            0.0
+          ],
+          [
+            0.0,
+            -0.7071068286895752,
+            0.7071067690849304,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "evaluated_mirror_max_error_mm": 0.0007250093519781193,
+      "bone_pose_matrix_max_error": 2.5600194931030273e-05,
+      "right_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "left_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "status": "PASS",
+      "human_visible_result": "AGENT_VISIBLE_PASS / HUMAN_REVIEW_PENDING",
+      "visible_findings": "食指屈曲方向及指根形态与右手镜像等价；现有折线/面感同时见于右手，未观察到新增 flap 或明显穿透。"
+    },
+    {
+      "pose": "CMC_OPP_30",
+      "source_definition": {
+        "case_id": "CMC_OPP_30",
+        "cmc_deg": 30.0,
+        "mcp_deg": 0.0,
+        "ip_deg": 0.0
+      },
+      "right_to_left_basis": {
+        "THUMB_CMC_R": [
+          [
+            0.96714848279953,
+            -0.24282008409500122,
+            0.0752476304769516,
+            0.0
+          ],
+          [
+            0.18462225794792175,
+            0.8743987083435059,
+            0.44871091842651367,
+            0.0
+          ],
+          [
+            -0.17475245893001556,
+            -0.42007771134376526,
+            0.8905034065246582,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "evaluated_mirror_max_error_mm": 0.000890151471448498,
+      "bone_pose_matrix_max_error": 2.5600194931030273e-05,
+      "right_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 1.0
+      },
+      "left_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 1.0
+      },
+      "status": "PASS",
+      "human_visible_result": "AGENT_VISIBLE_PASS / HUMAN_REVIEW_PENDING",
+      "visible_findings": "拇指向掌侧 opposition，thenar 与 first-web 形态随右手等价变化；corrective 自然触发。"
+    },
+    {
+      "pose": "FULL_OPP_L1",
+      "source_definition": {
+        "case_id": "FULL_OPP_L1",
+        "cmc_deg": 10.0,
+        "mcp_deg": 10.0,
+        "ip_deg": 5.0
+      },
+      "right_to_left_basis": {
+        "THUMB_CMC_R": [
+          [
+            0.9962747693061829,
+            -0.07752426713705063,
+            0.03777029737830162,
+            0.0
+          ],
+          [
+            0.07092484086751938,
+            0.9857572913169861,
+            0.15248695015907288,
+            0.0
+          ],
+          [
+            -0.04905378073453903,
+            -0.14924004673957825,
+            0.9875834584236145,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "THUMB_MCP_R": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9848077893257141,
+            0.17364813387393951,
+            0.0
+          ],
+          [
+            0.0,
+            -0.17364813387393951,
+            0.9848077893257141,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "THUMB_IP_R": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9961947202682495,
+            0.08715572953224182,
+            0.0
+          ],
+          [
+            0.0,
+            -0.08715572953224182,
+            0.9961947202682495,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "evaluated_mirror_max_error_mm": 0.0007221900655923168,
+      "bone_pose_matrix_max_error": 2.5600194931030273e-05,
+      "right_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "left_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.0
+      },
+      "status": "PASS",
+      "human_visible_result": "AGENT_VISIBLE_PASS / HUMAN_REVIEW_PENDING",
+      "visible_findings": "轻度 opposition 的拇指链和掌体积镜像一致，无新增 bulge、塌陷或异常骨轴感。"
+    },
+    {
+      "pose": "FULL_OPP_L2",
+      "source_definition": {
+        "case_id": "FULL_OPP_L2",
+        "cmc_deg": 20.0,
+        "mcp_deg": 20.0,
+        "ip_deg": 10.0
+      },
+      "right_to_left_basis": {
+        "THUMB_CMC_R": [
+          [
+            0.9852122068405151,
+            -0.15929244458675385,
+            0.06310948729515076,
+            0.0
+          ],
+          [
+            0.13309527933597565,
+            0.9434618353843689,
+            0.3035876154899597,
+            0.0
+          ],
+          [
+            -0.10790059715509415,
+            -0.29069867730140686,
+            0.950711190700531,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "THUMB_MCP_R": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9396926164627075,
+            0.3420201539993286,
+            0.0
+          ],
+          [
+            0.0,
+            -0.3420201539993286,
+            0.9396926164627075,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "THUMB_IP_R": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9848077893257141,
+            0.17364813387393951,
+            0.0
+          ],
+          [
+            0.0,
+            -0.17364813387393951,
+            0.9848077893257141,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "evaluated_mirror_max_error_mm": 0.000752569150771243,
+      "bone_pose_matrix_max_error": 2.5600194931030273e-05,
+      "right_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.9730561971664429
+      },
+      "left_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 0.9730565547943115
+      },
+      "status": "PASS",
+      "human_visible_result": "AGENT_VISIBLE_PASS / HUMAN_REVIEW_PENDING",
+      "visible_findings": "中度 opposition 的拇指根及 first-web 对照一致，无新增可见缺陷。"
+    },
+    {
+      "pose": "FULL_OPP_L3",
+      "source_definition": {
+        "case_id": "FULL_OPP_L3",
+        "cmc_deg": 30.0,
+        "mcp_deg": 30.0,
+        "ip_deg": 15.0
+      },
+      "right_to_left_basis": {
+        "THUMB_CMC_R": [
+          [
+            0.96714848279953,
+            -0.24282008409500122,
+            0.0752476304769516,
+            0.0
+          ],
+          [
+            0.18462225794792175,
+            0.8743987083435059,
+            0.44871091842651367,
+            0.0
+          ],
+          [
+            -0.17475245893001556,
+            -0.42007771134376526,
+            0.8905034065246582,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "THUMB_MCP_R": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.8660253286361694,
+            0.5000001192092896,
+            0.0
+          ],
+          [
+            0.0,
+            -0.5000001192092896,
+            0.8660253286361694,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "THUMB_IP_R": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.9659258127212524,
+            0.25881901383399963,
+            0.0
+          ],
+          [
+            0.0,
+            -0.25881901383399963,
+            0.9659258127212524,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ]
+      },
+      "evaluated_mirror_max_error_mm": 0.0007221900655923168,
+      "bone_pose_matrix_max_error": 2.5600194931030273e-05,
+      "right_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 1.0
+      },
+      "left_corrective_values": {
+        "FIRST_WEB_OPPOSITION_CREASE_R1": 1.0
+      },
+      "status": "PASS",
+      "human_visible_result": "AGENT_VISIBLE_PASS / HUMAN_REVIEW_PENDING",
+      "visible_findings": "最大批准组合姿态保持拇指屈曲与掌侧关系；未观察到 corrective 反向、inside-out 或明显穿透。"
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "status": "FAIL_CLOSED",
+  "candidate_count": 0,
+  "formal_local_solve_attempts": 0,
+  "static_correction_trials": 0,
+  "baseline_sha256": "d8e0f5a85e71323739bfcd4de485ff7a2b4096f8e59bbd4c578ee9d76d3e51a7",
+  "source_reference_locked": true,
+  "strategies_generated": false,
+  "reason": "Confirmed visible non-target black-key penetration affects INDEX, MIDDLE and RING across most of the phrase, including immutable outside-window INDEX states. A correction restricted to the middle/ring handoff cannot satisfy the joint product constraints. Longer right-hand coordination needs separate authorization; do not run even one knowingly incomplete candidate.",
+  "index_collision_frame_count": 249,
+  "index_collision_sample_duration_sec": 4.15,
+  "index_collision_frames_outside_existing_local_window": 196,
+  "full_video_sec": 5.95,
+  "black_key_pairs": [
+    {
+      "digit": "INDEX",
+      "midi": 68,
+      "note": "G#4",
+      "intervals": [
+        [
+          0.0,
+          0.23333333333333334
+        ],
+        [
+          0.3,
+          0.9
+        ],
+        [
+          1.2666666666666666,
+          1.65
+        ]
+      ],
+      "max_depth_mm": 4.328347742557526,
+      "frames": 76
+    },
+    {
+      "digit": "INDEX",
+      "midi": 70,
+      "note": "A#4",
+      "intervals": [
+        [
+          1.7166666666666666,
+          3.1
+        ],
+        [
+          4.666666666666667,
+          4.7
+        ],
+        [
+          4.766666666666667,
+          5.933333333333334
+        ]
+      ],
+      "max_depth_mm": 5.603864789009094,
+      "frames": 158
+    },
+    {
+      "digit": "INDEX",
+      "midi": 73,
+      "note": "C#5",
+      "intervals": [
+        [
+          3.8333333333333335,
+          3.9
+        ],
+        [
+          3.95,
+          4.0
+        ],
+        [
+          4.316666666666666,
+          4.4
+        ]
+      ],
+      "max_depth_mm": 2.1728873252868652,
+      "frames": 15
+    },
+    {
+      "digit": "MIDDLE",
+      "midi": 73,
+      "note": "C#5",
+      "intervals": [
+        [
+          2.933333333333333,
+          3.6333333333333333
+        ]
+      ],
+      "max_depth_mm": 4.9200281500816345,
+      "frames": 43
+    },
+    {
+      "digit": "MIDDLE",
+      "midi": 75,
+      "note": "D#5",
+      "intervals": [
+        [
+          3.65,
+          4.5
+        ]
+      ],
+      "max_depth_mm": 5.55594265460968,
+      "frames": 52
+    },
+    {
+      "digit": "RING",
+      "midi": 73,
+      "note": "C#5",
+      "intervals": [
+        [
+          0.6,
+          0.8166666666666667
+        ],
+        [
+          1.7333333333333334,
+          2.1166666666666667
+        ],
+        [
+          2.183333333333333,
+          2.783333333333333
+        ],
+        [
+          2.9166666666666665,
+          3.0166666666666666
+        ],
+        [
+          4.733333333333333,
+          5.933333333333334
+        ]
+      ],
+      "max_depth_mm": 5.222201347351074,
+      "frames": 155
+    },
+    {
+      "digit": "RING",
+      "midi": 75,
+      "note": "D#5",
+      "intervals": [
+        [
+          4.666666666666667,
+          4.733333333333333
+        ]
+      ],
+      "max_depth_mm": 4.497046582400799,
+      "frames": 5
+    },
+    {
+      "digit": "RING",
+      "midi": 78,
+      "note": "F#5",
+      "intervals": [
+        [
+          4.0,
+          4.0
+        ]
+      ],
+      "max_depth_mm": 0.5631117504175664,
+      "frames": 1
+    }
+  ],
+  "does_not_claim_frozen_rig_intrinsically_infeasible": true,
+  "allowed_next_design": "Event-based local joint coordination with active pad anchors and actual black-key skin constraints, only after explicit wider temporal/finger scope authorization. No root, frozen asset or music change is proposed.",
+  "additional_middle_ring_episode_video_sec": [
+    3.7291666666666665,
+    3.8666666666666667
+  ],
+  "additional_episode_source_parity_max_mm": 0.0
+}

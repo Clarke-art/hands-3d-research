@@ -1,0 +1,148 @@
+{
+  "local_checks": [
+    {
+      "node": 0,
+      "max_coarse_fine": 0.535849433189739,
+      "max_fine_finer": 0.018561736681022012,
+      "relative_frobenius": 0.0006598916825482414,
+      "verified": false,
+      "nearest_axis_change_max": 6.61319231918509e-05,
+      "nearest_axis_changed_pairs": 0,
+      "min_disjoint_feature_distance_mm": 3.0001379048575165,
+      "certificate_axes_fixed": true,
+      "axis_policy": "A changed nearest feature does not alter fixed valid separating certificate; finite differences redetect min/max features. Full BVH is mandatory at accepted nodes/samples.",
+      "active_face_signature": [
+        [
+          3738,
+          0,
+          1
+        ]
+      ],
+      "stats": {
+        "evaluations": 105,
+        "jacobians": 4,
+        "eval_seconds": 4.817616799966345,
+        "jac_seconds": 4.408832000004622,
+        "face_switches": 0,
+        "collision_switches": 42,
+        "self_feature_switches": 54
+      }
+    },
+    {
+      "node": 1,
+      "max_coarse_fine": 2.580158314779979e-08,
+      "max_fine_finer": 2.983613356932757e-07,
+      "relative_frobenius": 2.185524387037685e-08,
+      "verified": true,
+      "nearest_axis_change_max": 0.028268373477720845,
+      "nearest_axis_changed_pairs": 134,
+      "min_disjoint_feature_distance_mm": 3.0001379049943013,
+      "certificate_axes_fixed": true,
+      "axis_policy": "A changed nearest feature does not alter fixed valid separating certificate; finite differences redetect min/max features. Full BVH is mandatory at accepted nodes/samples.",
+      "active_face_signature": [
+        [
+          3738,
+          0,
+          1
+        ]
+      ],
+      "stats": {
+        "evaluations": 105,
+        "jacobians": 4,
+        "eval_seconds": 4.816206099992996,
+        "jac_seconds": 4.408480800000689,
+        "face_switches": 0,
+        "collision_switches": 39,
+        "self_feature_switches": 1
+      }
+    },
+    {
+      "node": 2,
+      "max_coarse_fine": 0.1737331409046306,
+      "max_fine_finer": 3.83026943495679e-07,
+      "relative_frobenius": 4.0095268836295364e-08,
+      "verified": true,
+      "nearest_axis_change_max": 0.002811018840182612,
+      "nearest_axis_changed_pairs": 145,
+      "min_disjoint_feature_distance_mm": 3.0001379021917893,
+      "certificate_axes_fixed": true,
+      "axis_policy": "A changed nearest feature does not alter fixed valid separating certificate; finite differences redetect min/max features. Full BVH is mandatory at accepted nodes/samples.",
+      "active_face_signature": [
+        [
+          3738,
+          0,
+          1
+        ]
+      ],
+      "stats": {
+        "evaluations": 105,
+        "jacobians": 4,
+        "eval_seconds": 4.836564500004897,
+        "jac_seconds": 4.435570699999516,
+        "face_switches": 0,
+        "collision_switches": 47,
+        "self_feature_switches": 8
+      }
+    }
+  ],
+  "cold_full_jacobian_seconds": 3.4777914000005694,
+  "directional_checks": [
+    {
+      "h": 0.001,
+      "max_abs": 1.942928437686854,
+      "relative": 0.018757663283857636
+    },
+    {
+      "h": 0.0001,
+      "max_abs": 0.15541487199469595,
+      "relative": 0.004405863081227387
+    },
+    {
+      "h": 1e-05,
+      "max_abs": 0.00365528170069105,
+      "relative": 7.683329873716421e-05
+    }
+  ],
+  "local_branches_pass": false,
+  "nonsmooth_global_verified": false,
+  "release_interface": {
+    "mode": {
+      "episode_id": "R07:RELEASE",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "RELEASE",
+      "display_interval": [
+        2.9214260000000003,
+        2.9914260864257813
+      ],
+      "music_interval": [
+        2.571426,
+        2.6414260864257812
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    "zero_contact_rows": true,
+    "geometry_rows": 292,
+    "collision_piece_count": 139,
+    "no_other_song_solve": true
+  },
+  "wall_seconds": 15.985000000000582
+}

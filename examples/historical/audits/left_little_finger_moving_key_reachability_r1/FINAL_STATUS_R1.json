@@ -1,0 +1,36 @@
+{
+  "Q1_Q13": {
+    "Q1": "FIXED_ROOT_REACHABILITY_LIMIT — SUPPORTED；在原小指轨迹与工程域下，共享掌位固定是重要限制。未证明固定 root 的全局不可达。",
+    "Q2": "YES — 原小指轨迹完全不变时，随动使两次D2皮肤gap从7.689降至2.969mm。",
+    "Q3": "UNCERTAIN — 原指链的垂直接触可达已获支持，但连同邻键净空的合理动态空间尚未证实。",
+    "Q4": "YES — 本唯一候选出现触键与邻键净空冲突；不是所有规划方案不可兼容的证明。",
+    "Q5": "NO — 独立实际键面与旧计算一致，未复现接触坐标错误。",
+    "Q6": "YES — 一个有界候选，一次求解，无重启、扩域或第二版优化。",
+    "Q7": "YES — 两次D2的起音、下沉、持键、回弹均通过既定接触筛查，皮肤最大2.969mm。",
+    "Q8": "YES — D3所有接触阶段通过，最大1.983mm。",
+    "Q9": "HUMAN_PENDING — 闲置三指曲度保持，掌腕连续；整体自然度不因数值通过而自动批准。",
+    "Q10": "NO — 常规三视角未确认明显新增钩爪/跳变等；但确证新增E2/F♯2几何穿入，整体仍阻断。",
+    "Q11": "NO — 四个原静态场景重开身份均一致，L1/L2批准保持。",
+    "Q12": "NO — 本轮不能证明必须修改正式mesh/rig。",
+    "Q13": "LEFT_LITTLE_MOVING_KEY_REACHABILITY_BLOCKED"
+  },
+  "states": {
+    "PRIMARY_FAILURE_CAUSE": "FIXED_ROOT_REACHABILITY_LIMIT / SUPPORTED",
+    "FIXED_ROOT_LIMITATION": "YES / ORIGINAL_TRAJECTORY_CONTEXT",
+    "LITTLE_FINGER_DYNAMIC_REACHABILITY": "CONTACT_SUPPORTED / COMBINED_CLEARANCE_UNPROVEN",
+    "ROOT_FOLLOW_THROUGH": "ONE_PROBE_EXECUTED / CONTINUOUS / NOT_APPROVED",
+    "LEFT_D2_DYNAMIC_CONTACT": "PASS_ENGINEERING_SCREEN / MAX_SKIN_GAP_2.969_MM",
+    "LEFT_D3_THUMB_CONTACT": "PASS_ENGINEERING_SCREEN / MAX_SKIN_GAP_1.983_MM",
+    "LEFT_IDLE_FINGERS": "APPROVED_CURVES_PRESERVED / NEW_MIDDLE_SIDE_CONTACT",
+    "STATIC_ANCHOR_IDENTITY": "UNCHANGED / HUMAN_APPROVAL_REMAINS_VALID",
+    "HUMAN_VISIBLE_NATURALNESS": "HUMAN_PENDING / OVERALL_CANDIDATE_BLOCKED",
+    "FINAL_STATUS": "LEFT_LITTLE_MOVING_KEY_REACHABILITY_BLOCKED",
+    "HAND_BASELINES_UNCHANGED": "YES",
+    "PIANO_BASELINE_UNCHANGED": "YES"
+  },
+  "human_approval": false,
+  "STOP": "HUMAN REVIEW",
+  "candidate_engineering_contact_pass": true,
+  "candidate_clearance_pass": false,
+  "candidate_count": 1
+}

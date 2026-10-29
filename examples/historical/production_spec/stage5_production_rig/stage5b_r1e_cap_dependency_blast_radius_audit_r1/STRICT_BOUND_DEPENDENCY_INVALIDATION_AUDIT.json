@@ -1,0 +1,1105 @@
+{
+  "execution": "CAP_DEPENDENCY_BLAST_RADIUS_AUDIT_R1",
+  "settled_invalidations": {
+    "13.1646_mm_path": "INVALIDATED AS TRUE_THUMB_CAP→COLLAR ANATOMICAL ENDPOINT EVIDENCE",
+    "CMC_MCP_L3_5.9643": "INVALIDATED AS TRUE_THUMB_CAP ENDPOINT BOUND",
+    "FULL_OPP_L3_6.5160": "INVALIDATED AS TRUE_THUMB_CAP ENDPOINT BOUND"
+  },
+  "reference_artifact_count": 28,
+  "references": [
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e/STAGE5B_R1E_REPORT.md",
+      "sha256": "982980e55ee4817ea17ebc840cf6af28427b11d9f8d6be5f4c3d50631284f642",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 174,
+          "value_text": "13.1646",
+          "excerpt": " The approved thumb distal cap and the INDEX side of the R3 collar are joined by a shortest **bind** path of `13.1646` mm (cap 9 vertices -> 16 INDEX-side collar vertices). For ANY weight assignment the relative motion across that junction must appear as edge stretch, therefore  `max_edge_ratio >"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 1,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e/STAGE5B_R1E_TARGETED_PREQUALIFICATION.json",
+      "sha256": "0f94e6378b5dcebc4f92132acd58520003dd4fa977b22579f0c60d515bf62e59",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 36727,
+          "value_text": "13.1646",
+          "excerpt": "                       True\",   \"  frozen_inputs_unchanged                       True\",   \"fold bind length = 13.1646 mm ; floors: {'TH_IP_30': 2.256, 'TH_IP_45': 2.857, 'TH_MCP_45': 4.421, 'CMC_OPP_30': 4.61, 'CMC_MCP_L3': 6.687, 'FULL_OPP_L3': 7.224}\"  ],  \"geometric_feasibility_bound\": {   \"sh"
+        },
+        {
+          "line": 36730,
+          "value_text": "13.1646",
+          "excerpt": "6.687, 'FULL_OPP_L3': 7.224}\"  ],  \"geometric_feasibility_bound\": {   \"shortest_cap_to_index_collar_bind_mm\": 13.1646,   \"cap_vertices\": 9,   \"index_side_collar_vertices\": 16,   \"TH_IP_30\": {    \"cap_mean_displacement_mm\": 16.538,    \"geometric_ratio_floor\": 2.256,    \"floor_above_5x_gate\": false"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 2,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_endpoint_authority_review/R1E_ENDPOINT_SENSITIVITY_AUDIT.json",
+      "sha256": "6b1d5b72370d749cbe3a82f9382c29736c2c4f62779e9e530e3cbcfedcde32ab",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 1043,
+          "value_text": "13.164617897796292",
+          "excerpt": "\": 1.2438510054832765     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 43.53530100200307,      \"strict_bound\": 3.306993134171461     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_path"
+        },
+        {
+          "line": 2363,
+          "value_text": "13.164617897796292",
+          "excerpt": "\": 1.2438511399488275     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 43.53530560368396,      \"strict_bound\": 3.306993483720603     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_path"
+        },
+        {
+          "line": 3683,
+          "value_text": "13.164617897796292",
+          "excerpt": "d\": 1.243851274414398     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 43.53531020536534,      \"strict_bound\": 3.3069938332697824     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_pat"
+        },
+        {
+          "line": 5003,
+          "value_text": "13.164617897796292",
+          "excerpt": "\": 1.2438514088799841     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 43.53531480704676,      \"strict_bound\": 3.3069941828189644     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_pat"
+        },
+        {
+          "line": 6323,
+          "value_text": "13.164617897796292",
+          "excerpt": "\": 1.2438515433455961     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 43.53531940872867,      \"strict_bound\": 3.3069945323681833     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_pat"
+        },
+        {
+          "line": 7643,
+          "value_text": "13.164617897796292",
+          "excerpt": "\": 1.2438516778112254     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 43.53532401041106,      \"strict_bound\": 3.3069948819174395     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_pat"
+        },
+        {
+          "line": 7941,
+          "value_text": "13.164617897796292",
+          "excerpt": "72975978187,    \"worst_index_pair\": {     \"cap_vertex\": 2192,     \"collar_vertex\": 704,     \"L_bind_path_mm\": 13.164617897796292,     \"posed_endpoint_separation_mm\": 51.3588249362226,     \"strict_bound\": 3.9012772975978187    },    \"max_strict_bound_288_all_collar_pairs\": 5.691603513426304,    \"collar_mean_"
+        },
+        {
+          "line": 8963,
+          "value_text": "13.164617897796292",
+          "excerpt": "\": 1.3693814152153931     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 51.3588249362226,      \"strict_bound\": 3.9012772975978187     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_path"
+        },
+        {
+          "line": 9261,
+          "value_text": "13.164617897796292",
+          "excerpt": "25254216647,    \"worst_index_pair\": {     \"cap_vertex\": 2192,     \"collar_vertex\": 704,     \"L_bind_path_mm\": 13.164617897796292,     \"posed_endpoint_separation_mm\": 45.972494623006895,     \"strict_bound\": 3.492125254216647    },    \"max_strict_bound_288_all_collar_pairs\": 5.0980144152314715,    \"collar_mea"
+        },
+        {
+          "line": 10283,
+          "value_text": "13.164617897796292",
+          "excerpt": "\": 1.1802863421338066     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 45.972494623006895,      \"strict_bound\": 3.492125254216647     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_pat"
+        },
+        {
+          "line": 10581,
+          "value_text": "13.164617897796292",
+          "excerpt": "89132518983,    \"worst_index_pair\": {     \"cap_vertex\": 2192,     \"collar_vertex\": 704,     \"L_bind_path_mm\": 13.164617897796292,     \"posed_endpoint_separation_mm\": 40.631133613523374,     \"strict_bound\": 3.086389132518983    },    \"max_strict_bound_288_all_collar_pairs\": 4.5067221340236685,    \"collar_mea"
+        },
+        {
+          "line": 11603,
+          "value_text": "13.164617897796292",
+          "excerpt": "\": 0.9933167430912653     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 704,      \"L_bind_path_mm\": 13.164617897796292,      \"posed_endpoint_separation_mm\": 40.631133613523374,      \"strict_bound\": 3.086389132518983     },     {      \"cap_vertex\": 2192,      \"collar_vertex\": 2156,      \"L_bind_pat"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 222,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_endpoint_authority_review/R1E_ENDPOINT_WEIGHT_AUTHORITY_REVIEW_REPORT.md",
+      "sha256": "b0251fee127affe5e408ab0074cfacaa745292eb4b6afbd5654b8010e5efd9ba",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 45,
+          "value_text": "5.964271",
+          "excerpt": "ing R1B INDEX drive alone yields the same endpoint separation.  Zero-thumb maximum strict bound: **CMC_MCP_L3 5.964271; FULL_OPP_L3 6.515954**. These agree with the prior 10-expanded-shortest-path evidence; this review additionally covers every pair. The strict formula is separation / bind-path le"
+        },
+        {
+          "line": 45,
+          "value_text": "6.515954",
+          "excerpt": "one yields the same endpoint separation.  Zero-thumb maximum strict bound: **CMC_MCP_L3 5.964271; FULL_OPP_L3 6.515954**. These agree with the prior 10-expanded-shortest-path evidence; this review additionally covers every pair. The strict formula is separation / bind-path length; the old (cap_mot"
+        },
+        {
+          "line": 49,
+          "value_text": "5.9643",
+          "excerpt": "30 | CMC_MCP_L3 | FULL_OPP_L3 | |---|---|---|---|---| | WRIST+THUMB_CMC | 3.3675 → 3.3675 | 3.9013 → 1.9224 | 5.9643 → 3.9627 | 6.5160 → 4.5470 | | WRIST+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | INDEX_MCP+THUMB_CMC | 3.3675 → 3.3675 | 3.9013 → 1.9224 "
+        },
+        {
+          "line": 49,
+          "value_text": "6.5160",
+          "excerpt": "FULL_OPP_L3 | |---|---|---|---|---| | WRIST+THUMB_CMC | 3.3675 → 3.3675 | 3.9013 → 1.9224 | 5.9643 → 3.9627 | 6.5160 → 4.5470 | | WRIST+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | INDEX_MCP+THUMB_CMC | 3.3675 → 3.3675 | 3.9013 → 1.9224 | 5.9643 → 3.9627 "
+        },
+        {
+          "line": 50,
+          "value_text": "5.9643",
+          "excerpt": "3.9013 → 1.9224 | 5.9643 → 3.9627 | 6.5160 → 4.5470 | | WRIST+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | INDEX_MCP+THUMB_CMC | 3.3675 → 3.3675 | 3.9013 → 1.9224 | 5.9643 → 3.9627 | 6.5160 → 4.5470 | | INDEX_MCP+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9"
+        },
+        {
+          "line": 50,
+          "value_text": "6.5160",
+          "excerpt": "5.9643 → 3.9627 | 6.5160 → 4.5470 | | WRIST+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | INDEX_MCP+THUMB_CMC | 3.3675 → 3.3675 | 3.9013 → 1.9224 | 5.9643 → 3.9627 | 6.5160 → 4.5470 | | INDEX_MCP+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8"
+        },
+        {
+          "line": 51,
+          "value_text": "5.9643",
+          "excerpt": "13 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | INDEX_MCP+THUMB_CMC | 3.3675 → 3.3675 | 3.9013 → 1.9224 | 5.9643 → 3.9627 | 6.5160 → 4.5470 | | INDEX_MCP+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | THUMB_CMC+THUMB_MCP | 3.3675 → 1.5872 | 0.9922 → 0.9"
+        },
+        {
+          "line": 51,
+          "value_text": "6.5160",
+          "excerpt": "43 → 2.8029 | 6.5160 → 3.3434 | | INDEX_MCP+THUMB_CMC | 3.3675 → 3.3675 | 3.9013 → 1.9224 | 5.9643 → 3.9627 | 6.5160 → 4.5470 | | INDEX_MCP+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | THUMB_CMC+THUMB_MCP | 3.3675 → 1.5872 | 0.9922 → 0.9922 | 2.2362 → 1.1"
+        },
+        {
+          "line": 52,
+          "value_text": "5.9643",
+          "excerpt": "13 → 1.9224 | 5.9643 → 3.9627 | 6.5160 → 4.5470 | | INDEX_MCP+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | THUMB_CMC+THUMB_MCP | 3.3675 → 1.5872 | 0.9922 → 0.9922 | 2.2362 → 1.1492 | 2.8831 → 1.7099 |  Each entry is 0%→50% of the second group. The CMC+MCP"
+        },
+        {
+          "line": 52,
+          "value_text": "6.5160",
+          "excerpt": "43 → 3.9627 | 6.5160 → 4.5470 | | INDEX_MCP+THUMB_MCP | 3.3675 → 1.5872 | 3.9013 → 1.9224 | 5.9643 → 2.8029 | 6.5160 → 3.3434 | | THUMB_CMC+THUMB_MCP | 3.3675 → 1.5872 | 0.9922 → 0.9922 | 2.2362 → 1.1492 | 2.8831 → 1.7099 |  Each entry is 0%→50% of the second group. The CMC+MCP family has 100% t"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 10,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_endpoint_authority_review/R1E_ENDPOINT_WEIGHT_AUTHORITY_REVIEW_STATUS.json",
+      "sha256": "cac4e6b43a79dad615929c57ecdd148d059b445f26ac66920ec1f5baece879e6",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 38,
+          "value_text": "5.964270669916716",
+          "excerpt": "thumb_strict_bounds\": {   \"TH_MCP_45\": 3.367508031470052,   \"CMC_OPP_30\": 3.9012772975978187,   \"CMC_MCP_L3\": 5.964270669916716,   \"FULL_OPP_L3\": 6.5159538402807  },  \"legal_authority_path_reducing_bound_without_cap_change\": \"NOT_ESTABLISHED\",  \"CURRENT_MESH_SUPPORT_INSUFFICIENT_FOR_THIS_POSE_RANGE\": \"NOT_"
+        },
+        {
+          "line": 39,
+          "value_text": "6.5159538402807",
+          "excerpt": "\": 3.367508031470052,   \"CMC_OPP_30\": 3.9012772975978187,   \"CMC_MCP_L3\": 5.964270669916716,   \"FULL_OPP_L3\": 6.5159538402807  },  \"legal_authority_path_reducing_bound_without_cap_change\": \"NOT_ESTABLISHED\",  \"CURRENT_MESH_SUPPORT_INSUFFICIENT_FOR_THIS_POSE_RANGE\": \"NOT_PROVEN\",  \"RETOPO_REQUIRED\": \"NO\","
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 2,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_feasibility_audit/R1E_CAP_TO_COLLAR_PATH_ENSEMBLE_AUDIT.json",
+      "sha256": "a9f9e6c560a594fe89a5228027bb9bf4c82a21a3e9a551d33dba2e3153ae8172",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 8,
+          "value_text": "13.1646",
+          "excerpt": "ortest distinct pairs are expanded in full\",  \"pairwise_distance_statistics_mm\": {   \"n_pairs\": 144,   \"min\": 13.1646,   \"max\": 48.4583,   \"p05\": 17.7277,   \"median\": 32.8862,   \"p95\": 44.7447,   \"mean\": 32.1421  },  \"histogram_mm\": {   \"10\": 3,   \"15\": 9,   \"20\": 18,   \"25\": 27,   \"30\": 30,   \"3"
+        },
+        {
+          "line": 43,
+          "value_text": "13.1646",
+          "excerpt": "2677    ],    \"edge_bind_lengths_mm\": [     4.5406,     4.3875,     4.2366    ],    \"total_bind_polyline_mm\": 13.1646,    \"edge_count\": 3,    \"r3_ownership_sequence\": [     \"THUMB\",     \"THUMB\",     \"THUMB\",     \"INDEX\"    ],    \"semantic_region_sequence\": [     \"DISTAL_CAP\",     \"THUMB_DISTAL\", "
+        },
+        {
+          "line": 119,
+          "value_text": "13.1646",
+          "excerpt": "alm\": false,     \"exact_collar\": true    },    \"cap_vertex\": 2192,    \"collar_vertex\": 704,    \"distance_mm\": 13.1646   },   {    \"vertex_sequence\": [     2569,     2175,     3203,     2176    ],    \"edge_id_sequence\": [     3656,     6190,     6192    ],    \"edge_bind_lengths_mm\": [     4.7229, "
+        },
+        {
+          "line": 1090,
+          "value_text": "13.1646",
+          "excerpt": "ertex\": 2189,    \"collar_vertex\": 2176,    \"distance_mm\": 17.9237   }  ],  \"path_length_distribution_mm\": [   13.1646,   13.726,   14.0878,   16.9097,   17.1149,   17.5619,   17.6762,   17.7277,   17.8716,   17.9237,   18.3329,   18.7234,   20.3609,   20.9508,   21.2414,   21.3457,   21.5751,   2"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 4,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_feasibility_audit/R1E_CAP_TO_COLLAR_SHORTEST_PATH_AUDIT.json",
+      "sha256": "f426c34dd924236fc6ec2bb39b65221db899b0152ca6a3037f8507a318587f5f",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 38,
+          "value_text": "13.1646",
+          "excerpt": "170,   2172,   2174,   2176  ],  \"shortest\": {   \"cap_vertex\": 2192,   \"collar_vertex\": 704,   \"distance_mm\": 13.1646,   \"path\": {    \"vertex_sequence\": [     2192,     703,     2169,     704    ],    \"edge_id_sequence\": [     2722,     2676,     2677    ],    \"edge_bind_lengths_mm\": [     4.5406"
+        },
+        {
+          "line": 56,
+          "value_text": "13.1646",
+          "excerpt": "2677    ],    \"edge_bind_lengths_mm\": [     4.5406,     4.3875,     4.2366    ],    \"total_bind_polyline_mm\": 13.1646,    \"edge_count\": 3,    \"r3_ownership_sequence\": [     \"THUMB\",     \"THUMB\",     \"THUMB\",     \"INDEX\"    ],    \"semantic_region_sequence\": [     \"DISTAL_CAP\",     \"THUMB_DISTAL\", "
+        },
+        {
+          "line": 133,
+          "value_text": "13.1646",
+          "excerpt": " false,     \"palm\": false,     \"exact_collar\": true    }   }  },  \"edge_count\": 3,  \"total_bind_polyline_mm\": 13.1646,  \"all_144_pairs\": [   {    \"cap_vertex\": 2192,    \"collar_vertex\": 704,    \"distance_mm\": 13.1646,    \"path\": {     \"vertex_sequence\": [      2192,      703,      2169,      704 "
+        },
+        {
+          "line": 138,
+          "value_text": "13.1646",
+          "excerpt": "yline_mm\": 13.1646,  \"all_144_pairs\": [   {    \"cap_vertex\": 2192,    \"collar_vertex\": 704,    \"distance_mm\": 13.1646,    \"path\": {     \"vertex_sequence\": [      2192,      703,      2169,      704     ],     \"edge_id_sequence\": [      2722,      2676,      2677     ],     \"edge_bind_lengths_mm\":"
+        },
+        {
+          "line": 156,
+          "value_text": "13.1646",
+          "excerpt": "  ],     \"edge_bind_lengths_mm\": [      4.5406,      4.3875,      4.2366     ],     \"total_bind_polyline_mm\": 13.1646,     \"edge_count\": 3,     \"r3_ownership_sequence\": [      \"THUMB\",      \"THUMB\",      \"THUMB\",      \"INDEX\"     ],     \"semantic_region_sequence\": [      \"DISTAL_CAP\",      \"THUMB"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 5,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_feasibility_audit/R1E_MOTION_DECOMPOSITION.json",
+      "sha256": "fe74e8ef3caecefbd3dbf581c01457dc4fe2a4b008f2c4d4e6a62b7780aa3745",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 48,
+          "value_text": "5.9643",
+          "excerpt": ": 30.0,    \"CMC_opposition_deg\": 30.000000023,    \"SEVERE\": 39,    \"max_stretch\": 11.0413,    \"STRICT_BOUND\": 5.9643   },   {    \"pose\": \"FULL_OPP_L3\",    \"THUMB_IP_deg\": 15.0,    \"THUMB_MCP_deg\": 30.0,    \"CMC_opposition_deg\": 30.000000023,    \"SEVERE\": 41,    \"max_stretch\": 11.0413,    \"STRICT"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 1,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_feasibility_audit/R1E_STRICT_GEOMETRIC_BOUND_AUDIT.json",
+      "sha256": "dfb6da1f2ebe4c212012a493b1d3c4459d0fd20a406437decbe0bc389a10d7f5",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 61,
+          "value_text": "13.1646",
+          "excerpt": ",      \"dot_normalize_r0_delta_u\": -0.453938,      \"angle_r0_to_delta_u_deg\": 116.997,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 1.2092,      \"OLD_CLAIM_uA_plus_L_over_L\": 2.2753,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 1.8168,      \"SLACK_5X_mm\": 49.9048,      \"STRIC"
+        },
+        {
+          "line": 597,
+          "value_text": "13.1646",
+          "excerpt": "],      \"dot_normalize_r0_delta_u\": -0.38786,      \"angle_r0_to_delta_u_deg\": 112.821,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 1.7575,      \"OLD_CLAIM_uA_plus_L_over_L\": 2.8856,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 2.7868,      \"SLACK_5X_mm\": 42.6865,      \"STRIC"
+        },
+        {
+          "line": 1133,
+          "value_text": "13.1646",
+          "excerpt": ",      \"dot_normalize_r0_delta_u\": -0.294885,      \"angle_r0_to_delta_u_deg\": 107.151,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 3.307,      \"OLD_CLAIM_uA_plus_L_over_L\": 4.4608,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 5.1942,      \"SLACK_5X_mm\": 22.2878,      \"STRICT"
+        },
+        {
+          "line": 1669,
+          "value_text": "13.1646",
+          "excerpt": " ],      \"dot_normalize_r0_delta_u\": 0.005319,      \"angle_r0_to_delta_u_deg\": 89.695,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 3.9013,      \"OLD_CLAIM_uA_plus_L_over_L\": 4.7677,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 5.9617,      \"SLACK_5X_mm\": 14.4643,      \"STRIC"
+        },
+        {
+          "line": 2205,
+          "value_text": "13.1646",
+          "excerpt": " ],      \"dot_normalize_r0_delta_u\": 0.017682,      \"angle_r0_to_delta_u_deg\": 88.987,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 5.9643,      \"OLD_CLAIM_uA_plus_L_over_L\": 6.8636,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 9.1959,      \"SLACK_5X_mm\": -12.6943,      \"STRI"
+        },
+        {
+          "line": 2206,
+          "value_text": "5.9643",
+          "excerpt": " \"angle_r0_to_delta_u_deg\": 88.987,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 5.9643,      \"OLD_CLAIM_uA_plus_L_over_L\": 6.8636,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 9.1959,      \"SLACK_5X_mm\": -12.6943,      \"STRICT_BOUND_GT_5\": true,      \"MOVEMENT_CHARACTER\": \""
+        },
+        {
+          "line": 2682,
+          "value_text": "5.9643",
+          "excerpt": "TRICT_BOUND_GT_5\": false,      \"MOVEMENT_CHARACTER\": \"PERPENDICULAR\"     }    ],    \"max_STRICT_LOWER_BOUND\": 5.9643,    \"max_OLD_CLAIM\": 6.8636,    \"any_path_STRICT_GT_5\": true,    \"paths_with_STRICT_GT_5\": [     {      \"pose\": \"CMC_MCP_L3\",      \"A_bind_xyz_m\": [       1.458006263,       0.016"
+        },
+        {
+          "line": 2730,
+          "value_text": "13.1646",
+          "excerpt": " ],      \"dot_normalize_r0_delta_u\": 0.017682,      \"angle_r0_to_delta_u_deg\": 88.987,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 5.9643,      \"OLD_CLAIM_uA_plus_L_over_L\": 6.8636,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 9.1959,      \"SLACK_5X_mm\": -12.6943,      \"STRI"
+        },
+        {
+          "line": 2731,
+          "value_text": "5.9643",
+          "excerpt": " \"angle_r0_to_delta_u_deg\": 88.987,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 5.9643,      \"OLD_CLAIM_uA_plus_L_over_L\": 6.8636,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 9.1959,      \"SLACK_5X_mm\": -12.6943,      \"STRICT_BOUND_GT_5\": true,      \"MOVEMENT_CHARACTER\": \""
+        },
+        {
+          "line": 2898,
+          "value_text": "13.1646",
+          "excerpt": " ],      \"dot_normalize_r0_delta_u\": 0.030644,      \"angle_r0_to_delta_u_deg\": 88.244,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 6.516,      \"OLD_CLAIM_uA_plus_L_over_L\": 7.4096,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 10.0555,      \"SLACK_5X_mm\": -19.957,      \"STRIC"
+        },
+        {
+          "line": 3423,
+          "value_text": "13.1646",
+          "excerpt": " ],      \"dot_normalize_r0_delta_u\": 0.030644,      \"angle_r0_to_delta_u_deg\": 88.244,      \"L_bind_path_mm\": 13.1646,      \"STRICT_LOWER_BOUND_dt_over_L_bind\": 6.516,      \"OLD_CLAIM_uA_plus_L_over_L\": 7.4096,      \"OBSERVED_MAX_STRETCH_ON_PATH\": 10.0555,      \"SLACK_5X_mm\": -19.957,      \"STRIC"
+        },
+        {
+          "line": 3748,
+          "value_text": "5.9643",
+          "excerpt": "\": 0.0,     \"MCP\": 30.0,     \"CMC\": 30.000000023    },    \"cap_mean_disp_mm\": 74.8706,    \"max_STRICT_BOUND\": 5.9643,    \"max_OLD_CLAIM\": 6.8636,    \"STRICT_GT_5\": true   },   \"FULL_OPP_L3\": {    \"motion\": {     \"IP\": 15.0,     \"MCP\": 30.0,     \"CMC\": 30.000000023    },    \"cap_mean_disp_mm\": 81"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 12,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_feasibility_audit/R1E_THUMB_TRANSITION_GEOMETRIC_FEASIBILITY_REPORT.md",
+      "sha256": "6ebd571fa0e30f73db1a92cc14560a6a73e9542eed6581208626da8749b39ebf",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 97,
+          "value_text": "13.1646",
+          "excerpt": " * **edge-id sequence:** `2722, 2676, 2677` * **bind edge lengths (mm):** `4.5406, 4.3875, 4.2366` → **total `13.1646 mm`**, 3 edges * **R3 ownership sequence:** `THUMB → THUMB → THUMB → INDEX` * **semantic route:** `DISTAL_CAP → THUMB_DISTAL → THUMB_DISTAL → INDEX_ROOT` * **graph distance to the"
+        },
+        {
+          "line": 108,
+          "value_text": "13.1646",
+          "excerpt": "AR_SHORTEST_PATH_AUDIT.json`, `renders/R1E_CAP_TO_COLLAR_SHORTEST_PATH_BIND.png`.  ---  ## 7. Finding D — the 13.1646 mm path is not a single-pair artefact, but it *is* the minimum  All **144** cap × INDEX-collar endpoint pairs were measured on the bind mesh:  | statistic | value (mm) | |---|---|"
+        },
+        {
+          "line": 114,
+          "value_text": "13.1646",
+          "excerpt": "× INDEX-collar endpoint pairs were measured on the bind mesh:  | statistic | value (mm) | |---|---| | min | **13.1646** | | p05 | 17.7277 | | median | 32.8862 | | p95 | 44.7447 | | max | 48.4583 | | mean | 32.1421 |  The ten shortest **distinct** pairs are expanded in full (`…PATH_ENSEMBLE_AUDIT."
+        },
+        {
+          "line": 125,
+          "value_text": "13.1646",
+          "excerpt": "ENSEMBLE_AUDIT.json`):  | cap | collar | distance (mm) | edges | route | |---|---|---|---|---| | 2192 | 704 | 13.1646 | 3 | DISTAL_CAP→THUMB_DISTAL→THUMB_DISTAL→INDEX_ROOT | | 2569 | 2176 | 13.7260 | 3 | DISTAL_CAP→THUMB_DISTAL→THUMB_DISTAL→INDEX_ROOT | | 2189 | 693 | 14.0878 | 3 | DISTAL_CAP→THU"
+        },
+        {
+          "line": 138,
+          "value_text": "13.1646",
+          "excerpt": "ances rise to ≈ 17–48 mm, i.e. **most of the 144 pairs are three to four times longer than the minimum**. The 13.1646 mm junction is real but **local**: it is a property of three cap vertices (`2192, 2569, 2189`) only.  ---  ## 8. Finding E — the strict geometric bound; the old claim is **INVALID"
+        },
+        {
+          "line": 158,
+          "value_text": "13.1646",
+          "excerpt": ". It is not a bound. It is retained only as a comparison column.  ### Results on the shortest path (`L_bind = 13.1646 mm`)  | pose | motion (IP/MCP/CMC deg) | L_bind | d_pose | **STRICT BOUND** | OLD CLAIM | observed max on path | observed global max | SLACK_5× | |---|---|---|---|---|---|---|---|"
+        },
+        {
+          "line": 162,
+          "value_text": "13.1646",
+          "excerpt": "ax on path | observed global max | SLACK_5× | |---|---|---|---|---|---|---|---|---| | TH_IP_30 | 30 / 0 / 0 | 13.1646 | 15.9183 | **1.2092** | 2.2753 | 1.8168 | 2.1949 | +49.90 | | TH_IP_45 | 45 / 0 / 0 | 13.1646 | 23.1366 | **1.7575** | 2.8856 | 2.7868 | 3.1838 | +42.69 | | TH_MCP_45 | 0 / 45 / "
+        },
+        {
+          "line": 163,
+          "value_text": "13.1646",
+          "excerpt": "| 30 / 0 / 0 | 13.1646 | 15.9183 | **1.2092** | 2.2753 | 1.8168 | 2.1949 | +49.90 | | TH_IP_45 | 45 / 0 / 0 | 13.1646 | 23.1366 | **1.7575** | 2.8856 | 2.7868 | 3.1838 | +42.69 | | TH_MCP_45 | 0 / 45 / 0 | 13.1646 | 43.5353 | **3.3070** | 4.4608 | 5.1942 | 6.1560 | +22.29 | | CMC_OPP_30 | 0 / 0 /"
+        },
+        {
+          "line": 164,
+          "value_text": "13.1646",
+          "excerpt": " 45 / 0 / 0 | 13.1646 | 23.1366 | **1.7575** | 2.8856 | 2.7868 | 3.1838 | +42.69 | | TH_MCP_45 | 0 / 45 / 0 | 13.1646 | 43.5353 | **3.3070** | 4.4608 | 5.1942 | 6.1560 | +22.29 | | CMC_OPP_30 | 0 / 0 / 30 | 13.1646 | 51.3588 | **3.9013** | 4.7677 | 5.9617 | 7.3462 | +14.46 | | CMC_MCP_L3 | 0 / 30"
+        },
+        {
+          "line": 165,
+          "value_text": "13.1646",
+          "excerpt": "0 / 45 / 0 | 13.1646 | 43.5353 | **3.3070** | 4.4608 | 5.1942 | 6.1560 | +22.29 | | CMC_OPP_30 | 0 / 0 / 30 | 13.1646 | 51.3588 | **3.9013** | 4.7677 | 5.9617 | 7.3462 | +14.46 | | CMC_MCP_L3 | 0 / 30 / 30 | 13.1646 | 78.5173 | **5.9643** | 6.8636 | 9.1959 | 11.0413 | **−12.69** | | FULL_OPP_L3 |"
+        },
+        {
+          "line": 166,
+          "value_text": "13.1646",
+          "excerpt": " / 0 / 30 | 13.1646 | 51.3588 | **3.9013** | 4.7677 | 5.9617 | 7.3462 | +14.46 | | CMC_MCP_L3 | 0 / 30 / 30 | 13.1646 | 78.5173 | **5.9643** | 6.8636 | 9.1959 | 11.0413 | **−12.69** | | FULL_OPP_L3 | 15 / 30 / 30 | 13.1646 | 85.7800 | **6.5160** | 7.4096 | 10.0555 | 11.0413 | **−19.96** |  Max ov"
+        },
+        {
+          "line": 166,
+          "value_text": "5.9643",
+          "excerpt": "51.3588 | **3.9013** | 4.7677 | 5.9617 | 7.3462 | +14.46 | | CMC_MCP_L3 | 0 / 30 / 30 | 13.1646 | 78.5173 | **5.9643** | 6.8636 | 9.1959 | 11.0413 | **−12.69** | | FULL_OPP_L3 | 15 / 30 / 30 | 13.1646 | 85.7800 | **6.5160** | 7.4096 | 10.0555 | 11.0413 | **−19.96** |  Max over the ten near-short"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 18,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_feasibility_audit/R1E_THUMB_TRANSITION_GEOMETRIC_FEASIBILITY_STATUS.json",
+      "sha256": "a1ccca47059b29fa88148767bbd9eb6b73a312f5a31322b5dcc5fd74ea110f7e",
+      "dependency_class": "TRANSITIVE_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 100,
+          "value_text": "13.1646",
+          "excerpt": "l_ratio_1\": true,   \"old_collar_severe_reclassified_to_LEVEL_0\": 0,   \"shortest_cap_to_index_collar_path_mm\": 13.1646,   \"shortest_cap_to_index_collar_edge_count\": 3,   \"pairwise_144_statistics_mm\": {    \"n_pairs\": 144,    \"min\": 13.1646,    \"max\": 48.4583,    \"p05\": 17.7277,    \"median\": 32.8862"
+        },
+        {
+          "line": 104,
+          "value_text": "13.1646",
+          "excerpt": " \"shortest_cap_to_index_collar_edge_count\": 3,   \"pairwise_144_statistics_mm\": {    \"n_pairs\": 144,    \"min\": 13.1646,    \"max\": 48.4583,    \"p05\": 17.7277,    \"median\": 32.8862,    \"p95\": 44.7447,    \"mean\": 32.1421   },   \"strict_bound_per_pose\": {    \"TH_IP_30\": {     \"motion\": {      \"IP\": 30"
+        },
+        {
+          "line": 163,
+          "value_text": "5.9643",
+          "excerpt": "0,      \"MCP\": 30.0,      \"CMC\": 30.000000023     },     \"cap_mean_disp_mm\": 74.8706,     \"max_STRICT_BOUND\": 5.9643,     \"max_OLD_CLAIM\": 6.8636,     \"STRICT_GT_5\": true    },    \"FULL_OPP_L3\": {     \"motion\": {      \"IP\": 15.0,      \"MCP\": 30.0,      \"CMC\": 30.000000023     },     \"cap_mean_di"
+        },
+        {
+          "line": 212,
+          "value_text": "13.1646",
+          "excerpt": "OLLAR_SEVERE_RECLASSIFICATION.json\",   \"144-pair cap->INDEX collar shortest path: {\\\"n_pairs\\\": 144, \\\"min\\\": 13.1646, \\\"max\\\": 48.4583, \\\"p05\\\": 17.7277, \\\"median\\\": 32.8862, \\\"p95\\\": 44.7447, \\\"mean\\\": 32.1421}\",   \"wrote R1E_CAP_TO_COLLAR_SHORTEST_PATH_AUDIT.json\",   \"shortest path 2192 -> 704"
+        },
+        {
+          "line": 214,
+          "value_text": "13.1646",
+          "excerpt": "n\\\": 32.1421}\",   \"wrote R1E_CAP_TO_COLLAR_SHORTEST_PATH_AUDIT.json\",   \"shortest path 2192 -> 704 : 3 edges, 13.1646 mm\",   \"wrote R1E_CAP_TO_COLLAR_PATH_ENSEMBLE_AUDIT.json\",   \"strict bound TH_IP_30 : max 1.3435 (old claim 2.3475) ; >5 paths 0/10\",   \"strict bound TH_IP_45 : max 1.9337 (old cl"
+        },
+        {
+          "line": 220,
+          "value_text": "5.9643",
+          "excerpt": "  \"strict bound CMC_OPP_30 : max 3.9013 (old claim 4.7677) ; >5 paths 0/10\",   \"strict bound CMC_MCP_L3 : max 5.9643 (old claim 6.8636) ; >5 paths 3/10\",   \"strict bound FULL_OPP_L3 : max 6.5160 (old claim 7.4096) ; >5 paths 6/10\",   \"wrote R1E_STRICT_GEOMETRIC_BOUND_AUDIT.json\",   \"wrote R1E_EN"
+        },
+        {
+          "line": 221,
+          "value_text": "6.5160",
+          "excerpt": " \"strict bound CMC_MCP_L3 : max 5.9643 (old claim 6.8636) ; >5 paths 3/10\",   \"strict bound FULL_OPP_L3 : max 6.5160 (old claim 7.4096) ; >5 paths 6/10\",   \"wrote R1E_STRICT_GEOMETRIC_BOUND_AUDIT.json\",   \"wrote R1E_ENDPOINT_CONSTRAINT_AUTHORITY_AUDIT.json\",   \"wrote R1E_FULL_OPP_L3_SEVERE_EDGE_"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 7,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY",
+        "INVALIDATED_INTERPRETATION",
+        "RECOMPUTE_REQUIRED"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "INVALIDATED"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_human_authority_and_v2192_cap_reaudit_r1/V2192_DISTAL_CAP_MEMBERSHIP_REAUDIT_R1.json",
+      "sha256": "6d7bc18fa726de645f923a92dbf195b22e8143ed1486429473f384f12620b667",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 101,
+          "value_text": "13.164617897796292",
+          "excerpt": " \"three_edge_path\": [       2192,       703,       2169,       704     ],     \"current_three_edge_length_mm\": 13.164617897796292,     \"path_first_web_intersection\": [],     \"topological_continuity\": \"Existing continuous mesh path; Human Q5 remains LIMITED for anatomical interpretation\",     \"existing_visual"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 1,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_human_cap_authority_freeze_r1/CAP_DOWNSTREAM_REVALIDATION_TRIGGER.json",
+      "sha256": "ed868d40bbb98a800d6a721e01caa186e37ecdc51cc508a3c6e2352bfca69901",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 48,
+          "value_text": "13.1646",
+          "excerpt": "dent qualification\",     \"Stage6A/Stage6B or strict-bound results\"   ],   \"old_strict_bound_evidence\": {     \"13.1646_mm_path\": {       \"status\": \"INVALIDATED\",       \"scope\": \"AS TRUE_THUMB_CAP→COLLAR ANATOMICAL ENDPOINT EVIDENCE\",       \"mesh_numerical_fact_preserved\": true     },     \"CMC_MCP_"
+        },
+        {
+          "line": 53,
+          "value_text": "5.9643",
+          "excerpt": "_CAP→COLLAR ANATOMICAL ENDPOINT EVIDENCE\",       \"mesh_numerical_fact_preserved\": true     },     \"CMC_MCP_L3_5.9643\": {       \"status\": \"INVALIDATED\",       \"scope\": \"AS TRUE_THUMB_CAP ENDPOINT BOUND\",       \"mesh_numerical_fact_preserved\": true     },     \"FULL_OPP_L3_6.5160\": {       \"status\""
+        },
+        {
+          "line": 58,
+          "value_text": "6.5160",
+          "excerpt": "ope\": \"AS TRUE_THUMB_CAP ENDPOINT BOUND\",       \"mesh_numerical_fact_preserved\": true     },     \"FULL_OPP_L3_6.5160\": {       \"status\": \"INVALIDATED\",       \"scope\": \"AS TRUE_THUMB_CAP ENDPOINT BOUND\",       \"mesh_numerical_fact_preserved\": true     },     \"new_true_cap_bounds\": \"PENDING_RECOMP"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 3,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_human_cap_authority_freeze_r1/HUMAN_CAP_AUTHORITY_FREEZE_R1_REPORT.md",
+      "sha256": "574872dbe296681f6bf9b2b3bcb6e5f245ec47216bf69e034694eb151ce05887",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 63,
+          "value_text": "13.1646",
+          "excerpt": "R1D/R1E 历史文件和 verdict 原样保留，只在新上层 artifact 增加 DOWNSTREAM_CAP_DEPENDENT_REVALIDATION=REQUIRED；未重新评价 PASS/FAIL。  13.1646 mm path = INVALIDATED AS TRUE_THUMB_CAP→COLLAR ANATOMICAL ENDPOINT EVIDENCE；CMC_MCP_L3 5.9643 和 FULL_OPP_L3 6.5160 = INVALIDATED AS TRUE_THUMB_CAP ENDPOINT BOUND。固定历史 mesh 数值事实保留，"
+        },
+        {
+          "line": 63,
+          "value_text": "5.9643",
+          "excerpt": "评价 PASS/FAIL。  13.1646 mm path = INVALIDATED AS TRUE_THUMB_CAP→COLLAR ANATOMICAL ENDPOINT EVIDENCE；CMC_MCP_L3 5.9643 和 FULL_OPP_L3 6.5160 = INVALIDATED AS TRUE_THUMB_CAP ENDPOINT BOUND。固定历史 mesh 数值事实保留，不删除、不重算。新 true-cap bounds = PENDING_RECOMPUTE_AFTER_DEPENDENCY_RECONCILIATION。  CAP_WEIGHT_AUT"
+        },
+        {
+          "line": 63,
+          "value_text": "6.5160",
+          "excerpt": "6 mm path = INVALIDATED AS TRUE_THUMB_CAP→COLLAR ANATOMICAL ENDPOINT EVIDENCE；CMC_MCP_L3 5.9643 和 FULL_OPP_L3 6.5160 = INVALIDATED AS TRUE_THUMB_CAP ENDPOINT BOUND。固定历史 mesh 数值事实保留，不删除、不重算。新 true-cap bounds = PENDING_RECOMPUTE_AFTER_DEPENDENCY_RECONCILIATION。  CAP_WEIGHT_AUTHORITY=NOT_YET_RECONC"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 3,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_manual_anatomical_reference_review_r1/CAP_TO_COLLAR_3_EDGE_ANATOMICAL_SANITY_AUDIT.json",
+      "sha256": "1b39e82677ca7677fc2c4ca15144e45467a8bc938a4dd3e0a4c1bdf66264ddfa",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 21,
+          "value_text": "13.164617897796292",
+          "excerpt": "lengths_R1B_mm\": [     4.540557383562179,     4.387491187200622,     4.236569327033491   ],   \"total_R1B_mm\": 13.164617897796292,   \"matches_previous_13_1646_mm\": true,   \"independently_recomputed_global_shortest\": true,   \"pre_RSSF_edge_lengths_mm\": [     4.304459499700114,     4.253891099372537,     4.156"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 1,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_manual_anatomical_reference_review_r1/MANUAL_ANATOMICAL_REFERENCE_REVIEW_R1_REPORT.md",
+      "sha256": "5645d670aec40d08e253a494a48689b88523dd93daf52cd4f8a837f5151bd091",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 13,
+          "value_text": "13.1646179",
+          "excerpt": "DEX collar 的 edge-length shortest path：**v2192→v703→v2169→v704**。三个现有边长为 4.540557, 4.387491, 4.236569 mm，总长 **13.1646179 mm**；对应 pre-RSSF 总长 12.7149155 mm。每边均有两个 incident faces，没有新桥接边/裂缝/非流形证据；路径与 approved WEB 无交集。  sanity 检查选 **C：region/semantic correspondence anomaly**，限定为“冻结 cap 的工程名字与 native 模型位"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 1,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_manual_anatomical_reference_review_r1/MANUAL_REGISTRATION_REVIEW.html",
+      "sha256": "fc9647fd7185be0f85701b32be958dbe03687bf2402706c20d89a09d660a2045",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 23,
+          "value_text": "13.1646179",
+          "excerpt": "p to collar path 原生与当前静态模型\"><pre id=\"pathIds\">v2192 → v703 → v2169 → v704 边长：4.540557、4.387491、4.236569 mm；总长 13.1646179 mm pre-RSSF 同拓扑路径总长：12.7149155 mm v2169：DORSAL 簇，背桡侧食指近节表面候选；shared interface 未注册。 v2192：冻结 cap ID；native thumb-tip 对应存在可见冲突。</pre></details> </section> <section class=\"panel\"><h2"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 1,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_manual_anatomical_reference_review_r1/scripts/build_review.py",
+      "sha256": "e4d3d92889e50aeb3f5ea591e6ff27556d8a02f85e10ab67bef618258121cc35",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 57,
+          "value_text": "13.1646",
+          "excerpt": "e_lengths_R1B_mm':lengths.tolist(),'total_R1B_mm':float(lengths.sum()),'matches_previous_13_1646_mm':abs(cost-13.1646)<.0001,'independently_recomputed_global_shortest':True,'pre_RSSF_edge_lengths_mm':prelengths.tolist(),'pre_RSSF_total_mm':float(prelengths.sum()),'vertices':pathrows,'first_web_in"
+        },
+        {
+          "line": 185,
+          "value_text": "13.1646179",
+          "excerpt": "font=ft(36,True),fill='#172b43') d.text((30,76),'v2192 -> v703 -> v2169 -> v704 | three real mesh edges | R1B 13.1646179 mm',font=ft(25),fill='#923322') for box,v,title in [((30,150,845,795),VP,'Pre-RSSF native geometry: path on index tube'),((925,150,845,795),V,'Frozen R1B contact pose: same IDs an"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 2,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_manual_anatomical_reference_review_r1/scripts/review_template.html",
+      "sha256": "0c21a1bb2cf1062eb562d1f1c1b0f1437221b9423490a7733c21830538a51acb",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 23,
+          "value_text": "13.1646179",
+          "excerpt": "p to collar path 原生与当前静态模型\"><pre id=\"pathIds\">v2192 → v703 → v2169 → v704 边长：4.540557、4.387491、4.236569 mm；总长 13.1646179 mm pre-RSSF 同拓扑路径总长：12.7149155 mm v2169：DORSAL 簇，背桡侧食指近节表面候选；shared interface 未注册。 v2192：冻结 cap ID；native thumb-tip 对应存在可见冲突。</pre></details> </section> <section class=\"panel\"><h2"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 1,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_boundary_review_r1/CAP_BOUNDARY_CANDIDATE_COMPARISON.json",
+      "sha256": "004c46e957d3d176aa312a3909d7c9e3789b27770ff94a435a4d418e40147020",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 1871,
+          "value_text": "13.1646",
+          "excerpt": "     1061,     1074,     1076,     2189,     2192,     2569,     2577   ],   \"old_anatomical_bounds_status\": \"13.1646 mm, 5.9643, 6.5160 remain INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE\",   \"replacement_bound_produced\": false,   \"human_response_sha256\": \"5c4f9749c98fd9193dc2f5d084c03174535d"
+        },
+        {
+          "line": 1871,
+          "value_text": "5.9643",
+          "excerpt": "   1074,     1076,     2189,     2192,     2569,     2577   ],   \"old_anatomical_bounds_status\": \"13.1646 mm, 5.9643, 6.5160 remain INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE\",   \"replacement_bound_produced\": false,   \"human_response_sha256\": \"5c4f9749c98fd9193dc2f5d084c03174535d4a9afc80f42"
+        },
+        {
+          "line": 1871,
+          "value_text": "6.5160",
+          "excerpt": "     1076,     2189,     2192,     2569,     2577   ],   \"old_anatomical_bounds_status\": \"13.1646 mm, 5.9643, 6.5160 remain INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE\",   \"replacement_bound_produced\": false,   \"human_response_sha256\": \"5c4f9749c98fd9193dc2f5d084c03174535d4a9afc80f426afe4117"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 3,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_boundary_review_r1/THUMB_DISTAL_CAP_BOUNDARY_REVIEW_R1_REPORT.md",
+      "sha256": "1fddff3a5ba75bf7120b9cecc2777cce8795230331010167dbdfbaac3ea4e1bb",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 121,
+          "value_text": "13.1646",
+          "excerpt": "n has not selected or approved a final boundary.  没有使用 Stage6 stretch、历史deformation Gate、权重或strict bound来选边界。旧13.1646mm /5.9643 /6.5160继续保持 INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE，没有replacement bound。  ## 审阅页与核验  THUMB_DISTAL_CAP_BOUNDARY_REVIEW.html：六方向切换；A/B/C/D/E/nail/core/expansion/ve"
+        },
+        {
+          "line": 121,
+          "value_text": "5.9643",
+          "excerpt": "elected or approved a final boundary.  没有使用 Stage6 stretch、历史deformation Gate、权重或strict bound来选边界。旧13.1646mm /5.9643 /6.5160继续保持 INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE，没有replacement bound。  ## 审阅页与核验  THUMB_DISTAL_CAP_BOUNDARY_REVIEW.html：六方向切换；A/B/C/D/E/nail/core/expansion/vertexID/fac"
+        },
+        {
+          "line": 121,
+          "value_text": "6.5160",
+          "excerpt": "or approved a final boundary.  没有使用 Stage6 stretch、历史deformation Gate、权重或strict bound来选边界。旧13.1646mm /5.9643 /6.5160继续保持 INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE，没有replacement bound。  ## 审阅页与核验  THUMB_DISTAL_CAP_BOUNDARY_REVIEW.html：六方向切换；A/B/C/D/E/nail/core/expansion/vertexID/faceID开关；bo"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 3,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_boundary_review_r1/scripts/analyze_boundary.py",
+      "sha256": "ac8095949a30374c3b39a9eaef621f7e286d9915bbac5849f009872d5a78dc04",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 262,
+          "value_text": "13.1646",
+          "excerpt": "RMED_CONTAMINATED_NATIVE_INDEX_SURFACE','old_cap9_ids':D['current_cap9'],     'old_anatomical_bounds_status':'13.1646 mm, 5.9643, 6.5160 remain INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE',     'replacement_bound_produced':False,'human_response_sha256':sha(RESP)} comparison['ENGINEERING_RECOM"
+        },
+        {
+          "line": 262,
+          "value_text": "5.9643",
+          "excerpt": "NATED_NATIVE_INDEX_SURFACE','old_cap9_ids':D['current_cap9'],     'old_anatomical_bounds_status':'13.1646 mm, 5.9643, 6.5160 remain INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE',     'replacement_bound_produced':False,'human_response_sha256':sha(RESP)} comparison['ENGINEERING_RECOMMENDATION']"
+        },
+        {
+          "line": 262,
+          "value_text": "6.5160",
+          "excerpt": "TIVE_INDEX_SURFACE','old_cap9_ids':D['current_cap9'],     'old_anatomical_bounds_status':'13.1646 mm, 5.9643, 6.5160 remain INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE',     'replacement_bound_produced':False,'human_response_sha256':sha(RESP)} comparison['ENGINEERING_RECOMMENDATION']={     '"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 3,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_boundary_review_r1/scripts/report_verify_stop.py",
+      "sha256": "4a09e38fc1f96b66800c78892f1d27a8a79afa406a69cc2e493ba1544eb5af93",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 147,
+          "value_text": "13.1646",
+          "excerpt": "CAL_REASON']} - LIMITATIONS：{rec['LIMITATIONS']}  没有使用 Stage6 stretch、历史deformation Gate、权重或strict bound来选边界。旧13.1646mm /5.9643 /6.5160继续保持 INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE，没有replacement bound。  ## 审阅页与核验  THUMB_DISTAL_CAP_BOUNDARY_REVIEW.html：六方向切换；A/B/C/D/E/nail/core/expansion/ve"
+        },
+        {
+          "line": 147,
+          "value_text": "5.9643",
+          "excerpt": "]} - LIMITATIONS：{rec['LIMITATIONS']}  没有使用 Stage6 stretch、历史deformation Gate、权重或strict bound来选边界。旧13.1646mm /5.9643 /6.5160继续保持 INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE，没有replacement bound。  ## 审阅页与核验  THUMB_DISTAL_CAP_BOUNDARY_REVIEW.html：六方向切换；A/B/C/D/E/nail/core/expansion/vertexID/fac"
+        },
+        {
+          "line": 147,
+          "value_text": "6.5160",
+          "excerpt": "ITATIONS：{rec['LIMITATIONS']}  没有使用 Stage6 stretch、历史deformation Gate、权重或strict bound来选边界。旧13.1646mm /5.9643 /6.5160继续保持 INVALIDATED AS ANATOMICAL CAP-ENDPOINT EVIDENCE，没有replacement bound。  ## 审阅页与核验  THUMB_DISTAL_CAP_BOUNDARY_REVIEW.html：六方向切换；A/B/C/D/E/nail/core/expansion/vertexID/faceID开关；bo"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 3,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1/CAP_DEPENDENT_STRICT_BOUND_INVALIDATION_AUDIT.json",
+      "sha256": "15eadd6e4e78825a8c8f1527554fa79a74c290e457d3570b8a8b0519b38a0399",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 16,
+          "value_text": "13.1646",
+          "excerpt": "s anatomical thumb distal-cap endpoint claims, not arithmetic facts about historical fixed-ID mesh paths\",   \"13.1646_mm_path\": {     \"path\": [       2192,       703,       2169,       704     ],     \"status\": \"INVALIDATED\",     \"native_topological_continuity\": \"VALID; Human Q5 LIMITED preserved\""
+        },
+        {
+          "line": 27,
+          "value_text": "5.9643",
+          "excerpt": "MITED preserved\",     \"reason\": \"Start is native INDEX_SURFACE, not true thumb distal cap\"   },   \"CMC_MCP_L3_5.9643\": {     \"status\": \"INVALIDATED\",     \"replacement\": \"PENDING_RECOMPUTE_AFTER_HUMAN_CORRECTION\"   },   \"FULL_OPP_L3_6.5160\": {     \"status\": \"INVALIDATED\",     \"replacement\": \"PEND"
+        },
+        {
+          "line": 31,
+          "value_text": "6.5160",
+          "excerpt": "   \"status\": \"INVALIDATED\",     \"replacement\": \"PENDING_RECOMPUTE_AFTER_HUMAN_CORRECTION\"   },   \"FULL_OPP_L3_6.5160\": {     \"status\": \"INVALIDATED\",     \"replacement\": \"PENDING_RECOMPUTE_AFTER_HUMAN_CORRECTION\"   },   \"all_144_cap9_to_collar_pairs\": {     \"count\": 144,     \"cap_endpoint_ids\": ["
+        },
+        {
+          "line": 79,
+          "value_text": "13.1646",
+          "excerpt": " 2169,         704       ],       \"cap_endpoint\": 2192,       \"collar_endpoint\": 704,       \"bind_length_mm\": 13.1646,       \"status\": \"INVALIDATED\",       \"scope\": \"Anatomical thumb-cap-to-index-collar argument; original fixed-ID mesh metric retained\",       \"cause\": \"Native INDEX_SURFACE endpoi"
+        },
+        {
+          "line": 938,
+          "value_text": "5.9643",
+          "excerpt": "704       ],       \"cap_endpoint\": 2192,       \"collar_endpoint\": 704,       \"historical_strict_lower_bound\": 5.9643,       \"status\": \"INVALIDATED\",       \"mathematical_fixed_ID_inequality\": \"VALID_AS_HISTORICAL_NUMERICAL_EVIDENCE\",       \"anatomical_endpoint_authority\": \"INVALIDATED\",       \"re"
+        },
+        {
+          "line": 3153,
+          "value_text": "13.164617897796292",
+          "excerpt": "ex_ids\": [         2192,         703,         2169,         704       ],       \"historical_bind_distance_mm\": 13.164617897796292,       \"status\": \"INVALIDATED_AS_ANATOMICAL_CAP_PATH\"     },     {       \"cap_endpoint\": 2192,       \"collar_endpoint\": 2156,       \"path_vertex_ids\": [         2192,         703,"
+        },
+        {
+          "line": 16181,
+          "value_text": "5.964270669916716",
+          "excerpt": "DIT.json\",       \"json_location\": \"$.samples[12].max_strict_bound_144_index_pairs\",       \"historical_value\": 5.964270669916716,       \"status\": \"INVALIDATED_AS_ANATOMICAL_CAP_ENDPOINT_BOUND\",       \"new_value_computed\": false     },     {       \"source\": \"production_spec\\\\stage5_production_rig\\\\stage5b_r1"
+        },
+        {
+          "line": 16188,
+          "value_text": "5.964270669916716",
+          "excerpt": "_AUDIT.json\",       \"json_location\": \"$.samples[12].worst_index_pair.strict_bound\",       \"historical_value\": 5.964270669916716,       \"status\": \"INVALIDATED_AS_ANATOMICAL_CAP_ENDPOINT_BOUND\",       \"new_value_computed\": false     },     {       \"source\": \"production_spec\\\\stage5_production_rig\\\\stage5b_r1"
+        },
+        {
+          "line": 16923,
+          "value_text": "5.964270669916716",
+          "excerpt": "      \"json_location\": \"$.samples[12].all_144_index_pair_bounds[103].strict_bound\",       \"historical_value\": 5.964270669916716,       \"status\": \"INVALIDATED_AS_ANATOMICAL_CAP_ENDPOINT_BOUND\",       \"new_value_computed\": false     },     {       \"source\": \"production_spec\\\\stage5_production_rig\\\\stage5b_r1"
+        },
+        {
+          "line": 22355,
+          "value_text": "6.5159538402807",
+          "excerpt": "DIT.json\",       \"json_location\": \"$.samples[18].max_strict_bound_144_index_pairs\",       \"historical_value\": 6.5159538402807,       \"status\": \"INVALIDATED_AS_ANATOMICAL_CAP_ENDPOINT_BOUND\",       \"new_value_computed\": false     },     {       \"source\": \"production_spec\\\\stage5_production_rig\\\\stage5b_r1"
+        },
+        {
+          "line": 22362,
+          "value_text": "6.5159538402807",
+          "excerpt": "_AUDIT.json\",       \"json_location\": \"$.samples[18].worst_index_pair.strict_bound\",       \"historical_value\": 6.5159538402807,       \"status\": \"INVALIDATED_AS_ANATOMICAL_CAP_ENDPOINT_BOUND\",       \"new_value_computed\": false     },     {       \"source\": \"production_spec\\\\stage5_production_rig\\\\stage5b_r1"
+        },
+        {
+          "line": 23097,
+          "value_text": "6.5159538402807",
+          "excerpt": "      \"json_location\": \"$.samples[18].all_144_index_pair_bounds[103].strict_bound\",       \"historical_value\": 6.5159538402807,       \"status\": \"INVALIDATED_AS_ANATOMICAL_CAP_ENDPOINT_BOUND\",       \"new_value_computed\": false     },     {       \"source\": \"production_spec\\\\stage5_production_rig\\\\stage5b_r1"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 30,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1/THUMB_DISTAL_CAP_NATIVE_BRANCH_IDENTITY_AUDIT_R1_REPORT.md",
+      "sha256": "1b1be5d714364dd2cf439e6f7c2fea4a244f24e12d610dbae6aa5cfc79623f82",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 82,
+          "value_text": "13.1646",
+          "excerpt": "是已获 Human 批准的新增 membership。  Unresolved current-cap9 IDs：`[]`。  ## cap-dependent strict-bound invalidation  **13.1646 mm path、CMC_MCP_L3=5.9643、FULL_OPP_L3=6.5160 均标记 INVALIDATED，范围是“真实 thumb distal-cap→index collar 的解剖端点解释”。** 旧 mesh 固定 ID 的路径长度、已存 posed endpoints 与 `max stretch >= posed separat"
+        },
+        {
+          "line": 82,
+          "value_text": "5.9643",
+          "excerpt": "  Unresolved current-cap9 IDs：`[]`。  ## cap-dependent strict-bound invalidation  **13.1646 mm path、CMC_MCP_L3=5.9643、FULL_OPP_L3=6.5160 均标记 INVALIDATED，范围是“真实 thumb distal-cap→index collar 的解剖端点解释”。** 旧 mesh 固定 ID 的路径长度、已存 posed endpoints 与 `max stretch >= posed separation / bind path length` 数学"
+        },
+        {
+          "line": 82,
+          "value_text": "6.5160",
+          "excerpt": "t-cap9 IDs：`[]`。  ## cap-dependent strict-bound invalidation  **13.1646 mm path、CMC_MCP_L3=5.9643、FULL_OPP_L3=6.5160 均标记 INVALIDATED，范围是“真实 thumb distal-cap→index collar 的解剖端点解释”。** 旧 mesh 固定 ID 的路径长度、已存 posed endpoints 与 `max stretch >= posed separation / bind path length` 数学不等式仍保留为历史数值事实。没有修改历"
+        },
+        {
+          "line": 102,
+          "value_text": "13.1646",
+          "excerpt": "55, 2496, 2499, 2740, 2741, 2742, 2743, 2785, 2790, 2963, 2964, 2965, 2966（native candidate-relative） | | 11. 13.1646 mm path | INVALIDATED as anatomical cap path; mesh continuity retained | | 12. CMC_MCP_L3 5.9643 | INVALIDATED as anatomical cap endpoint bound | | 13. FULL_OPP_L3 6.5160 | INVALI"
+        },
+        {
+          "line": 103,
+          "value_text": "5.9643",
+          "excerpt": "ve） | | 11. 13.1646 mm path | INVALIDATED as anatomical cap path; mesh continuity retained | | 12. CMC_MCP_L3 5.9643 | INVALIDATED as anatomical cap endpoint bound | | 13. FULL_OPP_L3 6.5160 | INVALIDATED as anatomical cap endpoint bound | | 14. NEXT | HUMAN_CAP_AUTHORITY_CORRECTION |  ## 可视证据与冻"
+        },
+        {
+          "line": 104,
+          "value_text": "6.5160",
+          "excerpt": "tinuity retained | | 12. CMC_MCP_L3 5.9643 | INVALIDATED as anatomical cap endpoint bound | | 13. FULL_OPP_L3 6.5160 | INVALIDATED as anatomical cap endpoint bound | | 14. NEXT | HUMAN_CAP_AUTHORITY_CORRECTION |  ## 可视证据与冻结  七张 native 静态投影已逐张检查：cap9 branch map、thumb anchors、index anchors、v2192 o"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 6,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1/THUMB_DISTAL_CAP_NATIVE_BRANCH_IDENTITY_AUDIT_R1_STATUS.json",
+      "sha256": "500e0526bee8914ee439da0d0bdb4782ce8ab25bef4031718322771ca8faf6a6",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 88,
+          "value_text": "13.1646",
+          "excerpt": "antics\": \"Relative to independent native cap candidate; not approved replacement\",   \"unresolved_ids\": [],   \"13.1646mm_path\": \"INVALIDATED\",   \"CMC_MCP_L3_5.9643\": \"INVALIDATED\",   \"FULL_OPP_L3_6.5160\": \"INVALIDATED\",   \"replacement_cap_authority_and_bounds\": \"PENDING_HUMAN_CORRECTION_AND_LATER_"
+        },
+        {
+          "line": 89,
+          "value_text": "5.9643",
+          "excerpt": "andidate; not approved replacement\",   \"unresolved_ids\": [],   \"13.1646mm_path\": \"INVALIDATED\",   \"CMC_MCP_L3_5.9643\": \"INVALIDATED\",   \"FULL_OPP_L3_6.5160\": \"INVALIDATED\",   \"replacement_cap_authority_and_bounds\": \"PENDING_HUMAN_CORRECTION_AND_LATER_RECOMPUTE\",   \"NEXT\": \"HUMAN_CAP_AUTHORITY_CO"
+        },
+        {
+          "line": 90,
+          "value_text": "6.5160",
+          "excerpt": "\"unresolved_ids\": [],   \"13.1646mm_path\": \"INVALIDATED\",   \"CMC_MCP_L3_5.9643\": \"INVALIDATED\",   \"FULL_OPP_L3_6.5160\": \"INVALIDATED\",   \"replacement_cap_authority_and_bounds\": \"PENDING_HUMAN_CORRECTION_AND_LATER_RECOMPUTE\",   \"NEXT\": \"HUMAN_CAP_AUTHORITY_CORRECTION\",   \"APPROVED_DISTAL_CAP\": \"FR"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 3,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1/scripts/analyze_identity.py",
+      "sha256": "ed6504551fb683cfe9bd622df709f28ce9ecf25c90f7e56e26b81403a0dcfbb5",
+      "dependency_class": "DIRECT_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 141,
+          "value_text": "13.164617897796292",
+          "excerpt": "OMICAL_CAP_PATH'}) assert len(all_144)==144 assert abs(min(r['historical_bind_distance_mm'] for r in all_144)-13.164617897796292)<1e-7 sens_path=s5/'stage5b_r1e_endpoint_authority_review/R1E_ENDPOINT_SENSITIVITY_AUDIT.json' sens=load(sens_path) def historical_bounds(obj,loc='$'):     found=[]     if isinsta"
+        },
+        {
+          "line": 161,
+          "value_text": "13.1646",
+          "excerpt": "    text=p.read_text(encoding='utf8')         if any(s in text for s in ['STRICT_LOWER_BOUND','STRICT_BOUND','13.1646','cap→collar','cap->collar','cap_to_collar']):             historical_references.append({'file':str(p.relative_to(root)),'status':'DEPENDENT_CAP_INTERPRETATION_INVALIDATED_IF_USIN"
+        },
+        {
+          "line": 163,
+          "value_text": "13.1646",
+          "excerpt": "ates anatomical thumb distal-cap endpoint claims, not arithmetic facts about historical fixed-ID mesh paths','13.1646_mm_path':{'path':[2192,703,2169,704],'status':'INVALIDATED','native_topological_continuity':'VALID; Human Q5 LIMITED preserved','reason':'Start is native INDEX_SURFACE, not true t"
+        },
+        {
+          "line": 163,
+          "value_text": "5.9643",
+          "excerpt": " Human Q5 LIMITED preserved','reason':'Start is native INDEX_SURFACE, not true thumb distal cap'},'CMC_MCP_L3_5.9643':{'status':'INVALIDATED','replacement':'PENDING_RECOMPUTE_AFTER_HUMAN_CORRECTION'},'FULL_OPP_L3_6.5160':{'status':'INVALIDATED','replacement':'PENDING_RECOMPUTE_AFTER_HUMAN_CORREC"
+        },
+        {
+          "line": 163,
+          "value_text": "6.5160",
+          "excerpt": "MCP_L3_5.9643':{'status':'INVALIDATED','replacement':'PENDING_RECOMPUTE_AFTER_HUMAN_CORRECTION'},'FULL_OPP_L3_6.5160':{'status':'INVALIDATED','replacement':'PENDING_RECOMPUTE_AFTER_HUMAN_CORRECTION'},'all_144_cap9_to_collar_pairs':{'count':len(CAP)*len(short['index_side_collar_vertices']),'cap_e"
+        },
+        {
+          "line": 169,
+          "value_text": "13.1646",
+          "excerpt": "e_semantics':'Relative to independent native cap candidate; not approved replacement','unresolved_ids':unres,'13.1646mm_path':'INVALIDATED','CMC_MCP_L3_5.9643':'INVALIDATED','FULL_OPP_L3_6.5160':'INVALIDATED','replacement_cap_authority_and_bounds':'PENDING_HUMAN_CORRECTION_AND_LATER_RECOMPUTE','N"
+        },
+        {
+          "line": 169,
+          "value_text": "5.9643",
+          "excerpt": "ve cap candidate; not approved replacement','unresolved_ids':unres,'13.1646mm_path':'INVALIDATED','CMC_MCP_L3_5.9643':'INVALIDATED','FULL_OPP_L3_6.5160':'INVALIDATED','replacement_cap_authority_and_bounds':'PENDING_HUMAN_CORRECTION_AND_LATER_RECOMPUTE','NEXT':'HUMAN_CAP_AUTHORITY_CORRECTION','AP"
+        },
+        {
+          "line": 169,
+          "value_text": "6.5160",
+          "excerpt": "acement','unresolved_ids':unres,'13.1646mm_path':'INVALIDATED','CMC_MCP_L3_5.9643':'INVALIDATED','FULL_OPP_L3_6.5160':'INVALIDATED','replacement_cap_authority_and_bounds':'PENDING_HUMAN_CORRECTION_AND_LATER_RECOMPUTE','NEXT':'HUMAN_CAP_AUTHORITY_CORRECTION','APPROVED_DISTAL_CAP':'FROZEN_UNCHANGE"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 8,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e_thumb_distal_cap_native_branch_identity_audit_r1/scripts/report_and_verify.py",
+      "sha256": "c4ee08612232a93eebb583eabde9583439625700f01f11b12d8086b27e71cd74",
+      "dependency_class": "NO_CAP_DEPENDENCY",
+      "reference_examples": [
+        {
+          "line": 109,
+          "value_text": "13.1646",
+          "excerpt": "是已获 Human 批准的新增 membership。  Unresolved current-cap9 IDs：`[]`。  ## cap-dependent strict-bound invalidation  **13.1646 mm path、CMC_MCP_L3=5.9643、FULL_OPP_L3=6.5160 均标记 INVALIDATED，范围是“真实 thumb distal-cap→index collar 的解剖端点解释”。** 旧 mesh 固定 ID 的路径长度、已存 posed endpoints 与 `max stretch >= posed separat"
+        },
+        {
+          "line": 109,
+          "value_text": "5.9643",
+          "excerpt": "  Unresolved current-cap9 IDs：`[]`。  ## cap-dependent strict-bound invalidation  **13.1646 mm path、CMC_MCP_L3=5.9643、FULL_OPP_L3=6.5160 均标记 INVALIDATED，范围是“真实 thumb distal-cap→index collar 的解剖端点解释”。** 旧 mesh 固定 ID 的路径长度、已存 posed endpoints 与 `max stretch >= posed separation / bind path length` 数学"
+        },
+        {
+          "line": 109,
+          "value_text": "6.5160",
+          "excerpt": "t-cap9 IDs：`[]`。  ## cap-dependent strict-bound invalidation  **13.1646 mm path、CMC_MCP_L3=5.9643、FULL_OPP_L3=6.5160 均标记 INVALIDATED，范围是“真实 thumb distal-cap→index collar 的解剖端点解释”。** 旧 mesh 固定 ID 的路径长度、已存 posed endpoints 与 `max stretch >= posed separation / bind path length` 数学不等式仍保留为历史数值事实。没有修改历"
+        },
+        {
+          "line": 129,
+          "value_text": "13.1646",
+          "excerpt": "8. CURRENT_CAP_9 | CONTAMINATED | | 9. FP IDs | {fp} | | 10. FN IDs | {fn}（native candidate-relative） | | 11. 13.1646 mm path | INVALIDATED as anatomical cap path; mesh continuity retained | | 12. CMC_MCP_L3 5.9643 | INVALIDATED as anatomical cap endpoint bound | | 13. FULL_OPP_L3 6.5160 | INVALI"
+        },
+        {
+          "line": 130,
+          "value_text": "5.9643",
+          "excerpt": "ve） | | 11. 13.1646 mm path | INVALIDATED as anatomical cap path; mesh continuity retained | | 12. CMC_MCP_L3 5.9643 | INVALIDATED as anatomical cap endpoint bound | | 13. FULL_OPP_L3 6.5160 | INVALIDATED as anatomical cap endpoint bound | | 14. NEXT | HUMAN_CAP_AUTHORITY_CORRECTION |  ## 可视证据与冻"
+        },
+        {
+          "line": 131,
+          "value_text": "6.5160",
+          "excerpt": "tinuity retained | | 12. CMC_MCP_L3 5.9643 | INVALIDATED as anatomical cap endpoint bound | | 13. FULL_OPP_L3 6.5160 | INVALIDATED as anatomical cap endpoint bound | | 14. NEXT | HUMAN_CAP_AUTHORITY_CORRECTION |  ## 可视证据与冻结  七张 native 静态投影已逐张检查：cap9 branch map、thumb anchors、index anchors、v2192 o"
+        }
+      ],
+      "reference_example_limit": 12,
+      "complete_hit_count": 6,
+      "scope_classifications": [
+        "HISTORICAL_VALUE_ONLY"
+      ],
+      "new_true_cap_bound_recompute": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+      "historical_arithmetic_preserved": true,
+      "current_anatomical_endpoint_authority": "EXPLICITLY_SUPERSEDED_HISTORICAL_REFERENCE"
+    }
+  ],
+  "historical_numeric_observations": "PRESERVED; fixed-ID path arithmetic and actual old-blend motion remain factual",
+  "reporting_decision_invalidation": "Any mesh-limit/retopo/no-legal-weight recommendation that rests on a TRUE_THUMB_CAP endpoint interpretation must not be inherited; historical failed deformation measurements are not erased",
+  "new_true_cap_bounds": "PENDING UNTIL DEPENDENCY RECONCILIATION COMPLETE",
+  "prerequisites": [
+    "kinematic tip/IP-tail dependency resolved",
+    "R2/R3 anchors/ownership reconciled",
+    "cap skin driver authority reconciled",
+    "reconciled skin/endpoint field fixed"
+  ],
+  "strict_bound_recompute_runs": 0,
+  "cap_to_collar_path_runs": 0,
+  "all_matched_references_inventoried": true
+}

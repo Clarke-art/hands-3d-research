@@ -1,0 +1,177 @@
+{
+  "stages": {
+    "OFFICIAL_BASE": {
+      "counts": {
+        "V": 831,
+        "E": 1649,
+        "F": 820
+      },
+      "input": {
+        "path": "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend",
+        "sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137"
+      },
+      "modifiers": [
+        {
+          "name": "Multires",
+          "type": "MULTIRES",
+          "levels": 1,
+          "total_levels": 1,
+          "render_levels": 1,
+          "sculpt_levels": 1,
+          "show_viewport": true,
+          "show_render": true
+        }
+      ]
+    },
+    "OFFICIAL_L1": {
+      "counts": {
+        "V": 3300,
+        "E": 6596,
+        "F": 3298
+      },
+      "input": {
+        "path": "references/licenses/blender_human_base_meshes/extracted/human-base-meshes-bundle-v1.4.1/human_base_meshes_bundle.blend",
+        "sha256": "3c121505651140ceb4d69fd1d8923f7788ffadd81672f5be14845a5f2c75c137"
+      },
+      "modifiers": [
+        {
+          "name": "Multires",
+          "type": "MULTIRES",
+          "levels": 1,
+          "total_levels": 1,
+          "render_levels": 1,
+          "sculpt_levels": 1,
+          "show_viewport": true,
+          "show_render": true
+        }
+      ]
+    },
+    "STAGE2_BASE": {
+      "counts": {
+        "V": 831,
+        "E": 1649,
+        "F": 820
+      },
+      "input": {
+        "path": "production_spec/stage2_bootstrap/RIGHT_HAND_BOOTSTRAP_C1.blend",
+        "sha256": "8fa9a5498dc5b06dc4d8fba116ebe3cedc03e4a4645921ae10df3edab805ef83"
+      },
+      "modifiers": [
+        {
+          "name": "Multires",
+          "type": "MULTIRES",
+          "levels": 1,
+          "total_levels": 1,
+          "render_levels": 1,
+          "sculpt_levels": 1,
+          "show_viewport": true,
+          "show_render": true
+        }
+      ]
+    },
+    "STAGE2_L1": {
+      "counts": {
+        "V": 3300,
+        "E": 6596,
+        "F": 3298
+      },
+      "input": {
+        "path": "production_spec/stage2_bootstrap/RIGHT_HAND_BOOTSTRAP_C1.blend",
+        "sha256": "8fa9a5498dc5b06dc4d8fba116ebe3cedc03e4a4645921ae10df3edab805ef83"
+      },
+      "modifiers": [
+        {
+          "name": "Multires",
+          "type": "MULTIRES",
+          "levels": 1,
+          "total_levels": 1,
+          "render_levels": 1,
+          "sculpt_levels": 1,
+          "show_viewport": true,
+          "show_render": true
+        }
+      ]
+    },
+    "STAGE4A_R2_BASE": {
+      "counts": {
+        "V": 3364,
+        "E": 6724,
+        "F": 3362
+      },
+      "input": {
+        "path": "production_spec/stage4_blender/RIGHT_HAND_ENGINEERING_STAGE4A_R2_BASE.blend",
+        "sha256": "afbae673ac3e1a520c5a2d6b4e56c6cdc373394876569fb36510865bef7e54a4"
+      },
+      "modifiers": []
+    },
+    "STAGE4A_R2": {
+      "counts": {
+        "V": 3416,
+        "E": 6828,
+        "F": 3414
+      },
+      "input": {
+        "path": "production_spec/stage4_blender/stage4a_r2/RIGHT_HAND_ENGINEERING_STAGE4A_R2.blend",
+        "sha256": "4fa2cb6f31d8097110718e4d9cc424c30d1d2b7057c76abd93c338a5c7201039"
+      },
+      "modifiers": []
+    },
+    "STAGE4B_RSSF": {
+      "counts": {
+        "V": 3416,
+        "E": 6828,
+        "F": 3414
+      },
+      "input": {
+        "path": "production_spec/stage4_blender/stage4b_rssf/RIGHT_HAND_ENGINEERING_STAGE4B_RSSF_R2.blend",
+        "sha256": "78fc890bfa9575cd62f2ae5f55beb2eda2df7ebf565c4e346a8b5af7295bbe04"
+      },
+      "modifiers": []
+    },
+    "STAGE4C_R2": {
+      "counts": {
+        "V": 3416,
+        "E": 6828,
+        "F": 3414
+      },
+      "input": {
+        "path": "production_spec/stage4_blender/stage4c_r2/RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend",
+        "sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+      },
+      "modifiers": []
+    },
+    "R2_PRODUCTION": {
+      "counts": {
+        "V": 3416,
+        "E": 6828,
+        "F": 3414
+      },
+      "input": {
+        "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_r2/RIGHT_HAND_STAGE5B_TARGETED_SKIN_REBUILD_R2.blend",
+        "sha256": "adf757aeace8a0d69070b94f102b9bef9eb99da9847dd7a5639c4c2c3799dde9"
+      },
+      "modifiers": [
+        {
+          "name": "PRODUCTION_ARMATURE",
+          "type": "ARMATURE"
+        }
+      ]
+    }
+  },
+  "bootstrap_base_coordinate_topology_UV_parity": true,
+  "bootstrap_evaluated_L1_exact_parity": true,
+  "receipt_source_hash_verified": true,
+  "receipt_bootstrap_hash_verified": true,
+  "lineage": [
+    "OFFICIAL_BASE + stored official Multires L1 displacement",
+    "STAGE2 exact isolated base + unapplied Multires L1",
+    "STAGE4A_R2_BASE: bake actual official Multires L1; CON9 Rx180 mesh-data rotation; four CON1 subdivide-and-plane-project loops; CON3 pole relocation with neighbor smoothing",
+    "STAGE4A_R2: CMC engineering; frozen ROI exact native geometry identity",
+    "STAGE4B_RSSF: baked temporary rig deformation, topology frozen",
+    "STAGE4C_R2: UV/nail/material/origin finalization",
+    "R2 production: rig/weights rebuild; raw surface inherited"
+  ],
+  "geometry_layer_selected_at_Stage2": "Neither baked base nor baked L1: base cage plus preserved enabled Multires L1 modifier",
+  "geometry_layer_selected_at_Stage4A": "Actual evaluated official L1 baked into mesh",
+  "historical_RAM_replay_exact_final_match": true
+}

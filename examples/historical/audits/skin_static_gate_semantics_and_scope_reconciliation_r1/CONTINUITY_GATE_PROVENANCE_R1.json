@@ -1,0 +1,322 @@
+{
+  "authority_id": "CONTINUITY_GATE_PROVENANCE_R1",
+  "status": "RESOLVED_MIXED_SCOPED_SCREEN_AND_NO_REGRESSION",
+  "authority_precedence": [
+    "Human hash-bound current proposal + Human notes",
+    "current exact-copy/write partition",
+    "historical validators as provenance, not overrides"
+  ],
+  "proposal_bundle_hash": "a0a3811f00984edce73db6ff4171d72aeaec07e27dbe17936266dec6d9da1340",
+  "Human_notes_preserved": "Human Review：批准 Skin Authority Reconciliation R1。\n\n接受 cap37 使用 corrected thumb arc 上的连续 skin-driver 规则：\nTHUMB_IP 为主要 deform driver，并与 THUMB_MCP 保持连续混合；\n不将 cap37 membership 直接转换为 THUMB_IP one-hot 权重。\n\n接受 old cap9 9 个 native INDEX_SURFACE 顶点取消历史 THUMB distal-cap override，\n按局部 INDEX-compatible skin field 重建，并要求与周围 INDEX field 连续。\n\n接受 FIRST_WEB21 使用 shared deformation wrapper：\n允许 WRIST_R、THUMB_CMC_R、THUMB_MCP_R、INDEX_MCP_R，\nTHUMB_IP_R = 0；\nfresh R3 THUMB/INDEX labels 仅作为 side context，不直接决定具体权重比例。\n\n接受 R1B safe-reuse / rebuild scope：\n2401 个现有 vectors 可安全继承；\n771 个进入 targeted revalidation；\n244 个必须 rebuild；\n总 rebuild/revalidation envelope 为 1015 vertices。\n不执行 full-mesh rebuild。\n\n接受 edge5879 作为 TARGETED_REBUILD_REQUIRED，\nv1551 与 v3125 均包含于 rebuild envelope，\n保留其历史局部 weight-transition defect 与 deformation evidence。\n\n确认 ownership labels 只用于 cross-digit leakage guard 与 transition-side context，\n不得直接转换为 one-hot weights；\nTHUMB_TIP_R 等 TIP helpers 不允许 deform influence。\n\n批准进入\nTARGETED_RIG_AND_SKIN_DATA_REBUILD_AFTER_APPROVAL_R1。\n\n本次批准仅针对 skin driver / weight authority 与 rebuild scope，\n不预先批准新生成的 skin vectors、targeted deformation、Stage6A、Stage6B\n或最终 production qualification。",
+  "sources": [
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1a/scripts/s5b_r1a_audit.py",
+      "sha256": "e4eaec2b8645ec8944e790582932da17a4966cb5cc80f9d92be34d3f9df56085",
+      "line_numbers": [
+        330
+      ],
+      "excerpts": [
+        "if w <= 1e-6:"
+      ],
+      "meaning": "R1A cross-digit reporting significance cutoff, with documented donor carry-over; not a universal mathematical-zero definition.",
+      "authority_role": "HISTORICAL_VALIDATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1a/scripts/s5b_r1a_audit.py",
+      "sha256": "e4eaec2b8645ec8944e790582932da17a4966cb5cc80f9d92be34d3f9df56085",
+      "line_numbers": [
+        182
+      ],
+      "excerpts": [
+        "\"WEIGHT_NORMALIZATION\": \"PASS\" if NORM_ERR < 1e-6 else \"FAIL\","
+      ],
+      "meaning": "Historical R1A normalization criterion; later R1B and current approved contract use 1e-5.",
+      "authority_role": "HISTORICAL_VALIDATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1a/scripts/s5b_r1a_build.py",
+      "sha256": "ba5174ee6e81366313cfd7e59b025a6279f554341f1bdf08be7432010bccb014",
+      "line_numbers": [
+        180
+      ],
+      "excerpts": [
+        "newv = dict((g, v) for g, v in newv.items() if v > EPS or g in frozen)"
+      ],
+      "meaning": "EPS=1e-8 prunes free groups only. Frozen groups are explicitly retained even below EPS.",
+      "authority_role": "HISTORICAL_GENERATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1b/scripts/r1b_common.py",
+      "sha256": "11b07d06470447a68c5e429698b1bac7f6ca933dfb400a7005c3576117374408",
+      "line_numbers": [
+        36
+      ],
+      "excerpts": [
+        "EPS = 1e-8"
+      ],
+      "meaning": "R1B free-weight construction epsilon; not a runtime influence cutoff.",
+      "authority_role": "HISTORICAL_GENERATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1b/scripts/r1b_common.py",
+      "sha256": "11b07d06470447a68c5e429698b1bac7f6ca933dfb400a7005c3576117374408",
+      "line_numbers": [
+        275
+      ],
+      "excerpts": [
+        "newv = dict((g, v) for g, v in newv.items() if v > EPS or g in frozen)"
+      ],
+      "meaning": "R1B preserves frozen positive weights below its free-weight prune threshold.",
+      "authority_role": "HISTORICAL_GENERATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1b/scripts/s5b_r1b_verify.py",
+      "sha256": "c72cacfa07e688378182b5677c60cf306017d802a423d1f111ef26469ea53c51",
+      "line_numbers": [
+        173
+      ],
+      "excerpts": [
+        "max_inf = max(len([g for g, w in W2[i].items() if w > 0.0]) for i in range(NV))"
+      ],
+      "meaning": "Positive saved influences count even below 1e-8/1e-6.",
+      "authority_role": "HISTORICAL_VALIDATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1b/scripts/s5b_r1b_verify.py",
+      "sha256": "c72cacfa07e688378182b5677c60cf306017d802a423d1f111ef26469ea53c51",
+      "line_numbers": [
+        174
+      ],
+      "excerpts": [
+        "unnorm = sum(1 for i in range(NV) if abs(sum(W2[i].values()) - 1.0) > 1e-5)"
+      ],
+      "meaning": "R1B serialized normalization tolerance, not zero-weight epsilon.",
+      "authority_role": "HISTORICAL_VALIDATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1c/scripts/s5b_r1c_build.py",
+      "sha256": "3b0802ade693c9c27fb180d59e939ea1d3f3bc8cf118c723021e6ffd7a3d38ad",
+      "line_numbers": [
+        126
+      ],
+      "excerpts": [
+        "newv = dict((g, K.rr(v, 9)) for g, v in newv.items() if v > 1e-6)"
+      ],
+      "meaning": "R1C generated free vectors prune at 1e-6 before normalization/serialization.",
+      "authority_role": "HISTORICAL_GENERATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1c/scripts/s5b_r1c_build.py",
+      "sha256": "3b0802ade693c9c27fb180d59e939ea1d3f3bc8cf118c723021e6ffd7a3d38ad",
+      "line_numbers": [
+        143
+      ],
+      "excerpts": [
+        "raise SystemExit(\"FAIL CLOSED: foreign group survived on %d vertices\" % len(resid))"
+      ],
+      "meaning": "R1C rejects any surviving foreign group on corrected vertices; generation prune is not permission to retain it.",
+      "authority_role": "HISTORICAL_VALIDATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1d/scripts/s5b_r1d_build.py",
+      "sha256": "daeb1a10ca2ce17e8ee19d276cb240817811129e14bf5b19e999d5fd5881879b",
+      "line_numbers": [
+        290,
+        367
+      ],
+      "excerpts": [
+        "f = dict((g, v) for g, v in field(i).items() if v > 1e-6)",
+        "nv = dict((g, v) for g, v in nv.items() if v > 1e-6 and g in ALLOW_THUMB)"
+      ],
+      "meaning": "R1D construction/relaxation prune threshold applies only inside its own authorized region.",
+      "authority_role": "HISTORICAL_GENERATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1d/scripts/s5b_r1d_build.py",
+      "sha256": "daeb1a10ca2ce17e8ee19d276cb240817811129e14bf5b19e999d5fd5881879b",
+      "line_numbers": [
+        514
+      ],
+      "excerpts": [
+        "and len(FLIP_AFTER_W) <= len(FLIP_BEFORE) else \"FAIL\")"
+      ],
+      "meaning": "R1D combines a local distal hard-flip zero target with global count no-regression; its 0.95/0.05 hard-flip predicate is not the later 0.5/1.0 metric gate.",
+      "authority_role": "HISTORICAL_VALIDATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_build.py",
+      "sha256": "5294a9fd013fdad984c2925c1235aef7b9fd4384862e339e1c6c8376d14fbef0",
+      "line_numbers": [
+        426
+      ],
+      "excerpts": [
+        "# only NEW hard steps are touched; only region vertices; only their own allowed groups."
+      ],
+      "meaning": "R1E boundary relaxation targets new hard flips, within approved region only.",
+      "authority_role": "HISTORICAL_GENERATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_build.py",
+      "sha256": "5294a9fd013fdad984c2925c1235aef7b9fd4384862e339e1c6c8376d14fbef0",
+      "line_numbers": [
+        565
+      ],
+      "excerpts": [
+        "\"unchanged_pre_existing_hard_flip_edges\":"
+      ],
+      "meaning": "R1E explicitly distinguishes inherited hard flips.",
+      "authority_role": "HISTORICAL_VALIDATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_build.py",
+      "sha256": "5294a9fd013fdad984c2925c1235aef7b9fd4384862e339e1c6c8376d14fbef0",
+      "line_numbers": [
+        569,
+        716
+      ],
+      "excerpts": [
+        "FLIP_AUDIT[\"verdict\"] = (\"PASS\" if len(NEW_FLIPS) == 0",
+        "CONTINUITY[\"verdict\"] = (\"PASS\" if len(NEW_FLIPS) == 0"
+      ],
+      "meaning": "R1E applies new-flip no-regression plus local correction-domain/distal/collar checks, not a global erasure of historical debt.",
+      "authority_role": "HISTORICAL_VALIDATOR"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/stage5b_r1e/scripts/s5b_r1e_build.py",
+      "sha256": "5294a9fd013fdad984c2925c1235aef7b9fd4384862e339e1c6c8376d14fbef0",
+      "line_numbers": [
+        406,
+        463
+      ],
+      "excerpts": [
+        "items = sorted(((g, v) for g, v in out.items() if v > 1e-6 and g in ALLOWED[R3[i]]),",
+        "it2 = sorted(((g, v) for g, v in nv.items() if v > 1e-6 and g in allow),"
+      ],
+      "meaning": "R1E candidate construction prunes generated vectors; no global semantic-zero waiver.",
+      "authority_role": "HISTORICAL_GENERATOR"
+    },
+    {
+      "path": "audits/cap_skin_driver_and_weight_authority_reconciliation_r1/SKIN_WEIGHT_CONTINUITY_CONTRACT_R1.json",
+      "sha256": "ffe7525ceceae2a23ef802f0b03e55aaa02d59d7ecae0f9e4d84dce4de4d050c",
+      "line_numbers": [
+        76
+      ],
+      "excerpts": [
+        "\"proposal_origin\": \"New conservative screening gates for Human review, not falsely attributed to old production approval. Retained baseline edges outside affected scope remain regression context.\","
+      ],
+      "meaning": "0.5/1.0 are new Human-review gates. They were not R1A/R1B global physical laws.",
+      "authority_role": "HASH_BOUND_CURRENT_AUTHORITY"
+    },
+    {
+      "path": "audits/cap_skin_driver_and_weight_authority_reconciliation_r1/SKIN_WEIGHT_CONTINUITY_CONTRACT_R1.json",
+      "sha256": "ffe7525ceceae2a23ef802f0b03e55aaa02d59d7ecae0f9e4d84dce4de4d050c",
+      "line_numbers": [
+        78
+      ],
+      "excerpts": [
+        "\"comparison\": \"No increase in a preexisting seam over its R1B jump +1e-5 unless explicitly recorded and qualified; existing bad baseline does not waive new absolute gates.\","
+      ],
+      "meaning": "Current contract retains absolute screening on envelope/internal/crossing edges plus no worsening by >1e-5 unless recorded and qualified.",
+      "authority_role": "HASH_BOUND_CURRENT_AUTHORITY"
+    },
+    {
+      "path": "audits/cap_skin_driver_and_weight_authority_reconciliation_r1/SKIN_WEIGHT_CONTINUITY_CONTRACT_R1.json",
+      "sha256": "ffe7525ceceae2a23ef802f0b03e55aaa02d59d7ecae0f9e4d84dce4de4d050c",
+      "line_numbers": [
+        77
+      ],
+      "excerpts": [
+        "\"no_hard_swap\": \"Reject same-interface one-ring disjoint one-hot drivers, and any new jump beyond these gates; every exceeding edge requires local smoothing or targeted deformation justification before candidate acceptance.\","
+      ],
+      "meaning": "Absolute exceedance requires local smoothing or targeted deformation justification. This audit performs neither and grants no acceptance waiver.",
+      "authority_role": "HASH_BOUND_CURRENT_AUTHORITY"
+    },
+    {
+      "path": "audits/cap_skin_driver_and_weight_authority_reconciliation_r1/SKIN_WEIGHT_CONTINUITY_CONTRACT_R1.json",
+      "sha256": "ffe7525ceceae2a23ef802f0b03e55aaa02d59d7ecae0f9e4d84dce4de4d050c",
+      "line_numbers": [
+        68
+      ],
+      "excerpts": [
+        "\"forbidden_weight\": 0"
+      ],
+      "meaning": "Current ownership guard uses exact mathematical zero for forbidden groups.",
+      "authority_role": "HASH_BOUND_CURRENT_AUTHORITY"
+    },
+    {
+      "path": "audits/cap_skin_driver_and_weight_authority_reconciliation_r1/R1B_SAFE_WEIGHT_REUSE_SET_R1.json",
+      "sha256": "78533eeeb601add0e76f184f0c5a97026fb061b33b73f092c7c15b29a6a147a2",
+      "line_numbers": [
+        13
+      ],
+      "excerpts": [
+        "\"threshold_policy\": \"Forbidden significant weight >1e-6 requires rebuild; 1e-8..1e-6 numerical remnants require targeted revalidation and exact forbidden-group removal if retained. IP roll carriers never automatically safe.\","
+      ],
+      "meaning": "The current reuse plan explicitly calls for removal of numerical remnants; significance bands are not semantic-zero authority.",
+      "authority_role": "HASH_BOUND_CURRENT_AUTHORITY"
+    },
+    {
+      "path": "audits/cap_skin_driver_and_weight_authority_reconciliation_r1/FIRST_WEB_SKIN_WEIGHT_WRAPPER_R2.json",
+      "sha256": "a785c3a6df6643c2ae8c2bdbf1274b2f449042e58dd83139f1475cb337dde70b",
+      "line_numbers": [
+        300
+      ],
+      "excerpts": [
+        "\"constraints\": \"All three interfaces contribute edges simultaneously; every component has positive geometry-prior term and fixed valid outer pins; no thumb-only or index-only optimization\","
+      ],
+      "meaning": "FIRST_WEB permits shared groups but requires all three interfaces to contribute continuity; side labels cannot waive an interface jump.",
+      "authority_role": "HASH_BOUND_CURRENT_AUTHORITY"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_after_approval_r1/AUTHORIZED_WEIGHT_WRITE_SET_R1.json",
+      "sha256": "35cf4381ccb9f9aa513f71ce9041dc8f13e2dbad65e32a04ab85455606231745",
+      "line_numbers": [
+        3705
+      ],
+      "excerpts": [
+        "\"constraint_resolution\": \"Hash-bound 244 set controls write permission. Remaining approved transition-neighborhood vertices are copied exactly and tested/flagged only.\""
+      ],
+      "meaning": "Executed R1 scope makes the 771/2401 partitions copy-only. Future cleanup needs explicit amendment, not silent reinterpretation.",
+      "authority_role": "EXECUTED_SCOPE_CONTRACT"
+    },
+    {
+      "path": "production_spec/stage5_production_rig/targeted_rig_and_skin_data_rebuild_after_approval_r1/HUMAN_APPROVAL_RESPONSE_SOURCE_COPY.json",
+      "sha256": "e79b28e4d727b1a2584f0636783b53f6be3d8a53a4d959d14578abbd2ad738d7",
+      "line_numbers": [
+        24
+      ],
+      "excerpts": [
+        "\"authority_scope\": \"DETERMINISTIC_SKIN_DRIVER_AND_WEIGHT_REBUILD_PLAN_ONLY\","
+      ],
+      "meaning": "Human approved deterministic rebuild plan only, not new candidate static/deformation acceptance.",
+      "authority_role": "HUMAN_APPROVAL"
+    }
+  ],
+  "canonical_semantics": {
+    "name": "SCOPED_ABSOLUTE_SCREEN_PLUS_NO_REGRESSION_WITH_EXPLICIT_QUALIFICATION",
+    "absolute_gates": {
+      "L_inf": 0.5,
+      "L1": 1.0,
+      "scope": "all approved envelope internal and crossing edges"
+    },
+    "regression_tolerance": 1e-05,
+    "old_validators": "Region-specific hard-flip removal plus no-new/no-worse checks; no provenance for global eradication of all donor discontinuity.",
+    "current_gates": "Retain 0.5/1.0 screening, record and qualify every affected exceedance; no increase in a preexisting seam >1e-5 unless explicitly recorded and qualified.",
+    "copy_only_defects": "INHERITED_BASELINE_DEFECT. Never candidate-introduced. Within an affected interface they still need recorded qualification before candidate acceptance; exact copy alone is not a PASS.",
+    "semantic_boundaries": "FIRST_WEB/R3/driver-family boundary is context, not an automatic continuity exemption.",
+    "global_old_defect_clearance_contract_found": false,
+    "no_new_no_worse_only_reinterpretation_authorized": false,
+    "threshold_changes": [],
+    "acceptance_waivers_applied": [],
+    "unresolved_provenance_conflicts": []
+  },
+  "edge1130_verdict": "Inherited exact-copy FIRST_WEB transition debt; unchanged, no candidate regression. It cannot justify a candidate-introduced rejection or a mandatory global cleanup. Its scoped absolute screen still exceeds gate and needs later explicit qualification. No static PASS is granted here.",
+  "zero_semantics": {
+    "canonical_forbidden_weight_epsilon": 0,
+    "normalization_tolerance": 1e-05,
+    "free_weight_prune_eps_R1A_R1B": 1e-08,
+    "generated_field_prune_R1C_R1D_R1E": 1e-06,
+    "runtime_cutoff": "No project-authoritative runtime zero cutoff found in reviewed source chain; positive saved influences are retained/read/countable.",
+    "serialization": "Saved float32 positive value is not exact zero. Float equality/normalization tolerances do not authorize foreign influence."
+  }
+}

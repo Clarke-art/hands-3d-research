@@ -1,0 +1,88 @@
+{
+  "recorded_session_start_utc": "2026-10-15T00:06:37.0594353Z",
+  "summary_utc": "2026-10-15T00:16:33.051268+00:00",
+  "recorded_session_elapsed_seconds": 595.991833,
+  "first_read_clock_utc": "2026-10-15T00:05:54+00:00",
+  "first_read_clock_to_summary_seconds": 639.051268,
+  "baseline_probe_file_created_utc": "2026-10-15T00:07:56.393641+00:00",
+  "source_copy_seconds": 0.0038471000152640045,
+  "baseline_setup_probe_seconds": 5.253019800002221,
+  "edit_process_seconds": 2.999210200010566,
+  "edit_lock_to_receipt_wall_seconds": 37.80904221534729,
+  "real_geometry_check_seconds": 141.0599996999954,
+  "actual_validation_including_archive_and_protection_seconds": 143.68979420000687,
+  "baseline_video_seconds": 1.9256720000121277,
+  "after_video_seconds": null,
+  "after_video_reason": "Machine gate FAIL; no candidate render/preview generated",
+  "handoff_preparation_seconds": 3.6305159000039566,
+  "human_edit_seconds": null,
+  "human_edit_performed": false,
+  "human_instructions_steps": 8,
+  "actual_human_clicks": null,
+  "failed_software_process_seconds": 8.469197800004622,
+  "processes": [
+    {
+      "stage": "lock_and_edit",
+      "seconds": 2.5018431000062265,
+      "returncode": 7
+    },
+    {
+      "stage": "lock_and_edit",
+      "seconds": 4.044613600010052,
+      "returncode": 0
+    },
+    {
+      "stage": "prepare_baseline",
+      "seconds": 0.6038403999991715,
+      "returncode": 7
+    },
+    {
+      "stage": "prepare_baseline",
+      "seconds": 6.913512900006026,
+      "returncode": 0
+    },
+    {
+      "stage": "prepare_human_handoff",
+      "seconds": 2.682766600017203,
+      "returncode": 7
+    },
+    {
+      "stage": "prepare_human_handoff",
+      "seconds": 2.680747699982021,
+      "returncode": 7
+    },
+    {
+      "stage": "prepare_human_handoff",
+      "seconds": 4.6215147000039,
+      "returncode": 0
+    },
+    {
+      "stage": "validate_once",
+      "seconds": 143.68979420000687,
+      "returncode": 0
+    },
+    {
+      "stage": "verify_handoff_readback",
+      "seconds": 2.7556781000166666,
+      "returncode": 0
+    }
+  ],
+  "cost_caveat": "Wall intervals include scripting, inspection and ordinary bug fixes; process seconds are measured. Failed-process runtime does not include all reasoning/debugging wall time. Initial reading before first clock was not separately timed.",
+  "bug_records": [
+    {
+      "issue": "Blender script directory absent from sys.path",
+      "effect": "Initial baseline script stopped before source copy",
+      "resolution": "Explicit script directory insertion"
+    },
+    {
+      "issue": "LINEAR F-Curve unused AUTO handles recalculate",
+      "effect": "Outside-value assertion overincluded non-evaluated handles; no candidate saved at failure",
+      "resolution": "Preserve exact outside key values/interpolation, restore handle coordinates, validate outside actual skin unchanged; same locked edit"
+    },
+    {
+      "issue": "Blender5 selection API moved to PoseBone.select; select_pattern operator absent",
+      "effect": "Handoff UI selection only; no motion change or saved handoff at failures",
+      "resolution": "Inspect local RNA and use PoseBone.select"
+    }
+  ]
+}

@@ -1,0 +1,664 @@
+[
+  {
+    "id": "J1",
+    "event_time": 2.72,
+    "build_seconds": 1.5619999999980791,
+    "old_seconds": [
+      0.010326799998438219,
+      0.01069149999966612,
+      0.010367000002588611
+    ],
+    "new_seconds": [
+      0.013598900000943104,
+      0.013822900000377558,
+      0.013697300000785617
+    ],
+    "speedup": 0.7568644916877053,
+    "shape": [
+      466,
+      12
+    ],
+    "numeric_nonzeros": 2630,
+    "old_structural_nonzeros": 3787,
+    "old_new_max_abs": 7.105427357601002e-15,
+    "checks": [
+      {
+        "step": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.001,
+          0.001
+        ],
+        "max_abs_error": 7.799745809222713e-07,
+        "relative_frobenius": 2.6144405774415452e-08,
+        "per_variable_max_abs": [
+          1.4210854715202004e-12,
+          1.3766765505351941e-12,
+          1.4210854715202004e-12,
+          1.7247677064347045e-08,
+          4.323900792968516e-09,
+          1.63668691932628e-08,
+          7.469438401130901e-09,
+          3.6766510946861786e-09,
+          1.5944736087014633e-09,
+          7.42283634558305e-09,
+          1.3731546566475572e-08,
+          7.799745809222713e-07
+        ],
+        "missing_nonzeros": 0
+      },
+      {
+        "step": [
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.0001,
+          0.0001
+        ],
+        "max_abs_error": 8.042729149337902e-09,
+        "relative_frobenius": 2.7337746057347434e-10,
+        "per_variable_max_abs": [
+          1.4210854715202004e-11,
+          1.3988810110276972e-11,
+          1.4210854715202004e-11,
+          1.7529488971490537e-10,
+          5.039374473270186e-11,
+          1.7211698732921832e-10,
+          2.587658282093841e-10,
+          2.380545760516384e-10,
+          1.19331560258229e-10,
+          1.7246137851145704e-10,
+          1.7889876802179572e-09,
+          8.042729149337902e-09
+        ],
+        "missing_nonzeros": 0
+      },
+      {
+        "step": [
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          1e-05,
+          1e-05
+        ],
+        "max_abs_error": 3.1686864687685556e-08,
+        "relative_frobenius": 7.111868923966952e-10,
+        "per_variable_max_abs": [
+          1.3988810110276972e-10,
+          1.376676550535194e-10,
+          1.4210854715202004e-10,
+          3.5801328568396684e-10,
+          3.7727426738243253e-10,
+          2.5031721140322816e-10,
+          1.572263236271354e-09,
+          1.3418438443713043e-09,
+          1.0232419009326144e-09,
+          2.165003287757372e-09,
+          3.126994152502505e-08,
+          3.1686864687685556e-08
+        ],
+        "missing_nonzeros": 0
+      }
+    ],
+    "calls": {
+      "skin": 3,
+      "skin_jacobian": 3,
+      "geometry": 3,
+      "geometry_jacobian": 3,
+      "active_detection": 1
+    },
+    "old_method": "Original expanded-SX skin automatic differentiation, same local constraint rows; excludes trajectory kinematic rows",
+    "new_method": "Node-local chain rule MX skin Jacobian times sparse geometry Jacobian",
+    "active_contacts": [
+      {
+        "pad_gap_mm": 1.2150403551743665,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": -0.005000012033724796,
+        "pulp_min_vertex_gap_mm": 0.8193074985365489,
+        "pulp_closest_vertex": 1753,
+        "pulp_contact_position_world_m": [
+          0.1000501520303282,
+          -0.0008408648830847826,
+          -0.009999999953798445
+        ],
+        "true_pulp_surface_contact_distance_mm": 0.0,
+        "near_contact_projected_area_mm2": 0.06840910679620064,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 2,
+        "top_surface_crossing_triangle_ids": [
+          3869,
+          3870
+        ],
+        "inside_playable_patch_vertices": 26,
+        "hover_only": false
+      }
+    ],
+    "pid": 17668
+  },
+  {
+    "id": "J2",
+    "event_time": 2.956426,
+    "build_seconds": 1.5,
+    "old_seconds": [
+      0.013425599998299731,
+      0.01097469999876921,
+      0.010657000002538553
+    ],
+    "new_seconds": [
+      0.013954400001239264,
+      0.014167699999234173,
+      0.01398699999845121
+    ],
+    "speedup": 0.7846357331796987,
+    "shape": [
+      466,
+      12
+    ],
+    "numeric_nonzeros": 2736,
+    "old_structural_nonzeros": 3767,
+    "old_new_max_abs": 5.329070518200751e-15,
+    "checks": [
+      {
+        "step": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.001,
+          0.001
+        ],
+        "max_abs_error": 2.2219598783124184e-07,
+        "relative_frobenius": 1.2069895264919647e-08,
+        "per_variable_max_abs": [
+          2.7977620220553945e-12,
+          1.3988810110276972e-12,
+          1.3988810110276972e-12,
+          1.601696020259169e-08,
+          4.604392533913426e-09,
+          1.571828978086387e-08,
+          7.858748540812144e-09,
+          3.911765134034795e-09,
+          1.7310776700973918e-09,
+          7.526294698578795e-09,
+          2.1328211419202603e-10,
+          2.2219598783124184e-07
+        ],
+        "missing_nonzeros": 0
+      },
+      {
+        "step": [
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.0001,
+          0.0001
+        ],
+        "max_abs_error": 3.416640692588402e-09,
+        "relative_frobenius": 1.42280014285304e-10,
+        "per_variable_max_abs": [
+          1.3988810110276972e-11,
+          1.3988810110276972e-11,
+          1.3988810110276972e-11,
+          1.6158363536078468e-10,
+          5.59176038805731e-11,
+          1.6430368177111632e-10,
+          1.7916060301992331e-10,
+          2.0066912020944017e-10,
+          1.0743372858001976e-10,
+          1.845614772122417e-10,
+          3.416640692588402e-09,
+          3.145432359019651e-09
+        ],
+        "missing_nonzeros": 0
+      },
+      {
+        "step": [
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          1e-05,
+          1e-05
+        ],
+        "max_abs_error": 2.6731513280697783e-08,
+        "relative_frobenius": 1.1429608560658277e-09,
+        "per_variable_max_abs": [
+          2.7755575615628914e-10,
+          1.3988810110276972e-10,
+          1.3988810110276972e-10,
+          3.151130467671237e-10,
+          4.947873083471777e-10,
+          3.744773380276456e-10,
+          2.515239655442869e-09,
+          1.470078503373884e-09,
+          1.2942288421524673e-09,
+          3.996982522735948e-09,
+          2.6731513280697783e-08,
+          2.605597659854908e-08
+        ],
+        "missing_nonzeros": 0
+      }
+    ],
+    "calls": {
+      "skin": 3,
+      "skin_jacobian": 3,
+      "geometry": 3,
+      "geometry_jacobian": 3,
+      "active_detection": 1
+    },
+    "old_method": "Original expanded-SX skin automatic differentiation, same local constraint rows; excludes trajectory kinematic rows",
+    "new_method": "Node-local chain rule MX skin Jacobian times sparse geometry Jacobian",
+    "active_contacts": [
+      {
+        "pad_gap_mm": 1.0881856887534869,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": -0.004999999946844255,
+        "pulp_min_vertex_gap_mm": -0.004999999946844255,
+        "pulp_closest_vertex": 501,
+        "pulp_contact_position_world_m": [
+          0.22152251786085725,
+          0.05251716592108876,
+          -0.0053394793583357095
+        ],
+        "true_pulp_surface_contact_distance_mm": 0.0,
+        "near_contact_projected_area_mm2": 0.30158374338205146,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 5,
+        "top_surface_crossing_triangle_ids": [
+          3738,
+          3751,
+          3752,
+          3753,
+          3767
+        ],
+        "inside_playable_patch_vertices": 102,
+        "hover_only": false
+      }
+    ],
+    "pid": 17668
+  },
+  {
+    "id": "J3",
+    "event_time": 2.9214260000000003,
+    "build_seconds": 1.5159999999996217,
+    "old_seconds": [
+      0.010440499998367159,
+      0.010490199998457683,
+      0.010760500001197215
+    ],
+    "new_seconds": [
+      0.013937499999883585,
+      0.013920199999120086,
+      0.014084400001593167
+    ],
+    "speedup": 0.7526600895817259,
+    "shape": [
+      476,
+      12
+    ],
+    "numeric_nonzeros": 2688,
+    "old_structural_nonzeros": 3867,
+    "old_new_max_abs": 1.7763568394002505e-15,
+    "checks": [
+      {
+        "step": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.001,
+          0.001
+        ],
+        "max_abs_error": 0.36431139421149616,
+        "relative_frobenius": 0.0035580025317912996,
+        "per_variable_max_abs": [
+          2.7755575615628914e-12,
+          1.3988810110276972e-12,
+          1.3988810110276972e-12,
+          0.0300360126002005,
+          0.04307862911180211,
+          0.05784759928806138,
+          7.448078376270928e-09,
+          3.6951649518002228e-09,
+          1.6045446082912918e-09,
+          7.2118175875601764e-09,
+          0.028099168637673366,
+          0.36431139421149616
+        ],
+        "missing_nonzeros": 0
+      },
+      {
+        "step": [
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.0001,
+          0.0001
+        ],
+        "max_abs_error": 0.36430352250820697,
+        "relative_frobenius": 0.0035579628018529074,
+        "per_variable_max_abs": [
+          1.3988810110276972e-11,
+          1.3766765505351941e-11,
+          1.3988810110276972e-11,
+          0.030035327355273034,
+          0.043078580230081216,
+          0.05784758521447464,
+          3.6450975571256095e-10,
+          3.0059985056674066e-10,
+          1.610020380904409e-10,
+          1.8495405207374915e-10,
+          0.028099231463417973,
+          0.36430352250820697
+        ],
+        "missing_nonzeros": 0
+      },
+      {
+        "step": [
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          1e-05,
+          1e-05
+        ],
+        "max_abs_error": 0.3643027214822938,
+        "relative_frobenius": 0.003557958722466496,
+        "per_variable_max_abs": [
+          2.7755575615628914e-10,
+          1.3988810110276972e-10,
+          1.3988810110276972e-10,
+          0.030035257687668016,
+          0.04307857420712131,
+          0.05784758395170697,
+          1.7316870715156085e-09,
+          2.160991496857889e-09,
+          1.6602472105442523e-09,
+          2.4714752466792334e-09,
+          0.02809923215619714,
+          0.3643027214822938
+        ],
+        "missing_nonzeros": 0
+      }
+    ],
+    "calls": {
+      "skin": 3,
+      "skin_jacobian": 3,
+      "geometry": 3,
+      "geometry_jacobian": 3,
+      "active_detection": 1
+    },
+    "old_method": "Original expanded-SX skin automatic differentiation, same local constraint rows; excludes trajectory kinematic rows",
+    "new_method": "Node-local chain rule MX skin Jacobian times sparse geometry Jacobian",
+    "active_contacts": [
+      {
+        "pad_gap_mm": 1.2963346979187367,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": -0.12592154410782164,
+        "pulp_min_vertex_gap_mm": 1.0008029838103827,
+        "pulp_closest_vertex": 1753,
+        "pulp_contact_position_world_m": [
+          0.10005087700066881,
+          -0.0006065895863124615,
+          -0.009979537338721388
+        ],
+        "true_pulp_surface_contact_distance_mm": 0.0,
+        "near_contact_projected_area_mm2": 0.5144006124356991,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 4,
+        "top_surface_crossing_triangle_ids": [
+          3868,
+          3869,
+          3870,
+          3887
+        ],
+        "inside_playable_patch_vertices": 34,
+        "hover_only": false
+      },
+      {
+        "pad_gap_mm": 0.4071026615398,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": -0.16594739085226418,
+        "pulp_min_vertex_gap_mm": -0.16033148280794768,
+        "pulp_closest_vertex": 1738,
+        "pulp_contact_position_world_m": [
+          0.20545576680019423,
+          0.04353443581122528,
+          -7.935724126439947e-11
+        ],
+        "true_pulp_surface_contact_distance_mm": 0.0,
+        "near_contact_projected_area_mm2": 2.462977182936081,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 8,
+        "top_surface_crossing_triangle_ids": [
+          3738,
+          3749,
+          3750,
+          3751,
+          3752,
+          3753,
+          3761,
+          3767
+        ],
+        "inside_playable_patch_vertices": 61,
+        "hover_only": false
+      }
+    ],
+    "pid": 17668
+  },
+  {
+    "id": "J4_node",
+    "event_time": 2.938092666667,
+    "build_seconds": 1.5940000000009604,
+    "old_seconds": [
+      0.010959699997329153,
+      0.012785399998392677,
+      0.027618099997198442
+    ],
+    "new_seconds": [
+      0.02351289999933215,
+      0.021174400000745663,
+      0.022005899998475797
+    ],
+    "speedup": 0.5809987321253953,
+    "shape": [
+      466,
+      12
+    ],
+    "numeric_nonzeros": 2736,
+    "old_structural_nonzeros": 3767,
+    "old_new_max_abs": 5.329070518200751e-15,
+    "checks": [
+      {
+        "step": [
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.01,
+          0.001,
+          0.001
+        ],
+        "max_abs_error": 0.014874660217349178,
+        "relative_frobenius": 0.00010808356808317118,
+        "per_variable_max_abs": [
+          2.7977620220553945e-12,
+          1.3988810110276972e-12,
+          1.3988810110276972e-12,
+          1.5927150709416082e-08,
+          0.005218836096787256,
+          0.014874660217349178,
+          7.2209751511564946e-09,
+          3.6138275705255296e-09,
+          1.5425779542610485e-09,
+          6.993301715496614e-09,
+          2.6911572970078623e-10,
+          0.0041041461757753694
+        ],
+        "missing_nonzeros": 0
+      },
+      {
+        "step": [
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.001,
+          0.0001,
+          0.0001
+        ],
+        "max_abs_error": 4.171333500835317e-09,
+        "relative_frobenius": 1.9192249159265916e-10,
+        "per_variable_max_abs": [
+          1.3988810110276972e-11,
+          1.3988810110276972e-11,
+          1.3988810110276972e-11,
+          1.6029266802775055e-10,
+          6.85969059333047e-11,
+          1.6648060707780132e-10,
+          2.4088678274303277e-10,
+          1.5716639101270857e-10,
+          1.221729592493226e-10,
+          2.0471047079695381e-10,
+          3.381026014714905e-09,
+          4.171333500835317e-09
+        ],
+        "missing_nonzeros": 0
+      },
+      {
+        "step": [
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          0.0001,
+          1e-05,
+          1e-05
+        ],
+        "max_abs_error": 3.422065238123384e-08,
+        "relative_frobenius": 7.874352493055784e-10,
+        "per_variable_max_abs": [
+          1.3988810110276972e-10,
+          1.3988810110276972e-10,
+          1.3988810110276972e-10,
+          2.702611745508676e-10,
+          4.312264156869361e-10,
+          4.2483339068866144e-10,
+          1.4602796472029667e-09,
+          1.6470994707029618e-09,
+          1.4239905123114571e-09,
+          1.1980860747939914e-09,
+          1.901452351127375e-08,
+          3.422065238123384e-08
+        ],
+        "missing_nonzeros": 0
+      }
+    ],
+    "calls": {
+      "skin": 3,
+      "skin_jacobian": 3,
+      "geometry": 3,
+      "geometry_jacobian": 3,
+      "active_detection": 1
+    },
+    "old_method": "Original expanded-SX skin automatic differentiation, same local constraint rows; excludes trajectory kinematic rows",
+    "new_method": "Node-local chain rule MX skin Jacobian times sparse geometry Jacobian",
+    "active_contacts": [
+      {
+        "pad_gap_mm": 3.4990362739753187,
+        "pad_horizontal_outside_mm": 0.0,
+        "true_pulp_min_signed_gap_mm": 2.61554391958331,
+        "pulp_min_vertex_gap_mm": 2.61554391958331,
+        "pulp_closest_vertex": 501,
+        "pulp_contact_position_world_m": [
+          0.2054336424238222,
+          0.043526086425135946,
+          -0.0001975729067272003
+        ],
+        "true_pulp_surface_contact_distance_mm": 2.61554391958331,
+        "near_contact_projected_area_mm2": 0.0,
+        "near_contact_area_band_mm": 0.05,
+        "top_surface_crossing_triangles": 0,
+        "top_surface_crossing_triangle_ids": [],
+        "inside_playable_patch_vertices": 60,
+        "hover_only": true
+      }
+    ],
+    "pid": 17668
+  }
+]

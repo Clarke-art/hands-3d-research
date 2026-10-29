@@ -1,0 +1,152 @@
+{
+  "status": "PASS",
+  "edge": {
+    "edge_id": 5879,
+    "vertex_ids": [
+      1551,
+      3125
+    ],
+    "endpoints": [
+      {
+        "vertex_id": 1551,
+        "R2_write_authorized": true,
+        "operation": "ORIGINAL_WRITE",
+        "frozen_side": "INDEX",
+        "FIRST_WEB21": false,
+        "donor_vector": {
+          "THUMB_MCP_R": 0.9684315323829651,
+          "THUMB_IP_R": 0.03156847879290581
+        },
+        "R1_vector": {
+          "WRIST_R": 0.7061624526977539,
+          "INDEX_MCP_R": 0.14673694968223572,
+          "INDEX_PIP_R": 0.07376766204833984,
+          "INDEX_DIP_R": 0.07333293557167053
+        },
+        "R2_vector": {
+          "WRIST_R": 0.8708838820457458,
+          "INDEX_MCP_R": 0.1086227297782898,
+          "INDEX_PIP_R": 0.010395855642855167,
+          "INDEX_DIP_R": 0.010097541846334934
+        },
+        "R2_exact_R1": false,
+        "R2_exact_donor": false,
+        "allowed_groups": [
+          "INDEX_DIP_R",
+          "INDEX_MCP_R",
+          "INDEX_PIP_R",
+          "WRIST_R"
+        ]
+      },
+      {
+        "vertex_id": 3125,
+        "R2_write_authorized": true,
+        "operation": "ORIGINAL_WRITE",
+        "frozen_side": "INDEX",
+        "FIRST_WEB21": true,
+        "donor_vector": {
+          "THUMB_MCP_R": 1.0
+        },
+        "R1_vector": {
+          "WRIST_R": 0.39925962686538696,
+          "THUMB_CMC_R": 0.01638963259756565,
+          "THUMB_MCP_R": 0.4930126667022705,
+          "INDEX_MCP_R": 0.09133804589509964
+        },
+        "R2_vector": {
+          "WRIST_R": 0.810614287853241,
+          "THUMB_CMC_R": 0.019935186952352524,
+          "THUMB_MCP_R": 0.020576516166329384,
+          "INDEX_MCP_R": 0.14887401461601257
+        },
+        "R2_exact_R1": false,
+        "R2_exact_donor": false,
+        "allowed_groups": [
+          "INDEX_MCP_R",
+          "THUMB_CMC_R",
+          "THUMB_MCP_R",
+          "WRIST_R"
+        ]
+      }
+    ],
+    "donor_metrics": {
+      "L_inf": 0.03156847879290581,
+      "L1": 0.06313694640994072,
+      "per_group": {
+        "THUMB_IP_R": 0.03156847879290581,
+        "THUMB_MCP_R": 0.03156846761703491
+      }
+    },
+    "R1_metrics": {
+      "L_inf": 0.4930126667022705,
+      "L1": 1.0188046265393496,
+      "per_group": {
+        "INDEX_DIP_R": 0.07333293557167053,
+        "INDEX_MCP_R": 0.05539890378713608,
+        "INDEX_PIP_R": 0.07376766204833984,
+        "THUMB_CMC_R": 0.01638963259756565,
+        "THUMB_MCP_R": 0.4930126667022705,
+        "WRIST_R": 0.30690282583236694
+      }
+    },
+    "R2_metrics": {
+      "L_inf": 0.06026959419250488,
+      "L1": 0.16152597963809967,
+      "per_group": {
+        "INDEX_DIP_R": 0.010097541846334934,
+        "INDEX_MCP_R": 0.04025128483772278,
+        "INDEX_PIP_R": 0.010395855642855167,
+        "THUMB_CMC_R": 0.019935186952352524,
+        "THUMB_MCP_R": 0.020576516166329384,
+        "WRIST_R": 0.06026959419250488
+      }
+    },
+    "L_inf_delta_vs_R1": -0.4327430725097656,
+    "L1_delta_vs_R1": -0.8572786469012499,
+    "L_inf_delta_vs_donor": 0.028701115399599075,
+    "L1_delta_vs_donor": 0.09838903322815895,
+    "absolute_exceedance": false,
+    "boundary_context": [
+      "FIRST_WEB_INTERFACE",
+      "APPROVED_DRIVER_SUPPORT_BOUNDARY"
+    ]
+  },
+  "exact_old_R2_metric": true,
+  "endpoint_vectors": [
+    {
+      "vertex_id": 1551,
+      "old_R2_vector": {
+        "WRIST_R": 0.8708838820457458,
+        "INDEX_MCP_R": 0.1086227297782898,
+        "INDEX_PIP_R": 0.010395855642855167,
+        "INDEX_DIP_R": 0.010097541846334934
+      },
+      "current_vector": {
+        "WRIST_R": 0.8708838820457458,
+        "INDEX_MCP_R": 0.1086227297782898,
+        "INDEX_PIP_R": 0.010395855642855167,
+        "INDEX_DIP_R": 0.010097541846334934
+      },
+      "dense_float32_exact": true,
+      "stored_entries_including_zero_exact": true
+    },
+    {
+      "vertex_id": 3125,
+      "old_R2_vector": {
+        "WRIST_R": 0.810614287853241,
+        "THUMB_CMC_R": 0.019935186952352524,
+        "THUMB_MCP_R": 0.020576516166329384,
+        "INDEX_MCP_R": 0.14887401461601257
+      },
+      "current_vector": {
+        "WRIST_R": 0.810614287853241,
+        "THUMB_CMC_R": 0.019935186952352524,
+        "THUMB_MCP_R": 0.020576516166329384,
+        "INDEX_MCP_R": 0.14887401461601257
+      },
+      "dense_float32_exact": true,
+      "stored_entries_including_zero_exact": true
+    }
+  ],
+  "deformation_runs": 0
+}

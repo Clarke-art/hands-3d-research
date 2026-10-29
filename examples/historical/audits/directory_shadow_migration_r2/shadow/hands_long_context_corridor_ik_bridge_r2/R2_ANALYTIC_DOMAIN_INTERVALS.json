@@ -1,0 +1,642 @@
+{
+  "status": "C1_INITIALIZER_HAS_PROVEN_AUTHORIZED_PARAMETER_DOMAIN_VIOLATIONS",
+  "intervals": [
+    {
+      "segment": 1,
+      "control": 11,
+      "bound_type": "LOWER",
+      "actual_gate_bound": -1e-06,
+      "u_interval": [
+        0.0031092205968443268,
+        0.9999903700208621
+      ],
+      "time_interval": [
+        2.6161574496364337,
+        2.7039116499598532
+      ],
+      "proof": "Exact cubic latent-control polynomial with numerical root solving; actual gate tolerance preserved"
+    },
+    {
+      "segment": 2,
+      "control": 5,
+      "bound_type": "LOWER",
+      "actual_gate_bound": -12.001,
+      "u_interval": [
+        0.008527187662491609,
+        0.9036893911958249
+      ],
+      "time_interval": [
+        2.704839886901594,
+        2.802194819921403
+      ],
+      "proof": "Exact cubic latent-control polynomial with numerical root solving; actual gate tolerance preserved"
+    },
+    {
+      "segment": 2,
+      "control": 8,
+      "bound_type": "LOWER",
+      "actual_gate_bound": -0.001,
+      "u_interval": [
+        0.021510684268255198,
+        0.8437673327770826
+      ],
+      "time_interval": [
+        2.706251929811167,
+        2.795677891524807
+      ],
+      "proof": "Exact cubic latent-control polynomial with numerical root solving; actual gate tolerance preserved"
+    }
+  ],
+  "extrema": [
+    {
+      "segment": 0,
+      "control": 0,
+      "minimum": -107.32995336204932,
+      "maximum": -95.54677650047289,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 1,
+      "minimum": -5.778765778056209,
+      "maximum": -3.5772456069351377,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 2,
+      "minimum": -2.410312964847451,
+      "maximum": -0.22077128605274288,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 3,
+      "minimum": -1.4109354210316782,
+      "maximum": -0.7804855629918258,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 4,
+      "minimum": -3.6700800586271773,
+      "maximum": -1.7739907129094237,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 5,
+      "minimum": -11.781565083250662,
+      "maximum": -11.563130166501317,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 6,
+      "minimum": 9.558616603296072,
+      "maximum": 9.825665382617144,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 7,
+      "minimum": 2.4797737102207864,
+      "maximum": 3.41813540993904,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 8,
+      "minimum": 0.0879437732487311,
+      "maximum": 0.17588754649746222,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 9,
+      "minimum": -17.013205685985085,
+      "maximum": -6.409941785251496,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 0,
+      "control": 10,
+      "minimum": 1.0870368010401976e-09,
+      "maximum": 0.2934291638784829,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 0,
+      "control": 11,
+      "minimum": 0.0,
+      "maximum": 9.900000000000003e-07,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 1,
+      "control": 0,
+      "minimum": -95.5467765004729,
+      "maximum": -83.76359963889647,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 1,
+      "minimum": -3.5772456069351386,
+      "maximum": -1.375725435814068,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 2,
+      "minimum": -0.22077128605274246,
+      "maximum": 1.5155264726837374,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 3,
+      "minimum": -2.0413852790715317,
+      "maximum": -1.4109354210316787,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 4,
+      "minimum": -5.566169404344932,
+      "maximum": -3.670080058627178,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 5,
+      "minimum": -11.999988119999879,
+      "maximum": -11.781565083250658,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 6,
+      "minimum": 9.291567823975,
+      "maximum": 9.55861660329607,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 7,
+      "minimum": 1.5414120105025333,
+      "maximum": 2.4797737102207864,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 8,
+      "minimum": 9.899999999923859e-07,
+      "maximum": 0.08794377324873111,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 9,
+      "minimum": -6.409941785251492,
+      "maximum": 4.1933221154821005,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 1,
+      "control": 10,
+      "minimum": 0.2934291638784828,
+      "maximum": 0.5868583266699285,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 1,
+      "control": 11,
+      "minimum": -0.03061383643907801,
+      "maximum": 9.900002964235824e-07,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 2,
+      "control": 0,
+      "minimum": -83.76359963889648,
+      "maximum": -82.7988341614348,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 1,
+      "minimum": -1.3757254358140687,
+      "maximum": -1.1954726326876834,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 2,
+      "minimum": 1.515526472683737,
+      "maximum": 1.6576884851784661,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 3,
+      "minimum": -2.093004317421949,
+      "maximum": -2.0413852790715312,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 4,
+      "minimum": -5.721414595384748,
+      "maximum": -5.566169404344932,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 5,
+      "minimum": -12.017871837422906,
+      "maximum": -11.999988119999877,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 6,
+      "minimum": 9.269702800126685,
+      "maximum": 9.291567823974997,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 7,
+      "minimum": 1.4645822230949874,
+      "maximum": 1.5414120105025328,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 8,
+      "minimum": -0.007199458764113612,
+      "maximum": 9.9e-07,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 9,
+      "minimum": 4.1933221154821,
+      "maximum": 5.061480429663147,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 2,
+      "control": 10,
+      "minimum": 0.5868583266699288,
+      "maximum": 0.6108832844268468,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 2,
+      "control": 11,
+      "minimum": 9.9e-07,
+      "maximum": 0.4619612956610524,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 3,
+      "control": 0,
+      "minimum": -83.76359963889647,
+      "maximum": -83.76359963889647,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 1,
+      "minimum": -1.3757254358140687,
+      "maximum": -1.3757254358140687,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 2,
+      "minimum": 1.5121485110462227,
+      "maximum": 1.5155264726837376,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 3,
+      "minimum": -2.0413852790715317,
+      "maximum": -2.0413852790715317,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 4,
+      "minimum": -5.566169404344932,
+      "maximum": -5.566169404344932,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 5,
+      "minimum": -11.999988119999879,
+      "maximum": -11.999988119999879,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 6,
+      "minimum": 9.291567823974997,
+      "maximum": 9.291567823974997,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 7,
+      "minimum": 1.5414120105025326,
+      "maximum": 1.5414120105025326,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 8,
+      "minimum": 9.9e-07,
+      "maximum": 9.9e-07,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 9,
+      "minimum": 4.1933221154821,
+      "maximum": 4.1933221154821,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 3,
+      "control": 10,
+      "minimum": 0.5868583266699288,
+      "maximum": 0.5868583266699288,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 3,
+      "control": 11,
+      "minimum": 0.46196129566105254,
+      "maximum": 0.7752546219749135,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 4,
+      "control": 0,
+      "minimum": -83.76359963889647,
+      "maximum": -83.76359963889647,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 1,
+      "minimum": -1.3757254358140687,
+      "maximum": -1.1349122331205028,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 2,
+      "minimum": 1.5155264726837376,
+      "maximum": 1.8023545885065104,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 3,
+      "minimum": -2.0413852790715317,
+      "maximum": -2.0413852790715317,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 4,
+      "minimum": -5.566169404344932,
+      "maximum": -5.566169404344932,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 5,
+      "minimum": -11.999988119999879,
+      "maximum": -11.999988119999879,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 6,
+      "minimum": 9.291567823974997,
+      "maximum": 9.291567823974997,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 7,
+      "minimum": 1.5414120105025326,
+      "maximum": 1.5414120105025326,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 8,
+      "minimum": 9.9e-07,
+      "maximum": 9.9e-07,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 9,
+      "minimum": 4.1933221154821,
+      "maximum": 4.1933221154821,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 4,
+      "control": 10,
+      "minimum": 0.5868583266699288,
+      "maximum": 0.5868583266699288,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 4,
+      "control": 11,
+      "minimum": 0.7752546219749136,
+      "maximum": 0.9239225913221072,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 5,
+      "control": 0,
+      "minimum": -83.76359963889647,
+      "maximum": -83.76359963889647,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 1,
+      "minimum": -3.813959113086433,
+      "maximum": -1.3757254358140687,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 2,
+      "minimum": -1.1259648809240081,
+      "maximum": 1.5491476512245015,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 3,
+      "minimum": -2.0413852790715317,
+      "maximum": -2.0413852790715317,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 4,
+      "minimum": -5.566169404344932,
+      "maximum": -5.566169404344932,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 5,
+      "minimum": -11.999988119999879,
+      "maximum": -11.999988119999879,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 6,
+      "minimum": 9.291567823974997,
+      "maximum": 9.291567823974997,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 7,
+      "minimum": 1.5414120105025326,
+      "maximum": 1.5414120105025326,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 8,
+      "minimum": 9.9e-07,
+      "maximum": 9.9e-07,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 9,
+      "minimum": 4.1933221154821,
+      "maximum": 4.1933221154821,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 5,
+      "control": 10,
+      "minimum": 0.5868583266699288,
+      "maximum": 0.5868583266699288,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 5,
+      "control": 11,
+      "minimum": 0.923922591322107,
+      "maximum": 0.9619612956610539,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 6,
+      "control": 0,
+      "minimum": -83.76359963889647,
+      "maximum": -83.76359963889647,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 1,
+      "minimum": -6.2521927903587375,
+      "maximum": -3.813959113086433,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 2,
+      "minimum": -3.9743623391915412,
+      "maximum": -1.1259648809240077,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 3,
+      "minimum": -2.0413852790715317,
+      "maximum": -2.0413852790715317,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 4,
+      "minimum": -5.566169404344932,
+      "maximum": -5.566169404344932,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 5,
+      "minimum": -11.999988119999879,
+      "maximum": -11.999988119999879,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 6,
+      "minimum": 9.291567823974997,
+      "maximum": 9.291567823974997,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 7,
+      "minimum": 1.5414120105025326,
+      "maximum": 1.5414120105025326,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 8,
+      "minimum": 9.9e-07,
+      "maximum": 9.9e-07,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 9,
+      "minimum": 4.1933221154821,
+      "maximum": 4.1933221154821,
+      "tolerance": 0.001
+    },
+    {
+      "segment": 6,
+      "control": 10,
+      "minimum": 0.5868583266699288,
+      "maximum": 0.5868583266699288,
+      "tolerance": 1e-06
+    },
+    {
+      "segment": 6,
+      "control": 11,
+      "minimum": 0.9619612956610539,
+      "maximum": 0.9999990099999897,
+      "tolerance": 1e-06
+    }
+  ],
+  "no_human_impossibility_claim": true,
+  "scope": "Only the unsolved initialized cubic curve, not every possible corridor path"
+}

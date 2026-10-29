@@ -1,0 +1,39 @@
+{
+  "verified_at": "2026-10-01T12:58:19.068546+00:00",
+  "all_required_outputs_present_and_decodable": true,
+  "required_files": [
+    "MANUAL_ANATOMICAL_REFERENCE_REVIEW_R1_REPORT.md",
+    "MANUAL_ANATOMICAL_REFERENCE_REVIEW_R1_STATUS.json",
+    "MANUAL_ANATOMICAL_REFERENCE_PACK_R1.json",
+    "MODEL_HUMAN_LANDMARK_REGISTRATION.json",
+    "BODY_SIDE_16_MANUAL_REGISTRATION_CANDIDATES.json",
+    "CAP_TO_COLLAR_3_EDGE_ANATOMICAL_SANITY_AUDIT.json",
+    "MANUAL_REGISTRATION_REVIEW.html"
+  ],
+  "required_renders": [
+    "MODEL_DORSAL_BODY16.png",
+    "MODEL_PALMAR_BODY16.png",
+    "MODEL_RADIAL_BODY16.png",
+    "MODEL_FIRST_WEB_BODY16.png",
+    "MODEL_INDEX_PROXIMAL_BODY16.png",
+    "CAP_TO_COLLAR_3_EDGE_ANATOMICAL_SANITY_CHECK.png"
+  ],
+  "protected_file_count": 1340,
+  "protected_inventory_and_hashes_equal": true,
+  "used_original_photo_hashes_equal": true,
+  "body16_and_cluster_partition_correct": true,
+  "browser_verification": {
+    "url": "http://127.0.0.1:8791/MANUAL_REGISTRATION_REVIEW.html",
+    "all_five_views_and_path_switch_verified": true,
+    "desktop_two_columns_and_narrow_layout_verified": true,
+    "overlay_and_opacity_verified": true,
+    "cluster_and_id_toggles_verified": true,
+    "native_geometry_disables_current_joint_labels_and_overlay": true,
+    "console_error_and_warning_count": 0,
+    "human_questions_and_cluster_decisions_all_UNDECIDED": true,
+    "human_save_or_export_clicked": false,
+    "proof_screenshot": "renders/REVIEW_PAGE_DESKTOP.jpg",
+    "temporary_viewport_override_reset": true
+  },
+  "STOP": "WAITING_FOR_HUMAN_REVIEW"
+}

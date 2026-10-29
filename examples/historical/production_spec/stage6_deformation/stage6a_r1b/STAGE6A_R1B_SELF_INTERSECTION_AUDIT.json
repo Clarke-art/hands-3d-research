@@ -1,0 +1,782 @@
+{
+ "stage": "STAGE6A_SELF_INTERSECTION_AUDIT.json",
+ "generated_at": "2026-09-30T22:52:01.469503+08:00",
+ "bind_baseline_pairs": 59,
+ "method": "new intersecting face pairs = case pairs - bind-pose pairs, with pairs sharing a vertex excluded.  Each new pair is decomposed by FACE-centroid ownership into intra-target-digit (fold at the crease) and target-vs-other (pose contact, the RSSF bind already has the thumb pressed against the index).  A penetration-depth proxy = min(|plane-distance of one centroid to the other face|) is reported; the 0.5 mm band is a practical artifact-visibility proxy for Human Review, NOT an anatomical threshold.",
+ "cases": {
+  "IDX_MCP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "IDX_MCP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "IDX_MCP_45": {
+   "new_pairs": 2,
+   "intra_target_digit_pairs": 2,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.604989,
+   "pairs_depth_gt_0_5mm": 1,
+   "pairs_depth_gt_0_2mm": 2,
+   "samples": [
+    [
+     374,
+     472
+    ],
+    [
+     468,
+     472
+    ]
+   ]
+  },
+  "IDX_PIP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "IDX_PIP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "IDX_PIP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "IDX_DIP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "IDX_DIP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "IDX_DIP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "MID_MCP_15": {
+   "new_pairs": 1,
+   "intra_target_digit_pairs": 1,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.090015,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": [
+    [
+     2421,
+     2783
+    ]
+   ]
+  },
+  "MID_MCP_30": {
+   "new_pairs": 3,
+   "intra_target_digit_pairs": 3,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.194841,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": [
+    [
+     1596,
+     2776
+    ],
+    [
+     2421,
+     2776
+    ],
+    [
+     2421,
+     2783
+    ]
+   ]
+  },
+  "MID_MCP_45": {
+   "new_pairs": 3,
+   "intra_target_digit_pairs": 3,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.266653,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 1,
+   "samples": [
+    [
+     1596,
+     2776
+    ],
+    [
+     2421,
+     2776
+    ],
+    [
+     2421,
+     2783
+    ]
+   ]
+  },
+  "MID_PIP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "MID_PIP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "MID_PIP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "MID_DIP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "MID_DIP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "MID_DIP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "RNG_MCP_15": {
+   "new_pairs": 1,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 1,
+   "max_penetration_depth_mm": 0.382824,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 1,
+   "samples": [
+    [
+     2185,
+     3358
+    ]
+   ]
+  },
+  "RNG_MCP_30": {
+   "new_pairs": 1,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 1,
+   "max_penetration_depth_mm": 0.369994,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 1,
+   "samples": [
+    [
+     2185,
+     3358
+    ]
+   ]
+  },
+  "RNG_MCP_45": {
+   "new_pairs": 1,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 1,
+   "max_penetration_depth_mm": 0.334782,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 1,
+   "samples": [
+    [
+     2185,
+     3358
+    ]
+   ]
+  },
+  "RNG_PIP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "RNG_PIP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "RNG_PIP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "RNG_DIP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "RNG_DIP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "RNG_DIP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_MCP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_MCP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_MCP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_PIP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_PIP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_PIP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_DIP_15": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_DIP_30": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "LTL_DIP_45": {
+   "new_pairs": 0,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 0,
+   "other_vs_other_pairs": 0,
+   "max_penetration_depth_mm": 0.0,
+   "pairs_depth_gt_0_5mm": 0,
+   "pairs_depth_gt_0_2mm": 0,
+   "samples": []
+  },
+  "TH_MCP_15": {
+   "new_pairs": 57,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 7,
+   "other_vs_other_pairs": 50,
+   "max_penetration_depth_mm": 1.980569,
+   "pairs_depth_gt_0_5mm": 33,
+   "pairs_depth_gt_0_2mm": 48,
+   "samples": [
+    [
+     354,
+     424
+    ],
+    [
+     354,
+     425
+    ],
+    [
+     354,
+     426
+    ],
+    [
+     357,
+     434
+    ],
+    [
+     357,
+     2877
+    ],
+    [
+     358,
+     2877
+    ],
+    [
+     358,
+     2878
+    ],
+    [
+     360,
+     434
+    ],
+    [
+     360,
+     435
+    ],
+    [
+     363,
+     435
+    ],
+    [
+     363,
+     2876
+    ],
+    [
+     372,
+     428
+    ]
+   ]
+  },
+  "TH_MCP_30": {
+   "new_pairs": 77,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 18,
+   "other_vs_other_pairs": 59,
+   "max_penetration_depth_mm": 4.871173,
+   "pairs_depth_gt_0_5mm": 51,
+   "pairs_depth_gt_0_2mm": 67,
+   "samples": [
+    [
+     354,
+     424
+    ],
+    [
+     354,
+     425
+    ],
+    [
+     354,
+     426
+    ],
+    [
+     357,
+     435
+    ],
+    [
+     357,
+     2876
+    ],
+    [
+     358,
+     2876
+    ],
+    [
+     360,
+     435
+    ],
+    [
+     360,
+     2876
+    ],
+    [
+     363,
+     2876
+    ],
+    [
+     365,
+     385
+    ],
+    [
+     365,
+     390
+    ],
+    [
+     365,
+     391
+    ]
+   ]
+  },
+  "TH_MCP_45": {
+   "new_pairs": 101,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 25,
+   "other_vs_other_pairs": 76,
+   "max_penetration_depth_mm": 3.826863,
+   "pairs_depth_gt_0_5mm": 71,
+   "pairs_depth_gt_0_2mm": 87,
+   "samples": [
+    [
+     354,
+     422
+    ],
+    [
+     354,
+     424
+    ],
+    [
+     354,
+     427
+    ],
+    [
+     357,
+     435
+    ],
+    [
+     357,
+     2865
+    ],
+    [
+     357,
+     2876
+    ],
+    [
+     358,
+     2865
+    ],
+    [
+     365,
+     384
+    ],
+    [
+     365,
+     387
+    ],
+    [
+     365,
+     1047
+    ],
+    [
+     365,
+     1936
+    ],
+    [
+     372,
+     437
+    ]
+   ]
+  },
+  "TH_IP_15": {
+   "new_pairs": 18,
+   "intra_target_digit_pairs": 0,
+   "target_vs_other_digit_pairs": 1,
+   "other_vs_other_pairs": 17,
+   "max_penetration_depth_mm": 2.283268,
+   "pairs_depth_gt_0_5mm": 11,
+   "pairs_depth_gt_0_2mm": 14,
+   "samples": [
+    [
+     354,
+     425
+    ],
+    [
+     363,
+     2876
+    ],
+    [
+     372,
+     436
+    ],
+    [
+     399,
+     2755
+    ],
+    [
+     416,
+     425
+    ],
+    [
+     425,
+     2867
+    ],
+    [
+     425,
+     2894
+    ],
+    [
+     426,
+     2867
+    ],
+    [
+     426,
+     2893
+    ],
+    [
+     426,
+     2894
+    ],
+    [
+     436,
+     2870
+    ],
+    [
+     1210,
+     2518
+    ]
+   ]
+  },
+  "TH_IP_30": {
+   "new_pairs": 68,
+   "intra_target_digit_pairs": 3,
+   "target_vs_other_digit_pairs": 15,
+   "other_vs_other_pairs": 50,
+   "max_penetration_depth_mm": 2.877206,
+   "pairs_depth_gt_0_5mm": 36,
+   "pairs_depth_gt_0_2mm": 55,
+   "samples": [
+    [
+     354,
+     424
+    ],
+    [
+     354,
+     427
+    ],
+    [
+     356,
+     2888
+    ],
+    [
+     357,
+     367
+    ],
+    [
+     357,
+     435
+    ],
+    [
+     357,
+     2876
+    ],
+    [
+     357,
+     2888
+    ],
+    [
+     358,
+     2876
+    ],
+    [
+     359,
+     2888
+    ],
+    [
+     359,
+     2891
+    ],
+    [
+     363,
+     2876
+    ],
+    [
+     364,
+     389
+    ]
+   ]
+  },
+  "TH_IP_45": {
+   "new_pairs": 78,
+   "intra_target_digit_pairs": 5,
+   "target_vs_other_digit_pairs": 21,
+   "other_vs_other_pairs": 52,
+   "max_penetration_depth_mm": 2.707742,
+   "pairs_depth_gt_0_5mm": 48,
+   "pairs_depth_gt_0_2mm": 60,
+   "samples": [
+    [
+     68,
+     2732
+    ],
+    [
+     354,
+     422
+    ],
+    [
+     354,
+     424
+    ],
+    [
+     354,
+     427
+    ],
+    [
+     357,
+     435
+    ],
+    [
+     357,
+     2865
+    ],
+    [
+     357,
+     2876
+    ],
+    [
+     358,
+     2865
+    ],
+    [
+     365,
+     385
+    ],
+    [
+     365,
+     390
+    ],
+    [
+     365,
+     391
+    ],
+    [
+     372,
+     437
+    ]
+   ]
+  }
+ },
+ "total_new_pairs": 411,
+ "total_intra_target": 17,
+ "total_target_vs_other": 87,
+ "severe_pairs_depth_gt_0_5mm": 251,
+ "NEW_SEVERE_SELF_INTERSECTION": "PASS_WITH_HUMAN_REVIEW"
+}

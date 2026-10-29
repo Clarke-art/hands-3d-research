@@ -1,0 +1,119 @@
+from support import *
+from persistence import atomic_json
+sys.path.insert(0,str(OLD/'_deps'));import numpy as np
+SOURCEDIR=ROOT/'experiments/hands_reusable_motion_representation_feasibility_r1'
+I=read(SOURCEDIR/'INPUT_BINDINGS.json');A=read(SOURCEDIR/'SOURCE_GEOMETRY_AUDIT.json')
+dep=read(O/'KINEMATIC_AND_SKIN_DEPENDENCIES.json');probe=read(O/'READONLY_FK_DEPENDENCY_PROBES.json');role=read(O/'ROLE_DECOMPOSITION_EVIDENCE.json')
+source_weights=np.load(MODEL/'SOURCE_MODEL.npz',allow_pickle=False)['weights'];source_weights=source_weights/np.maximum(source_weights.sum(1,keepdims=True),1e-12)
+shape=np.load(MODEL/'SHAPE_DELTA.npz',allow_pickle=False)['delta']
+hits=[]
+for row in A['rows']:
+ if any(r['digit']=='LITTLE' and r['role']=='ACTIVE' for r in row['roles']):
+  for h in row['non_owned_key_hits']:
+   if h['digit']=='LITTLE':hits.append(dict(time=row['time'],**h))
+w=max(hits,key=lambda h:h['depth_mm']);vid=w['vertex'];bn=read(MODEL/'SOURCE_MODEL_MANIFEST.json')['bones']
+support=[dict(bone=n,weight=float(source_weights[vid,i])) for i,n in enumerate(bn) if source_weights[vid,i]>1e-8]
+assert all(r['bone']=='WRIST_R' or r['bone'].startswith('LITTLE_') for r in support)
+assert np.linalg.norm(shape[vid])<1e-12
+atomic_json('ACTIVE_POSE_FREEZE_BLOCKER.json',dict(source_witness=w,weighted_support=support,corrective_delta_mm=float(np.linalg.norm(shape[vid])*1000),conditional_exact_dependency='With shared rig/world and LITTLE local rotations fixed, changes to other digits cannot move this witness vertex; its existing E5 intrusion remains.',implication='Rewriting only non-active digits cannot remove every source defect. Preserve active contact features, not all active angles; limited contact-preserving active/body or root correction is required.',no_new_geometry_solve=True))
+for p in [ROOT/'AGENTS.md',Path(I['source_scene']['path']),ROOT/'audits/minuet_in_g_longer_phrase_validation_r1/source/anna-magdalena-04.mid',A2/'coordinated_motion.py',A2/'02_generate.py',ROOT/'audits/minuet_target_key_hand_position_planning_r1/02_generate.py',OLD/'performance_core.py',SOURCEDIR/'source_audit.py',ROOT/'production_spec/right_hand_product_baseline_r2/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R2.blend']:
+ READS[str(p)]=sha(p)
+protect();before=read(O/'PROTECTED_BEFORE.json');after={p:sha(p) for p in before};changed=[p for p in before if before[p]!=after[p]];assert not changed
+atomic_json('PROTECTION_CHECK.json',dict(referenced_files_checked=len(before),all_unchanged=True,changed=changed,before=before,after=after,independent_piano_access=False,original_frozen_assets_unchanged=True,historical_concurrent_FAIL='Retained; current narrow SHA check does not supersede it',optimization_calls=0,new_actions=0,new_blends=0,new_videos=0,new_candidates=0,path_migration=0))
+padchange=max(r['active_pad_delta_mm'] for r in probe['probes'] if r['changed_digit']!='SHARED_WRIST')
+err=max(r['native_LBS_max_error_mm'] for r in probe['baseline'])
+atomic_json('REVIEW_STATUS.json',dict(task='HANDS_ROLE_DECOMPOSED_MOTION_REUSE_REVIEW_R1',decision='REUSE_ARCHITECTURE_PLAUSIBLE',decision_scope='Feature reuse with limited active contact-preserving correction; not frozen active joint trajectories plus idle-only rewriting',active_contact_features_reusable=True,active_joint_trajectory_can_be_unconditionally_frozen=False,fixed_root_other_digit_pad_dependency_zero=True,whole_hand_independence=False,legal_collision_free_recomposition_demonstrated=False,compute_speedup_measured=False,one_bounded_cross_event_experiment_recommended=True,experiment_authorized_or_started=False,large_full_resolve_proven_necessary=False,original_whole_source_clean_gate_not_used=True,source_review_only=True,existing_FK_snapshots=3,coordinate_dependency_probes=8,shared_root_dependency_probes=3,optimization_calls=0,new_candidates=0,new_actions=0,new_blends=0,new_videos=0,stop='STOP — HUMAN REVIEW'))
+report=f'''# 角色分解与有效运动复用：技术决策
+
+**HANDS_ROLE_DECOMPOSED_MOTION_REUSE_REVIEW_R1 — REUSE_ARCHITECTURE_PLAUSIBLE。**
+
+已有接口与真实运动／蒙皮数据支持一个有限的计算切口：保留活动接触的事件与运动特征，以同一掌腕为共同条件，重新组织其他角色，并允许少量活动指接触保持校正。**值得Human授权一次有明确退出条件的跨事件验证。** 这不是新动作PASS，也不证明已经存在无碰撞重组轨迹。
+
+本结论不支持“冻结全部活动指关节角，只改释放／闲置指”。已有反例证明这种更强的拆分不能消除所有缺陷。活动特征可复用，活动皮肤姿态必须重新验收。正式方向保持路线C，不恢复P3、B02局部门户或大型全手优化。
+
+## 1. 来源中的有效信息与缺陷分开保留
+
+只读取指定原C1 R04 C5(4)→R05 D5(5)及其已有前后上下文；不以整段无穿模为提取信息前提。上一轮的真实240Hz＋事件采样原样保留：活动pad168点接触PASS，62点中／无名指skin相交、161点非目标键侵入。没有重新求解或更换来源。
+
+| 分量 | 可以复用的信息 | 不能直接当安全答案的部分 |
+|---|---|---|
+| 活动指 | NOTE_ON/OFF、35ms下沉与持键随动；运动键坐标下的真实pad接触位置／gap；RSSF相对关节曲度与速度作为参考先验 | pad合格不代表整个指尖或侧面安全；全部原关节角不可硬锁成不可修正轨迹 |
+| 共享掌腕 | 一条真实共同根运动；腕坐标中的指尖相对运动、腕与键位的相对关系 | 原世界坐标不可机械平移复用；任何腕变化都会搬动五指与掌根，须检查所有现行接触和闲置指 |
+| 释放指 | 原NOTE_OFF、40ms跟随原运动键、最多2mm渐升及随后恢复的角色规则 | 1.4214275秒中指RELEASING／无名指ACTIVE已相交；原释放关节路径不是通用安全通道 |
+| 准备指 | 180ms准备、75ms近键下降、目标键和下一次使用时间 | 提前准备须服从当前占据空间；原准备姿态有非目标键侵入，不能原样拼接 |
+| 闲置指 | 不均匀自然曲度、源姿态先验和原连续性参考 | 1.700秒中／无名指均IDLE仍相交62对；闲置不是任意自由运动，固定NEUTRAL也不是清障策略 |
+
+角色时间必须来自MIDI与A2优先级，而非音名角度表：本源小指准备从1.455713秒开始；无名指释放为1.635713–1.675713秒；后续拇指准备从1.884284秒开始。活动／释放／准备／闲置由同指前后事件决定，音名与事件号仅用于此次审查身份。
+
+新增的角色归因改变了“只修其他手指”的判断：R04无名指58个活动样本全部pad接触合格，但其中14点参与中／无名指相交。R05小指110点pad接触合格、没有当前强指ROI指间相交，却有**103点活动小指皮肤侵入非目标E5**。2.000秒顶点2731深度1.715146mm、20对真实skin／E5面相交。不能将161点侵入全部归为闲置指。现有证据中ACTIVE／RELEASING／PREPARING／IDLE键侵入命中分别103／5／7／136点；这些集合可重叠，不相加成总事件数。
+
+速度可以保存为源动作特征，不能当允许上限：原采样活动pad峰速约R04 193.625、R05 253.391mm/s；工程关节坐标差分峰约167.751、195.826°/s。它们受原时钟与烘焙影响，未证明新时标缩放自然或满足新动作速度门禁。见[ROLE_DECOMPOSITION_EVIDENCE.json](ROLE_DECOMPOSITION_EVIDENCE.json)。
+
+## 2. 能分解到哪里：骨链、权重与corrective
+
+单指可表达为共享Rig坐标中的骨链运动，再由唯一真实根矩阵T(t)变换到世界；五指不能分别拥有掌根。原骨链从各指MCP／拇指CMC经本指关节到TIP，共同上游为WRIST。既有FK／native LBS提供此表达，不需要新Rig或新运动引擎。
+
+五个真实pad顶点均无其他手指权重，且其冻结corrective位移均为0。无名／小指pad混有本指MCP/PIP/DIP与少量WRIST权重，**不等于纯DIP骨点**；但在共享根、WRIST及本指姿态不变时，其他指的关节变化不改变该pad。这是本冻结标记定义的依赖事实，不是人体五指独立性的结论。
+
+在这些条件下，pad可写成`T_shared × f_i(q_i; WRIST固定)`；混权皮肤则一般依赖多指参数。即使两个pad的FK映射可以条件性分开，指—指、指—键的空间约束仍同时依赖双方，不能把运动映射分离解释为碰撞约束消失。
+
+整手皮肤不同：3300顶点中，449点有跨指混合权重，2090点同时含指骨与WRIST权重（权重阈值1e-8；两个集合不能直接相加）。当前strong ROI中，中／无名／小指没有其他指权重，拇指有24点、食指有3点；ROI外的指蹼与掌根仍必须联合检查。first-web corrective影响82点，其driver依赖THUMB_CMC与THUMB_MCP局部ROT_X，可能改变拇指及共享区形状；不能把单指局部角度校正看成只影响一根独立网格。
+
+只做了3个已有姿态的FK依赖核查，没有优化：1.4214275、1.700、2.0625秒，8个非活动指首关节±1°的确定性、域内扰动，使全手部分顶点移动约1.18–1.64mm，但活动pad变化最大{padchange:.6f}mm；相应活动无名／小指strong ROI也未移动。根世界X改变0.5mm时，活动pad约移0.499964mm，其他皮肤同步移动。源完整皮肤重建最大误差{err:.6f}mm。没有测试扰动是否解决碰撞、是否保持该释放／准备指自身任务；这些点不是合法重组姿态或动画候选。三个姿态中的corrective激活均为0，未以此断言其他姿态corrective无影响。
+
+关键阻断：[ACTIVE_POSE_FREEZE_BLOCKER.json](ACTIVE_POSE_FREEZE_BLOCKER.json)证实小指顶点2731只受LITTLE骨链／WRIST影响，corrective位移为0。若固定活动小指全部角度和根，改变其他手指不可能移动这个E5侵入见证。**至少需要有限的活动姿态／接触位置或共享腕协调余量**，不能只重新安排闲置指。
+
+因此：已有的是“固定共同根条件下，某些接触可与其他指参数分开维护”的运动证据；全手几何、相邻占据、共用皮肤、腕变化、释放交接仍耦合。合法关节域与pad不变提供参数余地，**无碰撞通行空间与连续安全解尚未证明**。见[KINEMATIC_AND_SKIN_DEPENDENCIES.json](KINEMATIC_AND_SKIN_DEPENDENCIES.json)、[READONLY_FK_DEPENDENCY_PROBES.json](READONLY_FK_DEPENDENCY_PROBES.json)。
+
+## 3. 唯一最小方案：接触特征驱动的有限角色重组
+
+这里只设计，不实现：
+
+1. 从指定源保留活动的事件相位、键坐标接触随动、自然曲度与速度特征；关节角作为先验，不能将已穿键的整片活动姿态锁死。角色输入还包括原MIDI、目标几何和前后接触合同。
+2. 所有手指使用同一共享腕参考曲线，以原腕相对键位运动作几何重定位。腕适配限为少量窗口参数，不将每个时刻六维腕位重新作为全局自由变量。释放／准备／闲置依原角色条件生成目标和有限姿态变化，不复制源中的错误闲置世界轨迹。
+3. 复用已有单指4维有界触点对齐的FK、关节域、前姿态先验与数值后端，并使用真实skin pad复核。该旧接口只有点接触及姿态／时间软项，没有全皮肤安全保证，不能原样重跑旧逐帧生成器当作完整方案。活动皮肤自身侵入时，必须在保接触前提下允许有限姿态或目标面内接触位置校正；若小范围做不到，直接拒绝该重组。
+4. 外层只选此次受影响角色的少量窗口系数，**建议一次验证锁定不超过8个外层参数**（设计止损上限，未实现、不是测得的最优维数）；活动局部对齐仍是小规模条件子问题。释放与下一准备重叠、双指交接、手掌跨键时要共同约束相关接触，不能按五个单指静态最优解各自拼接。
+5. 原A2的连续时间支持与PCHIP用于表示／检查连接，保持原事件、速度、关节域及入口／出口规则。全手FK代理只预警，真正验收使用所有活动和非活动指、真实蒙皮、共享区与88键运动几何；不得忽略活动小指自身的邻键缺陷。现有strong ROI检查不覆盖所有共享区，应补齐验收覆盖，不能称其已是完整无碰撞认证。
+
+这套方案不承诺任意事件都可安全重组。点IK成功、参数在域内、PCHIP连续均不能替代skin安全。若只有重新开放所有掌腕、五指和全部时刻的大规模联合求解才能通过，就判定本次计算简化假设失败，停止；不在验证中升级第二套引擎、增加角色参数或恢复局部门户。
+
+最小缺失能力是：**在明确受影响的有限角色窗口内，找到并留证同时保持实际接触、活动皮肤净空和前后连续性的有限重组**，加上共享皮肤的完整验收覆盖。既有角色任务、FK、点IK与碰撞检查不能自动提供这一能力；本轮没有制造它已经存在的证据。
+
+## 4. 与既有实现比较
+
+| 方式 | 变量与耦合 | 自然动作保留 | 真实安全能力与限制 |
+|---|---|---|---|
+| A 原C1/A2全手稀疏联合求解 | 每支持时刻26维，加每音XY，约26K+2N；根与五指、相邻时间全局耦合 | 已有整体原速认可，但源姿态部分不安全 | 有运动键pad／关节中心代理；真实skin已有局部FAIL，角色之间没有明确安全重组 |
+| B 已停止的局部门户／复杂修补 | 局部变量少，但接触、阶段表达和皮肤约束未共同闭合 | 反复局部更改未产生完整合格连续动作 | 历史域、接触、键体和速度冲突保留；不继续同类实现 |
+| C 本审查的有限角色重组 | 条件固定源腕模板与有效特征，只开放少量角色参数和活动局部对齐；**有机会减少显式全局未知量** | 可保留相位、随动与曲度先验；改组后的整体自然度仍须Human验收 | 暂无合格重组；共享几何与活动侧面可能迫使多指／腕共同协调，失败则退出 |
+
+变量简化的依据是骨链和pad支持的条件性分离，不是取消共同根或忽略皮肤耦合。它减少的是拟联合搜索的未知量；局部IK的调用次数、全手几何检查成本仍可能较高，**没有测得运行加速、成功率或普适性**。没有证据证明必须完整重求解，也没有证据保证小问题一定够用。
+
+可以直接复用：原MIDI事件表、A2角色任务和真实键面目标、RSSF工程域／自然参考、native FK/LBS／corrective、共享root变换、PCHIP及连续性检查、结果持久化机制、真实Blender／键体诊断接口。不能当现成组件复用的是“安全角色重组控制器”和“完整共享区动态验收证书”。当前[单指4维触点残差接口](<<HANDS_ROOT>/audits/minuet_target_key_hand_position_planning_r1/02_generate.py:41>)及[A2角色任务接口](<<HANDS_ROOT>/audits/minuet_stage_a_r2_natural_continuous_motion/coordinated_motion.py:89>)本轮均只读未运行。
+
+## 5. A–G决策及一次验证的边界
+
+| 必答项 | 决策 |
+|---|---|
+| A 有效信息可提取什么？ | 活动接触／随动、事件相位、源腕相对运动、RSSF相对曲度与速度参考；释放／准备规则可复用。不能把穿键的完整活动角度或错误闲置路径当安全原语。 |
+| B 哪些不能独立处理？ | 共享腕变化、同时活动与释放接触、混权指蹼／掌根、拇指corrective及所有相关皮肤的空间占据；这些要在同一时刻和窗口检查／协调。 |
+| C 保接触时有闲置协调空间吗？ | **有条件性参数空间证据**：固定根下8个域内扰动不改变活动pad；但没有测得可清障幅度、合法连续通道或全部角色合同满足。释放／准备指不等于自由闲置指。 |
+| D 能复用C1/A2接口吗？ | **能复用已有表达与检查组件；安全重组能力尚缺。** 无需从零开发Rig/FK或新的完整引擎。 |
+| E 简化是否有依据？ | 条件化固定腕模板和源特征能避免默认26K全部未知；这是可检验的结构假设，未测量性能。若实际需恢复全部变量，则本方案预期简化不成立。 |
+| F 最小缺失是什么？ | 有限参数下的接触保持＋活动／非活动真实皮肤安全＋入口出口连续性的联合留证，尤其活动小指E5侵入不能只靠闲置重组解决。 |
+| G 值得一次跨事件实验吗？ | **值得一次受控验证有效动作特征重组；不值得原样冻结活动角度后仅修闲置。** 建议保持原指定R04→R05来源与R12→R13目标，不换源、不扩曲目；结果可失败，不能凭架构判断直接批准产品动作。 |
+
+最小成本判别方式：一次固定表示、一次来源／目标、一个共享腕适配规则、事前有限外层参数与局部接触修正预算；先查源活动皮肤反例是否被方案允许的有限校正覆盖，再查准确MIDI与入口／出口、接触和连续性。仅无明确阻断时生成一个短候选，沿原事件完整检查五指、活动自身邻键及共享皮肤；机器不合格不制成品视频。不进行新旧局部门户试错，不自动放开全时刻根与五指。**本轮只推荐这一次辨别性验证，没有启动或授予后续执行权限。**
+
+## 审查保护与范围
+
+这是一项只读路线审查：3个已有姿态、8个关节依赖探针、3个共享根依赖探针；优化、动画候选、Action、Blend、视频均0。没有修复任何历史碰撞，没有计算新的目标动作，没有扫描整曲或其他MIDI。全部新增材料只在本审计目录。
+
+{len(before)}项实际引用关键源文件前后SHA一致；原C1、Rig/skin、MIDI、指法、Action和键几何未写，独立piano未访问。历史并发保护FAIL保留，当前窄范围SHA核查不撤销它。[PROTECTION_CHECK.json](PROTECTION_CHECK.json)。
+
+**HANDS_ROLE_DECOMPOSED_MOTION_REUSE_REVIEW_R1**  
+**REUSE_ARCHITECTURE_PLAUSIBLE**  
+**STOP — HUMAN REVIEW**
+'''
+(O/'FINAL_TECHNICAL_DECISION.md').write_text(report,encoding='utf8')
+print('DECISION REUSE_ARCHITECTURE_PLAUSIBLE; no new action PASS; protected',len(before),'sources unchanged')

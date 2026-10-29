@@ -1,0 +1,29 @@
+{
+  "prepare_sec": 0.18,
+  "finger_release_follow_sec": 0.04,
+  "repeat_reset_sec": 0.045,
+  "repeat_reset_pressure": 0.42,
+  "contact_weight": 6.0,
+  "prepare_weight": 4.0,
+  "clearance_weight": 2.0,
+  "joint_prior_weight": 0.055,
+  "velocity_weights": [
+    0.01,
+    0.018,
+    0.028,
+    0.04
+  ],
+  "acceleration_weights": [
+    0.00032,
+    0.00048,
+    0.00072,
+    0.0006
+  ],
+  "max_trajectory_nfev": 75,
+  "global_time_unchanged": true,
+  "candidate_limit": 1,
+  "motion_method": "Banded joint wrist/digit/contact solve over adjacent event windows, then C1 shape-preserving bake",
+  "frozen_joint_bounds_unchanged": true,
+  "contact_location_optimized_inside_real_surface": true,
+  "no_per_pitch_special_rules": true
+}

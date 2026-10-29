@@ -1,0 +1,36 @@
+{
+  "pass_": true,
+  "policy_sha256": "2cadf9f90df207afe66d487624957735c8bc5e7bda5429038406e3717a8520a3",
+  "scope": "Only altered Ring MCP spread DOF, finite local derivatives; inherited global WARN not requalified",
+  "changed_spread_range_deg": [
+    -3.6383248143280755,
+    9.02590391850718
+  ],
+  "engineering_spread_domain_deg": [
+    -28,
+    28
+  ],
+  "maximum_local_actual_delta_deg": 6.0,
+  "maximum_correction_velocity_deg_sec": 62.45714040928347,
+  "maximum_correction_acceleration_deg_sec2": 1069.115621489498,
+  "source_spread_sampled_velocity_max_deg_sec": 109.02730878779532,
+  "corrected_spread_sampled_velocity_max_deg_sec": 109.02730878779532,
+  "analytic_support_boundary_delta_deg": [
+    0,
+    0
+  ],
+  "analytic_support_boundary_velocity_deg_sec": [
+    0,
+    0
+  ],
+  "analytic_support_boundary_acceleration_deg_sec2": [
+    0,
+    0
+  ],
+  "quintic_envelope_C2": true,
+  "baked_LINEAR_boundary_extra_speed_upper_estimate_deg_sec": 0.1724678640538162,
+  "baked_continuity_note": "Original and corrected Actions remain LINEAR-sampled, not mathematically C2. Analytic correction is C2 with zero endpoint derivatives; at240Hz the first/last extra correction chord slope is under0.2deg/s, explicitly retained as finite bake diagnostic.",
+  "motion_solver_calls": 0,
+  "refit_calls": 0,
+  "source_rig_rest_modified": false
+}

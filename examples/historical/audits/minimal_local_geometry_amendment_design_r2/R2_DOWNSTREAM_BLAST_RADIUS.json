@@ -1,0 +1,50 @@
+{
+  "RECOMMENDED_AMENDMENT_SOURCE_LAYER": "NEW_VERSION_DERIVED_FROM_FROZEN_STAGE4C_R2_RSSF_GEOMETRY",
+  "source": {
+    "path": "production_spec/stage4_blender/stage4c_r2/RIGHT_HAND_ENGINEERING_STAGE4C_R2.blend",
+    "sha256": "fde620b2cebd2b4cd894e32b58d7b59ba7fac9b00d3d2dfa5193cefb32513ab7"
+  },
+  "why": "Current Stage4C_R2 is the production lineage geometry baseline, retains corrected CMC and frozen topology/RSSF. Do not transplant changes into the earliest pre-CMC evidence baseline or overwrite any history. Future authorized application must create a new Stage4 geometry version, then explicitly propagate into corrected Stage5A/R2-derived candidates.",
+  "candidate": "NONE_RECOMMENDED",
+  "incident_face_ids": [],
+  "MUST_REVALIDATE": [
+    "Stage4 all changed-vertex incident faces and boundary: local contours, neighboring roots, manifold/winding/degeneracy/self-contact, silhouette, UV/material invariants and frozen nail/CMC context.",
+    "RSSF representation and geometry propagation into separately derived corrected Stage5A/R2 candidates; joint-to-surface alignment, rest/bind/zero/reset, exact inherited weights and static skin compatibility.",
+    "Geometry-derived true-cap paths/bounds must be recomputed/verified on the applicable complete graph; unchanged cap endpoints/membership does not by itself prove unchanged path lengths.",
+    "Targeted deformation and Full42 Stage6A qualification, plus Human product contour review, only after separately authorized formal application. These4 diagnostic previews do not replace them.",
+    "The9 existing severe exact crossings remain independent blockers. Stage6B/production promotion stay blocked until proper qualification and Human closure."
+  ],
+  "LIKELY_HASH_NUMERIC_RECOMPUTE": [
+    "New source/candidate mesh-position/blend hashes and explicit new-version references; topology/vertex-index/UV/material/membership hashes expected unchanged and must verify.",
+    "Dependent stage geometry payloads, rig-to-surface distances, true-cap graph edge lengths, shortest paths and numeric bounds; verify whether numbers remain identical rather than silently inherit old geometry hashes.",
+    "New deformation/strain/contour evidence for changed geometry, with original Human receipts preserved as history; add a new scoped receipt if Human approves."
+  ],
+  "NO_RESEARCH_REOPEN": [
+    "cap37/oldcap9 anatomy or membership",
+    "fresh R3 ownership or bounded graph membership",
+    "FIRST_WEB21 anatomy/membership",
+    "CMC geometry authority",
+    "corrected thumb kinematics and21-bone joint/rest hierarchy",
+    "historical317 weight authority/scope",
+    "retopo or topology authority"
+  ],
+  "not_automatically_required": [
+    "bone/joint refit",
+    "skin rebuild/weight edit",
+    "R3 solver rerun",
+    "RSSF pose redesign"
+  ],
+  "authority_change_required_this_round": false,
+  "formal_application_executed": false,
+  "future_write_scope_established": false,
+  "status": "CONDITIONAL_PLAN_ONLY_NO_ACCEPTED_R2_CANDIDATE",
+  "candidate_actual_design_scopes": {},
+  "support_pools_are_not_write_authority": true,
+  "actual_application_authority_established": false,
+  "current_round": {
+    "geometry_application": false,
+    "rig_or_weight_changes": false,
+    "Full42": false,
+    "production_master": false
+  }
+}

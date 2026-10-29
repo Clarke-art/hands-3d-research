@@ -1,0 +1,136 @@
+{
+ "stage": "STAGE6B_R1B_PROGRESSION_SUMMARY",
+ "generated_at": "2026-09-30T22:52:06.187273+08:00",
+ "tip_T_OPPOSE_progression": {
+  "CMC_ISOLATED": {
+   "T_OPPOSE_component_mm": [
+    14.765373431,
+    29.178448021,
+    42.801328003
+   ],
+   "monotonic": true
+  },
+  "CMC_MCP": {
+   "T_OPPOSE_component_mm": [
+    25.057640858,
+    49.101563171,
+    70.047382265
+   ],
+   "monotonic": true
+  },
+  "FULL_CHAIN": {
+   "T_OPPOSE_component_mm": [
+    27.861936018,
+    54.365923628,
+    76.465653256
+   ],
+   "monotonic": true
+  }
+ },
+ "TIP_PROGRESSION_CONTINUITY": "PASS",
+ "pad_alignment_sequence": {
+  "CMC_ISOLATED": [
+   0.990376234,
+   0.969850421,
+   0.925741732
+  ],
+  "CMC_MCP": [
+   0.954459071,
+   0.8293899,
+   0.629040226
+  ],
+  "FULL_CHAIN": [
+   0.924084723,
+   0.717332229,
+   0.408826094
+  ]
+ },
+ "pad_orientation_step_deg": {
+  "CMC_ISOLATED": {
+   "step_orientation_delta_deg": [
+    8.670156,
+    8.578793
+   ],
+   "no_180_jump": true
+  },
+  "CMC_MCP": {
+   "step_orientation_delta_deg": [
+    17.167469,
+    16.620507
+   ],
+   "no_180_jump": true
+  },
+  "FULL_CHAIN": {
+   "step_orientation_delta_deg": [
+    21.814453,
+    20.925951
+   ],
+   "no_180_jump": true
+  }
+ },
+ "PAD_ORIENTATION_CONTINUITY": "PASS",
+ "web_area_ratio_full_chain": [
+  0.992316,
+  1.091327,
+  1.147129
+ ],
+ "FIRST_WEB_PROGRESSIVE_CONTINUITY": "PASS",
+ "zero_restore": {
+  "max_mm": 3.1224e-05,
+  "ALL_9": "PASS"
+ },
+ "blockers": [],
+ "blocker_count": 0,
+ "cmc_cage_authority": {
+  "authority": "stage4_blender/stage4a_r2/CMC_LOCAL_RETOPO_AUDIT_R2.json",
+  "T04_CMC_definition": "LOCAL MULTI-AXIS DEFORMATION SUPPORT TOPOLOGY (R2 correction)",
+  "FINAL_CMC_DEFORMATION_AUTHORITY": "STAGE6_DEFORM_TEST_THUMB_OPPOSE",
+  "confined_radius_mm": 25.08,
+  "concentric_rings_total": 4,
+  "spokes": 16,
+  "cage_quads": 64,
+  "ring_axial_spans_mm": [
+   22.99,
+   16.56,
+   10.02
+  ],
+  "pole_vertex": 3411,
+  "cmc_pole_audit_vertex": 794,
+  "derivation": "vertices whose distance to the approved CMC rotation centre is within the R2 surgery confinement radius, restricted to thumb/wrist ownership"
+ },
+ "log": [
+  "CMC_OPPOSITION_UNIT_ROTATION = [-0.868788327, -0.250000007, -0.427442205] ; twist sign = -1",
+  "regions: CMC_cage=120 thenar=287 web=21(bnd v54/e44) cap=9 nail=22 MCP=104 IP=98",
+  "intra-region face/edge counts: CMC_cage=152/127, thenar=387/316, first_web=49/20, thumb_MCP=160/119, thumb_IP=154/117, distal_cap=21/4, nail=39/12",
+  "R2 THUMB|INDEX boundary edges=22 (bind 2.9773..5.9490 mm)",
+  "HISTORIC_CLASS_B probe edges=61 (bind 1.0586..4.8520 mm)",
+  "clean four-finger=1315 sanctioned=0 palm=1276 forearm=552",
+  "bind: web opening area 491.370480 mm2 ; thenar bbox vol 269615.264 mm3 ; thumb-index nearest 14.3658 mm",
+  "formal cases = 9 : ['CMC_OPP_10', 'CMC_OPP_20', 'CMC_OPP_30', 'CMC_MCP_L1', 'CMC_MCP_L2', 'CMC_MCP_L3', 'FULL_OPP_L1', 'FULL_OPP_L2', 'FULL_OPP_L3']",
+  "CMC_OPP_10   cmc=10 mcp= 0 ip= 0 | tip Top=+14.7654 mm pad_align=0.990376 | cage minAR=0.849356 minER=0.839297 | web area_ratio=0.9569 | contact B=8 C=14 | restore=0.000031224",
+  "CMC_OPP_20   cmc=20 mcp= 0 ip= 0 | tip Top=+29.1784 mm pad_align=0.969850 | cage minAR=0.718022 minER=0.71409 | web area_ratio=1.0774 | contact B=6 C=45 | restore=0.000031224",
+  "CMC_OPP_30   cmc=30 mcp= 0 ip= 0 | tip Top=+42.8013 mm pad_align=0.925742 | cage minAR=0.624729 minER=0.629499 | web area_ratio=1.2410 | contact B=6 C=108 | restore=0.000031224",
+  "CMC_MCP_L1   cmc=10 mcp=10 ip= 0 | tip Top=+25.0576 mm pad_align=0.954459 | cage minAR=0.849356 minER=0.839297 | web area_ratio=0.9923 | contact B=12 C=8 | restore=0.000031224",
+  "CMC_MCP_L2   cmc=20 mcp=20 ip= 0 | tip Top=+49.1016 mm pad_align=0.829390 | cage minAR=0.718022 minER=0.71409 | web area_ratio=1.0913 | contact B=13 C=41 | restore=0.000031224",
+  "CMC_MCP_L3   cmc=30 mcp=30 ip= 0 | tip Top=+70.0474 mm pad_align=0.629040 | cage minAR=0.624729 minER=0.629499 | web area_ratio=1.1471 | contact B=8 C=72 | restore=0.000031224",
+  "FULL_OPP_L1  cmc=10 mcp=10 ip= 5 | tip Top=+27.8619 mm pad_align=0.924085 | cage minAR=0.849356 minER=0.839297 | web area_ratio=0.9923 | contact B=13 C=8 | restore=0.000031224",
+  "FULL_OPP_L2  cmc=20 mcp=20 ip=10 | tip Top=+54.3659 mm pad_align=0.717332 | cage minAR=0.718022 minER=0.71409 | web area_ratio=1.0913 | contact B=12 C=43 | restore=0.000031224",
+  "FULL_OPP_L3  cmc=30 mcp=30 ip=15 | tip Top=+76.4657 mm pad_align=0.408826 | cage minAR=0.624729 minER=0.629499 | web area_ratio=1.1471 | contact B=7 C=75 | restore=0.000031224",
+  "tip T_OPPOSE progression: {'CMC_ISOLATED': {'T_OPPOSE_component_mm': [14.765373431, 29.178448021, 42.801328003], 'monotonic': True}, 'CMC_MCP': {'T_OPPOSE_component_mm': [25.057640858, 49.101563171, 70.047382265], 'monotonic': True}, 'FULL_CHAIN': {'T_OPPOSE_component_mm': [27.861936018, 54.365923628, 76.465653256], 'monotonic': True}}",
+  "pad continuity=PASS ; tip progression=PASS ; web continuity=PASS",
+  "wrote STAGE6B_R1B_CASE_MATRIX.json",
+  "wrote STAGE6B_R1B_CMC_CAGE_DEFORM_AUDIT.json",
+  "wrote STAGE6B_R1B_THENAR_DEFORM_AUDIT.json",
+  "wrote STAGE6B_R1B_FIRST_WEB_DEFORM_AUDIT.json",
+  "wrote STAGE6B_R1B_TIP_PAD_TRAJECTORY_AUDIT.json",
+  "wrote STAGE6B_R1B_CONTACT_PROGRESSION_AUDIT.json",
+  "wrote STAGE6B_R1B_CROSS_DIGIT_DEFORM_AUDIT.json",
+  "wrote STAGE6B_R1B_LOCAL_STRAIN_AUDIT.json",
+  "wrote STAGE6B_R1B_SELF_INTERSECTION_AUDIT.json",
+  "wrote STAGE6B_R1B_NAIL_DISTAL_CAP_AUDIT.json",
+  "wrote STAGE6B_R1B_ZERO_RESTORE_AUDIT.json",
+  "wrote STAGE6B_R1B_PALM_FOREARM_STABILITY.json",
+  "wrote STAGE6B_R1B_HISTORIC_CLASS_B_EDGE_STRETCH_AUDIT.json",
+  "wrote STAGE6B_R1B_R2_BOUNDARY_DEFORM_AUDIT.json"
+ ]
+}

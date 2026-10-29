@@ -1,0 +1,92 @@
+{
+  "status": "PASS",
+  "checks": {
+    "joint_bounds": true,
+    "joint_velocity": true,
+    "joint_acceleration": true,
+    "root_velocity": true,
+    "root_acceleration": true,
+    "root_angular_velocity": true,
+    "root_angular_acceleration": true,
+    "absolute_root_domain": true
+  },
+  "joint_velocity_max_deg_sec": 742.4023533926518,
+  "joint_acceleration_max_deg_sec2": 70197.74871809913,
+  "root_velocity_max_mm_sec": 98.52783122507512,
+  "root_acceleration_max_mm_sec2": 8063.823344918527,
+  "root_angular_velocity_max_deg_sec": 90.11092863829766,
+  "root_angular_acceleration_max_deg_sec2": 7374.437945188409,
+  "root_xyz_min_mm": [
+    -222.75421292058505,
+    -94.60104662738861,
+    45.134665485470975
+  ],
+  "root_xyz_max_mm": [
+    -220.7542386697916,
+    -94.60099802923067,
+    45.6005597145126
+  ],
+  "root_pitch_delta_range_deg": [
+    -1.8779684207299443,
+    -3.4938692233825955e-05
+  ],
+  "idle_joint_delta_max_deg": 3.999999999999117,
+  "idle_per_digit_delta_max_deg": [
+    [
+      1.1328396283101032,
+      0.8073156898823903,
+      0.6922726255582443,
+      0.0
+    ],
+    [
+      3.999999999999117,
+      3.999999999998092,
+      3.9999999999975584,
+      0.0
+    ],
+    [
+      2.4049701865431574,
+      1.063907644496485,
+      0.2127166634574147,
+      0.0
+    ]
+  ],
+  "active_near_bound_dwell": [
+    {
+      "note_id": "n01",
+      "longest_required_near_bound_sec": 0.25,
+      "joints_near_bound_any": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "measurement_not_physiology_or_sole_rejection": true
+    },
+    {
+      "note_id": "n02",
+      "longest_required_near_bound_sec": 0.016666666666666666,
+      "joints_near_bound_any": [
+        false,
+        false,
+        true,
+        false
+      ],
+      "measurement_not_physiology_or_sole_rejection": true
+    },
+    {
+      "note_id": "n04",
+      "longest_required_near_bound_sec": 0.25,
+      "joints_near_bound_any": [
+        true,
+        false,
+        true,
+        true
+      ],
+      "measurement_not_physiology_or_sole_rejection": true
+    }
+  ],
+  "root_shared_count": 1,
+  "curve": "Original C2 phase response with jointly optimized global coefficients; saved quaternion channels piecewise linear, no post smoothing.",
+  "numerical_continuity_is_not_naturalness": true
+}

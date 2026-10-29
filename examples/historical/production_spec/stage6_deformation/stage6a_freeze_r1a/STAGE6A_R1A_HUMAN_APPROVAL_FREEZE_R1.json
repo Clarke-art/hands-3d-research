@@ -1,0 +1,191 @@
+{
+ "stage": "STAGE6A_R1A_HUMAN_APPROVAL_FREEZE_R1",
+ "generated_at": "2026-09-30T19:10:38.898149+08:00",
+ "round": "STAGE5B_R1B_STAGE6A_R1A_HUMAN_APPROVAL_FREEZE_R1",
+ "mode": "DOCUMENTATION + PROVENANCE + HUMAN APPROVAL FREEZE (no production change)",
+ "human_review": {
+  "STAGE6A_R1A_HUMAN_REVIEW": "APPROVED"
+ },
+ "zeroth_final_state": {
+  "STAGE6A_R1A": "FINAL_APPROVED",
+  "STAGE6A_ISOLATED_FLEX_DEFORMATION": "FINAL_APPROVED",
+  "THUMB_IP_TRANSITION": "PASS",
+  "THUMB_MCP_TRANSITION": "PASS_WITH_ACCEPTED_DOCUMENTED_RESIDUAL",
+  "FOUR_FINGER_ISOLATED_FLEX": "FINAL_APPROVED",
+  "ZERO_RESTORE": "PASS",
+  "FOREARM_STABILITY": "PASS",
+  "NON_TARGET_DIGIT_SHAFT_CONTAMINATION": "PASS",
+  "TIP_TRAJECTORY_MONOTONIC": "PASS",
+  "NAIL_DEFORMATION": "PASS",
+  "DISTAL_CAP": "PASS",
+  "FIRST_WEB": "PASS",
+  "DEFORMATION_FINAL": "PENDING_STAGE6B",
+  "CMC_OPPOSITION": "NOT_STARTED",
+  "COMBINED_THUMB_OPPOSITION": "NOT_STARTED",
+  "STAGE6B": "READY_TO_BEGIN"
+ },
+ "explicitly_not_approved": {
+  "DEFORMATION_FINAL": "PENDING_STAGE6B",
+  "reason": "STAGE6B CMC opposition / combined opposition have not been executed; STAGE6A_R1A approves STAGE6A_ISOLATED_FLEX_DEFORMATION only"
+ },
+ "approved_harness": {
+  "path": "production_spec/stage6_deformation/stage6a_r1a/RIGHT_HAND_STAGE6A_DEFORMATION_HARNESS_R1A.blend",
+  "sha256": "c4bb74ea116e7352064c26977a509ed1248aacbe734118e5f9c240fa24b1157b",
+  "role": "APPROVED_STAGE6A_ISOLATED_FLEX_TEST_HARNESS",
+  "is_test_harness_not_production_master": true,
+  "input_master": {
+   "path": "stage5b_r1b/RIGHT_HAND_STAGE5B_INITIAL_SKIN_R1B.blend",
+   "sha256": "cec5804f1319bf2408fded21a3d0cf8c9f01bf778ae0659c18cf17950b117d10"
+  },
+  "final_pose": "ZERO / RSSF"
+ },
+ "read_only_integrity_reverification": {
+  "file": "stage6a_freeze_r1a/STAGE6A_R1A_FREEZE_VERIFICATION_R1.json",
+  "harness_vs_historical_r1_harness": {
+   "same_mesh_topology": true,
+   "same_uv": true,
+   "same_material": true,
+   "same_nail_assignment": true,
+   "same_bone_table": true,
+   "same_camera_and_light_set": true,
+   "camera_light_list": [
+    "S6A_CAM_DORSAL",
+    "S6A_CAM_PALMAR",
+    "S6A_CAM_SIDE",
+    "S6A_CAM_THUMB_CLOSEUP",
+    "S6A_FILL",
+    "S6A_KEY",
+    "S6A_RIM"
+   ],
+   "weight_groups_differ_only_in_the_authorised_thumb_region": true
+  }
+ },
+ "approved_numeric_baseline": {
+  "TH_IP_30": {
+   "min_face_area_ratio": [
+    0.054027,
+    0.416085
+   ],
+   "face_area_p05": [
+    0.322227164,
+    0.714432154
+   ],
+   "min_edge_ratio": [
+    0.07515,
+    0.24462
+   ],
+   "max_edge_stretch": [
+    2.287108,
+    2.03448
+   ],
+   "intra_thumb_pairs": [
+    35,
+    30
+   ]
+  },
+  "TH_IP_45": {
+   "min_face_area_ratio": [
+    0.019443,
+    0.181324
+   ],
+   "face_area_p05": [
+    0.436324728,
+    0.619004766
+   ],
+   "min_edge_ratio": [
+    0.286202,
+    0.445217
+   ],
+   "max_edge_stretch": [
+    3.12778,
+    2.733736
+   ],
+   "intra_thumb_pairs": [
+    51,
+    42
+   ]
+  },
+  "TH_MCP_45": {
+   "min_face_area_ratio": [
+    0.193672,
+    0.297893
+   ],
+   "face_area_p05": [
+    0.523735984,
+    0.58001933
+   ],
+   "min_edge_ratio": [
+    0.421283,
+    0.219223
+   ],
+   "max_edge_stretch": [
+    3.016385,
+    3.016385
+   ],
+   "intra_thumb_pairs": [
+    79,
+    74
+   ]
+  }
+ },
+ "self_intersection_authority": {
+  "intra_target_digit_pairs": [
+   279,
+   259
+  ],
+  "target_vs_other_digit_pairs": [
+   404,
+   400
+  ],
+  "pairs_depth_gt_0_5mm": [
+   454,
+   450
+  ],
+  "total_new_pairs": [
+   909,
+   885
+  ],
+  "thumb_index_classification": "POSE_CONSTRAINT_DIAGNOSTIC"
+ },
+ "reported_metrics_summary": {
+  "formal_cases": 42,
+  "blockers": 0,
+  "four_finger_regression_max_displacement_delta_mm": 0.0,
+  "zero_restore_max_delta_mm": 5.9670092462157264e-05,
+  "nail_area_ratio_delta_vs_R1": 0.0,
+  "distal_cap_area_ratio_delta_vs_R1": 0.0,
+  "first_web_drift_mm": 0.0
+ },
+ "methodology_errata": {
+  "metric_count_wording": "stage6a_r1a/STAGE6A_R1A_METRIC_COUNT_WORDING_ERRATA.md",
+  "thickness_proxy_authority": "stage6a_r1a/STAGE6A_R1_THICKNESS_PROXY_AUTHORITY_ERRATA.md",
+  "self_intersection_wording": "stage6a_r1a/STAGE6A_R1_SELF_INTERSECTION_WORDING_ERRATA.md"
+ },
+ "stage6b_binding_obligations": {
+  "must_at_least_cover": [
+   "THUMB_CMC isolated opposition",
+   "CMC + MCP combined opposition",
+   "CMC + MCP + IP combined opposition",
+   "first-web opening / closing deformation",
+   "thenar volume preservation",
+   "thumb distal-cap stability",
+   "thumb nail deformation",
+   "thumb-index contact progression",
+   "pinching",
+   "collapse",
+   "candy-wrapper",
+   "skin inversion",
+   "cross-digit contamination",
+   "tip trajectory / target reach",
+   "restore-to-RSSF"
+  ],
+  "functional_authority": "the real thumb opposition / teaching hand function",
+  "must_not_be_substituted_by": "Stage6A isolated flex",
+  "thumb_index_retest_required": "Stage6B combined opposition must re-test the real linked pose for thumb-index contact",
+  "recorded_not_executed": true
+ },
+ "stop_point": {
+  "stage6b_started": false,
+  "stage6b": "READY_TO_BEGIN"
+ }
+}

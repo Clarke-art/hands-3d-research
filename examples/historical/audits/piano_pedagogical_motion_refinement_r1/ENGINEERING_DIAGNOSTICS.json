@@ -1,0 +1,410 @@
+{
+  "overall": "FAIL",
+  "reason": "Strict source active skin preservation tolerance failed at two NOTE_OFF boundaries; threshold retained, not relaxed.",
+  "joint_domain": "PASS",
+  "actual_key_contact": "PASS_FINITE_SAMPLES",
+  "source_contact_drift_gate": "FAIL",
+  "source_contact_drift_limit_mm": 0.25,
+  "worst_drift_mm": 0.2834036614268715,
+  "worst_rows": [
+    {
+      "time": 3.9928535000000003,
+      "note": "R11",
+      "source": {
+        "gap_mm": 0.7587661782012396,
+        "horizontal_mm": 0.0
+      },
+      "new": {
+        "gap_mm": 0.6443801115452106,
+        "horizontal_mm": 0.0
+      },
+      "pad_change_mm": 0.2834036614268715
+    },
+    {
+      "time": 1.4214275,
+      "note": "R03",
+      "source": {
+        "gap_mm": 0.8860924466895029,
+        "horizontal_mm": 0.0
+      },
+      "new": {
+        "gap_mm": 0.9038890545899401,
+        "horizontal_mm": 0.0
+      },
+      "pad_change_mm": 0.258821341505317
+    },
+    {
+      "time": 3.778568,
+      "note": "R10",
+      "source": {
+        "gap_mm": 0.8866268571715541,
+        "horizontal_mm": 0.0
+      },
+      "new": {
+        "gap_mm": 0.8665658255170712,
+        "horizontal_mm": 0.0
+      },
+      "pad_change_mm": 0.04964124537772436
+    },
+    {
+      "time": 1.2071419999999997,
+      "note": "R02",
+      "source": {
+        "gap_mm": 0.8759662083781367,
+        "horizontal_mm": 0.0
+      },
+      "new": {
+        "gap_mm": 0.8567156787651459,
+        "horizontal_mm": 0.0
+      },
+      "pad_change_mm": 0.030874249092073914
+    },
+    {
+      "time": 1.207142,
+      "note": "R02",
+      "source": {
+        "gap_mm": 0.8759662083781367,
+        "horizontal_mm": 0.0
+      },
+      "new": {
+        "gap_mm": 0.8567156787651459,
+        "horizontal_mm": 0.0
+      },
+      "pad_change_mm": 0.030874249092073914
+    },
+    {
+      "time": 4.207139,
+      "note": "R12",
+      "source": {
+        "gap_mm": 0.9593494138952271,
+        "horizontal_mm": 0.0
+      },
+      "new": {
+        "gap_mm": 0.9666763676215041,
+        "horizontal_mm": 0.0
+      },
+      "pad_change_mm": 0.008976939454249653
+    }
+  ],
+  "source_and_new_contact_gap_range_mm": [
+    -0.8285776555697031,
+    2.045950699280319
+  ],
+  "max_target_horizontal_mm": 0.0,
+  "joint_limit_float_residual_deg": 3.587371899112207e-07,
+  "added_velocity_deg_sec": 153.750141068699,
+  "source_peak_velocity_deg_sec": 371.2669714121671,
+  "new_peak_velocity_deg_sec": 292.77490199241606,
+  "left_root_key_actions_unchanged": true,
+  "native_assets": {
+    "pass_": true,
+    "source_object_count": 173,
+    "candidate_object_count": 173,
+    "changed": [],
+    "scope": "All scene object names/types/parent bindings; native mesh topology/coordinates/weights/groups, shape-key coordinates/drivers, armature rest bones, render modifiers and original cameras",
+    "source_digest": "8304ad1389bbd0c3478db85b3084e523cb86bfebe1dfde9d3a59eddec55c5f59",
+    "candidate_digest": "8304ad1389bbd0c3478db85b3084e523cb86bfebe1dfde9d3a59eddec55c5f59"
+  },
+  "adjacent_pair_regression_summary": {
+    "THUMB_INDEX": {
+      "source": {
+        "peak": 0,
+        "hit_frames": 0
+      },
+      "new": {
+        "peak": 0,
+        "hit_frames": 0
+      }
+    },
+    "THUMB_MIDDLE": {
+      "source": {
+        "peak": 0,
+        "hit_frames": 0
+      },
+      "new": {
+        "peak": 0,
+        "hit_frames": 0
+      }
+    },
+    "THUMB_RING": {
+      "source": {
+        "peak": 0,
+        "hit_frames": 0
+      },
+      "new": {
+        "peak": 0,
+        "hit_frames": 0
+      }
+    },
+    "INDEX_MIDDLE": {
+      "source": {
+        "peak": 0,
+        "hit_frames": 0
+      },
+      "new": {
+        "peak": 0,
+        "hit_frames": 0
+      }
+    },
+    "INDEX_RING": {
+      "source": {
+        "peak": 0,
+        "hit_frames": 0
+      },
+      "new": {
+        "peak": 0,
+        "hit_frames": 0
+      }
+    },
+    "INDEX_LITTLE": {
+      "source": {
+        "peak": 0,
+        "hit_frames": 0
+      },
+      "new": {
+        "peak": 0,
+        "hit_frames": 0
+      }
+    },
+    "MIDDLE_RING": {
+      "source": {
+        "peak": 98,
+        "hit_frames": 40
+      },
+      "new": {
+        "peak": 98,
+        "hit_frames": 19
+      }
+    },
+    "MIDDLE_LITTLE": {
+      "source": {
+        "peak": 0,
+        "hit_frames": 0
+      },
+      "new": {
+        "peak": 0,
+        "hit_frames": 0
+      }
+    },
+    "RING_LITTLE": {
+      "source": {
+        "peak": 0,
+        "hit_frames": 0
+      },
+      "new": {
+        "peak": 0,
+        "hit_frames": 0
+      }
+    }
+  },
+  "new_pair_types": [],
+  "black_key_depth_regressions": [
+    {
+      "time": 3.65,
+      "digit": "MIDDLE",
+      "key": "D#5",
+      "source_depth_mm": 2.5271327419228022,
+      "new_depth_mm": 3.0067377908176844,
+      "increase_mm": 0.4796050488948822
+    },
+    {
+      "time": 4.783333333333333,
+      "digit": "RING",
+      "key": "D#5",
+      "source_depth_mm": 0.43170165252155723,
+      "new_depth_mm": 1.0654591491273957,
+      "increase_mm": 0.6337574966058385
+    },
+    {
+      "time": 4.8,
+      "digit": "RING",
+      "key": "D#5",
+      "source_depth_mm": 0,
+      "new_depth_mm": 0.4724674394182282,
+      "increase_mm": 0.4724674394182282
+    },
+    {
+      "time": 4.85,
+      "digit": "RING",
+      "key": "D#5",
+      "source_depth_mm": 0,
+      "new_depth_mm": 0.3554412348217434,
+      "increase_mm": 0.3554412348217434
+    },
+    {
+      "time": 4.866666666666666,
+      "digit": "RING",
+      "key": "D#5",
+      "source_depth_mm": 0,
+      "new_depth_mm": 0.916810747209321,
+      "increase_mm": 0.916810747209321
+    }
+  ],
+  "probes": [
+    {
+      "time": 1.133333333,
+      "source": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 39,
+          "RING_LITTLE": 0
+        },
+        "black_hits": []
+      },
+      "new": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 0,
+          "RING_LITTLE": 0
+        },
+        "black_hits": []
+      }
+    },
+    {
+      "time": 3.825,
+      "source": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 93,
+          "RING_LITTLE": 0
+        },
+        "black_hits": [
+          {
+            "digit": "MIDDLE",
+            "key": "D#5",
+            "midi": 75,
+            "depth_mm": 0.7272773606724209
+          }
+        ]
+      },
+      "new": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 81,
+          "RING_LITTLE": 0
+        },
+        "black_hits": [
+          {
+            "digit": "MIDDLE",
+            "key": "D#5",
+            "midi": 75,
+            "depth_mm": 0.7272773606724209
+          }
+        ]
+      }
+    },
+    {
+      "time": 2.6,
+      "source": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 0,
+          "RING_LITTLE": 0
+        },
+        "black_hits": [
+          {
+            "digit": "INDEX",
+            "key": "A#4",
+            "midi": 70,
+            "depth_mm": 4.4270153918049004
+          },
+          {
+            "digit": "RING",
+            "key": "C#5",
+            "midi": 73,
+            "depth_mm": 2.2008457405514186
+          }
+        ]
+      },
+      "new": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 0,
+          "RING_LITTLE": 0
+        },
+        "black_hits": [
+          {
+            "digit": "INDEX",
+            "key": "A#4",
+            "midi": 70,
+            "depth_mm": 0.46979081255508515
+          }
+        ]
+      }
+    },
+    {
+      "time": 4.05,
+      "source": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 0,
+          "RING_LITTLE": 0
+        },
+        "black_hits": [
+          {
+            "digit": "MIDDLE",
+            "key": "D#5",
+            "midi": 75,
+            "depth_mm": 5.469254400174705
+          }
+        ]
+      },
+      "new": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 0,
+          "RING_LITTLE": 0
+        },
+        "black_hits": [
+          {
+            "digit": "MIDDLE",
+            "key": "D#5",
+            "midi": 75,
+            "depth_mm": 2.9379643458534166
+          }
+        ]
+      }
+    },
+    {
+      "time": 4.916666667,
+      "source": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 0,
+          "RING_LITTLE": 0
+        },
+        "black_hits": [
+          {
+            "digit": "INDEX",
+            "key": "A#4",
+            "midi": 70,
+            "depth_mm": 1.032106619301568
+          },
+          {
+            "digit": "RING",
+            "key": "C#5",
+            "midi": 73,
+            "depth_mm": 2.915148304402787
+          }
+        ]
+      },
+      "new": {
+        "pair_intersections": {
+          "INDEX_MIDDLE": 0,
+          "MIDDLE_RING": 0,
+          "RING_LITTLE": 0
+        },
+        "black_hits": [
+          {
+            "digit": "RING",
+            "key": "C#5",
+            "midi": 73,
+            "depth_mm": 0.27458560091568085
+          }
+        ]
+      }
+    }
+  ],
+  "full_23_note_reaudit": false,
+  "review_scope": "Changed right local curves; right active marker drift at 60Hz and boundaries, preserved action identities for other assets. Historical 23-note mapping/left qualification reused."
+}

@@ -1,0 +1,192 @@
+{
+  "scope": "GLOBAL_CONTACT_PLACEMENT_REFINEMENT_ONLY",
+  "candidate_limit": 1,
+  "root_delta_limit_mm": [
+    0,
+    0,
+    0
+  ],
+  "root_rotation_delta_limit_deg": [
+    0,
+    0,
+    0
+  ],
+  "reference": "R2 saved trajectory",
+  "source_policy": {
+    "prepare_sec": 0.18,
+    "finger_release_follow_sec": 0.07,
+    "recovery_sec": 0.32,
+    "repeat_reset_sec": 0.045,
+    "repeat_reset_pressure": 0.42,
+    "contact_weight": 6.0,
+    "prepare_weight": 4.0,
+    "clearance_weight": 2.0,
+    "joint_prior_weight": 0.055,
+    "velocity_weights": [
+      0.01,
+      0.018,
+      0.028,
+      0.04
+    ],
+    "acceleration_weights": [
+      0.00032,
+      0.00048,
+      0.00072,
+      0.0006
+    ],
+    "max_trajectory_nfev": 75,
+    "global_time_unchanged": true,
+    "candidate_limit": 1,
+    "motion_method": "Concurrent left contacts + continuous release-to-preparation target handoff, jointly solved with wrist/digits",
+    "frozen_joint_bounds_unchanged": true,
+    "contact_location_optimized_inside_real_surface": true,
+    "no_per_pitch_special_rules": true,
+    "chord_events_same_finger_conflicts_rejected": true,
+    "endpoint_prepared_return_weight": 0.2,
+    "idle_domain_weight": 0.3,
+    "recovery_to_future_blend": true
+  },
+  "regions": [
+    {
+      "note_id": "L00",
+      "finger": 5,
+      "left_mm": -75.35315796626605,
+      "right_mm": -67.07203457963023,
+      "target_x_mm": -74.31801754293657,
+      "delta_x_mm": 6.04194521709897,
+      "edge_slack_mm": 2.770685892248537,
+      "orientation_guard_mm": 0.4170096106827259,
+      "original_x_mm": -80.35996276003554,
+      "pad_width_mm": 8.340192213654518,
+      "key_width_mm": 23.089049102071144
+    },
+    {
+      "note_id": "L01",
+      "finger": 3,
+      "left_mm": -26.72935929422394,
+      "right_mm": -20.86302272323141,
+      "target_x_mm": -21.596314794605476,
+      "delta_x_mm": -4.853824031469394,
+      "edge_slack_mm": 2.770685892248538,
+      "orientation_guard_mm": 0.5223559774458407,
+      "original_x_mm": -16.742490763136082,
+      "pad_width_mm": 10.447119548916815,
+      "key_width_mm": 23.08904910207115
+    },
+    {
+      "note_id": "L02",
+      "finger": 1,
+      "left_mm": 22.814698715690472,
+      "right_mm": 28.38255992432252,
+      "target_x_mm": 27.686577273243515,
+      "delta_x_mm": -4.280604300369003,
+      "edge_slack_mm": 2.770685892248538,
+      "orientation_guard_mm": 0.5389925092458725,
+      "original_x_mm": 31.967181573612518,
+      "pad_width_mm": 10.77985018491745,
+      "key_width_mm": 23.08904910207115
+    },
+    {
+      "note_id": "L03",
+      "finger": 4,
+      "left_mm": -50.86681372569409,
+      "right_mm": -43.103791587948415,
+      "target_x_mm": -49.89643595847588,
+      "delta_x_mm": 6.522879451266753,
+      "edge_slack_mm": 2.770685892248538,
+      "orientation_guard_mm": 0.4381502512842417,
+      "original_x_mm": -56.41931540974263,
+      "pad_width_mm": 8.763005025684834,
+      "key_width_mm": 23.08904910207115
+    },
+    {
+      "note_id": "L04",
+      "finger": 3,
+      "left_mm": -26.62954104405955,
+      "right_mm": -20.868515691716173,
+      "target_x_mm": -21.588643860759095,
+      "delta_x_mm": -1.0021156580438166,
+      "edge_slack_mm": 2.770685892248538,
+      "orientation_guard_mm": 0.5280100647360086,
+      "original_x_mm": -20.58652820271528,
+      "pad_width_mm": 10.560201294720173,
+      "key_width_mm": 23.08904910207115
+    },
+    {
+      "note_id": "L05",
+      "finger": 2,
+      "left_mm": -2.501483703933384,
+      "right_mm": 2.3620080901009155,
+      "target_x_mm": 1.754071615846628,
+      "delta_x_mm": -6.787889532961987,
+      "edge_slack_mm": 2.770685892248538,
+      "orientation_guard_mm": 0.5639223847538231,
+      "original_x_mm": 8.541961148808616,
+      "pad_width_mm": 11.27844769507646,
+      "key_width_mm": 23.08904910207115
+    },
+    {
+      "note_id": "L06",
+      "finger": 3,
+      "left_mm": -26.198157540458595,
+      "right_mm": -20.7712520034946,
+      "target_x_mm": -25.519794348338095,
+      "delta_x_mm": 6.91604854280407,
+      "edge_slack_mm": 2.770685892248538,
+      "orientation_guard_mm": 0.5413124337792397,
+      "original_x_mm": -32.435842891142165,
+      "pad_width_mm": 10.826248675584793,
+      "key_width_mm": 23.08904910207115
+    }
+  ],
+  "joint_delta_limits_deg": [
+    [
+      3.5373443527841397,
+      3.5040845027605654,
+      5.2451691248633905,
+      3.781842067005662
+    ],
+    [
+      1.7437045964853939,
+      5.086081738108233,
+      4.1235435842856285,
+      11.023219414001789
+    ],
+    [
+      1.2654272582819812,
+      2.9463365163987913,
+      2.1316255087043228,
+      10.523029645113413
+    ],
+    [
+      2.2002967173345835,
+      1.1560931427202332,
+      0.942114691414719,
+      9.346719820676267
+    ],
+    [
+      5.461568585919463,
+      9.408857621223937,
+      10.81467769131362,
+      13.190342074799222
+    ]
+  ],
+  "correction_envelope": "original prepare/recovery intervals; exact zero outside",
+  "joint_correction_prior": 0.045,
+  "correction_velocity_weight": 0.006,
+  "correction_acceleration_weight": 0.00015,
+  "pad_edge_penalty_weight": 6.0,
+  "max_nfev": 100,
+  "edge_slack_fraction": 0.12,
+  "cap_orientation_guard_fraction": 0.05,
+  "balanced_slack_preference": 0.25,
+  "finite_pad_percentiles": [
+    0.05,
+    0.95
+  ],
+  "fixed_y_contact_and_reference_gap": true,
+  "static_test_count": 10,
+  "source_timeline_sha256": "5f303a276916565d831ff427a92b00a9ea6b73a8c96d354e46003250b9f61731",
+  "reference_motion_sha256": "49332103765d3be5bf76d15f8364e62a8e2c2f74abea274480bdb253cb1d01e0",
+  "reference_fit_sha256": "853f75d9bd561746a8c8f30c952169498f0733a7a1e04233bc945ba7f8689f2a"
+}

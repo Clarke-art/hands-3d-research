@@ -1,0 +1,92 @@
+{
+  "phase": "RIGHT_HAND_FIRST_WEB_TOPOLOGY_CAUSAL_PROBE_R1",
+  "mode": "READ_ONLY_ASSET_PROTECTION_VERIFICATION",
+  "frozen_fallback": "production_spec/right_hand_product_baseline_r1/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend",
+  "frozen_fallback_expected_sha256": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+  "frozen_fallback_actual_sha256": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+  "protected_inputs": [
+    {
+      "path": "audits/first_web_real_motion_deformation_fix_r1/REAL_MOTION_MATCHED_CAMERAS_R1.json",
+      "expected_sha256": "4f8c89cb62c1c7eee2ce055744acb4866870f35cbd3f6e4b85f2d310b039478f",
+      "actual_sha256": "4f8c89cb62c1c7eee2ce055744acb4866870f35cbd3f6e4b85f2d310b039478f",
+      "unchanged": true
+    },
+    {
+      "path": "audits/official_l1_first_web_targeted_deformation_fix_r1/WEIGHT_ITERATION_2.json",
+      "expected_sha256": "e9ec7b0dd8ddcccbf36d81e8c1936f76249655031e835a5868dd55f4524c160f",
+      "actual_sha256": "e9ec7b0dd8ddcccbf36d81e8c1936f76249655031e835a5868dd55f4524c160f",
+      "unchanged": true
+    },
+    {
+      "path": "audits/pianovam_retarget_local_axis_mapping_correction_r1/RIGHT_HAND_PIANO_AXIS_CORRECTED_TEST_R1.blend",
+      "expected_sha256": "a5190adc13d39318096490f8fd2c9956d0daff457d25753fa3c216eee2027bbd",
+      "actual_sha256": "a5190adc13d39318096490f8fd2c9956d0daff457d25753fa3c216eee2027bbd",
+      "unchanged": true
+    },
+    {
+      "path": "audits/pianovam_retarget_local_axis_mapping_correction_r1/mapping_core.py",
+      "expected_sha256": "4103092136a4e85864ea990f3a7f8d035cc0392d77260295766cbca92d8f142d",
+      "actual_sha256": "4103092136a4e85864ea990f3a7f8d035cc0392d77260295766cbca92d8f142d",
+      "unchanged": true
+    },
+    {
+      "path": "audits/right_hand_first_web_foundational_rebuild_target_r1/RIGHT_HAND_FIRST_WEB_FOUNDATIONAL_REBUILD_TARGET_R1_REPORT.md",
+      "expected_sha256": null,
+      "actual_sha256": "168a9a2fd87e9f3747f91e08867da2b9964823e0200ed15552513237969a2b16",
+      "unchanged": true
+    },
+    {
+      "path": "audits/right_hand_first_web_product_impact_go_no_go_r1/RIGHT_HAND_FIRST_WEB_PRODUCT_IMPACT_GO_NO_GO_R1_REPORT.md",
+      "expected_sha256": null,
+      "actual_sha256": "06a04233c5580c8a66c63a0410ff00671075887516c2d8df2b099dbb4903aa6e",
+      "unchanged": true
+    },
+    {
+      "path": "production_spec/right_hand_product_baseline_r1/RIGHT_HAND_OFFICIAL_L1_PRODUCT_BASELINE_R1.blend",
+      "expected_sha256": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+      "actual_sha256": "4aa26e3aa6b1f5e61f392650a597812cdc5548fade3b24805133682f77c6e7d2",
+      "unchanged": true
+    },
+    {
+      "path": "references/piano_motion/pianovam_sample_r1/Fingering/2024-03-04_03-46-36.tsv",
+      "expected_sha256": "9a74ad42bb31ae9a9fa4810d2b6507d2b2f452a6c69806a7209ecee16e80feae",
+      "actual_sha256": "9a74ad42bb31ae9a9fa4810d2b6507d2b2f452a6c69806a7209ecee16e80feae",
+      "unchanged": true
+    },
+    {
+      "path": "references/piano_motion/pianovam_sample_r1/Handskeleton/2024-03-04_03-46-36.json",
+      "expected_sha256": "02d336c7a114b5d92be9472acfab4ba746b4e5b106cba35575fe86fd1c294035",
+      "actual_sha256": "02d336c7a114b5d92be9472acfab4ba746b4e5b106cba35575fe86fd1c294035",
+      "unchanged": true
+    },
+    {
+      "path": "references/piano_motion/pianovam_sample_r1/MIDI/2024-03-04_03-46-36.mid",
+      "expected_sha256": "532ad501509b8cc8bf93e2486d0b3c671a41f13eb55f4a9f7efb8777b4791018",
+      "actual_sha256": "532ad501509b8cc8bf93e2486d0b3c671a41f13eb55f4a9f7efb8777b4791018",
+      "unchanged": true
+    },
+    {
+      "path": "references/piano_motion/pianovam_sample_r1/Video/2024-03-04_03-46-36.mp4",
+      "expected_sha256": "b005620ad3002c50f417e37abf9d2110620c59e1565d5952dd465d0dbd665076",
+      "actual_sha256": "b005620ad3002c50f417e37abf9d2110620c59e1565d5952dd465d0dbd665076",
+      "unchanged": true
+    }
+  ],
+  "FROZEN_FALLBACK_UNCHANGED": true,
+  "protected_inputs_all_unchanged": true,
+  "production_pointer": {
+    "path": "production_spec/RIGHT_HAND_PRODUCT_BASELINE.json",
+    "sha256": "c4e92fc5d55217a9a7aa677b003a4a9055a91fcb9ff653af98ed3fddb68f786d",
+    "moved": false,
+    "note": "read only for verification; production pointer was never written this round"
+  },
+  "promotion": {
+    "candidate_promoted": false
+  },
+  "left_hand_started": false,
+  "web_export_started": false,
+  "blend_files_written_by_this_phase": [
+    "audits/right_hand_first_web_topology_causal_probe_r1/RIGHT_HAND_FIRST_WEB_TOPOLOGY_PROBE_CANDIDATE_R1.blend"
+  ],
+  "blend_write_scope": "DESIGN_ONLY probe candidate inside this round audit directory only"
+}

@@ -1,0 +1,92 @@
+{
+  "authority_id": "SKIN_WEIGHT_CONTINUITY_CONTRACT_R1",
+  "status": "RESOLVED",
+  "proposal_status": "PENDING_HUMAN_APPROVAL",
+  "deform_bones": [
+    "WRIST_R",
+    "THUMB_CMC_R",
+    "THUMB_MCP_R",
+    "THUMB_IP_R",
+    "INDEX_MCP_R",
+    "INDEX_PIP_R",
+    "INDEX_DIP_R",
+    "MIDDLE_MCP_R",
+    "MIDDLE_PIP_R",
+    "MIDDLE_DIP_R",
+    "RING_MCP_R",
+    "RING_PIP_R",
+    "RING_DIP_R",
+    "LITTLE_MCP_R",
+    "LITTLE_PIP_R",
+    "LITTLE_DIP_R"
+  ],
+  "max_influences": 4,
+  "production_rule_source": {
+    "path": "production_spec\\stage5_production_rig\\stage5b_r1b\\scripts\\r1b_common.py",
+    "sha256": "11b07d06470447a68c5e429698b1bac7f6ca933dfb400a7005c3576117374408",
+    "role": "MAX_INF=4; official 16-group production weight contract"
+  },
+  "normalization": {
+    "target_sum": 1,
+    "absolute_tolerance": 1e-05,
+    "minimum_weight": 0,
+    "finite_only": true
+  },
+  "helpers": {
+    "names": [
+      "THUMB_TIP_R",
+      "INDEX_TIP_R",
+      "MIDDLE_TIP_R",
+      "RING_TIP_R",
+      "LITTLE_TIP_R"
+    ],
+    "deform_weight": 0
+  },
+  "ownership_guard": {
+    "scope": "962 frozen vertices only",
+    "allowed_by_side": {
+      "THUMB": [
+        "THUMB_CMC_R",
+        "THUMB_IP_R",
+        "THUMB_MCP_R",
+        "WRIST_R"
+      ],
+      "INDEX": [
+        "INDEX_DIP_R",
+        "INDEX_MCP_R",
+        "INDEX_PIP_R",
+        "WRIST_R"
+      ]
+    },
+    "FIRST_WEB21_exception": [
+      "INDEX_MCP_R",
+      "THUMB_CMC_R",
+      "THUMB_MCP_R",
+      "WRIST_R"
+    ],
+    "no_label_to_ratio": true,
+    "forbidden_weight": 0
+  },
+  "first_web_IP_weight": 0,
+  "old_cap9_thumb_override": false,
+  "static_edge_gates": {
+    "all_envelope_internal_and_crossing_edges": true,
+    "max_single_group_jump_proposal": 0.5,
+    "max_L1_jump_proposal": 1.0,
+    "proposal_origin": "New conservative screening gates for Human review, not falsely attributed to old production approval. Retained baseline edges outside affected scope remain regression context.",
+    "no_hard_swap": "Reject same-interface one-ring disjoint one-hot drivers, and any new jump beyond these gates; every exceeding edge requires local smoothing or targeted deformation justification before candidate acceptance.",
+    "comparison": "No increase in a preexisting seam over its R1B jump +1e-5 unless explicitly recorded and qualified; existing bad baseline does not waive new absolute gates.",
+    "profile_gate": "Check corrected IP/MCP quintic derivative bound plus physical adjacent-edge continuity; do not prove surface continuity from arc smoothness alone",
+    "projection_tie_seams": "Record nearest-segment arc discontinuities and validate them; no implicit propagation from ownership labels",
+    "scope_extension": "Failed outer seams may extend candidate envelope locally under recorded reason, never default all-mesh rebuild."
+  },
+  "cap_IP_MCP_transition": "Same corrected longitudinal profile on compatible proximal 1/2-ring thumb support; no cap boundary clamp",
+  "first_web_three_way": "Thumb/index/palm simultaneous continuity, exact membership not expanded",
+  "old_cap9_INDEX_continuity": "No crater/spike relative clean INDEX field; continuous constrained interpolation with geometry prior, never all MCP by assumption",
+  "safe_reuse": "Exact vector hashes retained where permitted; corrected bind, zero pose and local regression must be verified after approved candidate exists",
+  "targeted_deformation_gate": "DEFORMATION_VALIDATION_REQUIRED: cap-IP/MCP flex, INDEX MCP/PIP, first-web CMC opposition plus wrist/palm, and edge5879 combined CMC/MCP. No runs in this phase.",
+  "Stage6": "Separate later qualification; Q7 approval is permission for targeted rig/skin candidate rebuild only, never Stage6 or final production promotion",
+  "candidate_static_pass": "NOT_RUN_NO_NEW_VECTORS",
+  "candidate_deformation_pass": "NOT_RUN",
+  "weights_generated": 0
+}

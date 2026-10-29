@@ -1,0 +1,32 @@
+{
+ "log": [
+  "frozen stage5a_r2a_master       c4fafc56c591 OK",
+  "frozen stage5b_r1b_master       cec5804f1319 OK",
+  "frozen stage6a_r1a_harness      c4bb74ea116e OK",
+  "frozen stage6b_r1_harness       4b6200899fe4 OK",
+  "provenance deliverables hashed: 5",
+  "frozen probe sets: CLASS_A=6 CLASS_B=61",
+  "R2 seeds: {'THUMB': 1076, 'INDEX': 1228, 'MIDDLE': 1737, 'RING': 1741, 'LITTLE': 225, 'wrist': 2255}",
+  "R2 partition counts: {'LITTLE': 540, 'RING': 352, 'MIDDLE': 269, 'INDEX': 183, 'THUMB': 1020, 'wrist': 1052}",
+  "own_r1a counts:      {'LITTLE': 402, 'RING': 385, 'MIDDLE': 362, 'INDEX': 365, 'THUMB': 624, 'wrist': 1278}",
+  "correction domain: core=182 +1ring=59 +2ring=25 -> 282",
+  "corrected ownership changed vertices: 201",
+  "change pairs (own -> corrected): {'INDEX->THUMB': 182, 'wrist->THUMB': 2, 'MIDDLE->THUMB': 17}",
+  "CLASS_A endpoints mixed after correction: 0",
+  "CLASS_B endpoints mixed after correction: 0",
+  "R2 THUMB|INDEX boundary edges=22 ; own_r1a THUMB|INDEX edges=67",
+  "R2 thumb-index boundary thumb-arc range 93.95 .. 93.95 mm",
+  "CLASS_A 6-edge endpoints: {\"1539\": {\"own\": \"THUMB\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"621\": {\"own\": \"INDEX\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"1551\": {\"own\": \"THUMB\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"617\": {\"own\": \"INDEX\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"1680\": {\"own\": \"THUMB\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"612\": {\"own\": \"INDEX\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"2004\": {\"own\": \"THUMB\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"2896\": {\"own\": \"THUMB\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"1996\": {\"own\": \"INDEX\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}, \"3093\": {\"own\": \"INDEX\", \"corrected\": \"THUMB\", \"in_domain\": true, \"nail\": false, \"cap\": false}}",
+  "CLASS_A retained as ANATOMIC_FIRST_WEB_TRANSITION (topology untouched): True",
+  "bind weights read from the ACTIVE Stage5B R1B master",
+  "weight consistency (all vertices): {'WEIGHT_ALREADY_COMPATIBLE': 2205, 'WEIGHT_RECONCILIATION_REQUIRED': 931, 'AMBIGUOUS': 280}",
+  "weight consistency (correction domain only): {'WEIGHT_ALREADY_COMPATIBLE': 78, 'WEIGHT_RECONCILIATION_REQUIRED': 204}",
+  "WEIGHT_RECONCILIATION_REQUIRED=204 ; AMBIGUOUS=0",
+  "wrote DIGIT_OWNERSHIP_AUTHORITY_R2.md"
+ ],
+ "changed": 201,
+ "domain": 282,
+ "required": 204,
+ "ambiguous": 0,
+ "mixed_class_b_after": 0
+}

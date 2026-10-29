@@ -1,0 +1,47 @@
+[
+  {
+    "item": "影子副本完整性",
+    "result": "PASS",
+    "evidence": "207文件、目录成员与源相同，复制和结束SHA全部相同"
+  },
+  {
+    "item": "内部路径解析",
+    "result": "PASS_VIA_INDEPENDENT_ADAPTER",
+    "evidence": "真实登记文件读取、formal→shadow、明确hands root；未修改 pathlib/源码；原表达式原样仍错误"
+  },
+  {
+    "item": "外部输入",
+    "result": "PASS_SCOPED_44_FILES / TRANSITIVE_RUNTIME_PARTIAL",
+    "evidence": "正式MIDI、Rig/场景5容器、13 Action记录、历史输入和既有资源逐SHA实读；无原生执行"
+  },
+  {
+    "item": "历史保护引用",
+    "result": "PASS_PRESERVED_SEMANTICS",
+    "evidence": "旧86259表前后字节/语义一致，历史FAIL与PASS保留；未写新旧globalPASS"
+  },
+  {
+    "item": "旧源码完整性",
+    "result": "PASS",
+    "evidence": "原207和影子207全SHA一致，原源码没有修改/导入/执行"
+  },
+  {
+    "item": "正式Hands/Piano资产",
+    "result": "PASS_NO_TASK_WRITES_SCOPED_HASH",
+    "evidence": "44读取输入SHA不变，所有写操作在本审计；不声称并发Piano全目录无变化"
+  },
+  {
+    "item": "原始R2目录",
+    "result": "PASS_UNMOVED",
+    "evidence": "源成员、SHA、size/mtime/identity一致，formal目标不存在"
+  },
+  {
+    "item": "复核适配入口可重复",
+    "result": "PASS",
+    "evidence": "最终readonly_04/05各23检查/251实读，语义指纹相同"
+  },
+  {
+    "item": "动态与原生依赖",
+    "result": "PARTIAL_UNVERIFIED_EXPLICIT",
+    "evidence": "U01–U07全部登记，不冒用完整Blender/求解复现PASS"
+  }
+]

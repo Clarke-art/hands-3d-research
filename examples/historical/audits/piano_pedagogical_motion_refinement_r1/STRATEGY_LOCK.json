@@ -1,0 +1,58 @@
+{
+  "method": "CONTACT_GUIDED_LIGHTWEIGHT_ANIMATION",
+  "source_sha256": "18d3c729ff16759a4a7b41a621a1682711d876ad2e109a748d1ea9e675762df3",
+  "formal_attempts": 1,
+  "candidate_limit": 1,
+  "budget_sec": 300,
+  "heavy_solver_calls": 0,
+  "windows": [
+    [
+      0.9,
+      1.78
+    ],
+    [
+      2.25,
+      2.95
+    ],
+    [
+      3.5,
+      4.35
+    ],
+    [
+      4.55,
+      5.4
+    ]
+  ],
+  "window_fade_sec": 0.12,
+  "active_protection": "Exact note_on through note_off; 15ms pre-on guard. Release is free immediately after actual note_off.",
+  "prepare_ramp_sec": 0.09,
+  "release_ramp_sec": 0.055,
+  "trust_degrees": [
+    14,
+    20,
+    16,
+    14
+  ],
+  "steps_degrees": [
+    4,
+    2,
+    1
+  ],
+  "coordinate_sweeps_per_step": 3,
+  "frame_hz": 60,
+  "smoothing_sigma_frames": 1.0,
+  "correction_velocity_limit_deg_sec": 210,
+  "geometry": "Frozen weighted skin, five local digit envelopes; actual nearby moving key bodies. No full hand nonlinear optimizer.",
+  "source_model_max_error_mm": [
+    0.0007367808875068205,
+    0.000719309352675013,
+    0.0006453396025098124,
+    0.0005420688966564534,
+    0.0006016554845507371
+  ],
+  "style_penalty": 0.003,
+  "temporal_penalty": 0.004,
+  "black_clearance_mm": 0.8,
+  "neighbor_clearance_mm": 0.7,
+  "per_note_pose_patches": false
+}

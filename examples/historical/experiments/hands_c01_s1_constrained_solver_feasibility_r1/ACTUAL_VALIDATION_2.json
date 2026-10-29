@@ -1,0 +1,1284 @@
+{
+  "attempt": 2,
+  "authority": "DESIGN_PROVISIONAL",
+  "status": "S1_STATIC_GATE_PASS",
+  "gates": {
+    "actual_surface_contact": true,
+    "pad_inside_playable_top": true,
+    "pad_height_auxiliary": true,
+    "target_entity_depth": true,
+    "non_target_and_nonpulp_depth": true,
+    "no_nonadjacent_finger_crossing": true,
+    "prepared_E5": true,
+    "authorized_bounds": true
+  },
+  "actual_geometry": {
+    "key_hits": [
+      {
+        "key": "G4",
+        "midi": 67,
+        "piece": 0,
+        "color": "WHITE",
+        "role": "TARGET_KEY",
+        "maximum_vertex_inside_depth_mm": 0.0,
+        "maximum_triangle_surface_inside_depth_mm": 0.003242731284570996,
+        "triangle_interior_witnesses": [
+          {
+            "hand_triangle_id": 3869,
+            "inside_depth_mm": 0.003242731284570996,
+            "world_point_m": [
+              0.10075686433957673,
+              -0.0008373523034410912,
+              -0.010002948247888771
+            ],
+            "legal_target_pulp": true
+          },
+          {
+            "hand_triangle_id": 3870,
+            "inside_depth_mm": 0.003242731284570996,
+            "world_point_m": [
+              0.10075686433957673,
+              -0.0008373523034410912,
+              -0.010002948247888771
+            ],
+            "legal_target_pulp": true
+          }
+        ],
+        "wrong_region_depth_mm": 0.0,
+        "vertex_ids": [],
+        "digit_attribution": {},
+        "shared_palm_or_ambiguous_vertices": [],
+        "triangle_surface_intersection_pairs": 4,
+        "hand_triangle_ids": [
+          3869,
+          3870
+        ],
+        "depth_meaning": "Minimum distance to supporting planes for vertices inside each convex key piece; not vertical-only depth or triangle-pair count"
+      }
+    ],
+    "wrong_key_or_nonpulp_max_depth_mm": 0.0,
+    "target_key_max_depth_mm": 0.003242731284570996,
+    "self_skin": [
+      {
+        "digits": [
+          "THUMB",
+          "INDEX"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 28.905507177114487,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "THUMB",
+          "MIDDLE"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 50.153400748968124,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "THUMB",
+          "RING"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 59.99404564499855,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "THUMB",
+          "LITTLE"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 61.288975179195404,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "INDEX",
+          "MIDDLE"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 10.757514275610447,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "INDEX",
+          "RING"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 34.24651548266411,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "INDEX",
+          "LITTLE"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 59.70088019967079,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "MIDDLE",
+          "RING"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 0.5198066355660558,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "MIDDLE",
+          "LITTLE"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 29.204046353697777,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      },
+      {
+        "digits": [
+          "RING",
+          "LITTLE"
+        ],
+        "raw_triangle_pair_count": 0,
+        "excluded_topology_neighbor_pairs": 0,
+        "true_nonadjacent_triangle_pair_count": 0,
+        "triangle_pair_ids": [],
+        "minimum_gap_sampled_mm": 12.495909817516804,
+        "minimum_gap_method": "Vertex-to-opposing-triangle BVH samples; zero for surface intersections, not exhaustive edge-edge gap",
+        "self_penetration_depth_mm": null,
+        "depth_note": "Surface intersection pairs do not define a unique intrusion depth; no conversion of counts into millimetres"
+      }
+    ],
+    "nonadjacent_self_triangle_pairs": 0,
+    "full_88_keys_checked": true,
+    "world_space": true,
+    "contact": {
+      "pad_gap_mm": 0.9038357484272772,
+      "pad_horizontal_outside_mm": 0.0,
+      "true_pulp_min_signed_gap_mm": -0.004994463439719317,
+      "pulp_min_vertex_gap_mm": 0.48610720415044967,
+      "pulp_closest_vertex": 1753,
+      "pulp_contact_position_world_m": [
+        0.10082606021362964,
+        -0.0008408648830847826,
+        -0.009999999953798447
+      ],
+      "true_pulp_surface_contact_distance_mm": 0.0,
+      "near_contact_projected_area_mm2": 0.051675367632171156,
+      "near_contact_area_band_mm": 0.05,
+      "top_surface_crossing_triangles": 2,
+      "top_surface_crossing_triangle_ids": [
+        3869,
+        3870
+      ],
+      "inside_playable_patch_vertices": 21,
+      "hover_only": false
+    }
+  },
+  "all_88_key_depths": [
+    {
+      "key_index": 0,
+      "midi": 21,
+      "note": "A0",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 1,
+      "midi": 22,
+      "note": "A#0",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 2,
+      "midi": 23,
+      "note": "B0",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 3,
+      "midi": 24,
+      "note": "C1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 4,
+      "midi": 25,
+      "note": "C#1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 5,
+      "midi": 26,
+      "note": "D1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 6,
+      "midi": 27,
+      "note": "D#1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 7,
+      "midi": 28,
+      "note": "E1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 8,
+      "midi": 29,
+      "note": "F1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 9,
+      "midi": 30,
+      "note": "F#1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 10,
+      "midi": 31,
+      "note": "G1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 11,
+      "midi": 32,
+      "note": "G#1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 12,
+      "midi": 33,
+      "note": "A1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 13,
+      "midi": 34,
+      "note": "A#1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 14,
+      "midi": 35,
+      "note": "B1",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 15,
+      "midi": 36,
+      "note": "C2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 16,
+      "midi": 37,
+      "note": "C#2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 17,
+      "midi": 38,
+      "note": "D2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 18,
+      "midi": 39,
+      "note": "D#2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 19,
+      "midi": 40,
+      "note": "E2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 20,
+      "midi": 41,
+      "note": "F2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 21,
+      "midi": 42,
+      "note": "F#2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 22,
+      "midi": 43,
+      "note": "G2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 23,
+      "midi": 44,
+      "note": "G#2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 24,
+      "midi": 45,
+      "note": "A2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 25,
+      "midi": 46,
+      "note": "A#2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 26,
+      "midi": 47,
+      "note": "B2",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 27,
+      "midi": 48,
+      "note": "C3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 28,
+      "midi": 49,
+      "note": "C#3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 29,
+      "midi": 50,
+      "note": "D3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 30,
+      "midi": 51,
+      "note": "D#3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 31,
+      "midi": 52,
+      "note": "E3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 32,
+      "midi": 53,
+      "note": "F3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 33,
+      "midi": 54,
+      "note": "F#3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 34,
+      "midi": 55,
+      "note": "G3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 35,
+      "midi": 56,
+      "note": "G#3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 36,
+      "midi": 57,
+      "note": "A3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 37,
+      "midi": 58,
+      "note": "A#3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 38,
+      "midi": 59,
+      "note": "B3",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 39,
+      "midi": 60,
+      "note": "C4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 40,
+      "midi": 61,
+      "note": "C#4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 41,
+      "midi": 62,
+      "note": "D4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 42,
+      "midi": 63,
+      "note": "D#4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 43,
+      "midi": 64,
+      "note": "E4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 44,
+      "midi": 65,
+      "note": "F4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 45,
+      "midi": 66,
+      "note": "F#4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 46,
+      "midi": 67,
+      "note": "G4",
+      "target": true,
+      "max_entity_depth_mm": 0.003242731284570996
+    },
+    {
+      "key_index": 47,
+      "midi": 68,
+      "note": "G#4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 48,
+      "midi": 69,
+      "note": "A4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 49,
+      "midi": 70,
+      "note": "A#4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 50,
+      "midi": 71,
+      "note": "B4",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 51,
+      "midi": 72,
+      "note": "C5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 52,
+      "midi": 73,
+      "note": "C#5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 53,
+      "midi": 74,
+      "note": "D5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 54,
+      "midi": 75,
+      "note": "D#5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 55,
+      "midi": 76,
+      "note": "E5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 56,
+      "midi": 77,
+      "note": "F5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 57,
+      "midi": 78,
+      "note": "F#5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 58,
+      "midi": 79,
+      "note": "G5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 59,
+      "midi": 80,
+      "note": "G#5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 60,
+      "midi": 81,
+      "note": "A5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 61,
+      "midi": 82,
+      "note": "A#5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 62,
+      "midi": 83,
+      "note": "B5",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 63,
+      "midi": 84,
+      "note": "C6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 64,
+      "midi": 85,
+      "note": "C#6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 65,
+      "midi": 86,
+      "note": "D6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 66,
+      "midi": 87,
+      "note": "D#6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 67,
+      "midi": 88,
+      "note": "E6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 68,
+      "midi": 89,
+      "note": "F6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 69,
+      "midi": 90,
+      "note": "F#6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 70,
+      "midi": 91,
+      "note": "G6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 71,
+      "midi": 92,
+      "note": "G#6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 72,
+      "midi": 93,
+      "note": "A6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 73,
+      "midi": 94,
+      "note": "A#6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 74,
+      "midi": 95,
+      "note": "B6",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 75,
+      "midi": 96,
+      "note": "C7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 76,
+      "midi": 97,
+      "note": "C#7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 77,
+      "midi": 98,
+      "note": "D7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 78,
+      "midi": 99,
+      "note": "D#7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 79,
+      "midi": 100,
+      "note": "E7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 80,
+      "midi": 101,
+      "note": "F7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 81,
+      "midi": 102,
+      "note": "F#7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 82,
+      "midi": 103,
+      "note": "G7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 83,
+      "midi": 104,
+      "note": "G#7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 84,
+      "midi": 105,
+      "note": "A7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 85,
+      "midi": 106,
+      "note": "A#7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 86,
+      "midi": 107,
+      "note": "B7",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    },
+    {
+      "key_index": 87,
+      "midi": 108,
+      "note": "C8",
+      "target": false,
+      "max_entity_depth_mm": 0.0
+    }
+  ],
+  "E5_preparation": {
+    "pad_gap_mm": 19.527858202540493,
+    "pad_horizontal_outside_mm": 0.04210322446296377,
+    "true_pulp_min_signed_gap_mm": 19.54573957165652,
+    "pulp_min_vertex_gap_mm": 20.11506081112585,
+    "pulp_closest_vertex": 1293,
+    "pulp_contact_position_world_m": [
+      0.2052423059940338,
+      0.036019422113895416,
+      0.020115060731768608
+    ],
+    "true_pulp_surface_contact_distance_mm": 19.54573957165652,
+    "near_contact_projected_area_mm2": 0.0,
+    "near_contact_area_band_mm": 0.05,
+    "top_surface_crossing_triangles": 0,
+    "top_surface_crossing_triangle_ids": [],
+    "inside_playable_patch_vertices": 44,
+    "hover_only": true
+  },
+  "middle_ring_exact_clearance": {
+    "distance_mm": 0.07986473418668923,
+    "triangle_ids": [
+      656,
+      1132
+    ],
+    "witness_points_world_m": [
+      [
+        0.1864703230398452,
+        0.009917598707174232,
+        0.033917015638454874
+      ],
+      [
+        0.18651336597833842,
+        0.009861182234135048,
+        0.03388037054625417
+      ]
+    ],
+    "exact_feature_candidates": 432,
+    "aabb_pruning_upper_mm": 0.5198067355660558,
+    "method": "All nonadjacent triangle pairs with AABB lower bound <= sampled upper; exact point-face and all edge-edge feature minima for disjoint triangles"
+  },
+  "solver": {
+    "attempt": 2,
+    "key_constraint_representation": "exact triangle interior LP",
+    "method": "SLSQP",
+    "authority": "DESIGN_PROVISIONAL",
+    "initialization": "PREVIOUS_REPAIR_2",
+    "initial_state": [
+      -107.16879251040754,
+      -6.284461811614914,
+      -2.410312964847451,
+      -1.9266439948195262,
+      -1.6870472453747773,
+      -11.615107967002015,
+      8.714113245785658,
+      2.9236406691774692,
+      0.023909382967332277,
+      -17.199919940611522,
+      16.003485081931245,
+      14.755672728805246,
+      7.547080061353887,
+      -6.847483882942155,
+      1.399326876113368,
+      0.29989722082069553,
+      0.03219546591429327,
+      -24.99871509511918,
+      11.931452553089171,
+      11.934594833324201,
+      4.6617155052283,
+      -1.3465486974706617,
+      18.66883164927334,
+      7.932583167219448,
+      2.5816375276227883,
+      18.91387236277027
+    ],
+    "state": [
+      -107.16879251040754,
+      -6.283095672608292,
+      -2.410312964847451,
+      -1.9299765596559255,
+      -1.688312535924226,
+      -11.615483718880643,
+      8.716409409829016,
+      2.924663623909097,
+      0.02424319243541565,
+      -17.199973122544773,
+      16.003485081931245,
+      14.755672728805246,
+      7.547080061353887,
+      -6.847483882942155,
+      1.399326876113368,
+      0.29989722082069553,
+      0.03219546591429327,
+      -24.99871509511918,
+      11.931452553089171,
+      11.934594833324201,
+      4.6617155052283,
+      -1.3465486974706617,
+      18.66883164927334,
+      7.932583167219448,
+      2.5816375276227883,
+      18.91387236277027
+    ],
+    "root_Z_fixed_mm": -2.410312964847451,
+    "key_angles": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08712320774793625,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.08712320774793625,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "source_time": 2.527855,
+    "elapsed_seconds": 22.764999999999418,
+    "setup_seconds": 0.5929999999971187,
+    "constraint_evaluations": 205,
+    "constraint_jacobian_evaluations": 4,
+    "convergence": {
+      "success": true,
+      "status": 0,
+      "message": "Optimization terminated successfully",
+      "nit": 2,
+      "nfev": 2,
+      "njev": 2
+    },
+    "initial_max_violation_mm": 0.00968000942855982,
+    "final_max_violation_mm": 0.0,
+    "derivative_probe": {
+      "central_step_mm_or_deg": 0.001,
+      "half_step": 0.0005,
+      "max_absolute_difference": 2.2115642650533118e-07,
+      "relative_frobenius_difference": 1.4629256985722744e-07,
+      "note": "Includes active min/max/clip and displacement norm nondifferentiability; diagnostic, not proof of smoothness"
+    },
+    "history": [
+      {
+        "evaluation": 1,
+        "elapsed_seconds": 0.7029999999977008,
+        "max_constraint_violation_mm": 0.00968000942855982,
+        "contact_signed_gap_mm": 0.004680009428559819,
+        "minimum_self_axis_gap_mm": 0.0797321927249045,
+        "minimum_key_plane_margin_mm": 0.2
+      },
+      {
+        "evaluation": 4,
+        "elapsed_seconds": 1.0309999999990396,
+        "max_constraint_violation_mm": 0.00905467709242955,
+        "contact_signed_gap_mm": 0.00405467709242955,
+        "minimum_self_axis_gap_mm": 0.07973219272489063,
+        "minimum_key_plane_margin_mm": 0.2
+      },
+      {
+        "evaluation": 7,
+        "elapsed_seconds": 1.3590000000003783,
+        "max_constraint_violation_mm": 0.008154565590727613,
+        "contact_signed_gap_mm": 0.003154565590727613,
+        "minimum_self_axis_gap_mm": 0.07968353297888031,
+        "minimum_key_plane_margin_mm": 0.2
+      },
+      {
+        "evaluation": 153,
+        "elapsed_seconds": 17.17199999999866,
+        "max_constraint_violation_mm": 0.0,
+        "contact_signed_gap_mm": -0.005000060638121454,
+        "minimum_self_axis_gap_mm": 0.07952561216502396,
+        "minimum_key_plane_margin_mm": 0.19675366330149097
+      }
+    ],
+    "active_self_pairs": 605,
+    "key_triangle_plane_constraints": 521,
+    "key_constraint_counts": {
+      "67": 96,
+      "69": 93,
+      "70": 45,
+      "71": 143,
+      "74": 105,
+      "76": 39
+    },
+    "inequality_count": 4440,
+    "bounds_lower": [
+      -108.16879251040754,
+      -7.284461811614914,
+      -3.926643994819526,
+      -3.687047245374777,
+      -12.0,
+      5.714113245785658,
+      0.0,
+      0.0,
+      -20.199919940611522,
+      13.003485081931245,
+      11.755672728805246,
+      4.547080061353887,
+      -9.847483882942155,
+      0.0,
+      0.0,
+      0.0,
+      -25.0,
+      8.931452553089171,
+      8.934594833324201,
+      1.6617155052283001,
+      -4.346548697470662,
+      15.66883164927334,
+      4.932583167219448,
+      0.0,
+      15.91387236277027
+    ],
+    "bounds_upper": [
+      -106.16879251040754,
+      -5.284461811614914,
+      0.0733560051804738,
+      0.31295275462522265,
+      -9.615107967002015,
+      11.714113245785658,
+      5.92364066917747,
+      3.0239093829673322,
+      -14.199919940611522,
+      19.003485081931245,
+      17.755672728805244,
+      10.547080061353887,
+      -3.8474838829421554,
+      4.399326876113368,
+      3.2998972208206956,
+      3.032195465914293,
+      -21.99871509511918,
+      14.931452553089171,
+      14.934594833324201,
+      7.6617155052283,
+      1.6534513025293383,
+      21.66883164927334,
+      10.932583167219448,
+      5.581637527622789,
+      21.91387236277027
+    ],
+    "local_bound_radius": [
+      1.0,
+      1.0,
+      2.0,
+      2.0,
+      2.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0,
+      3.0
+    ],
+    "self_candidate_AABB_radius_mm": 1.0,
+    "self_pool_global_equivalence": false,
+    "actual_blender_acceptance_required": true,
+    "scipy_version": "1.18.1",
+    "no_root_z_ablation": true
+  },
+  "state": [
+    -107.16879251040754,
+    -6.283095672608292,
+    -2.410312964847451,
+    -1.9299765596559255,
+    -1.688312535924226,
+    -11.615483718880643,
+    8.716409409829016,
+    2.924663623909097,
+    0.02424319243541565,
+    -17.199973122544773,
+    16.003485081931245,
+    14.755672728805246,
+    7.547080061353887,
+    -6.847483882942155,
+    1.399326876113368,
+    0.29989722082069553,
+    0.03219546591429327,
+    -24.99871509511918,
+    11.931452553089171,
+    11.934594833324201,
+    4.6617155052283,
+    -1.3465486974706617,
+    18.66883164927334,
+    7.932583167219448,
+    2.5816375276227883,
+    18.91387236277027
+  ],
+  "controls": {
+    "root_translation_mm": [
+      -107.16879251040754,
+      -6.283095672608292,
+      -2.410312964847451
+    ],
+    "root_rotation_deg": [
+      -1.9299765596559255,
+      -1.688312535924226,
+      -11.615483718880643
+    ],
+    "fingers": {
+      "THUMB": [
+        8.716409409829016,
+        2.924663623909097,
+        0.02424319243541565,
+        -17.199973122544773
+      ],
+      "INDEX": [
+        16.003485081931245,
+        14.755672728805246,
+        7.547080061353887,
+        -6.847483882942155
+      ],
+      "MIDDLE": [
+        1.399326876113368,
+        0.29989722082069553,
+        0.03219546591429327,
+        -24.99871509511918
+      ],
+      "RING": [
+        11.931452553089171,
+        11.934594833324201,
+        4.6617155052283,
+        -1.3465486974706617
+      ],
+      "LITTLE": [
+        18.66883164927334,
+        7.932583167219448,
+        2.5816375276227883,
+        18.91387236277027
+      ]
+    }
+  },
+  "scene": "S1_CONSTRAINED_2_STATIC_ONLY",
+  "mesh": "RIGHT_HAND_OFFICIAL_L1_PRODUCT_MESH.003",
+  "rig": "RIGHT_HAND_PRODUCTION_RIG.003",
+  "root": "STATIC_ROOT_R1.002",
+  "cameras": {
+    "TEACHING": "STAGE_C_TEACHING.001",
+    "OVERHEAD": "STAGE_C_OVERHEAD.001",
+    "SIDE_OBLIQUE": "STAGE_C_SIDE_OBLIQUE.001"
+  },
+  "original_key_action_payloads_unchanged": true,
+  "original_key_geometry_max_error_m": 2.2175636993360115e-08,
+  "key_angle_error_rad": 0.0,
+  "native_frozen_identity_verified": true,
+  "proxy_max_vertex_error_mm": null,
+  "verification_seconds": 0.11124640000343788,
+  "experimental_bound_actions": 0,
+  "new_keyframes": 0
+}

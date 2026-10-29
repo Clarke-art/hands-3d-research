@@ -1,0 +1,168 @@
+{
+  "status": "FAIL",
+  "alternatives": [
+    {
+      "stop": "STOP_AFTER_P03",
+      "row_pair": [
+        "P03",
+        "P04"
+      ],
+      "edges": [
+        {
+          "lane": "LEFT_COLUMN4_TO5",
+          "edge_id": 1375,
+          "vertex_ids": [
+            1518,
+            293
+          ],
+          "incident_face_ids": [
+            1368,
+            1373
+          ],
+          "before_face_id": 1373,
+          "after_face_id": 1368
+        },
+        {
+          "lane": "RIGHT_COLUMN5_TO6",
+          "edge_id": 1374,
+          "vertex_ids": [
+            386,
+            1518
+          ],
+          "incident_face_ids": [
+            1371,
+            1374
+          ],
+          "before_face_id": 1374,
+          "after_face_id": 1371
+        }
+      ],
+      "deterministic_original_edges": true,
+      "surface_support": true,
+      "semantic_candidate_status": "NOT_ESTABLISHED",
+      "alternative_rejected_by_evidence": false,
+      "evidence_basis": [
+        "Native turn begins across this cut. RSSF P04 still has negative L.axis. No independent role proof says P04 is the first broader row."
+      ]
+    },
+    {
+      "stop": "STOP_AFTER_P04",
+      "row_pair": [
+        "P04",
+        "P05"
+      ],
+      "edges": [
+        {
+          "lane": "LEFT_COLUMN4_TO5",
+          "edge_id": 4666,
+          "vertex_ids": [
+            1444,
+            2822
+          ],
+          "incident_face_ids": [
+            1368,
+            1369
+          ],
+          "before_face_id": 1368,
+          "after_face_id": 1369
+        },
+        {
+          "lane": "RIGHT_COLUMN5_TO6",
+          "edge_id": 4668,
+          "vertex_ids": [
+            1520,
+            2822
+          ],
+          "incident_face_ids": [
+            1370,
+            1371
+          ],
+          "before_face_id": 1371,
+          "after_face_id": 1370
+        }
+      ],
+      "deterministic_original_edges": true,
+      "surface_support": true,
+      "semantic_candidate_status": "NOT_ESTABLISHED",
+      "alternative_rejected_by_evidence": false,
+      "evidence_basis": [
+        "Largest tangent rotation and area-mean radial-normal sign change support this interval geometrically. P05 has mixed per-face own-centroid radial signs in both states and RSSF P05 remains web-facing; no positive broader-role onset is established."
+      ]
+    },
+    {
+      "stop": "STOP_AFTER_P05",
+      "row_pair": [
+        "P05",
+        "P06"
+      ],
+      "edges": [
+        {
+          "lane": "LEFT_COLUMN4_TO5",
+          "edge_id": 1376,
+          "vertex_ids": [
+            294,
+            1519
+          ],
+          "incident_face_ids": [
+            1369,
+            1378
+          ],
+          "before_face_id": 1369,
+          "after_face_id": 1378
+        },
+        {
+          "lane": "RIGHT_COLUMN5_TO6",
+          "edge_id": 1377,
+          "vertex_ids": [
+            1519,
+            385
+          ],
+          "incident_face_ids": [
+            1370,
+            1377
+          ],
+          "before_face_id": 1370,
+          "after_face_id": 1377
+        }
+      ],
+      "deterministic_original_edges": true,
+      "surface_support": true,
+      "semantic_candidate_status": "NOT_ESTABLISHED",
+      "alternative_rejected_by_evidence": false,
+      "evidence_basis": [
+        "P06 is farther through the morphological turn, but P05 width maximum and P06 mean negative radial normal cannot prove P05 is the last digit-web row. No semantic event uniquely requires waiting to this cut."
+      ]
+    }
+  ],
+  "neighbor_stop_alternatives_rejected": false,
+  "equally_not_excluded_boundary_count": 3,
+  "P02_negative_control": {
+    "result": "FAIL",
+    "failure_type": "REQUIRED_EXCLUSION_NOT_PROVEN",
+    "digit_web_support": "PRESENT",
+    "basis": [
+      "P02 has stronger web-facing components and longitudinal digit-side continuation in both states.",
+      "But the proposed independent broader-interface proxy (flank-normal agreement) is already present here just as at later rows. No positive semantic criterion proves P02 remains outside broader context."
+    ],
+    "does_not_assert_P02_is_palm": true
+  },
+  "P06_negative_control": {
+    "result": "FAIL",
+    "failure_type": "REQUIRED_BROADER_ROLE_NOT_PROVEN",
+    "basis": [
+      "P06 is post-reversal and has negative mean tube-radial normal in both states.",
+      "RSSF retains circumferential transverse alignment and positive web-facing component; those cues alone cannot certify it as the first or established broader-interface side."
+    ],
+    "does_not_assert_P06_is_fully_digit_web": true
+  },
+  "topology_auxiliary": {
+    "all_patch_vertex_valences": [
+      4
+    ],
+    "all_row_incident_face_counts": 12,
+    "all_direct_neighbours_quads": true,
+    "new_branch_or_face_fan_event_in_P03_P05": false,
+    "incidence_checked_locally_only": true,
+    "used_as_authority": false
+  }
+}

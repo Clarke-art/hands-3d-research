@@ -1,0 +1,1349 @@
+{
+  "status": "FAIL_CLOSED",
+  "new_authority_created": false,
+  "proof_scope": "Approved exact-copy/write and strict static gates only; no anatomy or deformation assumptions",
+  "continuity_impossibility_witnesses": [
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 1130,
+      "vertices": [
+        303,
+        1396
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 0.34441208839416504,
+          "THUMB_IP_R": 0.655587911605835
+        },
+        {
+          "THUMB_MCP_R": 1.0
+        }
+      ],
+      "L_inf": 0.655587911605835,
+      "L1": 1.31117582321167,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 1137,
+      "vertices": [
+        1399,
+        304
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 1.0
+        },
+        {
+          "THUMB_MCP_R": 0.07572315633296967,
+          "THUMB_IP_R": 0.9242768287658691
+        }
+      ],
+      "L_inf": 0.9242768436670303,
+      "L1": 1.8485536724328995,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 1171,
+      "vertices": [
+        1416,
+        323
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.0004977296921424568,
+          "THUMB_CMC_R": 0.7487708926200867,
+          "THUMB_MCP_R": 0.25073134899139404
+        },
+        {
+          "THUMB_MCP_R": 0.9202364683151245,
+          "THUMB_CMC_R": 0.07976355403661728
+        }
+      ],
+      "L_inf": 0.6695051193237305,
+      "L1": 1.3390101875993423,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 1172,
+      "vertices": [
+        773,
+        1417
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.26674792170524597,
+          "THUMB_CMC_R": 0.7128391265869141,
+          "THUMB_MCP_R": 0.020412981510162354
+        },
+        {
+          "THUMB_MCP_R": 0.8051259517669678,
+          "WRIST_R": 0.05974683538079262,
+          "THUMB_CMC_R": 0.13512718677520752
+        }
+      ],
+      "L_inf": 0.7847129702568054,
+      "L1": 1.5694259963929653,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 1174,
+      "vertices": [
+        774,
+        1418
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.594572126865387,
+          "THUMB_CMC_R": 0.36039263010025024,
+          "THUMB_MCP_R": 0.04503524303436279
+        },
+        {
+          "THUMB_MCP_R": 0.8737607598304749,
+          "WRIST_R": 0.06912017613649368,
+          "THUMB_CMC_R": 0.05711906775832176
+        }
+      ],
+      "L_inf": 0.8287255167961121,
+      "L1": 1.6574510298669338,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 1176,
+      "vertices": [
+        775,
+        1419
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.52051842212677,
+          "THUMB_CMC_R": 0.32758936285972595,
+          "THUMB_MCP_R": 0.15189221501350403
+        },
+        {
+          "THUMB_MCP_R": 0.8511609435081482,
+          "WRIST_R": 0.07024319469928741,
+          "THUMB_CMC_R": 0.07859588414430618
+        }
+      ],
+      "L_inf": 0.6992687284946442,
+      "L1": 1.3985374346375465,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 1234,
+      "write_vertex": 338,
+      "immutable_vertex": 1448,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 1257,
+      "vertices": [
+        1459,
+        346
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 1.0
+        },
+        {
+          "WRIST_R": 0.022041967138648033,
+          "THUMB_MCP_R": 0.9779580235481262
+        }
+      ],
+      "L_inf": 0.977958032861352,
+      "L1": 1.9559160564094782,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 1269,
+      "write_vertex": 1465,
+      "immutable_vertex": 346,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.9779580235481262,
+      "minimum_possible_group_jump": 0.9779580235481262,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 1416,
+      "write_vertex": 1539,
+      "immutable_vertex": 346,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.9779580235481262,
+      "minimum_possible_group_jump": 0.9779580235481262,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 1438,
+      "write_vertex": 338,
+      "immutable_vertex": 1550,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 1440,
+      "write_vertex": 1551,
+      "immutable_vertex": 296,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 1555,
+      "vertices": [
+        1608,
+        436
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.12848730385303497,
+          "THUMB_CMC_R": 0.8715127110481262
+        },
+        {
+          "WRIST_R": 0.6676084399223328,
+          "THUMB_CMC_R": 0.33239153027534485
+        }
+      ],
+      "L_inf": 0.5391211807727814,
+      "L1": 1.0782423168420792,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 1692,
+      "write_vertex": 415,
+      "immutable_vertex": 1677,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 1698,
+      "write_vertex": 1680,
+      "immutable_vertex": 526,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 2206,
+      "write_vertex": 1934,
+      "immutable_vertex": 618,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.9319466352462769,
+      "minimum_possible_group_jump": 0.9319466352462769,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 2333,
+      "write_vertex": 473,
+      "immutable_vertex": 1997,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 2347,
+      "write_vertex": 2004,
+      "immutable_vertex": 618,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.9319466352462769,
+      "minimum_possible_group_jump": 0.9319466352462769,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 2367,
+      "write_vertex": 525,
+      "immutable_vertex": 2014,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 2368,
+      "write_vertex": 625,
+      "immutable_vertex": 2015,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 2370,
+      "vertices": [
+        296,
+        2016
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 1.0
+        },
+        {
+          "WRIST_R": 0.8062610030174255,
+          "THUMB_CMC_R": 0.19373901188373566
+        }
+      ],
+      "L_inf": 1.0,
+      "L1": 2.000000014901161,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 4417,
+      "vertices": [
+        2373,
+        2759
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.33425092697143555,
+          "THUMB_CMC_R": 0.44233399629592896,
+          "THUMB_MCP_R": 0.2234150618314743
+        },
+        {
+          "THUMB_MCP_R": 0.811119019985199,
+          "WRIST_R": 0.05803607031702995,
+          "THUMB_CMC_R": 0.1308448761701584
+        }
+      ],
+      "L_inf": 0.5877039581537247,
+      "L1": 1.1754079349339008,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 4421,
+      "vertices": [
+        2372,
+        2760
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.6209613680839539,
+          "THUMB_CMC_R": 0.29370763897895813,
+          "THUMB_MCP_R": 0.08533097803592682
+        },
+        {
+          "THUMB_MCP_R": 0.8767278790473938,
+          "WRIST_R": 0.06983427703380585,
+          "THUMB_CMC_R": 0.05343783274292946
+        }
+      ],
+      "L_inf": 0.791396901011467,
+      "L1": 1.5827937982976437,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 4425,
+      "vertices": [
+        2371,
+        2761
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.4633235037326813,
+          "THUMB_CMC_R": 0.5121200680732727,
+          "THUMB_MCP_R": 0.024556409567594528
+        },
+        {
+          "THUMB_MCP_R": 0.8530522584915161,
+          "WRIST_R": 0.06880480796098709,
+          "THUMB_CMC_R": 0.0781429260969162
+        }
+      ],
+      "L_inf": 0.8284958489239216,
+      "L1": 1.6569916866719723,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 4427,
+      "vertices": [
+        1366,
+        2762
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 0.960716962814331,
+          "WRIST_R": 0.0023229403886944056,
+          "THUMB_CMC_R": 0.03696010634303093
+        },
+        {
+          "WRIST_R": 0.09052883833646774,
+          "THUMB_CMC_R": 0.6934112906455994,
+          "THUMB_MCP_R": 0.2160598635673523
+        }
+      ],
+      "L_inf": 0.7446570992469788,
+      "L1": 1.4893141814973205,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 4428,
+      "vertices": [
+        1417,
+        2762
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 0.8051259517669678,
+          "WRIST_R": 0.05974683538079262,
+          "THUMB_CMC_R": 0.13512718677520752
+        },
+        {
+          "WRIST_R": 0.09052883833646774,
+          "THUMB_CMC_R": 0.6934112906455994,
+          "THUMB_MCP_R": 0.2160598635673523
+        }
+      ],
+      "L_inf": 0.5890660881996155,
+      "L1": 1.1781321950256824,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 4431,
+      "vertices": [
+        1434,
+        2763
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 0.8806963562965393,
+          "THUMB_CMC_R": 0.1193036288022995
+        },
+        {
+          "THUMB_CMC_R": 0.6856157183647156,
+          "THUMB_MCP_R": 0.3143842816352844
+        }
+      ],
+      "L_inf": 0.5663120895624161,
+      "L1": 1.132624164223671,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 4474,
+      "vertices": [
+        1397,
+        2774
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 0.3288658559322357,
+          "THUMB_IP_R": 0.6711341142654419
+        },
+        {
+          "THUMB_MCP_R": 1.0
+        }
+      ],
+      "L_inf": 0.6711341440677643,
+      "L1": 1.3422682583332062,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4770,
+      "write_vertex": 1680,
+      "immutable_vertex": 2848,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.9989795088768005,
+      "minimum_possible_group_jump": 0.9989795088768005,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4772,
+      "write_vertex": 1994,
+      "immutable_vertex": 2848,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.9989795088768005,
+      "minimum_possible_group_jump": 0.9989795088768005,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4773,
+      "write_vertex": 1978,
+      "immutable_vertex": 2848,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.9989795088768005,
+      "minimum_possible_group_jump": 0.9989795088768005,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4810,
+      "write_vertex": 1680,
+      "immutable_vertex": 2858,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.7379348874092102,
+      "minimum_possible_group_jump": 0.7379348874092102,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4811,
+      "write_vertex": 1968,
+      "immutable_vertex": 2858,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.7379348874092102,
+      "minimum_possible_group_jump": 0.7379348874092102,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4812,
+      "write_vertex": 1681,
+      "immutable_vertex": 2858,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 0.7379348874092102,
+      "minimum_possible_group_jump": 0.7379348874092102,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 4881,
+      "vertices": [
+        1609,
+        2875
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.5962405800819397,
+          "THUMB_CMC_R": 0.4037594199180603
+        },
+        {
+          "WRIST_R": 0.06726330518722534,
+          "THUMB_CMC_R": 0.9327366948127747
+        }
+      ],
+      "L_inf": 0.5289772748947144,
+      "L1": 1.0579545497894287,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4946,
+      "write_vertex": 2892,
+      "immutable_vertex": 1550,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4947,
+      "write_vertex": 2892,
+      "immutable_vertex": 1997,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 4965,
+      "write_vertex": 2896,
+      "immutable_vertex": 1460,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 5474,
+      "vertices": [
+        1842,
+        3024
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "WRIST_R": 0.7872024774551392,
+          "THUMB_CMC_R": 0.21279755234718323
+        },
+        {
+          "WRIST_R": 0.27506306767463684,
+          "THUMB_CMC_R": 0.7249369621276855
+        }
+      ],
+      "L_inf": 0.5121394097805023,
+      "L1": 1.0242788195610046,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 5797,
+      "write_vertex": 3104,
+      "immutable_vertex": 1997,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 5926,
+      "write_vertex": 3137,
+      "immutable_vertex": 1677,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 5927,
+      "write_vertex": 3137,
+      "immutable_vertex": 2014,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 5930,
+      "write_vertex": 3138,
+      "immutable_vertex": 2015,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "FORBIDDEN_GROUP_ZERO_VS_IMMUTABLE_NEIGHBOR",
+      "edge_id": 5931,
+      "write_vertex": 3138,
+      "immutable_vertex": 1677,
+      "group": "THUMB_MCP_R",
+      "required_write_weight": 0,
+      "immutable_neighbor_weight": 1.0,
+      "minimum_possible_group_jump": 1.0,
+      "gate_limit": 0.5,
+      "proof": "Approved side/wrapper forbids this group at the write vertex; immutable neighbor has the shown fixed positive weight. Every legal candidate exceeds the group jump gate, regardless of solver/parameters."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 6022,
+      "vertices": [
+        1460,
+        3161
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 1.0
+        },
+        {
+          "WRIST_R": 0.9770240783691406,
+          "THUMB_CMC_R": 0.02297591045498848
+        }
+      ],
+      "L_inf": 1.0,
+      "L1": 1.999999988824129,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_EDGE_EXCEEDS_APPROVED_GATE",
+      "edge_id": 6028,
+      "vertices": [
+        1448,
+        3162
+      ],
+      "immutable_endpoint_vectors": [
+        {
+          "THUMB_MCP_R": 1.0
+        },
+        {
+          "WRIST_R": 0.3336750864982605,
+          "THUMB_CMC_R": 0.28838613629341125,
+          "THUMB_MCP_R": 0.37793877720832825
+        }
+      ],
+      "L_inf": 0.6220612227916718,
+      "L1": 1.2441224455833435,
+      "proof": "Both endpoints outside244 must remain exact R1B copies. Therefore no legal244-only reconstruction can change this edge metric."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 383,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "RING_MCP_R": 2.3679049832026067e-08,
+        "LITTLE_MCP_R": 1.3688519118204567e-07
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 384,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.5667285097629176e-11,
+        "LITTLE_MCP_R": 5.077551157306459e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 420,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.805022157938765e-08,
+        "RING_MCP_R": 1.7120175277440808e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 421,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.632995179079444e-07
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 433,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 8.467926360111733e-10,
+        "RING_MCP_R": 1.0112272998130667e-11
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 629,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.4931962861483044e-07
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 713,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.356263901186594e-08,
+        "LITTLE_MCP_R": 5.9624398751623175e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 714,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 2.2600744387091254e-08,
+        "RING_MCP_R": 1.8837789106385117e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 715,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 6.217330122959552e-11,
+        "LITTLE_MCP_R": 3.410051754859644e-11
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 716,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.8990084504899585e-10,
+        "LITTLE_MCP_R": 6.6055984467017215e-12
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 719,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.1722135543864361e-14,
+        "LITTLE_MCP_R": 3.911630708249269e-16
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 805,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.4451125842848689e-12,
+        "LITTLE_MCP_R": 4.8049221258684646e-14
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 806,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.481218185154595e-13,
+        "LITTLE_MCP_R": 2.4460061797196286e-13
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 1514,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 5.539292913248062e-10,
+        "LITTLE_MCP_R": 6.428609200526125e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 1572,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 8.297757148056917e-08,
+        "RING_MCP_R": 2.115076558339979e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 1574,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 8.775348305789521e-07,
+        "RING_MCP_R": 2.5951171878091372e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 1576,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.5418526067587663e-07
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 1593,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.0045448795590346e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 1600,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 2.074431515453057e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 1601,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 6.393380935776349e-09,
+        "RING_MCP_R": 1.322710135864824e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 1602,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.0913331349726718e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2018,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 2.3935351478598932e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2032,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.4208940746793814e-07,
+        "RING_MCP_R": 2.0215136231627184e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2055,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.8904926213945146e-07
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2214,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 2.611704417176952e-07,
+        "RING_MCP_R": 1.1995275883691647e-07
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2215,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.7351583281310923e-08,
+        "RING_MCP_R": 2.5037980577735652e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2216,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 2.4895561523408105e-07,
+        "RING_MCP_R": 3.375471635536087e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2221,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 9.915429588502889e-11,
+        "LITTLE_MCP_R": 1.2577051379525361e-11
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2222,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 2.1268951044817186e-09,
+        "RING_MCP_R": 1.0474836276141986e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2223,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 7.728259698858153e-10,
+        "LITTLE_MCP_R": 4.0872019657633984e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2224,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 5.709254480312266e-15,
+        "LITTLE_MCP_R": 8.235312240393417e-16
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2227,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 8.628687575988115e-16,
+        "LITTLE_MCP_R": 2.728715150654626e-17
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2230,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.7123972378962904e-11,
+        "LITTLE_MCP_R": 5.87263798788179e-13
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2231,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.642868121212951e-14,
+        "LITTLE_MCP_R": 2.773336471768601e-14
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2306,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.205154287475807e-08,
+        "LITTLE_MCP_R": 2.1750336642867296e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2307,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.0848195109456356e-08,
+        "RING_MCP_R": 1.6309920081170048e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2308,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.8721251205409146e-10,
+        "RING_MCP_R": 6.822533857309132e-12
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2309,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.885524887947689e-11,
+        "LITTLE_MCP_R": 1.0521773036176185e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2425,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.3108481314305642e-13,
+        "LITTLE_MCP_R": 4.338046205077956e-15
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2426,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.931382992928723e-12,
+        "LITTLE_MCP_R": 2.7586444413529865e-12
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2431,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 6.388117031880247e-13,
+        "LITTLE_MCP_R": 8.29030854382351e-14
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2432,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.191357764332659e-12,
+        "LITTLE_MCP_R": 3.823589394321564e-14
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2847,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.10790672311645e-12,
+        "LITTLE_MCP_R": 1.1239478098223898e-11
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2849,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.4901099787987278e-09,
+        "RING_MCP_R": 1.0850143006280177e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2857,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.132941905377052e-11,
+        "RING_MCP_R": 4.1088597910361735e-13
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2867,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 6.073528346917101e-10,
+        "LITTLE_MCP_R": 1.4456957853070662e-09
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 2868,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.3432345014052771e-08,
+        "RING_MCP_R": 1.9894524916352907e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 3134,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 3.5340013937457115e-07,
+        "LITTLE_MCP_R": 3.797734677846165e-07
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 3142,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 2.697613297186763e-07,
+        "RING_MCP_R": 2.3640463808760614e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 3146,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 5.092729793432227e-07,
+        "RING_MCP_R": 2.1322897225672932e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 3211,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 2.577797033609386e-07,
+        "RING_MCP_R": 6.218231618504433e-08
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 3213,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 1.3658472131083954e-09,
+        "LITTLE_MCP_R": 1.6962506399487154e-10
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 3216,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 8.147460137108986e-12,
+        "LITTLE_MCP_R": 1.0513540992657111e-12
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 3271,
+      "classification": "SAFE_REUSE",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 6.044709681797891e-14,
+        "LITTLE_MCP_R": 8.262559913878049e-15
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    },
+    {
+      "type": "IMMUTABLE_FORBIDDEN_POSITIVE_WEIGHT",
+      "vertex_id": 3272,
+      "classification": "TARGETED_REVALIDATION",
+      "forbidden_groups": {
+        "MIDDLE_MCP_R": 4.3647268958835195e-13,
+        "LITTLE_MCP_R": 3.77335220903309e-15
+      },
+      "required_maximum": 0,
+      "proof": "Strict guard requires zero; approved exact-copy scope forbids removing even this historical micro-weight this round."
+    }
+  ],
+  "witness_count": 101,
+  "remedy_not_executed": "Would require later explicit write-scope/support/acceptance reconciliation or permitted qualification. No edits to current approval, membership, protected vectors or rig."
+}

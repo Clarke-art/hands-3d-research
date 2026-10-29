@@ -1,0 +1,3339 @@
+{
+  "task": "PIANO_CONTACT_STATE_MOTION_PLANNER_COMPARISON_R1",
+  "authority": "DESIGN_PROVISIONAL",
+  "contract_status": "CONTACT_STATE_CONTRACT_PASS",
+  "schema": "CONTACT_STATE_SCHEMA.json",
+  "clock_offset": 0.35,
+  "original_midi_sha256": "fd87a6673e18104047842a1c858d2c9d8eb9ad845d7a8fa46e3664b17642cb75",
+  "source_action_payloads": {
+    "46": "91809498e89c91770ae81ac8940af352a4d9812d4f7647ddd158ba4310a26f54",
+    "48": "8327bb4c1139481fef0638892b9f07d921fec2fab79643f372aea06b03f840c4",
+    "50": "2b5f4da74b6dbd1b8ad2bea2679defa7551646b5cf539c4092cc68e2fc347d5e",
+    "51": "44574f8d975cd3b2508a67fcb5af9e948cb8ec107ff9a1e4b694e6af5ceb78c7",
+    "53": "38db654321642cabcd88e7c8e933ebffd13693c930a9dcf376383d44b1786180",
+    "55": "11b7bc9c5e9b298e54cdb13a8ca402c27effdcd0b6089b4889535f1e32bb5e75",
+    "57": "6dbad9deb696a3f94fd4273ca5076496b883d5928065219c06de061b7f77130e",
+    "58": "cf8f587ecd15a9b729dba3ec5d291bec91a803682df29776d327006f81f6b817",
+    "34": "892f3e197d40e61530a6a75f7327ae3d91b464facfbcb5745aee29d6cc3beccf",
+    "36": "2526744fcb26807ed7a8a0978d0fe156c8799c2933c5068a64debaa28db270d5",
+    "38": "b660596180c4b61f3bbfcd8bfbaf45b5b0f9c00b5839f8e21f1aecade0369dc4",
+    "39": "6456b4f07f3c2521367ad1a802daf3330a23b180eb369237259db58b5816832c",
+    "41": "892f3e197d40e61530a6a75f7327ae3d91b464facfbcb5745aee29d6cc3beccf"
+  },
+  "core_sequence": [
+    {
+      "episode_id": "R07:APPROACH",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "APPROACH",
+      "display_interval": [
+        2.064284,
+        2.492855
+      ],
+      "music_interval": [
+        1.7142839999999997,
+        2.142855
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R07:PRESS",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "PRESS",
+      "display_interval": [
+        2.492855,
+        2.5278549194335938
+      ],
+      "music_interval": [
+        2.142855,
+        2.1778549194335937
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R07:HOLD",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "HOLD",
+      "display_interval": [
+        2.5278549194335938,
+        2.9214260000000003
+      ],
+      "music_interval": [
+        2.1778549194335937,
+        2.571426
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R07:RELEASE",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "RELEASE",
+      "display_interval": [
+        2.9214260000000003,
+        2.9914260864257813
+      ],
+      "music_interval": [
+        2.571426,
+        2.6414260864257812
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R08:APPROACH",
+      "note_id": "R08",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "APPROACH",
+      "display_interval": [
+        2.492855,
+        2.9214260000000003
+      ],
+      "music_interval": [
+        2.142855,
+        2.571426
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        2304,
+        2688
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R08:PRESS",
+      "note_id": "R08",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "PRESS",
+      "display_interval": [
+        2.9214260000000003,
+        2.956425984700521
+      ],
+      "music_interval": [
+        2.571426,
+        2.606425984700521
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        2304,
+        2688
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R08:HOLD",
+      "note_id": "R08",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "HOLD",
+      "display_interval": [
+        2.956425984700521,
+        3.349997
+      ],
+      "music_interval": [
+        2.606425984700521,
+        2.999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        2304,
+        2688
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R08:RELEASE",
+      "note_id": "R08",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "RELEASE",
+      "display_interval": [
+        3.349997,
+        3.419996897379557
+      ],
+      "music_interval": [
+        2.999997,
+        3.069996897379557
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        2304,
+        2688
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    }
+  ],
+  "atomic_exchange": {
+    "display_time": 2.9214260000000003,
+    "remove_required": [
+      "R07:HOLD"
+    ],
+    "add_required": [
+      "R08:PRESS"
+    ],
+    "G4_recovery_until": 2.991426,
+    "E5_full_press_at": 2.956426,
+    "both_keys_required_for_entire_exchange": false,
+    "instantaneous_geometric_double_touch_may_follow_from_continuity": true,
+    "continuous_boundary_configuration": "UNVERIFIED; P3 checks new-contact mode only"
+  },
+  "discrete_test_contract": {
+    "P1": {
+      "time": 2.527855,
+      "required": [
+        {
+          "note": "R07",
+          "finger": 1,
+          "midi": 67
+        }
+      ],
+      "source": "B2"
+    },
+    "P2": {
+      "time": 2.72,
+      "required": [
+        {
+          "note": "R07",
+          "finger": 1,
+          "midi": 67
+        }
+      ],
+      "preparation": "3mm wrist/root X displacement diagnostic; E5 exact suspension not required"
+    },
+    "P3": {
+      "time": 2.921426,
+      "required": [
+        {
+          "note": "R08",
+          "finger": 3,
+          "midi": 76
+        }
+      ],
+      "G4": "RELEASE; no hold obligation, no key obstruction",
+      "left_limit_compatibility": "NOT_PROVEN"
+    },
+    "P4": {
+      "time": 2.956426,
+      "required": [
+        {
+          "note": "R08",
+          "finger": 3,
+          "midi": 76
+        }
+      ]
+    }
+  },
+  "mechanical_warnings": [
+    {
+      "note_id": "R06",
+      "kind": "RETRIGGER_WITHOUT_FULL_KEY_RESET",
+      "at": 2.492855,
+      "angle_rad": 0.03659174645486593,
+      "mechanical_reset_unproven": true
+    },
+    {
+      "note_id": "R14",
+      "kind": "RETRIGGER_WITHOUT_FULL_KEY_RESET",
+      "at": 5.064280999999999,
+      "angle_rad": 0.03659177926098596,
+      "mechanical_reset_unproven": true
+    }
+  ],
+  "all_source_sequence": [
+    {
+      "episode_id": "R00:APPROACH",
+      "note_id": "R00",
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "APPROACH",
+      "display_interval": [
+        0.0,
+        0.35
+      ],
+      "music_interval": [
+        -0.35,
+        0.0
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        0,
+        384
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R00:PRESS",
+      "note_id": "R00",
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "PRESS",
+      "display_interval": [
+        0.35,
+        0.3850000063578288
+      ],
+      "music_interval": [
+        0.0,
+        0.035000006357828795
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        0,
+        384
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R00:HOLD",
+      "note_id": "R00",
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "HOLD",
+      "display_interval": [
+        0.3850000063578288,
+        0.7785709999999999
+      ],
+      "music_interval": [
+        0.035000006357828795,
+        0.4285709999999999
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        0,
+        384
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R00:RELEASE",
+      "note_id": "R00",
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "RELEASE",
+      "display_interval": [
+        0.7785709999999999,
+        0.8485710144042968
+      ],
+      "music_interval": [
+        0.4285709999999999,
+        0.49857101440429685
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        0,
+        384
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L00:APPROACH",
+      "note_id": "L00",
+      "hand": "L",
+      "finger": 5,
+      "midi": 55,
+      "key_index": 34,
+      "mode": "APPROACH",
+      "display_interval": [
+        0.0,
+        0.35
+      ],
+      "music_interval": [
+        -0.35,
+        0.0
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "L00:PRESS",
+      "note_id": "L00",
+      "hand": "L",
+      "finger": 5,
+      "midi": 55,
+      "key_index": 34,
+      "mode": "PRESS",
+      "display_interval": [
+        0.35,
+        0.3850000063578288
+      ],
+      "music_interval": [
+        0.0,
+        0.035000006357828795
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L00:HOLD",
+      "note_id": "L00",
+      "hand": "L",
+      "finger": 5,
+      "midi": 55,
+      "key_index": 34,
+      "mode": "HOLD",
+      "display_interval": [
+        0.3850000063578288,
+        1.207142
+      ],
+      "music_interval": [
+        0.035000006357828795,
+        0.857142
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L00:RELEASE",
+      "note_id": "L00",
+      "hand": "L",
+      "finger": 5,
+      "midi": 55,
+      "key_index": 34,
+      "mode": "RELEASE",
+      "display_interval": [
+        1.207142,
+        1.2771419525146483
+      ],
+      "music_interval": [
+        0.857142,
+        0.9271419525146484
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L01:APPROACH",
+      "note_id": "L01",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "APPROACH",
+      "display_interval": [
+        0.0,
+        0.35
+      ],
+      "music_interval": [
+        -0.35,
+        0.0
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "L01:PRESS",
+      "note_id": "L01",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "PRESS",
+      "display_interval": [
+        0.35,
+        0.3850000063578288
+      ],
+      "music_interval": [
+        0.0,
+        0.035000006357828795
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L01:HOLD",
+      "note_id": "L01",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "HOLD",
+      "display_interval": [
+        0.3850000063578288,
+        1.207142
+      ],
+      "music_interval": [
+        0.035000006357828795,
+        0.857142
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L01:RELEASE",
+      "note_id": "L01",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "RELEASE",
+      "display_interval": [
+        1.207142,
+        1.2771419525146483
+      ],
+      "music_interval": [
+        0.857142,
+        0.9271419525146484
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L02:APPROACH",
+      "note_id": "L02",
+      "hand": "L",
+      "finger": 1,
+      "midi": 62,
+      "key_index": 41,
+      "mode": "APPROACH",
+      "display_interval": [
+        0.0,
+        0.35
+      ],
+      "music_interval": [
+        -0.35,
+        0.0
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "L02:PRESS",
+      "note_id": "L02",
+      "hand": "L",
+      "finger": 1,
+      "midi": 62,
+      "key_index": 41,
+      "mode": "PRESS",
+      "display_interval": [
+        0.35,
+        0.3850000063578288
+      ],
+      "music_interval": [
+        0.0,
+        0.035000006357828795
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L02:HOLD",
+      "note_id": "L02",
+      "hand": "L",
+      "finger": 1,
+      "midi": 62,
+      "key_index": 41,
+      "mode": "HOLD",
+      "display_interval": [
+        0.3850000063578288,
+        1.207142
+      ],
+      "music_interval": [
+        0.035000006357828795,
+        0.857142
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L02:RELEASE",
+      "note_id": "L02",
+      "hand": "L",
+      "finger": 1,
+      "midi": 62,
+      "key_index": 41,
+      "mode": "RELEASE",
+      "display_interval": [
+        1.207142,
+        1.2771419525146483
+      ],
+      "music_interval": [
+        0.857142,
+        0.9271419525146484
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        0,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R01:APPROACH",
+      "note_id": "R01",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "APPROACH",
+      "display_interval": [
+        0.35,
+        0.7785709999999999
+      ],
+      "music_interval": [
+        0.0,
+        0.4285709999999999
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        384,
+        576
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R01:PRESS",
+      "note_id": "R01",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "PRESS",
+      "display_interval": [
+        0.7785709999999999,
+        0.8135709762573242
+      ],
+      "music_interval": [
+        0.4285709999999999,
+        0.46357097625732424
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        384,
+        576
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R01:HOLD",
+      "note_id": "R01",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "HOLD",
+      "display_interval": [
+        0.8135709762573242,
+        0.9928565
+      ],
+      "music_interval": [
+        0.46357097625732424,
+        0.6428565
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        384,
+        576
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R01:RELEASE",
+      "note_id": "R01",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "RELEASE",
+      "display_interval": [
+        0.9928565,
+        1.0628565470377604
+      ],
+      "music_interval": [
+        0.6428565,
+        0.7128565470377605
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        384,
+        576
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R02:APPROACH",
+      "note_id": "R02",
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "key_index": 48,
+      "mode": "APPROACH",
+      "display_interval": [
+        0.7785709999999999,
+        0.9928565
+      ],
+      "music_interval": [
+        0.4285709999999999,
+        0.6428565
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        576,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R02:PRESS",
+      "note_id": "R02",
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "key_index": 48,
+      "mode": "PRESS",
+      "display_interval": [
+        0.9928565,
+        1.0278565088907878
+      ],
+      "music_interval": [
+        0.6428565,
+        0.6778565088907879
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        576,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R02:HOLD",
+      "note_id": "R02",
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "key_index": 48,
+      "mode": "HOLD",
+      "display_interval": [
+        1.0278565088907878,
+        1.207142
+      ],
+      "music_interval": [
+        0.6778565088907879,
+        0.857142
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        576,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R02:RELEASE",
+      "note_id": "R02",
+      "hand": "R",
+      "finger": 2,
+      "midi": 69,
+      "key_index": 48,
+      "mode": "RELEASE",
+      "display_interval": [
+        1.207142,
+        1.2771419525146483
+      ],
+      "music_interval": [
+        0.857142,
+        0.9271419525146484
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        576,
+        768
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R03:APPROACH",
+      "note_id": "R03",
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "key_index": 50,
+      "mode": "APPROACH",
+      "display_interval": [
+        0.9928565,
+        1.207142
+      ],
+      "music_interval": [
+        0.6428565,
+        0.857142
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        768,
+        960
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R03:PRESS",
+      "note_id": "R03",
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "key_index": 50,
+      "mode": "PRESS",
+      "display_interval": [
+        1.207142,
+        1.2421419779459635
+      ],
+      "music_interval": [
+        0.857142,
+        0.8921419779459635
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        768,
+        960
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R03:HOLD",
+      "note_id": "R03",
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "key_index": 50,
+      "mode": "HOLD",
+      "display_interval": [
+        1.2421419779459635,
+        1.4214275
+      ],
+      "music_interval": [
+        0.8921419779459635,
+        1.0714275
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        768,
+        960
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R03:RELEASE",
+      "note_id": "R03",
+      "hand": "R",
+      "finger": 3,
+      "midi": 71,
+      "key_index": 50,
+      "mode": "RELEASE",
+      "display_interval": [
+        1.4214275,
+        1.491427485148112
+      ],
+      "music_interval": [
+        1.0714275,
+        1.141427485148112
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        768,
+        960
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L03:APPROACH",
+      "note_id": "L03",
+      "hand": "L",
+      "finger": 4,
+      "midi": 57,
+      "key_index": 36,
+      "mode": "APPROACH",
+      "display_interval": [
+        0.35,
+        1.207142
+      ],
+      "music_interval": [
+        0.0,
+        0.857142
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        768,
+        1152
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "L03:PRESS",
+      "note_id": "L03",
+      "hand": "L",
+      "finger": 4,
+      "midi": 57,
+      "key_index": 36,
+      "mode": "PRESS",
+      "display_interval": [
+        1.207142,
+        1.2421419779459635
+      ],
+      "music_interval": [
+        0.857142,
+        0.8921419779459635
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        768,
+        1152
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L03:HOLD",
+      "note_id": "L03",
+      "hand": "L",
+      "finger": 4,
+      "midi": 57,
+      "key_index": 36,
+      "mode": "HOLD",
+      "display_interval": [
+        1.2421419779459635,
+        1.635713
+      ],
+      "music_interval": [
+        0.8921419779459635,
+        1.2857129999999999
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        768,
+        1152
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L03:RELEASE",
+      "note_id": "L03",
+      "hand": "L",
+      "finger": 4,
+      "midi": 57,
+      "key_index": 36,
+      "mode": "RELEASE",
+      "display_interval": [
+        1.635713,
+        1.7057130177815756
+      ],
+      "music_interval": [
+        1.2857129999999999,
+        1.3557130177815755
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        768,
+        1152
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R04:APPROACH",
+      "note_id": "R04",
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "key_index": 51,
+      "mode": "APPROACH",
+      "display_interval": [
+        1.207142,
+        1.4214275
+      ],
+      "music_interval": [
+        0.857142,
+        1.0714275
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        960,
+        1152
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R04:PRESS",
+      "note_id": "R04",
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "key_index": 51,
+      "mode": "PRESS",
+      "display_interval": [
+        1.4214275,
+        1.456427510579427
+      ],
+      "music_interval": [
+        1.0714275,
+        1.1064275105794272
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        960,
+        1152
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R04:HOLD",
+      "note_id": "R04",
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "key_index": 51,
+      "mode": "HOLD",
+      "display_interval": [
+        1.456427510579427,
+        1.635713
+      ],
+      "music_interval": [
+        1.1064275105794272,
+        1.2857129999999999
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        960,
+        1152
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R04:RELEASE",
+      "note_id": "R04",
+      "hand": "R",
+      "finger": 4,
+      "midi": 72,
+      "key_index": 51,
+      "mode": "RELEASE",
+      "display_interval": [
+        1.635713,
+        1.7057130177815756
+      ],
+      "music_interval": [
+        1.2857129999999999,
+        1.3557130177815755
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        960,
+        1152
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R05:APPROACH",
+      "note_id": "R05",
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "APPROACH",
+      "display_interval": [
+        1.4214275,
+        1.635713
+      ],
+      "music_interval": [
+        1.0714275,
+        1.2857129999999999
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        1152,
+        1536
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R05:PRESS",
+      "note_id": "R05",
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "PRESS",
+      "display_interval": [
+        1.635713,
+        1.6707130432128907
+      ],
+      "music_interval": [
+        1.2857129999999999,
+        1.3207130432128906
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        1152,
+        1536
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R05:HOLD",
+      "note_id": "R05",
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "HOLD",
+      "display_interval": [
+        1.6707130432128907,
+        2.064284
+      ],
+      "music_interval": [
+        1.3207130432128906,
+        1.7142839999999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        1152,
+        1536
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R05:RELEASE",
+      "note_id": "R05",
+      "hand": "R",
+      "finger": 5,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "RELEASE",
+      "display_interval": [
+        2.064284,
+        2.134283955891927
+      ],
+      "music_interval": [
+        1.7142839999999997,
+        1.7842839558919268
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        1152,
+        1536
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L04:APPROACH",
+      "note_id": "L04",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "APPROACH",
+      "display_interval": [
+        1.207142,
+        1.635713
+      ],
+      "music_interval": [
+        0.857142,
+        1.2857129999999999
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        1152,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "L04:PRESS",
+      "note_id": "L04",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "PRESS",
+      "display_interval": [
+        1.635713,
+        1.6707130432128907
+      ],
+      "music_interval": [
+        1.2857129999999999,
+        1.3207130432128906
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        1152,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L04:HOLD",
+      "note_id": "L04",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "HOLD",
+      "display_interval": [
+        1.6707130432128907,
+        2.9214260000000003
+      ],
+      "music_interval": [
+        1.3207130432128906,
+        2.571426
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        1152,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L04:RELEASE",
+      "note_id": "L04",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "RELEASE",
+      "display_interval": [
+        2.9214260000000003,
+        2.9914260864257813
+      ],
+      "music_interval": [
+        2.571426,
+        2.6414260864257812
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        1152,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R06:APPROACH",
+      "note_id": "R06",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "APPROACH",
+      "display_interval": [
+        1.635713,
+        2.064284
+      ],
+      "music_interval": [
+        1.2857129999999999,
+        1.7142839999999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        1536,
+        1920
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R06:PRESS",
+      "note_id": "R06",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "PRESS",
+      "display_interval": [
+        2.064284,
+        2.099283981323242
+      ],
+      "music_interval": [
+        1.7142839999999997,
+        1.749283981323242
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        1536,
+        1920
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R06:HOLD",
+      "note_id": "R06",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "HOLD",
+      "display_interval": [
+        2.099283981323242,
+        2.492855
+      ],
+      "music_interval": [
+        1.749283981323242,
+        2.142855
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        1536,
+        1920
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R07:APPROACH",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "APPROACH",
+      "display_interval": [
+        2.064284,
+        2.492855
+      ],
+      "music_interval": [
+        1.7142839999999997,
+        2.142855
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R07:PRESS",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "PRESS",
+      "display_interval": [
+        2.492855,
+        2.5278549194335938
+      ],
+      "music_interval": [
+        2.142855,
+        2.1778549194335937
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R07:HOLD",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "HOLD",
+      "display_interval": [
+        2.5278549194335938,
+        2.9214260000000003
+      ],
+      "music_interval": [
+        2.1778549194335937,
+        2.571426
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R07:RELEASE",
+      "note_id": "R07",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "RELEASE",
+      "display_interval": [
+        2.9214260000000003,
+        2.9914260864257813
+      ],
+      "music_interval": [
+        2.571426,
+        2.6414260864257812
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        1920,
+        2304
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R08:APPROACH",
+      "note_id": "R08",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "APPROACH",
+      "display_interval": [
+        2.492855,
+        2.9214260000000003
+      ],
+      "music_interval": [
+        2.142855,
+        2.571426
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        2304,
+        2688
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R08:PRESS",
+      "note_id": "R08",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "PRESS",
+      "display_interval": [
+        2.9214260000000003,
+        2.956425984700521
+      ],
+      "music_interval": [
+        2.571426,
+        2.606425984700521
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        2304,
+        2688
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R08:HOLD",
+      "note_id": "R08",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "HOLD",
+      "display_interval": [
+        2.956425984700521,
+        3.349997
+      ],
+      "music_interval": [
+        2.606425984700521,
+        2.999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        2304,
+        2688
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R08:RELEASE",
+      "note_id": "R08",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "RELEASE",
+      "display_interval": [
+        3.349997,
+        3.419996897379557
+      ],
+      "music_interval": [
+        2.999997,
+        3.069996897379557
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        2304,
+        2688
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L05:APPROACH",
+      "note_id": "L05",
+      "hand": "L",
+      "finger": 2,
+      "midi": 60,
+      "key_index": 39,
+      "mode": "APPROACH",
+      "display_interval": [
+        1.635713,
+        2.9214260000000003
+      ],
+      "music_interval": [
+        1.2857129999999999,
+        2.571426
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        2304,
+        3456
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "L05:PRESS",
+      "note_id": "L05",
+      "hand": "L",
+      "finger": 2,
+      "midi": 60,
+      "key_index": 39,
+      "mode": "PRESS",
+      "display_interval": [
+        2.9214260000000003,
+        2.956425984700521
+      ],
+      "music_interval": [
+        2.571426,
+        2.606425984700521
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        2304,
+        3456
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L05:HOLD",
+      "note_id": "L05",
+      "hand": "L",
+      "finger": 2,
+      "midi": 60,
+      "key_index": 39,
+      "mode": "HOLD",
+      "display_interval": [
+        2.956425984700521,
+        4.207139
+      ],
+      "music_interval": [
+        2.606425984700521,
+        3.8571389999999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        2304,
+        3456
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L05:RELEASE",
+      "note_id": "L05",
+      "hand": "L",
+      "finger": 2,
+      "midi": 60,
+      "key_index": 39,
+      "mode": "RELEASE",
+      "display_interval": [
+        4.207139,
+        4.27713877360026
+      ],
+      "music_interval": [
+        3.8571389999999997,
+        3.92713877360026
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        2304,
+        3456
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R09:APPROACH",
+      "note_id": "R09",
+      "hand": "R",
+      "finger": 1,
+      "midi": 72,
+      "key_index": 51,
+      "mode": "APPROACH",
+      "display_interval": [
+        2.9214260000000003,
+        3.349997
+      ],
+      "music_interval": [
+        2.571426,
+        2.999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        2688,
+        2880
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R09:PRESS",
+      "note_id": "R09",
+      "hand": "R",
+      "finger": 1,
+      "midi": 72,
+      "key_index": 51,
+      "mode": "PRESS",
+      "display_interval": [
+        3.349997,
+        3.3849970499674478
+      ],
+      "music_interval": [
+        2.999997,
+        3.0349970499674477
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        2688,
+        2880
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R09:HOLD",
+      "note_id": "R09",
+      "hand": "R",
+      "finger": 1,
+      "midi": 72,
+      "key_index": 51,
+      "mode": "HOLD",
+      "display_interval": [
+        3.3849970499674478,
+        3.5642825
+      ],
+      "music_interval": [
+        3.0349970499674477,
+        3.2142825
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        2688,
+        2880
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R09:RELEASE",
+      "note_id": "R09",
+      "hand": "R",
+      "finger": 1,
+      "midi": 72,
+      "key_index": 51,
+      "mode": "RELEASE",
+      "display_interval": [
+        3.5642825,
+        3.634282430013021
+      ],
+      "music_interval": [
+        3.2142825,
+        3.284282430013021
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        2688,
+        2880
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R10:APPROACH",
+      "note_id": "R10",
+      "hand": "R",
+      "finger": 2,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "APPROACH",
+      "display_interval": [
+        3.349997,
+        3.5642825
+      ],
+      "music_interval": [
+        2.999997,
+        3.2142825
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        2880,
+        3072
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R10:PRESS",
+      "note_id": "R10",
+      "hand": "R",
+      "finger": 2,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "PRESS",
+      "display_interval": [
+        3.5642825,
+        3.5992825826009116
+      ],
+      "music_interval": [
+        3.2142825,
+        3.2492825826009115
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        2880,
+        3072
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R10:HOLD",
+      "note_id": "R10",
+      "hand": "R",
+      "finger": 2,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "HOLD",
+      "display_interval": [
+        3.5992825826009116,
+        3.778568
+      ],
+      "music_interval": [
+        3.2492825826009115,
+        3.428568
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        2880,
+        3072
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R10:RELEASE",
+      "note_id": "R10",
+      "hand": "R",
+      "finger": 2,
+      "midi": 74,
+      "key_index": 53,
+      "mode": "RELEASE",
+      "display_interval": [
+        3.778568,
+        3.8485679626464844
+      ],
+      "music_interval": [
+        3.428568,
+        3.4985679626464843
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        2880,
+        3072
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R11:APPROACH",
+      "note_id": "R11",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "APPROACH",
+      "display_interval": [
+        3.5642825,
+        3.778568
+      ],
+      "music_interval": [
+        3.2142825,
+        3.428568
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        3072,
+        3264
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R11:PRESS",
+      "note_id": "R11",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "PRESS",
+      "display_interval": [
+        3.778568,
+        3.813568115234375
+      ],
+      "music_interval": [
+        3.428568,
+        3.463568115234375
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        3072,
+        3264
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R11:HOLD",
+      "note_id": "R11",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "HOLD",
+      "display_interval": [
+        3.813568115234375,
+        3.9928535000000003
+      ],
+      "music_interval": [
+        3.463568115234375,
+        3.6428535
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        3072,
+        3264
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R11:RELEASE",
+      "note_id": "R11",
+      "hand": "R",
+      "finger": 3,
+      "midi": 76,
+      "key_index": 55,
+      "mode": "RELEASE",
+      "display_interval": [
+        3.9928535000000003,
+        4.062853495279948
+      ],
+      "music_interval": [
+        3.6428535,
+        3.712853495279948
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        3072,
+        3264
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R12:APPROACH",
+      "note_id": "R12",
+      "hand": "R",
+      "finger": 4,
+      "midi": 78,
+      "key_index": 57,
+      "mode": "APPROACH",
+      "display_interval": [
+        3.778568,
+        3.9928535000000003
+      ],
+      "music_interval": [
+        3.428568,
+        3.6428535
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        3264,
+        3456
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R12:PRESS",
+      "note_id": "R12",
+      "hand": "R",
+      "finger": 4,
+      "midi": 78,
+      "key_index": 57,
+      "mode": "PRESS",
+      "display_interval": [
+        3.9928535000000003,
+        4.027853393554688
+      ],
+      "music_interval": [
+        3.6428535,
+        3.6778533935546878
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        3264,
+        3456
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R12:HOLD",
+      "note_id": "R12",
+      "hand": "R",
+      "finger": 4,
+      "midi": 78,
+      "key_index": 57,
+      "mode": "HOLD",
+      "display_interval": [
+        4.027853393554688,
+        4.207139
+      ],
+      "music_interval": [
+        3.6778533935546878,
+        3.8571389999999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        3264,
+        3456
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R12:RELEASE",
+      "note_id": "R12",
+      "hand": "R",
+      "finger": 4,
+      "midi": 78,
+      "key_index": 57,
+      "mode": "RELEASE",
+      "display_interval": [
+        4.207139,
+        4.277139282226562
+      ],
+      "music_interval": [
+        3.8571389999999997,
+        3.927139282226562
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        3264,
+        3456
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R13:APPROACH",
+      "note_id": "R13",
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "key_index": 58,
+      "mode": "APPROACH",
+      "display_interval": [
+        3.9928535000000003,
+        4.207139
+      ],
+      "music_interval": [
+        3.6428535,
+        3.8571389999999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        3456,
+        3840
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R13:PRESS",
+      "note_id": "R13",
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "key_index": 58,
+      "mode": "PRESS",
+      "display_interval": [
+        4.207139,
+        4.242138926188151
+      ],
+      "music_interval": [
+        3.8571389999999997,
+        3.8921389261881507
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        3456,
+        3840
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R13:HOLD",
+      "note_id": "R13",
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "key_index": 58,
+      "mode": "HOLD",
+      "display_interval": [
+        4.242138926188151,
+        4.6357099999999996
+      ],
+      "music_interval": [
+        3.8921389261881507,
+        4.28571
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        3456,
+        3840
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R13:RELEASE",
+      "note_id": "R13",
+      "hand": "R",
+      "finger": 5,
+      "midi": 79,
+      "key_index": 58,
+      "mode": "RELEASE",
+      "display_interval": [
+        4.6357099999999996,
+        4.705709838867188
+      ],
+      "music_interval": [
+        4.28571,
+        4.355709838867188
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        3456,
+        3840
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L06:APPROACH",
+      "note_id": "L06",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "APPROACH",
+      "display_interval": [
+        2.9214260000000003,
+        4.207139
+      ],
+      "music_interval": [
+        2.571426,
+        3.8571389999999997
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        3456,
+        4608
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "L06:PRESS",
+      "note_id": "L06",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "PRESS",
+      "display_interval": [
+        4.207139,
+        4.242138926188151
+      ],
+      "music_interval": [
+        3.8571389999999997,
+        3.8921389261881507
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        3456,
+        4608
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L06:HOLD",
+      "note_id": "L06",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "HOLD",
+      "display_interval": [
+        4.242138926188151,
+        5.492852
+      ],
+      "music_interval": [
+        3.8921389261881507,
+        5.142852
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        3456,
+        4608
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "L06:RELEASE",
+      "note_id": "L06",
+      "hand": "L",
+      "finger": 3,
+      "midi": 59,
+      "key_index": 38,
+      "mode": "RELEASE",
+      "display_interval": [
+        5.492852,
+        5.562851969401041
+      ],
+      "music_interval": [
+        5.142852,
+        5.212851969401042
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        3456,
+        4608
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R14:APPROACH",
+      "note_id": "R14",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "APPROACH",
+      "display_interval": [
+        4.207139,
+        4.6357099999999996
+      ],
+      "music_interval": [
+        3.8571389999999997,
+        4.28571
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        3840,
+        4224
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R14:PRESS",
+      "note_id": "R14",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "PRESS",
+      "display_interval": [
+        4.6357099999999996,
+        4.6707102457682295
+      ],
+      "music_interval": [
+        4.28571,
+        4.32071024576823
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        3840,
+        4224
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R14:HOLD",
+      "note_id": "R14",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "HOLD",
+      "display_interval": [
+        4.6707102457682295,
+        5.064280999999999
+      ],
+      "music_interval": [
+        4.32071024576823,
+        4.714281
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        3840,
+        4224
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R15:APPROACH",
+      "note_id": "R15",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "APPROACH",
+      "display_interval": [
+        4.6357099999999996,
+        5.064280999999999
+      ],
+      "music_interval": [
+        4.28571,
+        4.714281
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": true,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "FREE_WHILE_CLEAR; PRE_TOUCH may be selected only after guard",
+      "mechanical_phase": "READ_SOURCE; no fabricated early press",
+      "source_event_ticks": [
+        4224,
+        4608
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": "Only on quiescent source key and no added key motion; exact surface crossing within unchanged penetration contract. Physical unloaded force unproved."
+    },
+    {
+      "episode_id": "R15:PRESS",
+      "note_id": "R15",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "PRESS",
+      "display_interval": [
+        5.064280999999999,
+        5.099280802408854
+      ],
+      "music_interval": [
+        4.714281,
+        4.749280802408855
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_WITHIN_SAME_PLAYABLE_PATCH",
+      "mechanical_phase": "FOLLOW_SOURCE_DESCENDING_TOP",
+      "source_event_ticks": [
+        4224,
+        4608
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R15:HOLD",
+      "note_id": "R15",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "HOLD",
+      "display_interval": [
+        5.099280802408854,
+        5.492852
+      ],
+      "music_interval": [
+        4.749280802408855,
+        5.142852
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": true,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "BOUNDED_SLIDE_OR_STICK; selected material face anchor records choice",
+      "mechanical_phase": "FOLLOW_SOURCE_HOLD",
+      "source_event_ticks": [
+        4224,
+        4608
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    },
+    {
+      "episode_id": "R15:RELEASE",
+      "note_id": "R15",
+      "hand": "R",
+      "finger": 1,
+      "midi": 67,
+      "key_index": 46,
+      "mode": "RELEASE",
+      "display_interval": [
+        5.492852,
+        5.562851969401041
+      ],
+      "music_interval": [
+        5.142852,
+        5.212851969401042
+      ],
+      "interval_convention": "[start,end)",
+      "required_contact": false,
+      "optional_early_contact": false,
+      "wrist_motion": "ALLOWED_ONLY_IF_ALL_ACTIVE_CONTACT_AND_COLLISION_CONSTRAINTS_REMAIN_FEASIBLE",
+      "tangential_policy": "MAY_SEPARATE; if surface remains touching, follow recovering top without obstruction",
+      "mechanical_phase": "FOLLOW_SOURCE_RECOVERY",
+      "source_event_ticks": [
+        4224,
+        4608
+      ],
+      "geometry_oracle": "frozen_blender_actual_skin_v1",
+      "target_depth_limit_mm": 0.25,
+      "non_target_depth_limit_mm": 0.25,
+      "nonadjacent_self_crossings_limit": 0,
+      "contact_force": "NOT_ESTIMATED",
+      "pre_touch_guard": null
+    }
+  ],
+  "parse_test_file": "CONTRACT_REUSE_TESTS.json",
+  "source_action_reconstruction_max_error_rad": 5.815294306307783e-07
+}

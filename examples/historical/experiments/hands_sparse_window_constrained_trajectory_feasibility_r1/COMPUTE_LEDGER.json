@@ -1,0 +1,57 @@
+{
+  "stage0_external_python_process_wall_seconds": 132.35800000000745,
+  "blender_process_wall_seconds": 19.437999999994645,
+  "formal_solver_starts": 0,
+  "formal_iterations": 0,
+  "formal_candidate_count": 0,
+  "formal_numerical_generation_seconds": 0.0,
+  "native_preflight_calls": 106,
+  "preflight_call_meaning": "Two full seed/Jacobian tests, 53 calls each; first derivative reference rejected and retained",
+  "numeric_budget_seconds": 180,
+  "unlogged_initial_failures": "Two initial Python import/assertion failures are retained in SOFTWARE_REPAIR_0/1; tool wall times 1.30/1.75s, no optimization",
+  "all_logged_processes": [
+    {
+      "stage": "boundary_audit",
+      "seconds": 7.437000000005355,
+      "returncode": 0,
+      "blender": false
+    },
+    {
+      "stage": "cost_preflight",
+      "seconds": 4.1560000000026776,
+      "returncode": 1,
+      "blender": false
+    },
+    {
+      "stage": "cost_preflight",
+      "seconds": 59.73399999999674,
+      "returncode": 0,
+      "blender": false
+    },
+    {
+      "stage": "cost_preflight",
+      "seconds": 56.92200000000594,
+      "returncode": 0,
+      "blender": false
+    },
+    {
+      "stage": "export_baseline",
+      "seconds": 0.6569999999919673,
+      "returncode": 7,
+      "blender": true
+    },
+    {
+      "stage": "export_baseline",
+      "seconds": 18.781000000002678,
+      "returncode": 0,
+      "blender": true
+    },
+    {
+      "stage": "inspect_inputs",
+      "seconds": 4.10899999999674,
+      "returncode": 0,
+      "blender": false
+    }
+  ],
+  "stage0_python_wall_seconds_including_initial_failures": 135.40800000000746
+}

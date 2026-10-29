@@ -1,0 +1,1 @@
+Legacy imports are inventoried in release-assets/DEPENDENCY_IMPORTS.csv. This is NOT a validated solver lockfile. Blender scripts require bpy from Blender; historic CasADi/SciPy/ONNX/Node ABI combinations remain unverified. Do not run legacy cleanup, fetch, render, or solve entrypoints during restoration.

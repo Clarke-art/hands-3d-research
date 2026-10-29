@@ -1,0 +1,1 @@
+import sys,runpy;sys.argv=["solve_bridge_candidate.py","candidate_front"];runpy.run_path(str(__import__("pathlib").Path(__file__).parent/"solve_bridge_candidate.py"),run_name="__main__")

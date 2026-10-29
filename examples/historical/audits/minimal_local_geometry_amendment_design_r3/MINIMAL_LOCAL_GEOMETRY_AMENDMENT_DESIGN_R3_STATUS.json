@@ -1,0 +1,563 @@
+{
+  "phase": "MINIMAL_LOCAL_GEOMETRY_AMENDMENT_DESIGN_R3",
+  "requested_execution": "MINIMAL_LOCAL_GEOMETRY_AMENDMENT_DESIGN_R3_REFERENCE_GUIDED_NONPENETRATING_POSITION_ONLY",
+  "status": "FAIL_CLOSED_R3_GEOMETRY_DESIGN",
+  "MINIMAL_LOCAL_GEOMETRY_AMENDMENT_DESIGN_R3": "FAIL_CLOSED_R3_GEOMETRY_DESIGN",
+  "ROOT_CAUSE_CLASS": "BASE_GEOMETRY_CONTOUR_DEFECT",
+  "FACE204_207_BASELINE_RELATION": {
+    "shared_vertex": false,
+    "shared_edge": false,
+    "minimum_separation_mm": 0.024319952062078574,
+    "normal_angle_deg": 5.955192279372143,
+    "closest_features": "Vertex2531 to face207 fan interior; signs to native face207 plane are mixed, so a single face-plane sign is not a universal side predicate."
+  },
+  "FACE204_207_CONTACT_ONSET_CAUSE": {
+    "motion_ablation_crossing": {
+      "FACE204_ONLY": false,
+      "FACE207_ONLY": false,
+      "BOTH_FACES": true,
+      "TANGENT_X_ONLY": true,
+      "TANGENT_Y_ONLY": true,
+      "NORMAL_ONLY": false
+    },
+    "restoring_single_vertex_removes_crossing": [
+      3308,
+      3324
+    ],
+    "single_vertex_motion_is_sufficient": [],
+    "mechanism": "Both face fields are required in the face-motion counterfactual. Tangent-X or tangent-Y alone produces a crossing, while normal-only does not. Restoring 3308 or 3324 individually removes it; no individual moved vertex alone creates it. Starting at vertex2531 versus face207 interior with 0.024319952mm separation, relative tangential motion changes the closest feature ordering and exhausts the separation at t=0.735918486. Face rotations are only 5.778deg and0.738deg. Therefore the observed recurrence is a jointly driven local tangential side/feature reordering, rather than a large-normal-rotation event or one uniquely faulty vertex.",
+    "normal_rotation_deg": {
+      "face204": 5.778088285057101,
+      "face207": 0.7380743400438209
+    }
+  },
+  "INTERPOLATION_FIRST_NEAR_FRACTION": 0.7147023015545526,
+  "INTERPOLATION_FIRST_EXACT_FRACTION": 0.7359184860853838,
+  "INTERPOLATION_FIRST_CROSSING_FRACTION": 0.735918763665786,
+  "HEALTHY_REFERENCE_AVAILABLE": true,
+  "REFERENCE_REGION": [
+    "INDEX_MIDDLE_DORSAL_ROOT:face2795",
+    "RING_LITTLE_DORSAL_ROOT:face2822"
+  ],
+  "TARGET_FAMILY_COUNT": 2,
+  "SUPPORT_DEPTHS_TESTED": [
+    3,
+    4,
+    5
+  ],
+  "S1_S2_REGRESSION_ONLY": true,
+  "S6_CONSTRUCTED": false,
+  "COLLISION_CONSTRAINT_METHOD": "Sequential constrained native-normal progression and dynamically refreshed closest-feature signed separation projection in inverse displacement/gradient/bending metric; whole-mesh exact point/segment/coplanar contact gating and swept-AABB cubic coplanarity-event continuous collision checks before each accepted iteration.",
+  "FIRST_STRUCTURALLY_FEASIBLE_SOLVE": null,
+  "R3_CANDIDATE_COUNT": 0,
+  "candidates": {},
+  "RECOMMENDED_CANDIDATE": "NONE",
+  "RECOMMENDED_ACTUAL_WRITE_VERTEX_COUNT": 0,
+  "failure_class": "D_OPTIMIZER_NONCONVERGENCE",
+  "failure_evidence": "Six final selected solves retained differential collision/orientation/area/boundary guards; preexisting affected projected bowties remain. They stalled at local shared-feature side constraints while edge6676 remained172.03–173.74deg and core diagnostic depth1.481–1.509mm (baseline1.546mm). No sufficiently improved natural valley was obtained.",
+  "A_REFERENCE_TARGET_CONFLICT": "NOT_PROVED",
+  "B_COLLISION_CONSTRAINT_INFEASIBLE": "NOT_PROVED",
+  "C_BOUNDARY_CONTINUITY_INFEASIBLE": "NOT_PROVED",
+  "E_LOCAL_TOPOLOGY_EXPRESSIVITY_LIMIT": "NO_DIRECT_PROOF",
+  "F_PROTECTION_BOUNDARY_CONFLICT": false,
+  "TOPOLOGY_EXPRESSIVITY_LIMIT_EVIDENCE": "NOT_FOUND",
+  "TOPOLOGY_CHANGE_REQUIRED": "NOT_PROVED",
+  "POSITION_ONLY_INSUFFICIENT": "NOT_PROVED_GLOBALLY",
+  "RET0PO_REQUIRED": "NO",
+  "PRODUCTION_DRIFT": 0,
+  "preexisting_files_unchanged": 3107,
+  "BIND_PREVIEW": "NOT_RUN_NO_QUALIFIED_CANDIDATE",
+  "IDX15_PREVIEW": "NOT_RUN_NO_QUALIFIED_CANDIDATE",
+  "IDX30_PREVIEW": "NOT_RUN_NO_QUALIFIED_CANDIDATE",
+  "IDX45_PREVIEW": "NOT_RUN_NO_QUALIFIED_CANDIDATE",
+  "FullStage6A_status": "FAIL_CLOSED_FULL_STAGE6A_REQUALIFICATION",
+  "old9_severe_crossings_independent": true,
+  "formal_application_executed": false,
+  "production_master_generated": false,
+  "production_blend_saves": 0,
+  "NEXT": "POSITION_ONLY_FORMULATION_RESEARCH_AFTER_HUMAN_REVIEW",
+  "next_specific_gap": "A nonlinear coupled normal/tangent feasible-direction method must escape the2182/3330 shared-edge contact active set without creating3329/3331 or3312/3313 contacts. Refresh closest features, permit legal active-set release, and complete persistent-coplanar continuous contact handling. More support alone is unsupported.",
+  "STOP": "HUMAN REVIEW",
+  "baseline_projected_bowtie_face_ids": [
+    2771,
+    3332,
+    3351
+  ],
+  "absolute_no_bowtie_condition_satisfied": false,
+  "failed_trial_metrics": [
+    {
+      "attempt_id": "R3_A_S3_V2",
+      "family": "A",
+      "support_depth": 3,
+      "support_pool_vertex_count": 78,
+      "accepted_iterations": 10,
+      "rejected_steps": 75,
+      "termination": "CONSTRAINED_STEP_STALLED",
+      "failure_class": "D_OPTIMIZER_NONCONVERGENCE",
+      "failures": [
+        "CORE_NOTCH_TARGET_UNMET",
+        "DEPTH_IMPROVEMENT_INSUFFICIENT",
+        "PREEXISTING_AFFECTED_PROJECTED_BOWTIE_UNRESOLVED"
+      ],
+      "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 78,
+      "MAX_DISPLACEMENT_MM": 0.19942007331995798,
+      "RMS_DISPLACEMENT_MM": 0.03564863567356069,
+      "NEW_CONTACT_COUNT": 0,
+      "NEW_SELF_INTERSECTION_FAMILY_COUNT": 0,
+      "BOW_TIE_COUNT": 1,
+      "FACE_REVERSAL_COUNT": 0,
+      "DEGENERATE_COUNT": 0,
+      "BOUNDARY_SHARP_FOLD_COUNT": 0,
+      "EDGE6675_DEG": 27.167888352324734,
+      "EDGE6602_DEG": 26.004220614213278,
+      "EDGE6676_DEG": 173.28529379538574,
+      "CORE_DEPTH_DIAGNOSTIC_MM": 1.4951826076802148,
+      "CORE_DIHEDRAL_DESIGN_TARGET_DEG": 60.0,
+      "VISIBLE_DENT_STATUS": "NOT_SUFFICIENTLY_IMPROVED_NOT_HUMAN_CANDIDATE",
+      "REFERENCE_CONTINUITY_STATUS": "BOUNDARY_SCREEN_PASS_CORE_PROGRESSION_TARGET_UNMET",
+      "BIND_PREVIEW": "NOT_RUN",
+      "IDX15_PREVIEW": "NOT_RUN",
+      "IDX30_PREVIEW": "NOT_RUN",
+      "IDX45_PREVIEW": "NOT_RUN",
+      "write_pool_only_not_application_authority": true,
+      "ring_displacement_decay": [
+        {
+          "ring": 0,
+          "vertex_count": 15,
+          "max_displacement_mm": 0.19942007331995798,
+          "RMS_displacement_mm": 0.07320787140929572
+        },
+        {
+          "ring": 1,
+          "vertex_count": 16,
+          "max_displacement_mm": 0.08570988569067865,
+          "RMS_displacement_mm": 0.03241891480403657
+        },
+        {
+          "ring": 2,
+          "vertex_count": 21,
+          "max_displacement_mm": 0.024265883526886356,
+          "RMS_displacement_mm": 0.009336060211977162
+        },
+        {
+          "ring": 3,
+          "vertex_count": 26,
+          "max_displacement_mm": 0.004443920926803983,
+          "RMS_displacement_mm": 0.001832421861823465
+        }
+      ],
+      "NEW_BOW_TIE_COUNT": 0,
+      "TOTAL_PROJECTED_BOW_TIE_COUNT": 3,
+      "AFFECTED_PREEXISTING_BOW_TIE_FACE_IDS": [
+        3332
+      ],
+      "absolute_no_bowtie_condition_satisfied": false
+    },
+    {
+      "attempt_id": "R3_A_S4_V2",
+      "family": "A",
+      "support_depth": 4,
+      "support_pool_vertex_count": 111,
+      "accepted_iterations": 11,
+      "rejected_steps": 66,
+      "termination": "CONSTRAINED_STEP_STALLED",
+      "failure_class": "D_OPTIMIZER_NONCONVERGENCE",
+      "failures": [
+        "CORE_NOTCH_TARGET_UNMET",
+        "DEPTH_IMPROVEMENT_INSUFFICIENT",
+        "PREEXISTING_AFFECTED_PROJECTED_BOWTIE_UNRESOLVED"
+      ],
+      "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 111,
+      "MAX_DISPLACEMENT_MM": 0.250535968919189,
+      "RMS_DISPLACEMENT_MM": 0.037640696607544245,
+      "NEW_CONTACT_COUNT": 0,
+      "NEW_SELF_INTERSECTION_FAMILY_COUNT": 0,
+      "BOW_TIE_COUNT": 1,
+      "FACE_REVERSAL_COUNT": 0,
+      "DEGENERATE_COUNT": 0,
+      "BOUNDARY_SHARP_FOLD_COUNT": 0,
+      "EDGE6675_DEG": 27.006072131773813,
+      "EDGE6602_DEG": 26.084735187982464,
+      "EDGE6676_DEG": 172.03301694002798,
+      "CORE_DEPTH_DIAGNOSTIC_MM": 1.481039942700387,
+      "CORE_DIHEDRAL_DESIGN_TARGET_DEG": 60.0,
+      "VISIBLE_DENT_STATUS": "NOT_SUFFICIENTLY_IMPROVED_NOT_HUMAN_CANDIDATE",
+      "REFERENCE_CONTINUITY_STATUS": "BOUNDARY_SCREEN_PASS_CORE_PROGRESSION_TARGET_UNMET",
+      "BIND_PREVIEW": "NOT_RUN",
+      "IDX15_PREVIEW": "NOT_RUN",
+      "IDX30_PREVIEW": "NOT_RUN",
+      "IDX45_PREVIEW": "NOT_RUN",
+      "write_pool_only_not_application_authority": true,
+      "ring_displacement_decay": [
+        {
+          "ring": 0,
+          "vertex_count": 15,
+          "max_displacement_mm": 0.250535968919189,
+          "RMS_displacement_mm": 0.0922327848154842
+        },
+        {
+          "ring": 1,
+          "vertex_count": 16,
+          "max_displacement_mm": 0.10750396430689152,
+          "RMS_displacement_mm": 0.040743225266135774
+        },
+        {
+          "ring": 2,
+          "vertex_count": 21,
+          "max_displacement_mm": 0.03044264596428597,
+          "RMS_displacement_mm": 0.011821202851376758
+        },
+        {
+          "ring": 3,
+          "vertex_count": 26,
+          "max_displacement_mm": 0.005739286361757151,
+          "RMS_displacement_mm": 0.0025179750662537538
+        },
+        {
+          "ring": 4,
+          "vertex_count": 33,
+          "max_displacement_mm": 0.0011161861610551002,
+          "RMS_displacement_mm": 0.00036425204956806517
+        }
+      ],
+      "NEW_BOW_TIE_COUNT": 0,
+      "TOTAL_PROJECTED_BOW_TIE_COUNT": 3,
+      "AFFECTED_PREEXISTING_BOW_TIE_FACE_IDS": [
+        3332
+      ],
+      "absolute_no_bowtie_condition_satisfied": false
+    },
+    {
+      "attempt_id": "R3_A_S5_V2",
+      "family": "A",
+      "support_depth": 5,
+      "support_pool_vertex_count": 151,
+      "accepted_iterations": 10,
+      "rejected_steps": 73,
+      "termination": "CONSTRAINED_STEP_STALLED",
+      "failure_class": "D_OPTIMIZER_NONCONVERGENCE",
+      "failures": [
+        "CORE_NOTCH_TARGET_UNMET",
+        "DEPTH_IMPROVEMENT_INSUFFICIENT",
+        "PREEXISTING_AFFECTED_PROJECTED_BOWTIE_UNRESOLVED"
+      ],
+      "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 151,
+      "MAX_DISPLACEMENT_MM": 0.2240737379786602,
+      "RMS_DISPLACEMENT_MM": 0.028818092170102578,
+      "NEW_CONTACT_COUNT": 0,
+      "NEW_SELF_INTERSECTION_FAMILY_COUNT": 0,
+      "BOW_TIE_COUNT": 2,
+      "FACE_REVERSAL_COUNT": 0,
+      "DEGENERATE_COUNT": 0,
+      "BOUNDARY_SHARP_FOLD_COUNT": 0,
+      "EDGE6675_DEG": 27.086104771064484,
+      "EDGE6602_DEG": 26.04329933689229,
+      "EDGE6676_DEG": 172.68021574354768,
+      "CORE_DEPTH_DIAGNOSTIC_MM": 1.4882585032680749,
+      "CORE_DIHEDRAL_DESIGN_TARGET_DEG": 60.0,
+      "VISIBLE_DENT_STATUS": "NOT_SUFFICIENTLY_IMPROVED_NOT_HUMAN_CANDIDATE",
+      "REFERENCE_CONTINUITY_STATUS": "BOUNDARY_SCREEN_PASS_CORE_PROGRESSION_TARGET_UNMET",
+      "BIND_PREVIEW": "NOT_RUN",
+      "IDX15_PREVIEW": "NOT_RUN",
+      "IDX30_PREVIEW": "NOT_RUN",
+      "IDX45_PREVIEW": "NOT_RUN",
+      "write_pool_only_not_application_authority": true,
+      "ring_displacement_decay": [
+        {
+          "ring": 0,
+          "vertex_count": 15,
+          "max_displacement_mm": 0.2240737379786602,
+          "RMS_displacement_mm": 0.08232502103500207
+        },
+        {
+          "ring": 1,
+          "vertex_count": 16,
+          "max_displacement_mm": 0.09630740375977288,
+          "RMS_displacement_mm": 0.03646103634241905
+        },
+        {
+          "ring": 2,
+          "vertex_count": 21,
+          "max_displacement_mm": 0.027298040557888224,
+          "RMS_displacement_mm": 0.010557045214073125
+        },
+        {
+          "ring": 3,
+          "vertex_count": 26,
+          "max_displacement_mm": 0.0050891509524862615,
+          "RMS_displacement_mm": 0.0021957278409106204
+        },
+        {
+          "ring": 4,
+          "vertex_count": 33,
+          "max_displacement_mm": 0.000963819430504842,
+          "RMS_displacement_mm": 0.0003424314778222581
+        },
+        {
+          "ring": 5,
+          "vertex_count": 40,
+          "max_displacement_mm": 0.0005333610771184354,
+          "RMS_displacement_mm": 0.00019366507825889213
+        }
+      ],
+      "NEW_BOW_TIE_COUNT": 0,
+      "TOTAL_PROJECTED_BOW_TIE_COUNT": 3,
+      "AFFECTED_PREEXISTING_BOW_TIE_FACE_IDS": [
+        2771,
+        3332
+      ],
+      "absolute_no_bowtie_condition_satisfied": false
+    },
+    {
+      "attempt_id": "R3_B_S3_V3",
+      "family": "B",
+      "support_depth": 3,
+      "support_pool_vertex_count": 78,
+      "accepted_iterations": 7,
+      "rejected_steps": 58,
+      "termination": "CONSTRAINED_STEP_STALLED",
+      "failure_class": "D_OPTIMIZER_NONCONVERGENCE",
+      "failures": [
+        "CORE_NOTCH_TARGET_UNMET",
+        "DEPTH_IMPROVEMENT_INSUFFICIENT",
+        "PREEXISTING_AFFECTED_PROJECTED_BOWTIE_UNRESOLVED"
+      ],
+      "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 78,
+      "MAX_DISPLACEMENT_MM": 0.18677517763917248,
+      "RMS_DISPLACEMENT_MM": 0.03271593591286004,
+      "NEW_CONTACT_COUNT": 0,
+      "NEW_SELF_INTERSECTION_FAMILY_COUNT": 0,
+      "BOW_TIE_COUNT": 1,
+      "FACE_REVERSAL_COUNT": 0,
+      "DEGENERATE_COUNT": 0,
+      "BOUNDARY_SHARP_FOLD_COUNT": 0,
+      "EDGE6675_DEG": 27.269771907878432,
+      "EDGE6602_DEG": 25.99065091514011,
+      "EDGE6676_DEG": 173.73797736105243,
+      "CORE_DEPTH_DIAGNOSTIC_MM": 1.5067218926926462,
+      "CORE_DIHEDRAL_DESIGN_TARGET_DEG": 30.0,
+      "VISIBLE_DENT_STATUS": "NOT_SUFFICIENTLY_IMPROVED_NOT_HUMAN_CANDIDATE",
+      "REFERENCE_CONTINUITY_STATUS": "BOUNDARY_SCREEN_PASS_CORE_PROGRESSION_TARGET_UNMET",
+      "BIND_PREVIEW": "NOT_RUN",
+      "IDX15_PREVIEW": "NOT_RUN",
+      "IDX30_PREVIEW": "NOT_RUN",
+      "IDX45_PREVIEW": "NOT_RUN",
+      "write_pool_only_not_application_authority": true,
+      "ring_displacement_decay": [
+        {
+          "ring": 0,
+          "vertex_count": 15,
+          "max_displacement_mm": 0.18677517763917248,
+          "RMS_displacement_mm": 0.067133084227011
+        },
+        {
+          "ring": 1,
+          "vertex_count": 16,
+          "max_displacement_mm": 0.08019714353629791,
+          "RMS_displacement_mm": 0.029855909336274213
+        },
+        {
+          "ring": 2,
+          "vertex_count": 21,
+          "max_displacement_mm": 0.02256234095584491,
+          "RMS_displacement_mm": 0.008585436435834978
+        },
+        {
+          "ring": 3,
+          "vertex_count": 26,
+          "max_displacement_mm": 0.004043964701555166,
+          "RMS_displacement_mm": 0.0016785738930363001
+        }
+      ],
+      "NEW_BOW_TIE_COUNT": 0,
+      "TOTAL_PROJECTED_BOW_TIE_COUNT": 3,
+      "AFFECTED_PREEXISTING_BOW_TIE_FACE_IDS": [
+        3332
+      ],
+      "absolute_no_bowtie_condition_satisfied": false
+    },
+    {
+      "attempt_id": "R3_B_S4_V3",
+      "family": "B",
+      "support_depth": 4,
+      "support_pool_vertex_count": 111,
+      "accepted_iterations": 7,
+      "rejected_steps": 46,
+      "termination": "CONSTRAINED_STEP_STALLED",
+      "failure_class": "D_OPTIMIZER_NONCONVERGENCE",
+      "failures": [
+        "CORE_NOTCH_TARGET_UNMET",
+        "DEPTH_IMPROVEMENT_INSUFFICIENT",
+        "PREEXISTING_AFFECTED_PROJECTED_BOWTIE_UNRESOLVED"
+      ],
+      "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 111,
+      "MAX_DISPLACEMENT_MM": 0.21697892354490536,
+      "RMS_DISPLACEMENT_MM": 0.03172588423257773,
+      "NEW_CONTACT_COUNT": 0,
+      "NEW_SELF_INTERSECTION_FAMILY_COUNT": 0,
+      "BOW_TIE_COUNT": 1,
+      "FACE_REVERSAL_COUNT": 0,
+      "DEGENERATE_COUNT": 0,
+      "BOUNDARY_SHARP_FOLD_COUNT": 0,
+      "EDGE6675_DEG": 27.214514977821914,
+      "EDGE6602_DEG": 26.043668540966866,
+      "EDGE6676_DEG": 173.11596818297065,
+      "CORE_DEPTH_DIAGNOSTIC_MM": 1.5057988320829652,
+      "CORE_DIHEDRAL_DESIGN_TARGET_DEG": 30.0,
+      "VISIBLE_DENT_STATUS": "NOT_SUFFICIENTLY_IMPROVED_NOT_HUMAN_CANDIDATE",
+      "REFERENCE_CONTINUITY_STATUS": "BOUNDARY_SCREEN_PASS_CORE_PROGRESSION_TARGET_UNMET",
+      "BIND_PREVIEW": "NOT_RUN",
+      "IDX15_PREVIEW": "NOT_RUN",
+      "IDX30_PREVIEW": "NOT_RUN",
+      "IDX45_PREVIEW": "NOT_RUN",
+      "write_pool_only_not_application_authority": true,
+      "ring_displacement_decay": [
+        {
+          "ring": 0,
+          "vertex_count": 15,
+          "max_displacement_mm": 0.21697892354490536,
+          "RMS_displacement_mm": 0.07760361147660633
+        },
+        {
+          "ring": 1,
+          "vertex_count": 16,
+          "max_displacement_mm": 0.0931218481042061,
+          "RMS_displacement_mm": 0.03460955197027687
+        },
+        {
+          "ring": 2,
+          "vertex_count": 21,
+          "max_displacement_mm": 0.026141494267303524,
+          "RMS_displacement_mm": 0.010017714083986481
+        },
+        {
+          "ring": 3,
+          "vertex_count": 26,
+          "max_displacement_mm": 0.004875229788441663,
+          "RMS_displacement_mm": 0.002100664575830292
+        },
+        {
+          "ring": 4,
+          "vertex_count": 33,
+          "max_displacement_mm": 0.0008143371064497196,
+          "RMS_displacement_mm": 0.0002963344294461184
+        }
+      ],
+      "NEW_BOW_TIE_COUNT": 0,
+      "TOTAL_PROJECTED_BOW_TIE_COUNT": 3,
+      "AFFECTED_PREEXISTING_BOW_TIE_FACE_IDS": [
+        3332
+      ],
+      "absolute_no_bowtie_condition_satisfied": false
+    },
+    {
+      "attempt_id": "R3_B_S5_V3",
+      "family": "B",
+      "support_depth": 5,
+      "support_pool_vertex_count": 151,
+      "accepted_iterations": 10,
+      "rejected_steps": 51,
+      "termination": "CONSTRAINED_STEP_STALLED",
+      "failure_class": "D_OPTIMIZER_NONCONVERGENCE",
+      "failures": [
+        "CORE_NOTCH_TARGET_UNMET",
+        "DEPTH_IMPROVEMENT_INSUFFICIENT",
+        "PREEXISTING_AFFECTED_PROJECTED_BOWTIE_UNRESOLVED"
+      ],
+      "ACTUAL_DESIGN_MOVED_VERTEX_COUNT": 151,
+      "MAX_DISPLACEMENT_MM": 0.2601362289249039,
+      "RMS_DISPLACEMENT_MM": 0.032779827262563704,
+      "NEW_CONTACT_COUNT": 0,
+      "NEW_SELF_INTERSECTION_FAMILY_COUNT": 0,
+      "BOW_TIE_COUNT": 2,
+      "FACE_REVERSAL_COUNT": 0,
+      "DEGENERATE_COUNT": 0,
+      "BOUNDARY_SHARP_FOLD_COUNT": 0,
+      "EDGE6675_DEG": 27.173000942288162,
+      "EDGE6602_DEG": 26.125055104963238,
+      "EDGE6676_DEG": 172.30133605982408,
+      "CORE_DEPTH_DIAGNOSTIC_MM": 1.5092298670939814,
+      "CORE_DIHEDRAL_DESIGN_TARGET_DEG": 30.0,
+      "VISIBLE_DENT_STATUS": "NOT_SUFFICIENTLY_IMPROVED_NOT_HUMAN_CANDIDATE",
+      "REFERENCE_CONTINUITY_STATUS": "BOUNDARY_SCREEN_PASS_CORE_PROGRESSION_TARGET_UNMET",
+      "BIND_PREVIEW": "NOT_RUN",
+      "IDX15_PREVIEW": "NOT_RUN",
+      "IDX30_PREVIEW": "NOT_RUN",
+      "IDX45_PREVIEW": "NOT_RUN",
+      "write_pool_only_not_application_authority": true,
+      "ring_displacement_decay": [
+        {
+          "ring": 0,
+          "vertex_count": 15,
+          "max_displacement_mm": 0.2601362289249039,
+          "RMS_displacement_mm": 0.09347743097271798
+        },
+        {
+          "ring": 1,
+          "vertex_count": 16,
+          "max_displacement_mm": 0.11135658755374482,
+          "RMS_displacement_mm": 0.04180069481904958
+        },
+        {
+          "ring": 2,
+          "vertex_count": 21,
+          "max_displacement_mm": 0.03098658257428484,
+          "RMS_displacement_mm": 0.0120736089131351
+        },
+        {
+          "ring": 3,
+          "vertex_count": 26,
+          "max_displacement_mm": 0.005740882566953382,
+          "RMS_displacement_mm": 0.0024394072355729754
+        },
+        {
+          "ring": 4,
+          "vertex_count": 33,
+          "max_displacement_mm": 0.0008911173282485083,
+          "RMS_displacement_mm": 0.00043301399162746796
+        },
+        {
+          "ring": 5,
+          "vertex_count": 40,
+          "max_displacement_mm": 0.0006894872444283896,
+          "RMS_displacement_mm": 0.00026167018068973003
+        }
+      ],
+      "NEW_BOW_TIE_COUNT": 0,
+      "TOTAL_PROJECTED_BOW_TIE_COUNT": 3,
+      "AFFECTED_PREEXISTING_BOW_TIE_FACE_IDS": [
+        2771,
+        3332
+      ],
+      "absolute_no_bowtie_condition_satisfied": false
+    }
+  ],
+  "visual_inspection": {
+    "status": "FAILED_SOLVE_VISUAL_REVIEW_NO_HUMAN_CANDIDATE",
+    "review_type": "Machine inspection of actual ordinary-solid PNGs and native sections; no Human approval inferred.",
+    "ordinary_solid_is_primary": true,
+    "overall_conclusion": "普通close/grazing/side仍可见原有尖notch与短折痕；R3 A/B失败checkpoint与CURRENT近似重合，0/60/120°截面也仅有微小变化。未形成足够改善且连续的自然沟谷，不能成为Human候选。",
+    "checked_views": [
+      "COMPARE_HUMAN_CAMERA.png",
+      "FAILED_SOLVE_CLOSE.png",
+      "FAILED_SOLVE_GRAZING.png",
+      "FAILED_SOLVE_SIDE_2.png",
+      "FAILED_SOLVE_SECTIONS.png",
+      "HEALTHY_REFERENCE_CLOSE.png",
+      "HEALTHY_REFERENCE_WIRE.png"
+    ],
+    "first_screen": "Original Human camera ordinary solid CURRENT/R1-C/R2-S5; empty R3-A/B columns explicitly unavailable.",
+    "core": "VISIBLE_DENT_PERSISTS",
+    "boundary": "No new machine-screened boundary fold; images alone do not establish every hidden face is defect-free.",
+    "healthy_reference": "Central outward patches have gradual local normal progression; display context remains actual source, and source3351 projected bowtie is excluded from the reference1 solve domain.",
+    "baseline_projected_bowtie_flags": [
+      2771,
+      3332,
+      3351
+    ],
+    "baseline_flags_unresolved_in_failed_trials": true,
+    "reference_comparison_is_anatomy_authority": false,
+    "production_application": false,
+    "bind_or_pose_preview_run": false
+  }
+}

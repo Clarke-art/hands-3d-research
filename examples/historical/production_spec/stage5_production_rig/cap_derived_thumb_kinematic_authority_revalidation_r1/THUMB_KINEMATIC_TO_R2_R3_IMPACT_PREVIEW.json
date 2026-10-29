@@ -1,0 +1,102 @@
+{
+  "execution": "STATIC_SOURCE_DEPENDENCY_ONLY",
+  "slot_preservation": "IP head / proximal joint knots / hierarchy / origin unchanged; old cap-derived REP cannot remain authority",
+  "components": {
+    "default_R2_seed": {
+      "effect_of_kinematic_only_change": "UNCHANGED_BY_IMPLEMENTATION: default thumb seed is nearest vertex to explicit cap mean, not live IP tail",
+      "after_future_cap_input_reconciliation": "MAY_CHANGE; separate new cap membership path. Not selected here.",
+      "source": {
+        "path": "production_spec\\stage6_deformation\\stage6b_r1b\\scripts\\s6br1b_common.py",
+        "sha256": "809c1a1458a4b361a0e6473a84e237d4258daa7add80cd175c7cef03e0079e33",
+        "lines": [
+          140,
+          181
+        ],
+        "role": "approved_chain_seeds then cap override"
+      }
+    },
+    "R2_domain": {
+      "kinematic_only_effect": "No direct live IP/TIP read in this partition; inherited ref AC and cap override must be reconciled before future run",
+      "future_reconciled_effect": "EXPECTED_INPUT_CHANGE; exact labels/domain UNRESOLVED without run",
+      "source": {
+        "path": "production_spec\\stage6_deformation\\stage6b_r1b\\scripts\\s6br1b_common.py",
+        "sha256": "809c1a1458a4b361a0e6473a84e237d4258daa7add80cd175c7cef03e0079e33",
+        "lines": [
+          263,
+          322
+        ],
+        "role": "Domain construction consumes corrected partition"
+      }
+    },
+    "live_thumb_tube": {
+      "effect": "CHANGED: last endpoint and last segment projection; proximal head knots retained",
+      "source": {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+        "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+        "lines": [
+          117,
+          163
+        ],
+        "role": "LIVE_CHAIN and arc_of"
+      }
+    },
+    "strong_anchor_predicate": {
+      "effect": "INPUT_CHANGED: distance/arc relative to corrected tube; effective set not evaluated",
+      "source": {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+        "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+        "lines": [
+          195,
+          220
+        ],
+        "role": "Tube and metacarpal anchor predicate"
+      }
+    },
+    "dT_unary": {
+      "effect": "EXPECTED_CHANGE via changed strong source set; exact values not computed",
+      "source": {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+        "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+        "lines": [
+          249,
+          269
+        ],
+        "role": "dijkstra sources -> dT"
+      }
+    },
+    "mincut_input": {
+      "effect": "EXPECTED_CHANGE in unary/hard pins and future reconciled R2 domain; geometry edge lengths unchanged",
+      "source": {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+        "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+        "lines": [
+          350,
+          370
+        ],
+        "role": "Graph capacities / hard pins"
+      }
+    },
+    "closure_input": {
+      "effect": "EXPECTED_CHANGE via pins and labels; exact components unresolved",
+      "source": {
+        "path": "production_spec\\stage6_deformation\\stage6b_r3_thumb_tip_ownership_boundary\\scripts\\r3_ownership.py",
+        "sha256": "14bfab366bf49999988c7be9d86d86b97ea7b8aac8aa2249df7cb48c1b155e8d",
+        "lines": [
+          375,
+          414
+        ],
+        "role": "anchor-bearing component closure"
+      }
+    },
+    "roll_only_effect": "No direct effect on Euclidean segment/tube fields; only endpoint changes cause those. Roll changes affect future local-axis pose interpretation, not evaluated this round.",
+    "TIP_tail_only_effect": "No direct contribution to R3 LIVE_CHAIN, which ends at IP tail. Kept in helper contract."
+  },
+  "R2_R3_input_change_expected": "YES (R3 live-chain inputs; R2 requires separate cap/reference reconciliation)",
+  "R2_runs": 0,
+  "R3_runs": 0,
+  "dT_fields_computed": false,
+  "strong_predicate_evaluated": false,
+  "mincut_runs": 0,
+  "closure_runs": 0,
+  "ownership_first_web_CMC_not_readjudicated": true
+}

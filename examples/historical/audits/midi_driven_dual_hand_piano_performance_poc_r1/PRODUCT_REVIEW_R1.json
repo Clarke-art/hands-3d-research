@@ -1,0 +1,22 @@
+{
+  "review_type": "AGENT_PRECHECK_NOT_HUMAN_APPROVAL",
+  "PRODUCT_DEMO_PASS": false,
+  "natural_hand_motion": false,
+  "unified_skin_material": true,
+  "semi_realistic_skin_quality_pass": false,
+  "observations": [
+    "RH nonplaying/playing fingers visibly over-curled; local joint branch change is abrupt.",
+    "Active fingers can remain above sinking keys; actual touch is not guaranteed just because target clock is correct.",
+    "Left palmar region hits frozen key volumes at120 of409 observations; wrists have no screen hits.",
+    "Both hands have the same skin shader. Bright pale/faceted appearance still reads as a model, not convincingly natural skin.",
+    "Full88 keys and both hands remain visible; no hidden fingers or cosmetic masking of failed contacts."
+  ],
+  "stop_loss": "Only one procedural candidate, one fingering design and one material setup. No root/IK/art retuning after failure.",
+  "failure_layers": {
+    "FINGERING_PLAN": "PROVISIONAL; no human validation and no alternative tested",
+    "ROOT_PLANNING": "INSUFFICIENT: static shared home root did not accommodate press travel and octave reach",
+    "FINGER_KINEMATICS": "FAIL: bounds saturate and RH branch step reaches21.817deg/120Hz",
+    "KEY_CONTACT": "FAIL: sustained contact R48/240 L12/240; left palmar penetration screen",
+    "AUDIO_SYNC": "KEY/AUDIO_CLOCK_PASS; ACTUAL_HAND_TOUCH_SYNC_FAIL"
+  }
+}

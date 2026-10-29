@@ -1,0 +1,69 @@
+{
+  "status": "PASS_DELIVERY_AND_PROTECTION_NOT_POSTURE_PASS",
+  "protected_files_checked": 543,
+  "changed_files": [],
+  "new_static_candidate_count": 0,
+  "reason_no_blend": "Reference-evidence gate did not pass; user made static probe conditional.",
+  "keyboard_source_manifest_current_sha256": "712b1d697fab438b1ea575712e848640992a0313179448efb929d33c9891710a",
+  "keyboard_runtime_current_sha256": "9070f8ac8016e10cb5a39803e13bdc2409a67f94efac5641213020f2136b4a53",
+  "key_table_matches_spatial_audit": true,
+  "key_count": 88,
+  "readback": {
+    "R": {
+      "baseline_sha256": "c946fed318fa88c238d9aacc30cfb4e52f268848f0ad65a4dcbf594754d791f0",
+      "fresh_read_vertex_count": 3300,
+      "fresh_read_bone_count": 21,
+      "canonical_rest_mesh_max_delta_mm": 2.2602055608920048e-13,
+      "intrinsic_static_identity_matches": true,
+      "saved_any_blend": false
+    },
+    "L": {
+      "baseline_sha256": "54307bb199a75a5e684c29d346de9ca6bf2f8e7696911d9d69c57559516ad1a7",
+      "fresh_read_vertex_count": 3300,
+      "fresh_read_bone_count": 21,
+      "canonical_rest_mesh_max_delta_mm": 1.7554167342883506e-13,
+      "intrinsic_static_identity_matches": true,
+      "saved_any_blend": false
+    }
+  },
+  "ui": {
+    "status": "PASS",
+    "url": "http://127.0.0.1:8790/piano_hand_posture_reference_and_static_feasibility_r1/review.html",
+    "images": [
+      {
+        "src": "EVIDENCE_LEFT_OCTAVE_POSTURE_R1.png",
+        "width": 1500,
+        "height": 850,
+        "complete": true
+      },
+      {
+        "src": "EVIDENCE_RIGHT_FIVE_FINGER_POSTURE_R1.png",
+        "width": 1500,
+        "height": 850,
+        "complete": true
+      }
+    ],
+    "desktop": {
+      "width": 1440,
+      "scroll": 1440
+    },
+    "mobile": {
+      "width": 390,
+      "scroll": 390
+    },
+    "details_expand": true,
+    "errors": []
+  },
+  "required_outputs": {
+    "PIANO_HAND_POSTURE_REFERENCE_AND_STATIC_FEASIBILITY_R1_REPORT.md": "d5f096fe67344ce12524fee184afd251046b2fa038e7879807bd49c7cb78961f",
+    "review.html": "29aa149fa3878882b8ed0d1e6d2c33dd6f74cbb18e2dbf35064427e94f6ef16c",
+    "REAL_PIANO_REFERENCE_MANIFEST_R1.md": "11efa35be10471d2da6c4bd648aa4d1da63cf9e6bdacc8c8b8cb3f82a70b2aca",
+    "HAND_KEYBOARD_SPAN_FEASIBILITY_R1.json": "e7a13429a5eca2009329f962dbe6e8061882b08e5d07c5212943d07049e18b7b",
+    "NATURAL_PIANO_HAND_POSTURE_CONTRACT_R1.md": "5b9ca611b733300e40e5368e91ee64cf8f5367fdf838e85a3c07ca33c4a72e5b",
+    "EVIDENCE_LEFT_OCTAVE_POSTURE_R1.png": "4ccbaef014ff6aba79eb4283fd9b65eb96cf483d2e5b3764dfcacea29e947863",
+    "EVIDENCE_RIGHT_FIVE_FINGER_POSTURE_R1.png": "a8b30306eab50498d017eb313e9dcca7042578d09fbc4efede8f1c9401973db9",
+    "NEXT_MOTION_ENGINE_REQUIREMENTS_R1.md": "c02c1bd834174d459ccbf169f3df42dcbe66f5d8668ccf004a9a28aa5428dc50",
+    "FINAL_ASSET_PROTECTION_R1.json": "c3b5772236e03a59ffc557afb40a5fa2554e062b24914a6babf66174ac719b98"
+  },
+  "final_status": "REFERENCE_EVIDENCE_INSUFFICIENT"
+}

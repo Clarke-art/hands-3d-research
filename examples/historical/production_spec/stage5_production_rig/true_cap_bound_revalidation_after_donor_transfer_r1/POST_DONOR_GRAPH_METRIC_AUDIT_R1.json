@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "checks": {
+    "native_edge_IDs_and_endpoints_exact": true,
+    "all_lengths_positive_finite": true,
+    "old_graph_replay_hash_exact_historical": true,
+    "all_current_graph_edges_freshly_built": true,
+    "all_graph_vertices_freshly_read": true,
+    "changed_edges_only_approved54_incident": true
+  },
+  "metric": "WORLD_BIND_MESH_EDGE_LENGTH_MM",
+  "OLD_GRAPH_METRIC_HASH": "2cccf0b698177850d9d32e80854c533c3b82ac5a897d3d478532939c5b21428a",
+  "GRAPH_METRIC_HASH_CURRENT": "0cbe60b8c13132c1e933ab17e730afb4e1f41a852ca3dea59525d7d80dcf1996",
+  "NEW_GRAPH_METRIC_HASH": "0cbe60b8c13132c1e933ab17e730afb4e1f41a852ca3dea59525d7d80dcf1996",
+  "GRAPH_METRIC_CHANGED": true,
+  "changed_graph_edge_count": 148,
+  "all_graph_metric_payload": {
+    "path": "production_spec/stage5_production_rig/true_cap_bound_revalidation_after_donor_transfer_r1/RUN_A/GRAPH_METRIC_PAYLOAD.json",
+    "sha256": "ebf896877e5e0618de8cf0d26bca4da4c3014a60d65590c907dddfce71c8cbf9"
+  },
+  "shortest_path_method": "Same whole native undirected mesh graph, sorted adjacency, frozen historical strict relaxation/tie rules; no cost substitutions."
+}
