@@ -58,8 +58,8 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 64 项；拟公开身份记录 53 项。
-- `audits/left_octave_root_finger_coordinated_clearance_r1/evaluated_coordinated.npz` → `hands-research-r1-selected-001.zip` / `payload/audits/left_octave_root_finger_coordinated_clearance_r1/evaluated_coordinated.npz`
-- `audits/left_octave_root_finger_coordinated_clearance_r1/LEFT_OCTAVE_COORDINATED_CLEARANCE_CANDIDATE_R1.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/left_octave_root_finger_coordinated_clearance_r1/LEFT_OCTAVE_COORDINATED_CLEARANCE_CANDIDATE_R1.blend`
+- `audits/left_octave_root_finger_coordinated_clearance_r1/evaluated_coordinated.npz` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_octave_root_finger_coordinated_clearance_r1/evaluated_coordinated.npz`
+- `audits/left_octave_root_finger_coordinated_clearance_r1/LEFT_OCTAVE_COORDINATED_CLEARANCE_CANDIDATE_R1.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_octave_root_finger_coordinated_clearance_r1/LEFT_OCTAVE_COORDINATED_CLEARANCE_CANDIDATE_R1.blend`
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 

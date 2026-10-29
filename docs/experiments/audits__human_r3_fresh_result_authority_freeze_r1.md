@@ -42,8 +42,8 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 17 项；拟公开身份记录 16 项。
-- `audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1_CANONICAL.json` → `hands-research-r1-selected-001.zip` / `payload/audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1_CANONICAL.json`
-- `audits/human_r3_fresh_result_authority_freeze_r1/R3_OWNERSHIP_MEMBERSHIP_CANONICAL.json` → `hands-research-r1-selected-001.zip` / `payload/audits/human_r3_fresh_result_authority_freeze_r1/R3_OWNERSHIP_MEMBERSHIP_CANONICAL.json`
+- `audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1_CANONICAL.json` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/human_r3_fresh_result_authority_freeze_r1/FRESH_R3_OWNERSHIP_AUTHORITY_R1_CANONICAL.json`
+- `audits/human_r3_fresh_result_authority_freeze_r1/R3_OWNERSHIP_MEMBERSHIP_CANONICAL.json` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/human_r3_fresh_result_authority_freeze_r1/R3_OWNERSHIP_MEMBERSHIP_CANONICAL.json`
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 

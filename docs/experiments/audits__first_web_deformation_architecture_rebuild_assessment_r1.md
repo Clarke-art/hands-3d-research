@@ -56,9 +56,9 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 118 项；拟公开身份记录 111 项。
-- `audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_A_LOCAL_RETOPOLOGY_POC_R1.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_A_LOCAL_RETOPOLOGY_POC_R1.blend`
-- `audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_B_HELPER_BONE_POC_R1.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_B_HELPER_BONE_POC_R1.blend`
-- `audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_C_LOCAL_CAGE_POC_R1.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_C_LOCAL_CAGE_POC_R1.blend`
+- `audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_A_LOCAL_RETOPOLOGY_POC_R1.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_A_LOCAL_RETOPOLOGY_POC_R1.blend`
+- `audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_B_HELPER_BONE_POC_R1.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_B_HELPER_BONE_POC_R1.blend`
+- `audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_C_LOCAL_CAGE_POC_R1.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/first_web_deformation_architecture_rebuild_assessment_r1/ROUTE_C_LOCAL_CAGE_POC_R1.blend`
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 

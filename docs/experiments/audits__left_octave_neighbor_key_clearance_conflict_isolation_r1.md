@@ -50,9 +50,9 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 46 项；拟公开身份记录 44 项。
-- `audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/COUNTERFACTUAL_RAW_R1.json` → `hands-research-r1-selected-001.zip` / `payload/audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/COUNTERFACTUAL_RAW_R1.json`
-- `audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/EVIDENCE_E2_FSHARP2_CONFLICT_R1.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/EVIDENCE_E2_FSHARP2_CONFLICT_R1.png`
-- `audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/EVIDENCE_ROOT_COUNTERFACTUAL_R1.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/EVIDENCE_ROOT_COUNTERFACTUAL_R1.png`
+- `audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/COUNTERFACTUAL_RAW_R1.json` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/COUNTERFACTUAL_RAW_R1.json`
+- `audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/EVIDENCE_E2_FSHARP2_CONFLICT_R1.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/EVIDENCE_E2_FSHARP2_CONFLICT_R1.png`
+- `audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/EVIDENCE_ROOT_COUNTERFACTUAL_R1.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_octave_neighbor_key_clearance_conflict_isolation_r1/EVIDENCE_ROOT_COUNTERFACTUAL_R1.png`
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 

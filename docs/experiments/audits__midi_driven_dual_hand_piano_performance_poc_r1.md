@@ -59,8 +59,8 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 2750 项；拟公开身份记录 60 项。
-- `audits/midi_driven_dual_hand_piano_performance_poc_r1/evaluated_candidate.npz` → `hands-research-r1-selected-001.zip` / `payload/audits/midi_driven_dual_hand_piano_performance_poc_r1/evaluated_candidate.npz`
-- `audits/midi_driven_dual_hand_piano_performance_poc_r1/MIDI_DRIVEN_DUAL_HAND_PIANO_PERFORMANCE_CANDIDATE_R1.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/midi_driven_dual_hand_piano_performance_poc_r1/MIDI_DRIVEN_DUAL_HAND_PIANO_PERFORMANCE_CANDIDATE_R1.blend`
+- `audits/midi_driven_dual_hand_piano_performance_poc_r1/evaluated_candidate.npz` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/midi_driven_dual_hand_piano_performance_poc_r1/evaluated_candidate.npz`
+- `audits/midi_driven_dual_hand_piano_performance_poc_r1/MIDI_DRIVEN_DUAL_HAND_PIANO_PERFORMANCE_CANDIDATE_R1.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/midi_driven_dual_hand_piano_performance_poc_r1/MIDI_DRIVEN_DUAL_HAND_PIANO_PERFORMANCE_CANDIDATE_R1.blend`
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 

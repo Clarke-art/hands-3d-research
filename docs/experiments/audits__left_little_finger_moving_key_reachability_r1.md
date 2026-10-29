@@ -66,9 +66,9 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 1587 项；拟公开身份记录 1535 项。
-- `audits/left_little_finger_moving_key_reachability_r1/evaluated_probe.npz` → `hands-research-r1-selected-001.zip` / `payload/audits/left_little_finger_moving_key_reachability_r1/evaluated_probe.npz`
-- `audits/left_little_finger_moving_key_reachability_r1/LEFT_LITTLE_MOVING_KEY_PROBE_R1.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/left_little_finger_moving_key_reachability_r1/LEFT_LITTLE_MOVING_KEY_PROBE_R1.blend`
-- `audits/left_little_finger_moving_key_reachability_r1/_deps313/scipy/special/tests/data/boost.npz` → `hands-research-r1-selected-001.zip` / `payload/audits/left_little_finger_moving_key_reachability_r1/_deps313/scipy/special/tests/data/boost.npz`
+- `audits/left_little_finger_moving_key_reachability_r1/evaluated_probe.npz` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_little_finger_moving_key_reachability_r1/evaluated_probe.npz`
+- `audits/left_little_finger_moving_key_reachability_r1/LEFT_LITTLE_MOVING_KEY_PROBE_R1.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_little_finger_moving_key_reachability_r1/LEFT_LITTLE_MOVING_KEY_PROBE_R1.blend`
+- `audits/left_little_finger_moving_key_reachability_r1/_deps313/scipy/special/tests/data/boost.npz` → 本项不在R1公开成员清单中，不提供附件下载；依照[原始路径决策](../../release-assets/ORIGINAL_PATH_MAP.csv)获取排除/替代说明。
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 

@@ -45,14 +45,14 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 71 项；拟公开身份记录 69 项。
-- `audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_FIRST_WEB_MIRROR_R1.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_FIRST_WEB_MIRROR_R1.png`
-- `audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_MIRROR_POSE_REGRESSION_R1.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_MIRROR_POSE_REGRESSION_R1.png`
-- `audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_ZERO_RIGHT_VS_LEFT_R1.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_ZERO_RIGHT_VS_LEFT_R1.png`
-- `audits/left_hand_canonical_mirror_baseline_r1/LEFT_HAND_OFFICIAL_L1_MIRROR_CANDIDATE_R1.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/LEFT_HAND_OFFICIAL_L1_MIRROR_CANDIDATE_R1.blend`
-- `audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__DORSAL__L.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__DORSAL__L.png`
-- `audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__DORSAL__R.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__DORSAL__R.png`
-- `audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__FIRST_WEB__L.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__FIRST_WEB__L.png`
-- `audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__FIRST_WEB__R.png` → `hands-research-r1-selected-001.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__FIRST_WEB__R.png`
+- `audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_FIRST_WEB_MIRROR_R1.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_FIRST_WEB_MIRROR_R1.png`
+- `audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_MIRROR_POSE_REGRESSION_R1.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_MIRROR_POSE_REGRESSION_R1.png`
+- `audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_ZERO_RIGHT_VS_LEFT_R1.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/EVIDENCE_ZERO_RIGHT_VS_LEFT_R1.png`
+- `audits/left_hand_canonical_mirror_baseline_r1/LEFT_HAND_OFFICIAL_L1_MIRROR_CANDIDATE_R1.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/LEFT_HAND_OFFICIAL_L1_MIRROR_CANDIDATE_R1.blend`
+- `audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__DORSAL__L.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__DORSAL__L.png`
+- `audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__DORSAL__R.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__DORSAL__R.png`
+- `audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__FIRST_WEB__L.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__FIRST_WEB__L.png`
+- `audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__FIRST_WEB__R.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/left_hand_canonical_mirror_baseline_r1/_render_tiles/CMC_OPP_30__FIRST_WEB__R.png`
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 

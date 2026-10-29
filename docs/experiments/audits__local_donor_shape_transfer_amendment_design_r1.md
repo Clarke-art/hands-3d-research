@@ -58,8 +58,8 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 147 项；拟公开身份记录 138 项。
-- `audits/local_donor_shape_transfer_amendment_design_r1/RIGHT_HAND_ENGINEERING_STAGE4C_R2_DONOR_TRANSFER_CANDIDATE_R1.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/local_donor_shape_transfer_amendment_design_r1/RIGHT_HAND_ENGINEERING_STAGE4C_R2_DONOR_TRANSFER_CANDIDATE_R1.blend`
-- `audits/local_donor_shape_transfer_amendment_design_r1/TEMP_CURRENT_RIG_WEIGHT_BIND_PREVIEW_DESIGN_ONLY.blend` → `hands-research-r1-selected-001.zip` / `payload/audits/local_donor_shape_transfer_amendment_design_r1/TEMP_CURRENT_RIG_WEIGHT_BIND_PREVIEW_DESIGN_ONLY.blend`
+- `audits/local_donor_shape_transfer_amendment_design_r1/RIGHT_HAND_ENGINEERING_STAGE4C_R2_DONOR_TRANSFER_CANDIDATE_R1.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/local_donor_shape_transfer_amendment_design_r1/RIGHT_HAND_ENGINEERING_STAGE4C_R2_DONOR_TRANSFER_CANDIDATE_R1.blend`
+- `audits/local_donor_shape_transfer_amendment_design_r1/TEMP_CURRENT_RIG_WEIGHT_BIND_PREVIEW_DESIGN_ONLY.blend` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/local_donor_shape_transfer_amendment_design_r1/TEMP_CURRENT_RIG_WEIGHT_BIND_PREVIEW_DESIGN_ONLY.blend`
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 

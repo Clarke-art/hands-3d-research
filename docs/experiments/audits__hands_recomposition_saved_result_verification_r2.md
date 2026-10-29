@@ -49,9 +49,9 @@
 ## 输入、输出与大型证据
 
 该目录原始成员 42 项；拟公开身份记录 33 项。
-- `audits/hands_recomposition_saved_result_verification_r2/E5_REAL_SKIN_WITNESS.png` → `hands-research-r1-selected-001.zip` / `payload/audits/hands_recomposition_saved_result_verification_r2/E5_REAL_SKIN_WITNESS.png`
-- `audits/hands_recomposition_saved_result_verification_r2/GEOMETRY_COVERAGE.json` → `hands-research-r1-selected-001.zip` / `payload/audits/hands_recomposition_saved_result_verification_r2/GEOMETRY_COVERAGE.json`
-- `audits/hands_recomposition_saved_result_verification_r2/GEOMETRY_POSE_0.json` → `hands-research-r1-selected-001.zip` / `payload/audits/hands_recomposition_saved_result_verification_r2/GEOMETRY_POSE_0.json`
+- `audits/hands_recomposition_saved_result_verification_r2/E5_REAL_SKIN_WITNESS.png` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/hands_recomposition_saved_result_verification_r2/E5_REAL_SKIN_WITNESS.png`
+- `audits/hands_recomposition_saved_result_verification_r2/GEOMETRY_COVERAGE.json` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/hands_recomposition_saved_result_verification_r2/GEOMETRY_COVERAGE.json`
+- `audits/hands_recomposition_saved_result_verification_r2/GEOMETRY_POSE_0.json` → `hands-research-r1-selected-001-r1a.zip` / `payload/audits/hands_recomposition_saved_result_verification_r2/GEOMETRY_POSE_0.json`
 
 全部逐文件定位与排除理由见 [原始路径表](../../release-assets/ORIGINAL_PATH_MAP.csv) 和 [公开清单](../../release-assets/R1_PUBLICATION_MANIFEST.csv)。
 
