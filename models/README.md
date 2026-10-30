@@ -1,1 +1,1 @@
-六项保护资产为本地审核副本，逐文件身份见 ASSET_MANIFEST.csv；公开许可未确认。Blender 原生读取报告位于本轮审计目录，尚不代表动画视觉认可。
+六项保护资产为本地审核副本，逐文件身份见 ASSET_MANIFEST.csv。Human已于2026-10-30确认有权授权的原创模型贡献采用CC BY 4.0，署名Clarke-art（2026）；保留Blender Human Base Meshes的原CC0来源通知与必要第三方声明。模型文件及ASSET_MANIFEST.csv中的历史门禁原样保留；许可授权不等于动画视觉验收。详见仓库根目录LICENSE、COPYRIGHT.md及THIRD_PARTY_NOTICES.md。

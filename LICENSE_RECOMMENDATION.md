@@ -1,9 +1,7 @@
-# Proposed licenses — not yet adopted
+# Adopted licenses — 2026-10-30
 
-- Project-original source: MIT, subject to Human confirming ownership/author name.
-- Project-original research text: CC BY 4.0, subject to Human confirmation.
-- Project-original model contributions: CC BY 4.0, subject to ownership and Human confirmation; retain upstream CC0 source notice and modification provenance.
-- Third-party files retain their own terms. PianoPlayer core retains its original MIT copyright/license verbatim.
-- Research numeric output/media: no blanket license inferred; the publication manifest identifies project-origin evidence pending owner confirmation. External motion, model weights and third-party reference pages are excluded or referenced only.
+The earlier proposal is adopted following Human's explicit original-rights and licensing authorization. Original software uses MIT: Copyright (c) 2026 Clarke-art. Original research documents, original model contributions and authorized research data/media use CC BY 4.0, attributed to Clarke-art (2026).
 
-MIT conditions: https://choosealicense.com/licenses/mit/ ; CC BY attribution/change requirements: https://creativecommons.org/licenses/by/4.0/ . No LICENSE file is installed and no permission grant is made by this recommendation. CC0 ancestry does not automatically mean every derived artifact is CC0; a public paper is not a data redistribution license.
+Third-party content retains original terms and attribution. PianoPlayer retains Marco Musy's MIT; Blender Human Base Meshes retains its CC0 source notices; Mutopia retains saved public-domain edition provenance. Uncleared external motion, weights and reference data remain excluded.
+
+See LICENSE, COPYRIGHT.md, THIRD_PARTY_NOTICES.md and release-assets/R2_LICENSE_SCOPE.csv for the effective grant and scope. The repository remains Private and the Release Draft; final public publication awaits Human approval.
